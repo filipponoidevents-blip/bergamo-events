@@ -36,7 +36,8 @@ def describe(ev: Event) -> str:
         lines.append("Line-up: " + ", ".join(a.name for a in ev.artists))
     if ev.genre:
         lines.append(f"Genre: {ev.genre}" + (f" (from the {ev.genre_source}'s usual music)"
-                                             if ev.genre_source in ("venue", "promoter") else ""))
+                                             if ev.genre_source in ("venue", "promoter") else
+                                             " (set by hand)" if ev.genre_source == "manual" else ""))
     if ev.price:
         lines.append("Price: " + ev.price)
     if ev.alert_level:

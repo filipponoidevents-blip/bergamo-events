@@ -135,3 +135,18 @@ def test_past_full_date_is_not_rolled_to_next_month():
     assert find_dates("Alcuni scatti di mercoledì 04/11", posted)[0] == []
     assert find_dates("il live di Sabato 24 Ottobre!", posted)[0] == []
     assert find_dates("Sabato 21 Novembre dalle 23:30", posted)[0] == [date(2026, 11, 21)]
+
+
+def test_genre_overrides():
+    from datetime import datetime
+    from bget.config import Config
+    from bget.genres import GenreAssigner
+    from bget.models import Event, Venue
+    cfg = Config.load()
+    cfg.genre_overrides = {"nights": [{"venue": "Bolgia", "date": "2026-11-21", "genre": "Italo disco"}],
+                           "venues": {"Bolgia": "Hard techno"}}
+    g = GenreAssigner(cfg)
+    ev = lambda title, start: Event(title=title, start=start, venue=Venue(name="Bolgia", city="Bergamo"))
+    assert g.assign(ev("Sabato", datetime(2026, 11, 22, 1, 0))) == ("Italo disco", "manual")
+    assert g.assign(ev("Sabato", datetime(2026, 11, 28, 23, 0))) == ("Hard techno", "venue")
+    assert g.assign(ev("House night", datetime(2026, 11, 28, 23, 0))) == ("House", "event")

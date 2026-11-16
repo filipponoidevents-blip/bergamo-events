@@ -19,6 +19,7 @@ class Config:
     venues: list[dict[str, Any]]
     towns: dict[str, dict[str, Any]]
     promoters: list[dict[str, Any]] = None  # type: ignore[assignment]
+    genre_overrides: dict[str, Any] = None  # type: ignore[assignment]
     root: Path = ROOT
 
     @classmethod
@@ -33,6 +34,7 @@ class Config:
             venues=v.get("venues", []),
             towns=v.get("towns", {}),
             promoters=(y("promoters.yaml").get("promoters", []) if (root / "config" / "promoters.yaml").exists() else []),
+            genre_overrides=(y("genres.yaml") if (root / "config" / "genres.yaml").exists() else {}),
             root=root,
         )
 

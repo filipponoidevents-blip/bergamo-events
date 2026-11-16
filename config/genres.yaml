@@ -1,0 +1,20 @@
+# Change music genres by hand. Whatever you write here wins over what the tracker guessed.
+# Genre names can be anything (e.g. "Techno", "Hard techno", "Reggaeton", "Italo disco").
+# Suggested names: Hard techno, Melodic techno, Techno, Tech house, Afro house, Deep house,
+# Minimal, Drum & bass, Trance, Disco / funk, House, Latin / reggaeton, Hip hop / trap,
+# Revival, Commercial, Electronic.
+
+# 1) One night: the venue (as in venues.yaml) + the date of the night (YYYY-MM-DD).
+#    A night that ends after midnight uses the evening's date.
+nights: []
+#  - venue: Queen Club
+#    date: 2026-11-21
+#    genre: Commercial
+
+# 2) A whole venue: used for every night there, unless the post or a "nights" entry says otherwise.
+venues: {}
+#  Queen Club: Commercial
+
+# 3) A whole promoter (name as in promoters.yaml): same idea, wins over the venue.
+promoters: {}
+#  Maison Grove: House

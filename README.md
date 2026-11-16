@@ -38,6 +38,7 @@ config/sources.yaml ──► sources/* adapters ──► enrich venue (config/
   which sources reported it, and the scoring result (score, scope, distance, reasons, alert level).
 - **Venue**: name, city, province, coordinates, kind (club / live_club / open_air / arena), capacity, socials.
 - **Artist**: name, role, genres, socials.
+- **Main genre** of each night (src/bget/genres.py): a hand-set genre in `config/genres.yaml` (per night, venue or promoter) wins; then genre words in the post; then the promoter's, then the venue's usual genre.
 - **Socials**: Instagram, TikTok, Facebook, website, Resident Advisor id. These are the tags
   used in Phase 3; `Event.all_handles("instagram")` returns venue, promoter, artist handles in order.
 - **Night**: a 01:00 start counts as the previous evening, so the same party reported by the
