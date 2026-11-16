@@ -1109,33 +1109,6 @@
       "permalink": "https://www.instagram.com/reel/DfpCHSoMKIx/",
       "status": "info"
     },
-    "17991578826097226-0": {
-      "account": "discoteca_queen",
-      "account_venue": "Queen Club",
-      "confidence": 0.65,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-06",
-        "end_time": null,
-        "genres": [
-          "disco"
-        ],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "Alcuni scatti di venerdì 06/11",
-        "venue_name": "Queen Club"
-      },
-      "id": "17991578826097226-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/901025104_18344476645258835_6630322196775972516_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CdtM_2QsOvoQ7kNvwFQ4iM-&_nc_oc=Adq8RH77BMEV7TlFqxHa5L8m-wUR1NO6VlQvH7GkNOCJQkErVeisxMaP64G2SljTHWU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSoaB3lw7S5OrKgvN_vvHsFJ1aSYjbz_vHB_YMjjHslwg&oe=6B015CEF",
-      "kind": "dj_club",
-      "notes": "read by the free pattern matcher; 'venerdì 06' but 06/12 is not that weekday",
-      "permalink": "https://www.instagram.com/p/DfkWR99Df2q/",
-      "status": "pending"
-    },
     "17992624482066913-0": {
       "account": "unplug__bg",
       "account_venue": "Unplug Bar",
@@ -1316,31 +1289,6 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfiZA9XAATb/",
       "status": "pending"
-    },
-    "18002358852030211-0": {
-      "account": "circolinomalpensata_bergamo",
-      "account_venue": "Circolino della Malpensata",
-      "confidence": 0.55,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-07",
-        "end_time": null,
-        "genres": [],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "qualche scatto dal live dei _.nosedive._ di Sabato 7 Novembre!",
-        "venue_name": "Circolino della Malpensata"
-      },
-      "id": "18002358852030211-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/896330600_18001587069050683_506238158405619239_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=zwJot9orSmYQ7kNvwFZ03hs&_nc_oc=Adolybr_ad_dGBcGXlHnF1qjbAZrz8Wt572AwzIz-cqhYWutIhO5kGN14FcXKpqx0fA&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFnbkXkF5yjp0YLyjhPR08xu7njKjaYE8Lw-noQkHozQ&oe=6B015DBE",
-      "kind": "live_music",
-      "notes": "read by the free pattern matcher; 'Sabato 7' but 07/12 is not that weekday",
-      "permalink": "https://www.instagram.com/p/DfmiWOEDJC1/",
-      "status": "info"
     },
     "18007029407794113-0": {
       "account": "barrys__",
@@ -1785,31 +1733,6 @@
       "permalink": "https://www.instagram.com/reel/DfzicwzMEXW/",
       "status": "info"
     },
-    "18046138421829795-0": {
-      "account": "circolinomalpensata_bergamo",
-      "account_venue": "Circolino della Malpensata",
-      "confidence": 0.55,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-07",
-        "end_time": null,
-        "genres": [],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "un riassunto del live dei _.nosedive._ Sabato 7 Novembre!",
-        "venue_name": "Circolino della Malpensata"
-      },
-      "id": "18046138421829795-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/904122881_18001729938050683_1265950491453618038_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=qxpfkp8ehqQQ7kNvwGLTuD8&_nc_oc=AdqdGVhNeI7ifcGHGKFdjOd9krcQCGt0JsBqIoHNtf_PMZAHMcnsm5Q6-cNch6Lz-4E&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_tpa=Q5bMBQLHkiodNRNhet0NV_j8TSbo2lBCdSo7QbeksVJrtv0v70HwOXwK5gVhemfnNkUiYODXQ1BwWIFtfQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQRfk-tIt3Vmit9JDm8I5Wd1-kAYZatMLRDQCy1gfAaJYA&oe=6B013CE7",
-      "kind": "live_music",
-      "notes": "read by the free pattern matcher; 'Sabato 7' but 07/12 is not that weekday",
-      "permalink": "https://www.instagram.com/reel/Dfo4xwzsoRJ/",
-      "status": "info"
-    },
     "18047572670829977-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
@@ -2219,31 +2142,6 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfmpwV6I5cN/",
       "status": "pending"
-    },
-    "18091519370240662-0": {
-      "account": "circolinomalpensata_bergamo",
-      "account_venue": "Circolino della Malpensata",
-      "confidence": 0.55,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-11-24",
-        "end_time": null,
-        "genres": [],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "qualche scatto dal live dei madaoki_live di Sabato 24 Ottobre!",
-        "venue_name": "Circolino della Malpensata"
-      },
-      "id": "18091519370240662-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/877443823_17999533848050683_3971485749595410630_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ccoidU_0cEkQ7kNvwExcTeJ&_nc_oc=AdoQymvtLLmvQ-ZgGfaWp9ixYBRbJBid29D3cmqWF6liKTYBiKvkncMi3KYEfQujPY0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTE_zWYu3cqOnOoGi2fyf1SYz3cSHu9Zu_NdqNA-C-XDw&oe=6B012EB4",
-      "kind": "live_music",
-      "notes": "read by the free pattern matcher; 'Sabato 24' but 24/11 is not that weekday",
-      "permalink": "https://www.instagram.com/p/DfE2dLPDIzh/",
-      "status": "info"
     },
     "18094477835199857-0": {
       "account": "drusobg",
@@ -4291,33 +4189,6 @@
       "permalink": "https://www.instagram.com/p/De_0ZfQl_LO/",
       "status": "info"
     },
-    "18131528794866935-0": {
-      "account": "discoteca_queen",
-      "account_venue": "Queen Club",
-      "confidence": 0.65,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-11",
-        "end_time": null,
-        "genres": [
-          "disco"
-        ],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "Alcuni scatti di mercoledì 11/11",
-        "venue_name": "Queen Club"
-      },
-      "id": "18131528794866935-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/912468888_18345355114258835_290339602622495868_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rEYiPVzRHnYQ7kNvwFJSj1k&_nc_oc=AdpdBL_ZAnSvTo9qle_lF0AC2Pazj7iBBqL1hnS_shTxgS8z58qpI61WIpXUo5LlvG0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSQohOzk6h4BA4u9MnZbc0E55dsCsp28oA6_TlnkYcEmQ&oe=6B01619C",
-      "kind": "dj_club",
-      "notes": "read by the free pattern matcher; 'mercoledì 11' but 11/12 is not that weekday",
-      "permalink": "https://www.instagram.com/p/DfzqbP2jZBP/",
-      "status": "pending"
-    },
     "18131733649814990-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
@@ -4399,33 +4270,6 @@
       "kind": "dj_club",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DfzS_eMnHaA/",
-      "status": "pending"
-    },
-    "18132885829778902-0": {
-      "account": "discoteca_queen",
-      "account_venue": "Queen Club",
-      "confidence": 0.65,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-07",
-        "end_time": null,
-        "genres": [
-          "disco"
-        ],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "Alcuni scatti di sabato 07/11",
-        "venue_name": "Queen Club"
-      },
-      "id": "18132885829778902-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/901025105_18344617228258835_4260176516874990088_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HyxXFRv8efQQ7kNvwHg0nV1&_nc_oc=AdoMw2eoXpEdkAe6YyCaqrwpC-CxbHNopDWnbLhAic2gZNOLQRAfnFVLSDYNjD7gXVo&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRcbjSFjsOSjalOb5ZYtSGPT-kKDeUDu0_ZQ3FM6bcRzQ&oe=6B013446",
-      "kind": "dj_club",
-      "notes": "read by the free pattern matcher; 'sabato 07' but 07/12 is not that weekday",
-      "permalink": "https://www.instagram.com/p/Dfm51fujbk0/",
       "status": "pending"
     },
     "18133177492684918-0": {
@@ -4786,31 +4630,6 @@
       "permalink": "https://www.instagram.com/p/DfjzbQEFw8q/",
       "status": "info"
     },
-    "18141206359655753-0": {
-      "account": "drusobg",
-      "account_venue": "Druso",
-      "confidence": 0.65,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-08",
-        "end_time": null,
-        "genres": [],
-        "is_concert": true,
-        "is_festival": false,
-        "price": null,
-        "start_time": "18:00",
-        "ticket_url": null,
-        "title": "Domenica 𝗝𝗨𝗘𝗩𝗘𝗦 𝗧𝗔𝗥𝗗𝗘 guitar sextet",
-        "venue_name": "Druso"
-      },
-      "id": "18141206359655753-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/907818941_3064753517197405_7041653200661834607_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=waU2ZmWM1y4Q7kNvwF6LEsX&_nc_oc=Adownzxs454iC_6mKO3tpku7KTUPq4H9uRjl8QJdr3_tBx49_zyIQuso7Z6V4yOqFDU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=0UhnP5lx4LMEBbv3MDny6Q&_nc_tpa=Q5bMBQInu8TGmdknDzgzZcUOM-kjBe_PzLPNHBcHA86buRc1jjWSW5QRSuAUtrl7tEaBRf8Thseb9GE6JQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSqlyHN9jDgsIcT2y-Zwsi6JKWtk-e2JAJRe4FoA128-Q&oe=6B01549A",
-      "kind": "other",
-      "notes": "read by the free pattern matcher; 'Domenica 8' but 08/12 is not that weekday",
-      "permalink": "https://www.instagram.com/reel/DfzyG71gM_s/",
-      "status": "info"
-    },
     "18141333154656381-0": {
       "account": "nxtbergamo",
       "account_venue": "NXT Station",
@@ -4934,31 +4753,6 @@
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfCn1H-iE2S/",
-      "status": "info"
-    },
-    "18146788810600703-0": {
-      "account": "liveclub",
-      "account_venue": "Live Club",
-      "confidence": 0.55,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-07",
-        "end_time": null,
-        "genres": [],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "Tutte le foto della meravigliosa serata di sabato 7 novembre con 80sneverdie son",
-        "venue_name": "Live Club"
-      },
-      "id": "18146788810600703-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/896156240_1461511219412301_7109327656470107453_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fIYapQLIH4MQ7kNvwHMSmgs&_nc_oc=AdreLRl3QZOBPJEHj6vSGA2Q361OjRfzMiPS0wR-72IC0fbLhDvwQpgBot5Btlw5ZxI&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=1mqFwQ2sKGkDKFxK-Cii-Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQJZ4E3V_r03jflXpJjHqZnuNQCxTibI8-cr5JfZtA1TA&oe=6B0131A9",
-      "kind": "other",
-      "notes": "read by the free pattern matcher; 'sabato 7' but 07/12 is not that weekday",
-      "permalink": "https://www.instagram.com/p/Dfh-VC4m9Ju/",
       "status": "info"
     },
     "18147300628596294-0": {
@@ -5214,33 +5008,6 @@
       "kind": "dj_club",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/reel/Dfulcn8jW4p/",
-      "status": "pending"
-    },
-    "18171949786482273-0": {
-      "account": "discoteca_queen",
-      "account_venue": "Queen Club",
-      "confidence": 0.65,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-12-04",
-        "end_time": null,
-        "genres": [
-          "disco"
-        ],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "Alcuni scatti di mercoledì 04/11",
-        "venue_name": "Queen Club"
-      },
-      "id": "18171949786482273-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899129363_18344323462258835_5514056016759100505_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ooO2SJr59pEQ7kNvwGQ81wL&_nc_oc=Adriu_IQUW10TfYhRX0kH7_qr5ruTgvhm4tboKE2iaY1kuQeVybHtKbvWNMCC0a07v0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRnK9zYDajuqli02mJSEHZoREmgq1pnfUb3Jaqwz8F4IQ&oe=6B014733",
-      "kind": "dj_club",
-      "notes": "read by the free pattern matcher; 'mercoledì 04' but 04/12 is not that weekday",
-      "permalink": "https://www.instagram.com/p/DfhwNcfjRnn/",
       "status": "pending"
     },
     "18179759875463166-0": {
@@ -6209,31 +5976,6 @@
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfeYsNDDFaM/",
-      "status": "info"
-    },
-    "18645585874052049-0": {
-      "account": "circolinomalpensata_bergamo",
-      "account_venue": "Circolino della Malpensata",
-      "confidence": 0.55,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-11-24",
-        "end_time": null,
-        "genres": [],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "un riassunto del live dei madaoki_live di Sabato 24 Ottobre!",
-        "venue_name": "Circolino della Malpensata"
-      },
-      "id": "18645585874052049-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/892812915_18000969909050683_7379004099339379684_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=115nOxONlPMQ7kNvwEofGwt&_nc_oc=Adr5CUcaxVspbcPDBcs4UJNR96ek3S45EOrQWbr0q65qGzf6qNPq8hMieZHTrfgbM04&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_tpa=Q5bMBQIwhRGAlaebULByRT4aKGsWcWis-MKRKX1mzTDU8Tkz422-JDh1A_9ZuT0mq1iVqaaPATshIEpEBA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRrYG0xo0sDjSIRfK50Vixjzqkk-TCCS1H5LV_G29X_KQ&oe=6B0132DD",
-      "kind": "live_music",
-      "notes": "read by the free pattern matcher; 'Sabato 24' but 24/11 is not that weekday",
-      "permalink": "https://www.instagram.com/reel/DfcRc7psVfX/",
       "status": "info"
     }
   },

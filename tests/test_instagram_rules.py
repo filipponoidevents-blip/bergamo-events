@@ -126,3 +126,12 @@ def test_genre_detect_order():
     assert detect("tech-house party") == "Tech house"
     assert detect("Techno night") == "Techno"
     assert detect("aperitivo") is None
+
+
+def test_past_full_date_is_not_rolled_to_next_month():
+    from datetime import date
+    from bget.sources.instagram_rules import find_dates
+    posted = date(2026, 11, 16)
+    assert find_dates("Alcuni scatti di mercoledì 04/11", posted)[0] == []
+    assert find_dates("il live di Sabato 24 Ottobre!", posted)[0] == []
+    assert find_dates("Sabato 21 Novembre dalle 23:30", posted)[0] == [date(2026, 11, 21)]

@@ -46,7 +46,7 @@ RE_TIME = re.compile(r"\b(?:h\.?\s*|ore\s+|dalle\s+|from\s+|start\s+|doors\s+)?(
 RE_FROM_TO = re.compile(r"\b(?:dalle|from|h)\s*([01]?\d|2[0-3])(?:[:.](\d{2}))?\s*(?:alle|to|till|until|-|–)\s*([01]?\d|2[0-3])(?:[:.](\d{2}))?", re.I)
 RE_MENTION = re.compile(r"(?<![\w.])@([A-Za-z0-9_.]{2,30})(?<!\.)")
 RE_URL = re.compile(r"https?://\S+")
-RECAP = re.compile(r"\b(grazie|thank you|thanks|recap|throwback|last night|ieri sera|che notte|what a night)\b", re.I)
+RECAP = re.compile(r"\b(grazie|thank you|thanks|recap|throwback|last night|ieri sera|che notte|what a night|scatti|riassunto|foto della serata|photo dump)\b", re.I)
 CONCERT = re.compile(r"\b(in concerto|concerto|live band|tour 20\d\d)\b", re.I)
 FESTIVAL = re.compile(r"\b(festival|fest)\b", re.I)
 
@@ -97,19 +97,28 @@ def find_dates(text: str, posted: date, warnings: list[str] | None = None) -> tu
     a word like "stasera". Problems worth a human look are appended to `warnings`."""
     warnings = warnings if warnings is not None else []
     found: list[date] = []
+    saw_full_date = False  # a day + month was written (even if it is in the past)
 
     def add(d: date | None):
         if d and _future(d, posted) and d not in found:
             found.append(d)
 
     for m in RE_DAY_MONTHNAME.finditer(text):
+        saw_full_date = True
         add(_resolve(int(m.group(1)), MONTHS[m.group(2).lower()], int(m.group(3)) if m.group(3) else None, posted))
     for m in RE_MONTHNAME_DAY.finditer(text):
+        saw_full_date = True
         add(_resolve(int(m.group(2)), MONTHS[m.group(1).lower()], None, posted))
     for m in RE_NUMERIC.finditer(text):
+        saw_full_date = True
         y = m.group(3)
         y = (2000 + int(y) if len(y) == 2 else int(y)) if y else None
         add(_resolve(int(m.group(1)), int(m.group(2)), y, posted))
+    if saw_full_date and not found:
+        # "mercoledì 04/11" posted on the 16th: the full date is in the past, so this is about a
+        # past night (a recap). Don't re-read "mercoledì 04" as next month.
+        warnings.append("only past dates written")
+        return [], True
     if not found:  # "sabato 22": day number, no month
         for m in RE_WEEKDAY_DAY.finditer(text):
             d = day_in_posting_month(int(m.group(2)), posted)
