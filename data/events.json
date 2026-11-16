@@ -52,7 +52,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.921136+00:00",
-    "updated": "2026-11-16T22:53:17.030665+00:00",
+    "updated": "2026-11-16T22:56:58.867228+00:00",
     "uid": "384b9e5d98b5b0be"
   },
   {
@@ -110,7 +110,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.030585+00:00",
-    "updated": "2026-11-16T22:53:17.004035+00:00",
+    "updated": "2026-11-16T22:56:58.837156+00:00",
     "uid": "772b486f4a4271df"
   },
   {
@@ -165,7 +165,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.868750+00:00",
-    "updated": "2026-11-16T22:53:16.987583+00:00",
+    "updated": "2026-11-16T22:56:58.820929+00:00",
     "uid": "5696384f5b8e4038"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.860540+00:00",
-    "updated": "2026-11-16T22:53:16.981629+00:00",
+    "updated": "2026-11-16T22:56:58.813949+00:00",
     "uid": "23c1cc663127a572"
   },
   {
@@ -274,7 +274,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.866463+00:00",
-    "updated": "2026-11-16T22:53:16.985645+00:00",
+    "updated": "2026-11-16T22:56:58.818636+00:00",
     "uid": "9812fabf19ef2bf6"
   },
   {
@@ -330,64 +330,8 @@
     ],
     "alert_level": "regional",
     "first_seen": "2026-11-16T22:49:17.889199+00:00",
-    "updated": "2026-11-16T22:53:17.005162+00:00",
+    "updated": "2026-11-16T22:56:58.838511+00:00",
     "uid": "e29198108d5147b2"
-  },
-  {
-    "title": "GIOVEDÌ 12 NOVEMBRE TERZO APPUNTAMENTO DI CUCINEMA moreknobs_",
-    "start": "2026-11-12T23:00:00+01:00",
-    "venue": {
-      "name": "Pacì Paciana",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.69,
-      "lon": 9.64,
-      "address": "Via Grumello 61/c, Bergamo",
-      "kind": "live_club",
-      "capacity": null,
-      "socials": {
-        "instagram": "csapacipaciana",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": "https://ra.co/clubs/69109"
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "dj set"
-    ],
-    "genre": "Techno",
-    "genre_source": "venue",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfZavEsiLt7/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/887686656_18656302204056454_3117620964315432146_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2HEc_gvW7lsQ7kNvwEGnOrH&_nc_oc=AdqpGgp7th_3ZmxI8I9dwSAOCyv1qV1iznHc8pKvIi7bWYoO21-RA6HoYWiv-KXYai8&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRZsq3R6rniID16VxVGTWCP3g6CznU4VvNCkVfX1aaNcw&oe=6B0148BC",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18080782121455579-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfZavEsiLt7/"
-    ],
-    "score": 3.8,
-    "scope": "local",
-    "distance_km": 3.0,
-    "reasons": [
-      "genre:dj set",
-      "instagram-club-night",
-      "venue:live_club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.876351+00:00",
-    "updated": "2026-11-16T22:53:16.994174+00:00",
-    "uid": "46b56cfca9218958"
   },
   {
     "title": "VENERDÌ 13.11  dalle 21:00 dj set con federicosalimeii",
@@ -442,7 +386,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.037923+00:00",
-    "updated": "2026-11-16T22:53:17.007105+00:00",
+    "updated": "2026-11-16T22:56:58.840775+00:00",
     "uid": "44add0a834bf5a8f"
   },
   {
@@ -501,7 +445,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.038962+00:00",
-    "updated": "2026-11-16T22:53:17.050627+00:00",
+    "updated": "2026-11-16T22:56:58.889108+00:00",
     "uid": "2c3345abb902a5ec"
   },
   {
@@ -554,7 +498,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036390+00:00",
-    "updated": "2026-11-16T22:53:17.060866+00:00",
+    "updated": "2026-11-16T22:56:58.901134+00:00",
     "uid": "2992e78d345bcc70"
   },
   {
@@ -617,64 +561,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.836801+00:00",
-    "updated": "2026-11-16T22:53:16.966059+00:00",
+    "updated": "2026-11-16T22:56:58.795667+00:00",
     "uid": "0472940301c97bde"
-  },
-  {
-    "title": "Dj Cava, da anni a sostegno dello spazio, ancora oggi figura che compare quando ",
-    "start": "2026-11-13T23:00:00+01:00",
-    "venue": {
-      "name": "Pacì Paciana",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.69,
-      "lon": 9.64,
-      "address": "Via Grumello 61/c, Bergamo",
-      "kind": "live_club",
-      "capacity": null,
-      "socials": {
-        "instagram": "csapacipaciana",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": "https://ra.co/clubs/69109"
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "reggaeton"
-    ],
-    "genre": "Latin / Reggaeton",
-    "genre_source": "event",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfhPTsto1il/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/892558490_18657412777056454_2397491112675358732_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NbqtmVMYNkgQ7kNvwFVOaNG&_nc_oc=AdpMuOYVNlfwIS34iEpaI9uTUzb3n9n18cUL0eo91cTgQHtwU1wqW3X7w8RvR0j25y0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRCmW2AFtBp7z8p00U-BvK5JzVfsPevEaPj-Ugkfhs33g&oe=6B0161A4",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18106154075640542-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfhPTsto1il/"
-    ],
-    "score": 2.7,
-    "scope": "local",
-    "distance_km": 3.0,
-    "reasons": [
-      "genre:reggaeton",
-      "instagram-club-night",
-      "venue:live_club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.884036+00:00",
-    "updated": "2026-11-16T22:53:17.000760+00:00",
-    "uid": "2a84fd65e87f5a17"
   },
   {
     "title": "UTŌPIA CREW",
@@ -731,7 +619,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.922942+00:00",
-    "updated": "2026-11-16T22:53:17.032298+00:00",
+    "updated": "2026-11-16T22:56:58.869110+00:00",
     "uid": "3e59373b90be9585"
   },
   {
@@ -786,7 +674,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034104+00:00",
-    "updated": "2026-11-16T22:53:16.990089+00:00",
+    "updated": "2026-11-16T22:56:58.823943+00:00",
     "uid": "1d9cfe638a16e92c"
   },
   {
@@ -839,7 +727,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.929300+00:00",
-    "updated": "2026-11-16T22:53:17.037908+00:00",
+    "updated": "2026-11-16T22:56:58.875772+00:00",
     "uid": "9580797f17c8556b"
   },
   {
@@ -894,7 +782,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035819+00:00",
-    "updated": "2026-11-16T22:53:17.058205+00:00",
+    "updated": "2026-11-16T22:56:58.897984+00:00",
     "uid": "208673cac3dfbdf1"
   },
   {
@@ -949,7 +837,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.877673+00:00",
-    "updated": "2026-11-16T22:53:17.047088+00:00",
+    "updated": "2026-11-16T22:56:58.884953+00:00",
     "uid": "3e74f2002717a2c3"
   },
   {
@@ -1004,7 +892,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.885210+00:00",
-    "updated": "2026-11-16T22:53:17.043540+00:00",
+    "updated": "2026-11-16T22:56:58.882356+00:00",
     "uid": "cd5bec525c0b38e5"
   },
   {
@@ -1062,7 +950,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.924775+00:00",
-    "updated": "2026-11-16T22:53:17.033885+00:00",
+    "updated": "2026-11-16T22:56:58.870984+00:00",
     "uid": "23b44d4645d5cb43"
   },
   {
@@ -1118,7 +1006,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.960891+00:00",
-    "updated": "2026-11-16T22:53:17.059639+00:00",
+    "updated": "2026-11-16T22:56:58.899691+00:00",
     "uid": "fd5526e063ff246b"
   },
   {
@@ -1173,7 +1061,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.029938+00:00",
-    "updated": "2026-11-16T22:53:17.062578+00:00",
+    "updated": "2026-11-16T22:56:58.903157+00:00",
     "uid": "58e01054adc70132"
   },
   {
@@ -1231,7 +1119,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.032372+00:00",
-    "updated": "2026-11-16T22:53:17.048639+00:00",
+    "updated": "2026-11-16T22:56:58.886777+00:00",
     "uid": "ba8f065aad3733ae"
   },
   {
@@ -1288,7 +1176,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.031795+00:00",
-    "updated": "2026-11-16T22:53:17.014574+00:00",
+    "updated": "2026-11-16T22:56:58.849492+00:00",
     "uid": "ea678bf0abdd35a3"
   },
   {
@@ -1344,7 +1232,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.619930+00:00",
-    "updated": "2026-11-16T22:53:17.053201+00:00",
+    "updated": "2026-11-16T22:56:58.892122+00:00",
     "uid": "c7785c7178dd86b4"
   },
   {
@@ -1400,7 +1288,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.621277+00:00",
-    "updated": "2026-11-16T22:53:17.054832+00:00",
+    "updated": "2026-11-16T22:56:58.894017+00:00",
     "uid": "b9b81c451ce6f377"
   },
   {
@@ -1453,7 +1341,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.589079+00:00",
-    "updated": "2026-11-16T22:53:16.984620+00:00",
+    "updated": "2026-11-16T22:56:58.817446+00:00",
     "uid": "bf35feae3a7c5433"
   },
   {
@@ -1505,7 +1393,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.917308+00:00",
-    "updated": "2026-11-16T22:53:17.027274+00:00",
+    "updated": "2026-11-16T22:56:58.863302+00:00",
     "uid": "b8ee19cab13fa59f"
   },
   {
@@ -1564,7 +1452,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035283+00:00",
-    "updated": "2026-11-16T22:53:17.051885+00:00",
+    "updated": "2026-11-16T22:56:58.890586+00:00",
     "uid": "eb69ad9a78c5b653"
   },
   {
@@ -1617,7 +1505,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.919972+00:00",
-    "updated": "2026-11-16T22:53:17.029566+00:00",
+    "updated": "2026-11-16T22:56:58.866037+00:00",
     "uid": "bbfb522f9393f9fd"
   },
   {
@@ -1673,7 +1561,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.601269+00:00",
-    "updated": "2026-11-16T22:53:17.011543+00:00",
+    "updated": "2026-11-16T22:56:58.845901+00:00",
     "uid": "fe4150bede6719f4"
   },
   {
@@ -1726,7 +1614,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.606599+00:00",
-    "updated": "2026-11-16T22:53:17.024343+00:00",
+    "updated": "2026-11-16T22:56:58.859477+00:00",
     "uid": "f47131ce77fe681f"
   },
   {
@@ -1783,117 +1671,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.607613+00:00",
-    "updated": "2026-11-16T22:53:17.028472+00:00",
+    "updated": "2026-11-16T22:56:58.864729+00:00",
     "uid": "4e9c03347a1f8188"
-  },
-  {
-    "title": "C’è chi già sa e chi non lo sa è il momento che lo sappia",
-    "start": "2026-11-20T23:00:00+01:00",
-    "venue": {
-      "name": "Pacì Paciana",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.69,
-      "lon": 9.64,
-      "address": "Via Grumello 61/c, Bergamo",
-      "kind": "live_club",
-      "capacity": null,
-      "socials": {
-        "instagram": "csapacipaciana",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": "https://ra.co/clubs/69109"
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "drum & bass"
-    ],
-    "genre": "Drum & Bass",
-    "genre_source": "event",
-    "headliners": [],
-    "category": "club",
-    "description": "C’è chi già sa e chi non lo sa è il momento che lo sappia. \nTorna l’evento più infuocato della downtown. \n\nIn gran spolvero si torna al Paci Paciana, che per noi è come casa. A spingere dal basso una situa hot per tuttə. \n\n📆 20 Novembre \n📍 C.s.a. Pacì Paciana\n ⏰ Starting 22.00\n\nSuper Guests 💋\nGiulia Santori \nSoavira \n\nResident Stars ✨\nJungle Jacco\nGuacamolli \n\nCan’t miss 🔥💦\nDillo alle ame \n\n“Perrear también es hacer politica”\n\nATTENZIONE! Questo è uno spazio transfemminista, ecco le poche ma essenziali regole da ricordare per prendersi cura della festa:\n- NO È NO! Rispetta i confini fisici ed emotivi dell3 altre3\n- NON tolleriamo nessun tipo di discriminazione: fuori machismo, razzismo e omo-lesbo-bi-transfobia\n- Responsabilità condivisa: lo spazio sicuro è costruito collettivamente!!",
-    "url": "https://www.instagram.com/p/DfXKa2kIYAJ/",
-    "ticket_url": null,
-    "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/887399540_18656034898056454_289892813790117605_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wxF-MikzEIkQ7kNvwFBf-sO&_nc_oc=AdrBZb1uo520pAUsxdooVVIPs7c6c_M7nuKuLC8dhXmbss0qMlJvZdmT_cRjZ5Ir2hU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSi9gw2Vb2nTVYihXaMZkpGcOs48VvAU892D339Fyg2_Q&oe=6B015909",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18121845041319617-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfXKa2kIYAJ/"
-    ],
-    "score": 3.3,
-    "scope": "local",
-    "distance_km": 3.0,
-    "reasons": [
-      "genre:drum & bass",
-      "instagram-club-night",
-      "venue:live_club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.910498+00:00",
-    "updated": "2026-11-16T22:53:17.022548+00:00",
-    "uid": "dd2e660634e6e117"
-  },
-  {
-    "title": "WANNABE",
-    "start": "2026-11-21T18:00:00+01:00",
-    "venue": {
-      "name": "Pacì Paciana",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.69,
-      "lon": 9.64,
-      "address": "Via Grumello 61/c, Bergamo",
-      "kind": "live_club",
-      "capacity": null,
-      "socials": {
-        "instagram": "csapacipaciana",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": "https://ra.co/clubs/69109"
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Techno",
-    "genre_source": "venue",
-    "headliners": [],
-    "category": "club",
-    "description": "WANNABE \n“So tell me what you want, what you really really want.”\n\n21 NOVEMBRE - CSA PACI PACIANA \n\nNoi, per cominciare, vorremmo poter fare un po’ quello che ci pare.\nBene, forte, insieme.\nMa soprattutto senza chiedere il permesso.\nWANNABE parte da qui.\nDal desiderio di essere artista, tecnica, producer, performer, direttrice artistica o tutte queste cose nella stessa sera, stare sotto i riflettori o essere la persona che li accende.\nUno spazio per mischiare competenze, linguaggi, identità e volumi poco raccomandabili. \nFare rumore, montare cose, smontare aspettative. \nAnche divertirci nel frattempo.\nPerché siamo un po’ stanchə dell’idea che certi ruoli abbiano ancora un genere incorporato nelle istruzioni per l’uso.\n\nWANNABE è una serata per essere quello che vuoi essere.\nAnche più di una cosa.\nAnche tutte insieme.\n\nNon vogliamo invertire i ruoli.\nVogliamo smettere di assegnarli.\n\n18:00 apericena e live painting by Veronellie & LASKA\nveronellie \nperchisololosa \n\n20:00 FullPower Cabaret \n\n21:30 Concerti live by Kiki & Twesh \nkiki_alix \ntttwesh \n\n23:00 djset by\n\nKat\nLudmi \nTsuki\nGiolla b2b Java \nCherolline \nMerixsempre \nGopika\n\nVisual & light show by Shila Ji // Sara B // Degan\n\nPe",
-    "url": "https://www.instagram.com/p/DfCn1H-iE2S/",
-    "ticket_url": null,
-    "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/867876622_18652950877056454_2563948803217465009_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8D_L4JAb-NoQ7kNvwFRKqdk&_nc_oc=AdqIQzg5wfz_I_0gKU_L2Ls72qCRZiKS1ddkBTpGd22AuSKCyQUHcenuqKLt_YslyRw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTB2cBsvStd7LQX2yDmO1eNzcaBOFVCV1-6ShDJk1Eyjg&oe=6B014E12",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18145645264595882-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfCn1H-iE2S/"
-    ],
-    "score": 2.3,
-    "scope": "local",
-    "distance_km": 3.0,
-    "reasons": [
-      "instagram-club-night",
-      "venue:live_club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.940119+00:00",
-    "updated": "2026-11-16T22:53:17.044902+00:00",
-    "uid": "eeb5d8e70762b0b7"
   },
   {
     "title": "La disco è un viaggio che attraversa città, generazioni e continenti. Sabato 21 ",
@@ -1959,7 +1738,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.855574+00:00",
-    "updated": "2026-11-16T22:53:17.021154+00:00",
+    "updated": "2026-11-16T22:56:58.857315+00:00",
     "uid": "f28e54ab8cb9220c"
   },
   {
@@ -2014,7 +1793,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.605065+00:00",
-    "updated": "2026-11-16T22:53:17.019112+00:00",
+    "updated": "2026-11-16T22:56:58.854909+00:00",
     "uid": "c0bc77bb3f29681a"
   },
   {
@@ -2072,7 +1851,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.873523+00:00",
-    "updated": "2026-11-16T22:53:16.991718+00:00",
+    "updated": "2026-11-16T22:56:58.825892+00:00",
     "uid": "0186a8c5d0240bd9"
   },
   {
@@ -2125,7 +1904,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.840523+00:00",
-    "updated": "2026-11-16T22:53:16.969087+00:00",
+    "updated": "2026-11-16T22:56:58.799173+00:00",
     "uid": "b593852d25289a48"
   },
   {
@@ -2181,7 +1960,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.610420+00:00",
-    "updated": "2026-11-16T22:53:17.039287+00:00",
+    "updated": "2026-11-16T22:56:58.877412+00:00",
     "uid": "877243dafca29fb4"
   },
   {
@@ -2240,7 +2019,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034727+00:00",
-    "updated": "2026-11-16T22:53:17.042544+00:00",
+    "updated": "2026-11-16T22:56:58.881168+00:00",
     "uid": "32ae18044ccf8c8c"
   },
   {
@@ -2293,7 +2072,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.609301+00:00",
-    "updated": "2026-11-16T22:53:17.035949+00:00",
+    "updated": "2026-11-16T22:56:58.873471+00:00",
     "uid": "6e8a75120380ba27"
   },
   {
@@ -2363,7 +2142,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.587439+00:00",
-    "updated": "2026-11-16T22:53:17.025339+00:00",
+    "updated": "2026-11-16T22:56:58.860676+00:00",
     "uid": "82cb0f7008e15dab"
   },
   {
@@ -2416,7 +2195,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.584757+00:00",
-    "updated": "2026-11-16T22:53:16.974509+00:00",
+    "updated": "2026-11-16T22:56:58.805406+00:00",
     "uid": "0438a994b76e2cee"
   },
   {
@@ -2473,7 +2252,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:35:28.192105+00:00",
-    "updated": "2026-11-16T22:53:17.017611+00:00",
+    "updated": "2026-11-16T22:56:58.853105+00:00",
     "uid": "b1beab6328922abd"
   },
   {
@@ -2530,7 +2309,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.614015+00:00",
-    "updated": "2026-11-16T22:53:17.045933+00:00",
+    "updated": "2026-11-16T22:56:58.883578+00:00",
     "uid": "761e00f931361d5e"
   },
   {
@@ -2591,7 +2370,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.583794+00:00",
-    "updated": "2026-11-16T22:53:17.063809+00:00",
+    "updated": "2026-11-16T22:56:58.904623+00:00",
     "uid": "f3b3efb51e963675"
   },
   {
@@ -2651,7 +2430,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034453+00:00",
-    "updated": "2026-11-16T22:53:16.997894+00:00",
+    "updated": "2026-11-16T22:56:58.831486+00:00",
     "uid": "9b6fff17fe858b19"
   },
   {
@@ -2709,7 +2488,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.893181+00:00",
-    "updated": "2026-11-16T22:53:17.008743+00:00",
+    "updated": "2026-11-16T22:56:58.842610+00:00",
     "uid": "c10a9990ac19fcb6"
   },
   {
@@ -2774,7 +2553,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.956467+00:00",
-    "updated": "2026-11-16T22:53:17.056890+00:00",
+    "updated": "2026-11-16T22:56:58.896423+00:00",
     "uid": "149e49c0948af7d9"
   },
   {
@@ -2837,7 +2616,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.585576+00:00",
-    "updated": "2026-11-16T22:53:16.978578+00:00",
+    "updated": "2026-11-16T22:56:58.810334+00:00",
     "uid": "eb4439a0816a5d93"
   },
   {
@@ -2900,7 +2679,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.843777+00:00",
-    "updated": "2026-11-16T22:53:16.971968+00:00",
+    "updated": "2026-11-16T22:56:58.802472+00:00",
     "uid": "8ad712998a2a9f04"
   },
   {
@@ -2955,7 +2734,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036898+00:00",
-    "updated": "2026-11-16T22:53:16.999373+00:00",
+    "updated": "2026-11-16T22:56:58.833214+00:00",
     "uid": "a1dad6062f0a841a"
   },
   {
@@ -3011,7 +2790,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.602536+00:00",
-    "updated": "2026-11-16T22:53:17.013067+00:00",
+    "updated": "2026-11-16T22:56:58.847701+00:00",
     "uid": "e590cbc7d0d9a820"
   }
 ]
