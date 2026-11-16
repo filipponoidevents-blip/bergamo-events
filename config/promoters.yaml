@@ -7,8 +7,8 @@ promoters:
     instagram: hiddenhell.techno
     ig_source: search
     genres: [hard techno]
-    venues: [Bolgia]
-    notes: Runs Bolgia Main Room nights (e.g. USH opening, 5 Sep 2026).
+    venues: [Bolgia, Zero Club]
+    notes: Hidden Hell x Code at Zero Club (13 Nov 2026). Runs Bolgia Main Room nights (e.g. USH opening, 5 Sep 2026).
   - name: Galactica Festival
     instagram: galactica.festival
     ig_source: search
@@ -25,7 +25,7 @@ promoters:
     instagram: null          # candidates exist, none tied to Bergamo
     ig_source: null
     venues: [Bolgia]
-    notes: Named on the Bolgia Summer Garden opening.
+    notes: Named on the Bolgia Summer Garden opening; Ilario Alicante at Bolgia 14 Nov 2026.
   - name: Supertato
     instagram: supertatobolgia
     ig_source: search
@@ -46,8 +46,8 @@ promoters:
     instagram: null
     ig_source: null
     genres: [house, disco]
-    venues: [Daste]
-    notes: Milan brand, has done Bergamo editions at Daste.
+    venues: [Daste, Gres Art 671]
+    notes: Milan brand. Open All at Gres Art 671 (14 Nov 2026).
   - name: Sabotage
     instagram: null
     ig_source: null
@@ -58,8 +58,8 @@ promoters:
     instagram: null
     ig_source: null
     genres: [melodic house]
-    venues: [Daste]
-    notes: Brought Innervisions / Âme to Daste.
+    venues: [Daste, Gres Art 671]
+    notes: Open All at Gres Art 671 (13 Nov 2026). Brought Innervisions / Âme to Daste.
   - name: Discopasta Social Club
     instagram: discopastasc
     ig_source: search
@@ -76,3 +76,34 @@ promoters:
     genres: [tekno, free party]
     venues: [JClub (Ponte San Pietro)]
     notes: Tekno crews; 12h "Karnival Horror Party" at JClub, Feb 2025.
+  - name: Night Life Bergamo
+    instagram: nightlifebergamo
+    ig_source: user
+    notes: Weekly carousel listing every night out in the province. Best single source to watch; posts are images, so it needs flyer reading.
+  - name: Sommet
+    instagram: sommet_night
+    ig_source: user
+    venues: [Unplug Bar]
+  - name: NØID
+    instagram: null
+    ig_source: null
+    venues: [Zero Club]
+    notes: Zero Club main room night (Germano Ventura guest, 14 Nov 2026).
+  - name: Code
+    instagram: null
+    ig_source: null
+    venues: [Zero Club]
+    notes: With Hidden Hell at Zero Club.
+  - name: Icks
+    instagram: null
+    ig_source: null
+    venues: [Daste]
+    notes: '"Pump" after party at Daste.'
+  - name: Gabass Subculture
+    instagram: null
+    ig_source: null
+    venues: [Brina Pasticceria]
+  - name: Vida Loca
+    instagram: null
+    ig_source: null
+    venues: [Nikita]

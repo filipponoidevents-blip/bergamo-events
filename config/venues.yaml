@@ -71,7 +71,7 @@ venues:
     notes: Same venue as the old Clash Club / Circolo Ego / Cavo Club (per Filippo). Tickets on Fourvenues.
 
   - name: Nikita
-    aliases: [Nikita Disco Club, Nikita Telgate, Costez, Costez Summer Club, El Jardin de Nikita]
+    aliases: [Nikita Disco Club, Nikita Telgate, Nikita Grumello, Costez, Costez Summer Club, El Jardin de Nikita]
     city: Telgate
     province: BG
     address: Via dei Morenghi 2, Telgate (Grumello del Monte, by A4 exit)
@@ -483,6 +483,405 @@ venues:
     verified: false
     notes: Used for big one-off raves/NYE.
 
+
+  # =================== Added from @nightlifebergamo weekly listings (12-15 Nov 2026) ===================
+  - name: "Gres Art 671"
+    aliases: ["Gres Art", "GresArt 671", "Gres Art 671 Bergamo"]
+    city: "Bergamo"
+    province: BG
+    address: Via San Bernardino 141, Bergamo
+    lat: 45.683
+    lon: 9.660
+    km: 2.1
+    kind: live_club
+    status: active
+    genres: [house, disco]
+    socials: {instagram: gres_art_671, website: https://www.gresart671.org}
+    ig_source: user
+    ig_type: likely business (has WhatsApp/contact buttons)
+    verified: true
+    notes: "Art space run by Fondazione Pesenti. Open All nights with Le Cannibale and Utopia (13-14 Nov 2026), big sound system. Key house venue."
+
+  - name: "Barry's"
+    aliases: ["Barrys", "Barry's Bergamo"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: bar
+    status: active
+    genres: [club culture]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: 'Seen on @nightlifebergamo. "Club Culture" Friday nights.'
+
+  - name: "Sprint"
+    aliases: ["SPRINT Bergamo"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Hi-Fi Fever nights."
+
+  - name: "Unplug Bar"
+    aliases: ["UNPLUG", "Unplug Bergamo"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Sommet nights."
+
+  - name: "Casa Costez"
+    aliases: ["Casa Costez Bergamo"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: club
+    status: active
+    genres: [commercial]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Dinner show then club from 22:30. Same group as Nikita / Hotel Costez."
+
+  - name: "Savana King"
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "Cosmo Food Club"
+    aliases: ["Cosmo Bergamo"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "Contest Cocktail Bar"
+    aliases: ["Contest Bergamo"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "Bar 30&Lode"
+    aliases: ["30 e Lode", "30&Lode"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0.0
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Spritz parties by cento10elode."
+
+  - name: "Into The Woods"
+    aliases: ["Into The Woods Pitch", "Pitch Torre Boldone"]
+    city: "Torre Boldone"
+    province: BG
+    lat: 45.717
+    lon: 9.708
+    km: 3.2
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Aperitivo with DJ."
+
+  - name: "Jam Live Studio"
+    aliases: ["Jam Live", "Jam Nembro"]
+    city: "Nembro"
+    province: BG
+    lat: 45.745
+    lon: 9.76
+    km: 8.3
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. DJ sets Fri-Sun, free entry, 18+."
+
+  - name: "Cafeteria"
+    aliases: ["Cafetiera", "Cafeteria Treviolo"]
+    city: "Treviolo"
+    province: BG
+    lat: 45.672
+    lon: 9.616
+    km: 5.6
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Aperitivo + DJ (L'Apéritif by Earth, Saturday Vibes)."
+
+  - name: "Karma Lounge"
+    aliases: ["Karma Lounge Bar"]
+    city: "Treviolo"
+    province: BG
+    lat: 45.672
+    lon: 9.616
+    km: 5.6
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "Vibe Club"
+    aliases: ["Vibe Club Treviolo"]
+    city: "Treviolo"
+    province: BG
+    lat: 45.672
+    lon: 9.616
+    km: 5.6
+    kind: club
+    status: active
+    genres: [commercial]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "Garota de Ipanema"
+    aliases: ["Garota"]
+    city: "Curno"
+    province: BG
+    lat: 45.69
+    lon: 9.612
+    km: 5.2
+    kind: club
+    status: active
+    genres: [latin]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Latin nights; low relevance."
+
+  - name: "Sabbie Mobili"
+    city: "Chignolo d'Isola"
+    province: BG
+    lat: 45.665
+    lon: 9.53
+    km: 12.0
+    kind: club
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Krystal404 nights."
+
+  - name: "Victoria Lounge Bar"
+    aliases: ["Victoria Lounge"]
+    city: "Bonate Sotto"
+    province: BG
+    lat: 45.668
+    lon: 9.557
+    km: 9.9
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "Bar Perlage"
+    aliases: ["Perlage"]
+    city: "Bonate Sopra"
+    province: BG
+    lat: 45.683
+    lon: 9.558
+    km: 9.4
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Rapture nights."
+
+  - name: "Caffetteria Nuova Rotonda"
+    aliases: ["Nuova Rotonda"]
+    city: "Urgnano"
+    province: BG
+    lat: 45.597
+    lon: 9.693
+    km: 11.3
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "In Croissanteria Lab"
+    aliases: ["Croissanteria Lab"]
+    city: "Carobbio degli Angeli"
+    province: BG
+    lat: 45.665
+    lon: 9.833
+    km: 12.6
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Side A nights."
+
+  - name: "Brina Pasticceria"
+    aliases: ["Brina"]
+    city: "Cologno al Serio"
+    province: BG
+    lat: 45.578
+    lon: 9.703
+    km: 13.5
+    kind: bar
+    status: active
+    genres: [bass]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Gabass Subculture nights."
+
+  - name: "Delblaco Lunch & Bar"
+    aliases: ["Delblaco"]
+    city: "Lurano"
+    province: BG
+    lat: 45.565
+    lon: 9.64
+    km: 15.1
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "MINT"
+    aliases: ["Mint Chiuduno"]
+    city: "Chiuduno"
+    province: BG
+    lat: 45.647
+    lon: 9.853
+    km: 14.8
+    kind: club
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo."
+
+  - name: "Arya Lounge"
+    city: "Romano di Lombardia"
+    province: BG
+    lat: 45.522
+    lon: 9.754
+    km: 20.5
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Just over 20 km."
+
+  - name: "Al Tabarin"
+    aliases: ["Tabarin"]
+    city: "Romano di Lombardia"
+    province: BG
+    lat: 45.522
+    lon: 9.754
+    km: 20.5
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Just over 20 km."
+
+  - name: "Charleston"
+    aliases: ["Charleston The Club", "Charleston Treviglio"]
+    city: "Treviglio"
+    province: BG
+    lat: 45.521
+    lon: 9.593
+    km: 20.8
+    kind: club
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Just over 20 km."
+
+  - name: "Officina Panarari"
+    aliases: ["Panarari"]
+    city: "Treviglio"
+    province: BG
+    lat: 45.521
+    lon: 9.593
+    km: 20.8
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Just over 20 km."
+
+  - name: "Bar San Marco"
+    aliases: ["San Marco Sarnico"]
+    city: "Sarnico"
+    province: BG
+    lat: 45.669
+    lon: 9.962
+    km: 22.4
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Seen on @nightlifebergamo. Outside 20 km."
+
   # --- Alert zone examples (outside 20 km) ---
   - name: Fabrique
     city: Milano
@@ -536,6 +935,16 @@ towns:
   Osio Sotto: {province: BG, lat: 45.623, lon: 9.596}
   Brembate: {province: BG, lat: 45.605, lon: 9.555}
   Trezzo sull'Adda: {province: MI, lat: 45.610, lon: 9.520}
+  Treviolo: {province: BG, lat: 45.672, lon: 9.616}
+  Torre Boldone: {province: BG, lat: 45.717, lon: 9.708}
+  Carobbio degli Angeli: {province: BG, lat: 45.665, lon: 9.833}
+  Cologno al Serio: {province: BG, lat: 45.578, lon: 9.703}
+  Chiuduno: {province: BG, lat: 45.647, lon: 9.853}
+  Romano di Lombardia: {province: BG, lat: 45.522, lon: 9.754}
+  Bonate Sotto: {province: BG, lat: 45.668, lon: 9.557}
+  Bonate Sopra: {province: BG, lat: 45.683, lon: 9.558}
+  Urgnano: {province: BG, lat: 45.597, lon: 9.693}
+  Lurano: {province: BG, lat: 45.565, lon: 9.640}
   Milano: {province: MI, lat: 45.4642, lon: 9.19}
   Monza: {province: MB, lat: 45.584, lon: 9.274}
   Brescia: {province: BS, lat: 45.5416, lon: 10.2118}
