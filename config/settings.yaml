@@ -54,7 +54,7 @@ instagram:
   max_post_age_days: 21       # older posts are skipped
   ocr: false                  # free: read text in flyer images with Tesseract for every account (slower)
   read_images: false          # reader: claude only. true = also read flyer images (more accurate, costs more)
-  auto_approve_confidence: 0.85
+  auto_approve_confidence: 0.7   # Filippo approved every club night so far (2026-11-16)
   # Categories: dj_club, live_music, comedy, quiz_games, food_drink, culture, other
   calendar_categories: [dj_club]   # only these go on the calendar; the rest are kept in other_events.md / other.ics   # at or above: straight to the calendar; below: waits for approval
   reader: rules               # rules = free pattern matcher (no key); claude = AI reader, needs ANTHROPIC_API_KEY

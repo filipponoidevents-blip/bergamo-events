@@ -198,6 +198,9 @@ class InstagramSource(Source):
                 self._queue(q, ex, post, user, acc.get("venue"))
         if accounts:
             q["next_account"] = (start + checked) % len(accounts)
+        for it in q["items"].values():  # a lowered auto_approve_confidence also applies to waiting ones
+            if it["status"] == "pending" and it.get("confidence", 0) >= self.auto_conf:
+                it["status"] = "auto"
         self._save_review(q)
         if errors and checked and len(errors) == checked:
             raise RuntimeError("every Instagram account failed; last error: " + errors[-1])
