@@ -202,3 +202,15 @@ def test_lineup_lines():
     from bget.headliners import lineup_names
     assert lineup_names("In consolle:\nDj : StefanOne + Andrew V.\nVoice : Matteo") == ["StefanOne", "Andrew V"]
     assert lineup_names("LINE UP: Nesta b2b Lapo Underground") == ["Nesta", "Lapo Underground"]
+
+
+def test_no_dj_for_commercial_nights():
+    from datetime import datetime
+    from bget.config import Config
+    from bget.headliners import HeadlinerFinder
+    from bget.models import Event, Venue
+    ev = Event(title="Notte a caso", start=datetime(2026, 11, 21, 23), venue=Venue(name="Queen Club", city="Seriate"),
+               description="Dj: StefanOne + Andrew V.", genre="Revival")
+    assert HeadlinerFinder(Config.load()).find(ev) == []
+    ev.genre = "Techno"
+    assert HeadlinerFinder(Config.load()).find(ev) == ["StefanOne", "Andrew V"]

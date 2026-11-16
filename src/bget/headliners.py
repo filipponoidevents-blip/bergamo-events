@@ -31,6 +31,10 @@ def lineup_names(text: str) -> list[str]:
     return out
 
 
+# Filippo: for commercial and revival nights the DJ is not worth showing (unless on the notable list)
+NO_DJ_GENRES = re.compile(r"commercial|revival|hits|school party", re.I)
+
+
 def _key(s: str) -> str:
     return slug(s).replace("-", "")
 
@@ -46,6 +50,8 @@ class HeadlinerFinder:
     def find(self, ev: Event, n: int = 3) -> list[str]:
         text = f"{ev.title}\n{ev.description}"
         found = [name for name, rx in self.rx if rx.search(text)]
+        if ev.genre and NO_DJ_GENRES.search(ev.genre):
+            return found[:n]  # commercial / revival nights: the DJ doesn't matter unless a notable name
         for name in lineup_names(ev.description):
             name = self.by_key.get(_key(name), name)
             if name not in found:
