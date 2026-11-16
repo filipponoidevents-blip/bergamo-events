@@ -48,7 +48,7 @@ class HeadlinerFinder:
         self.by_key = {_key(n): n for n in self.names}
 
     def find(self, ev: Event, n: int = 3) -> list[str]:
-        text = f"{ev.title}\n{ev.description}"
+        text = f"{ev.title}\n{ev.description}".replace("’", "'")
         found = [name for name, rx in self.rx if rx.search(text)]
         if ev.genre and NO_DJ_GENRES.search(ev.genre):
             return found[:n]  # commercial / revival nights: the DJ doesn't matter unless a notable name
