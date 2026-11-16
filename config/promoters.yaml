@@ -225,13 +225,13 @@ promoters:
   - name: Studio Legale
     instagram: null
     ig_source: null
-    venues: [Tiky Klub]
-    notes: Thanka room, 16+.
+    venues: [Thanka]
+    notes: 16+.
   - name: Noche Latina
     instagram: null
     ig_source: null
-    venues: [Tiky Klub]
-    notes: Thanka room, latin.
+    venues: [Thanka]
+    notes: Latin.
   - name: Tocame
     instagram: null
     ig_source: null
@@ -278,10 +278,12 @@ promoters:
     venues: [Hype Club]
     notes: Tickets online.
   - name: Afrodylan
-    instagram: null
-    ig_source: null
+    instagram: afrodylanofficial
+    ig_source: user
+    ig_type: business (Contact button)
+    genres: [afro, reggaeton, world]
     venues: [Druso]
-    notes: Afro house; presale 10 EUR.
+    notes: "Touring afro night brand (also Plaza Disco, Lake Garda). Druso 14 Nov and 7 Dec 2026. Bolgia follows it."
   - name: Tra terra e cielo
     instagram: null
     ig_source: null
@@ -383,3 +385,14 @@ promoters:
     ig_source: null
     venues: [Bar 30&Lode]
     notes: Spritz Party.
+  - name: Icon
+    instagram: null
+    ig_source: null
+    genres: [tech house]
+    venues: [Tiky Klub]
+    notes: "Tech house night hosted by Boffe and Illes, 20 Nov 2026."
+  - name: Muchacha
+    instagram: null
+    ig_source: null
+    venues: [Thanka]
+    notes: '"Muchacha mi casa es tu casa" party (with @micasa.records?).'

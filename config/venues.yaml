@@ -163,7 +163,7 @@ venues:
     notes: Unclear if still open (Filippo not sure).
 
   - name: Tiky Klub
-    aliases: [Tiky Club, Tiky Seriate, Under Music Club, Under Seriate, Fiorenudo, Thanka]
+    aliases: [Tiky Club, Tiky Seriate, Under Music Club, Under Seriate, Fiorenudo]
     city: Seriate
     province: BG
     address: Via Nazionale 93, Seriate
@@ -172,10 +172,12 @@ venues:
     km: 4.9
     kind: club
     status: active
-    socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/44664}
-    ig_source: null
+    socials: {instagram: tiky.klub, website: https://tikyklub.it, resident_advisor: https://ra.co/clubs/44664}
+    ig_source: user
+    ig_type: business (Email button)
+    genres: [tech house]
     verified: false
-    notes: Was Under Music Club (and earlier Fiorenudo). Room 2 is Thanka (per Filippo).
+    notes: "Fridays, tech house, 23:30 till late. Was Under Music Club (earlier Fiorenudo). Same building as Thanka (Saturdays)."
 
   - name: Queen Club
     aliases: [Discoteca Queen, Queen Seriate, Queen Disco]
@@ -507,30 +509,34 @@ venues:
     aliases: ["Barrys", "Barry's Bergamo"]
     city: "Bergamo"
     province: BG
-    lat: 45.6983
-    lon: 9.6773
-    km: 0.0
+    address: Via per Grumello 40, 24127 Bergamo (statale Lallio)
+    lat: 45.682
+    lon: 9.640
+    km: 3.4
     kind: bar
     status: active
     genres: [club culture]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: barrys__, website: null}
+    ig_source: user
+    ig_type: business (Contact button)
     verified: false
-    notes: 'Seen on @nightlifebergamo. "Club Culture" Friday nights.'
+    notes: "Brunch restaurant; Fri-Sat dinner and cocktail bar. Club Culture monthly music night (13 Nov 2026 with Ricky Frengue, from 21:00)."
 
   - name: "Sprint"
     aliases: ["SPRINT Bergamo"]
     city: "Bergamo"
     province: BG
-    lat: 45.6983
-    lon: 9.6773
-    km: 0.0
+    address: Viale Giulio Cesare 18, Bergamo
+    lat: 45.7035
+    lon: 9.6830
+    km: 0.7
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: sprint_bergamo, website: null}
+    ig_source: user
+    ig_type: business (Contact button)
     verified: false
-    notes: "Seen on @nightlifebergamo. Hi-Fi Fever nights."
+    notes: "Bottega, trattoria and Hi-Fi bar. Hi-Fi Fever DJ nights (Nov 2026: Tropicalismi, Lola G, Winstan), 21:30-01:00."
 
   - name: "Unplug Bar"
     aliases: ["UNPLUG", "Unplug Bergamo"]
@@ -667,13 +673,15 @@ venues:
     aliases: ["Jam Live", "Jam Nembro"]
     city: "Nembro"
     province: BG
+    address: Via Lombardia 23, 24027 Nembro
     lat: 45.745
     lon: 9.76
     km: 8.3
-    kind: bar
+    kind: club
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: jamlivestudio, website: null}
+    ig_source: user
+    ig_type: business (Contact button)
     verified: false
     notes: "Seen on @nightlifebergamo. DJ sets Fri-Sun, free entry, 18+."
 
@@ -933,6 +941,23 @@ venues:
     ig_source: null
     verified: false
     notes: "Hosts utōpia nights (utopia x tassino, 24 Oct 2026, 20:00-23:00)."
+
+  - name: "Thanka"
+    aliases: ["Thanka Seriate", "Thanka Official"]
+    city: "Seriate"
+    province: BG
+    address: Via Nazionale 93, Seriate
+    lat: 45.680
+    lon: 9.735
+    km: 4.9
+    kind: club
+    status: active
+    genres: [commercial, latin]
+    socials: {instagram: thanka.official, website: https://thanka.it}
+    ig_source: user
+    ig_type: business ("Performance and event venue")
+    verified: false
+    notes: "Saturdays (Il tuo sabato sera). Same building as Tiky Klub. Nights: Studio Legale, Noche Latina, Muchacha."
 
   # --- Alert zone examples (outside 20 km) ---
   - name: Fabrique
