@@ -82,6 +82,7 @@
     "17887625655625645-0": {
       "account": "bar_sanmarco",
       "account_venue": "Bar San Marco",
+      "caption": "SATURDAY 21.11\n16manu___ and josep_italy ON SET",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -91,14 +92,15 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "SATURDAY 21.11",
+        "title": "16manu___ and josep_italy ON SET",
         "venue_name": "Bar San Marco"
       },
       "id": "17887625655625645-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/907465247_18430653616149849_4631931290071977081_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CtjrWq30sa0Q7kNvwG9Yzi0&_nc_oc=AdpE1NUVKtu6ur8R4DwfYcet1C147o0LMBM32ipe8-TfacYxk1BXSmCOTPKZkEUazmk&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IBhtNABD44zy7M5aUUGl9g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRnhswnht4OxL9lEp9xOX7oIC-lueatzOUHIUQIXrHj2Q&oe=6B01354B",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/907465247_18430653616149849_4631931290071977081_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CtjrWq30sa0Q7kNvwHA6oWt&_nc_oc=Adqz3SbNPNPpxf7Q1BSXGCizMhFfTSUt_QP2rJ-2uGnEyFRnKvZg-z4ZikhAMb1ctGU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CcMtZfExYlMb8bVLavbtag&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRYec0Z82zxwYjJwjIgYXzJqzOmr450cFP1t-JM0tamXg&oe=6B016D8B",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfzRb1ODYg8/",
@@ -926,9 +928,68 @@
       "permalink": "https://www.instagram.com/p/Dfktvf2DOWY/",
       "status": "info"
     },
+    "17952534021338149-0": {
+      "account": "lecannibaleclub",
+      "account_venue": null,
+      "caption": "La disco è un viaggio che attraversa città, generazioni e continenti. Sabato 21 novembre arriva nella Cattedrale della Fabbrica del Vapore: Le Cannibale firma il party ufficiale del sabato sera della milano_music_week. \n\nIn consolle Emmanuelle e Bárbara Boeing, due artiste brasiliane che hanno fatto di Milano la propria casa. Due percorsi in cui radici brasiliane, sensibilità pop e ricerca elettronica riscrivono il presente della disco.\nUna notte ad ingresso gratuito per celebrare la nostra città, la sua musica e la disco che continua a trasformarsi sulla pista da ballo.\n\nLineup: \n20:00 - 22:00 barbara_boeing \n22:00 - 00:00 helloemmanuelle \n\n🎟️ Ingresso gratuito con registrazione\n📍 Via Procaccini 4, Milano",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "genres": [
+          "elettronica",
+          "disco",
+          "hard techno"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "La disco è un viaggio che attraversa città, generazioni e continenti. Sabato 21 ",
+        "venue_name": null
+      },
+      "id": "17952534021338149-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/856838525_18654127345013320_7933419262289561783_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KoCT7rvzn48Q7kNvwHJ-Ija&_nc_oc=Ador8a_3lwj_wfjo3AVn4cJz6RmJTk_LIA3ZLkPKnquB8em0N_JRQG5WNXeBq1WnEfo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=ATeTDJTikPmwsBb_e9oQYA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSBpnSXVwRzwIWu5WFaAQhZJYY76Q0cjz4wDqGXcrdWTQ&oe=6B01650D",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DfZc40YN343/",
+      "status": "pending"
+    },
+    "17955208302300879-0": {
+      "account": "supertatobolgia",
+      "account_venue": null,
+      "caption": "Sabato 28 Novembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/bk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: MARIE VAUNT\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "price": null,
+        "start_time": "23:30",
+        "ticket_url": null,
+        "title": "Lista 20 Drnk Incluso",
+        "venue_name": "Bolgia"
+      },
+      "id": "17955208302300879-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/905036431_4370745299809930_41627535245311737_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZdQJYl4PIz8Q7kNvwH9Q3Zd&_nc_oc=AdoQ4UtjSYXYFCCOO2FuyR3PM5UdE4iM-E84fGyLnstIkbtWO2zj4T0YUPkFd3ItQoE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=MNQz61RVzNHpAkQwJTsAKg&_nc_tpa=Q5bMBQJ_SrZgblOck5FIOGmOfp_6xSQluO7mR-pvis-8hyM9v7-uNtxQfOJkzRMfZEg3xRMtO-0dNsTgNg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQe62uryblvQs-7r2dzsIxeJCeG6PqELky4AOsEMtue_w&oe=6B015669",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/Dfmm5mSO9zC/",
+      "status": "pending"
+    },
     "17958210333297121-0": {
       "account": "bar_sanmarco",
       "account_venue": "Bar San Marco",
+      "caption": "FRIDAY 20.11\niconikmusic_ and danieleberardi.it ON SET",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -938,14 +999,15 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "FRIDAY 20.11",
+        "title": "iconikmusic_ and danieleberardi.it ON SET",
         "venue_name": "Bar San Marco"
       },
       "id": "17958210333297121-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/911916807_18430652311149849_2735542617219848486_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rfmFATptdg4Q7kNvwGeHd1A&_nc_oc=AdqefWd-YtasLtfL9kud_-NIZDxaLeg1bqwJ-80mr1NE5enfL7MzD8u9Np-liuoZgKk&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IBhtNABD44zy7M5aUUGl9g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQPgbs5Porxw_R38rcj_Dq3m3M8UhtZCWFStmwNV2N26A&oe=6B015833",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/911916807_18430652311149849_2735542617219848486_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rfmFATptdg4Q7kNvwGh4tVg&_nc_oc=AdpL55iXEK3tG97btMeErLKfyAao21NiH8AGaaIsprOaVzfOHPsC5Wz0alCk06-9POs&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CcMtZfExYlMb8bVLavbtag&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQAYmFOdZN2d7H_oRX3rEn7fgPM15ImzoK65OmhnL5M8A&oe=6B015833",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfzQ2k0tT8N/",
@@ -3558,6 +3620,35 @@
       "permalink": "https://www.instagram.com/p/DfnShi0jIRA/",
       "status": "auto"
     },
+    "18119999429105501-0": {
+      "account": "lecannibaleclub",
+      "account_venue": null,
+      "caption": "La Milano Music Week 2026 celebra i cinquant’anni della disco music.\n\nSabato 21 novembre trasformiamo la Cattedrale della Fabbrica del Vapore in un club per il party ufficiale e gratuito di milano_music_week 2026. In consolle Emmanuelle e Bárbara Boeing, due DJ brasiliane di casa a Milano espressioni della disco music contemporanee Ci vediamo sotto la mirror ball. \n\nLineup:\n20:00 - 22:00 barbara_boeing\n22:00 - 00:00 helloemmanuelle \n\n🎟️ Ingresso gratuito con registrazione al link in bio\n📍 Via Procaccini 4, Milano\n\n🔊 Afterparty gratuito a detunemilano con lelesacchi e marais.fm.",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "genres": [
+          "disco"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "La Milano Music Week 2026 celebra i cinquant’anni della disco music",
+        "venue_name": null
+      },
+      "id": "18119999429105501-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/910303314_18657888289013320_4211033778527346471_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ZXncglN75UsQ7kNvwH7rHmo&_nc_oc=Adpv8r3nvhIqGooM2oZ-P5AozQ5tGky0o1PkChcK7MisvhYp2W5ySK21Pi8IqnrX9ug&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=ATeTDJTikPmwsBb_e9oQYA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTaVVPpXKmj59zPNAp5nnl2Ta1bnnZGKJ9tVF-DC98bbw&oe=6B0173AA",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Dfz2Hw9DYev/",
+      "status": "pending"
+    },
     "18120170519059327-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
@@ -4107,6 +4198,35 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfzNRhYMLt1/",
       "status": "info"
+    },
+    "18127033595491867-0": {
+      "account": "supertatobolgia",
+      "account_venue": null,
+      "caption": "Sabato 21 Novembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/fk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: MAD DOG + GRAVEDGR + FLYMEON\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "genres": [
+          "hard techno"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "price": null,
+        "start_time": "23:30",
+        "ticket_url": null,
+        "title": "Lista 20 Drnk Incluso",
+        "venue_name": "Bolgia"
+      },
+      "id": "18127033595491867-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/880079239_18642722809045515_7413266791163160542_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=1GNuoFNnPRIQ7kNvwGqOgV4&_nc_oc=Adpwd5VBmq7CrPjnilVd2jympgZVXEDEF5qRZ1jXdBuO7Nhg7kEjiLH9qw94FgNTcp8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=MNQz61RVzNHpAkQwJTsAKg&_nc_tpa=Q5bMBQJaV4HDqgVl3MSigVGd7TCmEjNbSrWs8FzlKsyhjq8tEMBZ4C9MK2yYVtmn7EBDirBby4N93WJBIg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQjaYXfyHlmklN6CA4ZgLyEyG5Rtnl-_gZhlz6w5JhEhQ&oe=6B017073",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DfUlVVgOe9v/",
+      "status": "auto"
     },
     "18127056307912031-0": {
       "account": "arya.lounge",
@@ -5781,6 +5901,36 @@
       "permalink": "https://www.instagram.com/reel/DfmzU92RY8W/",
       "status": "info"
     },
+    "18344612377276462-0": {
+      "account": "lecannibaleclub",
+      "account_venue": null,
+      "caption": "On November 28 dkmntl, the internationally renowned festival and label, lands in Milan as part of its European club tour. Taking over the decks all night long: Dekmantel Soundsystem, featuring founder Casper Tielrooij and Interstellar Funk, powered by Naoto Soundsystem’s wall of speakers.\n\nA leading force in electronic music, Dekmantel brings its musical vision to the dancefloor: an adventurous, carefully crafted selection connecting new sounds with the rich history of club culture.\n\nMUSIC:\nDekmantel Soundystem\n(Interstellar Funk b2b Casper Tielrooij all night long)\n\n🕚 h. 23 – 03\n🔗 Tickets at the link in bio\n📍 viale Emilio Alemagna 6, Milano",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "genres": [
+          "electronic",
+          "disco / funk"
+        ],
+        "is_concert": false,
+        "is_festival": true,
+        "kind": "dj_club",
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "On November 28 dkmntl, the internationally renowned festival and label, lands in",
+        "venue_name": null
+      },
+      "id": "18344612377276462-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/899789062_18656709907013320_2302128384099841970_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tThf5n0D-qgQ7kNvwFnrz9e&_nc_oc=Adp9F1BT40ItGd_1lMkyYEaitlYQkNvjUW5YXXCQQFtSYOlweGCYtjpx8ViMnXkdxDw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=ATeTDJTikPmwsBb_e9oQYA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSXE0GL5ihu5KjmOSOj6PJdW_7GYGtcja_sda52nfYWGQ&oe=6B014C30",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DfsHm4MNV0j/",
+      "status": "pending"
+    },
     "18346025065282357-0": {
       "account": "officinapanarari",
       "account_venue": "Officina Panarari",
@@ -6310,8 +6460,13 @@
       "status": "info"
     }
   },
-  "next_account": 50,
+  "next_account": 57,
   "seen_posts": {
+    "17872910934643134": {
+      "account": "hiddenhell.techno",
+      "at": "2026-10-27T17:00:09+0000",
+      "event": true
+    },
     "17873605428643229": {
       "account": "bv_rooftop",
       "at": "2026-10-31T12:51:24+0000",
@@ -6332,6 +6487,11 @@
       "at": "2026-11-05T16:30:40+0000",
       "event": false
     },
+    "17876128866602111": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:34:04+0000",
+      "event": false
+    },
     "17876509722638498": {
       "account": "ninfeasocialclub",
       "at": "2026-11-12T13:20:34+0000",
@@ -6347,9 +6507,19 @@
       "at": "2026-11-11T12:42:39+0000",
       "event": false
     },
+    "17878288146582718": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-11T17:01:29+0000",
+      "event": true
+    },
     "17880638631562095": {
       "account": "jamlivestudio",
       "at": "2026-11-14T16:00:46+0000",
+      "event": true
+    },
+    "17887625655625645": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:41:32+0000",
       "event": true
     },
     "17891019282478840": {
@@ -6407,6 +6577,11 @@
       "at": "2026-11-16T21:18:47+0000",
       "event": true
     },
+    "17910434370588844": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-05T17:13:44+0000",
+      "event": true
+    },
     "17910469782664420": {
       "account": "officinapanarari",
       "at": "2026-10-31T10:03:57+0000",
@@ -6427,6 +6602,11 @@
       "at": "2026-11-03T16:20:26+0000",
       "event": true
     },
+    "17914260531552675": {
+      "account": "supertatobolgia",
+      "at": "2026-11-09T10:42:46+0000",
+      "event": false
+    },
     "17914376121513136": {
       "account": "capogirojoyclub",
       "at": "2026-11-03T12:30:01+0000",
@@ -6446,6 +6626,11 @@
       "account": "tiky.klub",
       "at": "2026-11-11T17:25:31+0000",
       "event": true
+    },
+    "17915396244492442": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:36:14+0000",
+      "event": false
     },
     "17918546925550223": {
       "account": "vibetheclub",
@@ -6500,6 +6685,11 @@
     "17939093367407292": {
       "account": "hype.club.official",
       "at": "2026-11-16T19:23:32+0000",
+      "event": true
+    },
+    "17940617406401413": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-10T13:19:06+0000",
       "event": true
     },
     "17942335722383116": {
@@ -6567,15 +6757,35 @@
       "at": "2026-10-27T10:48:49+0000",
       "event": false
     },
+    "17952534021338149": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-06T11:01:33+0000",
+      "event": true
+    },
     "17953505820314706": {
       "account": "officinapanarari",
       "at": "2026-11-03T11:27:18+0000",
+      "event": false
+    },
+    "17955208302300879": {
+      "account": "supertatobolgia",
+      "at": "2026-11-11T14:15:16+0000",
+      "event": true
+    },
+    "17956745892313072": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-10T13:16:18+0000",
       "event": false
     },
     "17957550186334944": {
       "account": "officinapanarari",
       "at": "2026-11-13T15:06:02+0000",
       "event": false
+    },
+    "17958210333297121": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:38:20+0000",
+      "event": true
     },
     "17959770726014816": {
       "account": "capogirojoyclub",
@@ -6697,6 +6907,11 @@
       "at": "2026-11-09T22:20:41+0000",
       "event": true
     },
+    "17999770449111856": {
+      "account": "supertatobolgia",
+      "at": "2026-11-16T12:22:02+0000",
+      "event": false
+    },
     "18002358852030211": {
       "account": "circolinomalpensata_bergamo",
       "at": "2026-11-11T12:59:11+0000",
@@ -6710,6 +6925,11 @@
     "18004073610008674": {
       "account": "cosmo.food.club",
       "at": "2026-11-07T14:35:05+0000",
+      "event": false
+    },
+    "18005063426808807": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:35:43+0000",
       "event": false
     },
     "18007029407794113": {
@@ -6750,6 +6970,11 @@
     "18016802267975011": {
       "account": "thanka.official",
       "at": "2026-11-06T17:07:47+0000",
+      "event": false
+    },
+    "18017372276988124": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:39:30+0000",
       "event": false
     },
     "18017727569968725": {
@@ -6831,6 +7056,11 @@
       "account": "ninfeasocialclub",
       "at": "2026-11-10T09:36:59+0000",
       "event": true
+    },
+    "18043092902834412": {
+      "account": "supertatobolgia",
+      "at": "2026-10-27T12:00:47+0000",
+      "event": false
     },
     "18043194749832660": {
       "account": "daste_bergamo",
@@ -6952,9 +7182,19 @@
       "at": "2026-11-06T10:42:33+0000",
       "event": true
     },
+    "18081105578391333": {
+      "account": "hiddenhell.techno",
+      "at": "2026-11-10T17:01:01+0000",
+      "event": true
+    },
     "18081511676566799": {
       "account": "zeroclub.bg",
       "at": "2026-11-07T16:53:28+0000",
+      "event": true
+    },
+    "18082596440366662": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-02T17:00:29+0000",
       "event": true
     },
     "18084142214343045": {
@@ -7127,6 +7367,11 @@
       "at": "2026-11-11T11:41:54+0000",
       "event": true
     },
+    "18106003625530238": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-10T15:39:27+0000",
+      "event": false
+    },
     "18106154075640542": {
       "account": "csapacipaciana",
       "at": "2026-11-09T11:36:52+0000",
@@ -7192,6 +7437,11 @@
       "at": "2026-11-02T17:14:41+0000",
       "event": true
     },
+    "18112841216231269": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:39:03+0000",
+      "event": false
+    },
     "18113115620182860": {
       "account": "mint_lounge",
       "at": "2026-11-09T09:10:06+0000",
@@ -7201,6 +7451,11 @@
       "account": "al_tabarin",
       "at": "2026-11-05T12:05:40+0000",
       "event": false
+    },
+    "18114511813881058": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-03T17:01:00+0000",
+      "event": true
     },
     "18114846281582319": {
       "account": "tiky.klub",
@@ -7332,9 +7587,19 @@
       "at": "2026-10-28T17:07:49+0000",
       "event": false
     },
+    "18119999429105501": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-16T17:02:06+0000",
+      "event": true
+    },
     "18120170519059327": {
       "account": "csapacipaciana",
       "at": "2026-11-11T16:44:04+0000",
+      "event": true
+    },
+    "18120307748112187": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-12T17:08:55+0000",
       "event": true
     },
     "18120341764792576": {
@@ -7422,6 +7687,11 @@
       "at": "2026-11-14T09:00:55+0000",
       "event": true
     },
+    "18123234445935207": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:34:34+0000",
+      "event": false
+    },
     "18123691178514546": {
       "account": "hype.club.official",
       "at": "2026-11-09T13:37:00+0000",
@@ -7462,6 +7732,11 @@
       "at": "2026-11-16T11:05:13+0000",
       "event": true
     },
+    "18127033595491867": {
+      "account": "supertatobolgia",
+      "at": "2026-11-04T14:02:27+0000",
+      "event": true
+    },
     "18127056307912031": {
       "account": "arya.lounge",
       "at": "2026-11-16T18:21:46+0000",
@@ -7491,6 +7766,11 @@
       "account": "jamlivestudio",
       "at": "2026-11-05T11:30:02+0000",
       "event": false
+    },
+    "18129703426880153": {
+      "account": "lecannibaleclub",
+      "at": "2026-10-30T11:05:16+0000",
+      "event": true
     },
     "18129735700848995": {
       "account": "contest_bg",
@@ -7600,6 +7880,11 @@
     "18135864169813470": {
       "account": "zeroclub.bg",
       "at": "2026-11-13T11:18:54+0000",
+      "event": true
+    },
+    "18136456505509066": {
+      "account": "lecannibaleclub",
+      "at": "2026-10-28T17:02:57+0000",
       "event": true
     },
     "18136600519661292": {
@@ -7777,6 +8062,11 @@
       "at": "2026-10-27T10:20:27+0000",
       "event": false
     },
+    "18173342491407790": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-09T17:03:50+0000",
+      "event": true
+    },
     "18179759875463166": {
       "account": "hype.club.official",
       "at": "2026-11-09T19:04:50+0000",
@@ -7790,6 +8080,11 @@
     "18182530813449226": {
       "account": "inkclub_bergamo",
       "at": "2026-11-16T14:26:23+0000",
+      "event": true
+    },
+    "18183948883446636": {
+      "account": "supertatobolgia",
+      "at": "2026-11-02T13:47:47+0000",
       "event": true
     },
     "18185646871425714": {
@@ -7842,6 +8137,11 @@
       "at": "2026-11-11T14:00:06+0000",
       "event": true
     },
+    "18205245814335448": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-10T17:01:40+0000",
+      "event": true
+    },
     "18212406400369144": {
       "account": "discoteca_queen",
       "at": "2026-11-12T14:46:27+0000",
@@ -7850,6 +8150,11 @@
     "18215315395318894": {
       "account": "kellerfactory_",
       "at": "2026-11-05T11:36:16+0000",
+      "event": false
+    },
+    "18220266331315318": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-16T11:39:57+0000",
       "event": false
     },
     "18221630539352032": {
@@ -7885,6 +8190,11 @@
     "18288895915295028": {
       "account": "inkclub_bergamo",
       "at": "2026-11-11T15:28:23+0000",
+      "event": true
+    },
+    "18344612377276462": {
+      "account": "lecannibaleclub",
+      "at": "2026-11-13T17:01:12+0000",
       "event": true
     },
     "18346025065282357": {
@@ -7951,6 +8261,11 @@
       "account": "arya.lounge",
       "at": "2026-11-14T14:48:51+0000",
       "event": true
+    },
+    "18384087112227162": {
+      "account": "utopia.direction",
+      "at": "2026-11-03T16:00:07+0000",
+      "event": false
     },
     "18392212897229132": {
       "account": "liveclub",
