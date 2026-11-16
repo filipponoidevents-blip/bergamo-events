@@ -233,10 +233,12 @@ venues:
     km: 17.6
     kind: club
     status: check
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: baiadelrebrignano, website: https://baiadelrebrignano.it}
+    ig_source: user
+    ig_type: business
+    address: "Via Cologno 22, Brignano Gera d'Adda"
     verified: false
-    notes: An unnamed venue in Brignano was shut by police on 5 Nov 2025 for running as an unlicensed club (Il Giorno). Unclear if it is this one.
+    notes: "An unnamed venue in Brignano was shut by police on 5 Nov 2025 for running as an unlicensed club (Il Giorno). Unclear if it is this one. Friday DJ nights (reggaeton, dembow, phonk)."
 
   # =================== Live clubs / cultural spaces with DJ nights ===================
   - name: Edoné
@@ -359,10 +361,11 @@ venues:
     km: 5.2
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: kellerfactory_, website: https://www.newkeller.it}
+    ig_source: user
+    ig_type: business
     verified: false
-    notes: Dinner + bands; low relevance.
+    notes: "Dinner + bands; low relevance. Relaunched as Keller Factory 2.0 (food, music, beer)."
 
   - name: UFO Live
     aliases: [UFO Mozzo]
@@ -373,10 +376,12 @@ venues:
     km: 5.2
     kind: live_club
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: ufo.spacezone51, website: null}
+    ig_source: user
+    ig_type: personal (no contact button)
+    address: "Via dell'Industria 4, Mozzo"
     verified: false
-    notes: Tribute bands; low relevance.
+    notes: "Tribute bands; low relevance. Live rock music and pub: tribute bands, jam sessions."
 
   - name: Live Club
     aliases: [Live Club Trezzo, Live Music Club Trezzo]
@@ -467,8 +472,8 @@ venues:
     km: 1.4
     kind: arena
     status: active
-    socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/251441}
-    ig_source: null
+    socials: {instagram: choruslife.bergamo, website: null, resident_advisor: https://ra.co/clubs/251441}
+    ig_source: user
     verified: false
 
   - name: Fiera di Bergamo
@@ -547,10 +552,12 @@ venues:
     km: 0.0
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: unplug__bg, website: https://www.unplugbar.it}
+    ig_source: user
+    ig_type: business ("Cocktail bar")
+    address: "Via Broseta 57f, Bergamo"
     verified: false
-    notes: "Seen on @nightlifebergamo. Sommet nights."
+    notes: "Seen on @nightlifebergamo. Sommet nights. Open Thu-Tue 18:00-02:00. A separate @unplugbar (11.2K followers) also exists; not confirmed which is the brand."
 
   - name: "Casa Costez"
     aliases: ["Casa Costez Bergamo", "Costez Dining Club"]
@@ -608,10 +615,12 @@ venues:
     km: 0.0
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: savana.king25, website: null}
+    ig_source: user
+    ig_type: business ("Dive bar")
+    address: "Via Baschenis 3/c, Bergamo"
     verified: false
-    notes: "Seen on @nightlifebergamo."
+    notes: "Seen on @nightlifebergamo. IG name Savanah. Hookah bar/pub; mostly Moroccan music nights; low relevance."
 
   - name: "Cosmo Food Club"
     aliases: ["Cosmo Bergamo"]
@@ -622,8 +631,9 @@ venues:
     km: 0.0
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: cosmo.food.club, website: https://cosmofoodclub.com}
+    ig_source: user
+    ig_type: business ("Product/service")
     verified: false
     notes: "Seen on @nightlifebergamo."
 
@@ -636,10 +646,27 @@ venues:
     km: 0.0
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: contest_bg, website: null}
+    ig_source: user
+    ig_type: business ("Lounge")
     verified: false
-    notes: "Seen on @nightlifebergamo."
+    notes: "Seen on @nightlifebergamo. Cocktail bar, aperitivo + DJ set nights."
+
+  - name: "OperaPrima Café"
+    aliases: ["OperaPrima", "Opera Prima"]
+    city: "Bergamo"
+    province: BG
+    address: "Via dei Caniana, Bergamo"
+    lat: 45.6897
+    lon: 9.6745
+    km: 1.0
+    kind: bar
+    status: active
+    socials: {instagram: operaprimacafe_, website: null}
+    ig_source: user
+    ig_type: personal (no contact button)
+    verified: false
+    notes: "Student café by UniBG (Via dei Caniana). Partner of UniBG Party nights at Zero Club."
 
   - name: "Bar 30&Lode"
     aliases: ["30 e Lode", "30&Lode"]
@@ -650,10 +677,12 @@ venues:
     km: 0.0
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: bar30elode, website: null}
+    ig_source: user
+    ig_type: business ("Bar")
+    address: "Via dei Caniana 3, Bergamo"
     verified: false
-    notes: "Seen on @nightlifebergamo. Spritz parties by cento10elode."
+    notes: "Seen on @nightlifebergamo. Spritz parties by cento10elode. Student bar by UniBG."
 
   - name: "Into The Woods"
     aliases: ["Into The Woods Pitch", "Pitch Torre Boldone"]
@@ -740,10 +769,12 @@ venues:
     kind: club
     status: active
     genres: [latin]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: garotadeipanemaa, website: null}
+    ig_source: user
+    ig_type: personal (no contact button)
+    address: "Via Enrico Fermi 56, Curno"
     verified: false
-    notes: "Seen on @nightlifebergamo. Latin nights; low relevance."
+    notes: "Seen on @nightlifebergamo. Latin nights; low relevance. Latin nights Fri/Sat."
 
   - name: "Sabbie Mobili"
     city: "Chignolo d'Isola"
@@ -753,10 +784,11 @@ venues:
     km: 12.0
     kind: club
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: sabbiemobili_official, website: https://www.sabbiemobili.net}
+    ig_source: user
+    ig_type: business ("Dance club and nightclub")
     verified: false
-    notes: "Seen on @nightlifebergamo. Krystal404 nights."
+    notes: "Seen on @nightlifebergamo. Krystal404 nights. Also hosts hard dance nights (S'Gabber, early rave/hardcore)."
 
   - name: "Victoria Lounge Bar"
     aliases: ["Victoria Lounge"]
@@ -781,10 +813,12 @@ venues:
     km: 9.4
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: barperlage, website: https://www.barperlage.it}
+    ig_source: user
+    ig_type: business
+    address: "Via Lega Lombarda 10, Bonate Sopra"
     verified: false
-    notes: "Seen on @nightlifebergamo. Rapture nights."
+    notes: "Seen on @nightlifebergamo. Rapture nights. Friday night music."
 
   - name: "Caffetteria Nuova Rotonda"
     aliases: ["Nuova Rotonda"]
@@ -809,10 +843,11 @@ venues:
     km: 12.6
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: incroissanterialab, website: https://www.incroissanteria.com}
+    ig_source: user
+    ig_type: business
     verified: false
-    notes: "Seen on @nightlifebergamo. Side A nights."
+    notes: "Seen on @nightlifebergamo. Side A nights. Side A vinyl sessions from 22:00."
 
   - name: "Brina Pasticceria"
     aliases: ["Brina"]
@@ -824,10 +859,11 @@ venues:
     kind: bar
     status: active
     genres: [bass]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: brinapasticceria, website: https://www.brina1975.it}
+    ig_source: user
+    ig_type: business
     verified: false
-    notes: "Seen on @nightlifebergamo. Gabass Subculture nights."
+    notes: "Seen on @nightlifebergamo. Gabass Subculture nights. Shops in Cologno al Serio, Caravaggio, Treviglio, Lurano. Sister venue Brina Bistrot (@brinabistrot, Via Treviglio 38, Brignano Gera d'Adda) also hosts events."
 
   - name: "Delblaco Lunch & Bar"
     aliases: ["Delblaco"]
@@ -838,8 +874,9 @@ venues:
     km: 15.1
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: delblacobar, website: null}
+    ig_source: user
+    ig_type: personal (no contact button)
     verified: false
     notes: "Seen on @nightlifebergamo."
 
@@ -852,10 +889,12 @@ venues:
     km: 14.8
     kind: club
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: mint_lounge, website: null}
+    ig_source: user
+    ig_type: business ("Cocktail bar"), verified
+    address: "Via Trieste 38, Chiuduno"
     verified: false
-    notes: "Seen on @nightlifebergamo."
+    notes: "Seen on @nightlifebergamo. Open Fri/Sat 21:00-03:30. Cheri Friday nights."
 
   - name: "Arya Lounge"
     city: "Romano di Lombardia"
@@ -865,10 +904,12 @@ venues:
     km: 20.5
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: arya.lounge, website: null}
+    ig_source: user
+    ig_type: business ("Dance club and nightclub")
+    address: "Via Balilla 66, Romano di Lombardia"
     verified: false
-    notes: "Seen on @nightlifebergamo. Just over 20 km."
+    notes: "Seen on @nightlifebergamo. Just over 20 km. Fri/Sat 21:00-03:00, also Wed/Thu/Sun nights."
 
   - name: "Al Tabarin"
     aliases: ["Tabarin"]
@@ -879,10 +920,12 @@ venues:
     km: 20.5
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: al_tabarin, website: null}
+    ig_source: user
+    ig_type: business ("Restaurant")
+    address: "Via Balilla 163, Romano di Lombardia"
     verified: false
-    notes: "Seen on @nightlifebergamo. Just over 20 km."
+    notes: "Seen on @nightlifebergamo. Just over 20 km. Bar/restaurant; MiuMiuu Friday nights."
 
   - name: "Charleston"
     aliases: ["Charleston The Club", "Charleston Treviglio"]
@@ -893,10 +936,12 @@ venues:
     km: 20.8
     kind: club
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: charleston.treviglio, website: null}
+    ig_source: user
+    ig_type: business ("Cocktail bar")
+    address: "Via Rossaro 28, Treviglio"
     verified: false
-    notes: "Seen on @nightlifebergamo. Just over 20 km."
+    notes: "Seen on @nightlifebergamo. Just over 20 km. Lounge, dinner and cocktail bar. Hosts Call Out (@call._.out)."
 
   - name: "Officina Panarari"
     aliases: ["Panarari"]
@@ -907,10 +952,12 @@ venues:
     km: 20.8
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: officinapanarari, website: null}
+    ig_source: user
+    ig_type: business ("Restaurant")
+    address: "Via Caravaggio 31, Treviglio"
     verified: false
-    notes: "Seen on @nightlifebergamo. Just over 20 km."
+    notes: "Seen on @nightlifebergamo. Just over 20 km. Friday events: Naif Party, Matalo (reggaeton/latin house)."
 
   - name: "Bar San Marco"
     aliases: ["San Marco Sarnico"]
@@ -921,10 +968,11 @@ venues:
     km: 22.4
     kind: bar
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: bar_sanmarco, website: null}
+    ig_source: user
+    ig_type: business ("Cocktail bar")
     verified: false
-    notes: "Seen on @nightlifebergamo. Outside 20 km."
+    notes: "Seen on @nightlifebergamo. Outside 20 km. DJ nights Fri/Sat (Iconik, 16manu)."
 
   - name: "Tassino Café"
     aliases: ["Tassino", "Tassino Cafe"]
