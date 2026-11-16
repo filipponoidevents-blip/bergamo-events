@@ -5,6 +5,7 @@ import re
 
 CATEGORIES = {
     "dj_club": "DJ / club night",
+    "ballo_da_sala": "Ballo da sala / liscio",
     "live_music": "Live music",
     "comedy": "Comedy",
     "quiz_games": "Quiz / games",
@@ -15,6 +16,8 @@ CATEGORIES = {
 
 _W = r"(?<![\w])(?:{})(?![\w])"
 PATTERNS = [
+    ("ballo_da_sala", r"ballo da sala|balli da sala|liscio|ballo liscio|balli di gruppo|ballo di gruppo|"
+                      r"valzer|mazurka|polka|tango argentino|milonga|orchestra spettacolo|balera"),
     ("dj_club", r"dj|dj set|djset|b2b|line ?up|techno|house|tech house|afro house|deep house|minimal|"
                 r"club night|after ?party|afterhour|rave|clubbing|disco ?music|selecta|vinili|vinyl|consolle|console|"
                 r"drum ?(?:&|and|n) ?bass|dnb|trance|hard ?style|reggaeton|hip ?hop|urban|commerciale|"
@@ -35,9 +38,11 @@ _COMPILED = [(cat, re.compile(_W.format(p), re.I)) for cat, p in PATTERNS]
 
 
 def categorize(text: str, venue_kind: str | None = None) -> str:
-    """DJ/club signals win over everything (a dinner with a DJ set is still a DJ night);
+    """Ballroom / liscio first (a balera with a DJ is still not a club night); then DJ/club signals win over everything (a dinner with a DJ set is still a DJ night);
     then live music; then the non-music categories in the order above."""
     hits = {cat for cat, rx in _COMPILED if rx.search(text or "")}
+    if "ballo_da_sala" in hits:
+        return "ballo_da_sala"
     if "dj_club" in hits:
         return "dj_club"
     if "live_music" in hits and not ({"comedy", "quiz_games"} & hits):

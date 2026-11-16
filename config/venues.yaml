@@ -113,6 +113,7 @@ venues:
     lon: 9.530
     km: 12.0
     kind: club
+    category: ballo_da_sala   # Filippo 2026-11-16: ballo da sala, not a club night -> off the calendar
     status: active
     socials: {instagram: decibel_club, website: null}
     ig_source: user

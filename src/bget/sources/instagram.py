@@ -198,7 +198,12 @@ class InstagramSource(Source):
                 self._queue(q, ex, post, user, acc.get("venue"))
         if accounts:
             q["next_account"] = (start + checked) % len(accounts)
-        for it in q["items"].values():  # a lowered auto_approve_confidence also applies to waiting ones
+        for it in q["items"].values():
+            if (cat := self._venue_category(it["event"].get("venue_name") or it.get("account_venue"))):
+                it["kind"] = cat  # venue category set by hand applies to nights already read
+                if cat not in self.calendar_kinds:
+                    it["status"] = "info"
+            # a lowered auto_approve_confidence also applies to waiting ones
             if it["status"] == "pending" and it.get("confidence", 0) >= self.auto_conf:
                 it["status"] = "auto"
         self._save_review(q)
@@ -215,8 +220,9 @@ class InstagramSource(Source):
             if e.date < today:  # already happened: nothing to put on the calendar
                 continue
             item_id = f"{post['id']}-{i}"
-            kind = e.kind if e.kind in CATEGORIES else categorize(
-                f"{e.title} {' '.join(e.genres)} {caption}", self._venue_kind(e.venue_name or account_venue))
+            kind = self._venue_category(e.venue_name or account_venue) or (
+                e.kind if e.kind in CATEGORIES else categorize(
+                    f"{e.title} {' '.join(e.genres)} {caption}", self._venue_kind(e.venue_name or account_venue)))
             if kind not in self.calendar_kinds:
                 status = "info"  # kept for reference (other_events.md / other.ics), never on the main calendar
             elif ex.confidence >= self.auto_conf:
@@ -236,6 +242,16 @@ class InstagramSource(Source):
                 "image": (_images(post) or [None])[0],
                 "event": e.model_dump(),
             }
+
+    def _venue_category(self, name: str | None) -> str | None:
+        """`category:` on a venue in venues.yaml fixes the category of all its nights (Decibel: ballo_da_sala)."""
+        if not name:
+            return None
+        for v in self.cfg.venues:
+            if name.lower() in [v["name"].lower(), *[a.lower() for a in v.get("aliases") or []]]:
+                return v.get("category")
+        v = self.cfg.match_venue(name)
+        return next((x.get("category") for x in self.cfg.venues if v and x["name"] == v.name), None)
 
     def _venue_kind(self, name: str | None) -> str | None:
         v = self.cfg.match_venue(name) if name else None
