@@ -1,0 +1,405 @@
+# Promoters, crews and festival brands active in the Bergamo +20 km area (researched 2026-11-16).
+# Not read by the pipeline yet: use it to fill `instagram_watch.accounts` in sources.yaml and
+# to recognise organiser names in event titles. Same ig_source / ig_type meaning as venues.yaml.
+
+promoters:
+  - name: Hidden Hell
+    instagram: hiddenhell.techno
+    ig_source: user
+    genres: [hard techno]
+    venues: [Bolgia, Zero Club]
+    notes: Hidden Hell x Code at Zero Club (13 Nov 2026). Runs Bolgia Main Room nights (e.g. USH opening, 5 Sep 2026).
+  - name: Galactica Festival
+    instagram: galactica.festival
+    ig_source: search
+    genres: [techno]
+    venues: [Bolgia]
+    relevance: low
+    notes: "One-off big-event brand that collaborated with Bolgia; not a regular local promoter (per Filippo)."
+  - name: JUICE Crew
+    aliases: [JUICE, JUICE (BG)]
+    instagram: juiceclubit
+    ig_source: user
+    ig_type: business (Call button)
+    website: https://www.juiceclub.it
+    genres: [house, tech house]
+    venues: [Nikita, Setai Club, LOFT Bergamo]
+    notes: Deep house (Dani Vescovi, Lapo Underground, Nesta). Runs "El Jardín de Nikita". Partners LOFT Bergamo, LOOP, Metaphora, Beatmode.
+  - name: Groove Factory
+    instagram: null
+    ig_source: null
+    genres: [tech house]
+    venues: [Bolgia]
+    notes: "Bolgia's own tech house night brand (per Filippo). No own Instagram: posted by @bolgia.official. Ilario Alicante 14 Nov 2026; Summer Garden opening."
+  - name: Supertato
+    instagram: supertatobolgia
+    ig_source: search
+    venues: [Bolgia]
+    notes: Party brand at Bolgia.
+  - name: LTC (Lorenzo Tiezzi Comunicazione)
+    instagram: null
+    ig_source: null
+    venues: [Bolgia]
+    notes: Press office / RA promoter account for Bolgia. Good source of announcements, not an organiser.
+  - name: MiDi Motori Digitali
+    instagram: null
+    ig_source: null
+    genres: [electronic]
+    venues: [Edoné]
+    notes: Electronic nights with blo:som.
+  - name: Le Cannibale
+    instagram: lecannibaleclub
+    ig_source: user
+    genres: [house, disco]
+    venues: [Daste, Gres Art 671]
+    notes: Milan brand. Open All at Gres Art 671 (14 Nov 2026).
+  - name: Sabotage
+    instagram: null
+    ig_source: null
+    genres: [techno]
+    venues: [Daste]
+    notes: Milan brand; "Sotterranea" special event at Daste.
+  - name: utōpia
+    aliases: [Utopia, Utopia Crew, Utopia & Acrylic]
+    instagram: utopia.direction
+    ig_source: user
+    ig_type: business (Email button)
+    genres: [melodic house]
+    venues: [Daste, Gres Art 671, Tassino Café]
+    notes: Open All at Gres Art 671 (13 Nov 2026), utopia x tassino. Brought Innervisions / Âme to Daste.
+  - name: Discopasta Social Club
+    instagram: discopastasc
+    ig_source: search
+    genres: [disco, house]
+  - name: Greebo Party
+    instagram: greebopartybergamo
+    ig_source: search
+  - name: Newrant Crew
+    instagram: newrant_crew_bergamo
+    ig_source: search
+  - name: BassBrigade / Tribe73 / Beetek / KTN
+    instagram: null
+    ig_source: null
+    genres: [tekno, free party]
+    venues: [JClub (Ponte San Pietro)]
+    notes: Tekno crews; 12h "Karnival Horror Party" at JClub, Feb 2025.
+  - name: Night Life Bergamo
+    instagram: nightlifebergamo
+    ig_source: user
+    use: venue_discovery_only   # Filippo: good for finding venues, NOT a calendar source
+    posts: Wednesday, covering the same week (Wed-Sun)
+    notes: Weekly carousel listing every night out in the province. Use it to discover venues and promoters; do not import its listings as events.
+  - name: Sommet
+    instagram: sommet_night
+    ig_source: user
+    venues: [Unplug Bar]
+  - name: NØID
+    instagram: noidfamilia
+    ig_source: user
+    genres: [house, tech house]
+    venues: [Zero Club]
+    notes: Zero Club main room night (Germano Ventura guest, 14 Nov 2026).
+  - name: ICKS
+    instagram: icksdresstoimpress
+    ig_source: user
+    ig_type: business (Contact button)
+    website: https://icks.it
+    venues: [Daste]
+    notes: "Afterparties at Daste (Pump battle 14 Nov 2026, MURA festival). Related accounts @letitpump (dance battles) and @trendy.exp (market)."
+  - name: Gabass Subculture
+    instagram: null
+    ig_source: null
+    venues: [Brina Pasticceria]
+  - name: Vida Loca
+    instagram: null
+    ig_source: null
+    venues: [Nikita]
+  - name: Borgo Santa Caterina
+    instagram: borgo.santa.caterina
+    ig_source: user
+    notes: Shopkeepers' association of Borgo Santa Caterina (Bergamo). Runs street events (e.g. Halloween); low music relevance.
+  - name: Bergamo Night Service
+    instagram: bergamonightservice
+    ig_source: search
+    notes: Free night bus, not a promoter. Useful for transport info in posts.
+  - name: PLEASE
+    instagram: please.nights
+    ig_source: user
+    venues: [Zero Club]
+    notes: Every Wednesday at Zero Club, free entry.
+  - name: TALK
+    instagram: talk.maf
+    ig_source: user
+    genres: [house]
+    venues: [Zero Club]
+  - name: Sloth
+    instagram: sloth.bg
+    ig_source: user
+    venues: [Zero Club]
+    notes: Zero Club club room.
+  - name: Step Up
+    instagram: we.are.stepup
+    ig_source: user
+    venues: [Zero Club]
+    notes: Zero Club club room.
+  - name: UniBG Party
+    instagram: unibg_party
+    ig_source: user
+    genres: [hits, dance]
+    venues: [Zero Club]
+    notes: University parties; low relevance.
+  - name: Premiere
+    instagram: premiere.premiere
+    ig_source: user
+    genres: [trap, hip hop]
+    venues: [Zero Club]
+    notes: Low relevance.
+  - name: The Circle
+    instagram: the.circlehub
+    ig_source: user
+    venues: [Zero Club]
+  - name: Crystal Castles Night
+    instagram: crystalcastlesnightt
+    ig_source: user
+    genres: [witch house, EDM]
+    venues: [Zero Club]
+  - name: CRØMA
+    instagram: cromaroom
+    ig_source: user
+    genres: [trap, hip hop, urban]
+    venues: [Zero Club]
+    notes: Low relevance. With Bar Florio in the club room.
+  - name: OASI
+    instagram: oasi.night
+    ig_source: user
+    venues: [Vibe Club]
+    notes: Friday nights at Vibe Club (20 Nov 2026, main room with Selected Lab). Tickets on U-pass.
+  - name: Selected Lab
+    instagram: selected.lab
+    ig_source: user
+    venues: [Vibe Club]
+  - name: Upside Down
+    instagram: upside.down.night
+    ig_source: user
+    venues: [Vibe Club]
+    notes: Vibe Club Theater Room.
+  - name: Alive
+    instagram: aliveofficialparty
+    ig_source: user
+    venues: [Vibe Club]
+    notes: "Alive event at Vibe Club, 6 Dec 2026."
+
+# ---- Party / night names seen on @nightlifebergamo (12-15 Nov 2026). Handles not known yet. ----
+  - name: Code
+    instagram: null
+    ig_source: null
+    venues: [Zero Club]
+    notes: With Hidden Hell (13 Nov), hard techno.
+  - name: Enter the Void
+    instagram: null
+    ig_source: null
+    venues: [Nikita]
+    notes: With Vida Loca (14 Nov).
+  - name: Lova
+    instagram: null
+    ig_source: null
+    venues: [Nikita]
+  - name: "Ventitr\xE9"
+    instagram: null
+    ig_source: null
+    venues: [Nikita]
+    notes: Early slot 22:30-00:00, free.
+  - name: Savage
+    instagram: null
+    ig_source: null
+    venues: [Bobadilla]
+  - name: Otra Vez
+    instagram: null
+    ig_source: null
+    venues: [Bobadilla]
+    notes: Latin.
+  - name: Aperitivo Martini
+    instagram: null
+    ig_source: null
+    venues: [Bobadilla]
+    notes: Sunday aperitivo.
+  - name: Merci
+    instagram: null
+    ig_source: null
+    venues: [Setai Club]
+  - name: Studio Legale
+    instagram: null
+    ig_source: null
+    venues: [Thanka]
+    notes: 16+.
+  - name: Noche Latina
+    instagram: null
+    ig_source: null
+    venues: [Thanka]
+    notes: Latin.
+  - name: Tocame
+    instagram: null
+    ig_source: null
+    venues: [Capogiro]
+    notes: Latin/reggaeton.
+  - name: Spicy
+    instagram: null
+    ig_source: null
+    venues: [Capogiro]
+  - name: "Elysium Priv\xE8"
+    instagram: null
+    ig_source: null
+    venues: [Capogiro]
+    notes: With 4us.
+  - name: C'est la vie
+    instagram: null
+    ig_source: null
+    venues: [Vibe Club]
+  - name: Offline
+    instagram: null
+    ig_source: null
+    venues: [Vibe Club]
+  - name: Open Bar Night
+    instagram: null
+    ig_source: null
+    venues: [Oronero]
+  - name: Rockoteca
+    instagram: null
+    ig_source: null
+    venues: [Daste]
+    notes: Rock night; low relevance.
+  - name: Chewing Gum
+    instagram: null
+    ig_source: null
+    venues: [Queen Club]
+    notes: Flower Party.
+  - name: DiscoDance
+    instagram: null
+    ig_source: null
+    venues: [Queen Club]
+  - name: La Casita
+    instagram: null
+    ig_source: null
+    venues: [Hype Club]
+    notes: Tickets online.
+  - name: Afrodylan
+    instagram: afrodylanofficial
+    ig_source: user
+    ig_type: business (Contact button)
+    genres: [afro, reggaeton, world]
+    venues: [Druso]
+    notes: "Touring afro night brand (also Plaza Disco, Lake Garda). Druso 14 Nov and 7 Dec 2026. Bolgia follows it."
+  - name: Tra terra e cielo
+    instagram: null
+    ig_source: null
+    venues: [Ninfea Social Club]
+    notes: DJ and vinyl sets from 17:00.
+  - name: Club Culture
+    instagram: null
+    ig_source: null
+    venues: [Barry's]
+  - name: Hi-Fi Fever
+    instagram: null
+    ig_source: null
+    venues: [Sprint]
+  - name: Side A
+    instagram: null
+    ig_source: null
+    venues: [In Croissanteria Lab]
+  - name: Rapture
+    instagram: null
+    ig_source: null
+    venues: [Bar Perlage]
+  - name: Bucolic Party
+    instagram: null
+    ig_source: null
+    venues: [Cosmo Food Club]
+  - name: Honey
+    instagram: null
+    ig_source: null
+    venues: [Savana King]
+  - name: Pitch
+    instagram: null
+    ig_source: null
+    venues: [Into The Woods]
+    notes: Aperitivo with DJ.
+  - name: "L'Ap\xE9ritif by Earth"
+    instagram: null
+    ig_source: null
+    venues: [Cafeteria]
+    notes: With Boheme.
+  - name: Boheme
+    instagram: null
+    ig_source: null
+    venues: [Cafeteria]
+    notes: "With L'Ap\xE9ritif by Earth."
+  - name: '#NoFilter'
+    instagram: null
+    ig_source: null
+    venues: [Jam Live Studio]
+  - name: Zona de Perreo
+    instagram: null
+    ig_source: null
+    venues: [Jam Live Studio]
+    notes: Reggaeton; low relevance.
+  - name: Call Out
+    instagram: call._.out
+    ig_source: user
+    venues: [Charleston]
+  - name: Choose Me
+    instagram: null
+    ig_source: null
+    venues: [Charleston]
+  - name: Lipstick
+    instagram: null
+    ig_source: null
+    venues: [MINT]
+  - name: Sabado de Pikete
+    instagram: null
+    ig_source: null
+    venues: [Garota de Ipanema]
+    notes: Latin; low relevance.
+  - name: Traviesa
+    instagram: null
+    ig_source: null
+    venues: [Garota de Ipanema]
+    notes: Latin; low relevance.
+  - name: Krystal404
+    instagram: null
+    ig_source: null
+    venues: [Sabbie Mobili]
+  - name: Naif
+    instagram: null
+    ig_source: null
+    venues: [Officina Panarari]
+  - name: MiuMiuu
+    instagram: null
+    ig_source: null
+    venues: [Al Tabarin]
+  - name: Back to the 90s
+    instagram: null
+    ig_source: null
+    venues: [Delblaco Lunch & Bar]
+  - name: One Place, Two Souls
+    instagram: null
+    ig_source: null
+    venues: [Casa Costez]
+    notes: Live dinner show + DJ.
+  - name: cento10elode
+    instagram: null
+    ig_source: null
+    venues: [Bar 30&Lode]
+    notes: Spritz Party.
+  - name: Icon
+    aliases: [ICON Events]
+    instagram: iconevents.official
+    ig_source: user
+    ig_type: business ("Event")
+    genres: [tech house]
+    venues: [Tiky Klub, Contest Cocktail Bar]
+    notes: "Presented by @il_boffe. Tech house night with Boffe and Illes at Tiky 20 Nov 2026; aperitivo DJ set at Contest 15 Nov."
+  - name: Muchacha
+    instagram: null
+    ig_source: null
+    venues: [Thanka]
+    notes: '"Muchacha mi casa es tu casa" party (with @micasa.records?).'

@@ -25,7 +25,7 @@ def test_italian_flyer_caption():
 def test_numeric_date_and_named_venue_in_caption():
     ex = read("Venerdì 27.11 tech house all night @ Edonè, dalle 23 alle 4")
     e = ex.events[0]
-    assert e.date == "2026-11-27" and e.venue_name == "Edonè" and e.start_time == "23:00" and e.end_time == "04:00"
+    assert e.date == "2026-11-27" and e.venue_name == "Edoné" and e.start_time == "23:00" and e.end_time == "04:00"
     assert "tech house" in e.genres
 
 
@@ -87,7 +87,7 @@ def test_listing_text_splits_by_day_and_venue():
     text = "AGENDA DELLA SETTIMANA\nVENERDÌ 20\nBOLGIA - Techno Society\nSABATO 21\nEdonè\nHouse Session\nDRUSO - Indie Night"
     ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=POSTED, account="agg", account_venue=None)
     got = [(e.date, e.venue_name, e.title) for e in ex.events]
-    assert got == [("2026-11-20", "Bolgia", "Techno Society"), ("2026-11-21", "Edonè", "House Session"),
+    assert got == [("2026-11-20", "Bolgia", "Techno Society"), ("2026-11-21", "Edoné", "House Session"),
                    ("2026-11-21", "Druso", "Indie Night")]
     assert ex.confidence < 0.85  # always reviewed
 
