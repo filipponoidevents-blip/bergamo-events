@@ -51,7 +51,9 @@ def describe(ev: Event) -> str:
     return "\n".join(lines)
 
 
-def build_ics(events: Iterable[Event], name: str, prefix: str = "") -> str:
+def build_ics(events: Iterable[Event], name: str, prefix: str = "",
+              reminders: Iterable[tuple] = ()) -> str:
+    """reminders: (uid, date, summary, description) all-day notes, e.g. token renewal."""
     now = _utc(datetime.now(timezone.utc))
     out = [
         "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//bergamo-events-tracker//EN",
@@ -78,5 +80,11 @@ def build_ics(events: Iterable[Event], name: str, prefix: str = "") -> str:
         if ev.venue.lat is not None:
             out.append(f"GEO:{ev.venue.lat};{ev.venue.lon}")
         out.append("END:VEVENT")
+    for uid, day, summary, desc in reminders:
+        out += [
+            "BEGIN:VEVENT", f"UID:{uid}@bergamo-events", f"DTSTAMP:{now}",
+            f"DTSTART;VALUE=DATE:{day:%Y%m%d}", f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
+            f"SUMMARY:{_esc(summary)}", f"DESCRIPTION:{_esc(desc)}", "END:VEVENT",
+        ]
     out.append("END:VCALENDAR")
     return "\r\n".join(_fold(l) for l in out) + "\r\n"

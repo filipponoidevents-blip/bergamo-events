@@ -41,7 +41,7 @@ MEDIA_FIELDS = "id,caption,media_type,media_url,thumbnail_url,permalink,timestam
 
 
 class GraphClient:
-    def __init__(self, user_id: str, token: str, version: str = "v23.0"):
+    def __init__(self, user_id: str, token: str, version: str = "v27.0"):
         self.user_id, self.token, self.version = user_id, token, version
 
     def recent_media(self, username: str, limit: int = 12) -> list[dict[str, Any]]:
@@ -82,6 +82,7 @@ class InstagramSource(Source):
         self._graph = graph
         self._extractor = extractor
         self._ig = ig
+        self.token_problem: str | None = None
 
     # lazily built so a run with the source disabled never needs credentials
     @property
@@ -91,7 +92,7 @@ class InstagramSource(Source):
             tok = os.environ.get("IG_ACCESS_TOKEN")
             if not uid or not tok:
                 raise RuntimeError("IG_ACCESS_TOKEN secret (or instagram.user_id) is not set")
-            self._graph = GraphClient(uid, tok, self._ig.get("graph_version", "v23.0"))
+            self._graph = GraphClient(uid, tok, self._ig.get("graph_version", "v27.0"))
         return self._graph
 
     @property
@@ -139,6 +140,10 @@ class InstagramSource(Source):
             except Exception as e:  # noqa: BLE001
                 errors.append(str(e))
                 log.warning("instagram: %s", e)
+                if any(k in str(e) for k in ("(#190)", "Error validating access token", "Session has expired",
+                                             "IG_ACCESS_TOKEN", "(#10)")):
+                    self.token_problem = str(e)
+                    break  # same failure for every account: stop early
                 continue
             for post in posts:
                 pid = post["id"]

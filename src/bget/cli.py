@@ -44,6 +44,12 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
             stats["errors"] += 1
             log.error("source %s failed: %s", spec["id"], e)
         if isinstance(src, InstagramSource):
+            flag = cfg.root / "out" / "token_problem.txt"
+            flag.parent.mkdir(exist_ok=True)
+            if src.token_problem:
+                flag.write_text(src.token_problem + "\n\n" + TOKEN_HELP)
+            elif flag.exists():
+                flag.unlink()
             stats["removed"] = stats.get("removed", 0) + store.drop_sources(src.rejected_source_ids())
             q = src._load_review()
             write_review_md(cfg.root, q["items"], *src.decisions())
@@ -58,12 +64,33 @@ def upcoming(store: Store, scope: Scope, days_back: int = 7):
     return [e for e in store.all() if e.scope == scope and e.start >= cutoff]
 
 
+TOKEN_HELP = ("Instagram token expires soon. Graph API Explorer -> Generate Access Token (permissions: "
+              "instagram_basic, instagram_manage_insights, pages_read_engagement, pages_show_list, "
+              "business_management) -> Access Token Tool -> Extend -> paste into the IG_ACCESS_TOKEN "
+              "GitHub secret, then update instagram.token_renewed in config/settings.yaml.")
+
+
+def maintenance_reminders(cfg: Config) -> list[tuple]:
+    """All-day notes in the alerts calendar: renew the Instagram token before it expires (~60 days)."""
+    out = []
+    ig = cfg.settings.get("instagram", {})
+    if ig.get("token_renewed"):
+        renewed = date.fromisoformat(str(ig["token_renewed"]))
+        for d in (50, 55, 58):
+            out.append((f"ig-token-{renewed}-{d}", renewed + timedelta(days=d),
+                        "⚠️ Rinnova il token Instagram", TOKEN_HELP))
+    flag = cfg.root / "out" / "token_problem.txt"
+    if flag.exists():
+        out.append(("ig-token-broken", date.today(), "⚠️ Token Instagram non valido", flag.read_text()))
+    return out
+
+
 def write_calendars(cfg: Config, store: Store) -> None:
     out = cfg.root / "out"
     out.mkdir(exist_ok=True)
     (out / "bergamo.ics").write_text(calendar_ics.build_ics(upcoming(store, Scope.LOCAL), "Bergamo Nights"))
-    (out / "alerts.ics").write_text(
-        calendar_ics.build_ics(upcoming(store, Scope.ALERT), "Bergamo Nights · Big events", prefix="⚡ "))
+    (out / "alerts.ics").write_text(calendar_ics.build_ics(
+        upcoming(store, Scope.ALERT), "Bergamo Nights · Big events", prefix="⚡ ", reminders=maintenance_reminders(cfg)))
     # one combined feed is handy for a single subscription
     both = sorted(upcoming(store, Scope.LOCAL) + upcoming(store, Scope.ALERT), key=lambda e: e.start)
     (out / "all.ics").write_text(calendar_ics.build_ics(both, "Bergamo Nights · All"))

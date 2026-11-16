@@ -46,8 +46,9 @@ thresholds:
 
 # Instagram auto-check (source type "instagram" in sources.yaml)
 instagram:
+  token_renewed: 2026-11-16   # date the IG_ACCESS_TOKEN secret was last set; renewal reminders go in alerts.ics
   user_id: "17841456676305081"  # @seratebergamo, the account making the API calls (not secret)
-  graph_version: v23.0        # Meta Graph API version
+  graph_version: v27.0        # Meta Graph API version (matches the Graph API Explorer, Nov 2026)
   posts_per_account: 12       # latest posts read per account per run
   max_post_age_days: 21       # older posts are skipped
   ocr: false                  # free: read text in flyer images with Tesseract for every account (slower)
