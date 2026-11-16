@@ -17,56 +17,56 @@ venues: {}
 #  Queen Club: Commerciale
 
 # 3) A whole promoter (name as in promoters.yaml): same idea, wins over the venue.
-promoters:   # set by Filippo, 2026-11-16
-  Hidden Hell: Hard Techno
-  Galactica Festival: Techno
-  JUICE Crew: House
-  Le Cannibale: House
-  utōpia: Melodic House
-  Discopasta Social Club: Disco
-  Sommet: House
-  NØID: House
-  ICKS: Hip Hop / Afrobeat
-  The Box Bergamo: Melodic Techno
-  BSK Sound: Tech House
-  PLEASE: Commerciale 360
-  TALK: House
-  Sloth: Hip Hop / Trap
-  Step Up: American Hip Hop
-  UniBG Party: Hits / Dance
-  Premiere: Hip Hop / Trap
-  The Circle: Commerciale
-  Crystal Castles Night: Witch House / EDM
-  CRØMA: Hip Hop / Trap
-  OASI: Tech House
-  Selected Lab: Tech House
-  Alive: School Party
-  Afrodylan: Afro / Reggaeton
-  Call Out: Tech House
-  Icon: Tech House
-  Groove Factory: Tech House
-  MiDi Motori Digitali: Electronic
-  Sabotage: Hip Hop
-  BassBrigade / Tribe73 / Beetek / KTN: Tekno / Free Party
-  Gabass Subculture: Tech House
-  Vida Loca: Commerciale
-  Code: Hard Techno
-  Enter the Void: Commerciale 360
-  Ventitré: Live
-  Savage: Trap
-  Otra Vez: Latin
-  Merci: Commerciale
-  Noche Latina: Latin
-  Tocame: Latin
-  Spicy: Commerciale
-  C'est la vie: Commerciale
-  Offline: Tech House / Minimal
-  Rockoteca: Rock
-  La Casita: Commerciale / Reggaeton
-  Hi-Fi Fever: Vinyl
-  Pitch: Commerciale
-  L'Apéritif by Earth: House Commerciale
-  Zona de Perreo: Latin
-  Back to the 90s: Dance
-  cento10elode: Commerciale
-  Muchacha: Latin
+promoters:   # set by Filippo (promoter genres sheet), 2026-11-16
+  "Hidden Hell": "Hard Techno"
+  "Galactica Festival": "Techno, Hard Techno"
+  "JUICE Crew": "House"
+  "Le Cannibale": "House"
+  "utōpia": "Melodic House"
+  "Discopasta Social Club": "Disco"
+  "Sommet": "House"
+  "NØID": "House"
+  "ICKS": "Hip Hop, Afrobeat"
+  "The Box Bergamo": "Melodic Techno"
+  "BSK Sound": "Tech House"
+  "PLEASE": "Commerciale 360"
+  "TALK": "House"
+  "Sloth": "Hip Hop / Trap"
+  "Step Up": "American Hip Hop"
+  "UniBG Party": "Hits / Dance"
+  "Premiere": "Hip Hop / Trap"
+  "The Circle": "Commerciale"
+  "Crystal Castles Night": "Witch House / EDM"
+  "CRØMA": "Hip Hop / Trap"
+  "OASI": "Tech House"
+  "Selected Lab": "Tech House"
+  "Alive": "School Party"
+  "Afrodylan": "Afro / Reggaeton"
+  "Call Out": "Tech House"
+  "Icon": "Tech House"
+  "Groove Factory": "Tech House"
+  "MiDi Motori Digitali": "Electronic"
+  "Sabotage": "Hip Hop"
+  "BassBrigade / Tribe73 / Beetek / KTN": "Tekno / Free Party"
+  "Gabass Subculture": "Tech House"
+  "Vida Loca": "Commerciale"
+  "Code": "Hard Techno"
+  "Enter the Void": "Commerciale 360"
+  "Ventitré": "Live"
+  "Savage": "Trap"
+  "Otra Vez": "Latin"
+  "Merci": "Commerciale"
+  "Noche Latina": "Latin"
+  "Tocame": "Latin"
+  "Spicy": "Commerciale"
+  "C'est la vie": "Commerciale"
+  "Offline": "Tech House / Minimal"
+  "Rockoteca": "Rock"
+  "La Casita": "Commerciale / Reggaeton"
+  "Hi-Fi Fever": "Vinyl"
+  "Pitch": "Commerciale"
+  "L'Apéritif by Earth": "House Commerciale"
+  "Zona de Perreo": "Latin"
+  "Back to the 90s": "Dance"
+  "cento10elode": "Commerciale"
+  "Muchacha": "Latin"
