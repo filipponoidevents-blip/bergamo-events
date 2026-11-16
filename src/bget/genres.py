@@ -33,7 +33,7 @@ GENRES: list[tuple[str, str]] = [
     ("Hip hop / trap", r"hip ?-?hop|trap|rap(?!ture|id)|r&b|rnb|r'n'b|drill|urban"),
     ("Revival", r"revival|remember|anni ?'?(?:60|70|80|90)|'?(?:70|80|90)s|'?(?:70|80|90)'s|2000s|anni 2000|"
                 r"old ?school|eurodance|italo ?dance"),
-    ("Commercial", r"commerciale|commercial|hits|top hits|edm|top 40|mainstream|pop(?!-?up)|reggaeton e commerciale|"
+    ("Commerciale", r"commerciale|commercial|hits|top hits|edm|top 40|mainstream|pop(?!-?up)|reggaeton e commerciale|"
                    r"dance commerciale"),
     ("Electronic", r"electronic|elettronica|club culture|clubbing|underground|electronic music|musica elettronica"),
 ]
@@ -72,6 +72,13 @@ def _pick(genres: list[str] | None) -> str | None:
     return _from_list(genres)
 
 
+# Promoter names that are also everyday words: matched only by Instagram handle, never by text,
+# so "dress code" or "spicy margarita" don't pick a promoter's genre.
+AMBIGUOUS_NAMES = {"code", "merci", "savage", "spicy", "honey", "pitch", "offline", "alive", "lova", "icon",
+                   "talk", "please", "step up", "the circle", "side a", "lipstick", "choose me", "naif",
+                   "the box bergamo", "upside down", "club culture", "open bar night", "enter the void"}
+
+
 class GenreAssigner:
     def __init__(self, cfg: Config):
         ov = cfg.genre_overrides or {}
@@ -92,7 +99,7 @@ class GenreAssigner:
         for p in cfg.promoters:
             names = [p.get("name") or "", *(p.get("aliases") or [])]
             hand = next((promoter_ov[_norm(n)] for n in names if _norm(n) in promoter_ov), None)
-            self.promoters.append(([n for n in names if len(n) > 3], p.get("instagram"),
+            self.promoters.append(([n for n in names if len(n) > 3 and n.lower() not in AMBIGUOUS_NAMES], p.get("instagram"),
                                    [hand] if hand else (p.get("genres") or [])))
 
     def assign(self, ev: Event) -> tuple[str, str]:
@@ -105,7 +112,7 @@ class GenreAssigner:
         handles = {h.lower() for h in ev.all_handles("instagram")}
         text = f"{ev.title} {ev.promoter_name or ''}".lower()
         for names, ig, genres in self.promoters:
-            if (ig and ig.lower() in handles) or any(n.lower() in text for n in names):
+            if (ig and ig.lower() in handles) or any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", text) for n in names):
                 if (g := _pick(genres)):
                     return g, "promoter"
         if (g := _pick(self.venue_genres.get(_norm(ev.venue.name)))):

@@ -159,6 +159,6 @@ def test_caption_genres():
     assert detect("#discoteca #bergamo reggaeton e commerciale") == "Latin / reggaeton"
     assert detect("#technobergamo") == "Techno"
     assert detect("musica HOUSE e hits") == "House"
-    assert "Commercial" in detect_all("house e commerciale")
+    assert "Commerciale" in detect_all("house e commerciale")
     assert detect("pop-up store") is None
     assert "techno" in find_genres("Techno all night", ["techno", "house"])
