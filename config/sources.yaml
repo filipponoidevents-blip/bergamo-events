@@ -101,7 +101,7 @@ sources:
       - {username: daste_bergamo, venue: "Daste"}
       - {username: edonebergamo, venue: "Edoné"}
       - {username: circolinomalpensata_bergamo, venue: "Circolino della Malpensata"}
-      - {username: spazio_polaresco, venue: "Polaresco"}
+      # - {username: spazio_polaresco, venue: "Polaresco"}  # off 2026-11-16: Meta "Invalid user id" (personal/private or renamed)
       - {username: choruslife.bergamo, venue: "ChorusLife"}
       - {username: lazzaretto_bergamo_estate, venue: "Lazzaretto"}
       - {username: gres_art_671, venue: "Gres Art 671"}
@@ -129,7 +129,7 @@ sources:
       - {username: brinapasticceria, venue: "Brina Pasticceria"}
       - {username: mint_lounge, venue: "MINT"}
       - {username: liveclub, venue: "Live Club"}
-      - {username: nikitadiscoclub, venue: "Nikita"}
+      - {username: nikita__land, venue: "Nikita"}         # was nikitadiscoclub (rejected); new handle from Filippo 2026-11-16
       - {username: bv_rooftop, venue: "BV Rooftop"}
       - {username: baiadelrebrignano, venue: "Baia del Re"}
       - {username: hype.club.official, venue: "Hype Club"}
@@ -144,12 +144,15 @@ sources:
       - lecannibaleclub             # promoter: Le Cannibale
       - utopia.direction            # promoter: utōpia
       - discopastasc                # promoter: Discopasta Social Club
-      - greebopartybergamo          # promoter: Greebo Party
-      - newrant_crew_bergamo        # promoter: Newrant Crew
+      # - greebopartybergamo          # promoter: Greebo Party  # off 2026-11-16: Meta "Invalid user id" (personal/private or renamed)
+      # - newrant_crew_bergamo        # promoter: Newrant Crew  # off 2026-11-16: Meta "Invalid user id" (personal/private or renamed)
       - sommet_night                # promoter: Sommet
       - noidfamilia                 # promoter: NØID
       - icksdresstoimpress          # promoter: ICKS
-      - borgo.santa.caterina        # promoter: Borgo Santa Caterina
+      # - borgo.santa.caterina        # promoter: Borgo Santa Caterina  # off 2026-11-16: Meta "Invalid user id" (personal/private or renamed)
+      - theboxbergamo               # promoter: The Box (Borgo Santa Caterina)
+      - bsk.sound                   # promoter: BSK Sound (Borgo Santa Caterina)
+      - crocevia_                   # promoter: Crocevia (Borgo Santa Caterina)
       - bergamonightservice         # promoter: Bergamo Night Service
       - please.nights               # promoter: PLEASE
       - talk.maf                    # promoter: TALK
