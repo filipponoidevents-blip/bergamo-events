@@ -73,7 +73,7 @@ def _list_slide(header: str, rows: list[tuple[str, Event]]) -> Image.Image:
         d.text((70, y), label, font=_font(True, 30), fill=THEME["accent"])
         d.text((70, y + 40), _fit(d, ev.title, _font(True, 46), W - 140), font=_font(True, 46), fill=THEME["fg"])
         lineup = ", ".join(a.name for a in ev.artists[:4])
-        meta = f"{ev.venue.name} · {ev.venue.city}"
+        meta = f"{ev.venue.name} · {ev.venue.city}" + (f" · {ev.genre}" if ev.genre and ev.genre != "Unspecified" else "")
         d.text((70, y + 100), _fit(d, meta, _font(False, 32), W - 140), font=_font(False, 32), fill=THEME["muted"])
         if lineup:
             d.text((70, y + 142), _fit(d, lineup, _font(False, 32), W - 140), font=_font(False, 32), fill=THEME["fg"])

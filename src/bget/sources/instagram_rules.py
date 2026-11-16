@@ -8,6 +8,7 @@ from datetime import date, datetime, timedelta
 
 from ..config import Config
 from ..models import slug
+from .categories import categorize
 from .instagram_extract import ExtractedArtist, ExtractedEvent, Extraction
 
 MONTHS = {
@@ -163,6 +164,7 @@ class RulesExtractor:
         self.genres = sorted(cfg.settings.get("genres", {}), key=len, reverse=True)
         self.venue_names = [(v["name"], [v["name"], *v.get("aliases", [])]) for v in cfg.venues]
         self.venue_handles = {(v.get("socials") or {}).get("instagram") for v in cfg.venues} - {None}
+        self.venue_kinds = {v["name"]: v.get("kind") for v in cfg.venues}
 
     def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
         caption = caption or ""
@@ -203,6 +205,7 @@ class RulesExtractor:
             artists=[ExtractedArtist(name=h, instagram=h) for h in mentions[:8]],
             genres=genres[:3], ticket_url=tickets,
             is_concert=bool(CONCERT.search(caption)), is_festival=bool(FESTIVAL.search(caption)),
+            kind=categorize(caption, self.venue_kinds.get(venue)),
         ) for d in dates[:4]]
         notes = "read by the free pattern matcher" + ("; looks like a recap" if recap else "") + \
                 ("" if explicit else "; date guessed from a weekday name") + \
@@ -252,7 +255,8 @@ class ListingExtractor(RulesExtractor):
             low = line.lower()
             events.append(ExtractedEvent(
                 title=title or venue, date=day.isoformat(), start_time=start, end_time=end,
-                venue_name=venue, genres=[g for g in self.genres if g in low][:2]))
+                venue_name=venue, genres=[g for g in self.genres if g in low][:2],
+                kind=categorize(line + " " + title, self.venue_kinds.get(venue))))
         if not events:
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no day + venue pairs found")
         return Extraction(is_event_announcement=True, events=events, confidence=self.confidence,

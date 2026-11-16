@@ -15,10 +15,11 @@ from datetime import date, datetime, timedelta, timezone
 
 from . import calendar_ics, carousel, social
 from .config import Config
+from .genres import GenreAssigner
 from .models import Scope
 from .relevance import score_event
 from .sources import REGISTRY
-from .sources.instagram import InstagramSource, write_review_md
+from .sources.instagram import InstagramSource, other_events, write_other_events, write_review_md
 from .store import Store
 
 log = logging.getLogger("bget")
@@ -53,8 +54,12 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
             stats["removed"] = stats.get("removed", 0) + store.drop_sources(src.rejected_source_ids())
             q = src._load_review()
             write_review_md(cfg.root, q["items"], *src.decisions(), unreadable=q.get("unreadable_accounts"))
+            from zoneinfo import ZoneInfo
+            write_other_events(cfg.root, other_events(cfg, q["items"], ZoneInfo(cfg.settings.get("timezone", "Europe/Rome"))))
     # rescore everything so config edits apply to stored events too
+    genre = GenreAssigner(cfg)
     for ev in store.all():
+        ev.genre, ev.genre_source = genre.assign(ev)
         score_event(ev, cfg)
     return stats
 

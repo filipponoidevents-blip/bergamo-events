@@ -30,6 +30,8 @@ class ExtractedEvent(BaseModel):
     price: str | None = None
     is_concert: bool = Field(False, description="True if this is a live band/singer concert rather than a DJ/club night")
     is_festival: bool = False
+    kind: str | None = Field(None, description="One of: dj_club, live_music, comedy, quiz_games, food_drink, "
+                             "culture, other")
 
 
 class Extraction(BaseModel):

@@ -18,6 +18,7 @@ class Config:
     watchlist: dict[str, list[str]]
     venues: list[dict[str, Any]]
     towns: dict[str, dict[str, Any]]
+    promoters: list[dict[str, Any]] = None  # type: ignore[assignment]
     root: Path = ROOT
 
     @classmethod
@@ -31,6 +32,7 @@ class Config:
             watchlist={k: list(vs or []) for k, vs in y("watchlist.yaml").items()},
             venues=v.get("venues", []),
             towns=v.get("towns", {}),
+            promoters=(y("promoters.yaml").get("promoters", []) if (root / "config" / "promoters.yaml").exists() else []),
             root=root,
         )
 

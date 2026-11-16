@@ -79,6 +79,8 @@ class Event:
     end: datetime | None = None
     artists: list[Artist] = field(default_factory=list)
     genres: list[str] = field(default_factory=list)
+    genre: str | None = None             # one main genre for the night (genres.py)
+    genre_source: str | None = None      # event | promoter | venue | none
     category: Category = Category.OTHER
     description: str = ""
     url: str | None = None               # canonical event page

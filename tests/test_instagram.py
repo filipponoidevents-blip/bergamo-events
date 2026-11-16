@@ -137,3 +137,22 @@ def test_accounts_rotate_across_runs_and_stop_on_rate_limit(tmp_path):
     g3 = G()
     list(InstagramSource(spec, cfg, graph=g3, extractor=fake_extractor).collect())
     assert g3.seen[0] == "c"
+
+
+def test_non_club_events_are_kept_as_info_not_calendar(tmp_path):
+    cfg = make_root(tmp_path)
+
+    def comedy(**kw):
+        ex = fake_extractor(**kw)
+        for e in ex.events:
+            e.kind = "comedy"
+        return ex
+
+    spec = {"id": "ig", "type": "instagram", "accounts": [{"username": "club_a", "venue": "Bolgia"}]}
+    src = InstagramSource(spec, cfg, graph=FakeGraph(POSTS), extractor=comedy)
+    assert list(src.collect()) == []
+    q = src._load_review()
+    assert {i["status"] for i in q["items"].values()} == {"info"}
+    from zoneinfo import ZoneInfo
+    from bget.sources.instagram import other_events
+    assert [k for k, _ in other_events(cfg, q["items"], ZoneInfo("Europe/Rome"))] == ["comedy", "comedy"]

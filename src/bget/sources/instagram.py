@@ -31,6 +31,7 @@ import yaml
 
 from ..models import Artist, Category, Event, Socials, Venue
 from .base import USER_AGENT, Source
+from .categories import CATEGORIES, categorize
 from .instagram_extract import ClaudeExtractor, Extraction, Extractor
 from . import ocr
 from .instagram_rules import ListingExtractor, RulesExtractor
@@ -77,6 +78,7 @@ class InstagramSource(Source):
         self.max_age = timedelta(days=ig.get("max_post_age_days", 21))
         self.posts_per_account = ig.get("posts_per_account", 12)
         self.auto_conf = ig.get("auto_approve_confidence", 0.85)
+        self.calendar_kinds = set(ig.get("calendar_categories", ["dj_club"]))
         self.review_path = cfg.root / "data" / "ig_review.json"
         self.decisions_path = cfg.root / "config" / "ig_decisions.yaml"
         self._graph = graph
@@ -195,14 +197,25 @@ class InstagramSource(Source):
     def _queue(self, q, ex: Extraction, post, user, account_venue) -> None:
         if not ex.is_event_announcement:
             return
+        caption = (post.get("caption") or "")[:400]
         today = datetime.now(timezone.utc).date().isoformat()
         for i, e in enumerate(ex.events):
             if e.date < today:  # already happened: nothing to put on the calendar
                 continue
             item_id = f"{post['id']}-{i}"
+            kind = e.kind if e.kind in CATEGORIES else categorize(
+                f"{e.title} {' '.join(e.genres)} {caption}", self._venue_kind(e.venue_name or account_venue))
+            if kind not in self.calendar_kinds:
+                status = "info"  # kept for reference (other_events.md / other.ics), never on the main calendar
+            elif ex.confidence >= self.auto_conf:
+                status = "auto"
+            else:
+                status = "pending"
             q["items"][item_id] = {
                 "id": item_id,
-                "status": "auto" if ex.confidence >= self.auto_conf else "pending",
+                "kind": kind,
+                "caption": caption,
+                "status": status,
                 "confidence": round(ex.confidence, 2),
                 "notes": ex.notes,
                 "account": user,
@@ -212,11 +225,16 @@ class InstagramSource(Source):
                 "event": e.model_dump(),
             }
 
+    def _venue_kind(self, name: str | None) -> str | None:
+        v = self.cfg.match_venue(name) if name else None
+        return v.kind if v else None
+
     def approved_events(self, q) -> Iterable[Event]:
         approve, reject = self.decisions()
         tz = ZoneInfo(self.cfg.settings.get("timezone", "Europe/Rome"))
         for item_id, it in q["items"].items():
-            ok = (it["status"] == "auto" or item_id in approve) and item_id not in reject
+            ok = (it["status"] == "auto" or (item_id in approve and it["status"] != "info")) \
+                and item_id not in reject
             if ok:
                 try:
                     yield self.to_event(it, tz)
@@ -224,7 +242,9 @@ class InstagramSource(Source):
                     log.warning("instagram: bad date in %s: %s", item_id, e)
 
     def rejected_source_ids(self) -> set[str]:
-        return {f"ig:{x}" for x in self.decisions()[1]}
+        """Rejected by Filippo, or not a club night (kept as info only): off the calendar."""
+        info = {i for i, it in self._load_review().get("items", {}).items() if it.get("status") == "info"}
+        return {f"ig:{x}" for x in self.decisions()[1] | info}
 
     def to_event(self, it: dict, tz: ZoneInfo) -> Event:
         e = it["event"]
@@ -243,7 +263,8 @@ class InstagramSource(Source):
             title=e["title"], start=start, end=end, venue=venue,
             artists=[Artist(name=a["name"], socials=Socials(instagram=a.get("instagram"))) for a in e.get("artists", [])],
             genres=e.get("genres", []),
-            category=Category.CONCERT if e.get("is_concert") else Category.FESTIVAL if e.get("is_festival") else Category.CLUB,
+            category=(Category.CONCERT if e.get("is_concert") or it.get("kind") == "live_music"
+                      else Category.FESTIVAL if e.get("is_festival") else Category.CLUB),
             url=it.get("permalink"), ticket_url=e.get("ticket_url"), image_url=it.get("image"), price=e.get("price"),
             promoter=promoter, promoter_name=None if it.get("account_venue") else "@" + it["account"],
             sources=[f"ig:{it['id']}"], source_urls=[it.get("permalink")] if it.get("permalink") else [],
@@ -261,7 +282,12 @@ def write_review_md(root: Path, items: dict[str, Any], approve: set[str], reject
                         ("Auto-approved", lambda it: it["status"] == "auto")]:
         sel = [it for it in rows if cond(it) and it["id"] not in approve | reject and it["event"]["date"] >= today]
         lines += [f"## {title} ({len(sel)})", ""]
+        sel.sort(key=lambda it: (list(CATEGORIES).index(it.get("kind", "other")), it["event"]["date"]))
+        last_kind = None
         for it in sel:
+            if it.get("kind", "other") != last_kind:
+                last_kind = it.get("kind", "other")
+                lines += ["", f"**{CATEGORIES[last_kind]}**", ""]
             e = it["event"]
             who = ", ".join(a["name"] for a in e.get("artists", [])) or "-"
             lines.append(f"- `{it['id']}` **{e['title']}**, {e['date']} {e.get('start_time') or ''} at "
@@ -269,6 +295,10 @@ def write_review_md(root: Path, items: dict[str, Any], approve: set[str], reject
                          f"Line-up: {who}. Confidence {it['confidence']}. From @{it['account']} {it.get('permalink') or ''}"
                          + (f" _Note: {it['notes']}_" if it.get("notes") else ""))
         lines.append("")
+    n_info = sum(1 for it in rows if it["status"] == "info" and it["event"]["date"] >= today)
+    if n_info:
+        lines += [f"_{n_info} non-club events (live, comedy, quiz, food, culture...) are listed in other_events.md "
+                  "and other.ics, not on the main calendar._", ""]
     if unreadable:
         lines += ["## Accounts Instagram won't let us read", "",
                   "Usually a changed handle, or a personal/private account. Fix or remove them in "
@@ -278,3 +308,37 @@ def write_review_md(root: Path, items: dict[str, Any], approve: set[str], reject
     (root / "out").mkdir(exist_ok=True)
     (root / "out" / "review.md").write_text(text)
     return text
+
+
+def other_events(cfg, items: dict[str, Any], tz) -> list[tuple[str, Event]]:
+    """Upcoming non-club events kept for reference: (category, Event)."""
+    src = InstagramSource({"id": "ig", "accounts": []}, cfg)
+    today = datetime.now(timezone.utc).date().isoformat()
+    out = []
+    for it in items.values():
+        if it["status"] == "info" and it["event"]["date"] >= today:
+            try:
+                ev = src.to_event(it, tz)
+            except ValueError:
+                continue
+            cfg.enrich_venue(ev.venue)
+            out.append((it.get("kind", "other"), ev))
+    return sorted(out, key=lambda x: x[1].start)
+
+
+def write_other_events(root: Path, others: list[tuple[str, Event]]) -> None:
+    from ..calendar_ics import build_ics
+
+    lines = ["# Other events (not on the main calendar)", "",
+             "Found on Instagram but not DJ/club nights. Kept for reference.", ""]
+    for kind in CATEGORIES:
+        sel = [e for k, e in others if k == kind]
+        if not sel:
+            continue
+        lines += [f"## {CATEGORIES[kind]} ({len(sel)})", ""]
+        lines += [f"- {e.start:%a %d/%m %H:%M} **{e.title}** at {e.venue.name}. {e.url or ''}" for e in sel]
+        lines.append("")
+    (root / "out").mkdir(exist_ok=True)
+    (root / "out" / "other_events.md").write_text("\n".join(lines))
+    (root / "out" / "other.ics").write_text(
+        build_ics([e for _, e in others], "Bergamo Nights · Other events", prefix=""))

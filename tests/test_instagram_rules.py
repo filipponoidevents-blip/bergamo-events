@@ -103,3 +103,26 @@ def test_ocr_reads_agenda_image():
 def test_title_skips_a_leading_date_line():
     ex = read("VENERDÌ 20 NOVEMBRE\nDEEP INSIDE w/ Sample DJ\nh 23:00", venue="Bolgia")
     assert ex.events[0].title == "DEEP INSIDE w/ Sample DJ"
+
+
+from bget.sources.categories import categorize
+
+
+def test_categories():
+    assert categorize("Sabato techno all night w/ guest DJ") == "dj_club"
+    assert categorize("Aperitivo con dj set") == "dj_club"
+    assert categorize("Torna la comicità dal vivo, stand up comedy") == "comedy"
+    assert categorize("Mega tornei al pub e quiz") == "quiz_games"
+    assert categorize("Presentazione del libro") == "culture"
+    assert categorize("Brunch della domenica, menu speciale") == "food_drink"
+    assert categorize("Band live in concerto") == "live_music"
+    assert categorize("VENERDÌ 20 NOVEMBRE", venue_kind="club") == "dj_club"
+    assert categorize("Something happening") == "other"
+
+
+def test_genre_detect_order():
+    from bget.genres import detect
+    assert detect("Hard techno all night") == "Hard techno"
+    assert detect("tech-house party") == "Tech house"
+    assert detect("Techno night") == "Techno"
+    assert detect("aperitivo") is None

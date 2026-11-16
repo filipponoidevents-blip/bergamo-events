@@ -34,8 +34,9 @@ def describe(ev: Event) -> str:
     lines = []
     if ev.artists:
         lines.append("Line-up: " + ", ".join(a.name for a in ev.artists))
-    if ev.genres:
-        lines.append("Genres: " + ", ".join(ev.genres))
+    if ev.genre:
+        lines.append(f"Genre: {ev.genre}" + (f" (from the {ev.genre_source}'s usual music)"
+                                             if ev.genre_source in ("venue", "promoter") else ""))
     if ev.price:
         lines.append("Price: " + ev.price)
     if ev.alert_level:
@@ -70,7 +71,7 @@ def build_ics(events: Iterable[Event], name: str, prefix: str = "",
             f"DTSTAMP:{now}",
             f"DTSTART:{_utc(ev.start)}",
             f"DTEND:{_utc(end)}",
-            f"SUMMARY:{_esc(prefix + ev.title)}",
+            f"SUMMARY:{_esc(prefix + (f'[{ev.genre}] ' if ev.genre and ev.genre != 'Unspecified' else '') + ev.title)}",
             f"LOCATION:{_esc(loc)}",
             f"DESCRIPTION:{_esc(describe(ev))}",
             f"CATEGORIES:{_esc(ev.category.value)}",
