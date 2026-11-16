@@ -80,6 +80,7 @@ promoters:
     instagram: nightlifebergamo
     ig_source: user
     use: venue_discovery_only   # Filippo: good for finding venues, NOT a calendar source
+    posts: Wednesday, covering the same week (Wed-Sun)
     notes: Weekly carousel listing every night out in the province. Use it to discover venues and promoters; do not import its listings as events.
   - name: Sommet
     instagram: sommet_night
