@@ -82,11 +82,11 @@ venues:
     kind: club
     status: active        # JUICE "El Jardín de Nikita" on RA
     genres: [house, tech house, commercial]
-    socials: {instagram: nikitadiscoclub, website: null, resident_advisor: https://ra.co/clubs/169169}
+    socials: {instagram: nikita__land, website: null, resident_advisor: https://ra.co/clubs/169169}
     ig_source: user
     ig_type: unknown
     verified: false
-    notes: Part of the Costez group (@costez_official, costez.club; old listing said @hotelcostez). JUICE Crew runs house nights here.
+    notes: "Old handle @nikitadiscoclub was rejected by Meta; current one per Filippo is @nikita__land. Part of the Costez group (@costez_official, costez.club; old listing said @hotelcostez). JUICE Crew runs house nights here."
 
   - name: Bobadilla
     aliases: [Bobadilla Feeling Club, Bobadilla Dalmine]

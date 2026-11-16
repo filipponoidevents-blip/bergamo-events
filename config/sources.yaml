@@ -129,7 +129,7 @@ sources:
       - {username: brinapasticceria, venue: "Brina Pasticceria"}
       - {username: mint_lounge, venue: "MINT"}
       - {username: liveclub, venue: "Live Club"}
-      # - {username: nikitadiscoclub, venue: "Nikita"}  # off 2026-11-16: Meta "Invalid user id" (personal/private or renamed)
+      - {username: nikita__land, venue: "Nikita"}         # was nikitadiscoclub (rejected); new handle from Filippo 2026-11-16
       - {username: bv_rooftop, venue: "BV Rooftop"}
       - {username: baiadelrebrignano, venue: "Baia del Re"}
       - {username: hype.club.official, venue: "Hype Club"}
