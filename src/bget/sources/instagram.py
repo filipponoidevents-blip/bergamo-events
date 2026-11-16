@@ -134,7 +134,8 @@ class InstagramSource(Source):
                 if pid in q["seen_posts"] or now - posted > self.max_age:
                     continue
                 try:
-                    ex = self.extractor(caption=post.get("caption", ""), image_urls=_images(post),
+                    images = _images(post) if self._ig.get("read_images", False) else []
+                    ex = self.extractor(caption=post.get("caption", ""), image_urls=images,
                                         posted_at=posted, account=user, account_venue=acc.get("venue"))
                 except Exception as e:  # noqa: BLE001 - retry this post next run
                     log.warning("instagram: extraction failed for %s: %s", post.get("permalink"), e)

@@ -66,7 +66,7 @@ config/sources.yaml ──► sources/* adapters ──► enrich venue (config/
 
 ### Instagram auto-check (`src/bget/sources/instagram*.py`)
 1. Each run reads the latest posts of the accounts listed under `instagram_watch` in `config/sources.yaml`.
-2. New posts (not older than 21 days) go to Claude with the caption and up to 4 images; it returns structured
+2. New posts (not older than 21 days) go to Claude with the caption (plus up to 4 flyer images if `read_images: true` in settings); it returns structured
    events (date, times, venue, line-up with tagged handles, genres, ticket link) and a confidence score.
 3. Confidence ≥ 0.85: straight onto the calendar. Lower: waits in the review queue.
    The queue is published as `review.md` next to the calendars.

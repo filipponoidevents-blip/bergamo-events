@@ -91,6 +91,9 @@ class ClaudeExtractor:
 
     def __call__(self, *, caption, image_urls, posted_at, account, account_venue) -> Extraction:
         content: list[dict] = [b for u in image_urls[: self.max_images] if (b := self._image_block(u))]
+        if not content:
+            content.append({"type": "text", "text": "(Only the caption is available; the flyer image was not "
+                            "provided. If key details are missing from the caption, lower your confidence.)"})
         content.append({"type": "text", "text": (
             f"Posting account: @{account}"
             + (f" (this account is the venue: {account_venue})" if account_venue else "")
