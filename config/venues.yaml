@@ -475,10 +475,12 @@ venues:
     km: 1.7
     kind: open_air
     status: active        # Jun-Jul
-    socials: {instagram: null, website: https://www.comune.bergamo.it/notizie/lazzaretto-estate-2026}
-    ig_source: null
+    socials: {instagram: lazzaretto_bergamo_estate, website: https://www.lazzarettoestate.it}
+    ig_source: user
+    ig_type: business ("Festival")
+    address: "Piazzale Goisis 6, Bergamo"
     verified: false
-    notes: Mostly concerts; low relevance except DJ closing nights.
+    notes: "City of Bergamo summer series (concerts, shows, stand-up comedy). Mostly concerts; low relevance except DJ closing nights. The handle may change each year (it says 2026 in the name)."
 
   - name: ChorusLife
     aliases: [ChorusLife Arena, ChorusLife Smart District]
