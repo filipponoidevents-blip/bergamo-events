@@ -151,6 +151,13 @@ def probe(cfg: Config, urls: list[str], follow: str | None) -> None:
             continue
         print(f"  {len(html)} bytes, {html.count('application/ld+json')} JSON-LD blocks, "
               f"__NEXT_DATA__={'yes' if '__NEXT_DATA__' in html else 'no'}")
+        api = sorted(set(re.findall(r"https?://[a-z0-9.-]+/(?:v\d|api)[^\"'\\\s<>]{0,60}", html)))[:15]
+        if api:
+            print("  API-looking URLs in the page:", *api, sep="\n    ")
+        for key in ("__next_f", "startingTime", "startDate", "starting_time", "eventId", "\"events\""):
+            i = html.find(key)
+            if i >= 0:
+                print(f"  '{key}' x{html.count(key)}: ...{html[max(0, i - 120):i + 200]!r}...")
         evs = list(src.parse(html, url))
         print(f"  events on the page itself: {len(evs)}")
         for e in evs[:3]:
