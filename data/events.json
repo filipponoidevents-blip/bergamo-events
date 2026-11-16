@@ -12,11 +12,11 @@
       "kind": "club",
       "capacity": null,
       "socials": {
-        "instagram": null,
+        "instagram": "bolgia.official",
         "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
+        "facebook": "bolgiaofficial",
+        "website": "https://www.bolgia.it",
+        "resident_advisor": "https://ra.co/clubs/5759"
       },
       "verified": false
     },
@@ -71,7 +71,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250404+00:00",
-    "updated": "2026-11-16T18:11:39.066269+00:00",
+    "updated": "2026-11-16T21:02:02.225906+00:00",
     "uid": "98ba0594ee71dac8"
   },
   {
@@ -87,11 +87,11 @@
       "kind": "club",
       "capacity": null,
       "socials": {
-        "instagram": null,
+        "instagram": "bolgia.official",
         "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
+        "facebook": "bolgiaofficial",
+        "website": "https://www.bolgia.it",
+        "resident_advisor": "https://ra.co/clubs/5759"
       },
       "verified": false
     },
@@ -134,7 +134,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250526+00:00",
-    "updated": "2026-11-16T18:11:39.066361+00:00",
+    "updated": "2026-11-16T21:02:02.225994+00:00",
     "uid": "b2aa1c456e43d358"
   },
   {
@@ -150,7 +150,7 @@
       "kind": "live_club",
       "capacity": null,
       "socials": {
-        "instagram": null,
+        "instagram": "drusobg",
         "tiktok": null,
         "facebook": null,
         "website": null,
@@ -197,7 +197,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250613+00:00",
-    "updated": "2026-11-16T18:11:39.066434+00:00",
+    "updated": "2026-11-16T21:02:02.226294+00:00",
     "uid": "863422547996317e"
   },
   {
@@ -281,7 +281,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.252958+00:00",
-    "updated": "2026-11-16T18:11:39.067494+00:00",
+    "updated": "2026-11-16T21:02:02.228607+00:00",
     "uid": "001b2eb2012def2c"
   },
   {
@@ -348,7 +348,7 @@
     ],
     "alert_level": "national",
     "first_seen": "2026-11-16T15:48:15.250740+00:00",
-    "updated": "2026-11-16T18:11:39.066527+00:00",
+    "updated": "2026-11-16T21:02:02.227088+00:00",
     "uid": "35a8669803d2aa2a"
   },
   {
@@ -398,7 +398,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250816+00:00",
-    "updated": "2026-11-16T18:11:39.066587+00:00",
+    "updated": "2026-11-16T21:02:02.227475+00:00",
     "uid": "bf822436be9d5e20"
   }
 ]
