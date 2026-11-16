@@ -87,9 +87,10 @@ class InstagramSource(Source):
     @property
     def graph(self) -> GraphClient:
         if self._graph is None:
-            uid, tok = os.environ.get("IG_USER_ID"), os.environ.get("IG_ACCESS_TOKEN")
+            uid = os.environ.get("IG_USER_ID") or str(self._ig.get("user_id") or "")
+            tok = os.environ.get("IG_ACCESS_TOKEN")
             if not uid or not tok:
-                raise RuntimeError("IG_USER_ID / IG_ACCESS_TOKEN are not set")
+                raise RuntimeError("IG_ACCESS_TOKEN secret (or instagram.user_id) is not set")
             self._graph = GraphClient(uid, tok, self._ig.get("graph_version", "v23.0"))
         return self._graph
 
