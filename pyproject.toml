@@ -2,7 +2,7 @@
 name = "bergamo-events-tracker"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["requests", "beautifulsoup4", "PyYAML", "Pillow"]
+dependencies = ["requests", "beautifulsoup4", "PyYAML", "Pillow", "pydantic>=2", "anthropic>=2.9"]
 
 [project.optional-dependencies]
 dev = ["pytest"]

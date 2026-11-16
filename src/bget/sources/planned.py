@@ -8,13 +8,6 @@ class ResidentAdvisorSource(NotImplementedSource):
             "(daily, cached), map RA artist/club ids to Socials.resident_advisor.")
 
 
-class InstagramSource(NotImplementedSource):
-    type = "instagram"
-    note = ("Plan: Instagram Graph API Business Discovery on venue/promoter accounts. Needs an IG "
-            "Business/Creator account linked to a Facebook Page and an app token. Captions are "
-            "free text, so parsed results go to data/review_queue.yaml, not straight to the calendar.")
-
-
 class FacebookEventsSource(NotImplementedSource):
     type = "facebook_events"
     note = "Facebook closed third-party access to public events; use manual entries instead."

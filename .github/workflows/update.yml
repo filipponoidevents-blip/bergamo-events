@@ -22,18 +22,23 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install -e .
       - run: python -m bget run
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit updated event store
         run: |
           git config user.name "events-bot"
           git config user.email "events-bot@users.noreply.github.com"
-          git add data/events.json
+          git add data/events.json data/ig_review.json 2>/dev/null || git add data/events.json
           if ! git diff --cached --quiet; then
             git commit -m "Update events [skip ci]"
+            git pull --rebase -q origin main
             git push
           fi
       - name: Publish feeds to the feed branch
         run: |
-          mkdir -p /tmp/feed && cp out/*.ics out/alerts.md /tmp/feed/
+          mkdir -p /tmp/feed && cp out/*.ics out/alerts.md /tmp/feed/ && cp out/review.md /tmp/feed/ 2>/dev/null || true
           cd /tmp/feed
           git init -q -b feed
           git config user.name "events-bot"

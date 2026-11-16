@@ -18,6 +18,7 @@ from .config import Config
 from .models import Scope
 from .relevance import score_event
 from .sources import REGISTRY
+from .sources.instagram import InstagramSource, write_review_md
 from .store import Store
 
 log = logging.getLogger("bget")
@@ -32,8 +33,9 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
         if not cls:
             log.error("unknown source type %s", spec["type"])
             continue
+        src = cls(spec, cfg)
         try:
-            for ev in cls(spec, cfg).collect():
+            for ev in src.collect():
                 if not ev.title or not ev.start:
                     continue
                 cfg.enrich_venue(ev.venue)
@@ -41,6 +43,10 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
         except Exception as e:  # noqa: BLE001
             stats["errors"] += 1
             log.error("source %s failed: %s", spec["id"], e)
+        if isinstance(src, InstagramSource):
+            stats["removed"] = stats.get("removed", 0) + store.drop_sources(src.rejected_source_ids())
+            q = src._load_review()
+            write_review_md(cfg.root, q["items"], *src.decisions())
     # rescore everything so config edits apply to stored events too
     for ev in store.all():
         score_event(ev, cfg)

@@ -57,6 +57,19 @@ class Store:
         self.events[k] = ev
         return "new"
 
+    def drop_sources(self, source_ids: set[str]) -> int:
+        """Remove a source's reports (e.g. rejected Instagram posts); drop events left with no source."""
+        if not source_ids:
+            return 0
+        removed = 0
+        for k, ev in list(self.events.items()):
+            if set(ev.sources) & source_ids:
+                ev.sources = [s for s in ev.sources if s not in source_ids]
+                if not ev.sources:
+                    del self.events[k]
+                    removed += 1
+        return removed
+
     def all(self) -> list[Event]:
         return sorted(self.events.values(), key=lambda e: e.start)
 

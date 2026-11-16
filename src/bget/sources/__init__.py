@@ -2,7 +2,8 @@ from .base import Source
 from .ical import ICalSource
 from .jsonld import JsonLdSource
 from .manual import ManualSource
-from .planned import FacebookEventsSource, InstagramSource, ResidentAdvisorSource
+from .instagram import InstagramSource
+from .planned import FacebookEventsSource, ResidentAdvisorSource
 
 REGISTRY: dict[str, type[Source]] = {
     cls.type: cls

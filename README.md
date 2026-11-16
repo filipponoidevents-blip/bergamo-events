@@ -50,7 +50,7 @@ config/sources.yaml ──► sources/* adapters ──► enrich venue (config/
 | `jsonld` | built | Any page with schema.org Event JSON-LD: Dice, Xceed, Shotgun, Eventbrite, Ticketone, many venue sites |
 | `ical` | built | Venues/promoters that publish a public .ics or Google Calendar |
 | `resident_advisor` | planned | RA listings for the Milan/Lombardy area. No public API, so polite daily queries + cache; check RA's terms |
-| `instagram` | planned | Instagram Graph API *Business Discovery* on venue/promoter accounts. Needs our own IG Business/Creator account + Meta app token. Captions are free text, so results go to a review queue first |
+| `instagram` | built, needs credentials | Reads recent posts of watched public Business/Creator accounts (Graph API *Business Discovery*); Claude reads caption + flyer and extracts events. See below |
 | `facebook_events` | not possible | Facebook closed third-party access to public events; use `manual` |
 
 ### Relevance rules (`config/settings.yaml`, `config/watchlist.yaml`)
@@ -63,6 +63,16 @@ config/sources.yaml ──► sources/* adapters ──► enrich venue (config/
   watchlist hit. National brands alert from anywhere in Italy.
 - **Concerts** are dropped unless the act is on the crossover list.
 - Scores are recomputed on every run, so editing the YAML re-filters stored events.
+
+### Instagram auto-check (`src/bget/sources/instagram*.py`)
+1. Each run reads the latest posts of the accounts listed under `instagram_watch` in `config/sources.yaml`.
+2. New posts (not older than 21 days) go to Claude with the caption and up to 4 images; it returns structured
+   events (date, times, venue, line-up with tagged handles, genres, ticket link) and a confidence score.
+3. Confidence ≥ 0.85: straight onto the calendar. Lower: waits in the review queue.
+   The queue is published as `review.md` next to the calendars.
+4. Approve or reject by id in `config/ig_decisions.yaml` (edit it on GitHub). Rejecting removes the event.
+Secrets needed in GitHub Actions: `IG_USER_ID`, `IG_ACCESS_TOKEN`, `ANTHROPIC_API_KEY`.
+Limits: only public Business/Creator accounts; Stories are not readable by the API (use `manual`).
 
 ### Calendar output
 Three feeds: `bergamo.ics` (local), `alerts.ics` (⚡ big events), `all.ics` (both).

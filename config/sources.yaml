@@ -9,7 +9,7 @@
 # Adapters planned (stubs in src/bget/sources/, see ARCHITECTURE.md):
 #   resident_advisor - RA listings for the Lombardy area (RA has no public API; uses the
 #                      site's GraphQL endpoint, so check their terms and keep request volume low)
-#   instagram        - Instagram Graph API "Business Discovery": reads recent public posts of
+#   instagram        - (built) Instagram Graph API "Business Discovery": reads recent public posts of
 #                      Business/Creator accounts (venues, promoters). Needs our own IG Business
 #                      account + Facebook app token. Posts are text, so they go to a review queue.
 #   facebook_events  - No public API for third-party events since 2018; manual/forwarded only.
@@ -53,7 +53,12 @@ sources:
     enabled: false
     area: milan   # RA groups Bergamo under the Milan/Lombardy area
 
+  # Instagram auto-check. Needs secrets IG_USER_ID, IG_ACCESS_TOKEN, ANTHROPIC_API_KEY.
+  # Only public Business/Creator accounts can be read. For a venue account, set `venue`
+  # to its name in venues.yaml so posts without a venue default to it.
   - id: instagram_watch
     type: instagram
     enabled: false
-    accounts: []  # venue / promoter IG usernames to poll via Business Discovery
+    accounts: []
+      # - {username: some_club, venue: Bolgia}
+      # - some_promoter

@@ -1,0 +1,5 @@
+# Your decisions on Instagram-sourced events. The bot never edits this file.
+# Ids come from out/review.md (also published at <calendar site>/review.md).
+# Approve a pending one to put it on the calendar; reject any (even auto-approved) to remove it.
+approve: []
+reject: []
