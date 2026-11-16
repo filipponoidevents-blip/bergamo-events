@@ -82,5 +82,5 @@ sources:
       # - {username: some_club, venue: Bolgia}
       # - some_promoter
       # Aggregators that post the week's agenda as an image: read with free OCR, split by day + venue
-      # - {username: nightlifebergamo, listing: true}
+      # - {username: some_agenda_page, listing: true}
       # Any account whose details are only on the flyer: {username: x, ocr: true}

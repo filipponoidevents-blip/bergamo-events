@@ -74,8 +74,7 @@ config/sources.yaml ──► sources/* adapters ──► enrich venue (config/
 4. Approve or reject by id in `config/ig_decisions.yaml` (edit it on GitHub). Rejecting removes the event.
 Secrets needed in GitHub Actions: `IG_USER_ID`, `IG_ACCESS_TOKEN` (+ `ANTHROPIC_API_KEY` only for `reader: claude`).
 Free flyer reading: accounts marked `ocr: true` get their images read with Tesseract OCR (installed in the
-workflow) and the text is added to the caption. Accounts marked `listing: true` (agenda pages such as
-@nightlifebergamo) are read as a weekly agenda: each day heading + known venue line becomes an event, sent to review.
+workflow) and the text is added to the caption. Accounts marked `listing: true` (agenda pages) are read as a weekly agenda: each day heading + known venue line becomes an event, sent to review.
 Limits: only public Business/Creator accounts; Stories are not readable by the API (use `manual`).
 
 ### Calendar output
