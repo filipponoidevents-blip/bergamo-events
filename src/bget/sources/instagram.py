@@ -32,7 +32,8 @@ import yaml
 from ..models import Artist, Category, Event, Socials, Venue
 from .base import USER_AGENT, Source
 from .instagram_extract import ClaudeExtractor, Extraction, Extractor
-from .instagram_rules import RulesExtractor
+from . import ocr
+from .instagram_rules import ListingExtractor, RulesExtractor
 
 log = logging.getLogger(__name__)
 
@@ -93,6 +94,12 @@ class InstagramSource(Source):
         return self._graph
 
     @property
+    def listing_extractor(self) -> Extractor:
+        if not hasattr(self, "_listing"):
+            self._listing = ListingExtractor(self.cfg)
+        return self._listing
+
+    @property
     def extractor(self) -> Extractor:
         if self._extractor is None:
             if self._ig.get("reader", "rules") == "claude":
@@ -138,9 +145,18 @@ class InstagramSource(Source):
                 if pid in q["seen_posts"] or now - posted > self.max_age:
                     continue
                 try:
-                    images = _images(post) if self._ig.get("read_images", False) else []
-                    ex = self.extractor(caption=post.get("caption", ""), image_urls=images,
-                                        posted_at=posted, account=user, account_venue=acc.get("venue"))
+                    caption = post.get("caption", "") or ""
+                    images = _images(post)[:4]
+                    use_ocr = acc.get("ocr", self._ig.get("ocr", False)) or acc.get("listing")
+                    if use_ocr and ocr.available():
+                        text = "\n".join(t for u in images if (t := ocr.ocr_url(u)))
+                        caption = f"{caption}\n\n{text}".strip()
+                    elif use_ocr:
+                        log.warning("instagram: OCR requested for @%s but tesseract is not installed", user)
+                    extractor = self.listing_extractor if acc.get("listing") else self.extractor
+                    ex = extractor(caption=caption,
+                                   image_urls=images if self._ig.get("read_images", False) else [],
+                                   posted_at=posted, account=user, account_venue=acc.get("venue"))
                 except Exception as e:  # noqa: BLE001 - retry this post next run
                     log.warning("instagram: extraction failed for %s: %s", post.get("permalink"), e)
                     continue

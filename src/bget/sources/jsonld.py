@@ -59,6 +59,11 @@ class JsonLdSource(Source):
     type = "jsonld"
 
     def collect(self) -> Iterable[Event]:
+        """Parse each URL. With `follow: <regex>` in the spec, the URLs are listing pages:
+        links matching the regex are opened (up to `max_pages`) and parsed as event pages."""
+        follow = re.compile(self.spec["follow"]) if self.spec.get("follow") else None
+        max_pages = self.spec.get("max_pages", 40)
+        seen: set[str] = set()
         for url in self.spec.get("urls", []):
             try:
                 html = self.fetch(url)
@@ -66,6 +71,27 @@ class JsonLdSource(Source):
                 log.warning("%s: failed to fetch %s: %s", self.id, url, e)
                 continue
             yield from self.parse(html, url)
+            if not follow:
+                continue
+            for link in self.links(html, url, follow):
+                if link in seen or len(seen) >= max_pages:
+                    continue
+                seen.add(link)
+                try:
+                    yield from self.parse(self.fetch(link), link)
+                except Exception as e:  # noqa: BLE001
+                    log.warning("%s: failed to fetch %s: %s", self.id, link, e)
+
+    @staticmethod
+    def links(html: str, base: str, pattern: re.Pattern) -> list[str]:
+        from urllib.parse import urljoin, urldefrag
+
+        out: list[str] = []
+        for a in BeautifulSoup(html, "html.parser").find_all("a", href=True):
+            u = urldefrag(urljoin(base, a["href"]))[0]
+            if pattern.search(u) and u not in out:
+                out.append(u)
+        return out
 
     def parse(self, html: str, page_url: str) -> Iterable[Event]:
         tz = ZoneInfo(self.cfg.settings.get("timezone", "Europe/Rome"))

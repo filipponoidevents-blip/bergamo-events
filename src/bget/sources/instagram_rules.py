@@ -65,8 +65,36 @@ def _resolve(day: int, month: int, year: int | None, posted: date) -> date | Non
     return None
 
 
-def find_dates(text: str, posted: date) -> tuple[list[date], bool]:
-    """Return (dates, explicit) where explicit is False when only a weekday name was found."""
+RE_BARE_DAY = re.compile(r"\b(?:il|on the|the)\s+(\d{1,2})(?:st|nd|rd|th)?\b(?!\s*[:./]\d)", re.I)
+
+
+def day_in_posting_month(day: int, posted: date) -> date | None:
+    """Rule: a day number without a month is in the posting month. If that day has already
+    passed (by more than a day), it is the next month instead, e.g. "sabato 5" posted on 28 Nov."""
+    for months_ahead in (0, 1):
+        y, m = posted.year + (posted.month + months_ahead - 1) // 12, (posted.month + months_ahead - 1) % 12 + 1
+        try:
+            d = date(y, m, day)
+        except ValueError:
+            continue
+        if d >= posted - timedelta(days=1):
+            return d
+    return None
+
+
+def weekday_in_posting_week(wd: int, posted: date) -> tuple[date, bool]:
+    """Rule: a weekday name without a number is in the posting week (Mon-Sun).
+    If that day has already passed this week, it means next week; returns (date, rolled_over)."""
+    d = posted - timedelta(days=posted.weekday()) + timedelta(days=wd)
+    if d < posted:
+        return d + timedelta(days=7), True
+    return d, False
+
+
+def find_dates(text: str, posted: date, warnings: list[str] | None = None) -> tuple[list[date], bool]:
+    """Return (dates, explicit). explicit is False when the date was inferred from a weekday or
+    a word like "stasera". Problems worth a human look are appended to `warnings`."""
+    warnings = warnings if warnings is not None else []
     found: list[date] = []
 
     def add(d: date | None):
@@ -81,14 +109,15 @@ def find_dates(text: str, posted: date) -> tuple[list[date], bool]:
         y = m.group(3)
         y = (2000 + int(y) if len(y) == 2 else int(y)) if y else None
         add(_resolve(int(m.group(1)), int(m.group(2)), y, posted))
-    if not found:
-        for m in RE_WEEKDAY_DAY.finditer(text):  # "sabato 22" -> next date with that day number
-            day = int(m.group(2))
-            for k in range(0, 40):
-                d = posted + timedelta(days=k)
-                if d.day == day:
-                    add(d)
-                    break
+    if not found:  # "sabato 22": day number, no month
+        for m in RE_WEEKDAY_DAY.finditer(text):
+            d = day_in_posting_month(int(m.group(2)), posted)
+            if d and d.weekday() != WEEKDAYS[m.group(1).lower()]:
+                warnings.append(f"'{m.group(0)}' but {d:%d/%m} is not that weekday")
+            add(d)
+    if not found:  # "il 22"
+        for m in RE_BARE_DAY.finditer(text):
+            add(day_in_posting_month(int(m.group(1)), posted))
     if found:
         return sorted(found), True
     low = text.lower()
@@ -98,8 +127,10 @@ def find_dates(text: str, posted: date) -> tuple[list[date], bool]:
         return [posted + timedelta(days=1)], False
     m = RE_WEEKDAY.search(text)
     if m:
-        wd = WEEKDAYS[m.group(1).lower()]
-        return [posted + timedelta(days=(wd - posted.weekday()) % 7)], False
+        d, rolled = weekday_in_posting_week(WEEKDAYS[m.group(1).lower()], posted)
+        if rolled:
+            warnings.append(f"'{m.group(1)}' already passed this week, assumed next week")
+        return [d], False
     return [], False
 
 
@@ -134,7 +165,8 @@ class RulesExtractor:
     def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
         caption = caption or ""
         posted = posted_at.date()
-        dates, explicit = find_dates(caption, posted)
+        warnings: list[str] = []
+        dates, explicit = find_dates(caption, posted, warnings)
         if not dates:
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no date in caption")
         recap = bool(RECAP.search(caption))
@@ -159,6 +191,7 @@ class RulesExtractor:
         conf = 0.35 + (0.25 if explicit else 0.1) + (0.1 if start else 0) + (0.1 if venue else 0) + (0.1 if genres else 0)
         if len(dates) > 1:
             conf -= 0.1
+        conf -= 0.15 * len(warnings)
         if recap:
             conf -= 0.3
         title = _title(caption) or (", ".join(mentions[:2]) if mentions else f"@{account}")
@@ -171,6 +204,68 @@ class RulesExtractor:
         ) for d in dates[:4]]
         notes = "read by the free pattern matcher" + ("; looks like a recap" if recap else "") + \
                 ("" if explicit else "; date guessed from a weekday name") + \
-                ("; artists are the @mentions, check names" if mentions else "")
+                ("; artists are the @mentions, check names" if mentions else "") + \
+                "".join("; " + w for w in warnings)
         return Extraction(is_event_announcement=conf >= 0.4, events=events,
                           confidence=round(max(0.0, min(conf, 0.95)), 2), notes=notes)
+
+
+RE_DATE_LINE = re.compile(rf"^\W*(?:{_WD_RE})\b|^\W*\d{{1,2}}\s*(?:{_MONTH_RE})\b|^\W*\d{{1,2}}[./]\d{{1,2}}\b", re.I)
+
+
+class ListingExtractor(RulesExtractor):
+    """For aggregator accounts that post a weekly/monthly agenda as an image (read via OCR).
+
+    Reads the text top to bottom: a short line starting with a day ("VENERDÌ 21", "21/11",
+    "SABATO") opens a new day; within a day, each line that names a known venue becomes an
+    event at that venue on that day. The event title is the rest of the line, or the next
+    line if the venue stands alone. Everything goes to review (confidence below auto-approve),
+    since OCR text is noisy.
+    """
+
+    confidence = 0.6
+
+    def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
+        posted = posted_at.date()
+        lines = [ln.strip() for ln in (caption or "").splitlines() if ln.strip()]
+        events: list[ExtractedEvent] = []
+        day: date | None = None
+        for i, line in enumerate(lines):
+            if len(line) <= 40 and RE_DATE_LINE.search(line):
+                ds, _ = find_dates(line, posted)
+                if ds:
+                    day = ds[0]
+                    continue
+            if not day:
+                continue
+            venue = self._venue_in(line)
+            if not venue:
+                continue
+            title = self._strip_venue(line, venue)
+            if len(title) < 3 and i + 1 < len(lines) and not self._venue_in(lines[i + 1]) \
+                    and not RE_DATE_LINE.search(lines[i + 1]):
+                title = lines[i + 1]
+            title = re.sub(r"\s{2,}", " ", re.sub(r"[^\w\s&'’!?.,:/+()-]", " ", title)).strip(" -–—:|.,")
+            start, end = find_times(line + " " + (lines[i + 1] if i + 1 < len(lines) else ""))
+            low = line.lower()
+            events.append(ExtractedEvent(
+                title=title or venue, date=day.isoformat(), start_time=start, end_time=end,
+                venue_name=venue, genres=[g for g in self.genres if g in low][:2]))
+        if not events:
+            return Extraction(is_event_announcement=False, confidence=0.0, notes="no day + venue pairs found")
+        return Extraction(is_event_announcement=True, events=events, confidence=self.confidence,
+                          notes=f"from @{account}'s agenda image (OCR); check title and line-up")
+
+    def _venue_in(self, line: str) -> str | None:
+        s = slug(line)
+        for name, names in self.venue_names:
+            if any(len(slug(n)) > 3 and re.search(rf"(^|-){re.escape(slug(n))}(-|$)", s) for n in names):
+                return name
+        return None
+
+    def _strip_venue(self, line: str, venue: str) -> str:
+        for name, names in self.venue_names:
+            if name == venue:
+                for n in sorted(names, key=len, reverse=True):
+                    line = re.sub(re.escape(n), " ", line, flags=re.I)
+        return line.strip()
