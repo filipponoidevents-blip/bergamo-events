@@ -1,0 +1,68 @@
+# Names that turn an event into an ALERT even outside the radius.
+# Edit freely; matching is case-insensitive on artist names and event titles.
+
+# Headliners big enough to justify a trip (regional alert).
+dj_headliners:
+  - Amelie Lens
+  - Charlotte de Witte
+  - Carl Cox
+  - Solomun
+  - Tale Of Us
+  - Anyma
+  - Adam Beyer
+  - Peggy Gou
+  - Fred again..
+  - Fisher
+  - Chris Lake
+  - Black Coffee
+  - Marco Carola
+  - Joseph Capriati
+  - Loco Dice
+  - Richie Hawtin
+  - Boris Brejcha
+  - Keinemusik
+  - "&ME"
+  - Rampa
+  - Adriatique
+  - Mochakk
+  - Indira Paganotto
+  - Sara Landry
+  - Reinier Zonneveld
+
+# Live acts allowed through the "no concerts" rule because of their dance-music crossover.
+crossover_live:
+  - Fred again..
+  - Disclosure
+  - Bicep
+  - The Chemical Brothers
+  - Fatboy Slim
+  - Moderat
+  - Justice
+  - Daft Punk
+  - Calvin Harris
+  - David Guetta
+  - Martin Garrix
+  - Swedish House Mafia
+  - Caribou
+  - Jamie xx
+  - Bonobo
+  - Kraftwerk
+
+# Brands and festivals that are national-level news when announced.
+national_brands:
+  - Kappa FuturFestival
+  - Terraforma
+  - Club To Club
+  - Decibel Open Air
+  - Movement Torino
+  - Nameless Festival
+  - Elrow
+  - Afterlife
+  - Cocoricò
+  - Circoloco
+  - Awakenings
+  - Time Warp
+  - Music On
+  - Defected
+  - ANTS
+  - Ultra

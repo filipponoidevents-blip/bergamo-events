@@ -1,0 +1,45 @@
+# Where "local" is measured from and how far it reaches.
+home:
+  name: Bergamo
+  lat: 45.6983
+  lon: 9.6773
+  radius_km: 20
+timezone: Europe/Rome
+
+# Outside the radius, events are only kept as ALERTS, and only from these provinces
+# (plus anything flagged national, wherever it is in Italy).
+alert_provinces: [MI, MB, BS, LC, CO, CR, VA, LO, SO]
+
+# Genre weights. Matched (case-insensitive) against genres, title, description and artist genres.
+genres:
+  techno: 3.0
+  tech house: 3.0
+  tech-house: 3.0
+  house: 2.5
+  deep house: 2.5
+  afro house: 2.0
+  melodic techno: 2.5
+  minimal: 2.0
+  hard techno: 2.0
+  electronic: 1.5
+  elettronica: 1.5
+  dj set: 1.5
+  disco: 1.2
+  edm: 1.0
+  drum and bass: 1.0
+  "drum & bass": 1.0
+  trance: 1.0
+  hip hop: 0.6
+  reggaeton: 0.4
+  commerciale: 0.3
+
+# Venue kinds that count as nightlife on their own.
+venue_kind_bonus:
+  club: 1.5
+  open_air: 1.0
+  live_club: 0.3
+
+thresholds:
+  local_min_score: 2.0      # in-radius event needs this much to make the calendar
+  alert_min_score: 6.0      # out-of-radius event needs this much (or a watchlist hit)
+  concert_requires_watchlist: true   # live concerts only if headliner is on the crossover list

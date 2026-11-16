@@ -1,0 +1,91 @@
+# Seed venue registry. Collectors match scraped venue names against `name` and `aliases`
+# to attach coordinates, province and social handles.
+#
+# IMPORTANT: coordinates are approximate (town centre) and handles are left blank on purpose
+# until checked by hand. Set verified: true once a venue's data has been confirmed.
+
+venues:
+  # --- Bergamo +20 km ---
+  - name: Bolgia
+    aliases: [Bolgia Club, Discoteca Bolgia]
+    city: Osio Sopra
+    province: BG
+    lat: 45.678
+    lon: 9.587
+    kind: club
+    socials: {instagram: null, tiktok: null, website: null}
+  - name: Edonè
+    aliases: [Edone, Edonè Bergamo]
+    city: Bergamo
+    province: BG
+    lat: 45.687
+    lon: 9.678
+    kind: live_club
+    socials: {instagram: null, tiktok: null, website: null}
+  - name: Druso
+    aliases: [Druso Circus, Druso Ranica]
+    city: Ranica
+    province: BG
+    lat: 45.724
+    lon: 9.714
+    kind: live_club
+    socials: {instagram: null, tiktok: null, website: null}
+  - name: Polaresco
+    aliases: [Spazio Polaresco]
+    city: Bergamo
+    province: BG
+    lat: 45.709
+    lon: 9.668
+    kind: live_club
+    socials: {instagram: null, tiktok: null, website: null}
+
+  # --- Alert zone examples (outside 20 km) ---
+  - name: Fabrique
+    city: Milano
+    province: MI
+    lat: 45.444
+    lon: 9.240
+    kind: live_club
+    capacity: 3000
+    socials: {instagram: null, tiktok: null, website: null}
+  - name: Magazzini Generali
+    city: Milano
+    province: MI
+    lat: 45.444
+    lon: 9.199
+    kind: club
+    socials: {instagram: null, tiktok: null, website: null}
+  - name: Ippodromo SNAI San Siro
+    aliases: [Ippodromo San Siro, Ippodromo Snai La Maura]
+    city: Milano
+    province: MI
+    lat: 45.478
+    lon: 9.124
+    kind: open_air
+    capacity: 20000
+    socials: {instagram: null, tiktok: null, website: null}
+
+# Town -> province lookup used when a source gives only a city name.
+towns:
+  Bergamo: {province: BG, lat: 45.6983, lon: 9.6773}
+  Osio Sopra: {province: BG, lat: 45.678, lon: 9.587}
+  Ranica: {province: BG, lat: 45.724, lon: 9.714}
+  Seriate: {province: BG, lat: 45.685, lon: 9.722}
+  Dalmine: {province: BG, lat: 45.650, lon: 9.603}
+  Treviglio: {province: BG, lat: 45.521, lon: 9.593}
+  Ponte San Pietro: {province: BG, lat: 45.700, lon: 9.590}
+  Curno: {province: BG, lat: 45.690, lon: 9.612}
+  Stezzano: {province: BG, lat: 45.651, lon: 9.652}
+  Orio al Serio: {province: BG, lat: 45.671, lon: 9.693}
+  Grassobbio: {province: BG, lat: 45.657, lon: 9.726}
+  Albino: {province: BG, lat: 45.760, lon: 9.797}
+  Sarnico: {province: BG, lat: 45.669, lon: 9.962}
+  Milano: {province: MI, lat: 45.4642, lon: 9.19}
+  Monza: {province: MB, lat: 45.584, lon: 9.274}
+  Brescia: {province: BS, lat: 45.5416, lon: 10.2118}
+  Lecco: {province: LC, lat: 45.856, lon: 9.393}
+  Como: {province: CO, lat: 45.808, lon: 9.085}
+  Cremona: {province: CR, lat: 45.133, lon: 10.024}
+  Lodi: {province: LO, lat: 45.314, lon: 9.503}
+  Varese: {province: VA, lat: 45.820, lon: 8.825}
+  Torino: {province: TO, lat: 45.070, lon: 7.687}

@@ -1,0 +1,59 @@
+# Where events come from. Each entry is handled by the adapter named in `type`.
+#
+# Adapter types implemented in the skeleton:
+#   manual   - hand-entered events in a YAML file (always works; good for IG-only announcements)
+#   jsonld   - any web page that embeds schema.org Event / MusicEvent JSON-LD.
+#              Dice, Xceed, Shotgun, Eventbrite, Ticketone and most WordPress venue sites do this.
+#   ical     - any public .ics feed (some venues/promoters publish one; Google Calendar public links)
+#
+# Adapters planned (stubs in src/bget/sources/, see ARCHITECTURE.md):
+#   resident_advisor - RA listings for the Lombardy area (RA has no public API; uses the
+#                      site's GraphQL endpoint, so check their terms and keep request volume low)
+#   instagram        - Instagram Graph API "Business Discovery": reads recent public posts of
+#                      Business/Creator accounts (venues, promoters). Needs our own IG Business
+#                      account + Facebook app token. Posts are text, so they go to a review queue.
+#   facebook_events  - No public API for third-party events since 2018; manual/forwarded only.
+
+sources:
+  - id: manual
+    type: manual
+    enabled: true
+    path: data/manual_events.yaml
+
+  - id: sample_jsonld
+    type: jsonld
+    enabled: true
+    note: Offline fixture proving the JSON-LD adapter works end to end.
+    urls:
+      - file://tests/fixtures/sample_event_page.html
+
+  # Fill these in with real listing/event pages once verified:
+  - id: dice_milano
+    type: jsonld
+    enabled: false
+    urls: []      # e.g. individual dice.fm event pages for BG/MI venues
+
+  - id: xceed_bergamo
+    type: jsonld
+    enabled: false
+    urls: []
+
+  - id: venue_websites
+    type: jsonld
+    enabled: false
+    urls: []      # club "events" pages that embed JSON-LD
+
+  - id: venue_icals
+    type: ical
+    enabled: false
+    urls: []
+
+  - id: resident_advisor
+    type: resident_advisor
+    enabled: false
+    area: milan   # RA groups Bergamo under the Milan/Lombardy area
+
+  - id: instagram_watch
+    type: instagram
+    enabled: false
+    accounts: []  # venue / promoter IG usernames to poll via Business Discovery

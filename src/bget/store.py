@@ -1,0 +1,65 @@
+"""JSON event store with cross-source merging.
+
+A JSON file in git is enough at this scale (hundreds of events/month) and gives a free
+change history. Swap for SQLite if it grows.
+"""
+from __future__ import annotations
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+from .models import Event
+
+
+def merge(a: Event, b: Event) -> Event:
+    """Combine two reports of the same night. `a` wins on conflicts, `b` fills gaps."""
+    known = {x.key: x for x in a.artists}
+    for art in b.artists:
+        if art.key in known:
+            known[art.key].socials = known[art.key].socials.merge(art.socials)
+            known[art.key].genres = sorted(set(known[art.key].genres) | set(art.genres))
+        else:
+            a.artists.append(art)
+            known[art.key] = art
+    a.venue.socials = a.venue.socials.merge(b.venue.socials)
+    for f in ("end", "url", "ticket_url", "image_url", "price", "promoter_name", "promoter"):
+        if not getattr(a, f) and getattr(b, f):
+            setattr(a, f, getattr(b, f))
+    if len(b.description) > len(a.description):
+        a.description = b.description
+    a.genres = sorted(set(a.genres) | set(b.genres))
+    a.sources = sorted(set(a.sources) | set(b.sources))
+    a.source_urls = sorted(set(a.source_urls) | set(b.source_urls))
+    if a.category.value == "other":
+        a.category = b.category
+    return a
+
+
+class Store:
+    def __init__(self, path: Path):
+        self.path = path
+        self.events: dict[str, Event] = {}
+        if path.exists():
+            for d in json.loads(path.read_text()):
+                ev = Event.from_dict(d)
+                self.events[ev.dedupe_key] = ev
+
+    def upsert(self, ev: Event) -> str:
+        now = datetime.now(timezone.utc)
+        k = ev.dedupe_key
+        if k in self.events:
+            old = self.events[k]
+            merge(old, ev)
+            old.updated = now
+            return "updated"
+        ev.first_seen = ev.updated = now
+        self.events[k] = ev
+        return "new"
+
+    def all(self) -> list[Event]:
+        return sorted(self.events.values(), key=lambda e: e.start)
+
+    def save(self) -> None:
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        self.path.write_text(json.dumps([e.to_dict() for e in self.all()], ensure_ascii=False, indent=2))

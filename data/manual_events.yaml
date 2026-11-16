@@ -1,0 +1,45 @@
+# Hand-entered events. Use this for anything announced only on Instagram/Facebook.
+# Venue can be a name from config/venues.yaml (coords + handles filled in automatically)
+# or a full mapping. Times are Europe/Rome unless an offset is given.
+#
+# The entries below are SAMPLE DATA for testing the pipeline. Delete them before going live.
+
+events:
+  - title: "[SAMPLE] Techno Friday"
+    start: 2026-11-20T23:30
+    end: 2026-11-21T05:00
+    venue: Bolgia
+    artists: [Sample DJ One, Sample DJ Two]
+    genres: [techno]
+    category: club
+    url: https://example.com/sample-techno-friday
+
+  - title: "[SAMPLE] Tech House Saturday"
+    start: 2026-11-21T23:00
+    venue: Bolgia
+    artists:
+      - name: Sample Headliner
+        socials: {instagram: sample.headliner}
+    genres: [tech house]
+    category: club
+
+  - title: "[SAMPLE] Indie rock live"
+    start: 2026-11-22T21:00
+    venue: Druso
+    artists: [Sample Band]
+    genres: [indie rock]
+    category: concert
+
+  - title: "[SAMPLE] Afterlife-style open air"
+    start: 2026-11-28T16:00
+    venue: Ippodromo SNAI San Siro
+    artists: [Anyma]
+    genres: [melodic techno]
+    category: festival
+    description: "Sample of a big Milan announcement that should become a regional alert."
+
+  - title: "[SAMPLE] Commercial night in Torino"
+    start: 2026-11-28T23:00
+    venue: {name: Sample Club Torino, city: Torino, kind: club}
+    genres: [commerciale]
+    category: club

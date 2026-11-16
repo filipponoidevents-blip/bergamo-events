@@ -1,0 +1,14 @@
+[project]
+name = "bergamo-events-tracker"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["requests", "beautifulsoup4", "PyYAML", "Pillow"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
