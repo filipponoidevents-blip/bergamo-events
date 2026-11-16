@@ -22,7 +22,7 @@ sources:
 
   - id: sample_jsonld
     type: jsonld
-    enabled: true
+    enabled: false   # test fixture only; keep off so [SAMPLE] events never reach the calendars
     note: Offline fixture proving the JSON-LD adapter works end to end.
     urls:
       - file://tests/fixtures/sample_event_page.html
