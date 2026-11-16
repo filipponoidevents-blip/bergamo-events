@@ -150,6 +150,9 @@ sources:
       - noidfamilia                 # promoter: NØID
       - icksdresstoimpress          # promoter: ICKS
       # - borgo.santa.caterina        # promoter: Borgo Santa Caterina  # off 2026-11-16: Meta "Invalid user id" (personal/private or renamed)
+      - theboxbergamo               # promoter: The Box (Borgo Santa Caterina)
+      - bsk.sound                   # promoter: BSK Sound (Borgo Santa Caterina)
+      - crocevia_                   # promoter: Crocevia (Borgo Santa Caterina)
       - bergamonightservice         # promoter: Bergamo Night Service
       - please.nights               # promoter: PLEASE
       - talk.maf                    # promoter: TALK
