@@ -16,6 +16,7 @@ from datetime import date, datetime, timedelta, timezone
 from . import calendar_ics, carousel, social
 from .config import Config
 from .genres import GenreAssigner
+from .headliners import HeadlinerFinder
 from .models import Scope
 from .relevance import score_event
 from .sources import REGISTRY
@@ -58,8 +59,10 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
             write_other_events(cfg.root, other_events(cfg, q["items"], ZoneInfo(cfg.settings.get("timezone", "Europe/Rome"))))
     # rescore everything so config edits apply to stored events too
     genre = GenreAssigner(cfg)
+    heads = HeadlinerFinder(cfg)
     for ev in store.all():
         ev.genre, ev.genre_source = genre.assign(ev)
+        ev.headliners = heads.find(ev)
         score_event(ev, cfg)
     return stats
 

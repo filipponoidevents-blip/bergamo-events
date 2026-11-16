@@ -1,5 +1,29 @@
 # Your decisions on Instagram-sourced events. The bot never edits this file.
 # Ids come from out/review.md (also published at <calendar site>/review.md).
 # Approve a pending one to put it on the calendar; reject any (even auto-approved) to remove it.
-approve: []
+approve:   # approved by Filippo in chat, 2026-11-16
+  - "18212406400369144-0"
+  - "18014638379768665-0"
+  - "18118837556276061-0"
+  - "18121861250051412-0"
+  - "18130085644865225-0"
+  - "17939093367407292-0"
+  - "17997031929013802-0"
+  - "18029865650699137-0"
+  - "18119742923001426-0"
+  - "18132417196701272-0"
+  - "17909778966668713-0"
+  - "18154217074526516-0"
+  - "18423224272156413-0"
+  - "17914862436586793-0"
+  - "18110253824629233-0"
+  - "18149439076605153-0"
+  - "18618600628070947-0"
+  - "17943169710390742-0"
+  - "18118837556276061-1"
+
 reject: []
+# Rename a night: id: "New name"
+titles:
+  "18121861250051412-0": "Oasi"
+

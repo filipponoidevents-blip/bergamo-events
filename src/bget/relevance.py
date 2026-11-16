@@ -45,6 +45,12 @@ def score_event(ev: Event, cfg: Config) -> Event:
         score += genre_score
         reasons.append(f"genre:{best_genre}")
 
+    if any(x.startswith("ig:") for x in ev.sources):
+        # only DJ/club nights reach the store from Instagram, approved or high-confidence:
+        # that alone is enough for the local calendar
+        score += 2
+        reasons.append("instagram-club-night")
+
     kind_bonus = s.get("venue_kind_bonus", {}).get(ev.venue.kind, 0)
     if kind_bonus:
         score += kind_bonus

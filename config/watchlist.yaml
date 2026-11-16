@@ -29,6 +29,17 @@ dj_headliners:
   - Sara Landry
   - Reinier Zonneveld
 
+# Other notable artists to show as headliner in the calendar title when a post names them
+# (Italian / regional names Filippo cares about). Add freely.
+notable_artists:
+  - Ilario Alicante
+  - Germano Ventura
+  - Dani Vescovi
+  - Lapo Underground
+  - Nesta
+  - Boffe
+  - Illes
+
 # Live acts allowed through the "no concerts" rule because of their dance-music crossover.
 crossover_live:
   - Fred again..

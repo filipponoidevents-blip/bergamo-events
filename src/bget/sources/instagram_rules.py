@@ -170,13 +170,25 @@ def find_times(text: str) -> tuple[str | None, str | None]:
     return None, None
 
 
+_FILLER = re.compile(r"\b(?:dalle|dalle ore|ore|alle|fino|h|al|allo|alla|a|il|la|lo|del|della|di|e|from|to|at|"
+                     r"the|this|questo|questa|prossimo|prossima|discoteca|club|ti aspettiamo|vi aspettiamo)\b", re.I)
+
+
+def _strip_date_words(t: str) -> str:
+    """What is left of a line once dates, weekdays, times and filler words are taken out."""
+    t = re.sub(rf"\b(?:{_WD_RE}|{_MONTH_RE})\b", " ", t, flags=re.I)
+    t = re.sub(r"\d{1,2}[:./]\d{2}|\d+", " ", t)
+    t = _FILLER.sub(" ", t)
+    return re.sub(r"[\W_]+", "", t)
+
+
 def _title(caption: str) -> str:
     for line in caption.splitlines():
         t = RE_URL.sub("", line)
         t = re.sub(r"[#@]\S+", "", t)
         t = re.sub(r"[^\w\s&'’!?.,:/+()-]", "", t).strip(" -–—:|.")
-        if len(t) <= 30 and RE_DATE_LINE.search(t):
-            continue  # "VENERDÌ 20 NOVEMBRE" is the date, not the name of the night
+        if RE_DATE_LINE.search(t) and len(_strip_date_words(t)) < 4:
+            continue  # "VENERDÌ 20 NOVEMBRE dalle 23:30" is the date, not the name of the night
         if len(t) >= 3:
             return t[:80]
     return ""
@@ -218,7 +230,7 @@ class RulesExtractor:
         conf -= 0.15 * len(warnings)
         if recap:
             conf -= 0.3
-        title = _title(caption) or (", ".join(mentions[:2]) if mentions else f"@{account}")
+        title = _title(caption) or (", ".join(mentions[:2]) if mentions else account_venue or f"@{account}")
         events = [ExtractedEvent(
             title=title, date=d.isoformat(), start_time=start, end_time=end,
             venue_name=venue, city=None,

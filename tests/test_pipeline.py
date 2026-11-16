@@ -59,5 +59,5 @@ def test_jsonld_extracts_handles():
 
 def test_ics_is_valid_shape():
     text = build_ics([score_event(ev("Night, with comma", "Bolgia", "Osio Sopra", ["techno"]), cfg)], "T")
-    assert text.startswith("BEGIN:VCALENDAR") and "SUMMARY:Night\\, with comma" in text
+    assert text.startswith("BEGIN:VCALENDAR") and "SUMMARY:Bolgia · Night\\, with comma" in text.replace("\r\n ", "")
     assert all(len(l.encode()) <= 75 for l in text.split("\r\n"))

@@ -123,6 +123,13 @@ class InstagramSource(Source):
         self.review_path.parent.mkdir(parents=True, exist_ok=True)
         self.review_path.write_text(json.dumps(q, ensure_ascii=False, indent=2, sort_keys=True))
 
+    def title_overrides(self) -> dict[str, str]:
+        """titles: {id: "New name"} in ig_decisions.yaml renames a night."""
+        if not self.decisions_path.exists():
+            return {}
+        d = yaml.safe_load(self.decisions_path.read_text()) or {}
+        return {str(k): str(v) for k, v in (d.get("titles") or {}).items()}
+
     def decisions(self) -> tuple[set[str], set[str]]:
         if not self.decisions_path.exists():
             return set(), set()
@@ -178,6 +185,7 @@ class InstagramSource(Source):
                     elif use_ocr:
                         log.warning("instagram: OCR requested for @%s but tesseract is not installed", user)
                     extractor = self.listing_extractor if acc.get("listing") else self.extractor
+                    post["_text"] = caption  # caption + flyer text, kept as the event's description
                     ex = extractor(caption=caption,
                                    image_urls=images if self._ig.get("read_images", False) else [],
                                    posted_at=posted, account=user, account_venue=acc.get("venue"))
@@ -197,7 +205,7 @@ class InstagramSource(Source):
     def _queue(self, q, ex: Extraction, post, user, account_venue) -> None:
         if not ex.is_event_announcement:
             return
-        caption = (post.get("caption") or "")[:400]
+        caption = (post.get("_text") or post.get("caption") or "")[:1200]
         today = datetime.now(timezone.utc).date().isoformat()
         for i, e in enumerate(ex.events):
             if e.date < today:  # already happened: nothing to put on the calendar
@@ -247,7 +255,9 @@ class InstagramSource(Source):
         return {f"ig:{x}" for x in self.decisions()[1] | info}
 
     def to_event(self, it: dict, tz: ZoneInfo) -> Event:
-        e = it["event"]
+        e = dict(it["event"])
+        if (t := self.title_overrides().get(it["id"])):
+            e["title"] = t
         start = datetime.fromisoformat(f"{e['date']}T{e.get('start_time') or '23:00'}").replace(tzinfo=tz)
         if start.hour < 6:
             # "sabato 21, dalle 00:30" means the night of Saturday 21, i.e. Sunday 00:30

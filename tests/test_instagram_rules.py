@@ -174,3 +174,25 @@ def test_calendar_start_only_and_midnight_on_the_evening():
     assert calendar_start(ev) == datetime(2026, 11, 21, 23, 59, tzinfo=rome)
     ics = build_ics([ev], "t")
     assert "DTSTART:20261121T225900Z" in ics and "DTEND" not in ics.split("BEGIN:VEVENT")[1]
+
+
+def test_title_convention():
+    from datetime import datetime
+    from bget.calendar_ics import night_summary
+    from bget.models import Artist, Event, Socials, Venue
+    v = Venue(name="Bolgia", city="Osio Sopra", socials=Socials(instagram="bolgia.official"))
+    a = [Artist(name="bolgia.official", socials=Socials(instagram="bolgia.official")), Artist(name="Ilario Alicante")]
+    from bget.config import Config
+    from bget.headliners import HeadlinerFinder
+    ev = Event(title="Sabato 21 Novembre dalle ore 23:30 alle 06:00!", start=datetime(2026, 11, 21, 23, 30), venue=v,
+               artists=a, genre="Techno", description="Main room con ILARIO ALICANTE")
+    ev.headliners = HeadlinerFinder(Config.load()).find(ev)
+    assert ev.headliners == ["Ilario Alicante"]
+    assert night_summary(ev) == "[Techno] Bolgia w/ Ilario Alicante"
+    ev.title = "Oasi"
+    assert night_summary(ev) == "[Techno] Bolgia · Oasi w/ Ilario Alicante"
+    ev.title = "Sabato 21 Novembre"
+    ev.headliners = []
+    assert night_summary(ev) == "[Techno] Bolgia"
+    ev.title = "Oasi"
+    assert night_summary(ev) == "[Techno] Bolgia · Oasi"

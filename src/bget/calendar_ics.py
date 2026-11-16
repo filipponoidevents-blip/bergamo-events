@@ -1,6 +1,8 @@
 """ICS feed writer (RFC 5545). Subscribe to the output URL from Google/Apple Calendar."""
 from __future__ import annotations
 
+import re
+
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta, timezone
 from typing import Iterable
@@ -44,29 +46,59 @@ def calendar_start(ev: Event) -> datetime:
     return local
 
 
+def party_name(ev: Event) -> str:
+    """The night's own name, or "" when the title is only a date or the venue's name."""
+    from .sources.instagram_rules import _strip_date_words
+    t = (ev.title or "").strip()
+    rest = _strip_date_words(t).lower()
+    venue = re.sub(r"[\W_]+", "", ev.venue.name.lower())
+    if len(rest) < 4 or rest == venue or rest.replace(venue, "") == "":
+        return ""
+    return t if len(t) <= 45 else t[:44].rsplit(" ", 1)[0] + "…"
+
+
+def night_summary(ev: Event, prefix: str = "") -> str:
+    """Naming convention (Filippo, 2026-11-16): "[Genre] Venue · Party name w/ Headliners", leaving out
+    the parts that are missing (Bolgia rarely has a party name, but has a headliner)."""
+    genre = f"[{ev.genre}] " if ev.genre and ev.genre != "Unspecified" else ""
+    name = " · ".join(p for p in [ev.venue.name, party_name(ev)] if p)
+    head = headliners(ev)
+    return prefix + genre + name + (f" w/ {head}" if head else "")
+
+
+def headliners(ev: Event, n: int = 2) -> str:
+    names = ev.headliners[:n]
+    return ", ".join(names) + (" + altri" if len(ev.headliners) > n else "")
+
+
 def describe(ev: Event) -> str:
-    lines = []
+    """Details, always in this order, Italian labels; lines with nothing to say are left out."""
     local = ev.start.astimezone(ROME)
-    if local.hour < 6:
-        lines.append(f"Inizio: {local:%H:%M} (dopo mezzanotte)")
+    lines = [f"Inizio: {local:%H:%M}" + (" (dopo mezzanotte)" if local.hour < 6 else "")]
+    lines.append("Locale: " + ", ".join(x for x in [ev.venue.name, ev.venue.city] if x))
+    if ev.promoter_name:
+        lines.append("Promoter: " + ev.promoter_name)
+    if ev.headliners:
+        lines.append("Headliner: " + ", ".join(ev.headliners))
     if ev.artists:
         lines.append("Line-up: " + ", ".join(a.name for a in ev.artists))
-    if ev.genre:
-        lines.append(f"Genre: {ev.genre}" + (f" (from the {ev.genre_source}'s usual music)"
-                                             if ev.genre_source in ("venue", "promoter") else
-                                             " (set by hand)" if ev.genre_source == "manual" else ""))
+    if ev.genre and ev.genre != "Unspecified":
+        lines.append(f"Genere: {ev.genre}" + {"venue": " (genere abituale del locale)",
+                                             "promoter": " (genere abituale del promoter)"}.get(ev.genre_source or "", ""))
     if ev.price:
-        lines.append("Price: " + ev.price)
-    if ev.alert_level:
-        dist = f" ({ev.distance_km} km from Bergamo)" if ev.distance_km is not None else ""
-        lines.append(f"ALERT: {ev.alert_level}{dist}")
+        lines.append("Prezzo: " + ev.price)
     if ev.ticket_url:
-        lines.append("Tickets: " + ev.ticket_url)
+        lines.append("Biglietti: " + ev.ticket_url)
+    if ev.url:
+        lines.append("Post: " + ev.url)
+    if ev.alert_level:
+        dist = f" ({ev.distance_km} km da Bergamo)" if ev.distance_km is not None else ""
+        lines.append(f"ALERT: {ev.alert_level}{dist}")
     handles = ev.all_handles("instagram")
     if handles:
-        lines.append("IG: " + " ".join("@" + h for h in handles))
+        lines.append("Tag: " + " ".join("@" + h for h in handles))
     if ev.description:
-        lines += ["", ev.description[:800]]
+        lines += ["", "—", ev.description[:1200]]
     return "\n".join(lines)
 
 
@@ -87,7 +119,7 @@ def build_ics(events: Iterable[Event], name: str, prefix: str = "",
             f"UID:{ev.uid}@bergamo-events",
             f"DTSTAMP:{now}",
             f"DTSTART:{_utc(calendar_start(ev))}",  # no DTEND: start time only (Filippo)
-            f"SUMMARY:{_esc(prefix + (f'[{ev.genre}] ' if ev.genre and ev.genre != 'Unspecified' else '') + ev.title)}",
+            f"SUMMARY:{_esc(night_summary(ev, prefix))}",
             f"LOCATION:{_esc(loc)}",
             f"DESCRIPTION:{_esc(describe(ev))}",
             f"CATEGORIES:{_esc(ev.category.value)}",

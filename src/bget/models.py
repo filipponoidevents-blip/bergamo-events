@@ -81,6 +81,7 @@ class Event:
     genres: list[str] = field(default_factory=list)
     genre: str | None = None             # one main genre for the night (genres.py)
     genre_source: str | None = None      # event | promoter | venue | none
+    headliners: list[str] = field(default_factory=list)  # notable names found in the post (headliners.py)
     category: Category = Category.OTHER
     description: str = ""
     url: str | None = None               # canonical event page
