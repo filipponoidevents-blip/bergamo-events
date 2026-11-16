@@ -6,6 +6,7 @@ import re
 CATEGORIES = {
     "dj_club": "DJ / club night",
     "ballo_da_sala": "Ballo da sala / liscio",
+    "alternative": "Alternative",
     "live_music": "Live music",
     "comedy": "Comedy",
     "quiz_games": "Quiz / games",

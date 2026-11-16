@@ -334,8 +334,9 @@ venues:
     lon: 9.640
     km: 3.0
     kind: live_club
+    category: alternative   # Filippo 2026-11-16: alternative, not techno -> off the calendar
     status: active
-    genres: [techno, drum and bass, live]
+    genres: [alternative]
     socials: {instagram: csapacipaciana, website: null, resident_advisor: https://ra.co/clubs/69109}
     ig_source: user
     ig_type: unknown

@@ -15,6 +15,7 @@ nights: []
 # 2) A whole venue: used for every night there, unless the post or a "nights" entry says otherwise.
 venues:
   Decibel Club: Ballo Da Sala
+  Pacì Paciana: Alternative
 #  Queen Club: Commerciale
 
 # 3) A whole promoter (name as in promoters.yaml): same idea, wins over the venue.
