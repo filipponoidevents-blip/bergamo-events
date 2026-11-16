@@ -95,7 +95,7 @@ class InstagramSource(Source):
     def extractor(self) -> Extractor:
         if self._extractor is None:
             self._extractor = ClaudeExtractor(
-                model=self._ig.get("model", "claude-opus-5-5"), effort=self._ig.get("effort", "low"))
+                model=self._ig.get("model", "claude-haiku-5-5"), effort=self._ig.get("effort", "low"))
         return self._extractor
 
     # ---- review queue -----------------------------------------------------

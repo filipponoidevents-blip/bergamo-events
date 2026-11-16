@@ -64,7 +64,7 @@ class Extractor(Protocol):
 class ClaudeExtractor:
     """Uses Claude with vision + structured outputs. Needs ANTHROPIC_API_KEY in the environment."""
 
-    def __init__(self, model: str = "claude-opus-5-5", effort: str = "low", max_images: int = 4):
+    def __init__(self, model: str = "claude-haiku-5-5", effort: str = "low", max_images: int = 4):
         import anthropic  # imported lazily so the rest of the tool works without it
 
         self.client = anthropic.Anthropic()
@@ -99,6 +99,10 @@ class ClaudeExtractor:
             + (f" (this account is the venue: {account_venue})" if account_venue else "")
             + f"\nPost date: {posted_at:%A %Y-%m-%d}\n\nCaption:\n{caption or '(no caption)'}"
         )})
+        kwargs: dict = {}
+        if not self.model.startswith("claude-haiku"):
+            # server-side refusal fallback; not offered for Haiku models
+            kwargs = {"betas": ["server-side-fallback-2026-07-01"], "fallbacks": "default"}
         response = self.client.beta.messages.parse(
             model=self.model,
             max_tokens=16000,
@@ -106,8 +110,7 @@ class ClaudeExtractor:
             messages=[{"role": "user", "content": content}],
             output_config={"effort": self.effort},
             output_format=Extraction,
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",
+            **kwargs,
         )
         if response.stop_reason == "refusal" or response.parsed_output is None:
             log.warning("@%s: extraction returned no result (stop_reason=%s)", account, response.stop_reason)
