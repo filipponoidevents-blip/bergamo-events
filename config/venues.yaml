@@ -62,12 +62,13 @@ venues:
     km: 1.1
     kind: club
     status: active
-    genres: [commercial, house]
     socials: {instagram: zeroclub.bg, website: null, resident_advisor: https://ra.co/clubs/72471}
     tickets: [https://site.fourvenues.com/en/zero-club]
-    ig_source: search
-    ig_type: unknown
+    ig_source: user
+    ig_type: business (insights/boost visible)
     verified: false
+    genres: [house, tech house, hard techno, commercial, hip hop]
+    nights: "Wed PLEASE (free); Sat main room + club room; Fri/Sat rotating crews"
     notes: Same venue as the old Clash Club / Circolo Ego / Cavo Club (per Filippo). Tickets on Fourvenues.
 
   - name: Nikita
@@ -714,8 +715,8 @@ venues:
     kind: club
     status: active
     genres: [commercial]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: vibetheclub, website: null}
+    ig_source: search
     verified: false
     notes: "Seen on @nightlifebergamo."
 
@@ -914,6 +915,22 @@ venues:
     ig_source: null
     verified: false
     notes: "Seen on @nightlifebergamo. Outside 20 km."
+
+  - name: "Tassino Café"
+    aliases: ["Tassino", "Tassino Cafe"]
+    city: "Bergamo"
+    province: BG
+    address: Largo Nicolò Rezzara 6, 24122 Bergamo
+    lat: 45.697
+    lon: 9.672
+    km: 0.4
+    kind: bar
+    status: active
+    genres: [house]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: "Hosts utōpia nights (utopia x tassino, 24 Oct 2026, 20:00-23:00)."
 
   # --- Alert zone examples (outside 20 km) ---
   - name: Fabrique

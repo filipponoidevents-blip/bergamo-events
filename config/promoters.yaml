@@ -5,7 +5,7 @@
 promoters:
   - name: Hidden Hell
     instagram: hiddenhell.techno
-    ig_source: search
+    ig_source: user
     genres: [hard techno]
     venues: [Bolgia, Zero Club]
     notes: Hidden Hell x Code at Zero Club (13 Nov 2026). Runs Bolgia Main Room nights (e.g. USH opening, 5 Sep 2026).
@@ -54,12 +54,14 @@ promoters:
     genres: [techno]
     venues: [Daste]
     notes: Milan brand; "Sotterranea" special event at Daste.
-  - name: Utopia & Acrylic
-    instagram: null
-    ig_source: null
+  - name: utōpia
+    aliases: [Utopia, Utopia Crew, Utopia & Acrylic]
+    instagram: utopia.direction
+    ig_source: user
+    ig_type: business (Email button)
     genres: [melodic house]
-    venues: [Daste, Gres Art 671]
-    notes: Open All at Gres Art 671 (13 Nov 2026). Brought Innervisions / Âme to Daste.
+    venues: [Daste, Gres Art 671, Tassino Café]
+    notes: Open All at Gres Art 671 (13 Nov 2026), utopia x tassino. Brought Innervisions / Âme to Daste.
   - name: Discopasta Social Club
     instagram: discopastasc
     ig_source: search
@@ -87,20 +89,18 @@ promoters:
     ig_source: user
     venues: [Unplug Bar]
   - name: NØID
-    instagram: noidfamilia      # seen following Balzer by Night; likely, not confirmed
-    ig_source: search
+    instagram: noidfamilia
+    ig_source: user
+    genres: [house, tech house]
     venues: [Zero Club]
     notes: Zero Club main room night (Germano Ventura guest, 14 Nov 2026).
-  - name: Code
-    instagram: null
-    ig_source: null
-    venues: [Zero Club]
-    notes: With Hidden Hell at Zero Club.
-  - name: Icks
-    instagram: null
-    ig_source: null
+  - name: ICKS
+    instagram: icksdresstoimpress
+    ig_source: user
+    ig_type: business (Contact button)
+    website: https://icks.it
     venues: [Daste]
-    notes: '"Pump" after party at Daste.'
+    notes: "Afterparties at Daste (Pump battle 14 Nov 2026, MURA festival). Related accounts @letitpump (dance battles) and @trendy.exp (market)."
   - name: Gabass Subculture
     instagram: null
     ig_source: null
@@ -117,3 +117,50 @@ promoters:
     instagram: bergamonightservice
     ig_source: search
     notes: Free night bus, not a promoter. Useful for transport info in posts.
+  - name: PLEASE
+    instagram: please.nights
+    ig_source: user
+    venues: [Zero Club]
+    notes: Every Wednesday at Zero Club, free entry.
+  - name: TALK
+    instagram: talk.maf
+    ig_source: user
+    genres: [house]
+    venues: [Zero Club]
+  - name: Sloth
+    instagram: sloth.bg
+    ig_source: user
+    venues: [Zero Club]
+    notes: Zero Club club room.
+  - name: Step Up
+    instagram: we.are.stepup
+    ig_source: user
+    venues: [Zero Club]
+    notes: Zero Club club room.
+  - name: UniBG Party
+    instagram: unibg_party
+    ig_source: user
+    genres: [hits, dance]
+    venues: [Zero Club]
+    notes: University parties; low relevance.
+  - name: Premiere
+    instagram: premiere.premiere
+    ig_source: user
+    genres: [trap, hip hop]
+    venues: [Zero Club]
+    notes: Low relevance.
+  - name: The Circle
+    instagram: the.circlehub
+    ig_source: user
+    venues: [Zero Club]
+  - name: Crystal Castles Night
+    instagram: crystalcastlesnightt
+    ig_source: user
+    genres: [witch house, EDM]
+    venues: [Zero Club]
+  - name: CRØMA
+    instagram: cromaroom
+    ig_source: user
+    genres: [trap, hip hop, urban]
+    venues: [Zero Club]
+    notes: Low relevance. With Bar Florio in the club room.
