@@ -1,5 +1,61 @@
 [
   {
+    "title": "31.10.26",
+    "start": "2026-10-31T23:00:00+01:00",
+    "venue": {
+      "name": "Bolgia",
+      "city": "Osio Sopra",
+      "province": "BG",
+      "lat": 45.67,
+      "lon": 9.588,
+      "address": "Via Vaccarezza 8, 24040 Osio Sopra",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "bolgia.official",
+        "tiktok": null,
+        "facebook": "bolgiaofficial",
+        "website": "https://www.bolgia.it",
+        "resident_advisor": "https://ra.co/clubs/5759"
+      },
+      "verified": true
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "techno"
+    ],
+    "genre": "Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfNOtZkIrnP/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/870771517_1096661139878020_5676924142506313282_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=20c5NVfGgn8Q7kNvwGwxxFT&_nc_oc=Adol4zst50k0eyCyZsfPrfg_7xwQl0slBvHiTRq6BwUXITGqOVsyuzgGif5HQDZnTCQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=cEbqE3JdBV_U1nIqvBDs3g&_nc_tpa=Q5bMBQI-mE3Zjo9Hu9I-XQf89NIW5qG7G7NMJ4AEgtcvr2kQ5hqUnyKtp5CjwP-f-GwDiI998ZJfcWtFxQ&_nc_ct=RQosPBUKFQgAAAA&oh=00_AQSnTv9RHuhneyYIp8lEzzb9KByn07lM1aBaGmmBpQ7DAw&oe=6B013D80",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18130519630840161-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfNOtZkIrnP/"
+    ],
+    "score": 6.5,
+    "scope": "local",
+    "distance_km": 7.6,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.921136+00:00",
+    "updated": "2026-11-16T22:49:17.921136+00:00",
+    "uid": "384b9e5d98b5b0be"
+  },
+  {
     "title": "BUNNY CLUB  HALLOWEEN EDITION  BERGAMO",
     "start": "2026-10-31T23:30:00+01:00",
     "venue": {
@@ -54,8 +110,445 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.030585+00:00",
-    "updated": "2026-11-16T22:41:29.687516+00:00",
+    "updated": "2026-11-16T22:49:17.887858+00:00",
     "uid": "772b486f4a4271df"
+  },
+  {
+    "title": "weekend appena iniziato, volume già al massimo",
+    "start": "2026-11-06T22:00:00+01:00",
+    "venue": {
+      "name": "Arya Lounge",
+      "city": "Romano di Lombardia",
+      "province": "BG",
+      "lat": 45.522,
+      "lon": 9.754,
+      "address": "Via Balilla 66, Romano di Lombardia",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "arya.lounge",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "hip hop"
+    ],
+    "genre": "Hip Hop / Trap",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfZ3pGbiiyQ/",
+    "ticket_url": null,
+    "image_url": null,
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18015927173972525-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfZ3pGbiiyQ/"
+    ],
+    "score": 2.6,
+    "scope": "ignore",
+    "distance_km": 20.5,
+    "reasons": [
+      "genre:hip hop",
+      "instagram-club-night"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.868750+00:00",
+    "updated": "2026-11-16T22:49:17.868750+00:00",
+    "uid": "5696384f5b8e4038"
+  },
+  {
+    "title": "VENERDI 6 NOVEMBRE 2026 AL DECIBEL",
+    "start": "2026-11-06T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfQXWSvoBaf/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/854831120_1730326132213492_6796323343378631494_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-X1NUUxIkhEQ7kNvwHJeHqC&_nc_oc=Adr-t4c8F_24knAazVmETKjS0JQvkx3g-UQvutYiTDwLEj_8w-Vv96fPmQXbOVSQaTg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSq0g54Jgsz8NTqPP3ql_dorDr-4DwfJVXjqqOwRnctwQ&oe=6B012E6B",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17945512023090369-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfQXWSvoBaf/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.853267+00:00",
+    "updated": "2026-11-16T22:49:17.853267+00:00",
+    "uid": "422abafc1df1ece0"
+  },
+  {
+    "title": "Ora sai già cosa fare sabato 7.11",
+    "start": "2026-11-07T23:00:00+01:00",
+    "venue": {
+      "name": "Vibe Club",
+      "city": "Treviolo",
+      "province": "BG",
+      "lat": 45.672,
+      "lon": 9.616,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "vibetheclub",
+        "tiktok": null,
+        "facebook": null,
+        "website": "https://www.vibetheclub.it",
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Commerciale",
+    "genre_source": "venue",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfU8ZNpzloq/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/882516797_18452879710120013_3754352107097593579_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zp9DakleY-cQ7kNvwG71go3&_nc_oc=Adod59icuw2mhe27_RH-_EXw_GZFeS34c2OWpteAUyYNsUrhHo1GjgjHKrgsUmdBjqk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=HA7HRUFrMfIVZnQbLd4Xhw&_nc_tpa=Q5bMBQLhV0TdGXt4kDJkmWVnN3BmDWCgUwUzQ9cHwLi99WH4zTcTxV04J5wYnQ06X5dc2-Qghb4azfuH-A&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRIc1kYT4YQxRefltBrL4Mws8ShVyFatQVlYgUqxCDf0Q&oe=6B013365",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17981040494921253-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfU8ZNpzloq/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 5.6,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.860540+00:00",
+    "updated": "2026-11-16T22:49:17.860540+00:00",
+    "uid": "23c1cc663127a572"
+  },
+  {
+    "title": "07.11.26",
+    "start": "2026-11-07T23:00:00+01:00",
+    "venue": {
+      "name": "Bolgia",
+      "city": "Osio Sopra",
+      "province": "BG",
+      "lat": 45.67,
+      "lon": 9.588,
+      "address": "Via Vaccarezza 8, 24040 Osio Sopra",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "bolgia.official",
+        "tiktok": null,
+        "facebook": "bolgiaofficial",
+        "website": "https://www.bolgia.it",
+        "resident_advisor": "https://ra.co/clubs/5759"
+      },
+      "verified": true
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "techno"
+    ],
+    "genre": "Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DffCOaModWQ/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/892558484_4428963674021284_278521426833084351_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=SRkurUiUHhIQ7kNvwE75Rgl&_nc_oc=Adr5-hlfegcXP9im6kLSnasrh_CPzt1H44JQYDvBQ4UpdD4ZVfrWffWTkYrjixWd1QM&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=cEbqE3JdBV_U1nIqvBDs3g&_nc_tpa=Q5bMBQKyRJYpFH8Keea3o7frG93t_41nuUIWe8DHrbPqUgnmugNqFfaMpzOSwgywyrqFaLhjQluDlBIyRA&_nc_ct=RQosPBUKFQgAAAA&oh=00_AQS1av6K0amIqlbCsPUPyDFkrpT_riqywERDu1hy4XOuUw&oe=6B01423E",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18015060245967121-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DffCOaModWQ/"
+    ],
+    "score": 6.5,
+    "scope": "local",
+    "distance_km": 7.6,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.866463+00:00",
+    "updated": "2026-11-16T22:49:17.866463+00:00",
+    "uid": "9812fabf19ef2bf6"
+  },
+  {
+    "title": "SABATO 7 NOVEMBRE AL DECIBEL CLUB",
+    "start": "2026-11-07T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfQW5OYD8tA/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/886609152_1730323065547132_1383716735940359276_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FV_ACZix3RQQ7kNvwGZp4s-&_nc_oc=Adp1hxijHM95Qzk0dHf2oD_q86EHsU6xEz2UnGRdJA0BBcggLuZOkYlt_bu8r0Rey3g&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQoNQEOLrbAQrH7Aljnyw-kq_uNH0xE7TyGy_gUpJSZ9g&oe=6B014A7F",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18122213602950095-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfQW5OYD8tA/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.913913+00:00",
+    "updated": "2026-11-16T22:49:17.913913+00:00",
+    "uid": "49ad44d91b4fe163"
+  },
+  {
+    "title": "JUSTICE",
+    "start": "2026-11-08T00:00:00+01:00",
+    "venue": {
+      "name": "Hype Club",
+      "city": "Cortenuova",
+      "province": "BG",
+      "lat": 45.537,
+      "lon": 9.787,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "hype.club.official",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [
+      "Justice"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfP0aB7IK5B/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/886730000_18130473394850202_7073988045115239861_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XRpeRYW33WoQ7kNvwFmMIXL&_nc_oc=AdpvFOQbBXDOq3SpZ_6vOyUAPv76tum1ypci7uS7Nn8eOaIi8hW-Ckgd4Xsld2FsuLI&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=pBAuh5AP7KZTYVBB9kXZJg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR7x4xQfJFAwUcshtXmCbO-sbnKmvJyXSWDWqCTvDFHeA&oe=6B014F10",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18112728383337831-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfP0aB7IK5B/"
+    ],
+    "score": 7.5,
+    "scope": "local",
+    "distance_km": 19.9,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club",
+      "crossover:Justice"
+    ],
+    "alert_level": "regional",
+    "first_seen": "2026-11-16T22:49:17.889199+00:00",
+    "updated": "2026-11-16T22:49:17.889199+00:00",
+    "uid": "e29198108d5147b2"
+  },
+  {
+    "title": "DOMENICA 8 NOVEMBRE AL DECIBEL CLUB",
+    "start": "2026-11-08T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfQWOH6DDjf/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/886844010_1730316018881170_6179773960936038824_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mj_jzbjf7uAQ7kNvwG6y99k&_nc_oc=Adqm-B_ZDjilisoHujVahTvyJHjeUkPLvaoeVDc0iKY8r4ucX_BNj4-K6_qH2b44Mtg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSHIZfLMHdtya91DnHXBYXOQ6_T2GVohQPIAxXDJWIDBQ&oe=6B015FCF",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17944840197380356-0",
+      "ig:18137793064653641-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfQVk81nXCh/",
+      "https://www.instagram.com/p/DfQWOH6DDjf/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.851953+00:00",
+    "updated": "2026-11-16T22:49:17.935958+00:00",
+    "uid": "a5ee97ec3444677b"
+  },
+  {
+    "title": "GIOVEDÌ 12 NOVEMBRE TERZO APPUNTAMENTO DI CUCINEMA moreknobs_",
+    "start": "2026-11-12T23:00:00+01:00",
+    "venue": {
+      "name": "Pacì Paciana",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.69,
+      "lon": 9.64,
+      "address": "Via Grumello 61/c, Bergamo",
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "csapacipaciana",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/69109"
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "genre": "Techno",
+    "genre_source": "venue",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfZavEsiLt7/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/887686656_18656302204056454_3117620964315432146_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2HEc_gvW7lsQ7kNvwEGnOrH&_nc_oc=AdqpGgp7th_3ZmxI8I9dwSAOCyv1qV1iznHc8pKvIi7bWYoO21-RA6HoYWiv-KXYai8&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRZsq3R6rniID16VxVGTWCP3g6CznU4VvNCkVfX1aaNcw&oe=6B0148BC",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18080782121455579-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfZavEsiLt7/"
+    ],
+    "score": 3.8,
+    "scope": "local",
+    "distance_km": 3.0,
+    "reasons": [
+      "genre:dj set",
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.876351+00:00",
+    "updated": "2026-11-16T22:49:17.876351+00:00",
+    "uid": "46b56cfca9218958"
   },
   {
     "title": "VENERDÌ 13.11  dalle 21:00 dj set con federicosalimeii",
@@ -110,7 +603,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.037923+00:00",
-    "updated": "2026-11-16T22:41:29.688720+00:00",
+    "updated": "2026-11-16T22:49:17.891401+00:00",
     "uid": "44add0a834bf5a8f"
   },
   {
@@ -151,12 +644,14 @@
     "promoter": null,
     "promoter_name": null,
     "sources": [
+      "ig:18119515997037378-0",
       "ig:18136811626673698-0",
       "ig:18190064005421310-0"
     ],
     "source_urls": [
       "https://www.instagram.com/p/Dfhse5JKuuH/",
-      "https://www.instagram.com/reel/Dfm_tHRJwae/"
+      "https://www.instagram.com/reel/Dfm_tHRJwae/",
+      "https://www.instagram.com/reel/Dfr9M3kJLFU/"
     ],
     "score": 5.0,
     "scope": "ignore",
@@ -167,7 +662,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.038962+00:00",
-    "updated": "2026-11-16T22:41:29.703845+00:00",
+    "updated": "2026-11-16T22:49:17.948005+00:00",
     "uid": "2c3345abb902a5ec"
   },
   {
@@ -220,8 +715,238 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036390+00:00",
-    "updated": "2026-11-16T22:41:29.708516+00:00",
+    "updated": "2026-11-16T22:49:17.962310+00:00",
     "uid": "2992e78d345bcc70"
+  },
+  {
+    "title": "HIDDEN HELL x C0DE SHOWCASE",
+    "start": "2026-11-13T23:00:00+01:00",
+    "venue": {
+      "name": "Unknown venue",
+      "city": "",
+      "province": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": null,
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "house"
+    ],
+    "genre": "House",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfAV_VMps9_/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/868542965_1110606421579545_2157606312146095306_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=JknmS60fSU4Q7kNvwFilz0f&_nc_oc=AdoMVvey2rCyDXgeatxK0kr24lRRDLz60fJnRwTojm1qM3m6pTOS4O9soowIue-bVQ0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=DhKqoYpHe4o6EFlUirXj7w&_nc_tpa=Q5bMBQKaxOcR13nwv6T83C_uN4cU6nM7mbC1xqDizTcrthg8z8OmjvdOFpszD6zHR_13PnfJDI3xq7j2GA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTO39JxR5Ru1AD4lSCFaZRlywIV1WP722t42k1uKIsgOg&oe=6B01432E",
+    "price": null,
+    "promoter": {
+      "instagram": "hiddenhell.techno",
+      "tiktok": null,
+      "facebook": null,
+      "website": null,
+      "resident_advisor": null
+    },
+    "promoter_name": "@hiddenhell.techno",
+    "sources": [
+      "ig:17872910934643134-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfAV_VMps9_/"
+    ],
+    "score": 6.0,
+    "scope": "ignore",
+    "distance_km": null,
+    "reasons": [
+      "genre:house",
+      "instagram-club-night",
+      "venue:club",
+      "outside-alert-provinces"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.836801+00:00",
+    "updated": "2026-11-16T22:49:17.836801+00:00",
+    "uid": "0472940301c97bde"
+  },
+  {
+    "title": "Dj Cava, da anni a sostegno dello spazio, ancora oggi figura che compare quando ",
+    "start": "2026-11-13T23:00:00+01:00",
+    "venue": {
+      "name": "Pacì Paciana",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.69,
+      "lon": 9.64,
+      "address": "Via Grumello 61/c, Bergamo",
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "csapacipaciana",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/69109"
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "reggaeton"
+    ],
+    "genre": "Latin / Reggaeton",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfhPTsto1il/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/892558490_18657412777056454_2397491112675358732_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NbqtmVMYNkgQ7kNvwFVOaNG&_nc_oc=AdpMuOYVNlfwIS34iEpaI9uTUzb3n9n18cUL0eo91cTgQHtwU1wqW3X7w8RvR0j25y0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRCmW2AFtBp7z8p00U-BvK5JzVfsPevEaPj-Ugkfhs33g&oe=6B0161A4",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18106154075640542-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfhPTsto1il/"
+    ],
+    "score": 2.7,
+    "scope": "local",
+    "distance_km": 3.0,
+    "reasons": [
+      "genre:reggaeton",
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.884036+00:00",
+    "updated": "2026-11-16T22:49:17.884036+00:00",
+    "uid": "2a84fd65e87f5a17"
+  },
+  {
+    "title": "VENERDI 13 NOVEMBRE 2026 AL DECIBEL",
+    "start": "2026-11-13T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfiZZT1DZKY/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/899822076_1738526908060081_4466939951497362140_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gsSh3qJGF6UQ7kNvwHrLOFC&_nc_oc=AdqkD9hsFe5t-CNii7fE_bNPGjnTVjgShm7fLUox6CT9cqtUpT7TJUyDl4fQo_YmEkA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQcJWilRVunTj_oyLULUJdcBtJvqrq5pnW-bkaFZ1R-hA&oe=6B0139DB",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18119483141082712-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfiZZT1DZKY/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.899503+00:00",
+    "updated": "2026-11-16T22:49:17.899503+00:00",
+    "uid": "0f9d961839693c33"
+  },
+  {
+    "title": "UTŌPIA CREW",
+    "start": "2026-11-13T23:00:00+01:00",
+    "venue": {
+      "name": "Gres Art 671",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.683,
+      "lon": 9.66,
+      "address": "Via San Bernardino 141, Bergamo",
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "gres_art_671",
+        "tiktok": null,
+        "facebook": null,
+        "website": "https://www.gresart671.org",
+        "resident_advisor": null
+      },
+      "verified": true
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "elettronica",
+      "electronic",
+      "techno"
+    ],
+    "genre": "Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfKG1NWDHg8/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/876871573_18000487560034022_6237119176441367759_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=zXWRZXvOOJoQ7kNvwH__uZp&_nc_oc=AdqdsAC2pEi6sgRdnCyBQyB4Gvplzq2VgKh5o2mD-28DdS4QRqqBc2joCsA8yhZDVpg&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AG8aLP4lQAQthDbP-J7LFQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSHoRWi8qU397T17FNEtfren_xOjISZZqbOXObDyYKN_w&oe=6B014F86",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18131733649814990-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfKG1NWDHg8/"
+    ],
+    "score": 5.3,
+    "scope": "local",
+    "distance_km": 2.2,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.922942+00:00",
+    "updated": "2026-11-16T22:49:17.922942+00:00",
+    "uid": "3e59373b90be9585"
   },
   {
     "title": "Tra terra e cielo",
@@ -275,8 +1000,61 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034104+00:00",
-    "updated": "2026-11-16T22:41:29.683064+00:00",
+    "updated": "2026-11-16T22:49:17.871648+00:00",
     "uid": "1d9cfe638a16e92c"
+  },
+  {
+    "title": "Sabato 14.11   in console valllllls",
+    "start": "2026-11-14T21:00:00+01:00",
+    "venue": {
+      "name": "MINT",
+      "city": "Chiuduno",
+      "province": "BG",
+      "lat": 45.647,
+      "lon": 9.853,
+      "address": "Via Trieste 38, Chiuduno",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "mint_lounge",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/Dfj_fQsiAyl/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/855649729_1556830476478168_2693317139686014070_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gouPmSlkdywQ7kNvwFD4Sya&_nc_oc=AdrHSvpjn6F_NU0GLtgIdeog28QYc1bahmxPOV_u7rW26dIcoMiR2zPVgg7XItxIQqo&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=vGytdYi1s5p-smgANfYKTA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRIqyGoR6u8vkPYPv-zEtQOR7TcTihmJtrOypOtVaHXww&oe=6B012E11",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18133177492684918-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfj_fQsiAyl/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 14.8,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.929300+00:00",
+    "updated": "2026-11-16T22:49:17.929300+00:00",
+    "uid": "9580797f17c8556b"
   },
   {
     "title": "SABATO 14 NOVEMBRE",
@@ -330,8 +1108,285 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035819+00:00",
-    "updated": "2026-11-16T22:41:29.707777+00:00",
+    "updated": "2026-11-16T22:49:17.959252+00:00",
     "uid": "208673cac3dfbdf1"
+  },
+  {
+    "title": "SABATO 14 NOVEMBRE AL DECIBEL CLUB",
+    "start": "2026-11-14T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfiZA9XAATb/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/899352844_1738524594726979_6532945181423117527_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=lbQVD_BNa1IQ7kNvwELVotS&_nc_oc=AdpuW0yqzWN5zOaiLJdhEsu5PX1MAzPxbXi08cQqR5ScAwphquKZ4bneOveigmIfSFo&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQic482YvhI33K28s7xMMnqz1yw7l9f8-ffz9nUzS0dug&oe=6B013A97",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17999105640019142-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfiZA9XAATb/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.863033+00:00",
+    "updated": "2026-11-16T22:49:17.863033+00:00",
+    "uid": "aaa039a8d25b678c"
+  },
+  {
+    "title": "LA CASITA di Bad Bunny - 14 NOVEMBRE",
+    "start": "2026-11-14T23:00:00+01:00",
+    "venue": {
+      "name": "Hype Club",
+      "city": "Cortenuova",
+      "province": "BG",
+      "lat": 45.537,
+      "lon": 9.787,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "hype.club.official",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Commerciale / Reggaeton",
+    "genre_source": "promoter",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfmpwV6I5cN/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/893312049_18131385298850202_8778733629951424826_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=uUcnYRodIFoQ7kNvwEsTNnM&_nc_oc=Ado5oKb71qGPIARHaA09nz1HPrhb-BoS24dBlslYoeHVjB-UNZ1ElkpMEyNCXf-w27Y&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=pBAuh5AP7KZTYVBB9kXZJg&_nc_tpa=Q5bMBQK10d1C8FCtuQac79PrAj2Cx0d5dYja6O7XPWbDKayUctsOmz-aEY-1bfQ30rCmmCPDA4XqhfHnmw&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQTaBEiKuaR6d-NgsEd8FMPy6sToQGVAaTWtRJKrHodf4w&oe=6B013B84",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18085098923549404-0",
+      "ig:18179759875463166-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfiCkFuonPP/",
+      "https://www.instagram.com/reel/DfmpwV6I5cN/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 19.9,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.877673+00:00",
+    "updated": "2026-11-16T22:49:17.944008+00:00",
+    "uid": "3e74f2002717a2c3"
+  },
+  {
+    "title": "14.11.26",
+    "start": "2026-11-14T23:00:00+01:00",
+    "venue": {
+      "name": "Bolgia",
+      "city": "Osio Sopra",
+      "province": "BG",
+      "lat": 45.67,
+      "lon": 9.588,
+      "address": "Via Vaccarezza 8, 24040 Osio Sopra",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "bolgia.official",
+        "tiktok": null,
+        "facebook": "bolgiaofficial",
+        "website": "https://www.bolgia.it",
+        "resident_advisor": "https://ra.co/clubs/5759"
+      },
+      "verified": true
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Techno",
+    "genre_source": "venue",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfxWOxKIVNk/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/902094695_1917166449692563_1610569779714832681_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yGgqkF5VFWsQ7kNvwGHcm8g&_nc_oc=AdoiGZq5gDZx6L51TWqvBwRM-9nylJJM4r2A0xE61ogcVgA_sv1YQb858boPj7OP7qA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=cEbqE3JdBV_U1nIqvBDs3g&_nc_tpa=Q5bMBQI2TPsrn8Re8mYC2oxxgsop9hpYq2Xz5wwalLhXKlS1qUqQRND9sCIOcDVBmj3vP24PaiGy2npBxA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQTprDXDKSWJeFdECf0G8F1lMxRD6v-qYVBOEna6qpU5bA&oe=6B015D86",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18107543876203637-0",
+      "ig:18145397935702244-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfPcg0IiEQA/",
+      "https://www.instagram.com/reel/DfxWOxKIVNk/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 7.6,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.885210+00:00",
+    "updated": "2026-11-16T22:49:17.938501+00:00",
+    "uid": "cd5bec525c0b38e5"
+  },
+  {
+    "title": "UTŌPIA CREW",
+    "start": "2026-11-14T23:00:00+01:00",
+    "venue": {
+      "name": "Gres Art 671",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.683,
+      "lon": 9.66,
+      "address": "Via San Bernardino 141, Bergamo",
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "gres_art_671",
+        "tiktok": null,
+        "facebook": null,
+        "website": "https://www.gresart671.org",
+        "resident_advisor": null
+      },
+      "verified": true
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "elettronica",
+      "electronic",
+      "techno"
+    ],
+    "genre": "Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfKG1NWDHg8/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/876871573_18000487560034022_6237119176441367759_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=zXWRZXvOOJoQ7kNvwH__uZp&_nc_oc=AdqdsAC2pEi6sgRdnCyBQyB4Gvplzq2VgKh5o2mD-28DdS4QRqqBc2joCsA8yhZDVpg&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AG8aLP4lQAQthDbP-J7LFQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSHoRWi8qU397T17FNEtfren_xOjISZZqbOXObDyYKN_w&oe=6B014F86",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18131733649814990-1"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfKG1NWDHg8/"
+    ],
+    "score": 5.3,
+    "scope": "local",
+    "distance_km": 2.2,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.924775+00:00",
+    "updated": "2026-11-16T22:49:17.924775+00:00",
+    "uid": "23b44d4645d5cb43"
+  },
+  {
+    "title": "DUE GIORNI, UNA RADIO, TANTA MUSICA",
+    "start": "2026-11-14T23:00:00+01:00",
+    "venue": {
+      "name": "Ink Club",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.699,
+      "lon": 9.67,
+      "address": null,
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "inkclub_bergamo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfhK84xxtbq/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/892848305_18371796358215937_4295079038329862095_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2Gv0lQ5jYWoQ7kNvwHNjKcw&_nc_oc=AdqRbmpB8yVvJKgG-4VR-u0Jj76E-EpVTc95JIYJXm7KsQhjae6I4yiahZSoS9dkUlI&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=JRLtrLZpE12cKoiM2Sa6eA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQQhTUhu_qMdkJFesAEw0kuUtCT0A4nWNGkK8UXKBoWIQ&oe=6B015BCF",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18493918870111248-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfhK84xxtbq/"
+    ],
+    "score": 3.8,
+    "scope": "local",
+    "distance_km": 0.6,
+    "reasons": [
+      "genre:dj set",
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.960891+00:00",
+    "updated": "2026-11-16T22:49:17.960891+00:00",
+    "uid": "fd5526e063ff246b"
   },
   {
     "title": "Ritorno alle origini",
@@ -385,7 +1440,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.029938+00:00",
-    "updated": "2026-11-16T22:41:29.709597+00:00",
+    "updated": "2026-11-16T22:49:17.964299+00:00",
     "uid": "58e01054adc70132"
   },
   {
@@ -443,8 +1498,61 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.032372+00:00",
-    "updated": "2026-11-16T22:41:29.702616+00:00",
+    "updated": "2026-11-16T22:49:17.945736+00:00",
     "uid": "ba8f065aad3733ae"
+  },
+  {
+    "title": "DOMENICA 15 NOVEMBRE AL DECIBEL CLUB",
+    "start": "2026-11-15T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfiXvfAktg6/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/898167364_1738517378061034_7820933297993842200_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RFYbHmwgiIAQ7kNvwHQ1XXS&_nc_oc=AdqFdUYutwEPYQE7jOHztz1CbJo9PCMbbDXSu1gDLbbgJnGaPIAT8h7TyZMjnNEmsNc&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRfj3qlZMWOWah_1JG53xtnwYdGiBWZHiOUoPaOGNzw3A&oe=6B0155E0",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17921603988246000-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfiXvfAktg6/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.848052+00:00",
+    "updated": "2026-11-16T22:49:17.848052+00:00",
+    "uid": "e31614cd0b913853"
   },
   {
     "title": "MERCOLEDÌ BOARO",
@@ -500,7 +1608,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.031795+00:00",
-    "updated": "2026-11-16T22:41:29.692286+00:00",
+    "updated": "2026-11-16T22:49:17.901244+00:00",
     "uid": "ea678bf0abdd35a3"
   },
   {
@@ -556,7 +1664,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.619930+00:00",
-    "updated": "2026-11-16T22:41:29.705337+00:00",
+    "updated": "2026-11-16T22:49:17.952240+00:00",
     "uid": "c7785c7178dd86b4"
   },
   {
@@ -612,7 +1720,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.621277+00:00",
-    "updated": "2026-11-16T22:41:29.706324+00:00",
+    "updated": "2026-11-16T22:49:17.954083+00:00",
     "uid": "b9b81c451ce6f377"
   },
   {
@@ -665,8 +1773,60 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.589079+00:00",
-    "updated": "2026-11-16T22:41:29.681534+00:00",
+    "updated": "2026-11-16T22:49:17.865290+00:00",
     "uid": "bf35feae3a7c5433"
+  },
+  {
+    "title": "Il weekend chiama, Arya risponde",
+    "start": "2026-11-20T22:00:00+01:00",
+    "venue": {
+      "name": "Arya Lounge",
+      "city": "Romano di Lombardia",
+      "province": "BG",
+      "lat": 45.522,
+      "lon": 9.754,
+      "address": "Via Balilla 66, Romano di Lombardia",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "arya.lounge",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "category": "club",
+    "description": "Il weekend chiama, Arya risponde. 🔥\n\nVenerdì 20 novembre torna il nostro Friday Night, con alessiosielii in consolle dalle 22:00. 🔊\n\nLa serata promette bene, voi fatevi trovare carichi.\n\nPrenota il tuo tavolo e ci vediamo da Arya. 💜",
+    "url": "https://www.instagram.com/p/Dfz_Jx9KjOs/",
+    "ticket_url": null,
+    "image_url": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/907470830_17916986103513946_3684887603819229354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1u-uu0JN4UQQ7kNvwEeuBSG&_nc_oc=Adpz6G9S5672bQ3hp0rFF5G5KB6q2c3ZXJdE7q02sWvYiGeEoAb4shnQFzMBw4HVFq0&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=gymOVLSW9YcMre97bw4DPw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQatAHGn5VrhSfa0hEcjs6DGhBL3ndRS5xYwweqRPP18A&oe=6B01494B",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18127056307912031-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfz_Jx9KjOs/"
+    ],
+    "score": 2.0,
+    "scope": "ignore",
+    "distance_km": 20.5,
+    "reasons": [
+      "instagram-club-night"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.917308+00:00",
+    "updated": "2026-11-16T22:49:17.917308+00:00",
+    "uid": "b8ee19cab13fa59f"
   },
   {
     "title": "VENERDÌ 20 NOVEMBRE",
@@ -724,8 +1884,61 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035283+00:00",
-    "updated": "2026-11-16T22:41:29.704594+00:00",
+    "updated": "2026-11-16T22:49:17.949459+00:00",
     "uid": "eb69ad9a78c5b653"
+  },
+  {
+    "title": "20 NOVEMBRE MAIN AREA",
+    "start": "2026-11-20T22:30:00+01:00",
+    "venue": {
+      "name": "Nikita",
+      "city": "Telgate",
+      "province": "BG",
+      "lat": 45.625,
+      "lon": 9.852,
+      "address": "Via dei Morenghi 2, Telgate (Grumello del Monte, by A4 exit)",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "nikita__land",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/169169"
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "House",
+    "genre_source": "venue",
+    "headliners": [],
+    "category": "club",
+    "description": "20 NOVEMBRE [MAIN AREA]\n\ndalle 22:30 a mezzanotte ingresso gratuito\nda mezzanotte ingresso donna 10 uomo 15, drink incluso\n\n▵ | NIKITA | ▵\ngrumello del monte bg, via dei morenghi 2",
+    "url": "https://www.instagram.com/p/Dfy_Ai_DqZe/",
+    "ticket_url": null,
+    "image_url": "https://scontent-dfw5-2.cdninstagram.com/v/t39.30808-6/905021563_1448045107538818_1354116211163786976_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=7ec5Fyk-wqIQ7kNvwHw4MPy&_nc_oc=AdrBD50xuPZEsvA2qd_tQ_5mws6LUETunx8ZXALHyGjHBrY3DGqsas-xelXmsIPTRqU&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=foHDOkmR9ZCvs_8PZncL1Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTsCPKF6yA8hBKVuJ9n-F_BWHtAHDkTTkCf9VKIueeFiA&oe=6B017076",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18130206880852436-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfy_Ai_DqZe/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 15.8,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.919972+00:00",
+    "updated": "2026-11-16T22:49:17.919972+00:00",
+    "uid": "bbfb522f9393f9fd"
   },
   {
     "title": "𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧  𝐷𝑎𝑙 20 𝑛𝑜𝑣𝑒𝑚𝑏𝑟𝑒 2026 𝑎𝑙 10 𝑔𝑒𝑛𝑛𝑎𝑖𝑜 2027",
@@ -780,7 +1993,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.601269+00:00",
-    "updated": "2026-11-16T22:41:29.690415+00:00",
+    "updated": "2026-11-16T22:49:17.896357+00:00",
     "uid": "fe4150bede6719f4"
   },
   {
@@ -833,7 +2046,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.606599+00:00",
-    "updated": "2026-11-16T22:41:29.695008+00:00",
+    "updated": "2026-11-16T22:49:17.912592+00:00",
     "uid": "f47131ce77fe681f"
   },
   {
@@ -890,8 +2103,240 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.607613+00:00",
-    "updated": "2026-11-16T22:41:29.696322+00:00",
+    "updated": "2026-11-16T22:49:17.918692+00:00",
     "uid": "4e9c03347a1f8188"
+  },
+  {
+    "title": "C’è chi già sa e chi non lo sa è il momento che lo sappia",
+    "start": "2026-11-20T23:00:00+01:00",
+    "venue": {
+      "name": "Pacì Paciana",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.69,
+      "lon": 9.64,
+      "address": "Via Grumello 61/c, Bergamo",
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "csapacipaciana",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/69109"
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "drum & bass"
+    ],
+    "genre": "Drum & Bass",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "C’è chi già sa e chi non lo sa è il momento che lo sappia. \nTorna l’evento più infuocato della downtown. \n\nIn gran spolvero si torna al Paci Paciana, che per noi è come casa. A spingere dal basso una situa hot per tuttə. \n\n📆 20 Novembre \n📍 C.s.a. Pacì Paciana\n ⏰ Starting 22.00\n\nSuper Guests 💋\nGiulia Santori \nSoavira \n\nResident Stars ✨\nJungle Jacco\nGuacamolli \n\nCan’t miss 🔥💦\nDillo alle ame \n\n“Perrear también es hacer politica”\n\nATTENZIONE! Questo è uno spazio transfemminista, ecco le poche ma essenziali regole da ricordare per prendersi cura della festa:\n- NO È NO! Rispetta i confini fisici ed emotivi dell3 altre3\n- NON tolleriamo nessun tipo di discriminazione: fuori machismo, razzismo e omo-lesbo-bi-transfobia\n- Responsabilità condivisa: lo spazio sicuro è costruito collettivamente!!",
+    "url": "https://www.instagram.com/p/DfXKa2kIYAJ/",
+    "ticket_url": null,
+    "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/887399540_18656034898056454_289892813790117605_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wxF-MikzEIkQ7kNvwFBf-sO&_nc_oc=AdrBZb1uo520pAUsxdooVVIPs7c6c_M7nuKuLC8dhXmbss0qMlJvZdmT_cRjZ5Ir2hU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSi9gw2Vb2nTVYihXaMZkpGcOs48VvAU892D339Fyg2_Q&oe=6B015909",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18121845041319617-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfXKa2kIYAJ/"
+    ],
+    "score": 3.3,
+    "scope": "local",
+    "distance_km": 3.0,
+    "reasons": [
+      "genre:drum & bass",
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.910498+00:00",
+    "updated": "2026-11-16T22:49:17.910498+00:00",
+    "uid": "dd2e660634e6e117"
+  },
+  {
+    "title": "VENERDI 20 NOVEMBRE 2026 AL DECIBEL",
+    "start": "2026-11-20T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "latin / reggaeton"
+    ],
+    "genre": "Latin / Reggaeton",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "VENERDI 20 NOVEMBRE 2026 AL DECIBEL\nCLUB LATIN NIGHT🔝🔝🔝\nIL VENERDÌ LATINO CON DJ CHRISTIAN IL CHICHI E VALERIO EL DIRECTOR🎵🎵🎵 \nANIMAZIONE ALESSIO SARA DIEGO🕺💃🕺\nSI BALLA SU SALA UNICA\nAPERTURA ORE 22.00\ningresso euro 13 drink compreso",
+    "url": "https://www.instagram.com/p/Df0VoFEDTBH/",
+    "ticket_url": null,
+    "image_url": "https://scontent-dfw6-2.cdninstagram.com/v/t39.30808-6/910848458_1747160713863367_8443096415034049679_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wxTLvfpIJD4Q7kNvwHHhbEj&_nc_oc=AdoUPN8XbL81IfsDXnPvLuMHvcVQmU4eunKkZdfWES8Duutwua4RtKH-aHgbND01_qQ&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-D6RQjy4QlIpS79I1805RA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT-ChH9he8EVm9phukTIZxFLRrtO6WfhhQO4w1VENWDqQ&oe=6B014445",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18195912265397773-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df0VoFEDTBH/"
+    ],
+    "score": 3.9,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "genre:reggaeton",
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.950806+00:00",
+    "updated": "2026-11-16T22:49:17.950806+00:00",
+    "uid": "350335e2ddeccc7e"
+  },
+  {
+    "title": "WANNABE",
+    "start": "2026-11-21T18:00:00+01:00",
+    "venue": {
+      "name": "Pacì Paciana",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.69,
+      "lon": 9.64,
+      "address": "Via Grumello 61/c, Bergamo",
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "csapacipaciana",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/69109"
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Techno",
+    "genre_source": "venue",
+    "headliners": [],
+    "category": "club",
+    "description": "WANNABE \n“So tell me what you want, what you really really want.”\n\n21 NOVEMBRE - CSA PACI PACIANA \n\nNoi, per cominciare, vorremmo poter fare un po’ quello che ci pare.\nBene, forte, insieme.\nMa soprattutto senza chiedere il permesso.\nWANNABE parte da qui.\nDal desiderio di essere artista, tecnica, producer, performer, direttrice artistica o tutte queste cose nella stessa sera, stare sotto i riflettori o essere la persona che li accende.\nUno spazio per mischiare competenze, linguaggi, identità e volumi poco raccomandabili. \nFare rumore, montare cose, smontare aspettative. \nAnche divertirci nel frattempo.\nPerché siamo un po’ stanchə dell’idea che certi ruoli abbiano ancora un genere incorporato nelle istruzioni per l’uso.\n\nWANNABE è una serata per essere quello che vuoi essere.\nAnche più di una cosa.\nAnche tutte insieme.\n\nNon vogliamo invertire i ruoli.\nVogliamo smettere di assegnarli.\n\n18:00 apericena e live painting by Veronellie & LASKA\nveronellie \nperchisololosa \n\n20:00 FullPower Cabaret \n\n21:30 Concerti live by Kiki & Twesh \nkiki_alix \ntttwesh \n\n23:00 djset by\n\nKat\nLudmi \nTsuki\nGiolla b2b Java \nCherolline \nMerixsempre \nGopika\n\nVisual & light show by Shila Ji // Sara B // Degan\n\nPe",
+    "url": "https://www.instagram.com/p/DfCn1H-iE2S/",
+    "ticket_url": null,
+    "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/867876622_18652950877056454_2563948803217465009_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8D_L4JAb-NoQ7kNvwFRKqdk&_nc_oc=AdqIQzg5wfz_I_0gKU_L2Ls72qCRZiKS1ddkBTpGd22AuSKCyQUHcenuqKLt_YslyRw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTB2cBsvStd7LQX2yDmO1eNzcaBOFVCV1-6ShDJk1Eyjg&oe=6B014E12",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18145645264595882-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfCn1H-iE2S/"
+    ],
+    "score": 2.3,
+    "scope": "local",
+    "distance_km": 3.0,
+    "reasons": [
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.940119+00:00",
+    "updated": "2026-11-16T22:49:17.940119+00:00",
+    "uid": "eeb5d8e70762b0b7"
+  },
+  {
+    "title": "La disco è un viaggio che attraversa città, generazioni e continenti. Sabato 21 ",
+    "start": "2026-11-21T20:00:00+01:00",
+    "venue": {
+      "name": "Unknown venue",
+      "city": "",
+      "province": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": null,
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco",
+      "elettronica",
+      "hard techno"
+    ],
+    "genre": "Hard Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "La disco è un viaggio che attraversa città, generazioni e continenti. Sabato 21 novembre arriva nella Cattedrale della Fabbrica del Vapore: Le Cannibale firma il party ufficiale del sabato sera della milano_music_week. \n\nIn consolle Emmanuelle e Bárbara Boeing, due artiste brasiliane che hanno fatto di Milano la propria casa. Due percorsi in cui radici brasiliane, sensibilità pop e ricerca elettronica riscrivono il presente della disco.\nUna notte ad ingresso gratuito per celebrare la nostra città, la sua musica e la disco che continua a trasformarsi sulla pista da ballo.\n\nLineup: \n20:00 - 22:00 barbara_boeing \n22:00 - 00:00 helloemmanuelle \n\n🎟️ Ingresso gratuito con registrazione\n📍 Via Procaccini 4, Milano",
+    "url": "https://www.instagram.com/p/DfZc40YN343/",
+    "ticket_url": null,
+    "image_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/856838525_18654127345013320_7933419262289561783_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KoCT7rvzn48Q7kNvwHJ-Ija&_nc_oc=Ador8a_3lwj_wfjo3AVn4cJz6RmJTk_LIA3ZLkPKnquB8em0N_JRQG5WNXeBq1WnEfo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=ATeTDJTikPmwsBb_e9oQYA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSBpnSXVwRzwIWu5WFaAQhZJYY76Q0cjz4wDqGXcrdWTQ&oe=6B01650D",
+    "price": null,
+    "promoter": {
+      "instagram": "lecannibaleclub",
+      "tiktok": null,
+      "facebook": null,
+      "website": null,
+      "resident_advisor": null
+    },
+    "promoter_name": "@lecannibaleclub",
+    "sources": [
+      "ig:17952534021338149-0",
+      "ig:18119999429105501-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfZc40YN343/",
+      "https://www.instagram.com/p/Dfz2Hw9DYev/"
+    ],
+    "score": 6.5,
+    "scope": "ignore",
+    "distance_km": null,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:club",
+      "outside-alert-provinces"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.855574+00:00",
+    "updated": "2026-11-16T22:49:17.908856+00:00",
+    "uid": "f28e54ab8cb9220c"
   },
   {
     "title": "THIS IS DNB",
@@ -945,8 +2390,119 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.605065+00:00",
-    "updated": "2026-11-16T22:41:29.693850+00:00",
+    "updated": "2026-11-16T22:49:17.906512+00:00",
     "uid": "c0bc77bb3f29681a"
+  },
+  {
+    "title": "Via broseta si accende",
+    "start": "2026-11-21T21:00:00+01:00",
+    "venue": {
+      "name": "Unplug Bar",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.6983,
+      "lon": 9.6773,
+      "address": "Via Broseta 57f, Bergamo",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "unplug__bg",
+        "tiktok": null,
+        "facebook": null,
+        "website": "https://www.unplugbar.it",
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "House",
+    "genre_source": "promoter",
+    "headliners": [],
+    "category": "club",
+    "description": "Via broseta si accende 🪩\n\n14 novembre \n21:00-00:00\ndagli amici di unplug__bg \nin console _marco.foresti_ francescosciretta \n\nfree entry con consumazione obbligatoria \n\nci vediamo lì 🧡💙",
+    "url": "https://www.instagram.com/p/Dfe0WHGoRvc/",
+    "ticket_url": null,
+    "image_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/887604211_18131382412816331_882470525772162395_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=QBsA1Faub_kQ7kNvwGo-C1m&_nc_oc=AdoX3QkPGq3a8W_r5-5ukoFDqR484xAXPUWE2qtL0oEpkvJEZMbuaUSPHXukVYFhyn0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=ZMcTYkb3iBJcmDirhozgMQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSjWZhoLMg8gWbj1F868CkqlXHFMRh_IK38dF7L0QXXsg&oe=6B014D55",
+    "price": null,
+    "promoter": {
+      "instagram": "sommet_night",
+      "tiktok": null,
+      "facebook": null,
+      "website": null,
+      "resident_advisor": null
+    },
+    "promoter_name": "@sommet_night",
+    "sources": [
+      "ig:18050866490815308-1"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfe0WHGoRvc/"
+    ],
+    "score": 2.0,
+    "scope": "local",
+    "distance_km": 0.0,
+    "reasons": [
+      "instagram-club-night"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.873523+00:00",
+    "updated": "2026-11-16T22:49:17.873523+00:00",
+    "uid": "0186a8c5d0240bd9"
+  },
+  {
+    "title": "RICCOBELLIS",
+    "start": "2026-11-21T21:30:00+01:00",
+    "venue": {
+      "name": "Daste",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.7005,
+      "lon": 9.6905,
+      "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "daste_bergamo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/208117"
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "House",
+    "genre_source": "venue",
+    "headliners": [],
+    "category": "club",
+    "description": "🎸RICCOBELLIS🎸\n\nOPENING FOR THE PEAWEES\n\nDa Brescia, con i Ramones nel cuore e una predilezione per le melodie di Queers e Undertones. Il trio ha appena pubblicato “Afterparty Heroes”, quarto album e titolo piuttosto adatto alla compagnia che volevamo per questa sera.\n\n🎟 Biglietti già in vendita su diceitaly \n10 € +DDP in prevendita\n15 € in cassa in serata\n\n📅 Sabato 21 novembre 2026 · ore 21:30\nDASTE — via Daste e Spalenga 13/15, Bergamo",
+    "url": "https://www.instagram.com/reel/DfsAUGvsXGE/",
+    "ticket_url": null,
+    "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905963463_18109790456579285_3350779978732215911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZkKP53vFSCYQ7kNvwHunwgo&_nc_oc=Adq1O_thvA7bgXuJjRYpSwDmgPFKzcCjB6jRHWuN7e3xvZJKY7pNpf6xQmmwD4QhDVI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_tpa=Q5bMBQI5x0cvcoM8TNYIDoTJAxyIrZDaztdEBXlK3cdosK5T9BqGYD2yUJQ5ItqlRyhowNdZI-F-pzH-SA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQT7GMB_dv4ggivlzQcUKiQ919a02qR7agRXPr7H7hn9rg&oe=6B016E11",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17896218162433561-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfsAUGvsXGE/"
+    ],
+    "score": 2.3,
+    "scope": "local",
+    "distance_km": 1.1,
+    "reasons": [
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.840523+00:00",
+    "updated": "2026-11-16T22:49:17.840523+00:00",
+    "uid": "b593852d25289a48"
   },
   {
     "title": "indiepower_official torna a BG!",
@@ -1001,7 +2557,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.610420+00:00",
-    "updated": "2026-11-16T22:41:29.698428+00:00",
+    "updated": "2026-11-16T22:49:17.930872+00:00",
     "uid": "877243dafca29fb4"
   },
   {
@@ -1060,7 +2616,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034727+00:00",
-    "updated": "2026-11-16T22:41:29.700394+00:00",
+    "updated": "2026-11-16T22:49:17.934619+00:00",
     "uid": "32ae18044ccf8c8c"
   },
   {
@@ -1113,8 +2669,64 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.609301+00:00",
-    "updated": "2026-11-16T22:41:29.697591+00:00",
+    "updated": "2026-11-16T22:49:17.927080+00:00",
     "uid": "6e8a75120380ba27"
+  },
+  {
+    "title": "SABATO 21 NOVEMBRE AL DECIBEL CLUB",
+    "start": "2026-11-21T23:00:00+01:00",
+    "venue": {
+      "name": "Decibel Club",
+      "city": "Chignolo d'Isola",
+      "province": "BG",
+      "lat": 45.665,
+      "lon": 9.53,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "decibel_club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "latin / reggaeton"
+    ],
+    "genre": "Latin / Reggaeton",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "SABATO 21 NOVEMBRE AL DECIBEL CLUB👇👇👇\nSALA 1 LATIN NIGHT LA SERATA LATINA CON DJ STEVE ROMEI🎵🎵🎵\nIN PRESERATA DALLE 22.00 STAGE GRATUITO PER TUTTI  CON LATIN SPACE DANCE COMPANY 🕺🕺🕺\nIN PISTA ANIMATORI BY LATIN SPACE💃💃💃\nDURANTE LA SERATA IL NUOVO SHOW DI STE E LISA \"SI ESTA CASA HABLARA\"🥳🥳🥳\nSALA 2 LISCIO CON ORCHESTRA MARY MAFFEIS 🎼🎼🎼\ningresso euro 13 drink incluso",
+    "url": "https://www.instagram.com/p/Df0VGPgDVku/",
+    "ticket_url": null,
+    "image_url": "https://scontent-dfw5-1.cdninstagram.com/v/t39.30808-6/912256899_1747156923863746_4840195272409049135_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qFabghuz4BsQ7kNvwEo0jFb&_nc_oc=AdpZzjp-vJ7ygxtfbZuCsARgBlYRr4HmKNegFoWPpDUNzZTOM0gZMraW9A1wwNR3WlU&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-D6RQjy4QlIpS79I1805RA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSIx1dhgvoxl9MaKzNWu7gr-T6sML_YChOAQn0vqQ0RZw&oe=6B0153B0",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18144377638721074-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df0VGPgDVku/"
+    ],
+    "score": 3.9,
+    "scope": "local",
+    "distance_km": 12.0,
+    "reasons": [
+      "genre:reggaeton",
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.937336+00:00",
+    "updated": "2026-11-16T22:49:17.937336+00:00",
+    "uid": "9f6cd72952fb47c2"
   },
   {
     "title": "Sabato 21 Novembre dalle ore 23:30 alle 06:00!",
@@ -1183,7 +2795,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.587439+00:00",
-    "updated": "2026-11-16T22:41:29.695591+00:00",
+    "updated": "2026-11-16T22:49:17.915070+00:00",
     "uid": "82cb0f7008e15dab"
   },
   {
@@ -1236,7 +2848,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.584757+00:00",
-    "updated": "2026-11-16T22:41:29.678345+00:00",
+    "updated": "2026-11-16T22:49:17.849409+00:00",
     "uid": "0438a994b76e2cee"
   },
   {
@@ -1293,7 +2905,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:35:28.192105+00:00",
-    "updated": "2026-11-16T22:41:29.692928+00:00",
+    "updated": "2026-11-16T22:49:17.904766+00:00",
     "uid": "b1beab6328922abd"
   },
   {
@@ -1353,7 +2965,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.582739+00:00",
-    "updated": "2026-11-16T22:41:29.707036+00:00",
+    "updated": "2026-11-16T22:49:17.957806+00:00",
     "uid": "194df9ee591fb04c"
   },
   {
@@ -1410,7 +3022,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.614015+00:00",
-    "updated": "2026-11-16T22:41:29.701004+00:00",
+    "updated": "2026-11-16T22:49:17.941323+00:00",
     "uid": "761e00f931361d5e"
   },
   {
@@ -1471,7 +3083,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.583794+00:00",
-    "updated": "2026-11-16T22:41:29.710356+00:00",
+    "updated": "2026-11-16T22:49:17.965744+00:00",
     "uid": "f3b3efb51e963675"
   },
   {
@@ -1531,8 +3143,131 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034453+00:00",
-    "updated": "2026-11-16T22:41:29.685253+00:00",
+    "updated": "2026-11-16T22:49:17.880583+00:00",
     "uid": "9b6fff17fe858b19"
+  },
+  {
+    "title": "𝐖𝐡𝐚𝐭'𝐬 𝐌𝐲 𝐀𝐠𝐞 𝐀𝐠𝐚𝐢𝐧  𝟐𝟎𝟎𝟎 𝐏𝐚𝐫𝐭𝐲  𝐍𝐗𝐓 𝐁𝐞𝐫𝐠𝐚𝐦𝐨, 𝐏𝐢𝐚𝐳𝐳𝐚𝐥𝐞 𝐝𝐞𝐠𝐥𝐢 𝐀𝐥𝐩𝐢𝐧𝐢  𝟐𝟖 𝐧𝐨𝐯𝐞𝐦𝐛𝐫𝐞",
+    "start": "2026-11-28T23:00:00+01:00",
+    "venue": {
+      "name": "NXT Station",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.693,
+      "lon": 9.673,
+      "address": null,
+      "kind": "open_air",
+      "capacity": null,
+      "socials": {
+        "instagram": "nxtbergamo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "hip hop / trap",
+      "revival",
+      "commerciale"
+    ],
+    "genre": "Revival",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "𝐖𝐡𝐚𝐭'𝐬 𝐌𝐲 𝐀𝐠𝐞 𝐀𝐠𝐚𝐢𝐧 ⚡️ 𝟐𝟎𝟎𝟎 𝐏𝐚𝐫𝐭𝐲 @ 𝐍𝐗𝐓 𝐁𝐞𝐫𝐠𝐚𝐦𝐨, 𝐏𝐢𝐚𝐳𝐳𝐚𝐥𝐞 𝐝𝐞𝐠𝐥𝐢 𝐀𝐥𝐩𝐢𝐧𝐢 ❄️ 𝟐𝟖 𝐧𝐨𝐯𝐞𝐦𝐛𝐫𝐞 ✨ 𝐈𝐍𝐆𝐑𝐄𝐒𝐒𝐎 𝐆𝐑𝐀𝐓𝐔𝐈𝐓𝐎\n\nMettete lo stato di MSN su \"occupato\", staccate il cavo del modem 56k e allacciate le Converse consumate: si torna dritti ai primi anni 2000: quelli dei pomeriggi davanti alla TV tra Dawson's Creek, Smallville, Buffy l'ammazzavampiri, Una mamma per amica e The O.C. Delle classifiche di TRL su",
+    "url": "https://www.instagram.com/p/DfpN2UxG9wi/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/904121158_1129959239791555_2015068201930042318_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=yGcPwUqimHMQ7kNvwGFHOBb&_nc_oc=AdoKJCk6QHBI3vWz0sqBjVJ4bFCKYsWXDwsyYBsRIHKMwngWc4qA8PpYZIvtp70AXvs&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=e8QHOkHBYUyky9mJAowFmA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT4vR8nnpbKB5cOdzWn1nxB3XYpHDAcQl2jQeISaGLD_A&oe=6B0140FE",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18115639505130367-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfpN2UxG9wi/"
+    ],
+    "score": 3.6,
+    "scope": "local",
+    "distance_km": 0.7,
+    "reasons": [
+      "genre:hip hop",
+      "instagram-club-night",
+      "venue:open_air"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.893181+00:00",
+    "updated": "2026-11-16T22:49:17.893181+00:00",
+    "uid": "c10a9990ac19fcb6"
+  },
+  {
+    "title": "On November 28 dkmntl, the internationally renowned festival and label, lands in",
+    "start": "2026-11-28T23:00:00+01:00",
+    "venue": {
+      "name": "Unknown venue",
+      "city": "",
+      "province": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": null,
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "electronic",
+      "disco / funk"
+    ],
+    "genre": "Disco / Funk",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "festival",
+    "description": "On November 28 dkmntl, the internationally renowned festival and label, lands in Milan as part of its European club tour. Taking over the decks all night long: Dekmantel Soundsystem, featuring founder Casper Tielrooij and Interstellar Funk, powered by Naoto Soundsystem’s wall of speakers.\n\nA leading force in electronic music, Dekmantel brings its musical vision to the dancefloor: an adventurous, carefully crafted selection connecting new sounds with the rich history of club culture.\n\nMUSIC:\nDekmantel Soundystem\n(Interstellar Funk b2b Casper Tielrooij all night long)\n\n🕚 h. 23 – 03\n🔗 Tickets at the link in bio\n📍 viale Emilio Alemagna 6, Milano",
+    "url": "https://www.instagram.com/p/DfsHm4MNV0j/",
+    "ticket_url": null,
+    "image_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/899789062_18656709907013320_2302128384099841970_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tThf5n0D-qgQ7kNvwFnrz9e&_nc_oc=Adp9F1BT40ItGd_1lMkyYEaitlYQkNvjUW5YXXCQQFtSYOlweGCYtjpx8ViMnXkdxDw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=ATeTDJTikPmwsBb_e9oQYA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSXE0GL5ihu5KjmOSOj6PJdW_7GYGtcja_sda52nfYWGQ&oe=6B014C30",
+    "price": null,
+    "promoter": {
+      "instagram": "lecannibaleclub",
+      "tiktok": null,
+      "facebook": null,
+      "website": null,
+      "resident_advisor": null
+    },
+    "promoter_name": "@lecannibaleclub",
+    "sources": [
+      "ig:18344612377276462-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfsHm4MNV0j/"
+    ],
+    "score": 7.0,
+    "scope": "ignore",
+    "distance_km": null,
+    "reasons": [
+      "genre:electronic",
+      "instagram-club-night",
+      "venue:club",
+      "festival",
+      "outside-alert-provinces"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.956467+00:00",
+    "updated": "2026-11-16T22:49:17.956467+00:00",
+    "uid": "149e49c0948af7d9"
   },
   {
     "title": "Sabato 28 Novembre dalle ore 23:30 alle 06:00!",
@@ -1569,13 +3304,21 @@
     "ticket_url": null,
     "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/890846115_1618232283438190_3114406202200948544_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=L6RTQRItFTQQ7kNvwHHiGqx&_nc_oc=AdpOM39jQjyxdfi0mCEOtycafYvoqOGlsZyy9PYbQe7UT600BaRmN2TGoQjNuH__cjA&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=cEbqE3JdBV_U1nIqvBDs3g&_nc_tpa=Q5bMBQK4HI2k5d0PuPCDe33PsLQaI4JObTjDJu1bn3szCSdj5kZ3P41oySiao0ztz5YEwcQiza4hdqnJYQ&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRvEIHC1eITK4AvBop8yWW-fTwosEdCb0NV6bAoC55mcw&oe=6B016232",
     "price": null,
-    "promoter": null,
-    "promoter_name": null,
+    "promoter": {
+      "instagram": "supertatobolgia",
+      "tiktok": null,
+      "facebook": null,
+      "website": null,
+      "resident_advisor": null
+    },
+    "promoter_name": "@supertatobolgia",
     "sources": [
-      "ig:17943169710390742-0"
+      "ig:17943169710390742-0",
+      "ig:17955208302300879-0"
     ],
     "source_urls": [
-      "https://www.instagram.com/reel/DfmlzJmIigC/"
+      "https://www.instagram.com/reel/DfmlzJmIigC/",
+      "https://www.instagram.com/reel/Dfmm5mSO9zC/"
     ],
     "score": 3.5,
     "scope": "local",
@@ -1586,8 +3329,71 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.585576+00:00",
-    "updated": "2026-11-16T22:41:29.678951+00:00",
+    "updated": "2026-11-16T22:49:17.856730+00:00",
     "uid": "eb4439a0816a5d93"
+  },
+  {
+    "title": "Sabato 5 Dicembre noidfamilia a auraclubmantova",
+    "start": "2026-12-05T23:00:00+01:00",
+    "venue": {
+      "name": "Unknown venue",
+      "city": "",
+      "province": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": null,
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "house"
+    ],
+    "genre": "House",
+    "genre_source": "event",
+    "headliners": [],
+    "category": "club",
+    "description": "Sabato 5 Dicembre noidfamilia a auraclubmantova ⏳\n\nLa Familia nel Club a Mantova,\nHouse Music e Good Vibes\n\nAi dischi:\nheider.music \ncalefandwelo from esotic_event \nmarci_otta and furkan_mcc from dnaproject__ \ntitans.djp \n\nInfo e prenotazioni +393519691736",
+    "url": "https://www.instagram.com/p/Dfz17U8kYYw/",
+    "ticket_url": null,
+    "image_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902601543_18646284718041982_6361885285479090697_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VJyqsMJMjMIQ7kNvwEfRmZ-&_nc_oc=AdrznsP9pmGE12zfq6H2v9jmORouiEoO9otpUxHYN6orPdOIezrY1VGKOw_c4byafu8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=9cAYVXoLFvCUvavoez7qyw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRLpSgbL_oAp5AIyK5xD7tTHFji4tgLEdmPcx5LOVkYcA&oe=6B0168A7",
+    "price": null,
+    "promoter": {
+      "instagram": "noidfamilia",
+      "tiktok": null,
+      "facebook": null,
+      "website": null,
+      "resident_advisor": null
+    },
+    "promoter_name": "@noidfamilia",
+    "sources": [
+      "ig:17899819905412354-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfz17U8kYYw/"
+    ],
+    "score": 6.0,
+    "scope": "ignore",
+    "distance_km": null,
+    "reasons": [
+      "genre:house",
+      "instagram-club-night",
+      "venue:club",
+      "outside-alert-provinces"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T22:49:17.843777+00:00",
+    "updated": "2026-11-16T22:49:17.843777+00:00",
+    "uid": "8ad712998a2a9f04"
   },
   {
     "title": "IL 2027 INIZIA CON UN BRINDISI CHE FA RUMORE!",
@@ -1641,7 +3447,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036898+00:00",
-    "updated": "2026-11-16T22:41:29.686150+00:00",
+    "updated": "2026-11-16T22:49:17.882292+00:00",
     "uid": "a1dad6062f0a841a"
   },
   {
@@ -1697,7 +3503,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.602536+00:00",
-    "updated": "2026-11-16T22:41:29.691355+00:00",
+    "updated": "2026-11-16T22:49:17.898170+00:00",
     "uid": "e590cbc7d0d9a820"
   }
 ]
