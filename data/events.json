@@ -52,7 +52,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.921136+00:00",
-    "updated": "2026-11-16T22:49:17.921136+00:00",
+    "updated": "2026-11-16T22:53:17.030665+00:00",
     "uid": "384b9e5d98b5b0be"
   },
   {
@@ -110,7 +110,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.030585+00:00",
-    "updated": "2026-11-16T22:49:17.887858+00:00",
+    "updated": "2026-11-16T22:53:17.004035+00:00",
     "uid": "772b486f4a4271df"
   },
   {
@@ -165,61 +165,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.868750+00:00",
-    "updated": "2026-11-16T22:49:17.868750+00:00",
+    "updated": "2026-11-16T22:53:16.987583+00:00",
     "uid": "5696384f5b8e4038"
-  },
-  {
-    "title": "VENERDI 6 NOVEMBRE 2026 AL DECIBEL",
-    "start": "2026-11-06T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfQXWSvoBaf/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/854831120_1730326132213492_6796323343378631494_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-X1NUUxIkhEQ7kNvwHJeHqC&_nc_oc=Adr-t4c8F_24knAazVmETKjS0JQvkx3g-UQvutYiTDwLEj_8w-Vv96fPmQXbOVSQaTg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSq0g54Jgsz8NTqPP3ql_dorDr-4DwfJVXjqqOwRnctwQ&oe=6B012E6B",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:17945512023090369-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfQXWSvoBaf/"
-    ],
-    "score": 3.5,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.853267+00:00",
-    "updated": "2026-11-16T22:49:17.853267+00:00",
-    "uid": "422abafc1df1ece0"
   },
   {
     "title": "Ora sai già cosa fare sabato 7.11",
@@ -271,7 +218,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.860540+00:00",
-    "updated": "2026-11-16T22:49:17.860540+00:00",
+    "updated": "2026-11-16T22:53:16.981629+00:00",
     "uid": "23c1cc663127a572"
   },
   {
@@ -327,61 +274,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.866463+00:00",
-    "updated": "2026-11-16T22:49:17.866463+00:00",
+    "updated": "2026-11-16T22:53:16.985645+00:00",
     "uid": "9812fabf19ef2bf6"
-  },
-  {
-    "title": "SABATO 7 NOVEMBRE AL DECIBEL CLUB",
-    "start": "2026-11-07T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfQW5OYD8tA/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/886609152_1730323065547132_1383716735940359276_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FV_ACZix3RQQ7kNvwGZp4s-&_nc_oc=Adp1hxijHM95Qzk0dHf2oD_q86EHsU6xEz2UnGRdJA0BBcggLuZOkYlt_bu8r0Rey3g&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQoNQEOLrbAQrH7Aljnyw-kq_uNH0xE7TyGy_gUpJSZ9g&oe=6B014A7F",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18122213602950095-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfQW5OYD8tA/"
-    ],
-    "score": 3.5,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.913913+00:00",
-    "updated": "2026-11-16T22:49:17.913913+00:00",
-    "uid": "49ad44d91b4fe163"
   },
   {
     "title": "JUSTICE",
@@ -436,63 +330,8 @@
     ],
     "alert_level": "regional",
     "first_seen": "2026-11-16T22:49:17.889199+00:00",
-    "updated": "2026-11-16T22:49:17.889199+00:00",
+    "updated": "2026-11-16T22:53:17.005162+00:00",
     "uid": "e29198108d5147b2"
-  },
-  {
-    "title": "DOMENICA 8 NOVEMBRE AL DECIBEL CLUB",
-    "start": "2026-11-08T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfQWOH6DDjf/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/886844010_1730316018881170_6179773960936038824_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mj_jzbjf7uAQ7kNvwG6y99k&_nc_oc=Adqm-B_ZDjilisoHujVahTvyJHjeUkPLvaoeVDc0iKY8r4ucX_BNj4-K6_qH2b44Mtg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSHIZfLMHdtya91DnHXBYXOQ6_T2GVohQPIAxXDJWIDBQ&oe=6B015FCF",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:17944840197380356-0",
-      "ig:18137793064653641-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfQVk81nXCh/",
-      "https://www.instagram.com/p/DfQWOH6DDjf/"
-    ],
-    "score": 3.5,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.851953+00:00",
-    "updated": "2026-11-16T22:49:17.935958+00:00",
-    "uid": "a5ee97ec3444677b"
   },
   {
     "title": "GIOVEDÌ 12 NOVEMBRE TERZO APPUNTAMENTO DI CUCINEMA moreknobs_",
@@ -547,7 +386,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.876351+00:00",
-    "updated": "2026-11-16T22:49:17.876351+00:00",
+    "updated": "2026-11-16T22:53:16.994174+00:00",
     "uid": "46b56cfca9218958"
   },
   {
@@ -603,7 +442,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.037923+00:00",
-    "updated": "2026-11-16T22:49:17.891401+00:00",
+    "updated": "2026-11-16T22:53:17.007105+00:00",
     "uid": "44add0a834bf5a8f"
   },
   {
@@ -662,7 +501,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.038962+00:00",
-    "updated": "2026-11-16T22:49:17.948005+00:00",
+    "updated": "2026-11-16T22:53:17.050627+00:00",
     "uid": "2c3345abb902a5ec"
   },
   {
@@ -715,7 +554,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036390+00:00",
-    "updated": "2026-11-16T22:49:17.962310+00:00",
+    "updated": "2026-11-16T22:53:17.060866+00:00",
     "uid": "2992e78d345bcc70"
   },
   {
@@ -778,7 +617,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.836801+00:00",
-    "updated": "2026-11-16T22:49:17.836801+00:00",
+    "updated": "2026-11-16T22:53:16.966059+00:00",
     "uid": "0472940301c97bde"
   },
   {
@@ -834,61 +673,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.884036+00:00",
-    "updated": "2026-11-16T22:49:17.884036+00:00",
+    "updated": "2026-11-16T22:53:17.000760+00:00",
     "uid": "2a84fd65e87f5a17"
-  },
-  {
-    "title": "VENERDI 13 NOVEMBRE 2026 AL DECIBEL",
-    "start": "2026-11-13T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfiZZT1DZKY/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/899822076_1738526908060081_4466939951497362140_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gsSh3qJGF6UQ7kNvwHrLOFC&_nc_oc=AdqkD9hsFe5t-CNii7fE_bNPGjnTVjgShm7fLUox6CT9cqtUpT7TJUyDl4fQo_YmEkA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQcJWilRVunTj_oyLULUJdcBtJvqrq5pnW-bkaFZ1R-hA&oe=6B0139DB",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18119483141082712-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfiZZT1DZKY/"
-    ],
-    "score": 3.5,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.899503+00:00",
-    "updated": "2026-11-16T22:49:17.899503+00:00",
-    "uid": "0f9d961839693c33"
   },
   {
     "title": "UTŌPIA CREW",
@@ -914,8 +700,8 @@
     "end": null,
     "artists": [],
     "genres": [
-      "elettronica",
       "electronic",
+      "elettronica",
       "techno"
     ],
     "genre": "Techno",
@@ -945,7 +731,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.922942+00:00",
-    "updated": "2026-11-16T22:49:17.922942+00:00",
+    "updated": "2026-11-16T22:53:17.032298+00:00",
     "uid": "3e59373b90be9585"
   },
   {
@@ -1000,7 +786,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034104+00:00",
-    "updated": "2026-11-16T22:49:17.871648+00:00",
+    "updated": "2026-11-16T22:53:16.990089+00:00",
     "uid": "1d9cfe638a16e92c"
   },
   {
@@ -1053,7 +839,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.929300+00:00",
-    "updated": "2026-11-16T22:49:17.929300+00:00",
+    "updated": "2026-11-16T22:53:17.037908+00:00",
     "uid": "9580797f17c8556b"
   },
   {
@@ -1108,61 +894,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035819+00:00",
-    "updated": "2026-11-16T22:49:17.959252+00:00",
+    "updated": "2026-11-16T22:53:17.058205+00:00",
     "uid": "208673cac3dfbdf1"
-  },
-  {
-    "title": "SABATO 14 NOVEMBRE AL DECIBEL CLUB",
-    "start": "2026-11-14T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfiZA9XAATb/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/899352844_1738524594726979_6532945181423117527_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=lbQVD_BNa1IQ7kNvwELVotS&_nc_oc=AdpuW0yqzWN5zOaiLJdhEsu5PX1MAzPxbXi08cQqR5ScAwphquKZ4bneOveigmIfSFo&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQic482YvhI33K28s7xMMnqz1yw7l9f8-ffz9nUzS0dug&oe=6B013A97",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:17999105640019142-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfiZA9XAATb/"
-    ],
-    "score": 3.5,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.863033+00:00",
-    "updated": "2026-11-16T22:49:17.863033+00:00",
-    "uid": "aaa039a8d25b678c"
   },
   {
     "title": "LA CASITA di Bad Bunny - 14 NOVEMBRE",
@@ -1216,7 +949,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.877673+00:00",
-    "updated": "2026-11-16T22:49:17.944008+00:00",
+    "updated": "2026-11-16T22:53:17.047088+00:00",
     "uid": "3e74f2002717a2c3"
   },
   {
@@ -1271,7 +1004,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.885210+00:00",
-    "updated": "2026-11-16T22:49:17.938501+00:00",
+    "updated": "2026-11-16T22:53:17.043540+00:00",
     "uid": "cd5bec525c0b38e5"
   },
   {
@@ -1298,8 +1031,8 @@
     "end": null,
     "artists": [],
     "genres": [
-      "elettronica",
       "electronic",
+      "elettronica",
       "techno"
     ],
     "genre": "Techno",
@@ -1329,7 +1062,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.924775+00:00",
-    "updated": "2026-11-16T22:49:17.924775+00:00",
+    "updated": "2026-11-16T22:53:17.033885+00:00",
     "uid": "23b44d4645d5cb43"
   },
   {
@@ -1385,7 +1118,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.960891+00:00",
-    "updated": "2026-11-16T22:49:17.960891+00:00",
+    "updated": "2026-11-16T22:53:17.059639+00:00",
     "uid": "fd5526e063ff246b"
   },
   {
@@ -1440,7 +1173,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.029938+00:00",
-    "updated": "2026-11-16T22:49:17.964299+00:00",
+    "updated": "2026-11-16T22:53:17.062578+00:00",
     "uid": "58e01054adc70132"
   },
   {
@@ -1498,61 +1231,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.032372+00:00",
-    "updated": "2026-11-16T22:49:17.945736+00:00",
+    "updated": "2026-11-16T22:53:17.048639+00:00",
     "uid": "ba8f065aad3733ae"
-  },
-  {
-    "title": "DOMENICA 15 NOVEMBRE AL DECIBEL CLUB",
-    "start": "2026-11-15T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
-    "headliners": [],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfiXvfAktg6/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/898167364_1738517378061034_7820933297993842200_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RFYbHmwgiIAQ7kNvwHQ1XXS&_nc_oc=AdqFdUYutwEPYQE7jOHztz1CbJo9PCMbbDXSu1gDLbbgJnGaPIAT8h7TyZMjnNEmsNc&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRfj3qlZMWOWah_1JG53xtnwYdGiBWZHiOUoPaOGNzw3A&oe=6B0155E0",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:17921603988246000-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfiXvfAktg6/"
-    ],
-    "score": 3.5,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.848052+00:00",
-    "updated": "2026-11-16T22:49:17.848052+00:00",
-    "uid": "e31614cd0b913853"
   },
   {
     "title": "MERCOLEDÌ BOARO",
@@ -1608,7 +1288,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.031795+00:00",
-    "updated": "2026-11-16T22:49:17.901244+00:00",
+    "updated": "2026-11-16T22:53:17.014574+00:00",
     "uid": "ea678bf0abdd35a3"
   },
   {
@@ -1664,7 +1344,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.619930+00:00",
-    "updated": "2026-11-16T22:49:17.952240+00:00",
+    "updated": "2026-11-16T22:53:17.053201+00:00",
     "uid": "c7785c7178dd86b4"
   },
   {
@@ -1720,7 +1400,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.621277+00:00",
-    "updated": "2026-11-16T22:49:17.954083+00:00",
+    "updated": "2026-11-16T22:53:17.054832+00:00",
     "uid": "b9b81c451ce6f377"
   },
   {
@@ -1773,7 +1453,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.589079+00:00",
-    "updated": "2026-11-16T22:49:17.865290+00:00",
+    "updated": "2026-11-16T22:53:16.984620+00:00",
     "uid": "bf35feae3a7c5433"
   },
   {
@@ -1825,7 +1505,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.917308+00:00",
-    "updated": "2026-11-16T22:49:17.917308+00:00",
+    "updated": "2026-11-16T22:53:17.027274+00:00",
     "uid": "b8ee19cab13fa59f"
   },
   {
@@ -1884,7 +1564,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035283+00:00",
-    "updated": "2026-11-16T22:49:17.949459+00:00",
+    "updated": "2026-11-16T22:53:17.051885+00:00",
     "uid": "eb69ad9a78c5b653"
   },
   {
@@ -1937,7 +1617,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.919972+00:00",
-    "updated": "2026-11-16T22:49:17.919972+00:00",
+    "updated": "2026-11-16T22:53:17.029566+00:00",
     "uid": "bbfb522f9393f9fd"
   },
   {
@@ -1993,7 +1673,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.601269+00:00",
-    "updated": "2026-11-16T22:49:17.896357+00:00",
+    "updated": "2026-11-16T22:53:17.011543+00:00",
     "uid": "fe4150bede6719f4"
   },
   {
@@ -2046,7 +1726,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.606599+00:00",
-    "updated": "2026-11-16T22:49:17.912592+00:00",
+    "updated": "2026-11-16T22:53:17.024343+00:00",
     "uid": "f47131ce77fe681f"
   },
   {
@@ -2103,7 +1783,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.607613+00:00",
-    "updated": "2026-11-16T22:49:17.918692+00:00",
+    "updated": "2026-11-16T22:53:17.028472+00:00",
     "uid": "4e9c03347a1f8188"
   },
   {
@@ -2159,64 +1839,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.910498+00:00",
-    "updated": "2026-11-16T22:49:17.910498+00:00",
+    "updated": "2026-11-16T22:53:17.022548+00:00",
     "uid": "dd2e660634e6e117"
-  },
-  {
-    "title": "VENERDI 20 NOVEMBRE 2026 AL DECIBEL",
-    "start": "2026-11-20T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "latin / reggaeton"
-    ],
-    "genre": "Latin / Reggaeton",
-    "genre_source": "event",
-    "headliners": [],
-    "category": "club",
-    "description": "VENERDI 20 NOVEMBRE 2026 AL DECIBEL\nCLUB LATIN NIGHT🔝🔝🔝\nIL VENERDÌ LATINO CON DJ CHRISTIAN IL CHICHI E VALERIO EL DIRECTOR🎵🎵🎵 \nANIMAZIONE ALESSIO SARA DIEGO🕺💃🕺\nSI BALLA SU SALA UNICA\nAPERTURA ORE 22.00\ningresso euro 13 drink compreso",
-    "url": "https://www.instagram.com/p/Df0VoFEDTBH/",
-    "ticket_url": null,
-    "image_url": "https://scontent-dfw6-2.cdninstagram.com/v/t39.30808-6/910848458_1747160713863367_8443096415034049679_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wxTLvfpIJD4Q7kNvwHHhbEj&_nc_oc=AdoUPN8XbL81IfsDXnPvLuMHvcVQmU4eunKkZdfWES8Duutwua4RtKH-aHgbND01_qQ&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-D6RQjy4QlIpS79I1805RA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT-ChH9he8EVm9phukTIZxFLRrtO6WfhhQO4w1VENWDqQ&oe=6B014445",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18195912265397773-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/Df0VoFEDTBH/"
-    ],
-    "score": 3.9,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "genre:reggaeton",
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.950806+00:00",
-    "updated": "2026-11-16T22:49:17.950806+00:00",
-    "uid": "350335e2ddeccc7e"
   },
   {
     "title": "WANNABE",
@@ -2268,7 +1892,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.940119+00:00",
-    "updated": "2026-11-16T22:49:17.940119+00:00",
+    "updated": "2026-11-16T22:53:17.044902+00:00",
     "uid": "eeb5d8e70762b0b7"
   },
   {
@@ -2335,7 +1959,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.855574+00:00",
-    "updated": "2026-11-16T22:49:17.908856+00:00",
+    "updated": "2026-11-16T22:53:17.021154+00:00",
     "uid": "f28e54ab8cb9220c"
   },
   {
@@ -2390,7 +2014,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.605065+00:00",
-    "updated": "2026-11-16T22:49:17.906512+00:00",
+    "updated": "2026-11-16T22:53:17.019112+00:00",
     "uid": "c0bc77bb3f29681a"
   },
   {
@@ -2448,7 +2072,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.873523+00:00",
-    "updated": "2026-11-16T22:49:17.873523+00:00",
+    "updated": "2026-11-16T22:53:16.991718+00:00",
     "uid": "0186a8c5d0240bd9"
   },
   {
@@ -2501,7 +2125,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.840523+00:00",
-    "updated": "2026-11-16T22:49:17.840523+00:00",
+    "updated": "2026-11-16T22:53:16.969087+00:00",
     "uid": "b593852d25289a48"
   },
   {
@@ -2557,7 +2181,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.610420+00:00",
-    "updated": "2026-11-16T22:49:17.930872+00:00",
+    "updated": "2026-11-16T22:53:17.039287+00:00",
     "uid": "877243dafca29fb4"
   },
   {
@@ -2616,7 +2240,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034727+00:00",
-    "updated": "2026-11-16T22:49:17.934619+00:00",
+    "updated": "2026-11-16T22:53:17.042544+00:00",
     "uid": "32ae18044ccf8c8c"
   },
   {
@@ -2669,64 +2293,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.609301+00:00",
-    "updated": "2026-11-16T22:49:17.927080+00:00",
+    "updated": "2026-11-16T22:53:17.035949+00:00",
     "uid": "6e8a75120380ba27"
-  },
-  {
-    "title": "SABATO 21 NOVEMBRE AL DECIBEL CLUB",
-    "start": "2026-11-21T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "latin / reggaeton"
-    ],
-    "genre": "Latin / Reggaeton",
-    "genre_source": "event",
-    "headliners": [],
-    "category": "club",
-    "description": "SABATO 21 NOVEMBRE AL DECIBEL CLUB👇👇👇\nSALA 1 LATIN NIGHT LA SERATA LATINA CON DJ STEVE ROMEI🎵🎵🎵\nIN PRESERATA DALLE 22.00 STAGE GRATUITO PER TUTTI  CON LATIN SPACE DANCE COMPANY 🕺🕺🕺\nIN PISTA ANIMATORI BY LATIN SPACE💃💃💃\nDURANTE LA SERATA IL NUOVO SHOW DI STE E LISA \"SI ESTA CASA HABLARA\"🥳🥳🥳\nSALA 2 LISCIO CON ORCHESTRA MARY MAFFEIS 🎼🎼🎼\ningresso euro 13 drink incluso",
-    "url": "https://www.instagram.com/p/Df0VGPgDVku/",
-    "ticket_url": null,
-    "image_url": "https://scontent-dfw5-1.cdninstagram.com/v/t39.30808-6/912256899_1747156923863746_4840195272409049135_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qFabghuz4BsQ7kNvwEo0jFb&_nc_oc=AdpZzjp-vJ7ygxtfbZuCsARgBlYRr4HmKNegFoWPpDUNzZTOM0gZMraW9A1wwNR3WlU&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-D6RQjy4QlIpS79I1805RA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSIx1dhgvoxl9MaKzNWu7gr-T6sML_YChOAQn0vqQ0RZw&oe=6B0153B0",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18144377638721074-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/Df0VGPgDVku/"
-    ],
-    "score": 3.9,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "genre:reggaeton",
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.937336+00:00",
-    "updated": "2026-11-16T22:49:17.937336+00:00",
-    "uid": "9f6cd72952fb47c2"
   },
   {
     "title": "Sabato 21 Novembre dalle ore 23:30 alle 06:00!",
@@ -2795,7 +2363,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.587439+00:00",
-    "updated": "2026-11-16T22:49:17.915070+00:00",
+    "updated": "2026-11-16T22:53:17.025339+00:00",
     "uid": "82cb0f7008e15dab"
   },
   {
@@ -2848,7 +2416,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.584757+00:00",
-    "updated": "2026-11-16T22:49:17.849409+00:00",
+    "updated": "2026-11-16T22:53:16.974509+00:00",
     "uid": "0438a994b76e2cee"
   },
   {
@@ -2905,68 +2473,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:35:28.192105+00:00",
-    "updated": "2026-11-16T22:49:17.904766+00:00",
+    "updated": "2026-11-16T22:53:17.017611+00:00",
     "uid": "b1beab6328922abd"
-  },
-  {
-    "title": "DOMENICA 22 NOVEMBRE AL DECIBEL CLUB",
-    "start": "2026-11-22T23:00:00+01:00",
-    "venue": {
-      "name": "Decibel Club",
-      "city": "Chignolo d'Isola",
-      "province": "BG",
-      "lat": 45.665,
-      "lon": 9.53,
-      "address": null,
-      "kind": "club",
-      "capacity": null,
-      "socials": {
-        "instagram": "decibel_club",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "latin / reggaeton"
-    ],
-    "genre": "Latin / Reggaeton",
-    "genre_source": "event",
-    "headliners": [],
-    "category": "club",
-    "description": "DOMENICA 22 NOVEMBRE AL DECIBEL CLUB👇👇👇\nLA DOPPIA SERATA LATINA🎵🎵🎵\nSALA 1 BACHATA SENSUAL IN CONSOLLE VALERIO EL DIRECTOR✔️✔️✔️\nSALA 2 LATINO 360 IN CONSOLLE DJ NEGRITO✅️✅️✅️\nANIMAZIONE BIBI E ALESSIO💃💃💃\nAPERTURA ORE 21,30#️⃣#️⃣#️⃣\nINGRESSO GRATUITO A TUTTE LE DONNE ENTRO LE ORE 22.00\ningresso euro 10 drink compreso",
-    "url": "https://www.instagram.com/p/Df0Tfr0DVn2/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/912205026_1747144630531642_9137552500486997209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=z_c0YPX0UIQQ7kNvwHXuSsA&_nc_oc=AdrIsIJ4WvrhErpcAboFrZKDsTuxHpntHgaINLXEGxPSo1lFERPx1U0_NaGbfp4HzwQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zq4KDW5OhxqH3B0bq-U-hQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSfAFzoAlKYOOWA2HfvQznovr83G54SKcHV5LMiJu575A&oe=6B014335",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:17909778966668713-0",
-      "ig:18154217074526516-0",
-      "ig:18423224272156413-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/Df0TCmpjWGT/",
-      "https://www.instagram.com/p/Df0Tfr0DVn2/",
-      "https://www.instagram.com/p/DfiXM8YjnvE/"
-    ],
-    "score": 3.9,
-    "scope": "local",
-    "distance_km": 12.0,
-    "reasons": [
-      "genre:reggaeton",
-      "instagram-club-night",
-      "venue:club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:33:09.582739+00:00",
-    "updated": "2026-11-16T22:49:17.957806+00:00",
-    "uid": "194df9ee591fb04c"
   },
   {
     "title": "MAISON GROVE x FLUID",
@@ -3022,7 +2530,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.614015+00:00",
-    "updated": "2026-11-16T22:49:17.941323+00:00",
+    "updated": "2026-11-16T22:53:17.045933+00:00",
     "uid": "761e00f931361d5e"
   },
   {
@@ -3083,7 +2591,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.583794+00:00",
-    "updated": "2026-11-16T22:49:17.965744+00:00",
+    "updated": "2026-11-16T22:53:17.063809+00:00",
     "uid": "f3b3efb51e963675"
   },
   {
@@ -3143,7 +2651,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034453+00:00",
-    "updated": "2026-11-16T22:49:17.880583+00:00",
+    "updated": "2026-11-16T22:53:16.997894+00:00",
     "uid": "9b6fff17fe858b19"
   },
   {
@@ -3170,9 +2678,9 @@
     "end": null,
     "artists": [],
     "genres": [
+      "commerciale",
       "hip hop / trap",
-      "revival",
-      "commerciale"
+      "revival"
     ],
     "genre": "Revival",
     "genre_source": "event",
@@ -3201,7 +2709,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.893181+00:00",
-    "updated": "2026-11-16T22:49:17.893181+00:00",
+    "updated": "2026-11-16T22:53:17.008743+00:00",
     "uid": "c10a9990ac19fcb6"
   },
   {
@@ -3228,8 +2736,8 @@
     "end": null,
     "artists": [],
     "genres": [
-      "electronic",
-      "disco / funk"
+      "disco / funk",
+      "electronic"
     ],
     "genre": "Disco / Funk",
     "genre_source": "event",
@@ -3266,7 +2774,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.956467+00:00",
-    "updated": "2026-11-16T22:49:17.956467+00:00",
+    "updated": "2026-11-16T22:53:17.056890+00:00",
     "uid": "149e49c0948af7d9"
   },
   {
@@ -3329,7 +2837,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.585576+00:00",
-    "updated": "2026-11-16T22:49:17.856730+00:00",
+    "updated": "2026-11-16T22:53:16.978578+00:00",
     "uid": "eb4439a0816a5d93"
   },
   {
@@ -3392,7 +2900,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.843777+00:00",
-    "updated": "2026-11-16T22:49:17.843777+00:00",
+    "updated": "2026-11-16T22:53:16.971968+00:00",
     "uid": "8ad712998a2a9f04"
   },
   {
@@ -3447,7 +2955,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036898+00:00",
-    "updated": "2026-11-16T22:49:17.882292+00:00",
+    "updated": "2026-11-16T22:53:16.999373+00:00",
     "uid": "a1dad6062f0a841a"
   },
   {
@@ -3503,7 +3011,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.602536+00:00",
-    "updated": "2026-11-16T22:49:17.898170+00:00",
+    "updated": "2026-11-16T22:53:17.013067+00:00",
     "uid": "e590cbc7d0d9a820"
   }
 ]
