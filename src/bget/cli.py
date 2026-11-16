@@ -101,12 +101,56 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
     print(f"{len(paths)} slides -> {outdir}  (post bundle: {bundle.name})")
 
 
+def probe(cfg: Config, urls: list[str], follow: str | None) -> None:
+    """Diagnostics for adding a new site: run it where the site is reachable (e.g. in Actions)."""
+    import re
+    from collections import Counter
+    from urllib.parse import urlparse
+
+    from .sources.jsonld import JsonLdSource
+
+    src = JsonLdSource({"id": "probe", "urls": urls, "follow": follow, "max_pages": 5}, cfg)
+    for url in urls:
+        print(f"\n=== {url}")
+        try:
+            html = src.fetch(url)
+        except Exception as e:  # noqa: BLE001
+            print(f"  fetch failed: {e}")
+            continue
+        print(f"  {len(html)} bytes, {html.count('application/ld+json')} JSON-LD blocks, "
+              f"__NEXT_DATA__={'yes' if '__NEXT_DATA__' in html else 'no'}")
+        evs = list(src.parse(html, url))
+        print(f"  events on the page itself: {len(evs)}")
+        for e in evs[:3]:
+            print(f"   - {e.start:%Y-%m-%d %H:%M} {e.title} @ {e.venue.name}, {e.venue.city}")
+        host = urlparse(url).netloc
+        links = JsonLdSource.links(html, url, re.compile(re.escape(host)))
+        shapes = Counter(re.sub(r"[0-9]+", "N", urlparse(u).path).rsplit("/", 1)[0] for u in links)
+        print("  most common internal link shapes:")
+        for shape, n in shapes.most_common(8):
+            print(f"    {n:3d}  {shape}/...")
+        if follow:
+            fl = JsonLdSource.links(html, url, re.compile(follow))
+            print(f"  links matching --follow: {len(fl)} (first: {fl[:2]})")
+            for link in fl[:3]:
+                try:
+                    found = list(src.parse(src.fetch(link), link))
+                except Exception as e:  # noqa: BLE001
+                    print(f"   {link}: fetch failed: {e}")
+                    continue
+                print(f"   {link}: {len(found)} events" + (
+                    f" e.g. {found[0].start:%Y-%m-%d} {found[0].title} @ {found[0].venue.name}" if found else ""))
+
+
 def main(argv: list[str] | None = None) -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     p = argparse.ArgumentParser(prog="bget")
     sub = p.add_subparsers(dest="cmd", required=True)
     for c in ("collect", "calendar", "alerts", "run"):
         sub.add_parser(c)
+    pr = sub.add_parser("probe", help="check what a page offers: JSON-LD events and links")
+    pr.add_argument("urls", nargs="+")
+    pr.add_argument("--follow", help="regex for event links to open from a listing page")
     c = sub.add_parser("carousel")
     g = c.add_mutually_exclusive_group(required=True)
     g.add_argument("--week", help="any date in the week, YYYY-MM-DD")
@@ -114,6 +158,9 @@ def main(argv: list[str] | None = None) -> None:
     a = p.parse_args(argv)
 
     cfg = Config.load()
+    if a.cmd == "probe":
+        probe(cfg, a.urls, a.follow)
+        return
     store = Store(cfg.root / "data" / "events.json")
     if a.cmd in ("collect", "run"):
         stats = collect(cfg, store)

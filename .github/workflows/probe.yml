@@ -1,0 +1,22 @@
+# Manual diagnostics: checks what a website exposes (JSON-LD events, link shapes) from
+# GitHub's network, before adding it as a source. Run from the Actions tab.
+name: probe-site
+on:
+  workflow_dispatch:
+    inputs:
+      urls: {description: "Space-separated URLs", required: true}
+      follow: {description: "Optional regex for event links on a listing page", required: false, default: ""}
+permissions: {contents: read}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -e .
+      - env:
+          URLS: ${{ inputs.urls }}
+          FOLLOW: ${{ inputs.follow }}
+        run: |
+          if [ -n "$FOLLOW" ]; then python -m bget probe $URLS --follow "$FOLLOW"; else python -m bget probe $URLS; fi
