@@ -14,7 +14,8 @@ promoters:
     ig_source: search
     genres: [techno]
     venues: [Bolgia]
-    notes: RA promoter for Bolgia nights (Nov 2025, May 2026).
+    relevance: low
+    notes: "One-off big-event brand that collaborated with Bolgia; not a regular local promoter (per Filippo)."
   - name: JUICE Crew
     instagram: null          # candidates: thejuicecrew, juice_crew_official; not confirmed
     ig_source: null
@@ -22,10 +23,11 @@ promoters:
     venues: [Nikita, Setai Club]
     notes: Runs "El Jardín de Nikita". Partners LOFT Bergamo, LOOP, Metaphora, Beatmode.
   - name: Groove Factory
-    instagram: null          # candidates exist, none tied to Bergamo
+    instagram: null
     ig_source: null
+    genres: [tech house]
     venues: [Bolgia]
-    notes: Named on the Bolgia Summer Garden opening; Ilario Alicante at Bolgia 14 Nov 2026.
+    notes: "Bolgia's own tech house night brand (per Filippo). Ilario Alicante 14 Nov 2026; Summer Garden opening."
   - name: Supertato
     instagram: supertatobolgia
     ig_source: search
