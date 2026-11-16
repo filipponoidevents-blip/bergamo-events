@@ -52,7 +52,7 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
                 flag.unlink()
             stats["removed"] = stats.get("removed", 0) + store.drop_sources(src.rejected_source_ids())
             q = src._load_review()
-            write_review_md(cfg.root, q["items"], *src.decisions())
+            write_review_md(cfg.root, q["items"], *src.decisions(), unreadable=q.get("unreadable_accounts"))
     # rescore everything so config edits apply to stored events too
     for ev in store.all():
         score_event(ev, cfg)

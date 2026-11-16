@@ -146,6 +146,8 @@ class InstagramSource(Source):
                 posts = self.graph.recent_media(user, self.posts_per_account)
             except Exception as e:  # noqa: BLE001
                 errors.append(str(e))
+                if "Invalid user id" in str(e) or "does not exist" in str(e) or "(#110)" in str(e):
+                    q.setdefault("unreadable_accounts", {})[user] = str(e).split(": ", 1)[-1][:120]
                 log.warning("instagram: %s", e)
                 if any(k in str(e) for k in ("(#190)", "Error validating access token", "Session has expired",
                                              "IG_ACCESS_TOKEN", "(#10)")):
@@ -158,6 +160,7 @@ class InstagramSource(Source):
                 checked += 1
                 continue
             checked += 1
+            q.get("unreadable_accounts", {}).pop(user, None)
             for post in posts:
                 pid = post["id"]
                 posted = datetime.fromisoformat(post["timestamp"].replace("+0000", "+00:00"))
@@ -247,7 +250,8 @@ class InstagramSource(Source):
         )
 
 
-def write_review_md(root: Path, items: dict[str, Any], approve: set[str], reject: set[str]) -> str:
+def write_review_md(root: Path, items: dict[str, Any], approve: set[str], reject: set[str],
+                    unreadable: dict[str, str] | None = None) -> str:
     today = datetime.now(timezone.utc).date().isoformat()
     lines = ["# Instagram events waiting for review", "",
              "To approve or reject, add the id under `approve:` or `reject:` in `config/ig_decisions.yaml`.",
@@ -265,6 +269,11 @@ def write_review_md(root: Path, items: dict[str, Any], approve: set[str], reject
                          f"Line-up: {who}. Confidence {it['confidence']}. From @{it['account']} {it.get('permalink') or ''}"
                          + (f" _Note: {it['notes']}_" if it.get("notes") else ""))
         lines.append("")
+    if unreadable:
+        lines += ["## Accounts Instagram won't let us read", "",
+                  "Usually a changed handle, or a personal/private account. Fix or remove them in "
+                  "`config/sources.yaml`.", ""]
+        lines += [f"- @{u}: {why}" for u, why in sorted(unreadable.items())] + [""]
     text = "\n".join(lines)
     (root / "out").mkdir(exist_ok=True)
     (root / "out" / "review.md").write_text(text)
