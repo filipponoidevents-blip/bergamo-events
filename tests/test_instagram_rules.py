@@ -98,3 +98,8 @@ def test_ocr_reads_agenda_image():
     ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=POSTED, account="agg", account_venue=None)
     assert [(e.date, e.venue_name) for e in ex.events] == [
         ("2026-11-20", "Bolgia"), ("2026-11-21", "Edoné"), ("2026-11-21", "Druso")]
+
+
+def test_title_skips_a_leading_date_line():
+    ex = read("VENERDÌ 20 NOVEMBRE\nDEEP INSIDE w/ Sample DJ\nh 23:00", venue="Bolgia")
+    assert ex.events[0].title == "DEEP INSIDE w/ Sample DJ"

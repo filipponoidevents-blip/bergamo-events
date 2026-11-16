@@ -150,6 +150,8 @@ def _title(caption: str) -> str:
         t = RE_URL.sub("", line)
         t = re.sub(r"[#@]\S+", "", t)
         t = re.sub(r"[^\w\s&'’!?.,:/+()-]", "", t).strip(" -–—:|.")
+        if len(t) <= 30 and RE_DATE_LINE.search(t):
+            continue  # "VENERDÌ 20 NOVEMBRE" is the date, not the name of the night
         if len(t) >= 3:
             return t[:80]
     return ""
