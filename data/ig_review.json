@@ -135,6 +135,7 @@
     "17895986325654321-0": {
       "account": "choruslife.bergamo",
       "account_venue": "ChorusLife",
+      "caption": "Il Natale sta per accendersi a ChorusLife!\n\nIl 21 novembre ti aspettiamo per inaugurare insieme il periodo più magico dell'anno, tra luci, emozioni e tante sorprese.\n\n📅 21 novembre dalle 18.00 - Piazza del Sagittario",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -144,6 +145,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": "18:00",
         "ticket_url": null,
@@ -151,7 +153,7 @@
         "venue_name": "ChorusLife"
       },
       "id": "17895986325654321-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/905825481_1806839848114058_818090737338989454_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-nOsmSQo9L4Q7kNvwEt9WB8&_nc_oc=AdrLeoPuWCgbKHEwfJFddixF_it0UxFlXHke7cftoJlnNoorLEuMl-oZEUcZnP0iIYk&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7SfbA9etwto5HHILeqF_2w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT-17RIH236DAcnDe8_fa5hdCPHygG_TRmcZJPb5EIL2g&oe=6B0148A2",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/905825481_1806839848114058_818090737338989454_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-nOsmSQo9L4Q7kNvwFIkiMx&_nc_oc=Adpf6u8EcfrqzBYh4OnlBgQBfRMgyMy8kto8QkzJpMJ4ibJ1nvIauDVlAbcQTz8CHHY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=P7PXe7lHgYX2zY6J44pVZw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSW8L3HUE-263bZMNRmCbVmqiJirup9WKeAGZu_FRt2yg&oe=6B0148A2",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfsHg2ZFOY_/",
@@ -160,6 +162,7 @@
     "17896218162433561-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
+      "caption": "🎸RICCOBELLIS🎸\n\nOPENING FOR THE PEAWEES\n\nDa Brescia, con i Ramones nel cuore e una predilezione per le melodie di Queers e Undertones. Il trio ha appena pubblicato “Afterparty Heroes”, quarto album e titolo piuttosto adatto alla compagnia che volevamo per questa sera.\n\n🎟 Biglietti già in vendita su diceitaly \n10 € +DDP in prevendita\n15 € in cassa in serata\n\n📅 Sabato 21 novembre 2026 · ore 21:30\nDASTE — via Daste e Spalenga 13/15, Bergamo",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -169,6 +172,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "21:30",
         "ticket_url": null,
@@ -176,11 +180,11 @@
         "venue_name": "Daste"
       },
       "id": "17896218162433561-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/905963463_18109790456579285_3350779978732215911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZkKP53vFSCYQ7kNvwEMVio7&_nc_oc=AdoGBKNVQpaCHoY6xa-HwlcjOEhX7bUB59GxLUwyNxOSNn3bgo5jTiLT9A2BURn_-PU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=L0yQENKmCTTPeDpUyU2t3Q&_nc_tpa=Q5bMBQK8kr7v0KI7sMmm8ttmuTEKh3DjNg2o7gmZTzuegEnD6jeoc4_ob_xii_TUKCV7UNzQh1fXKLwKEA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQTcb3oksXH_2FlQDikQrsbHoeypwC5gYuUgYRYQ8lKaqg&oe=6B0135D1",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905963463_18109790456579285_3350779978732215911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZkKP53vFSCYQ7kNvwHunwgo&_nc_oc=Adq1O_thvA7bgXuJjRYpSwDmgPFKzcCjB6jRHWuN7e3xvZJKY7pNpf6xQmmwD4QhDVI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_tpa=Q5bMBQI5x0cvcoM8TNYIDoTJAxyIrZDaztdEBXlK3cdosK5T9BqGYD2yUJQ5ItqlRyhowNdZI-F-pzH-SA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQT7GMB_dv4ggivlzQcUKiQ919a02qR7agRXPr7H7hn9rg&oe=6B016E11",
+      "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfsAUGvsXGE/",
-      "status": "info"
+      "status": "pending"
     },
     "17900762928405966-0": {
       "account": "gres_art_671",
@@ -287,6 +291,7 @@
     "17913764694483020-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
+      "caption": "Lettere è un’esperienza collettiva e collaborativa nella quale immaginare, elaborare, sperimentare, vecchie e nuove forme di scrittura.\n\nLettere è uno spazio senza pregiudizi perché le lettere ci piacciono tutte: materializzano i nostri pensieri e li rendono accessibili.\n\nChe siano fatte a mano, progettate al tecnigrafo, digitali, ricamate, ritagliate, tridimensionali, incise a laser o impresse al torchio, composte con oggetti o ricavate dalle piante, le lettere fanno parte della nostra quotidianità, possono darci un’identità e indirizzare le nostre scelte. \n\nDurante gli incontri proveremo ad usare attrezzi specifici come pennarelli, pennini, brushpen e spray, ma impareremo anche a costruirne di nuovi e personali perché se nella scrittura mettiamo noi stessi, la forma delle lettere parla di noi così come quella dello strumento che le traccia.\n\nLettere è lo spazio giusto per provare perché non servono abilità o conoscenze pregresse ma lavoreremo insieme per rendere l’esperienza divertente e formativa: se invece sei già un praticante o esperto tipografo, Lettere ti accoglierà con ancora più entusiasmo perchè per crescere serve una prospettiva e per migliorare serve un confronto.\n\nOgn",
       "confidence": 0.6,
       "event": {
         "artists": [],
@@ -296,6 +301,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -303,7 +309,7 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "17913764694483020-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ncNdimItXcYQ7kNvwEDuGZF&_nc_oc=AdpiW8scpCKJFJanqC1jFPhPkXPe6sTxzewVhOCXZweUu5vLXN1RGvepUaD9NnQgUFM&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTI2TqW1UF8KknCyyfOZv3QNGwqTIsDuYXQDuD8_xzM-g&oe=6B0148FC",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ncNdimItXcYQ7kNvwGRCeO0&_nc_oc=AdqYhClsYYNiyIxK-FB0TdTKo6elAxKmwOP4i7Rk5SV57DoPHmVl2GmArqNEnZPjiVI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTVISewA1nB0Om80d5BPqXloLNkoTivBdqXZAItWx3MSQ&oe=6B0148FC",
       "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfSS_5boF6a/",
@@ -312,6 +318,7 @@
     "17913764694483020-1": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
+      "caption": "Lettere è un’esperienza collettiva e collaborativa nella quale immaginare, elaborare, sperimentare, vecchie e nuove forme di scrittura.\n\nLettere è uno spazio senza pregiudizi perché le lettere ci piacciono tutte: materializzano i nostri pensieri e li rendono accessibili.\n\nChe siano fatte a mano, progettate al tecnigrafo, digitali, ricamate, ritagliate, tridimensionali, incise a laser o impresse al torchio, composte con oggetti o ricavate dalle piante, le lettere fanno parte della nostra quotidianità, possono darci un’identità e indirizzare le nostre scelte. \n\nDurante gli incontri proveremo ad usare attrezzi specifici come pennarelli, pennini, brushpen e spray, ma impareremo anche a costruirne di nuovi e personali perché se nella scrittura mettiamo noi stessi, la forma delle lettere parla di noi così come quella dello strumento che le traccia.\n\nLettere è lo spazio giusto per provare perché non servono abilità o conoscenze pregresse ma lavoreremo insieme per rendere l’esperienza divertente e formativa: se invece sei già un praticante o esperto tipografo, Lettere ti accoglierà con ancora più entusiasmo perchè per crescere serve una prospettiva e per migliorare serve un confronto.\n\nOgn",
       "confidence": 0.6,
       "event": {
         "artists": [],
@@ -321,6 +328,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -328,7 +336,7 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "17913764694483020-1",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ncNdimItXcYQ7kNvwEDuGZF&_nc_oc=AdpiW8scpCKJFJanqC1jFPhPkXPe6sTxzewVhOCXZweUu5vLXN1RGvepUaD9NnQgUFM&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTI2TqW1UF8KknCyyfOZv3QNGwqTIsDuYXQDuD8_xzM-g&oe=6B0148FC",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ncNdimItXcYQ7kNvwGRCeO0&_nc_oc=AdqYhClsYYNiyIxK-FB0TdTKo6elAxKmwOP4i7Rk5SV57DoPHmVl2GmArqNEnZPjiVI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTVISewA1nB0Om80d5BPqXloLNkoTivBdqXZAItWx3MSQ&oe=6B0148FC",
       "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfSS_5boF6a/",
@@ -337,6 +345,7 @@
     "17913764694483020-2": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
+      "caption": "Lettere è un’esperienza collettiva e collaborativa nella quale immaginare, elaborare, sperimentare, vecchie e nuove forme di scrittura.\n\nLettere è uno spazio senza pregiudizi perché le lettere ci piacciono tutte: materializzano i nostri pensieri e li rendono accessibili.\n\nChe siano fatte a mano, progettate al tecnigrafo, digitali, ricamate, ritagliate, tridimensionali, incise a laser o impresse al torchio, composte con oggetti o ricavate dalle piante, le lettere fanno parte della nostra quotidianità, possono darci un’identità e indirizzare le nostre scelte. \n\nDurante gli incontri proveremo ad usare attrezzi specifici come pennarelli, pennini, brushpen e spray, ma impareremo anche a costruirne di nuovi e personali perché se nella scrittura mettiamo noi stessi, la forma delle lettere parla di noi così come quella dello strumento che le traccia.\n\nLettere è lo spazio giusto per provare perché non servono abilità o conoscenze pregresse ma lavoreremo insieme per rendere l’esperienza divertente e formativa: se invece sei già un praticante o esperto tipografo, Lettere ti accoglierà con ancora più entusiasmo perchè per crescere serve una prospettiva e per migliorare serve un confronto.\n\nOgn",
       "confidence": 0.6,
       "event": {
         "artists": [],
@@ -346,6 +355,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -353,7 +363,7 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "17913764694483020-2",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ncNdimItXcYQ7kNvwEDuGZF&_nc_oc=AdpiW8scpCKJFJanqC1jFPhPkXPe6sTxzewVhOCXZweUu5vLXN1RGvepUaD9NnQgUFM&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTI2TqW1UF8KknCyyfOZv3QNGwqTIsDuYXQDuD8_xzM-g&oe=6B0148FC",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ncNdimItXcYQ7kNvwGRCeO0&_nc_oc=AdqYhClsYYNiyIxK-FB0TdTKo6elAxKmwOP4i7Rk5SV57DoPHmVl2GmArqNEnZPjiVI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTVISewA1nB0Om80d5BPqXloLNkoTivBdqXZAItWx3MSQ&oe=6B0148FC",
       "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfSS_5boF6a/",
@@ -437,15 +447,19 @@
     "17919342933464856-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
-      "confidence": 0.8,
+      "caption": "DUO BUCOLICO 🪗🌾\n\nSabato 28 novembre lo Champagne Tour 2026 del duobucolico approda sulle sponde di Ninfea.\n\nAntonio Ramberti e Daniele Maggioli portano sul nostro palco il loro cantautorato illogico d’avanguardia, con un miscuglio di folk, cabaret, satira, improvvisazione e sana follia popolare.\n\nCanzoni surreali, ironia irriverente e un discreto disprezzo per la normalità. Insomma, ci sentiamo a casa.\n\n🗓️ Sabato 28 novembre\n⏰ h 21:00\n🎟️ Ingresso libero e gratuito, senza prenotazione, riservato agli associati.\n\n📍 Ninfea Social Club – Via G. Marconi 65, Sorisole (BG)",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-28",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "commerciale"
+        ],
         "is_concert": true,
         "is_festival": false,
+        "kind": "comedy",
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
@@ -453,8 +467,8 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "17919342933464856-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/897436972_122125877943240064_7770713743618903354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HSl3jL7c4JcQ7kNvwG7AMtt&_nc_oc=AdoiNwzOVxHF8t0SXXoPQKU7Af3lrpkNIsuGGbbix_MLyzqNVGvJ17APCZaXYKT64EQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSGTuTydwkc4qCzvEvMI6C2-tcwQjl6dx8xS1SlsbYDhw&oe=6B013365",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/897436972_122125877943240064_7770713743618903354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HSl3jL7c4JcQ7kNvwHcSRSF&_nc_oc=AdoCPEngP-4QfjpbSqg9vGaIKuJjQ--BhilBYUa_OfImrVhulMW4KPizwyDX8dFwCKo&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSSyjUiYTP5h5Bno58-_kbYhrF0Xol9Hr9PiPiRiyrZoQ&oe=6B016BA5",
+      "kind": "comedy",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfkja3NjzoH/",
       "status": "info"
@@ -564,6 +578,7 @@
     "17930449071185141-0": {
       "account": "choruslife.bergamo",
       "account_venue": "ChorusLife",
+      "caption": "Appassionati di motori, avete già segnato la data del prossimo raduno di auto e moto d’epoca? \n\nBeh, ci trovate in Piazza delle Stelle il 22 novembre! \nvintage.pitstop torna a ChorusLife!",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -573,6 +588,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -580,7 +596,7 @@
         "venue_name": "ChorusLife"
       },
       "id": "17930449071185141-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/889059035_18472104100141516_1178346297734563501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=49Oq1Xvg80YQ7kNvwE6aBP5&_nc_oc=AdomlKSVNjUPgnoaM1Lstr6_oNLkWfjgQxZUg1s7BAVmuP_8aIwQVKNQ3x5r1HKqA-A&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7SfbA9etwto5HHILeqF_2w&_nc_tpa=Q5bMBQJMAAyLEC5_uZIB5lUvoFfUIcLm3HI3QpogucGUqoa7IoYg6cNC0Z_4BiogfZUcTidOWtplWuPMxQ&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQpOj4gWPQZH-TCHD_2sBKnT0QD3F-4zFp8BA4ka6gEWQ&oe=6B014005",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/889059035_18472104100141516_1178346297734563501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=49Oq1Xvg80YQ7kNvwF3ZKIi&_nc_oc=AdoEFf_-tiDucdbmYfecNcfGIIDUerJsRYIS1nSKgy4JgwWtAUYfxqMibX2QqzZnKPc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=P7PXe7lHgYX2zY6J44pVZw&_nc_tpa=Q5bMBQLewfxens9TqB0ixd6MwIlPRr-tuwiwKHt1WmSCy3s16thopPQB_agt4TgH6ZbtxaeWM_yKFQjWaw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRg9crRLPuarOHlKYQ6o-MWrhCekX2l1vGmUpEN5O105w&oe=6B014005",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfmblqSnBYi/",
@@ -589,15 +605,20 @@
     "17938976184405204-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
-      "confidence": 0.7,
+      "caption": "Martedì 17 novembre alle ore 18.00, gres art 671 sarà il luogo dell’incontro “Abitare il futuro. I territori tra turismo, identità e sostenibilità”, appuntamento conclusivo di Odissea Terra – Visionari.\n\nIntervengono Alessandro D’Avenia, Michil Costa e Miriam Allena. Coordina Valentina Iorio, Corriere della Sera.\n \nPromosso da Fondazione Pesenti Ets, con il sostegno di Italmobiliare e la collaborazione di Fondazione Corriere della Sera, Odissea Terra è un progetto nato per approfondire le grandi questioni legate alla sostenibilità attraverso il dialogo tra esperienze, competenze e punti di vista diversi, con l’obiettivo di favorire una maggiore consapevolezza e stimolare una riflessione condivisa sulle sfide del presente e del futuro. A un anno dalla sua nascita, il progetto ha inaugurato Visionari, un nuovo percorso dedicato a personalità capaci di leggere le trasformazioni del nostro tempo e indicare nuove possibilità di cambiamento, traducendo idee e valori in prospettive concrete.\n \nDopo aver affrontato i temi della sostenibilità nella cura, della parità come motore di progresso e della responsabilità delle scelte economiche e produttive nel mondo della moda, l’ultimo incontro ",
+      "confidence": 0.8,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-17",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "hard techno",
+          "hip hop / trap"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -605,7 +626,7 @@
         "venue_name": "Gres Art 671"
       },
       "id": "17938976184405204-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/896330585_18002198946034022_5272116213877377711_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EVxu0zH_SIsQ7kNvwEQs9s-&_nc_oc=AdqxjXtvD4JCCV_bs2Dg8BEp24xA-uuUcSnfeyBnLx2_KGyxqzHuW07nC1NFWzlhmnM&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AG8aLP4lQAQthDbP-J7LFQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSArR8pT7UIwbwCBTUUKp7b0tCZi0yC55nufadvHXMPGg&oe=6B014909",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/896330585_18002198946034022_5272116213877377711_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EVxu0zH_SIsQ7kNvwEnvsMo&_nc_oc=AdooIHccjdz1Mg4W6Y7cT9fm2lacrmCUG2gq2BAawC4JMoOguhT6-4otT-ERHX0hXvo&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=7D0zTOCF4HRuGB-geIN0pA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQToda0oOjnhcycRKbUus5KhQXfgCBA84I9toBFO8chC8A&oe=6B014909",
       "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfkF7yXshTC/",
@@ -689,6 +710,7 @@
     "17943890685375673-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
+      "caption": "DASTE LAB presenta:\n\nDomenica 22 novembre, dalle 19.30\n🪴 KOKEDAMA con kokedama_laboratorio\n\nUn’opportunità per apprendere l’antica tecnica di coltivazione giapponese che permette a una pianta di crescere senza vaso, racchiusa in una sfera di terra e rivestita di muschio vivo.\n\nDurante il laboratorio impareremo a realizzare il nostro personale kokedama da portare a casa!\n\n📌 Il lab ha un costo di 40 euro, che comprende i materiali e anche l’aperitivo :)\n\n📌 Posti limitati! Per partecipare bisogna iscriversi, per messaggio al numero di Mattia +39 349 677 8881\n\n📍 DASTE - via Daste e Spalenga, 13/15 - Bergamo\n\n#DASTELAB #dastebergamo #bergamo",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -698,6 +720,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -705,8 +728,8 @@
         "venue_name": "Daste"
       },
       "id": "17943890685375673-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/906843237_18110083727579285_1190368472220187547_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Y3zAxob1Iq0Q7kNvwGFUcaH&_nc_oc=AdpluUVpbWKH9MMW2RAuTQcGdUCH0O7AOAxKl_I_OGici18rFWPOSjgPxnDJZGT3Gto&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=L0yQENKmCTTPeDpUyU2t3Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTuq4hgBORGoB-DBw7PKqjCa6_cicacLD8sX9N_97S16w&oe=6B015E72",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/906843237_18110083727579285_1190368472220187547_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Y3zAxob1Iq0Q7kNvwHqS_Rt&_nc_oc=AdphPI68_7bsbw0Wlmnj0xB3XHjAt4LbfwkfHLuGN3I3-xc4uVNQYJapQkgiXBEnjnE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQNFDQdbjNIAZ32vvUsrtFSCj8_UeovW_MAPoAncjXHWw&oe=6B015E72",
+      "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfxKSDmM_mU/",
       "status": "info"
@@ -789,6 +812,7 @@
     "17947022979366215-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
+      "caption": "🎤Torna la comicità dal vivo con una nuova serata, presentata da Nicola Blandino e Matteo Coluccia.\n\nMicrofono accesso, filtri spenti e battute che forse non dovremmo ridere... ma rideremo lo stesso.\n\n📍Ninfea Social Club - Sorisole, Via G. Marconi 65\n🗓️Martedi 17 Novembre \n⏰h 21:00\n\nIl nostro consiglio? Non ridete per tutta la settimana: conservate tutte le risate per martedì sera.\n\nIngresso riservato agli associati con consumazione obbligatoria.",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -798,6 +822,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "comedy",
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
@@ -805,7 +830,7 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "17947022979366215-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/898652788_18083595332531213_8161197395091991817_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vuFjWiFlvtsQ7kNvwGa0RvC&_nc_oc=AdpQxz7c1Ze6xFjW_3ese1P1iDOto3rwWauwSW9EVxOQ1DgTX1U2yLZwlzXu0fKqSBs&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQD9PTQVVZnhF6n83pp4KHM8Dc_Z0ajmVIz6mf6KZBLfg&oe=6B01617C",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/898652788_18083595332531213_8161197395091991817_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vuFjWiFlvtsQ7kNvwHNWB-p&_nc_oc=AdqJCiulPJViN2ckWs2LmM5ktYYaJTgKyBEyYJ0uJqP9GcjkodulGnQ76zjwHplD6gU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQpW-3VBXixz1-MQXCYCg6XGLHTEYBvBelj-uNSmOtrBg&oe=6B01617C",
       "kind": "comedy",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfj7E-5o5fJ/",
@@ -814,6 +839,7 @@
     "17947107258087277-0": {
       "account": "drusobg",
       "account_venue": "Druso",
+      "caption": "𝗗𝗘𝗡𝗡𝗜𝗦 𝗦𝗧𝗥𝗔𝗧𝗧𝗢𝗡 ex 𝗜𝗿𝗼𝗻 𝗠𝗮𝗶𝗱𝗲𝗻\nin concerto al Druso di Bergamo with cotd_iron_maiden \n\nUna serata ad altissimo tasso di adrenalina in cui si celebreranno gli IRON MAIDEN in compagnia di un vero pezzo di storia della band, il funambolico chitarrista DENNIS STRATTON. Ad accompagnarlo sul palco i Children Of The Damned , una delle migliori Iron Maiden tribute band a livello internazionale!\n\nopenact: the_big4_theory\n\n🎫 Prevendita Scontata 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n\n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅 Venerdì 20 Novembre 2026\n🕕 20:30 porte | 22:00 live\n\n🍔 Food Truck Attivo \n\n🍏 #druso #dennisstratton #ironmaiden #cihldrenofthedamned #metal",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -823,6 +849,7 @@
         "genres": [],
         "is_concert": true,
         "is_festival": false,
+        "kind": "live_music",
         "price": null,
         "start_time": "20:30",
         "ticket_url": null,
@@ -830,8 +857,8 @@
         "venue_name": "Druso"
       },
       "id": "17947107258087277-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/902584593_1680422466863024_1245989109627536600_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=JYzY_SiI8toQ7kNvwEKUfzl&_nc_oc=AdrNmgxsDO2J9Jyv2KxQOyggpT_zxwSaeyLqatnOdK0EgzC6VQCfpodNbsuH5uyc4aw&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=0UhnP5lx4LMEBbv3MDny6Q&_nc_tpa=Q5bMBQKpXsUiYYZosmZBOS4kqKdWTN7lGLNHR0LbWO_E8txtBrTZqRn8OcNY5ayyt1DS4lLIERd8xlQgAw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTYrhj1DVCmjsxHhop75xd2v_DJGMl751f-K8ohSjfHCw&oe=6B014051",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/902584593_1680422466863024_1245989109627536600_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=JYzY_SiI8toQ7kNvwF477QK&_nc_oc=Adq70DTxwlvEy4RUbMXs6p-4cH6noynJiBLSy7ElxPuLwNdDOycMFWRX5cigTSXvOpY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=xrMX_YI34cW_fmXFPmFAiA&_nc_tpa=Q5bMBQJtB61OsJTVXyXWyXgiYTN1I5IDCSbsjbNQ7GoN9HEBKdlHFp-yKyOFCalN8XygJs4cYhNhRsRttw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTaJll5bMHh2E2HuLLRDxGYGeB2goB5awhOeLpgxZ1QWg&oe=6B014051",
+      "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfnPiZtguMi/",
       "status": "info"
@@ -939,23 +966,28 @@
     "17970877896206520-0": {
       "account": "discoteca_queen",
       "account_venue": "Queen Club",
+      "caption": "SABATO 21 NOVEMBRE\n\nNOTTE A CASO\n“Vieni come vuoi, al resto pensiamo noi”\n\nIngresso OMAGGIO DONNA fino alle 23:00\n\nIn consolle \nDj: StefanOne + Andrew V.\nVoice: Matteo Palumbo\n\n> Opening ore 22:30 // Chiusura ore 04:00\n\nPREZZI: \n>Ingresso con consumazione > € 13\nFino a mezzanotte\n>Ingresso con consumazione > € 15\nDopo mezzanotte \n\n>Prenotazione tavoli gratuita\n\n***********************************\nLocation:\nQueen Club\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709\n\n #disco #queen #seriate #bergamo #VIETATO MANCARE dance anni90 anni2000 discoteca nightlife drink",
       "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-21",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "disco",
+          "revival"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "23:00",
         "ticket_url": null,
-        "title": "SABATO 21 NOVEMBRE",
+        "title": "NOTTE A CASO",
         "venue_name": "Queen Club"
       },
       "id": "17970877896206520-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/905071223_18345386470258835_6063828466906818669_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zBDORi_Bd88Q7kNvwG0F8su&_nc_oc=AdoZXrf-UNQYwM1WGwWugeHXICJokx1UCq4r4veZELPecNDYID8NtjAPE3kQgpamlOg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_tpa=Q5bMBQJ0aMGUwWxR_zuAF19y8wY1s9johrLbiG0BBSSVCSIIgN354043odArDcn--r4VkJ-LaER56yaE9g&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQTn-kJfn2jSqjswo8ezhPxgurDm7KHuEGHRHh4QwkbF1Q&oe=6B01369D",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/905071223_18345386470258835_6063828466906818669_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zBDORi_Bd88Q7kNvwFsPDBt&_nc_oc=AdpkNZQlK69REV7NvkOQCuk_ndh9w6RTJ_A_hMcK2SHXvZiXFXtmMs56yYxog-x_Frk&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zt2lGCgdysU-fn4kQ-JXAw&_nc_tpa=Q5bMBQKB_srnwt-k0qkM7jF_6mHNCrNp0lXidTrJRZlVH4CKrvqXLkAaVB-bDQS9WTh3A1KXbRtf0nQ44A&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSBkywX7miS0XYim4VWM7Ma0az9m_xmV9OQr4HuNiDkbQ&oe=6B016EDD",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/Df0FPmjt6FV/",
@@ -1064,6 +1096,7 @@
     "17990009577086652-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
+      "caption": "Un microfono, tanto sano umorismo e tutto il resto migliora.\n\nPresenta Giò Fattoruso e con lui ospiti possibili e immaginabili!\n\nMercoledì 18 novembre con:\n\nAlessio Rose alessio.rose\nBruno di Voi bruno_di_voi\nMartina Scidà martinascida\nLorenzo Carbone lorenzocarbonecomedian\nBeppe Noto beppe_noto\nRuben Alles rubenalles\nTriana Cattin trianacattin\nManuel Epifani manuel_epifani\n\nSempre dalle 21.00\nIngresso libero\n\nPrenota il tuo posto, al numero di daste_bistro 3207203193\n\n📍 DASTE Bergamo\nVia Daste e Spalenga, 13/15",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -1073,6 +1106,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -1080,7 +1114,7 @@
         "venue_name": "Daste"
       },
       "id": "17990009577086652-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/901567548_18109515629579285_537992953011977488_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uoIT1ydzZBcQ7kNvwHunUa4&_nc_oc=AdpXqJnykoB-pmGfY8T6zuQTzKW1GUby1Me60NXXHr19i1uuWo9K96d33D0G2HK2qAA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=L0yQENKmCTTPeDpUyU2t3Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTSDzLtdp92VqJ7ogx9D89a1ns2wfNNEmngBoT2CQgk1g&oe=6B015DF3",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/901567548_18109515629579285_537992953011977488_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uoIT1ydzZBcQ7kNvwF5iIgk&_nc_oc=Adq1hbgMwbodL9Grqw4t8dc0Q99qyv5zZb6jfMahd-EMP5dpv-aMAYFMMS431tf9Tjw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRpVSM377MauCBOK43CeJT15SvQZF5ghUM5079ThSMSxQ&oe=6B015DF3",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfm3qqrDG1t/",
@@ -1740,15 +1774,19 @@
     "18047572670829977-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
-      "confidence": 0.8,
+      "caption": "🪩 OkPaciana 🇵🇸\n\n🗓️ Sabato 28 novembre al csapacipaciana\n \n❤️‍🔥 Dalle ore 21:00 till late uno show audiovisivo esplosivo, tra melodie catchy e visual coinvolgenti. \n\nAi controlli:\n\ntroviero\nokgiorgio + ciauruu + maqo___\nbladeblanc\nsetaloto \n\n🔊 Powered by dubstone.soundsystem\n\n🎟️ Sottoscrizione a 10€ a sostegno di gazafrestylefestival; progetto di scambio culturale e di sostegno al popolo palestinese di Gaza & a sostegno della cassa legale del Tuo Centro Sociale per le mobilitazioni sulla Palestina",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-28",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "commerciale"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
@@ -1756,7 +1794,7 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "18047572670829977-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899029118_18658482862056454_5116899418069586914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WypkF0HMq_EQ7kNvwGpGCft&_nc_oc=Adp4yxhvnX9ZYtt_PrZh_JywGAMDSgJxox9TImrh1VU31DcC9KOxsiNfgCJiIdg8_BQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQctrIOY7u_KGP9yI2Wd7NhRalpLG4RwRSEm3jagLbjCw&oe=6B01422A",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/899029118_18658482862056454_5116899418069586914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WypkF0HMq_EQ7kNvwFwJySj&_nc_oc=AdrJ5Fw39TeN9BJUXheK4EAXa4oYfdP8n-5wCKnZLM5WusYrtlBYH8wNP-Ys1lf-uDo&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS-4-P6UGrWRJ_DWztveP0CYQdi7tMaH3Ur77FBEjiKpQ&oe=6B01422A",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpCDw5IFC4/",
@@ -1765,15 +1803,19 @@
     "18050892980826584-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
-      "confidence": 0.8,
+      "caption": "MERI LU JACKET 🎸🔥\n\nDomenica 29 novembre arriva a Ninfea merilujacket , cantautrice anglo-italiana che porta un concentrato esplosivo di blues, rock e soul.\n\nLaureata in Songwriting a Bristol, dai palchi europei alle collaborazioni con Tony Moore (Iron Maiden, Cutting Crew), passando per concerti al fianco di Bandabardò, Gaia, Ginevra Di Marco e Paolo Benvegnù.\nA Ninfea arriva con una formazione al fulmicotone:\n🎸 Meri Lu Jacket – voce e chitarra\n🥁 Luca Mazzola – batteria\n🎸 Patrizio Pezzutto – basso\n\n📅 Domenica 29 novembre\n⏰ Ore 21:00\n📍 Ninfea Social Club – Via Marconi 65, Sorisole (BG)\n\n🎟️ Ingresso gratuito, senza prenotazione, riservato agli associati.",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-29",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "disco / funk"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "live_music",
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
@@ -1781,8 +1823,8 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "18050892980826584-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/900433257_18083788442531213_1473087593094767426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=R3TqoNGNG6QQ7kNvwEP9knj&_nc_oc=AdpqjbkjOTXV-4W5MKIh78BudBcf_2oVYhrCPZgltOcqlQLjp6jCSPKe0bDCp56Ol58&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQST6g3HXm6q-pIxmF_WkVgPTgZETYTs6XghZvJNfVgDBw&oe=6B01364F",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/900433257_18083788442531213_1473087593094767426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=R3TqoNGNG6QQ7kNvwFYj2BQ&_nc_oc=AdqQ30pMUHzf7rImhGikBXOWMzTPIoXt88ZtwSfbFPYlFlSqnAsALs_l7eHsy5sGX0I&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTxitKe7krrKAlfLGPoAav3EW__CIr_0f1S2IjTwqNTvw&oe=6B016E8F",
+      "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfm6T3SK1g_/",
       "status": "info"
@@ -1790,6 +1832,7 @@
     "18051434750820052-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
+      "caption": "DASTE LAB presenta per la prima volta:\n\nMercoledì 18 novembre, dalle 19.30\n🍸🔭🫐 CREA IL TUO GIN 🫐🔭🍸\n\n📌 Il lab ha un costo di 40 euro, che comprende i materiali e anche l’aperitivo :)\n\n📌 Posti limitati! Per partecipare bisogna iscriversi, al form in bio\n\n📍 DASTE - via Daste e Spalenga, 13/15 - Bergamo\n\n#DASTELAB #dastebergamo #bergamo",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -1799,6 +1842,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "food_drink",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -1806,8 +1850,8 @@
         "venue_name": "Daste"
       },
       "id": "18051434750820052-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/902292542_18109649147579285_7730088170452444064_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=rys0n-7-gZoQ7kNvwGi9beZ&_nc_oc=AdoFGqHhw3pNoKCiazZLe3ywiMeL8gLuqciZWlbyCwtLDmElqPxUgpFXRC9AMz3M_pg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=L0yQENKmCTTPeDpUyU2t3Q&_nc_tpa=Q5bMBQKtsMCzwYXBm9oizjm_a9HGW8vDxmtQeLlmYDbzE4fGwlGdeE4M_HfPHkXbCK8enyNQ4_FaPXipDg&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQRJF2ZWuHE18xxU_xpiHW-w2yXRFhUo3HVV5I8p7aYZrQ&oe=6B012D23",
-      "kind": "other",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902292542_18109649147579285_7730088170452444064_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=rys0n-7-gZoQ7kNvwESK4Il&_nc_oc=Adp9NzYLrY4AfvusfyfWCxbrtGjbtsr5pjpXJH-8R435m1PK8ehg_DlcrG0BpsrwCTs&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_tpa=Q5bMBQK1H1AXRYsgpHDsAbx-Lpgf7iC7rWKUW1xxxcFrW1d-36JT6PdhjuOiQDB7ViS1r_cs-zDeDvceQQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSPkBtX7Lq3syMdO7eP5VUWNmShO8w_zesgTYdSdd5Png&oe=6B016563",
+      "kind": "food_drink",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/Dfpdt2Psx1c/",
       "status": "info"
@@ -2021,6 +2065,7 @@
     "18080277683448550-0": {
       "account": "drusobg",
       "account_venue": "Druso",
+      "caption": "𝗧𝗜𝗠 𝗥𝗜𝗣𝗣𝗘𝗥 𝗢𝗪𝗘𝗡𝗦 Band\nin concerto al Druso di Bergamo \n\nUna delle voci più potenti e riconoscibili dell'heavy metal mondiale arriva a Bergamo!\nEx frontman dei leggendari Judas Priest e attualmente alla guida dei KK’s Priest, timripperowensofficial porta sul palco tutta la sua energia e il suo inconfondibile timbro metal.\n\nIn apertura di serata gli onemachineofficial con il leggendario chitarrista Steve Smyth dei Testament, Nevermore, Vicious Rumors... stevesmythofficial\n\n⚡ Una serata imperdibile per tutti gli amanti dell'heavy metal!\n\n📍 Druso – Via Antonio Locatelli 17, Ranica (BG)\n📅 Giovedì 11 Febbraio 2027\n🕕 20:00 porte | 21:30 live\n\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Food Truck Attivo\n\n🍏 #druso #timripperowens #judaspriest #metal #heavymetal europeantoursbooking fans_of_tim_ripper_owens",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -2030,6 +2075,7 @@
         "genres": [],
         "is_concert": true,
         "is_festival": false,
+        "kind": "live_music",
         "price": null,
         "start_time": "20:00",
         "ticket_url": null,
@@ -2037,7 +2083,7 @@
         "venue_name": "Druso"
       },
       "id": "18080277683448550-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/906219927_18455952370134654_7450120575544315350_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Nn904tfflsYQ7kNvwHNJhos&_nc_oc=Ado7NU3CYw1kQIR6OH5z7d3j5aOWjAh2dNw8ymlpcqtP78A8WvtwGlFCaBRACzw7j50&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=0UhnP5lx4LMEBbv3MDny6Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSaI_rwJY1MTAljO_1vfTDCMd0e8ZUgcnACSYzpSC4NaA&oe=6B015DFF",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/906219927_18455952370134654_7450120575544315350_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Nn904tfflsYQ7kNvwHE-UX0&_nc_oc=AdoUcJidra7pfPAUfNts6gYWs7QmAn4cLX37rzRS86wQfgNby2s_FPyVS-Sxo86BPK4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=xrMX_YI34cW_fmXFPmFAiA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTtQFHeWlHNtNdfwgMsB6inJV-YPXsURz6eUJUMdkuBeA&oe=6B015DFF",
       "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Df0GZ8LAy2B/",
@@ -2250,6 +2296,7 @@
     "18096754895184010-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
+      "caption": "UNO CONTRO TUTTI: IL GM ALESSIO VALSECCHI SFIDA 20 GIOCATORI AL NINFEA SOCIAL CLUB ♟️\n\nGiovedì 19 novembre Ninfea ospiterà “Uno contro tutti”, una simultanea di scacchi su 20 scacchiere con protagonista il grande maestro Alessio Valsecchi, campione italiano assoluto nel 2020.\n\nLa simultanea è riservata a giocatori con Elo inferiore a 2000. La partecipazione è completamente gratuita, ma i posti disponibili sono soltanto 20: è quindi consigliabile iscriversi con anticipo.\n\n🏁 Formula: simultanea su 20 scacchiere\n👥 Partecipanti: giocatori con Elo inferiore a 2000\n💶 Quota di partecipazione: gratuita\n📝 Iscrizione gratuita riservata agli associati tramite link in bio\n☎️ Informazioni: Giorgio – 328 8869456\n\n📅 giovedì 19 novembre\n🕣 h 20.30\n📍 Ninfea Social Club, Via Marconi 65, Sorisole (BG)\n\nIngresso riservato agli associaiti",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -2259,6 +2306,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -2266,7 +2314,7 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "18096754895184010-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/896141189_18083942498531213_661675043104297560_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BC0ZSCs_vGAQ7kNvwGx3pFP&_nc_oc=Adoo8Z4-yqpFVuAGhzAn20G3gM2kS0mT8vm3KT97OkSkAaL_FM0Ugy5veKvKKFP4ajQ&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRN8yzhTRD-ig7v6Ehu6CpabwiTymWDPa7vOR1lrLKhLQ&oe=6B014CF3",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/896141189_18083942498531213_661675043104297560_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BC0ZSCs_vGAQ7kNvwHczRbH&_nc_oc=AdprhshDZIK-6bb9oRSARHhq7J4KfiHJGGu-npQoeqn29doU4pKqja4jeRqAepCL8Eo&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTqWFTcR8VVWAgUfpNXBvfkl3CqCZ5XmCjH1oOkXnzBWQ&oe=6B014CF3",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpjMTvqi0b/",
@@ -2429,6 +2477,7 @@
     "18100660250659065-0": {
       "account": "loft.bergamo",
       "account_venue": "LOFT Bergamo",
+      "caption": "SABATO 28/11\nLOFT - HiFi Bar & Premium Club\nMusica, design, atmosfera e buon cibo si incontrano per dare vita ad un party esclusivo!\n🕘 dalle 21 alle 23: Deep e House Vinyl Selection\n🥘 APERICENA A BUFFET\n🕛 dalle 23 alle 4: IL PARTY!\n🎧 DANI VESCOVI, LAPO UNDERGROUND\n👉 Ingresso OMAGGIO con C.O. entro le h. 24:00\n📍 Via Stezzano 18, Azzano San Paolo - Bergamo\n▬▬▬\n⚠️ ACCESSO SOLO SU PRENOTAZIONE (link in bio)\n🔞 PUBBLICO SELEZIONATO\n▬▬▬\nRESERVATIONS ☎️ 3485524298",
       "confidence": 0.9,
       "event": {
         "artists": [],
@@ -2436,18 +2485,21 @@
         "date": "2026-11-28",
         "end_time": "02:00",
         "genres": [
-          "house"
+          "house",
+          "deep house",
+          "electronic"
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
-        "title": "SABATO 28/11",
+        "title": "LOFT - HiFi Bar & Premium Club",
         "venue_name": "LOFT Bergamo"
       },
       "id": "18100660250659065-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/910707838_17906147790671468_1029796839349409801_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=R_vPPN7I2c0Q7kNvwHQU5oQ&_nc_oc=AdoOe7IfiUSz3ZnumGPzOGZVt3cNU_L-gi2zvLMs_gUqHQEkxJJGZLaYNU2hkwRC7PU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=xsPSrmmbQl-3CSYDwO_zSg&_nc_tpa=Q5bMBQKgqeCODYaHYU0j1ogdGuflIHuURVyzmqlgK0xHO91YGHj_fDSggOHV5gIjDJW2ggqIi56_18xWDQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQT4ybLtWMsi0B8GSzxdj7AlX26hyV8P64aV0dLTmGAdGQ&oe=6B013FD6",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/910707838_17906147790671468_1029796839349409801_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=R_vPPN7I2c0Q7kNvwEojJt0&_nc_oc=Adp-7qjRgjNaY79SbE13vF1MBoSrSikPq2s-3EtbO_8oWvd6cN94LfedJbNNfVJ6-eg&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=5NAHDdoPgczWg6eOL8MnRA&_nc_tpa=Q5bMBQKTgt7Xw1a-N7rZeDf2y05ILJVc4ck9KEcX6DPKVKubCuDyqviMXKTji0eO6kczd_J-1OQxS_lzQA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQR5qpJRqwTXDDdYsOMBxaYOAfZNILRdf6mEYzZ8uE_D5Q&oe=6B013FD6",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfzPZPrtGfJ/",
@@ -2456,6 +2508,7 @@
     "18100675265430465-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
+      "caption": "ALLA BASE ATTERRA A NINFEA! 🍕🛸\n\nDa Ninfea proseguono le collaborazioni intergalattiche con le realtà del territorio.\nQuesta volta ad atterrare sulle sponde del nostro laghetto è Pizzeria alla.base , con un disco volante che sa di pomodoro e mozzarella.\n\nTi viene voglia di pizza mentre sei a Ninfea per un evento, un corso, una pescata? Nessun problema! Ordinala direttamente alla Pizzeria Alla Base oppure chiedi a noi, te la facciamo consegnare qui e te la gusti in compagnia.\n\n🍕 ORARI PIZZERIA\nMar–Dom | 18:00–21:30\nMar–Ven | 12:00–13:30\n\n📍 Ninfea Social Club – Via G. Marconi 65, Sorisole (BG)\n\n🪷 Accesso riservato agli associati.",
       "confidence": 0.9,
       "event": {
         "artists": [],
@@ -2467,6 +2520,7 @@
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": "18:00",
         "ticket_url": null,
@@ -2474,8 +2528,8 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "18100675265430465-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/895917075_122125870551240064_4164521325550940175_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=omPm0x6729YQ7kNvwFGT3DH&_nc_oc=AdrGwNwsOaVtA_qnuymImgfmzYfh1Ak3Ug-KQ5Goj7Xe1zfGglJy_Jpxlvc0M5ffz1I&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRjAOULx-qECEHuCMKT5YZvrG_-tPfL8qE0SkvhLqOV0Q&oe=6B012A70",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/895917075_122125870551240064_4164521325550940175_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=omPm0x6729YQ7kNvwHq1SF1&_nc_oc=Adpf4ZAymMdObNJFmCG1DWyl0zG5cWQ29Cg-V2N64vzDFmI7eku-eGX8u6PvUZnwkmA&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQruCbJYOfY_pUXuTGerX9uSNXMWLYs9za5EVvYxwQKCQ&oe=6B0162B0",
+      "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfkO0kMDBaK/",
       "status": "info"
@@ -2533,24 +2587,29 @@
     "18102968327400355-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
-      "confidence": 0.8,
+      "caption": "❤️‍🔥SABATO 21 NOVEMBRE❤️‍🔥\ndalle 16:00\n\n🫧Workshop pole dance aperto a tutt@: si,anche se l’unica cosa che hai mai scalato è il divano di casa tua!\n\nNessun prerequisito,vieni a metterti in gioco e scoprire cosa sa fare il tuo corpo!\n\nCosa ti serve?\nUn paio di pantaloncini corti (la pelle serve per fare grip)\nNO creme idratanti nelle ore precedenti\nSimpatia,curiosità e zero giudizio!\n\nL’accesso è libero,ma lasciaci un messaggio in DM a palestrapopolaretrollmann per una migliore organizzazione!",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-21",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "hip hop / trap",
+          "commerciale"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "quiz_games",
         "price": null,
         "start_time": "16:00",
         "ticket_url": null,
-        "title": "SABATO 21 NOVEMBRE",
+        "title": "dalle 16:00",
         "venue_name": "Pacì Paciana"
       },
       "id": "18102968327400355-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/907515316_18660084454056454_2130534088674426176_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1GEYypXreYQQ7kNvwG_Xc3e&_nc_oc=Ado6EjV38Rjmgq-9dMm_z-MbGUBdCsELgK6w8SdVkDxo5QGGYzK-Aw4I-VjbtAJJFs0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT6-fqyILHboE1i67vQi1QOvhvm0CT4z1Zml72CtkoA8g&oe=6B012C64",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/907515316_18660084454056454_2130534088674426176_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1GEYypXreYQQ7kNvwHKnpe6&_nc_oc=AdqW2yOE9VRB20p1xLvL81xCZyi4xm7ZgypHULACgCUyq5SjFyeu8SJkOv4JtAtXlSE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQjzIO8Zwlo4HUORuwCu4htPDwEo3GYNxP-MWG7J-p1hQ&oe=6B0164A4",
+      "kind": "quiz_games",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfz4ZelIYaY/",
       "status": "info"
@@ -2558,6 +2617,7 @@
     "18103094102067810-0": {
       "account": "kellerfactory_",
       "account_venue": "Keller Factory",
+      "caption": "🥂 IL 2027 INIZIA CON UN BRINDISI CHE FA RUMORE!\n\nIl 31 dicembre vivi la notte di Capodanno al Keller Factory 2.0 di Curno: cena spettacolo, musica live e una festa tutta da ballare! ✨\n\n🍽 Dalle 20:00 — Cena spettacolo\nMenù di Capodanno 90 € a persona\nCaparra del 50% per confermare la prenotazione.\n👉 Menù completo nel link in bio.\n\n🎤 Dalle 23:00 alle 01:30 — RADIO80 LIVE\nTutta l’energia degli anni ’80 e il countdown di mezzanotte insieme: calici in alto, salutiamo il 2027! 🍾\n\n🎧 Dalle 01:30 — DJ SET TILL LATE\nSi continua a ballare con ROKS – Alberto Rocchini!\n\n📍 Keller Factory 2.0 · Curno\n\n📲 Informazioni e prenotazioni\n☎️ Telefono e WhatsApp: 329 814 7208\n💬 Scrivici anche in Direct su Instagram oppure su Messenger alla nostra pagina Facebook.\n\nRaduna la tua compagnia e prenota il vostro tavolo! 🥂\n\n#KellerFactory #KellerCurno #Capodanno2027 #CapodannoBergamo #Radio80 CenaSpettacolo",
       "confidence": 0.9,
       "event": {
         "artists": [],
@@ -2569,6 +2629,7 @@
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "23:00",
         "ticket_url": null,
@@ -2576,7 +2637,7 @@
         "venue_name": "Keller Factory"
       },
       "id": "18103094102067810-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/905400824_18575906161074567_7335936566023769694_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zW1htt2b568Q7kNvwEH4DDt&_nc_oc=AdpNv7Vb3UYoluZ2mFq5mvxSqtDfgwoi0R8smDgPsZXVQBS5cjrVCLQlTBBPXbgiVVk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=KvU3Xioh7syD7vMsrAHN0g&_nc_tpa=Q5bMBQIKlJlwf-pCcaXcks7Fj4fVM7rdehTplpGdl4uZJmMtoqA78VMFvISDXk8HTinrdKjnwtt8-xoY-Q&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQS5jVWThU1e7neinWZBZQY867lfXeTwmE-BmI2zFngtpA&oe=6B014F61",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/905400824_18575906161074567_7335936566023769694_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zW1htt2b568Q7kNvwHbFiuI&_nc_oc=AdqpiFZzugDBRmD7Eyv67dcO910yDoT1fD8TF9SQNL1Y5ymmesj0mEvXoqgsEG6mRkE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=knfOFZrvlXIUu774jq1o0w&_nc_tpa=Q5bMBQKg-cKi1iJJSeXye7q-t_DQSvSsnJH2JqSkUXojNPX-jLmsdWd6SQclmbUpbkzS0nRpstUmVz9qrg&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQR2fZphjgaULHzgKWSOJXfMmOxtbuD3NDIlLmfk-x_T-A&oe=6B014F61",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/Dft9l09gc1G/",
@@ -2610,6 +2671,7 @@
     "18104059826381250-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
+      "caption": "🐆MANDURIA🐆\n\nOPENING FOR THE PEAWEES\n\nUna chitarra, una loop station e una passione per il fuzz che si sente tutta. Dalla scena ROK milanese, Manduria costruisce un garage fatto di riff ripetuti fino all’ossessione e ritmi che invitano a perdere il contegno. “Bite Me”, uscito per Wild Honey Records, ne raccoglie il suono e l’umore.\n\n🎟 Biglietti già in vendita su diceitaly \n10 € +DDP in prevendita\n15 € in cassa in serata\n\n📅 Sabato 21 novembre 2026 · ore 21:30\nDASTE — via Daste e Spalenga 13/15, Bergamo",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -2619,6 +2681,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": "21:30",
         "ticket_url": null,
@@ -2626,7 +2689,7 @@
         "venue_name": "Daste"
       },
       "id": "18104059826381250-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/896023468_18109373147579285_2152510455150826875_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yzdl6OCt4ScQ7kNvwEbkqRi&_nc_oc=Adqv0yBinKQ92X4YweDYrTQLTejxRfmppE--buIPEO_rP-jHkfrfZzxEzjWTm4yJGS0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=L0yQENKmCTTPeDpUyU2t3Q&_nc_tpa=Q5bMBQJ54nf3phKiXF79014vFuffzMJfDuoiM5M7JmCLf4X56fJaiRBK_ANQljxngyXYqc5e6OtM71NQbw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTFhONpyxgu87_vId2Uv7EcvJHAEnw-_K-WTUc0b_cx5g&oe=6B014D9F",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/896023468_18109373147579285_2152510455150826875_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yzdl6OCt4ScQ7kNvwFv0Bux&_nc_oc=AdoViK1SfnrDjs_L1G71vYrKqcrFuko1tQwwLD-2P2zFa39T8R-mKMQslv2oKhip8jo&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_tpa=Q5bMBQLU5rRKrP3Eojf2sxo5Xs83b1KjfL2R7YrrMXlAgFf4I0jhJyOm1LvdBWCeIm1jBdsbwTf_bE2LTg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQErR4syQzvNLydfOVqwrL-yHeWgo9ulmN_U9MkptmU5g&oe=6B014D9F",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfkUHU7sgcT/",
@@ -2635,6 +2698,7 @@
     "18105431927381407-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
+      "caption": "DASTE LAB presenta per la prima volta:\n\nMercoledì 18 novembre, dalle 19.30\n🍸🔭🫐 CREA IL TUO GIN 🫐🔭🍸\n\nScegliendo e dosando le botaniche secondo il proprio gusto, ognuno creerà il suo gin con la firma sull’etichetta, in una serata da raccontare agli amici!\n\n📌 Il lab ha un costo di 40 euro, che comprende i materiali e anche l’aperitivo :)\n\n📌 Posti limitati! Per partecipare bisogna iscriversi, al form in bio\n\n📍 DASTE - via Daste e Spalenga, 13/15 - Bergamo\n\n#DASTELAB #dastebergamo #bergamo",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -2644,6 +2708,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "food_drink",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -2651,8 +2716,8 @@
         "venue_name": "Daste"
       },
       "id": "18105431927381407-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/902158891_18109483709579285_1298375438127555527_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kcSf8I9okvIQ7kNvwHdZm6u&_nc_oc=Adq_dYPU5xOqeFUpiJa-MLFIuQ3MskLiYXqCa8ovweez277-h2NmxRfgFc6WrRQPqO8&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=L0yQENKmCTTPeDpUyU2t3Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTonksnq61NQZY5xO9cWMf54Vd96Bs6KSUWxgf3NxmNsQ&oe=6B013741",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902158891_18109483709579285_1298375438127555527_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kcSf8I9okvIQ7kNvwEKwRh4&_nc_oc=AdrT6ahErxDumxlySPSCJSw43WkyEvC8HBwNKjIII387koftT9USYmlRIRmnBY8fn-A&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTjU7ccZ3NrrdkZYJmzQR8UAHyxxPfDizsqbxbr1k4thg&oe=6B016F81",
+      "kind": "food_drink",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfmZfyHsmFo/",
       "status": "info"
@@ -3034,23 +3099,28 @@
     "18116194301038587-0": {
       "account": "discoteca_queen",
       "account_venue": "Queen Club",
+      "caption": "VENERDÌ 20 NOVEMBRE\n\nDISCODANCE “SINGLE PARTY”\nREVIVAL 80/90/2000 \nRipercorriamo la storia della musica dance dagli anni 80 in poi…\n\nPronti a fare nuove conoscenze?\nAll’ingresso a tutti i SINGLE (o dichiarati tali) verrà assegnato un numero.\nTrova la tua dolce metà con lo stesso numero, gira la ruota e ritira il premio \n\nPer tutti, con ogni drink preso al bar, un giro di ruota\n\nIn consolle:\nDj : StefanOne + Andrew V.\nVoice : Matteo Palumbo\n\n> Opening ore 22:30 // Chiusura ore 03:30\n\nPREZZI: \n>Ingresso con consumazione > € 10\nFino alle 23:30\n>Ingresso con consumazione > € 13\nDopo le 23:30\n\n>Prenotazione tavoli gratuita\n\n***********************************\nLocation:\nQueen Club\nVia Levata 18, Stezzano (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
       "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-20",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "disco / funk",
+          "revival"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "22:30",
         "ticket_url": null,
-        "title": "VENERDÌ 20 NOVEMBRE",
+        "title": "DISCODANCE SINGLE PARTY",
         "venue_name": "Queen Club"
       },
       "id": "18116194301038587-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/900495703_18345186268258835_6883253883749355867_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRTN2IWA5JgQ7kNvwGkPbV7&_nc_oc=AdorKp5vlqcH32NelGSwXaN-ZcbmTdCOb5--lJ0Glg2wKw0ZCYWq98-l-BsS-bqmQk8&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_tpa=Q5bMBQIaTUYmeQfGey_6gzAx2MbPjjuJC5zICxSwD0_lSGCQ97GrolGydQ14othEmpoTGVPK27KtslMruw&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSIGSdQTWiacbIICk97ODf4BNMrWSL_2khxt5AqbEFUlA&oe=6B01407C",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/900495703_18345186268258835_6883253883749355867_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRTN2IWA5JgQ7kNvwFa6ceu&_nc_oc=AdrfLXRU7Em2SUsb0XRmgr89hVpRWTuZCj8_JVdXP3QL_fHzZ2e4K9MAf-k0UfL9gxw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zt2lGCgdysU-fn4kQ-JXAw&_nc_tpa=Q5bMBQJpQ-B-XJ6xWsUsKectNB__SXe5bMBBWk2sXlqAxVdAOHxpYafgnK060ye_FHH_vTFVC3u-6kTmSA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQS4IP5YNPRCXko0AUXzAKPfkHjtxzINpzSgRk3uH2MA2A&oe=6B01407C",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/Dfw-YMmthRe/",
@@ -3059,6 +3129,7 @@
     "18116550626178255-0": {
       "account": "choruslife.bergamo",
       "account_venue": "ChorusLife",
+      "caption": "Il Natale a ChorusLife sta per accendersi!\nIl 21 novembre ti aspettiamo per il Grand Opening di ChorusLife Christmas: un evento speciale tra danza, musica, emozioni e un brindisi alla magia delle feste che sta arrivando.\n\nProgramma:\n🕕 18:00 | Benvenuto e presentazione con Stefano Federici di Radio Number One\n💃 18:30 | Performance di danza aerea nel cuore dell'installazione, a cura di Paola Quistini\n🎶 18:45 | Esibizione del Minicoro di Monterosso\n✨ 18:50 | Accensione opera “Dove dorme l’aurora”\n🍰 19:00 | Degustazione del Panettone Italo Vezzoli e dello zabaione GNAM\n\nTi aspettiamo per vivere insieme l'inizio della magia del Natale!",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -3068,6 +3139,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": "18:00",
         "ticket_url": null,
@@ -3075,8 +3147,8 @@
         "venue_name": "ChorusLife"
       },
       "id": "18116550626178255-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/905896666_1810694997728543_1301313782015084907_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KNP62bxcxekQ7kNvwEl6gqO&_nc_oc=AdoYvucS1HscsLcLRnCzzb_6k4qJwcPqAygZ4dTt9kHB68Pv_BCPS_CeAS4Og9dH0qE&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7SfbA9etwto5HHILeqF_2w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTEeT8Ut7QosBUy0uAToacwBR99kWy8slHacvFt78knog&oe=6B015C45",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/905896666_1810694997728543_1301313782015084907_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KNP62bxcxekQ7kNvwHIamq4&_nc_oc=AdoNFBramXljbV8fdZV4P6prTfdECAE7AS092FXrPp4_yHszHbYtI9PzTz1UuoW6Mwk&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=P7PXe7lHgYX2zY6J44pVZw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQZYS9iFooosHyLzUMGt5k45L4VxJtzzrpFuaKj8IEcnw&oe=6B015C45",
+      "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfzTkyFjSbn/",
       "status": "info"
@@ -3342,6 +3414,7 @@
     "18119513246281577-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
+      "caption": "MERCOLEDÌ BOARO ⚽️🐄🎛️\n\n🎧 DJ SET – unplug.project \n\n⚽️TORNEO DI CALCETTO\nAttendiamo gente forte.\nIscrizione sul posto, riservata agli associati.\nFormagella in palio.\n\n🗓️ Mercoledì 18 novembre\n⏰ h 21:00\n📍 Ninfea Social Club – Sorisole (BG), Via G. Marconi 65\n\nAccesso riservato agli associati.",
       "confidence": 0.9,
       "event": {
         "artists": [],
@@ -3353,6 +3426,7 @@
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
@@ -3360,7 +3434,7 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "18119513246281577-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/901960712_18084500168531213_1351942830238344531_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fTEmdcJ44BsQ7kNvwHP4fLH&_nc_oc=AdqlonlHpCWj3KS6L2bb8a_RkPSdpXBG3MJmz1Qp2IOiz21ISwOqfg66LH6aTKGL1eo&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRn4sqbOfm6JvKZUVxzw6HE-Cgff0eMHqxrxKJZREA0Ag&oe=6B015C96",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/901960712_18084500168531213_1351942830238344531_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fTEmdcJ44BsQ7kNvwEJiekH&_nc_oc=AdqA_AnSYw-cr7xqmGKydt2_QrilaFyerN0cNOQ2nDfjurLW8ajNQ1wy7m88lLRO97A&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSGrEa4iRyp8NobG9tsQPozyJBXltA5_vEblrQynbjRIQ&oe=6B015C96",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfy8y_uChr-/",
@@ -3396,15 +3470,19 @@
     "18119742923001426-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
-      "confidence": 0.8,
+      "caption": "THIS IS DNB \nBergamo Edition\n20:30 - ...\n\nModique\nJack\nHosted by: MC Shot\n\nmodique___\nshot4real \n\n🗓️Sabato 21.11\n⏰ h 20:30\n📍Ninfea Social Club - Sorisole (BG) - Via G. Marconi 65\n\nAccesso gratuito riservato agli associati",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-21",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "drum & bass"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "20:30",
         "ticket_url": null,
@@ -3412,24 +3490,28 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "18119742923001426-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/901207629_122125970781240064_4667247795526130992_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=H0zldjMGAIoQ7kNvwH4arfR&_nc_oc=Ado9JgtXyWYIzbK4hUj_E-kAEQ1rs1mvo2HuMuZukwG4xk2e97NZIWcdLncUE5uFi6U&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSTYQnaQAaqVBHH2Q9VpfOlV-ZwHF-cwYdVCVorNeAqaw&oe=6B013B4E",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/901207629_122125970781240064_4667247795526130992_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=H0zldjMGAIoQ7kNvwGoAusn&_nc_oc=Adppk8sy4IRbm4h6-cmfCQ3LT9xsQmATapRtjp5-VmO76DXpJ65o_O0CGbyVIb0rNyY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQa4UObAMn-m30ci4G_X5FpjAb2gzmVT_T0r5QwjKsquw&oe=6B013B4E",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfnShi0jIRA/",
-      "status": "pending"
+      "status": "auto"
     },
     "18120170519059327-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
-      "confidence": 0.7,
+      "caption": "A fianco dellə studentə, contro la strategia della paura!\n\nStamattina l’istituto tecnico Natta e il Secco Suardo sono stati presi di mira dall’allarme bomba che ha colpito centinaia di scuole in tutta Italia. \n\nDa chiunque provenga la minaccia, si tratta nuovamente di tattica politica basata sulla paura: un fearmongering sistematico che cerca di disorientare e paralizzare chi vive la scuola ogni giorno.  \n\nLa strategia e gli intenti della minaccia ci sembrano abbastanza chiari: si nutre di un clima di incertezza, paura e tensione per alimentare una narrazione nazionalista (\"noi italiani contro loro\"), che prepara il terreno a una giustificazione del riarmo, dell'aumento della spesa militare e delle strette securitarie, in un momento storico in cui un’onda studentesca sta attraversando tutto il paese con cortei e occupazioni, contestando le politiche del governo.\n\nRispondiamo quindi a chi invoca soluzioni autoritarie: le scuole non si toccano e non vanno militarizzate. Nessuna \"forza dell'ordine\" né logica di guerra o controllo poliziesco troverà mai spazio tra i nostri banchi. \n\nSiamo a fianco dellə studentə che si mobilitano, che scendono in piazza per rivendicare scuole antifasci",
+      "confidence": 0.8,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-20",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "hard techno"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -3437,7 +3519,7 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "18120170519059327-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/893801845_18658225168056454_5462943711853185141_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=lS-zn9_sdeoQ7kNvwE_TAWk&_nc_oc=AdrEPVCwKUxqmUHRyrtBC52dn0DTwzafrCDgZdU2cLrbimgG5LuiMbK4tpJ12ygQFV8&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSlKCVbfQkRC8uSjOnAhK-99xDi60zWadkD6pkSNxwHCw&oe=6B014111",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/893801845_18658225168056454_5462943711853185141_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=lS-zn9_sdeoQ7kNvwHyRP90&_nc_oc=Adr9nOfH_B7BusK6t8NGucZcjqwSH9J52h30b7z11Sj3ETeZPrUWW6qKcALdxPgWfpY&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTIH7MMadJnwkoPxFhebGOOgm7umZClTM9tlz1ZQDOofg&oe=6B014111",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfm8FVOiCxQ/",
@@ -3496,6 +3578,7 @@
     "18120636050002669-0": {
       "account": "choruslife.bergamo",
       "account_venue": "ChorusLife",
+      "caption": "A ChorusLife sta per arrivare qualcosa di speciale: luci, colori e tante occasioni per vivere insieme la magia delle feste, tra eventi, esperienze e momenti da condividere. \n\nQuest'anno il Natale sarà tutto da scoprire🎄\n\nDal 21 novembre al 10 gennaio.\nLife is Christmas.",
       "confidence": 0.6,
       "event": {
         "artists": [],
@@ -3505,6 +3588,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -3512,7 +3596,7 @@
         "venue_name": "ChorusLife"
       },
       "id": "18120636050002669-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/899924583_1802796608518382_8057139077807356092_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5CDYQAejKp4Q7kNvwHK0JCA&_nc_oc=AdqcJPcLwJ2FVB0CohPtgR0lF-xtgb-Z8zX9aBNTmwrXjqwRkhfWJ3ScVxcwQq8AylQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7SfbA9etwto5HHILeqF_2w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ-VZ8xTyXDf-YXSBQPDPRS7Y6YpICKc58U8hJVSImSTA&oe=6B015C15",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/899924583_1802796608518382_8057139077807356092_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5CDYQAejKp4Q7kNvwEm9_VI&_nc_oc=Adq23P90YiHQesoaoSS6anuZiQORGST5bRFaG57ys6J_-aUTidNcHBZkbOYDewH6rM8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=P7PXe7lHgYX2zY6J44pVZw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRFejee41wNxiRE92fd_yjNfVqikuVBUVtCtnbeTiiYKQ&oe=6B015C15",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfkSRI6D5QQ/",
@@ -3521,6 +3605,7 @@
     "18120636050002669-1": {
       "account": "choruslife.bergamo",
       "account_venue": "ChorusLife",
+      "caption": "A ChorusLife sta per arrivare qualcosa di speciale: luci, colori e tante occasioni per vivere insieme la magia delle feste, tra eventi, esperienze e momenti da condividere. \n\nQuest'anno il Natale sarà tutto da scoprire🎄\n\nDal 21 novembre al 10 gennaio.\nLife is Christmas.",
       "confidence": 0.6,
       "event": {
         "artists": [],
@@ -3530,6 +3615,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -3537,7 +3623,7 @@
         "venue_name": "ChorusLife"
       },
       "id": "18120636050002669-1",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/899924583_1802796608518382_8057139077807356092_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5CDYQAejKp4Q7kNvwHK0JCA&_nc_oc=AdqcJPcLwJ2FVB0CohPtgR0lF-xtgb-Z8zX9aBNTmwrXjqwRkhfWJ3ScVxcwQq8AylQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7SfbA9etwto5HHILeqF_2w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ-VZ8xTyXDf-YXSBQPDPRS7Y6YpICKc58U8hJVSImSTA&oe=6B015C15",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/899924583_1802796608518382_8057139077807356092_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5CDYQAejKp4Q7kNvwEm9_VI&_nc_oc=Adq23P90YiHQesoaoSS6anuZiQORGST5bRFaG57ys6J_-aUTidNcHBZkbOYDewH6rM8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=P7PXe7lHgYX2zY6J44pVZw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRFejee41wNxiRE92fd_yjNfVqikuVBUVtCtnbeTiiYKQ&oe=6B015C15",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfkSRI6D5QQ/",
@@ -3571,6 +3657,7 @@
     "18121069375985597-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
+      "caption": "🗓️ Mercoledì 18 novembre al Tuo Centro Sociale terzo appuntamento della rassegna sul maschile verso il 25 novembre\n\n🕦 Dalle 19:00 gruppi di autocoscienza aperti a cura dell’assemblea del CSA Pacì Paciana.\nI gruppi si svolgeranno in modalità separatista, con lettura di estratti (per arpentage); e alla fine del momento separatista ci sarà un confronto finale tra i due gruppi.\n\n🍛 Cena a 5€:\nPiatto unico vegano con lenticchie, patate al forno, verza, carote e crostone di pane. \nPrenotazione consigliata in DM\n\n❤️‍🔥 Mettiti in gioco: partecipa ad un momento di decostruzione collettiva!",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -3580,6 +3667,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "quiz_games",
         "price": null,
         "start_time": "19:00",
         "ticket_url": null,
@@ -3587,8 +3675,8 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "18121069375985597-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899586114_18658145953056454_8060781834024688018_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fSo6avLXDYQQ7kNvwERgB_S&_nc_oc=AdruOfGqm2usYHf7Lc8HHfZjbUBZg1HKDJh1N5lQB9QFyjcsJWBrJgcKizfPSSxWzY0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTWY7R6bvghXs67DbN8Q3I7a8wIKuOkNnE-fX4nudKqJA&oe=6B01310E",
-      "kind": "culture",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/899586114_18658145953056454_8060781834024688018_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fSo6avLXDYQQ7kNvwFwWdBx&_nc_oc=AdqEuOn8x7r21Gm10m9UomIX2aAlGHgGbV522t4RTdqGbBK8qrEgbCDbFsPzdMj88Zg&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRfsbNpmsFmMBAKCatyk0IP44EsVnKxWUlWGp1xECEUvA&oe=6B01694E",
+      "kind": "quiz_games",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfmdnd6ovF5/",
       "status": "info"
@@ -3596,6 +3684,7 @@
     "18121069375985597-1": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
+      "caption": "🗓️ Mercoledì 18 novembre al Tuo Centro Sociale terzo appuntamento della rassegna sul maschile verso il 25 novembre\n\n🕦 Dalle 19:00 gruppi di autocoscienza aperti a cura dell’assemblea del CSA Pacì Paciana.\nI gruppi si svolgeranno in modalità separatista, con lettura di estratti (per arpentage); e alla fine del momento separatista ci sarà un confronto finale tra i due gruppi.\n\n🍛 Cena a 5€:\nPiatto unico vegano con lenticchie, patate al forno, verza, carote e crostone di pane. \nPrenotazione consigliata in DM\n\n❤️‍🔥 Mettiti in gioco: partecipa ad un momento di decostruzione collettiva!",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -3605,6 +3694,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "quiz_games",
         "price": null,
         "start_time": "19:00",
         "ticket_url": null,
@@ -3612,8 +3702,8 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "18121069375985597-1",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/899586114_18658145953056454_8060781834024688018_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fSo6avLXDYQQ7kNvwERgB_S&_nc_oc=AdruOfGqm2usYHf7Lc8HHfZjbUBZg1HKDJh1N5lQB9QFyjcsJWBrJgcKizfPSSxWzY0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTWY7R6bvghXs67DbN8Q3I7a8wIKuOkNnE-fX4nudKqJA&oe=6B01310E",
-      "kind": "culture",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/899586114_18658145953056454_8060781834024688018_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fSo6avLXDYQQ7kNvwFwWdBx&_nc_oc=AdqEuOn8x7r21Gm10m9UomIX2aAlGHgGbV522t4RTdqGbBK8qrEgbCDbFsPzdMj88Zg&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRfsbNpmsFmMBAKCatyk0IP44EsVnKxWUlWGp1xECEUvA&oe=6B01694E",
+      "kind": "quiz_games",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfmdnd6ovF5/",
       "status": "info"
@@ -3621,15 +3711,19 @@
     "18121845041319617-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
-      "confidence": 0.7,
+      "caption": "C’è chi già sa e chi non lo sa è il momento che lo sappia. \nTorna l’evento più infuocato della downtown. \n\nIn gran spolvero si torna al Paci Paciana, che per noi è come casa. A spingere dal basso una situa hot per tuttə. \n\n📆 20 Novembre \n📍 C.s.a. Pacì Paciana\n ⏰ Starting 22.00\n\nSuper Guests 💋\nGiulia Santori \nSoavira \n\nResident Stars ✨\nJungle Jacco\nGuacamolli \n\nCan’t miss 🔥💦\nDillo alle ame \n\n“Perrear también es hacer politica”\n\nATTENZIONE! Questo è uno spazio transfemminista, ecco le poche ma essenziali regole da ricordare per prendersi cura della festa:\n- NO È NO! Rispetta i confini fisici ed emotivi dell3 altre3\n- NON tolleriamo nessun tipo di discriminazione: fuori machismo, razzismo e omo-lesbo-bi-transfobia\n- Responsabilità condivisa: lo spazio sicuro è costruito collettivamente!!",
+      "confidence": 0.8,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-20",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "drum & bass"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -3637,15 +3731,16 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "18121845041319617-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/887399540_18656034898056454_289892813790117605_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wxF-MikzEIkQ7kNvwF1uDc2&_nc_oc=AdrBVWWebF4RIMHz49I-2-L2oAarKhWtcxUAuZpxnqjSD9rBv_FLKYn-9sJsnhMduFE&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR8uNUhAB3rRVsdHZc-HeRfrt6nZZC3M7jywC5c4srVOA&oe=6B015909",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/887399540_18656034898056454_289892813790117605_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wxF-MikzEIkQ7kNvwFBf-sO&_nc_oc=AdrBZb1uo520pAUsxdooVVIPs7c6c_M7nuKuLC8dhXmbss0qMlJvZdmT_cRjZ5Ir2hU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSi9gw2Vb2nTVYihXaMZkpGcOs48VvAU892D339Fyg2_Q&oe=6B015909",
+      "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfXKa2kIYAJ/",
-      "status": "info"
+      "status": "pending"
     },
     "18121861250051412-0": {
       "account": "vibetheclub",
       "account_venue": "Vibe Club",
+      "caption": "THIS WEEK.\nONE NIGHT.\nNO EXCUSES.\n\n20.11 MAIN ROOM:oasi.night \nTHEATER ROOM: upside.down.night \nBE COOL. BE VIBE. 🔥",
       "confidence": 0.7,
       "event": {
         "artists": [],
@@ -3655,6 +3750,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -3662,7 +3758,7 @@
         "venue_name": "Vibe Club"
       },
       "id": "18121861250051412-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/906488361_18455223607120013_2116600726192123589_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tthidfQQ4LUQ7kNvwHudW2a&_nc_oc=AdrZn-jEcuji8DCDVESL779bnTyYumH-S3jVlqxe9SXUZrBgt3cW1nX8oSWi1OHNUKM&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=HA7HRUFrMfIVZnQbLd4Xhw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS2Vc2qMj8snSa765af-PJMA6uRND-ZxjGYKoWuC8EitQ&oe=6B013780",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/906488361_18455223607120013_2116600726192123589_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tthidfQQ4LUQ7kNvwF73A18&_nc_oc=AdrCC5VNwIGufT3HQO-PtfQLnQD3Ggr0tJRta60lw_NIr9KlAgRlvliYloaBnSDJcAU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=8K3gqx6F5OUd9amLoc26sg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS9kDNMwj7GyfL1mMEbJ845Gquhnxj23o3afNuBBcl3Eg&oe=6B016FC0",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfz6N8_Dioz/",
@@ -3721,6 +3817,7 @@
     "18122606185749292-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
+      "caption": "🥁 Rullo di tamburi e tamburelli per il nostro laboratorio musicale preferito: ARITMICA!\n\nL’incontro è incentrato sull’attività percussiva tramite la body percussion e con l’introduzione di un medium strumentale. \nSuonare insieme è la via primaria per sperimentare le relazioni.\n\n🤲 Il laboratorio è gratuito e aperto a ogni età.\nL’attività si può svolgere in autonomia per bambini e bambine dai 6 anni in su, sotto i 6 anni è necessaria la presenza di un genitore.\n\n✏️ Per partecipare bisogna iscriversi, alla mail mpcompagnoni@gmail.com\n\n🍴 DASTE BRUNCH CLUB in tavola dalle 11 alle 15, ma meglio prenotare al numero di daste_bistro 3207203193\n\n🗓️ Domenica 22 novembre, dalle 11.00\n📍 DASTE - via Daste e Spalenga, 13/15 - Bergamo\n\n#dastebergamo #edoneingiro #bergamo",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -3730,6 +3827,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": "11:00",
         "ticket_url": null,
@@ -3737,7 +3835,7 @@
         "venue_name": "Edoné"
       },
       "id": "18122606185749292-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/913282981_18110042876579285_1073604599499604795_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Y0KvUhtLRkkQ7kNvwH7rRkx&_nc_oc=Ador7H4ErJhPb77_8KIVn8CPMH-nkYa8tHb14I-dSrl-WoRDQ6mOIAjbbUDZoAublzk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=L0yQENKmCTTPeDpUyU2t3Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTMRl2UxOWNX-dSaBBssqC4owuK-mVWlmVkAkQy-nhPWg&oe=6B013491",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/913282981_18110042876579285_1073604599499604795_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Y0KvUhtLRkkQ7kNvwHiBmnq&_nc_oc=AdqMgBeKaXy-o27VAfJgFeMFuxvx1QVFxMLpNeKYr2iOw2b7mCseshWjsQXRtf72Al4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ_73nNVdFhpW6idPzgxuYlHDBs_uW2tGTMA5vHAv5x9w&oe=6B016CD1",
       "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfwoE0yMrJ0/",
@@ -3921,6 +4019,7 @@
     "18126731233912922-0": {
       "account": "circolinomalpensata_bergamo",
       "account_venue": "Circolino della Malpensata",
+      "caption": "𝑷𝒓𝒐𝒔𝒔𝒊𝒎𝒊 𝒆𝒗𝒆𝒏𝒕𝒊 ⭐️\n\njerrymoovers Live!\n\n🗓️ Sabato 12 Dicembre, ore 21:30\n\n📍 Circolino della Malpensata\n\nVi aspettiamo!\n\nJerry Moovers, Cuore attitudine e Punk Rock da Bergamo.\nCon più di 200 date nell’underground italiano ed un’ottima esperienza live,\ndopo un anno dall’uscita di 28% VOL, i Jerry Moovers tornano con 72% VOL, un nuovo EP, supportato dalle etichette indipendenti Gasterecords e Duff Records. che completa un unico percorso discografico.\nI Jerry Moovers propongono un punk rock diretto e veloce, con testi in italiano, mai banali, trattando tematiche di vissuto ed emozioni personali.\n\n#circolinodellamalpensata\n#bergamoeventi\n#bergamomusica",
       "confidence": 0.9,
       "event": {
         "artists": [],
@@ -3928,10 +4027,12 @@
         "date": "2026-12-12",
         "end_time": null,
         "genres": [
-          "disco"
+          "disco / funk",
+          "electronic"
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "live_music",
         "price": null,
         "start_time": "21:30",
         "ticket_url": null,
@@ -3939,8 +4040,8 @@
         "venue_name": "Circolino della Malpensata"
       },
       "id": "18126731233912922-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/906808443_18002430006050683_7158341853505467093_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6N2suZZNksgQ7kNvwHzR70g&_nc_oc=AdoNBEWs7AmicZ7-QIpSleKjtX-q5MvU1v9byfVeJFXcgY_Wwpj08CZqcDIA-TE_wis&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRignMFyXpjLwuWFRCwITNChwjh5_bsVSZh34sURbsm2A&oe=6B01382A",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/906808443_18002430006050683_7158341853505467093_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6N2suZZNksgQ7kNvwFLjOXd&_nc_oc=AdrOMoCnJRpv00Ef4aK7mLd689tvE1y7TtKT9hnZbP11e1zH7xgZ9S0pGHtWbcb8-NQ&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=7mqY4JHZCdoBMudSeftOIA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQVGLNVFxSydCcvdJUZ_ICPLMy46QQVskIZYuKOVdNQ5A&oe=6B01706A",
+      "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfzNRhYMLt1/",
       "status": "info"
@@ -4023,6 +4124,7 @@
     "18130085644865225-0": {
       "account": "tiky.klub",
       "account_venue": "Tiky Klub",
+      "caption": "iconevents.official  returns to TIKY KLUB 💚\n\nil_boffe  and illes2cri  take over the night with tech house, energy and the right atmosphere.\n\n20.11 — see you inside.\n\n#Tiky",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -4030,10 +4132,12 @@
         "date": "2026-11-20",
         "end_time": null,
         "genres": [
-          "tech house"
+          "tech house",
+          "house"
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -4041,7 +4145,7 @@
         "venue_name": "Tiky Klub"
       },
       "id": "18130085644865225-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/904473534_1688493829955158_5196723306611655697_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=u7Q1Tpdmp40Q7kNvwFNXvEb&_nc_oc=AdqS0C3cxu-pEjqxzsp3veID1oWclsT_kCjnQ6s5R5KZ3vrQgiarQEcZdzjrjhZWdiU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=eujJr0_leKaed6JnZvxoCQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQqClxzcZGTrqoqfU8nPUGquF0kUQZPlTZuE1VOtqiRQw&oe=6B013BEB",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/904473534_1688493829955158_5196723306611655697_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=u7Q1Tpdmp40Q7kNvwGAve9j&_nc_oc=AdrhWdpznWylzR7Q4hcV6B98w2FkJ9n69aJGyike6MNJkukXim_y2LGy2dOMkgL6jj4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=LzYe0fYsCPER-dptcvfBkw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQIZX0u6R7FT7hLu7GfCHJz3wHjaQxFCK2xrFNHJDvTVA&oe=6B013BEB",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfxT9FDld9K/",
@@ -4260,6 +4364,7 @@
     "18132417196701272-0": {
       "account": "thanka.official",
       "account_venue": "Thanka",
+      "caption": "Un altro weekend é appena passatola noi del Thanka non vediamo l'ora che sia già sabato per vivere un’altra notte insieme 🤩. \n\n#thanka",
       "confidence": 0.55,
       "event": {
         "artists": [],
@@ -4269,6 +4374,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -4276,7 +4382,7 @@
         "venue_name": "Thanka"
       },
       "id": "18132417196701272-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/902349079_122131732119468368_786086004894179479_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Qj2ys4EqDSsQ7kNvwHqcb58&_nc_oc=Adr7c5EQEFFa6QiZCZQb1lDoyDXfuwwxMJoYQCB1sACqjEBVW_gkU4BjCeoGQAegfPE&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=iw8StWhQtPtD77du5KKhdw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRx2_wW5A-8iuQnarkEaULwzARuW3Xc2yKlvtEQdAojGg&oe=6B013018",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/902349079_122131732119468368_786086004894179479_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Qj2ys4EqDSsQ7kNvwGWX_V0&_nc_oc=AdrP6QyOGbaNNdKZVdjq9NFjqWcOVfWiiLT1Q2jK6R4t8__BzGYM-NvPqEnPFz3aT44&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=j8x_siThB2sJIOrkfiiSOQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQThOR4bfCXYpX2tf9Vg0eI4sY7JD9TYiKcvTuxntOAPGA&oe=6B016858",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DfzS_eMnHaA/",
@@ -4364,15 +4470,19 @@
     "18134818288743523-0": {
       "account": "drusobg",
       "account_venue": "Druso",
-      "confidence": 0.8,
+      "caption": "indiepower_official torna a BG! \nSabato 21 novembre — S03 E03\n\nIn questo terzo episodio: il djset indie più grande d’Italia, con le sue vibes più pure, quelle più famose e abbastanza Carl Brave e Franco126, per farci tornare ai tempi d’oro✨  In anteprima, la versione concentrata di Volare: il nostro format di musica italiana a 360 gradi.  Pronti per la festa indie più grande d’Italia? Solo al Druso.\n\n🕕 22:30 porte | 23:00 party\n🎫 Tickets al link in bio | evento 18+\n‼️ Prima la compri, meno spendi\n\nAlcune serie vanno vissute dal vivo.\n\n🍏 #druso #indiepower",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-21",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "hard techno"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "22:30",
         "ticket_url": null,
@@ -4380,11 +4490,11 @@
         "venue_name": "Druso"
       },
       "id": "18134818288743523-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/904354648_18455662624134654_4068035014262383740_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=spgaGUcoVlsQ7kNvwHLydch&_nc_oc=AdqigjJU2-UqTeK2IaVPe6upRvhPcnYlZ5ED8itJryEEJFz7tsFznSW-xIarV3O7Nv4&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=0UhnP5lx4LMEBbv3MDny6Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSox7B4oZtOJbYA8BZ2D4jU-no1u_PTCfwyZUpph8QavA&oe=6B015EF6",
-      "kind": "other",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/904354648_18455662624134654_4068035014262383740_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=spgaGUcoVlsQ7kNvwE5TBx1&_nc_oc=Adpsqv03qezTaC8QVOjZKsuC_0myYor8xBSBacsESV2g1hNZB5-vsa3xlEjRcocR4D8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=xrMX_YI34cW_fmXFPmFAiA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRTXA6II5_O5QPGQ1SNaugWTLhAktIzaz8IeovfhqwxVQ&oe=6B015EF6",
+      "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfwi7bVNc49/",
-      "status": "info"
+      "status": "auto"
     },
     "18135864169813470-0": {
       "account": "zeroclub.bg",
@@ -4443,23 +4553,28 @@
     "18137292883775677-0": {
       "account": "discoteca_queen",
       "account_venue": "Queen Club",
+      "caption": "SABATO 21 NOVEMBRE\n\nNOTTE A CASO\n“Vieni come vuoi, al resto pensiamo noi”\n\nIngresso OMAGGIO DONNA fino alle 23:00\n\nIn consolle \nDj: StefanOne + Andrew V.\nVoice: Matteo Palumbo\n\n> Opening ore 22:30 // Chiusura ore 04:00\n\nPREZZI: \n>Ingresso con consumazione > € 13\nFino a mezzanotte\n>Ingresso con consumazione > € 15\nDopo mezzanotte \n\n>Prenotazione tavoli gratuita\n\n***********************************\nLocation:\nQueen Club\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709\n\n #disco #queen #seriate #bergamo #VIETATO MANCARE dance anni90 anni2000 discoteca nightlife drink",
       "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-21",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "disco",
+          "revival"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "23:00",
         "ticket_url": null,
-        "title": "SABATO 21 NOVEMBRE",
+        "title": "NOTTE A CASO",
         "venue_name": "Queen Club"
       },
       "id": "18137292883775677-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/905659771_18345386179258835_1482463059941290347_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Gjlx_vBX-tMQ7kNvwHOZMgG&_nc_oc=AdoJOBQLCdqcLxTIo50bQzoK--9-lp247VOhNEhXnxNVOkZ7V6swHps7w6UVorwzWGA&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS9UCMGSHKu5a8UpOs74TvHQ6g0a3813yMbh6A3fQ1U0A&oe=6B013B9F",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/905659771_18345386179258835_1482463059941290347_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Gjlx_vBX-tMQ7kNvwGq9ouV&_nc_oc=Adrx5IK8ghPJNIreZQcqW_iK7llzTpBn2cA4HNnHehQbZdqooTBkK1ofWbomNz-6p-M&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zt2lGCgdysU-fn4kQ-JXAw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSAGkpvX6uT1TRX84nkeHZOkFGz2lkaek0LItN2cQooDQ&oe=6B013B9F",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Df0FFjVt1pm/",
@@ -4543,6 +4658,7 @@
     "18140477425628277-0": {
       "account": "choruslife.bergamo",
       "account_venue": "ChorusLife",
+      "caption": "Torna vintage.pitstop, il raduno dedicato alle auto e alle moto, tra gli appuntamenti più amati delle nostre piazze.\n\nL’occasione per ammirare da vicino modelli iconici, condividere la passione per i motori e vivere l’atmosfera del mondo vintage.\n\n📅 22 novembre dalle 10:00 alle 12:00\n📍 Piazza delle Stelle, ChorusLife - Bergamo",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -4552,6 +4668,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": "10:00",
         "ticket_url": null,
@@ -4559,7 +4676,7 @@
         "venue_name": "ChorusLife"
       },
       "id": "18140477425628277-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/863421879_1792781762853200_6566955439552940881_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ta6uWMl7jyYQ7kNvwF4EoDl&_nc_oc=AdoLlvIH7GnyjGT7HRBw1umDoF-G98JPa8mp_loJjRDmvVdVobA-d--G2AsYc06gHXY&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7SfbA9etwto5HHILeqF_2w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRTbscNCSXPs9JCIKr73GdATLZKkQGxjaWIkcBk-jugXQ&oe=6B013F24",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/863421879_1792781762853200_6566955439552940881_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ta6uWMl7jyYQ7kNvwHi1gf5&_nc_oc=Adr84fwL-Asv7kReQBL0fE8mLbItNBnDr2DUyKga3c5IFhK-Wwec7BXKJBFH7TPnumA&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=P7PXe7lHgYX2zY6J44pVZw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQCCwzng1cPlNlkobkdriJyh2tFG_I8vYU8Cf-qSkM4Cw&oe=6B013F24",
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfPyM5flLcX/",
@@ -4747,6 +4864,7 @@
     "18145645264595882-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
+      "caption": "WANNABE \n“So tell me what you want, what you really really want.”\n\n21 NOVEMBRE - CSA PACI PACIANA \n\nNoi, per cominciare, vorremmo poter fare un po’ quello che ci pare.\nBene, forte, insieme.\nMa soprattutto senza chiedere il permesso.\nWANNABE parte da qui.\nDal desiderio di essere artista, tecnica, producer, performer, direttrice artistica o tutte queste cose nella stessa sera, stare sotto i riflettori o essere la persona che li accende.\nUno spazio per mischiare competenze, linguaggi, identità e volumi poco raccomandabili. \nFare rumore, montare cose, smontare aspettative. \nAnche divertirci nel frattempo.\nPerché siamo un po’ stanchə dell’idea che certi ruoli abbiano ancora un genere incorporato nelle istruzioni per l’uso.\n\nWANNABE è una serata per essere quello che vuoi essere.\nAnche più di una cosa.\nAnche tutte insieme.\n\nNon vogliamo invertire i ruoli.\nVogliamo smettere di assegnarli.\n\n18:00 apericena e live painting by Veronellie & LASKA\nveronellie \nperchisololosa \n\n20:00 FullPower Cabaret \n\n21:30 Concerti live by Kiki & Twesh \nkiki_alix \ntttwesh \n\n23:00 djset by\n\nKat\nLudmi \nTsuki\nGiolla b2b Java \nCherolline \nMerixsempre \nGopika\n\nVisual & light show by Shila Ji // Sara B // Degan\n\nPe",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -4756,6 +4874,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "18:00",
         "ticket_url": null,
@@ -4763,11 +4882,11 @@
         "venue_name": "Pacì Paciana"
       },
       "id": "18145645264595882-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/867876622_18652950877056454_2563948803217465009_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8D_L4JAb-NoQ7kNvwHn_NTZ&_nc_oc=AdpLYWtuuwrb05ZoqaK-NHvivfsqJ-GSeHOgkyyH1pYiAYClIvGOoHkF64REwdYbFoE&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=-0I8UZ1gJ9a89KjWW74kzQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQiKPgp0Zk4jm8p71oxmZWemzB642HES-MM8KsP2cL1sQ&oe=6B014E12",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/867876622_18652950877056454_2563948803217465009_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8D_L4JAb-NoQ7kNvwFRKqdk&_nc_oc=AdqIQzg5wfz_I_0gKU_L2Ls72qCRZiKS1ddkBTpGd22AuSKCyQUHcenuqKLt_YslyRw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9v7bxWsoW3J8JxKmS8W-Rg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTB2cBsvStd7LQX2yDmO1eNzcaBOFVCV1-6ShDJk1Eyjg&oe=6B014E12",
+      "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfCn1H-iE2S/",
-      "status": "info"
+      "status": "pending"
     },
     "18147300628596294-0": {
       "account": "arya.lounge",
@@ -4797,6 +4916,7 @@
     "18149439076605153-0": {
       "account": "setai_club_official",
       "account_venue": "Setai Club",
+      "caption": "🔥 MAISON GROVE x FLUID 🔥\n\nLa storia della House Music incontra una notte straordinaria!\n\nNella cornice del Fluid, locale iconico che ha ospitato le più grandi leggende della House Music, oggi in una veste tutta nuova,  prende vita un evento esclusivo \n\n Dinner Show, spettacolo e grandi DJ set. 🥂\n\n🎧 DJ MASSIMINO LIPPOLI B2B DJ ROBY INTRALLAZZI\n\n🎤 Direttamente dall’UK, la straordinaria voce di LISA MILLETT, live!\n\n✨ Un viaggio tra musica, emozioni e atmosfere uniche.\n\n📅 VENERDÌ 27 NOVEMBRE\n\nUNA NOTTE DA VIVERE. UN EVENTO DA RICORDARE. 🔥\n\nPer info e prenotazioni contattaci al numero :\n338/5954867\n\nEvento riservato +25",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -4809,6 +4929,7 @@
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -4816,7 +4937,7 @@
         "venue_name": "Setai Club"
       },
       "id": "18149439076605153-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/892343002_18381163300240083_6760708357399831972_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BS0BZzMAOFgQ7kNvwF2mzQ_&_nc_oc=AdpX1shxVoG0q9wupWnqXkwKNThrS9C_GA3MAy6B-CI7iyQfID_8tO1VOLSgqqKKkeQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=AZGMU-U_carpGojFfZnCWg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSsXk78ZGOGLcTaVGE-8uMQ7zIpMHpVznk9C-II1nP8ww&oe=6B015FF9",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/892343002_18381163300240083_6760708357399831972_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BS0BZzMAOFgQ7kNvwE_GxwA&_nc_oc=Adp2xwdGu5pWp2MteAmWk_U0pDRO6C3o5joEx3itEHOwRqy2OvnLJGJKV4UQzahEQtA&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=9R9GJ7HKp20Tr4b78aJ1zA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTa5rBNqXDjyGCvMVd7FFYNBNWcDUgzV89aH1pLFl8C8w&oe=6B015FF9",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfkY46Rouz6/",
@@ -4850,15 +4971,19 @@
     "18149799721560069-0": {
       "account": "circolinomalpensata_bergamo",
       "account_venue": "Circolino della Malpensata",
-      "confidence": 0.8,
+      "caption": "𝑷𝒓𝒐𝒔𝒔𝒊𝒎𝒊 𝒆𝒗𝒆𝒏𝒕𝒊 ⭐️\n\nlowinskygram Live!\n\n🗓️ Sabato 05 Dicembre, ore 21:30\n\n📍 Circolino della Malpensata\n\nVi aspettiamo!\n\nNati a Bergamo nel 2017, i Lowinsky sono una band indie rock che fonde sonorità alternative e power pop con melodie incisive e testi introspettivi. Hanno pubblicato tre album: Oggetti Smarriti (2020), Triste Sbaglio Sempre Lontani (2023) e Alice inizia a capire (2025).\n\nNel loro percorso hanno condiviso il palco con artisti come Nada Surf, Robyn Hitchcock e Bar Italia.\n\nNel dicembre 2025 hanno aperto una data della reunion dei Babyshambles all’O2 Academy di Leeds.\n\nNell’ottobre 2026 sono tornati a suonare con la band di Peter Doherty per le due date italiane di Roma e Milano.\n\n#circolinodellamalpensata\n#bergamoeventi",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-12-05",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "commerciale"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "live_music",
         "price": null,
         "start_time": "21:30",
         "ticket_url": null,
@@ -4866,8 +4991,8 @@
         "venue_name": "Circolino della Malpensata"
       },
       "id": "18149799721560069-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/886663397_18000519807050683_7504047954640186893_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=89TVJ-bZbK8Q7kNvwHK8sJ5&_nc_oc=Adoxb0v2ED2OEw-wf6N3HeKmJ2ES6Be-w-M0v-c1dtos1qQbzwCt4gRJ6Ss82m6RQWU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTKDuHHZ3JSlCR9Wkv09vZhYdrO_Wi7dynD8fgeFwlNSw&oe=6B014384",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/886663397_18000519807050683_7504047954640186893_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=89TVJ-bZbK8Q7kNvwHy_HSn&_nc_oc=Adp2Xo1ZGKLeDLJYlr4wrVKw1SSQW7rFXcAAQuy8HuQPvRMT_QKHfQtQToaWmGdno6w&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=7mqY4JHZCdoBMudSeftOIA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRwTHRPMIHiEN8Yvy_eE9kOnm5NTb-gQ3C9DIlJW3HkgA&oe=6B014384",
+      "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfUSWrjMJex/",
       "status": "info"
@@ -5131,15 +5256,19 @@
     "18187884847419236-0": {
       "account": "drusobg",
       "account_venue": "Druso",
-      "confidence": 0.8,
+      "caption": "𝗦𝗘𝗨𝗡 𝗞𝗨𝗧𝗜 & EGYPT 80\nin concerto al Druso di Bergamo \n\nbigbirdkuti è uno dei protagonisti più carismatici dell’Afrobeat internazionale. Musicista, cantante e attivista nigeriano, guida gli storici Egypt 80 portando avanti e rinnovando una tradizione musicale fatta di groove travolgenti, contaminazioni e messaggi di forte impegno sociale. Figlio del leggendario Fela Kuti, Seun ha saputo conquistarsi un posto di primo piano nella scena internazionale, collaborando con artisti come Lenny Kravitz, Damian Marley, Black Thought, Carlos Santana e Janelle Monáe. Con il nuovo album “NA DEM”, prodotto da Femi Koleoso degli Ezra Collective e impreziosito dalle partecipazioni di Tom Morello e Kabaka Pyramid, spinge ancora più avanti i confini dell’Afrobeat contemporaneo.\nUn’esplosione di ritmo, energia e impegno.\n\n📍 Druso – Via Antonio Locatelli 17, Ranica (BG)\n📅 Sabato 13 Marzo 2027\n🕕 20:00 porte | 21:30 live\n\n🎟️ Ingresso 25€ online | 30€ in cassa\n🎫 Prevendita scontata 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Food Truck Attivo\n\n🍏 #druso #seankuti #afrobeat #felakuti #egypt80",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2027-03-13",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "afro house"
+        ],
         "is_concert": true,
         "is_festival": false,
+        "kind": "live_music",
         "price": null,
         "start_time": "20:00",
         "ticket_url": null,
@@ -5147,8 +5276,8 @@
         "venue_name": "Druso"
       },
       "id": "18187884847419236-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/902585752_18455110525134654_9016086541522943789_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fruE5UGZQ7YQ7kNvwGMpoJ-&_nc_oc=AdplGo98uE071cFIIw-elfLjNQvfBhlUiOGm6SrifiNnSam3tmDz1WNMQNEK5_GVq7o&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=0UhnP5lx4LMEBbv3MDny6Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ20QBWbJ-Whg2pknI86cnR40zS_q2rCGwIf5x23i7t9w&oe=6B015B83",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902585752_18455110525134654_9016086541522943789_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fruE5UGZQ7YQ7kNvwHxLeLo&_nc_oc=Adq0C1GHwPNv4L-Rx7sWSL675PKlPxjESME74A7Q0cyHrdmDKb7eDnPcn2qhJcCJt2E&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=xrMX_YI34cW_fmXFPmFAiA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR7ApnwD5_4LV3bslbGDL3ANYK_HL0lBZsCX3gEW2b3UA&oe=6B015B83",
+      "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpHVn2gzip/",
       "status": "info"
@@ -5183,23 +5312,28 @@
     "18194396047404902-0": {
       "account": "discoteca_queen",
       "account_venue": "Queen Club",
+      "caption": "VENERDÌ 20 NOVEMBRE\n\nDISCODANCE “SINGLE PARTY”\nREVIVAL 80/90/2000 \nRipercorriamo la storia della musica dance dagli anni 80 in poi…\n\nPronti a fare nuove conoscenze?\nAll’ingresso a tutti i SINGLE (o dichiarati tali) verrà assegnato un numero.\nTrova la tua dolce metà con lo stesso numero, gira la ruota e ritira il premio \n\nPer tutti, con ogni drink preso al bar, un giro di ruota\n\nIn consolle:\nDj : StefanOne + Andrew V.\nVoice : Matteo Palumbo\n\n> Opening ore 22:30 // Chiusura ore 03:30\n\nPREZZI: \n>Ingresso con consumazione > € 10\nFino alle 23:30\n>Ingresso con consumazione > € 13\nDopo le 23:30\n\n>Prenotazione tavoli gratuita\n\n***********************************\nLocation:\nQueen Club\nVia Levata 18, Stezzano (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
       "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-20",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "disco / funk",
+          "revival"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "22:30",
         "ticket_url": null,
-        "title": "VENERDÌ 20 NOVEMBRE",
+        "title": "DISCODANCE SINGLE PARTY",
         "venue_name": "Queen Club"
       },
       "id": "18194396047404902-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/902220597_18345185803258835_4961277490678801759_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=pu2Z1evif0MQ7kNvwHJz_Ur&_nc_oc=AdqlIAf0awj6KbQkM9RhlR4To5dhjOTQM_yldjhUNmn2yf9Q2yOKh9NXL7qs7bH4UEU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR7Mwodxvi_HFyiRz5jW0nNCMMVBLliastU3yptUWPX9Q&oe=6B013B01",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902220597_18345185803258835_4961277490678801759_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=pu2Z1evif0MQ7kNvwECqhS8&_nc_oc=AdpmTbyZbSVK330r2QrrofZdWIDVSOR3bEFnQyGuZJdQea8KxdCa5KRQI3uu_Z2QIso&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zt2lGCgdysU-fn4kQ-JXAw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTqVMLtLzICdB42x9pZH7DYrhFQr2AILMEt0QaWNkUlVQ&oe=6B017341",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfw-KD_tLEt/",
@@ -5233,23 +5367,27 @@
     "18212406400369144-0": {
       "account": "discoteca_queen",
       "account_venue": "Queen Club",
-      "confidence": 0.7,
+      "caption": "MERCOLEDÌ 18 NOVEMBRE \nQueen Latin Night \nin collaborazione con Life Dance\n\nIngresso OMAGGIO \nConsumazione OBBLIGATORIA\n\nLATINO \nIn consolle Steve Romei \n\nStage gratuito di Bachata con Spazio Danza\n\n*************************************\nPRENOTAZIONI TAVOLI GRATUITA \n*************************************\n\nLocation:\nQueen\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
+      "confidence": 0.8,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-18",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "latin / reggaeton"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "MERCOLEDÌ 18 NOVEMBRE",
+        "title": "Queen Latin Night",
         "venue_name": "Queen Club"
       },
       "id": "18212406400369144-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/897383687_18344733076258835_3497375595686950118_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=92Weqz8ZoVAQ7kNvwGCZpqa&_nc_oc=Adp9cM_0mY5klEP_5LkQWYUbdhRv_eOKE31ND1uabTiIZjub9rnT41DqozNRv7Fn7-c&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSF2N-tH703lqO4S65VxaX5qjs_vu2okqg5CPN9hu3mPQ&oe=6B013D3A",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/897383687_18344733076258835_3497375595686950118_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=92Weqz8ZoVAQ7kNvwGV4aOA&_nc_oc=Adq9k5a1C6wEVUl5o1_N3zDHPNDiCHOAMnlbjr44FZbNd81brqzeWEH4Xgd9FFpOsUo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=zt2lGCgdysU-fn4kQ-JXAw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRRviHmZP9AQAfZsp1rrBjra8Jk1x5BqEeKCk659ujSag&oe=6B013D3A",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpTMRCNTwW/",
@@ -5283,15 +5421,19 @@
     "18222367846352958-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
-      "confidence": 0.8,
+      "caption": "Il 19 novembre torna a Bergamo Cities For Impact – Bricks of Democracy, l’evento annuale di Superurbanity giunto alla sua terza edizione, dedicato al futuro delle città e alle sfide della trasformazione urbana.\nUna giornata di confronto multidisciplinare su sviluppo, adattamento climatico, equità e partecipazione, con tavoli di lavoro che coinvolgeranno amministratori pubblici, imprese e professionisti per elaborare una visione condivisa dell’innovazione urbana.\nNel pomeriggio, gli interventi di Franco Arminio, Serena Giacomin, Lucia Scopelliti e Livia Shamir offriranno prospettive diverse sul rapporto tra città, clima, comunità e verde urbano.\n19 novembre 2026, dalle 9.30 alle 17.30\ngres art 671, Bergamo\n-\nOn November 19, Cities For Impact – Bricks of Democracy returns to Bergamo for the third edition of Superurbanity’s annual event, dedicated to the future of cities and the challenges of urban transformation.\n\nA day of multidisciplinary discussion on development, climate adaptation, equity and participation, featuring working groups that will bring together public administrators, businesses and professionals to shape a shared vision of urban innovation.\n\nIn the afternoon, talks b",
+      "confidence": 0.9,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-19",
         "end_time": "17:30",
-        "genres": [],
+        "genres": [
+          "hip hop / trap"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "09:30",
         "ticket_url": null,
@@ -5299,15 +5441,16 @@
         "venue_name": "Gres Art 671"
       },
       "id": "18222367846352958-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/883374834_18001426722034022_3662196616870607637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dLKMlV8LOTEQ7kNvwENptP6&_nc_oc=AdogdTrcTt10CsjlpkU7l6xx8zI8h_RwUYeXkBYj9YaQgeYiSgRa-bFmtLdtG_OaHJI&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AG8aLP4lQAQthDbP-J7LFQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRgDDi_DKnQFSSf1daxJB2cnbdd-4a1Kmntp4UfTRKgcA&oe=6B01430F",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/883374834_18001426722034022_3662196616870607637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dLKMlV8LOTEQ7kNvwGtRdLF&_nc_oc=AdqdCQXzxaGgAD8_vuGnhS86V2CJZRXeieE66FLZJ9u-5z7VrsYD_PsEDRW3SYlB_ks&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=7D0zTOCF4HRuGB-geIN0pA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRKuA5THJd8bM-dF9PCUlkOc2Db_DBNLb8H7rDW5bYPuw&oe=6B01430F",
+      "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfW42eDMyl1/",
-      "status": "info"
+      "status": "auto"
     },
     "18241600534317614-0": {
       "account": "drusobg",
       "account_venue": "Druso",
+      "caption": "OGGI 𝗖𝗛𝗥𝗜𝗦 𝗕𝗘𝗥𝗚𝗦𝗢𝗡 & 𝗘𝗟𝗟𝗜𝗦 𝗛𝗢𝗢𝗞𝗦 \nin concerto al Druso di Bergamo\n‼️ live show alle ore 18:00 ‼️ \nOpenact: Pills\n\nUn concerto davvero imperdibile per gli amanti del Blues, R’n’B e Soul!\n\n🎟️ Ingresso 10€ online | 15€ in cassa\n🎫 Prevendita scontata 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n📍 Druso – Via Antonio Locatelli 17, Ranica (BG)\n🕕 17:00 porte | 18:00 live\n📅 Domenica 22 Novembre 2026\n🍔 Food Truck Attivo\n\nGrazie di cuore a Ugo Bacci per l'articolo pubblicato oggi su L'eco di Bergamo \n\nELLIS HOOK : sette album, una nomination ai Blues Award, numerose collaborazioni con Little Milton e Steve Cropper; ha anche condiviso il palco con Carla Thomas e Terence Trent D'Arby. Il suo canto, influenzato dal gospel, è stato temprato dalle strade di New York.\n\nCHRIS BERGSON professore al prestigioso Berklee College of Music, questo straordinario chitarrista è il custode delle radici rock e blues del duo. Le sue influenze, diverse e variegate, spaziano dal jazz al funk rock, ma provengono principalmente dal Delta Blues, dal primo Chicago Blues e dai gruppi di punta degli anni '60 e '70.  È anche un paroliere e compositore particolarmente ispirato, con all'attivo sette album, molti dei quali inseriti nell",
       "confidence": 0.6,
       "event": {
         "artists": [],
@@ -5315,10 +5458,13 @@
         "date": "2026-11-22",
         "end_time": null,
         "genres": [
-          "disco"
+          "disco",
+          "revival",
+          "commerciale"
         ],
         "is_concert": true,
         "is_festival": false,
+        "kind": "live_music",
         "price": null,
         "start_time": "18:00",
         "ticket_url": null,
@@ -5326,8 +5472,8 @@
         "venue_name": "Druso"
       },
       "id": "18241600534317614-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/907310176_18455701360134654_2173755335331847429_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=90s6YMspicYQ7kNvwEKsB1J&_nc_oc=AdqLah2zPvGT4y7YYA_aMwi1HZJr9D4HiEVDG9ozVTGkaAqRevs8liQK2eU0ntrax-U&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=0UhnP5lx4LMEBbv3MDny6Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT_BRrHgDOJQu7E6M1ITEYqViqTsP_bVluxnf61v5r36g&oe=6B013E75",
-      "kind": "other",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/907310176_18455701360134654_2173755335331847429_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=90s6YMspicYQ7kNvwHzb0Nn&_nc_oc=Adow5AeEZCHId0TSrUZSmwmT9PAsiC-nAjfuQcKnRslOZofxDfEOPZVr3sdC38t05EM&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=xrMX_YI34cW_fmXFPmFAiA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS48GEsvF0QCCt-u0vO7SFmGo36noTcMUdLQ6XYsXRiFw&oe=6B013E75",
+      "kind": "live_music",
       "notes": "read by the free pattern matcher; looks like a recap",
       "permalink": "https://www.instagram.com/p/DfxCyv8gKz9/",
       "status": "info"
@@ -5785,6 +5931,7 @@
     "18467170960184792-0": {
       "account": "kellerfactory_",
       "account_venue": "Keller Factory",
+      "caption": "🎤 MERCOLEDÌ 25 NOVEMBRE… SI RIDE FORTE AL KELLER! 😂🔥\n\nPreparatevi a una serata di battute irriverenti, risate senza filtro e puro divertimento!\n\n🎭 STAND UP COMEDY con LUCA ANSELMI!\n\n🤣 Perché ridere fa bene… soprattutto in compagnia e con una birra in mano! 🍻\n\n📅 Mercoledì 25 novembre\n🕘 Dalle ore 21:00\n📍 Keller Factory 2.0 – Via Bergamo 32, Curno (BG)\n\n📲 Prenota il tuo tavolo!\n👉 https://www.newkeller.it/prenota-ora\n\n🔥 Tagga l’amico che ha assolutamente bisogno di farsi due risate!\n\n#KellerFactory #StandUpComedy #LucaAnselmi #Curno #BergamoEventi MercolediSera RisateAssicurate KellerFactory20",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -5794,6 +5941,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "comedy",
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
@@ -5801,8 +5949,8 @@
         "venue_name": "Keller Factory"
       },
       "id": "18467170960184792-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/886794415_18573469012074567_5701643518193418382_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KVLKGRxWm2kQ7kNvwFCbxS9&_nc_oc=AdrDcghSos3EOHLkWG9euONDt2OJCcph0Jr3VJuvgkCGXN1JX8g0kwj3_O5z5l2BPnw&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=KvU3Xioh7syD7vMsrAHN0g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR_va995pX2Kznrf-LFkRc97iNowI_VSxlGCTBykoFZdA&oe=6B013CFE",
-      "kind": "other",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/886794415_18573469012074567_5701643518193418382_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KVLKGRxWm2kQ7kNvwGJSzKI&_nc_oc=AdqMbhr2PIm8WkwV2pEwQtZYK7vgXtUgHsbE0A2TT_9Q8wQURvkJW61doCkQiqZcyAA&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=knfOFZrvlXIUu774jq1o0w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSSH2CGpKvvKYtlFUtwRaiMXHPY8nSpcvafPG557uCOvQ&oe=6B013CFE",
+      "kind": "comedy",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfW1W4rI70h/",
       "status": "info"
@@ -5835,15 +5983,20 @@
     "18474001003141344-0": {
       "account": "ninfeasocialclub",
       "account_venue": "Ninfea Social Club",
-      "confidence": 0.7,
+      "caption": "Colori Liberi 🎨📖\n\nUn laboratorio creativo in cui collage e pittura si incontrano per dare vita a composizioni originali e personali.\n\n✂️Attraverso ritagli di riviste, fotografie, carte, colori e diverse tecniche artistiche, sperimenteremo sovrapposizioni, texture e combinazioni inaspettate.\n\nPorta anche i tuoi ritagli, fotografie o immagini preferite! Potrai integrarli nella tua opera per renderla ancora più personale e unica.\n\n👨‍🎨Non è necessario saper dipingere, solo aver voglia di\ncreare.\n\n🍸Tutto accompagnato dal nostro aperitivo, compreso di\ndrink e buffet con i nostri prodotti del territorio.\n\n📍Ninfea Social Club - Sorisole, Via G. Marconi 65\n🗓️Mercoledi 18.11\n⏰h 19.00\n🎟️25€ con aperitivo\n\n👉🏼Prenotazione tramite link in bio \n\nIngresso riservato ai tesserati.",
+      "confidence": 0.8,
       "event": {
         "artists": [],
         "city": null,
         "date": "2026-11-18",
         "end_time": null,
-        "genres": [],
+        "genres": [
+          "hard techno",
+          "hip hop / trap"
+        ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -5851,8 +6004,8 @@
         "venue_name": "Ninfea Social Club"
       },
       "id": "18474001003141344-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/892818908_18083758241531213_3501838672873325284_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=TUhmlGMZoR0Q7kNvwFQLuGW&_nc_oc=Adronn-vr4YhtIJ_6IvtQSsAcAfdKf6sQnwB3GIHPlepcehWy2xdWWbQU6_YrUx5I30&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRENAkIbnvNIv_gJslDK0loxO29Hbw-yagdMyEWk8kIpg&oe=6B015744",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/892818908_18083758241531213_3501838672873325284_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=TUhmlGMZoR0Q7kNvwGU7fuQ&_nc_oc=AdoC45pjYfhV4xi9TSjiMKqqLjaoT8mflNgoJnHMuKvneqGIwqY_XV_RvapR4Yb_xd8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AdDrtsVPsRgq19BnFkmKNw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRQskbgHLN3isARabcgSzmmV0gdXkkXtUzvB9cm6dfoIA&oe=6B015744",
+      "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfmgoaxKUV8/",
       "status": "info"
@@ -5964,6 +6117,7 @@
     "18642162619006085-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
+      "caption": "Da dove nascono le immagini di Isaac Julien?\n\nOgni opera è il risultato di un lungo processo di ricerca che attraversa archivi, cinema, fotografia, architettura e memoria. Un intreccio di riferimenti storici e culturali che l’artista rielabora per dare vita a nuove narrazioni visive.\n\nDa *Once Again... (Statues Never Die)* a *Lina Bo Bardi – A Marvellous Entanglement*, fino alla ricerca sulla Cone Collection del Baltimore Museum of Art, ogni lavoro mette in relazione storie, luoghi e discipline differenti.\n\nScopri *Museum Dreams*, la mostra di Isaac Julien a gres art 671, aperta fino al 10 gennaio 2027.\n\n—\n\nWhere do Isaac Julien’s images come from?\n\nEach work is the result of an extensive research process spanning archives, cinema, photography, architecture and memory. A network of historical and cultural references that the artist reworks into new visual narratives.\n\nFrom *Once Again... (Statues Never Die)* to *Lina Bo Bardi – A Marvellous Entanglement*, and his research into the Cone Collection at the Baltimore Museum of Art, each work connects different stories, places and disciplines.\n\nDiscover *Museum Dreams*, the exhibition by Isaac Julien at gres art 671, on view until 10 Ja",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -5971,10 +6125,13 @@
         "date": "2027-01-10",
         "end_time": null,
         "genres": [
-          "disco"
+          "hard techno",
+          "disco / funk",
+          "hip hop / trap"
         ],
         "is_concert": false,
         "is_festival": false,
+        "kind": "culture",
         "price": null,
         "start_time": null,
         "ticket_url": null,
@@ -5982,15 +6139,20 @@
         "venue_name": "Gres Art 671"
       },
       "id": "18642162619006085-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/887334091_18001427055034022_1796534734779282903_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FZMAbdc6IroQ7kNvwHM764I&_nc_oc=Ado522PlZMm3El8uTsGupZxU2cy-UVg7joHjad7Pni-75rkMnjOZh2fVNHl6SYhLxnQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=AG8aLP4lQAQthDbP-J7LFQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSmiZhqIFj_P7XcDHdfXnHayL3i5AhHIZlj9W5QyKNMTw&oe=6B0142FB",
-      "kind": "other",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/887334091_18001427055034022_1796534734779282903_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FZMAbdc6IroQ7kNvwFBcl4P&_nc_oc=AdqKUDKl2B_Z_rHenGU8bJlnawlEl9k20-VO0b-1nyzm6R2n49GjiIWm-gt2eyOJarU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=7D0zTOCF4HRuGB-geIN0pA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRTJ6qv2zLU1HuQ0pHZYHl5n1Z0qTYkBZCRcwm3l3l1LA&oe=6B0142FB",
+      "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfeYsNDDFaM/",
       "status": "info"
     }
   },
-  "next_account": 10,
+  "next_account": 30,
   "seen_posts": {
+    "17876509722638498": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-12T13:20:34+0000",
+      "event": false
+    },
     "17876692503638071": {
       "account": "inkclub_bergamo",
       "at": "2026-11-04T16:00:39+0000",
@@ -6001,9 +6163,84 @@
       "at": "2026-11-11T12:42:39+0000",
       "event": false
     },
+    "17891019282478840": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-13T07:16:19+0000",
+      "event": true
+    },
+    "17891494119620545": {
+      "account": "balzerbynight",
+      "at": "2026-11-15T08:35:17+0000",
+      "event": false
+    },
+    "17895986325654321": {
+      "account": "choruslife.bergamo",
+      "at": "2026-11-13T17:00:09+0000",
+      "event": true
+    },
+    "17896218162433561": {
+      "account": "daste_bergamo",
+      "at": "2026-11-13T16:00:27+0000",
+      "event": true
+    },
+    "17900762928405966": {
+      "account": "gres_art_671",
+      "at": "2026-11-16T17:07:47+0000",
+      "event": false
+    },
+    "17908468563377224": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-05T17:22:07+0000",
+      "event": false
+    },
+    "17910904206563812": {
+      "account": "tiky.klub",
+      "at": "2026-11-02T17:25:06+0000",
+      "event": true
+    },
+    "17913243834593339": {
+      "account": "thanka.official",
+      "at": "2026-11-14T11:55:50+0000",
+      "event": false
+    },
+    "17913764694483020": {
+      "account": "csapacipaciana",
+      "at": "2026-11-03T16:20:26+0000",
+      "event": true
+    },
+    "17914376121513136": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-03T12:30:01+0000",
+      "event": false
+    },
+    "17915196819475268": {
+      "account": "tiky.klub",
+      "at": "2026-11-11T17:25:31+0000",
+      "event": true
+    },
+    "17918546925550223": {
+      "account": "vibetheclub",
+      "at": "2026-11-04T14:15:30+0000",
+      "event": true
+    },
+    "17919342933464856": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-10T18:30:05+0000",
+      "event": true
+    },
     "17919539397534322": {
       "account": "nxtbergamo",
       "at": "2026-11-14T20:59:24+0000",
+      "event": false
+    },
+    "17924928333445956": {
+      "account": "drusobg",
+      "at": "2026-11-13T17:27:12+0000",
+      "event": true
+    },
+    "17925109830441763": {
+      "account": "choruslife.bergamo",
+      "at": "2026-10-27T08:45:00+0000",
       "event": false
     },
     "17929575438426115": {
@@ -6011,9 +6248,89 @@
       "at": "2026-11-11T14:00:09+0000",
       "event": true
     },
+    "17930449071185141": {
+      "account": "choruslife.bergamo",
+      "at": "2026-11-11T12:00:35+0000",
+      "event": true
+    },
+    "17938976184405204": {
+      "account": "gres_art_671",
+      "at": "2026-11-10T14:13:16+0000",
+      "event": true
+    },
+    "17943890685375673": {
+      "account": "daste_bergamo",
+      "at": "2026-11-15T16:00:37+0000",
+      "event": true
+    },
+    "17943956052382710": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-13T10:04:23+0000",
+      "event": true
+    },
+    "17947022979366215": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-10T12:41:35+0000",
+      "event": true
+    },
+    "17947107258087277": {
+      "account": "drusobg",
+      "at": "2026-11-11T19:36:23+0000",
+      "event": true
+    },
+    "17947702449362662": {
+      "account": "drusobg",
+      "at": "2026-11-13T13:05:43+0000",
+      "event": false
+    },
+    "17949991419071685": {
+      "account": "gres_art_671",
+      "at": "2026-11-10T20:00:01+0000",
+      "event": true
+    },
+    "17951884890321946": {
+      "account": "choruslife.bergamo",
+      "at": "2026-10-31T11:22:07+0000",
+      "event": false
+    },
+    "17959770726014816": {
+      "account": "capogirojoyclub",
+      "at": "2026-10-28T12:35:06+0000",
+      "event": false
+    },
+    "17960090931017363": {
+      "account": "thanka.official",
+      "at": "2026-11-06T11:55:08+0000",
+      "event": true
+    },
+    "17967208208985106": {
+      "account": "tiky.klub",
+      "at": "2026-10-30T17:26:31+0000",
+      "event": false
+    },
+    "17967937031982258": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-10T12:30:03+0000",
+      "event": false
+    },
+    "17970877896206520": {
+      "account": "discoteca_queen",
+      "at": "2026-11-16T19:14:44+0000",
+      "event": true
+    },
     "17973203511190374": {
       "account": "bucheesebar",
       "at": "2026-11-09T15:28:49+0000",
+      "event": true
+    },
+    "17979810041930702": {
+      "account": "drusobg",
+      "at": "2026-11-12T17:17:29+0000",
+      "event": true
+    },
+    "17981040494921253": {
+      "account": "vibetheclub",
+      "at": "2026-11-04T17:00:20+0000",
       "event": true
     },
     "17981858345915718": {
@@ -6021,9 +6338,29 @@
       "at": "2026-11-16T11:32:13+0000",
       "event": false
     },
+    "17990009577086652": {
+      "account": "daste_bergamo",
+      "at": "2026-11-11T16:05:29+0000",
+      "event": true
+    },
     "17990505951110323": {
       "account": "cosmo.food.club",
       "at": "2026-11-09T15:56:48+0000",
+      "event": false
+    },
+    "17990637900094508": {
+      "account": "daste_bergamo",
+      "at": "2026-11-12T12:17:59+0000",
+      "event": true
+    },
+    "17991394029112235": {
+      "account": "capogirojoyclub",
+      "at": "2026-10-30T12:00:03+0000",
+      "event": false
+    },
+    "17991578826097226": {
+      "account": "discoteca_queen",
+      "at": "2026-11-10T16:35:16+0000",
       "event": false
     },
     "17992624482066913": {
@@ -6031,19 +6368,149 @@
       "at": "2026-10-31T12:22:47+0000",
       "event": true
     },
+    "17994000783101670": {
+      "account": "zeroclub.bg",
+      "at": "2026-11-02T17:08:40+0000",
+      "event": true
+    },
+    "17994184902061252": {
+      "account": "barrys__",
+      "at": "2026-11-05T11:00:04+0000",
+      "event": false
+    },
+    "17996037315098885": {
+      "account": "gres_art_671",
+      "at": "2026-11-12T17:30:54+0000",
+      "event": true
+    },
     "17996430108073315": {
       "account": "unplug__bg",
       "at": "2026-11-16T17:39:30+0000",
       "event": true
+    },
+    "18002358852030211": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-11T12:59:11+0000",
+      "event": false
+    },
+    "18003792788800260": {
+      "account": "setai_club_official",
+      "at": "2026-11-03T12:12:09+0000",
+      "event": false
     },
     "18004073610008674": {
       "account": "cosmo.food.club",
       "at": "2026-11-07T14:35:05+0000",
       "event": false
     },
+    "18007029407794113": {
+      "account": "barrys__",
+      "at": "2026-11-04T11:00:17+0000",
+      "event": true
+    },
+    "18014525909977568": {
+      "account": "thanka.official",
+      "at": "2026-11-11T11:56:08+0000",
+      "event": true
+    },
+    "18016802267975011": {
+      "account": "thanka.official",
+      "at": "2026-11-06T17:07:47+0000",
+      "event": false
+    },
+    "18018657416746767": {
+      "account": "kellerfactory_",
+      "at": "2026-10-29T20:49:14+0000",
+      "event": false
+    },
+    "18018716360751106": {
+      "account": "daste_bergamo",
+      "at": "2026-11-13T09:00:17+0000",
+      "event": true
+    },
+    "18026829062818609": {
+      "account": "drusobg",
+      "at": "2026-11-14T17:00:08+0000",
+      "event": false
+    },
+    "18027919721930556": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-15T16:30:01+0000",
+      "event": false
+    },
+    "18030881792879396": {
+      "account": "csapacipaciana",
+      "at": "2026-11-04T11:51:39+0000",
+      "event": true
+    },
+    "18036450257891400": {
+      "account": "tiky.klub",
+      "at": "2026-10-29T15:26:13+0000",
+      "event": false
+    },
+    "18036574076892772": {
+      "account": "thanka.official",
+      "at": "2026-11-13T11:55:08+0000",
+      "event": true
+    },
+    "18038292344853774": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-16T16:35:42+0000",
+      "event": false
+    },
+    "18038320355853317": {
+      "account": "gres_art_671",
+      "at": "2026-10-29T17:37:44+0000",
+      "event": true
+    },
     "18039068603891170": {
       "account": "sprint_bergamo",
       "at": "2026-11-03T11:58:54+0000",
+      "event": true
+    },
+    "18040000202857063": {
+      "account": "zeroclub.bg",
+      "at": "2026-11-11T13:11:20+0000",
+      "event": true
+    },
+    "18040649300892600": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-10T09:36:59+0000",
+      "event": true
+    },
+    "18043194749832660": {
+      "account": "daste_bergamo",
+      "at": "2026-11-16T14:13:04+0000",
+      "event": false
+    },
+    "18046138421829795": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-12T11:00:24+0000",
+      "event": false
+    },
+    "18047572670829977": {
+      "account": "csapacipaciana",
+      "at": "2026-11-12T12:16:07+0000",
+      "event": true
+    },
+    "18050892980826584": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-11T16:29:41+0000",
+      "event": true
+    },
+    "18051434750820052": {
+      "account": "daste_bergamo",
+      "at": "2026-11-12T16:18:44+0000",
+      "event": true
+    },
+    "18052324913819919": {
+      "account": "lazzaretto_bergamo_estate",
+      "at": "2026-11-16T12:17:07+0000",
+      "event": false
+    },
+    "18059204756566707": {
+      "account": "zeroclub.bg",
+      "at": "2026-11-05T17:35:27+0000",
       "event": true
     },
     "18064540868569327": {
@@ -6056,29 +6523,184 @@
       "at": "2026-11-13T11:00:08+0000",
       "event": false
     },
+    "18066740588523366": {
+      "account": "tiky.klub",
+      "at": "2026-11-09T17:25:08+0000",
+      "event": true
+    },
+    "18067792574619304": {
+      "account": "kellerfactory_",
+      "at": "2026-11-15T21:54:51+0000",
+      "event": false
+    },
     "18078005474726864": {
       "account": "inkclub_bergamo",
       "at": "2026-11-04T15:29:44+0000",
       "event": false
+    },
+    "18079609769406841": {
+      "account": "zeroclub.bg",
+      "at": "2026-10-29T17:00:05+0000",
+      "event": true
+    },
+    "18080277683448550": {
+      "account": "drusobg",
+      "at": "2026-11-16T19:24:27+0000",
+      "event": true
+    },
+    "18080306315416777": {
+      "account": "thanka.official",
+      "at": "2026-11-09T11:55:07+0000",
+      "event": false
+    },
+    "18080782121455579": {
+      "account": "csapacipaciana",
+      "at": "2026-11-06T10:42:33+0000",
+      "event": true
+    },
+    "18081511676566799": {
+      "account": "zeroclub.bg",
+      "at": "2026-11-07T16:53:28+0000",
+      "event": true
     },
     "18088536188704234": {
       "account": "nxtbergamo",
       "at": "2026-11-14T22:29:22+0000",
       "event": false
     },
+    "18091519370240662": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-10-29T11:00:43+0000",
+      "event": false
+    },
+    "18094168709199670": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-11T16:30:04+0000",
+      "event": false
+    },
+    "18094477835199857": {
+      "account": "drusobg",
+      "at": "2026-11-10T19:11:59+0000",
+      "event": true
+    },
+    "18094990415485549": {
+      "account": "discoteca_queen",
+      "at": "2026-11-09T01:36:29+0000",
+      "event": true
+    },
+    "18095561213174097": {
+      "account": "vibetheclub",
+      "at": "2026-10-29T17:10:26+0000",
+      "event": true
+    },
+    "18096754895184010": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-12T17:04:54+0000",
+      "event": true
+    },
+    "18098084768654430": {
+      "account": "gres_art_671",
+      "at": "2026-11-06T17:00:03+0000",
+      "event": true
+    },
+    "18098613398418264": {
+      "account": "kellerfactory_",
+      "at": "2026-11-10T16:40:49+0000",
+      "event": true
+    },
     "18100623686097168": {
       "account": "inkclub_bergamo",
       "at": "2026-11-06T17:00:05+0000",
       "event": false
+    },
+    "18100660250659065": {
+      "account": "loft.bergamo",
+      "at": "2026-11-16T11:25:01+0000",
+      "event": true
+    },
+    "18100675265430465": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-10T15:30:06+0000",
+      "event": true
+    },
+    "18102968327400355": {
+      "account": "csapacipaciana",
+      "at": "2026-11-16T17:23:53+0000",
+      "event": true
+    },
+    "18103094102067810": {
+      "account": "kellerfactory_",
+      "at": "2026-11-14T10:13:51+0000",
+      "event": true
+    },
+    "18103238660655215": {
+      "account": "kellerfactory_",
+      "at": "2026-11-13T08:51:30+0000",
+      "event": false
+    },
+    "18103701383412985": {
+      "account": "daste_bergamo",
+      "at": "2026-11-09T16:20:31+0000",
+      "event": true
+    },
+    "18103774853384001": {
+      "account": "drusobg",
+      "at": "2026-11-11T08:13:40+0000",
+      "event": true
+    },
+    "18104059826381250": {
+      "account": "daste_bergamo",
+      "at": "2026-11-10T16:18:49+0000",
+      "event": true
+    },
+    "18105431927381407": {
+      "account": "daste_bergamo",
+      "at": "2026-11-11T11:41:54+0000",
+      "event": true
+    },
+    "18106154075640542": {
+      "account": "csapacipaciana",
+      "at": "2026-11-09T11:36:52+0000",
+      "event": true
+    },
+    "18106502576345916": {
+      "account": "choruslife.bergamo",
+      "at": "2026-11-16T17:00:37+0000",
+      "event": false
+    },
+    "18107091821254974": {
+      "account": "gres_art_671",
+      "at": "2026-11-02T17:10:55+0000",
+      "event": true
     },
     "18108788324262614": {
       "account": "bucheesebar",
       "at": "2026-11-06T11:00:01+0000",
       "event": false
     },
+    "18109711460348716": {
+      "account": "thanka.official",
+      "at": "2026-11-04T11:55:48+0000",
+      "event": false
+    },
     "18109896887219071": {
       "account": "nxtbergamo",
       "at": "2026-11-14T21:15:32+0000",
+      "event": true
+    },
+    "18111319319629820": {
+      "account": "gres_art_671",
+      "at": "2026-11-09T12:00:02+0000",
+      "event": true
+    },
+    "18111371429350168": {
+      "account": "zeroclub.bg",
+      "at": "2026-10-31T11:00:03+0000",
+      "event": true
+    },
+    "18114846281582319": {
+      "account": "tiky.klub",
+      "at": "2026-11-06T17:26:14+0000",
       "event": true
     },
     "18115474382613960": {
@@ -6089,6 +6711,26 @@
     "18115639505130367": {
       "account": "nxtbergamo",
       "at": "2026-11-12T13:57:48+0000",
+      "event": true
+    },
+    "18116154098130190": {
+      "account": "kellerfactory_",
+      "at": "2026-11-12T11:46:46+0000",
+      "event": false
+    },
+    "18116194301038587": {
+      "account": "discoteca_queen",
+      "at": "2026-11-15T14:17:05+0000",
+      "event": true
+    },
+    "18116550626178255": {
+      "account": "choruslife.bergamo",
+      "at": "2026-11-16T12:00:14+0000",
+      "event": true
+    },
+    "18117610949015537": {
+      "account": "thanka.official",
+      "at": "2026-11-07T11:55:37+0000",
       "event": true
     },
     "18117925160006850": {
@@ -6111,9 +6753,39 @@
       "at": "2026-11-16T17:07:49+0000",
       "event": true
     },
+    "18119513246281577": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-16T08:41:11+0000",
+      "event": true
+    },
+    "18119742923001426": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-11T20:00:10+0000",
+      "event": true
+    },
+    "18119893147795735": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-13T16:30:05+0000",
+      "event": false
+    },
+    "18119961232969914": {
+      "account": "vibetheclub",
+      "at": "2026-10-28T17:07:49+0000",
+      "event": false
+    },
+    "18120170519059327": {
+      "account": "csapacipaciana",
+      "at": "2026-11-11T16:44:04+0000",
+      "event": true
+    },
     "18120341764792576": {
       "account": "inkclub_bergamo",
       "at": "2026-11-09T20:12:14+0000",
+      "event": true
+    },
+    "18120636050002669": {
+      "account": "choruslife.bergamo",
+      "at": "2026-11-10T16:00:13+0000",
       "event": true
     },
     "18120829495800677": {
@@ -6121,15 +6793,55 @@
       "at": "2026-11-12T12:13:54+0000",
       "event": true
     },
+    "18121069375985597": {
+      "account": "csapacipaciana",
+      "at": "2026-11-11T12:18:02+0000",
+      "event": true
+    },
+    "18121845041319617": {
+      "account": "csapacipaciana",
+      "at": "2026-11-05T13:42:49+0000",
+      "event": true
+    },
+    "18121861250051412": {
+      "account": "vibetheclub",
+      "at": "2026-11-16T17:37:54+0000",
+      "event": true
+    },
     "18122010719088043": {
       "account": "casacostez",
       "at": "2026-11-16T11:00:12+0000",
+      "event": false
+    },
+    "18122033074753046": {
+      "account": "daste_bergamo",
+      "at": "2026-11-14T12:42:10+0000",
       "event": false
     },
     "18122118235949623": {
       "account": "casacostez",
       "at": "2026-11-10T17:00:12+0000",
       "event": false
+    },
+    "18122606185749292": {
+      "account": "daste_bergamo",
+      "at": "2026-11-15T11:01:47+0000",
+      "event": true
+    },
+    "18123990431063245": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-05T13:17:00+0000",
+      "event": true
+    },
+    "18125656337513736": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-03T08:27:09+0000",
+      "event": true
+    },
+    "18126731233912922": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-16T11:05:13+0000",
+      "event": true
     },
     "18127631558298256": {
       "account": "casacostez",
@@ -6141,10 +6853,20 @@
       "at": "2026-10-29T17:00:12+0000",
       "event": true
     },
+    "18130085644865225": {
+      "account": "tiky.klub",
+      "at": "2026-11-15T17:25:05+0000",
+      "event": true
+    },
     "18130491532868119": {
       "account": "inkclub_bergamo",
       "at": "2026-11-02T14:00:14+0000",
       "event": true
+    },
+    "18130696618802221": {
+      "account": "kellerfactory_",
+      "at": "2026-11-07T08:28:19+0000",
+      "event": false
     },
     "18130754956879973": {
       "account": "casacostez",
@@ -6156,6 +6878,41 @@
       "at": "2026-10-27T12:06:32+0000",
       "event": true
     },
+    "18131528794866935": {
+      "account": "discoteca_queen",
+      "at": "2026-11-16T15:19:54+0000",
+      "event": false
+    },
+    "18131733649814990": {
+      "account": "gres_art_671",
+      "at": "2026-10-31T12:00:03+0000",
+      "event": true
+    },
+    "18132002299825180": {
+      "account": "tiky.klub",
+      "at": "2026-11-03T17:26:02+0000",
+      "event": false
+    },
+    "18132417196701272": {
+      "account": "thanka.official",
+      "at": "2026-11-16T11:55:08+0000",
+      "event": true
+    },
+    "18132885829778902": {
+      "account": "discoteca_queen",
+      "at": "2026-11-11T16:24:26+0000",
+      "event": false
+    },
+    "18133466350773874": {
+      "account": "thanka.official",
+      "at": "2026-11-02T11:55:07+0000",
+      "event": false
+    },
+    "18133774069808792": {
+      "account": "barrys__",
+      "at": "2026-11-11T14:14:46+0000",
+      "event": false
+    },
     "18134031283687037": {
       "account": "nxtbergamo",
       "at": "2026-11-11T20:00:50+0000",
@@ -6166,15 +6923,50 @@
       "at": "2026-11-09T20:23:51+0000",
       "event": true
     },
+    "18134818288743523": {
+      "account": "drusobg",
+      "at": "2026-11-15T10:16:42+0000",
+      "event": true
+    },
     "18135384799733566": {
       "account": "bucheesebar",
       "at": "2026-11-05T08:30:02+0000",
       "event": false
     },
+    "18135864169813470": {
+      "account": "zeroclub.bg",
+      "at": "2026-11-13T11:18:54+0000",
+      "event": true
+    },
+    "18136600519661292": {
+      "account": "gres_art_671",
+      "at": "2026-11-04T17:00:50+0000",
+      "event": false
+    },
+    "18137292883775677": {
+      "account": "discoteca_queen",
+      "at": "2026-11-16T19:13:57+0000",
+      "event": true
+    },
+    "18138299794735517": {
+      "account": "tiky.klub",
+      "at": "2026-11-13T17:25:45+0000",
+      "event": true
+    },
+    "18140477425628277": {
+      "account": "choruslife.bergamo",
+      "at": "2026-11-02T16:55:12+0000",
+      "event": true
+    },
     "18141159523628197": {
       "account": "casacostez",
       "at": "2026-11-10T11:30:01+0000",
       "event": true
+    },
+    "18141206359655753": {
+      "account": "drusobg",
+      "at": "2026-11-16T16:31:00+0000",
+      "event": false
     },
     "18141333154656381": {
       "account": "nxtbergamo",
@@ -6191,19 +6983,79 @@
       "at": "2026-11-12T18:29:59+0000",
       "event": true
     },
+    "18145645264595882": {
+      "account": "csapacipaciana",
+      "at": "2026-10-28T14:14:26+0000",
+      "event": true
+    },
+    "18147055642552705": {
+      "account": "thanka.official",
+      "at": "2026-11-11T11:57:15+0000",
+      "event": false
+    },
     "18147233239564528": {
       "account": "sprint_bergamo",
       "at": "2026-11-09T12:00:02+0000",
       "event": false
+    },
+    "18149439076605153": {
+      "account": "setai_club_official",
+      "at": "2026-11-10T17:00:05+0000",
+      "event": true
+    },
+    "18149465728574326": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-10-30T17:15:13+0000",
+      "event": false
+    },
+    "18149799721560069": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-04T10:53:09+0000",
+      "event": true
+    },
+    "18150023575547670": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-03T16:01:49+0000",
+      "event": false
+    },
+    "18155902267463480": {
+      "account": "tiky.klub",
+      "at": "2026-11-10T17:26:52+0000",
+      "event": true
     },
     "18160085134513889": {
       "account": "casacostez",
       "at": "2026-11-02T16:01:53+0000",
       "event": true
     },
+    "18161545930511895": {
+      "account": "tiky.klub",
+      "at": "2026-11-04T17:25:08+0000",
+      "event": false
+    },
     "18162779887501764": {
       "account": "casacostez",
       "at": "2026-11-14T11:00:05+0000",
+      "event": true
+    },
+    "18168279712504973": {
+      "account": "kellerfactory_",
+      "at": "2026-11-03T15:31:31+0000",
+      "event": true
+    },
+    "18171949786482273": {
+      "account": "discoteca_queen",
+      "at": "2026-11-09T16:24:07+0000",
+      "event": false
+    },
+    "18172889077461618": {
+      "account": "kellerfactory_",
+      "at": "2026-10-27T10:20:27+0000",
+      "event": false
+    },
+    "18182052202432611": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-11T18:53:45+0000",
       "event": true
     },
     "18182530813449226": {
@@ -6216,14 +7068,54 @@
       "at": "2026-11-02T16:00:06+0000",
       "event": true
     },
+    "18187884847419236": {
+      "account": "drusobg",
+      "at": "2026-11-12T13:00:57+0000",
+      "event": true
+    },
     "18193173457361309": {
       "account": "casacostez",
       "at": "2026-11-03T17:14:37+0000",
       "event": false
     },
+    "18194396047404902": {
+      "account": "discoteca_queen",
+      "at": "2026-11-15T14:16:05+0000",
+      "event": true
+    },
+    "18200664178391461": {
+      "account": "vibetheclub",
+      "at": "2026-11-11T14:00:06+0000",
+      "event": true
+    },
+    "18212406400369144": {
+      "account": "discoteca_queen",
+      "at": "2026-11-12T14:46:27+0000",
+      "event": true
+    },
+    "18215315395318894": {
+      "account": "kellerfactory_",
+      "at": "2026-11-05T11:36:16+0000",
+      "event": false
+    },
+    "18222367846352958": {
+      "account": "gres_art_671",
+      "at": "2026-11-05T17:00:03+0000",
+      "event": true
+    },
+    "18241600534317614": {
+      "account": "drusobg",
+      "at": "2026-11-15T14:55:06+0000",
+      "event": true
+    },
     "18247418632311185": {
       "account": "casacostez",
       "at": "2026-11-02T17:00:01+0000",
+      "event": true
+    },
+    "18253327816309041": {
+      "account": "tiky.klub",
+      "at": "2026-11-09T08:38:35+0000",
       "event": true
     },
     "18288895915295028": {
@@ -6236,6 +7128,26 @@
       "at": "2026-10-30T17:05:30+0000",
       "event": true
     },
+    "18351967768280169": {
+      "account": "thanka.official",
+      "at": "2026-11-07T12:01:28+0000",
+      "event": true
+    },
+    "18354643993269524": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-13T12:00:01+0000",
+      "event": false
+    },
+    "18358008595175928": {
+      "account": "csapacipaciana",
+      "at": "2026-11-02T12:13:41+0000",
+      "event": true
+    },
+    "18376876597210351": {
+      "account": "kellerfactory_",
+      "at": "2026-11-08T09:28:28+0000",
+      "event": false
+    },
     "18377118745211845": {
       "account": "sprint_bergamo",
       "at": "2026-11-13T11:30:17+0000",
@@ -6246,15 +7158,50 @@
       "at": "2026-11-13T22:20:55+0000",
       "event": false
     },
+    "18467170960184792": {
+      "account": "kellerfactory_",
+      "at": "2026-11-05T10:37:50+0000",
+      "event": true
+    },
+    "18471532594137063": {
+      "account": "discoteca_queen",
+      "at": "2026-11-09T01:34:33+0000",
+      "event": true
+    },
+    "18474001003141344": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-11T12:45:01+0000",
+      "event": true
+    },
     "18493918870111248": {
       "account": "inkclub_bergamo",
       "at": "2026-11-09T10:59:03+0000",
+      "event": true
+    },
+    "18499021723107277": {
+      "account": "discoteca_queen",
+      "at": "2026-11-09T01:13:57+0000",
       "event": true
     },
     "18573895303074790": {
       "account": "contest_bg",
       "at": "2026-11-05T17:40:56+0000",
       "event": true
+    },
+    "18642162619006085": {
+      "account": "gres_art_671",
+      "at": "2026-11-08T09:00:02+0000",
+      "event": true
+    },
+    "18645585874052049": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-07T13:23:36+0000",
+      "event": false
+    },
+    "18650232631019013": {
+      "account": "choruslife.bergamo",
+      "at": "2026-10-28T16:09:08+0000",
+      "event": false
     }
   }
 }
