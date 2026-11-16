@@ -97,4 +97,4 @@ def test_ocr_reads_agenda_image():
     text = ocr.ocr_bytes((FIXTURES / "agenda.png").read_bytes())
     ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=POSTED, account="agg", account_venue=None)
     assert [(e.date, e.venue_name) for e in ex.events] == [
-        ("2026-11-20", "Bolgia"), ("2026-11-21", "Edonè"), ("2026-11-21", "Druso")]
+        ("2026-11-20", "Bolgia"), ("2026-11-21", "Edoné"), ("2026-11-21", "Druso")]

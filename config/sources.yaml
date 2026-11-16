@@ -77,7 +77,7 @@ sources:
   # to its name in venues.yaml so posts without a venue default to it.
   - id: instagram_watch
     type: instagram
-    enabled: false
+    enabled: true
     # Tracker account: @seratebergamo (Filippo's new Business account, 2026-11-16).
     # Watch list: every venue/promoter with a confirmed handle whose account is not personal.
     # Personal accounts (UFO, Garota, Delblaco, OperaPrima) are left out: the API cannot read them.
