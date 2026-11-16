@@ -67,9 +67,9 @@ def night_summary(ev: Event, prefix: str = "") -> str:
     return prefix + genre + name + (f" w/ {head}" if head else "")
 
 
-def headliners(ev: Event, n: int = 2) -> str:
-    names = ev.headliners[:n]
-    return ", ".join(names) + (" + altri" if len(ev.headliners) > n else "")
+def headliners(ev: Event) -> str:
+    """Only the first headliner goes in the title (Filippo); the rest are in the details."""
+    return ev.headliners[0] if ev.headliners else ""
 
 
 def describe(ev: Event) -> str:
