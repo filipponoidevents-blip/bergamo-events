@@ -49,7 +49,8 @@ instagram:
   graph_version: v23.0        # Meta Graph API version
   posts_per_account: 12       # latest posts read per account per run
   max_post_age_days: 21       # older posts are skipped
-  read_images: false          # true = also read the flyer images (more accurate, costs more)
+  read_images: false          # reader: claude only. true = also read flyer images (more accurate, costs more)
   auto_approve_confidence: 0.85   # at or above: straight to the calendar; below: waits for approval
-  model: claude-haiku-5-5     # caption reader; cheapest model (cents/month). claude-opus-5-5 is more accurate, ~100x the cost
+  reader: rules               # rules = free pattern matcher (no key); claude = AI reader, needs ANTHROPIC_API_KEY
+  model: claude-haiku-5-5     # used only when reader: claude (a few cents a month)
   effort: low

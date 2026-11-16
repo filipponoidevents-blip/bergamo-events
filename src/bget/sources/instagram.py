@@ -3,8 +3,8 @@
 Every run:
 1. For each watched account, read its latest posts through the Instagram Graph API
    "Business Discovery" endpoint (works for public Business/Creator accounts only).
-2. Each post not seen before goes to Claude, which reads the caption and the flyer images
-   and returns structured event details (see instagram_extract.py).
+2. Each post not seen before is read by the caption reader: the free pattern matcher
+   (instagram_rules.py, default) or Claude (instagram_extract.py, reader: claude).
 3. Every extracted event lands in the review queue (data/ig_review.json, written by the bot).
    - confidence >= auto_approve_confidence  -> goes on the calendar straight away
    - lower confidence                       -> waits for approval
@@ -14,7 +14,7 @@ Every run:
 Needs these environment variables (GitHub Actions secrets):
   IG_USER_ID        id of OUR Instagram professional account (the one making the API calls)
   IG_ACCESS_TOKEN   long-lived token with instagram_basic + pages_show_list (+ business discovery)
-  ANTHROPIC_API_KEY for the flyer/caption reader
+  ANTHROPIC_API_KEY only if instagram.reader is "claude" (default "rules" is free)
 """
 from __future__ import annotations
 
@@ -32,6 +32,7 @@ import yaml
 from ..models import Artist, Category, Event, Socials, Venue
 from .base import USER_AGENT, Source
 from .instagram_extract import ClaudeExtractor, Extraction, Extractor
+from .instagram_rules import RulesExtractor
 
 log = logging.getLogger(__name__)
 
@@ -94,8 +95,11 @@ class InstagramSource(Source):
     @property
     def extractor(self) -> Extractor:
         if self._extractor is None:
-            self._extractor = ClaudeExtractor(
-                model=self._ig.get("model", "claude-haiku-5-5"), effort=self._ig.get("effort", "low"))
+            if self._ig.get("reader", "rules") == "claude":
+                self._extractor = ClaudeExtractor(
+                    model=self._ig.get("model", "claude-haiku-5-5"), effort=self._ig.get("effort", "low"))
+            else:
+                self._extractor = RulesExtractor(self.cfg)
         return self._extractor
 
     # ---- review queue -----------------------------------------------------

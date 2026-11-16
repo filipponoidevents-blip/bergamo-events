@@ -66,12 +66,13 @@ config/sources.yaml ──► sources/* adapters ──► enrich venue (config/
 
 ### Instagram auto-check (`src/bget/sources/instagram*.py`)
 1. Each run reads the latest posts of the accounts listed under `instagram_watch` in `config/sources.yaml`.
-2. New posts (not older than 21 days) go to Claude with the caption (plus up to 4 flyer images if `read_images: true` in settings); it returns structured
+2. New posts (not older than 21 days) are read by the free pattern matcher (default; no key) or, with
+   `reader: claude` in settings, by Claude (caption, plus flyers if `read_images: true`); each returns structured
    events (date, times, venue, line-up with tagged handles, genres, ticket link) and a confidence score.
 3. Confidence ≥ 0.85: straight onto the calendar. Lower: waits in the review queue.
    The queue is published as `review.md` next to the calendars.
 4. Approve or reject by id in `config/ig_decisions.yaml` (edit it on GitHub). Rejecting removes the event.
-Secrets needed in GitHub Actions: `IG_USER_ID`, `IG_ACCESS_TOKEN`, `ANTHROPIC_API_KEY`.
+Secrets needed in GitHub Actions: `IG_USER_ID`, `IG_ACCESS_TOKEN` (+ `ANTHROPIC_API_KEY` only for `reader: claude`).
 Limits: only public Business/Creator accounts; Stories are not readable by the API (use `manual`).
 
 ### Calendar output
