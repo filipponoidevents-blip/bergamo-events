@@ -4,6 +4,7 @@
 # Researched 2026-11-16 (Bergamo +20 km). How to read the extra fields:
 #   ig_source   website = the venue's own site links this account (strongest)
 #               search  = profile found by name on Instagram via web search, name + town match
+#               user    = given or confirmed by Filippo
 #               null    = no account confirmed; handle left blank on purpose
 #   ig_type     Instagram blocks automated profile reads, so Business/Creator status could not be
 #               checked. Brand accounts are almost always professional; confirm before relying on it.
@@ -52,21 +53,22 @@ venues:
     notes: Formerly Fluid (JUICE Crew nights with Patrick Topping etc.). Also hosts School Party (@the_original_schoolparty, teen nights, low relevance).
 
   - name: Zero Club
-    aliases: [Zero Club Bergamo]
+    aliases: [Zero Club Bergamo, Clash Club, Circolo Ego, Cavo Club]
     city: Bergamo
     province: BG
-    lat: 45.6983
-    lon: 9.6773
-    km: 0
+    address: Via Baschenis 9, Bergamo
+    lat: 45.693
+    lon: 9.665
+    km: 1.1
     kind: club
     status: active
     genres: [commercial, house]
-    socials: {instagram: zeroclub.bg, website: null}
+    socials: {instagram: zeroclub.bg, website: null, resident_advisor: https://ra.co/clubs/72471}
     tickets: [https://site.fourvenues.com/en/zero-club]
     ig_source: search
     ig_type: unknown
     verified: false
-    notes: Address not confirmed; coordinates are city centre. Tickets on Fourvenues.
+    notes: Same venue as the old Clash Club / Circolo Ego / Cavo Club (per Filippo). Tickets on Fourvenues.
 
   - name: Nikita
     aliases: [Nikita Disco Club, Nikita Telgate, Costez, Costez Summer Club, El Jardin de Nikita]
@@ -110,11 +112,11 @@ venues:
     lon: 9.530
     km: 12.0
     kind: club
-    status: check
-    socials: {instagram: null, website: null}
-    ig_source: null
+    status: active
+    socials: {instagram: decibel_club, website: null}
+    ig_source: user
     verified: false
-    notes: Listed on eventi.bergamo.it. Several "Decibel Club" accounts exist (decibel_club, clubdecibel, decibelclub); none confirmed as this one.
+    ig_type: unknown
 
   - name: Hype Club
     aliases: [Hype Club Cortenuova]
@@ -124,11 +126,11 @@ venues:
     lon: 9.787
     km: 19.9
     kind: club
-    status: check
-    socials: {instagram: null, website: null}
-    ig_source: null
+    status: active
+    socials: {instagram: hype.club.official, website: null}
+    ig_source: user
     verified: false
-    notes: Right on the 20 km edge. No matching Instagram found.
+    ig_type: unknown
 
   - name: Capogiro
     aliases: [CaPoGiRo Joy Club, Capogiro Joyclub, Capogiro Curno]
@@ -141,7 +143,7 @@ venues:
     status: check
     genres: [commercial]
     socials: {instagram: capogirojoyclub, website: null}
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
 
@@ -157,9 +159,10 @@ venues:
     socials: {instagram: null, website: null}
     ig_source: null
     verified: false
+    notes: Unclear if still open (Filippo not sure).
 
-  - name: Under Music Club
-    aliases: [Under Seriate, Fiorenudo]
+  - name: Tiky Klub
+    aliases: [Tiky Club, Tiky Seriate, Under Music Club, Under Seriate, Fiorenudo, Thanka]
     city: Seriate
     province: BG
     address: Via Nazionale 93, Seriate
@@ -167,27 +170,14 @@ venues:
     lon: 9.735
     km: 4.9
     kind: club
-    status: check
+    status: active
     socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/44664}
     ig_source: null
     verified: false
-    notes: Same address RA lists for the old Fiorenudo club.
-
-  - name: Tiky Klub
-    aliases: [Tiky Club, Tiky Seriate]
-    city: Seriate
-    province: BG
-    lat: 45.680
-    lon: 9.735
-    km: 4.9
-    kind: club
-    status: check
-    socials: {instagram: null, website: null}
-    ig_source: null
-    verified: false
+    notes: Was Under Music Club (and earlier Fiorenudo). Room 2 is Thanka (per Filippo).
 
   - name: Queen Club
-    aliases: [Discoteca Queen, Queen Seriate]
+    aliases: [Discoteca Queen, Queen Seriate, Queen Disco]
     city: Seriate
     province: BG
     address: Cassinone (Seriate)
@@ -195,10 +185,11 @@ venues:
     lon: 9.735
     km: 4.9
     kind: club
-    status: check
-    socials: {instagram: null, website: null}
-    ig_source: null
+    status: active
+    socials: {instagram: discoteca_queen, website: null}
+    ig_source: user
     verified: false
+    ig_type: unknown
 
   - name: Oronero
     aliases: [Oronero Love & Music, Oro Nero Nembro]
@@ -208,11 +199,11 @@ venues:
     lon: 9.760
     km: 8.3
     kind: club
-    status: check
-    socials: {instagram: null, website: null}
-    ig_source: null
+    status: active
+    socials: {instagram: oroneroloveandmusic, website: null}
+    ig_source: user
     verified: false
-    notes: Hosts School Party Oronero (@schoolparty_oronero, teen nights). Main account not confirmed (oronero.1 is a candidate).
+    ig_type: unknown
 
   - name: BV Rooftop
     aliases: [BV Rooftop Brignano]
@@ -337,10 +328,10 @@ venues:
     kind: live_club
     status: active
     genres: [rock, live]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: inkclub_bergamo, website: null}
+    ig_source: user
     verified: false
-    notes: Mostly rock. @inkhub_bergamo is a candidate account, unconfirmed.
+    ig_type: unknown
 
   - name: Circolino della Malpensata
     aliases: [Circolino Malpensata, Il Circolino]
@@ -355,21 +346,6 @@ venues:
     socials: {instagram: null, website: null}
     ig_source: null
     verified: false
-
-  - name: Clash Club
-    aliases: [Circolo Ego, Cavo Club]
-    city: Bergamo
-    province: BG
-    address: Via Baschenis 9, Bergamo
-    lat: 45.693
-    lon: 9.665
-    km: 1.1
-    kind: club
-    status: check
-    socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/72471}
-    ig_source: null
-    verified: false
-    notes: Same address has had three names on RA (Cavo, Circolo Ego, Clash). No current activity found.
 
   - name: Keller Factory
     aliases: [Keller Curno]
@@ -409,10 +385,11 @@ venues:
     kind: live_club
     capacity: 2500
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: liveclub, website: null}
+    ig_source: user
     verified: false
     notes: In Milan province but inside 20 km. Concerts plus theme parties; occasional dance acts.
+    ig_type: unknown
 
   - name: Ninfea Social Club
     aliases: [Ninfea Sorisole]
@@ -425,9 +402,10 @@ venues:
     kind: bar
     status: active
     genres: [reggae/dub]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: ninfeasocialclub, website: null}
+    ig_source: user
     verified: false
+    ig_type: unknown
 
   # =================== Open air / festivals / big rooms ===================
   - name: Two Festival
@@ -441,10 +419,11 @@ venues:
     kind: open_air
     status: active        # 25-28 Jun 2026, house / tech house
     genres: [house, tech house]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: twofestival, website: null}
+    ig_source: user
     verified: false
-    notes: The area's main summer dance festival. Instagram not found; check flyers.
+    notes: The area's main summer dance festival.
+    ig_type: unknown
 
   - name: NXT Station
     aliases: [NXT, Piazzale degli Alpini]
@@ -455,10 +434,11 @@ venues:
     km: 0.7
     kind: open_air
     status: active        # summer season, late May to early Sep
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: nxtbergamo, website: null}
+    ig_source: user
     verified: false
     notes: Mixed pop/indie/rap; DJ nights at times.
+    ig_type: unknown
 
   - name: Lazzaretto
     aliases: [Lazzaretto Estate, Lazzaretto Bergamo]
