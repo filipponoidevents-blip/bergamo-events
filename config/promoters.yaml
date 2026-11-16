@@ -17,11 +17,14 @@ promoters:
     relevance: low
     notes: "One-off big-event brand that collaborated with Bolgia; not a regular local promoter (per Filippo)."
   - name: JUICE Crew
-    instagram: null          # candidates: thejuicecrew, juice_crew_official; not confirmed
-    ig_source: null
+    aliases: [JUICE, JUICE (BG)]
+    instagram: juiceclubit
+    ig_source: user
+    ig_type: business (Call button)
+    website: https://www.juiceclub.it
     genres: [house, tech house]
-    venues: [Nikita, Setai Club]
-    notes: Runs "El Jardín de Nikita". Partners LOFT Bergamo, LOOP, Metaphora, Beatmode.
+    venues: [Nikita, Setai Club, LOFT Bergamo]
+    notes: Deep house (Dani Vescovi, Lapo Underground, Nesta). Runs "El Jardín de Nikita". Partners LOFT Bergamo, LOOP, Metaphora, Beatmode.
   - name: Groove Factory
     instagram: null
     ig_source: null
@@ -45,8 +48,8 @@ promoters:
     venues: [Edoné]
     notes: Electronic nights with blo:som.
   - name: Le Cannibale
-    instagram: null
-    ig_source: null
+    instagram: lecannibaleclub
+    ig_source: user
     genres: [house, disco]
     venues: [Daste, Gres Art 671]
     notes: Milan brand. Open All at Gres Art 671 (14 Nov 2026).
@@ -388,11 +391,13 @@ promoters:
     venues: [Bar 30&Lode]
     notes: Spritz Party.
   - name: Icon
-    instagram: null
-    ig_source: null
+    aliases: [ICON Events]
+    instagram: iconevents.official
+    ig_source: user
+    ig_type: business ("Event")
     genres: [tech house]
-    venues: [Tiky Klub]
-    notes: "Tech house night hosted by Boffe and Illes, 20 Nov 2026."
+    venues: [Tiky Klub, Contest Cocktail Bar]
+    notes: "Presented by @il_boffe. Tech house night with Boffe and Illes at Tiky 20 Nov 2026; aperitivo DJ set at Contest 15 Nov."
   - name: Muchacha
     instagram: null
     ig_source: null

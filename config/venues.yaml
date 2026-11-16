@@ -232,13 +232,31 @@ venues:
     lon: 9.640
     km: 17.6
     kind: club
-    status: check
+    status: active
     socials: {instagram: baiadelrebrignano, website: https://baiadelrebrignano.it}
     ig_source: user
     ig_type: business
     address: "Via Cologno 22, Brignano Gera d'Adda"
     verified: false
-    notes: "An unnamed venue in Brignano was shut by police on 5 Nov 2025 for running as an unlicensed club (Il Giorno). Unclear if it is this one. Friday DJ nights (reggaeton, dembow, phonk)."
+    notes: "An unnamed venue in Brignano was shut by police on 5 Nov 2025 for running as an unlicensed club (Il Giorno). Unclear if it is this one. Active again: Friday DJ nights (reggaeton, dembow, phonk)."
+
+  - name: LOFT Bergamo
+    aliases: [LOFT, Loft Azzano, LOFT Hi-Fi Bar]
+    city: Azzano San Paolo
+    province: BG
+    address: "Via Stezzano 18, Azzano San Paolo"
+    lat: 45.661
+    lon: 9.673
+    km: 4.2
+    kind: club
+    status: active
+    genres: [house, deep house, tech house]
+    socials: {instagram: loft.bergamo, website: https://loftbergamo.com}
+    ig_source: user
+    ig_type: business ("Dance club and nightclub")
+    tickets_via: [Upass]
+    verified: false
+    notes: "Hi-Fi bar (21-23, vinyl deep house + dinner) and premium club (23-04). Nights: JUICE (Dani Vescovi, Lapo Underground), Beatmode with Logic (1-year party 20 Nov 2026), Flag (21 Nov, U-pass registration)."
 
   # =================== Live clubs / cultural spaces with DJ nights ===================
   - name: Edoné
