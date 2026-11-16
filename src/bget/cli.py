@@ -152,6 +152,9 @@ def probe(cfg: Config, urls: list[str], follow: str | None) -> None:
         except Exception as e:  # noqa: BLE001
             print(f"  fetch failed: {e}")
             continue
+        if html.lstrip()[:1] in "[{":
+            print(f"  JSON, {len(html)} bytes: {html[:1500]}")
+            continue
         print(f"  {len(html)} bytes, {html.count('application/ld+json')} JSON-LD blocks, "
               f"__NEXT_DATA__={'yes' if '__NEXT_DATA__' in html else 'no'}")
         api = sorted(set(re.findall(r"https?://[a-z0-9.-]+/(?:v\d|api)[^\"'\\\s<>]{0,60}", html)))[:15]
