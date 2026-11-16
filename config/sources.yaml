@@ -38,6 +38,25 @@ sources:
     enabled: false
     urls: []
 
+  # Ticketing sites Filippo uses (probed from GitHub's network on 2026-11-16):
+  #   Fourvenues - blocks automated requests (403) -> needs another route
+  #   Xceed      - city listing URL still to find; event pages to be checked
+  #   Upass      - homepage has no structured data; /club/ pages to be checked
+  #   TicketSMS  - JavaScript app, homepage has no events in the HTML
+  # Paste example event links into `urls` and run the probe-site workflow to check them.
+  - id: fourvenues
+    type: jsonld
+    enabled: false
+    urls: []
+  - id: upass
+    type: jsonld
+    enabled: false
+    urls: []
+  - id: ticketsms
+    type: jsonld
+    enabled: false
+    urls: []
+
   - id: venue_websites
     type: jsonld
     enabled: false
