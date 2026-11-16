@@ -132,7 +132,14 @@ class InstagramSource(Source):
         q = self._load_review()
         now = datetime.now(timezone.utc)
         errors = []
-        for acc in self.spec.get("accounts", []):
+        accounts = self.spec.get("accounts", [])
+        # Meta caps requests per hour for apps in development mode, so each run checks a
+        # rotating slice of the list (instagram.accounts_per_run) and resumes where it stopped.
+        per_run = self._ig.get("accounts_per_run") or len(accounts)
+        start = q.get("next_account", 0) % max(len(accounts), 1)
+        batch = (accounts[start:] + accounts[:start])[:per_run]
+        checked = 0
+        for acc in batch:
             acc = {"username": acc} if isinstance(acc, str) else acc
             user = acc["username"].lstrip("@")
             try:
@@ -144,7 +151,13 @@ class InstagramSource(Source):
                                              "IG_ACCESS_TOKEN", "(#10)")):
                     self.token_problem = str(e)
                     break  # same failure for every account: stop early
+                if "(#4)" in str(e) or "(#17)" in str(e) or "(#32)" in str(e):
+                    errors.pop()  # not this account's fault
+                    log.warning("instagram: Meta request limit reached after %d accounts; resuming next run", checked)
+                    break
+                checked += 1
                 continue
+            checked += 1
             for post in posts:
                 pid = post["id"]
                 posted = datetime.fromisoformat(post["timestamp"].replace("+0000", "+00:00"))
@@ -169,15 +182,20 @@ class InstagramSource(Source):
                 q["seen_posts"][pid] = {"account": user, "at": post["timestamp"],
                                         "event": ex.is_event_announcement}
                 self._queue(q, ex, post, user, acc.get("venue"))
+        if accounts:
+            q["next_account"] = (start + checked) % len(accounts)
         self._save_review(q)
-        if errors and len(errors) == len(self.spec.get("accounts", [])):
+        if errors and checked and len(errors) == checked:
             raise RuntimeError("every Instagram account failed; last error: " + errors[-1])
         yield from self.approved_events(q)
 
     def _queue(self, q, ex: Extraction, post, user, account_venue) -> None:
         if not ex.is_event_announcement:
             return
+        today = datetime.now(timezone.utc).date().isoformat()
         for i, e in enumerate(ex.events):
+            if e.date < today:  # already happened: nothing to put on the calendar
+                continue
             item_id = f"{post['id']}-{i}"
             q["items"][item_id] = {
                 "id": item_id,

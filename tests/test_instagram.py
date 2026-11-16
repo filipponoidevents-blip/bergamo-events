@@ -110,3 +110,30 @@ def test_review_page_lists_pending(tmp_path):
     src, _ = run(cfg, FakeGraph(POSTS))
     text = write_review_md(tmp_path, src._load_review()["items"], set(), set())
     assert "`2-0` **Maybe party**" in text and "Waiting for approval (1)" in text
+
+
+def test_accounts_rotate_across_runs_and_stop_on_rate_limit(tmp_path):
+    cfg = make_root(tmp_path)
+    cfg.settings["instagram"]["accounts_per_run"] = 2
+
+    class G:
+        def __init__(self, limit_on=None):
+            self.seen, self.limit_on = [], limit_on
+
+        def recent_media(self, username, limit=12):
+            if username == self.limit_on:
+                raise RuntimeError(f"@{username}: (#4) Application request limit reached")
+            self.seen.append(username)
+            return []
+
+    spec = {"id": "ig", "type": "instagram", "accounts": ["a", "b", "c"]}
+    g = G()
+    list(InstagramSource(spec, cfg, graph=g, extractor=fake_extractor).collect())
+    list(InstagramSource(spec, cfg, graph=g, extractor=fake_extractor).collect())
+    assert g.seen == ["a", "b", "c", "a"]
+    g2 = G(limit_on="c")  # next run starts at b, stops at c, so c is retried next time
+    list(InstagramSource(spec, cfg, graph=g2, extractor=fake_extractor).collect())
+    assert g2.seen == ["b"]
+    g3 = G()
+    list(InstagramSource(spec, cfg, graph=g3, extractor=fake_extractor).collect())
+    assert g3.seen[0] == "c"

@@ -50,6 +50,7 @@ instagram:
   user_id: "17841456676305081"  # @seratebergamo, the account making the API calls (not secret)
   graph_version: v27.0        # Meta Graph API version (matches the Graph API Explorer, Nov 2026)
   posts_per_account: 12       # latest posts read per account per run
+  accounts_per_run: 20        # Meta's hourly limit for development-mode apps; the rest are checked next run
   max_post_age_days: 21       # older posts are skipped
   ocr: false                  # free: read text in flyer images with Tesseract for every account (slower)
   read_images: false          # reader: claude only. true = also read flyer images (more accurate, costs more)

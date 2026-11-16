@@ -1,11 +1,11 @@
-# Runs the collector every 6 hours.
+# Runs the collector every 2 hours.
 # - Commits the updated event store (data/events.json) to main.
 # - Publishes the contents of out/ (the .ics feeds and alerts.md) to the `feed` branch.
 #   Cloudflare Pages is connected to the `feed` branch with no build command, so it
 #   serves e.g. https://<project>.pages.dev/bergamo.ics while this repo stays private.
 name: update-calendar
 on:
-  schedule: [{cron: "17 */6 * * *"}]
+  schedule: [{cron: "17 */2 * * *"}]   # every 2 hours: 20 Instagram accounts per run, whole list ~every 8h
   workflow_dispatch: {}
   push:
     branches: [main]
