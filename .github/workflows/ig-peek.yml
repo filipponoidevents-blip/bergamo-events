@@ -1,0 +1,28 @@
+# Manual diagnostics: print the latest Instagram captions of a few accounts, to tune the caption reader.
+name: ig-peek
+on:
+  workflow_dispatch:
+    inputs:
+      accounts: {description: "Space-separated Instagram usernames", required: true}
+permissions: {contents: read}
+jobs:
+  peek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -e .
+      - env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          ACCOUNTS: ${{ inputs.accounts }}
+        run: |
+          python - <<'PY'
+          import os, yaml
+          from bget.sources.instagram import GraphClient
+          s = yaml.safe_load(open("config/settings.yaml"))["instagram"]
+          g = GraphClient(str(s["user_id"]), os.environ["IG_ACCESS_TOKEN"], s.get("graph_version", "v27.0"))
+          for acc in os.environ["ACCOUNTS"].split():
+              for p in g.recent_media(acc, 8):
+                  print(f"=== @{acc} {p.get('timestamp')} {p.get('permalink')}\n{p.get('caption')}\n")
+          PY
