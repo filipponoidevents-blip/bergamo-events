@@ -79,7 +79,8 @@ promoters:
   - name: Night Life Bergamo
     instagram: nightlifebergamo
     ig_source: user
-    notes: Weekly carousel listing every night out in the province. Best single source to watch; posts are images, so it needs flyer reading.
+    use: venue_discovery_only   # Filippo: good for finding venues, NOT a calendar source
+    notes: Weekly carousel listing every night out in the province. Use it to discover venues and promoters; do not import its listings as events.
   - name: Sommet
     instagram: sommet_night
     ig_source: user
