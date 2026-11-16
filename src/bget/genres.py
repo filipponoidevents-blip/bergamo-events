@@ -13,24 +13,24 @@ from .models import Event
 
 # label -> words that indicate it (checked in this order: specific before generic)
 GENRES: list[tuple[str, str]] = [
-    ("Hardstyle / hardcore", r"hard ?style|hardcore|gabber|frenchcore|uptempo|hard ?dance"),
-    ("Hard techno", r"hard ?techno|hardtechno|industrial techno|industrial|schranz|tekno|free ?party|rave|"
+    ("Hardstyle / Hardcore", r"hard ?style|hardcore|gabber|frenchcore|uptempo|hard ?dance"),
+    ("Hard Techno", r"hard ?techno|hardtechno|industrial techno|industrial|schranz|tekno|free ?party|rave|"
                     r"hard ?groove|acid techno"),
-    ("Melodic techno", r"melodic ?techno|melodic ?house|melodic|afterlife|progressive house|progressive|"
+    ("Melodic Techno", r"melodic ?techno|melodic ?house|melodic|afterlife|progressive house|progressive|"
                        r"organic house|indie dance"),
     ("Techno", r"techno(?!log)|technoitalia"),
-    ("Tech house", r"tech ?-?house|techhouse"),
-    ("Afro house", r"afro ?house|afro ?tech|afro|afrobeats?|amapiano"),
-    ("Deep house", r"deep ?house|deephouse|deep"),
+    ("Tech House", r"tech ?-?house|techhouse"),
+    ("Afro House", r"afro ?house|afro ?tech|afro|afrobeats?|amapiano"),
+    ("Deep House", r"deep ?house|deephouse|deep"),
     ("Minimal", r"minimal|microhouse|rominimal"),
-    ("Drum & bass", r"drum ?(?:&|and|n|'n'|’n’) ?bass|dnb|d&b|jungle|bass music|dubstep|neurofunk|liquid|"
+    ("Drum & Bass", r"drum ?(?:&|and|n|'n'|’n’) ?bass|dnb|d&b|jungle|bass music|dubstep|neurofunk|liquid|"
                     r"breakbeat|breaks|uk ?garage|ukg"),
     ("Trance", r"trance|psytrance|psy|goa"),
-    ("Disco / funk", r"disco(?!tec)|discomusic|italo ?disco|nu ?disco|funk|funky|soul|boogie|cosmic"),
+    ("Disco / Funk", r"disco(?!tec)|discomusic|italo ?disco|nu ?disco|funk|funky|soul|boogie|cosmic"),
     ("House", r"house|housemusic|house music|jackin|soulful|french touch|piano house"),
-    ("Latin / reggaeton", r"reggaeton|regueton|latin[oa]?|latin music|salsa|bachata|kizomba|perreo|dembow|"
+    ("Latin / Reggaeton", r"reggaeton|regueton|latin[oa]?|latin music|salsa|bachata|kizomba|perreo|dembow|"
                           r"cubana|dancehall|moombahton|baile"),
-    ("Hip hop / trap", r"hip ?-?hop|trap|rap(?!ture|id)|r&b|rnb|r'n'b|drill|urban"),
+    ("Hip Hop / Trap", r"hip ?-?hop|trap|rap(?!ture|id)|r&b|rnb|r'n'b|drill|urban"),
     ("Revival", r"revival|remember|anni ?'?(?:60|70|80|90)|'?(?:70|80|90)s|'?(?:70|80|90)'s|2000s|anni 2000|"
                 r"old ?school|eurodance|italo ?dance"),
     ("Commerciale", r"commerciale|commercial|hits|top hits|edm|top 40|mainstream|pop(?!-?up)|reggaeton e commerciale|"
@@ -59,6 +59,11 @@ def _from_list(genres: list[str] | None) -> str | None:
         if (label := detect(g)):
             return label
     return None
+
+
+def title_case(s: str) -> str:
+    """Capitalize each word, leaving all-caps words (EDM) and symbols (&, /, 360) as they are."""
+    return " ".join(w if w.isupper() or not w[:1].isalpha() else w[:1].upper() + w[1:] for w in s.split(" "))
 
 
 def _norm(s: str) -> str:
@@ -103,7 +108,11 @@ class GenreAssigner:
                                    [hand] if hand else (p.get("genres") or [])))
 
     def assign(self, ev: Event) -> tuple[str, str]:
-        """Returns (genre, where it came from)."""
+        """Returns (genre, where it came from), every word capitalized ("Tech House")."""
+        g, src = self._assign(ev)
+        return title_case(g), src
+
+    def _assign(self, ev: Event) -> tuple[str, str]:
         if (g := self.nights.get((_norm(ev.venue.name), ev.night.isoformat()))):
             return g, "manual"
         own = " ".join([ev.title, ev.description, " ".join(ev.genres), " ".join(g for a in ev.artists for g in a.genres)])

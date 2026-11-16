@@ -122,8 +122,8 @@ def test_categories():
 
 def test_genre_detect_order():
     from bget.genres import detect
-    assert detect("Hard techno all night") == "Hard techno"
-    assert detect("tech-house party") == "Tech house"
+    assert detect("Hard techno all night") == "Hard Techno"
+    assert detect("tech-house party") == "Tech House"
     assert detect("Techno night") == "Techno"
     assert detect("aperitivo") is None
 
@@ -147,8 +147,8 @@ def test_genre_overrides():
                            "venues": {"Bolgia": "Hard techno"}}
     g = GenreAssigner(cfg)
     ev = lambda title, start: Event(title=title, start=start, venue=Venue(name="Bolgia", city="Bergamo"))
-    assert g.assign(ev("Sabato", datetime(2026, 11, 22, 1, 0))) == ("Italo disco", "manual")
-    assert g.assign(ev("Sabato", datetime(2026, 11, 28, 23, 0))) == ("Hard techno", "venue")
+    assert g.assign(ev("Sabato", datetime(2026, 11, 22, 1, 0))) == ("Italo Disco", "manual")
+    assert g.assign(ev("Sabato", datetime(2026, 11, 28, 23, 0))) == ("Hard Techno", "venue")
     assert g.assign(ev("House night", datetime(2026, 11, 28, 23, 0))) == ("House", "event")
 
 
@@ -156,7 +156,7 @@ def test_caption_genres():
     from bget.genres import detect, detect_all
     from bget.sources.instagram_rules import find_genres
     assert find_genres("Discoteca Queen sabato sera", ["disco", "house"]) == []
-    assert detect("#discoteca #bergamo reggaeton e commerciale") == "Latin / reggaeton"
+    assert detect("#discoteca #bergamo reggaeton e commerciale") == "Latin / Reggaeton"
     assert detect("#technobergamo") == "Techno"
     assert detect("musica HOUSE e hits") == "House"
     assert "Commerciale" in detect_all("house e commerciale")
