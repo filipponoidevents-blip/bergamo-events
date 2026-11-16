@@ -47,7 +47,7 @@ venues:
     genres: [commercial, house]
     socials: {instagram: setai_club_official, website: null, resident_advisor: https://ra.co/clubs/5628}
     tickets: [https://xceed.me/bergamo/club/setai-club]
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
     notes: Formerly Fluid (JUICE Crew nights with Patrick Topping etc.). Also hosts School Party (@the_original_schoolparty, teen nights, low relevance).
@@ -83,7 +83,7 @@ venues:
     status: active        # JUICE "El Jardín de Nikita" on RA
     genres: [house, tech house, commercial]
     socials: {instagram: nikitadiscoclub, website: null, resident_advisor: https://ra.co/clubs/169169}
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
     notes: Part of the Costez group (@costez_official, costez.club; old listing said @hotelcostez). JUICE Crew runs house nights here.
@@ -100,7 +100,7 @@ venues:
     status: active
     genres: [commercial, latin, house]
     socials: {instagram: bobadillafeelingclub, website: null, resident_advisor: https://ra.co/clubs/33408}
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
     notes: Large disco + restaurant; occasional house headliners (Darius Syrossian on RA). Mostly mainstream.
@@ -156,11 +156,11 @@ venues:
     lon: 9.612
     km: 5.2
     kind: club
-    status: check
+    status: closed
     socials: {instagram: null, website: null}
     ig_source: null
     verified: false
-    notes: Unclear if still open (Filippo not sure).
+    notes: Probably closed (Filippo, 16 Nov 2026).
 
   - name: Tiky Klub
     aliases: [Tiky Club, Tiky Seriate, Under Music Club, Under Seriate, Fiorenudo]
@@ -220,7 +220,7 @@ venues:
     status: active
     genres: [house]
     socials: {instagram: bv_rooftop, website: null, resident_advisor: https://ra.co/clubs/243276}
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
 
@@ -251,7 +251,7 @@ venues:
     status: active
     genres: [electronic, live, reggae/dub]
     socials: {instagram: edonebergamo, website: null}
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
     notes: Hosts MiDi Motori Digitali x blo:som electronic nights and Bergamo Sunfest (reggae, Jul-Aug).
@@ -269,7 +269,7 @@ venues:
     genres: [house, techno, live]
     socials: {instagram: daste_bergamo, website: null, resident_advisor: https://ra.co/clubs/208117}
     tickets: [https://xceed.me/en/bergamo/club/daste-bergamo]
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
     notes: Former power station. Has hosted Le Cannibale, Sabotage "Sotterranea", Utopia & Acrylic (Innervisions). Bistrot account @daste_bistro is separate.
@@ -285,7 +285,7 @@ venues:
     status: active
     genres: [live, party]
     socials: {instagram: drusobg, website: null}
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
     notes: Mostly live and themed party nights ("Be Stupid").
@@ -316,7 +316,7 @@ venues:
     status: active
     genres: [techno, drum and bass, live]
     socials: {instagram: csapacipaciana, website: null, resident_advisor: https://ra.co/clubs/69109}
-    ig_source: search
+    ig_source: user
     ig_type: unknown
     verified: false
     notes: Social centre; underground techno/tekno nights.
