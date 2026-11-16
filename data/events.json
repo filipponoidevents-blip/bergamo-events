@@ -25,6 +25,8 @@
     "genres": [
       "reggaeton"
     ],
+    "genre": "Latin / reggaeton",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/DfJ_-UkNMIG/",
@@ -50,60 +52,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.030585+00:00",
-    "updated": "2026-11-16T21:44:55.137055+00:00",
+    "updated": "2026-11-16T21:51:55.863217+00:00",
     "uid": "772b486f4a4271df"
-  },
-  {
-    "title": "Per tutti gli amanti della musica elettronica, torna questo giovedì sul palco de",
-    "start": "2026-11-12T20:00:00+01:00",
-    "venue": {
-      "name": "Ink Club",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.699,
-      "lon": 9.67,
-      "address": null,
-      "kind": "live_club",
-      "capacity": null,
-      "socials": {
-        "instagram": "inkclub_bergamo",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "elettronica"
-    ],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfiLjFoxjsQ/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/900732669_18371852224215937_3584199598376862526_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FWd7YxR4AzUQ7kNvwHYFMIy&_nc_oc=AdrZ_W58LsxhZSSCLmg8XvaVJFiqOU3XaIacp6tD74RS1AeY-faj2sney2Yl8rdwQkQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=JRLtrLZpE12cKoiM2Sa6eA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTOIuuYCZRsASj3IsTtTspWVKvEoXYI2wkUcVCQC5N2og&oe=6B015D5B",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18134711851838917-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfiLjFoxjsQ/"
-    ],
-    "score": 1.8,
-    "scope": "ignore",
-    "distance_km": 0.6,
-    "reasons": [
-      "genre:elettronica",
-      "venue:live_club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T21:22:23.030479+00:00",
-    "updated": "2026-11-16T21:44:55.138859+00:00",
-    "uid": "d94571a148d43479"
   },
   {
     "title": "VENERDÌ 13.11  dalle 21:00 dj set con federicosalimeii",
@@ -131,6 +81,8 @@
     "genres": [
       "dj set"
     ],
+    "genre": "Unspecified",
+    "genre_source": "none",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/Dfg-ijnHJj3/",
@@ -154,7 +106,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.037923+00:00",
-    "updated": "2026-11-16T21:44:55.137706+00:00",
+    "updated": "2026-11-16T21:51:55.864068+00:00",
     "uid": "44add0a834bf5a8f"
   },
   {
@@ -183,6 +135,8 @@
     "genres": [
       "tech house"
     ],
+    "genre": "Tech house",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/Dfm_tHRJwae/",
@@ -207,7 +161,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.038962+00:00",
-    "updated": "2026-11-16T21:44:55.140692+00:00",
+    "updated": "2026-11-16T21:51:55.867132+00:00",
     "uid": "2c3345abb902a5ec"
   },
   {
@@ -236,6 +190,8 @@
     "genres": [
       "disco"
     ],
+    "genre": "Disco / funk",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/DfgH_kYtWki/",
@@ -259,7 +215,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036390+00:00",
-    "updated": "2026-11-16T21:44:55.141217+00:00",
+    "updated": "2026-11-16T21:51:55.867823+00:00",
     "uid": "2992e78d345bcc70"
   },
   {
@@ -288,6 +244,8 @@
     "genres": [
       "dj set"
     ],
+    "genre": "Unspecified",
+    "genre_source": "none",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/Dfjmac4CHXW/",
@@ -310,7 +268,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034104+00:00",
-    "updated": "2026-11-16T21:44:55.135721+00:00",
+    "updated": "2026-11-16T21:51:55.862084+00:00",
     "uid": "1d9cfe638a16e92c"
   },
   {
@@ -339,6 +297,8 @@
     "genres": [
       "disco"
     ],
+    "genre": "Disco / funk",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/DfgKhfTI7T8/",
@@ -364,7 +324,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035819+00:00",
-    "updated": "2026-11-16T21:44:55.141044+00:00",
+    "updated": "2026-11-16T21:51:55.867601+00:00",
     "uid": "208673cac3dfbdf1"
   },
   {
@@ -393,6 +353,8 @@
     "genres": [
       "dj set"
     ],
+    "genre": "Unspecified",
+    "genre_source": "none",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/DfXljtCAMYn/",
@@ -415,7 +377,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.029938+00:00",
-    "updated": "2026-11-16T21:44:55.141725+00:00",
+    "updated": "2026-11-16T21:51:55.868461+00:00",
     "uid": "58e01054adc70132"
   },
   {
@@ -445,6 +407,8 @@
       "disco",
       "dj set"
     ],
+    "genre": "Disco / funk",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/DfrEnKpKwDn/",
@@ -469,7 +433,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.032372+00:00",
-    "updated": "2026-11-16T21:44:55.140049+00:00",
+    "updated": "2026-11-16T21:51:55.866304+00:00",
     "uid": "ba8f065aad3733ae"
   },
   {
@@ -498,6 +462,8 @@
     "genres": [
       "dj set"
     ],
+    "genre": "Unspecified",
+    "genre_source": "none",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/Dfy8y_uChr-/",
@@ -520,7 +486,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.031795+00:00",
-    "updated": "2026-11-16T21:44:55.138235+00:00",
+    "updated": "2026-11-16T21:51:55.864777+00:00",
     "uid": "ea678bf0abdd35a3"
   },
   {
@@ -549,6 +515,8 @@
     "genres": [
       "disco"
     ],
+    "genre": "Disco / funk",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/Dfw-YMmthRe/",
@@ -574,7 +542,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035283+00:00",
-    "updated": "2026-11-16T21:44:55.140870+00:00",
+    "updated": "2026-11-16T21:51:55.867352+00:00",
     "uid": "eb69ad9a78c5b653"
   },
   {
@@ -628,6 +596,8 @@
     "genres": [
       "techno"
     ],
+    "genre": "Techno",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://example.com/sample-techno-friday",
@@ -649,7 +619,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250404+00:00",
-    "updated": "2026-11-16T21:44:54.330857+00:00",
+    "updated": "2026-11-16T21:51:51.122052+00:00",
     "uid": "98ba0594ee71dac8"
   },
   {
@@ -691,6 +661,8 @@
     "genres": [
       "tech house"
     ],
+    "genre": "Tech house",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": null,
@@ -712,7 +684,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250526+00:00",
-    "updated": "2026-11-16T21:44:54.330953+00:00",
+    "updated": "2026-11-16T21:51:51.122160+00:00",
     "uid": "b2aa1c456e43d358"
   },
   {
@@ -741,6 +713,8 @@
     "genres": [
       "disco"
     ],
+    "genre": "Disco / funk",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/Df0FPmjt6FV/",
@@ -766,7 +740,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034727+00:00",
-    "updated": "2026-11-16T21:44:55.139702+00:00",
+    "updated": "2026-11-16T21:51:55.865851+00:00",
     "uid": "32ae18044ccf8c8c"
   },
   {
@@ -808,6 +782,8 @@
     "genres": [
       "indie rock"
     ],
+    "genre": "Unspecified",
+    "genre_source": "none",
     "category": "concert",
     "description": "",
     "url": null,
@@ -829,7 +805,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250613+00:00",
-    "updated": "2026-11-16T21:44:54.331259+00:00",
+    "updated": "2026-11-16T21:51:51.122576+00:00",
     "uid": "863422547996317e"
   },
   {
@@ -884,6 +860,8 @@
       "deep house",
       "house"
     ],
+    "genre": "Deep house",
+    "genre_source": "event",
     "category": "other",
     "description": "",
     "url": "https://example.com/house-session",
@@ -913,7 +891,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.252958+00:00",
-    "updated": "2026-11-16T21:44:54.333458+00:00",
+    "updated": "2026-11-16T21:51:51.125415+00:00",
     "uid": "001b2eb2012def2c"
   },
   {
@@ -955,6 +933,8 @@
     "genres": [
       "melodic techno"
     ],
+    "genre": "Melodic techno",
+    "genre_source": "event",
     "category": "festival",
     "description": "Sample of a big Milan announcement that should become a regional alert.",
     "url": null,
@@ -980,7 +960,7 @@
     ],
     "alert_level": "national",
     "first_seen": "2026-11-16T15:48:15.250740+00:00",
-    "updated": "2026-11-16T21:44:54.332025+00:00",
+    "updated": "2026-11-16T21:51:51.123584+00:00",
     "uid": "35a8669803d2aa2a"
   },
   {
@@ -1009,6 +989,8 @@
     "genres": [
       "house"
     ],
+    "genre": "House",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/DfzPZPrtGfJ/",
@@ -1032,7 +1014,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034453+00:00",
-    "updated": "2026-11-16T21:44:55.136210+00:00",
+    "updated": "2026-11-16T21:51:55.862717+00:00",
     "uid": "9b6fff17fe858b19"
   },
   {
@@ -1061,6 +1043,8 @@
     "genres": [
       "commerciale"
     ],
+    "genre": "Commercial",
+    "genre_source": "event",
     "category": "club",
     "description": "",
     "url": null,
@@ -1082,59 +1066,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250816+00:00",
-    "updated": "2026-11-16T21:44:54.332421+00:00",
+    "updated": "2026-11-16T21:51:51.124086+00:00",
     "uid": "bf822436be9d5e20"
-  },
-  {
-    "title": "𝑷𝒓𝒐𝒔𝒔𝒊𝒎𝒊 𝒆𝒗𝒆𝒏𝒕𝒊",
-    "start": "2026-12-12T21:30:00+01:00",
-    "venue": {
-      "name": "Circolino della Malpensata",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.688,
-      "lon": 9.67,
-      "address": "Via Luzzatti 68, Bergamo",
-      "kind": "bar",
-      "capacity": null,
-      "socials": {
-        "instagram": "circolinomalpensata_bergamo",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "disco"
-    ],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfzNRhYMLt1/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/906808443_18002430006050683_7158341853505467093_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6N2suZZNksgQ7kNvwHzR70g&_nc_oc=AdoNBEWs7AmicZ7-QIpSleKjtX-q5MvU1v9byfVeJFXcgY_Wwpj08CZqcDIA-TE_wis&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRignMFyXpjLwuWFRCwITNChwjh5_bsVSZh34sURbsm2A&oe=6B01382A",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18126731233912922-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfzNRhYMLt1/"
-    ],
-    "score": 1.2,
-    "scope": "ignore",
-    "distance_km": 1.3,
-    "reasons": [
-      "genre:disco"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T21:22:23.031218+00:00",
-    "updated": "2026-11-16T21:44:55.138563+00:00",
-    "uid": "d4536091ea54521e"
   },
   {
     "title": "IL 2027 INIZIA CON UN BRINDISI CHE FA RUMORE!",
@@ -1162,6 +1095,8 @@
     "genres": [
       "dj set"
     ],
+    "genre": "Unspecified",
+    "genre_source": "none",
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/reel/Dft9l09gc1G/",
@@ -1184,58 +1119,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036898+00:00",
-    "updated": "2026-11-16T21:44:55.136989+00:00",
+    "updated": "2026-11-16T21:51:55.863138+00:00",
     "uid": "a1dad6062f0a841a"
-  },
-  {
-    "title": "ALLA BASE ATTERRA A NINFEA!",
-    "start": "2027-03-30T18:00:00+02:00",
-    "venue": {
-      "name": "Ninfea Social Club",
-      "city": "Sorisole",
-      "province": "BG",
-      "lat": 45.73,
-      "lon": 9.655,
-      "address": "Via Guglielmo Marconi 65, Sorisole",
-      "kind": "bar",
-      "capacity": null,
-      "socials": {
-        "instagram": "ninfeasocialclub",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [
-      "disco"
-    ],
-    "category": "club",
-    "description": "",
-    "url": "https://www.instagram.com/p/DfkO0kMDBaK/",
-    "ticket_url": null,
-    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/895917075_122125870551240064_4164521325550940175_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=omPm0x6729YQ7kNvwFGT3DH&_nc_oc=AdrGwNwsOaVtA_qnuymImgfmzYfh1Ak3Ug-KQ5Goj7Xe1zfGglJy_Jpxlvc0M5ffz1I&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRjAOULx-qECEHuCMKT5YZvrG_-tPfL8qE0SkvhLqOV0Q&oe=6B012A70",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "sources": [
-      "ig:18100675265430465-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/p/DfkO0kMDBaK/"
-    ],
-    "score": 1.2,
-    "scope": "ignore",
-    "distance_km": 3.9,
-    "reasons": [
-      "genre:disco"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T21:22:23.033526+00:00",
-    "updated": "2026-11-16T21:44:55.136655+00:00",
-    "uid": "d1f614d7dc3af951"
   }
 ]
