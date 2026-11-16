@@ -188,6 +188,35 @@
       "permalink": "https://www.instagram.com/reel/DfsAUGvsXGE/",
       "status": "pending"
     },
+    "17899819905412354-0": {
+      "account": "noidfamilia",
+      "account_venue": null,
+      "caption": "Sabato 5 Dicembre noidfamilia a auraclubmantova ⏳\n\nLa Familia nel Club a Mantova,\nHouse Music e Good Vibes\n\nAi dischi:\nheider.music \ncalefandwelo from esotic_event \nmarci_otta and furkan_mcc from dnaproject__ \ntitans.djp \n\nInfo e prenotazioni +393519691736",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-05",
+        "end_time": null,
+        "genres": [
+          "house"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Sabato 5 Dicembre noidfamilia a auraclubmantova",
+        "venue_name": null
+      },
+      "id": "17899819905412354-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902601543_18646284718041982_6361885285479090697_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VJyqsMJMjMIQ7kNvwEfRmZ-&_nc_oc=AdrznsP9pmGE12zfq6H2v9jmORouiEoO9otpUxHYN6orPdOIezrY1VGKOw_c4byafu8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=9cAYVXoLFvCUvavoez7qyw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRLpSgbL_oAp5AIyK5xD7tTHFji4tgLEdmPcx5LOVkYcA&oe=6B0168A7",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Dfz17U8kYYw/",
+      "status": "pending"
+    },
     "17900762928405966-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
@@ -1882,6 +1911,33 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpCDw5IFC4/",
       "status": "info"
+    },
+    "18050866490815308-1": {
+      "account": "sommet_night",
+      "account_venue": null,
+      "caption": "Via broseta si accende 🪩\n\n14 novembre \n21:00-00:00\ndagli amici di unplug__bg \nin console _marco.foresti_ francescosciretta \n\nfree entry con consumazione obbligatoria \n\nci vediamo lì 🧡💙",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "Via broseta si accende",
+        "venue_name": "Unplug Bar"
+      },
+      "id": "18050866490815308-1",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/887604211_18131382412816331_882470525772162395_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=QBsA1Faub_kQ7kNvwGo-C1m&_nc_oc=AdoX3QkPGq3a8W_r5-5ukoFDqR484xAXPUWE2qtL0oEpkvJEZMbuaUSPHXukVYFhyn0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=ZMcTYkb3iBJcmDirhozgMQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSjWZhoLMg8gWbj1F868CkqlXHFMRh_IK38dF7L0QXXsg&oe=6B014D55",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Dfe0WHGoRvc/",
+      "status": "pending"
     },
     "18050892980826584-0": {
       "account": "ninfeasocialclub",
@@ -6460,7 +6516,7 @@
       "status": "info"
     }
   },
-  "next_account": 57,
+  "next_account": 60,
   "seen_posts": {
     "17872910934643134": {
       "account": "hiddenhell.techno",
@@ -6547,9 +6603,19 @@
       "at": "2026-11-13T16:00:27+0000",
       "event": true
     },
+    "17899819905412354": {
+      "account": "noidfamilia",
+      "at": "2026-11-16T17:00:24+0000",
+      "event": true
+    },
     "17900762928405966": {
       "account": "gres_art_671",
       "at": "2026-11-16T17:07:47+0000",
+      "event": false
+    },
+    "17901183003390717": {
+      "account": "noidfamilia",
+      "at": "2026-10-28T16:06:09+0000",
       "event": false
     },
     "17901225036673537": {
@@ -6812,6 +6878,11 @@
       "at": "2026-11-16T19:14:44+0000",
       "event": true
     },
+    "17970900035965023": {
+      "account": "noidfamilia",
+      "at": "2026-10-29T15:13:41+0000",
+      "event": false
+    },
     "17973203511190374": {
       "account": "bucheesebar",
       "at": "2026-11-09T15:28:49+0000",
@@ -6841,6 +6912,11 @@
       "account": "cosmo.food.club",
       "at": "2026-11-16T11:32:13+0000",
       "event": false
+    },
+    "17988621006085026": {
+      "account": "sommet_night",
+      "at": "2026-10-27T11:58:25+0000",
+      "event": true
     },
     "17990009577086652": {
       "account": "daste_bergamo",
@@ -7082,6 +7158,11 @@
       "at": "2026-11-05T11:16:04+0000",
       "event": false
     },
+    "18050866490815308": {
+      "account": "sommet_night",
+      "at": "2026-11-08T13:04:51+0000",
+      "event": true
+    },
     "18050892980826584": {
       "account": "ninfeasocialclub",
       "at": "2026-11-11T16:29:41+0000",
@@ -7262,6 +7343,11 @@
       "at": "2026-11-16T16:56:01+0000",
       "event": true
     },
+    "18097867775448701": {
+      "account": "noidfamilia",
+      "at": "2026-10-31T09:21:39+0000",
+      "event": false
+    },
     "18098084768654430": {
       "account": "gres_art_671",
       "at": "2026-11-06T17:00:03+0000",
@@ -7397,10 +7483,20 @@
       "at": "2026-10-29T12:51:01+0000",
       "event": false
     },
+    "18108722477342156": {
+      "account": "noidfamilia",
+      "at": "2026-11-07T16:38:49+0000",
+      "event": true
+    },
     "18108788324262614": {
       "account": "bucheesebar",
       "at": "2026-11-06T11:00:01+0000",
       "event": false
+    },
+    "18108896114361618": {
+      "account": "noidfamilia",
+      "at": "2026-11-13T11:24:26+0000",
+      "event": true
     },
     "18109711460348716": {
       "account": "thanka.official",
@@ -7541,6 +7637,11 @@
       "account": "nxtbergamo",
       "at": "2026-11-16T17:07:49+0000",
       "event": true
+    },
+    "18119090711047677": {
+      "account": "noidfamilia",
+      "at": "2026-10-29T15:12:56+0000",
+      "event": false
     },
     "18119312137823708": {
       "account": "mint_lounge",
@@ -7787,6 +7888,11 @@
       "at": "2026-11-16T09:00:32+0000",
       "event": true
     },
+    "18130408768885073": {
+      "account": "icksdresstoimpress",
+      "at": "2026-11-09T17:52:27+0000",
+      "event": true
+    },
     "18130491532868119": {
       "account": "inkclub_bergamo",
       "at": "2026-11-02T14:00:14+0000",
@@ -7836,6 +7942,11 @@
       "account": "discoteca_queen",
       "at": "2026-11-11T16:24:26+0000",
       "event": false
+    },
+    "18133090898491695": {
+      "account": "noidfamilia",
+      "at": "2026-11-04T11:14:31+0000",
+      "event": true
     },
     "18133177492684918": {
       "account": "mint_lounge",
@@ -8032,6 +8143,11 @@
       "at": "2026-11-02T16:01:53+0000",
       "event": true
     },
+    "18161293939505246": {
+      "account": "noidfamilia",
+      "at": "2026-10-29T11:00:02+0000",
+      "event": true
+    },
     "18161545930511895": {
       "account": "tiky.klub",
       "at": "2026-11-04T17:25:08+0000",
@@ -8152,6 +8268,11 @@
       "at": "2026-11-05T11:36:16+0000",
       "event": false
     },
+    "18215953498361708": {
+      "account": "noidfamilia",
+      "at": "2026-10-31T09:21:57+0000",
+      "event": false
+    },
     "18220266331315318": {
       "account": "bar_sanmarco",
       "at": "2026-11-16T11:39:57+0000",
@@ -8236,6 +8357,11 @@
       "account": "arya.lounge",
       "at": "2026-11-10T17:15:05+0000",
       "event": true
+    },
+    "18373900843210626": {
+      "account": "noidfamilia",
+      "at": "2026-10-28T16:27:53+0000",
+      "event": false
     },
     "18376876597210351": {
       "account": "kellerfactory_",
@@ -8340,6 +8466,11 @@
     "18642465127042719": {
       "account": "bobadillafeelingclub",
       "at": "2026-10-28T16:00:57+0000",
+      "event": false
+    },
+    "18645100753052198": {
+      "account": "noidfamilia",
+      "at": "2026-10-28T11:00:04+0000",
       "event": false
     },
     "18645585874052049": {
