@@ -366,9 +366,12 @@ venues:
     kind: bar
     status: active
     genres: [live, funk]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: circolinomalpensata_bergamo, website: null}
+    ig_source: user
+    ig_type: business ("Dive bar")
+    address: "Via Luzzatti 68, Bergamo"
     verified: false
+    notes: "Neighbourhood bar (IG name Lino Circo). Live bands, quizzes, open mic. Concerts booked by @ducklive2010 (Duck Live)."
 
   - name: Keller Factory
     aliases: [Keller Curno]
