@@ -13,6 +13,24 @@ from .config import Config
 from .models import Event, slug
 
 
+# "Dj: StefanOne + Andrew V.", "Line up: A b2b B", "Special guest - C", "Main room: D"
+LINEUP_LINE = re.compile(r"^\W*(?:dj'?s?(?:\s*set)?|line\s*-?\s*up|in\s+consolle|consolle|console|special\s+guests?|"
+                         r"guests?|headliners?|main\s*room|club\s*room|room\s*\d|resident|feat\.?|ft\.?)[ \t]*[:\-–—][ \t]*(\S.*)$",
+                         re.I | re.M)
+SPLIT = re.compile(r"\s*(?:\+|,|&|\bb2b\b|\bx\b|/|\be\b|\band\b|·|\|)\s*", re.I)
+
+
+def lineup_names(text: str) -> list[str]:
+    """Names written on line-up lines of a caption or flyer."""
+    out: list[str] = []
+    for m in LINEUP_LINE.finditer(text or ""):
+        for part in SPLIT.split(m.group(1)):
+            part = re.sub(r"[@#]", "", part).strip(" .!-–—:\"'“”")
+            if 2 <= len(part) <= 30 and not re.search(r"\d{1,2}[:.]\d{2}", part) and part not in out:
+                out.append(part)
+    return out
+
+
 def _key(s: str) -> str:
     return slug(s).replace("-", "")
 
@@ -28,6 +46,10 @@ class HeadlinerFinder:
     def find(self, ev: Event, n: int = 3) -> list[str]:
         text = f"{ev.title}\n{ev.description}"
         found = [name for name, rx in self.rx if rx.search(text)]
+        for name in lineup_names(ev.description):
+            name = self.by_key.get(_key(name), name)
+            if name not in found:
+                found.append(name)
         own = {_key(h) for h in [ev.venue.socials.instagram, ev.promoter.instagram if ev.promoter else None] if h}
         for a in ev.artists:
             k = _key(a.socials.instagram or a.name)

@@ -51,8 +51,9 @@ def party_name(ev: Event) -> str:
     from .sources.instagram_rules import _strip_date_words
     t = (ev.title or "").strip()
     rest = _strip_date_words(t).lower()
-    venue = re.sub(r"[\W_]+", "", ev.venue.name.lower())
-    if len(rest) < 4 or rest == venue or rest.replace(venue, "") == "":
+    for w in re.findall(r"\w+", ev.venue.name.lower()):
+        rest = rest.replace(w, "")
+    if len(rest) < 4:
         return ""
     return t if len(t) <= 45 else t[:44].rsplit(" ", 1)[0] + "…"
 

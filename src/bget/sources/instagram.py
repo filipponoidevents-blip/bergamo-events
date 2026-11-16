@@ -34,6 +34,7 @@ from .base import USER_AGENT, Source
 from .categories import CATEGORIES, categorize
 from .instagram_extract import ClaudeExtractor, Extraction, Extractor
 from . import ocr
+from .instagram_rules import RE_DATE_LINE, _strip_date_words, _title
 from .instagram_rules import ListingExtractor, RulesExtractor
 
 log = logging.getLogger(__name__)
@@ -258,6 +259,10 @@ class InstagramSource(Source):
         e = dict(it["event"])
         if (t := self.title_overrides().get(it["id"])):
             e["title"] = t
+        elif it.get("caption") and RE_DATE_LINE.search(e.get("title") or "") and \
+                len(_strip_date_words(e.get("title") or "")) < 4:
+            # read before the title rule improved: take the name from the stored caption
+            e["title"] = _title(it["caption"]) or e["title"]
         start = datetime.fromisoformat(f"{e['date']}T{e.get('start_time') or '23:00'}").replace(tzinfo=tz)
         if start.hour < 6:
             # "sabato 21, dalle 00:30" means the night of Saturday 21, i.e. Sunday 00:30

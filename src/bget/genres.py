@@ -26,13 +26,13 @@ GENRES: list[tuple[str, str]] = [
     ("Drum & Bass", r"drum ?(?:&|and|n|'n'|’n’) ?bass|dnb|d&b|jungle|bass music|dubstep|neurofunk|liquid|"
                     r"breakbeat|breaks|uk ?garage|ukg"),
     ("Trance", r"trance|psytrance|psy|goa"),
+    ("Revival", r"revival|remember|anni ?'?(?:60|70|80|90)|'?(?:70|80|90)s|'?(?:70|80|90)'s|2000s|anni 2000|"
+                r"old ?school|eurodance|italo ?dance"),
     ("Disco / Funk", r"disco(?!tec)|discomusic|italo ?disco|nu ?disco|funk|funky|soul|boogie|cosmic"),
     ("House", r"house|housemusic|house music|jackin|soulful|french touch|piano house"),
     ("Latin / Reggaeton", r"reggaeton|regueton|latin[oa]?|latin music|salsa|bachata|kizomba|perreo|dembow|"
                           r"cubana|dancehall|moombahton|baile"),
     ("Hip Hop / Trap", r"hip ?-?hop|trap|rap(?!ture|id)|r&b|rnb|r'n'b|drill|urban"),
-    ("Revival", r"revival|remember|anni ?'?(?:60|70|80|90)|'?(?:70|80|90)s|'?(?:70|80|90)'s|2000s|anni 2000|"
-                r"old ?school|eurodance|italo ?dance"),
     ("Commerciale", r"commerciale|commercial|hits|top hits|edm|top 40|mainstream|pop(?!-?up)|reggaeton e commerciale|"
                    r"dance commerciale"),
     ("Electronic", r"electronic|elettronica|club culture|clubbing|underground|electronic music|musica elettronica"),

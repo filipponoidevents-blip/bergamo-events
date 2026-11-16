@@ -196,3 +196,9 @@ def test_title_convention():
     assert night_summary(ev) == "[Techno] Bolgia"
     ev.title = "Oasi"
     assert night_summary(ev) == "[Techno] Bolgia · Oasi"
+
+
+def test_lineup_lines():
+    from bget.headliners import lineup_names
+    assert lineup_names("In consolle:\nDj : StefanOne + Andrew V.\nVoice : Matteo") == ["StefanOne", "Andrew V"]
+    assert lineup_names("LINE UP: Nesta b2b Lapo Underground") == ["Nesta", "Lapo Underground"]
