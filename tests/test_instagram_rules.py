@@ -73,3 +73,28 @@ def test_weekday_number_mismatch_lowers_confidence():
     good = read("Sabato 21 techno h 23:30", venue="Bolgia")
     bad = read("Sabato 22 techno h 23:30", venue="Bolgia")
     assert bad.confidence < good.confidence and "not that weekday" in bad.notes
+
+
+import pytest
+
+from bget.sources import ocr
+from bget.sources.instagram_rules import ListingExtractor
+
+FIXTURES = __import__("pathlib").Path(__file__).parent / "fixtures"
+
+
+def test_listing_text_splits_by_day_and_venue():
+    text = "AGENDA DELLA SETTIMANA\nVENERDÌ 20\nBOLGIA - Techno Society\nSABATO 21\nEdonè\nHouse Session\nDRUSO - Indie Night"
+    ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=POSTED, account="agg", account_venue=None)
+    got = [(e.date, e.venue_name, e.title) for e in ex.events]
+    assert got == [("2026-11-20", "Bolgia", "Techno Society"), ("2026-11-21", "Edonè", "House Session"),
+                   ("2026-11-21", "Druso", "Indie Night")]
+    assert ex.confidence < 0.85  # always reviewed
+
+
+@pytest.mark.skipif(not ocr.available(), reason="tesseract not installed")
+def test_ocr_reads_agenda_image():
+    text = ocr.ocr_bytes((FIXTURES / "agenda.png").read_bytes())
+    ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=POSTED, account="agg", account_venue=None)
+    assert [(e.date, e.venue_name) for e in ex.events] == [
+        ("2026-11-20", "Bolgia"), ("2026-11-21", "Edonè"), ("2026-11-21", "Druso")]

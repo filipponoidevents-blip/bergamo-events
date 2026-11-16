@@ -208,3 +208,64 @@ class RulesExtractor:
                 "".join("; " + w for w in warnings)
         return Extraction(is_event_announcement=conf >= 0.4, events=events,
                           confidence=round(max(0.0, min(conf, 0.95)), 2), notes=notes)
+
+
+RE_DATE_LINE = re.compile(rf"^\W*(?:{_WD_RE})\b|^\W*\d{{1,2}}\s*(?:{_MONTH_RE})\b|^\W*\d{{1,2}}[./]\d{{1,2}}\b", re.I)
+
+
+class ListingExtractor(RulesExtractor):
+    """For aggregator accounts that post a weekly/monthly agenda as an image (read via OCR).
+
+    Reads the text top to bottom: a short line starting with a day ("VENERDÌ 21", "21/11",
+    "SABATO") opens a new day; within a day, each line that names a known venue becomes an
+    event at that venue on that day. The event title is the rest of the line, or the next
+    line if the venue stands alone. Everything goes to review (confidence below auto-approve),
+    since OCR text is noisy.
+    """
+
+    confidence = 0.6
+
+    def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
+        posted = posted_at.date()
+        lines = [ln.strip() for ln in (caption or "").splitlines() if ln.strip()]
+        events: list[ExtractedEvent] = []
+        day: date | None = None
+        for i, line in enumerate(lines):
+            if len(line) <= 40 and RE_DATE_LINE.search(line):
+                ds, _ = find_dates(line, posted)
+                if ds:
+                    day = ds[0]
+                    continue
+            if not day:
+                continue
+            venue = self._venue_in(line)
+            if not venue:
+                continue
+            title = self._strip_venue(line, venue)
+            if len(title) < 3 and i + 1 < len(lines) and not self._venue_in(lines[i + 1]) \
+                    and not RE_DATE_LINE.search(lines[i + 1]):
+                title = lines[i + 1]
+            title = re.sub(r"\s{2,}", " ", re.sub(r"[^\w\s&'’!?.,:/+()-]", " ", title)).strip(" -–—:|.,")
+            start, end = find_times(line + " " + (lines[i + 1] if i + 1 < len(lines) else ""))
+            low = line.lower()
+            events.append(ExtractedEvent(
+                title=title or venue, date=day.isoformat(), start_time=start, end_time=end,
+                venue_name=venue, genres=[g for g in self.genres if g in low][:2]))
+        if not events:
+            return Extraction(is_event_announcement=False, confidence=0.0, notes="no day + venue pairs found")
+        return Extraction(is_event_announcement=True, events=events, confidence=self.confidence,
+                          notes=f"from @{account}'s agenda image (OCR); check title and line-up")
+
+    def _venue_in(self, line: str) -> str | None:
+        s = slug(line)
+        for name, names in self.venue_names:
+            if any(len(slug(n)) > 3 and re.search(rf"(^|-){re.escape(slug(n))}(-|$)", s) for n in names):
+                return name
+        return None
+
+    def _strip_venue(self, line: str, venue: str) -> str:
+        for name, names in self.venue_names:
+            if name == venue:
+                for n in sorted(names, key=len, reverse=True):
+                    line = re.sub(re.escape(n), " ", line, flags=re.I)
+        return line.strip()
