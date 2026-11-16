@@ -13,32 +13,45 @@ from .models import Event
 
 # label -> words that indicate it (checked in this order: specific before generic)
 GENRES: list[tuple[str, str]] = [
-    ("Hard techno", r"hard ?techno|hardtechno|industrial techno|schranz|tekno|free ?party|rave"),
-    ("Melodic techno", r"melodic techno|melodic house|afterlife"),
-    ("Techno", r"techno"),
-    ("Tech house", r"tech ?-?house"),
-    ("Afro house", r"afro ?house|afro|amapiano"),
-    ("Deep house", r"deep ?house"),
+    ("Hardstyle / hardcore", r"hard ?style|hardcore|gabber|frenchcore|uptempo|hard ?dance"),
+    ("Hard techno", r"hard ?techno|hardtechno|industrial techno|industrial|schranz|tekno|free ?party|rave|"
+                    r"hard ?groove|acid techno"),
+    ("Melodic techno", r"melodic ?techno|melodic ?house|melodic|afterlife|progressive house|progressive|"
+                       r"organic house|indie dance"),
+    ("Techno", r"techno(?!log)|technoitalia"),
+    ("Tech house", r"tech ?-?house|techhouse"),
+    ("Afro house", r"afro ?house|afro ?tech|afro|afrobeats?|amapiano"),
+    ("Deep house", r"deep ?house|deephouse|deep"),
     ("Minimal", r"minimal|microhouse|rominimal"),
-    ("Drum & bass", r"drum ?(?:&|and|n) ?bass|dnb|jungle|bass music|dubstep"),
-    ("Trance", r"trance|psytrance"),
-    ("Disco / funk", r"disco|funk|nu ?disco|soul"),
-    ("House", r"house"),
-    ("Latin / reggaeton", r"reggaeton|latin[oa]?|salsa|bachata|perreo|dembow"),
-    ("Hip hop / trap", r"hip ?hop|trap|rap|r&b|rnb|urban"),
-    ("Revival", r"revival|anni ?(?:70|80|90)|70s|80s|90s|2000s|anni 2000"),
-    ("Commercial", r"commerciale|commercial|hits|edm|top 40|mainstream"),
-    ("Electronic", r"electronic|elettronica|club culture|clubbing"),
+    ("Drum & bass", r"drum ?(?:&|and|n|'n'|’n’) ?bass|dnb|d&b|jungle|bass music|dubstep|neurofunk|liquid|"
+                    r"breakbeat|breaks|uk ?garage|ukg"),
+    ("Trance", r"trance|psytrance|psy|goa"),
+    ("Disco / funk", r"disco(?!tec)|discomusic|italo ?disco|nu ?disco|funk|funky|soul|boogie|cosmic"),
+    ("House", r"house|housemusic|house music|jackin|soulful|french touch|piano house"),
+    ("Latin / reggaeton", r"reggaeton|regueton|latin[oa]?|latin music|salsa|bachata|kizomba|perreo|dembow|"
+                          r"cubana|dancehall|moombahton|baile"),
+    ("Hip hop / trap", r"hip ?-?hop|trap|rap(?!ture|id)|r&b|rnb|r'n'b|drill|urban"),
+    ("Revival", r"revival|remember|anni ?'?(?:60|70|80|90)|'?(?:70|80|90)s|'?(?:70|80|90)'s|2000s|anni 2000|"
+                r"old ?school|eurodance|italo ?dance"),
+    ("Commercial", r"commerciale|commercial|hits|top hits|edm|top 40|mainstream|pop(?!-?up)|reggaeton e commerciale|"
+                   r"dance commerciale"),
+    ("Electronic", r"electronic|elettronica|club culture|clubbing|underground|electronic music|musica elettronica"),
 ]
+# whole words in text; in hashtags, also as a prefix (#technobergamo, #housemusiclovers)
 _RX = [(label, re.compile(rf"(?<![\w]){pat}(?![\w])", re.I)) for label, pat in GENRES]
+_RX_TAG = [(label, re.compile(rf"#(?:{pat})", re.I)) for label, pat in GENRES]
 UNSPECIFIED = "Unspecified"
 
 
 def detect(text: str) -> str | None:
-    for label, rx in _RX:
-        if rx.search(text or ""):
-            return label
-    return None
+    found = detect_all(text)
+    return found[0] if found else None
+
+
+def detect_all(text: str) -> list[str]:
+    """Every genre the text mentions, most specific first."""
+    text = text or ""
+    return [label for (label, rx), (_, tag) in zip(_RX, _RX_TAG) if rx.search(text) or tag.search(text)]
 
 
 def _from_list(genres: list[str] | None) -> str | None:

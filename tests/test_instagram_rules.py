@@ -150,3 +150,15 @@ def test_genre_overrides():
     assert g.assign(ev("Sabato", datetime(2026, 11, 22, 1, 0))) == ("Italo disco", "manual")
     assert g.assign(ev("Sabato", datetime(2026, 11, 28, 23, 0))) == ("Hard techno", "venue")
     assert g.assign(ev("House night", datetime(2026, 11, 28, 23, 0))) == ("House", "event")
+
+
+def test_caption_genres():
+    from bget.genres import detect, detect_all
+    from bget.sources.instagram_rules import find_genres
+    assert find_genres("Discoteca Queen sabato sera", ["disco", "house"]) == []
+    assert detect("#discoteca #bergamo reggaeton e commerciale") == "Latin / reggaeton"
+    assert detect("#technobergamo") == "Techno"
+    assert detect("musica HOUSE e hits") == "House"
+    assert "Commercial" in detect_all("house e commerciale")
+    assert detect("pop-up store") is None
+    assert "techno" in find_genres("Techno all night", ["techno", "house"])

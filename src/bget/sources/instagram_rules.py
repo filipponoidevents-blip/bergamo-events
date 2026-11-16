@@ -144,6 +144,21 @@ def find_dates(text: str, posted: date, warnings: list[str] | None = None) -> tu
     return [], False
 
 
+def find_genres(text: str, scored: list[str]) -> list[str]:
+    """Genre words in a caption, as whole words (so "discoteca" is not "disco"). The scored names
+    from settings.yaml come first (they drive relevance), then any other genre the caption names."""
+    from ..genres import detect_all
+    found: list[str] = []
+    for g in scored:
+        if re.search(rf"(?<![\w]){re.escape(g)}(?![\w])|#{re.escape(g.replace(' ', ''))}", text, re.I) \
+                and not any(g in x for x in found):
+            found.append(g)
+    for label in detect_all(text):
+        if not any(detect_all(x)[:1] == [label] for x in found):
+            found.append(label.lower())
+    return found
+
+
 def find_times(text: str) -> tuple[str | None, str | None]:
     m = RE_FROM_TO.search(text)
     if m:
@@ -185,11 +200,7 @@ class RulesExtractor:
         recap = bool(RECAP.search(caption))
         start, end = find_times(caption)
 
-        low = caption.lower()
-        genres = []
-        for g in self.genres:
-            if g in low and not any(g in x for x in genres):
-                genres.append(g)
+        genres = find_genres(caption, self.genres)
         cap_slug = slug(caption)
         venue = account_venue
         for name, names in self.venue_names:
@@ -264,7 +275,7 @@ class ListingExtractor(RulesExtractor):
             low = line.lower()
             events.append(ExtractedEvent(
                 title=title or venue, date=day.isoformat(), start_time=start, end_time=end,
-                venue_name=venue, genres=[g for g in self.genres if g in low][:2],
+                venue_name=venue, genres=find_genres(line, self.genres)[:2],
                 kind=categorize(line + " " + title, self.venue_kinds.get(venue))))
         if not events:
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no day + venue pairs found")

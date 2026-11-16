@@ -263,6 +263,7 @@ class InstagramSource(Source):
             title=e["title"], start=start, end=end, venue=venue,
             artists=[Artist(name=a["name"], socials=Socials(instagram=a.get("instagram"))) for a in e.get("artists", [])],
             genres=e.get("genres", []),
+            description=it.get("caption") or "",
             category=(Category.CONCERT if e.get("is_concert") or it.get("kind") == "live_music"
                       else Category.FESTIVAL if e.get("is_festival") else Category.CLUB),
             url=it.get("permalink"), ticket_url=e.get("ticket_url"), image_url=it.get("image"), price=e.get("price"),
