@@ -22,7 +22,7 @@ THEME = {
     "accent": (255, 64, 129),
     "font_bold": "/usr/share/fonts/opentype/inter/Inter-Bold.otf",
     "font_reg": "/usr/share/fonts/opentype/inter/Inter-Regular.otf",
-    "handle": "@your.account",   # placeholder: set to the real account handle
+    "handle": "@seratebergamo",
 }
 GIORNI = ["LUN", "MAR", "MER", "GIO", "VEN", "SAB", "DOM"]
 MESI = ["", "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio",
