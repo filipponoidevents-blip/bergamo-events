@@ -162,3 +162,15 @@ def test_caption_genres():
     assert "Commerciale" in detect_all("house e commerciale")
     assert detect("pop-up store") is None
     assert "techno" in find_genres("Techno all night", ["techno", "house"])
+
+
+def test_calendar_start_only_and_midnight_on_the_evening():
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    from bget.calendar_ics import build_ics, calendar_start
+    from bget.models import Event, Venue
+    rome = ZoneInfo("Europe/Rome")
+    ev = Event(title="Sabato", start=datetime(2026, 11, 22, 0, 0, tzinfo=rome), venue=Venue(name="Bolgia", city="Dalmine"))
+    assert calendar_start(ev) == datetime(2026, 11, 21, 23, 59, tzinfo=rome)
+    ics = build_ics([ev], "t")
+    assert "DTSTART:20261121T225900Z" in ics and "DTEND" not in ics.split("BEGIN:VEVENT")[1]

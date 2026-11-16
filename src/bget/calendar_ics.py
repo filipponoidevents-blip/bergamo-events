@@ -1,6 +1,7 @@
 """ICS feed writer (RFC 5545). Subscribe to the output URL from Google/Apple Calendar."""
 from __future__ import annotations
 
+from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta, timezone
 from typing import Iterable
 
@@ -30,8 +31,24 @@ def _utc(d: datetime) -> str:
     return d.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
 
+ROME = ZoneInfo("Europe/Rome")
+
+
+def calendar_start(ev: Event) -> datetime:
+    """Only the start goes on the calendar. A night that starts after midnight (00:00-05:59) stays on
+    the evening it belongs to, at 23:59: a Saturday 00:30 start shows on Saturday, not Sunday."""
+    local = ev.start.astimezone(ROME)
+    if local.hour < 6:
+        n = ev.night
+        return datetime(n.year, n.month, n.day, 23, 59, tzinfo=ROME)
+    return local
+
+
 def describe(ev: Event) -> str:
     lines = []
+    local = ev.start.astimezone(ROME)
+    if local.hour < 6:
+        lines.append(f"Inizio: {local:%H:%M} (dopo mezzanotte)")
     if ev.artists:
         lines.append("Line-up: " + ", ".join(a.name for a in ev.artists))
     if ev.genre:
@@ -64,14 +81,12 @@ def build_ics(events: Iterable[Event], name: str, prefix: str = "",
         "REFRESH-INTERVAL;VALUE=DURATION:PT6H", "X-PUBLISHED-TTL:PT6H",
     ]
     for ev in events:
-        end = ev.end or ev.start + timedelta(hours=5)
         loc = ", ".join(x for x in [ev.venue.name, ev.venue.address, ev.venue.city] if x)
         out += [
             "BEGIN:VEVENT",
             f"UID:{ev.uid}@bergamo-events",
             f"DTSTAMP:{now}",
-            f"DTSTART:{_utc(ev.start)}",
-            f"DTEND:{_utc(end)}",
+            f"DTSTART:{_utc(calendar_start(ev))}",  # no DTEND: start time only (Filippo)
             f"SUMMARY:{_esc(prefix + (f'[{ev.genre}] ' if ev.genre and ev.genre != 'Unspecified' else '') + ev.title)}",
             f"LOCATION:{_esc(loc)}",
             f"DESCRIPTION:{_esc(describe(ev))}",

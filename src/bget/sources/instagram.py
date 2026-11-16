@@ -249,6 +249,9 @@ class InstagramSource(Source):
     def to_event(self, it: dict, tz: ZoneInfo) -> Event:
         e = it["event"]
         start = datetime.fromisoformat(f"{e['date']}T{e.get('start_time') or '23:00'}").replace(tzinfo=tz)
+        if start.hour < 6:
+            # "sabato 21, dalle 00:30" means the night of Saturday 21, i.e. Sunday 00:30
+            start += timedelta(days=1)
         end = None
         if e.get("end_time"):
             end = datetime.fromisoformat(f"{e['date']}T{e['end_time']}").replace(tzinfo=tz)
