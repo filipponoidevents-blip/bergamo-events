@@ -59,16 +59,89 @@ sources:
   - id: instagram_watch
     type: instagram
     enabled: false
-    accounts: []
-      # Researched 2026-11-16. Business/Creator status not checked: an account that is personal
-      # just returns an error from Business Discovery. Uncomment to start with the strongest ones.
-      # - {username: bolgia.official, venue: Bolgia}          # linked from bolgia.it
-      # - {username: daste_bergamo, venue: Daste}
-      # - {username: edonebergamo, venue: Edoné}
-      # - {username: nikitadiscoclub, venue: Nikita}
-      # - {username: setai_club_official, venue: Setai Club}
-      # - {username: csapacipaciana, venue: Pacì Paciana}
-      # - {username: bv_rooftop, venue: BV Rooftop}
-      # - {username: zeroclub.bg, venue: Zero Club}
-      # - hiddenhell.techno
-      # - supertatobolgia
+    # Tracker account: @seratebergamo (Filippo's new Business account, 2026-11-16).
+    # Watch list: every venue/promoter with a confirmed handle whose account is not personal.
+    # Personal accounts (UFO, Garota, Delblaco, OperaPrima) are left out: the API cannot read them.
+    # @nightlifebergamo is deliberately NOT here: it is for venue discovery only, not a calendar.
+    accounts:
+      - {username: unplug__bg, venue: "Unplug Bar"}
+      - {username: casacostez, venue: "Casa Costez"}
+      - {username: bucheesebar, venue: "BÙ Cheese Bar"}
+      - {username: savana.king25, venue: "Savana King"}
+      - {username: cosmo.food.club, venue: "Cosmo Food Club"}
+      - {username: contest_bg, venue: "Contest Cocktail Bar"}
+      - {username: bar30elode, venue: "Bar 30&Lode"}
+      - {username: inkclub_bergamo, venue: "Ink Club"}
+      - {username: nxtbergamo, venue: "NXT Station"}
+      - {username: sprint_bergamo, venue: "Sprint"}
+      - {username: balzerbynight, venue: "Balzer by Night"}
+      - {username: zeroclub.bg, venue: "Zero Club"}
+      - {username: daste_bergamo, venue: "Daste"}
+      - {username: edonebergamo, venue: "Edoné"}
+      - {username: circolinomalpensata_bergamo, venue: "Circolino della Malpensata"}
+      - {username: spazio_polaresco, venue: "Polaresco"}
+      - {username: choruslife.bergamo, venue: "ChorusLife"}
+      - {username: lazzaretto_bergamo_estate, venue: "Lazzaretto"}
+      - {username: gres_art_671, venue: "Gres Art 671"}
+      - {username: csapacipaciana, venue: "Pacì Paciana"}
+      - {username: barrys__, venue: "Barry's"}
+      - {username: setai_club_official, venue: "Setai Club"}
+      - {username: ninfeasocialclub, venue: "Ninfea Social Club"}
+      - {username: drusobg, venue: "Druso"}
+      - {username: loft.bergamo, venue: "LOFT Bergamo"}
+      - {username: tiky.klub, venue: "Tiky Klub"}
+      - {username: discoteca_queen, venue: "Queen Club"}
+      - {username: thanka.official, venue: "Thanka"}
+      - {username: capogirojoyclub, venue: "Capogiro"}
+      - {username: kellerfactory_, venue: "Keller Factory"}
+      - {username: vibetheclub, venue: "Vibe Club"}
+      - {username: bolgia.official, venue: "Bolgia"}
+      - {username: bobadillafeelingclub, venue: "Bobadilla"}
+      - {username: oroneroloveandmusic, venue: "Oronero"}
+      - {username: jamlivestudio, venue: "Jam Live Studio"}
+      - {username: barperlage, venue: "Bar Perlage"}
+      - {username: twofestival, venue: "Two Festival"}
+      - {username: decibel_club, venue: "Decibel Club"}
+      - {username: sabbiemobili_official, venue: "Sabbie Mobili"}
+      - {username: incroissanterialab, venue: "In Croissanteria Lab"}
+      - {username: brinapasticceria, venue: "Brina Pasticceria"}
+      - {username: mint_lounge, venue: "MINT"}
+      - {username: liveclub, venue: "Live Club"}
+      - {username: nikitadiscoclub, venue: "Nikita"}
+      - {username: bv_rooftop, venue: "BV Rooftop"}
+      - {username: baiadelrebrignano, venue: "Baia del Re"}
+      - {username: hype.club.official, venue: "Hype Club"}
+      - {username: arya.lounge, venue: "Arya Lounge"}
+      - {username: al_tabarin, venue: "Al Tabarin"}
+      - {username: charleston.treviglio, venue: "Charleston"}
+      - {username: officinapanarari, venue: "Officina Panarari"}
+      - {username: bar_sanmarco, venue: "Bar San Marco"}
+      - hiddenhell.techno           # promoter: Hidden Hell
+      - juiceclubit                 # promoter: JUICE Crew
+      - supertatobolgia             # promoter: Supertato
+      - lecannibaleclub             # promoter: Le Cannibale
+      - utopia.direction            # promoter: utōpia
+      - discopastasc                # promoter: Discopasta Social Club
+      - greebopartybergamo          # promoter: Greebo Party
+      - newrant_crew_bergamo        # promoter: Newrant Crew
+      - sommet_night                # promoter: Sommet
+      - noidfamilia                 # promoter: NØID
+      - icksdresstoimpress          # promoter: ICKS
+      - borgo.santa.caterina        # promoter: Borgo Santa Caterina
+      - bergamonightservice         # promoter: Bergamo Night Service
+      - please.nights               # promoter: PLEASE
+      - talk.maf                    # promoter: TALK
+      - sloth.bg                    # promoter: Sloth
+      - we.are.stepup               # promoter: Step Up
+      - unibg_party                 # promoter: UniBG Party
+      - premiere.premiere           # promoter: Premiere
+      - the.circlehub               # promoter: The Circle
+      - crystalcastlesnightt        # promoter: Crystal Castles Night
+      - cromaroom                   # promoter: CRØMA
+      - oasi.night                  # promoter: OASI
+      - selected.lab                # promoter: Selected Lab
+      - upside.down.night           # promoter: Upside Down
+      - aliveofficialparty          # promoter: Alive
+      - afrodylanofficial           # promoter: Afrodylan
+      - call._.out                  # promoter: Call Out
+      - iconevents.official         # promoter: Icon
