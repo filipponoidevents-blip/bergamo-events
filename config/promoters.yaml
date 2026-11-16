@@ -85,8 +85,8 @@ promoters:
     ig_source: user
     venues: [Unplug Bar]
   - name: NØID
-    instagram: null
-    ig_source: null
+    instagram: noidfamilia      # seen following Balzer by Night; likely, not confirmed
+    ig_source: search
     venues: [Zero Club]
     notes: Zero Club main room night (Germano Ventura guest, 14 Nov 2026).
   - name: Code
@@ -107,3 +107,11 @@ promoters:
     instagram: null
     ig_source: null
     venues: [Nikita]
+  - name: Borgo Santa Caterina
+    instagram: borgo.santa.caterina
+    ig_source: user
+    notes: Shopkeepers' association of Borgo Santa Caterina (Bergamo). Runs street events (e.g. Halloween); low music relevance.
+  - name: Bergamo Night Service
+    instagram: bergamonightservice
+    ig_source: search
+    notes: Free night bus, not a promoter. Useful for transport info in posts.

@@ -85,7 +85,7 @@ venues:
     ig_source: search
     ig_type: unknown
     verified: false
-    notes: Part of the Hotel Costez complex (@hotelcostez per an old listing). JUICE Crew runs house nights here.
+    notes: Part of the Costez group (@costez_official, costez.club; old listing said @hotelcostez). JUICE Crew runs house nights here.
 
   - name: Bobadilla
     aliases: [Bobadilla Feeling Club, Bobadilla Dalmine]
@@ -546,19 +546,52 @@ venues:
     notes: "Seen on @nightlifebergamo. Sommet nights."
 
   - name: "Casa Costez"
-    aliases: ["Casa Costez Bergamo"]
+    aliases: ["Casa Costez Bergamo", "Costez Dining Club"]
     city: "Bergamo"
     province: BG
     lat: 45.6983
     lon: 9.6773
-    km: 0.0
+    km: 0
     kind: club
     status: active
     genres: [commercial]
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: casacostez, website: https://costez.club}
+    ig_source: user
+    ig_type: business (Contact button)
     verified: false
-    notes: "Seen on @nightlifebergamo. Dinner show then club from 22:30. Same group as Nikita / Hotel Costez."
+    notes: "Dining club Wed-Sat from 21:00, club from 22:30. Same group as Nikita (@costez_official). Address not confirmed."
+
+  - name: "Balzer by Night"
+    aliases: ["Balzer", "Balzer 1850"]
+    city: "Bergamo"
+    province: BG
+    address: Sentierone, Bergamo
+    lat: 45.6955
+    lon: 9.6695
+    km: 0.7
+    kind: bar
+    status: active
+    genres: [clubbing, jazz]
+    socials: {instagram: balzerbynight, website: null}
+    ig_source: user
+    ig_type: business (Email button)
+    verified: false
+    notes: "Historic cafe on the Sentierone with clubbing nights, DJ sets, jazz and dinner shows."
+
+  - name: "BÙ Cheese Bar"
+    aliases: ["Bu Cheese Bar", "BÙ Bergamo"]
+    city: "Bergamo"
+    province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0
+    kind: bar
+    status: active
+    socials: {instagram: bucheesebar, website: null}
+    ig_source: user
+    ig_type: business (Contact button)
+    verified: false
+    notes: "Tapas bar and restaurant with DJ party nights. Address not confirmed."
 
   - name: "Savana King"
     city: "Bergamo"
