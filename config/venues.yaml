@@ -715,10 +715,12 @@ venues:
     kind: club
     status: active
     genres: [commercial]
-    socials: {instagram: vibetheclub, website: null}
-    ig_source: search
+    socials: {instagram: vibetheclub, website: https://www.vibetheclub.it}
+    ig_source: user
+    ig_type: business ("Performance and event venue")
+    tickets_via: [Upass]
     verified: false
-    notes: "Seen on @nightlifebergamo."
+    notes: "Rooms: Main Room and Theater Room. Fri/Sat nights (OASI, Alive, Upside Down). Tickets on U-pass. IG says Bergamo, listings say Treviolo."
 
   - name: "Garota de Ipanema"
     aliases: ["Garota"]
