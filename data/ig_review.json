@@ -644,6 +644,7 @@
     "17939093367407292-0": {
       "account": "hype.club.official",
       "account_venue": "Hype Club",
+      "caption": "MAGAZINE😈\n\nSave the date : Sabato 21 novembre\n\nTicket disponibili nelle storie !\n\n📍Via Giosué Carducci 2 - Cortenuova (BG)\n📲+39 342 6719049\n🕒00.00 - 04:30",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -653,6 +654,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "00:00",
         "ticket_url": null,
@@ -660,7 +662,7 @@
         "venue_name": "Hype Club"
       },
       "id": "17939093367407292-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/906174729_18131952907850202_3223001027498111498_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Snmefrf57WAQ7kNvwE3Ke6d&_nc_oc=AdpVUt_tiOVFApF3QEriaLkyx2DLfsSZ1tghXO4uXJFgDfAnX_zQ2G4sSN42f-LpnM0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=pBAuh5AP7KZTYVBB9kXZJg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRcdrBLrsyUfrcRMYOIF8uK5SPQusYk9xd1JR0D-ixEGg&oe=6B012E01",
+      "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/906174729_18131952907850202_3223001027498111498_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Snmefrf57WAQ7kNvwHLTmaq&_nc_oc=Adqq4U1Ee7tuuLJaUitijcR4PXCG8YqMFrKZdlpmDtHxUQinQo3F5cXDawYjZVH3PJI&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=45v1nzhotHmYP_QjyXlRxg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQvMRL_0JgCULA04mrdwANq4cNudRZCEX9qMJVlf9O7Yw&oe=6B016641",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Df0GQymzzzf/",
@@ -4109,6 +4111,7 @@
     "18127056307912031-0": {
       "account": "arya.lounge",
       "account_venue": "Arya Lounge",
+      "caption": "Il weekend chiama, Arya risponde. 🔥\n\nVenerdì 20 novembre torna il nostro Friday Night, con alessiosielii in consolle dalle 22:00. 🔊\n\nLa serata promette bene, voi fatevi trovare carichi.\n\nPrenota il tuo tavolo e ci vediamo da Arya. 💜",
       "confidence": 0.8,
       "event": {
         "artists": [],
@@ -4118,6 +4121,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "dj_club",
         "price": null,
         "start_time": "22:00",
         "ticket_url": null,
@@ -4125,11 +4129,11 @@
         "venue_name": "Arya Lounge"
       },
       "id": "18127056307912031-0",
-      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/907470830_17916986103513946_3684887603819229354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1u-uu0JN4UQQ7kNvwH_xXe3&_nc_oc=Adr3L5Y79mlN6GekZDj3E43ecX6rb7R9BTMRYEwhRfVZcxS4sXGCdEkCdlR4yGKOfIM&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RbJwE6lxpaNxA96R6OqJ7g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQROtxCeBNlDJcUPTw1A9EkWH3HCEACyJRwlQs07ESUtHg&oe=6B01494B",
-      "kind": "other",
+      "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/907470830_17916986103513946_3684887603819229354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1u-uu0JN4UQQ7kNvwEeuBSG&_nc_oc=Adpz6G9S5672bQ3hp0rFF5G5KB6q2c3ZXJdE7q02sWvYiGeEoAb4shnQFzMBw4HVFq0&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=gymOVLSW9YcMre97bw4DPw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQatAHGn5VrhSfa0hEcjs6DGhBL3ndRS5xYwweqRPP18A&oe=6B01494B",
+      "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfz_Jx9KjOs/",
-      "status": "info"
+      "status": "pending"
     },
     "18127631558298256-0": {
       "account": "casacostez",
@@ -6005,6 +6009,7 @@
     "18414817489085621-0": {
       "account": "arya.lounge",
       "account_venue": "Arya Lounge",
+      "caption": "Arya cambia ritmo, anche durante la settimana. 🍸\nDa oggi ci vediamo anche il mercoledì, giovedì e domenica, con una nuova formula tutta da scoprire.\n\nTi aspettiamo dalle 18:00 per scoprire il nuovo volto di Arya. 💜",
       "confidence": 0.5,
       "event": {
         "artists": [],
@@ -6014,6 +6019,7 @@
         "genres": [],
         "is_concert": false,
         "is_festival": false,
+        "kind": "other",
         "price": null,
         "start_time": "18:00",
         "ticket_url": null,
@@ -6021,7 +6027,7 @@
         "venue_name": "Arya Lounge"
       },
       "id": "18414817489085621-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/906066518_17916759054513946_5100737226555505892_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nsKKLta-bysQ7kNvwHdEcLJ&_nc_oc=Adppz6DqHS_KIhm-OyR0XZgNoTdfzcVHLkkbpfiB8C4ecMaF-n0D5XxiK8AdUECMANs&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RbJwE6lxpaNxA96R6OqJ7g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTJVzdzANjCF4cvOlkvKYM1aYWSCGeFXbuch7isLW2L9w&oe=6B014B13",
+      "image": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/906066518_17916759054513946_5100737226555505892_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nsKKLta-bysQ7kNvwErNe6-&_nc_oc=AdoASNGLSTnRGRtM_doV9WKB89nSDVFHBdGjqWWmBSzKJp9oDBuDqKl3NYUFH7iinOo&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=gymOVLSW9YcMre97bw4DPw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRk2_I80rLR4wqUt_0WVJOJLzqaX8td4NMEAdOg7TkVZQ&oe=6B014B13",
       "kind": "other",
       "notes": "read by the free pattern matcher; date guessed from a weekday name; 'mercoledì' already passed this week, assumed next week",
       "permalink": "https://www.instagram.com/p/DfwoET4ih5o/",
@@ -6304,7 +6310,7 @@
       "status": "info"
     }
   },
-  "next_account": 44,
+  "next_account": 50,
   "seen_posts": {
     "17873605428643229": {
       "account": "bv_rooftop",
@@ -6401,6 +6407,11 @@
       "at": "2026-11-16T21:18:47+0000",
       "event": true
     },
+    "17910469782664420": {
+      "account": "officinapanarari",
+      "at": "2026-10-31T10:03:57+0000",
+      "event": false
+    },
     "17910904206563812": {
       "account": "tiky.klub",
       "at": "2026-11-02T17:25:06+0000",
@@ -6486,6 +6497,16 @@
       "at": "2026-11-10T14:13:16+0000",
       "event": true
     },
+    "17939093367407292": {
+      "account": "hype.club.official",
+      "at": "2026-11-16T19:23:32+0000",
+      "event": true
+    },
+    "17942335722383116": {
+      "account": "hype.club.official",
+      "at": "2026-11-03T09:00:03+0000",
+      "event": false
+    },
     "17943169710390742": {
       "account": "bolgia.official",
       "at": "2026-11-11T13:32:46+0000",
@@ -6521,6 +6542,11 @@
       "at": "2026-11-11T19:36:23+0000",
       "event": true
     },
+    "17947327959367650": {
+      "account": "hype.club.official",
+      "at": "2026-11-10T11:05:02+0000",
+      "event": false
+    },
     "17947702449362662": {
       "account": "drusobg",
       "at": "2026-11-13T13:05:43+0000",
@@ -6534,6 +6560,21 @@
     "17951884890321946": {
       "account": "choruslife.bergamo",
       "at": "2026-10-31T11:22:07+0000",
+      "event": false
+    },
+    "17952302019319012": {
+      "account": "baiadelrebrignano",
+      "at": "2026-10-27T10:48:49+0000",
+      "event": false
+    },
+    "17953505820314706": {
+      "account": "officinapanarari",
+      "at": "2026-11-03T11:27:18+0000",
+      "event": false
+    },
+    "17957550186334944": {
+      "account": "officinapanarari",
+      "at": "2026-11-13T15:06:02+0000",
       "event": false
     },
     "17959770726014816": {
@@ -6570,6 +6611,11 @@
       "account": "liveclub",
       "at": "2026-11-13T18:00:33+0000",
       "event": true
+    },
+    "17977556910178556": {
+      "account": "baiadelrebrignano",
+      "at": "2026-11-16T17:50:13+0000",
+      "event": false
     },
     "17979810041930702": {
       "account": "drusobg",
@@ -6696,6 +6742,11 @@
       "at": "2026-11-15T00:55:12+0000",
       "event": false
     },
+    "18015927173972525": {
+      "account": "arya.lounge",
+      "at": "2026-11-06T14:55:08+0000",
+      "event": true
+    },
     "18016802267975011": {
       "account": "thanka.official",
       "at": "2026-11-06T17:07:47+0000",
@@ -6714,6 +6765,11 @@
     "18018716360751106": {
       "account": "daste_bergamo",
       "at": "2026-11-13T09:00:17+0000",
+      "event": true
+    },
+    "18022772528730057": {
+      "account": "arya.lounge",
+      "at": "2026-11-07T10:00:01+0000",
       "event": true
     },
     "18026829062818609": {
@@ -6791,6 +6847,11 @@
       "at": "2026-11-12T12:16:07+0000",
       "event": true
     },
+    "18049131437830056": {
+      "account": "charleston.treviglio",
+      "at": "2026-11-05T11:16:04+0000",
+      "event": false
+    },
     "18050892980826584": {
       "account": "ninfeasocialclub",
       "at": "2026-11-11T16:29:41+0000",
@@ -6815,6 +6876,11 @@
       "account": "jamlivestudio",
       "at": "2026-10-27T17:24:04+0000",
       "event": true
+    },
+    "18059175920564484": {
+      "account": "hype.club.official",
+      "at": "2026-11-03T18:00:29+0000",
+      "event": false
     },
     "18059204756566707": {
       "account": "zeroclub.bg",
@@ -6856,6 +6922,11 @@
       "at": "2026-11-04T15:29:44+0000",
       "event": false
     },
+    "18078195179463335": {
+      "account": "hype.club.official",
+      "at": "2026-11-02T11:21:54+0000",
+      "event": false
+    },
     "18079609769406841": {
       "account": "zeroclub.bg",
       "at": "2026-10-29T17:00:05+0000",
@@ -6886,6 +6957,16 @@
       "at": "2026-11-07T16:53:28+0000",
       "event": true
     },
+    "18084142214343045": {
+      "account": "charleston.treviglio",
+      "at": "2026-11-12T13:04:09+0000",
+      "event": false
+    },
+    "18085098923549404": {
+      "account": "hype.club.official",
+      "at": "2026-11-11T14:05:23+0000",
+      "event": true
+    },
     "18088536188704234": {
       "account": "nxtbergamo",
       "at": "2026-11-14T22:29:22+0000",
@@ -6894,6 +6975,11 @@
     "18091519370240662": {
       "account": "circolinomalpensata_bergamo",
       "at": "2026-10-29T11:00:43+0000",
+      "event": false
+    },
+    "18093875855667597": {
+      "account": "al_tabarin",
+      "at": "2026-10-27T15:18:01+0000",
       "event": false
     },
     "18094168709199670": {
@@ -6955,6 +7041,11 @@
       "account": "bobadillafeelingclub",
       "at": "2026-10-30T16:00:14+0000",
       "event": true
+    },
+    "18100286042108001": {
+      "account": "baiadelrebrignano",
+      "at": "2026-11-02T15:41:12+0000",
+      "event": false
     },
     "18100333349108314": {
       "account": "brinapasticceria",
@@ -7056,6 +7147,11 @@
       "at": "2026-11-15T17:55:40+0000",
       "event": true
     },
+    "18108303452262171": {
+      "account": "charleston.treviglio",
+      "at": "2026-10-29T12:51:01+0000",
+      "event": false
+    },
     "18108788324262614": {
       "account": "bucheesebar",
       "at": "2026-11-06T11:00:01+0000",
@@ -7065,6 +7161,11 @@
       "account": "thanka.official",
       "at": "2026-11-04T11:55:48+0000",
       "event": false
+    },
+    "18109774610249007": {
+      "account": "al_tabarin",
+      "at": "2026-11-03T09:10:31+0000",
+      "event": true
     },
     "18109896887219071": {
       "account": "nxtbergamo",
@@ -7086,10 +7187,20 @@
       "at": "2026-10-31T11:00:03+0000",
       "event": true
     },
+    "18112728383337831": {
+      "account": "hype.club.official",
+      "at": "2026-11-02T17:14:41+0000",
+      "event": true
+    },
     "18113115620182860": {
       "account": "mint_lounge",
       "at": "2026-11-09T09:10:06+0000",
       "event": true
+    },
+    "18113193584076026": {
+      "account": "al_tabarin",
+      "at": "2026-11-05T12:05:40+0000",
+      "event": false
     },
     "18114846281582319": {
       "account": "tiky.klub",
@@ -7151,6 +7262,11 @@
       "at": "2026-11-12T21:58:16+0000",
       "event": true
     },
+    "18118466414005466": {
+      "account": "charleston.treviglio",
+      "at": "2026-10-28T11:19:48+0000",
+      "event": true
+    },
     "18118493663023193": {
       "account": "jamlivestudio",
       "at": "2026-11-03T18:31:18+0000",
@@ -7184,6 +7300,11 @@
     "18119513246281577": {
       "account": "ninfeasocialclub",
       "at": "2026-11-16T08:41:11+0000",
+      "event": true
+    },
+    "18119515997037378": {
+      "account": "arya.lounge",
+      "at": "2026-11-13T15:30:06+0000",
       "event": true
     },
     "18119687656825903": {
@@ -7286,6 +7407,11 @@
       "at": "2026-11-02T22:15:50+0000",
       "event": true
     },
+    "18122601392073149": {
+      "account": "hype.club.official",
+      "at": "2026-11-04T11:00:01+0000",
+      "event": false
+    },
     "18122606185749292": {
       "account": "daste_bergamo",
       "at": "2026-11-15T11:01:47+0000",
@@ -7295,6 +7421,11 @@
       "account": "mint_lounge",
       "at": "2026-11-14T09:00:55+0000",
       "event": true
+    },
+    "18123691178514546": {
+      "account": "hype.club.official",
+      "at": "2026-11-09T13:37:00+0000",
+      "event": false
     },
     "18123990431063245": {
       "account": "capogirojoyclub",
@@ -7321,9 +7452,19 @@
       "at": "2026-11-03T08:27:09+0000",
       "event": true
     },
+    "18126436303970975": {
+      "account": "arya.lounge",
+      "at": "2026-11-08T16:27:11+0000",
+      "event": false
+    },
     "18126731233912922": {
       "account": "circolinomalpensata_bergamo",
       "at": "2026-11-16T11:05:13+0000",
+      "event": true
+    },
+    "18127056307912031": {
+      "account": "arya.lounge",
+      "at": "2026-11-16T18:21:46+0000",
       "event": true
     },
     "18127631558298256": {
@@ -7451,6 +7592,11 @@
       "at": "2026-11-05T08:30:02+0000",
       "event": false
     },
+    "18135577489791957": {
+      "account": "baiadelrebrignano",
+      "at": "2026-11-09T21:04:37+0000",
+      "event": false
+    },
     "18135864169813470": {
       "account": "zeroclub.bg",
       "at": "2026-11-13T11:18:54+0000",
@@ -7460,6 +7606,11 @@
       "account": "gres_art_671",
       "at": "2026-11-04T17:00:50+0000",
       "event": false
+    },
+    "18136811626673698": {
+      "account": "arya.lounge",
+      "at": "2026-11-11T17:15:05+0000",
+      "event": true
     },
     "18137292883775677": {
       "account": "discoteca_queen",
@@ -7551,6 +7702,11 @@
       "at": "2026-11-09T12:00:02+0000",
       "event": false
     },
+    "18147300628596294": {
+      "account": "arya.lounge",
+      "at": "2026-11-12T17:30:02+0000",
+      "event": true
+    },
     "18149439076605153": {
       "account": "setai_club_official",
       "at": "2026-11-10T17:00:05+0000",
@@ -7560,6 +7716,11 @@
       "account": "circolinomalpensata_bergamo",
       "at": "2026-10-30T17:15:13+0000",
       "event": false
+    },
+    "18149532268567414": {
+      "account": "al_tabarin",
+      "at": "2026-11-09T14:42:29+0000",
+      "event": true
     },
     "18149799721560069": {
       "account": "circolinomalpensata_bergamo",
@@ -7616,6 +7777,11 @@
       "at": "2026-10-27T10:20:27+0000",
       "event": false
     },
+    "18179759875463166": {
+      "account": "hype.club.official",
+      "at": "2026-11-09T19:04:50+0000",
+      "event": true
+    },
     "18182052202432611": {
       "account": "ninfeasocialclub",
       "at": "2026-11-11T18:53:45+0000",
@@ -7631,9 +7797,24 @@
       "at": "2026-11-02T16:00:06+0000",
       "event": true
     },
+    "18187790902422754": {
+      "account": "hype.club.official",
+      "at": "2026-11-16T13:44:17+0000",
+      "event": false
+    },
     "18187884847419236": {
       "account": "drusobg",
       "at": "2026-11-12T13:00:57+0000",
+      "event": true
+    },
+    "18189114394411795": {
+      "account": "arya.lounge",
+      "at": "2026-11-05T17:14:31+0000",
+      "event": false
+    },
+    "18190064005421310": {
+      "account": "arya.lounge",
+      "at": "2026-11-09T17:00:04+0000",
       "event": true
     },
     "18192225169407165": {
@@ -7681,6 +7862,11 @@
       "at": "2026-11-05T17:00:03+0000",
       "event": true
     },
+    "18222737224349645": {
+      "account": "hype.club.official",
+      "at": "2026-11-11T11:00:06+0000",
+      "event": false
+    },
     "18241600534317614": {
       "account": "drusobg",
       "at": "2026-11-15T14:55:06+0000",
@@ -7699,6 +7885,11 @@
     "18288895915295028": {
       "account": "inkclub_bergamo",
       "at": "2026-11-11T15:28:23+0000",
+      "event": true
+    },
+    "18346025065282357": {
+      "account": "officinapanarari",
+      "at": "2026-11-09T16:45:05+0000",
       "event": true
     },
     "18347057677261539": {
@@ -7731,6 +7922,11 @@
       "at": "2026-11-02T12:13:41+0000",
       "event": true
     },
+    "18359408185174218": {
+      "account": "arya.lounge",
+      "at": "2026-11-10T17:15:05+0000",
+      "event": true
+    },
     "18376876597210351": {
       "account": "kellerfactory_",
       "at": "2026-11-08T09:28:28+0000",
@@ -7751,6 +7947,11 @@
       "at": "2026-10-30T09:39:27+0000",
       "event": false
     },
+    "18383743021243033": {
+      "account": "arya.lounge",
+      "at": "2026-11-14T14:48:51+0000",
+      "event": true
+    },
     "18392212897229132": {
       "account": "liveclub",
       "at": "2026-11-11T19:32:20+0000",
@@ -7760,6 +7961,11 @@
       "account": "nxtbergamo",
       "at": "2026-11-13T22:20:55+0000",
       "event": false
+    },
+    "18414817489085621": {
+      "account": "arya.lounge",
+      "at": "2026-11-15T11:01:34+0000",
+      "event": true
     },
     "18423224272156413": {
       "account": "decibel_club",
