@@ -1,0 +1,78 @@
+# Promoters, crews and festival brands active in the Bergamo +20 km area (researched 2026-11-16).
+# Not read by the pipeline yet: use it to fill `instagram_watch.accounts` in sources.yaml and
+# to recognise organiser names in event titles. Same ig_source / ig_type meaning as venues.yaml.
+
+promoters:
+  - name: Hidden Hell
+    instagram: hiddenhell.techno
+    ig_source: search
+    genres: [hard techno]
+    venues: [Bolgia]
+    notes: Runs Bolgia Main Room nights (e.g. USH opening, 5 Sep 2026).
+  - name: Galactica Festival
+    instagram: galactica.festival
+    ig_source: search
+    genres: [techno]
+    venues: [Bolgia]
+    notes: RA promoter for Bolgia nights (Nov 2025, May 2026).
+  - name: JUICE Crew
+    instagram: null          # candidates: thejuicecrew, juice_crew_official; not confirmed
+    ig_source: null
+    genres: [house, tech house]
+    venues: [Nikita, Setai Club]
+    notes: "El Jardín de Nikita"; partners LOFT Bergamo, LOOP, Metaphora, Beatmode.
+  - name: Groove Factory
+    instagram: null          # candidates exist, none tied to Bergamo
+    ig_source: null
+    venues: [Bolgia]
+    notes: Named on the Bolgia Summer Garden opening.
+  - name: Supertato
+    instagram: supertatobolgia
+    ig_source: search
+    venues: [Bolgia]
+    notes: Party brand at Bolgia.
+  - name: LTC (Lorenzo Tiezzi Comunicazione)
+    instagram: null
+    ig_source: null
+    venues: [Bolgia]
+    notes: Press office / RA promoter account for Bolgia. Good source of announcements, not an organiser.
+  - name: MiDi Motori Digitali
+    instagram: null
+    ig_source: null
+    genres: [electronic]
+    venues: [Edoné]
+    notes: Electronic nights with blo:som.
+  - name: Le Cannibale
+    instagram: null
+    ig_source: null
+    genres: [house, disco]
+    venues: [Daste]
+    notes: Milan brand, has done Bergamo editions at Daste.
+  - name: Sabotage
+    instagram: null
+    ig_source: null
+    genres: [techno]
+    venues: [Daste]
+    notes: Milan brand; "Sotterranea" special event at Daste.
+  - name: Utopia & Acrylic
+    instagram: null
+    ig_source: null
+    genres: [melodic house]
+    venues: [Daste]
+    notes: Brought Innervisions / Âme to Daste.
+  - name: Discopasta Social Club
+    instagram: discopastasc
+    ig_source: search
+    genres: [disco, house]
+  - name: Greebo Party
+    instagram: greebopartybergamo
+    ig_source: search
+  - name: Newrant Crew
+    instagram: newrant_crew_bergamo
+    ig_source: search
+  - name: BassBrigade / Tribe73 / Beetek / KTN
+    instagram: null
+    ig_source: null
+    genres: [tekno, free party]
+    venues: [JClub (Ponte San Pietro)]
+    notes: Tekno crews; 12h "Karnival Horror Party" at JClub, Feb 2025.

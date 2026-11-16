@@ -60,5 +60,16 @@ sources:
     type: instagram
     enabled: false
     accounts: []
-      # - {username: some_club, venue: Bolgia}
-      # - some_promoter
+      # Researched 2026-11-16. Business/Creator status not checked: an account that is personal
+      # just returns an error from Business Discovery. Uncomment to start with the strongest ones.
+      # - {username: bolgia.official, venue: Bolgia}          # linked from bolgia.it
+      # - {username: daste_bergamo, venue: Daste}
+      # - {username: edonebergamo, venue: Edoné}
+      # - {username: nikitadiscoclub, venue: Nikita}
+      # - {username: setai_club_official, venue: Setai Club}
+      # - {username: csapacipaciana, venue: Pacì Paciana}
+      # - {username: bv_rooftop, venue: BV Rooftop}
+      # - {username: zeroclub.bg, venue: Zero Club}
+      # - hiddenhell.techno
+      # - galactica.festival
+      # - supertatobolgia

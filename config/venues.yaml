@@ -1,43 +1,507 @@
-# Seed venue registry. Collectors match scraped venue names against `name` and `aliases`
+# Venue registry. Collectors match scraped venue names against `name` and `aliases`
 # to attach coordinates, province and social handles.
 #
-# IMPORTANT: coordinates are approximate (town centre) and handles are left blank on purpose
-# until checked by hand. Set verified: true once a venue's data has been confirmed.
+# Researched 2026-11-16 (Bergamo +20 km). How to read the extra fields:
+#   ig_source   website = the venue's own site links this account (strongest)
+#               search  = profile found by name on Instagram via web search, name + town match
+#               null    = no account confirmed; handle left blank on purpose
+#   ig_type     Instagram blocks automated profile reads, so Business/Creator status could not be
+#               checked. Brand accounts are almost always professional; confirm before relying on it.
+#   status      active | check (no recent sign of activity found) | closed
+#   km          straight-line distance from Bergamo centre (45.6983, 9.6773)
+#   tickets     ticket/listing pages that the jsonld adapter could read
+# `verified: true` only where address and handle come from the venue's own pages.
+# Coordinates are approximate (street or town level). Extra keys are ignored by the loader.
 
 venues:
-  # --- Bergamo +20 km ---
+  # =================== Clubs / discos: dance, house, techno ===================
   - name: Bolgia
-    aliases: [Bolgia Club, Discoteca Bolgia]
+    aliases: [Bolgia Club, Discoteca Bolgia, Bolgia Bergamo, Bolgia Summer Garden]
     city: Osio Sopra
     province: BG
-    lat: 45.678
-    lon: 9.587
+    address: Via Vaccarezza 8, 24040 Osio Sopra
+    lat: 45.670
+    lon: 9.588
+    km: 7.6
     kind: club
-    socials: {instagram: null, tiktok: null, website: null}
-  - name: Edonè
-    aliases: [Edone, Edonè Bergamo]
+    status: active        # 2026-27 season opened 5 Sep 2026; Sat 23:30-06:00, rooms Main/Garden/Lab + Summer Garden
+    genres: [techno, hard techno, tech house, house]
+    socials: {instagram: bolgia.official, facebook: bolgiaofficial, website: https://www.bolgia.it, resident_advisor: https://ra.co/clubs/5759}
+    tickets: [https://www.bolgia.it, https://xceed.me/bergamo/club/bolgia]
+    ig_source: website
+    ig_type: unknown
+    verified: true
+    notes: The region's main techno club. Reservation-only entry via bolgia.it. Press office LTC (Lorenzo Tiezzi Comunicazione).
+
+  - name: Setai Club
+    aliases: [Setai, Setai Orio, Fluid, Ex Fluid]
+    city: Orio al Serio
+    province: BG
+    address: Località Portico 21, 24050 Orio al Serio
+    lat: 45.665
+    lon: 9.695
+    km: 3.9
+    kind: club
+    status: active
+    genres: [commercial, house]
+    socials: {instagram: setai_club_official, website: null, resident_advisor: https://ra.co/clubs/5628}
+    tickets: [https://xceed.me/bergamo/club/setai-club]
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Formerly Fluid (JUICE Crew nights with Patrick Topping etc.). Also hosts School Party (@the_original_schoolparty, teen nights, low relevance).
+
+  - name: Zero Club
+    aliases: [Zero Club Bergamo]
     city: Bergamo
     province: BG
+    lat: 45.6983
+    lon: 9.6773
+    km: 0
+    kind: club
+    status: active
+    genres: [commercial, house]
+    socials: {instagram: zeroclub.bg, website: null}
+    tickets: [https://site.fourvenues.com/en/zero-club]
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Address not confirmed; coordinates are city centre. Tickets on Fourvenues.
+
+  - name: Nikita
+    aliases: [Nikita Disco Club, Nikita Telgate, Costez, Costez Summer Club, El Jardin de Nikita]
+    city: Telgate
+    province: BG
+    address: Via dei Morenghi 2, Telgate (Grumello del Monte, by A4 exit)
+    lat: 45.625
+    lon: 9.852
+    km: 15.8
+    kind: club
+    status: active        # JUICE "El Jardín de Nikita" on RA
+    genres: [house, tech house, commercial]
+    socials: {instagram: nikitadiscoclub, website: null, resident_advisor: https://ra.co/clubs/169169}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Part of the Hotel Costez complex (@hotelcostez per an old listing). JUICE Crew runs house nights here.
+
+  - name: Bobadilla
+    aliases: [Bobadilla Feeling Club, Bobadilla Dalmine]
+    city: Dalmine
+    province: BG
+    address: Via Pascolo 34, 24044 Dalmine
+    lat: 45.648
+    lon: 9.600
+    km: 8.2
+    kind: club
+    status: active
+    genres: [commercial, latin, house]
+    socials: {instagram: bobadillafeelingclub, website: null, resident_advisor: https://ra.co/clubs/33408}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Large disco + restaurant; occasional house headliners (Darius Syrossian on RA). Mostly mainstream.
+
+  - name: Decibel Club
+    aliases: [Discoteca Decibel, Decibel Chignolo]
+    city: Chignolo d'Isola
+    province: BG
+    lat: 45.665
+    lon: 9.530
+    km: 12.0
+    kind: club
+    status: check
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: Listed on eventi.bergamo.it. Several "Decibel Club" accounts exist (decibel_club, clubdecibel, decibelclub); none confirmed as this one.
+
+  - name: Hype Club
+    aliases: [Hype Club Cortenuova]
+    city: Cortenuova
+    province: BG
+    lat: 45.537
+    lon: 9.787
+    km: 19.9
+    kind: club
+    status: check
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: Right on the 20 km edge. No matching Instagram found.
+
+  - name: Capogiro
+    aliases: [CaPoGiRo Joy Club, Capogiro Joyclub, Capogiro Curno]
+    city: Curno
+    province: BG
+    lat: 45.690
+    lon: 9.612
+    km: 5.2
+    kind: club
+    status: check
+    genres: [commercial]
+    socials: {instagram: capogirojoyclub, website: null}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+
+  - name: OpenSpace
+    aliases: [OpenSpace Discoteque, Open Space Curno]
+    city: Curno
+    province: BG
+    lat: 45.690
+    lon: 9.612
+    km: 5.2
+    kind: club
+    status: check
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+
+  - name: Under Music Club
+    aliases: [Under Seriate, Fiorenudo]
+    city: Seriate
+    province: BG
+    address: Via Nazionale 93, Seriate
+    lat: 45.680
+    lon: 9.735
+    km: 4.9
+    kind: club
+    status: check
+    socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/44664}
+    ig_source: null
+    verified: false
+    notes: Same address RA lists for the old Fiorenudo club.
+
+  - name: Tiky Klub
+    aliases: [Tiky Club, Tiky Seriate]
+    city: Seriate
+    province: BG
+    lat: 45.680
+    lon: 9.735
+    km: 4.9
+    kind: club
+    status: check
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+
+  - name: Queen Club
+    aliases: [Discoteca Queen, Queen Seriate]
+    city: Seriate
+    province: BG
+    address: Cassinone (Seriate)
+    lat: 45.680
+    lon: 9.735
+    km: 4.9
+    kind: club
+    status: check
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+
+  - name: Oronero
+    aliases: [Oronero Love & Music, Oro Nero Nembro]
+    city: Nembro
+    province: BG
+    lat: 45.745
+    lon: 9.760
+    km: 8.3
+    kind: club
+    status: check
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: Hosts School Party Oronero (@schoolparty_oronero, teen nights). Main account not confirmed (oronero.1 is a candidate).
+
+  - name: BV Rooftop
+    aliases: [BV Rooftop Brignano]
+    city: Brignano Gera d'Adda
+    province: BG
+    address: Via Provinciale per Verdello 9, 24053 Brignano Gera d'Adda
+    lat: 45.542
+    lon: 9.640
+    km: 17.6
+    kind: bar
+    status: active
+    genres: [house]
+    socials: {instagram: bv_rooftop, website: null, resident_advisor: https://ra.co/clubs/243276}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+
+  - name: Baia del Re
+    aliases: [Baia del Re Brignano]
+    city: Brignano Gera d'Adda
+    province: BG
+    lat: 45.542
+    lon: 9.640
+    km: 17.6
+    kind: club
+    status: check
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: An unnamed venue in Brignano was shut by police on 5 Nov 2025 for running as an unlicensed club (Il Giorno). Unclear if it is this one.
+
+  # =================== Live clubs / cultural spaces with DJ nights ===================
+  - name: Edoné
+    aliases: [Edone, Edonè, Edoné Bergamo, Spazio Giovani Edonè]
+    city: Bergamo
+    province: BG
+    address: Via Agostino Gemelli 17, 24124 Bergamo
     lat: 45.687
     lon: 9.678
+    km: 1.3
     kind: live_club
-    socials: {instagram: null, tiktok: null, website: null}
+    status: active
+    genres: [electronic, live, reggae/dub]
+    socials: {instagram: edonebergamo, website: null}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Hosts MiDi Motori Digitali x blo:som electronic nights and Bergamo Sunfest (reggae, Jul-Aug).
+
+  - name: Daste
+    aliases: [Daste Bergamo, Ex Centrale Daste e Spalenga, Daste e Spalenga]
+    city: Bergamo
+    province: BG
+    address: Via Daste e Spalenga 13-15, 24125 Bergamo
+    lat: 45.7005
+    lon: 9.6905
+    km: 1.1
+    kind: live_club
+    status: active
+    genres: [house, techno, live]
+    socials: {instagram: daste_bergamo, website: null, resident_advisor: https://ra.co/clubs/208117}
+    tickets: [https://xceed.me/en/bergamo/club/daste-bergamo]
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Former power station. Has hosted Le Cannibale, Sabotage "Sotterranea", Utopia & Acrylic (Innervisions). Bistrot account @daste_bistro is separate.
+
   - name: Druso
     aliases: [Druso Circus, Druso Ranica]
     city: Ranica
     province: BG
     lat: 45.724
     lon: 9.714
+    km: 4.0
     kind: live_club
-    socials: {instagram: null, tiktok: null, website: null}
+    status: active
+    genres: [live, party]
+    socials: {instagram: drusobg, website: null}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Mostly live and themed party nights ("Be Stupid").
+
   - name: Polaresco
     aliases: [Spazio Polaresco]
     city: Bergamo
     province: BG
     lat: 45.709
     lon: 9.668
+    km: 1.4
     kind: live_club
-    socials: {instagram: null, tiktok: null, website: null}
+    status: active
+    socials: {instagram: spazio_polaresco, website: null}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+
+  - name: Pacì Paciana
+    aliases: [CSA Pacì Paciana, C.S.A. Pacì Paciana, Paci Paciana]
+    city: Bergamo
+    province: BG
+    address: Via Grumello 61/c, Bergamo
+    lat: 45.690
+    lon: 9.640
+    km: 3.0
+    kind: live_club
+    status: active
+    genres: [techno, drum and bass, live]
+    socials: {instagram: csapacipaciana, website: null, resident_advisor: https://ra.co/clubs/69109}
+    ig_source: search
+    ig_type: unknown
+    verified: false
+    notes: Social centre; underground techno/tekno nights.
+
+  - name: Ink Club
+    aliases: [Arci Ink Club, Ink Bergamo]
+    city: Bergamo
+    province: BG
+    lat: 45.699
+    lon: 9.670
+    km: 0.6
+    kind: live_club
+    status: active
+    genres: [rock, live]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: Mostly rock. @inkhub_bergamo is a candidate account, unconfirmed.
+
+  - name: Circolino della Malpensata
+    aliases: [Circolino Malpensata, Il Circolino]
+    city: Bergamo
+    province: BG
+    lat: 45.688
+    lon: 9.670
+    km: 1.3
+    kind: bar
+    status: active
+    genres: [live, funk]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+
+  - name: Clash Club
+    aliases: [Circolo Ego, Cavo Club]
+    city: Bergamo
+    province: BG
+    address: Via Baschenis 9, Bergamo
+    lat: 45.693
+    lon: 9.665
+    km: 1.1
+    kind: club
+    status: check
+    socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/72471}
+    ig_source: null
+    verified: false
+    notes: Same address has had three names on RA (Cavo, Circolo Ego, Clash). No current activity found.
+
+  - name: Keller Factory
+    aliases: [Keller Curno]
+    city: Curno
+    province: BG
+    lat: 45.690
+    lon: 9.612
+    km: 5.2
+    kind: bar
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: Dinner + bands; low relevance.
+
+  - name: UFO Live
+    aliases: [UFO Mozzo]
+    city: Mozzo
+    province: BG
+    lat: 45.700
+    lon: 9.610
+    km: 5.2
+    kind: live_club
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: Tribute bands; low relevance.
+
+  - name: Live Club
+    aliases: [Live Club Trezzo, Live Music Club Trezzo]
+    city: Trezzo sull'Adda
+    province: MI
+    lat: 45.610
+    lon: 9.520
+    km: 15.7
+    kind: live_club
+    capacity: 2500
+    status: active
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: In Milan province but inside 20 km. Concerts plus theme parties; occasional dance acts.
+
+  - name: Ninfea Social Club
+    aliases: [Ninfea Sorisole]
+    city: Sorisole
+    province: BG
+    address: Via Guglielmo Marconi 65, Sorisole
+    lat: 45.730
+    lon: 9.655
+    km: 3.9
+    kind: bar
+    status: active
+    genres: [reggae/dub]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+
+  # =================== Open air / festivals / big rooms ===================
+  - name: Two Festival
+    aliases: [TWO Festival Mapello, Parco di Prada]
+    city: Mapello
+    province: BG
+    address: Parco di Prada, Mapello
+    lat: 45.713
+    lon: 9.548
+    km: 10.2
+    kind: open_air
+    status: active        # 25-28 Jun 2026, house / tech house
+    genres: [house, tech house]
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: The area's main summer dance festival. Instagram not found; check flyers.
+
+  - name: NXT Station
+    aliases: [NXT, Piazzale degli Alpini]
+    city: Bergamo
+    province: BG
+    lat: 45.693
+    lon: 9.673
+    km: 0.7
+    kind: open_air
+    status: active        # summer season, late May to early Sep
+    socials: {instagram: null, website: null}
+    ig_source: null
+    verified: false
+    notes: Mixed pop/indie/rap; DJ nights at times.
+
+  - name: Lazzaretto
+    aliases: [Lazzaretto Estate, Lazzaretto Bergamo]
+    city: Bergamo
+    province: BG
+    lat: 45.705
+    lon: 9.658
+    km: 1.7
+    kind: open_air
+    status: active        # Jun-Jul
+    socials: {instagram: null, website: https://www.comune.bergamo.it/notizie/lazzaretto-estate-2026}
+    ig_source: null
+    verified: false
+    notes: Mostly concerts; low relevance except DJ closing nights.
+
+  - name: ChorusLife
+    aliases: [ChorusLife Arena, ChorusLife Smart District]
+    city: Bergamo
+    province: BG
+    address: Via Carlo Serassi 26, Bergamo
+    lat: 45.695
+    lon: 9.695
+    km: 1.4
+    kind: arena
+    status: active
+    socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/251441}
+    ig_source: null
+    verified: false
+
+  - name: Fiera di Bergamo
+    aliases: [Fiera Bergamo]
+    city: Bergamo
+    province: BG
+    address: Via Lunga, Bergamo
+    lat: 45.659
+    lon: 9.665
+    km: 4.5
+    kind: arena
+    status: active
+    socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/103112}
+    ig_source: null
+    verified: false
+    notes: Used for big one-off raves/NYE.
 
   # --- Alert zone examples (outside 20 km) ---
   - name: Fabrique
@@ -80,6 +544,18 @@ towns:
   Grassobbio: {province: BG, lat: 45.657, lon: 9.726}
   Albino: {province: BG, lat: 45.760, lon: 9.797}
   Sarnico: {province: BG, lat: 45.669, lon: 9.962}
+  Telgate: {province: BG, lat: 45.625, lon: 9.852}
+  Grumello del Monte: {province: BG, lat: 45.636, lon: 9.874}
+  Chignolo d'Isola: {province: BG, lat: 45.665, lon: 9.530}
+  Cortenuova: {province: BG, lat: 45.537, lon: 9.787}
+  Nembro: {province: BG, lat: 45.745, lon: 9.760}
+  Brignano Gera d'Adda: {province: BG, lat: 45.542, lon: 9.640}
+  Sorisole: {province: BG, lat: 45.730, lon: 9.655}
+  Mapello: {province: BG, lat: 45.713, lon: 9.548}
+  Mozzo: {province: BG, lat: 45.700, lon: 9.610}
+  Osio Sotto: {province: BG, lat: 45.623, lon: 9.596}
+  Brembate: {province: BG, lat: 45.605, lon: 9.555}
+  Trezzo sull'Adda: {province: MI, lat: 45.610, lon: 9.520}
   Milano: {province: MI, lat: 45.4642, lon: 9.19}
   Monza: {province: MB, lat: 45.584, lon: 9.274}
   Brescia: {province: BS, lat: 45.5416, lon: 10.2118}

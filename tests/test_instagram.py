@@ -68,7 +68,7 @@ def test_confident_posts_go_straight_to_calendar_others_wait(tmp_path):
     src, events = run(cfg, FakeGraph(POSTS))
     assert [e.title for e in events] == ["Techno night"]
     ev = events[0]
-    assert ev.venue.name == "Bolgia" and ev.venue.socials.instagram == "club_a"
+    assert ev.venue.name == "Bolgia" and ev.venue.socials.instagram == "bolgia.official"  # registry handle wins over the posting account
     assert ev.artists[0].socials.instagram == "sample.dj"
     assert ev.end > ev.start  # 05:00 rolls over to the next day
     q = src._load_review()

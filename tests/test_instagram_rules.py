@@ -25,7 +25,7 @@ def test_italian_flyer_caption():
 def test_numeric_date_and_named_venue_in_caption():
     ex = read("Venerdì 27.11 tech house all night @ Edonè, dalle 23 alle 4")
     e = ex.events[0]
-    assert e.date == "2026-11-27" and e.venue_name == "Edonè" and e.start_time == "23:00" and e.end_time == "04:00"
+    assert e.date == "2026-11-27" and e.venue_name == "Edoné" and e.start_time == "23:00" and e.end_time == "04:00"
     assert "tech house" in e.genres
 
 
