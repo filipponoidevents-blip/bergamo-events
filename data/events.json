@@ -1,5 +1,583 @@
 [
   {
+    "title": "BUNNY CLUB  HALLOWEEN EDITION  BERGAMO",
+    "start": "2026-10-31T23:30:00+01:00",
+    "venue": {
+      "name": "Zero Club",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.693,
+      "lon": 9.665,
+      "address": "Via Baschenis 9, Bergamo",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "zeroclub.bg",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/72471"
+      },
+      "verified": false
+    },
+    "end": "2026-11-01T05:00:00+01:00",
+    "artists": [],
+    "genres": [
+      "reggaeton"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfJ_-UkNMIG/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/874538975_18416528218090375_5492958924448741604_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=v30V_bJch18Q7kNvwFGKeyP&_nc_oc=AdqYe8E3UeDsqsfSHCko423XV5W7nfuzWJNYdM3Mzz2V7Ia060joExedcmPTbaVYXU0&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=slLhHpJJHudmHQnbmBPhiw&_nc_tpa=Q5bMBQJbMICGBWzBE8nNNsPO8YxqHOjsbSROGWIY8AhehfRn5z8U0nWqxdroLJf3RJptZU6iAdwZDTt6hA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRnIS3dqObvo8uMMb7jnbwqZ0kDHKDeesWmp-e7dKOccg&oe=6B0152A9",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18079609769406841-0",
+      "ig:18111371429350168-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfFfrxLNkT9/",
+      "https://www.instagram.com/reel/DfJ_-UkNMIG/"
+    ],
+    "score": 1.9,
+    "scope": "ignore",
+    "distance_km": 1.1,
+    "reasons": [
+      "genre:reggaeton",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.030585+00:00",
+    "updated": "2026-11-16T21:22:23.030676+00:00",
+    "uid": "772b486f4a4271df"
+  },
+  {
+    "title": "Per tutti gli amanti della musica elettronica, torna questo giovedì sul palco de",
+    "start": "2026-11-12T20:00:00+01:00",
+    "venue": {
+      "name": "Ink Club",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.699,
+      "lon": 9.67,
+      "address": null,
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "inkclub_bergamo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "elettronica"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfiLjFoxjsQ/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/900732669_18371852224215937_3584199598376862526_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FWd7YxR4AzUQ7kNvwHYFMIy&_nc_oc=AdrZ_W58LsxhZSSCLmg8XvaVJFiqOU3XaIacp6tD74RS1AeY-faj2sney2Yl8rdwQkQ&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=JRLtrLZpE12cKoiM2Sa6eA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTOIuuYCZRsASj3IsTtTspWVKvEoXYI2wkUcVCQC5N2og&oe=6B015D5B",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18134711851838917-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfiLjFoxjsQ/"
+    ],
+    "score": 1.8,
+    "scope": "ignore",
+    "distance_km": 0.6,
+    "reasons": [
+      "genre:elettronica",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.030479+00:00",
+    "updated": "2026-11-16T21:22:23.030479+00:00",
+    "uid": "d94571a148d43479"
+  },
+  {
+    "title": "VENERDÌ 13.11  dalle 21:00 dj set con federicosalimeii",
+    "start": "2026-11-13T21:00:00+01:00",
+    "venue": {
+      "name": "MINT",
+      "city": "Chiuduno",
+      "province": "BG",
+      "lat": 45.647,
+      "lon": 9.853,
+      "address": "Via Trieste 38, Chiuduno",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "mint_lounge",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/Dfg-ijnHJj3/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/892173293_1556824466478769_4359466935808856473_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=zGDjUkmz7TAQ7kNvwGnWXPU&_nc_oc=AdpMTnkcVptHcZ7clsNWNj3OITjNpUZipsBTHeo0CbLrOrJnX74mDTEA3tPMdrV7K_s&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=vGytdYi1s5p-smgANfYKTA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSZN8DHMYH0sXrdY90IG8QLZFTSYdcMH09f9xJJqGo1Zw&oe=6B014C2A",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18113115620182860-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfg-ijnHJj3/"
+    ],
+    "score": 3.0,
+    "scope": "local",
+    "distance_km": 14.8,
+    "reasons": [
+      "genre:dj set",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.037923+00:00",
+    "updated": "2026-11-16T21:22:23.037923+00:00",
+    "uid": "44add0a834bf5a8f"
+  },
+  {
+    "title": "questo venerdì il weekend parte a ritmo di tech house",
+    "start": "2026-11-13T22:00:00+01:00",
+    "venue": {
+      "name": "Arya Lounge",
+      "city": "Romano di Lombardia",
+      "province": "BG",
+      "lat": 45.522,
+      "lon": 9.754,
+      "address": "Via Balilla 66, Romano di Lombardia",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "arya.lounge",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "tech house"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/Dfm_tHRJwae/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/900983548_1487682669884375_4287974126232416843_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=H16vOTvxMlsQ7kNvwGNwo-b&_nc_oc=Adpv_MliWXzxp2iSBVnvLguyBElil6ovCH_nd2_SychPMBxJ9PI19UaIuqeCkM2u268&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RbJwE6lxpaNxA96R6OqJ7g&_nc_tpa=Q5bMBQLeSdHzvqUQtaRZmG8Rh67fSc_GOZAEZoqspt47EpnB9azbb2owEMUbNL_Hy8Qdmgdvb8AC5snwwg&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQSyeyAG_ELIX_E5p-cfhUebPCS_EcjqHpgiOOP8-fgyqw&oe=6B013CA7",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18136811626673698-0",
+      "ig:18190064005421310-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfhse5JKuuH/",
+      "https://www.instagram.com/reel/Dfm_tHRJwae/"
+    ],
+    "score": 3.0,
+    "scope": "ignore",
+    "distance_km": 20.5,
+    "reasons": [
+      "genre:tech house"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.038962+00:00",
+    "updated": "2026-11-16T21:22:23.039983+00:00",
+    "uid": "2c3345abb902a5ec"
+  },
+  {
+    "title": "VENERDÌ 13 NOVEMBRE",
+    "start": "2026-11-13T22:30:00+01:00",
+    "venue": {
+      "name": "Queen Club",
+      "city": "Seriate",
+      "province": "BG",
+      "lat": 45.68,
+      "lon": 9.735,
+      "address": "Cassinone (Seriate)",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "discoteca_queen",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfgH_kYtWki/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/898584095_18344238280258835_7259025893255443733_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9oQCuoLESfoQ7kNvwFHGHNA&_nc_oc=AdoQAXBQowdEEmRSpLE8bMivaxNPwgTMbwe7DgRW1JaAXeVBo2yn-lA6meJ1v2396rU&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_tpa=Q5bMBQIzjVck2H15iKCTg71AeZrAYpZV_96ihlVaPc26x85KbjqEQGMx8m_Ypks0PeDXXvymLRly8Hi4bA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQSHcauq8eyQBLcewtEd1zmLyNk7tMKzxT3r52ZpEUiP6w&oe=6B015D72",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18499021723107277-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfgH_kYtWki/"
+    ],
+    "score": 2.7,
+    "scope": "local",
+    "distance_km": 4.9,
+    "reasons": [
+      "genre:disco",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.036390+00:00",
+    "updated": "2026-11-16T21:22:23.036390+00:00",
+    "uid": "2992e78d345bcc70"
+  },
+  {
+    "title": "Tra terra e cielo",
+    "start": "2026-11-14T18:30:00+01:00",
+    "venue": {
+      "name": "Ninfea Social Club",
+      "city": "Sorisole",
+      "province": "BG",
+      "lat": 45.73,
+      "lon": 9.655,
+      "address": "Via Guglielmo Marconi 65, Sorisole",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "ninfeasocialclub",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/Dfjmac4CHXW/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/892187375_18083568794531213_3795368989289385460_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9-sStrVROVUQ7kNvwGJFLJL&_nc_oc=AdqVh7DAuL7T22RFMlbbd-P3M0gcP4FNWdD9hAo8bXn2xDHNDxU8LcFP2dJuwQdVtAs&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSAMsCU8JuAo9T7bew6bRglIzNfTsSDOZjsO01DOG-8yg&oe=6B015EF6",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18040649300892600-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfjmac4CHXW/"
+    ],
+    "score": 1.5,
+    "scope": "ignore",
+    "distance_km": 3.9,
+    "reasons": [
+      "genre:dj set"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.034104+00:00",
+    "updated": "2026-11-16T21:22:23.034104+00:00",
+    "uid": "1d9cfe638a16e92c"
+  },
+  {
+    "title": "SABATO 14 NOVEMBRE",
+    "start": "2026-11-14T23:00:00+01:00",
+    "venue": {
+      "name": "Queen Club",
+      "city": "Seriate",
+      "province": "BG",
+      "lat": 45.68,
+      "lon": 9.735,
+      "address": "Cassinone (Seriate)",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "discoteca_queen",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfgKhfTI7T8/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/893312048_18344239762258835_2582651255216470561_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TlPWC_TfeggQ7kNvwFW4i0T&_nc_oc=Adp7KN2hVaeFH4vkspQbvdalR9pWmAbUNnkfBnv2tqg0ZKviX2wKvhfVLgxjgJX7LS0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_tpa=Q5bMBQI98YziB9qDFds9hss4ncSjbNxeY8S2QA5buvIsmfJbFsO2xKnbEMHIidy7PO7wKYr4eHSTZxeHHw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRReT_bDiOxLOeBA5j9LhgO9GdwZioRkAP_0a_zja73dw&oe=6B014B0C",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18094990415485549-0",
+      "ig:18471532594137063-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfgKUkPoJMI/",
+      "https://www.instagram.com/reel/DfgKhfTI7T8/"
+    ],
+    "score": 2.7,
+    "scope": "local",
+    "distance_km": 4.9,
+    "reasons": [
+      "genre:disco",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.035819+00:00",
+    "updated": "2026-11-16T21:22:23.036114+00:00",
+    "uid": "208673cac3dfbdf1"
+  },
+  {
+    "title": "Ritorno alle origini",
+    "start": "2026-11-15T18:00:00+01:00",
+    "venue": {
+      "name": "Contest Cocktail Bar",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.6983,
+      "lon": 9.6773,
+      "address": null,
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "contest_bg",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfXljtCAMYn/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/887929304_1482672293752755_3726310779889202557_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=BdJWl5GmobsQ7kNvwGLES94&_nc_oc=Adr5Y5x46bSu8A3ssMLzT6xmMTcZkA9XkfQKsCV0OosmQ0R4s-8bL8S9Cskj2wqR1yU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=YM6dEOi83o4cmVCFeZhHUA&_nc_tpa=Q5bMBQKieQg6grKnEvCLJmLoqtcGLfBbi_v4n1agTpBSClKDYhcIrVEJS_IbVnA2pT0xTPbSCMLSh7i6jg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRWdmtYzee1UpMliBO523mJQhCanAB5lgQX04ro01wFpg&oe=6B013518",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18573895303074790-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfXljtCAMYn/"
+    ],
+    "score": 1.5,
+    "scope": "ignore",
+    "distance_km": 0.0,
+    "reasons": [
+      "genre:dj set"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.029938+00:00",
+    "updated": "2026-11-16T21:22:23.029938+00:00",
+    "uid": "58e01054adc70132"
+  },
+  {
+    "title": "Domenica sera da Ninfea si mette qualche disco",
+    "start": "2026-11-15T18:00:00+01:00",
+    "venue": {
+      "name": "Ninfea Social Club",
+      "city": "Sorisole",
+      "province": "BG",
+      "lat": 45.73,
+      "lon": 9.655,
+      "address": "Via Guglielmo Marconi 65, Sorisole",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "ninfeasocialclub",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco",
+      "dj set"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfrEnKpKwDn/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/900297124_18084019364531213_3963471805942039305_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=AYcZSmWb7nQQ7kNvwF6Gvbf&_nc_oc=AdomCpumF6914OcKRl8FVfepHF8xYaSICJD_RYcGh44V6pjLEAIbL2_P7ft2uab9ZqI&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTulvOoMdwHVbplf4dooL7nFOdWp4OR3Lq_YFSvSJx8Og&oe=6B014931",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17891019282478840-0",
+      "ig:18182052202432611-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfnK7IlmyxZ/",
+      "https://www.instagram.com/p/DfrEnKpKwDn/"
+    ],
+    "score": 1.5,
+    "scope": "ignore",
+    "distance_km": 3.9,
+    "reasons": [
+      "genre:dj set"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.032372+00:00",
+    "updated": "2026-11-16T21:22:23.032937+00:00",
+    "uid": "ba8f065aad3733ae"
+  },
+  {
+    "title": "MERCOLEDÌ BOARO",
+    "start": "2026-11-18T21:00:00+01:00",
+    "venue": {
+      "name": "Ninfea Social Club",
+      "city": "Sorisole",
+      "province": "BG",
+      "lat": 45.73,
+      "lon": 9.655,
+      "address": "Via Guglielmo Marconi 65, Sorisole",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "ninfeasocialclub",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/Dfy8y_uChr-/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/901960712_18084500168531213_1351942830238344531_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fTEmdcJ44BsQ7kNvwHP4fLH&_nc_oc=AdqlonlHpCWj3KS6L2bb8a_RkPSdpXBG3MJmz1Qp2IOiz21ISwOqfg66LH6aTKGL1eo&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRn4sqbOfm6JvKZUVxzw6HE-Cgff0eMHqxrxKJZREA0Ag&oe=6B015C96",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18119513246281577-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfy8y_uChr-/"
+    ],
+    "score": 1.5,
+    "scope": "ignore",
+    "distance_km": 3.9,
+    "reasons": [
+      "genre:dj set"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.031795+00:00",
+    "updated": "2026-11-16T21:22:23.031795+00:00",
+    "uid": "ea678bf0abdd35a3"
+  },
+  {
+    "title": "VENERDÌ 20 NOVEMBRE",
+    "start": "2026-11-20T22:30:00+01:00",
+    "venue": {
+      "name": "Queen Club",
+      "city": "Seriate",
+      "province": "BG",
+      "lat": 45.68,
+      "lon": 9.735,
+      "address": "Cassinone (Seriate)",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "discoteca_queen",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/Dfw-YMmthRe/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/900495703_18345186268258835_6883253883749355867_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRTN2IWA5JgQ7kNvwGkPbV7&_nc_oc=AdorKp5vlqcH32NelGSwXaN-ZcbmTdCOb5--lJ0Glg2wKw0ZCYWq98-l-BsS-bqmQk8&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_tpa=Q5bMBQIaTUYmeQfGey_6gzAx2MbPjjuJC5zICxSwD0_lSGCQ97GrolGydQ14othEmpoTGVPK27KtslMruw&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSIGSdQTWiacbIICk97ODf4BNMrWSL_2khxt5AqbEFUlA&oe=6B01407C",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18116194301038587-0",
+      "ig:18194396047404902-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Dfw-KD_tLEt/",
+      "https://www.instagram.com/reel/Dfw-YMmthRe/"
+    ],
+    "score": 2.7,
+    "scope": "local",
+    "distance_km": 4.9,
+    "reasons": [
+      "genre:disco",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.035283+00:00",
+    "updated": "2026-11-16T21:22:23.035546+00:00",
+    "uid": "eb69ad9a78c5b653"
+  },
+  {
     "title": "[SAMPLE] Techno Friday",
     "start": "2026-11-20T23:30:00+01:00",
     "venue": {
@@ -71,7 +649,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250404+00:00",
-    "updated": "2026-11-16T21:03:28.252076+00:00",
+    "updated": "2026-11-16T21:19:23.119369+00:00",
     "uid": "98ba0594ee71dac8"
   },
   {
@@ -134,8 +712,62 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250526+00:00",
-    "updated": "2026-11-16T21:03:28.252238+00:00",
+    "updated": "2026-11-16T21:19:23.119505+00:00",
     "uid": "b2aa1c456e43d358"
+  },
+  {
+    "title": "SABATO 21 NOVEMBRE",
+    "start": "2026-11-21T23:00:00+01:00",
+    "venue": {
+      "name": "Queen Club",
+      "city": "Seriate",
+      "province": "BG",
+      "lat": 45.68,
+      "lon": 9.735,
+      "address": "Cassinone (Seriate)",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "discoteca_queen",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/Df0FPmjt6FV/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/905071223_18345386470258835_6063828466906818669_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zBDORi_Bd88Q7kNvwG0F8su&_nc_oc=AdoZXrf-UNQYwM1WGwWugeHXICJokx1UCq4r4veZELPecNDYID8NtjAPE3kQgpamlOg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hDMLPfBoU2tDszC5GP85hA&_nc_tpa=Q5bMBQJ0aMGUwWxR_zuAF19y8wY1s9johrLbiG0BBSSVCSIIgN354043odArDcn--r4VkJ-LaER56yaE9g&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQTn-kJfn2jSqjswo8ezhPxgurDm7KHuEGHRHh4QwkbF1Q&oe=6B01369D",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:17970877896206520-0",
+      "ig:18137292883775677-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df0FFjVt1pm/",
+      "https://www.instagram.com/reel/Df0FPmjt6FV/"
+    ],
+    "score": 2.7,
+    "scope": "local",
+    "distance_km": 4.9,
+    "reasons": [
+      "genre:disco",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.034727+00:00",
+    "updated": "2026-11-16T21:22:23.035005+00:00",
+    "uid": "32ae18044ccf8c8c"
   },
   {
     "title": "[SAMPLE] Indie rock live",
@@ -197,7 +829,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250613+00:00",
-    "updated": "2026-11-16T21:03:28.252760+00:00",
+    "updated": "2026-11-16T21:19:23.120024+00:00",
     "uid": "863422547996317e"
   },
   {
@@ -281,7 +913,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.252958+00:00",
-    "updated": "2026-11-16T21:03:28.256419+00:00",
+    "updated": "2026-11-16T21:19:23.123511+00:00",
     "uid": "001b2eb2012def2c"
   },
   {
@@ -348,8 +980,60 @@
     ],
     "alert_level": "national",
     "first_seen": "2026-11-16T15:48:15.250740+00:00",
-    "updated": "2026-11-16T21:03:28.254088+00:00",
+    "updated": "2026-11-16T21:19:23.121299+00:00",
     "uid": "35a8669803d2aa2a"
+  },
+  {
+    "title": "SABATO 28/11",
+    "start": "2026-11-28T21:00:00+01:00",
+    "venue": {
+      "name": "LOFT Bergamo",
+      "city": "Azzano San Paolo",
+      "province": "BG",
+      "lat": 45.661,
+      "lon": 9.673,
+      "address": "Via Stezzano 18, Azzano San Paolo",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "loft.bergamo",
+        "tiktok": null,
+        "facebook": null,
+        "website": "https://loftbergamo.com",
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": "2026-11-29T02:00:00+01:00",
+    "artists": [],
+    "genres": [
+      "house"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/DfzPZPrtGfJ/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/910707838_17906147790671468_1029796839349409801_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=R_vPPN7I2c0Q7kNvwHQU5oQ&_nc_oc=AdoOe7IfiUSz3ZnumGPzOGZVt3cNU_L-gi2zvLMs_gUqHQEkxJJGZLaYNU2hkwRC7PU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=xsPSrmmbQl-3CSYDwO_zSg&_nc_tpa=Q5bMBQKgqeCODYaHYU0j1ogdGuflIHuURVyzmqlgK0xHO91YGHj_fDSggOHV5gIjDJW2ggqIi56_18xWDQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQT4ybLtWMsi0B8GSzxdj7AlX26hyV8P64aV0dLTmGAdGQ&oe=6B013FD6",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18100660250659065-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/DfzPZPrtGfJ/"
+    ],
+    "score": 4.0,
+    "scope": "local",
+    "distance_km": 4.2,
+    "reasons": [
+      "genre:house",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.034453+00:00",
+    "updated": "2026-11-16T21:22:23.034453+00:00",
+    "uid": "9b6fff17fe858b19"
   },
   {
     "title": "[SAMPLE] Commercial night in Torino",
@@ -398,7 +1082,160 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T15:48:15.250816+00:00",
-    "updated": "2026-11-16T21:03:28.254790+00:00",
+    "updated": "2026-11-16T21:19:23.121953+00:00",
     "uid": "bf822436be9d5e20"
+  },
+  {
+    "title": "𝑷𝒓𝒐𝒔𝒔𝒊𝒎𝒊 𝒆𝒗𝒆𝒏𝒕𝒊",
+    "start": "2026-12-12T21:30:00+01:00",
+    "venue": {
+      "name": "Circolino della Malpensata",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.688,
+      "lon": 9.67,
+      "address": "Via Luzzatti 68, Bergamo",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "circolinomalpensata_bergamo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfzNRhYMLt1/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/906808443_18002430006050683_7158341853505467093_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6N2suZZNksgQ7kNvwHzR70g&_nc_oc=AdoNBEWs7AmicZ7-QIpSleKjtX-q5MvU1v9byfVeJFXcgY_Wwpj08CZqcDIA-TE_wis&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=TuDh3zyQ0CM4-nIjQV0lSw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRignMFyXpjLwuWFRCwITNChwjh5_bsVSZh34sURbsm2A&oe=6B01382A",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18126731233912922-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfzNRhYMLt1/"
+    ],
+    "score": 1.2,
+    "scope": "ignore",
+    "distance_km": 1.3,
+    "reasons": [
+      "genre:disco"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.031218+00:00",
+    "updated": "2026-11-16T21:22:23.031218+00:00",
+    "uid": "d4536091ea54521e"
+  },
+  {
+    "title": "IL 2027 INIZIA CON UN BRINDISI CHE FA RUMORE!",
+    "start": "2026-12-31T23:00:00+01:00",
+    "venue": {
+      "name": "Keller Factory",
+      "city": "Curno",
+      "province": "BG",
+      "lat": 45.69,
+      "lon": 9.612,
+      "address": null,
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "kellerfactory_",
+        "tiktok": null,
+        "facebook": null,
+        "website": "https://www.newkeller.it",
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": "2027-01-01T01:30:00+01:00",
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/reel/Dft9l09gc1G/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/905400824_18575906161074567_7335936566023769694_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zW1htt2b568Q7kNvwEH4DDt&_nc_oc=AdpNv7Vb3UYoluZ2mFq5mvxSqtDfgwoi0R8smDgPsZXVQBS5cjrVCLQlTBBPXbgiVVk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=KvU3Xioh7syD7vMsrAHN0g&_nc_tpa=Q5bMBQIKlJlwf-pCcaXcks7Fj4fVM7rdehTplpGdl4uZJmMtoqA78VMFvISDXk8HTinrdKjnwtt8-xoY-Q&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQS5jVWThU1e7neinWZBZQY867lfXeTwmE-BmI2zFngtpA&oe=6B014F61",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18103094102067810-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/Dft9l09gc1G/"
+    ],
+    "score": 1.5,
+    "scope": "ignore",
+    "distance_km": 5.2,
+    "reasons": [
+      "genre:dj set"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.036898+00:00",
+    "updated": "2026-11-16T21:22:23.036898+00:00",
+    "uid": "a1dad6062f0a841a"
+  },
+  {
+    "title": "ALLA BASE ATTERRA A NINFEA!",
+    "start": "2027-03-30T18:00:00+02:00",
+    "venue": {
+      "name": "Ninfea Social Club",
+      "city": "Sorisole",
+      "province": "BG",
+      "lat": 45.73,
+      "lon": 9.655,
+      "address": "Via Guglielmo Marconi 65, Sorisole",
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "ninfeasocialclub",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "disco"
+    ],
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfkO0kMDBaK/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/895917075_122125870551240064_4164521325550940175_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=omPm0x6729YQ7kNvwFGT3DH&_nc_oc=AdrGwNwsOaVtA_qnuymImgfmzYfh1Ak3Ug-KQ5Goj7Xe1zfGglJy_Jpxlvc0M5ffz1I&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=kiS3GYOFQWIu_QiBhNdrVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRjAOULx-qECEHuCMKT5YZvrG_-tPfL8qE0SkvhLqOV0Q&oe=6B012A70",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "sources": [
+      "ig:18100675265430465-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfkO0kMDBaK/"
+    ],
+    "score": 1.2,
+    "scope": "ignore",
+    "distance_km": 3.9,
+    "reasons": [
+      "genre:disco"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-16T21:22:23.033526+00:00",
+    "updated": "2026-11-16T21:22:23.033526+00:00",
+    "uid": "d1f614d7dc3af951"
   }
 ]
