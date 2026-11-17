@@ -1,6 +1,8 @@
 {
   "followers": {
+    "afrodylanofficial": 12163,
     "al_tabarin": 716,
+    "aliveofficialparty": 29290,
     "arya.lounge": 2471,
     "baiadelrebrignano": 4256,
     "balzerbynight": 7483,
@@ -8,19 +10,25 @@
     "bar_sanmarco": 2096,
     "barperlage": 2694,
     "barrys__": 9711,
+    "bergamonightservice": 1092,
     "bobadillafeelingclub": 31616,
     "bolgia.official": 124422,
     "brinapasticceria": 3124,
     "bsk.sound": 1742,
     "bucheesebar": 6834,
     "bv_rooftop": 11309,
+    "call._.out": 732,
     "capogirojoyclub": 17726,
     "casacostez": 6193,
     "charleston.treviglio": 2423,
+    "cheri.it": 4706,
     "choruslife.bergamo": 67271,
     "circolinomalpensata_bergamo": 2922,
     "contest_bg": 3936,
     "cosmo.food.club": 2373,
+    "crocevia_": 1065,
+    "cromaroom": 1988,
+    "crystalcastlesnightt": 730,
     "csapacipaciana": 13756,
     "daste_bergamo": 21234,
     "decibel_club": 4560,
@@ -32,6 +40,7 @@
     "hiddenhell.techno": 11131,
     "hype.club.official": 24476,
     "icksdresstoimpress": 6688,
+    "iconevents.official": 608,
     "incroissanterialab": 27610,
     "inkclub_bergamo": 14635,
     "jamlivestudio": 6024,
@@ -46,25 +55,64 @@
     "ninfeasocialclub": 8663,
     "noidfamilia": 7874,
     "nxtbergamo": 30186,
+    "oasi.night": 507,
     "officinapanarari": 5363,
     "oroneroloveandmusic": 7811,
+    "please.nights": 2514,
+    "premiere.premiere": 2132,
     "sabbiemobili_official": 7833,
     "savana.king25": 192,
+    "selected.lab": 198,
     "setai_club_official": 36673,
+    "sloth.bg": 825,
     "sommet_night": 492,
     "sprint_bergamo": 5103,
     "supertatobolgia": 20619,
+    "talk.maf": 2210,
     "thanka.official": 30954,
+    "the.circlehub": 831,
     "theboxbergamo": 8039,
     "tiky.klub": 994,
     "twofestival": 2954,
+    "unibg_party": 3437,
     "unplug.project": 547,
-    "unplug__bg": 2933,
+    "unplug__bg": 2934,
     "utopia.direction": 8466,
     "vibetheclub": 11558,
-    "zeroclub.bg": 20814
+    "we.are.stepup": 354,
+    "zeroclub.bg": 20819
   },
   "items": {
+    "17871599085659323-0": {
+      "account": "crocevia_",
+      "account_venue": null,
+      "caption": "🍷 UNA SERATA ALL’INSEGNA DEL VINO E DELLA PASSIONE\n\nDomenica 22 novembre | Ore 20:00 \n📍 Crocevia Cocktail Bar\n\nAvremo il piacere di ospitare il Miglior Sommelier della Valle d’Aosta – AIS, che ci accompagnerà in un viaggio tra profumi, sapori e curiosità della Valle D’Aosta.\n\nUn’occasione speciale per degustare, scoprire e condividere insieme una serata di gusto e convivialità.\n\nI posti sono limitati! 📩 Prenota il tuo posto e non perdere questa esperienza!\n\n#croceviacocktailbar #degustazionevino #ais #sommelier #wineexperience",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-22",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "Crocevia",
+        "venue_name": null
+      },
+      "id": "17871599085659323-0",
+      "image": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/912424873_17919576927540636_4131439462874274895_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=96cHI1H3gt8Q7kNvwEKedLp&_nc_oc=AdqCvsUYUnKolwGkWo2VVyFFMKli0WVCvqGW3SDVIzvUOJGlhh-q7SkTC0EUTmSy4LU&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Bquck5-kALOsT09ob58RwQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS9Ia92amgh3Zjo1vILyv6KSfHgoiWyD0hY6tGss6aMxw&oe=6B025B03",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df1rD5VtdsX/",
+      "status": "info"
+    },
     "17871635916662973-0": {
       "account": "mint_lounge",
       "account_venue": "MINT",
@@ -294,6 +342,36 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfsAUGvsXGE/",
       "status": "auto"
+    },
+    "17896758693616351-0": {
+      "account": "cheri.it",
+      "account_venue": null,
+      "caption": "Venerdì \nMint \nChéri",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-20",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Cheri",
+        "venue_name": "MINT"
+      },
+      "id": "17896758693616351-0",
+      "image": "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/907683975_17998187133060777_7427488761439572478_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3jBVzMhPHK0Q7kNvwGCrgkd&_nc_oc=Adq_-1b_jEeRglSfZlDo7qyXkA1WX_gcj6AF9Gp6rzA6GmP7ZKd3LCUjg70OfORgG4U&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hZFsP1kOl5xd9PE2Yzrq9Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRDPFoRjPkcbPVqzi2GnlV2onXTU9ya5xiKCmqw6rM2Bg&oe=6B026A17",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/DfzNZbBIRi9/",
+      "status": "pending"
     },
     "17899672329613109-0": {
       "account": "unibg_party",
@@ -1680,33 +1758,6 @@
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DfKJZMCBeoW/",
       "status": "info"
-    },
-    "17994000783101670-0": {
-      "account": "zeroclub.bg",
-      "account_venue": "Zero Club",
-      "confidence": 0.65,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-11-04",
-        "end_time": null,
-        "genres": [
-          "techno"
-        ],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "Questo mese a zeroclub.bg",
-        "venue_name": "Zero Club"
-      },
-      "id": "17994000783101670-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Hl3uJ4UA3IcQ7kNvwG2gPrK&_nc_oc=AdrHqwKHl8-int_E0VXhu1zC52DgsPYUtMXgGNDbNgccChjdSnhHi_BTrmkHwnuHcYU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=slLhHpJJHudmHQnbmBPhiw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSBbjp73H1bvf-Vfvp_KloAH0C-EAbGQpEO5X-kXIJh_A&oe=6B01496F",
-      "kind": "dj_club",
-      "notes": "read by the free pattern matcher; date guessed from a weekday name",
-      "permalink": "https://www.instagram.com/p/DfPzvj8CAe3/",
-      "status": "pending"
     },
     "17996037315098885-0": {
       "account": "gres_art_671",
@@ -6790,6 +6841,36 @@
       "permalink": "https://www.instagram.com/p/DfpTMRCNTwW/",
       "status": "auto"
     },
+    "18213390076365403-0": {
+      "account": "cheri.it",
+      "account_venue": null,
+      "caption": "Venerdì \nMint\nFree Djset \nFino alle 3:30",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-20",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Cheri",
+        "venue_name": "MINT"
+      },
+      "id": "18213390076365403-0",
+      "image": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/914384616_17998345716060777_3910334456267318434_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=48xwoBHvdXwQ7kNvwFZ3Zjc&_nc_oc=AdoiDHSV6cjEpDrexmU3mV-Nn5EB4-FuD1I48GRs-zh1urY3zHNFp-GK80wTOvaYiWA&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hZFsP1kOl5xd9PE2Yzrq9Q&_nc_tpa=Q5bMBQIIqU48yX8dgZfFyg6j6eiYAksa1hquhgSQYF3WrnTbTMjw2iHd6ulbvpvK-VdG39--pcgQTV5baQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSPi-_pdDGi-nS7rUVrBsOfrlKrX_xjstrnyovHArHJBw&oe=6B0265F4",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/Df10PrFIZVP/",
+      "status": "pending"
+    },
     "18221630539352032-0": {
       "account": "liveclub",
       "account_venue": "Live Club",
@@ -7701,28 +7782,36 @@
       "status": "info"
     }
   },
-  "next_account": 67,
+  "next_account": 1,
   "profile_names": {
+    "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
+    "aliveofficialparty": "Alive Official Party🎉",
     "arya.lounge": "ARYA",
     "baiadelrebrignano": "BAIA DEL RE (Brignano)",
     "balzerbynight": "BALZER BY NIGHT",
     "bar30elode": "30&lode",
     "bar_sanmarco": "BAR SAN MARCO",
     "barperlage": "PERLAGE",
+    "bergamonightservice": "Bergamo Night Service",
     "bobadillafeelingclub": "Bobadilla",
     "bolgia.official": "Bolgia - dj's from the world",
     "brinapasticceria": "Brina | Pasticceria & Gelateria🧁",
     "bsk.sound": "BSK Sound",
     "bucheesebar": "BÙ Cheese Bar",
     "bv_rooftop": "BV Rooftop",
+    "call._.out": "CALL OUT",
     "capogirojoyclub": "CaPoGiRo Joy Club",
     "casacostez": "CASA COSTEZ",
     "charleston.treviglio": "Charleston",
+    "cheri.it": "Chéri 🍒",
     "choruslife.bergamo": "ChorusLife",
     "circolinomalpensata_bergamo": "Lino Circo",
     "contest_bg": "Contest Bergamo",
     "cosmo.food.club": "Cosmo Food Club",
+    "crocevia_": "Crocevia",
+    "cromaroom": "CRØMA",
+    "crystalcastlesnightt": "Crystal Castles night 𖥟",
     "csapacipaciana": "c.s.a. Pacì Paciana",
     "daste_bergamo": "Daste Bergamo",
     "decibel_club": "Decibel Club",
@@ -7734,6 +7823,7 @@
     "hiddenhell.techno": "HiddenHell",
     "hype.club.official": "Hype Club ®",
     "icksdresstoimpress": "ICKS",
+    "iconevents.official": "ICON",
     "incroissanterialab": "In Croissanteria Lab",
     "inkclub_bergamo": "Ink Club",
     "jamlivestudio": "Jam Live Studio",
@@ -7748,25 +7838,38 @@
     "ninfeasocialclub": "Ninfea Social Club",
     "noidfamilia": "NØID",
     "nxtbergamo": "NXT Bergamo",
+    "oasi.night": "OASI",
     "officinapanarari": "Officina Panarari | Treviglio",
     "oroneroloveandmusic": "ORONERO",
+    "please.nights": "PLEASE.",
+    "premiere.premiere": "PREMIERE",
     "sabbiemobili_official": "SABBIE MOBILI",
     "savana.king25": "Savanah",
+    "selected.lab": "SELECTED",
     "setai_club_official": "Setai Club OFFICIAL™",
+    "sloth.bg": "sloth.",
     "sommet_night": "SOMMET",
     "sprint_bergamo": "SPRINT 🐊 Bottega. Trattoria. Hi-Fi bar.",
     "supertatobolgia": "Supertato Bolgia",
+    "talk.maf": "TALKMAF",
     "thanka.official": "THANKA",
     "theboxbergamo": "TheBox",
     "tiky.klub": "Tiky klub",
     "twofestival": "Two Festival",
+    "unibg_party": "#UNIBG PARTY ™️",
     "unplug.project": "UNPLUG",
     "unplug__bg": "UNPLUG COCKTAIL BAR Bergamo",
     "utopia.direction": "utōpia",
     "vibetheclub": "VIBE CLUB",
+    "we.are.stepup": "STEP UP",
     "zeroclub.bg": "Zero Club Bergamo"
   },
   "seen_posts": {
+    "17871599085659323": {
+      "account": "crocevia_",
+      "at": "2026-11-17T10:14:42+0000",
+      "event": true
+    },
     "17871635916662973": {
       "account": "mint_lounge",
       "at": "2026-11-17T08:00:08+0000",
@@ -7861,6 +7964,16 @@
       "account": "daste_bergamo",
       "at": "2026-11-13T16:00:27+0000",
       "event": true
+    },
+    "17896758693616351": {
+      "account": "cheri.it",
+      "at": "2026-11-16T11:06:54+0000",
+      "event": true
+    },
+    "17899175226409266": {
+      "account": "cheri.it",
+      "at": "2026-11-03T11:41:31+0000",
+      "event": false
     },
     "17899672329613109": {
       "account": "unibg_party",
@@ -8325,7 +8438,8 @@
     "17994000783101670": {
       "account": "zeroclub.bg",
       "at": "2026-11-02T17:08:40+0000",
-      "event": true
+      "event": true,
+      "reread": true
     },
     "17994184902061252": {
       "account": "barrys__",
@@ -8596,6 +8710,11 @@
       "account": "tiky.klub",
       "at": "2026-11-09T17:25:08+0000",
       "event": true
+    },
+    "18066744629527016": {
+      "account": "aliveofficialparty",
+      "at": "2026-11-17T13:00:02+0000",
+      "event": false
     },
     "18067792574619304": {
       "account": "kellerfactory_",
@@ -9850,6 +9969,11 @@
     "18212406400369144": {
       "account": "discoteca_queen",
       "at": "2026-11-12T14:46:27+0000",
+      "event": true
+    },
+    "18213390076365403": {
+      "account": "cheri.it",
+      "at": "2026-11-17T11:24:31+0000",
       "event": true
     },
     "18215315395318894": {
