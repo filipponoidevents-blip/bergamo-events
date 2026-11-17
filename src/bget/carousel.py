@@ -156,7 +156,7 @@ def _big_title(p: Page, lines: list[str], y: int, align: str = "center") -> int:
 # ---------- covers ----------
 
 def _month_cover(fmt: str, year: int, month: int, nights: dict[date, int]) -> Image.Image:
-    p = _page(fmt, CLUB, f"N°{month:02d}", "SOLO DJ & CLUB", f"{MESI[month][:3].upper()} {year}")
+    p = _page(fmt, CLUB, f"N°{month:02d}", "MUSIC AND CULTURE", f"{MESI[month][:3].upper()} {year}")
     d, R = p.d, p.w - MX
     y = _big_title(p, [MESI[month][:3].upper()], p.top + 70, align="left") + 50
     cw = (R - MX) / 7
@@ -544,7 +544,7 @@ def _sections(fmt: str, events: dict[date, list[Event]], alerts: list[tuple], pr
     def build(dense: bool | str) -> list[Slide]:
         out = []
         for title, pal, gs in secs:
-            out += _date_slides(fmt, pal, gs, "SOLO DJ & CLUB" if pal is CLUB else "PRESERATA", month_tag,
+            out += _date_slides(fmt, pal, gs, "MUSIC AND CULTURE" if pal is CLUB else "PRESERATA", month_tag,
                                 pal is OTHER, 99, dense=dense, pack=True,
                                 section=None if title == "FUORI ZONA" else title)
         return out
@@ -583,7 +583,7 @@ def weekly(events: Iterable[Event], week_start: date, alerts: Iterable[Event] = 
     span = f"{days[0].day}—{end.day}" if days[0].month == end.month else f"{days[0].day}/{days[0].month}—{end.day}/{end.month}"
     cover = _strip_cover(fmt, CLUB, [span, MESI[end.month][:3].upper()], None, days,
                          {k: len(v) for k, v in nights.items()}, None, f"SETTIMANA {week_start.isocalendar()[1]}",
-                         "SOLO DJ & CLUB")
+                         "MUSIC AND CULTURE")
     slides = [(cover, [])] + _sections(fmt, nights, _alert_group(alerts, days[0], days[-1]), preserata, genres,
                                        f"{MESI[end.month][:3].upper()} {end.year}", MAX_SLIDES - 1)
     return _numbered(slides, fmt)
