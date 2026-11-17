@@ -33,6 +33,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 20:00",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Al Teatro Donizetti, va in scena l’unica rassegna interamente dedicata alla musica barocca a Bergamo, con la direzione artistica di Thomas Chigioni e a cura dell'Ensemble Vocale Locatelli.",
@@ -63,7 +64,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:30.392968+00:00",
-    "updated": "2026-11-17T12:21:09.176462+00:00",
+    "updated": "2026-11-17T12:37:18.687018+00:00",
     "uid": "0851063064bd7432"
   },
   {
@@ -100,6 +101,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 22:00",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "L'Orchestra MusicAlmenno presenta una rassegna concertistica di ampio respiro in celebrazione del suo 20esimo anniversario di fondazione.",
@@ -130,7 +132,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:32.630929+00:00",
-    "updated": "2026-11-17T12:21:10.419624+00:00",
+    "updated": "2026-11-17T12:37:20.849466+00:00",
     "uid": "88a21a6e1842fbcf"
   },
   {
@@ -167,6 +169,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 18:00",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Dal 26 ottobre al 29 novembre 2026 torna a Bergamo il Festival Violoncellistico Internazionale Alfredo Piatti, che celebra il ventennale con concerti dedicati al violoncello.",
@@ -197,7 +200,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:27.490455+00:00",
-    "updated": "2026-11-17T12:21:07.699330+00:00",
+    "updated": "2026-11-17T12:37:16.918836+00:00",
     "uid": "b893e9108493116b"
   },
   {
@@ -236,6 +239,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 4.17,
     "category": "club",
     "description": "",
@@ -262,7 +266,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.921136+00:00",
-    "updated": "2026-11-17T12:22:13.069632+00:00",
+    "updated": "2026-11-17T12:38:28.019897+00:00",
     "uid": "384b9e5d98b5b0be"
   },
   {
@@ -301,6 +305,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 05:00",
+    "in_posts": true,
     "rank": 3.11,
     "category": "club",
     "description": "",
@@ -329,7 +334,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.030585+00:00",
-    "updated": "2026-11-17T12:22:13.007713+00:00",
+    "updated": "2026-11-17T12:38:27.931545+00:00",
     "uid": "772b486f4a4271df"
   },
   {
@@ -368,6 +373,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 0.6999,
     "category": "club",
     "description": "",
@@ -393,7 +399,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.868750+00:00",
-    "updated": "2026-11-17T12:22:12.979725+00:00",
+    "updated": "2026-11-17T12:38:27.891474+00:00",
     "uid": "5696384f5b8e4038"
   },
   {
@@ -420,7 +426,7 @@
     "end": null,
     "artists": [],
     "genres": [],
-    "genre": "Commerciale",
+    "genre": "Tech House",
     "genre_source": "venue",
     "headliners": [],
     "fascia": null,
@@ -430,6 +436,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 2.94,
     "category": "club",
     "description": "",
@@ -455,7 +462,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.860540+00:00",
-    "updated": "2026-11-17T12:22:12.968687+00:00",
+    "updated": "2026-11-17T12:38:27.875656+00:00",
     "uid": "23c1cc663127a572"
   },
   {
@@ -494,6 +501,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 4.17,
     "category": "club",
     "description": "",
@@ -520,7 +528,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.866463+00:00",
-    "updated": "2026-11-17T12:22:12.976567+00:00",
+    "updated": "2026-11-17T12:38:27.886993+00:00",
     "uid": "9812fabf19ef2bf6"
   },
   {
@@ -559,6 +567,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "grande evento musicale",
+    "in_posts": true,
     "rank": 6.27,
     "category": "club",
     "description": "",
@@ -585,7 +594,7 @@
     ],
     "alert_level": "regional",
     "first_seen": "2026-11-16T22:49:17.889199+00:00",
-    "updated": "2026-11-17T12:22:13.010179+00:00",
+    "updated": "2026-11-17T12:38:27.935072+00:00",
     "uid": "e29198108d5147b2"
   },
   {
@@ -614,8 +623,8 @@
     "genres": [
       "dj set"
     ],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Commerciale / House",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -624,6 +633,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
+    "in_posts": true,
     "rank": 1.83,
     "category": "club",
     "description": "",
@@ -650,7 +660,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.037923+00:00",
-    "updated": "2026-11-17T12:22:13.013325+00:00",
+    "updated": "2026-11-17T12:38:27.939577+00:00",
     "uid": "44add0a834bf5a8f"
   },
   {
@@ -689,6 +699,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 0.6999,
     "category": "club",
     "description": "",
@@ -718,7 +729,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.038962+00:00",
-    "updated": "2026-11-17T12:22:13.103577+00:00",
+    "updated": "2026-11-17T12:38:28.068028+00:00",
     "uid": "33ae889e5b197349"
   },
   {
@@ -745,8 +756,8 @@
     "end": null,
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Dance / Hits / Revival",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -755,6 +766,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 2.83,
     "category": "club",
     "description": "",
@@ -780,7 +792,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036390+00:00",
-    "updated": "2026-11-17T12:22:13.119895+00:00",
+    "updated": "2026-11-17T12:38:28.091251+00:00",
     "uid": "2992e78d345bcc70"
   },
   {
@@ -819,6 +831,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
+    "in_posts": true,
     "rank": 0.83,
     "category": "club",
     "description": "",
@@ -852,7 +865,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.836801+00:00",
-    "updated": "2026-11-17T12:22:12.929299+00:00",
+    "updated": "2026-11-17T12:38:27.820039+00:00",
     "uid": "0472940301c97bde"
   },
   {
@@ -893,6 +906,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
+    "in_posts": true,
     "rank": 1.67,
     "category": "club",
     "description": "",
@@ -919,7 +933,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.922942+00:00",
-    "updated": "2026-11-17T12:22:13.072485+00:00",
+    "updated": "2026-11-17T12:38:28.024021+00:00",
     "uid": "3e59373b90be9585"
   },
   {
@@ -948,8 +962,8 @@
     "genres": [
       "dj set"
     ],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Elettronica",
+    "genre_source": "promoter",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -958,6 +972,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 18:30",
+    "in_posts": true,
     "rank": 0.898,
     "category": "club",
     "description": "",
@@ -983,7 +998,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034104+00:00",
-    "updated": "2026-11-17T12:22:12.985054+00:00",
+    "updated": "2026-11-17T12:38:27.899129+00:00",
     "uid": "1d9cfe638a16e92c"
   },
   {
@@ -1010,8 +1025,8 @@
     "end": null,
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Commerciale / House",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -1020,6 +1035,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
+    "in_posts": true,
     "rank": 1.83,
     "category": "club",
     "description": "",
@@ -1045,7 +1061,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.929300+00:00",
-    "updated": "2026-11-17T12:22:13.081806+00:00",
+    "updated": "2026-11-17T12:38:28.037160+00:00",
     "uid": "9580797f17c8556b"
   },
   {
@@ -1072,8 +1088,8 @@
     "end": null,
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Dance / Hits / Revival",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -1082,6 +1098,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 2.83,
     "category": "club",
     "description": "",
@@ -1109,7 +1126,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035819+00:00",
-    "updated": "2026-11-17T12:22:13.114600+00:00",
+    "updated": "2026-11-17T12:38:28.083735+00:00",
     "uid": "208673cac3dfbdf1"
   },
   {
@@ -1150,6 +1167,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
+    "in_posts": true,
     "rank": 1.67,
     "category": "club",
     "description": "",
@@ -1176,7 +1194,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.924775+00:00",
-    "updated": "2026-11-17T12:22:13.075406+00:00",
+    "updated": "2026-11-17T12:38:28.028066+00:00",
     "uid": "23b44d4645d5cb43"
   },
   {
@@ -1215,6 +1233,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
+    "in_posts": true,
     "rank": 1.67,
     "category": "club",
     "description": "",
@@ -1241,7 +1260,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.960891+00:00",
-    "updated": "2026-11-17T12:22:13.117333+00:00",
+    "updated": "2026-11-17T12:38:28.087603+00:00",
     "uid": "fd5526e063ff246b"
   },
   {
@@ -1278,6 +1297,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "inizia alle 23:30",
+    "in_posts": true,
     "rank": 4.17,
     "category": "club",
     "description": "",
@@ -1305,7 +1325,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.885210+00:00",
-    "updated": "2026-11-17T12:22:13.092710+00:00",
+    "updated": "2026-11-17T12:38:28.052578+00:00",
     "uid": "94e5dbb6defc6f98"
   },
   {
@@ -1342,6 +1362,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "inizia alle 00:00",
+    "in_posts": true,
     "rank": 2.94,
     "category": "club",
     "description": "",
@@ -1369,7 +1390,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.877673+00:00",
-    "updated": "2026-11-17T12:22:13.097597+00:00",
+    "updated": "2026-11-17T12:38:28.059600+00:00",
     "uid": "fea86f733c04a94a"
   },
   {
@@ -1409,6 +1430,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 16:30",
+    "in_posts": true,
     "rank": 0.898,
     "category": "club",
     "description": "",
@@ -1436,7 +1458,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.032372+00:00",
-    "updated": "2026-11-17T12:22:13.100394+00:00",
+    "updated": "2026-11-17T12:38:28.063566+00:00",
     "uid": "c10b522e27dac62e"
   },
   {
@@ -1475,6 +1497,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 18:00",
+    "in_posts": true,
     "rank": 0.8987,
     "category": "club",
     "description": "",
@@ -1500,7 +1523,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.029938+00:00",
-    "updated": "2026-11-17T12:22:13.125441+00:00",
+    "updated": "2026-11-17T12:38:28.099098+00:00",
     "uid": "58e01054adc70132"
   },
   {
@@ -1541,6 +1564,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
+    "in_posts": true,
     "rank": 0.898,
     "category": "club",
     "description": "MERCOLEDÌ BOARO ⚽️🐄🎛️\n\n🎧 DJ SET – unplug.project \n\n⚽️TORNEO DI CALCETTO\nAttendiamo gente forte.\nIscrizione sul posto, riservata agli associati.\nFormagella in palio.\n\n🗓️ Mercoledì 18 novembre\n⏰ h 21:00\n📍 Ninfea Social Club – Sorisole (BG), Via G. Marconi 65\n\nAccesso riservato agli associati.",
@@ -1566,7 +1590,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.031795+00:00",
-    "updated": "2026-11-17T12:22:13.038592+00:00",
+    "updated": "2026-11-17T12:38:27.975594+00:00",
     "uid": "ea678bf0abdd35a3"
   },
   {
@@ -1605,6 +1629,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
     "rank": 2.83,
     "category": "club",
     "description": "MERCOLEDÌ 18 NOVEMBRE \nQueen Latin Night \nin collaborazione con Life Dance\n\nIngresso OMAGGIO \nConsumazione OBBLIGATORIA\n\nLATINO \nIn consolle Steve Romei \n\nStage gratuito di Bachata con Spazio Danza\n\n*************************************\nPRENOTAZIONI TAVOLI GRATUITA \n*************************************\n\nLocation:\nQueen\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
@@ -1631,7 +1656,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.619930+00:00",
-    "updated": "2026-11-17T12:22:13.108739+00:00",
+    "updated": "2026-11-17T12:38:28.075389+00:00",
     "uid": "c7785c7178dd86b4"
   },
   {
@@ -1668,6 +1693,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 23:00",
+    "in_posts": true,
     "rank": 1.83,
     "category": "other",
     "description": "Il musicista e produttore Giorgio Canali presenta il progetto solista «Rossosolo Live» all'interno di una serata dedicata alla sua produzione artistica tra rock e sperimentazione.",
@@ -1698,7 +1724,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:39.628896+00:00",
-    "updated": "2026-11-17T12:21:14.398234+00:00",
+    "updated": "2026-11-17T12:37:25.513527+00:00",
     "uid": "a7745e866b03936a"
   },
   {
@@ -1737,6 +1763,7 @@
     "entry": "free",
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 23:00",
+    "in_posts": true,
     "rank": 0.8975,
     "category": "club",
     "description": "𝐏𝐎𝐏 𝐔𝐏 𝐏𝐀𝐑𝐓𝐘\n\n📅 VENERDÌ 20 NOVEMBRE\n📍 tassinocafe \nLargo Nicolò Rezzara 6 – Bergamo\n\n🕖 ** 19:00 23:00**\n\nUn format unico firmato THE BOX\n\nDj set + live performances durante la\nserata\n\n🎧 DJ SET\nyuridius \nflanaert \n\n🎟️ INGRESSO LIBERO",
@@ -1768,7 +1795,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.876543+00:00",
-    "updated": "2026-11-17T12:22:13.030127+00:00",
+    "updated": "2026-11-17T12:38:27.963568+00:00",
     "uid": "0843639d3d07ce0a"
   },
   {
@@ -1805,6 +1832,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 22:30",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "L'evento presenta il dramma giocoso in un atto «Le convenienze ed inconvenienze teatrali», con musica di Gaetano Donizetti e libretto di Domenico Gilardi, nell'ambito della rassegna «Donizetti Operats».",
@@ -1835,7 +1863,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:51.389610+00:00",
-    "updated": "2026-11-17T12:21:19.168200+00:00",
+    "updated": "2026-11-17T12:37:30.128115+00:00",
     "uid": "f84ecbdb6180c0f6"
   },
   {
@@ -1862,8 +1890,8 @@
     "end": null,
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Commerciale",
+    "genre_source": "promoter",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -1872,6 +1900,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
+    "in_posts": true,
     "rank": 1.83,
     "category": "club",
     "description": "VENERDÌ 20.11 | dalle 21:00 con cheri.it 🍒\n\nVia Trieste 38, Chiuduno (Bg)",
@@ -1897,7 +1926,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.589079+00:00",
-    "updated": "2026-11-17T12:22:12.974236+00:00",
+    "updated": "2026-11-17T12:38:27.883596+00:00",
     "uid": "c78d17103755137d"
   },
   {
@@ -1934,6 +1963,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 23:00",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Un programma che spazia dal repertorio classico alle colonne sonore, interpretato dai musicisti del Sebinus Brass Quintet.",
@@ -1964,7 +1994,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:54.158808+00:00",
-    "updated": "2026-11-17T12:21:20.733023+00:00",
+    "updated": "2026-11-17T12:37:31.673994+00:00",
     "uid": "f901d76cddb6a0ec"
   },
   {
@@ -2001,6 +2031,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
     "rank": 0.6999,
     "category": "club",
     "description": "Il weekend chiama, Arya risponde. 🔥\n\nVenerdì 20 novembre torna il nostro Friday Night, con alessiosielii in consolle dalle 22:00. 🔊\n\nLa serata promette bene, voi fatevi trovare carichi.\n\nPrenota il tuo tavolo e ci vediamo da Arya. 💜",
@@ -2025,7 +2056,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.917308+00:00",
-    "updated": "2026-11-17T12:22:13.062328+00:00",
+    "updated": "2026-11-17T12:38:28.009191+00:00",
     "uid": "131e458eb37de0bf"
   },
   {
@@ -2055,9 +2086,12 @@
       "disco / funk",
       "revival"
     ],
-    "genre": "Revival",
-    "genre_source": "event",
-    "headliners": [],
+    "genre": "Dance",
+    "genre_source": "promoter",
+    "headliners": [
+      "StefanOne",
+      "Andrew V"
+    ],
     "fascia": null,
     "fascia_hint": null,
     "start_known": true,
@@ -2065,6 +2099,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 03:30",
+    "in_posts": true,
     "rank": 2.83,
     "category": "club",
     "description": "VENERDÌ 20 NOVEMBRE\n\nDISCODANCE “SINGLE PARTY”\nREVIVAL 80/90/2000 \nRipercorriamo la storia della musica dance dagli anni 80 in poi…\n\nPronti a fare nuove conoscenze?\nAll’ingresso a tutti i SINGLE (o dichiarati tali) verrà assegnato un numero.\nTrova la tua dolce metà con lo stesso numero, gira la ruota e ritira il premio \n\nPer tutti, con ogni drink preso al bar, un giro di ruota\n\nIn consolle:\nDj : StefanOne + Andrew V.\nVoice : Matteo Palumbo\n\n> Opening ore 22:30 // Chiusura ore 03:30\n\nPREZZI: \n>Ingresso con consumazione > € 10\nFino alle 23:30\n>Ingresso con consumazione > € 13\nDopo le 23:30\n\n>Prenotazione tavoli gratuita\n\n***********************************\nLocation:\nQueen Club\nVia Levata 18, Stezzano (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
@@ -2093,7 +2128,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035283+00:00",
-    "updated": "2026-11-17T12:22:13.106171+00:00",
+    "updated": "2026-11-17T12:38:28.071731+00:00",
     "uid": "9cf51909d542c793"
   },
   {
@@ -2130,6 +2165,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
     "rank": 3.44,
     "category": "club",
     "description": "20 NOVEMBRE [MAIN AREA]\n\ndalle 22:30 a mezzanotte ingresso gratuito\nda mezzanotte ingresso donna 10 uomo 15, drink incluso\n\n▵ | NIKITA | ▵\ngrumello del monte bg, via dei morenghi 2",
@@ -2155,7 +2191,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.919972+00:00",
-    "updated": "2026-11-17T12:22:13.067320+00:00",
+    "updated": "2026-11-17T12:38:28.016493+00:00",
     "uid": "e07b61b3f1067a08"
   },
   {
@@ -2194,6 +2230,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
+    "in_posts": true,
     "rank": 1.83,
     "category": "club",
     "description": "❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧 🎄✨ 𝐷𝑎𝑙 20 𝑛𝑜𝑣𝑒𝑚𝑏𝑟𝑒 2026 𝑎𝑙 10 𝑔𝑒𝑛𝑛𝑎𝑖𝑜 2027\n✨ Un grande Natale si accende in Piazzale Alpini: vi aspettano 52 giorni di pattinaggio, musica e sapori in un allestimento completamente rinnovato 💫\n\nAttorno alla grande pista di ghiaccio ⛸️ prenderà vita un bosco incantato, tra gigantesche installazioni luminose e un percorso che vi porterà anche “in quota”, per ammirare ",
@@ -2228,7 +2265,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.601269+00:00",
-    "updated": "2026-11-17T12:22:13.032968+00:00",
+    "updated": "2026-11-17T12:38:27.967594+00:00",
     "uid": "df2b1798c186b615"
   },
   {
@@ -2265,6 +2302,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 2.94,
     "category": "club",
     "description": "THIS WEEK.\nONE NIGHT.\nNO EXCUSES.\n\n20.11 MAIN ROOM:oasi.night \nTHEATER ROOM: upside.down.night \nBE COOL. BE VIBE. 🔥",
@@ -2290,7 +2328,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.606599+00:00",
-    "updated": "2026-11-17T12:22:13.056655+00:00",
+    "updated": "2026-11-17T12:38:28.001276+00:00",
     "uid": "f47131ce77fe681f"
   },
   {
@@ -2327,6 +2365,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
     "rank": 3.11,
     "category": "club",
     "description": "VENERDÌ SI TORNA IN CENTRO BG. 🎓\n\nUNIBG PARTY w/ L’OPERÀ\n📍 ZERO CLUB\n🗓 Venerdì 20 Novembre \n\n🎫 Prezzo promo universitari in lista  12€ con drink entro l’1.00\n🎟️ Prezzo in lista 15€ con drink entro l’1\n\n🍾Tavoli in superprive da 30€ a persona con ingresso omaggio \n\n‼️La serata è aperta a tutte le persone nel target +18\n\nL’università finisce. La notte comincia.\n\nInfo & prenotazioni 📲 3332127647 \n\nSelezione all’ingresso,\nCi vediamo lì. ❤️‍🔥",
@@ -2362,7 +2401,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.877417+00:00",
-    "updated": "2026-11-17T12:22:13.026870+00:00",
+    "updated": "2026-11-17T12:38:27.958949+00:00",
     "uid": "8157d59ca876ca73"
   },
   {
@@ -2404,6 +2443,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 04:00",
+    "in_posts": true,
     "rank": 6.03,
     "category": "club",
     "description": "VENERDÌ TORNA ICON AL tiky.klub \n\n📅 Venerdì, 20 novembre\n\n⏰ Dalle 11.30 pm alle 4 am \n\n📍 TIKY CLUB.\nVia Nazionale, 93, Seriate (BG), 24068\n\n👤 +18 \n\n🎫 Ingresso prima del 01:00\nDonna 10 con drink\nUomo 15 con drink\n\nDopo 01:00 \nDonna 15 con drink\nUomo 20 con drink\n\n🍾 Tavolo privè 25€ di spending+5€ ingresso\n🥂 Tavolo pista 20€ di spending+5€ ingresso \n\n💃 Un look curato fa di te un ospite gradito. \n\n📞 Pesca 348 443 1124\n📞 Boffe 351 3775387",
@@ -2438,7 +2478,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.607613+00:00",
-    "updated": "2026-11-17T12:22:13.122446+00:00",
+    "updated": "2026-11-17T12:38:28.094853+00:00",
     "uid": "c761c9a36eccdb0d"
   },
   {
@@ -2475,6 +2515,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 17:30",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Per il «Festival Violoncellistico Internazionale Alfredo Piatti», sabato 21 novembre alla Biblioteca Tiraboschi una conferenza con interventi musicali a cura di Fernando Caida Greco.",
@@ -2505,7 +2546,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:57.436809+00:00",
-    "updated": "2026-11-17T12:21:23.118930+00:00",
+    "updated": "2026-11-17T12:37:35.236512+00:00",
     "uid": "40907cae453e0a09"
   },
   {
@@ -2544,6 +2585,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 20:30",
+    "in_posts": true,
     "rank": 0.898,
     "category": "club",
     "description": "THIS IS DNB \nBergamo Edition\n20:30 - ...\n\nModique\nJack\nHosted by: MC Shot\n\nmodique___\nshot4real \n\n🗓️Sabato 21.11\n⏰ h 20:30\n📍Ninfea Social Club - Sorisole (BG) - Via G. Marconi 65\n\nAccesso gratuito riservato agli associati",
@@ -2569,7 +2611,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.605065+00:00",
-    "updated": "2026-11-17T12:22:13.046992+00:00",
+    "updated": "2026-11-17T12:38:27.987639+00:00",
     "uid": "c0bc77bb3f29681a"
   },
   {
@@ -2606,6 +2648,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 22:30",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Un appuntamento musicale dedicato alla tradizione dei canti alpini e della musica popolare.",
@@ -2636,7 +2679,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:03.257502+00:00",
-    "updated": "2026-11-17T12:21:25.979889+00:00",
+    "updated": "2026-11-17T12:37:38.704123+00:00",
     "uid": "558df46a4293d542"
   },
   {
@@ -2673,6 +2716,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 23:00",
+    "in_posts": true,
     "rank": 1.83,
     "category": "other",
     "description": "Fiorella Mannoia presenta «Fiorella canta Fabrizio e Ivano – Anime Salve», un progetto musicale dedicato al repertorio di Fabrizio De André e Ivano Fossati.",
@@ -2701,7 +2745,7 @@
     "reasons": [],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:05.245654+00:00",
-    "updated": "2026-11-17T12:21:28.613714+00:00",
+    "updated": "2026-11-17T12:37:44.235604+00:00",
     "uid": "a2a69b28cace3113"
   },
   {
@@ -2738,6 +2782,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 23:00",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Un concerto lirico che presenta celebri arie e duetti interpretati dall'Ensemble Barocco Gavazzeni.",
@@ -2768,7 +2813,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:08:44.520584+00:00",
-    "updated": "2026-11-17T12:21:27.139669+00:00",
+    "updated": "2026-11-17T12:37:40.680728+00:00",
     "uid": "dd3ff654a601b664"
   },
   {
@@ -2795,8 +2840,8 @@
     "end": null,
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Commerciale / House",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -2805,6 +2850,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
+    "in_posts": true,
     "rank": 1.83,
     "category": "club",
     "description": "Sabato 21.11 #mint | in console joebalo_ ☄\n\nCi vediamo dalle 21:00!\n\nVia Trieste 38, Chiuduno (BG)",
@@ -2830,7 +2876,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:22:13.131244+00:00",
-    "updated": "2026-11-17T12:22:13.131244+00:00",
+    "updated": "2026-11-17T12:38:27.815327+00:00",
     "uid": "c30a1422e08f91fc"
   },
   {
@@ -2867,6 +2913,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 22:30",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Un tributo musicale ai successi dei Coldplay e degli Imagine Dragons all'interno della rassegna Candlelight, caratterizzata da atmosfere create dalla luce delle candele.",
@@ -2898,7 +2945,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:00.233235+00:00",
-    "updated": "2026-11-17T12:21:29.801596+00:00",
+    "updated": "2026-11-17T12:37:45.891732+00:00",
     "uid": "79091e7c0115b162"
   },
   {
@@ -2935,6 +2982,7 @@
     "entry": "paid",
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:30",
+    "in_posts": true,
     "rank": 1.67,
     "category": "club",
     "description": "🎸RICCOBELLIS🎸\n\nOPENING FOR THE PEAWEES\n\nDa Brescia, con i Ramones nel cuore e una predilezione per le melodie di Queers e Undertones. Il trio ha appena pubblicato “Afterparty Heroes”, quarto album e titolo piuttosto adatto alla compagnia che volevamo per questa sera.\n\n🎟 Biglietti già in vendita su diceitaly \n10 € +DDP in prevendita\n15 € in cassa in serata\n\n📅 Sabato 21 novembre 2026 · ore 21:30\nDASTE — via Daste e Spalenga 13/15, Bergamo",
@@ -2960,7 +3008,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.840523+00:00",
-    "updated": "2026-11-17T12:22:12.934986+00:00",
+    "updated": "2026-11-17T12:38:27.827771+00:00",
     "uid": "b593852d25289a48"
   },
   {
@@ -2999,6 +3047,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
     "rank": 1.67,
     "category": "club",
     "description": "indiepower_official torna a BG! \nSabato 21 novembre — S03 E03\n\nIn questo terzo episodio: il djset indie più grande d’Italia, con le sue vibes più pure, quelle più famose e abbastanza Carl Brave e Franco126, per farci tornare ai tempi d’oro✨  In anteprima, la versione concentrata di Volare: il nostro format di musica italiana a 360 gradi.  Pronti per la festa indie più grande d’Italia? Solo al Druso.\n\n🕕 22:30 porte | 23:00 party\n🎫 Tickets al link in bio | evento 18+\n‼️ Prima la compri, meno spendi\n\nAlcune serie vanno vissute dal vivo.\n\n🍏 #druso #indiepower",
@@ -3025,7 +3074,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.610420+00:00",
-    "updated": "2026-11-17T12:22:13.084522+00:00",
+    "updated": "2026-11-17T12:38:28.040966+00:00",
     "uid": "ebbac802d8099955"
   },
   {
@@ -3065,6 +3114,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 04:00",
+    "in_posts": true,
     "rank": 2.83,
     "category": "club",
     "description": "SABATO 21 NOVEMBRE\n\nNOTTE A CASO\n“Vieni come vuoi, al resto pensiamo noi”\n\nIngresso OMAGGIO DONNA fino alle 23:00\n\nIn consolle \nDj: StefanOne + Andrew V.\nVoice: Matteo Palumbo\n\n> Opening ore 22:30 // Chiusura ore 04:00\n\nPREZZI: \n>Ingresso con consumazione > € 13\nFino a mezzanotte\n>Ingresso con consumazione > € 15\nDopo mezzanotte \n\n>Prenotazione tavoli gratuita\n\n***********************************\nLocation:\nQueen Club\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709\n\n #disco #queen #seriate #bergamo #VIETATO MANCARE dance anni90 anni2000 discoteca nightlife drink",
@@ -3093,7 +3143,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034727+00:00",
-    "updated": "2026-11-17T12:22:13.090334+00:00",
+    "updated": "2026-11-17T12:38:28.049194+00:00",
     "uid": "b84c21bf242adce0"
   },
   {
@@ -3136,6 +3186,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
     "rank": 0.83,
     "category": "club",
     "description": "La disco è un viaggio che attraversa città, generazioni e continenti. Sabato 21 novembre arriva nella Cattedrale della Fabbrica del Vapore: Le Cannibale firma il party ufficiale del sabato sera della milano_music_week. \n\nIn consolle Emmanuelle e Bárbara Boeing, due artiste brasiliane che hanno fatto di Milano la propria casa. Due percorsi in cui radici brasiliane, sensibilità pop e ricerca elettronica riscrivono il presente della disco.\nUna notte ad ingresso gratuito per celebrare la nostra città, la sua musica e la disco che continua a trasformarsi sulla pista da ballo.\n\nLineup: \n20:00 - 22:00 barbara_boeing \n22:00 - 00:00 helloemmanuelle \n\n🎟️ Ingresso gratuito con registrazione\n📍 Via Procaccini 4, Milano",
@@ -3175,7 +3226,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.855574+00:00",
-    "updated": "2026-11-17T12:22:13.053565+00:00",
+    "updated": "2026-11-17T12:38:27.996888+00:00",
     "uid": "5774e7ba2cab0ffe"
   },
   {
@@ -3212,6 +3263,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 3.27,
     "category": "club",
     "description": "Un altro weekend é appena passatola noi del Thanka non vediamo l'ora che sia già sabato per vivere un’altra notte insieme 🤩. \n\n#thanka",
@@ -3237,7 +3289,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.609301+00:00",
-    "updated": "2026-11-17T12:22:13.078654+00:00",
+    "updated": "2026-11-17T12:38:28.032712+00:00",
     "uid": "5cd04e10cf20d3d6"
   },
   {
@@ -3277,6 +3329,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 3.11,
     "category": "club",
     "description": "Premiere @premiere.premiere - main room",
@@ -3300,7 +3353,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:17:09.844696+00:00",
-    "updated": "2026-11-17T12:21:04.678278+00:00",
+    "updated": "2026-11-17T12:37:13.351714+00:00",
     "uid": "1599a3d16369623d"
   },
   {
@@ -3337,6 +3390,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
     "rank": 1.67,
     "category": "club",
     "description": "Sabato 21 Novembre!\nZero Club - Club room\nInfo e Prenotazioni \n+39 375 6283974\nsu whatsapp \nIngresso consentito solo in lista fino ad esaurimento posti",
@@ -3368,7 +3422,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:19:01.181356+00:00",
-    "updated": "2026-11-17T12:22:12.989850+00:00",
+    "updated": "2026-11-17T12:38:27.906062+00:00",
     "uid": "4794a894c3e8de0b"
   },
   {
@@ -3411,6 +3465,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 06:00",
+    "in_posts": true,
     "rank": 5.17,
     "category": "club",
     "description": "Sabato 21 Novembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/fk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: MAD DOG + GRAVEDGR + FLYMEON\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
@@ -3446,7 +3501,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.587439+00:00",
-    "updated": "2026-11-17T12:22:13.059132+00:00",
+    "updated": "2026-11-17T12:38:28.004694+00:00",
     "uid": "ff269abe61d00fd4"
   },
   {
@@ -3483,6 +3538,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 06:00",
+    "in_posts": true,
     "rank": 2.17,
     "category": "club",
     "description": "Sabato 21 Novembre dalle ore 23:30 alle 06:00!\nUBOA @ BOLGIA LAB ROOM\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/fk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
@@ -3508,7 +3564,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:19:01.175737+00:00",
-    "updated": "2026-11-17T12:22:12.982250+00:00",
+    "updated": "2026-11-17T12:38:27.895115+00:00",
     "uid": "62a897456730d501"
   },
   {
@@ -3545,6 +3601,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 04:30",
+    "in_posts": true,
     "rank": 2.94,
     "category": "club",
     "description": "MAGAZINE😈\n\nSave the date : Sabato 21 novembre\n\nTicket disponibili nelle storie !\n\n📍Via Giosué Carducci 2 - Cortenuova (BG)\n📲+39 342 6719049\n🕒00.00 - 04:30",
@@ -3570,7 +3627,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.584757+00:00",
-    "updated": "2026-11-17T12:22:12.945945+00:00",
+    "updated": "2026-11-17T12:38:27.843429+00:00",
     "uid": "0438a994b76e2cee"
   },
   {
@@ -3610,6 +3667,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 04:00",
+    "in_posts": true,
     "rank": 3.44,
     "category": "club",
     "description": "21 NOVEMBRE [ENTER THE VOID]\n\nMAIN AREA - enter the void\n\nTHE BLOCK w/ palmas.night \nreggaeton · dembow · mainstream\n\nda mezzanotte alle 04:00\ningresso donna 15 uomo 20, drink incluso\n\n▵ | NIKITA | ▵\ngrumello del monte bg, via dei morenghi 2",
@@ -3636,7 +3694,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:35:28.192105+00:00",
-    "updated": "2026-11-17T12:22:13.044213+00:00",
+    "updated": "2026-11-17T12:38:27.983633+00:00",
     "uid": "12b801c2dcaee62a"
   },
   {
@@ -3673,6 +3731,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 17:30",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "L'opera «Alahor in Granata», inserita nella rassegna «Donizetti Opera», è un melo-dramma in due atti con musica di Gaetano Donizetti e un nuovo allestimento curato dalla Fondazione Teatro Donizetti.",
@@ -3703,7 +3762,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:13.073039+00:00",
-    "updated": "2026-11-17T12:21:32.550726+00:00",
+    "updated": "2026-11-17T12:37:49.242647+00:00",
     "uid": "36143068bebf6e60"
   },
   {
@@ -3740,6 +3799,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 18:00",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Per il «Festival Violoncellistico Internazionale Alfredo Piatti», domenica 22 novembre alla Sala Piatti un concerto con Fernando Caida Greco, Ljuba Bergamelli e il Syntax Ensemble diretto da Pasquale Corrado.",
@@ -3770,7 +3830,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:16.208911+00:00",
-    "updated": "2026-11-17T12:21:33.883797+00:00",
+    "updated": "2026-11-17T12:37:50.986342+00:00",
     "uid": "f42ce13053371ed4"
   },
   {
@@ -3807,6 +3867,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 18:30",
+    "in_posts": true,
     "rank": 0.83,
     "category": "other",
     "description": "Un percorso di sei incontri dedicato alla scoperta della grammatica dei suoni e alla ricerca musicale nell'ambiente digitale.",
@@ -3837,7 +3898,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:31.348859+00:00",
-    "updated": "2026-11-17T12:21:38.974207+00:00",
+    "updated": "2026-11-17T12:37:57.048837+00:00",
     "uid": "5ba14d2787fb6fad"
   },
   {
@@ -3874,6 +3935,7 @@
     "entry": null,
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 23:00",
+    "in_posts": true,
     "rank": 1.83,
     "category": "other",
     "description": "L'interprete napoletano è previsto come ospite presso la ChorusLife Arena per un concerto che ripercorre i successi della sua carriera.",
@@ -3902,7 +3964,7 @@
     "reasons": [],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:37.940048+00:00",
-    "updated": "2026-11-17T12:21:41.474333+00:00",
+    "updated": "2026-11-17T12:38:18.776712+00:00",
     "uid": "68a07451e6d114d6"
   },
   {
@@ -3942,6 +4004,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
+    "in_posts": true,
     "rank": 4.27,
     "category": "club",
     "description": "🔥 MAISON GROVE x FLUID 🔥\n\nLa storia della House Music incontra una notte straordinaria!\n\nNella cornice del Fluid, locale iconico che ha ospitato le più grandi leggende della House Music, oggi in una veste tutta nuova,  prende vita un evento esclusivo \n\n Dinner Show, spettacolo e grandi DJ set. 🥂\n\n🎧 DJ MASSIMINO LIPPOLI B2B DJ ROBY INTRALLAZZI\n\n🎤 Direttamente dall’UK, la straordinaria voce di LISA MILLETT, live!\n\n✨ Un viaggio tra musica, emozioni e atmosfere uniche.\n\n📅 VENERDÌ 27 NOVEMBRE\n\nUNA NOTTE DA VIVERE. UN EVENTO DA RICORDARE. 🔥\n\nPer info e prenotazioni contattaci al numero :\n338/5954867\n\nEvento riservato +25",
@@ -3968,7 +4031,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.614015+00:00",
-    "updated": "2026-11-17T12:22:13.095125+00:00",
+    "updated": "2026-11-17T12:38:28.056023+00:00",
     "uid": "761e00f931361d5e"
   },
   {
@@ -4008,6 +4071,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 04:30",
+    "in_posts": true,
     "rank": 2.83,
     "category": "club",
     "description": "VENERDÌ 27 NOVEMBRE:\nUNDERGROUND - HARDCORE 🖤\n\nPrenotazioni lista/tavoli\n- Contatta il 3394278224\n\nINGRESSO con consumazione entro le oo:oo:\n- 12€ con drink\n\nDONNA/UOMO dopo le 0o:oo: 15€\n\n- Seconde consumazioni €7\n\nPer accedere al locale è necessario esibire la carta d’identità ORIGINALE\n\nDale 23:30 alle 04:30\nDalle 02:00 uscita libera con possibilità di rientrare",
@@ -4038,7 +4102,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.583794+00:00",
-    "updated": "2026-11-17T12:22:13.128017+00:00",
+    "updated": "2026-11-17T12:38:28.102908+00:00",
     "uid": "0d6683345360f7ba"
   },
   {
@@ -4078,6 +4142,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 05:00",
+    "in_posts": true,
     "rank": 3.11,
     "category": "club",
     "description": "⁺‧₊˚ ཐི⋆♱ ᴄᴄ ɴɪɢʜᴛ ♱⋆ཋྀ ˚₊‧⁺\n\n♱ ꜰʀɪᴅᴀʏ 27/11 ᴀᴛ ZERO CLUB (BG)\n\n♱ ᴇᴀʀʟʏ ʙɪʀᴅ ᴛɪᴄᴋᴇᴛs ᴀᴠᴀɪᴀʙʟᴇ ɴᴏᴡ ɪɴ ʙɪᴏ❕\n\n—\n\n♱ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ᴀᴛ 00:00\n\n—\n\n♱ ᴅᴊ ꜱᴇᴛ ʙʏ \n00:00 - 02:00: orbitaconme dimitripl2s \n02:00 - 03:00: komatsuxsempre \n03:00 - 05:00: pit.ent \n\n—\n\n♱ ɢᴇɴʀᴇ: ᴡɪᴛᴄʜ ʜᴏᴜꜱᴇ - ꜱʏɴᴛʜ ᴘᴜɴᴋ - ᴇʙᴍ - ᴇʟᴇᴄᴛʀᴏᴄʟᴀꜱʜ - ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇ ʀ&ʙ - ᴇʟᴇᴄᴛʀᴏɪɴᴅᴜꜱᴛʀɪᴀʟ - ᴇʟᴇᴄᴛʀᴏᴘᴏᴘ - ᴡᴀᴠᴇ - ᴄʟᴏᴜᴅ ʀᴀᴘ \n\n—\n\n#CrystalCastles\n#WitchHouse\n#CloudRap\n#Electroclash\n#UndergroundMusic",
@@ -4110,7 +4175,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.880857+00:00",
-    "updated": "2026-11-17T12:22:12.956527+00:00",
+    "updated": "2026-11-17T12:38:27.858573+00:00",
     "uid": "36cd0b0ad4ecbce9"
   },
   {
@@ -4153,6 +4218,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 04:00",
+    "in_posts": true,
     "rank": 5.83,
     "category": "club",
     "description": "SABATO 28/11\nLOFT - HiFi Bar & Premium Club\nMusica, design, atmosfera e buon cibo si incontrano per dare vita ad un party esclusivo!\n🕘 dalle 21 alle 23: Deep e House Vinyl Selection\n🥘 APERICENA A BUFFET\n🕛 dalle 23 alle 4: IL PARTY!\n🎧 DANI VESCOVI, LAPO UNDERGROUND\n👉 Ingresso OMAGGIO con C.O. entro le h. 24:00\n📍 Via Stezzano 18, Azzano San Paolo - Bergamo\n▬▬▬\n⚠️ ACCESSO SOLO SU PRENOTAZIONE (link in bio)\n🔞 PUBBLICO SELEZIONATO\n▬▬▬\nRESERVATIONS ☎️ 3485524298",
@@ -4179,7 +4245,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034453+00:00",
-    "updated": "2026-11-17T12:22:12.997582+00:00",
+    "updated": "2026-11-17T12:38:27.917022+00:00",
     "uid": "47d27f9ca1accd23"
   },
   {
@@ -4220,6 +4286,7 @@
     "entry": "free",
     "fascia_auto": "preserata",
     "fascia_why": "ingresso libero",
+    "in_posts": true,
     "rank": 1.83,
     "category": "club",
     "description": "𝐖𝐡𝐚𝐭'𝐬 𝐌𝐲 𝐀𝐠𝐞 𝐀𝐠𝐚𝐢𝐧 ⚡️ 𝟐𝟎𝟎𝟎 𝐏𝐚𝐫𝐭𝐲 @ 𝐍𝐗𝐓 𝐁𝐞𝐫𝐠𝐚𝐦𝐨, 𝐏𝐢𝐚𝐳𝐳𝐚𝐥𝐞 𝐝𝐞𝐠𝐥𝐢 𝐀𝐥𝐩𝐢𝐧𝐢 ❄️ 𝟐𝟖 𝐧𝐨𝐯𝐞𝐦𝐛𝐫𝐞 ✨ 𝐈𝐍𝐆𝐑𝐄𝐒𝐒𝐎 𝐆𝐑𝐀𝐓𝐔𝐈𝐓𝐎\n\nMettete lo stato di MSN su \"occupato\", staccate il cavo del modem 56k e allacciate le Converse consumate: si torna dritti ai primi anni 2000: quelli dei pomeriggi davanti alla TV tra Dawson's Creek, Smallville, Buffy l'ammazzavampiri, Una mamma per amica e The O.C. Delle classifiche di TRL su",
@@ -4246,7 +4313,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.893181+00:00",
-    "updated": "2026-11-17T12:22:13.021861+00:00",
+    "updated": "2026-11-17T12:38:27.951753+00:00",
     "uid": "d3c806a14be574cf"
   },
   {
@@ -4286,6 +4353,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "grande evento musicale",
+    "in_posts": true,
     "rank": 0.83,
     "category": "festival",
     "description": "On November 28 dkmntl, the internationally renowned festival and label, lands in Milan as part of its European club tour. Taking over the decks all night long: Dekmantel Soundsystem, featuring founder Casper Tielrooij and Interstellar Funk, powered by Naoto Soundsystem’s wall of speakers.\n\nA leading force in electronic music, Dekmantel brings its musical vision to the dancefloor: an adventurous, carefully crafted selection connecting new sounds with the rich history of club culture.\n\nMUSIC:\nDekmantel Soundystem\n(Interstellar Funk b2b Casper Tielrooij all night long)\n\n🕚 h. 23 – 03\n🔗 Tickets at the link in bio\n📍 viale Emilio Alemagna 6, Milano",
@@ -4322,7 +4390,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.956467+00:00",
-    "updated": "2026-11-17T12:22:13.112020+00:00",
+    "updated": "2026-11-17T12:38:28.080044+00:00",
     "uid": "6ae7abc31d1ead45"
   },
   {
@@ -4361,6 +4429,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 06:00",
+    "in_posts": true,
     "rank": 5.17,
     "category": "club",
     "description": "Sabato 28 Novembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/bk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: MARIE VAUNT\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
@@ -4394,7 +4463,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.585576+00:00",
-    "updated": "2026-11-17T12:22:12.954092+00:00",
+    "updated": "2026-11-17T12:38:27.855127+00:00",
     "uid": "94f4e09d78327a16"
   },
   {
@@ -4433,6 +4502,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
+    "in_posts": true,
     "rank": 0.83,
     "category": "club",
     "description": "Sabato 5 Dicembre noidfamilia a auraclubmantova ⏳\n\nLa Familia nel Club a Mantova,\nHouse Music e Good Vibes\n\nAi dischi:\nheider.music \ncalefandwelo from esotic_event \nmarci_otta and furkan_mcc from dnaproject__ \ntitans.djp \n\nInfo e prenotazioni +393519691736",
@@ -4466,7 +4536,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.843777+00:00",
-    "updated": "2026-11-17T12:22:12.940793+00:00",
+    "updated": "2026-11-17T12:38:27.835864+00:00",
     "uid": "32d173c9290dab09"
   },
   {
@@ -4503,6 +4573,7 @@
     "entry": "paid",
     "fascia_auto": "preserata",
     "fascia_why": "finisce alle 02:00",
+    "in_posts": true,
     "rank": 2.94,
     "category": "club",
     "description": "🐼ALIVE Presenta:\nALIVE SCHOOL PARTY 🎉\n\n🗓️ Domenica 6 dicembre\n⏰ 21:00-2:00\n\n🌃 Location : VIBE CLUB\nVia Gandhi 34, Treviolo (BG)\n\n🎫 Ingresso in prevendita:\n- 15€ con 1 drink incluso\n\n💎Ingresso in tavolo:\nInfo & Prenotazioni in privato!\n\nIngresso consentito dai 13 anni compiuti \nEvento completamente alcol-free🍹\n\nDocumento originale obbligatorio\nIl locale si riserva il diritto di selezione all’ingresso!\n\n📲Info e prenotazioni:\n(+39) 375 7954429\naliveofficialparty",
@@ -4534,7 +4605,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.884174+00:00",
-    "updated": "2026-11-17T12:22:12.965607+00:00",
+    "updated": "2026-11-17T12:38:27.871247+00:00",
     "uid": "e2cff1d5820ec654"
   },
   {
@@ -4573,6 +4644,7 @@
     "entry": "paid",
     "fascia_auto": "serata",
     "fascia_why": "finisce tardi (till late / fino all'alba)",
+    "in_posts": true,
     "rank": 0.8481,
     "category": "club",
     "description": "🥂 IL 2027 INIZIA CON UN BRINDISI CHE FA RUMORE!\n\nIl 31 dicembre vivi la notte di Capodanno al Keller Factory 2.0 di Curno: cena spettacolo, musica live e una festa tutta da ballare! ✨\n\n🍽 Dalle 20:00 — Cena spettacolo\nMenù di Capodanno 90 € a persona\nCaparra del 50% per confermare la prenotazione.\n👉 Menù completo nel link in bio.\n\n🎤 Dalle 23:00 alle 01:30 — RADIO80 LIVE\nTutta l’energia degli anni ’80 e il countdown di mezzanotte insieme: calici in alto, salutiamo il 2027! 🍾\n\n🎧 Dalle 01:30 — DJ SET TILL LATE\nSi continua a ballare con ROKS – Alberto Rocchini!\n\n📍 Keller Factory 2.0 · Curno\n\n📲 Informazioni e prenotazioni\n☎️ Telefono e WhatsApp: 329 814 7208\n💬 Scrivici anche in Direct su Instagram oppure su Messenger alla nostra pagina Facebook.\n\nRaduna la tua compagnia e prenota il vostro tavolo! 🥂\n\n#KellerFactory #KellerCurno #Capodanno2027 #CapodannoBergamo #Radio80 CenaSpettacolo",
@@ -4598,7 +4670,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036898+00:00",
-    "updated": "2026-11-17T12:22:13.000395+00:00",
+    "updated": "2026-11-17T12:38:27.921016+00:00",
     "uid": "223ae55c0998170b"
   },
   {
@@ -4637,6 +4709,7 @@
     "entry": null,
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
+    "in_posts": true,
     "rank": 1.83,
     "category": "club",
     "description": "❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧 🎄✨ 𝐷𝑎𝑙 20 𝑛𝑜𝑣𝑒𝑚𝑏𝑟𝑒 2026 𝑎𝑙 10 𝑔𝑒𝑛𝑛𝑎𝑖𝑜 2027\n✨ Un grande Natale si accende in Piazzale Alpini: vi aspettano 52 giorni di pattinaggio, musica e sapori in un allestimento completamente rinnovato 💫\n\nAttorno alla grande pista di ghiaccio ⛸️ prenderà vita un bosco incantato, tra gigantesche installazioni luminose e un percorso che vi porterà anche “in quota”, per ammirare ",
@@ -4663,7 +4736,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.602536+00:00",
-    "updated": "2026-11-17T12:22:13.035787+00:00",
+    "updated": "2026-11-17T12:38:27.971616+00:00",
     "uid": "4794b5dba8455e6b"
   }
 ]
