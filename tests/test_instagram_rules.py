@@ -45,7 +45,7 @@ def test_past_dates_ignored_and_year_rollover():
 
 def test_times():
     assert find_times("doors 22:00") == ("22:00", None)
-    assert find_times("apertura ore 10 colazione") == (None, None)
+    assert find_times("apertura ore 10 colazione") == ("10:00", None)  # daytime: kept, so it can be told apart
 
 
 # Filippo's rules: weekday alone -> same week; day number alone -> same month as the post.
@@ -102,7 +102,7 @@ def test_ocr_reads_agenda_image():
 
 def test_title_skips_a_leading_date_line():
     ex = read("VENERDÌ 20 NOVEMBRE\nDEEP INSIDE w/ Sample DJ\nh 23:00", venue="Bolgia")
-    assert ex.events[0].title == "DEEP INSIDE w/ Sample DJ"
+    assert ex.events[0].title == "DEEP INSIDE"  # the headliner is added back by the title convention
 
 
 from bget.sources.categories import categorize
@@ -233,3 +233,98 @@ def test_press_article_reader():
     from zoneinfo import ZoneInfo
     evs = list(src._article("https://x/a", RulesExtractor(Config.load()), ZoneInfo("Europe/Rome")))
     assert len(evs) == 1 and evs[0].venue.name.startswith("Daste") and evs[0].start.hour == 23
+
+
+# ---- data collection improvements (2026-11-17) ----------------------------------------------------
+from bget.sources.instagram_rules import entry_hint, fascia_hint, party_title, read_times
+from bget.text import normalize
+
+
+def test_normalize_fancy_letters():
+    assert normalize("𝐏𝐎𝐏 𝐔𝐏 𝐏𝐀𝐑𝐓𝐘") == "POP UP PARTY"
+    assert normalize("𝑷𝒓𝒐𝒔𝒔𝒊𝒎𝒊 𝒆𝒗𝒆𝒏𝒕𝒊") == "Prossimi eventi"
+    assert normalize("ᴄᴄ ɴɪɢʜᴛ") == "CC NIGHT"
+    assert normalize("𝟐𝟎 𝐧𝐨𝐯𝐞𝐦𝐛𝐫𝐞") == "20 novembre"
+
+
+@pytest.mark.parametrize("text,start,end,late", [
+    ("Sabato 21 Novembre dalle ore 23:30 alle 06:00!", "23:30", "06:00", False),
+    ("> Opening ore 22:30 // Chiusura ore 04:00", "22:30", "04:00", False),
+    ("🕚 h. 23 – 03", "23:00", "03:00", False),
+    ("da mezzanotte alle 04:00", "00:00", "04:00", False),
+    ("⏰ Dalle 11.30 pm alle 4 am", "23:30", "04:00", False),
+    ("🕖 ** 19:00 23:00**", "19:00", "23:00", False),
+    ("— 00.00 till very late", "00:00", None, True),
+    ("⏰ 21:00-2:00", "21:00", "02:00", False),
+    ("APERTURA ORE 21,30", "21:30", None, False),
+    ("20.11 MAIN ROOM", None, None, False),                       # a date, not 20:11
+    ("Ingresso OMAGGIO DONNA fino alle 23:00", None, None, False),  # entry condition
+    ("🎫 Prezzo 12€ con drink entro l'1.00", None, None, False),
+    ("Dale 23:30 alle 04:30\nDalle 02:00 uscita libera", "23:30", "04:30", False),
+    ("🍽 Dalle 20:00 — Cena\n🎤 Dalle 23:00 alle 01:30 — LIVE\n🎧 Dalle 01:30 — DJ SET TILL LATE", "20:00", None, True),
+    ("20:00 - 22:00 a\n22:00 - 00:00 b", "20:00", "00:00", False),
+    ("19 novembre 2026, dalle 9.30 alle 17.30", "09:30", "17:30", False),
+    ("𝐝𝐚𝐥𝐥𝐞 𝟐𝟑:𝟑𝟎", "23:30", None, False),
+])
+def test_read_times(text, start, end, late):
+    t = read_times(text)
+    assert (t.start, t.end, t.late) == (start, end, late)
+
+
+@pytest.mark.parametrize("caption,name", [
+    ("Sabato 28 Novembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰\nSpecial Guest: MARIE VAUNT", ""),
+    ("VENERDÌ 20.11 | dalle 21:00 con cheri.it 🍒\n\nVia Trieste 38, Chiuduno (Bg)", ""),
+    ("21 NOVEMBRE [ENTER THE VOID]\n\nMAIN AREA - enter the void\n\nTHE BLOCK w/ palmas.night", "ENTER THE VOID"),
+    ("VENERDÌ SI TORNA IN CENTRO BG. 🎓\n\nUNIBG PARTY w/ L'OPERÀ\n📍 ZERO CLUB", "UNIBG PARTY"),
+    ("𝐏𝐎𝐏 𝐔𝐏 𝐏𝐀𝐑𝐓𝐘\n\n📅 VENERDÌ 20 NOVEMBRE", "POP UP PARTY"),
+    ("Ci vediamo il 21 nel club 🪤\n\nLineup:\nfssquah\nluca._stanzione", ""),
+    ("THIS WEEK.\nONE NIGHT.\nNO EXCUSES.", ""),
+    ("THIS IS DNB \nBergamo Edition\n20:30 - ...", "THIS IS DNB"),
+    ("OASI returns.\n\nFRI. 20 NOV.\n23:30 — 04:30", "OASI"),
+    ("ཐ ᴄᴄ ɴɪɢʜᴛ ཋ\n♱ ᴅᴏᴏʀꜱ ᴏᴘᴇɴ ᴀᴛ 00:00", "CC NIGHT"),
+])
+def test_party_title(caption, name):
+    assert party_title(caption) == name
+
+
+def test_entry_and_fascia_hints():
+    assert entry_hint("💰Lista 20€ Dr*nk Incluso💰") == "paid"
+    assert entry_hint("🎟️ INGRESSO LIBERO") == "free"
+    assert entry_hint("INGRESSO GRATUITO A TUTTE LE DONNE ENTRO LE ORE 22.00") is None
+    assert fascia_hint("Aperitivo con dj set") == "preserata"
+    assert fascia_hint("after hour fino all'alba") == "serata"
+
+
+def test_daytime_conference_is_not_a_club_night():
+    ex = read("Il 19 novembre torna Cities For Impact, urban talk\n19 novembre 2026, dalle 9.30 alle 17.30",
+              venue="Gres Art 671")
+    assert ex.events[0].kind != "dj_club"
+
+
+def _ev(start, end=None, **kw):
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    from bget.models import Event, Venue
+    rome = ZoneInfo("Europe/Rome")
+    s = datetime.fromisoformat(f"2026-11-21T{start}").replace(tzinfo=rome)
+    if s.hour < 7:
+        s = s.replace(day=22)
+    e = datetime.fromisoformat(f"2026-11-22T{end}").replace(tzinfo=rome) if end else None
+    if e and e.hour >= 7:
+        e = e.replace(day=21)
+    return Event(title="x", start=s, end=e, venue=kw.pop("venue", Venue(name="Somewhere", city="")), **kw)
+
+
+def test_fascia_rule():
+    from bget.fascia import classify
+    from bget.models import Venue
+    assert classify(_ev("23:30", "06:00"), cfg)[0] == "serata"
+    assert classify(_ev("21:00", "02:00"), cfg)[0] == "preserata"      # ends before 03:00
+    assert classify(_ev("00:00"), cfg)[0] == "serata"                  # starts after midnight
+    assert classify(_ev("21:00"), cfg)[0] == "preserata"               # early start, no end
+    assert classify(_ev("21:00", late_end=True), cfg)[0] == "serata"   # "till late"
+    assert classify(_ev("22:30", entry="paid"), cfg)[0] == "serata"
+    assert classify(_ev("22:30", entry="free"), cfg)[0] == "preserata"
+    assert classify(_ev("23:00", start_known=False, venue=Venue(name="Bolgia", city="")), cfg)[0] == "serata"
+    assert classify(_ev("23:00", start_known=False, venue=Venue(name="MINT", city="")), cfg)[0] == "preserata"
+    assert classify(_ev("23:30", "06:00", fascia="preserata"), cfg) == ("preserata", "deciso a mano")

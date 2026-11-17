@@ -4,10 +4,13 @@ own confidence conservatively and most results wait in the review queue."""
 from __future__ import annotations
 
 import re
+import unicodedata
+from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 
 from ..config import Config
 from ..models import slug
+from ..text import normalize
 from .categories import categorize
 from .instagram_extract import ExtractedArtist, ExtractedEvent, Extraction
 
@@ -42,8 +45,6 @@ RE_MONTHNAME_DAY = re.compile(rf"\b({_MONTH_RE})\.?\s+(\d{{1,2}})(?:st|nd|rd|th)
 RE_NUMERIC = re.compile(r"(?<![\d:])(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?(?![\d:])")
 RE_WEEKDAY_DAY = re.compile(rf"\b({_WD_RE})\.?\s+(\d{{1,2}})\b(?!\s*[:.]\d)", re.I)
 RE_WEEKDAY = re.compile(rf"\b({_WD_RE})\b", re.I)
-RE_TIME = re.compile(r"\b(?:h\.?\s*|ore\s+|dalle\s+|from\s+|start\s+|doors\s+)?([01]?\d|2[0-3])(?:[:](\d{2})|\s*h\b|[.](\d{2})(?=\s*(?:h\b|-|–|alle|till|until|to\b)))", re.I)
-RE_FROM_TO = re.compile(r"\b(?:dalle|from|h)\s*([01]?\d|2[0-3])(?:[:.](\d{2}))?\s*(?:alle|to|till|until|-|–)\s*([01]?\d|2[0-3])(?:[:.](\d{2}))?", re.I)
 RE_MENTION = re.compile(r"(?<![\w.])@([A-Za-z0-9_.]{2,30})(?<!\.)")
 RE_URL = re.compile(r"https?://\S+")
 RECAP = re.compile(r"\b(grazie|thank you|thanks|recap|throwback|last night|ieri sera|che notte|what a night|scatti|riassunto|foto della serata|photo dump)\b", re.I)
@@ -159,15 +160,130 @@ def find_genres(text: str, scored: list[str]) -> list[str]:
     return found
 
 
+# ---- times -----------------------------------------------------------------------------------
+# A time is "23:30", "23.30", "21,30", "11.30 pm", "mezzanotte"; a bare hour ("dalle 23 alle 4") only
+# counts after a time word. "20.11" is a date, not a time: with . or , the minutes must be 00/15/30/45.
+_T = (r"(?:(?P<{n}mid>mezzanotte|midnight)|(?<![\d.,:/])(?P<{n}h>[01]?\d|2[0-4])"
+      r"(?:(?P<{n}sep>[:.,])(?P<{n}m>[0-5]\d))?(?![\d/])(?:\s*(?P<{n}ap>am|pm)\b)?)")
+_START_WORD = r"(?:dalle\s+ore|dalle|dalla|ore|h\.?|from|start(?:ing)?(?:\s+at)?|opening(?:\s+ore)?|apertura(?:\s+porte)?(?:\s+ore)?|" \
+              r"doors(?:\s+open)?(?:\s+at)?|inizio(?:\s+ore)?|alle\s+ore|porte)"
+_END_WORD = r"(?:chiusura(?:\s+ore)?|closing(?:\s+at)?|close|end(?:s)?(?:\s+at)?|fino\s+alle(?:\s+ore)?|until|till)"
+_JOIN = r"\s*(?:-|–|—|/|alle(?:\s+ore)?|a|to|till|until|fino\s+alle(?:\s+ore)?)\s*"
+RE_RANGE = re.compile(rf"(?:\b{_START_WORD}\s*)?{_T.format(n='a')}{_JOIN}(?:h\.?\s*)?{_T.format(n='b')}", re.I)
+RE_RANGE_SPACE = re.compile(r"(?<![\d.,:])([01]?\d|2[0-3]):([0-5]\d)\s+([01]?\d|2[0-4]):([0-5]\d)(?![\d])")
+RE_START = re.compile(rf"\b{_START_WORD}\s*:?\s*{_T.format(n='a')}", re.I)
+RE_END = re.compile(rf"\b{_END_WORD}\s*{_T.format(n='a')}", re.I)
+RE_CLOCK = re.compile(rf"(?:^|[⏰⌚🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙🕚🕛🕜🕝🕞🕟🕠🕡🕢🕣🕤🕥🕦🕧—–-]\s*)"
+                      rf"(?<![\d.,:])([01]?\d|2[0-3])[:.]([0-5]\d)(?![\d])")
+RE_LATE = re.compile(r"\b(?:till\s+(?:very\s+)?late|until\s+late|fino\s+a\s+tarda\s+notte|a\s+tarda\s+notte|"
+                     r"fino\s+all'?\s*alba|till\s+dawn|until\s+dawn|till\s+close|fino\s+a\s+chiusura|"
+                     r"all\s+night\s+long|after\s*hours?|afterhour)\b", re.I)
+# lines about entry prices/conditions or contacts: their times are not the night's times
+RE_ENTRY_LINE = re.compile(r"\b(?:entro|ingress[oi]|omaggio|lista|prima\s+de(?:l|lle)|dopo\s+(?:l|le|il)|uscita|"
+                           r"iscrizion\w*|drink|prezz\w+|ridott\w*|donna|donne|uomo|uomini|tavol\w+|riservat\w+|"
+                           r"whatsapp|prenot\w+|navett\w+)\b|☎|\+39|\d{6,}|\d{3}[ ./]\d{3,}", re.I)
+
+
+@dataclass
+class Times:
+    start: str | None = None
+    end: str | None = None
+    late: bool = False          # "till late", "fino all'alba": ends late, time not given
+
+
+def _hm(g: dict, n: str) -> tuple[int, int] | None:
+    if g.get(f"{n}mid"):
+        return 0, 0
+    if g.get(f"{n}h") is None:
+        return None
+    h, m = int(g[f"{n}h"]), int(g.get(f"{n}m") or 0)
+    sep, ap = g.get(f"{n}sep"), (g.get(f"{n}ap") or "").lower()
+    if sep in (".", ",") and m % 15:
+        return None  # "20.11" is a date
+    if ap == "pm" and h < 12:
+        h += 12
+    elif ap == "am" and h == 12:
+        h = 0
+    if h == 24:
+        h = 0
+    return (h, m) if h < 24 else None
+
+
+def _night_minutes(hm: tuple[int, int]) -> int:
+    """Minutes on the night's clock: 01:30 comes after 23:00 (hours before 07:00 are after midnight)."""
+    h, m = hm
+    return (h + 24 if h < 7 else h) * 60 + m
+
+
+def read_times(text: str) -> Times:
+    """Start, end and "ends late" of a night, from every line of a caption.
+
+    Several times (a programme: 20:00 cena, 23:00 live, 01:30 dj set) -> start is the earliest, end the
+    latest. Lines about entry (\"omaggio donna entro le 23\", \"drink entro l'1\") are skipped.
+    """
+    starts: list[tuple[int, int]] = []
+    ends: list[tuple[int, int]] = []
+    late = False
+    for line in normalize(text).splitlines():
+        if RE_LATE.search(line):
+            late = True
+        if RE_ENTRY_LINE.search(line):
+            continue
+        used: list[tuple[int, int]] = []
+        for m in RE_RANGE.finditer(line):
+            g = m.groupdict()
+            a, b = _hm(g, "a"), _hm(g, "b")
+            # a bare hour on both sides needs a time word: "dalle 23 alle 4", "h 23 - 03"
+            bare = g.get("asep") is None and not g.get("amid") and not g.get("aap")
+            if a is None or b is None or (bare and not re.match(rf"\s*{_START_WORD}", m.group(0), re.I)):
+                continue
+            if _night_minutes(b) <= _night_minutes(a):
+                continue
+            starts.append(a)
+            ends.append(b)
+            used.append(m.span())
+        for m in RE_RANGE_SPACE.finditer(line):  # "19:00 23:00"
+            if any(s <= m.start() < e for s, e in used):
+                continue
+            a, b = (int(m.group(1)), int(m.group(2))), (int(m.group(3)) % 24, int(m.group(4)))
+            if _night_minutes(b) > _night_minutes(a):
+                starts.append(a)
+                ends.append(b)
+                used.append(m.span())
+
+        def free(m):
+            return not any(s <= m.start() < e or s < m.end() <= e for s, e in used)
+
+        for m in RE_END.finditer(line):
+            hm = _hm(m.groupdict(), "a")
+            # a lone "fino alle 23:30" is usually an entry condition; only after-midnight ends count
+            if free(m) and hm and hm[0] < 9:
+                ends.append(hm)
+                used.append(m.span())
+        for m in RE_START.finditer(line):
+            if free(m) and (hm := _hm(m.groupdict(), "a")):
+                starts.append(hm)
+                used.append(m.span())
+        for m in RE_CLOCK.finditer(line):  # "⏰ 21:00", "🕒00.00", a time at the start of a line
+            if free(m) and (m.group(0).rstrip()[-3] == ":" or int(m.group(2)) % 15 == 0):
+                starts.append((int(m.group(1)), int(m.group(2))))
+    # daytime times only count when nothing in the evening is given (a brunch, a conference)
+    evening = [s for s in starts if not 7 <= s[0] < 17]
+    starts = evening or starts
+    t = Times(late=late)
+    if starts:
+        s = min(starts, key=_night_minutes)
+        t.start = f"{s[0]:02d}:{s[1]:02d}"
+        later = [e for e in ends if _night_minutes(e) > _night_minutes(s)]
+        if later and not late:
+            e = max(later, key=_night_minutes)
+            t.end = f"{e[0]:02d}:{e[1]:02d}"
+    return t
+
+
 def find_times(text: str) -> tuple[str | None, str | None]:
-    m = RE_FROM_TO.search(text)
-    if m:
-        return f"{int(m.group(1)):02d}:{m.group(2) or '00'}", f"{int(m.group(3)):02d}:{m.group(4) or '00'}"
-    for m in RE_TIME.finditer(text):
-        h = int(m.group(1))
-        if not 7 <= h <= 11:  # nights and day parties; skip morning numbers
-            return f"{h:02d}:{m.group(2) or m.group(3) or '00'}", None
-    return None, None
+    t = read_times(text)
+    return t.start, t.end
 
 
 _FILLER = re.compile(r"\b(?:dalle|dalle ore|ore|alle|fino|h|al|allo|alla|a|il|la|lo|del|della|di|e|from|to|at|"
@@ -182,16 +298,159 @@ def _strip_date_words(t: str) -> str:
     return re.sub(r"[\W_]+", "", t)
 
 
-def _title(caption: str) -> str:
-    for line in caption.splitlines():
-        t = RE_URL.sub("", line)
-        t = re.sub(r"[#@]\S+", "", t)
-        t = re.sub(r"[^\w\s&'’!?.,:/+()-]", "", t).strip(" -–—:|.")
-        if RE_DATE_LINE.search(t) and len(_strip_date_words(t)) < 4:
-            continue  # "VENERDÌ 20 NOVEMBRE dalle 23:30" is the date, not the name of the night
-        if len(t) >= 3:
-            return t[:80]
-    return ""
+# ---- the night's name ------------------------------------------------------------------------
+# Lines that are never the name of the night: prices, lists, addresses, contacts, line-up headers.
+_NOT_A_NAME = re.compile(
+    r"\b(?:lista|drink|drnk|ingresso|prezz\w*|info|prenot\w*|tavol\w*|biglietti|ticket\w*|prevendit\w*|via|viale|"
+    r"piazza|piazzale|largo|corso|line ?-?up|save the date|whatsapp|selezione|aperto a tutti|riservat\w*|"
+    r"dress ?code|link in bio|special guest|guest|resident\w*|in console|in consolle|dj set|djset|"
+    r"swipe|scorri|maggiorenni|u-?pass|cena|apericena|buffet|menu|menù)\b|€|\+39|\d{6,}", re.I)
+# sentence words: a line full of them is chatter ("Ci vediamo il 21 nel club"), not a name
+_CHATTER = re.compile(
+    r"\b(?:si|ci|vi|ti|è|e'|é|sono|non|che|per|con|nel|nella|del|della|dei|delle|una|un|uno|questo|questa|"
+    r"vediamo|aspettiamo|torna|tornano|arriva|siamo|abbiamo|ancora|sempre|già|ora|cosa|fare|"
+    r"we|you|are|is|our|your|see|back|with|for|this|that|just|all)\b", re.I)
+_GENERIC = re.compile(
+    r"^(?:this week|this weekend|one night|tonight|stasera|weekend|save the date|main ?(?:room|area|stage)|"
+    r"club ?room|theater room|lab room|sala \w+|room \w+|coming soon|sold out|new date|nuova data|"
+    r"see you(?: inside| there)?|no excuses|programma|prossimi eventi|eventi|novit[aà]|info)$", re.I)
+_PARTY_WORD = re.compile(r"\b(?:party|night|notte|festa|showcase|presents|presenta|label|"
+                         r"rave|session[s]?|club night)\b", re.I)
+_RETURNS = re.compile(r"\s+(?:returns|is back|torna|ritorna|is coming)\s*[.!]*$", re.I)
+_HANDLE = re.compile(r"(?<![\w@])@?[a-z0-9_]*[a-z0-9][._][a-z0-9_.]*[a-z0-9_]\b")
+_EDGE = (rf"oggi|stasera|domani|tonight|torna|ritorna|tornano|returns|is back|presenta|presents|al|alla|allo|a|at|in|"
+         rf"da|dal|presso|to|and|e|dalle|alle|ore|h|{_MONTH_RE}|{_WD_RE}")
+_TIME_PHRASE = re.compile(
+    rf"\b(?:{_START_WORD}|{_END_WORD})?\s*{_T.format(n='x')}(?:{_JOIN}{_T.format(n='y')})?", re.I)
+
+
+def _clean_name(line: str) -> str:
+    t = RE_URL.sub(" ", normalize(line))
+    t = re.sub(r"#\S+", " ", t)
+    t = _HANDLE.sub(" ", t)
+    t = re.sub(r"\s(?:w/|with|@)\s.*$", "", t, flags=re.I)  # "UNIBG PARTY w/ L'OPERÀ": headliner apart
+    t = "".join(c for c in t if not c.isalpha() or "LATIN" in unicodedata.name(c, "LATIN"))  # ཐ decorations
+    t = re.sub(r"[^\w\s&'!?.,:/+()-]", " ", t)
+    # dates and times at the start or end of the line: "21 NOVEMBRE ENTER THE VOID", "OASI · 20.11"
+    for _ in range(3):
+        t = re.sub(rf"^\W*(?:(?:{_WD_RE})\.?|\d{{1,2}}\s*(?:{_MONTH_RE})\.?(?:\s+\d{{4}})?|"
+                   rf"\d{{1,2}}[./]\d{{1,2}}(?:[./]\d{{2,4}})?|(?:{_MONTH_RE})\.?\s+\d{{1,2}}|il|on)\b", " ", t, flags=re.I)
+        t = re.sub(rf"\b(?:(?:{_WD_RE})\.?|\d{{1,2}}\s*(?:{_MONTH_RE})\.?(?:\s+\d{{4}})?|"
+                   rf"\d{{1,2}}[./]\d{{1,2}}(?:[./]\d{{2,4}})?)\W*$", " ", t, flags=re.I)
+        t = _TIME_PHRASE.sub(lambda m: " " if re.search(r"[:.,]\d\d|mezzanotte|dalle|ore|h", m.group(0), re.I)
+                             else m.group(0), t)
+    t = _RETURNS.sub("", t)
+    t = re.sub(r"(?i)\b(?:main|club|lab|theater|theatre|second|back)\s*(?:room|area|stage)\b", " ", t)
+    t = re.sub(r"\b(?=[a-z0-9_]*[a-z])[a-z0-9_]*(?:\d|_)[a-z0-9_]*\b", " ", t)  # lowercase handles without the @: il_boffe, illes2cri
+    for _ in range(2):  # loose words left at the edges: "TORNA ICON AL", "ALIVE presenta", "dalle alle"
+        t = re.sub(rf"^\W*(?:{_EDGE})\b", " ", t.strip(), flags=re.I)
+        t = re.sub(rf"\b(?:{_EDGE})\W*$", " ", t.strip(), flags=re.I)
+        t = re.sub(r"\s{2,}", " ", t).strip(" -–—:|.,!/&+")
+    return t
+
+
+_GENERIC_WORD = re.compile(r"^(?:party|music|musica|live|night|notte|serata|evento|event|club|dj|program+a|"
+                           r"line ?up|info|news|save the date)$", re.I)
+
+
+def _clean_name_head(line: str) -> str:
+    """The line with dates and times stripped but artists left in, to see how it starts."""
+    t = normalize(line)
+    t = re.sub(r"[^\w\s/'.]", " ", t)
+    t = re.sub(rf"(?i)^(?:\s|{_WD_RE}|{_MONTH_RE}|\d{{1,2}}[./]\d{{1,2}}|\d+|dalle|ore|h|[:.])*", "", t)
+    return t.strip()
+
+
+_LINEUP_LINE = re.compile(r"^\W*[🎧🎤🎙🎛]|^[^,+]*\w[^,+]*(?:,|\s\+\s|\sb2b\s)[^,+]*\w", re.I)
+
+
+def name_candidates(caption: str, venues: list[str] = ()) -> list[tuple[float, str]]:
+    out = []
+    lines = [ln for ln in normalize(caption).splitlines() if ln.strip()][:10]
+    for i, line in enumerate(lines):
+        if _NOT_A_NAME.search(line) and not _PARTY_WORD.search(line):
+            continue
+        if _LINEUP_LINE.match(normalize(line)) and not _PARTY_WORD.search(normalize(line)):
+            continue  # "🎧 DANI VESCOVI, LAPO UNDERGROUND": the line-up, not the name
+        t = _clean_name(line)
+        words = t.split()
+        if len(t) < 3 or not words or _GENERIC.match(t) or _NOT_A_NAME.search(t):
+            continue
+        if re.match(r"(?i)(?:con|w/|feat|ft|dj|by)\b", _clean_name_head(line)):
+            continue  # "con cheri.it", "in console ..." -> artists, not a name
+        letters = [c for c in t if c.isalpha()]
+        if len(letters) < 4 or _GENERIC_WORD.match(t):
+            continue
+        if t[0].islower():
+            continue  # names start with a capital; "take over the night", "fssquah" (a handle without the @)  # a lone lowercase word is a handle written without the @ (fssquah)
+        caps = sum(c.isupper() for c in letters) / len(letters) > 0.7
+        chatter = len(_CHATTER.findall(t)) * (0.5 if caps else 1.0)
+        score = 3.0 - 0.4 * i - 1.2 * chatter - 0.4 * max(0, len(words) - 4)
+        if caps:
+            score += 1.0
+        if _PARTY_WORD.search(t):
+            score += 1.5
+        elif re.search(r"\sw/\s|\sx\s", line, re.I):
+            score += 0.5
+        if t.endswith((".", "!", "?")) and len(words) > 3:
+            score -= 1.0
+        if any(len(v) > 3 and re.search(rf"(?<!\w){re.escape(v)}(?!\w)", t, re.I) for v in venues):
+            score -= 1.5  # "LOFT - HiFi Bar & Premium Club" is the venue's tagline
+        out.append((score, t[:60]))
+    return out
+
+
+def party_title(caption: str, venues: list[str] = ()) -> str:
+    """The night's own name from a caption, or "" when the post doesn't give one."""
+    best = max(name_candidates(caption, venues), default=(0, ""))
+    return best[1] if best[0] >= 1.0 else ""
+
+
+def _title(caption: str) -> str:  # kept for older callers
+    return party_title(caption)
+
+
+# ---- clues for serata / preserata -------------------------------------------------------------
+RE_PAID = re.compile(r"\d+\s*€|€\s*\d+|\d+\s*euro\b|\blista\b|drink incluso|dr\*?nk incluso|\bticket|biglietti|"
+                     r"prevendit|\bu-?pass\b|xceed|dice\.fm|shotgun|tavol[oi]|\bprive\b|privè|privé|superprive", re.I)
+RE_FREE = re.compile(r"ingresso\s+(?:libero|gratuito|gratis|free)|entrata\s+libera|free\s+entry|"
+                     r"ingresso\s+(?:a\s+)?offerta|free\s+entrance", re.I)
+RE_FREE_FOR_SOME = re.compile(r"(?:libero|gratuito|gratis|free|omaggio)\s+(?:per\s+)?(?:a\s+tutte\s+le\s+)?"
+                              r"(?:donn|ragazz|entro|fino|prima|con\s+c\.?o|dalle)", re.I)
+RE_SAYS_PRESERATA = re.compile(r"\bpre[- ]?serata\b|\baperitivo\b|\bapericena\b|\bhappy hour\b|\bafter ?work\b", re.I)
+RE_SAYS_SERATA = re.compile(r"\bafter ?hours?\b|\bafterhour\b|fino all'?\s*alba|till dawn|all night long", re.I)
+DAY_PARTY = re.compile(r"day ?party|pool ?party|open ?air|boat ?party|daytime|afternoon party|"
+                       r"sunset|tea ?dance|matin[eé]e", re.I)
+
+
+def entry_hint(text: str) -> str | None:
+    """"paid" when the post talks about lists, prices or tickets; "free" when it says free entry
+    for everyone ("ingresso gratuito a tutte le donne entro le 22" is not free entry)."""
+    text = normalize(text)
+    if RE_PAID.search(text):
+        return "paid"
+    if RE_FREE.search(text) and not RE_FREE_FOR_SOME.search(text):
+        return "free"
+    return None
+
+
+def fascia_hint(text: str) -> str | None:
+    """What the post itself says: "aperitivo con dj set" -> preserata, "after hour" -> serata."""
+    text = normalize(text)
+    if RE_SAYS_SERATA.search(text):
+        return "serata"
+    if RE_SAYS_PRESERATA.search(text):
+        return "preserata"
+    return None
+
+
+def is_daytime(t: Times) -> bool:
+    """A conference 09:30-17:30 or a brunch 11-15 is not a night out."""
+    if not t.start:
+        return False
+    h = int(t.start[:2])
+    end_h = int(t.end[:2]) if t.end else None
+    return 7 <= h < 17 and (end_h is None or 7 < end_h <= 20)
 
 
 class RulesExtractor:
@@ -203,14 +462,15 @@ class RulesExtractor:
         self.venue_kinds = {v["name"]: v.get("kind") for v in cfg.venues}
 
     def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
-        caption = caption or ""
+        caption = normalize(caption)
         posted = posted_at.date()
         warnings: list[str] = []
         dates, explicit = find_dates(caption, posted, warnings)
         if not dates:
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no date in caption")
         recap = bool(RECAP.search(caption))
-        start, end = find_times(caption)
+        times = read_times(caption)
+        start, end = times.start, times.end
 
         genres = find_genres(caption, self.genres)
         cap_slug = slug(caption)
@@ -230,14 +490,20 @@ class RulesExtractor:
         conf -= 0.15 * len(warnings)
         if recap:
             conf -= 0.3
-        title = _title(caption) or (", ".join(mentions[:2]) if mentions else account_venue or f"@{account}")
+        # no name of its own -> the venue (the calendar then shows just "[Genre] Venue w/ Headliner")
+        names = [n for v, ns in self.venue_names if v in (venue, account_venue) for n in ns]
+        title = party_title(caption, names) or venue or account_venue or (mentions[0] if mentions else f"@{account}")
+        kind = categorize(caption, self.venue_kinds.get(venue))
+        if kind == "dj_club" and is_daytime(times) and not DAY_PARTY.search(caption):
+            kind = "other"
+        hint = fascia_hint(caption)
         events = [ExtractedEvent(
-            title=title, date=d.isoformat(), start_time=start, end_time=end,
-            venue_name=venue, city=None,
+            title=title, date=d.isoformat(), start_time=start, end_time=end, late_end=times.late,
+            entry=entry_hint(caption), fascia=hint, venue_name=venue, city=None,
             artists=[ExtractedArtist(name=h, instagram=h) for h in mentions[:8]],
             genres=genres[:3], ticket_url=tickets,
             is_concert=bool(CONCERT.search(caption)), is_festival=bool(FESTIVAL.search(caption)),
-            kind=categorize(caption, self.venue_kinds.get(venue)),
+            kind=kind,
         ) for d in dates[:4]]
         notes = "read by the free pattern matcher" + ("; looks like a recap" if recap else "") + \
                 ("" if explicit else "; date guessed from a weekday name") + \

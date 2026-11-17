@@ -85,6 +85,16 @@ Three feeds: `bergamo.ics` (local), `alerts.ics` (⚡ big events), `all.ics` (bo
 branch (no build command), so the repo stays private while the calendars get stable URLs like
 `https://<project>.pages.dev/bergamo.ics` to subscribe to once in Google/Apple Calendar.
 
+### Serata or preserata (`src/bget/fascia.py`)
+Every night gets a *fascia*: serata (starts 23:30 or later and ends 03:00 or later) or preserata.
+Captions rarely give an end time, so the caption reader (`instagram_rules.py`) also picks up the end
+time in all its usual forms ("dalle ore 23:30 alle 06:00", "Chiusura ore 04:00", "h. 23 – 03",
+"till late"), price clues (list / tickets = serata, free entry = preserata) and words like "aperitivo".
+When those don't decide, the venue's `fascia:` in `config/venues.yaml` does. Fix a single night with
+`fascia: {id: preserata}` in `config/ig_decisions.yaml`. Each run writes `out/serata_preserata.md` with
+every upcoming night, its times and the reason for its fascia. Stored captions are re-read on every run,
+so reader improvements also fix nights read earlier.
+
 ### Phase 2: carousels (`src/bget/carousel.py`)
 1080×1350 PNG slides. Weekly: cover, "In zona" (up to 5 events per slide), "Vale il viaggio" (alerts).
 Monthly: cover, one or more slides per week, alerts. The design is a plain placeholder; colours, fonts

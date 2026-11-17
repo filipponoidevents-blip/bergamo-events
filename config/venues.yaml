@@ -13,6 +13,9 @@
 #   tickets     ticket/listing pages that the jsonld adapter could read
 # `verified: true` only where address and handle come from the venue's own pages.
 # Coordinates are approximate (street or town level). Extra keys are ignored by the loader.
+#   fascia      serata | preserata | orari: what a night here usually is (Filippo, 2026-11-17). Used only
+#               when times, price and the post's own words don't decide (see src/bget/fascia.py).
+#               orari = mixed venue, decided by the times only.
 
 venues:
   # =================== Clubs / discos: dance, house, techno ===================
@@ -25,6 +28,7 @@ venues:
     lon: 9.588
     km: 7.6
     kind: club
+    fascia: serata
     status: active        # 2026-27 season opened 5 Sep 2026; Sat 23:30-06:00, rooms Main/Garden/Lab + Summer Garden
     genres: [techno, hard techno, tech house, house]
     socials: {instagram: bolgia.official, facebook: bolgiaofficial, website: https://www.bolgia.it, resident_advisor: https://ra.co/clubs/5759}
@@ -43,6 +47,7 @@ venues:
     lon: 9.695
     km: 3.9
     kind: club
+    fascia: serata
     status: active
     genres: [commercial, house]
     socials: {instagram: setai_club_official, website: null, resident_advisor: https://ra.co/clubs/5628}
@@ -61,6 +66,7 @@ venues:
     lon: 9.665
     km: 1.1
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: zeroclub.bg, website: null, resident_advisor: https://ra.co/clubs/72471}
     tickets: [https://site.fourvenues.com/en/zero-club]
@@ -80,6 +86,7 @@ venues:
     lon: 9.852
     km: 15.8
     kind: club
+    fascia: serata
     status: active        # JUICE "El Jardín de Nikita" on RA
     genres: [house, tech house, commercial]
     socials: {instagram: nikita__land, website: null, resident_advisor: https://ra.co/clubs/169169}
@@ -97,6 +104,7 @@ venues:
     lon: 9.600
     km: 8.2
     kind: club
+    fascia: serata
     status: active
     genres: [commercial, latin, house]
     socials: {instagram: bobadillafeelingclub, website: null, resident_advisor: https://ra.co/clubs/33408}
@@ -128,6 +136,7 @@ venues:
     lon: 9.787
     km: 19.9
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: hype.club.official, website: null}
     ig_source: user
@@ -142,6 +151,7 @@ venues:
     lon: 9.612
     km: 5.2
     kind: club
+    fascia: serata
     status: check
     genres: [commercial]
     socials: {instagram: capogirojoyclub, website: null}
@@ -172,6 +182,7 @@ venues:
     lon: 9.735
     km: 4.9
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: tiky.klub, website: https://tikyklub.it, resident_advisor: https://ra.co/clubs/44664}
     ig_source: user
@@ -189,6 +200,7 @@ venues:
     lon: 9.735
     km: 4.9
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: discoteca_queen, website: null}
     ig_source: user
@@ -203,6 +215,7 @@ venues:
     lon: 9.760
     km: 8.3
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: oroneroloveandmusic, website: null}
     ig_source: user
@@ -218,6 +231,7 @@ venues:
     lon: 9.640
     km: 17.6
     kind: bar
+    fascia: preserata
     status: active
     genres: [house]
     socials: {instagram: bv_rooftop, website: null, resident_advisor: https://ra.co/clubs/243276}
@@ -233,6 +247,7 @@ venues:
     lon: 9.640
     km: 17.6
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: baiadelrebrignano, website: https://baiadelrebrignano.it}
     ig_source: user
@@ -250,6 +265,7 @@ venues:
     lon: 9.673
     km: 4.2
     kind: club
+    fascia: serata
     status: active
     genres: [house, deep house, tech house]
     socials: {instagram: loft.bergamo, website: https://loftbergamo.com}
@@ -269,6 +285,7 @@ venues:
     lon: 9.678
     km: 1.3
     kind: live_club
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     genres: [electronic, live, reggae/dub]
     socials: {instagram: edonebergamo, website: null}
@@ -286,6 +303,7 @@ venues:
     lon: 9.6905
     km: 1.1
     kind: live_club
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     genres: [house, techno, live]
     socials: {instagram: daste_bergamo, website: null, resident_advisor: https://ra.co/clubs/208117}
@@ -303,6 +321,7 @@ venues:
     lon: 9.714
     km: 4.0
     kind: live_club
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     genres: [live, party]
     socials: {instagram: drusobg, website: null}
@@ -319,6 +338,7 @@ venues:
     lon: 9.668
     km: 1.4
     kind: live_club
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     socials: {instagram: spazio_polaresco, website: null}
     ig_source: search
@@ -351,6 +371,7 @@ venues:
     lon: 9.670
     km: 0.6
     kind: live_club
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     genres: [rock, live]
     socials: {instagram: inkclub_bergamo, website: null}
@@ -366,6 +387,7 @@ venues:
     lon: 9.670
     km: 1.3
     kind: bar
+    fascia: preserata
     status: active
     genres: [live, funk]
     socials: {instagram: circolinomalpensata_bergamo, website: null}
@@ -383,6 +405,7 @@ venues:
     lon: 9.612
     km: 5.2
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: kellerfactory_, website: https://www.newkeller.it}
     ig_source: user
@@ -398,6 +421,7 @@ venues:
     lon: 9.610
     km: 5.2
     kind: live_club
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     socials: {instagram: ufo.spacezone51, website: null}
     ig_source: user
@@ -414,6 +438,7 @@ venues:
     lon: 9.520
     km: 15.7
     kind: live_club
+    fascia: serata
     capacity: 2500
     status: active
     socials: {instagram: liveclub, website: null}
@@ -431,6 +456,7 @@ venues:
     lon: 9.655
     km: 3.9
     kind: bar
+    fascia: preserata
     status: active
     genres: [reggae/dub]
     socials: {instagram: ninfeasocialclub, website: null}
@@ -448,6 +474,7 @@ venues:
     lon: 9.548
     km: 10.2
     kind: open_air
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active        # 25-28 Jun 2026, house / tech house
     genres: [house, tech house]
     socials: {instagram: twofestival, website: null}
@@ -464,6 +491,7 @@ venues:
     lon: 9.673
     km: 0.7
     kind: open_air
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active        # summer season, late May to early Sep
     socials: {instagram: nxtbergamo, website: null}
     ig_source: user
@@ -479,6 +507,7 @@ venues:
     lon: 9.658
     km: 1.7
     kind: open_air
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active        # Jun-Jul
     socials: {instagram: lazzaretto_bergamo_estate, website: https://www.lazzarettoestate.it}
     ig_source: user
@@ -496,6 +525,7 @@ venues:
     lon: 9.695
     km: 1.4
     kind: arena
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     socials: {instagram: choruslife.bergamo, website: null, resident_advisor: https://ra.co/clubs/251441}
     ig_source: user
@@ -510,6 +540,7 @@ venues:
     lon: 9.665
     km: 4.5
     kind: arena
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     socials: {instagram: null, website: null, resident_advisor: https://ra.co/clubs/103112}
     ig_source: null
@@ -527,6 +558,7 @@ venues:
     lon: 9.660
     km: 2.1
     kind: live_club
+    fascia: orari      # mixed venue: decided by times only (Filippo)
     status: active
     genres: [house, disco]
     socials: {instagram: gres_art_671, website: https://www.gresart671.org}
@@ -544,6 +576,7 @@ venues:
     lon: 9.640
     km: 3.4
     kind: bar
+    fascia: preserata
     status: active
     genres: [club culture]
     socials: {instagram: barrys__, website: null}
@@ -561,6 +594,7 @@ venues:
     lon: 9.6830
     km: 0.7
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: sprint_bergamo, website: null}
     ig_source: user
@@ -576,6 +610,7 @@ venues:
     lon: 9.6773
     km: 0.0
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: unplug__bg, website: https://www.unplugbar.it}
     ig_source: user
@@ -592,6 +627,7 @@ venues:
     lon: 9.6773
     km: 0
     kind: club
+    fascia: serata
     status: active
     genres: [commercial]
     socials: {instagram: casacostez, website: https://costez.club}
@@ -609,6 +645,7 @@ venues:
     lon: 9.6695
     km: 0.7
     kind: bar
+    fascia: preserata
     status: active
     genres: [clubbing, jazz]
     socials: {instagram: balzerbynight, website: null}
@@ -625,6 +662,7 @@ venues:
     lon: 9.6773
     km: 0
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: bucheesebar, website: null}
     ig_source: user
@@ -639,6 +677,7 @@ venues:
     lon: 9.6773
     km: 0.0
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: savana.king25, website: null}
     ig_source: user
@@ -655,6 +694,7 @@ venues:
     lon: 9.6773
     km: 0.0
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: cosmo.food.club, website: https://cosmofoodclub.com}
     ig_source: user
@@ -670,6 +710,7 @@ venues:
     lon: 9.6773
     km: 0.0
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: contest_bg, website: null}
     ig_source: user
@@ -686,6 +727,7 @@ venues:
     lon: 9.6745
     km: 1.0
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: operaprimacafe_, website: null}
     ig_source: user
@@ -701,6 +743,7 @@ venues:
     lon: 9.6773
     km: 0.0
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: bar30elode, website: null}
     ig_source: user
@@ -717,6 +760,7 @@ venues:
     lon: 9.708
     km: 3.2
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: null, website: null}
     ig_source: null
@@ -732,6 +776,7 @@ venues:
     lon: 9.76
     km: 8.3
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: jamlivestudio, website: null}
     ig_source: user
@@ -747,6 +792,7 @@ venues:
     lon: 9.616
     km: 5.6
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: null, website: null}
     ig_source: null
@@ -761,6 +807,7 @@ venues:
     lon: 9.616
     km: 5.6
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: null, website: null}
     ig_source: null
@@ -775,6 +822,7 @@ venues:
     lon: 9.616
     km: 5.6
     kind: club
+    fascia: serata
     status: active
     genres: [commercial]
     socials: {instagram: vibetheclub, website: https://www.vibetheclub.it}
@@ -792,6 +840,7 @@ venues:
     lon: 9.612
     km: 5.2
     kind: club
+    fascia: serata
     status: active
     genres: [latin]
     socials: {instagram: garotadeipanemaa, website: null}
@@ -808,6 +857,7 @@ venues:
     lon: 9.53
     km: 12.0
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: sabbiemobili_official, website: https://www.sabbiemobili.net}
     ig_source: user
@@ -823,6 +873,7 @@ venues:
     lon: 9.557
     km: 9.9
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: null, website: null}
     ig_source: null
@@ -837,6 +888,7 @@ venues:
     lon: 9.558
     km: 9.4
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: barperlage, website: https://www.barperlage.it}
     ig_source: user
@@ -853,6 +905,7 @@ venues:
     lon: 9.693
     km: 11.3
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: null, website: null}
     ig_source: null
@@ -867,6 +920,7 @@ venues:
     lon: 9.833
     km: 12.6
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: incroissanterialab, website: https://www.incroissanteria.com}
     ig_source: user
@@ -898,6 +952,7 @@ venues:
     lon: 9.64
     km: 15.1
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: delblacobar, website: null}
     ig_source: user
@@ -913,6 +968,7 @@ venues:
     lon: 9.853
     km: 14.8
     kind: club
+    fascia: preserata
     status: active
     socials: {instagram: mint_lounge, website: null}
     ig_source: user
@@ -928,6 +984,7 @@ venues:
     lon: 9.754
     km: 20.5
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: arya.lounge, website: null}
     ig_source: user
@@ -944,6 +1001,7 @@ venues:
     lon: 9.754
     km: 20.5
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: al_tabarin, website: null}
     ig_source: user
@@ -960,6 +1018,7 @@ venues:
     lon: 9.593
     km: 20.8
     kind: club
+    fascia: serata
     status: active
     socials: {instagram: charleston.treviglio, website: null}
     ig_source: user
@@ -976,6 +1035,7 @@ venues:
     lon: 9.593
     km: 20.8
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: officinapanarari, website: null}
     ig_source: user
@@ -992,6 +1052,7 @@ venues:
     lon: 9.962
     km: 22.4
     kind: bar
+    fascia: preserata
     status: active
     socials: {instagram: bar_sanmarco, website: null}
     ig_source: user
@@ -1008,6 +1069,7 @@ venues:
     lon: 9.672
     km: 0.4
     kind: bar
+    fascia: preserata
     status: active
     genres: [house]
     socials: {instagram: tassinocafe, website: null}
@@ -1025,6 +1087,7 @@ venues:
     lon: 9.735
     km: 4.9
     kind: club
+    fascia: serata
     status: active
     genres: [commercial, latin]
     socials: {instagram: thanka.official, website: https://thanka.it}

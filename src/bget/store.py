@@ -11,6 +11,9 @@ from pathlib import Path
 
 from .models import Event
 
+# details a source re-reads on every run; a newer reading replaces what is stored
+REREAD_FIELDS = ("title", "start", "end", "fascia", "fascia_hint", "start_known", "late_end", "entry")
+
 
 def merge(a: Event, b: Event) -> Event:
     """Combine two reports of the same night. `a` wins on conflicts, `b` fills gaps."""
@@ -23,11 +26,15 @@ def merge(a: Event, b: Event) -> Event:
             a.artists.append(art)
             known[art.key] = art
     a.venue.socials = a.venue.socials.merge(b.venue.socials)
-    for f in ("end", "url", "ticket_url", "image_url", "price", "promoter_name", "promoter"):
+    for f in ("end", "url", "ticket_url", "image_url", "price", "promoter_name", "promoter",
+              "fascia", "fascia_hint", "entry"):
         if not getattr(a, f) and getattr(b, f):
             setattr(a, f, getattr(b, f))
     if len(b.description) > len(a.description):
         a.description = b.description
+    a.late_end = a.late_end or b.late_end
+    if not a.start_known and b.start_known:
+        a.start, a.start_known = b.start, True
     a.genres = sorted(set(a.genres) | set(b.genres))
     a.sources = sorted(set(a.sources) | set(b.sources))
     a.source_urls = sorted(set(a.source_urls) | set(b.source_urls))
@@ -50,6 +57,11 @@ class Store:
         k = ev.dedupe_key
         if k in self.events:
             old = self.events[k]
+            if set(ev.sources) & set(old.sources):
+                # the same source reporting again (e.g. a caption re-read by a better reader):
+                # its newer reading of the details replaces the old one
+                for f in REREAD_FIELDS:
+                    setattr(old, f, getattr(ev, f))
             merge(old, ev)
             old.updated = now
             return "updated"

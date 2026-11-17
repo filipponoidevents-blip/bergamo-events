@@ -34,8 +34,7 @@ from .base import USER_AGENT, Source
 from .categories import CATEGORIES, categorize
 from .instagram_extract import ClaudeExtractor, Extraction, Extractor
 from . import ocr
-from .instagram_rules import RE_DATE_LINE, _strip_date_words, _title
-from .instagram_rules import ListingExtractor, RulesExtractor
+from .instagram_rules import ListingExtractor, RulesExtractor, is_daytime, Times
 
 log = logging.getLogger(__name__)
 
@@ -131,6 +130,46 @@ class InstagramSource(Source):
         d = yaml.safe_load(self.decisions_path.read_text()) or {}
         return {str(k): str(v) for k, v in (d.get("titles") or {}).items()}
 
+    def fascia_overrides(self) -> dict[str, str]:
+        """fascia: {id: serata | preserata} in ig_decisions.yaml fixes serata/preserata for one night."""
+        if not self.decisions_path.exists():
+            return {}
+        d = yaml.safe_load(self.decisions_path.read_text()) or {}
+        return {str(k): str(v).lower() for k, v in (d.get("fascia") or {}).items()}
+
+    def refresh(self, q: dict[str, Any]) -> int:
+        """Read the stored captions again with the current free reader, so a better reader also fixes
+        nights read before it improved: times, end time, name, price and serata clues. The date, venue
+        and decisions stay as they were. Returns how many nights changed."""
+        if self._ig.get("reader", "rules") != "rules":
+            return 0
+        reader = RulesExtractor(self.cfg)
+        fields = ("title", "start_time", "end_time", "late_end", "entry", "fascia")
+        changed = 0
+        for item_id, it in q["items"].items():
+            pid = item_id.rsplit("-", 1)[0]
+            at = (q["seen_posts"].get(pid) or {}).get("at")
+            if not it.get("caption") or not at or "OCR" in (it.get("notes") or ""):
+                continue
+            posted = datetime.fromisoformat(at.replace("+0000", "+00:00"))
+            try:
+                ex = reader(caption=it["caption"], image_urls=[], posted_at=posted,
+                            account=it["account"], account_venue=it.get("account_venue"))
+            except Exception as e:  # noqa: BLE001
+                log.warning("instagram: re-reading %s failed: %s", item_id, e)
+                continue
+            new = next((e for e in ex.events if e.date == it["event"]["date"]), None)
+            if new is None:
+                continue
+            nd = new.model_dump()
+            before = {f: it["event"].get(f) for f in fields}
+            it["event"].update({f: nd.get(f) for f in fields})
+            if it.get("kind") == "dj_club" and new.kind != "dj_club" and \
+                    is_daytime(Times(new.start_time, new.end_time)):
+                it["kind"], it["status"] = new.kind, "info"  # a daytime conference, not a night out
+            changed += before != {f: it["event"].get(f) for f in fields}
+        return changed
+
     def decisions(self) -> tuple[set[str], set[str]]:
         if not self.decisions_path.exists():
             return set(), set()
@@ -143,6 +182,8 @@ class InstagramSource(Source):
         now = datetime.now(timezone.utc)
         errors = []
         accounts = self.spec.get("accounts", [])
+        if (n := self.refresh(q)):
+            log.info("instagram: %d nights re-read with the current caption reader", n)
         # Meta caps requests per hour for apps in development mode, so each run checks a
         # rotating slice of the list (instagram.accounts_per_run) and resumes where it stopped.
         per_run = self._ig.get("accounts_per_run") or len(accounts)
@@ -278,10 +319,6 @@ class InstagramSource(Source):
         e = dict(it["event"])
         if (t := self.title_overrides().get(it["id"])):
             e["title"] = t
-        elif it.get("caption") and RE_DATE_LINE.search(e.get("title") or "") and \
-                len(_strip_date_words(e.get("title") or "")) < 4:
-            # read before the title rule improved: take the name from the stored caption
-            e["title"] = _title(it["caption"]) or e["title"]
         start = datetime.fromisoformat(f"{e['date']}T{e.get('start_time') or '23:00'}").replace(tzinfo=tz)
         if start.hour < 6:
             # "sabato 21, dalle 00:30" means the night of Saturday 21, i.e. Sunday 00:30
@@ -306,6 +343,8 @@ class InstagramSource(Source):
             url=it.get("permalink"), ticket_url=e.get("ticket_url"), image_url=it.get("image"), price=e.get("price"),
             promoter=promoter, promoter_name=None if it.get("account_venue") else "@" + it["account"],
             sources=[f"ig:{it['id']}"], source_urls=[it.get("permalink")] if it.get("permalink") else [],
+            fascia=self.fascia_overrides().get(it["id"]), fascia_hint=e.get("fascia"),
+            start_known=bool(e.get("start_time")), late_end=bool(e.get("late_end")), entry=e.get("entry"),
         )
 
 

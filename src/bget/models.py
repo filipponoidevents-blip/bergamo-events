@@ -82,6 +82,14 @@ class Event:
     genre: str | None = None             # one main genre for the night (genres.py)
     genre_source: str | None = None      # event | promoter | venue | none
     headliners: list[str] = field(default_factory=list)  # notable names found in the post (headliners.py)
+    # serata / preserata clues (fascia.py decides)
+    fascia: str | None = None            # set by hand: "serata" | "preserata" (wins over everything)
+    fascia_hint: str | None = None       # what the post says: "aperitivo" -> preserata, "after hour" -> serata
+    start_known: bool = True             # False when no start time was written (start is a 23:00 placeholder)
+    late_end: bool = False               # "till late", "fino all'alba": ends late, no time given
+    entry: str | None = None             # "paid" (list, price, tickets) | "free" (ingresso libero) | None
+    fascia_auto: str | None = None       # result of fascia.classify, refreshed every run
+    fascia_why: str | None = None        # its reason, in Italian
     category: Category = Category.OTHER
     description: str = ""
     url: str | None = None               # canonical event page
