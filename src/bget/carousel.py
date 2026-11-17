@@ -269,7 +269,7 @@ def _draw_row(p: Page, y: int, r: Row, pill: bool) -> int:
     d, R = p.d, p.w - MX
     y += 24
     d.text((MX, y), r.time, font=chunk(40), fill=p.fg)
-    tx = MX + d.textlength(r.time, font=chunk(40)) + 30
+    tx = MX + (d.textlength(r.time, font=chunk(40)) + 30 if r.time else 0)
     if r.label:
         f = grot(24, 800)
         d.rounded_rectangle([tx, y + 2, tx + d.textlength(r.label, font=f) + 36, y + 46], 22, fill=p.fg)
