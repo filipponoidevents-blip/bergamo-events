@@ -64,7 +64,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:30.392968+00:00",
-    "updated": "2026-11-17T12:37:18.687018+00:00",
+    "updated": "2026-11-17T12:53:42.630383+00:00",
     "uid": "0851063064bd7432"
   },
   {
@@ -132,7 +132,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:32.630929+00:00",
-    "updated": "2026-11-17T12:37:20.849466+00:00",
+    "updated": "2026-11-17T12:53:45.924254+00:00",
     "uid": "88a21a6e1842fbcf"
   },
   {
@@ -200,7 +200,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:27.490455+00:00",
-    "updated": "2026-11-17T12:37:16.918836+00:00",
+    "updated": "2026-11-17T12:53:40.462185+00:00",
     "uid": "b893e9108493116b"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.921136+00:00",
-    "updated": "2026-11-17T12:38:28.019897+00:00",
+    "updated": "2026-11-17T12:54:43.856633+00:00",
     "uid": "384b9e5d98b5b0be"
   },
   {
@@ -334,7 +334,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.030585+00:00",
-    "updated": "2026-11-17T12:38:27.931545+00:00",
+    "updated": "2026-11-17T12:54:43.804449+00:00",
     "uid": "772b486f4a4271df"
   },
   {
@@ -399,7 +399,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.868750+00:00",
-    "updated": "2026-11-17T12:38:27.891474+00:00",
+    "updated": "2026-11-17T12:54:43.780733+00:00",
     "uid": "5696384f5b8e4038"
   },
   {
@@ -462,7 +462,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.860540+00:00",
-    "updated": "2026-11-17T12:38:27.875656+00:00",
+    "updated": "2026-11-17T12:54:43.771403+00:00",
     "uid": "23c1cc663127a572"
   },
   {
@@ -528,7 +528,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.866463+00:00",
-    "updated": "2026-11-17T12:38:27.886993+00:00",
+    "updated": "2026-11-17T12:54:43.778110+00:00",
     "uid": "9812fabf19ef2bf6"
   },
   {
@@ -555,8 +555,8 @@
     "end": null,
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Commerciale",
+    "genre_source": "venue",
     "headliners": [
       "Justice"
     ],
@@ -594,7 +594,7 @@
     ],
     "alert_level": "regional",
     "first_seen": "2026-11-16T22:49:17.889199+00:00",
-    "updated": "2026-11-17T12:38:27.935072+00:00",
+    "updated": "2026-11-17T12:54:43.806563+00:00",
     "uid": "e29198108d5147b2"
   },
   {
@@ -634,7 +634,7 @@
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 2.5,
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/Dfg-ijnHJj3/",
@@ -660,7 +660,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.037923+00:00",
-    "updated": "2026-11-17T12:38:27.939577+00:00",
+    "updated": "2026-11-17T12:54:43.809198+00:00",
     "uid": "44add0a834bf5a8f"
   },
   {
@@ -729,7 +729,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.038962+00:00",
-    "updated": "2026-11-17T12:38:28.068028+00:00",
+    "updated": "2026-11-17T12:54:43.884839+00:00",
     "uid": "33ae889e5b197349"
   },
   {
@@ -792,7 +792,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036390+00:00",
-    "updated": "2026-11-17T12:38:28.091251+00:00",
+    "updated": "2026-11-17T12:54:43.898455+00:00",
     "uid": "2992e78d345bcc70"
   },
   {
@@ -865,7 +865,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.836801+00:00",
-    "updated": "2026-11-17T12:38:27.820039+00:00",
+    "updated": "2026-11-17T12:54:43.738550+00:00",
     "uid": "0472940301c97bde"
   },
   {
@@ -907,7 +907,7 @@
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
     "in_posts": true,
-    "rank": 1.67,
+    "rank": 3.33,
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/DfKG1NWDHg8/",
@@ -933,7 +933,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.922942+00:00",
-    "updated": "2026-11-17T12:38:28.024021+00:00",
+    "updated": "2026-11-17T12:54:43.859015+00:00",
     "uid": "3e59373b90be9585"
   },
   {
@@ -998,7 +998,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034104+00:00",
-    "updated": "2026-11-17T12:38:27.899129+00:00",
+    "updated": "2026-11-17T12:54:43.785322+00:00",
     "uid": "1d9cfe638a16e92c"
   },
   {
@@ -1036,7 +1036,7 @@
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 2.5,
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/Dfj_fQsiAyl/",
@@ -1061,7 +1061,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.929300+00:00",
-    "updated": "2026-11-17T12:38:28.037160+00:00",
+    "updated": "2026-11-17T12:54:43.866739+00:00",
     "uid": "9580797f17c8556b"
   },
   {
@@ -1126,7 +1126,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035819+00:00",
-    "updated": "2026-11-17T12:38:28.083735+00:00",
+    "updated": "2026-11-17T12:54:43.894018+00:00",
     "uid": "208673cac3dfbdf1"
   },
   {
@@ -1168,7 +1168,7 @@
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
     "in_posts": true,
-    "rank": 1.67,
+    "rank": 3.33,
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/DfKG1NWDHg8/",
@@ -1194,7 +1194,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.924775+00:00",
-    "updated": "2026-11-17T12:38:28.028066+00:00",
+    "updated": "2026-11-17T12:54:43.861409+00:00",
     "uid": "23b44d4645d5cb43"
   },
   {
@@ -1234,7 +1234,7 @@
     "fascia_auto": "serata",
     "fascia_why": "nessun indizio, da verificare",
     "in_posts": true,
-    "rank": 1.67,
+    "rank": 2.33,
     "category": "club",
     "description": "",
     "url": "https://www.instagram.com/p/DfhK84xxtbq/",
@@ -1260,7 +1260,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.960891+00:00",
-    "updated": "2026-11-17T12:38:28.087603+00:00",
+    "updated": "2026-11-17T12:54:43.896290+00:00",
     "uid": "fd5526e063ff246b"
   },
   {
@@ -1325,7 +1325,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.885210+00:00",
-    "updated": "2026-11-17T12:38:28.052578+00:00",
+    "updated": "2026-11-17T12:54:43.875805+00:00",
     "uid": "94e5dbb6defc6f98"
   },
   {
@@ -1390,7 +1390,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.877673+00:00",
-    "updated": "2026-11-17T12:38:28.059600+00:00",
+    "updated": "2026-11-17T12:54:43.879921+00:00",
     "uid": "fea86f733c04a94a"
   },
   {
@@ -1458,7 +1458,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.032372+00:00",
-    "updated": "2026-11-17T12:38:28.063566+00:00",
+    "updated": "2026-11-17T12:54:43.882232+00:00",
     "uid": "c10b522e27dac62e"
   },
   {
@@ -1523,7 +1523,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.029938+00:00",
-    "updated": "2026-11-17T12:38:28.099098+00:00",
+    "updated": "2026-11-17T12:54:43.903220+00:00",
     "uid": "58e01054adc70132"
   },
   {
@@ -1590,7 +1590,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.031795+00:00",
-    "updated": "2026-11-17T12:38:27.975594+00:00",
+    "updated": "2026-11-17T12:54:43.830566+00:00",
     "uid": "ea678bf0abdd35a3"
   },
   {
@@ -1656,7 +1656,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.619930+00:00",
-    "updated": "2026-11-17T12:38:28.075389+00:00",
+    "updated": "2026-11-17T12:54:43.889129+00:00",
     "uid": "c7785c7178dd86b4"
   },
   {
@@ -1683,8 +1683,8 @@
     "end": "2026-11-19T23:00:00+01:00",
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Live",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -1692,9 +1692,9 @@
     "late_end": false,
     "entry": null,
     "fascia_auto": "preserata",
-    "fascia_why": "finisce alle 23:00",
+    "fascia_why": "NXT Station: sempre preserata",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 3.27,
     "category": "other",
     "description": "Il musicista e produttore Giorgio Canali presenta il progetto solista «Rossosolo Live» all'interno di una serata dedicata alla sua produzione artistica tra rock e sperimentazione.",
     "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/giorgio-canali_307096/",
@@ -1724,7 +1724,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:39.628896+00:00",
-    "updated": "2026-11-17T12:37:25.513527+00:00",
+    "updated": "2026-11-17T12:53:51.324260+00:00",
     "uid": "a7745e866b03936a"
   },
   {
@@ -1795,7 +1795,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.876543+00:00",
-    "updated": "2026-11-17T12:38:27.963568+00:00",
+    "updated": "2026-11-17T12:54:43.823171+00:00",
     "uid": "0843639d3d07ce0a"
   },
   {
@@ -1863,7 +1863,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:51.389610+00:00",
-    "updated": "2026-11-17T12:37:30.128115+00:00",
+    "updated": "2026-11-17T12:53:58.948920+00:00",
     "uid": "f84ecbdb6180c0f6"
   },
   {
@@ -1901,7 +1901,7 @@
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 2.5,
     "category": "club",
     "description": "VENERDÌ 20.11 | dalle 21:00 con cheri.it 🍒\n\nVia Trieste 38, Chiuduno (Bg)",
     "url": "https://www.instagram.com/p/Dfy4KD7nyry/",
@@ -1926,7 +1926,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.589079+00:00",
-    "updated": "2026-11-17T12:38:27.883596+00:00",
+    "updated": "2026-11-17T12:54:43.776088+00:00",
     "uid": "c78d17103755137d"
   },
   {
@@ -1994,7 +1994,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:54.158808+00:00",
-    "updated": "2026-11-17T12:37:31.673994+00:00",
+    "updated": "2026-11-17T12:54:01.261385+00:00",
     "uid": "f901d76cddb6a0ec"
   },
   {
@@ -2056,7 +2056,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.917308+00:00",
-    "updated": "2026-11-17T12:38:28.009191+00:00",
+    "updated": "2026-11-17T12:54:43.850472+00:00",
     "uid": "131e458eb37de0bf"
   },
   {
@@ -2128,7 +2128,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035283+00:00",
-    "updated": "2026-11-17T12:38:28.071731+00:00",
+    "updated": "2026-11-17T12:54:43.886992+00:00",
     "uid": "9cf51909d542c793"
   },
   {
@@ -2191,7 +2191,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.919972+00:00",
-    "updated": "2026-11-17T12:38:28.016493+00:00",
+    "updated": "2026-11-17T12:54:43.854649+00:00",
     "uid": "e07b61b3f1067a08"
   },
   {
@@ -2220,18 +2220,18 @@
     "genres": [
       "dj set"
     ],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Live",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
     "start_known": false,
     "late_end": false,
     "entry": null,
-    "fascia_auto": "serata",
-    "fascia_why": "nessun indizio, da verificare",
+    "fascia_auto": "preserata",
+    "fascia_why": "NXT Station: sempre preserata",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 3.27,
     "category": "club",
     "description": "❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧 🎄✨ 𝐷𝑎𝑙 20 𝑛𝑜𝑣𝑒𝑚𝑏𝑟𝑒 2026 𝑎𝑙 10 𝑔𝑒𝑛𝑛𝑎𝑖𝑜 2027\n✨ Un grande Natale si accende in Piazzale Alpini: vi aspettano 52 giorni di pattinaggio, musica e sapori in un allestimento completamente rinnovato 💫\n\nAttorno alla grande pista di ghiaccio ⛸️ prenderà vita un bosco incantato, tra gigantesche installazioni luminose e un percorso che vi porterà anche “in quota”, per ammirare ",
     "url": "https://www.instagram.com/reel/Dfz2gdVCpKl/",
@@ -2265,7 +2265,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.601269+00:00",
-    "updated": "2026-11-17T12:38:27.967594+00:00",
+    "updated": "2026-11-17T12:54:43.825765+00:00",
     "uid": "df2b1798c186b615"
   },
   {
@@ -2328,7 +2328,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.606599+00:00",
-    "updated": "2026-11-17T12:38:28.001276+00:00",
+    "updated": "2026-11-17T12:54:43.845784+00:00",
     "uid": "f47131ce77fe681f"
   },
   {
@@ -2401,7 +2401,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.877417+00:00",
-    "updated": "2026-11-17T12:38:27.958949+00:00",
+    "updated": "2026-11-17T12:54:43.820520+00:00",
     "uid": "8157d59ca876ca73"
   },
   {
@@ -2478,7 +2478,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.607613+00:00",
-    "updated": "2026-11-17T12:38:28.094853+00:00",
+    "updated": "2026-11-17T12:54:43.900681+00:00",
     "uid": "c761c9a36eccdb0d"
   },
   {
@@ -2546,7 +2546,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:57.436809+00:00",
-    "updated": "2026-11-17T12:37:35.236512+00:00",
+    "updated": "2026-11-17T12:54:05.256510+00:00",
     "uid": "40907cae453e0a09"
   },
   {
@@ -2611,7 +2611,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.605065+00:00",
-    "updated": "2026-11-17T12:38:27.987639+00:00",
+    "updated": "2026-11-17T12:54:43.837629+00:00",
     "uid": "c0bc77bb3f29681a"
   },
   {
@@ -2679,7 +2679,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:03.257502+00:00",
-    "updated": "2026-11-17T12:37:38.704123+00:00",
+    "updated": "2026-11-17T12:54:09.984035+00:00",
     "uid": "558df46a4293d542"
   },
   {
@@ -2706,8 +2706,8 @@
     "end": "2026-11-21T23:00:00+01:00",
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Live",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -2745,7 +2745,7 @@
     "reasons": [],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:05.245654+00:00",
-    "updated": "2026-11-17T12:37:44.235604+00:00",
+    "updated": "2026-11-17T12:54:14.164361+00:00",
     "uid": "a2a69b28cace3113"
   },
   {
@@ -2813,7 +2813,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:08:44.520584+00:00",
-    "updated": "2026-11-17T12:37:40.680728+00:00",
+    "updated": "2026-11-17T12:54:12.018098+00:00",
     "uid": "dd3ff654a601b664"
   },
   {
@@ -2851,7 +2851,7 @@
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:00",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 2.5,
     "category": "club",
     "description": "Sabato 21.11 #mint | in console joebalo_ ☄\n\nCi vediamo dalle 21:00!\n\nVia Trieste 38, Chiuduno (BG)",
     "url": "https://www.instagram.com/p/Df1c5EFkT10/",
@@ -2876,7 +2876,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:22:13.131244+00:00",
-    "updated": "2026-11-17T12:38:27.815327+00:00",
+    "updated": "2026-11-17T12:54:43.735702+00:00",
     "uid": "c30a1422e08f91fc"
   },
   {
@@ -2945,7 +2945,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:00.233235+00:00",
-    "updated": "2026-11-17T12:37:45.891732+00:00",
+    "updated": "2026-11-17T12:54:16.131561+00:00",
     "uid": "79091e7c0115b162"
   },
   {
@@ -2983,7 +2983,7 @@
     "fascia_auto": "preserata",
     "fascia_why": "inizia alle 21:30",
     "in_posts": true,
-    "rank": 1.67,
+    "rank": 2.67,
     "category": "club",
     "description": "🎸RICCOBELLIS🎸\n\nOPENING FOR THE PEAWEES\n\nDa Brescia, con i Ramones nel cuore e una predilezione per le melodie di Queers e Undertones. Il trio ha appena pubblicato “Afterparty Heroes”, quarto album e titolo piuttosto adatto alla compagnia che volevamo per questa sera.\n\n🎟 Biglietti già in vendita su diceitaly \n10 € +DDP in prevendita\n15 € in cassa in serata\n\n📅 Sabato 21 novembre 2026 · ore 21:30\nDASTE — via Daste e Spalenga 13/15, Bergamo",
     "url": "https://www.instagram.com/reel/DfsAUGvsXGE/",
@@ -3008,7 +3008,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.840523+00:00",
-    "updated": "2026-11-17T12:38:27.827771+00:00",
+    "updated": "2026-11-17T12:54:43.743233+00:00",
     "uid": "b593852d25289a48"
   },
   {
@@ -3048,7 +3048,7 @@
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
     "in_posts": true,
-    "rank": 1.67,
+    "rank": 2.53,
     "category": "club",
     "description": "indiepower_official torna a BG! \nSabato 21 novembre — S03 E03\n\nIn questo terzo episodio: il djset indie più grande d’Italia, con le sue vibes più pure, quelle più famose e abbastanza Carl Brave e Franco126, per farci tornare ai tempi d’oro✨  In anteprima, la versione concentrata di Volare: il nostro format di musica italiana a 360 gradi.  Pronti per la festa indie più grande d’Italia? Solo al Druso.\n\n🕕 22:30 porte | 23:00 party\n🎫 Tickets al link in bio | evento 18+\n‼️ Prima la compri, meno spendi\n\nAlcune serie vanno vissute dal vivo.\n\n🍏 #druso #indiepower",
     "url": "https://www.instagram.com/p/Dfwi7bVNc49/",
@@ -3074,7 +3074,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.610420+00:00",
-    "updated": "2026-11-17T12:38:28.040966+00:00",
+    "updated": "2026-11-17T12:54:43.869028+00:00",
     "uid": "ebbac802d8099955"
   },
   {
@@ -3143,7 +3143,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034727+00:00",
-    "updated": "2026-11-17T12:38:28.049194+00:00",
+    "updated": "2026-11-17T12:54:43.873805+00:00",
     "uid": "b84c21bf242adce0"
   },
   {
@@ -3226,7 +3226,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.855574+00:00",
-    "updated": "2026-11-17T12:38:27.996888+00:00",
+    "updated": "2026-11-17T12:54:43.843181+00:00",
     "uid": "5774e7ba2cab0ffe"
   },
   {
@@ -3289,7 +3289,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.609301+00:00",
-    "updated": "2026-11-17T12:38:28.032712+00:00",
+    "updated": "2026-11-17T12:54:43.864069+00:00",
     "uid": "5cd04e10cf20d3d6"
   },
   {
@@ -3314,14 +3314,55 @@
       "verified": false
     },
     "end": null,
-    "artists": [],
+    "artists": [
+      {
+        "name": "fssquah",
+        "role": "dj",
+        "genres": [],
+        "socials": {
+          "instagram": "fssquah",
+          "tiktok": null,
+          "facebook": null,
+          "website": null,
+          "resident_advisor": null
+        }
+      },
+      {
+        "name": "luca._stanzione",
+        "role": "dj",
+        "genres": [],
+        "socials": {
+          "instagram": "luca._stanzione",
+          "tiktok": null,
+          "facebook": null,
+          "website": null,
+          "resident_advisor": null
+        }
+      },
+      {
+        "name": "forthakoolture",
+        "role": "dj",
+        "genres": [],
+        "socials": {
+          "instagram": "forthakoolture",
+          "tiktok": null,
+          "facebook": null,
+          "website": null,
+          "resident_advisor": null
+        }
+      }
+    ],
     "genres": [
       "hip hop",
       "trap"
     ],
     "genre": "Hip Hop / Trap",
     "genre_source": "promoter",
-    "headliners": [],
+    "headliners": [
+      "fssquah",
+      "luca._stanzione",
+      "forthakoolture"
+    ],
     "fascia": null,
     "fascia_hint": null,
     "start_known": true,
@@ -3332,7 +3373,7 @@
     "in_posts": true,
     "rank": 3.11,
     "category": "club",
-    "description": "Premiere @premiere.premiere - main room",
+    "description": "Premiere @premiere.premiere - main room\nLineup: @fssquah @luca._stanzione @forthakoolture",
     "url": null,
     "ticket_url": null,
     "image_url": null,
@@ -3353,7 +3394,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:17:09.844696+00:00",
-    "updated": "2026-11-17T12:37:13.351714+00:00",
+    "updated": "2026-11-17T12:53:35.914982+00:00",
     "uid": "1599a3d16369623d"
   },
   {
@@ -3391,7 +3432,7 @@
     "fascia_auto": "serata",
     "fascia_why": "lista / prezzo / biglietti",
     "in_posts": true,
-    "rank": 1.67,
+    "rank": 2.0,
     "category": "club",
     "description": "Sabato 21 Novembre!\nZero Club - Club room\nInfo e Prenotazioni \n+39 375 6283974\nsu whatsapp \nIngresso consentito solo in lista fino ad esaurimento posti",
     "url": "https://www.instagram.com/p/Dfz57lVgIx5/",
@@ -3422,7 +3463,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:19:01.181356+00:00",
-    "updated": "2026-11-17T12:38:27.906062+00:00",
+    "updated": "2026-11-17T12:54:43.789428+00:00",
     "uid": "4794a894c3e8de0b"
   },
   {
@@ -3466,7 +3507,7 @@
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 06:00",
     "in_posts": true,
-    "rank": 5.17,
+    "rank": 4.17,
     "category": "club",
     "description": "Sabato 21 Novembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/fk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: MAD DOG + GRAVEDGR + FLYMEON\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
     "url": "https://www.instagram.com/reel/DfUkfwWoqMA/",
@@ -3501,7 +3542,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.587439+00:00",
-    "updated": "2026-11-17T12:38:28.004694+00:00",
+    "updated": "2026-11-17T12:54:43.847807+00:00",
     "uid": "ff269abe61d00fd4"
   },
   {
@@ -3564,7 +3605,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:19:01.175737+00:00",
-    "updated": "2026-11-17T12:38:27.895115+00:00",
+    "updated": "2026-11-17T12:54:43.782911+00:00",
     "uid": "62a897456730d501"
   },
   {
@@ -3627,7 +3668,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.584757+00:00",
-    "updated": "2026-11-17T12:38:27.843429+00:00",
+    "updated": "2026-11-17T12:54:43.752450+00:00",
     "uid": "0438a994b76e2cee"
   },
   {
@@ -3694,7 +3735,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:35:28.192105+00:00",
-    "updated": "2026-11-17T12:38:27.983633+00:00",
+    "updated": "2026-11-17T12:54:43.835289+00:00",
     "uid": "12b801c2dcaee62a"
   },
   {
@@ -3762,7 +3803,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:13.073039+00:00",
-    "updated": "2026-11-17T12:37:49.242647+00:00",
+    "updated": "2026-11-17T12:54:20.079620+00:00",
     "uid": "36143068bebf6e60"
   },
   {
@@ -3830,7 +3871,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:16.208911+00:00",
-    "updated": "2026-11-17T12:37:50.986342+00:00",
+    "updated": "2026-11-17T12:54:22.553304+00:00",
     "uid": "f42ce13053371ed4"
   },
   {
@@ -3898,7 +3939,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:31.348859+00:00",
-    "updated": "2026-11-17T12:37:57.048837+00:00",
+    "updated": "2026-11-17T12:54:29.792781+00:00",
     "uid": "5ba14d2787fb6fad"
   },
   {
@@ -3925,8 +3966,8 @@
     "end": "2026-11-25T23:00:00+01:00",
     "artists": [],
     "genres": [],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Live",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
@@ -3964,7 +4005,7 @@
     "reasons": [],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:37.940048+00:00",
-    "updated": "2026-11-17T12:38:18.776712+00:00",
+    "updated": "2026-11-17T12:54:33.531096+00:00",
     "uid": "68a07451e6d114d6"
   },
   {
@@ -4005,7 +4046,7 @@
     "fascia_auto": "serata",
     "fascia_why": "tipo di locale",
     "in_posts": true,
-    "rank": 4.27,
+    "rank": 3.1,
     "category": "club",
     "description": "🔥 MAISON GROVE x FLUID 🔥\n\nLa storia della House Music incontra una notte straordinaria!\n\nNella cornice del Fluid, locale iconico che ha ospitato le più grandi leggende della House Music, oggi in una veste tutta nuova,  prende vita un evento esclusivo \n\n Dinner Show, spettacolo e grandi DJ set. 🥂\n\n🎧 DJ MASSIMINO LIPPOLI B2B DJ ROBY INTRALLAZZI\n\n🎤 Direttamente dall’UK, la straordinaria voce di LISA MILLETT, live!\n\n✨ Un viaggio tra musica, emozioni e atmosfere uniche.\n\n📅 VENERDÌ 27 NOVEMBRE\n\nUNA NOTTE DA VIVERE. UN EVENTO DA RICORDARE. 🔥\n\nPer info e prenotazioni contattaci al numero :\n338/5954867\n\nEvento riservato +25",
     "url": "https://www.instagram.com/p/DfkY46Rouz6/",
@@ -4031,7 +4072,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.614015+00:00",
-    "updated": "2026-11-17T12:38:28.056023+00:00",
+    "updated": "2026-11-17T12:54:43.877831+00:00",
     "uid": "761e00f931361d5e"
   },
   {
@@ -4102,7 +4143,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.583794+00:00",
-    "updated": "2026-11-17T12:38:28.102908+00:00",
+    "updated": "2026-11-17T12:54:43.905427+00:00",
     "uid": "0d6683345360f7ba"
   },
   {
@@ -4175,7 +4216,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.880857+00:00",
-    "updated": "2026-11-17T12:38:27.858573+00:00",
+    "updated": "2026-11-17T12:54:43.761351+00:00",
     "uid": "36cd0b0ad4ecbce9"
   },
   {
@@ -4245,7 +4286,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034453+00:00",
-    "updated": "2026-11-17T12:38:27.917022+00:00",
+    "updated": "2026-11-17T12:54:43.795860+00:00",
     "uid": "47d27f9ca1accd23"
   },
   {
@@ -4285,9 +4326,9 @@
     "late_end": false,
     "entry": "free",
     "fascia_auto": "preserata",
-    "fascia_why": "ingresso libero",
+    "fascia_why": "NXT Station: sempre preserata",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 3.27,
     "category": "club",
     "description": "𝐖𝐡𝐚𝐭'𝐬 𝐌𝐲 𝐀𝐠𝐞 𝐀𝐠𝐚𝐢𝐧 ⚡️ 𝟐𝟎𝟎𝟎 𝐏𝐚𝐫𝐭𝐲 @ 𝐍𝐗𝐓 𝐁𝐞𝐫𝐠𝐚𝐦𝐨, 𝐏𝐢𝐚𝐳𝐳𝐚𝐥𝐞 𝐝𝐞𝐠𝐥𝐢 𝐀𝐥𝐩𝐢𝐧𝐢 ❄️ 𝟐𝟖 𝐧𝐨𝐯𝐞𝐦𝐛𝐫𝐞 ✨ 𝐈𝐍𝐆𝐑𝐄𝐒𝐒𝐎 𝐆𝐑𝐀𝐓𝐔𝐈𝐓𝐎\n\nMettete lo stato di MSN su \"occupato\", staccate il cavo del modem 56k e allacciate le Converse consumate: si torna dritti ai primi anni 2000: quelli dei pomeriggi davanti alla TV tra Dawson's Creek, Smallville, Buffy l'ammazzavampiri, Una mamma per amica e The O.C. Delle classifiche di TRL su",
     "url": "https://www.instagram.com/p/DfpN2UxG9wi/",
@@ -4313,7 +4354,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.893181+00:00",
-    "updated": "2026-11-17T12:38:27.951753+00:00",
+    "updated": "2026-11-17T12:54:43.816310+00:00",
     "uid": "d3c806a14be574cf"
   },
   {
@@ -4390,7 +4431,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.956467+00:00",
-    "updated": "2026-11-17T12:38:28.080044+00:00",
+    "updated": "2026-11-17T12:54:43.891861+00:00",
     "uid": "6ae7abc31d1ead45"
   },
   {
@@ -4430,7 +4471,7 @@
     "fascia_auto": "serata",
     "fascia_why": "finisce alle 06:00",
     "in_posts": true,
-    "rank": 5.17,
+    "rank": 4.17,
     "category": "club",
     "description": "Sabato 28 Novembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/bk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: MARIE VAUNT\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
     "url": "https://www.instagram.com/reel/DfmlzJmIigC/",
@@ -4463,7 +4504,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.585576+00:00",
-    "updated": "2026-11-17T12:38:27.855127+00:00",
+    "updated": "2026-11-17T12:54:43.759287+00:00",
     "uid": "94f4e09d78327a16"
   },
   {
@@ -4536,7 +4577,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.843777+00:00",
-    "updated": "2026-11-17T12:38:27.835864+00:00",
+    "updated": "2026-11-17T12:54:43.748069+00:00",
     "uid": "32d173c9290dab09"
   },
   {
@@ -4605,7 +4646,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.884174+00:00",
-    "updated": "2026-11-17T12:38:27.871247+00:00",
+    "updated": "2026-11-17T12:54:43.768838+00:00",
     "uid": "e2cff1d5820ec654"
   },
   {
@@ -4670,7 +4711,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036898+00:00",
-    "updated": "2026-11-17T12:38:27.921016+00:00",
+    "updated": "2026-11-17T12:54:43.798188+00:00",
     "uid": "223ae55c0998170b"
   },
   {
@@ -4699,18 +4740,18 @@
     "genres": [
       "dj set"
     ],
-    "genre": "Unspecified",
-    "genre_source": "none",
+    "genre": "Live",
+    "genre_source": "venue",
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
     "start_known": false,
     "late_end": false,
     "entry": null,
-    "fascia_auto": "serata",
-    "fascia_why": "nessun indizio, da verificare",
+    "fascia_auto": "preserata",
+    "fascia_why": "NXT Station: sempre preserata",
     "in_posts": true,
-    "rank": 1.83,
+    "rank": 3.27,
     "category": "club",
     "description": "❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧 🎄✨ 𝐷𝑎𝑙 20 𝑛𝑜𝑣𝑒𝑚𝑏𝑟𝑒 2026 𝑎𝑙 10 𝑔𝑒𝑛𝑛𝑎𝑖𝑜 2027\n✨ Un grande Natale si accende in Piazzale Alpini: vi aspettano 52 giorni di pattinaggio, musica e sapori in un allestimento completamente rinnovato 💫\n\nAttorno alla grande pista di ghiaccio ⛸️ prenderà vita un bosco incantato, tra gigantesche installazioni luminose e un percorso che vi porterà anche “in quota”, per ammirare ",
     "url": "https://www.instagram.com/reel/Dfz2gdVCpKl/",
@@ -4736,7 +4777,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.602536+00:00",
-    "updated": "2026-11-17T12:38:27.971616+00:00",
+    "updated": "2026-11-17T12:54:43.828192+00:00",
     "uid": "4794b5dba8455e6b"
   }
 ]
