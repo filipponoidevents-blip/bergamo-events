@@ -27,6 +27,17 @@ sources:
     urls:
       - file://tests/fixtures/sample_event_page.html
 
+  # L'Eco di Bergamo agenda (Eppen): one page per day, each event page has schema.org JSON-LD.
+  # Mostly concerts and culture; the usual rules keep only club nights and big crossover acts.
+  - id: eco_di_bergamo
+    type: jsonld
+    enabled: true
+    urls:
+      - "https://www.ecodibergamo.it/eventi/eppen/data/musica/{date:%Y/%m/%d}/"
+    days: 10
+    follow: "/eventi/eppen/dettaglio/"
+    max_pages: 60
+
   # Fill these in with real listing/event pages once verified:
   - id: dice_milano
     type: jsonld
