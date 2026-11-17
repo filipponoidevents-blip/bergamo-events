@@ -237,13 +237,18 @@ class Row:
 
 
 def club_row(e: Event, preserata: bool = False, tag_pill: bool = False) -> Row:
+    """Filippo (2026-11-17): line 1 "PARTY @ VENUE" (no party name: the headliner, e.g. "MAD DOG @ BOLGIA"),
+    line 2 "Genre, Headliner, Room" (the headliner only when it isn't already on line 1)."""
     genre = e.genre if e.genre and e.genre != "Unspecified" else ""
-    head = headliners(e)
+    head = clean(headliners(e))
     t = e.start.astimezone(ROME)
     time = "" if not e.start_known else "23:59" if (t.hour, t.minute) == (0, 0) else t.strftime("%H:%M")
-    venue = clean(e.venue.name) + (f", {clean(e.room)}" if getattr(e, "room", None) else "")
-    return Row(time, genre.upper(), venue.upper(), clean(party_name(e)), f"w/ {clean(head)}" if head else "",
-               "PRESERATA" if preserata else "")
+    venue = clean(e.venue.name)
+    room = clean(getattr(e, "room", None) or "").capitalize()   # the room goes on the details line (Filippo)
+    name = clean(party_name(e)) or head
+    line1 = f"{name} @ {venue}" if name else venue
+    details = ", ".join(x for x in [head if head and head != name else "", room] if x)
+    return Row(time, genre.upper(), line1.upper(), "", details, "PRESERATA" if preserata else "")
 
 
 def other_row(kind: str, e: Event) -> Row:
@@ -281,10 +286,10 @@ def _draw_mid(p: Page, y: int, r: Row, pill: bool) -> int:
         d.rounded_rectangle([x, y, x + d.textlength(r.tag, font=f) + 32, y + 38], 19, fill=p.fg)
         d.text((x + 16, y + 19), r.tag, font=f, fill=p.bg, anchor="lm")
         x2 = x + d.textlength(r.tag, font=f) + 48
-        rest = " · ".join(t for t in [r.sub, r.extra] if t)
+        rest = ", ".join(t for t in [r.sub, r.extra] if t)
     else:
         x2 = x
-        rest = " · ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
+        rest = ", ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
     if rest and R - x2 > 80:
         text, f = _fit(d, rest, lambda z: grot(z, 600), 30, R - x2, min_size=20)
         d.text((x2, y + 2), text, font=f, fill=p.fg)
@@ -302,7 +307,7 @@ def _draw_dense(p: Page, y: int, r: Row) -> int:
     text, f = _fit(d, r.head, chunk, 32, (R - x) * 0.62, min_size=22)
     d.text((x, y), text, font=f, fill=p.fg)
     x += d.textlength(text, font=f) + 20
-    rest = " · ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
+    rest = ", ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
     if rest and R - x > 80:
         text, f = _fit(d, rest, lambda z: grot(z, 600), 28, R - x, min_size=20)
         d.text((x, y + 4), text, font=f, fill=p.fg)

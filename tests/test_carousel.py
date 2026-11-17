@@ -92,4 +92,4 @@ def test_midnight_start_shows_as_2359_and_room_inline():
     e.start = e.start.replace(minute=0)
     e.room = "club room"
     r = carousel.club_row(e)
-    assert r.time == "23:59" and r.head == "BOLGIA, CLUB ROOM"
+    assert r.time == "23:59" and r.head.endswith("@ BOLGIA") and r.extra.endswith("Club room")
