@@ -750,8 +750,8 @@ venues:
     kind: bar
     fascia: preserata
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: intothewoodsbg, website: null}
+    ig_source: user
     verified: false
     notes: "Seen on @nightlifebergamo. Aperitivo with DJ."
 
