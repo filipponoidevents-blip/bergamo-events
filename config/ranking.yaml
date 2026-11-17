@@ -2,7 +2,8 @@
 # Each night gets five scores 0-10 and a weighted average of them (src/bget/ranking.py):
 #   location  the venue's importance          -> venues: "Name": score   (or {score, capacity, rooms})
 #   room      main room 10, second rooms lower -> rooms (below), or per venue under rooms:
-#   capacity  people the venue/room holds      -> capacity: 800 (100 -> 2, 400 -> 6, 1600+ -> 10)
+#   capacity  people the venue/room holds      -> capacity: 800 (100 -> 2, 400 -> 6, 1600+ -> 10),
+#             or by season: {summer: 3000, winter: 100} (summer = May-September)
 #   party     the party / promoter's relevance -> promoters: "Name": score (empty = from its Instagram followers)
 #   guest     special guests: watchlist name 10, else tagged artists by IG followers (locals 0), "special guest" line 3
 # Bars (kind: bar in venues.yaml) are not scored: nearest to the centre first, A-Z at similar distance.
@@ -13,43 +14,43 @@
 weights: {location: 1.0, room: 0.5, capacity: 1.0, party: 1.5, guest: 2.0}
 
 venues:
-  "Bolgia": {score: 10, capacity: 3000}
+  "Bolgia": {score: 10, capacity: 3000, rooms: {main room: {score: 10, capacity: 3000}, summer garden: {score: 10, capacity: 3000}, sala 2: {score: 6, capacity: 200}}}
   "Live Club": 8
-  "Setai Club": {score: 6, capacity: 1000}
-  "Zero Club": {score: 7, capacity: 500}
-  "Nikita": {score: 7, capacity: 1000}
+  "Setai Club": {score: 6, capacity: 700, rooms: {garden: {score: 10, capacity: 1000}, sala privè: {score: 6, capacity: 50}, sala privé: {score: 6, capacity: 50}, sala prive: {score: 6, capacity: 50}}}
+  "Zero Club": {score: 7, capacity: 500, rooms: {main room: {score: 10, capacity: 500}, club room: {score: 6, capacity: 100}}}
+  "Nikita": {score: 7, capacity: 1000, rooms: {el cielo: {score: 6, capacity: 500}}}   # El Cielo = summer room; a ~600 room exists, name unknown (Filippo)
   "Bobadilla": {score: 6, capacity: 500}
   "Hype Club": {score: 6, capacity: 500}
   "Tiky Klub": {score: 6, capacity: 300}
   "Queen Club": {score: 6, capacity: 400}
   "Oronero": {score: 6, capacity: 400}
-  "Baia del Re": 6
+  "Baia del Re": {score: 6, capacity: 500}
   "LOFT Bergamo": {score: 6, capacity: 200}
   "Two Festival": 6
-  "NXT Station": 6
-  "Lazzaretto": 6
+  "NXT Station": {score: 6, capacity: 1000}
+  "Lazzaretto": {score: 6, capacity: 2000}
   "ChorusLife": 6
-  "Fiera di Bergamo": 6
-  "Casa Costez": 6
-  "Jam Live Studio": 6
-  "Vibe Club": {score: 6, capacity: 500}
-  "Garota de Ipanema": 6
-  "Sabbie Mobili": 6
-  "MINT": 6
-  "Charleston": 6
+  "Fiera di Bergamo": 8   # no Instagram: score set by hand (Filippo)
+  "Casa Costez": {score: 6, capacity: 300}
+  "Jam Live Studio": {score: 6, capacity: 600}
+  "Vibe Club": {score: 6, capacity: 500, rooms: {main room: {score: 10, capacity: 500}, theater room: {score: 6, capacity: 50}}}
+  "Garota de Ipanema": {score: 6, capacity: 300}
+  "Sabbie Mobili": {score: 6, capacity: 500}
+  "MINT": {score: 6, capacity: 200}
+  "Charleston": {score: 6, capacity: 400}
   "Thanka": {score: 6, capacity: 1000}
   "Magazzini Generali": 10   # Milan big venues: calendar only, not in the posts (Filippo)
   "Ippodromo SNAI San Siro": 10
-  "Edoné": 5
-  "Daste": 5
-  "Druso": 5
-  "Polaresco": 5
-  "Ink Club": 5
-  "UFO Live": 5
-  "Gres Art 671": 5
+  "Edoné": {score: 5, capacity: {summer: 3000, winter: 100}}
+  "Daste": {score: 5, capacity: 400}
+  "Druso": {score: 5, capacity: 300}
+  "Polaresco": {score: 5, capacity: {summer: 1000, winter: 200}}
+  "Ink Club": {score: 5, capacity: 200}
+  "UFO Live": {score: 5, capacity: 200}
+  "Gres Art 671": {score: 5, capacity: 2000}
   "Fabrique": 10
-  "Capogiro": 6
-  "Decibel Club": 3
+  "Capogiro": {score: 6, capacity: 600}
+  "Decibel Club": {score: 3, capacity: 200}
   "Pacì Paciana": 5
   "BV Rooftop": 3
   "Circolino della Malpensata": 3

@@ -382,7 +382,7 @@ def test_rank_order():
     assert r.rank(bolgia) > r.rank(main) > r.rank(room) > r.rank(bar)
     guest = Event(title="Bolgia", start=datetime(2026, 11, 21, 23), venue=Venue(name="Bolgia", city=""),
                   description="Special Guest: MARIE VAUNT")
-    assert r.rank(guest) > r.rank(bolgia)
+    assert r.rank(guest) == r.rank(bolgia)  # untagged guest = probably not relevant
 
 
 def test_party_score_from_followers():
@@ -469,3 +469,20 @@ def test_second_room_is_its_own_night(tmp_path):
     st.upsert(Event(title="Premiere", start=datetime(2026, 11, 21, 23), venue=v(), sources=["manual"], room="main room"))
     st.upsert(Event(title="The Circle", start=datetime(2026, 11, 21, 23), venue=v(), sources=["ig:1"], room="club room"))
     assert sorted(e.title for e in st.all()) == ["Premiere", "The Circle"]
+
+
+def test_seasonal_capacity():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.ranking import Ranker
+    r = Ranker(cfg)
+    mk = lambda m: Event(title="x", start=datetime(2026, m, 20, 23), venue=Venue(name="Edoné", city=""))
+    assert r.factors(mk(7))["capacity"] > r.factors(mk(11))["capacity"]
+
+
+def test_venue_always_preserata():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget import fascia
+    ev = Event(title="x", start=datetime(2026, 11, 21, 23, 45), venue=Venue(name="NXT Station", city=""), late_end=True)
+    assert fascia.classify(ev, cfg)[0] == "preserata"

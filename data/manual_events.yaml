@@ -20,4 +20,8 @@ events:
     room: main room
     genres: [hip hop, trap]
     category: club
-    description: "Premiere @premiere.premiere - main room"
+    description: "Premiere @premiere.premiere - main room\nLineup: @fssquah @luca._stanzione @forthakoolture"
+    artists:
+      - {name: fssquah, socials: {instagram: fssquah}}
+      - {name: luca._stanzione, socials: {instagram: luca._stanzione}}
+      - {name: forthakoolture, socials: {instagram: forthakoolture}}
