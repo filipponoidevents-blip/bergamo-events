@@ -15,6 +15,7 @@ from datetime import date, datetime, timedelta, timezone
 
 from . import calendar_ics, carousel, social
 from .config import Config
+from . import fascia
 from .genres import GenreAssigner
 from .headliners import HeadlinerFinder
 from .models import Scope
@@ -63,6 +64,7 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
     for ev in store.all():
         ev.genre, ev.genre_source = genre.assign(ev)
         ev.headliners = heads.find(ev)
+        ev.fascia_auto, ev.fascia_why = fascia.classify(ev, cfg)
         score_event(ev, cfg)
     return stats
 
@@ -97,6 +99,7 @@ def write_calendars(cfg: Config, store: Store) -> None:
     out = cfg.root / "out"
     out.mkdir(exist_ok=True)
     (out / "bergamo.ics").write_text(calendar_ics.build_ics(upcoming(store, Scope.LOCAL), "Bergamo Nights"))
+    fascia.write_report(cfg.root, [e for e in upcoming(store, Scope.LOCAL, days_back=0)])
     (out / "alerts.ics").write_text(calendar_ics.build_ics(
         upcoming(store, Scope.ALERT), "Bergamo Nights · Big events", prefix="⚡ ", reminders=maintenance_reminders(cfg)))
     # one combined feed is handy for a single subscription

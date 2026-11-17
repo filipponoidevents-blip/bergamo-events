@@ -47,4 +47,5 @@ class ManualSource(Source):
                 promoter_name=e.get("promoter"),
                 promoter=Socials(**e["promoter_socials"]) if e.get("promoter_socials") else None,
                 sources=[self.id],
+                fascia=e.get("fascia"),  # serata | preserata, optional
             )

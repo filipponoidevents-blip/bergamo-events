@@ -3,6 +3,12 @@
 # to recognise organiser names in event titles. Same ig_source / ig_type meaning as venues.yaml.
 
 promoters:
+  - name: Cheri
+    aliases: [Cheri Friday]
+    instagram: cheri.it
+    ig_source: user
+    venues: [MINT]
+    notes: "Promoter (Filippo, 2026-11-17). Friday nights at MINT, Chiuduno."
   - name: Hidden Hell
     instagram: hiddenhell.techno
     ig_source: user

@@ -27,3 +27,7 @@ reject: []
 titles:
   "18121861250051412-0": "Oasi"
 
+
+# Serata or preserata for one night, when the automatic rule gets it wrong (see out/serata_preserata.md):
+# id: serata | preserata
+fascia: {}

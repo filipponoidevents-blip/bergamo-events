@@ -75,7 +75,14 @@ def headliners(ev: Event) -> str:
 def describe(ev: Event) -> str:
     """Details, always in this order, Italian labels; lines with nothing to say are left out."""
     local = ev.start.astimezone(ROME)
-    lines = [f"Inizio: {local:%H:%M}" + (" (dopo mezzanotte)" if local.hour < 6 else "")]
+    lines = [f"Inizio: {local:%H:%M}" + (" (dopo mezzanotte)" if local.hour < 6 else "")
+             if ev.start_known else "Inizio: orario non indicato"]
+    if ev.end:
+        lines.append(f"Fine: {ev.end.astimezone(ROME):%H:%M}")
+    elif ev.late_end:
+        lines.append("Fine: tardi")
+    if ev.fascia_auto:
+        lines.append(f"Fascia: {ev.fascia_auto}" + (f" ({ev.fascia_why})" if ev.fascia_why else ""))
     lines.append("Locale: " + ", ".join(x for x in [ev.venue.name, ev.venue.city] if x))
     if ev.promoter_name:
         lines.append("Promoter: " + ev.promoter_name)

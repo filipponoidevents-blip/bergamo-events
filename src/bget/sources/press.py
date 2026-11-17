@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 
 from ..models import Category, Event, Venue
 from .base import Source
+from ..text import normalize
 from .instagram_rules import RulesExtractor
 
 log = logging.getLogger(__name__)
@@ -71,10 +72,16 @@ class PressSource(Source):
             start = datetime.fromisoformat(f"{e.date}T{e.start_time or '23:00'}").replace(tzinfo=tz)
             if start.hour < 6:
                 start += timedelta(days=1)
+            end = None
+            if e.end_time:
+                end = datetime.fromisoformat(f"{e.date}T{e.end_time}").replace(tzinfo=tz)
+                while end <= start:
+                    end += timedelta(days=1)
             venue = self.cfg.match_venue(e.venue_name) or Venue(name=e.venue_name, city="")
-            yield Event(title=title[:80], start=start, venue=venue, genres=e.genres,
+            yield Event(title=title[:80], start=start, end=end, venue=venue, genres=e.genres,
                         category=Category.CLUB, description=body[:1200], url=url,
-                        sources=[f"press:{self.id}"], source_urls=[url])
+                        sources=[f"press:{self.id}"], source_urls=[url],
+                        start_known=bool(e.start_time), late_end=e.late_end, entry=e.entry, fascia_hint=e.fascia)
 
 
 def article_parts(soup: BeautifulSoup) -> tuple[str, str, datetime | None]:
@@ -99,4 +106,4 @@ def article_parts(soup: BeautifulSoup) -> tuple[str, str, datetime | None]:
         node = soup.find("article") or soup.find(class_=re.compile("entry-content|article-body|post-content"))
         if node:
             body = "\n".join(p.get_text(" ", strip=True) for p in node.find_all(["p", "h2", "h3", "li"]))
-    return html.unescape(title).strip(), html.unescape(body).strip(), published
+    return normalize(html.unescape(title)).strip(), normalize(html.unescape(body)).strip(), published
