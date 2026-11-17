@@ -481,6 +481,7 @@ venues:
     kind: open_air
     fascia: sempre preserata   # Filippo 2026-11-17: always preserata, whatever the times
     status: active        # summer season, late May to early Sep
+    default_start: "18:00"   # open air, rarely past midnight (Filippo); start when a post gives no time
     socials: {instagram: nxtbergamo, website: null}
     ig_source: user
     verified: false

@@ -43,7 +43,9 @@ _WD_RE = "|".join(sorted(WEEKDAYS, key=len, reverse=True))
 RE_DAY_MONTHNAME = re.compile(rf"\b(\d{{1,2}})\s*(?:°|º)?\s*({_MONTH_RE})\.?\b(?:\s+(\d{{4}}))?", re.I)
 RE_MONTHNAME_DAY = re.compile(rf"\b({_MONTH_RE})\.?[ \t]+(\d{{1,2}})(?:st|nd|rd|th)?\b(?![:.]\d)", re.I)
 RE_NUMERIC = re.compile(r"(?<![\d:])(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?(?![\d:])")
-RE_WEEKDAY_DAY = re.compile(rf"\b({_WD_RE})\.?\s+(\d{{1,2}})\b(?!\s*[:.]\d)", re.I)
+RE_WEEKDAY_DAY = re.compile(rf"\b({_WD_RE})\.?\s+(\d{{1,2}})(?:st|nd|rd|th)?\b(?!\s*[:.]\d)", re.I)
+RE_DAY_WEEKDAY = re.compile(rf"\b(\d{{1,2}})(?:st|nd|rd|th)?\s+({_WD_RE})\b", re.I)  # "[04 Wed]"
+RE_EVERY = re.compile(rf"\b(?:every|ogni|tutti\s+i)\s+({_WD_RE})\w*\b\s*(.*)", re.I)  # "Every wednesday please.nights"
 RE_WEEKDAY = re.compile(rf"\b({_WD_RE})\b", re.I)
 RE_MENTION = re.compile(r"(?<![\w.])@([A-Za-z0-9_.]{2,30})(?<!\.)")
 RE_URL = re.compile(r"https?://\S+")
@@ -120,11 +122,13 @@ def find_dates(text: str, posted: date, warnings: list[str] | None = None) -> tu
         # past night (a recap). Don't re-read "mercoledì 04" as next month.
         warnings.append("only past dates written")
         return [], True
-    if not found:  # "sabato 22": day number, no month
-        for m in RE_WEEKDAY_DAY.finditer(text):
-            d = day_in_posting_month(int(m.group(2)), posted)
-            if d and d.weekday() != WEEKDAYS[m.group(1).lower()]:
-                warnings.append(f"'{m.group(0)}' but {d:%d/%m} is not that weekday")
+    if not found:  # "sabato 22", "Fri 20th", "04 Wed": day number, no month
+        pairs = [(m.group(1), m.group(2), m.group(0)) for m in RE_WEEKDAY_DAY.finditer(text)]
+        pairs += [(m.group(2), m.group(1), m.group(0)) for m in RE_DAY_WEEKDAY.finditer(text)]
+        for wd, day, raw in pairs:
+            d = day_in_posting_month(int(day), posted)
+            if d and d.weekday() != WEEKDAYS[wd.lower()]:
+                warnings.append(f"'{raw}' but {d:%d/%m} is not that weekday")
             add(d)
     if not found:  # "il 22"
         for m in RE_BARE_DAY.finditer(text):
@@ -534,7 +538,7 @@ class RulesExtractor:
                           confidence=round(max(0.0, min(conf, 0.95)), 2), notes=notes)
 
 
-RE_DATE_LINE = re.compile(rf"^\W*(?:{_WD_RE})\b|^\W*\d{{1,2}}\s*(?:{_MONTH_RE})\b|^\W*\d{{1,2}}[./]\d{{1,2}}\b", re.I)
+RE_DATE_LINE = re.compile(rf"^\W*(?:{_WD_RE})\b|^\W*\d{{1,2}}(?:st|nd|rd|th)?\s+(?:{_WD_RE})\b|^\W*\d{{1,2}}\s*(?:{_MONTH_RE})\b|^\W*\d{{1,2}}[./]\d{{1,2}}\b", re.I)
 
 
 class ListingExtractor(RulesExtractor):
@@ -587,7 +591,11 @@ class ListingExtractor(RulesExtractor):
         """A venue's own monthly programme (Zero posts one at the start of each month, Filippo):
         every date line opens a night at that venue; the lines up to the next date describe it."""
         blocks: list[tuple[date, str, list[str]]] = []
+        weekly: list[tuple[int, str]] = []  # "Every wednesday please.nights": that weekday all month
         for line in lines:
+            if len(line) <= 60 and (m := RE_EVERY.search(line)) and m.group(1).lower() in WEEKDAYS:
+                weekly.append((WEEKDAYS[m.group(1).lower()], m.group(2)))
+                continue
             if len(line) <= 60 and RE_DATE_LINE.search(line):
                 ds, _ = find_dates(line, posted)
                 if ds:
@@ -595,6 +603,18 @@ class ListingExtractor(RulesExtractor):
                     continue
             if blocks:
                 blocks[-1][2].append(line)
+        month = posted if posted.day <= 20 else (posted.replace(day=1) + timedelta(days=32))
+        every = []  # the "every wednesday" line names the party: it beats the flyer's OCR for those dates
+        for wd, rest in weekly:
+            d = month.replace(day=1)
+            while d.month == month.month:
+                if d.weekday() == wd:
+                    every.append((d, rest, []))
+                d += timedelta(days=1)
+        blocks = every + blocks
+        seen: set[date] = set()  # the caption comes before the flyer text: its line wins for a date
+        blocks = [b for b in blocks if not (b[0] in seen or seen.add(b[0]))]
+        blocks.sort(key=lambda b: b[0])
         events: list[ExtractedEvent] = []
         for day, head, body in blocks:
             text = "\n".join([head, *body])

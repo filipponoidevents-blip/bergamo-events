@@ -4,7 +4,6 @@
 approve:   # approved by Filippo in chat, 2026-11-16
   - "18212406400369144-0"
   - "18014638379768665-0"
-  - "18118837556276061-0"
   - "18121861250051412-0"
   - "18130085644865225-0"
   - "17939093367407292-0"
@@ -20,9 +19,11 @@ approve:   # approved by Filippo in chat, 2026-11-16
   - "18149439076605153-0"
   - "18618600628070947-0"
   - "17943169710390742-0"
-  - "18118837556276061-1"
 
 reject:
+  - "17994000783101670-7"   # Zero's programme, Sat 21 Premiere: already on the calendar by hand (main room)
+  - "18118837556276061-0"   # NXT 20/11: Bergamo on Ice opening, not a night (Filippo)
+  - "18118837556276061-1"   # same post, 10/01
   - "18131034407481342-0"   # Premiere's own post for 21/11: already on the calendar by hand (main room)
 # Rename a night: id: "New name"
 titles:
@@ -41,4 +42,4 @@ fascia: {}
 
 # Read a post again with the current reader (once). Its account is checked in the next run.
 reread:
-  - "17994000783101670"   # Zero's November programme, seen before monthly reading existed (Wednesdays: Please)
+  - "17994000783101670 #2"   # Zero's November programme (#2: English dates "Fri 20th" and "Every wednesday" now read), seen before monthly reading existed (Wednesdays: Please)

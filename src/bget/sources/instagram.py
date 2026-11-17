@@ -252,7 +252,8 @@ class InstagramSource(Source):
         if not self.decisions_path.exists():
             return set()
         d = yaml.safe_load(self.decisions_path.read_text()) or {}
-        return {str(x).rsplit("-", 1)[0] for x in d.get("reread") or []}
+        # "id" or "id #2": a new tag reads the post once more
+        return {str(x).split()[0].rsplit("-", 1)[0]: str(x) for x in d.get("reread") or []}
 
     def decisions(self) -> tuple[set[str], set[str]]:
         if not self.decisions_path.exists():
@@ -276,8 +277,10 @@ class InstagramSource(Source):
         # reread: [post ids] in ig_decisions.yaml reads a post again with the current reader (once),
         # e.g. a monthly programme seen before monthly reading existed. Its account is checked this run.
         reread = self.reread_ids()
-        again = {v["account"].lower() for pid, v in q["seen_posts"].items() if pid in reread and not v.get("reread")}
-        for pid in [p for p, v in q["seen_posts"].items() if p in reread and not v.get("reread")]:
+        todo = [p for p, v in q["seen_posts"].items() if p in reread and v.get("reread") not in (reread[p], True)
+                or p in reread and v.get("reread") is True and reread[p] != p]
+        again = {q["seen_posts"][p]["account"].lower() for p in todo}
+        for pid in todo:
             del q["seen_posts"][pid]
             for iid in [i for i in q["items"] if i.rsplit("-", 1)[0] == pid]:
                 del q["items"][iid]
@@ -340,7 +343,7 @@ class InstagramSource(Source):
                 q["seen_posts"][pid] = {"account": user, "at": post["timestamp"],
                                         "event": ex.is_event_announcement}
                 if pid in reread:
-                    q["seen_posts"][pid]["reread"] = True
+                    q["seen_posts"][pid]["reread"] = reread[pid]
                 self._queue(q, ex, post, user, acc.get("venue"))
         if accounts:
             q["next_account"] = (start + min(checked, rotating)) % len(accounts)
@@ -426,7 +429,10 @@ class InstagramSource(Source):
         e = dict(it["event"])
         if (t := self.title_overrides().get(it["id"])):
             e["title"] = t
-        start = datetime.fromisoformat(f"{e['date']}T{e.get('start_time') or '23:00'}").replace(tzinfo=tz)
+        # no time written: the venue's usual start (venues.yaml default_start, e.g. NXT 18:00, open air), else 23:00
+        vname = e.get("venue_name") or it.get("account_venue")
+        usual = next((v.get("default_start") for v in self.cfg.venues if v["name"] == vname and v.get("default_start")), None)
+        start = datetime.fromisoformat(f"{e['date']}T{e.get('start_time') or usual or '23:00'}").replace(tzinfo=tz)
         if start.hour < 6:
             # "sabato 21, dalle 00:30" means the night of Saturday 21, i.e. Sunday 00:30
             start += timedelta(days=1)

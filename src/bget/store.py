@@ -6,6 +6,7 @@ change history. Swap for SQLite if it grows.
 from __future__ import annotations
 
 import json
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -94,7 +95,8 @@ class Store:
         """Remove events matching config/hidden.yaml (Filippo's "togli")."""
         removed = 0
         for k, ev in list(self.events.items()):
-            text = f"{ev.title}\n{ev.description}".lower()
+            # NFKC: "𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞" (Instagram bold letters) is "Bergamo on Ice"
+            text = unicodedata.normalize("NFKC", f"{ev.title}\n{ev.description}").lower()
             for r in rules:
                 if (not r.get("text") or str(r["text"]).lower() in text) and \
                         (not r.get("venue") or str(r["venue"]).lower() == ev.venue.name.lower()) and \
