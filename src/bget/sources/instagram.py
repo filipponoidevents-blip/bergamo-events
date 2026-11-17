@@ -70,14 +70,16 @@ class GraphClient:
         """The profile's display name ("Unplug Project" for @unplug.project). Business/Creator accounts only."""
         r = requests.get(
             f"https://graph.facebook.com/{self.version}/{self.user_id}",
-            params={"fields": f"business_discovery.username({username}){{name,username}}", "access_token": self.token},
+            params={"fields": f"business_discovery.username({username}){{name,username,followers_count}}", "access_token": self.token},
             headers={"User-Agent": USER_AGENT}, timeout=30,
         )
         if r.status_code != 200:
             msg = r.json().get("error", {}).get("message", r.text[:200]) if r.headers.get(
                 "content-type", "").startswith("application/json") else r.text[:200]
             raise RuntimeError(f"@{username}: {msg}")
-        return (r.json().get("business_discovery", {}).get("name") or "").strip()
+        bd = r.json().get("business_discovery", {})
+        self.last_profile = {"name": (bd.get("name") or "").strip(), "followers": bd.get("followers_count")}
+        return self.last_profile["name"]
 
 
 def _images(post: dict) -> list[str]:
@@ -208,17 +210,23 @@ class InstagramSource(Source):
         readable (personal account)."""
         from ..names import handles_in
         cache = q.setdefault("profile_names", {})
+        followers = q.setdefault("followers", {})
         known = {h.lower() for h in self.cfg_names()}
         today = datetime.now(timezone.utc).date().isoformat()
         todo: list[str] = []
         for it in q["items"].values():
             if it["status"] in ("auto", "pending") and it["event"]["date"] >= today:
                 for h in [a.get("instagram") for a in it["event"].get("artists", [])] + handles_in(it.get("caption", "")):
-                    if h and h.lower() not in cache and h.lower() not in known and h.lower() not in todo:
-                        todo.append(h.lower())
+                    h = (h or "").lower()
+                    fresh = h not in cache or (cache[h] and h not in followers)  # older entries lack followers
+                    if h and fresh and h not in known and h not in todo:
+                        todo.append(h)
         for h in todo[: self._ig.get("profile_lookups_per_run", 15)]:
             try:
                 cache[h] = self.graph.profile_name(h)
+                prof = getattr(self.graph, "last_profile", None) or {}
+                if prof.get("followers") is not None:  # artists' followers: is the line-up relevant?
+                    q.setdefault("followers", {})[h] = int(prof["followers"])
             except Exception as e:  # noqa: BLE001
                 if any(k in str(e) for k in ("(#4)", "(#17)", "(#32)", "(#10)", "(#190)")):
                     break  # rate limit or token: try again next run

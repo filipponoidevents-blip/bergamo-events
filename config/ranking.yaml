@@ -4,7 +4,7 @@
 #   room      main room 10, second rooms lower -> rooms (below), or per venue under rooms:
 #   capacity  people the venue/room holds      -> capacity: 800 (100 -> 2, 400 -> 6, 1600+ -> 10)
 #   party     the party / promoter's relevance -> promoters: "Name": score (empty = from its Instagram followers)
-#   guest     special guests: watchlist name 10, "special guest" line 6, a line-up 3 (automatic)
+#   guest     special guests: watchlist name 10, else tagged artists by IG followers (locals 0), "special guest" line 3
 # Bars (kind: bar in venues.yaml) are not scored: nearest to the centre first, A-Z at similar distance.
 # A score left empty counts 0. First pass 2026-11-17 by Claude from the type of venue: to be corrected.
 # Example with rooms and capacity:

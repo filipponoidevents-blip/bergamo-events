@@ -442,3 +442,15 @@ CC NIGHT
     assert got[1][:2] == ("2026-11-21", "Premiere")
     assert got[2][:3] == ("2026-11-27", "CC NIGHT", "00:00")
     assert all(g[3] == "Zero Club" for g in got)
+
+
+def test_lineup_counts_only_relevant_names():
+    from datetime import datetime
+    from bget.models import Artist, Event, Socials, Venue
+    from bget.ranking import Ranker
+    r = Ranker(cfg)
+    r.followers = {"bigdj": 50000, "localdj": 900}
+    mk = lambda h: Event(title="x", start=datetime(2026, 11, 21, 23), venue=Venue(name="Queen Club", city=""),
+                         description="LINE UP\nDJ ONE\nDJ TWO", artists=[Artist(name=h, socials=Socials(instagram=h))])
+    assert r.guest(mk("localdj")) == 0
+    assert r.guest(mk("bigdj")) > 8
