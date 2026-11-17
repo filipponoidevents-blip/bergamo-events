@@ -248,6 +248,12 @@ class InstagramSource(Source):
         from ..names import known_names
         return known_names(self.cfg)
 
+    def reread_ids(self) -> set[str]:
+        if not self.decisions_path.exists():
+            return set()
+        d = yaml.safe_load(self.decisions_path.read_text()) or {}
+        return {str(x).rsplit("-", 1)[0] for x in d.get("reread") or []}
+
     def decisions(self) -> tuple[set[str], set[str]]:
         if not self.decisions_path.exists():
             return set(), set()
@@ -267,6 +273,18 @@ class InstagramSource(Source):
         per_run = self._ig.get("accounts_per_run") or len(accounts)
         start = q.get("next_account", 0) % max(len(accounts), 1)
         batch = (accounts[start:] + accounts[:start])[:per_run]
+        # reread: [post ids] in ig_decisions.yaml reads a post again with the current reader (once),
+        # e.g. a monthly programme seen before monthly reading existed. Its account is checked this run.
+        reread = self.reread_ids()
+        again = {v["account"].lower() for pid, v in q["seen_posts"].items() if pid in reread and not v.get("reread")}
+        for pid in [p for p, v in q["seen_posts"].items() if p in reread and not v.get("reread")]:
+            del q["seen_posts"][pid]
+            for iid in [i for i in q["items"] if i.rsplit("-", 1)[0] == pid]:
+                del q["items"][iid]
+        name = lambda a: (a if isinstance(a, str) else a["username"]).lstrip("@").lower()  # noqa: E731
+        extra = [a for a in accounts if name(a) in again and a not in batch]
+        rotating = len(batch)
+        batch = batch + extra
         checked = 0
         for acc in batch:
             acc = {"username": acc} if isinstance(acc, str) else acc
@@ -321,9 +339,11 @@ class InstagramSource(Source):
                     continue
                 q["seen_posts"][pid] = {"account": user, "at": post["timestamp"],
                                         "event": ex.is_event_announcement}
+                if pid in reread:
+                    q["seen_posts"][pid]["reread"] = True
                 self._queue(q, ex, post, user, acc.get("venue"))
         if accounts:
-            q["next_account"] = (start + checked) % len(accounts)
+            q["next_account"] = (start + min(checked, rotating)) % len(accounts)
         if not self.token_problem and checked == len(batch):
             self.lookup_profile_names(q)
         for it in q["items"].values():
