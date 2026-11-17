@@ -139,6 +139,8 @@ class Ranker:
         venue = self.venues.get(ev.venue.name.lower(), {})
         room_name, room = self._room(ev, venue)
         cap = room.get("capacity") or (venue.get("capacity") if not room_name or room.get("score", 10) >= 10 else None)
+        if isinstance(cap, dict):  # by season (Filippo: Edoné 3000 in summer, 100 in winter)
+            cap = cap.get("summer") if 5 <= ev.start.month <= 9 else cap.get("winter")
         return {
             "location": float(venue.get("score") or 0),
             "room": float(room.get("score", 10)),   # no room named: the main room
