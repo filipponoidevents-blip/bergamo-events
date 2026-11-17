@@ -123,6 +123,7 @@ sources:
       - {username: sprint_bergamo, venue: "Sprint"}
       - {username: balzerbynight, venue: "Balzer by Night"}
       - {username: intothewoodsbg, venue: "Into The Woods"}
+      - {username: cafeteriatreviolo, venue: "Cafeteria"}
       - {username: zeroclub.bg, venue: "Zero Club", monthly: true}   # monthly programme post at the start of the month (Filippo)
       - {username: daste_bergamo, venue: "Daste"}
       - {username: edonebergamo, venue: "Edoné"}
