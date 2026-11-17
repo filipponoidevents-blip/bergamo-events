@@ -26,6 +26,12 @@ reject: []
 # Rename a night: id: "New name"
 titles:
   "18121861250051412-0": "Oasi"
+  # Filippo's corrections of the 16-22 Nov weekly post (2026-11-17)
+  "18130085644865225-0": "Icon"
+  "18509540932100006-0": "Icon"
+  "18119513246281577-0": "Mercoledì Boaro"
+  "18118514726109142-0": "The Box"
+  "18084191429405556-0": "UNIBG PARTY / Bunker 93"
 
 
 # Serata or preserata for one night, when the automatic rule gets it wrong (see out/serata_preserata.md):

@@ -7,7 +7,15 @@
 
 # 1) One night: the venue (as in venues.yaml) + the date of the night (YYYY-MM-DD).
 #    A night that ends after midnight uses the evening's date.
-nights: []
+nights:   # Filippo's corrections of the 16-22 Nov weekly post (2026-11-17)
+  - {venue: Nikita, date: 2026-11-20, genre: Commerciale}
+  - {venue: Nikita, date: 2026-11-21, genre: Commerciale}
+  - {venue: Druso, date: 2026-11-21, genre: Indie}
+  - {venue: Zero Club, date: 2026-11-21, genre: Commerciale}
+  - {venue: Hype Club, date: 2026-11-21, genre: "Commerciale / Trap"}
+  - {venue: Ninfea Social Club, date: 2026-11-18, genre: House}
+  - {venue: Tassino Café, date: 2026-11-20, genre: Melodic Techno}
+  - {venue: Daste, date: 2026-11-21, genre: "Rock / Punk"}
 #  - venue: Queen Club
 #    date: 2026-11-21
 #    genre: Commerciale

@@ -343,3 +343,22 @@ def test_venue_post_named_after_tagged_promoter():
     assert ex.events[0].title == "OASI"
     ex = read("OASI returns.\n\nFRI. 20 NOV.\n23:30 — 04:30\n\nvibetheclub", account="oasi.night")
     assert ex.events[0].venue_name == "Vibe Club"
+
+
+def test_posting_promoter_names_the_night():
+    ex = read("𝐏𝐎𝐏 𝐔𝐏 𝐏𝐀𝐑𝐓𝐘\n\n📅 VENERDÌ 20 NOVEMBRE\n📍 tassinocafe\n🕖 ** 19:00 23:00**", account="theboxbergamo")
+    assert ex.events[0].title == "The Box"
+
+
+def test_time_after_month_is_not_a_day():
+    from bget.sources.instagram_rules import find_dates
+    from datetime import date
+    assert find_dates("14 novembre \n21:00-00:00", date(2026, 11, 8))[0] == [date(2026, 11, 14)]
+
+
+def test_handles_shown_as_names():
+    from bget.names import display, known_names
+    names = known_names(cfg)
+    assert display("@bolgia.official", names) == "Bolgia"
+    assert display("theboxbergamo", names) == "The Box"
+    assert display("someone.unknown", names) == "someone.unknown"
