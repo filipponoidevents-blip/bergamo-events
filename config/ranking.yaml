@@ -14,11 +14,11 @@
 weights: {location: 1.0, room: 0.5, capacity: 1.0, party: 1.5, guest: 2.0}
 
 venues:
-  "Bolgia": {score: 10, capacity: 3000}
+  "Bolgia": {score: 10, capacity: 3000, rooms: {main room: {score: 10, capacity: 3000}, summer garden: {score: 10, capacity: 3000}}}   # third room (200) name to confirm
   "Live Club": 8
-  "Setai Club": {score: 6, capacity: 1000}
-  "Zero Club": {score: 7, capacity: 500}
-  "Nikita": {score: 7, capacity: 1000}
+  "Setai Club": {score: 6, capacity: 700, rooms: {garden: {score: 10, capacity: 1000}}}   # second room (50) name to confirm
+  "Zero Club": {score: 7, capacity: 500, rooms: {main room: {score: 10, capacity: 500}, club room: {score: 6, capacity: 100}}}
+  "Nikita": {score: 7, capacity: 1000, rooms: {el cielo: {score: 6, capacity: 500}}}   # second room (600) name to confirm
   "Bobadilla": {score: 6, capacity: 500}
   "Hype Club": {score: 6, capacity: 500}
   "Tiky Klub": {score: 6, capacity: 300}
@@ -33,7 +33,7 @@ venues:
   "Fiera di Bergamo": 8   # no Instagram: score set by hand (Filippo)
   "Casa Costez": {score: 6, capacity: 300}
   "Jam Live Studio": {score: 6, capacity: 600}
-  "Vibe Club": {score: 6, capacity: 500}
+  "Vibe Club": {score: 6, capacity: 500, rooms: {main room: {score: 10, capacity: 500}, theater room: {score: 6, capacity: 50}}}
   "Garota de Ipanema": {score: 6, capacity: 300}
   "Sabbie Mobili": {score: 6, capacity: 500}
   "MINT": {score: 6, capacity: 200}
