@@ -33,9 +33,16 @@ HANDLE = "@seratebergamo"
 AREA = "BERGAMO E DINTORNI"
 
 
-def configure(posts: dict | None) -> None:
-    """Set the account name, handle and area printed on the edges (one set per city)."""
+DEFAULT_STARTS: dict[str, str] = {}   # venue name (lower) -> usual start "HH:MM" (venues.yaml default_start)
+
+
+def configure(posts: dict | None, venues: Iterable[dict] = ()) -> None:
+    """Set the account name, handle and area printed on the edges (one set per city),
+    and the venues' usual start times."""
     global BRAND, HANDLE, AREA
+    DEFAULT_STARTS.clear()
+    DEFAULT_STARTS.update({str(v["name"]).lower(): str(v["default_start"]) for v in venues
+                           if v.get("name") and v.get("default_start")})
     posts = posts or {}
     BRAND = str(posts.get("brand", BRAND)).upper()
     HANDLE = str(posts.get("handle", HANDLE))
@@ -251,9 +258,14 @@ class Row:
 
 def post_time(e: Event, same_night: Iterable[Event] = ()) -> str:
     """Every night shows a start time (Filippo, 2026-11-17): midnight is 00:00 (23:59 is only for the
-    phone calendar). No time written: another room of the same venue that night, else 00:00."""
+    phone calendar). No time written: the venue's usual start (venues.yaml default_start, e.g. NXT 18:00),
+    then another room of the same venue that night, else 00:00."""
+    hhmm = e.start.astimezone(ROME).strftime("%H:%M")
     if e.start_known:
-        return e.start.astimezone(ROME).strftime("%H:%M")
+        return hhmm
+    usual = DEFAULT_STARTS.get(e.venue.name.lower())
+    if usual and hhmm == usual.zfill(5):
+        return hhmm
     other = sorted(o.start for o in same_night
                    if o is not e and o.start_known and o.venue.name.lower() == e.venue.name.lower())
     return other[0].astimezone(ROME).strftime("%H:%M") if other else "00:00"

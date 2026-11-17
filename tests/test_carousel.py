@@ -97,3 +97,15 @@ def test_every_night_has_a_time_and_room_on_details_line():
     side.start_known = alone.start_known = False
     assert carousel.post_time(side, [main, side, alone]) == "23:30"   # another room of the same venue
     assert carousel.post_time(alone, [main, side, alone]) == "00:00"
+
+
+def test_unknown_time_uses_venue_default_start():
+    e = ev(20, venue="NXT Station", hour=18)
+    e.start = e.start.replace(minute=0)
+    e.start_known = False
+    assert carousel.post_time(e) == "00:00"
+    carousel.configure({}, [{"name": "NXT Station", "default_start": "18:00"}])
+    try:
+        assert carousel.post_time(e) == "18:00"
+    finally:
+        carousel.configure({})
