@@ -429,7 +429,7 @@ GENRE_GROUPS: dict[str, list[str]] = {
                             "Hard Techno", "Minimal", "Drum & Bass", "Trance", "Hardstyle / Hardcore",
                             "Electronic", "Disco / Funk"],
     "HIP HOP / TRAP": ["Hip Hop / Trap"],
-    "COMMERCIALE": ["Commerciale", "Latin / Reggaeton"],
+    "COMMERCIALE": ["Commerciale", "Latin / Reggaeton", "Hits / Dance"],
     "ALTRO": [],   # everything else: revival, no genre, ...
 }
 
