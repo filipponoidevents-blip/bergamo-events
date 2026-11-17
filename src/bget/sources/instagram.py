@@ -186,6 +186,8 @@ class InstagramSource(Source):
             if it.get("kind") == "dj_club" and new.kind != "dj_club" and \
                     is_daytime(Times(new.start_time, new.end_time)):
                 it["kind"], it["status"] = new.kind, "info"  # a daytime conference, not a night out
+            elif it.get("kind") == "other" and new.kind not in ("other", "dj_club") and it["status"] == "info":
+                it["kind"] = new.kind  # sorted better now (a talk -> culture)
             changed += before != {f: it["event"].get(f) for f in fields}
         return changed
 

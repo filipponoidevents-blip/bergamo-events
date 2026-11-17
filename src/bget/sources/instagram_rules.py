@@ -516,7 +516,7 @@ class RulesExtractor:
         title = own or (promoter if account_venue else None) or party_title(caption, names) or promoter or venue or account_venue or (mentions[0] if mentions else f"@{account}")
         kind = categorize(caption, self.venue_kinds.get(venue))
         if kind == "dj_club" and is_daytime(times) and not DAY_PARTY.search(caption):
-            kind = "other"
+            kind = categorize(caption, exclude={"dj_club"})  # a daytime talk -> culture (Filippo: talks go in "altro")
         hint = fascia_hint(caption)
         events = [ExtractedEvent(
             title=title, date=d.isoformat(), start_time=start, end_time=end, late_end=times.late,

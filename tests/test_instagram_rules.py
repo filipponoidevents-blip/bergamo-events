@@ -362,3 +362,9 @@ def test_handles_shown_as_names():
     assert display("@bolgia.official", names) == "Bolgia"
     assert display("theboxbergamo", names) == "The Box"
     assert display("someone.unknown", names) == "someone.unknown"
+
+
+def test_daytime_talk_is_culture():
+    ex = read("Il 19 novembre torna Cities For Impact, urban talk. Intervengono A e B\n19 novembre 2026, dalle 9.30 alle 17.30",
+              venue="Gres Art 671")
+    assert ex.events[0].kind == "culture"
