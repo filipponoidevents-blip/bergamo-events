@@ -863,8 +863,8 @@ venues:
     kind: bar
     fascia: preserata
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: victorialoungebar_bonate, website: null}
+    ig_source: user
     verified: false
     notes: "Seen on @nightlifebergamo."
 
