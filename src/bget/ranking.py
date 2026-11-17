@@ -131,8 +131,7 @@ class Ranker:
         for a in ev.artists:
             h = (a.socials.instagram or "").lstrip("@").lower()
             best = max(best, artist_score(self.followers.get(h)))
-        if GUEST_LINE.search(text):
-            best = max(best, 3.0)
+        # Filippo: an untagged DJ is probably not relevant, so a "special guest" line alone scores 0.
         return best
 
     def factors(self, ev: Event) -> dict[str, float]:

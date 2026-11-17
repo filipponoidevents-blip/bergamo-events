@@ -382,7 +382,7 @@ def test_rank_order():
     assert r.rank(bolgia) > r.rank(main) > r.rank(room) > r.rank(bar)
     guest = Event(title="Bolgia", start=datetime(2026, 11, 21, 23), venue=Venue(name="Bolgia", city=""),
                   description="Special Guest: MARIE VAUNT")
-    assert r.rank(guest) > r.rank(bolgia)
+    assert r.rank(guest) == r.rank(bolgia)  # untagged guest = probably not relevant
 
 
 def test_party_score_from_followers():
