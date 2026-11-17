@@ -13,18 +13,18 @@
 weights: {location: 1.0, room: 0.5, capacity: 1.0, party: 1.5, guest: 2.0}
 
 venues:
-  "Bolgia": 10
+  "Bolgia": {score: 10, capacity: 3000}
   "Live Club": 8
-  "Setai Club": 6
-  "Zero Club": 7
-  "Nikita": 7
-  "Bobadilla": 6
+  "Setai Club": {score: 6, capacity: 1000}
+  "Zero Club": {score: 7, capacity: 500}
+  "Nikita": {score: 7, capacity: 1000}
+  "Bobadilla": {score: 6, capacity: 500}
   "Hype Club": 6
-  "Tiky Klub": 6
-  "Queen Club": 6
-  "Oronero": 6
+  "Tiky Klub": {score: 6, capacity: 300}
+  "Queen Club": {score: 6, capacity: 400}
+  "Oronero": {score: 6, capacity: 400}
   "Baia del Re": 6
-  "LOFT Bergamo": 6
+  "LOFT Bergamo": {score: 6, capacity: 200}
   "Two Festival": 6
   "NXT Station": 6
   "Lazzaretto": 6
@@ -32,12 +32,12 @@ venues:
   "Fiera di Bergamo": 6
   "Casa Costez": 6
   "Jam Live Studio": 6
-  "Vibe Club": 6
+  "Vibe Club": {score: 6, capacity: 500}
   "Garota de Ipanema": 6
   "Sabbie Mobili": 6
   "MINT": 6
   "Charleston": 6
-  "Thanka": 6
+  "Thanka": {score: 6, capacity: 1000}
   "Magazzini Generali": 6
   "Ippodromo SNAI San Siro": 6
   "Edoné": 5
