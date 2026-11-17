@@ -47,8 +47,10 @@ def user_tags_for_slide(events: list[Event]) -> list[dict]:
     return tags
 
 
-def build_bundle(slide_paths: list[Path], slide_events: list[list[Event]], title: str, out: Path) -> Path:
-    """slide_events[i] = events shown on slide i (empty for cover slides)."""
+def build_bundle(slide_paths: list[Path], slide_events: list[list[Event]], title: str, out: Path,
+                 tiktok_paths: list[Path] | None = None) -> Path:
+    """slide_events[i] = events shown on slide i (empty for cover slides). TikTok gets its own
+    9:16 images when given, otherwise the Instagram ones."""
     all_events = [e for evs in slide_events for e in evs]
     bundle = {
         "title": title,
@@ -61,7 +63,7 @@ def build_bundle(slide_paths: list[Path], slide_events: list[list[Event]], title
         },
         "tiktok": {
             "caption": caption(all_events, title, "tiktok"),
-            "photos": [str(p) for p in slide_paths],
+            "photos": [str(p) for p in (tiktok_paths or slide_paths)],
         },
         "missing_handles": sorted({
             f"{kind}:{name}"

@@ -54,6 +54,11 @@ class Config:
                 )
         return None
 
+    def is_preserata(self, ev) -> bool:
+        """Serata or preserata: see fascia.py (times, then post clues, price, venue)."""
+        from .fascia import is_preserata
+        return is_preserata(ev, self)
+
     def enrich_venue(self, venue: Venue) -> Venue:
         """Fill gaps (coords, province, handles) from the registry and town table."""
         known = self.match_venue(venue.name, venue.city)

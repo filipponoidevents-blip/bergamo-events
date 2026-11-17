@@ -10,5 +10,8 @@ dev = ["pytest"]
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+bget = ["fonts/*"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
