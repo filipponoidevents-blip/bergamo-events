@@ -383,3 +383,16 @@ def test_rank_order():
     guest = Event(title="Bolgia", start=datetime(2026, 11, 21, 23), venue=Venue(name="Bolgia", city=""),
                   description="Special Guest: MARIE VAUNT")
     assert r.rank(guest) > r.rank(bolgia)
+
+
+def test_party_score_from_followers():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.ranking import Ranker, follower_score
+    assert follower_score(None) == 0 and follower_score(1000) == 2 and follower_score(100000) == 10
+    r = Ranker(cfg)
+    r.followers = {"bigparty": 20000, "smallparty": 800}
+    ev = lambda h: Event(title="x", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""),
+                         description=f"with @{h}")
+    r.by_followers = [("bigparty", follower_score(20000)), ("smallparty", follower_score(800))]
+    assert r.rank(ev("bigparty")) > r.rank(ev("smallparty"))

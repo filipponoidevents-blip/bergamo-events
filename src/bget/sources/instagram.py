@@ -46,7 +46,7 @@ class GraphClient:
         self.user_id, self.token, self.version = user_id, token, version
 
     def recent_media(self, username: str, limit: int = 12) -> list[dict[str, Any]]:
-        fields = f"business_discovery.username({username}){{username,media.limit({limit}){{{MEDIA_FIELDS}}}}}"
+        fields = f"business_discovery.username({username}){{username,name,followers_count,media.limit({limit}){{{MEDIA_FIELDS}}}}}"
         r = requests.get(
             f"https://graph.facebook.com/{self.version}/{self.user_id}",
             params={"fields": fields, "access_token": self.token},
@@ -57,7 +57,10 @@ class GraphClient:
             msg = r.json().get("error", {}).get("message", r.text[:200]) if r.headers.get(
                 "content-type", "").startswith("application/json") else r.text[:200]
             raise RuntimeError(f"@{username}: {msg}")
-        return r.json().get("business_discovery", {}).get("media", {}).get("data", [])
+        bd = r.json().get("business_discovery", {})
+        # read in the same call, free: used for the party score (Filippo: rank parties by followers)
+        self.last_profile = {"name": (bd.get("name") or "").strip(), "followers": bd.get("followers_count")}
+        return bd.get("media", {}).get("data", [])
 
     def profile_name(self, username: str) -> str:
         """The profile's display name ("Unplug Project" for @unplug.project). Business/Creator accounts only."""
@@ -242,6 +245,11 @@ class InstagramSource(Source):
             user = acc["username"].lstrip("@")
             try:
                 posts = self.graph.recent_media(user, self.posts_per_account)
+                prof = getattr(self.graph, "last_profile", None) or {}
+                if prof.get("followers") is not None:
+                    q.setdefault("followers", {})[user.lower()] = int(prof["followers"])
+                if prof.get("name"):
+                    q.setdefault("profile_names", {})[user.lower()] = prof["name"]
             except Exception as e:  # noqa: BLE001
                 errors.append(str(e))
                 if "Invalid user id" in str(e) or "does not exist" in str(e) or "(#110)" in str(e):

@@ -4,15 +4,18 @@ weighted in config/ranking.yaml:
   location   how important the venue is (venues: score)
   room       which room the night is in: main room 10, second rooms lower (venues: rooms)
   capacity   how many people the venue/room holds (venues: capacity, or the room's capacity)
-  party      how relevant the party / promoter is (promoters: score)
+  party      how relevant the party / promoter is: promoters: score in ranking.yaml if set, else from
+             the promoter's Instagram followers (read for free with the posts, 2*log2(followers/500):
+             1k -> 2, 4k -> 6, 16k+ -> 10)
   guest      special guests: a notable watchlist name 10, a "special guest" line 6, a line-up 3
 
 rank = weighted average of the five, 0-10. A factor with no data counts 0, so filling in the file
-moves a night up. Everything here is set by hand; nothing is guessed from followers or the like.
+moves a night up. Hand-set values always win over follower counts.
 Bars are not scored (Filippo): they come after, nearest to Bergamo centre first, A-Z at similar distance.
 """
 from __future__ import annotations
 
+import json
 import math
 import re
 
@@ -23,6 +26,12 @@ from .models import Event
 
 GUEST_LINE = re.compile(r"special\s+guests?|guest\s*(?:dj|star)?\s*[:\-–—]|headliner|ospite\s+speciale|direttamente da", re.I)
 DEFAULT_WEIGHTS = {"location": 1.0, "room": 0.5, "capacity": 1.0, "party": 1.5, "guest": 2.0}
+
+
+def follower_score(n: int | None) -> float:
+    if not n:
+        return 0.0
+    return max(0.0, min(10.0, 2 * math.log2(n / 500)))
 
 
 def capacity_score(cap: float | None) -> float:
@@ -54,6 +63,18 @@ class Ranker:
             if (s := scores.get(p["name"].lower())) is not None:
                 names = [n for n in [p["name"], p.get("party_name"), *(p.get("aliases") or [])] if n and len(n) > 3]
                 self.promoters.append((names, (p.get("instagram") or "").lower() or None, float(s)))
+        # followers of every account read (data/ig_review.json -> followers), for unrated promoters
+        self.followers: dict[str, int] = {}
+        path = cfg.root / "data" / "ig_review.json"
+        if path.exists():
+            try:
+                self.followers = {k.lower(): v for k, v in json.loads(path.read_text()).get("followers", {}).items() if v}
+            except ValueError:
+                pass
+        rated = {ig for _, ig, _ in self.promoters if ig}
+        self.by_followers = [(p["instagram"].lower(), follower_score(self.followers.get(p["instagram"].lower())))
+                             for p in cfg.promoters or [] if p.get("instagram")
+                             and p["instagram"].lower() not in rated and p["instagram"].lower() in self.followers]
         wl = cfg.watchlist
         self.notable = [re.compile(rf"(?<!\w){re.escape(str(n))}(?!\w)", re.I)
                         for n in [*wl.get("dj_headliners", []), *wl.get("notable_artists", []),
@@ -78,6 +99,11 @@ class Ranker:
             if (ig and (ig == handle or re.search(rf"(?<![\w.]){re.escape(ig)}(?!\w)", text))) or \
                     any(re.search(rf"(?<!\w){re.escape(n.lower())}(?!\w)", text) for n in names):
                 best = max(best, s)
+        for ig, s in self.by_followers:
+            if ig == handle or re.search(rf"(?<![\w.]){re.escape(ig)}(?!\w)", text):
+                best = max(best, s)
+        if not best and handle and handle in self.followers:
+            best = follower_score(self.followers[handle])
         return best
 
     def guest(self, ev: Event) -> float:

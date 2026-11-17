@@ -3,7 +3,7 @@
 #   location  the venue's importance          -> venues: "Name": score   (or {score, capacity, rooms})
 #   room      main room 10, second rooms lower -> rooms (below), or per venue under rooms:
 #   capacity  people the venue/room holds      -> capacity: 800 (100 -> 2, 400 -> 6, 1600+ -> 10)
-#   party     the party / promoter's relevance -> promoters: "Name": score
+#   party     the party / promoter's relevance -> promoters: "Name": score (empty = from its Instagram followers)
 #   guest     special guests: watchlist name 10, "special guest" line 6, a line-up 3 (automatic)
 # Bars (kind: bar in venues.yaml) are not scored: nearest to the centre first, A-Z at similar distance.
 # A score left empty counts 0. First pass 2026-11-17 by Claude from the type of venue: to be corrected.
@@ -19,7 +19,7 @@ venues:
   "Zero Club": {score: 7, capacity: 500}
   "Nikita": {score: 7, capacity: 1000}
   "Bobadilla": {score: 6, capacity: 500}
-  "Hype Club": 6
+  "Hype Club": {score: 6, capacity: 500}
   "Tiky Klub": {score: 6, capacity: 300}
   "Queen Club": {score: 6, capacity: 400}
   "Oronero": {score: 6, capacity: 400}
@@ -87,7 +87,7 @@ rooms:
   theater room: 6
   bunker: 6
 
-promoters:   # party relevance 1-10; null = not rated yet
+promoters:   # party relevance 1-10; null = use the promoter's Instagram followers (1k=2, 4k=6, 16k+=10)
   "Cheri": null
   "Hidden Hell": null
   "Galactica Festival": null
