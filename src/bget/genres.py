@@ -94,6 +94,10 @@ class GenreAssigner:
             if n and n.get("venue") and n.get("date") and n.get("genre"):
                 venue = cfg.match_venue(str(n["venue"]))
                 self.nights[(_norm(venue.name if venue else str(n["venue"])), str(n["date"]))] = str(n["genre"])
+        self.always = {}
+        for k, g in (ov.get("always") or {}).items():
+            venue = cfg.match_venue(str(k))
+            self.always[_norm(venue.name if venue else str(k))] = str(g)
         self.venue_genres = {}
         for v in cfg.venues:
             hand = next((venue_ov[_norm(a)] for a in [v["name"], *(v.get("aliases") or [])] if _norm(a) in venue_ov), None)
@@ -115,6 +119,8 @@ class GenreAssigner:
     def _assign(self, ev: Event) -> tuple[str, str]:
         if (g := self.nights.get((_norm(ev.venue.name), ev.night.isoformat()))):
             return g, "manual"
+        if (g := self.always.get(_norm(ev.venue.name))):
+            return g, "venue"
         handles = {h.lower() for h in ev.all_handles("instagram")}
         text = f"{ev.title} {ev.promoter_name or ''}".lower()
         title = ev.title.lower()

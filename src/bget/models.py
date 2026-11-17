@@ -90,6 +90,7 @@ class Event:
     entry: str | None = None             # "paid" (list, price, tickets) | "free" (ingresso libero) | None
     fascia_auto: str | None = None       # result of fascia.classify, refreshed every run
     fascia_why: str | None = None        # its reason, in Italian
+    in_posts: bool = True               # False: calendar only, never in the graphics (venues.yaml in_posts)
     rank: float = 0.0                    # order in the posts, higher first (ranking.py, config/ranking.yaml)
     category: Category = Category.OTHER
     description: str = ""

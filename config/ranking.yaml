@@ -38,8 +38,8 @@ venues:
   "MINT": 6
   "Charleston": 6
   "Thanka": {score: 6, capacity: 1000}
-  "Magazzini Generali": 6
-  "Ippodromo SNAI San Siro": 6
+  "Magazzini Generali": 10   # Milan big venues: calendar only, not in the posts (Filippo)
+  "Ippodromo SNAI San Siro": 10
   "Edoné": 5
   "Daste": 5
   "Druso": 5
@@ -47,7 +47,10 @@ venues:
   "Ink Club": 5
   "UFO Live": 5
   "Gres Art 671": 5
-  "Fabrique": 5
+  "Fabrique": 10
+  "Capogiro": 6
+  "Decibel Club": 3
+  "Pacì Paciana": 5
   "BV Rooftop": 3
   "Circolino della Malpensata": 3
   "Keller Factory": 3

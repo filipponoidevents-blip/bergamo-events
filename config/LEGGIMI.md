@@ -11,7 +11,8 @@ Ogni informazione ha un solo posto. Se due file sembrano dire la stessa cosa, va
 | Pesi dell'ordine (locale, sala, capienza, party, ospiti) | `ranking.yaml` → `weights:` | |
 | Promoter: nome, handle, nome serata (`party_name`) | `promoters.yaml` | |
 | Voto del party | `ranking.yaml` → `promoters:` | vuoto = calcolato dai follower Instagram |
-| Generi (tuoi, vincono su tutto) | `genres.yaml` | `nights` (una serata) > `promoters` > `venues` |
+| Generi (tuoi, vincono su tutto) | `genres.yaml` | `nights` (una serata) > `always` (locale sempre quel genere, es. Garota = Latino) > `promoters` > `venues` |
+| Locale solo nel calendario, mai nelle grafiche | `venues.yaml` → `in_posts: false` | Fabrique, Magazzini Generali, Ippodromo |
 | Generi trovati con la ricerca | `promoters.yaml` / `venues.yaml` → `genres:` | usati solo se `genres.yaml` non dice niente |
 | Account Instagram letti | `sources.yaml` → `accounts:` | `venue:` = account del locale; `monthly: true` = programma mensile (Zero) |
 | Approva / scarta un post, rinomina una serata, forza serata/preserata | `ig_decisions.yaml` | `approve`, `reject`, `titles`, `fascia` |

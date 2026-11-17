@@ -20,9 +20,21 @@ nights:   # Filippo's corrections of the 16-22 Nov weekly post (2026-11-17)
 #    genre: Commerciale
 
 # 2) A whole venue: used for every night there, unless the post or a "nights" entry says otherwise.
-venues:
+venues:   # Filippo, 2026-11-17 (Capogiro: decided by the night's promoter)
   Decibel Club: Ballo Da Sala
   Pacì Paciana: Alternative
+  MINT: Commerciale / House
+  Vibe Club: Tech House
+  Nikita: Commerciale
+  Thanka: Commerciale
+  Oronero: Commerciale
+  Queen Club: Dance / Hits / Revival
+  Bobadilla: Commerciale
+  Ninfea Social Club: Elettronica
+
+# 2b) A venue that is ALWAYS this genre, whatever the post says (wins over promoters and captions).
+always:
+  Garota de Ipanema: Latino
 #  Queen Club: Commerciale
 
 # 3) A whole promoter (name as in promoters.yaml): same idea, wins over the venue.
