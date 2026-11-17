@@ -5,6 +5,8 @@
     python -m bget alerts             # print new alerts (and write out/alerts.md)
     python -m bget carousel --week 2026-11-16
     python -m bget carousel --month 2026-11
+    python -m bget carousel --midweek 2026-11-18   # pre-party + non-music, Thursday to Sunday
+    python -m bget posts [--date 2026-11-23]        # whatever the posting cadence says is due that day
     python -m bget run                # collect + calendar + alerts (what the scheduler calls)
 """
 from __future__ import annotations
@@ -118,22 +120,54 @@ def write_alerts(cfg: Config, store: Store) -> str:
     return text
 
 
-def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None) -> None:
+def _other_events(cfg: Config):
+    from zoneinfo import ZoneInfo
+    q = InstagramSource({"id": "ig", "accounts": []}, cfg)._load_review()
+    return other_events(cfg, q["items"], ZoneInfo(cfg.settings.get("timezone", "Europe/Rome")))
+
+
+def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None,
+                  midweek: str | None = None, formats: tuple[str, ...] = ("ig", "tt")) -> list:
+    """Render a post for Instagram (4:5) and TikTok (9:16) and write its post bundle."""
     local = [e for e in store.all() if e.scope == Scope.LOCAL]
     alerts = [e for e in store.all() if e.scope == Scope.ALERT]
     outdir = cfg.root / "out" / "carousels"
-    if week:
-        d = date.fromisoformat(week)
+    if week or midweek:
+        d = date.fromisoformat(week or midweek)
         monday = d - timedelta(days=d.weekday())
-        slides = carousel.weekly(local, monday, alerts)
-        stem, title = f"week_{monday.isoformat()}", f"Bergamo Nights · settimana {monday:%d/%m}"
+    if week:
+        build = lambda fmt: carousel.weekly(local, monday, alerts, fmt)  # noqa: E731
+        stem, title = f"week_{monday.isoformat()}", f"Serate Bergamo · settimana {monday:%d/%m}"
+    elif midweek:
+        others = _other_events(cfg)
+        build = lambda fmt: carousel.midweek(others, monday, fmt)  # noqa: E731
+        stem, title = f"midweek_{monday.isoformat()}", f"Prima della serata · {monday + timedelta(days=3):%d/%m}"
     else:
         y, m = map(int, month.split("-"))
-        slides = carousel.monthly(local, y, m, alerts)
-        stem, title = f"month_{y}-{m:02d}", f"Bergamo Nights · {carousel.MESI[m]} {y}"
-    paths = carousel.save(slides, outdir, stem)
-    bundle = social.build_bundle(paths, [evs for _, evs in slides], title, outdir / f"{stem}_post.json")
-    print(f"{len(paths)} slides -> {outdir}  (post bundle: {bundle.name})")
+        build = lambda fmt: carousel.monthly(local, y, m, alerts, fmt)  # noqa: E731
+        stem, title = f"month_{y}-{m:02d}", f"Serate Bergamo · {carousel.MESI[m]} {y}"
+    paths, slides = {}, None
+    for fmt in formats:
+        slides = build(fmt)
+        paths[fmt] = carousel.save(slides, outdir, f"{stem}_{fmt}")
+    bundle = social.build_bundle(paths.get("ig", []), [evs for _, evs in slides], title,
+                                 outdir / f"{stem}_post.json", tiktok_paths=paths.get("tt"))
+    print(f"{len(slides)} slides x {len(paths)} formats -> {outdir}  (post bundle: {bundle.name})")
+    return [p for ps in paths.values() for p in ps]
+
+
+def due_posts(today: date) -> list[tuple[str, str]]:
+    """Posting cadence (Filippo, 2026-11-17): weekly every Monday (this week), midweek every
+    Wednesday (Thursday to Sunday), monthly on the last Sunday of the month (next month)."""
+    out = []
+    if today.weekday() == 0:
+        out.append(("week", today.isoformat()))
+    if today.weekday() == 2:
+        out.append(("midweek", today.isoformat()))
+    if today.weekday() == 6 and (today + timedelta(days=7)).month != today.month:
+        nxt = (today.replace(day=1) + timedelta(days=32)).replace(day=1)
+        out.append(("month", f"{nxt.year}-{nxt.month:02d}"))
+    return out
 
 
 def probe(cfg: Config, urls: list[str], follow: str | None) -> None:
@@ -200,6 +234,10 @@ def main(argv: list[str] | None = None) -> None:
     g = c.add_mutually_exclusive_group(required=True)
     g.add_argument("--week", help="any date in the week, YYYY-MM-DD")
     g.add_argument("--month", help="YYYY-MM")
+    g.add_argument("--midweek", help="any date in the week, YYYY-MM-DD")
+    c.add_argument("--format", choices=["ig", "tt", "both"], default="both")
+    ps = sub.add_parser("posts", help="render the posts that are due today (weekly Mon, midweek Wed, monthly last Sun)")
+    ps.add_argument("--date", help="pretend today is this date, YYYY-MM-DD")
     a = p.parse_args(argv)
 
     cfg = Config.load()
@@ -220,7 +258,15 @@ def main(argv: list[str] | None = None) -> None:
     if a.cmd in ("alerts", "run"):
         print(write_alerts(cfg, store))
     if a.cmd == "carousel":
-        make_carousel(cfg, store, a.week, a.month)
+        fmts = ("ig", "tt") if a.format == "both" else (a.format,)
+        make_carousel(cfg, store, a.week, a.month, a.midweek, fmts)
+    if a.cmd == "posts":
+        today = date.fromisoformat(a.date) if a.date else datetime.now(timezone.utc).date()
+        due = due_posts(today)
+        if not due:
+            print(f"nothing due on {today}")
+        for kind, arg in due:
+            make_carousel(cfg, store, **{"week": None, "month": None, "midweek": None, kind: arg})
 
 
 if __name__ == "__main__":

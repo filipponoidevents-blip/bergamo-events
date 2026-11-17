@@ -7,8 +7,10 @@ and prepares (but does not send) Instagram/TikTok post bundles with tags.
 ```
 pip install -e .            # or: PYTHONPATH=src python -m bget ...
 python -m bget run          # collect + score + write calendars + alerts
-python -m bget carousel --week 2026-11-20
-python -m bget carousel --month 2026-11
+python -m bget carousel --week 2026-11-20      # weekly calendar post (Instagram 4:5 + TikTok 9:16)
+python -m bget carousel --month 2026-11        # monthly calendar post
+python -m bget carousel --midweek 2026-11-18   # "Prima della serata": pre-party + non-music, Thu-Sun
+python -m bget posts                           # whatever the cadence says is due today
 python -m pytest
 ```
 
@@ -85,10 +87,20 @@ Three feeds: `bergamo.ics` (local), `alerts.ics` (⚡ big events), `all.ics` (bo
 branch (no build command), so the repo stays private while the calendars get stable URLs like
 `https://<project>.pages.dev/bergamo.ics` to subscribe to once in Google/Apple Calendar.
 
-### Phase 2: carousels (`src/bget/carousel.py`)
-1080×1350 PNG slides. Weekly: cover, "In zona" (up to 5 events per slide), "Vale il viaggio" (alerts).
-Monthly: cover, one or more slides per week, alerts. The design is a plain placeholder; colours, fonts
-and handle live in `THEME`.
+### Phase 2: posts (`src/bget/carousel.py`)
+"Wall calendar" style chosen by Filippo (2026-11-17), each post rendered twice: Instagram 1080×1350
+(`*_ig_NN.png`) and TikTok 1080×1920 (`*_tt_NN.png`, content kept clear of TikTok's buttons and caption).
+- **Monthly** (last Sunday of the month before): big month name, month grid with a dot on every date with
+  a club night, then date slides with one line per night (dates packed so the post stays within 10 slides).
+- **Weekly** (Monday): "16—22 NOV" with a 7-day strip (dots + number of nights), then one slide per date:
+  date on top, nights below (time · genre, venue, party name, w/ headliner). Out-of-area big events
+  close the post as "FUORI ZONA".
+- **Midweek** (Wednesday): "Prima della serata", Thursday to Sunday, aperitivo/pre-party, comedy, quiz
+  and culture from the non-club events (`out/other_events.md`). These never go on the calendar.
+Club posts are white on red; the midweek post is red on white. The small text along the top and bottom
+edges carries the account, area and month. Fonts are bundled in `src/bget/fonts/` (SIL Open Font License).
+`.github/workflows/posts.yml` renders what is due every morning and attaches the slides to the run
+(Actions tab -> run -> Artifacts -> posts); it can also be run by hand for any week or month.
 
 ### Phase 3: auto-posting (`src/bget/social.py`)
 `carousel` already writes `*_post.json` with the caption, @mentions, per-slide Instagram `user_tags`,
