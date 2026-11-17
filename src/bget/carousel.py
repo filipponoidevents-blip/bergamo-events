@@ -27,8 +27,19 @@ from .calendar_ics import ROME, headliners, party_name
 from .models import Event
 
 FONTS = Path(__file__).parent / "fonts"
+# per city/account: settings.yaml `posts: {brand, handle, area}` (see configure)
+BRAND = "SERATE BERGAMO"
 HANDLE = "@seratebergamo"
 AREA = "BERGAMO E DINTORNI"
+
+
+def configure(posts: dict | None) -> None:
+    """Set the account name, handle and area printed on the edges (one set per city)."""
+    global BRAND, HANDLE, AREA
+    posts = posts or {}
+    BRAND = str(posts.get("brand", BRAND)).upper()
+    HANDLE = str(posts.get("handle", HANDLE))
+    AREA = str(posts.get("area", AREA)).upper()
 RED, WHITE = (236, 40, 56), (255, 255, 255)
 CLUB = {"bg": RED, "fg": WHITE}
 OTHER = {"bg": WHITE, "fg": RED}
@@ -99,7 +110,7 @@ def _page(fmt: str, pal: dict, top_mid: str, bottom_mid: str, bottom_right: str)
     w, h, (top, bot) = FORMATS[fmt]
     img = Image.new("RGB", (w, h), pal["bg"])
     p = Page(img, ImageDraw.Draw(img), w, h, top, bot, pal["bg"], pal["fg"])
-    _edges(p, ["SERATE BERGAMO", top_mid, HANDLE], [AREA, bottom_mid, bottom_right])
+    _edges(p, [BRAND, top_mid, HANDLE], [AREA, bottom_mid, bottom_right])
     return p
 
 
@@ -228,8 +239,10 @@ class Row:
 def club_row(e: Event, preserata: bool = False, tag_pill: bool = False) -> Row:
     genre = e.genre if e.genre and e.genre != "Unspecified" else ""
     head = headliners(e)
-    return Row(e.start.astimezone(ROME).strftime("%H:%M") if e.start_known else "", genre.upper(),
-               clean(e.venue.name).upper(), clean(party_name(e)), f"w/ {clean(head)}" if head else "",
+    t = e.start.astimezone(ROME)
+    time = "" if not e.start_known else "23:59" if (t.hour, t.minute) == (0, 0) else t.strftime("%H:%M")
+    venue = clean(e.venue.name) + (f", {clean(e.room)}" if getattr(e, "room", None) else "")
+    return Row(time, genre.upper(), venue.upper(), clean(party_name(e)), f"w/ {clean(head)}" if head else "",
                "PRESERATA" if preserata else "")
 
 
@@ -241,10 +254,43 @@ def other_row(kind: str, e: Event) -> Row:
 DENSE_ROW = 64
 
 
-def _row_height(r: Row, pill: bool, dense: bool = False) -> int:
+MID_ROW = 132
+
+
+def _row_height(r: Row, pill: bool, dense: bool | str = False) -> int:
+    if dense == "mid":
+        return MID_ROW
     if dense:
         return DENSE_ROW
     return 24 + 64 + 76 + (52 if r.sub else 0) + (52 if r.extra else 0) + 12
+
+
+def _draw_mid(p: Page, y: int, r: Row, pill: bool) -> int:
+    """Two lines per night: time + venue, then genre · party · w/ headliner."""
+    d, R = p.d, p.w - MX
+    y += 18
+    x = MX
+    if r.time:
+        d.text((x, y + 4), r.time, font=chunk(34), fill=p.fg)
+    x = MX + 172
+    text, f = _fit(d, r.head, chunk, 46, R - x, min_size=26)
+    d.text((x, y), text, font=f, fill=p.fg)
+    y += 60
+    if pill and r.tag:
+        f = grot(22, 800)
+        d.rounded_rectangle([x, y, x + d.textlength(r.tag, font=f) + 32, y + 38], 19, fill=p.fg)
+        d.text((x + 16, y + 19), r.tag, font=f, fill=p.bg, anchor="lm")
+        x2 = x + d.textlength(r.tag, font=f) + 48
+        rest = " · ".join(t for t in [r.sub, r.extra] if t)
+    else:
+        x2 = x
+        rest = " · ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
+    if rest and R - x2 > 80:
+        text, f = _fit(d, rest, lambda z: grot(z, 600), 30, R - x2, min_size=20)
+        d.text((x2, y + 2), text, font=f, fill=p.fg)
+    y += MID_ROW - 78
+    d.line([(MX, y), (R, y)], fill=p.fg, width=1)
+    return y
 
 
 def _draw_dense(p: Page, y: int, r: Row) -> int:
@@ -338,7 +384,7 @@ def _section_head(p: Page, y: int, title: str) -> int:
 
 
 def _date_slides(fmt: str, pal: dict, groups: list[tuple[date | None, str | None, list[tuple[Row, Event]]]],
-                 bottom_mid: str, month_tag: str, pill: bool, max_slides: int, dense: bool = False,
+                 bottom_mid: str, month_tag: str, pill: bool, max_slides: int, dense: bool | str = False,
                  section: str | None = None, pack: bool = False) -> list[Slide]:
     """groups: (date, extra label, rows). One date per slide; a date with too many events
     continues on the next slide; if that makes too many slides, dates are packed together.
@@ -347,7 +393,7 @@ def _date_slides(fmt: str, pal: dict, groups: list[tuple[date | None, str | None
     avail = bot - 70 - (top + 50) - (SECTION_H if section else 0)
 
     def plan(compact: bool) -> list[list[tuple]]:
-        head_h = int((110 if dense else 150 if compact else 300) * 1.08) + (30 if compact else 0)
+        head_h = int((110 if dense is True else 150 if compact else 300) * 1.08) + (30 if compact else 0)
         rh = lambda r: _row_height(r, pill, dense)  # noqa: E731
         pages, cur, used = [], [], 0
         for day, label, rows in groups:
@@ -383,9 +429,10 @@ def _date_slides(fmt: str, pal: dict, groups: list[tuple[date | None, str | None
             y = _section_head(p, y, section)
         compact = dense or pack or len(page) > 1
         for day, label, part in page:
-            y = _date_header(p, y, day, label, compact, small=dense)
+            y = _date_header(p, y, day, label, compact, small=dense is True)
             for row, _ in part:
-                y = _draw_dense(p, y, row) if dense else _draw_row(p, y, row, pill)
+                y = (_draw_mid(p, y, row, pill) if dense == "mid" else _draw_dense(p, y, row) if dense
+                     else _draw_row(p, y, row, pill))
             y += 30 if compact else 0
         out.append((p.img, [e for _, _, part in page for _, e in part]))
     return out
@@ -426,22 +473,20 @@ def _alert_group(alerts: Iterable[Event], lo: date, hi: date) -> list[tuple]:
 # Filippo (2026-11-17): the club nights are split into pages by genre; preserata nights get a
 # genre tag only and come after, on white pages so they stay clearly apart. settings.yaml
 # `post_genres` can move a genre to another group.
-GENRE_GROUPS: dict[str, list[str]] = {
-    "HOUSE / ELETTRONICA": ["House", "Tech House", "Deep House", "Afro House", "Melodic Techno", "Techno",
-                            "Hard Techno", "Minimal", "Drum & Bass", "Trance", "Hardstyle / Hardcore",
-                            "Electronic", "Disco / Funk", "Melodic House", "Witch House / EDM", "Elettronica",
-                            "House Vinyl"],
-    "HIP HOP / TRAP": ["Hip Hop / Trap"],
-    "COMMERCIALE": ["Commerciale", "Latin / Reggaeton", "Hits / Dance", "Dance / Hits / Revival",
-                    "Commerciale / House", "Latino", "Latin", "Dance"],
-    "ALTRO": [],   # everything else: revival, no genre, ...
+GENRE_GROUPS: dict[str, list[str]] = {   # page -> words in the genre (Filippo's table, 2026-11-17)
+    "HOUSE / ELETTRONICA": ["house", "tech house", "techno", "elettronica", "melodic", "minimal"],
+    "HIP HOP / TRAP": ["hip hop", "trap", "rap"],
+    "COMMERCIALE": ["commerciale", "dance", "hits", "revival", "latin", "latino", "reggaeton"],
+    "ALTRO": [],   # everything else, and nights with no genre
 }
 
 
 def genre_group(e: Event, groups: dict[str, list[str]] | None = None) -> str:
+    """The page a serata goes on. A mixed genre ("Commerciale / Trap") counts by its first part."""
     groups = groups or GENRE_GROUPS
-    for name, genres in groups.items():
-        if e.genre in genres:
+    first = re.split(r"\s*/\s*", (e.genre or "").strip())[0].lower()
+    for name, words in groups.items():
+        if any(re.search(rf"(?<![a-z]){re.escape(w.lower())}(?![a-z])", first) for w in words):
             return name
     return list(groups)[-1]
 
@@ -470,7 +515,7 @@ def _sections(fmt: str, events: dict[date, list[Event]], alerts: list[tuple], pr
     if alerts:
         secs.append(("FUORI ZONA", CLUB, alerts))
 
-    def build(dense: bool) -> list[Slide]:
+    def build(dense: bool | str) -> list[Slide]:
         out = []
         for title, pal, gs in secs:
             out += _date_slides(fmt, pal, gs, "SOLO DJ & CLUB" if pal is CLUB else "PRESERATA", month_tag,
@@ -479,8 +524,10 @@ def _sections(fmt: str, events: dict[date, list[Event]], alerts: list[tuple], pr
         return out
 
     slides = build(dense_first)
-    if len(slides) > budget and not dense_first:
-        slides = build(True)
+    for mode in (("mid", True) if not dense_first else ()):   # full rows -> two lines -> one line
+        if len(slides) <= budget:
+            break
+        slides = build(mode)
     if len(slides) > budget:
         import logging
         dropped = sum(len(evs) for _, evs in slides[budget:])

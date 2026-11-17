@@ -75,3 +75,21 @@ def test_serata_or_preserata_by_start_and_end():
     late_end = ev(20, 21); late_end.end = late_end.start + timedelta(hours=7)    # 21:30-04:30
     early_end = ev(20, 23); early_end.end = early_end.start + timedelta(hours=2)  # 23:30-01:30
     assert not cfg.is_preserata(late_end) and cfg.is_preserata(early_end)
+
+
+def test_genre_pages_follow_filippos_table():
+    g = lambda genre: carousel.genre_group(ev(20, genre=genre))  # noqa: E731
+    assert g("Commerciale / Trap") == "COMMERCIALE"          # mixed genre: the first part decides
+    assert g("Witch House / EDM") == "HOUSE / ELETTRONICA"
+    assert g("Hard Techno") == "HOUSE / ELETTRONICA"
+    assert g("Hip Hop / Trap") == "HIP HOP / TRAP"
+    assert g("Revival") == "COMMERCIALE" and g("Dance / Hits / Revival") == "COMMERCIALE"
+    assert g("Indie") == "ALTRO" and g(None) == "ALTRO"
+
+
+def test_midnight_start_shows_as_2359_and_room_inline():
+    e = ev(22, hour=0)
+    e.start = e.start.replace(minute=0)
+    e.room = "club room"
+    r = carousel.club_row(e)
+    assert r.time == "23:59" and r.head == "BOLGIA, CLUB ROOM"

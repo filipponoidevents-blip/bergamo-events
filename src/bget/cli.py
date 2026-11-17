@@ -150,6 +150,7 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
     local = [e for e in shown if e.scope == Scope.LOCAL]
     # serate are split into pages by genre group; preserata nights follow on white pages (Filippo)
     genres = cfg.settings.get("post_genres")
+    carousel.configure(cfg.settings.get("posts"))
     pre = lambda e: not serata(e)  # noqa: E731
     alerts = [e for e in shown if e.scope == Scope.ALERT and serata(e)]
     outdir = cfg.root / "out" / "carousels"

@@ -47,15 +47,20 @@ serata:
   end_from: "03:00"     # when the end is known: ends at 03:00 or later -> serata, earlier -> preserata
   early_before: "22:00" # starts before this -> preserata
 
-# Weekly/monthly posts: the serate are split into pages by these genre groups, in this order
-# (Filippo, 2026-11-17). Genres not listed go in the last group. Preserata nights don't get genre
-# pages: they come after, on white pages, with the genre as a small tag.
+# Posts: the name, handle and area printed along the edges of every slide (one set per city).
+posts:
+  brand: Serate Bergamo
+  handle: "@seratebergamo"
+  area: Bergamo e dintorni
+
+# Weekly/monthly posts: the serate are split into pages by genre (Filippo, 2026-11-17). A night goes on
+# the first page whose words appear in its genre; a mixed genre ("Commerciale / Trap") counts by its
+# first part; anything else goes on the last page. Preserate don't get genre pages: they come after,
+# on white pages, with the genre as a small tag.
 post_genres:
-  "HOUSE / ELETTRONICA": [House, Tech House, Deep House, Afro House, Melodic Techno, Techno, Hard Techno,
-                          Minimal, "Drum & Bass", Trance, Hardstyle / Hardcore, Electronic, Disco / Funk,
-                          Melodic House, Witch House / EDM, Elettronica, House Vinyl]
-  "HIP HOP / TRAP": [Hip Hop / Trap]
-  COMMERCIALE: [Commerciale, Latin / Reggaeton, Hits / Dance, Dance / Hits / Revival, Commerciale / House, Latino, Latin, Dance]
+  "HOUSE / ELETTRONICA": [house, tech house, techno, elettronica, melodic, minimal]
+  "HIP HOP / TRAP": [hip hop, trap, rap]
+  COMMERCIALE: [commerciale, dance, hits, revival, latin, latino, reggaeton]
   ALTRO: []
 
 thresholds:

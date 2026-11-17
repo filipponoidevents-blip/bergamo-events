@@ -103,14 +103,16 @@ so reader improvements also fix nights read earlier.
 - **Monthly** (last Sunday of the month before): big month name, month grid with a dot on every date with
   a club night, then date slides with one line per night (dates packed so the post stays within 10 slides).
 - **Weekly** (Monday): "16—22 NOV" with a 7-day strip (dots + number of nights), then the serate
-  split into pages by genre group (House / elettronica, Hip Hop / trap, Commerciale, Altro; set in
-  settings.yaml `post_genres`), each page with the dates and their nights (time · genre, venue, party
-  name, w/ headliner). Preserata nights follow on white pages with the genre as a tag. Out-of-area big
-  events close the post as "FUORI ZONA". The monthly post uses the same sections, one line per night.
+  split into pages by genre (House / elettronica, Hip Hop / trap, Commerciale, Altro: words in
+  settings.yaml `post_genres`, a mixed genre counts by its first part), each page with the dates and
+  their nights, most important first (`rank`, from config/ranking.yaml), then by time. Preserata nights
+  follow on white pages with the genre as a tag. Rooms show next to the venue ("Zero Club, club room");
+  a midnight start shows as 23:59. Venues with `in_posts: false` are left out. Out-of-area big events
+  close the post as "FUORI ZONA". The monthly post uses the same sections, one line per night.
 - **Midweek** (Wednesday): "Prima della serata", Thursday to Sunday, aperitivo/pre-party, comedy, quiz
   and culture from the non-club events (`out/other_events.md`). These never go on the calendar.
 Club posts are white on red; the midweek post is red on white. The small text along the top and bottom
-edges carries the account, area and month. Fonts are bundled in `src/bget/fonts/` (SIL Open Font License).
+edges carries the account, area and month (settings.yaml `posts:` brand / handle / area, one set per city). Fonts are bundled in `src/bget/fonts/` (SIL Open Font License).
 `.github/workflows/posts.yml` renders what is due every morning and attaches the slides to the run
 (Actions tab -> run -> Artifacts -> posts); it can also be run by hand for any week or month.
 
