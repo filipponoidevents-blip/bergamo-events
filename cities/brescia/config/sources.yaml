@@ -1,0 +1,29 @@
+# Where Brescia events come from. Same adapters as Bergamo (see the main config/sources.yaml).
+sources:
+  - id: manual
+    type: manual
+    enabled: true
+    path: data/manual_events.yaml
+
+  # Instagram auto-check. Off until Filippo confirms the list below (fill-in list, 2026-11-17).
+  # The API calls can come from the same tracker account as Bergamo (@seratebergamo): Business
+  # Discovery reads any public Business/Creator account, wherever it is. Same secrets, nothing new to set.
+  - id: instagram_watch
+    type: instagram
+    enabled: false
+    accounts:
+      # handles confirmed by an event page or press release (ig_source in venues.yaml)
+      - {username: circusbeatclub, venue: "Circus Beatclub"}
+      - {username: discoteca_florida, venue: "Florida"}
+      - {username: 16beat.club, venue: "16beat Club"}
+      - {username: molo_brescia, venue: "Molo"}
+      - __tetrahedron_              # promoter: Tetrahedron (techno, 16beat Club)
+      - nexum_lab                   # promoter: Nexum Lab (hard techno, Florida)
+      # TO ADD once Filippo gives the handles: Social Club, Latte+, Spettro, Number One, Paradiso,
+      # Seconda Classe, Areadocks, Reverso, Sonida, Disco Volante, the new club at ex Vinile 45,
+      # Panorama, VidaLoca, Rehab, Crush, Underground Techno Research, Centrale Elettronica.
+
+  - id: resident_advisor
+    type: resident_advisor
+    enabled: false
+    area: milan   # RA lists Brescia under "North" / Milan; 16beat Club and Florida post there

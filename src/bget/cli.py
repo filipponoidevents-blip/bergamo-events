@@ -233,9 +233,16 @@ def main(argv: list[str] | None = None) -> None:
     g.add_argument("--month", help="YYYY-MM")
     a = p.parse_args(argv)
     if a.city == "all":
+        failed = []
         for city in all_cities():
             print(f"=== {city}")
-            run_city(a, city)
+            try:   # one city's problem must never stop the others' calendars
+                run_city(a, city)
+            except Exception:  # noqa: BLE001
+                log.exception("city %s failed", city)
+                failed.append(city)
+        if failed and "bergamo" in failed:
+            raise SystemExit(f"failed: {', '.join(failed)}")
         return
     run_city(a, a.city)
 

@@ -1,0 +1,567 @@
+# Brescia venue registry (same format as the main config/venues.yaml).
+# First research pass 2026-11-17 (Brescia +20 km), from Giornale di Brescia, RA, nightguide.it, zero.eu,
+# discotechebrescia.it and venue sites. Field meaning as in the Bergamo file:
+#   ig_source  website = an event/venue page links the handle; press = a press release names it;
+#              null = no handle confirmed yet (left blank on purpose: Filippo fills it in)
+#   status     active | check (no recent sign found, or closures/reopenings to confirm) | closed
+#   km         straight-line distance from Brescia centre (45.5416, 10.2118)
+#   fascia     serata | preserata | orari: FIRST GUESS by Claude, to be confirmed by Filippo
+# Coordinates are approximate (street or town level). verified: false everywhere until Filippo checks.
+
+venues:
+- name: Circus Beatclub
+  aliases:
+  - Circus
+  - Circus Beat Club
+  - CIRCUSbeatclub
+  - Circus Brescia
+  city: Brescia
+  province: BS
+  address: Via Dalmazia 127, 25125 Brescia
+  lat: 45.527
+  lon: 10.197
+  km: 2.0
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - commerciale
+  - house
+  - hip hop
+  - edm
+  socials:
+    instagram: circusbeatclub
+    website: https://www.circusbeatclub.com
+    resident_advisor: https://ra.co/clubs/14570
+  ig_source: press
+  ig_type: unknown
+  verified: false
+  notes: 'Over 25 years old (Antonio Gregori). Thu Rehab (hip hop, 2 per month), Fri Friday Fiesta / Panorama (international
+    house: Solardo, Mark Knight, Silvie Loto) / Stupidsco (melodic house) / VidaLoca (pop, latin, hip hop), Sat
+    Crush (young crowd). Paid entry with drink. Source: nightguide.it Oct 2025, Giornale di Brescia Feb 2026.'
+- name: Florida
+  aliases:
+  - Discoteca Florida
+  - Florida Ghedi
+  - Disco Florida
+  city: Ghedi
+  province: BS
+  address: Via Montichiari 1 / Strada Montichiari 47, 25016 Ghedi
+  lat: 45.405
+  lon: 10.28
+  km: 16.1
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - house
+  - dance
+  - hard techno
+  socials:
+    instagram: discoteca_florida
+    website: http://www.discoflorida.it
+  ig_source: website
+  ig_type: unknown
+  verified: false
+  notes: RA lists @discoteca_florida (Nexum event, Jun 2025). Hosts DTM90 (90s, 21 Nov 2026), Nexum Lab hard techno
+    (Junkie Kid), Underground Techno Research outdoor (1 Jun 2026). 50th anniversary recently. On Xceed (xceed.me/brescia/club/discoteca-florida).
+- name: 16beat Club
+  aliases:
+  - 16beat.Club
+  - 16beat
+  - Sedici Beat
+  city: Brescia
+  province: BS
+  address: Via della Volta 74, 25122 Brescia
+  lat: 45.513
+  lon: 10.214
+  km: 3.2
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - techno
+  socials:
+    instagram: 16beat.club
+    resident_advisor: https://ra.co/clubs/281616
+  ig_source: website
+  ig_type: unknown
+  verified: false
+  notes: Techno club. Tetrahedron's 'Berlin Techno Brixia Night' (31 Oct and 28 Nov 2026, 22:30-05:00) - handle
+    from RA.
+- name: Social Club
+  aliases:
+  - Social Club Brescia
+  city: Brescia
+  province: BS
+  address: Via della Ziziola 105, 25124 Brescia
+  lat: 45.522
+  lon: 10.2
+  km: 2.4
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - techno
+  - hardcore
+  - trap
+  - reggaeton
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: 'Giornale di Brescia (Feb 2026): electronic, techno and hardcore DJ sets alternating with trap, reggaeton
+    and hip hop. Handle to confirm.'
+- name: Latte+
+  aliases:
+  - Latte Più
+  - Latteplus
+  - Latte Plus
+  city: Brescia
+  province: BS
+  address: Via Giuseppe di Vittorio, Brescia
+  lat: 45.52
+  lon: 10.235
+  km: 3.0
+  kind: live_club
+  fascia: orari
+  status: active
+  genres:
+  - techno
+  - live
+  - 90s
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Techno on some nights, live bands, 90s events (Giornale di Brescia, Feb 2026). Handle to confirm.
+- name: Spettro
+  aliases:
+  - Spettro Brescia
+  - Spettro Yard
+  city: Brescia
+  province: BS
+  address: Via Arnaldo Soldini 51, Brescia
+  lat: 45.528
+  lon: 10.205
+  km: 1.6
+  kind: live_club
+  fascia: orari
+  status: active
+  genres:
+  - club culture
+  - live
+  - experimental
+  socials:
+    website: https://spettro.info
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: 'Independent cultural space: live, workshops, web radio, club nights in a ''long corridor''. Summer series
+    at Villa Garden. Mostly live/culture: keep only DJ nights.'
+- name: Number One
+  aliases:
+  - Number One Corte Franca
+  - Discoteca Number One
+  city: Corte Franca
+  province: BS
+  address: Via Provinciale 1, Corte Franca
+  lat: 45.632
+  lon: 9.99
+  km: 20.0
+  kind: club
+  fascia: serata
+  status: check
+  genres:
+  - commerciale
+  - house
+  socials:
+    website: http://www.numberone.it
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Historic big disco of the area (shuttle bus service). Website shows 'new website coming soon' (2025). Right
+    on the 20 km edge. Status and handle to confirm.
+- name: Paradiso Disco
+  aliases:
+  - Paradiso
+  - Discoteca Paradiso
+  city: Brescia
+  province: BS
+  address: Via Casotti 12, 25134 Brescia
+  lat: 45.56
+  lon: 10.24
+  km: 3.0
+  kind: club
+  fascia: serata
+  status: check
+  genres:
+  - latino
+  - commerciale
+  - liscio
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Latin, liscio and commercial DJ sets. Licence dispute with the Comune in Nov-Dec 2025, reopened for the
+    holidays (QuiBrescia 20 Dec 2025). Low relevance for house/techno.
+- name: Seconda Classe
+  aliases: []
+  city: Brescia
+  province: BS
+  address: Via Carlo Zima 9/A, 25121 Brescia
+  lat: 45.534
+  lon: 10.213
+  km: 0.9
+  kind: bar
+  fascia: orari
+  status: active
+  genres:
+  - pop
+  - dance
+  - electronic
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Bar with weekend DJ nights, genre changes each weekend.
+- name: Areadocks
+  aliases:
+  - Area Docks
+  - Areadocks District
+  city: Brescia
+  province: BS
+  address: Via Gerolamo Sangervasio, Brescia
+  lat: 45.531
+  lon: 10.199
+  km: 1.5
+  kind: bar
+  fascia: orari
+  status: active
+  genres:
+  - mixed
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Hospitality district (restaurants, bar) with weekend DJ nights, genre changes each weekend.
+- name: Reverso
+  aliases:
+  - Reverso Rooftop
+  - Reverso Tower
+  city: Brescia
+  province: BS
+  address: Via Flero (Crystal Palace towers, 14th floor), Brescia
+  lat: 45.512
+  lon: 10.215
+  km: 3.3
+  kind: bar
+  fascia: orari
+  status: active
+  genres:
+  - mixed
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: 'Rooftop lounge and club: parties of every genre, dinners with live music.'
+- name: Sonida The Club
+  aliases:
+  - Sonida
+  city: Brescia
+  province: BS
+  address: Via Malta 10, 25124 Brescia
+  lat: 45.523
+  lon: 10.207
+  km: 2.1
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - pop
+  - house
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Recently opened; reference club for the LGBTQIA+ community.
+- name: Disco Volante Culture Club
+  aliases:
+  - Disco Volante
+  city: Castel Mella
+  province: BS
+  address: Via X Giornate 14, Castel Mella
+  lat: 45.5
+  lon: 10.145
+  km: 7.0
+  kind: club
+  fascia: serata
+  status: check
+  genres:
+  - techno
+  - deep house
+  - minimal
+  - hip hop
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: 'Members'' club. Fri techno/tech/deep/minimal; 1st+3rd Sat ''Blow Club'' (hip hop, R&B); 2nd+4th Sat ''Smooth''
+    (deep, underground). Source: livetheworld.com, date unknown.'
+- name: Ex Vinile 45
+  aliases:
+  - Vinile 45
+  - Vinile45
+  city: Brescia
+  province: BS
+  address: Via Luigi Abbiati 45, 25134 Brescia
+  lat: 45.555
+  lon: 10.245
+  km: 3.0
+  kind: club
+  fascia: serata
+  status: check
+  genres:
+  - techno
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Vinile 45 (techno, after-club) closed 31 Dec 2025. Former manager said a new club with new management opens
+    in the same place in June 2026, still techno (Giornale di Brescia). New name and handle to find.
+- name: Molo
+  aliases:
+  - Molo Brescia
+  city: Brescia
+  province: BS
+  address: Brescia (summer venue)
+  lat: 45.53
+  lon: 10.215
+  km: 1.3
+  kind: open_air
+  fascia: serata
+  status: check
+  genres:
+  - house
+  - urban
+  - trap
+  socials:
+    instagram: molo_brescia
+  ig_source: press
+  ig_type: unknown
+  verified: false
+  notes: 'Summer playground, ~60 nights May-September: Thu Frìo, Fri Friday Format, Sat events (True Love house
+    with Arielle Free, VidaLoca urban). BresciaToday reported a closure by the Questura (date to check). Address
+    to confirm.'
+- name: Kinkys Movida Latina
+  aliases:
+  - Kinkys
+  city: Brescia
+  province: BS
+  address: Via Orzinuovi 46, 25124 Brescia
+  lat: 45.53
+  lon: 10.19
+  km: 2.1
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - latino
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Latin club. Low relevance.
+- name: Rincón Latino
+  aliases:
+  - Rincon Latino
+  city: San Zeno Naviglio
+  province: BS
+  address: Via Alessandro Volta 21/a, 25010 San Zeno Naviglio
+  lat: 45.493
+  lon: 10.218
+  km: 5.4
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - latino
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Salsa, bachata, reggaeton. Low relevance.
+- name: Circolo Colony
+  aliases:
+  - Colony
+  city: Brescia
+  province: BS
+  address: Brescia
+  lat: 45.54
+  lon: 10.23
+  km: 1.4
+  kind: live_club
+  fascia: orari
+  status: check
+  genres:
+  - live
+  - indie
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Live club / circolo (zero.eu). Mostly concerts.
+- name: Lio Bar
+  aliases:
+  - Lio
+  city: Brescia
+  province: BS
+  address: Via Giulio Togni 43, 25126 Brescia
+  lat: 45.537
+  lon: 10.205
+  km: 0.7
+  kind: bar
+  fascia: orari
+  status: closed
+  genres: []
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: 'Closed: last night 28 Feb 2026 (Giornale di Brescia). Kept so old posts match.'
+- name: Ananke
+  aliases:
+  - Ananke Forno
+  city: Brescia
+  province: BS
+  address: Via Solferino, Brescia
+  lat: 45.535
+  lon: 10.213
+  km: 0.7
+  kind: bar
+  fascia: preserata
+  status: active
+  genres:
+  - hip hop
+  socials:
+    instagram: ananke.forno
+  ig_source: press
+  ig_type: unknown
+  verified: false
+  notes: 'Bakery, bookshop and wine bar: ''Morning Glory'' Saturday-morning DJ sets (90s-2000s hip hop vinyl). Day
+    events, low relevance.'
+- name: Centrale Elettronica Festival
+  aliases:
+  - Centrale Elettronica
+  city: Brescia
+  province: BS
+  address: Area Feste Sant'Eufemia - Buffalora, Brescia
+  lat: 45.52
+  lon: 10.29
+  km: 6.5
+  kind: open_air
+  fascia: serata
+  status: active
+  genres:
+  - techno
+  - house
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: 'New club-culture festival, 27-28 June 2026 (metro until 2:00). Tickets on TicketOne. Big event: always
+    serata.'
+- name: Cilindro
+  aliases:
+  - Cilindro Agri/Culture
+  city: Manerbio
+  province: BS
+  address: Manerbio
+  lat: 45.355
+  lon: 10.14
+  km: 21.5
+  kind: club
+  fascia: serata
+  status: check
+  genres: []
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Disco in Manerbio, just outside 20 km.
+- name: Coco Beach
+  aliases:
+  - Coco Beach Club
+  city: Lonato del Garda
+  province: BS
+  address: Lonato del Garda
+  lat: 45.465
+  lon: 10.51
+  km: 24.8
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - commerciale
+  - house
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: 'Lake Garda summer club, outside 20 km: alerts only.'
+- name: Il Convento
+  aliases: []
+  city: Lonato del Garda
+  province: BS
+  address: Lonato del Garda
+  lat: 45.461
+  lon: 10.484
+  km: 23.0
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - commerciale
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Disco restaurant (dinner & dance), outside 20 km.
+- name: Origami Beach
+  aliases: []
+  city: Iseo
+  province: BS
+  address: Clusane di Iseo
+  lat: 45.664
+  lon: 10.004
+  km: 21.1
+  kind: club
+  fascia: serata
+  status: active
+  genres:
+  - commerciale
+  socials: {}
+  ig_source: null
+  ig_type: unknown
+  verified: false
+  notes: Disco restaurant on Lake Iseo, outside 20 km.
+
+towns:
+  Brescia: {province: BS, lat: 45.5416, lon: 10.2118}
+  Ghedi: {province: BS, lat: 45.405, lon: 10.276}
+  Corte Franca: {province: BS, lat: 45.632, lon: 9.99}
+  Castel Mella: {province: BS, lat: 45.5, lon: 10.145}
+  San Zeno Naviglio: {province: BS, lat: 45.493, lon: 10.218}
+  Manerbio: {province: BS, lat: 45.355, lon: 10.14}
+  Lonato del Garda: {province: BS, lat: 45.461, lon: 10.484}
+  Iseo: {province: BS, lat: 45.66, lon: 10.05}
+  Rodengo Saiano: {province: BS, lat: 45.6, lon: 10.11}
+  Desenzano del Garda: {province: BS, lat: 45.47, lon: 10.54}
+  Montichiari: {province: BS, lat: 45.415, lon: 10.393}
+  Rovato: {province: BS, lat: 45.567, lon: 9.999}
+  Gussago: {province: BS, lat: 45.593, lon: 10.157}
+  Rezzato: {province: BS, lat: 45.512, lon: 10.32}
+  Concesio: {province: BS, lat: 45.603, lon: 10.218}
+  Lumezzane: {province: BS, lat: 45.65, lon: 10.265}
+  Chiari: {province: BS, lat: 45.537, lon: 9.929}
+  Palazzolo sull'Oglio: {province: BS, lat: 45.597, lon: 9.886}

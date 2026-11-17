@@ -1,0 +1,6 @@
+# Brescia genres set by Filippo. Same format and priority as the main config/genres.yaml:
+# nights > always > promoters > venues. Empty until Filippo fills it in.
+nights: []
+venues: {}
+always: {}
+promoters: {}

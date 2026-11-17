@@ -1,0 +1,97 @@
+# Promoters, crews and party brands in the Brescia +20 km area (first research pass, 2026-11-17).
+# Same format as the main config/promoters.yaml. `instagram: null` = handle not confirmed yet.
+# ig_source: website = an event page (RA) links the handle; null = to confirm (Filippo).
+
+promoters:
+  - name: Tetrahedron
+    aliases: [TETRAHEDRON, Tetrahedron Underground Techno Experience]
+    party_name: Tetrahedron
+    instagram: __tetrahedron_
+    ig_source: website
+    genres: [techno]
+    venues: [16beat Club]
+    notes: "Berlin Techno Brixia Night (31 Oct, 28 Nov 2026), 22:30-05:00. RA promoter."
+  - name: Nexum Lab
+    aliases: [Nexum, NEXUM LAB, Millennia x Nexum]
+    instagram: nexum_lab
+    ig_source: website
+    genres: [hard techno]
+    venues: [Florida]
+    notes: "Hard techno stage at Florida (Junkie Kid, 21 Jun 2025)."
+  - name: Underground Techno Research
+    aliases: [UTR, Level Up]
+    instagram: null
+    ig_source: null
+    genres: [techno, hard techno]
+    venues: [Florida]
+    notes: "Level Up Outdoor at Florida (1 Jun 2026, 16:00-04:00); also runs nights at Tunnel, Milan."
+  - name: Panorama
+    aliases: [Panorama by Solardo]
+    instagram: null
+    ig_source: null
+    genres: [house, tech house]
+    venues: [Circus Beatclub]
+    notes: "International house Fridays at Circus (Solardo, Mark Knight, Silvie Loto)."
+  - name: Stupidsco
+    instagram: null
+    ig_source: null
+    genres: [melodic house]
+    venues: [Circus Beatclub]
+    notes: "Friday at Circus (Samuele Sartini, Oct 2025)."
+  - name: VidaLoca
+    aliases: [Vida Loca]
+    instagram: null
+    ig_source: null
+    genres: [commerciale, latin, hip hop]
+    venues: [Circus Beatclub, Molo]
+  - name: Rehab
+    aliases: [Rehab Best Hip Hop, Rehab All Starz]
+    instagram: null
+    ig_source: null
+    genres: [hip hop]
+    venues: [Circus Beatclub]
+    notes: "Thursdays at Circus, about two a month."
+  - name: Crush
+    aliases: [Crush Homegames, Candy Crush, Crush and Friends]
+    instagram: null
+    ig_source: null
+    genres: [commerciale, edm]
+    venues: [Circus Beatclub]
+    notes: "Saturdays at Circus, young crowd."
+  - name: Friday Fiesta
+    instagram: null
+    ig_source: null
+    venues: [Circus Beatclub]
+  - name: True Love
+    instagram: null
+    ig_source: null
+    genres: [house]
+    venues: [Molo]
+    notes: "House night at Molo (Arielle Free)."
+  - name: DTM90
+    aliases: [Dance Time Machine 90]
+    instagram: null
+    ig_source: null
+    genres: [90s, dance]
+    venues: [Florida]
+    notes: "90s revival, Florida 21 Nov 2026."
+  - name: Blow Club
+    instagram: null
+    ig_source: null
+    genres: [hip hop, r&b]
+    venues: [Disco Volante Culture Club]
+  - name: Smooth
+    instagram: null
+    ig_source: null
+    genres: [deep house]
+    venues: [Disco Volante Culture Club]
+  - name: Soleil
+    instagram: soleil_party
+    ig_source: press
+    notes: "Credited on a Vinile 45 reel in Giornale di Brescia (Feb 2026); what it is is unclear."
+  - name: Centrale Elettronica
+    aliases: [Centrale Elettronica Festival]
+    instagram: null
+    ig_source: null
+    genres: [techno, house]
+    notes: "Festival, 27-28 June 2026, Area Feste Sant'Eufemia - Buffalora."

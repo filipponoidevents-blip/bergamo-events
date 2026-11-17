@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Berlin Techno Brixia Night",
+    "start": "2026-11-28T22:30:00+01:00",
+    "venue": {
+      "name": "16beat Club",
+      "city": "Brescia",
+      "province": "BS",
+      "lat": 45.513,
+      "lon": 10.214,
+      "address": "Via della Volta 74, 25122 Brescia",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "16beat.club",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/281616"
+      },
+      "verified": false
+    },
+    "end": "2026-11-29T05:00:00+01:00",
+    "artists": [
+      {
+        "name": "ELFIRE",
+        "role": "dj",
+        "genres": [],
+        "socials": {
+          "instagram": "teo_elfire",
+          "tiktok": null,
+          "facebook": null,
+          "website": null,
+          "resident_advisor": null
+        }
+      },
+      {
+        "name": "DEEGA",
+        "role": "dj",
+        "genres": [],
+        "socials": {
+          "instagram": "deegamusic",
+          "tiktok": null,
+          "facebook": null,
+          "website": null,
+          "resident_advisor": null
+        }
+      },
+      {
+        "name": "VALLUM",
+        "role": "dj",
+        "genres": [],
+        "socials": {
+          "instagram": "vallumams",
+          "tiktok": null,
+          "facebook": null,
+          "website": null,
+          "resident_advisor": null
+        }
+      }
+    ],
+    "genres": [
+      "techno"
+    ],
+    "genre": "Techno",
+    "genre_source": "event",
+    "headliners": [
+      "ELFIRE",
+      "DEEGA",
+      "VALLUM"
+    ],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": null,
+    "fascia_auto": "serata",
+    "fascia_why": "finisce alle 05:00",
+    "in_posts": true,
+    "rank": 1.83,
+    "category": "club",
+    "description": "",
+    "url": "https://ra.co/events/2579079",
+    "ticket_url": null,
+    "image_url": null,
+    "price": null,
+    "promoter": null,
+    "promoter_name": "Tetrahedron",
+    "room": null,
+    "sources": [
+      "manual"
+    ],
+    "source_urls": [],
+    "score": 4.5,
+    "scope": "local",
+    "distance_km": 3.2,
+    "reasons": [
+      "genre:techno",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-17T14:19:05.734831+00:00",
+    "updated": "2026-11-17T14:19:05.734831+00:00",
+    "uid": "fd236698bdd95fe6"
+  }
+]

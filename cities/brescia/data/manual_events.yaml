@@ -1,0 +1,14 @@
+# Hand-entered Brescia events (same format as the main data/manual_events.yaml).
+events:
+  - title: "Berlin Techno Brixia Night"     # found on RA (ra.co/events/2579079), 2026-11-17
+    start: 2026-11-28T22:30
+    end: 2026-11-29T05:00
+    venue: 16beat Club
+    promoter: Tetrahedron
+    genres: [techno]
+    category: club
+    url: https://ra.co/events/2579079
+    artists:
+      - {name: ELFIRE, socials: {instagram: teo_elfire}}
+      - {name: DEEGA, socials: {instagram: deegamusic}}
+      - {name: VALLUM, socials: {instagram: vallumams}}
