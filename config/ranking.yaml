@@ -18,7 +18,7 @@ venues:
   "Live Club": 8
   "Setai Club": {score: 6, capacity: 700, rooms: {garden: {score: 10, capacity: 1000}, sala privè: {score: 6, capacity: 50}, sala privé: {score: 6, capacity: 50}, sala prive: {score: 6, capacity: 50}}}
   "Zero Club": {score: 7, capacity: 500, rooms: {main room: {score: 10, capacity: 500}, club room: {score: 6, capacity: 100}}}
-  "Nikita": {score: 7, capacity: 1000, rooms: {el cielo: {score: 6, capacity: 500}}}   # a second room of ~600 exists, name unknown (Filippo)
+  "Nikita": {score: 7, capacity: 1000, rooms: {el cielo: {score: 6, capacity: 500}}}   # El Cielo = summer room; a ~600 room exists, name unknown (Filippo)
   "Bobadilla": {score: 6, capacity: 500}
   "Hype Club": {score: 6, capacity: 500}
   "Tiky Klub": {score: 6, capacity: 300}
