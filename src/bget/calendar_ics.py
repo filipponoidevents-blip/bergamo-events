@@ -79,7 +79,7 @@ def headliners(ev: Event) -> str:
     return ev.headliners[0] if ev.headliners else ""
 
 
-def describe(ev: Event) -> str:
+def describe(ev: Event, home: str = "Bergamo") -> str:
     """Details, always in this order, Italian labels; lines with nothing to say are left out."""
     local = ev.start.astimezone(ROME)
     lines = [f"Inizio: {local:%H:%M}" + (" (dopo mezzanotte)" if local.hour < 6 else "")
@@ -109,7 +109,7 @@ def describe(ev: Event) -> str:
     if ev.url:
         lines.append("Post: " + ev.url)
     if ev.alert_level:
-        dist = f" ({ev.distance_km} km da Bergamo)" if ev.distance_km is not None else ""
+        dist = f" ({ev.distance_km} km da {home})" if ev.distance_km is not None else ""
         lines.append(f"ALERT: {ev.alert_level}{dist}")
     handles = ev.all_handles("instagram")
     if handles:
@@ -120,7 +120,7 @@ def describe(ev: Event) -> str:
 
 
 def build_ics(events: Iterable[Event], name: str, prefix: str = "",
-              reminders: Iterable[tuple] = ()) -> str:
+              reminders: Iterable[tuple] = (), home: str = "Bergamo") -> str:
     """reminders: (uid, date, summary, description) all-day notes, e.g. token renewal."""
     now = _utc(datetime.now(timezone.utc))
     out = [
@@ -138,7 +138,7 @@ def build_ics(events: Iterable[Event], name: str, prefix: str = "",
             f"DTSTART:{_utc(calendar_start(ev))}",  # no DTEND: start time only (Filippo)
             f"SUMMARY:{_esc(night_summary(ev, prefix))}",
             f"LOCATION:{_esc(loc)}",
-            f"DESCRIPTION:{_esc(describe(ev))}",
+            f"DESCRIPTION:{_esc(describe(ev, home))}",
             f"CATEGORIES:{_esc(ev.category.value)}",
         ]
         if ev.url:

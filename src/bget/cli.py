@@ -6,6 +6,8 @@
     python -m bget carousel --week 2026-11-16
     python -m bget carousel --month 2026-11
     python -m bget run                # collect + calendar + alerts (what the scheduler calls)
+    python -m bget --city brescia run # same for another city (folder cities/brescia/)
+    python -m bget --city all run     # every city, one after the other
 """
 from __future__ import annotations
 
@@ -14,7 +16,7 @@ import logging
 from datetime import date, datetime, timedelta, timezone
 
 from . import calendar_ics, carousel, social
-from .config import Config
+from .config import Config, all_cities, city_root
 from . import fascia
 from .genres import GenreAssigner
 from .headliners import HeadlinerFinder
@@ -59,7 +61,8 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
             q = src._load_review()
             write_review_md(cfg.root, q["items"], *src.decisions(), unreadable=q.get("unreadable_accounts"))
             from zoneinfo import ZoneInfo
-            write_other_events(cfg.root, other_events(cfg, q["items"], ZoneInfo(cfg.settings.get("timezone", "Europe/Rome"))))
+            write_other_events(cfg.root, other_events(cfg, q["items"], ZoneInfo(cfg.settings.get("timezone", "Europe/Rome"))),
+                               cfg.label("brand"), cfg.label("feed_other"))
     hidden = cfg.root / "config" / "hidden.yaml"
     if hidden.exists():
         import yaml
@@ -110,13 +113,15 @@ def maintenance_reminders(cfg: Config) -> list[tuple]:
 def write_calendars(cfg: Config, store: Store) -> None:
     out = cfg.root / "out"
     out.mkdir(exist_ok=True)
-    (out / "bergamo.ics").write_text(calendar_ics.build_ics(upcoming(store, Scope.LOCAL), "Bergamo Nights"))
+    brand = cfg.label("brand")
+    (out / cfg.label("feed_local")).write_text(calendar_ics.build_ics(upcoming(store, Scope.LOCAL), brand))
     fascia.write_report(cfg.root, [e for e in upcoming(store, Scope.LOCAL, days_back=0)])
-    (out / "alerts.ics").write_text(calendar_ics.build_ics(
-        upcoming(store, Scope.ALERT), "Bergamo Nights · Big events", prefix="⚡ ", reminders=maintenance_reminders(cfg)))
+    (out / cfg.label("feed_alerts")).write_text(calendar_ics.build_ics(
+        upcoming(store, Scope.ALERT), f"{brand} · Big events", prefix="⚡ ", reminders=maintenance_reminders(cfg),
+        home=cfg.label("name")))
     # one combined feed is handy for a single subscription
     both = sorted(upcoming(store, Scope.LOCAL) + upcoming(store, Scope.ALERT), key=lambda e: e.start)
-    (out / "all.ics").write_text(calendar_ics.build_ics(both, "Bergamo Nights · All"))
+    (out / cfg.label("feed_all")).write_text(calendar_ics.build_ics(both, f"{brand} · All", home=cfg.label("name")))
 
 
 def write_alerts(cfg: Config, store: Store) -> str:
@@ -141,14 +146,24 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
         d = date.fromisoformat(week)
         monday = d - timedelta(days=d.weekday())
         slides = carousel.weekly(local, monday, alerts)
-        stem, title = f"week_{monday.isoformat()}", f"Bergamo Nights · settimana {monday:%d/%m}"
+        stem, title = f"week_{monday.isoformat()}", f"{cfg.label('brand')} · settimana {monday:%d/%m}"
     else:
         y, m = map(int, month.split("-"))
         slides = carousel.monthly(local, y, m, alerts)
-        stem, title = f"month_{y}-{m:02d}", f"Bergamo Nights · {carousel.MESI[m]} {y}"
+        stem, title = f"month_{y}-{m:02d}", f"{cfg.label('brand')} · {carousel.MESI[m]} {y}"
     paths = carousel.save(slides, outdir, stem)
     bundle = social.build_bundle(paths, [evs for _, evs in slides], title, outdir / f"{stem}_post.json")
     print(f"{len(paths)} slides -> {outdir}  (post bundle: {bundle.name})")
+
+
+def apply_city_labels(cfg: Config) -> None:
+    """Point the post renderer and captions at this city's labels (account, area line, hashtags)."""
+    for name, value in (("HANDLE", cfg.label("handle")), ("AREA", cfg.label("area"))):
+        if hasattr(carousel, name):
+            setattr(carousel, name, value)
+    if isinstance(getattr(carousel, "THEME", None), dict) and "handle" in carousel.THEME:
+        carousel.THEME["handle"] = cfg.label("handle")
+    social.BASE_TAGS[:] = cfg.hashtags()
 
 
 def probe(cfg: Config, urls: list[str], follow: str | None) -> None:
@@ -205,6 +220,7 @@ def probe(cfg: Config, urls: list[str], follow: str | None) -> None:
 def main(argv: list[str] | None = None) -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     p = argparse.ArgumentParser(prog="bget")
+    p.add_argument("--city", default="bergamo", help="bergamo (default), a folder name in cities/, or all")
     sub = p.add_subparsers(dest="cmd", required=True)
     for c in ("collect", "calendar", "alerts", "run"):
         sub.add_parser(c)
@@ -216,8 +232,17 @@ def main(argv: list[str] | None = None) -> None:
     g.add_argument("--week", help="any date in the week, YYYY-MM-DD")
     g.add_argument("--month", help="YYYY-MM")
     a = p.parse_args(argv)
+    if a.city == "all":
+        for city in all_cities():
+            print(f"=== {city}")
+            run_city(a, city)
+        return
+    run_city(a, a.city)
 
-    cfg = Config.load()
+
+def run_city(a, city: str) -> None:
+    cfg = Config.load(city_root(city))
+    apply_city_labels(cfg)
     if a.cmd == "probe":
         probe(cfg, a.urls, a.follow)
         return
