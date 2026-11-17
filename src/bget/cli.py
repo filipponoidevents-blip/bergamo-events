@@ -129,8 +129,12 @@ def _other_events(cfg: Config):
 def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None,
                   midweek: str | None = None, formats: tuple[str, ...] = ("ig", "tt")) -> list:
     """Render a post for Instagram (4:5) and TikTok (9:16) and write its post bundle."""
-    local = [e for e in store.all() if e.scope == Scope.LOCAL]
-    alerts = [e for e in store.all() if e.scope == Scope.ALERT]
+    def serata(e) -> bool:   # serata or preserata, by venue: settings.yaml serata_from
+        return carousel.is_night(e, cfg.serata_from(e.venue))
+    club = [e for e in store.all() if e.scope == Scope.LOCAL]
+    local = [e for e in club if serata(e)]
+    early = [e for e in club if not serata(e)]
+    alerts = [e for e in store.all() if e.scope == Scope.ALERT and serata(e)]
     outdir = cfg.root / "out" / "carousels"
     if week or midweek:
         d = date.fromisoformat(week or midweek)
@@ -139,7 +143,7 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
         build = lambda fmt: carousel.weekly(local, monday, alerts, fmt)  # noqa: E731
         stem, title = f"week_{monday.isoformat()}", f"Serate Bergamo · settimana {monday:%d/%m}"
     elif midweek:
-        others = _other_events(cfg)
+        others = _other_events(cfg) + [("food_drink", e) for e in early]
         build = lambda fmt: carousel.midweek(others, monday, fmt)  # noqa: E731
         stem, title = f"midweek_{monday.isoformat()}", f"Prima della serata · {monday + timedelta(days=3):%d/%m}"
     else:

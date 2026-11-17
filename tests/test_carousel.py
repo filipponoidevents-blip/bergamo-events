@@ -50,3 +50,18 @@ def test_posting_cadence():
     assert due_posts(date(2026, 11, 18)) == [("midweek", "2026-11-18")]       # Wednesday
     assert due_posts(date(2026, 11, 29)) == [("month", "2026-12")]            # last Sunday
     assert due_posts(date(2026, 11, 22)) == []                                # not the last Sunday
+
+
+def test_early_start_is_preserata_not_serata():
+    assert carousel.is_night(ev(20, 22)) and carousel.is_night(ev(21, 0))
+    assert not carousel.is_night(ev(20, 18)) and not carousel.is_night(ev(20, 21))
+    assert carousel.is_night(ev(20, 21), "21:00")
+
+
+def test_serata_threshold_depends_on_venue_kind():
+    from bget.config import Config
+    cfg = Config.load()
+    club, bar = Venue("Esempio Club", "Bergamo", kind="club"), Venue("Esempio Bar", "Bergamo", kind="bar")
+    assert cfg.serata_from(club) == "00:00" and cfg.serata_from(bar) == "23:00"
+    e = ev(20, 21)
+    assert carousel.is_night(e, cfg.serata_from(club)) and not carousel.is_night(e, cfg.serata_from(bar))

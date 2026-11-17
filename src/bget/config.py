@@ -54,6 +54,15 @@ class Config:
                 )
         return None
 
+    def serata_from(self, venue: Venue) -> str:
+        """Earliest start that makes a night a "serata" at this venue (settings.yaml serata_from)."""
+        n = slug(venue.name)
+        for v in self.venues:
+            if v.get("serata_from") and any(slug(x) == n for x in [v["name"], *v.get("aliases", [])]):
+                return str(v["serata_from"])
+        table = self.settings.get("serata_from") or {}
+        return str(table.get(venue.kind) or table.get("default") or "22:00")
+
     def enrich_venue(self, venue: Venue) -> Venue:
         """Fill gaps (coords, province, handles) from the registry and town table."""
         known = self.match_venue(venue.name, venue.city)

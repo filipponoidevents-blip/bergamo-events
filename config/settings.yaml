@@ -39,6 +39,18 @@ venue_kind_bonus:
   open_air: 1.0
   live_club: 0.3
 
+# Serata or preserata, decided by venue (Filippo, 2026-11-17): a night counts as a "serata" when it
+# starts at or after this time (or after midnight, before 06:00). Earlier ones are pre-party: they
+# leave the weekly/monthly posts and go in the midweek "Prima della serata" post as PRESERATA.
+# Set by venue kind here; one venue can differ with `serata_from: "21:00"` in venues.yaml.
+serata_from:
+  club: "00:00"        # discos: always a serata, whatever time they open
+  open_air: "00:00"
+  arena: "00:00"
+  live_club: "22:00"
+  bar: "23:00"         # bars, lounges, cocktail bars: preserata unless it starts late
+  default: "22:00"
+
 thresholds:
   local_min_score: 2.0      # in-radius event needs this much to make the calendar
   alert_min_score: 6.0      # out-of-radius event needs this much (or a watchlist hit)
