@@ -1,7 +1,15 @@
-# Ranking: decides the order of nights in the posts (higher = first). Filippo edits this file.
-# Scale 1-10. A night's rank = the higher of its venue and its promoter, + the room's adjustment,
-# + 1 for each notable artist on the watchlist (max +2). Leave a promoter at null to use the venue's score.
-# First pass 2026-11-17 by Claude from venues.yaml (type of venue), to be corrected by hand.
+# Ranking: the order of nights in the posts (higher first). Filippo edits this file.
+# Each night gets five scores 0-10 and a weighted average of them (src/bget/ranking.py):
+#   location  the venue's importance          -> venues: "Name": score   (or {score, capacity, rooms})
+#   room      main room 10, second rooms lower -> rooms (below), or per venue under rooms:
+#   capacity  people the venue/room holds      -> capacity: 800 (100 -> 2, 400 -> 6, 1600+ -> 10)
+#   party     the party / promoter's relevance -> promoters: "Name": score
+#   guest     special guests: watchlist name 10, "special guest" line 6, a line-up 3 (automatic)
+# A score left empty counts 0. First pass 2026-11-17 by Claude from the type of venue: to be corrected.
+# Example with rooms and capacity:
+#   "Zero Club": {score: 6, capacity: 800, rooms: {main room: {score: 10, capacity: 600}, club room: {score: 6, capacity: 200}}}
+
+weights: {location: 1.0, room: 0.5, capacity: 1.0, party: 1.5, guest: 2.0}
 
 venues:
   "Bolgia": 10
@@ -68,17 +76,17 @@ venues:
   "Bar San Marco": 3
   "Tassino Café": 3
 
-# Rooms: added to the score when the post names the room (main room first, second rooms lower).
+# Rooms, for every venue (a venue's own rooms: list win). A night that names no room = main room (10).
 rooms:
-  main room: 0
-  main area: 0
-  club room: -1
-  lab room: -1
-  garden: -1
-  theater room: -1
-  bunker: -1
+  main room: 10
+  main area: 10
+  club room: 6
+  lab room: 6
+  garden: 6
+  theater room: 6
+  bunker: 6
 
-promoters:   # null = same as the venue
+promoters:   # party relevance 1-10; null = not rated yet
   "Cheri": null
   "Hidden Hell": null
   "Galactica Festival": null

@@ -380,3 +380,6 @@ def test_rank_order():
     room = Event(title="Zero Club - Club room", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""))
     main = Event(title="Zero Club - Main room", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""))
     assert r.rank(bolgia) > r.rank(main) > r.rank(room) > r.rank(bar)
+    guest = Event(title="Bolgia", start=datetime(2026, 11, 21, 23), venue=Venue(name="Bolgia", city=""),
+                  description="Special Guest: MARIE VAUNT")
+    assert r.rank(guest) > r.rank(bolgia)
