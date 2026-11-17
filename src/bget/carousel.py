@@ -70,12 +70,12 @@ def _font(name: str, size: int, weight: int | None = None, width: int | None = N
     return f
 
 
-def chunk(size: int) -> ImageFont.FreeTypeFont:      # display: month, dates, venues
-    return _font("Unbounded.ttf", size, weight=900)
+def chunk(size: int) -> ImageFont.FreeTypeFont:      # display: month, dates, venues (Filippo's pick, 2026-11-17)
+    return _font("FamiljenGrotesk.ttf", size, weight=700)
 
 
-def grot(size: int, weight: int = 700) -> ImageFont.FreeTypeFont:   # text
-    return _font("Archivo.ttf", size, weight=weight, width=100)
+def grot(size: int, weight: int = 700) -> ImageFont.FreeTypeFont:   # text (Roboto, given by Filippo)
+    return _font("Roboto.ttf", size, weight=weight, width=100)
 
 
 def mono(size: int) -> ImageFont.FreeTypeFont:       # edge info
@@ -123,21 +123,30 @@ def _edges(p: Page, top_items: list[str], bottom_items: list[str]) -> None:
             p.d.text((x, y), t, font=m, fill=p.fg, anchor="la" if i == 0 else ("ra" if i == len(items) - 1 else "ma"))
 
 
+def cap(f: ImageFont.FreeTypeFont) -> int:
+    """Height of a capital letter above the baseline: used to line text up by its baseline."""
+    return -f.getbbox("H", anchor="ls")[1]
+
+
+def _mid(d: ImageDraw.ImageDraw, x: float, cy: float, text: str, f, fill, anchor: str = "l") -> None:
+    """Draw text with its capitals centred on cy (fonts differ in how "mm" centres)."""
+    d.text((x, cy + cap(f) / 2), text, font=f, fill=fill, anchor=anchor + "s")
+
+
 def _dot(p: Page, cx: float, cy: float, r: float, label: str, size: int) -> None:
     p.d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=p.fg)
-    p.d.text((cx, cy), label, font=grot(size, 800), fill=p.bg, anchor="mm")
+    _mid(p.d, cx, cy, label, grot(size, 800), p.bg, "m")
 
 
-def _big_title(p: Page, lines: list[str], y: int, align: str = "right") -> int:
-    for t in lines:
+def _big_title(p: Page, lines: list[str], y: int, align: str = "center") -> int:
+    """Huge title lines filling the width; y is the top of the capitals, returns the last baseline."""
+    for i, t in enumerate(lines):
         f = chunk(400)
-        while p.d.textlength(t, font=f) > p.w - 2 * MX - 10:
+        while p.d.textlength(t, font=f) > p.w - 2 * MX:
             f = chunk(f.size - 6)
-        if align == "right":
-            p.d.text((p.w - MX, y), t, font=f, fill=p.fg, anchor="ra")
-        else:
-            p.d.text((MX - 6, y), t, font=f, fill=p.fg)
-        y += int(f.size * 0.98)
+        y += cap(f) + (int(f.size * 0.12) if i else 0)
+        x, a = {"center": (p.w / 2, "ms"), "right": (p.w - MX, "rs")}.get(align, (MX, "ls"))
+        p.d.text((x, y), t, font=f, fill=p.fg, anchor=a)
     return y
 
 
@@ -146,7 +155,7 @@ def _big_title(p: Page, lines: list[str], y: int, align: str = "right") -> int:
 def _month_cover(fmt: str, year: int, month: int, nights: dict[date, int]) -> Image.Image:
     p = _page(fmt, CLUB, f"N°{month:02d}", "SOLO DJ & CLUB", f"{MESI[month][:3].upper()} {year}")
     d, R = p.d, p.w - MX
-    y = _big_title(p, [MESI[month][:3].upper()], p.top + 50) + 30
+    y = _big_title(p, [MESI[month][:3].upper()], p.top + 70) + 50
     cw = (R - MX) / 7
     for i, g in enumerate(GIORNI):
         d.text((MX + cw * i + cw / 2, y), g, font=chunk(22), fill=p.fg, anchor="ma")
@@ -167,7 +176,7 @@ def _month_cover(fmt: str, year: int, month: int, nights: dict[date, int]) -> Im
             if date(year, month, day) in nights:
                 _dot(p, cx, cy, min(cw, ch) * 0.3, str(day), 30)
             else:
-                d.text((cx, cy), str(day), font=grot(30, 500), fill=p.fg, anchor="mm")
+                _mid(d, cx, cy, str(day), grot(30, 500), p.fg, "m")
     y = y + ch * len(weeks) + 24
     total = sum(nights.values())
     lab = chunk(30)
@@ -183,7 +192,7 @@ def _strip_cover(fmt: str, pal: dict, title: list[str], subtitle: str | None, da
     last = days[-1]
     p = _page(fmt, pal, top_mid, bottom_mid, f"{MESI[last.month][:3].upper()} {last.year}")
     d, R = p.d, p.w - MX
-    y = _big_title(p, title, p.top + 50, align="right" if pal is CLUB else "left") + 20
+    y = _big_title(p, title, p.top + 70, align="center" if pal is CLUB else "left") + 50
     if subtitle:
         d.line([(MX, y), (R, y)], fill=p.fg, width=2)
         y += 24
@@ -202,7 +211,7 @@ def _strip_cover(fmt: str, pal: dict, title: list[str], subtitle: str | None, da
         if counts.get(day):
             _dot(p, x, cy, r, str(day.day), int(r * 0.85))
         else:
-            d.text((x, cy), str(day.day), font=grot(40, 500), fill=p.fg, anchor="mm")
+            _mid(d, x, cy, str(day.day), grot(40, 500), p.fg, "m")
         for k, lab in enumerate((labels or {}).get(day, [])):
             d.text((x, cy + r + 30 + k * 34), lab, font=grot(24, 700), fill=p.fg, anchor="ma")
         if counts.get(day) and labels is None:
@@ -282,18 +291,17 @@ def _row_height(r: Row, pill: bool, dense: bool | str = False) -> int:
 def _draw_mid(p: Page, y: int, r: Row, pill: bool) -> int:
     """Two lines per night: time + venue, then genre · party · w/ headliner."""
     d, R = p.d, p.w - MX
-    y += 18
-    x = MX
-    if r.time:
-        d.text((x, y + 4), r.time, font=chunk(34), fill=p.fg)
     x = MX + 172
     text, f = _fit(d, r.head, chunk, 46, R - x, min_size=26)
-    d.text((x, y), text, font=f, fill=p.fg)
-    y += 60
+    base = y + 22 + cap(chunk(46))
+    if r.time:
+        d.text((MX, base), r.time, font=chunk(34), fill=p.fg, anchor="ls")
+    d.text((x, base), text, font=f, fill=p.fg, anchor="ls")
+    y += 18 + 60
     if pill and r.tag:
         f = grot(22, 800)
-        d.rounded_rectangle([x, y, x + d.textlength(r.tag, font=f) + 32, y + 38], 19, fill=p.fg)
-        d.text((x + 16, y + 19), r.tag, font=f, fill=p.bg, anchor="lm")
+        d.rounded_rectangle([x, y + 2, x + d.textlength(r.tag, font=f) + 32, y + 38], 18, fill=p.fg)
+        _mid(d, x + 16, y + 20, r.tag, f, p.bg)
         x2 = x + d.textlength(r.tag, font=f) + 48
         rest = ", ".join(t for t in [r.sub, r.extra] if t)
     else:
@@ -301,7 +309,7 @@ def _draw_mid(p: Page, y: int, r: Row, pill: bool) -> int:
         rest = ", ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
     if rest and R - x2 > 80:
         text, f = _fit(d, rest, lambda z: grot(z, 600), 30, R - x2, min_size=20)
-        d.text((x2, y + 2), text, font=f, fill=p.fg)
+        d.text((x2, y + 8 + cap(f)), text, font=f, fill=p.fg, anchor="ls")
     y += MID_ROW - 78
     d.line([(MX, y), (R, y)], fill=p.fg, width=1)
     return y
@@ -310,16 +318,16 @@ def _draw_mid(p: Page, y: int, r: Row, pill: bool) -> int:
 def _draw_dense(p: Page, y: int, r: Row) -> int:
     """One line per event, for the monthly post: 23:00  VENUE  party / headliner."""
     d, R = p.d, p.w - MX
-    y += 14
-    d.text((MX, y), r.time, font=chunk(28), fill=p.fg)
+    base = y + 14 + cap(chunk(32))
+    d.text((MX, base), r.time, font=chunk(28), fill=p.fg, anchor="ls")
     x = MX + 150
     text, f = _fit(d, r.head, chunk, 32, (R - x) * 0.62, min_size=22)
-    d.text((x, y), text, font=f, fill=p.fg)
+    d.text((x, base), text, font=f, fill=p.fg, anchor="ls")
     x += d.textlength(text, font=f) + 20
     rest = ", ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
     if rest and R - x > 80:
         text, f = _fit(d, rest, lambda z: grot(z, 600), 28, R - x, min_size=20)
-        d.text((x, y + 4), text, font=f, fill=p.fg)
+        d.text((x, base), text, font=f, fill=p.fg, anchor="ls")
     y += DENSE_ROW - 14
     d.line([(MX, y), (R, y)], fill=p.fg, width=1)
     return y
@@ -328,32 +336,29 @@ def _draw_dense(p: Page, y: int, r: Row) -> int:
 def _draw_row(p: Page, y: int, r: Row, pill: bool) -> int:
     d, R = p.d, p.w - MX
     y += 24
-    d.text((MX, y), r.time, font=chunk(40), fill=p.fg)
+    cy = y + 24                                   # centre line of the time and the pills
+    if r.time:
+        _mid(d, MX, cy, r.time, chunk(40), p.fg)
     tx = MX + (d.textlength(r.time, font=chunk(40)) + 30 if r.time else 0)
-    if r.label:
-        f = grot(24, 800)
-        d.rounded_rectangle([tx, y + 2, tx + d.textlength(r.label, font=f) + 36, y + 46], 22, fill=p.fg)
-        d.text((tx + 18, y + 24), r.label, font=f, fill=p.bg, anchor="lm")
-        tx += d.textlength(r.label, font=f) + 56
-    if r.tag:
-        if pill:
+    for text, as_pill in ((r.label, True), (r.tag, pill)):
+        if not text:
+            continue
+        if as_pill:
             f = grot(24, 800)
-            d.rounded_rectangle([tx, y + 2, tx + d.textlength(r.tag, font=f) + 36, y + 46], 22, fill=p.fg)
-            d.text((tx + 18, y + 24), r.tag, font=f, fill=p.bg, anchor="lm")
+            d.rounded_rectangle([tx, cy - 22, tx + d.textlength(text, font=f) + 36, cy + 22], 22, fill=p.fg)
+            _mid(d, tx + 18, cy, text, f, p.bg)
+            tx += d.textlength(text, font=f) + 56
         else:
-            d.text((tx, y + 12), r.tag, font=grot(26, 600), fill=p.fg)
+            _mid(d, tx, cy, text, grot(26, 600), p.fg)
     y += 64
     text, f = _fit(d, r.head, chunk, 62, R - MX)
-    d.text((MX, y), text, font=f, fill=p.fg)
+    d.text((MX, y + cap(chunk(62))), text, font=f, fill=p.fg, anchor="ls")
     y += 76
-    if r.sub:
-        text, f = _fit(d, r.sub, lambda s: grot(s, 800), 40, R - MX)
-        d.text((MX, y), text, font=f, fill=p.fg)
-        y += 52
-    if r.extra:
-        text, f = _fit(d, r.extra, lambda s: grot(s, 500), 36, R - MX)
-        d.text((MX, y), text, font=f, fill=p.fg)
-        y += 52
+    for text, w, size in ((r.sub, 800, 40), (r.extra, 500, 36)):
+        if text:
+            t2, f = _fit(d, text, lambda s, w=w: grot(s, w), size, R - MX)
+            d.text((MX, y + cap(f) + 6), t2, font=f, fill=p.fg, anchor="ls")
+            y += 52
     y += 12
     d.line([(MX, y), (R, y)], fill=p.fg, width=2)
     return y
@@ -369,7 +374,9 @@ def _date_header(p: Page, y: int, day: date | None, label: str | None, compact: 
     else:
         big = chunk(110 if small else 150 if compact else 300)
         num = str(day.day)
-        d.text((MX - 8, y), num, font=big, fill=p.fg)
+        top = y + int(big.size * 0.2)
+        base = top + cap(big)
+        d.text((MX - 4, base), num, font=big, fill=p.fg, anchor="ls")
         nx = MX + d.textlength(num, font=big) + (24 if compact else 40)
         a, b = GIORNI_LUNGHI[day.weekday()].upper(), MESI[day.month].upper()
         if label:
@@ -377,9 +384,9 @@ def _date_header(p: Page, y: int, day: date | None, label: str | None, compact: 
         fs = 64 if not compact else 32 if small else 40
         while max(d.textlength(a, font=chunk(fs)), d.textlength(b, font=chunk(fs))) > R - nx and fs > 20:
             fs -= 2
-        top = y + big.size * 0.18
-        d.text((nx, top), a, font=chunk(fs), fill=p.fg)
-        d.text((nx, top + fs * 1.3), b, font=chunk(fs), fill=p.fg)
+        f = chunk(fs)
+        d.text((nx, top + cap(f)), a, font=f, fill=p.fg, anchor="ls")   # top of the number
+        d.text((nx, base), b, font=f, fill=p.fg, anchor="ls")           # baseline of the number
         y += int(big.size * 1.08)
     d.line([(MX, y), (R, y)], fill=p.fg, width=2)
     return y
@@ -393,7 +400,7 @@ def _section_head(p: Page, y: int, title: str) -> int:
     d = p.d
     d.rectangle([MX, y, p.w - MX, y + SECTION_H - 26], fill=p.fg)
     text, f = _fit(d, title, chunk, 46, p.w - 2 * MX - 40, min_size=26)
-    d.text((MX + 20, y + (SECTION_H - 26) / 2), text, font=f, fill=p.bg, anchor="lm")
+    _mid(d, MX + 20, y + (SECTION_H - 26) / 2, text, f, p.bg)
     return y + SECTION_H
 
 
@@ -583,8 +590,12 @@ def midweek(others: Iterable[tuple[str, Event]], week_start: date, fmt: str = "i
     sel = sorted(((k, e) for k, e in others if k in MIDWEEK_KINDS and days[0] <= e.night <= days[-1]),
                  key=lambda x: x[1].start)
     per_day: dict[date, list[tuple[str, Event]]] = defaultdict(list)
-    for k, e in sel:
-        per_day[e.night].append((k, e))
+    seen = set()
+    for k, e in sel:   # the same event read from several posts shows once
+        key = (e.venue.name.lower(), e.start, clean(party_name(e) or e.title).lower())
+        if key not in seen:
+            seen.add(key)
+            per_day[e.night].append((k, e))
     labels = {dd: list(dict.fromkeys(MIDWEEK_KINDS[k] for k, _ in v))[:3] for dd, v in per_day.items()}
     kinds = list(dict.fromkeys(MIDWEEK_KINDS[k].lower() for k, _ in sel)) or ["aperitivi", "comedy", "quiz", "cultura"]
     end = days[-1]
