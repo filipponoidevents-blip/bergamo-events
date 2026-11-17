@@ -403,8 +403,10 @@ def _numbered(slides: list[Slide], fmt: str) -> list[Slide]:
 
 
 def _by_night(events: Iterable[Event]) -> dict[date, list[Event]]:
+    """Nights by date; within a date the most important first (ev.rank, set by the collector from
+    the venue / room / promoter scores, Filippo 2026-11-17), then by start time."""
     out: dict[date, list[Event]] = defaultdict(list)
-    for e in sorted(events, key=lambda e: e.start):
+    for e in sorted(events, key=lambda e: (-(getattr(e, "rank", None) or 0), e.start)):
         out[e.night].append(e)
     return out
 
