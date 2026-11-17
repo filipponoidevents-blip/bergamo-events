@@ -16,6 +16,15 @@ The data shipped in `data/manual_events.yaml` and `tests/fixtures/` is **sample 
 (titles start with `[SAMPLE]`). Venue coordinates in `config/venues.yaml` are approximate
 and social handles are blank until checked by hand.
 
+## More cities
+
+Bergamo lives at the repo root (`config/`, `data/`, `out/`). Every other city has the same folders in
+`cities/<name>/` (Brescia: `cities/brescia/`). A city's `settings.yaml` only holds what differs (centre,
+radius, alert provinces, labels); the rest is inherited, and `watchlist.yaml` is shared.
+`python -m bget --city brescia run`, or `--city all` (what the workflow runs). Feeds are published next to
+Bergamo's as `brescia.ics`, `brescia_alerts.ics`, `brescia_all.ics`; reports go in `brescia/` on the site.
+To add a city: `docs/nuova-citta.md`.
+
 ## How it fits together
 
 ```

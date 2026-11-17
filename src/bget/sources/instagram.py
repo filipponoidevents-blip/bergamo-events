@@ -491,7 +491,8 @@ def other_events(cfg, items: dict[str, Any], tz) -> list[tuple[str, Event]]:
     return sorted(out, key=lambda x: x[1].start)
 
 
-def write_other_events(root: Path, others: list[tuple[str, Event]]) -> None:
+def write_other_events(root: Path, others: list[tuple[str, Event]],
+                       brand: str = "Bergamo Nights", feed: str = "other.ics") -> None:
     from ..calendar_ics import build_ics
 
     lines = ["# Other events (not on the main calendar)", "",
@@ -505,5 +506,4 @@ def write_other_events(root: Path, others: list[tuple[str, Event]]) -> None:
         lines.append("")
     (root / "out").mkdir(exist_ok=True)
     (root / "out" / "other_events.md").write_text("\n".join(lines))
-    (root / "out" / "other.ics").write_text(
-        build_ics([e for _, e in others], "Bergamo Nights · Other events", prefix=""))
+    (root / "out" / feed).write_text(build_ics([e for _, e in others], f"{brand} · Other events", prefix=""))

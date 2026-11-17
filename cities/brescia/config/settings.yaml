@@ -1,0 +1,22 @@
+# Brescia: only what differs from the main config/settings.yaml (everything else is inherited:
+# genre weights, thresholds, serata/preserata times, Instagram reader and token settings).
+home:
+  name: Brescia
+  lat: 45.5416
+  lon: 10.2118
+  radius_km: 20
+
+# Outside the radius, events are only kept as ALERTS, from these provinces (plus national brands).
+alert_provinces: [BG, MI, MB, CR, MN, VR, TN, LO, LC]
+
+# Labels used on calendars and posts. Feeds are published next to Bergamo's on the calendar site:
+#   brescia.ics, brescia_alerts.ics, brescia_all.ics, brescia_other.ics
+city:
+  brand: Brescia Nights
+  area: BRESCIA E DINTORNI
+  handle: "@seratebrescia"   # TO CONFIRM (Filippo): account shown on the Brescia posts
+  hashtags: ["#brescia", "#brescianightlife", "#techno", "#housemusic", "#techhouse", "#clubbing"]
+
+# Same Instagram token as Bergamo: the renewal reminders already go in Bergamo's alerts calendar.
+instagram:
+  token_renewed: null

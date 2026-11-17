@@ -1,0 +1,27 @@
+# Brescia ranking: the order of nights in the posts. Same format as the main config/ranking.yaml.
+# FIRST PASS by Claude from the type of venue (2026-11-17): Filippo, correct votes and capacities.
+weights: {location: 1.0, room: 0.5, capacity: 1.0, party: 1.5, guest: 2.0}
+
+venues:
+  "Circus Beatclub": {score: 8, capacity: null}
+  "Florida": {score: 8, capacity: null}
+  "16beat Club": {score: 6, capacity: null}
+  "Social Club": {score: 6, capacity: null}
+  "Number One": {score: 7, capacity: null}
+  "Molo": {score: 7, capacity: null}
+  "Ex Vinile 45": 5
+  "Latte+": 5
+  "Spettro": 4
+  "Sonida The Club": 4
+  "Disco Volante Culture Club": 4
+  "Paradiso Disco": 3
+  "Kinkys Movida Latina": 2
+  "Rincón Latino": 2
+  "Centrale Elettronica Festival": 10
+
+rooms:
+  main room: 10
+  club room: 6
+  garden: 6
+
+promoters: {}   # party relevance 1-10; empty = from the promoter's Instagram followers

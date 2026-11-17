@@ -9,6 +9,33 @@ import yaml
 from .models import Socials, Venue, slug
 
 ROOT = Path(__file__).resolve().parents[2]
+CITIES_DIR = ROOT / "cities"
+# Files a city may leave out: then the repo-wide copy in config/ is used.
+# settings.yaml is merged: the city's file only needs what differs (home, provinces, labels...).
+SHARED = ("watchlist.yaml",)
+
+
+def city_root(city: str | None) -> Path:
+    """Bergamo (the default city) lives at the repo root; every other city in cities/<name>/,
+    with the same config/, data/ and out/ folders inside."""
+    if not city or city.lower() == "bergamo":
+        return ROOT
+    root = CITIES_DIR / city.lower()
+    if not (root / "config").is_dir():
+        raise SystemExit(f"unknown city {city!r}: no folder {root / 'config'}")
+    return root
+
+
+def all_cities() -> list[str]:
+    extra = sorted(p.name for p in CITIES_DIR.iterdir() if (p / "config").is_dir()) if CITIES_DIR.is_dir() else []
+    return ["bergamo", *extra]
+
+
+def _merge(base: dict, over: dict) -> dict:
+    out = dict(base)
+    for k, v in over.items():
+        out[k] = _merge(out[k], v) if isinstance(v, dict) and isinstance(out.get(k), dict) else v
+    return out
 
 
 @dataclass
@@ -25,10 +52,16 @@ class Config:
     @classmethod
     def load(cls, root: Path = ROOT) -> "Config":
         def y(name: str) -> Any:
-            return yaml.safe_load((root / "config" / name).read_text()) or {}
+            path = root / "config" / name
+            if not path.exists() and name in SHARED:
+                path = ROOT / "config" / name
+            return yaml.safe_load(path.read_text()) or {}
         v = y("venues.yaml")
+        settings = y("settings.yaml")
+        if root != ROOT:   # a city only writes what differs from the main settings
+            settings = _merge(yaml.safe_load((ROOT / "config" / "settings.yaml").read_text()) or {}, settings)
         return cls(
-            settings=y("settings.yaml"),
+            settings=settings,
             sources=y("sources.yaml").get("sources", []),
             watchlist={k: list(vs or []) for k, vs in y("watchlist.yaml").items()},
             venues=v.get("venues", []),
@@ -37,6 +70,30 @@ class Config:
             genre_overrides=(y("genres.yaml") if (root / "config" / "genres.yaml").exists() else {}),
             root=root,
         )
+
+    # ---- per-city labels (feeds, calendar names, posts) ------------------
+    def label(self, key: str) -> str:
+        """City labels from settings `city:`. Defaults are Bergamo's, so its feed names never change."""
+        home = self.settings.get("home", {}).get("name", "Bergamo")
+        c = self.settings.get("city", {})
+        town = slug(home).replace("-", "")
+        pre = "" if self.root == ROOT else town + "_"   # other cities' feeds sit next to Bergamo's
+        defaults = {
+            "name": home,
+            "brand": f"{home} Nights",                       # calendar names
+            "area": f"{home.upper()} E DINTORNI",            # post graphics
+            "handle": "@serate" + town,                      # tracker account shown on posts
+            "feed_local": town + ".ics",
+            "feed_alerts": pre + "alerts.ics",
+            "feed_all": pre + "all.ics",
+            "feed_other": pre + "other.ics",
+        }
+        return str(c.get(key) or defaults[key])
+
+    def hashtags(self) -> list[str]:
+        c = self.settings.get("city", {})
+        town = slug(self.label("name")).replace("-", "")
+        return list(c.get("hashtags") or [f"#{town}", f"#{town}nightlife", "#techno", "#housemusic", "#techhouse", "#clubbing"])
 
     # ---- venue registry -------------------------------------------------
     def match_venue(self, name: str, city: str | None = None) -> Venue | None:

@@ -9,7 +9,7 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
-    paths: ["config/**", "data/manual_events.yaml", "src/**"]
+    paths: ["config/**", "data/manual_events.yaml", "src/**", "cities/**/config/**", "cities/**/data/manual_events.yaml"]
 permissions:
   contents: write
 concurrency: {group: update-calendar, cancel-in-progress: false}
@@ -23,7 +23,7 @@ jobs:
       - name: Install OCR (free flyer reading)
         run: sudo apt-get install -y -q tesseract-ocr tesseract-ocr-ita > /dev/null
       - run: pip install -e .
-      - run: python -m bget run
+      - run: python -m bget --city all run   # Bergamo, then every folder in cities/
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "events-bot"
           git config user.email "events-bot@users.noreply.github.com"
-          git add data/events.json data/ig_review.json 2>/dev/null || git add data/events.json
+          git add data/events.json data/ig_review.json cities/*/data/*.json 2>/dev/null || git add data/events.json
           if ! git diff --cached --quiet; then
             git commit -m "Update events [skip ci]"
             # another run may have updated the data meanwhile: keep this run's fresher copy
@@ -42,6 +42,8 @@ jobs:
       - name: Publish feeds to the feed branch
         run: |
           mkdir -p /tmp/feed && cp out/*.ics out/alerts.md /tmp/feed/ && for f in review.md other_events.md serata_preserata.md; do cp out/$f /tmp/feed/ 2>/dev/null || true; done
+          # other cities: calendars next to Bergamo's (brescia.ics, brescia_alerts.ics...), reports in a folder
+          for d in cities/*/out; do c=$(basename $(dirname $d)); cp $d/*.ics /tmp/feed/ 2>/dev/null || true; mkdir -p /tmp/feed/$c; cp $d/*.md /tmp/feed/$c/ 2>/dev/null || true; done
           cd /tmp/feed
           git init -q -b feed
           git config user.name "events-bot"
