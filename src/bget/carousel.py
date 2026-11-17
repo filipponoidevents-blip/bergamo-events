@@ -429,7 +429,7 @@ def _alert_group(alerts: Iterable[Event], lo: date, hi: date) -> list[tuple]:
 GENRE_GROUPS: dict[str, list[str]] = {
     "HOUSE / ELETTRONICA": ["House", "Tech House", "Deep House", "Afro House", "Melodic Techno", "Techno",
                             "Hard Techno", "Minimal", "Drum & Bass", "Trance", "Hardstyle / Hardcore",
-                            "Electronic", "Disco / Funk"],
+                            "Electronic", "Disco / Funk", "Melodic House", "Witch House / EDM"],
     "HIP HOP / TRAP": ["Hip Hop / Trap"],
     "COMMERCIALE": ["Commerciale", "Latin / Reggaeton", "Hits / Dance"],
     "ALTRO": [],   # everything else: revival, no genre, ...

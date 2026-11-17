@@ -52,7 +52,8 @@ serata:
 # pages: they come after, on white pages, with the genre as a small tag.
 post_genres:
   "HOUSE / ELETTRONICA": [House, Tech House, Deep House, Afro House, Melodic Techno, Techno, Hard Techno,
-                          Minimal, "Drum & Bass", Trance, Hardstyle / Hardcore, Electronic, Disco / Funk]
+                          Minimal, "Drum & Bass", Trance, Hardstyle / Hardcore, Electronic, Disco / Funk,
+                          Melodic House, Witch House / EDM]
   "HIP HOP / TRAP": [Hip Hop / Trap]
   COMMERCIALE: [Commerciale, Latin / Reggaeton, Hits / Dance]
   ALTRO: []
