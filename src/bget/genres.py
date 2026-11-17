@@ -117,8 +117,12 @@ class GenreAssigner:
             return g, "manual"
         handles = {h.lower() for h in ev.all_handles("instagram")}
         text = f"{ev.title} {ev.promoter_name or ''}".lower()
-        matched = [genres for names, ig, genres in self.promoters
-                   if (ig and ig.lower() in handles) or any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", text) for n in names)]
+        title = ev.title.lower()
+        hits = [(not any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", title) for n in names), genres)
+                for names, ig, genres in self.promoters
+                if (ig and ig.lower() in handles) or any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", text) for n in names)]
+        # the party named in the title first: Le Cannibale posting AFRODYLAN is an Afrodylan night
+        matched = [genres for _, genres in sorted(hits, key=lambda h: h[0])]
         # a promoter genre Filippo set in genres.yaml beats the caption (CC Night is witch house, not hip hop)
         for genres in matched:
             if genres and genres[0].startswith("=") and (g := _pick(genres)):
