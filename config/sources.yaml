@@ -38,6 +38,19 @@ sources:
     follow: "/eventi/eppen/dettaglio/"
     max_pages: 60
 
+  # Prima Bergamo "eventi" articles: teasers that look like nightlife are opened and read with the
+  # free caption rules; only DJ/club nights at a known venue are kept.
+  - id: prima_bergamo
+    type: press
+    enabled: true
+    urls:
+      - https://primabergamo.it/tempo-libero/eventi/
+      - https://primabergamo.it/eventi/page/2/
+    follow: "primabergamo\\.it/tempo-libero/eventi/[a-z0-9-]+/?$"
+    max_articles: 25
+    max_age_days: 30
+    min_confidence: 0.6
+
   # Fill these in with real listing/event pages once verified:
   - id: dice_milano
     type: jsonld

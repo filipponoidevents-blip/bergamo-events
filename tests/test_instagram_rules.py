@@ -214,3 +214,22 @@ def test_no_dj_for_commercial_nights():
     assert HeadlinerFinder(Config.load()).find(ev) == []
     ev.genre = "Techno"
     assert HeadlinerFinder(Config.load()).find(ev) == ["StefanOne", "Andrew V"]
+
+
+def test_press_article_reader():
+    from datetime import datetime, timezone
+    from bs4 import BeautifulSoup
+    from bget.config import Config
+    from bget.sources.press import PressSource, article_parts
+    html = """<html><head><script type="application/ld+json">{"@type":"NewsArticle","headline":"Halloween a Daste,
+    Le Cannibale torna a far ballare","datePublished":"2026-11-10T10:00:00+01:00",
+    "articleBody":"Sabato 21 novembre dalle 23:00 al Daste torna il clubbing: dj set house e techno fino all'alba."}
+    </script></head><body></body></html>"""
+    title, body, pub = article_parts(BeautifulSoup(html, "html.parser"))
+    assert title.startswith("Halloween a Daste") and pub.year == 2026
+    src = PressSource({"id": "t", "max_age_days": 10000}, Config.load())
+    src.fetch = lambda url: html
+    from bget.sources.instagram_rules import RulesExtractor
+    from zoneinfo import ZoneInfo
+    evs = list(src._article("https://x/a", RulesExtractor(Config.load()), ZoneInfo("Europe/Rome")))
+    assert len(evs) == 1 and evs[0].venue.name.startswith("Daste") and evs[0].start.hour == 23
