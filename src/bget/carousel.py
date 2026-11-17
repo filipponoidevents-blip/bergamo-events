@@ -228,7 +228,7 @@ class Row:
 def club_row(e: Event, preserata: bool = False, tag_pill: bool = False) -> Row:
     genre = e.genre if e.genre and e.genre != "Unspecified" else ""
     head = headliners(e)
-    return Row(e.start.astimezone(ROME).strftime("%H:%M") if e.start_known else "--:--", genre.upper(),
+    return Row(e.start.astimezone(ROME).strftime("%H:%M") if e.start_known else "", genre.upper(),
                clean(e.venue.name).upper(), clean(party_name(e)), f"w/ {clean(head)}" if head else "",
                "PRESERATA" if preserata else "")
 
