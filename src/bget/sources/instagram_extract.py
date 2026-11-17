@@ -22,6 +22,12 @@ class ExtractedEvent(BaseModel):
     date: str = Field(description="YYYY-MM-DD of the night the event starts")
     start_time: str | None = Field(None, description="HH:MM 24h, if stated")
     end_time: str | None = Field(None, description="HH:MM 24h, if stated")
+    late_end: bool = Field(False, description="True if the post says it goes on late (till late, fino all'alba) "
+                           "without giving an end time")
+    entry: str | None = Field(None, description="'paid' if the post mentions a price, list or tickets; 'free' if "
+                              "entry is free for everyone; else null")
+    fascia: str | None = Field(None, description="'preserata' if the post presents it as an aperitivo/preserata, "
+                               "'serata' if as an after-hour / all-night party; else null")
     venue_name: str | None = None
     city: str | None = None
     artists: list[ExtractedArtist] = []

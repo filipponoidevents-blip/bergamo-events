@@ -87,14 +87,26 @@ Three feeds: `bergamo.ics` (local), `alerts.ics` (⚡ big events), `all.ics` (bo
 branch (no build command), so the repo stays private while the calendars get stable URLs like
 `https://<project>.pages.dev/bergamo.ics` to subscribe to once in Google/Apple Calendar.
 
+### Serata or preserata (`src/bget/fascia.py`)
+Every night gets a *fascia*: serata (starts 23:30 or later and ends 03:00 or later) or preserata.
+Captions rarely give an end time, so the caption reader (`instagram_rules.py`) also picks up the end
+time in all its usual forms ("dalle ore 23:30 alle 06:00", "Chiusura ore 04:00", "h. 23 – 03",
+"till late"), price clues (list / tickets = serata, free entry = preserata) and words like "aperitivo".
+When those don't decide, the venue's `fascia:` in `config/venues.yaml` does. Fix a single night with
+`fascia: {id: preserata}` in `config/ig_decisions.yaml`. Each run writes `out/serata_preserata.md` with
+every upcoming night, its times and the reason for its fascia. Stored captions are re-read on every run,
+so reader improvements also fix nights read earlier.
+
 ### Phase 2: posts (`src/bget/carousel.py`)
 "Wall calendar" style chosen by Filippo (2026-11-17), each post rendered twice: Instagram 1080×1350
 (`*_ig_NN.png`) and TikTok 1080×1920 (`*_tt_NN.png`, content kept clear of TikTok's buttons and caption).
 - **Monthly** (last Sunday of the month before): big month name, month grid with a dot on every date with
   a club night, then date slides with one line per night (dates packed so the post stays within 10 slides).
-- **Weekly** (Monday): "16—22 NOV" with a 7-day strip (dots + number of nights), then one slide per date:
-  date on top, nights below (time · genre, venue, party name, w/ headliner). Out-of-area big events
-  close the post as "FUORI ZONA".
+- **Weekly** (Monday): "16—22 NOV" with a 7-day strip (dots + number of nights), then the serate
+  split into pages by genre group (House / elettronica, Hip Hop / trap, Commerciale, Altro; set in
+  settings.yaml `post_genres`), each page with the dates and their nights (time · genre, venue, party
+  name, w/ headliner). Preserata nights follow on white pages with the genre as a tag. Out-of-area big
+  events close the post as "FUORI ZONA". The monthly post uses the same sections, one line per night.
 - **Midweek** (Wednesday): "Prima della serata", Thursday to Sunday, aperitivo/pre-party, comedy, quiz
   and culture from the non-club events (`out/other_events.md`). These never go on the calendar.
 Club posts are white on red; the midweek post is red on white. The small text along the top and bottom

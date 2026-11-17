@@ -225,11 +225,12 @@ class Row:
     label: str = ""     # pill before the tag, e.g. PRESERATA on a club slide
 
 
-def club_row(e: Event, preserata: bool = False) -> Row:
+def club_row(e: Event, preserata: bool = False, tag_pill: bool = False) -> Row:
     genre = e.genre if e.genre and e.genre != "Unspecified" else ""
     head = headliners(e)
-    return Row(e.start.astimezone(ROME).strftime("%H:%M"), genre.upper(), clean(e.venue.name).upper(),
-               clean(party_name(e)), f"w/ {clean(head)}" if head else "", "PRESERATA" if preserata else "")
+    return Row(e.start.astimezone(ROME).strftime("%H:%M") if e.start_known else "--:--", genre.upper(),
+               clean(e.venue.name).upper(), clean(party_name(e)), f"w/ {clean(head)}" if head else "",
+               "PRESERATA" if preserata else "")
 
 
 def other_row(kind: str, e: Event) -> Row:
@@ -255,7 +256,7 @@ def _draw_dense(p: Page, y: int, r: Row) -> int:
     text, f = _fit(d, r.head, chunk, 32, (R - x) * 0.62, min_size=22)
     d.text((x, y), text, font=f, fill=p.fg)
     x += d.textlength(text, font=f) + 20
-    rest = " ".join(t for t in [r.label.capitalize() + " ·" if r.label else "", r.sub, r.extra] if t)
+    rest = " · ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
     if rest and R - x > 80:
         text, f = _fit(d, rest, lambda z: grot(z, 600), 28, R - x, min_size=20)
         d.text((x, y + 4), text, font=f, fill=p.fg)
@@ -324,12 +325,26 @@ def _date_header(p: Page, y: int, day: date | None, label: str | None, compact: 
     return y
 
 
+SECTION_H = 96
+
+
+def _section_head(p: Page, y: int, title: str) -> int:
+    """Genre heading at the top of a page: a filled band with the section name."""
+    d = p.d
+    d.rectangle([MX, y, p.w - MX, y + SECTION_H - 26], fill=p.fg)
+    text, f = _fit(d, title, chunk, 46, p.w - 2 * MX - 40, min_size=26)
+    d.text((MX + 20, y + (SECTION_H - 26) / 2), text, font=f, fill=p.bg, anchor="lm")
+    return y + SECTION_H
+
+
 def _date_slides(fmt: str, pal: dict, groups: list[tuple[date | None, str | None, list[tuple[Row, Event]]]],
-                 bottom_mid: str, month_tag: str, pill: bool, max_slides: int, dense: bool = False) -> list[Slide]:
+                 bottom_mid: str, month_tag: str, pill: bool, max_slides: int, dense: bool = False,
+                 section: str | None = None, pack: bool = False) -> list[Slide]:
     """groups: (date, extra label, rows). One date per slide; a date with too many events
-    continues on the next slide; if that makes too many slides, dates are packed together."""
+    continues on the next slide; if that makes too many slides, dates are packed together.
+    section: a heading (e.g. the genre) repeated on top of every page; pack: always pack dates."""
     w, h, (top, bot) = FORMATS[fmt]
-    avail = bot - 70 - (top + 50)
+    avail = bot - 70 - (top + 50) - (SECTION_H if section else 0)
 
     def plan(compact: bool) -> list[list[tuple]]:
         head_h = int((110 if dense else 150 if compact else 300) * 1.08) + (30 if compact else 0)
@@ -352,7 +367,7 @@ def _date_slides(fmt: str, pal: dict, groups: list[tuple[date | None, str | None
             pages.append(cur)
         return pages
 
-    pages = plan(dense)
+    pages = plan(dense or pack)
     if len(pages) > max_slides and not dense:
         pages = plan(True)
     if len(pages) > max_slides:
@@ -364,7 +379,9 @@ def _date_slides(fmt: str, pal: dict, groups: list[tuple[date | None, str | None
     for n, page in enumerate(pages, 1):
         p = _page(fmt, pal, "", bottom_mid, month_tag)
         y = p.top + 50
-        compact = dense or len(page) > 1
+        if section:
+            y = _section_head(p, y, section)
+        compact = dense or pack or len(page) > 1
         for day, label, part in page:
             y = _date_header(p, y, day, label, compact, small=dense)
             for row, _ in part:
@@ -402,22 +419,87 @@ def _alert_group(alerts: Iterable[Event], lo: date, hi: date) -> list[tuple]:
     return [(None, "FUORI ZONA", rows)] if rows else []
 
 
+# ---------- genre sections ----------
+
+# Filippo (2026-11-17): the club nights are split into pages by genre; preserata nights get a
+# genre tag only and come after, on white pages so they stay clearly apart. settings.yaml
+# `post_genres` can move a genre to another group.
+GENRE_GROUPS: dict[str, list[str]] = {
+    "HOUSE / ELETTRONICA": ["House", "Tech House", "Deep House", "Afro House", "Melodic Techno", "Techno",
+                            "Hard Techno", "Minimal", "Drum & Bass", "Trance", "Hardstyle / Hardcore",
+                            "Electronic", "Disco / Funk"],
+    "HIP HOP / TRAP": ["Hip Hop / Trap"],
+    "COMMERCIALE": ["Commerciale", "Latin / Reggaeton"],
+    "ALTRO": [],   # everything else: revival, no genre, ...
+}
+
+
+def genre_group(e: Event, groups: dict[str, list[str]] | None = None) -> str:
+    groups = groups or GENRE_GROUPS
+    for name, genres in groups.items():
+        if e.genre in genres:
+            return name
+    return list(groups)[-1]
+
+
+def _sections(fmt: str, events: dict[date, list[Event]], alerts: list[tuple], preserata, groups,
+              month_tag: str, budget: int, dense_first: bool = False) -> list[Slide]:
+    """Serate by genre group, then the preserata pages (white), then FUORI ZONA. Dates are packed
+    within a section; if the post goes past `budget` slides, rows switch to one line each."""
+    order = list(groups or GENRE_GROUPS)
+    secs: list[tuple[str, dict, list[tuple]]] = []
+    for g in order:
+        gs = []
+        for day, evs in sorted(events.items()):
+            rows = [(club_row(e), e) for e in evs if not preserata(e) and genre_group(e, groups) == g]
+            if rows:
+                gs.append((day, None, rows))
+        if gs:
+            secs.append((g, CLUB, gs))
+    pre = []
+    for day, evs in sorted(events.items()):
+        rows = [(club_row(e, tag_pill=True), e) for e in evs if preserata(e)]
+        if rows:
+            pre.append((day, None, rows))
+    if pre:
+        secs.append(("PRESERATA", OTHER, pre))
+    if alerts:
+        secs.append(("FUORI ZONA", CLUB, alerts))
+
+    def build(dense: bool) -> list[Slide]:
+        out = []
+        for title, pal, gs in secs:
+            out += _date_slides(fmt, pal, gs, "SOLO DJ & CLUB" if pal is CLUB else "PRESERATA", month_tag,
+                                pal is OTHER, 99, dense=dense, pack=True,
+                                section=None if title == "FUORI ZONA" else title)
+        return out
+
+    slides = build(dense_first)
+    if len(slides) > budget and not dense_first:
+        slides = build(True)
+    if len(slides) > budget:
+        import logging
+        dropped = sum(len(evs) for _, evs in slides[budget:])
+        logging.getLogger("bget").warning("carousel: %d events did not fit in %d slides", dropped, budget)
+        slides = slides[:budget]
+    return slides
+
+
 # ---------- the three posts ----------
 
 def monthly(events: Iterable[Event], year: int, month: int, alerts: Iterable[Event] = (), fmt: str = "ig",
-           preserata=lambda e: False) -> list[Slide]:
+           preserata=lambda e: False, genres: dict | None = None) -> list[Slide]:
     nights = {k: v for k, v in _by_night(events).items() if (k.year, k.month) == (year, month)}
     tag = f"{MESI[month][:3].upper()} {year}"
     slides = [(_month_cover(fmt, year, month, {k: len(v) for k, v in nights.items()}), [])]
     first, last = date(year, month, 1), date(year, month, calendar.monthrange(year, month)[1])
-    groups = [(k, None, [(club_row(e, preserata(e)), e) for e in v]) for k, v in sorted(nights.items())]
-    groups += _alert_group(alerts, first, last)
-    slides += _date_slides(fmt, CLUB, groups, "SOLO DJ & CLUB", tag, False, MAX_SLIDES - 1, dense=True)
+    slides += _sections(fmt, nights, _alert_group(alerts, first, last), preserata, genres, tag,
+                        MAX_SLIDES - 1, dense_first=True)
     return _numbered(slides, fmt)
 
 
 def weekly(events: Iterable[Event], week_start: date, alerts: Iterable[Event] = (), fmt: str = "ig",
-           preserata=lambda e: False) -> list[Slide]:
+           preserata=lambda e: False, genres: dict | None = None) -> list[Slide]:
     days = [week_start + timedelta(days=i) for i in range(7)]
     nights = {k: v for k, v in _by_night(events).items() if days[0] <= k <= days[-1]}
     end = days[-1]
@@ -425,10 +507,8 @@ def weekly(events: Iterable[Event], week_start: date, alerts: Iterable[Event] = 
     cover = _strip_cover(fmt, CLUB, [span, MESI[end.month][:3].upper()], None, days,
                          {k: len(v) for k, v in nights.items()}, None, f"SETTIMANA {week_start.isocalendar()[1]}",
                          "SOLO DJ & CLUB")
-    groups = [(k, None, [(club_row(e, preserata(e)), e) for e in v]) for k, v in sorted(nights.items())]
-    groups += _alert_group(alerts, days[0], days[-1])
-    slides = [(cover, [])] + _date_slides(fmt, CLUB, groups, "SOLO DJ & CLUB",
-                                          f"{MESI[end.month][:3].upper()} {end.year}", False, MAX_SLIDES - 1)
+    slides = [(cover, [])] + _sections(fmt, nights, _alert_group(alerts, days[0], days[-1]), preserata, genres,
+                                       f"{MESI[end.month][:3].upper()} {end.year}", MAX_SLIDES - 1)
     return _numbered(slides, fmt)
 
 

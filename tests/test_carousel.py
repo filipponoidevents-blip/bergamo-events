@@ -8,17 +8,28 @@ from bget.models import Category, Event, Venue
 TZ = ZoneInfo("Europe/Rome")
 
 
-def ev(day, hour=23, venue="Bolgia", title="Warehouse"):
+def ev(day, hour=23, venue="Bolgia", title="Warehouse", genre="Techno"):
     return Event(title=title, start=datetime(2026, 11, day, hour, 30, tzinfo=TZ),
-                 venue=Venue(name=venue, city="Osio Sopra"), category=Category.CLUB, genre="Techno")
+                 venue=Venue(name=venue, city="Osio Sopra"), category=Category.CLUB, genre=genre)
 
 
-def test_weekly_cover_plus_one_slide_per_date_in_both_formats():
+def test_weekly_cover_plus_genre_pages_in_both_formats():
     evs = [ev(20), ev(21), ev(21, venue="Zero Club"), ev(23)]   # 23 is next week
     for fmt, size in [("ig", (1080, 1350)), ("tt", (1080, 1920))]:
         slides = carousel.weekly(evs, date(2026, 11, 16), fmt=fmt)
-        assert len(slides) == 3 and all(img.size == size for img, _ in slides)
-        assert [len(e) for _, e in slides] == [0, 1, 2]
+        assert all(img.size == size for img, _ in slides)
+        assert slides[0][1] == [] and sum(len(e) for _, e in slides) == 3
+
+
+def test_weekly_splits_serate_by_genre_and_puts_preserata_last():
+    evs = [ev(20, genre="Hip Hop / Trap", venue="A"), ev(20, genre="House", venue="B"),
+           ev(21, genre="Commerciale", venue="C"), ev(21, genre="Unspecified", venue="D"),
+           ev(21, hour=19, genre="House", venue="E")]
+    slides = carousel.weekly(evs, date(2026, 11, 16), preserata=lambda e: e.start.hour < 22)
+    venues = [[e.venue.name for e in evs] for _, evs in slides[1:]]
+    assert venues == [["B"], ["A"], ["C"], ["D"], ["E"]]   # house, hip hop, commerciale, altro, preserata
+    assert slides[-1][0].getpixel((5, 5)) == carousel.WHITE   # preserata pages are white
+    assert carousel.genre_group(ev(20, genre="Latin / Reggaeton")) == "COMMERCIALE"
 
 
 def test_after_midnight_start_stays_on_its_night():

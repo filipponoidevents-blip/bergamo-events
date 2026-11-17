@@ -17,6 +17,7 @@ from datetime import date, datetime, timedelta, timezone
 
 from . import calendar_ics, carousel, social
 from .config import Config
+from . import fascia
 from .genres import GenreAssigner
 from .headliners import HeadlinerFinder
 from .models import Scope
@@ -65,6 +66,7 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
     for ev in store.all():
         ev.genre, ev.genre_source = genre.assign(ev)
         ev.headliners = heads.find(ev)
+        ev.fascia_auto, ev.fascia_why = fascia.classify(ev, cfg)
         score_event(ev, cfg)
     return stats
 
@@ -99,6 +101,7 @@ def write_calendars(cfg: Config, store: Store) -> None:
     out = cfg.root / "out"
     out.mkdir(exist_ok=True)
     (out / "bergamo.ics").write_text(calendar_ics.build_ics(upcoming(store, Scope.LOCAL), "Bergamo Nights"))
+    fascia.write_report(cfg.root, [e for e in upcoming(store, Scope.LOCAL, days_back=0)])
     (out / "alerts.ics").write_text(calendar_ics.build_ics(
         upcoming(store, Scope.ALERT), "Bergamo Nights · Big events", prefix="⚡ ", reminders=maintenance_reminders(cfg)))
     # one combined feed is handy for a single subscription
@@ -129,10 +132,11 @@ def _other_events(cfg: Config):
 def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None,
                   midweek: str | None = None, formats: tuple[str, ...] = ("ig", "tt")) -> list:
     """Render a post for Instagram (4:5) and TikTok (9:16) and write its post bundle."""
-    def serata(e) -> bool:   # by start/end time: settings.yaml `serata`
+    def serata(e) -> bool:   # fascia.py: times, post clues, price, venue
         return not cfg.is_preserata(e)
-    club = [e for e in store.all() if e.scope == Scope.LOCAL]
-    local = club   # preserata nights stay in the weekly/monthly posts, marked PRESERATA (Filippo)
+    local = [e for e in store.all() if e.scope == Scope.LOCAL]
+    # serate are split into pages by genre group; preserata nights follow on white pages (Filippo)
+    genres = cfg.settings.get("post_genres")
     pre = lambda e: not serata(e)  # noqa: E731
     alerts = [e for e in store.all() if e.scope == Scope.ALERT and serata(e)]
     outdir = cfg.root / "out" / "carousels"
@@ -140,7 +144,7 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
         d = date.fromisoformat(week or midweek)
         monday = d - timedelta(days=d.weekday())
     if week:
-        build = lambda fmt: carousel.weekly(local, monday, alerts, fmt, preserata=pre)  # noqa: E731
+        build = lambda fmt: carousel.weekly(local, monday, alerts, fmt, preserata=pre, genres=genres)  # noqa: E731
         stem, title = f"week_{monday.isoformat()}", f"Serate Bergamo · settimana {monday:%d/%m}"
     elif midweek:
         others = _other_events(cfg)
@@ -148,7 +152,7 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
         stem, title = f"midweek_{monday.isoformat()}", f"Prima della serata · {monday + timedelta(days=3):%d/%m}"
     else:
         y, m = map(int, month.split("-"))
-        build = lambda fmt: carousel.monthly(local, y, m, alerts, fmt, preserata=pre)  # noqa: E731
+        build = lambda fmt: carousel.monthly(local, y, m, alerts, fmt, preserata=pre, genres=genres)  # noqa: E731
         stem, title = f"month_{y}-{m:02d}", f"Serate Bergamo · {carousel.MESI[m]} {y}"
     paths, slides = {}, None
     for fmt in formats:

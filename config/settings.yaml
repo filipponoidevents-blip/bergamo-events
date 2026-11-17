@@ -39,12 +39,23 @@ venue_kind_bonus:
   open_air: 1.0
   live_club: 0.3
 
-# Serata or preserata, by time (Filippo, 2026-11-17): a serata starts late and ends late; a preserata
-# starts earlier and ends by 03:00. Preserata nights stay in the weekly/monthly posts with a PRESERATA
-# label. Most events have no end time: then the start decides alone.
+# Serata or preserata (Filippo, 2026-11-17), decided in src/bget/fascia.py: a serata starts at 23:30
+# or later and ends at 03:00 or later; earlier and ending by 03:00 is a preserata. When the times are
+# missing, the post's words, the price and the venue decide (see fascia.py).
 serata:
-  start_from: "23:00"   # starts at this time or later (or after midnight) -> serata
+  start_from: "23:30"   # starts at this time or later (or after midnight) -> serata
   end_from: "03:00"     # when the end is known: ends at 03:00 or later -> serata, earlier -> preserata
+  early_before: "22:00" # starts before this -> preserata
+
+# Weekly/monthly posts: the serate are split into pages by these genre groups, in this order
+# (Filippo, 2026-11-17). Genres not listed go in the last group. Preserata nights don't get genre
+# pages: they come after, on white pages, with the genre as a small tag.
+post_genres:
+  "HOUSE / ELETTRONICA": [House, Tech House, Deep House, Afro House, Melodic Techno, Techno, Hard Techno,
+                          Minimal, "Drum & Bass", Trance, Hardstyle / Hardcore, Electronic, Disco / Funk]
+  "HIP HOP / TRAP": [Hip Hop / Trap]
+  COMMERCIALE: [Commerciale, Latin / Reggaeton]
+  ALTRO: []
 
 thresholds:
   local_min_score: 2.0      # in-radius event needs this much to make the calendar

@@ -58,13 +58,26 @@ def _walk(node: Any) -> Iterable[dict]:
 class JsonLdSource(Source):
     type = "jsonld"
 
+    def _urls(self) -> list[str]:
+        """URLs may hold a date template, e.g. ".../data/musica/{date:%Y/%m/%d}/", expanded for each of
+        the next `days` days (default 14), for agendas that list one day per page."""
+        from datetime import date, timedelta
+        out = []
+        for url in self.spec.get("urls", []):
+            if "{date" in url:
+                today = date.today()
+                out += [url.format(date=today + timedelta(days=i)) for i in range(self.spec.get("days", 14))]
+            else:
+                out.append(url)
+        return out
+
     def collect(self) -> Iterable[Event]:
         """Parse each URL. With `follow: <regex>` in the spec, the URLs are listing pages:
         links matching the regex are opened (up to `max_pages`) and parsed as event pages."""
         follow = re.compile(self.spec["follow"]) if self.spec.get("follow") else None
         max_pages = self.spec.get("max_pages", 40)
         seen: set[str] = set()
-        for url in self.spec.get("urls", []):
+        for url in self._urls():
             try:
                 html = self.fetch(url)
             except Exception as e:  # noqa: BLE001 - one bad page must not kill the run
