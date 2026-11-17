@@ -1,4 +1,26 @@
 {
+  "followers": {
+    "balzerbynight": 7483,
+    "bar30elode": 1169,
+    "barrys__": 9711,
+    "bucheesebar": 6834,
+    "casacostez": 6193,
+    "choruslife.bergamo": 67271,
+    "circolinomalpensata_bergamo": 2922,
+    "contest_bg": 3936,
+    "cosmo.food.club": 2373,
+    "csapacipaciana": 13756,
+    "daste_bergamo": 21234,
+    "edonebergamo": 29973,
+    "gres_art_671": 21215,
+    "inkclub_bergamo": 14635,
+    "lazzaretto_bergamo_estate": 11449,
+    "nxtbergamo": 30186,
+    "savana.king25": 192,
+    "sprint_bergamo": 5103,
+    "unplug__bg": 2933,
+    "zeroclub.bg": 20814
+  },
   "items": {
     "17872910934643134-0": {
       "account": "hiddenhell.techno",
@@ -220,7 +242,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "UNIBG PARTY",
+        "title": "UniBG Party",
         "venue_name": "Zero Club"
       },
       "id": "17899672329613109-0",
@@ -252,7 +274,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "House Music e Good Vibes",
+        "title": "NØID",
         "venue_name": null
       },
       "id": "17899819905412354-0",
@@ -642,6 +664,38 @@
       "permalink": "https://www.instagram.com/reel/Dfcj_xJHKgr/",
       "status": "pending"
     },
+    "17927900598266054-0": {
+      "account": "daste_bergamo",
+      "account_venue": "Daste",
+      "caption": "Non stare ad aspettare me, \nse Daste è piena… per il release party dei PAU AMMA!\n\npauammamusic è un progetto pop psichedelico di Bergamo. Il sound della band, groovy, sognante ed evocativo attinge alla scena neopsichedelica, intrecciando riff dreamy e groove ipnotici con elementi pop e della canzone d’autore italiana.\n\nIn apertura: davidpaysden \n\n🎟 Biglietti già in vendita su diceitaly con consumazione inclusa\n\n📅 Sabato 5 dicembre 2026 · ore 21:30\nDASTE — via Daste e Spalenga 13/15, Bergamo",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-05",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "commerciale"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:30",
+        "ticket_url": null,
+        "title": "Non stare ad aspettare me",
+        "venue_name": "Daste"
+      },
+      "id": "17927900598266054-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/912233494_18110330117579285_7445316756993816937_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Z0k6PVWP-RYQ7kNvwGOlEwr&_nc_oc=AdpPbjMnaYkr4rQerEiOfHL3BFt5VncYxfdFmMxOVSPcfbD-qBe4I9xffs8wW0xi3_4&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VdzchdwwXd_p9xamZkQRZg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ9_6iLFxLAA-wXllsuyct865fm51QiT56OEzZfLL3ncA&oe=6B02211F",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df14K0LinhV/",
+      "status": "info"
+    },
     "17929575438426115-0": {
       "account": "inkclub_bergamo",
       "account_venue": "Ink Club",
@@ -722,7 +776,7 @@
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
-        "title": "ALIVE",
+        "title": "Alive",
         "venue_name": null
       },
       "id": "17935518858142769-0",
@@ -1119,7 +1173,7 @@
         "price": null,
         "start_time": "23:30",
         "ticket_url": null,
-        "title": "Bolgia",
+        "title": "Supertato",
         "venue_name": "Bolgia"
       },
       "id": "17955208302300879-0",
@@ -1149,7 +1203,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "WINTERLAND",
+        "title": "Alive",
         "venue_name": null
       },
       "id": "17957739894314574-0",
@@ -1212,7 +1266,7 @@
         "price": null,
         "start_time": "00:00",
         "ticket_url": null,
-        "title": "CC NIGHT",
+        "title": "Crystal Castles Night",
         "venue_name": "Zero Club"
       },
       "id": "17959624719267684-0",
@@ -1271,7 +1325,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "AFRODYLAN",
+        "title": "Afrodylan",
         "venue_name": null
       },
       "id": "17964212049235421-0",
@@ -1409,7 +1463,7 @@
         "price": null,
         "start_time": "21:00",
         "ticket_url": null,
-        "title": "ALIVE SCHOOL PARTY",
+        "title": "Alive",
         "venue_name": "Vibe Club"
       },
       "id": "17979843666141190-0",
@@ -2205,7 +2259,7 @@
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfe0WHGoRvc/",
-      "status": "auto"
+      "status": "misread"
     },
     "18050892980826584-0": {
       "account": "ninfeasocialclub",
@@ -2604,7 +2658,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "Zero Club",
+        "title": "The Circle",
         "venue_name": "Zero Club"
       },
       "id": "18084191429405556-0",
@@ -3392,6 +3446,96 @@
       "permalink": "https://www.instagram.com/p/DfzR_YzA9yr/",
       "status": "auto"
     },
+    "18110695502298306-0": {
+      "account": "choruslife.bergamo",
+      "account_venue": "ChorusLife",
+      "caption": "C’è una magia speciale l’attesa di Santa Lucia! ✨\n\nQuest’anno i più piccoli potranno dare libero spazio alla fantasia, scrivere la loro letterina a Santa Lucia e affidarle tutti i loro desideri, in attesa della notte più magica.\n\n📅 dal 21 novembre all’8 dicembre ritira gratuitamente il tuo kit e imbuca la letterina ogni giorno. \n\nDomenica 22, sabato 28 e sabato 5 dicembre 🖍️ 10-12 e 14-16 vieni a scrivere con noi la letterina!\n\n📍 Ritiro kit: Welcome Point\n\nLasciati conquistare dalla magia dell’attesa! 💫",
+      "confidence": 0.6,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Ritiro kit: Welcome Point",
+        "venue_name": "ChorusLife"
+      },
+      "id": "18110695502298306-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/912403929_1812193997578643_2599073971987529248_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Q4LxxBbp6J4Q7kNvwENAuYA&_nc_oc=AdpXZTPjIwnau_pZ2GKwnf1GKvxImrnLm_Yh9XGio2nuzEfe5JGao25B36-d8MdFbp4&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=G1jvDYxuXMFeRl-l_PrerQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTbnLoK95DiyaqsNheht59dCguEPNAHB0FtwLZJk2DJrw&oe=6B0208ED",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df14X3qDfY2/",
+      "status": "info"
+    },
+    "18110695502298306-1": {
+      "account": "choruslife.bergamo",
+      "account_venue": "ChorusLife",
+      "caption": "C’è una magia speciale l’attesa di Santa Lucia! ✨\n\nQuest’anno i più piccoli potranno dare libero spazio alla fantasia, scrivere la loro letterina a Santa Lucia e affidarle tutti i loro desideri, in attesa della notte più magica.\n\n📅 dal 21 novembre all’8 dicembre ritira gratuitamente il tuo kit e imbuca la letterina ogni giorno. \n\nDomenica 22, sabato 28 e sabato 5 dicembre 🖍️ 10-12 e 14-16 vieni a scrivere con noi la letterina!\n\n📍 Ritiro kit: Welcome Point\n\nLasciati conquistare dalla magia dell’attesa! 💫",
+      "confidence": 0.6,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-05",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Ritiro kit: Welcome Point",
+        "venue_name": "ChorusLife"
+      },
+      "id": "18110695502298306-1",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/912403929_1812193997578643_2599073971987529248_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Q4LxxBbp6J4Q7kNvwENAuYA&_nc_oc=AdpXZTPjIwnau_pZ2GKwnf1GKvxImrnLm_Yh9XGio2nuzEfe5JGao25B36-d8MdFbp4&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=G1jvDYxuXMFeRl-l_PrerQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTbnLoK95DiyaqsNheht59dCguEPNAHB0FtwLZJk2DJrw&oe=6B0208ED",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df14X3qDfY2/",
+      "status": "info"
+    },
+    "18110695502298306-2": {
+      "account": "choruslife.bergamo",
+      "account_venue": "ChorusLife",
+      "caption": "C’è una magia speciale l’attesa di Santa Lucia! ✨\n\nQuest’anno i più piccoli potranno dare libero spazio alla fantasia, scrivere la loro letterina a Santa Lucia e affidarle tutti i loro desideri, in attesa della notte più magica.\n\n📅 dal 21 novembre all’8 dicembre ritira gratuitamente il tuo kit e imbuca la letterina ogni giorno. \n\nDomenica 22, sabato 28 e sabato 5 dicembre 🖍️ 10-12 e 14-16 vieni a scrivere con noi la letterina!\n\n📍 Ritiro kit: Welcome Point\n\nLasciati conquistare dalla magia dell’attesa! 💫",
+      "confidence": 0.6,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-08",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Ritiro kit: Welcome Point",
+        "venue_name": "ChorusLife"
+      },
+      "id": "18110695502298306-2",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/912403929_1812193997578643_2599073971987529248_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Q4LxxBbp6J4Q7kNvwENAuYA&_nc_oc=AdpXZTPjIwnau_pZ2GKwnf1GKvxImrnLm_Yh9XGio2nuzEfe5JGao25B36-d8MdFbp4&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=G1jvDYxuXMFeRl-l_PrerQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTbnLoK95DiyaqsNheht59dCguEPNAHB0FtwLZJk2DJrw&oe=6B0208ED",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df14X3qDfY2/",
+      "status": "info"
+    },
     "18111319319629820-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
@@ -3556,7 +3700,7 @@
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpizOwFnHS/",
-      "status": "pending"
+      "status": "misread"
     },
     "18113115620182860-0": {
       "account": "mint_lounge",
@@ -3605,7 +3749,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "UNIBG PARTY",
+        "title": "UniBG Party",
         "venue_name": "Zero Club"
       },
       "id": "18113281850225992-0",
@@ -3635,7 +3779,7 @@
         "price": null,
         "start_time": "00:00",
         "ticket_url": null,
-        "title": "MISSED US?",
+        "title": "CRØMA",
         "venue_name": null
       },
       "id": "18113985998352231-0",
@@ -3789,7 +3933,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "UNIBG PARTY",
+        "title": "UniBG Party",
         "venue_name": "Zero Club"
       },
       "id": "18117559037130131-0",
@@ -3946,7 +4090,7 @@
         "price": null,
         "start_time": "19:00",
         "ticket_url": null,
-        "title": "POP UP PARTY",
+        "title": "The Box",
         "venue_name": "Tassino Café"
       },
       "id": "18118514726109142-0",
@@ -4209,7 +4353,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "AFRODYLAN",
+        "title": "Afrodylan",
         "venue_name": "Druso"
       },
       "id": "18119703394782963-2",
@@ -4361,7 +4505,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "AFRODYLAN",
+        "title": "Afrodylan",
         "venue_name": null
       },
       "id": "18120493633950192-0",
@@ -4911,7 +5055,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "THE NEXT RITUAL",
+        "title": "OASI",
         "venue_name": null
       },
       "id": "18127017478937586-0",
@@ -4943,7 +5087,7 @@
         "price": null,
         "start_time": "23:30",
         "ticket_url": null,
-        "title": "Bolgia",
+        "title": "Supertato",
         "venue_name": "Bolgia"
       },
       "id": "18127033595491867-0",
@@ -6533,7 +6677,7 @@
       },
       "id": "18222367846352958-0",
       "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/883374834_18001426722034022_3662196616870607637_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dLKMlV8LOTEQ7kNvwGtRdLF&_nc_oc=AdqdCQXzxaGgAD8_vuGnhS86V2CJZRXeieE66FLZJ9u-5z7VrsYD_PsEDRW3SYlB_ks&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=7D0zTOCF4HRuGB-geIN0pA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRKuA5THJd8bM-dF9PCUlkOc2Db_DBNLb8H7rDW5bYPuw&oe=6B01430F",
-      "kind": "other",
+      "kind": "culture",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfW42eDMyl1/",
       "status": "info"
@@ -6745,7 +6889,7 @@
         "price": null,
         "start_time": "23:00",
         "ticket_url": null,
-        "title": "Dekmantel Soundystem",
+        "title": "Le Cannibale",
         "venue_name": null
       },
       "id": "18344612377276462-0",
@@ -6928,6 +7072,36 @@
       "kind": "other",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/Dfeb2P4gBWT/",
+      "status": "info"
+    },
+    "18381874753241422-0": {
+      "account": "casacostez",
+      "account_venue": "Casa Costez",
+      "caption": "Una casa, con due anime🎭\n\nCASA Costez-> Bergamo -> Piazza Dante Alighieri📍\n\n- Giovedì \n- Venerdì\n- Sabato\n\nPrima la cena e poi il club! \nPer info e prenotazioni +39 339 7640331 ☎️",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-19",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Nikita",
+        "venue_name": "Nikita"
+      },
+      "id": "18381874753241422-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/907237672_18107050628322580_6500375586170249577_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ZB9O_0X__7EQ7kNvwHG9zxa&_nc_oc=Adq2D08SP-DFkbD98IMM0_x7vOgTwAptVLYnD0BqhMHlc75G2pDfhBdOeUG9hiIXE14&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=NfQMjWapoeDwBsJDy634iA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTyMv1LMA6x_-9iDJWT3Spwjc-QHer9retlrA9tncdn-w&oe=6B020E65",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/Df1xlnwiGZe/",
       "status": "info"
     },
     "18383743021243033-0": {
@@ -7227,7 +7401,7 @@
         "price": null,
         "start_time": "23:30",
         "ticket_url": null,
-        "title": "ICON",
+        "title": "Icon",
         "venue_name": "Tiky Klub"
       },
       "id": "18509540932100006-0",
@@ -7351,7 +7525,7 @@
         "price": null,
         "start_time": null,
         "ticket_url": null,
-        "title": "Alive School Party",
+        "title": "Alive",
         "venue_name": null
       },
       "id": "18702492754003619-0",
@@ -7362,7 +7536,29 @@
       "status": "info"
     }
   },
-  "next_account": 0,
+  "next_account": 20,
+  "profile_names": {
+    "balzerbynight": "BALZER BY NIGHT",
+    "bar30elode": "30&lode",
+    "bucheesebar": "BÙ Cheese Bar",
+    "casacostez": "CASA COSTEZ",
+    "choruslife.bergamo": "ChorusLife",
+    "circolinomalpensata_bergamo": "Lino Circo",
+    "contest_bg": "Contest Bergamo",
+    "cosmo.food.club": "Cosmo Food Club",
+    "csapacipaciana": "c.s.a. Pacì Paciana",
+    "daste_bergamo": "Daste Bergamo",
+    "edonebergamo": "Edoné",
+    "gres_art_671": "gres art 671",
+    "inkclub_bergamo": "Ink Club",
+    "lazzaretto_bergamo_estate": "Lazzaretto Estate Bergamo 2026",
+    "nxtbergamo": "NXT Bergamo",
+    "savana.king25": "Savanah",
+    "sprint_bergamo": "SPRINT 🐊 Bottega. Trattoria. Hi-Fi bar.",
+    "unplug.project": "UNPLUG",
+    "unplug__bg": "UNPLUG COCKTAIL BAR Bergamo",
+    "zeroclub.bg": "Zero Club Bergamo"
+  },
   "seen_posts": {
     "17872910934643134": {
       "account": "hiddenhell.techno",
@@ -7604,6 +7800,11 @@
       "at": "2026-11-07T16:01:32+0000",
       "event": true
     },
+    "17927900598266054": {
+      "account": "daste_bergamo",
+      "at": "2026-11-17T12:02:05+0000",
+      "event": true
+    },
     "17929437141427765": {
       "account": "aliveofficialparty",
       "at": "2026-11-10T17:10:11+0000",
@@ -7682,6 +7883,11 @@
     "17947327959367650": {
       "account": "hype.club.official",
       "at": "2026-11-10T11:05:02+0000",
+      "event": false
+    },
+    "17947587327086792": {
+      "account": "circolinomalpensata_bergamo",
+      "at": "2026-11-17T11:02:12+0000",
       "event": false
     },
     "17947702449362662": {
@@ -8518,6 +8724,11 @@
       "account": "aliveofficialparty",
       "at": "2026-11-12T07:55:18+0000",
       "event": false
+    },
+    "18110695502298306": {
+      "account": "choruslife.bergamo",
+      "at": "2026-11-17T12:00:15+0000",
+      "event": true
     },
     "18111319319629820": {
       "account": "gres_art_671",
@@ -9513,6 +9724,11 @@
       "account": "jamlivestudio",
       "at": "2026-10-30T09:39:27+0000",
       "event": false
+    },
+    "18381874753241422": {
+      "account": "casacostez",
+      "at": "2026-11-17T11:00:02+0000",
+      "event": true
     },
     "18383743021243033": {
       "account": "arya.lounge",
