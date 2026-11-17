@@ -1,5 +1,7 @@
 {
   "followers": {
+    "arya.lounge": 2473,
+    "baiadelrebrignano": 4256,
     "balzerbynight": 7483,
     "bar30elode": 1169,
     "barperlage": 2694,
@@ -8,6 +10,7 @@
     "bolgia.official": 124422,
     "brinapasticceria": 3124,
     "bucheesebar": 6834,
+    "bv_rooftop": 11308,
     "capogirojoyclub": 17726,
     "casacostez": 6193,
     "choruslife.bergamo": 67271,
@@ -21,12 +24,16 @@
     "drusobg": 24644,
     "edonebergamo": 29973,
     "gres_art_671": 21215,
+    "hype.club.official": 24478,
     "incroissanterialab": 27610,
     "inkclub_bergamo": 14635,
     "jamlivestudio": 6024,
     "kellerfactory_": 7323,
     "lazzaretto_bergamo_estate": 11449,
+    "liveclub": 33380,
     "loft.bergamo": 10788,
+    "mint_lounge": 15367,
+    "nikita__land": 25598,
     "ninfeasocialclub": 8663,
     "nxtbergamo": 30186,
     "oroneroloveandmusic": 7811,
@@ -43,6 +50,36 @@
     "zeroclub.bg": 20814
   },
   "items": {
+    "17871635916662973-0": {
+      "account": "mint_lounge",
+      "account_venue": "MINT",
+      "caption": "Sabato 21.11 #mint | in console joebalo_ ☄\n\nCi vediamo dalle 21:00!\n\nVia Trieste 38, Chiuduno (BG)",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "MINT",
+        "venue_name": "MINT"
+      },
+      "id": "17871635916662973-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/899860107_1563205335840682_6733846247672526664_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-bZpO3DXKY0Q7kNvwF878kY&_nc_oc=Adql6xIuzhn-b62iSNOLg6VsBzmBGaSZGdqBpY2tLYA4bPvRxtjMIn7tjz3urj4qPtk&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=fV-S6wj3WGDGY3Toxx-AOg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQScSvP_m60-ESAoF6t-XvkaGD-NXl1-CSIDJxzQ3R9WxA&oe=6B01FFB1",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df1c5EFkT10/",
+      "status": "auto"
+    },
     "17872910934643134-0": {
       "account": "hiddenhell.techno",
       "account_venue": null,
@@ -2714,6 +2751,38 @@
       "permalink": "https://www.instagram.com/reel/DfmpwV6I5cN/",
       "status": "auto"
     },
+    "18094381595221486-0": {
+      "account": "nikita__land",
+      "account_venue": "Nikita",
+      "caption": "20 NOVEMBRE | VENTITRÉ\na restoring time.\n\nIl prossimo appuntamento con GRETA SILVESTRI.\n\nUna voce delicata e avvolgente, capace di attraversare generi e sonorità diverse con naturalezza ed eleganza. \n\nGRETA SILVESTRI · LIVE\n\nIngresso gratuito dalle 22:30 a mezzanotte.\n\nlive listening · cocktail sessions\nNikita, Grumello del Monte (BG)",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-20",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "hard techno"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "VENTITRÉ",
+        "venue_name": "Nikita"
+      },
+      "id": "18094381595221486-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/910464037_1451506480526014_9132375826076533325_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JX4EPLd_F6UQ7kNvwHz3lDQ&_nc_oc=Adqsky0bBElcSCOBrnHKy6gU4Mk5ufNcV4W42ym0UA-N6pAvh5X0ReRZRSTgN5vsktU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=550zrLFHbtAAsHBSjMULpA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTlrg1YPzOMs63Wvsk5b5B5PKfnKRsCS8TsEwtdheQb0Q&oe=6B020FFD",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df1qrLGNjHU/",
+      "status": "info"
+    },
     "18094477835199857-0": {
       "account": "drusobg",
       "account_venue": "Druso",
@@ -3809,6 +3878,36 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfzNzGsMowG/",
       "status": "auto"
+    },
+    "18114013829269730-0": {
+      "account": "nikita__land",
+      "account_venue": "Nikita",
+      "caption": "Venerdì 18 dicembre, NIKITA presenta GATSBY DINNER SHOW: una cena placée accompagnata da musica live e performance, per vivere lo spettacolo tra una portata e l’altra.\n\nLa formula comprende:\nCena completa · Dinner Show · Ingresso alla serata NIKITA.\n\n70€ a persona, con caffè, acqua e vino inclusi.\n\nDalle 21:30, un’esperienza che continua fino a notte fonda, con ingresso incluso alla serata club dopo la mezzanotte.\n\nAccesso su prenotazione. Posti limitati.",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-18",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "La formula comprende",
+        "venue_name": "Nikita"
+      },
+      "id": "18114013829269730-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/910463398_1452504530426209_1310758554274835850_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Sf1WlyvSe8cQ7kNvwGlSAQw&_nc_oc=AdoJzEcMsL58xsVe5wGu5EWxoAB_OwQUxe0p7LfE7_iYjTpvRaNV3NuhIRdou3e0Phk&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=550zrLFHbtAAsHBSjMULpA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQXJdFtZRoIOlBrL2ccQsWqnvIRAJ0Ds70BtSXsvSLWHA&oe=6B0223FB",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df10bCtBMRr/",
+      "status": "info"
     },
     "18114846281582319-0": {
       "account": "tiky.klub",
@@ -7557,8 +7656,10 @@
       "status": "info"
     }
   },
-  "next_account": 40,
+  "next_account": 47,
   "profile_names": {
+    "arya.lounge": "ARYA",
+    "baiadelrebrignano": "BAIA DEL RE (Brignano)",
     "balzerbynight": "BALZER BY NIGHT",
     "bar30elode": "30&lode",
     "barperlage": "PERLAGE",
@@ -7566,6 +7667,7 @@
     "bolgia.official": "Bolgia - dj's from the world",
     "brinapasticceria": "Brina | Pasticceria & Gelateria🧁",
     "bucheesebar": "BÙ Cheese Bar",
+    "bv_rooftop": "BV Rooftop",
     "capogirojoyclub": "CaPoGiRo Joy Club",
     "casacostez": "CASA COSTEZ",
     "choruslife.bergamo": "ChorusLife",
@@ -7579,12 +7681,16 @@
     "drusobg": "Druso",
     "edonebergamo": "Edoné",
     "gres_art_671": "gres art 671",
+    "hype.club.official": "Hype Club ®",
     "incroissanterialab": "In Croissanteria Lab",
     "inkclub_bergamo": "Ink Club",
     "jamlivestudio": "Jam Live Studio",
     "kellerfactory_": "KELLER FACTORY 2.0 | Food Music & Beer",
     "lazzaretto_bergamo_estate": "Lazzaretto Estate Bergamo 2026",
+    "liveclub": "(( LIVE MUSIC CLUB MI ))",
     "loft.bergamo": "LOFT Bergamo",
+    "mint_lounge": "MINT",
+    "nikita__land": "Nikita",
     "ninfeasocialclub": "Ninfea Social Club",
     "nxtbergamo": "NXT Bergamo",
     "oroneroloveandmusic": "ORONERO",
@@ -7601,6 +7707,11 @@
     "zeroclub.bg": "Zero Club Bergamo"
   },
   "seen_posts": {
+    "17871635916662973": {
+      "account": "mint_lounge",
+      "at": "2026-11-17T08:00:08+0000",
+      "event": true
+    },
     "17872910934643134": {
       "account": "hiddenhell.techno",
       "at": "2026-10-27T17:00:09+0000",
@@ -8091,6 +8202,11 @@
       "at": "2026-11-04T17:00:20+0000",
       "event": true
     },
+    "17981787219135289": {
+      "account": "liveclub",
+      "at": "2026-11-17T12:01:48+0000",
+      "event": false
+    },
     "17981858345915718": {
       "account": "cosmo.food.club",
       "at": "2026-11-16T11:32:13+0000",
@@ -8526,6 +8642,11 @@
       "at": "2026-11-02T16:00:48+0000",
       "event": false
     },
+    "18094381595221486": {
+      "account": "nikita__land",
+      "at": "2026-11-17T10:00:33+0000",
+      "event": true
+    },
     "18094477835199857": {
       "account": "drusobg",
       "at": "2026-11-10T19:11:59+0000",
@@ -8776,6 +8897,11 @@
       "at": "2026-11-17T12:00:15+0000",
       "event": true
     },
+    "18110818481339509": {
+      "account": "hype.club.official",
+      "at": "2026-11-17T11:05:01+0000",
+      "event": false
+    },
     "18111319319629820": {
       "account": "gres_art_671",
       "at": "2026-11-09T12:00:02+0000",
@@ -8829,6 +8955,11 @@
     "18113985998352231": {
       "account": "cromaroom",
       "at": "2026-11-16T11:10:38+0000",
+      "event": true
+    },
+    "18114013829269730": {
+      "account": "nikita__land",
+      "at": "2026-11-17T11:25:44+0000",
       "event": true
     },
     "18114511813881058": {
@@ -9830,6 +9961,11 @@
       "account": "ninfeasocialclub",
       "at": "2026-11-11T12:45:01+0000",
       "event": true
+    },
+    "18487896418116009": {
+      "account": "mint_lounge",
+      "at": "2026-11-17T11:07:37+0000",
+      "event": false
     },
     "18493918870111248": {
       "account": "inkclub_bergamo",
