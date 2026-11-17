@@ -46,7 +46,7 @@ class GraphClient:
         self.user_id, self.token, self.version = user_id, token, version
 
     def recent_media(self, username: str, limit: int = 12) -> list[dict[str, Any]]:
-        fields = f"business_discovery.username({username}){{username,media.limit({limit}){{{MEDIA_FIELDS}}}}}"
+        fields = f"business_discovery.username({username}){{username,name,followers_count,media.limit({limit}){{{MEDIA_FIELDS}}}}}"
         r = requests.get(
             f"https://graph.facebook.com/{self.version}/{self.user_id}",
             params={"fields": fields, "access_token": self.token},
@@ -57,7 +57,23 @@ class GraphClient:
             msg = r.json().get("error", {}).get("message", r.text[:200]) if r.headers.get(
                 "content-type", "").startswith("application/json") else r.text[:200]
             raise RuntimeError(f"@{username}: {msg}")
-        return r.json().get("business_discovery", {}).get("media", {}).get("data", [])
+        bd = r.json().get("business_discovery", {})
+        # read in the same call, free: used for the party score (Filippo: rank parties by followers)
+        self.last_profile = {"name": (bd.get("name") or "").strip(), "followers": bd.get("followers_count")}
+        return bd.get("media", {}).get("data", [])
+
+    def profile_name(self, username: str) -> str:
+        """The profile's display name ("Unplug Project" for @unplug.project). Business/Creator accounts only."""
+        r = requests.get(
+            f"https://graph.facebook.com/{self.version}/{self.user_id}",
+            params={"fields": f"business_discovery.username({username}){{name,username}}", "access_token": self.token},
+            headers={"User-Agent": USER_AGENT}, timeout=30,
+        )
+        if r.status_code != 200:
+            msg = r.json().get("error", {}).get("message", r.text[:200]) if r.headers.get(
+                "content-type", "").startswith("application/json") else r.text[:200]
+            raise RuntimeError(f"@{username}: {msg}")
+        return (r.json().get("business_discovery", {}).get("name") or "").strip()
 
 
 def _images(post: dict) -> list[str]:
@@ -160,6 +176,12 @@ class InstagramSource(Source):
                 continue
             new = next((e for e in ex.events if e.date == it["event"]["date"]), None)
             if new is None:
+                if it["status"] in ("auto", "pending") and ex.events and \
+                        "free pattern matcher" in (it.get("notes") or ""):
+                    # the better reader no longer finds this date in the post: it was misread
+                    # ("14 novembre\n21:00" read as 14 and 21 Nov)
+                    it["status"] = "misread"
+                    changed += 1
                 continue
             nd = new.model_dump()
             before = {f: it["event"].get(f) for f in fields}
@@ -167,8 +189,36 @@ class InstagramSource(Source):
             if it.get("kind") == "dj_club" and new.kind != "dj_club" and \
                     is_daytime(Times(new.start_time, new.end_time)):
                 it["kind"], it["status"] = new.kind, "info"  # a daytime conference, not a night out
+            elif it.get("kind") == "other" and new.kind not in ("other", "dj_club") and it["status"] == "info":
+                it["kind"] = new.kind  # sorted better now (a talk -> culture)
             changed += before != {f: it["event"].get(f) for f in fields}
         return changed
+
+    def lookup_profile_names(self, q: dict[str, Any]) -> None:
+        """Display names for the handles tagged in upcoming nights (Filippo: the posts show profile
+        names, not handles). A few per run, cached in ig_review.json under profile_names; "" = not
+        readable (personal account)."""
+        from ..names import handles_in
+        cache = q.setdefault("profile_names", {})
+        known = {h.lower() for h in self.cfg_names()}
+        today = datetime.now(timezone.utc).date().isoformat()
+        todo: list[str] = []
+        for it in q["items"].values():
+            if it["status"] in ("auto", "pending") and it["event"]["date"] >= today:
+                for h in [a.get("instagram") for a in it["event"].get("artists", [])] + handles_in(it.get("caption", "")):
+                    if h and h.lower() not in cache and h.lower() not in known and h.lower() not in todo:
+                        todo.append(h.lower())
+        for h in todo[: self._ig.get("profile_lookups_per_run", 15)]:
+            try:
+                cache[h] = self.graph.profile_name(h)
+            except Exception as e:  # noqa: BLE001
+                if any(k in str(e) for k in ("(#4)", "(#17)", "(#32)", "(#10)", "(#190)")):
+                    break  # rate limit or token: try again next run
+                cache[h] = ""
+
+    def cfg_names(self) -> dict[str, str]:
+        from ..names import known_names
+        return known_names(self.cfg)
 
     def decisions(self) -> tuple[set[str], set[str]]:
         if not self.decisions_path.exists():
@@ -195,6 +245,11 @@ class InstagramSource(Source):
             user = acc["username"].lstrip("@")
             try:
                 posts = self.graph.recent_media(user, self.posts_per_account)
+                prof = getattr(self.graph, "last_profile", None) or {}
+                if prof.get("followers") is not None:
+                    q.setdefault("followers", {})[user.lower()] = int(prof["followers"])
+                if prof.get("name"):
+                    q.setdefault("profile_names", {})[user.lower()] = prof["name"]
             except Exception as e:  # noqa: BLE001
                 errors.append(str(e))
                 if "Invalid user id" in str(e) or "does not exist" in str(e) or "(#110)" in str(e):
@@ -239,6 +294,8 @@ class InstagramSource(Source):
                 self._queue(q, ex, post, user, acc.get("venue"))
         if accounts:
             q["next_account"] = (start + checked) % len(accounts)
+        if not self.token_problem and checked == len(batch):
+            self.lookup_profile_names(q)
         for it in q["items"].values():
             if (cat := self._venue_category(it["event"].get("venue_name") or it.get("account_venue"))):
                 it["kind"] = cat  # venue category set by hand applies to nights already read
@@ -302,7 +359,7 @@ class InstagramSource(Source):
         approve, reject = self.decisions()
         tz = ZoneInfo(self.cfg.settings.get("timezone", "Europe/Rome"))
         for item_id, it in q["items"].items():
-            ok = (it["status"] == "auto" or (item_id in approve and it["status"] != "info")) \
+            ok = (it["status"] == "auto" or (item_id in approve and it["status"] not in ("info", "misread"))) \
                 and item_id not in reject
             if ok:
                 try:
@@ -312,7 +369,7 @@ class InstagramSource(Source):
 
     def rejected_source_ids(self) -> set[str]:
         """Rejected by Filippo, or not a club night (kept as info only): off the calendar."""
-        info = {i for i, it in self._load_review().get("items", {}).items() if it.get("status") == "info"}
+        info = {i for i, it in self._load_review().get("items", {}).items() if it.get("status") in ("info", "misread")}
         return {f"ig:{x}" for x in self.decisions()[1] | info}
 
     def to_event(self, it: dict, tz: ZoneInfo) -> Event:

@@ -19,6 +19,8 @@ from . import fascia
 from .genres import GenreAssigner
 from .headliners import HeadlinerFinder
 from .models import Scope
+from .names import name_map
+from .ranking import Ranker
 from .relevance import score_event
 from .sources import REGISTRY
 from .sources.instagram import InstagramSource, other_events, write_other_events, write_review_md
@@ -61,10 +63,15 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
     # rescore everything so config edits apply to stored events too
     genre = GenreAssigner(cfg)
     heads = HeadlinerFinder(cfg)
+    names = name_map(cfg)
+    ranker = Ranker(cfg)
     for ev in store.all():
+        for a in ev.artists:  # profile names instead of handles (Filippo)
+            a.name = names.get((a.socials.instagram or a.name).lstrip("@").lower(), a.name)
         ev.genre, ev.genre_source = genre.assign(ev)
         ev.headliners = heads.find(ev)
         ev.fascia_auto, ev.fascia_why = fascia.classify(ev, cfg)
+        ev.rank = ranker.rank(ev)
         score_event(ev, cfg)
     return stats
 

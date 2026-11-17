@@ -1,0 +1,175 @@
+# Ranking: the order of nights in the posts (higher first). Filippo edits this file.
+# Each night gets five scores 0-10 and a weighted average of them (src/bget/ranking.py):
+#   location  the venue's importance          -> venues: "Name": score   (or {score, capacity, rooms})
+#   room      main room 10, second rooms lower -> rooms (below), or per venue under rooms:
+#   capacity  people the venue/room holds      -> capacity: 800 (100 -> 2, 400 -> 6, 1600+ -> 10)
+#   party     the party / promoter's relevance -> promoters: "Name": score (empty = from its Instagram followers)
+#   guest     special guests: watchlist name 10, "special guest" line 6, a line-up 3 (automatic)
+# Bars (kind: bar in venues.yaml) are not scored: nearest to the centre first, A-Z at similar distance.
+# A score left empty counts 0. First pass 2026-11-17 by Claude from the type of venue: to be corrected.
+# Example with rooms and capacity:
+#   "Zero Club": {score: 6, capacity: 800, rooms: {main room: {score: 10, capacity: 600}, club room: {score: 6, capacity: 200}}}
+
+weights: {location: 1.0, room: 0.5, capacity: 1.0, party: 1.5, guest: 2.0}
+
+venues:
+  "Bolgia": {score: 10, capacity: 3000}
+  "Live Club": 8
+  "Setai Club": {score: 6, capacity: 1000}
+  "Zero Club": {score: 7, capacity: 500}
+  "Nikita": {score: 7, capacity: 1000}
+  "Bobadilla": {score: 6, capacity: 500}
+  "Hype Club": {score: 6, capacity: 500}
+  "Tiky Klub": {score: 6, capacity: 300}
+  "Queen Club": {score: 6, capacity: 400}
+  "Oronero": {score: 6, capacity: 400}
+  "Baia del Re": 6
+  "LOFT Bergamo": {score: 6, capacity: 200}
+  "Two Festival": 6
+  "NXT Station": 6
+  "Lazzaretto": 6
+  "ChorusLife": 6
+  "Fiera di Bergamo": 6
+  "Casa Costez": 6
+  "Jam Live Studio": 6
+  "Vibe Club": {score: 6, capacity: 500}
+  "Garota de Ipanema": 6
+  "Sabbie Mobili": 6
+  "MINT": 6
+  "Charleston": 6
+  "Thanka": {score: 6, capacity: 1000}
+  "Magazzini Generali": 6
+  "Ippodromo SNAI San Siro": 6
+  "Edoné": 5
+  "Daste": 5
+  "Druso": 5
+  "Polaresco": 5
+  "Ink Club": 5
+  "UFO Live": 5
+  "Gres Art 671": 5
+  "Fabrique": 5
+  "BV Rooftop": 3
+  "Circolino della Malpensata": 3
+  "Keller Factory": 3
+  "Ninfea Social Club": 3
+  "Barry's": 3
+  "Sprint": 3
+  "Unplug Bar": 3
+  "Balzer by Night": 3
+  "BÙ Cheese Bar": 3
+  "Savana King": 3
+  "Cosmo Food Club": 3
+  "Contest Cocktail Bar": 3
+  "OperaPrima Café": 3
+  "Bar 30&Lode": 3
+  "Into The Woods": 3
+  "Cafeteria": 3
+  "Karma Lounge": 3
+  "Victoria Lounge Bar": 3
+  "Bar Perlage": 3
+  "Caffetteria Nuova Rotonda": 3
+  "In Croissanteria Lab": 3
+  "Brina Pasticceria": 3
+  "Delblaco Lunch & Bar": 3
+  "Arya Lounge": 3
+  "Al Tabarin": 3
+  "Officina Panarari": 3
+  "Bar San Marco": 3
+  "Tassino Café": 3
+
+# Rooms, for every venue (a venue's own rooms: list win). A night that names no room = main room (10).
+rooms:
+  main room: 10
+  main area: 10
+  club room: 6
+  lab room: 6
+  garden: 6
+  theater room: 6
+  bunker: 6
+
+promoters:   # party relevance 1-10; null = use the promoter's Instagram followers (1k=2, 4k=6, 16k+=10)
+  "Cheri": null
+  "Hidden Hell": null
+  "Galactica Festival": null
+  "JUICE Crew": null
+  "Groove Factory": null
+  "Supertato": null
+  "LTC (Lorenzo Tiezzi Comunicazione)": null
+  "MiDi Motori Digitali": null
+  "Le Cannibale": null
+  "Sabotage": null
+  "utōpia": null
+  "Discopasta Social Club": null
+  "Greebo Party": null
+  "Newrant Crew": null
+  "BassBrigade / Tribe73 / Beetek / KTN": null
+  "Night Life Bergamo": null
+  "Sommet": null
+  "NØID": null
+  "ICKS": null
+  "Gabass Subculture": null
+  "Vida Loca": null
+  "Borgo Santa Caterina": null
+  "The Box Bergamo": null
+  "BSK Sound": null
+  "Crocevia": null
+  "Bergamo Night Service": null
+  "PLEASE": null
+  "TALK": null
+  "Sloth": null
+  "Step Up": null
+  "UniBG Party": null
+  "Premiere": null
+  "The Circle": null
+  "Crystal Castles Night": null
+  "CRØMA": null
+  "OASI": null
+  "Selected Lab": null
+  "Upside Down": null
+  "Alive": null
+  "Code": null
+  "Enter the Void": null
+  "Lova": null
+  "Ventitré": null
+  "Savage": null
+  "Otra Vez": null
+  "Aperitivo Martini": null
+  "Merci": null
+  "Studio Legale": null
+  "Noche Latina": null
+  "Tocame": null
+  "Spicy": null
+  "Elysium Privè": null
+  "C'est la vie": null
+  "Offline": null
+  "Open Bar Night": null
+  "Rockoteca": null
+  "Chewing Gum": null
+  "DiscoDance": null
+  "La Casita": null
+  "Afrodylan": null
+  "Tra terra e cielo": null
+  "Club Culture": null
+  "Hi-Fi Fever": null
+  "Side A": null
+  "Rapture": null
+  "Bucolic Party": null
+  "Honey": null
+  "Pitch": null
+  "L'Apéritif by Earth": null
+  "Boheme": null
+  "#NoFilter": null
+  "Zona de Perreo": null
+  "Call Out": null
+  "Choose Me": null
+  "Lipstick": null
+  "Sabado de Pikete": null
+  "Traviesa": null
+  "Krystal404": null
+  "Naif": null
+  "MiuMiuu": null
+  "Back to the 90s": null
+  "One Place, Two Souls": null
+  "cento10elode": null
+  "Icon": null
+  "Muchacha": null

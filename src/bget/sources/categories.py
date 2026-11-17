@@ -30,7 +30,8 @@ PATTERNS = [
                    r"fantacalcio|freccette|beer pong|biliardo|game night"),
     ("culture", r"presentazione|libro|libri|mostra|esposizione|incontro|talk|laboratorio|workshop|corso|"
                 r"rassegna|teatro|cinema|proiezione|reading|conferenza|dibattito|letture|lettere|vernissage|"
-                r"inaugurazione della mostra|visita guidata"),
+                r"inaugurazione della mostra|visita guidata|panel|convegno|convegni|tavola rotonda|forum|summit|keynote|"
+                r"intervengono|interviene|interventi|relatori|relatore|talks|tavoli di lavoro|conference|seminario|lectio"),
     ("food_drink", r"aperitivo|apericena|cena|cene|brunch|pranzo|menu|menù|degustazione|pizza|pizzata|"
                    r"cocktail|wine|vino|vini|colazione|pasticceria|burger|sushi|panettone|cioccolata|"
                    r"tagliere|happy hour|drink list|piatti|chef"),
@@ -38,10 +39,10 @@ PATTERNS = [
 _COMPILED = [(cat, re.compile(_W.format(p), re.I)) for cat, p in PATTERNS]
 
 
-def categorize(text: str, venue_kind: str | None = None) -> str:
+def categorize(text: str, venue_kind: str | None = None, exclude: set[str] = frozenset()) -> str:
     """Ballroom / liscio first (a balera with a DJ is still not a club night); then DJ/club signals win over everything (a dinner with a DJ set is still a DJ night);
     then live music; then the non-music categories in the order above."""
-    hits = {cat for cat, rx in _COMPILED if rx.search(text or "")}
+    hits = {cat for cat, rx in _COMPILED if cat not in exclude and rx.search(text or "")}
     if "ballo_da_sala" in hits:
         return "ballo_da_sala"
     if "dj_club" in hits:
@@ -51,6 +52,6 @@ def categorize(text: str, venue_kind: str | None = None) -> str:
     for cat in ("comedy", "quiz_games", "culture", "food_drink"):
         if cat in hits:
             return cat
-    if venue_kind == "club":
+    if venue_kind == "club" and "dj_club" not in exclude:
         return "dj_club"  # a dated post from a nightclub with no other clue is a club night
     return "other"
