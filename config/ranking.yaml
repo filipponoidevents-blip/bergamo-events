@@ -30,7 +30,7 @@ venues:
   "NXT Station": {score: 6, capacity: 1000}
   "Lazzaretto": {score: 6, capacity: 2000}
   "ChorusLife": 6
-  "Fiera di Bergamo": 6
+  "Fiera di Bergamo": 8   # no Instagram: score set by hand (Filippo)
   "Casa Costez": {score: 6, capacity: 300}
   "Jam Live Studio": {score: 6, capacity: 600}
   "Vibe Club": {score: 6, capacity: 500}
