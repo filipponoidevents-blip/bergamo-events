@@ -45,14 +45,7 @@ MESI = ["", "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Lugli
 MIDWEEK_KINDS = {"food_drink": "PRESERATA", "comedy": "COMEDY", "quiz_games": "QUIZ", "culture": "CULTURA"}
 
 Slide = tuple[Image.Image, list[Event]]
-
-
-def is_night(e: Event, night_from: str = "22:00") -> bool:
-    """A serata starts at night_from or later, or after midnight (before 06:00); earlier is preserata.
-    night_from comes from Config.serata_from (by venue); "00:00" means always a serata."""
-    h, m = map(int, night_from.split(":"))
-    t = e.start.astimezone(ROME)
-    return t.hour < 6 or (t.hour, t.minute) >= (h, m)   # image + the events shown on it (for tagging)
+   # image + the events shown on it (for tagging)
 
 
 def _font(name: str, size: int, weight: int | None = None, width: int | None = None) -> ImageFont.FreeTypeFont:

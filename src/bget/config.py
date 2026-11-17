@@ -54,14 +54,13 @@ class Config:
                 )
         return None
 
-    def serata_from(self, venue: Venue) -> str:
-        """Earliest start that makes a night a "serata" at this venue (settings.yaml serata_from)."""
+    def is_preserata(self, venue: Venue) -> bool:
+        """Pre-party venue (settings.yaml preserata_kinds, or `preserata:` on the venue in venues.yaml)."""
         n = slug(venue.name)
         for v in self.venues:
-            if v.get("serata_from") and any(slug(x) == n for x in [v["name"], *v.get("aliases", [])]):
-                return str(v["serata_from"])
-        table = self.settings.get("serata_from") or {}
-        return str(table.get(venue.kind) or table.get("default") or "22:00")
+            if "preserata" in v and any(slug(x) == n for x in [v["name"], *v.get("aliases", [])]):
+                return bool(v["preserata"])
+        return venue.kind in (self.settings.get("preserata_kinds") or ["bar"])
 
     def enrich_venue(self, venue: Venue) -> Venue:
         """Fill gaps (coords, province, handles) from the registry and town table."""
