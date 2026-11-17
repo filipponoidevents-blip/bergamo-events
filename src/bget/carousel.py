@@ -302,18 +302,19 @@ def _draw_mid(p: Page, y: int, r: Row, pill: bool) -> int:
         d.text((MX, base), r.time, font=chunk(34), fill=p.fg, anchor="ls")
     d.text((x, base), text, font=f, fill=p.fg, anchor="ls")
     y += 18 + 60
+    cy = y + 8 + cap(grot(30, 600)) / 2          # centre of the details line, same as on the red pages
     if pill and r.tag:
-        f = grot(22, 800)
-        d.rounded_rectangle([x, y + 2, x + d.textlength(r.tag, font=f) + 32, y + 38], 18, fill=p.fg)
-        _mid(d, x + 16, y + 20, r.tag, f, p.bg)
-        x2 = x + d.textlength(r.tag, font=f) + 48
+        f = grot(20, 800)
+        d.rounded_rectangle([x, cy - 15, x + d.textlength(r.tag, font=f) + 28, cy + 15], 15, fill=p.fg)
+        _mid(d, x + 14, cy, r.tag, f, p.bg)
+        x2 = x + d.textlength(r.tag, font=f) + 42
         rest = ", ".join(t for t in [r.sub, r.extra] if t)
     else:
         x2 = x
         rest = ", ".join(t for t in [r.label.capitalize(), r.tag.title(), r.sub, r.extra] if t)
     if rest and R - x2 > 80:
         text, f = _fit(d, rest, lambda z: grot(z, 600), 30, R - x2, min_size=20)
-        d.text((x2, y + 8 + cap(f)), text, font=f, fill=p.fg, anchor="ls")
+        _mid(d, x2, cy, text, f, p.fg)
     y += MID_ROW - 78
     d.line([(MX, y), (R, y)], fill=p.fg, width=1)
     return y
