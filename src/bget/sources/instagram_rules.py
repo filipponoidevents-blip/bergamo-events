@@ -170,7 +170,7 @@ def find_genres(text: str, scored: list[str]) -> list[str]:
 _T = (r"(?:(?P<{n}mid>mezzanotte|midnight)|(?<![\d.,:/])(?P<{n}h>[01]?\d|2[0-4])"
       r"(?:(?P<{n}sep>[:.,])(?P<{n}m>[0-5]\d))?(?![\d/])(?:\s*(?P<{n}ap>am|pm)\b)?)")
 _START_WORD = r"(?:dalle\s+ore|dalle|dalla|ore|h\.?|from|start(?:ing)?(?:\s+at)?|opening(?:\s+ore)?|apertura(?:\s+porte)?(?:\s+ore)?|" \
-              r"doors(?:\s+open)?(?:\s+at)?|inizio(?:\s+ore)?|alle\s+ore|porte)"
+              r"doors(?:\s+open)?(?:\s+at)?|inizio(?:\s+alle)?(?:\s+ore)?|alle\s+ore|porte)"
 _END_WORD = r"(?:chiusura(?:\s+ore)?|closing(?:\s+at)?|close|end(?:s)?(?:\s+at)?|fino\s+alle(?:\s+ore)?|until|till)"
 _JOIN = r"\s*(?:-|–|—|/|alle(?:\s+ore)?|a|to|till|until|fino\s+alle(?:\s+ore)?)\s*"
 RE_RANGE = re.compile(rf"(?:\b{_START_WORD}\s*)?{_T.format(n='a')}{_JOIN}(?:h\.?\s*)?{_T.format(n='b')}", re.I)
@@ -474,9 +474,13 @@ class RulesExtractor:
         caption = normalize(caption)
         posted = posted_at.date()
         warnings: list[str] = []
-        dates, explicit = find_dates(caption, posted, warnings)
+        head = RE_HEADLINE.match(caption.split("\n", 1)[0])
+        dates, explicit = find_dates(head.group("d") if head else caption, posted, warnings)
+        if head and not dates:
+            dates, explicit = find_dates(caption, posted, warnings)
         if not dates:
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no date in caption")
+        head_title = _clean_name(head.group("t")) if head and dates else ""
         recap = bool(RECAP.search(caption))
         times = read_times(caption)
         start, end = times.start, times.end
@@ -517,7 +521,7 @@ class RulesExtractor:
         # who posted decides first (Filippo, 2026-11-17): a promoter posting its own night -> the promoter's
         # name ("POP UP PARTY" posted by The Box at Tassino -> The Box); a venue's post -> the promoter it tags
         own = self.promoter_handles.get(account.lower()) if not account_venue else None
-        title = own or (promoter if account_venue else None) or party_title(caption, names) or promoter or venue or account_venue or (mentions[0] if mentions else f"@{account}")
+        title = own or (promoter if account_venue else None) or head_title or party_title(caption, names) or promoter or venue or account_venue or (mentions[0] if mentions else f"@{account}")
         kind = categorize(caption, self.venue_kinds.get(venue))
         if kind == "dj_club" and is_daytime(times) and not DAY_PARTY.search(caption):
             kind = categorize(caption, exclude={"dj_club"})  # a daytime talk -> culture (Filippo: talks go in "altro")
@@ -538,6 +542,9 @@ class RulesExtractor:
                           confidence=round(max(0.0, min(conf, 0.95)), 2), notes=notes)
 
 
+# NXT's headline: "Swing 🎶 @ NXT Bergamo, Piazzale degli Alpini - 22 novembre" -> that night's name and date
+# (the footer "Dal 20 novembre al 10 gennaio" is the rink season, not the night)
+RE_HEADLINE = re.compile(rf"^\W*(?P<t>[^@\n]{{3,80}}?)\s+@\s+[^\n@]{{2,80}}?\W\s*(?P<d>\d{{1,2}}\s+(?:{_MONTH_RE})\b(?:\s+\d{{4}})?)", re.I)
 RE_DATE_LINE = re.compile(rf"^\W*(?:{_WD_RE})\b|^\W*\d{{1,2}}(?:st|nd|rd|th)?\s+(?:{_WD_RE})\b|^\W*\d{{1,2}}\s*(?:{_MONTH_RE})\b|^\W*\d{{1,2}}[./]\d{{1,2}}\b", re.I)
 
 

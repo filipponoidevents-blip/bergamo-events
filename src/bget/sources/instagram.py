@@ -374,7 +374,10 @@ class InstagramSource(Source):
             kind = self._venue_category(e.venue_name or account_venue) or (
                 e.kind if e.kind in CATEGORIES else categorize(
                     f"{e.title} {' '.join(e.genres)} {caption}", self._venue_kind(e.venue_name or account_venue)))
-            if kind not in self.calendar_kinds:
+            # venues.yaml `calendar_also: [live_music]`: that venue's live nights go on the calendar too (NXT, Filippo)
+            also = next((v.get("calendar_also") or [] for v in self.cfg.venues
+                         if v["name"] == (e.venue_name or account_venue)), [])
+            if kind not in self.calendar_kinds and kind not in also:
                 status = "info"  # kept for reference (other_events.md / other.ics), never on the main calendar
             elif ex.confidence >= self.auto_conf:
                 status = "auto"
