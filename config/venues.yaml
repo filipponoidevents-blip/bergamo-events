@@ -479,7 +479,7 @@ venues:
     lon: 9.673
     km: 0.7
     kind: open_air
-    fascia: orari      # mixed venue: decided by times only (Filippo)
+    fascia: sempre preserata   # Filippo 2026-11-17: always preserata, whatever the times
     status: active        # summer season, late May to early Sep
     socials: {instagram: nxtbergamo, website: null}
     ig_source: user

@@ -478,3 +478,11 @@ def test_seasonal_capacity():
     r = Ranker(cfg)
     mk = lambda m: Event(title="x", start=datetime(2026, m, 20, 23), venue=Venue(name="Edoné", city=""))
     assert r.factors(mk(7))["capacity"] > r.factors(mk(11))["capacity"]
+
+
+def test_venue_always_preserata():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget import fascia
+    ev = Event(title="x", start=datetime(2026, 11, 21, 23, 45), venue=Venue(name="NXT Station", city=""), late_end=True)
+    assert fascia.classify(ev, cfg)[0] == "preserata"
