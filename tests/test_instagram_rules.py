@@ -328,3 +328,10 @@ def test_fascia_rule():
     assert classify(_ev("23:00", start_known=False, venue=Venue(name="Bolgia", city="")), cfg)[0] == "serata"
     assert classify(_ev("23:00", start_known=False, venue=Venue(name="MINT", city="")), cfg)[0] == "preserata"
     assert classify(_ev("23:30", "06:00", fascia="preserata"), cfg) == ("preserata", "deciso a mano")
+
+
+def test_known_promoter_names_the_night():
+    ex = read("VENERDÌ 20.11 | dalle 21:00 con cheri.it 🍒\n\nVia Trieste 38, Chiuduno (Bg)", account="mint_lounge",
+              venue="MINT")
+    assert ex.events[0].title == "Cheri"
+    assert all(a.instagram != "cheri.it" for a in ex.events[0].artists)
