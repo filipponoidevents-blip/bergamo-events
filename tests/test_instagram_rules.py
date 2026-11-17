@@ -511,3 +511,19 @@ def test_hide_reads_instagram_bold_letters():
     s.events["k"] = Event(title="NXT Station", start=datetime(2026, 11, 20, 23), venue=Venue(name="NXT Station", city=""),
                           description="❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧\n𝐒𝐭𝐚𝐬𝐞𝐫𝐚 𝐥𝐢𝐯𝐞")
     assert s.hide([{"text": "Bergamo on Ice"}]) == 1
+
+
+def test_elysium_is_capogiros_second_room():
+    from bget.sources.instagram import second_room
+    assert second_room("Sabato in Elysium Privè: hip hop night") == "elysium"
+
+
+def test_nxt_headline_date_beats_rink_season_footer():
+    from datetime import datetime
+    from bget.sources.instagram_rules import RulesExtractor
+    cap = ("Swing 🎶 @ NXT Bergamo, Piazzale degli Alpini - 22 novembre\nBergamo Swing Collective porta in pista...\n\n"
+           "⏰ Inizio alle 20:00\nINGRESSO GRATUITO\n\n❄️ Bergamo on Ice & Star Garden 🎄 Piazzale degli Alpini 💫\n"
+           "Dal 20 novembre al 10 gennaio")
+    ex = RulesExtractor(cfg)(caption=cap, image_urls=[], posted_at=datetime(2026, 11, 9, 15),
+                             account="nxtbergamo", account_venue="NXT Station")
+    assert [(e.date, e.start_time, e.title) for e in ex.events] == [("2026-11-22", "20:00", "Swing")]
