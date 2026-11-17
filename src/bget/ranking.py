@@ -9,6 +9,7 @@ weighted in config/ranking.yaml:
 
 rank = weighted average of the five, 0-10. A factor with no data counts 0, so filling in the file
 moves a night up. Everything here is set by hand; nothing is guessed from followers or the like.
+Bars are not scored (Filippo): they come after, nearest to Bergamo centre first, A-Z at similar distance.
 """
 from __future__ import annotations
 
@@ -39,6 +40,9 @@ class Ranker:
         self.default_room = {k.lower(): float(v) for k, v in (data.get("rooms") or {}).items() if v is not None}
         self.venues: dict[str, dict] = {}
         caps = {v["name"].lower(): v.get("capacity") for v in cfg.venues}
+        # bars (Filippo): no score, ordered by distance from the centre, then alphabetically
+        self.bar_km = {v["name"].lower(): v.get("km") for v in cfg.venues if v.get("kind") == "bar"}
+        self.bar_alpha = {n: i for i, n in enumerate(sorted(self.bar_km))}
         for name, v in (data.get("venues") or {}).items():
             v = {"score": v} if not isinstance(v, dict) else dict(v)
             v.setdefault("capacity", caps.get(name.lower()))
@@ -99,6 +103,11 @@ class Ranker:
         }
 
     def rank(self, ev: Event) -> float:
+        name = ev.venue.name.lower()
+        if name in self.bar_km:
+            # below every scored venue; 5 km steps from the centre, then A-Z within a step
+            km = self.bar_km[name] if self.bar_km[name] is not None else (ev.distance_km or 20)
+            return round(0.9 - min(int(km // 5), 9) * 0.05 - self.bar_alpha[name] * 0.0001, 4)
         f = self.factors(ev)
         total = sum(self.weights.values()) or 1
         return round(sum(self.weights[k] * f[k] for k in f) / total, 2)

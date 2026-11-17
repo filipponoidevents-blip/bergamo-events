@@ -5,6 +5,7 @@
 #   capacity  people the venue/room holds      -> capacity: 800 (100 -> 2, 400 -> 6, 1600+ -> 10)
 #   party     the party / promoter's relevance -> promoters: "Name": score
 #   guest     special guests: watchlist name 10, "special guest" line 6, a line-up 3 (automatic)
+# Bars (kind: bar in venues.yaml) are not scored: nearest to the centre first, A-Z at similar distance.
 # A score left empty counts 0. First pass 2026-11-17 by Claude from the type of venue: to be corrected.
 # Example with rooms and capacity:
 #   "Zero Club": {score: 6, capacity: 800, rooms: {main room: {score: 10, capacity: 600}, club room: {score: 6, capacity: 200}}}
