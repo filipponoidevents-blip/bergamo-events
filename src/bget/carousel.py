@@ -145,8 +145,11 @@ def _big_title(p: Page, lines: list[str], y: int, align: str = "center") -> int:
         while p.d.textlength(t, font=f) > p.w - 2 * MX:
             f = chunk(f.size - 6)
         y += cap(f) + (int(f.size * 0.12) if i else 0)
-        x, a = {"center": (p.w / 2, "ms"), "right": (p.w - MX, "rs")}.get(align, (MX, "ls"))
-        p.d.text((x, y), t, font=f, fill=p.fg, anchor=a)
+        if align == "left":   # the ink, not the glyph box, starts at the margin
+            p.d.text((MX - f.getbbox(t, anchor="ls")[0], y), t, font=f, fill=p.fg, anchor="ls")
+        else:
+            x, a = (p.w / 2, "ms") if align == "center" else (p.w - MX, "rs")
+            p.d.text((x, y), t, font=f, fill=p.fg, anchor=a)
     return y
 
 
@@ -155,7 +158,7 @@ def _big_title(p: Page, lines: list[str], y: int, align: str = "center") -> int:
 def _month_cover(fmt: str, year: int, month: int, nights: dict[date, int]) -> Image.Image:
     p = _page(fmt, CLUB, f"N°{month:02d}", "SOLO DJ & CLUB", f"{MESI[month][:3].upper()} {year}")
     d, R = p.d, p.w - MX
-    y = _big_title(p, [MESI[month][:3].upper()], p.top + 70) + 50
+    y = _big_title(p, [MESI[month][:3].upper()], p.top + 70, align="left") + 50
     cw = (R - MX) / 7
     for i, g in enumerate(GIORNI):
         d.text((MX + cw * i + cw / 2, y), g, font=chunk(22), fill=p.fg, anchor="ma")
@@ -192,7 +195,7 @@ def _strip_cover(fmt: str, pal: dict, title: list[str], subtitle: str | None, da
     last = days[-1]
     p = _page(fmt, pal, top_mid, bottom_mid, f"{MESI[last.month][:3].upper()} {last.year}")
     d, R = p.d, p.w - MX
-    y = _big_title(p, title, p.top + 70, align="center" if pal is CLUB else "left") + 50
+    y = _big_title(p, title, p.top + 70, align="left") + 50   # Filippo: NOV aligned left
     if subtitle:
         d.line([(MX, y), (R, y)], fill=p.fg, width=2)
         y += 24
