@@ -80,7 +80,7 @@
     "utopia.direction": 8466,
     "vibetheclub": 11558,
     "we.are.stepup": 354,
-    "zeroclub.bg": 20814
+    "zeroclub.bg": 20819
   },
   "items": {
     "17871599085659323-0": {
@@ -107,7 +107,7 @@
         "venue_name": null
       },
       "id": "17871599085659323-0",
-      "image": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/912424873_17919576927540636_4131439462874274895_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=96cHI1H3gt8Q7kNvwHKgogX&_nc_oc=Adrp1thbeqXw1D6xm3g_F58sXYsVINq0--cH6tRS27Q-cqLdrBggRXrV51yfQgWQRaQ&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hHk91PqoXQCpkzhhQ6ICrw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRh6gHJu0QS3P90kRgiePByqSWFdshUnkrl72r5AtGPFA&oe=6B025B03",
+      "image": "https://scontent-dfw6-2.cdninstagram.com/v/t51.82787-15/912424873_17919576927540636_4131439462874274895_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=96cHI1H3gt8Q7kNvwEKedLp&_nc_oc=AdqCvsUYUnKolwGkWo2VVyFFMKli0WVCvqGW3SDVIzvUOJGlhh-q7SkTC0EUTmSy4LU&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Bquck5-kALOsT09ob58RwQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS9Ia92amgh3Zjo1vILyv6KSfHgoiWyD0hY6tGss6aMxw&oe=6B025B03",
       "kind": "food_drink",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Df1rD5VtdsX/",
@@ -367,7 +367,7 @@
         "venue_name": "MINT"
       },
       "id": "17896758693616351-0",
-      "image": "https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/907683975_17998187133060777_7427488761439572478_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3jBVzMhPHK0Q7kNvwFHhax7&_nc_oc=Adqpj6L55oEI6w5JWqGYSy1Afa476MDtj99hQB2YuCankEW4cA4dbFuvzIqYwQXHNYk&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=z-iYTvIaiDVrq4NEr6l0Ug&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRHUkXP4200F-0omTeZ8y2bYfRR4-ZyOUuLqrwWqyXuhg&oe=6B026A17",
+      "image": "https://scontent-dfw5-1.cdninstagram.com/v/t51.82787-15/907683975_17998187133060777_7427488761439572478_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3jBVzMhPHK0Q7kNvwGCrgkd&_nc_oc=Adq_-1b_jEeRglSfZlDo7qyXkA1WX_gcj6AF9Gp6rzA6GmP7ZKd3LCUjg70OfORgG4U&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hZFsP1kOl5xd9PE2Yzrq9Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRDPFoRjPkcbPVqzi2GnlV2onXTU9ya5xiKCmqw6rM2Bg&oe=6B026A17",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DfzNZbBIRi9/",
@@ -1758,33 +1758,6 @@
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DfKJZMCBeoW/",
       "status": "info"
-    },
-    "17994000783101670-0": {
-      "account": "zeroclub.bg",
-      "account_venue": "Zero Club",
-      "confidence": 0.65,
-      "event": {
-        "artists": [],
-        "city": null,
-        "date": "2026-11-04",
-        "end_time": null,
-        "genres": [
-          "techno"
-        ],
-        "is_concert": false,
-        "is_festival": false,
-        "price": null,
-        "start_time": null,
-        "ticket_url": null,
-        "title": "Questo mese a zeroclub.bg",
-        "venue_name": "Zero Club"
-      },
-      "id": "17994000783101670-0",
-      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Hl3uJ4UA3IcQ7kNvwG2gPrK&_nc_oc=AdrHqwKHl8-int_E0VXhu1zC52DgsPYUtMXgGNDbNgccChjdSnhHi_BTrmkHwnuHcYU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=slLhHpJJHudmHQnbmBPhiw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSBbjp73H1bvf-Vfvp_KloAH0C-EAbGQpEO5X-kXIJh_A&oe=6B01496F",
-      "kind": "dj_club",
-      "notes": "read by the free pattern matcher; date guessed from a weekday name",
-      "permalink": "https://www.instagram.com/p/DfPzvj8CAe3/",
-      "status": "pending"
     },
     "17996037315098885-0": {
       "account": "gres_art_671",
@@ -6892,7 +6865,7 @@
         "venue_name": "MINT"
       },
       "id": "18213390076365403-0",
-      "image": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/914384616_17998345716060777_3910334456267318434_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=48xwoBHvdXwQ7kNvwGVKEvU&_nc_oc=Adr5dZp8M8hJe0os-vlfhC7QijaNbd0DXcSHR-G_OfxaNr-03NEa4J8S0_RbVi3FYOQ&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=z-iYTvIaiDVrq4NEr6l0Ug&_nc_tpa=Q5bMBQJLnc2ZNyXY7AVwMS2sMjET8qL3uyI0neJ8YVPRBR2TTBPxYDy4zf8FTvYsf8RiMT_lgl6Qo7QrOA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQTZtsK5xk2hZOU_MB0BPeHsvEbIPIm6vGHqmBByBA23Lw&oe=6B0265F4",
+      "image": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/914384616_17998345716060777_3910334456267318434_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=48xwoBHvdXwQ7kNvwFZ3Zjc&_nc_oc=AdoiDHSV6cjEpDrexmU3mV-Nn5EB4-FuD1I48GRs-zh1urY3zHNFp-GK80wTOvaYiWA&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=hZFsP1kOl5xd9PE2Yzrq9Q&_nc_tpa=Q5bMBQIIqU48yX8dgZfFyg6j6eiYAksa1hquhgSQYF3WrnTbTMjw2iHd6ulbvpvK-VdG39--pcgQTV5baQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSPi-_pdDGi-nS7rUVrBsOfrlKrX_xjstrnyovHArHJBw&oe=6B0265F4",
       "kind": "dj_club",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/reel/Df10PrFIZVP/",
@@ -8465,7 +8438,8 @@
     "17994000783101670": {
       "account": "zeroclub.bg",
       "at": "2026-11-02T17:08:40+0000",
-      "event": true
+      "event": true,
+      "reread": true
     },
     "17994184902061252": {
       "account": "barrys__",
