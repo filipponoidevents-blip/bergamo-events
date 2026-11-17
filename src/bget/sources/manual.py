@@ -45,6 +45,7 @@ class ManualSource(Source):
                 image_url=e.get("image_url"),
                 price=e.get("price"),
                 promoter_name=e.get("promoter"),
+                room=e.get("room"),
                 promoter=Socials(**e["promoter_socials"]) if e.get("promoter_socials") else None,
                 sources=[self.id],
                 fascia=e.get("fascia"),  # serata | preserata, optional

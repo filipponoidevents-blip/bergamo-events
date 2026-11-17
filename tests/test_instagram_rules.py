@@ -454,3 +454,18 @@ def test_lineup_counts_only_relevant_names():
                          description="LINE UP\nDJ ONE\nDJ TWO", artists=[Artist(name=h, socials=Socials(instagram=h))])
     assert r.guest(mk("localdj")) == 0
     assert r.guest(mk("bigdj")) > 8
+
+
+def test_second_room_is_its_own_night(tmp_path):
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.sources.instagram import second_room
+    from bget.store import Store
+    assert second_room("Sabato 21 Novembre!\nZero Club - Club room") == "club room"
+    assert second_room("Main room: X\nClub room: Y") is None
+    st = Store(tmp_path / "e.json")
+    v = lambda: Venue(name="Zero Club", city="Bergamo")
+    st.upsert(Event(title="Zero Club", start=datetime(2026, 11, 21, 23), venue=v(), sources=["ig:1"]))
+    st.upsert(Event(title="Premiere", start=datetime(2026, 11, 21, 23), venue=v(), sources=["manual"], room="main room"))
+    st.upsert(Event(title="The Circle", start=datetime(2026, 11, 21, 23), venue=v(), sources=["ig:1"], room="club room"))
+    assert sorted(e.title for e in st.all()) == ["Premiere", "The Circle"]

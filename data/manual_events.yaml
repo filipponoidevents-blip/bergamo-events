@@ -12,4 +12,12 @@
 #    category: club
 #    url: https://example.com/event
 
-events: []
+events:
+  - title: "Premiere"          # Filippo 2026-11-17: Zero main room, hip hop / trap (no post read yet)
+    start: 2026-11-21T23:00
+    venue: Zero Club
+    promoter: Premiere
+    room: main room
+    genres: [hip hop, trap]
+    category: club
+    description: "Premiere @premiere.premiere - main room"

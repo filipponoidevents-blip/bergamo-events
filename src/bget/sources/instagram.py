@@ -39,6 +39,18 @@ from .instagram_rules import ListingExtractor, RulesExtractor, is_daytime, Times
 
 log = logging.getLogger(__name__)
 
+SECOND_ROOM = re.compile(r"\b(club\s*room|lab\s*room|theat(?:er|re)\s*room|second\s*room|sala\s*2|sala\s*due)\b", re.I)
+
+
+def second_room(caption: str) -> str | None:
+    """The one second room a post is about (Zero: "Club room"), so it stays apart from the main
+    room's night. None when no room or several rooms are named (a post for the whole venue)."""
+    rooms = {re.sub(r"\s+", " ", m.group(1).lower()) for m in SECOND_ROOM.finditer(caption)}
+    if len(rooms) == 1 and not re.search(r"main\s*(?:room|area)|sala\s*(?:1|principale)", caption, re.I):
+        return rooms.pop()
+    return None
+
+
 MONTHLY_HINT = re.compile(r"questo mese|this month|mese di|programma|calendario|mensile|line ?-?up (?:del|di) |"
                           r"(?<!\d\s)\b(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|"
                           r"novembre|dicembre)\b(?!\s*\d)", re.I)
@@ -420,6 +432,7 @@ class InstagramSource(Source):
             sources=[f"ig:{it['id']}"], source_urls=[it.get("permalink")] if it.get("permalink") else [],
             fascia=self.fascia_overrides().get(it["id"]), fascia_hint=e.get("fascia"),
             start_known=bool(e.get("start_time")), late_end=bool(e.get("late_end")), entry=e.get("entry"),
+            room=second_room(it.get("caption") or ""),
         )
 
 

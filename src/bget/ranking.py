@@ -91,6 +91,9 @@ class Ranker:
 
     # ---- factors ------------------------------------------------------------------------------
     def _room(self, ev: Event, venue: dict) -> tuple[str | None, dict]:
+        if ev.room:
+            r = venue.get("rooms", {}).get(ev.room) or {"score": self.default_room.get(ev.room, 6)}
+            return ev.room, r
         text = f"{ev.title}\n{ev.description[:400]}".lower()
         # the venue's own name is not a room ("Zero Club" is not the "club" room)
         for n in sorted({ev.venue.name, *self.aliases.get(ev.venue.name.lower(), [])}, key=len, reverse=True):
