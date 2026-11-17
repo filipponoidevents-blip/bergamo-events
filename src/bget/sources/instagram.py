@@ -39,7 +39,7 @@ from .instagram_rules import ListingExtractor, RulesExtractor, is_daytime, Times
 
 log = logging.getLogger(__name__)
 
-SECOND_ROOM = re.compile(r"\b(club\s*room|lab\s*room|theat(?:er|re)\s*room|second\s*room|sala\s*2|sala\s*due)\b", re.I)
+SECOND_ROOM = re.compile(r"\b(club\s*room|lab\s*room|theat(?:er|re)\s*room|second\s*room|sala\s*2|sala\s*due|elysium)\b", re.I)
 
 
 def second_room(caption: str) -> str | None:

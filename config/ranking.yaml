@@ -49,7 +49,7 @@ venues:
   "UFO Live": {score: 5, capacity: 200}
   "Gres Art 671": {score: 5, capacity: 2000}
   "Fabrique": 10
-  "Capogiro": {score: 6, capacity: 600}
+  "Capogiro": {score: 6, capacity: 600, rooms: {main room: {score: 10, capacity: 600}, elysium: {score: 6, capacity: 250}}}   # Elysium Privè = sala 2 (Filippo)
   "Decibel Club": {score: 3, capacity: 200}
   "Pacì Paciana": 5
   "BV Rooftop": 3
@@ -142,7 +142,6 @@ promoters:   # party relevance 1-10; null = use the promoter's Instagram followe
   "Noche Latina": null
   "Tocame": null
   "Spicy": null
-  "Elysium Privè": null
   "C'est la vie": null
   "Offline": null
   "Open Bar Night": null

@@ -511,3 +511,8 @@ def test_hide_reads_instagram_bold_letters():
     s.events["k"] = Event(title="NXT Station", start=datetime(2026, 11, 20, 23), venue=Venue(name="NXT Station", city=""),
                           description="❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧\n𝐒𝐭𝐚𝐬𝐞𝐫𝐚 𝐥𝐢𝐯𝐞")
     assert s.hide([{"text": "Bergamo on Ice"}]) == 1
+
+
+def test_elysium_is_capogiros_second_room():
+    from bget.sources.instagram import second_room
+    assert second_room("Sabato in Elysium Privè: hip hop night") == "elysium"
