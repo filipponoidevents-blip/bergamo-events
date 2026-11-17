@@ -175,9 +175,10 @@ def _month_cover(fmt: str, year: int, month: int, nights: dict[date, int]) -> Im
         for i, day in enumerate(wk):
             if not day:
                 continue
-            cx, cy = MX + cw * i + 34, y + ch * j + 32
+            r = min(cw, ch) * 0.3
+            cx, cy = MX + cw * i + r + 10, y + ch * j + r + 10   # the dot sits inside its cell
             if date(year, month, day) in nights:
-                _dot(p, cx, cy, min(cw, ch) * 0.3, str(day), 30)
+                _dot(p, cx, cy, r, str(day), 30)
             else:
                 _mid(d, cx, cy, str(day), grot(30, 500), p.fg, "m")
     y = y + ch * len(weeks) + 24
