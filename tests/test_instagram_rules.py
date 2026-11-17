@@ -408,3 +408,12 @@ def test_hidden_events(tmp_path):
     st.upsert(Event(title="Bolgia", start=datetime(2026, 11, 22, 23), venue=Venue(name="Bolgia", city="")))
     assert st.hide([{"text": "bergamo on ice"}, {}]) == 1
     assert [e.title for e in st.all()] == ["Bolgia"]
+
+
+def test_venue_name_is_not_a_room():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.ranking import Ranker
+    r = Ranker(cfg)
+    ev = Event(title="Zero Club", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""))
+    assert r.factors(ev)["room"] == 10

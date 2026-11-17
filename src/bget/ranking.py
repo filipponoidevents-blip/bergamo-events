@@ -48,6 +48,7 @@ class Ranker:
         self.weights = {**DEFAULT_WEIGHTS, **{k: float(v) for k, v in (data.get("weights") or {}).items()}}
         self.default_room = {k.lower(): float(v) for k, v in (data.get("rooms") or {}).items() if v is not None}
         self.venues: dict[str, dict] = {}
+        self.aliases = {v["name"].lower(): v.get("aliases") or [] for v in cfg.venues}
         caps = {v["name"].lower(): v.get("capacity") for v in cfg.venues}
         # bars (Filippo): no score, ordered by distance from the centre, then alphabetically
         self.bar_km = {v["name"].lower(): v.get("km") for v in cfg.venues if v.get("kind") == "bar"}
@@ -83,6 +84,9 @@ class Ranker:
     # ---- factors ------------------------------------------------------------------------------
     def _room(self, ev: Event, venue: dict) -> tuple[str | None, dict]:
         text = f"{ev.title}\n{ev.description[:400]}".lower()
+        # the venue's own name is not a room ("Zero Club" is not the "club" room)
+        for n in sorted({ev.venue.name, *self.aliases.get(ev.venue.name.lower(), [])}, key=len, reverse=True):
+            text = text.replace(n.lower(), " ")
         for name, r in venue.get("rooms", {}).items():
             if name in text:
                 return name, r
