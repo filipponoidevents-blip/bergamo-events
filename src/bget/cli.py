@@ -134,11 +134,12 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
     """Render a post for Instagram (4:5) and TikTok (9:16) and write its post bundle."""
     def serata(e) -> bool:   # fascia.py: times, post clues, price, venue
         return not cfg.is_preserata(e)
-    local = [e for e in store.all() if e.scope == Scope.LOCAL]
+    shown = [e for e in store.all() if getattr(e, "in_posts", True) is not False]   # calendar-only venues (Filippo)
+    local = [e for e in shown if e.scope == Scope.LOCAL]
     # serate are split into pages by genre group; preserata nights follow on white pages (Filippo)
     genres = cfg.settings.get("post_genres")
     pre = lambda e: not serata(e)  # noqa: E731
-    alerts = [e for e in store.all() if e.scope == Scope.ALERT and serata(e)]
+    alerts = [e for e in shown if e.scope == Scope.ALERT and serata(e)]
     outdir = cfg.root / "out" / "carousels"
     if week or midweek:
         d = date.fromisoformat(week or midweek)
@@ -147,7 +148,7 @@ def make_carousel(cfg: Config, store: Store, week: str | None, month: str | None
         build = lambda fmt: carousel.weekly(local, monday, alerts, fmt, preserata=pre, genres=genres)  # noqa: E731
         stem, title = f"week_{monday.isoformat()}", f"Serate Bergamo · settimana {monday:%d/%m}"
     elif midweek:
-        others = _other_events(cfg)
+        others = [(k, e) for k, e in _other_events(cfg) if getattr(e, "in_posts", True) is not False]
         build = lambda fmt: carousel.midweek(others, monday, fmt)  # noqa: E731
         stem, title = f"midweek_{monday.isoformat()}", f"Prima della serata · {monday + timedelta(days=3):%d/%m}"
     else:
