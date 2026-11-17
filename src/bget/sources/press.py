@@ -2,6 +2,7 @@
 Instagram caption with the free rules reader, and keep only DJ/club nights at a known venue."""
 from __future__ import annotations
 
+import html
 import json
 import logging
 import re
@@ -20,6 +21,10 @@ log = logging.getLogger(__name__)
 # words in the listing teaser that make an article worth opening
 CLUBBY = re.compile(r"clubbing|discotec|disco|dj|techno|house|party|serata|nottat|notte|ballare|si balla|rave|"
                     r"festival|capodanno|halloween|club", re.I)
+
+
+ROUNDUP = re.compile(r"cosa fare|che fare|idee per|weekend a bergamo|eventi del weekend|appuntamenti del|"
+                     r"agenda|da non perdere|guida", re.I)
 
 
 class PressSource(Source):
@@ -50,6 +55,8 @@ class PressSource(Source):
     def _article(self, url: str, reader: RulesExtractor, tz: ZoneInfo) -> Iterable[Event]:
         soup = BeautifulSoup(self.fetch(url), "html.parser")
         title, body, published = article_parts(soup)
+        if ROUNDUP.search(title):
+            return  # "cosa fare nel weekend" lists many places: one venue can't be told from another
         if not published or datetime.now(tz) - published > timedelta(days=self.spec.get("max_age_days", 30)):
             return
         ex = reader(caption=f"{title}\n{body}", image_urls=[], posted_at=published,
@@ -57,6 +64,8 @@ class PressSource(Source):
         for e in ex.events:
             log.info("%s: %s -> %s %s at %s (%s, %.2f)", self.id, title[:60], e.date, e.start_time,
                      e.venue_name, e.kind, ex.confidence)
+            if e.date < datetime.now(tz).date().isoformat():
+                continue
             if e.kind != "dj_club" or not e.venue_name or ex.confidence < self.spec.get("min_confidence", 0.6):
                 continue
             start = datetime.fromisoformat(f"{e.date}T{e.start_time or '23:00'}").replace(tzinfo=tz)
@@ -90,4 +99,4 @@ def article_parts(soup: BeautifulSoup) -> tuple[str, str, datetime | None]:
         node = soup.find("article") or soup.find(class_=re.compile("entry-content|article-body|post-content"))
         if node:
             body = "\n".join(p.get_text(" ", strip=True) for p in node.find_all(["p", "h2", "h3", "li"]))
-    return title.strip(), body.strip(), published
+    return html.unescape(title).strip(), html.unescape(body).strip(), published
