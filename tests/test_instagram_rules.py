@@ -396,3 +396,15 @@ def test_party_score_from_followers():
                          description=f"with @{h}")
     r.by_followers = [("bigparty", follower_score(20000)), ("smallparty", follower_score(800))]
     assert r.rank(ev("bigparty")) > r.rank(ev("smallparty"))
+
+
+def test_hidden_events(tmp_path):
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.store import Store
+    st = Store(tmp_path / "e.json")
+    st.upsert(Event(title="All that Swing", start=datetime(2026, 11, 22, 20), venue=Venue(name="NXT Station", city=""),
+                    description="rassegna Bergamo on Ice & Star Garden"))
+    st.upsert(Event(title="Bolgia", start=datetime(2026, 11, 22, 23), venue=Venue(name="Bolgia", city="")))
+    assert st.hide([{"text": "bergamo on ice"}, {}]) == 1
+    assert [e.title for e in st.all()] == ["Bolgia"]

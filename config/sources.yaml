@@ -164,7 +164,7 @@ sources:
       - {username: bar_sanmarco, venue: "Bar San Marco"}
       - hiddenhell.techno           # promoter: Hidden Hell
       - juiceclubit                 # promoter: JUICE Crew
-      - supertatobolgia             # promoter: Supertato
+      - {username: supertatobolgia, venue: "Bolgia"}   # the Bolgia owner's account (Filippo): posts count as Bolgia's
       - lecannibaleclub             # promoter: Le Cannibale
       - utopia.direction            # promoter: utōpia
       - discopastasc                # promoter: Discopasta Social Club

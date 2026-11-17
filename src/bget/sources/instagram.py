@@ -162,7 +162,11 @@ class InstagramSource(Source):
         reader = RulesExtractor(self.cfg)
         fields = ("title", "start_time", "end_time", "late_end", "entry", "fascia")
         changed = 0
+        acc_venue = {a["username"].lstrip("@").lower(): a.get("venue")
+                     for a in self.spec.get("accounts", []) if isinstance(a, dict)}
         for item_id, it in q["items"].items():
+            if it.get("account", "").lower() in acc_venue:  # sources.yaml may have changed (Supertato -> Bolgia)
+                it["account_venue"] = acc_venue[it["account"].lower()]
             pid = item_id.rsplit("-", 1)[0]
             at = (q["seen_posts"].get(pid) or {}).get("at")
             if not it.get("caption") or not at or "OCR" in (it.get("notes") or ""):

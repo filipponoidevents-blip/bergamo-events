@@ -82,6 +82,21 @@ class Store:
                     removed += 1
         return removed
 
+    def hide(self, rules: list[dict]) -> int:
+        """Remove events matching config/hidden.yaml (Filippo's "togli")."""
+        removed = 0
+        for k, ev in list(self.events.items()):
+            text = f"{ev.title}\n{ev.description}".lower()
+            for r in rules:
+                if (not r.get("text") or str(r["text"]).lower() in text) and \
+                        (not r.get("venue") or str(r["venue"]).lower() == ev.venue.name.lower()) and \
+                        (not r.get("date") or str(r["date"]) == ev.start.date().isoformat()) and \
+                        any(r.get(f) for f in ("text", "venue", "date")):
+                    del self.events[k]
+                    removed += 1
+                    break
+        return removed
+
     def all(self) -> list[Event]:
         return sorted(self.events.values(), key=lambda e: e.start)
 
