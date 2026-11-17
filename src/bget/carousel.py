@@ -236,13 +236,22 @@ class Row:
     label: str = ""     # pill before the tag, e.g. PRESERATA on a club slide
 
 
-def club_row(e: Event, preserata: bool = False, tag_pill: bool = False) -> Row:
+def post_time(e: Event, same_night: Iterable[Event] = ()) -> str:
+    """Every night shows a start time (Filippo, 2026-11-17): midnight is 00:00 (23:59 is only for the
+    phone calendar). No time written: another room of the same venue that night, else 00:00."""
+    if e.start_known:
+        return e.start.astimezone(ROME).strftime("%H:%M")
+    other = sorted(o.start for o in same_night
+                   if o is not e and o.start_known and o.venue.name.lower() == e.venue.name.lower())
+    return other[0].astimezone(ROME).strftime("%H:%M") if other else "00:00"
+
+
+def club_row(e: Event, preserata: bool = False, tag_pill: bool = False, same_night: Iterable[Event] = ()) -> Row:
     """Filippo (2026-11-17): line 1 "PARTY @ VENUE" (no party name: the headliner, e.g. "MAD DOG @ BOLGIA"),
     line 2 "Genre, Headliner, Room" (the headliner only when it isn't already on line 1)."""
     genre = e.genre if e.genre and e.genre != "Unspecified" else ""
     head = clean(headliners(e))
-    t = e.start.astimezone(ROME)
-    time = "" if not e.start_known else "23:59" if (t.hour, t.minute) == (0, 0) else t.strftime("%H:%M")
+    time = post_time(e, same_night)
     venue = clean(e.venue.name)
     room = clean(getattr(e, "room", None) or "").capitalize()   # the room goes on the details line (Filippo)
     name = clean(party_name(e)) or head
@@ -505,14 +514,14 @@ def _sections(fmt: str, events: dict[date, list[Event]], alerts: list[tuple], pr
     for g in order:
         gs = []
         for day, evs in sorted(events.items()):
-            rows = [(club_row(e), e) for e in evs if not preserata(e) and genre_group(e, groups) == g]
+            rows = [(club_row(e, same_night=evs), e) for e in evs if not preserata(e) and genre_group(e, groups) == g]
             if rows:
                 gs.append((day, None, rows))
         if gs:
             secs.append((g, CLUB, gs))
     pre = []
     for day, evs in sorted(events.items()):
-        rows = [(club_row(e, tag_pill=True), e) for e in evs if preserata(e)]
+        rows = [(club_row(e, tag_pill=True, same_night=evs), e) for e in evs if preserata(e)]
         if rows:
             pre.append((day, None, rows))
     if pre:
