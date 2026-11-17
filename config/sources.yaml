@@ -109,6 +109,7 @@ sources:
     # Format: venue accounts {username: x, venue: <name in venues.yaml>}; promoters plain handle.
     # Aggregators that post the week's agenda as an image: {username: x, listing: true}
     # Any account whose details are only on the flyer: add ocr: true
+    # A venue that posts its month's programme as images (e.g. Zero): add monthly: true
     accounts:
       - {username: unplug__bg, venue: "Unplug Bar"}
       - {username: casacostez, venue: "Casa Costez"}
@@ -121,7 +122,7 @@ sources:
       - {username: nxtbergamo, venue: "NXT Station"}
       - {username: sprint_bergamo, venue: "Sprint"}
       - {username: balzerbynight, venue: "Balzer by Night"}
-      - {username: zeroclub.bg, venue: "Zero Club"}
+      - {username: zeroclub.bg, venue: "Zero Club", monthly: true}   # monthly programme post at the start of the month (Filippo)
       - {username: daste_bergamo, venue: "Daste"}
       - {username: edonebergamo, venue: "Edoné"}
       - {username: circolinomalpensata_bergamo, venue: "Circolino della Malpensata"}
@@ -164,7 +165,7 @@ sources:
       - {username: bar_sanmarco, venue: "Bar San Marco"}
       - hiddenhell.techno           # promoter: Hidden Hell
       - juiceclubit                 # promoter: JUICE Crew
-      - supertatobolgia             # promoter: Supertato
+      - {username: supertatobolgia, venue: "Bolgia"}   # the Bolgia owner's account (Filippo): posts count as Bolgia's
       - lecannibaleclub             # promoter: Le Cannibale
       - utopia.direction            # promoter: utōpia
       - discopastasc                # promoter: Discopasta Social Club
@@ -186,6 +187,7 @@ sources:
       - premiere.premiere           # promoter: Premiere
       - the.circlehub               # promoter: The Circle
       - crystalcastlesnightt        # promoter: Crystal Castles Night
+      - premiere.premiere           # promoter: Premiere
       - cromaroom                   # promoter: CRØMA
       - oasi.night                  # promoter: OASI
       - selected.lab                # promoter: Selected Lab

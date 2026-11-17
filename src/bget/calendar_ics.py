@@ -91,6 +91,8 @@ def describe(ev: Event) -> str:
     if ev.fascia_auto:
         lines.append(f"Fascia: {ev.fascia_auto}" + (f" ({ev.fascia_why})" if ev.fascia_why else ""))
     lines.append("Locale: " + ", ".join(x for x in [ev.venue.name, ev.venue.city] if x))
+    if ev.room:
+        lines.append(f"Sala: {ev.room.title()}")
     if ev.promoter_name:
         lines.append("Promoter: " + ev.promoter_name)
     if ev.headliners:

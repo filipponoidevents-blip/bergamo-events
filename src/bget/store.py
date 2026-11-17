@@ -55,6 +55,14 @@ class Store:
     def upsert(self, ev: Event) -> str:
         now = datetime.now(timezone.utc)
         k = ev.dedupe_key
+        # the same report filed under another key before (e.g. before its room was known): take it out there
+        # (only per-post ids like "ig:123-0"; "eco_di_bergamo" names a whole site, shared by many events)
+        own = {s for s in ev.sources if s.startswith("ig:")}
+        for k2, other in list(self.events.items()) if own else []:
+            if k2 != k and set(other.sources) & own:
+                other.sources = [s for s in other.sources if s not in own]
+                if not other.sources:
+                    del self.events[k2]
         if k in self.events:
             old = self.events[k]
             if set(ev.sources) & set(old.sources):
@@ -80,6 +88,21 @@ class Store:
                 if not ev.sources:
                     del self.events[k]
                     removed += 1
+        return removed
+
+    def hide(self, rules: list[dict]) -> int:
+        """Remove events matching config/hidden.yaml (Filippo's "togli")."""
+        removed = 0
+        for k, ev in list(self.events.items()):
+            text = f"{ev.title}\n{ev.description}".lower()
+            for r in rules:
+                if (not r.get("text") or str(r["text"]).lower() in text) and \
+                        (not r.get("venue") or str(r["venue"]).lower() == ev.venue.name.lower()) and \
+                        (not r.get("date") or str(r["date"]) == ev.start.date().isoformat()) and \
+                        any(r.get(f) for f in ("text", "venue", "date")):
+                    del self.events[k]
+                    removed += 1
+                    break
         return removed
 
     def all(self) -> list[Event]:

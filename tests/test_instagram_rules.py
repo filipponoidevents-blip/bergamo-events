@@ -396,3 +396,76 @@ def test_party_score_from_followers():
                          description=f"with @{h}")
     r.by_followers = [("bigparty", follower_score(20000)), ("smallparty", follower_score(800))]
     assert r.rank(ev("bigparty")) > r.rank(ev("smallparty"))
+
+
+def test_hidden_events(tmp_path):
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.store import Store
+    st = Store(tmp_path / "e.json")
+    st.upsert(Event(title="All that Swing", start=datetime(2026, 11, 22, 20), venue=Venue(name="NXT Station", city=""),
+                    description="rassegna Bergamo on Ice & Star Garden"))
+    st.upsert(Event(title="Bolgia", start=datetime(2026, 11, 22, 23), venue=Venue(name="Bolgia", city="")))
+    assert st.hide([{"text": "bergamo on ice"}, {}]) == 1
+    assert [e.title for e in st.all()] == ["Bolgia"]
+
+
+def test_venue_name_is_not_a_room():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.ranking import Ranker
+    r = Ranker(cfg)
+    ev = Event(title="Zero Club", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""))
+    assert r.factors(ev)["room"] == 10
+
+
+def test_zero_monthly_programme():
+    from datetime import datetime
+    from bget.sources.instagram import MONTHLY_HINT
+    from bget.sources.instagram_rules import ListingExtractor
+    assert MONTHLY_HINT.search("Questo mese a Zero")
+    assert not MONTHLY_HINT.search("Sabato 21 novembre ci vediamo")
+    text = """NOVEMBRE
+VENERDÌ 20/11
+UNIBG PARTY w/ L'OPERÀ
+dalle 23:00
+SABATO 21/11
+@premiere.premiere
+hip hop / trap
+VENERDÌ 27/11
+CC NIGHT
+00:00 - 05:00"""
+    ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=datetime(2026, 11, 2, 18),
+                               account="zeroclub.bg", account_venue="Zero Club")
+    got = [(e.date, e.title, e.start_time, e.venue_name) for e in ex.events]
+    assert got[0][:3] == ("2026-11-20", "UNIBG PARTY", "23:00")
+    assert got[1][:2] == ("2026-11-21", "Premiere")
+    assert got[2][:3] == ("2026-11-27", "CC NIGHT", "00:00")
+    assert all(g[3] == "Zero Club" for g in got)
+
+
+def test_lineup_counts_only_relevant_names():
+    from datetime import datetime
+    from bget.models import Artist, Event, Socials, Venue
+    from bget.ranking import Ranker
+    r = Ranker(cfg)
+    r.followers = {"bigdj": 50000, "localdj": 900}
+    mk = lambda h: Event(title="x", start=datetime(2026, 11, 21, 23), venue=Venue(name="Queen Club", city=""),
+                         description="LINE UP\nDJ ONE\nDJ TWO", artists=[Artist(name=h, socials=Socials(instagram=h))])
+    assert r.guest(mk("localdj")) == 0
+    assert r.guest(mk("bigdj")) > 8
+
+
+def test_second_room_is_its_own_night(tmp_path):
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.sources.instagram import second_room
+    from bget.store import Store
+    assert second_room("Sabato 21 Novembre!\nZero Club - Club room") == "club room"
+    assert second_room("Main room: X\nClub room: Y") is None
+    st = Store(tmp_path / "e.json")
+    v = lambda: Venue(name="Zero Club", city="Bergamo")
+    st.upsert(Event(title="Zero Club", start=datetime(2026, 11, 21, 23), venue=v(), sources=["ig:1"]))
+    st.upsert(Event(title="Premiere", start=datetime(2026, 11, 21, 23), venue=v(), sources=["manual"], room="main room"))
+    st.upsert(Event(title="The Circle", start=datetime(2026, 11, 21, 23), venue=v(), sources=["ig:1"], room="club room"))
+    assert sorted(e.title for e in st.all()) == ["Premiere", "The Circle"]

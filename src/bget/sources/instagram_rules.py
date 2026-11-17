@@ -551,7 +551,9 @@ class ListingExtractor(RulesExtractor):
 
     def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
         posted = posted_at.date()
-        lines = [ln.strip() for ln in (caption or "").splitlines() if ln.strip()]
+        lines = [ln.strip() for ln in normalize(caption).splitlines() if ln.strip()]
+        if account_venue:
+            return self._one_venue(lines, posted, account, account_venue)
         events: list[ExtractedEvent] = []
         day: date | None = None
         for i, line in enumerate(lines):
@@ -580,6 +582,40 @@ class ListingExtractor(RulesExtractor):
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no day + venue pairs found")
         return Extraction(is_event_announcement=True, events=events, confidence=self.confidence,
                           notes=f"from @{account}'s agenda image (OCR); check title and line-up")
+
+    def _one_venue(self, lines: list[str], posted: date, account: str, venue: str) -> Extraction:
+        """A venue's own monthly programme (Zero posts one at the start of each month, Filippo):
+        every date line opens a night at that venue; the lines up to the next date describe it."""
+        blocks: list[tuple[date, str, list[str]]] = []
+        for line in lines:
+            if len(line) <= 60 and RE_DATE_LINE.search(line):
+                ds, _ = find_dates(line, posted)
+                if ds:
+                    blocks.append((ds[0], line, []))
+                    continue
+            if blocks:
+                blocks[-1][2].append(line)
+        events: list[ExtractedEvent] = []
+        for day, head, body in blocks:
+            text = "\n".join([head, *body])
+            low = text.lower()
+            promoter = next((n for h, n in self.promoter_handles.items()
+                             if re.search(rf"(?<![\w.]){re.escape(h)}(?!\w)", low)), None)
+            rest = RE_DATE_LINE.sub("", head)
+            rest = re.sub(rf"^\W*\d{{1,2}}(?:\s*(?:{_MONTH_RE})\b|[./]\d{{1,2}}(?:[./]\d{{2,4}})?)?", "", rest, flags=re.I)
+            cands = [c for raw in [rest, *body] if (c := _clean_name(raw)) and len(c) >= 3
+                     and not RE_CLOCK.search(c) and not re.search(r"€|lista|ingresso|info|prenota|tavol", c, re.I)]
+            title = promoter or (cands[0] if cands else venue)
+            t = read_times(text)
+            events.append(ExtractedEvent(
+                title=title, date=day.isoformat(), start_time=t.start, end_time=t.end, late_end=t.late,
+                venue_name=venue, genres=find_genres(text, self.genres)[:2],
+                kind=categorize(text, self.venue_kinds.get(venue)), entry=entry_hint(text),
+                fascia=fascia_hint(text)))
+        if len(events) < 2:
+            return Extraction(is_event_announcement=False, confidence=0.0, notes="not a monthly programme")
+        return Extraction(is_event_announcement=True, events=events, confidence=self.confidence,
+                          notes=f"from @{account}'s monthly programme (OCR); check names and times")
 
     def _venue_in(self, line: str) -> str | None:
         s = slug(line)

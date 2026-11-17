@@ -115,15 +115,20 @@ class GenreAssigner:
     def _assign(self, ev: Event) -> tuple[str, str]:
         if (g := self.nights.get((_norm(ev.venue.name), ev.night.isoformat()))):
             return g, "manual"
+        handles = {h.lower() for h in ev.all_handles("instagram")}
+        text = f"{ev.title} {ev.promoter_name or ''}".lower()
+        matched = [genres for names, ig, genres in self.promoters
+                   if (ig and ig.lower() in handles) or any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", text) for n in names)]
+        # a promoter genre Filippo set in genres.yaml beats the caption (CC Night is witch house, not hip hop)
+        for genres in matched:
+            if genres and genres[0].startswith("=") and (g := _pick(genres)):
+                return g, "promoter"
         own = " ".join([ev.title, ev.description, " ".join(ev.genres), " ".join(g for a in ev.artists for g in a.genres)])
         if (g := detect(own)):
             return g, "event"
-        handles = {h.lower() for h in ev.all_handles("instagram")}
-        text = f"{ev.title} {ev.promoter_name or ''}".lower()
-        for names, ig, genres in self.promoters:
-            if (ig and ig.lower() in handles) or any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", text) for n in names):
-                if (g := _pick(genres)):
-                    return g, "promoter"
+        for genres in matched:
+            if (g := _pick(genres)):
+                return g, "promoter"
         if (g := _pick(self.venue_genres.get(_norm(ev.venue.name)))):
             return g, "venue"
         return UNSPECIFIED, "none"

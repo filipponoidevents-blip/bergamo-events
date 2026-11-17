@@ -1,0 +1,11 @@
+# Events Filippo wants off the calendars and posts. Each rule removes every event that matches
+# all the keys it has:
+#   text:  words found in the title or description (case doesn't matter)
+#   venue: venue name, as in config/venues.yaml
+#   date:  2026-11-22 (the night's date)
+# Example:
+#  - {text: "Bergamo on Ice"}
+#  - {venue: Daste, date: 2026-11-21}
+
+hide:
+  - {text: "Bergamo on Ice"}   # Filippo, 2026-11-17: the ice-rink festival at NXT Station

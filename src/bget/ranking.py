@@ -7,7 +7,9 @@ weighted in config/ranking.yaml:
   party      how relevant the party / promoter is: promoters: score in ranking.yaml if set, else from
              the promoter's Instagram followers (read for free with the posts, 2*log2(followers/500):
              1k -> 2, 4k -> 6, 16k+ -> 10)
-  guest      special guests: a notable watchlist name 10, a "special guest" line 6, a line-up 3
+  guest      special guests: a watchlist name 10; else the best tagged artist by Instagram followers
+             (under 2k = local, 0; 4k -> 2, 16k -> 6, 64k+ -> 10); a "special guest" line alone 3.
+             A plain line-up of locals counts 0 (Filippo).
 
 rank = weighted average of the five, 0-10. A factor with no data counts 0, so filling in the file
 moves a night up. Hand-set values always win over follower counts.
@@ -21,7 +23,6 @@ import re
 
 import yaml
 
-from .headliners import lineup_names
 from .models import Event
 
 GUEST_LINE = re.compile(r"special\s+guests?|guest\s*(?:dj|star)?\s*[:\-–—]|headliner|ospite\s+speciale|direttamente da", re.I)
@@ -32,6 +33,13 @@ def follower_score(n: int | None) -> float:
     if not n:
         return 0.0
     return max(0.0, min(10.0, 2 * math.log2(n / 500)))
+
+
+def artist_score(n: int | None) -> float:
+    """A DJ's following: under 2k = a local (0), 4k -> 2, 16k -> 6, 64k+ -> 10."""
+    if not n or n < 2000:
+        return 0.0
+    return max(0.0, min(10.0, 2 * math.log2(n / 2000)))
 
 
 def capacity_score(cap: float | None) -> float:
@@ -48,6 +56,7 @@ class Ranker:
         self.weights = {**DEFAULT_WEIGHTS, **{k: float(v) for k, v in (data.get("weights") or {}).items()}}
         self.default_room = {k.lower(): float(v) for k, v in (data.get("rooms") or {}).items() if v is not None}
         self.venues: dict[str, dict] = {}
+        self.aliases = {v["name"].lower(): v.get("aliases") or [] for v in cfg.venues}
         caps = {v["name"].lower(): v.get("capacity") for v in cfg.venues}
         # bars (Filippo): no score, ordered by distance from the centre, then alphabetically
         self.bar_km = {v["name"].lower(): v.get("km") for v in cfg.venues if v.get("kind") == "bar"}
@@ -82,7 +91,13 @@ class Ranker:
 
     # ---- factors ------------------------------------------------------------------------------
     def _room(self, ev: Event, venue: dict) -> tuple[str | None, dict]:
+        if ev.room:
+            r = venue.get("rooms", {}).get(ev.room) or {"score": self.default_room.get(ev.room, 6)}
+            return ev.room, r
         text = f"{ev.title}\n{ev.description[:400]}".lower()
+        # the venue's own name is not a room ("Zero Club" is not the "club" room)
+        for n in sorted({ev.venue.name, *self.aliases.get(ev.venue.name.lower(), [])}, key=len, reverse=True):
+            text = text.replace(n.lower(), " ")
         for name, r in venue.get("rooms", {}).items():
             if name in text:
                 return name, r
@@ -110,11 +125,15 @@ class Ranker:
         text = f"{ev.title}\n{ev.description}"
         if any(rx.search(text) for rx in self.notable):
             return 10.0
+        # Filippo: a line-up counts only if the names are relevant, not locals listed for the sake of it.
+        # Relevant = on the watchlist (above) or a tagged artist with a real following.
+        best = 0.0
+        for a in ev.artists:
+            h = (a.socials.instagram or "").lstrip("@").lower()
+            best = max(best, artist_score(self.followers.get(h)))
         if GUEST_LINE.search(text):
-            return 6.0
-        if lineup_names(ev.description) or ev.headliners:
-            return 3.0
-        return 0.0
+            best = max(best, 3.0)
+        return best
 
     def factors(self, ev: Event) -> dict[str, float]:
         venue = self.venues.get(ev.venue.name.lower(), {})

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -38,6 +39,21 @@ from .instagram_rules import ListingExtractor, RulesExtractor, is_daytime, Times
 
 log = logging.getLogger(__name__)
 
+SECOND_ROOM = re.compile(r"\b(club\s*room|lab\s*room|theat(?:er|re)\s*room|second\s*room|sala\s*2|sala\s*due)\b", re.I)
+
+
+def second_room(caption: str) -> str | None:
+    """The one second room a post is about (Zero: "Club room"), so it stays apart from the main
+    room's night. None when no room or several rooms are named (a post for the whole venue)."""
+    rooms = {re.sub(r"\s+", " ", m.group(1).lower()) for m in SECOND_ROOM.finditer(caption)}
+    if len(rooms) == 1 and not re.search(r"main\s*(?:room|area)|sala\s*(?:1|principale)", caption, re.I):
+        return rooms.pop()
+    return None
+
+
+MONTHLY_HINT = re.compile(r"questo mese|this month|mese di|programma|calendario|mensile|line ?-?up (?:del|di) |"
+                          r"(?<!\d\s)\b(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|"
+                          r"novembre|dicembre)\b(?!\s*\d)", re.I)
 MEDIA_FIELDS = "id,caption,media_type,media_url,thumbnail_url,permalink,timestamp,children{media_type,media_url}"
 
 
@@ -66,14 +82,16 @@ class GraphClient:
         """The profile's display name ("Unplug Project" for @unplug.project). Business/Creator accounts only."""
         r = requests.get(
             f"https://graph.facebook.com/{self.version}/{self.user_id}",
-            params={"fields": f"business_discovery.username({username}){{name,username}}", "access_token": self.token},
+            params={"fields": f"business_discovery.username({username}){{name,username,followers_count}}", "access_token": self.token},
             headers={"User-Agent": USER_AGENT}, timeout=30,
         )
         if r.status_code != 200:
             msg = r.json().get("error", {}).get("message", r.text[:200]) if r.headers.get(
                 "content-type", "").startswith("application/json") else r.text[:200]
             raise RuntimeError(f"@{username}: {msg}")
-        return (r.json().get("business_discovery", {}).get("name") or "").strip()
+        bd = r.json().get("business_discovery", {})
+        self.last_profile = {"name": (bd.get("name") or "").strip(), "followers": bd.get("followers_count")}
+        return self.last_profile["name"]
 
 
 def _images(post: dict) -> list[str]:
@@ -162,7 +180,11 @@ class InstagramSource(Source):
         reader = RulesExtractor(self.cfg)
         fields = ("title", "start_time", "end_time", "late_end", "entry", "fascia")
         changed = 0
+        acc_venue = {a["username"].lstrip("@").lower(): a.get("venue")
+                     for a in self.spec.get("accounts", []) if isinstance(a, dict)}
         for item_id, it in q["items"].items():
+            if it.get("account", "").lower() in acc_venue:  # sources.yaml may have changed (Supertato -> Bolgia)
+                it["account_venue"] = acc_venue[it["account"].lower()]
             pid = item_id.rsplit("-", 1)[0]
             at = (q["seen_posts"].get(pid) or {}).get("at")
             if not it.get("caption") or not at or "OCR" in (it.get("notes") or ""):
@@ -200,17 +222,23 @@ class InstagramSource(Source):
         readable (personal account)."""
         from ..names import handles_in
         cache = q.setdefault("profile_names", {})
+        followers = q.setdefault("followers", {})
         known = {h.lower() for h in self.cfg_names()}
         today = datetime.now(timezone.utc).date().isoformat()
         todo: list[str] = []
         for it in q["items"].values():
             if it["status"] in ("auto", "pending") and it["event"]["date"] >= today:
                 for h in [a.get("instagram") for a in it["event"].get("artists", [])] + handles_in(it.get("caption", "")):
-                    if h and h.lower() not in cache and h.lower() not in known and h.lower() not in todo:
-                        todo.append(h.lower())
+                    h = (h or "").lower()
+                    fresh = h not in cache or (cache[h] and h not in followers)  # older entries lack followers
+                    if h and fresh and h not in known and h not in todo:
+                        todo.append(h)
         for h in todo[: self._ig.get("profile_lookups_per_run", 15)]:
             try:
                 cache[h] = self.graph.profile_name(h)
+                prof = getattr(self.graph, "last_profile", None) or {}
+                if prof.get("followers") is not None:  # artists' followers: is the line-up relevant?
+                    q.setdefault("followers", {})[h] = int(prof["followers"])
             except Exception as e:  # noqa: BLE001
                 if any(k in str(e) for k in ("(#4)", "(#17)", "(#32)", "(#10)", "(#190)")):
                     break  # rate limit or token: try again next run
@@ -274,14 +302,16 @@ class InstagramSource(Source):
                     continue
                 try:
                     caption = post.get("caption", "") or ""
-                    images = _images(post)[:4]
-                    use_ocr = acc.get("ocr", self._ig.get("ocr", False)) or acc.get("listing")
+                    # a venue's monthly programme (acc monthly: true): read every slide of that post
+                    is_month = bool(acc.get("monthly") and MONTHLY_HINT.search(caption))
+                    images = _images(post)[:10 if is_month else 4]
+                    use_ocr = acc.get("ocr", self._ig.get("ocr", False)) or acc.get("listing") or is_month
                     if use_ocr and ocr.available():
                         text = "\n".join(t for u in images if (t := ocr.ocr_url(u)))
                         caption = f"{caption}\n\n{text}".strip()
                     elif use_ocr:
                         log.warning("instagram: OCR requested for @%s but tesseract is not installed", user)
-                    extractor = self.listing_extractor if acc.get("listing") else self.extractor
+                    extractor = self.listing_extractor if acc.get("listing") or is_month else self.extractor
                     post["_text"] = caption  # caption + flyer text, kept as the event's description
                     ex = extractor(caption=caption,
                                    image_urls=images if self._ig.get("read_images", False) else [],
@@ -402,6 +432,7 @@ class InstagramSource(Source):
             sources=[f"ig:{it['id']}"], source_urls=[it.get("permalink")] if it.get("permalink") else [],
             fascia=self.fascia_overrides().get(it["id"]), fascia_hint=e.get("fascia"),
             start_known=bool(e.get("start_time")), late_end=bool(e.get("late_end")), entry=e.get("entry"),
+            room=second_room(it.get("caption") or ""),
         )
 
 

@@ -60,6 +60,10 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
             write_review_md(cfg.root, q["items"], *src.decisions(), unreadable=q.get("unreadable_accounts"))
             from zoneinfo import ZoneInfo
             write_other_events(cfg.root, other_events(cfg, q["items"], ZoneInfo(cfg.settings.get("timezone", "Europe/Rome"))))
+    hidden = cfg.root / "config" / "hidden.yaml"
+    if hidden.exists():
+        import yaml
+        stats["removed"] = stats.get("removed", 0) + store.hide((yaml.safe_load(hidden.read_text()) or {}).get("hide") or [])
     # rescore everything so config edits apply to stored events too
     genre = GenreAssigner(cfg)
     heads = HeadlinerFinder(cfg)
