@@ -335,3 +335,11 @@ def test_known_promoter_names_the_night():
               venue="MINT")
     assert ex.events[0].title == "Cheri"
     assert all(a.instagram != "cheri.it" for a in ex.events[0].artists)
+
+
+def test_venue_post_named_after_tagged_promoter():
+    ex = read("THIS WEEK.\nONE NIGHT.\nNO EXCUSES.\n\n20.11 MAIN ROOM:oasi.night \nTHEATER ROOM: upside.down.night \n"
+              "BE COOL. BE VIBE. 🔥", account="vibetheclub", venue="Vibe Club")
+    assert ex.events[0].title == "OASI"
+    ex = read("OASI returns.\n\nFRI. 20 NOV.\n23:30 — 04:30\n\nvibetheclub", account="oasi.night")
+    assert ex.events[0].venue_name == "Vibe Club"

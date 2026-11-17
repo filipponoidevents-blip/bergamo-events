@@ -460,6 +460,8 @@ class RulesExtractor:
         self.venue_names = [(v["name"], [v["name"], *v.get("aliases", [])]) for v in cfg.venues]
         self.venue_handles = {(v.get("socials") or {}).get("instagram") for v in cfg.venues} - {None}
         self.venue_kinds = {v["name"]: v.get("kind") for v in cfg.venues}
+        self.handle_venue = {(v.get("socials") or {}).get("instagram").lower(): v["name"] for v in cfg.venues
+                             if (v.get("socials") or {}).get("instagram")}
         self.promoter_handles = {p["instagram"].lower(): p["name"] for p in (cfg.promoters or []) if p.get("instagram")}
 
     def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
@@ -480,6 +482,11 @@ class RulesExtractor:
             if any(len(slug(n)) > 3 and slug(n) in cap_slug for n in names):
                 venue = name
                 break
+        else:  # the venue tagged by its handle, often without the @: "OASI returns ... vibetheclub"
+            hit = sorted((m.start(), name) for h, name in self.handle_venue.items() if h != account.lower()
+                         if (m := re.search(rf"(?<![\w.]){re.escape(h)}(?![\w])", caption, re.I)))
+            if hit and not account_venue:
+                venue = hit[0][1]
         mentions = [h for h in dict.fromkeys(RE_MENTION.findall(caption))
                     if h.lower() != account.lower() and h not in self.venue_handles]
         tickets = next((u for u in RE_URL.findall(caption)
@@ -495,10 +502,14 @@ class RulesExtractor:
         names = [n for v, ns in self.venue_names if v in (venue, account_venue) for n in ns]
         # a known promoter tagged in the post names the night when the post has no name of its own
         # (handles often come through the API without the @: "dalle 21:00 con cheri.it")
-        promoter = next((name for h, name in self.promoter_handles.items()
-                         if re.search(rf"(?<![\w.@]){re.escape(h)}(?![\w])|@{re.escape(h)}(?![\w])", caption, re.I)), None)
+        # the first one written wins: "MAIN ROOM: oasi.night / THEATER ROOM: upside.down.night" -> OASI
+        found = sorted((m.start(), name) for h, name in self.promoter_handles.items() if h != account.lower()
+                       if (m := re.search(rf"(?<![\w.]){re.escape(h)}(?![\w])", caption, re.I)))
+        promoter = found[0][1] if found else None
         mentions = [h for h in mentions if h.lower() not in self.promoter_handles]
-        title = party_title(caption, names) or promoter or venue or account_venue or (mentions[0] if mentions else f"@{account}")
+        # in a venue's own post, the promoter it tags is the name of the night (Filippo, 2026-11-17)
+        title = (promoter if account_venue else None) or party_title(caption, names) or promoter or venue \
+            or self.promoter_handles.get(account.lower()) or account_venue or (mentions[0] if mentions else f"@{account}")
         kind = categorize(caption, self.venue_kinds.get(venue))
         if kind == "dj_club" and is_daytime(times) and not DAY_PARTY.search(caption):
             kind = "other"
