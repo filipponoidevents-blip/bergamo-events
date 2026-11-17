@@ -53,9 +53,9 @@ serata:
 post_genres:
   "HOUSE / ELETTRONICA": [House, Tech House, Deep House, Afro House, Melodic Techno, Techno, Hard Techno,
                           Minimal, "Drum & Bass", Trance, Hardstyle / Hardcore, Electronic, Disco / Funk,
-                          Melodic House, Witch House / EDM, Elettronica]
+                          Melodic House, Witch House / EDM, Elettronica, House Vinyl]
   "HIP HOP / TRAP": [Hip Hop / Trap]
-  COMMERCIALE: [Commerciale, Latin / Reggaeton, Hits / Dance, Dance / Hits / Revival, Commerciale / House, Latino]
+  COMMERCIALE: [Commerciale, Latin / Reggaeton, Hits / Dance, Dance / Hits / Revival, Commerciale / House, Latino, Latin, Dance]
   ALTRO: []
 
 thresholds:
