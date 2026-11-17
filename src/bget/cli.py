@@ -76,6 +76,7 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
         ev.headliners = heads.find(ev)
         ev.fascia_auto, ev.fascia_why = fascia.classify(ev, cfg)
         ev.rank = ranker.rank(ev)
+        ev.in_posts = not any(v["name"] == ev.venue.name and v.get("in_posts") is False for v in cfg.venues)
         score_event(ev, cfg)
     return stats
 

@@ -20,13 +20,49 @@ nights:   # Filippo's corrections of the 16-22 Nov weekly post (2026-11-17)
 #    genre: Commerciale
 
 # 2) A whole venue: used for every night there, unless the post or a "nights" entry says otherwise.
-venues:
+venues:   # Filippo, 2026-11-17 (Capogiro: decided by the night's promoter)
   Decibel Club: Ballo Da Sala
   Pacì Paciana: Alternative
+  MINT: Commerciale / House
+  Vibe Club: Tech House
+  Nikita: Commerciale
+  Thanka: Commerciale
+  Oronero: Commerciale
+  Queen Club: Dance / Hits / Revival
+  Bobadilla: Commerciale
+  Ninfea Social Club: Elettronica
+
+# 2b) A venue that is ALWAYS this genre, whatever the post says (wins over promoters and captions).
+always:
+  Garota de Ipanema: Latino
 #  Queen Club: Commerciale
 
 # 3) A whole promoter (name as in promoters.yaml): same idea, wins over the venue.
 promoters:   # set by Filippo (promoter genres sheet), 2026-11-16
+  # added by Filippo 2026-11-17
+  "Cheri": "Commerciale"
+  "Lipstick": "Commerciale"
+  "Upside Down": "Tech House"
+  "Lova": "Commerciale"
+  "Studio Legale": "Commerciale"
+  "Open Bar Night": "Commerciale"
+  "Chewing Gum": "Commerciale"
+  "DiscoDance": "Dance"
+  "Aperitivo Martini": "Commerciale"
+  "Tra terra e cielo": "Elettronica"
+  "Sabado de Pikete": "Latin"
+  "Traviesa": "Latin"
+  "Newrant Crew": "Altro"
+  "Club Culture": "Tech House"
+  "Side A": "House Vinyl"
+  "Rapture": "Commerciale"
+  "Bucolic Party": "Altro"
+  "Honey": "Tech House"
+  "Boheme": "House"
+  "#NoFilter": "Commerciale"
+  "Naif": "House"
+  "MiuMiuu": "Commerciale"
+  "One Place, Two Souls": "Commerciale"
   "Hidden Hell": "Hard Techno"
   "Galactica Festival": "Techno, Hard Techno"
   "JUICE Crew": "House"
@@ -46,7 +82,6 @@ promoters:   # set by Filippo (promoter genres sheet), 2026-11-16
   "Premiere": "Hip Hop / Trap"
   "The Circle": "Commerciale"
   "Crystal Castles Night": "Witch House / EDM"
-  "Premiere": "Hip Hop / Trap"
   "CRØMA": "Hip Hop / Trap"
   "OASI": "Tech House"
   "Selected Lab": "Tech House"
