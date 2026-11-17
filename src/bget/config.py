@@ -54,13 +54,24 @@ class Config:
                 )
         return None
 
-    def is_preserata(self, venue: Venue) -> bool:
-        """Pre-party venue (settings.yaml preserata_kinds, or `preserata:` on the venue in venues.yaml)."""
-        n = slug(venue.name)
-        for v in self.venues:
-            if "preserata" in v and any(slug(x) == n for x in [v["name"], *v.get("aliases", [])]):
-                return bool(v["preserata"])
-        return venue.kind in (self.settings.get("preserata_kinds") or ["bar"])
+    def is_preserata(self, ev) -> bool:
+        """settings.yaml `serata`: a known end decides (ends before end_from -> preserata, from
+        end_from on -> serata); with no end, the start decides (before start_from -> preserata).
+        After-midnight times (before 06:00) count as late."""
+        from zoneinfo import ZoneInfo
+        rule = self.settings.get("serata") or {}
+        tz = ZoneInfo(self.settings.get("timezone", "Europe/Rome"))
+
+        def late(t, limit: str) -> bool:
+            h, m = map(int, limit.split(":"))
+            t = t.astimezone(tz)
+            if h < 12:   # an after-midnight limit (end 03:00): late = from 03:00 to noon
+                return t.hour < 12 and (t.hour, t.minute) >= (h, m)
+            return t.hour < 6 or (t.hour, t.minute) >= (h, m)   # an evening limit (start 23:00)
+
+        if ev.end:
+            return not late(ev.end, str(rule.get("end_from", "03:00")))
+        return not late(ev.start, str(rule.get("start_from", "23:00")))
 
     def enrich_venue(self, venue: Venue) -> Venue:
         """Fill gaps (coords, province, handles) from the registry and town table."""

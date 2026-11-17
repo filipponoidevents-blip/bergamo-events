@@ -39,11 +39,12 @@ venue_kind_bonus:
   open_air: 1.0
   live_club: 0.3
 
-# Serata or preserata is decided by the VENUE only, never by the start time (Filippo, 2026-11-17).
-# Venues of these kinds are preserata (aperitivo, lounge, cocktail bar): their events leave the
-# weekly/monthly posts and go in the midweek "Prima della serata" post. Every other kind is serata.
-# One venue can differ with `preserata: true` or `preserata: false` in venues.yaml.
-preserata_kinds: [bar]
+# Serata or preserata, by time (Filippo, 2026-11-17): a serata starts late and ends late; a preserata
+# starts earlier and ends by 03:00. Preserata nights stay in the weekly/monthly posts with a PRESERATA
+# label. Most events have no end time: then the start decides alone.
+serata:
+  start_from: "23:00"   # starts at this time or later (or after midnight) -> serata
+  end_from: "03:00"     # when the end is known: ends at 03:00 or later -> serata, earlier -> preserata
 
 thresholds:
   local_min_score: 2.0      # in-radius event needs this much to make the calendar

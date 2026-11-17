@@ -222,13 +222,14 @@ class Row:
     head: str           # big line: venue (club) or event name (midweek)
     sub: str = ""       # party name (club) or venue (midweek)
     extra: str = ""     # "w/ headliner"
+    label: str = ""     # pill before the tag, e.g. PRESERATA on a club slide
 
 
-def club_row(e: Event) -> Row:
+def club_row(e: Event, preserata: bool = False) -> Row:
     genre = e.genre if e.genre and e.genre != "Unspecified" else ""
     head = headliners(e)
     return Row(e.start.astimezone(ROME).strftime("%H:%M"), genre.upper(), clean(e.venue.name).upper(),
-               clean(party_name(e)), f"w/ {clean(head)}" if head else "")
+               clean(party_name(e)), f"w/ {clean(head)}" if head else "", "PRESERATA" if preserata else "")
 
 
 def other_row(kind: str, e: Event) -> Row:
@@ -254,7 +255,7 @@ def _draw_dense(p: Page, y: int, r: Row) -> int:
     text, f = _fit(d, r.head, chunk, 32, (R - x) * 0.62, min_size=22)
     d.text((x, y), text, font=f, fill=p.fg)
     x += d.textlength(text, font=f) + 20
-    rest = " ".join(t for t in [r.sub, r.extra] if t)
+    rest = " ".join(t for t in [r.label.capitalize() + " ·" if r.label else "", r.sub, r.extra] if t)
     if rest and R - x > 80:
         text, f = _fit(d, rest, lambda z: grot(z, 600), 28, R - x, min_size=20)
         d.text((x, y + 4), text, font=f, fill=p.fg)
@@ -267,8 +268,13 @@ def _draw_row(p: Page, y: int, r: Row, pill: bool) -> int:
     d, R = p.d, p.w - MX
     y += 24
     d.text((MX, y), r.time, font=chunk(40), fill=p.fg)
+    tx = MX + d.textlength(r.time, font=chunk(40)) + 30
+    if r.label:
+        f = grot(24, 800)
+        d.rounded_rectangle([tx, y + 2, tx + d.textlength(r.label, font=f) + 36, y + 46], 22, fill=p.fg)
+        d.text((tx + 18, y + 24), r.label, font=f, fill=p.bg, anchor="lm")
+        tx += d.textlength(r.label, font=f) + 56
     if r.tag:
-        tx = MX + d.textlength(r.time, font=chunk(40)) + 30
         if pill:
             f = grot(24, 800)
             d.rounded_rectangle([tx, y + 2, tx + d.textlength(r.tag, font=f) + 36, y + 46], 22, fill=p.fg)
@@ -398,18 +404,20 @@ def _alert_group(alerts: Iterable[Event], lo: date, hi: date) -> list[tuple]:
 
 # ---------- the three posts ----------
 
-def monthly(events: Iterable[Event], year: int, month: int, alerts: Iterable[Event] = (), fmt: str = "ig") -> list[Slide]:
+def monthly(events: Iterable[Event], year: int, month: int, alerts: Iterable[Event] = (), fmt: str = "ig",
+           preserata=lambda e: False) -> list[Slide]:
     nights = {k: v for k, v in _by_night(events).items() if (k.year, k.month) == (year, month)}
     tag = f"{MESI[month][:3].upper()} {year}"
     slides = [(_month_cover(fmt, year, month, {k: len(v) for k, v in nights.items()}), [])]
     first, last = date(year, month, 1), date(year, month, calendar.monthrange(year, month)[1])
-    groups = [(k, None, [(club_row(e), e) for e in v]) for k, v in sorted(nights.items())]
+    groups = [(k, None, [(club_row(e, preserata(e)), e) for e in v]) for k, v in sorted(nights.items())]
     groups += _alert_group(alerts, first, last)
     slides += _date_slides(fmt, CLUB, groups, "SOLO DJ & CLUB", tag, False, MAX_SLIDES - 1, dense=True)
     return _numbered(slides, fmt)
 
 
-def weekly(events: Iterable[Event], week_start: date, alerts: Iterable[Event] = (), fmt: str = "ig") -> list[Slide]:
+def weekly(events: Iterable[Event], week_start: date, alerts: Iterable[Event] = (), fmt: str = "ig",
+           preserata=lambda e: False) -> list[Slide]:
     days = [week_start + timedelta(days=i) for i in range(7)]
     nights = {k: v for k, v in _by_night(events).items() if days[0] <= k <= days[-1]}
     end = days[-1]
@@ -417,7 +425,7 @@ def weekly(events: Iterable[Event], week_start: date, alerts: Iterable[Event] = 
     cover = _strip_cover(fmt, CLUB, [span, MESI[end.month][:3].upper()], None, days,
                          {k: len(v) for k, v in nights.items()}, None, f"SETTIMANA {week_start.isocalendar()[1]}",
                          "SOLO DJ & CLUB")
-    groups = [(k, None, [(club_row(e), e) for e in v]) for k, v in sorted(nights.items())]
+    groups = [(k, None, [(club_row(e, preserata(e)), e) for e in v]) for k, v in sorted(nights.items())]
     groups += _alert_group(alerts, days[0], days[-1])
     slides = [(cover, [])] + _date_slides(fmt, CLUB, groups, "SOLO DJ & CLUB",
                                           f"{MESI[end.month][:3].upper()} {end.year}", False, MAX_SLIDES - 1)

@@ -53,8 +53,14 @@ def test_posting_cadence():
 
 
 
-def test_preserata_is_decided_by_venue_not_time():
+
+def test_serata_or_preserata_by_start_and_end():
+    from datetime import timedelta
     from bget.config import Config
     cfg = Config.load()
-    assert not cfg.is_preserata(Venue("Esempio Club", "Bergamo", kind="club"))
-    assert cfg.is_preserata(Venue("Esempio Bar", "Bergamo", kind="bar"))
+    assert not cfg.is_preserata(ev(21, 23))            # 23:30, no end -> serata
+    assert not cfg.is_preserata(ev(22, 1))             # after midnight -> serata
+    assert cfg.is_preserata(ev(20, 21))                # 21:30, no end -> preserata
+    late_end = ev(20, 21); late_end.end = late_end.start + timedelta(hours=7)    # 21:30-04:30
+    early_end = ev(20, 23); early_end.end = early_end.start + timedelta(hours=2)  # 23:30-01:30
+    assert not cfg.is_preserata(late_end) and cfg.is_preserata(early_end)
