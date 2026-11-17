@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -38,6 +39,9 @@ from .instagram_rules import ListingExtractor, RulesExtractor, is_daytime, Times
 
 log = logging.getLogger(__name__)
 
+MONTHLY_HINT = re.compile(r"questo mese|this month|mese di|programma|calendario|mensile|line ?-?up (?:del|di) |"
+                          r"(?<!\d\s)\b(?:gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|"
+                          r"novembre|dicembre)\b(?!\s*\d)", re.I)
 MEDIA_FIELDS = "id,caption,media_type,media_url,thumbnail_url,permalink,timestamp,children{media_type,media_url}"
 
 
@@ -278,14 +282,16 @@ class InstagramSource(Source):
                     continue
                 try:
                     caption = post.get("caption", "") or ""
-                    images = _images(post)[:4]
-                    use_ocr = acc.get("ocr", self._ig.get("ocr", False)) or acc.get("listing")
+                    # a venue's monthly programme (acc monthly: true): read every slide of that post
+                    is_month = bool(acc.get("monthly") and MONTHLY_HINT.search(caption))
+                    images = _images(post)[:10 if is_month else 4]
+                    use_ocr = acc.get("ocr", self._ig.get("ocr", False)) or acc.get("listing") or is_month
                     if use_ocr and ocr.available():
                         text = "\n".join(t for u in images if (t := ocr.ocr_url(u)))
                         caption = f"{caption}\n\n{text}".strip()
                     elif use_ocr:
                         log.warning("instagram: OCR requested for @%s but tesseract is not installed", user)
-                    extractor = self.listing_extractor if acc.get("listing") else self.extractor
+                    extractor = self.listing_extractor if acc.get("listing") or is_month else self.extractor
                     post["_text"] = caption  # caption + flyer text, kept as the event's description
                     ex = extractor(caption=caption,
                                    image_urls=images if self._ig.get("read_images", False) else [],

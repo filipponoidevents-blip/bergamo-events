@@ -417,3 +417,28 @@ def test_venue_name_is_not_a_room():
     r = Ranker(cfg)
     ev = Event(title="Zero Club", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""))
     assert r.factors(ev)["room"] == 10
+
+
+def test_zero_monthly_programme():
+    from datetime import datetime
+    from bget.sources.instagram import MONTHLY_HINT
+    from bget.sources.instagram_rules import ListingExtractor
+    assert MONTHLY_HINT.search("Questo mese a Zero")
+    assert not MONTHLY_HINT.search("Sabato 21 novembre ci vediamo")
+    text = """NOVEMBRE
+VENERDÌ 20/11
+UNIBG PARTY w/ L'OPERÀ
+dalle 23:00
+SABATO 21/11
+@premiere.premiere
+hip hop / trap
+VENERDÌ 27/11
+CC NIGHT
+00:00 - 05:00"""
+    ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=datetime(2026, 11, 2, 18),
+                               account="zeroclub.bg", account_venue="Zero Club")
+    got = [(e.date, e.title, e.start_time, e.venue_name) for e in ex.events]
+    assert got[0][:3] == ("2026-11-20", "UNIBG PARTY", "23:00")
+    assert got[1][:2] == ("2026-11-21", "Premiere")
+    assert got[2][:3] == ("2026-11-27", "CC NIGHT", "00:00")
+    assert all(g[3] == "Zero Club" for g in got)
