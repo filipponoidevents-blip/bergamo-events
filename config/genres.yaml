@@ -7,19 +7,72 @@
 
 # 1) One night: the venue (as in venues.yaml) + the date of the night (YYYY-MM-DD).
 #    A night that ends after midnight uses the evening's date.
-nights: []
+nights:   # Filippo's corrections of the 16-22 Nov weekly post (2026-11-17)
+  - {venue: Nikita, date: 2026-11-20, genre: Commerciale}
+  - {venue: Nikita, date: 2026-11-21, genre: Commerciale}
+  - {venue: Druso, date: 2026-11-21, genre: Indie}
+  - {venue: Hype Club, date: 2026-11-21, genre: "Commerciale / Trap"}
+  - {venue: Ninfea Social Club, date: 2026-11-18, genre: House}
+  - {venue: Tassino Café, date: 2026-11-20, genre: Melodic Techno}
+  - {venue: Daste, date: 2026-11-21, genre: "Rock / Punk"}
 #  - venue: Queen Club
 #    date: 2026-11-21
 #    genre: Commerciale
 
 # 2) A whole venue: used for every night there, unless the post or a "nights" entry says otherwise.
-venues:
+venues:   # Filippo, 2026-11-17 (Capogiro: decided by the night's promoter)
   Decibel Club: Ballo Da Sala
   Pacì Paciana: Alternative
+  MINT: Commerciale / House
+  Vibe Club: Tech House
+  Nikita: Commerciale
+  Thanka: Commerciale
+  Oronero: Commerciale
+  Queen Club: Dance / Hits / Revival
+  Bobadilla: Commerciale
+  Ninfea Social Club: Elettronica
+  Hype Club: Commerciale
+  Baia del Re: Commerciale
+  Polaresco: Alternative
+  UFO Live: Live
+  NXT Station: Live
+  Lazzaretto: Live
+  ChorusLife: Live
+  Jam Live Studio: Commerciale
+  Sabbie Mobili: Commerciale
+  Charleston: Commerciale
+
+# 2b) A venue that is ALWAYS this genre, whatever the post says (wins over promoters and captions).
+always:
+  Garota de Ipanema: Latino
 #  Queen Club: Commerciale
 
 # 3) A whole promoter (name as in promoters.yaml): same idea, wins over the venue.
 promoters:   # set by Filippo (promoter genres sheet), 2026-11-16
+  # added by Filippo 2026-11-17
+  "Cheri": "Commerciale"
+  "Lipstick": "Commerciale"
+  "Upside Down": "Tech House"
+  "Lova": "Commerciale"
+  "Studio Legale": "Commerciale"
+  "Open Bar Night": "Commerciale"
+  "Chewing Gum": "Commerciale"
+  "DiscoDance": "Dance"
+  "Aperitivo Martini": "Commerciale"
+  "Tra terra e cielo": "Elettronica"
+  "Sabado de Pikete": "Latin"
+  "Traviesa": "Latin"
+  "Newrant Crew": "Altro"
+  "Club Culture": "Tech House"
+  "Side A": "House Vinyl"
+  "Rapture": "Commerciale"
+  "Bucolic Party": "Altro"
+  "Honey": "Tech House"
+  "Boheme": "House"
+  "#NoFilter": "Commerciale"
+  "Naif": "House"
+  "MiuMiuu": "Commerciale"
+  "One Place, Two Souls": "Commerciale"
   "Hidden Hell": "Hard Techno"
   "Galactica Festival": "Techno, Hard Techno"
   "JUICE Crew": "House"

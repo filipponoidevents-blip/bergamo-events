@@ -41,6 +41,8 @@ def _key(s: str) -> str:
 
 class HeadlinerFinder:
     def __init__(self, cfg: Config):
+        from .names import name_map
+        self.display = name_map(cfg)  # handle -> profile name
         wl = cfg.watchlist
         names = [*wl.get("dj_headliners", []), *wl.get("notable_artists", []), *wl.get("crossover_live", [])]
         self.names = list(dict.fromkeys(str(n) for n in names if n))
@@ -53,7 +55,7 @@ class HeadlinerFinder:
         if ev.genre and NO_DJ_GENRES.search(ev.genre):
             return found[:n]  # commercial / revival nights: the DJ doesn't matter unless a notable name
         for name in lineup_names(ev.description):
-            name = self.by_key.get(_key(name), name)
+            name = self.by_key.get(_key(name)) or self.display.get(name.lstrip("@").lower(), name)
             if name not in found:
                 found.append(name)
         own = {_key(h) for h in [ev.venue.socials.instagram, ev.promoter.instagram if ev.promoter else None] if h}
@@ -61,7 +63,7 @@ class HeadlinerFinder:
             k = _key(a.socials.instagram or a.name)
             if k in own:
                 continue
-            name = self.by_key.get(k) or a.name
+            name = self.by_key.get(k) or self.display.get((a.socials.instagram or a.name).lower(), a.name)
             if name not in found:
                 found.append(name)
         return found[:n]

@@ -90,6 +90,8 @@ class Event:
     entry: str | None = None             # "paid" (list, price, tickets) | "free" (ingresso libero) | None
     fascia_auto: str | None = None       # result of fascia.classify, refreshed every run
     fascia_why: str | None = None        # its reason, in Italian
+    in_posts: bool = True               # False: calendar only, never in the graphics (venues.yaml in_posts)
+    rank: float = 0.0                    # order in the posts, higher first (ranking.py, config/ranking.yaml)
     category: Category = Category.OTHER
     description: str = ""
     url: str | None = None               # canonical event page
@@ -98,6 +100,7 @@ class Event:
     price: str | None = None
     promoter: Socials | None = None      # organiser / collective handles
     promoter_name: str | None = None
+    room: str | None = None              # a second room ("club room"): its own night, apart from the main room
     sources: list[str] = field(default_factory=list)   # source ids that reported it
     source_urls: list[str] = field(default_factory=list)
     # filled by relevance.py
@@ -118,7 +121,8 @@ class Event:
     @property
     def dedupe_key(self) -> str:
         """Looser key used to merge the same night reported by RA, Dice and the venue."""
-        return f"{self.venue.key}|{self.night.isoformat()}"
+        base = f"{self.venue.key}|{self.night.isoformat()}"
+        return f"{base}|{slug(self.room)}" if self.room else base
 
     @property
     def night(self):

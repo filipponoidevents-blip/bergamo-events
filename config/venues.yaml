@@ -127,6 +127,7 @@ venues:
     ig_source: user
     verified: false
     ig_type: unknown
+    fascia: preserata
 
   - name: Hype Club
     aliases: [Hype Club Cortenuova]
@@ -158,20 +159,6 @@ venues:
     ig_source: user
     ig_type: unknown
     verified: false
-
-  - name: OpenSpace
-    aliases: [OpenSpace Discoteque, Open Space Curno]
-    city: Curno
-    province: BG
-    lat: 45.690
-    lon: 9.612
-    km: 5.2
-    kind: club
-    status: closed
-    socials: {instagram: null, website: null}
-    ig_source: null
-    verified: false
-    notes: Probably closed (Filippo, 16 Nov 2026).
 
   - name: Tiky Klub
     aliases: [Tiky Club, Tiky Seriate, Under Music Club, Under Seriate, Fiorenudo]
@@ -362,6 +349,7 @@ venues:
     ig_type: unknown
     verified: false
     notes: Social centre; underground techno/tekno nights.
+    fascia: orari
 
   - name: Ink Club
     aliases: [Arci Ink Club, Ink Bergamo]
@@ -491,7 +479,7 @@ venues:
     lon: 9.673
     km: 0.7
     kind: open_air
-    fascia: orari      # mixed venue: decided by times only (Filippo)
+    fascia: sempre preserata   # Filippo 2026-11-17: always preserata, whatever the times
     status: active        # summer season, late May to early Sep
     socials: {instagram: nxtbergamo, website: null}
     ig_source: user
@@ -762,8 +750,8 @@ venues:
     kind: bar
     fascia: preserata
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: intothewoodsbg, website: null}
+    ig_source: user
     verified: false
     notes: "Seen on @nightlifebergamo. Aperitivo with DJ."
 
@@ -794,8 +782,8 @@ venues:
     kind: bar
     fascia: preserata
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: cafeteriatreviolo, website: null}
+    ig_source: user
     verified: false
     notes: "Seen on @nightlifebergamo. Aperitivo + DJ (L'Apéritif by Earth, Saturday Vibes)."
 
@@ -809,8 +797,8 @@ venues:
     kind: bar
     fascia: preserata
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: karma_lounge_official_, website: null}
+    ig_source: user
     verified: false
     notes: "Seen on @nightlifebergamo."
 
@@ -875,8 +863,8 @@ venues:
     kind: bar
     fascia: preserata
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: victorialoungebar_bonate, website: null}
+    ig_source: user
     verified: false
     notes: "Seen on @nightlifebergamo."
 
@@ -907,8 +895,8 @@ venues:
     kind: bar
     fascia: preserata
     status: active
-    socials: {instagram: null, website: null}
-    ig_source: null
+    socials: {instagram: caffetteria_nuova_rotonda, website: null}
+    ig_source: user
     verified: false
     notes: "Seen on @nightlifebergamo."
 
@@ -943,6 +931,7 @@ venues:
     ig_type: business
     verified: false
     notes: "Seen on @nightlifebergamo. Gabass Subculture nights. Shops in Cologno al Serio, Caravaggio, Treviglio, Lurano. Sister venue Brina Bistrot (@brinabistrot, Via Treviglio 38, Brignano Gera d'Adda) also hosts events."
+    fascia: preserata
 
   - name: "Delblaco Lunch & Bar"
     aliases: ["Delblaco"]
@@ -1105,6 +1094,8 @@ venues:
     kind: live_club
     capacity: 3000
     socials: {instagram: null, tiktok: null, website: null}
+    fascia: serata
+    in_posts: false   # calendar only, never in the graphics (Filippo, 2026-11-17)
   - name: Magazzini Generali
     city: Milano
     province: MI
@@ -1112,6 +1103,8 @@ venues:
     lon: 9.199
     kind: club
     socials: {instagram: null, tiktok: null, website: null}
+    fascia: serata
+    in_posts: false   # calendar only, never in the graphics (Filippo, 2026-11-17)
   - name: Ippodromo SNAI San Siro
     aliases: [Ippodromo San Siro, Ippodromo Snai La Maura]
     city: Milano
@@ -1121,6 +1114,8 @@ venues:
     kind: open_air
     capacity: 20000
     socials: {instagram: null, tiktok: null, website: null}
+    fascia: serata
+    in_posts: false   # calendar only, never in the graphics (Filippo, 2026-11-17)
 
 # Town -> province lookup used when a source gives only a city name.
 towns:

@@ -21,6 +21,8 @@ from . import fascia
 from .genres import GenreAssigner
 from .headliners import HeadlinerFinder
 from .models import Scope
+from .names import name_map
+from .ranking import Ranker
 from .relevance import score_event
 from .sources import REGISTRY
 from .sources.instagram import InstagramSource, other_events, write_other_events, write_review_md
@@ -60,13 +62,23 @@ def collect(cfg: Config, store: Store) -> dict[str, int]:
             write_review_md(cfg.root, q["items"], *src.decisions(), unreadable=q.get("unreadable_accounts"))
             from zoneinfo import ZoneInfo
             write_other_events(cfg.root, other_events(cfg, q["items"], ZoneInfo(cfg.settings.get("timezone", "Europe/Rome"))))
+    hidden = cfg.root / "config" / "hidden.yaml"
+    if hidden.exists():
+        import yaml
+        stats["removed"] = stats.get("removed", 0) + store.hide((yaml.safe_load(hidden.read_text()) or {}).get("hide") or [])
     # rescore everything so config edits apply to stored events too
     genre = GenreAssigner(cfg)
     heads = HeadlinerFinder(cfg)
+    names = name_map(cfg)
+    ranker = Ranker(cfg)
     for ev in store.all():
+        for a in ev.artists:  # profile names instead of handles (Filippo)
+            a.name = names.get((a.socials.instagram or a.name).lstrip("@").lower(), a.name)
         ev.genre, ev.genre_source = genre.assign(ev)
         ev.headliners = heads.find(ev)
         ev.fascia_auto, ev.fascia_why = fascia.classify(ev, cfg)
+        ev.rank = ranker.rank(ev)
+        ev.in_posts = not any(v["name"] == ev.venue.name and v.get("in_posts") is False for v in cfg.venues)
         score_event(ev, cfg)
     return stats
 

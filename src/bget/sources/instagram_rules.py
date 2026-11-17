@@ -41,7 +41,7 @@ _MONTH_RE = "|".join(sorted(MONTHS, key=len, reverse=True))
 _WD_RE = "|".join(sorted(WEEKDAYS, key=len, reverse=True))
 
 RE_DAY_MONTHNAME = re.compile(rf"\b(\d{{1,2}})\s*(?:°|º)?\s*({_MONTH_RE})\.?\b(?:\s+(\d{{4}}))?", re.I)
-RE_MONTHNAME_DAY = re.compile(rf"\b({_MONTH_RE})\.?\s+(\d{{1,2}})(?:st|nd|rd|th)?\b", re.I)
+RE_MONTHNAME_DAY = re.compile(rf"\b({_MONTH_RE})\.?[ \t]+(\d{{1,2}})(?:st|nd|rd|th)?\b(?![:.]\d)", re.I)
 RE_NUMERIC = re.compile(r"(?<![\d:])(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?(?![\d:])")
 RE_WEEKDAY_DAY = re.compile(rf"\b({_WD_RE})\.?\s+(\d{{1,2}})\b(?!\s*[:.]\d)", re.I)
 RE_WEEKDAY = re.compile(rf"\b({_WD_RE})\b", re.I)
@@ -462,7 +462,9 @@ class RulesExtractor:
         self.venue_kinds = {v["name"]: v.get("kind") for v in cfg.venues}
         self.handle_venue = {(v.get("socials") or {}).get("instagram").lower(): v["name"] for v in cfg.venues
                              if (v.get("socials") or {}).get("instagram")}
-        self.promoter_handles = {p["instagram"].lower(): p["name"] for p in (cfg.promoters or []) if p.get("instagram")}
+        # name used as the night's name: `party_name:` in promoters.yaml, else the promoter's name
+        self.promoter_handles = {p["instagram"].lower(): p.get("party_name") or p["name"]
+                                 for p in (cfg.promoters or []) if p.get("instagram")}
 
     def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
         caption = normalize(caption)
@@ -508,11 +510,13 @@ class RulesExtractor:
         promoter = found[0][1] if found else None
         mentions = [h for h in mentions if h.lower() not in self.promoter_handles]
         # in a venue's own post, the promoter it tags is the name of the night (Filippo, 2026-11-17)
-        title = (promoter if account_venue else None) or party_title(caption, names) or promoter or venue \
-            or self.promoter_handles.get(account.lower()) or account_venue or (mentions[0] if mentions else f"@{account}")
+        # who posted decides first (Filippo, 2026-11-17): a promoter posting its own night -> the promoter's
+        # name ("POP UP PARTY" posted by The Box at Tassino -> The Box); a venue's post -> the promoter it tags
+        own = self.promoter_handles.get(account.lower()) if not account_venue else None
+        title = own or (promoter if account_venue else None) or party_title(caption, names) or promoter or venue or account_venue or (mentions[0] if mentions else f"@{account}")
         kind = categorize(caption, self.venue_kinds.get(venue))
         if kind == "dj_club" and is_daytime(times) and not DAY_PARTY.search(caption):
-            kind = "other"
+            kind = categorize(caption, exclude={"dj_club"})  # a daytime talk -> culture (Filippo: talks go in "altro")
         hint = fascia_hint(caption)
         events = [ExtractedEvent(
             title=title, date=d.isoformat(), start_time=start, end_time=end, late_end=times.late,
@@ -547,7 +551,9 @@ class ListingExtractor(RulesExtractor):
 
     def __call__(self, *, caption, image_urls, posted_at: datetime, account, account_venue) -> Extraction:
         posted = posted_at.date()
-        lines = [ln.strip() for ln in (caption or "").splitlines() if ln.strip()]
+        lines = [ln.strip() for ln in normalize(caption).splitlines() if ln.strip()]
+        if account_venue:
+            return self._one_venue(lines, posted, account, account_venue)
         events: list[ExtractedEvent] = []
         day: date | None = None
         for i, line in enumerate(lines):
@@ -576,6 +582,40 @@ class ListingExtractor(RulesExtractor):
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no day + venue pairs found")
         return Extraction(is_event_announcement=True, events=events, confidence=self.confidence,
                           notes=f"from @{account}'s agenda image (OCR); check title and line-up")
+
+    def _one_venue(self, lines: list[str], posted: date, account: str, venue: str) -> Extraction:
+        """A venue's own monthly programme (Zero posts one at the start of each month, Filippo):
+        every date line opens a night at that venue; the lines up to the next date describe it."""
+        blocks: list[tuple[date, str, list[str]]] = []
+        for line in lines:
+            if len(line) <= 60 and RE_DATE_LINE.search(line):
+                ds, _ = find_dates(line, posted)
+                if ds:
+                    blocks.append((ds[0], line, []))
+                    continue
+            if blocks:
+                blocks[-1][2].append(line)
+        events: list[ExtractedEvent] = []
+        for day, head, body in blocks:
+            text = "\n".join([head, *body])
+            low = text.lower()
+            promoter = next((n for h, n in self.promoter_handles.items()
+                             if re.search(rf"(?<![\w.]){re.escape(h)}(?!\w)", low)), None)
+            rest = RE_DATE_LINE.sub("", head)
+            rest = re.sub(rf"^\W*\d{{1,2}}(?:\s*(?:{_MONTH_RE})\b|[./]\d{{1,2}}(?:[./]\d{{2,4}})?)?", "", rest, flags=re.I)
+            cands = [c for raw in [rest, *body] if (c := _clean_name(raw)) and len(c) >= 3
+                     and not RE_CLOCK.search(c) and not re.search(r"€|lista|ingresso|info|prenota|tavol", c, re.I)]
+            title = promoter or (cands[0] if cands else venue)
+            t = read_times(text)
+            events.append(ExtractedEvent(
+                title=title, date=day.isoformat(), start_time=t.start, end_time=t.end, late_end=t.late,
+                venue_name=venue, genres=find_genres(text, self.genres)[:2],
+                kind=categorize(text, self.venue_kinds.get(venue)), entry=entry_hint(text),
+                fascia=fascia_hint(text)))
+        if len(events) < 2:
+            return Extraction(is_event_announcement=False, confidence=0.0, notes="not a monthly programme")
+        return Extraction(is_event_announcement=True, events=events, confidence=self.confidence,
+                          notes=f"from @{account}'s monthly programme (OCR); check names and times")
 
     def _venue_in(self, line: str) -> str | None:
         s = slug(line)

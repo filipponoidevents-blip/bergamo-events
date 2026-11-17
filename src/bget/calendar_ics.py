@@ -54,7 +54,14 @@ def party_name(ev: Event) -> str:
     for w in re.findall(r"\w+", ev.venue.name.lower()):
         rest = rest.replace(w, "")
     if len(rest) < 4:
-        return ""
+        # "The Box": only filler words and a short one are left, but it is still a name
+        from .sources.instagram_rules import _MONTH_RE, _WD_RE
+        bare = re.sub(rf"(?i)\b(?:{_WD_RE}|{_MONTH_RE}|dalle|ore|alle|fino|al|allo|alla|il|la|del|della|di|e|h)\b|\d+",
+                      " ", t).lower()
+        for w in re.findall(r"\w+", ev.venue.name.lower()):
+            bare = re.sub(rf"\b{re.escape(w)}\b", " ", bare)
+        if len(re.sub(r"\W", "", bare)) < 5:
+            return ""
     return t if len(t) <= 45 else t[:44].rsplit(" ", 1)[0] + "…"
 
 
@@ -84,6 +91,8 @@ def describe(ev: Event) -> str:
     if ev.fascia_auto:
         lines.append(f"Fascia: {ev.fascia_auto}" + (f" ({ev.fascia_why})" if ev.fascia_why else ""))
     lines.append("Locale: " + ", ".join(x for x in [ev.venue.name, ev.venue.city] if x))
+    if ev.room:
+        lines.append(f"Sala: {ev.room.title()}")
     if ev.promoter_name:
         lines.append("Promoter: " + ev.promoter_name)
     if ev.headliners:

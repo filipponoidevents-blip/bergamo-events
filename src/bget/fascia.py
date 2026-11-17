@@ -39,8 +39,9 @@ def venue_fascia(cfg, venue) -> str | None:
     names = {venue.name.lower()}
     for v in cfg.venues:
         if {v["name"].lower(), *[a.lower() for a in v.get("aliases") or []]} & names:
-            if v.get("fascia") in (SERATA, PRESERATA):
-                return v["fascia"]
+            f = str(v.get("fascia") or "").replace("sempre ", "")
+            if f in (SERATA, PRESERATA):
+                return f
             if v.get("fascia") == "orari":
                 return None  # mixed venue (live clubs, arenas, open air): only the times decide
             return KIND_DEFAULT.get(v.get("kind"))
@@ -57,6 +58,10 @@ def classify(ev, cfg) -> tuple[str, str]:
 
     if ev.fascia in (SERATA, PRESERATA):
         return ev.fascia, "deciso a mano"
+    always = next((str(v["fascia"]).split()[-1] for v in cfg.venues if str(v.get("fascia") or "").startswith("sempre ")
+                   and v["name"].lower() == ev.venue.name.lower()), None)
+    if always in (SERATA, PRESERATA):
+        return always, f"{ev.venue.name}: sempre {always}"
     if getattr(ev.category, "value", ev.category) in ("festival", "concert") or ev.alert_level:
         return SERATA, "grande evento musicale"  # Filippo: big music events are a serata a priori
     if ev.end:

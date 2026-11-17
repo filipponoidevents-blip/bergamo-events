@@ -22,10 +22,17 @@ approve:   # approved by Filippo in chat, 2026-11-16
   - "17943169710390742-0"
   - "18118837556276061-1"
 
-reject: []
+reject:
+  - "18131034407481342-0"   # Premiere's own post for 21/11: already on the calendar by hand (main room)
 # Rename a night: id: "New name"
 titles:
   "18121861250051412-0": "Oasi"
+  # Filippo's corrections of the 16-22 Nov weekly post (2026-11-17)
+  "18130085644865225-0": "Icon"
+  "18509540932100006-0": "Icon"
+  "18119513246281577-0": "Mercoledì Boaro"
+  "18118514726109142-0": "The Box"
+  "18084191429405556-0": "The Circle"   # Filippo 2026-11-17: Sat 21 Zero club room = The Circle; main room = Premiere (manual_events)
 
 
 # Serata or preserata for one night, when the automatic rule gets it wrong (see out/serata_preserata.md):

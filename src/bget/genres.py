@@ -94,6 +94,10 @@ class GenreAssigner:
             if n and n.get("venue") and n.get("date") and n.get("genre"):
                 venue = cfg.match_venue(str(n["venue"]))
                 self.nights[(_norm(venue.name if venue else str(n["venue"])), str(n["date"]))] = str(n["genre"])
+        self.always = {}
+        for k, g in (ov.get("always") or {}).items():
+            venue = cfg.match_venue(str(k))
+            self.always[_norm(venue.name if venue else str(k))] = str(g)
         self.venue_genres = {}
         for v in cfg.venues:
             hand = next((venue_ov[_norm(a)] for a in [v["name"], *(v.get("aliases") or [])] if _norm(a) in venue_ov), None)
@@ -115,15 +119,26 @@ class GenreAssigner:
     def _assign(self, ev: Event) -> tuple[str, str]:
         if (g := self.nights.get((_norm(ev.venue.name), ev.night.isoformat()))):
             return g, "manual"
+        if (g := self.always.get(_norm(ev.venue.name))):
+            return g, "venue"
+        handles = {h.lower() for h in ev.all_handles("instagram")}
+        text = f"{ev.title} {ev.promoter_name or ''}".lower()
+        title = ev.title.lower()
+        hits = [(not any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", title) for n in names), genres)
+                for names, ig, genres in self.promoters
+                if (ig and ig.lower() in handles) or any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", text) for n in names)]
+        # the party named in the title first: Le Cannibale posting AFRODYLAN is an Afrodylan night
+        matched = [genres for _, genres in sorted(hits, key=lambda h: h[0])]
+        # a promoter genre Filippo set in genres.yaml beats the caption (CC Night is witch house, not hip hop)
+        for genres in matched:
+            if genres and genres[0].startswith("=") and (g := _pick(genres)):
+                return g, "promoter"
         own = " ".join([ev.title, ev.description, " ".join(ev.genres), " ".join(g for a in ev.artists for g in a.genres)])
         if (g := detect(own)):
             return g, "event"
-        handles = {h.lower() for h in ev.all_handles("instagram")}
-        text = f"{ev.title} {ev.promoter_name or ''}".lower()
-        for names, ig, genres in self.promoters:
-            if (ig and ig.lower() in handles) or any(re.search(rf"(?<![\w]){re.escape(n.lower())}(?![\w])", text) for n in names):
-                if (g := _pick(genres)):
-                    return g, "promoter"
+        for genres in matched:
+            if (g := _pick(genres)):
+                return g, "promoter"
         if (g := _pick(self.venue_genres.get(_norm(ev.venue.name)))):
             return g, "venue"
         return UNSPECIFIED, "none"

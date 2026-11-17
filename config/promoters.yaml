@@ -1,6 +1,7 @@
 # Promoters, crews and festival brands active in the Bergamo +20 km area (researched 2026-11-16).
 # Not read by the pipeline yet: use it to fill `instagram_watch.accounts` in sources.yaml and
-# to recognise organiser names in event titles. Same ig_source / ig_type meaning as venues.yaml.
+# to recognise organiser names in event titles. `party_name:` = how its nights are named on the calendar
+# (default: name). A promoter's own post, or a venue post tagging it, takes that name. Same ig_source / ig_type meaning as venues.yaml.
 
 promoters:
   - name: Cheri
@@ -37,11 +38,6 @@ promoters:
     genres: [tech house]
     venues: [Bolgia]
     notes: "Bolgia's own tech house night brand (per Filippo). No own Instagram: posted by @bolgia.official. Ilario Alicante 14 Nov 2026; Summer Garden opening."
-  - name: Supertato
-    instagram: supertatobolgia
-    ig_source: search
-    venues: [Bolgia]
-    notes: Party brand at Bolgia; run by the Bolgia owner (per Filippo).
   - name: LTC (Lorenzo Tiezzi Comunicazione)
     instagram: null
     ig_source: null
@@ -125,6 +121,7 @@ promoters:
     ig_source: user
     notes: Shopkeepers' association of Borgo Santa Caterina (Bergamo). Runs street events (e.g. Halloween); low music relevance.
   - name: The Box Bergamo
+    party_name: The Box   # shown as the night's name (Filippo, 2026-11-17)
     aliases: [The Box, THE BOX pop-up party]
     instagram: theboxbergamo
     ig_source: user
@@ -174,7 +171,7 @@ promoters:
     ig_source: user
     genres: [trap, hip hop]
     venues: [Zero Club]
-    notes: Low relevance.
+    notes: Low relevance. Zero main room Sat 21 Nov 2026 (Filippo).
   - name: The Circle
     instagram: the.circlehub
     ig_source: user
