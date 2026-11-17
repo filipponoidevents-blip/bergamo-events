@@ -14,11 +14,11 @@
 weights: {location: 1.0, room: 0.5, capacity: 1.0, party: 1.5, guest: 2.0}
 
 venues:
-  "Bolgia": {score: 10, capacity: 3000, rooms: {main room: {score: 10, capacity: 3000}, summer garden: {score: 10, capacity: 3000}}}   # third room (200) name to confirm
+  "Bolgia": {score: 10, capacity: 3000, rooms: {main room: {score: 10, capacity: 3000}, summer garden: {score: 10, capacity: 3000}, sala 2: {score: 6, capacity: 200}}}
   "Live Club": 8
-  "Setai Club": {score: 6, capacity: 700, rooms: {garden: {score: 10, capacity: 1000}}}   # second room (50) name to confirm
+  "Setai Club": {score: 6, capacity: 700, rooms: {garden: {score: 10, capacity: 1000}, sala privè: {score: 6, capacity: 50}, sala privé: {score: 6, capacity: 50}, sala prive: {score: 6, capacity: 50}}}
   "Zero Club": {score: 7, capacity: 500, rooms: {main room: {score: 10, capacity: 500}, club room: {score: 6, capacity: 100}}}
-  "Nikita": {score: 7, capacity: 1000, rooms: {el cielo: {score: 6, capacity: 500}}}   # second room (600) name to confirm
+  "Nikita": {score: 7, capacity: 1000, rooms: {el cielo: {score: 6, capacity: 500}}}   # a second room of ~600 exists, name unknown (Filippo)
   "Bobadilla": {score: 6, capacity: 500}
   "Hype Club": {score: 6, capacity: 500}
   "Tiky Klub": {score: 6, capacity: 300}
