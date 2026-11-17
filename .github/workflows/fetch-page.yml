@@ -1,0 +1,19 @@
+# Manual diagnostics: download pages from GitHub's network and keep them as a run artifact,
+# so their HTML can be studied before writing a site reader.
+name: fetch-page
+on:
+  workflow_dispatch:
+    inputs:
+      urls: {description: "Space-separated URLs", required: true}
+permissions: {contents: read}
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - env: {URLS: "${{ inputs.urls }}"}
+        run: |
+          mkdir pages; i=0
+          for u in $URLS; do i=$((i+1)); curl -sSL -A "Mozilla/5.0 (bergamo-events-tracker)" --max-time 30 "$u" -o "pages/$i.html" || true; echo "$i $u" >> pages/index.txt; done
+          ls -la pages
+      - uses: actions/upload-artifact@v4
+        with: {name: pages, path: pages, retention-days: 3}
