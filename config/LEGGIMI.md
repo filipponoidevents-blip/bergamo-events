@@ -15,7 +15,7 @@ Ogni informazione ha un solo posto. Se due file sembrano dire la stessa cosa, va
 | Locale solo nel calendario, mai nelle grafiche | `venues.yaml` → `in_posts: false` | Fabrique, Magazzini Generali, Ippodromo |
 | Generi trovati con la ricerca | `promoters.yaml` / `venues.yaml` → `genres:` | usati solo se `genres.yaml` non dice niente |
 | Account Instagram letti | `sources.yaml` → `accounts:` | `venue:` = account del locale; `monthly: true` = programma mensile (Zero) |
-| Approva / scarta un post, rinomina una serata, forza serata/preserata | `ig_decisions.yaml` | `approve`, `reject`, `titles`, `fascia` |
+| Approva / scarta un post, rinomina una serata, forza serata/preserata, rileggi un post | `ig_decisions.yaml` | `approve`, `reject`, `titles`, `fascia`, `reread` |
 | Togli un evento | `hidden.yaml` | per testo, locale o data |
 | Eventi inseriti a mano | `../data/manual_events.yaml` | es. Premiere a Zero, 21/11 |
 | DJ e artisti importanti (ospiti) | `watchlist.yaml` | un nome qui = voto ospite 10 |

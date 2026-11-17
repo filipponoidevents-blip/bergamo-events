@@ -38,3 +38,7 @@ titles:
 # Serata or preserata for one night, when the automatic rule gets it wrong (see out/serata_preserata.md):
 # id: serata | preserata
 fascia: {}
+
+# Read a post again with the current reader (once). Its account is checked in the next run.
+reread:
+  - "17994000783101670"   # Zero's November programme, seen before monthly reading existed (Wednesdays: Please)
