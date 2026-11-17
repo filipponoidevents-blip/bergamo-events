@@ -126,6 +126,7 @@ sources:
       - {username: cafeteriatreviolo, venue: "Cafeteria"}
       - {username: karma_lounge_official_, venue: "Karma Lounge"}
       - {username: victorialoungebar_bonate, venue: "Victoria Lounge Bar"}
+      - {username: caffetteria_nuova_rotonda, venue: "Caffetteria Nuova Rotonda"}
       - {username: zeroclub.bg, venue: "Zero Club", monthly: true}   # monthly programme post at the start of the month (Filippo)
       - {username: daste_bergamo, venue: "Daste"}
       - {username: edonebergamo, venue: "Edoné"}
