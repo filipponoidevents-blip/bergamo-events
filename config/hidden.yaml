@@ -8,4 +8,7 @@
 #  - {venue: Daste, date: 2026-11-21}
 
 hide:
-  - {text: "Bergamo on Ice"}   # Filippo, 2026-11-17: the ice-rink festival at NXT Station
+  # Filippo, 2026-11-17: the ice-rink season at NXT Station (20/11-10/01) is not a night. Its single
+  # nights (live artists) have their own posts and stay, so match only the season announcements.
+  - {text: "52 giorni di pattinaggio"}   # NXT's season post
+  - {text: "Nergamo on Ice"}             # L'Eco's listing of the same season (typo in the source)

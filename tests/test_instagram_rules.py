@@ -486,3 +486,28 @@ def test_venue_always_preserata():
     from bget import fascia
     ev = Event(title="x", start=datetime(2026, 11, 21, 23, 45), venue=Venue(name="NXT Station", city=""), late_end=True)
     assert fascia.classify(ev, cfg)[0] == "preserata"
+
+
+def test_zero_programme_english_dates_and_every_wednesday():
+    """Zero's November programme: "Fri 20th", "[04 Wed]" and "Every wednesday please.nights"."""
+    from datetime import datetime
+    from pathlib import Path
+    from bget.sources.instagram_rules import ListingExtractor
+    text = (Path(__file__).parent / "zero_programme.txt").read_text()
+    ex = ListingExtractor(cfg)(caption=text, image_urls=[], posted_at=datetime.fromisoformat("2026-11-02T17:08:40+00:00"),
+                               account="zeroclub.bg", account_venue="Zero Club")
+    got = {e.date: e.title for e in ex.events}
+    assert [d for d, t in got.items() if t == "Please"] == ["2026-11-04", "2026-11-11", "2026-11-18", "2026-11-25"]
+    assert got["2026-11-20"] == "UniBG Party" and got["2026-11-21"] == "Premiere"
+    assert list(got) == sorted(got)  # the order the review ids are built from
+
+
+def test_hide_reads_instagram_bold_letters():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.store import Store
+    import tempfile, os
+    s = Store(__import__("pathlib").Path(tempfile.mkdtemp()) / "e.json")
+    s.events["k"] = Event(title="NXT Station", start=datetime(2026, 11, 20, 23), venue=Venue(name="NXT Station", city=""),
+                          description="❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧\n𝐒𝐭𝐚𝐬𝐞𝐫𝐚 𝐥𝐢𝐯𝐞")
+    assert s.hide([{"text": "Bergamo on Ice"}]) == 1
