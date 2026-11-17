@@ -33,6 +33,7 @@ Ogni informazione ha un solo posto. Se due file sembrano dire la stessa cosa, va
   - Se posta un promoter, la serata prende il nome del promoter.
   - Se posta un locale, prende il nome del promoter taggato.
   - Altrimenti prende il nome scritto nel post.
+- **Ospiti:** conta solo un DJ nella `watchlist.yaml` o taggato nel post con un profilo seguito. Un DJ non taggato non conta.
 - **Genere:** valgono i tuoi generi del promoter, se il nome del party è nel titolo. Poi quello che c'è scritto nel post, poi il genere del promoter, poi quello del locale.
 - **Due sale nella stessa sera** (club room, lab room, sala 2) restano due serate separate.
 - **Bar:** non hanno voto. Vanno dopo i club, dal più vicino al centro, e in ordine alfabetico a distanza simile.
