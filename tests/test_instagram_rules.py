@@ -368,3 +368,15 @@ def test_daytime_talk_is_culture():
     ex = read("Il 19 novembre torna Cities For Impact, urban talk. Intervengono A e B\n19 novembre 2026, dalle 9.30 alle 17.30",
               venue="Gres Art 671")
     assert ex.events[0].kind == "culture"
+
+
+def test_rank_order():
+    from datetime import datetime
+    from bget.models import Event, Venue
+    from bget.ranking import Ranker
+    r = Ranker(cfg)
+    bolgia = Event(title="Bolgia", start=datetime(2026, 11, 21, 23), venue=Venue(name="Bolgia", city=""))
+    bar = Event(title="x", start=datetime(2026, 11, 21, 21), venue=Venue(name="Unplug Bar", city=""))
+    room = Event(title="Zero Club - Club room", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""))
+    main = Event(title="Zero Club - Main room", start=datetime(2026, 11, 21, 23), venue=Venue(name="Zero Club", city=""))
+    assert r.rank(bolgia) > r.rank(main) > r.rank(room) > r.rank(bar)

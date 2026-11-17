@@ -1,0 +1,166 @@
+# Ranking: decides the order of nights in the posts (higher = first). Filippo edits this file.
+# Scale 1-10. A night's rank = the higher of its venue and its promoter, + the room's adjustment,
+# + 1 for each notable artist on the watchlist (max +2). Leave a promoter at null to use the venue's score.
+# First pass 2026-11-17 by Claude from venues.yaml (type of venue), to be corrected by hand.
+
+venues:
+  "Bolgia": 10
+  "Live Club": 8
+  "Setai Club": 6
+  "Zero Club": 6
+  "Nikita": 6
+  "Bobadilla": 6
+  "Hype Club": 6
+  "Tiky Klub": 6
+  "Queen Club": 6
+  "Oronero": 6
+  "Baia del Re": 6
+  "LOFT Bergamo": 6
+  "Two Festival": 6
+  "NXT Station": 6
+  "Lazzaretto": 6
+  "ChorusLife": 6
+  "Fiera di Bergamo": 6
+  "Casa Costez": 6
+  "Jam Live Studio": 6
+  "Vibe Club": 6
+  "Garota de Ipanema": 6
+  "Sabbie Mobili": 6
+  "MINT": 6
+  "Charleston": 6
+  "Thanka": 6
+  "Magazzini Generali": 6
+  "Ippodromo SNAI San Siro": 6
+  "Edoné": 5
+  "Daste": 5
+  "Druso": 5
+  "Polaresco": 5
+  "Ink Club": 5
+  "UFO Live": 5
+  "Gres Art 671": 5
+  "Fabrique": 5
+  "BV Rooftop": 3
+  "Circolino della Malpensata": 3
+  "Keller Factory": 3
+  "Ninfea Social Club": 3
+  "Barry's": 3
+  "Sprint": 3
+  "Unplug Bar": 3
+  "Balzer by Night": 3
+  "BÙ Cheese Bar": 3
+  "Savana King": 3
+  "Cosmo Food Club": 3
+  "Contest Cocktail Bar": 3
+  "OperaPrima Café": 3
+  "Bar 30&Lode": 3
+  "Into The Woods": 3
+  "Cafeteria": 3
+  "Karma Lounge": 3
+  "Victoria Lounge Bar": 3
+  "Bar Perlage": 3
+  "Caffetteria Nuova Rotonda": 3
+  "In Croissanteria Lab": 3
+  "Brina Pasticceria": 3
+  "Delblaco Lunch & Bar": 3
+  "Arya Lounge": 3
+  "Al Tabarin": 3
+  "Officina Panarari": 3
+  "Bar San Marco": 3
+  "Tassino Café": 3
+
+# Rooms: added to the score when the post names the room (main room first, second rooms lower).
+rooms:
+  main room: 0
+  main area: 0
+  club room: -1
+  lab room: -1
+  garden: -1
+  theater room: -1
+  bunker: -1
+
+promoters:   # null = same as the venue
+  "Cheri": null
+  "Hidden Hell": null
+  "Galactica Festival": null
+  "JUICE Crew": null
+  "Groove Factory": null
+  "Supertato": null
+  "LTC (Lorenzo Tiezzi Comunicazione)": null
+  "MiDi Motori Digitali": null
+  "Le Cannibale": null
+  "Sabotage": null
+  "utōpia": null
+  "Discopasta Social Club": null
+  "Greebo Party": null
+  "Newrant Crew": null
+  "BassBrigade / Tribe73 / Beetek / KTN": null
+  "Night Life Bergamo": null
+  "Sommet": null
+  "NØID": null
+  "ICKS": null
+  "Gabass Subculture": null
+  "Vida Loca": null
+  "Borgo Santa Caterina": null
+  "The Box Bergamo": null
+  "BSK Sound": null
+  "Crocevia": null
+  "Bergamo Night Service": null
+  "PLEASE": null
+  "TALK": null
+  "Sloth": null
+  "Step Up": null
+  "UniBG Party": null
+  "Premiere": null
+  "The Circle": null
+  "Crystal Castles Night": null
+  "CRØMA": null
+  "OASI": null
+  "Selected Lab": null
+  "Upside Down": null
+  "Alive": null
+  "Code": null
+  "Enter the Void": null
+  "Lova": null
+  "Ventitré": null
+  "Savage": null
+  "Otra Vez": null
+  "Aperitivo Martini": null
+  "Merci": null
+  "Studio Legale": null
+  "Noche Latina": null
+  "Tocame": null
+  "Spicy": null
+  "Elysium Privè": null
+  "C'est la vie": null
+  "Offline": null
+  "Open Bar Night": null
+  "Rockoteca": null
+  "Chewing Gum": null
+  "DiscoDance": null
+  "La Casita": null
+  "Afrodylan": null
+  "Tra terra e cielo": null
+  "Club Culture": null
+  "Hi-Fi Fever": null
+  "Side A": null
+  "Rapture": null
+  "Bucolic Party": null
+  "Honey": null
+  "Pitch": null
+  "L'Apéritif by Earth": null
+  "Boheme": null
+  "#NoFilter": null
+  "Zona de Perreo": null
+  "Call Out": null
+  "Choose Me": null
+  "Lipstick": null
+  "Sabado de Pikete": null
+  "Traviesa": null
+  "Krystal404": null
+  "Naif": null
+  "MiuMiuu": null
+  "Back to the 90s": null
+  "One Place, Two Souls": null
+  "cento10elode": null
+  "Icon": null
+  "Muchacha": null
