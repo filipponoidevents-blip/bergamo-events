@@ -22,7 +22,8 @@ approve:   # approved by Filippo in chat, 2026-11-16
   - "17943169710390742-0"
   - "18118837556276061-1"
 
-reject: []
+reject:
+  - "18131034407481342-0"   # Premiere's own post for 21/11: already on the calendar by hand (main room)
 # Rename a night: id: "New name"
 titles:
   "18121861250051412-0": "Oasi"
