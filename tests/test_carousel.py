@@ -87,9 +87,25 @@ def test_genre_pages_follow_filippos_table():
     assert g("Indie") == "ALTRO" and g(None) == "ALTRO"
 
 
-def test_midnight_start_shows_as_2359_and_room_inline():
+def test_every_night_has_a_time_and_room_on_details_line():
     e = ev(22, hour=0)
     e.start = e.start.replace(minute=0)
     e.room = "club room"
     r = carousel.club_row(e)
-    assert r.time == "23:59" and r.head == "BOLGIA, CLUB ROOM"
+    assert r.time == "00:00" and r.head.endswith("@ BOLGIA") and r.extra.endswith("Club room")
+    main, side, alone = ev(21, hour=23), ev(21, hour=23), ev(21, venue="Zero Club")
+    side.start_known = alone.start_known = False
+    assert carousel.post_time(side, [main, side, alone]) == "23:30"   # another room of the same venue
+    assert carousel.post_time(alone, [main, side, alone]) == "00:00"
+
+
+def test_unknown_time_uses_venue_default_start():
+    e = ev(20, venue="NXT Station", hour=18)
+    e.start = e.start.replace(minute=0)
+    e.start_known = False
+    assert carousel.post_time(e) == "00:00"
+    carousel.configure({}, [{"name": "NXT Station", "default_start": "18:00"}])
+    try:
+        assert carousel.post_time(e) == "18:00"
+    finally:
+        carousel.configure({})

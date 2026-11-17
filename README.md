@@ -112,7 +112,7 @@ so reader improvements also fix nights read earlier.
 - **Midweek** (Wednesday): "Prima della serata", Thursday to Sunday, aperitivo/pre-party, comedy, quiz
   and culture from the non-club events (`out/other_events.md`). These never go on the calendar.
 Club posts are white on red; the midweek post is red on white. The small text along the top and bottom
-edges carries the account, area and month (settings.yaml `posts:` brand / handle / area, one set per city). Fonts are bundled in `src/bget/fonts/` (SIL Open Font License).
+edges carries the account, area and month (settings.yaml `posts:` brand / handle / area, one set per city). Fonts (Familjen Grotesk for titles, Roboto for text, Space Mono on the edges) are bundled in `src/bget/fonts/` (SIL Open Font License).
 `.github/workflows/posts.yml` renders what is due every morning and attaches the slides to the run
 (Actions tab -> run -> Artifacts -> posts); it can also be run by hand for any week or month.
 
