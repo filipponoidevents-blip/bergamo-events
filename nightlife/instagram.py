@@ -106,6 +106,10 @@ class Instagram:
                     self.problems.append(f"Instagram: limite orario di Meta raggiunto dopo {self.calls - 1} profili; gli altri al prossimo giro. ({msg[:100]})")
                     stop = True
                     break
+                if re.search(r"log in to www\.facebook\.com|checkpoint", msg, re.I):
+                    self.problems.append("Instagram: Meta ha bloccato l'accesso finché non entri su facebook.com con l'account collegato e segui le istruzioni (controllo di sicurezza). Poi, se serve, rinnova il token.")
+                    stop = True
+                    break
                 if re.search(r"\b190\b|expired|access token", msg, re.I):
                     self.problems.append(f"Instagram: il token è scaduto o non valido. Va rinnovato (vedi README, 'Rinnovare il token'). Errore Meta: {msg[:160]}")
                     stop = True
