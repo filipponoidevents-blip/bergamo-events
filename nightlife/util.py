@@ -8,6 +8,11 @@ import unicodedata
 from datetime import date, datetime, timedelta
 
 import requests
+import socket
+import urllib3.util.connection as _uc
+
+# Alcuni server (OpenStreetMap) rispondono solo in IPv4 dalla rete di GitHub: si usa sempre IPv4.
+_uc.allowed_gai_family = lambda: socket.AF_INET
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
       "Accept-Language": "it-IT,it;q=0.9,en;q=0.8"}
@@ -101,6 +106,8 @@ def fetch(url: str, *, method="GET", pause=1.0, timeout=30, **kw) -> requests.Re
     if wait > 0:
         time.sleep(wait)
     headers = {**UA, **kw.pop("headers", {})}
+    if kw.pop("bot_ua", False):   # i servizi di OpenStreetMap chiedono un nome di programma, non quello di un browser
+        headers["User-Agent"] = "nightlife-tracker/2.0 (open-source event calendar)"
     r = requests.request(method, url, headers=headers, timeout=timeout, **kw)
     _last_call[host] = time.time()
     r.raise_for_status()

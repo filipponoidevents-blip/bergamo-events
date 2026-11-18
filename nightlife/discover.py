@@ -16,7 +16,9 @@ from .city import City, clean_name
 from .util import fetch, km_between, norm, scale
 
 log = logging.getLogger("nightlife.discover")
-OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
+OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter",
+            "https://maps.mail.ru/osm/tools/overpass/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
+PHOTON = "https://photon.komoot.io/api/"
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 BASE_CAPACITY = {"club": 500, "live_club": 400, "open_air": 1000, "arena": 3000, "bar": 80}
 IG_LINK = re.compile(r"instagram\.com/(?!p/|reel/|explore/|accounts/|stories/)([A-Za-z0-9_.]{3,30})")
@@ -44,7 +46,7 @@ def from_osm(city: City) -> int:
     data = None
     for url in OVERPASS:
         try:
-            data = fetch(url, method="POST", data={"data": q}, timeout=120).json()
+            data = fetch(url, method="POST", data={"data": q}, timeout=75, bot_ua=True).json()
             break
         except Exception as e:  # noqa: BLE001
             log.warning("OpenStreetMap %s: %s", url, e)
@@ -92,22 +94,73 @@ def upsert(city: City, rec: dict, source: str) -> int:
     return int(new)
 
 
+_geo_fail = {"photon": 0, "nominatim": 0}
+
+
 def geocode(city: City, query: str) -> dict | None:
+    """Indirizzo o nome di un posto -> coordinate. Photon (gratis), poi Nominatim. Il risultato resta in memoria."""
     cache = city.registry.setdefault("geocode", {})
     if query in cache:
         return cache[query]
-    try:
-        res = fetch(NOMINATIM, params={"q": query, "format": "jsonv2", "limit": 1, "addressdetails": 1, "countrycodes": city.c.get("country", "it")}, pause=1.2).json()
-    except Exception as e:  # noqa: BLE001
-        log.warning("geocode %s: %s", query, e)
-        return None
     out = None
-    if res:
-        a = res[0].get("address", {})
-        out = {"lat": round(float(res[0]["lat"]), 5), "lon": round(float(res[0]["lon"]), 5),
-               "city": a.get("city") or a.get("town") or a.get("village") or a.get("municipality"), "province": (a.get("ISO3166-2-lvl6") or "")[-2:] or None}
-    cache[query] = out
+    if _geo_fail["photon"] < 3:
+        try:
+            res = fetch(PHOTON, params={"q": query, "limit": 1, "lat": city.c["lat"], "lon": city.c["lon"], "lang": "default"}, pause=1.0, bot_ua=True).json()
+            _geo_fail["photon"] = 0
+            f = (res.get("features") or [None])[0]
+            if f:
+                lon, lat = f["geometry"]["coordinates"]
+                pr = f.get("properties", {})
+                out = {"lat": round(lat, 5), "lon": round(lon, 5), "city": pr.get("city") or pr.get("town") or pr.get("village") or pr.get("county"),
+                       "province": None}
+        except Exception as e:  # noqa: BLE001
+            _geo_fail["photon"] += 1
+            log.warning("photon %s: %s", query, e)
+    if out is None and _geo_fail["nominatim"] < 3:
+        try:
+            res = fetch(NOMINATIM, params={"q": query, "format": "jsonv2", "limit": 1, "addressdetails": 1, "countrycodes": city.c.get("country", "it")},
+                        pause=1.2, bot_ua=True).json()
+            _geo_fail["nominatim"] = 0
+            if res:
+                a = res[0].get("address", {})
+                out = {"lat": round(float(res[0]["lat"]), 5), "lon": round(float(res[0]["lon"]), 5),
+                       "city": a.get("city") or a.get("town") or a.get("village") or a.get("municipality"), "province": (a.get("ISO3166-2-lvl6") or "")[-2:] or None}
+        except Exception as e:  # noqa: BLE001
+            _geo_fail["nominatim"] += 1
+            log.warning("nominatim %s: %s", query, e)
+            return None
+    if out is not None or _geo_fail["photon"] < 3:
+        cache[query] = out
     return out
+
+
+XCEED_CLUB = re.compile(r'/(?:it|en)/([a-z0-9-]+)/(?:club|venue)/([a-z0-9-]+)')
+
+
+def from_xceed(city: City) -> int:
+    """La pagina della città su Xceed elenca i club che vendono lì: nome e link entrano in anagrafica."""
+    slug = norm(city.c["name"]).replace(" ", "-")
+    added = 0
+    for url in [f"https://xceed.me/it/{slug}", f"https://xceed.me/it/{slug}/clubs", f"https://xceed.me/it/{slug}/venues"]:
+        try:
+            page = fetch(url, pause=2).text
+        except Exception:  # noqa: BLE001
+            continue
+        for c_slug, v_slug in set(XCEED_CLUB.findall(page)):
+            if c_slug != slug:
+                continue
+            name = v_slug.replace("-", " ").title()
+            link = f"https://xceed.me/it/{slug}/club/{v_slug}"
+            known = city.venue_named(name)
+            if known:
+                rec = city.registry["venues"].get(norm(known["name"]))
+                if rec is not None and link not in (rec.get("tickets") or []):
+                    rec.setdefault("tickets", []).append(link)
+                continue
+            place = geocode(city, f"{name}, {city.c['name']}")
+            if place and (city.distance(place["lat"], place["lon"]) or 99) <= city.c["radius_km"] * 1.5:
+                added += upsert(city, {"name": name, "type": "club", "tickets": [link], **place}, "xceed")
+    return added
 
 
 def from_accounts(city: City, limit: int = 15) -> int:
@@ -181,6 +234,10 @@ def run(city: City, force_osm: bool = False) -> list[str]:
             notes.append(f"OpenStreetMap: {n} locali nuovi, {len(city.registry['venues'])} in anagrafica.")
         except Exception as e:  # noqa: BLE001
             notes.append(f"OpenStreetMap saltato: {e}")
+    if city.settings["sources"]["xceed"].get("enabled"):
+        n = from_xceed(city)
+        if n:
+            notes.append(f"Xceed: {n} club nuovi.")
     n = from_websites(city)
     if n:
         notes.append(f"Trovati {n} profili Instagram dai siti dei locali.")
