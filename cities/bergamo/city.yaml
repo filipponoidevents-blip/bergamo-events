@@ -1,0 +1,28 @@
+# Tutto quello che serve per seguire una città. Per una città nuova: copia questo file e cambia i valori.
+city:
+  name: Bergamo
+  label: Bergamo e dintorni
+  lat: 45.6983
+  lon: 9.6773
+  radius_km: 25            # dentro questo raggio un evento è "in zona"
+  timezone: Europe/Rome
+  # Fuori zona si tengono solo i grandi eventi, e solo da queste province (i marchi nazionali da tutta Italia).
+  big_event_provinces: [MI, MB, BS, LC, CO, CR, VA, LO, SO, RE, VR, TO, BO, PC, PV]
+  page: {brand: Serate Bergamo, handle: "@seratebergamo", hashtags: ["#bergamo", "#bergamonightlife", "#seratebergamo"]}
+
+instagram:
+  user_id: "17841456676305081"   # l'account che fa le chiamate (non è un segreto; il token sta nei segreti di GitHub)
+  token_renewed: 2026-11-16      # il token dura circa 60 giorni: il promemoria esce nel calendario
+
+sources:
+  jsonld:
+    pages:
+      - url: "https://www.ecodibergamo.it/eventi/eppen/data/musica/{date:%Y/%m/%d}/"   # agenda de L'Eco di Bergamo
+        days: 10
+        follow: "/eventi/eppen/dettaglio/"
+        max_pages: 60
+  articles:
+    pages:
+      - url: "https://primabergamo.it/tempo-libero/eventi/"
+        follow: "primabergamo\\.it/tempo-libero/eventi/[a-z0-9-]+/?$"
+        max_pages: 20

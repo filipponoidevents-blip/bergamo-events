@@ -1,0 +1,48 @@
+# Nuova versione (v2). Ogni 2 ore: scopre locali e profili, raccoglie gli eventi, li classifica e pubblica i file.
+# Non tocca la versione 1: i file escono sul branch `feed-v2`, i dati restano nel branch di lavoro.
+name: nightlife-v2
+on:
+  schedule: [{cron: "41 */2 * * *"}]
+  workflow_dispatch: {}
+  push:
+    branches: ["claude/project-thread-b9jaty"]
+    paths: ["nightlife/**", "cities/*/city.yaml", "cities/*/conoscenze.yaml", ".github/workflows/nightlife.yml"]
+permissions:
+  contents: write
+concurrency: {group: nightlife-v2, cancel-in-progress: false}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: claude/project-thread-b9jaty}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q -e .
+      - name: Giro completo per ogni città
+        run: python -m nightlife run --city all
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      - name: Confronto con la lista fatta a mano (solo verifica)
+        run: python -m nightlife compare archivio/database-v1 --city bergamo || true
+      - name: Salva dati e uscite
+        run: |
+          git config user.name "events-bot"
+          git config user.email "events-bot@users.noreply.github.com"
+          git add cities
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Aggiorna eventi v2 [skip ci]"
+            git pull -q --rebase -X theirs origin claude/project-thread-b9jaty
+            git push -q origin HEAD:claude/project-thread-b9jaty
+          fi
+      - name: Pubblica le uscite sul branch feed-v2
+        run: |
+          mkdir -p /tmp/site
+          for d in cities/*/out; do cp -r "$d"/. /tmp/site/; done
+          cd /tmp/site
+          git init -q -b feed-v2
+          git config user.name "events-bot"
+          git config user.email "events-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "feed v2"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" feed-v2

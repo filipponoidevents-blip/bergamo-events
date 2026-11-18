@@ -1,0 +1,46 @@
+# Valori di base, uguali per ogni città. Una città cambia solo quello che le serve nel suo city.yaml.
+# Serata o preserata. Gli orari sono indicativi: decide prima l'orario, poi il prezzo, poi il tipo di locale.
+fascia:
+  serata_start: "23:00"    # inizia a quest'ora o dopo -> serata
+  serata_end: "03:00"      # se la fine è nota: finisce a quest'ora o dopo -> serata
+  early_start: "22:00"     # inizia prima di quest'ora e non finisce tardi -> preserata
+
+# Classifica: ogni voce vale da 0 a 10, poi si fa la media pesata e si porta a 0-100.
+ranking:
+  serata: {venue: 3.0, capacity: 1.5, venue_followers: 1.5, promoter: 2.0, guest: 2.0}
+  preserata: {promoter: 3.0, distance: 2.5, capacity: 1.5, venue_followers: 3.0}
+  followers_floor: 500       # follower che valgono 0
+  followers_top: 100000      # follower che valgono 10
+  capacity_floor: 50
+  capacity_top: 3000
+  default_venue_vote: {club: 6, live_club: 5, open_air: 5, arena: 7, bar: 3}
+
+# Pagine dei post: una serata va nella prima famiglia che contiene una parola del suo genere.
+genre_families:
+  "House / Elettronica": [house, tech house, techno, hard techno, elettronica, melodic, minimal, edm, trance, drum and bass, afro house, disco]
+  "Hip Hop / Trap": [hip hop, trap, rap, urban, r&b]
+  "Commerciale": [commerciale, dance, hits, revival, anni 90, anni 2000, latino, reggaeton, afro, pop]
+  "Altro": []
+
+# Quali tipi di intrattenimento contano come nightlife (vanno nei calendari). Gli altri restano solo nei dati.
+nightlife_types: [dj set, live, karaoke, quiz, comedy, dinner show, aperitivo, ballo da sala, festival, alternative]
+
+publish:
+  min_confidence: 0.5      # sotto questa soglia l'evento resta in "da controllare" e non esce
+  days_ahead: 120
+  keep_past_days: 400      # lo storico serve ai promoter per confrontare le date
+
+instagram:
+  graph_version: v27.0
+  posts_per_account: 25
+  accounts_per_run: 20           # limite orario di Meta per le app in modalità sviluppo
+  max_post_age_days: 45
+  follower_lookups_per_run: 5    # follower di DJ/promoter taggati e ancora sconosciuti
+  auto_watch_after: 2            # un profilo taggato in almeno N eventi viene seguito da solo
+
+# Fonti oltre a Instagram. Ogni fonte che fallisce viene saltata e segnalata nel report, senza fermare il resto.
+sources:
+  osm: {enabled: true}       # OpenStreetMap: discoteche, locali con musica, indirizzi e coordinate
+  xceed: {enabled: true}     # pagine xceed dei locali (trovate da sole o scritte in conoscenze.yaml)
+  jsonld: {enabled: true, pages: []}     # pagine con dati strutturati schema.org (agende, siti dei locali)
+  articles: {enabled: true, pages: []}   # articoli di giornale letti come una didascalia

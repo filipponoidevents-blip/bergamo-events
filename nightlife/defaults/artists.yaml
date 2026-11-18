@@ -1,0 +1,235 @@
+# Ospiti che contano, validi per ogni città. top = grande nome, notable = nome forte in Italia, live = live con pubblico da club.
+# Una città può aggiungerne altri nel suo conoscenze.yaml (voce artists).
+artists:
+- name: Amelie Lens
+  level: top
+- name: Charlotte de Witte
+  level: top
+- name: Carl Cox
+  level: top
+- name: Solomun
+  level: top
+- name: Tale Of Us
+  level: top
+- name: Anyma
+  level: top
+- name: Adam Beyer
+  level: top
+- name: Peggy Gou
+  level: top
+- name: Fred again..
+  level: top
+- name: Fisher
+  level: top
+- name: Chris Lake
+  level: top
+- name: Black Coffee
+  level: top
+- name: Marco Carola
+  level: top
+- name: Joseph Capriati
+  level: top
+- name: Loco Dice
+  level: top
+- name: Richie Hawtin
+  level: top
+- name: Boris Brejcha
+  level: top
+- name: Keinemusik
+  level: top
+- name: '&ME'
+  level: top
+- name: Rampa
+  level: top
+- name: Adriatique
+  level: top
+- name: Mochakk
+  level: top
+- name: Indira Paganotto
+  level: top
+- name: Sara Landry
+  level: top
+- name: Reinier Zonneveld
+  level: top
+- name: Ilario Alicante
+  level: notable
+- name: Gigi D'Agostino
+  level: notable
+- name: Gabry Ponte
+  level: notable
+- name: Molella
+  level: notable
+- name: Bob Sinclar
+  level: notable
+- name: Benny Benassi
+  level: notable
+- name: Alex Gaudino
+  level: notable
+- name: Prezioso
+  level: notable
+- name: Albertino
+  level: notable
+- name: Mauro Picotto
+  level: notable
+- name: Provenzano
+  level: notable
+- name: Disclosure
+  level: live
+- name: Bicep
+  level: live
+- name: The Chemical Brothers
+  level: live
+- name: Fatboy Slim
+  level: live
+- name: Moderat
+  level: live
+- name: Justice
+  level: live
+- name: Daft Punk
+  level: live
+- name: Calvin Harris
+  level: live
+- name: David Guetta
+  level: live
+- name: Martin Garrix
+  level: live
+- name: Swedish House Mafia
+  level: live
+- name: Caribou
+  level: live
+- name: Jamie xx
+  level: live
+- name: Bonobo
+  level: live
+- name: Kraftwerk
+  level: live
+- name: Nina Kraviz
+  level: top
+- name: Paul Kalkbrenner
+  level: top
+- name: Ben Klock
+  level: top
+- name: Jamie Jones
+  level: top
+- name: The Martinez Brothers
+  level: top
+- name: Michael Bibi
+  level: top
+- name: Dom Dolla
+  level: top
+- name: John Summit
+  level: top
+- name: Vintage Culture
+  level: top
+- name: Hugel
+  level: top
+- name: Meduza
+  level: top
+- name: Deborah De Luca
+  level: top
+- name: Enrico Sangiuliano
+  level: top
+- name: Sven Väth
+  level: top
+- name: Dixon
+  level: top
+- name: Maceo Plex
+  level: top
+- name: Kölsch
+  level: top
+- name: Pan-Pot
+  level: top
+- name: I Hate Models
+  level: top
+- name: Trym
+  level: top
+- name: Nico Moreno
+  level: top
+- name: '999999999'
+  level: top
+- name: Klangkuenstler
+  level: top
+- name: Fantasm
+  level: top
+- name: Mathame
+  level: top
+- name: Argy
+  level: top
+- name: Miss Monique
+  level: top
+- name: Korolova
+  level: top
+- name: Claptone
+  level: top
+- name: Purple Disco Machine
+  level: top
+- name: Gordo
+  level: top
+- name: Mau P
+  level: top
+- name: Cloonee
+  level: top
+- name: PAWSA
+  level: top
+- name: Marco Faraone
+  level: top
+- name: Mind Against
+  level: top
+- name: Massano
+  level: top
+- name: Kevin de Vries
+  level: top
+- name: Camelphat
+  level: top
+- name: Paco Osuna
+  level: top
+- name: Seth Troxler
+  level: top
+- name: Luciano
+  level: top
+- name: Ricardo Villalobos
+  level: top
+- name: Hot Since 82
+  level: top
+- name: Patrick Topping
+  level: top
+- name: Eats Everything
+  level: top
+- name: Skream
+  level: top
+- name: Armin van Buuren
+  level: top
+- name: Tiësto
+  level: top
+- name: Hardwell
+  level: top
+- name: Dimitri Vegas & Like Mike
+  level: top
+- name: Steve Aoki
+  level: top
+- name: Timmy Trumpet
+  level: top
+- name: Salmo
+  level: top
+- name: Sfera Ebbasta
+  level: top
+- name: Lazza
+  level: top
+- name: Tony Effe
+  level: top
+- name: Gué
+  level: top
+- name: Marracash
+  level: top
+- name: Geolier
+  level: top
+- name: Anna
+  level: top
+- name: Shiva
+  level: top
+- name: Capo Plaza
+  level: top
+- name: Rhove
+  level: top
+- name: Fabri Fibra
+  level: top

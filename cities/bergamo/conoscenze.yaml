@@ -1,0 +1,20 @@
+# Conoscenze: FACOLTATIVO. Il sistema trova da solo locali, promoter, follower e capienze.
+# Qui si scrive solo quello che una persona sa meglio della macchina. Ogni voce vince sui dati trovati.
+# Le voci possibili sono spiegate in REGOLE.md (sezione "Conoscenze"). Esempi:
+#
+# seeds: [bolgia.official, zeroclub.bg]          # profili Instagram da cui partire
+# venues:
+#   - {name: Bolgia, vote: 10, capacity: 3000, genre: Techno}
+#   - {name: Garota de Ipanema, genre: Latino, genre_always: true}
+#   - {name: Zero Club, rooms: {main room: {vote: 10, capacity: 500}, club room: {vote: 6, capacity: 100}}}
+# promoters:
+#   - {name: The Box, instagram: theboxbergamo, genre: Tech House, vote: 7}
+# artists:
+#   - {name: Ilario Alicante, level: notable}
+# hide:
+#   - {text: "Bergamo on Ice"}                      # toglie gli eventi che contengono queste parole
+# fix:
+#   - {venue: Nikita, date: 2026-11-21, genre: Commerciale}
+# events:                                           # eventi che nessuna fonte pubblica
+#   - {date: 2026-11-21, start: "23:00", venue: Zero Club, party: Premiere, room: main room}
+seeds: []
