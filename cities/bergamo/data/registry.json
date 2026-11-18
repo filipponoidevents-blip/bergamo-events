@@ -460,6 +460,7 @@
    "lat": 45.74377,
    "lon": 9.75908,
    "name": "Auditorium Modernissimo",
+   "search_checked": "2026-11-18",
    "sources": [
     "eventi"
    ],
@@ -495,6 +496,7 @@
    "lat": 45.68725,
    "lon": 9.66303,
    "name": "Biblioteca Tiraboschi - Sala Mimmo Boninelli",
+   "search_checked": "2026-11-18",
    "sources": [
     "eventi"
    ],
@@ -505,7 +507,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 31620,
+   "followers": 31621,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -523,7 +525,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 124528,
+   "followers": 124530,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -664,7 +666,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67311,
+   "followers": 67318,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -901,7 +903,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33389,
+   "followers": 33388,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -1232,6 +1234,7 @@
    "lat": 45.7308,
    "lon": 9.72948,
    "name": "Teatro degli Storti",
+   "search_checked": "2026-11-18",
    "sources": [
     "eventi"
    ],
