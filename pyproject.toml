@@ -5,7 +5,7 @@ requires-python = ">=3.11"
 dependencies = ["requests", "PyYAML"]
 
 [tool.setuptools]
-packages = ["nightlife"]
+packages = ["nightlife", "nightlife.defaults"]
 
 [tool.setuptools.package-data]
 nightlife = ["defaults/*.yaml"]

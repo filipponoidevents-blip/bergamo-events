@@ -36,17 +36,20 @@ def osm_type(tags: dict) -> str:
 
 def from_osm(city: City) -> int:
     c = city.c
-    around = f"(around:{int(c['radius_km'] * 1000)},{c['lat']},{c['lon']})"
-    q = f"""[out:json][timeout:90];(
-      nwr["amenity"="nightclub"]{around}; nwr["amenity"="music_venue"]{around}; nwr["leisure"="dance"]{around};
-      nwr["amenity"="events_venue"]["name"]{around}; nwr["club"="music"]{around};
-      nwr["amenity"~"^(bar|pub|biergarten)$"]["live_music"="yes"]{around};
-      nwr["amenity"~"^(bar|pub)$"]["contact:instagram"]{around}; nwr["amenity"~"^(bar|pub)$"]["instagram"]{around};
+    import math
+    dlat = c["radius_km"] / 111.0
+    dlon = c["radius_km"] / (111.0 * math.cos(math.radians(c["lat"])))
+    bbox = f"{c['lat'] - dlat:.4f},{c['lon'] - dlon:.4f},{c['lat'] + dlat:.4f},{c['lon'] + dlon:.4f}"
+    # riquadro fisso (veloce) e filtri semplici: la distanza vera si calcola dopo
+    q = f"""[out:json][timeout:60][bbox:{bbox}];(
+      nwr["amenity"~"^(nightclub|music_venue|events_venue)$"];
+      nwr["leisure"="dance"];
+      nwr["amenity"~"^(bar|pub|biergarten)$"]["live_music"="yes"];
     );out center tags;"""
     data = None
     for url in OVERPASS:
         try:
-            data = fetch(url, method="POST", data={"data": q}, timeout=75, bot_ua=True).json()
+            data = fetch(url, method="POST", data={"data": q}, timeout=90, bot_ua=True).json()
             break
         except Exception as e:  # noqa: BLE001
             log.warning("OpenStreetMap %s: %s", url, e)
@@ -58,6 +61,8 @@ def from_osm(city: City) -> int:
         name = t.get("name")
         lat, lon = el.get("lat") or (el.get("center") or {}).get("lat"), el.get("lon") or (el.get("center") or {}).get("lon")
         if not name or lat is None or t.get("disused:amenity") or t.get("abandoned"):
+            continue
+        if (city.distance(lat, lon) or 99) > c["radius_km"]:
             continue
         ig = t.get("contact:instagram") or t.get("instagram") or ""
         m = IG_LINK.search(ig)
@@ -208,6 +213,31 @@ def from_websites(city: City, limit: int = 8) -> int:
     return found
 
 
+def from_search(city: City, limit: int = 10) -> int:
+    """Profilo Instagram di un locale cercato sul web (DuckDuckGo, gratis): "<nome> <comune> instagram"."""
+    found = done = 0
+    order = sorted(city.registry["venues"].values(), key=lambda v: ({"club": 0, "live_club": 1, "open_air": 1}.get(v.get("type"), 2), v.get("km") or 99))
+    for v in order:
+        if v.get("instagram") or v.get("search_checked") or done >= limit:
+            continue
+        done += 1
+        v["search_checked"] = date.today().isoformat()
+        q = f"{v['name']} {v.get('city') or city.c['name']} instagram"
+        try:
+            html = fetch("https://html.duckduckgo.com/html/", method="POST", data={"q": q}, pause=3).text
+        except Exception as e:  # noqa: BLE001
+            log.warning("ricerca %s: %s", q, e)
+            break
+        words = [w for w in norm(v["name"]).split() if len(w) >= 3 and w not in ("club", "bar", "the", "disco", "discoteca", "lounge", "cafe", "caffe")]
+        for h in IG_LINK.findall(html.replace("%2F", "/")):
+            h = h.lower().strip(".")
+            if words and any(w in h.replace(".", "").replace("_", "") for w in words):
+                v["instagram"] = h
+                found += 1
+                break
+    return found
+
+
 def estimate(city: City) -> None:
     """Capienza stimata e voto del locale, quando nessuno li ha scritti. Il voto è 0-10."""
     r = city.settings["ranking"]
@@ -241,6 +271,9 @@ def run(city: City, force_osm: bool = False) -> list[str]:
     n = from_websites(city)
     if n:
         notes.append(f"Trovati {n} profili Instagram dai siti dei locali.")
+    n = from_search(city)
+    if n:
+        notes.append(f"Trovati {n} profili Instagram cercando i locali sul web.")
     n = from_accounts(city)
     if n:
         notes.append(f"{n} locali nuovi scoperti da Instagram.")

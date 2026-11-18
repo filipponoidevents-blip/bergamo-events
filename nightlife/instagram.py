@@ -95,6 +95,8 @@ class Instagram:
         order.sort(key=lambda h: (accounts.get(h, {}).get("last_read") or "", rank[h]))
         max_age = timedelta(days=self.cfg["max_post_age_days"])
         stop = False
+        if not order:
+            self.problems.append("Instagram: ancora nessun profilo da leggere (si aggiungono man mano che i locali vengono trovati).")
         for h in order[: self.cfg["accounts_per_run"]]:
             try:
                 bd = self._get(h, with_media=True)
