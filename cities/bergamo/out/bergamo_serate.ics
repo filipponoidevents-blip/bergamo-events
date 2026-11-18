@@ -7,23 +7,118 @@ X-WR-CALNAME:Serate · Bergamo e dintorni
 X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
+UID:2026-11-18-centro_congressi_giovanni_xxiii@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;VALUE=DATE:20261118
+SUMMARY:Centro congressi Giovanni XXIII
+LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
+ \, Bergamo
+DESCRIPTION:SERATA · voto 7.7/100\ningresso a pagamento o in lista\n📍 
+ Viale Papa Giovanni XXIII\, 106\, Bergamo (0.8 km)\nhttps://primabergamo.
+ it/tempo-libero/eventi/nasce-innovasalute-a-bergamo-due-giorni-di-confron
+ to-per-parlare-della-sanita-a-360/
+CATEGORIES:SERATA,Altro
+URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
+ mo-due-giorni-di-confronto-per-parlare-della-sanita-a-360/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-centro_congressi_giovanni_xxiii@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;VALUE=DATE:20261119
+SUMMARY:Centro congressi Giovanni XXIII
+LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
+ \, Bergamo
+DESCRIPTION:SERATA · voto 7.7/100\ningresso a pagamento o in lista\n📍 
+ Viale Papa Giovanni XXIII\, 106\, Bergamo (0.8 km)\nhttps://primabergamo.
+ it/tempo-libero/eventi/nasce-innovasalute-a-bergamo-due-giorni-di-confron
+ to-per-parlare-della-sanita-a-360/
+CATEGORIES:SERATA,Altro
+URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
+ mo-due-giorni-di-confronto-per-parlare-della-sanita-a-360/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-divina_music_bar@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;VALUE=DATE:20261120
+SUMMARY:Divina Music Bar
+LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
+DESCRIPTION:SERATA · voto 30.8/100\ningresso a pagamento o in lista\n📍
+  Via Azzano San Paolo 71d\, 24050\, Grassobbio (5.0 km)\nLocale: @divinab
+ ergamo\nhttps://www.instagram.com/reel/Dftr-IuNYje/\nhttps://www.instagra
+ m.com/reel/Dfxba2ttc8K/
+CATEGORIES:SERATA,Altro
+URL:https://www.instagram.com/reel/Dftr-IuNYje/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-bolgia@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;TZID=Europe/Rome:20261121T233000
+SUMMARY:Bolgia · MAD DOG
+LOCATION:Bolgia\, Via Vaccarezza 8
+DESCRIPTION:SERATA · voto 35.7/100\ninizia alle 23:30\n📍 Via Vaccarezz
+ a 8 (9.2 km)\nLocale: @bolgia.official\nOspiti: MAD DOG\, GRAVEDGR\, FLYM
+ EON\nPrezzo da 20 €\nStessa sera: altri 4 eventi (3 dello stesso genere
+ )\nhttps://www.instagram.com/reel/DfUkfwWoqMA/
+CATEGORIES:SERATA,Altro
+URL:https://www.instagram.com/reel/DfUkfwWoqMA/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-bolgia-lab_room@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;TZID=Europe/Rome:20261121T233000
+SUMMARY:Bolgia (lab room) · Uboa
+LOCATION:Bolgia\, Via Vaccarezza 8
+DESCRIPTION:SERATA · voto 30.9/100\ninizia alle 23:30\n📍 Via Vaccarezz
+ a 8 (9.2 km)\nLocale: @bolgia.official\nPrezzo da 20 €\nStessa sera: al
+ tri 4 eventi (3 dello stesso genere)\nhttps://www.instagram.com/p/DfZuXEs
+ IVlQ/
+CATEGORIES:SERATA,Altro
+URL:https://www.instagram.com/p/DfZuXEsIVlQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-divina_music_bar@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;VALUE=DATE:20261121
+SUMMARY:Divina Music Bar
+LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
+DESCRIPTION:SERATA · voto 30.8/100\ndiscoteca\n📍 Via Azzano San Paolo 
+ 71d\, 24050\, Grassobbio (5.0 km)\nLocale: @divinabergamo\nStessa sera: a
+ ltri 4 eventi (3 dello stesso genere)\nhttps://www.instagram.com/reel/Dfw
+ AisKNC1Q/
+CATEGORIES:SERATA,Altro
+URL:https://www.instagram.com/reel/DfwAisKNC1Q/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-dance_project_school@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;VALUE=DATE:20261121
+SUMMARY:[Latino] Dance Project School
+LOCATION:Dance Project School\, Via Dalmine 4b\, 24035\, Curno
+DESCRIPTION:SERATA · voto 28.5/100\ndiscoteca\n📍 Via Dalmine 4b\, 2403
+ 5\, Curno (6.1 km)\nLocale: @danceprojectschool\nStessa sera: altri 4 eve
+ nti (0 dello stesso genere)\nhttps://www.instagram.com/p/DfzIewgsxDC/
+CATEGORIES:SERATA,Commerciale
+URL:https://www.instagram.com/p/DfzIewgsxDC/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-21-biblioteca_tiraboschi_sala_mimmo_boninelli@nightlife-bergamo
-DTSTAMP:20261118T094223Z
+DTSTAMP:20261118T094859Z
 DTSTART;TZID=Europe/Rome:20261121T160000
 SUMMARY:Biblioteca Tiraboschi - Sala Mimmo Boninelli · Alfredo Piatti e G
  uglielmo Quarenghi: un metodo
 LOCATION:Biblioteca Tiraboschi - Sala Mimmo Boninelli\, Via San Bernardino
   74\, Bergamo
 DESCRIPTION:SERATA · voto 7.7/100\ngrande evento\n📍 Via San Bernardino
-  74\, Bergamo (1.7 km)\nhttps://www.ecodibergamo.it/eventi/eppen/dettagli
- o/musica/bergamo/out-of-the-mist_307417/
+  74\, Bergamo (1.7 km)\nStessa sera: altri 4 eventi (3 dello stesso gener
+ e)\nhttps://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/out
+ -of-the-mist_307417/
 CATEGORIES:SERATA,Altro
 URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/out-
  of-the-mist_307417/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-sala_piatti@nightlife-bergamo
-DTSTAMP:20261118T094223Z
+DTSTAMP:20261118T094859Z
 DTSTART;TZID=Europe/Rome:20261122T163000
 SUMMARY:Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo
 LOCATION:Sala Piatti\, Via S. Salvatore\, 11\, Bergamo
@@ -35,8 +130,32 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfr
  edo-piatti-e-guglielmo-quarenghi-un-metodo_307418/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-28-bolgia@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;TZID=Europe/Rome:20261128T233000
+SUMMARY:Bolgia · MARIE VAUNT
+LOCATION:Bolgia\, Via Vaccarezza 8
+DESCRIPTION:SERATA · voto 35.7/100\ninizia alle 23:30\n📍 Via Vaccarezz
+ a 8 (9.2 km)\nLocale: @bolgia.official\nOspiti: MARIE VAUNT\nPrezzo da 20
+  €\nhttps://www.instagram.com/reel/DfmlzJmIigC/
+CATEGORIES:SERATA,Altro
+URL:https://www.instagram.com/reel/DfmlzJmIigC/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-bolgia@nightlife-bergamo
+DTSTAMP:20261118T094859Z
+DTSTART;TZID=Europe/Rome:20261205T233000
+SUMMARY:Bolgia · CHELINA MANUHUTU
+LOCATION:Bolgia\, Via Vaccarezza 8
+DESCRIPTION:SERATA · voto 35.7/100\ninizia alle 23:30\n📍 Via Vaccarezz
+ a 8 (9.2 km)\nLocale: @bolgia.official\nOspiti: CHELINA MANUHUTU\nPrezzo 
+ da 20 €\nhttps://www.instagram.com/reel/Df2C9x4IjrH/
+CATEGORIES:SERATA,Altro
+URL:https://www.instagram.com/reel/Df2C9x4IjrH/
+END:VEVENT
+BEGIN:VEVENT
 UID:token-2027-01-05@nightlife-bergamo
-DTSTAMP:20261118T094223Z
+DTSTAMP:20261118T094859Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:⚠️ Rinnovare il token di Instagram (scade tra 10 giorni)
 END:VEVENT

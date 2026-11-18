@@ -9,17 +9,74 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-18T09:42",
+ "generated": "2026-11-18T09:48",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
   "dates_with_serate": [
+   "2026-11-18",
+   "2026-11-19",
+   "2026-11-20",
    "2026-11-21",
    "2026-11-22"
   ],
   "serate_by_family": {
    "Altro": {
+    "2026-11-18": [
+     {
+      "line1": "Centro congressi Giovanni XXIII",
+      "line2": "",
+      "time": "00:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-19": [
+     {
+      "line1": "Centro congressi Giovanni XXIII",
+      "line2": "",
+      "time": "00:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-20": [
+     {
+      "line1": "Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 30.8,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-21": [
+     {
+      "line1": "MAD DOG @ Bolgia",
+      "line2": "",
+      "time": "23:30",
+      "score": 35.7,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Uboa @ Bolgia",
+      "line2": "lab room",
+      "time": "23:30",
+      "score": 30.9,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 30.8,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
       "line2": "",
@@ -39,6 +96,18 @@
       "family": "Altro"
      }
     ]
+   },
+   "Commerciale": {
+    "2026-11-21": [
+     {
+      "line1": "Dance Project School",
+      "line2": "Latino",
+      "time": "00:00",
+      "score": 28.5,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ]
    }
   },
   "preserate": {
@@ -52,7 +121,33 @@
      "family": "Altro"
     }
    ],
+   "2026-11-20": [
+    {
+     "line1": "Orari: @ Live Club",
+     "line2": "dj set",
+     "time": "20:00",
+     "score": 40.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-11-21": [
+    {
+     "line1": "NXT Station",
+     "line2": "Hip Hop",
+     "time": "18:00",
+     "score": 26.8,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    },
+    {
+     "line1": "Antico benessere",
+     "line2": "dj set",
+     "time": "22:30",
+     "score": 23.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
@@ -61,10 +156,27 @@
      "fascia": "preserata",
      "family": "Altro"
     }
+   ],
+   "2026-11-22": [
+    {
+     "line1": "10 Mega Tornei X Street Radio @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
    ]
   },
   "big_events": [],
-  "caption_handles": [],
+  "caption_handles": [
+   "@divinabergamo",
+   "@bolgia.official",
+   "@liveclub",
+   "@danceprojectschool",
+   "@antico_benessere",
+   "@inkclub_bergamo"
+  ],
   "hashtags": [
    "#bergamo",
    "#bergamonightlife",
@@ -74,22 +186,93 @@
  "next_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
-  "dates_with_serate": [],
-  "serate_by_family": {},
+  "dates_with_serate": [
+   "2026-11-28"
+  ],
+  "serate_by_family": {
+   "Altro": {
+    "2026-11-28": [
+     {
+      "line1": "MARIE VAUNT @ Bolgia",
+      "line2": "",
+      "time": "23:30",
+      "score": 35.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   }
+  },
   "preserate": {
-   "2026-11-25": [
+   "2026-11-23": [
     {
-     "line1": "Gigi D’Alessio @ ChorusLife Arena",
+     "line1": "10 To_On.Tv @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-24": [
+    {
+     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
      "line2": "live",
+     "time": "20:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Bowie.Hc @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-27": [
+    {
+     "line1": "10 Torneo Fifa @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-28": [
+    {
+     "line1": "Ink Club",
+     "line2": "Rock",
      "time": "21:00",
-     "score": 26.3,
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-29": [
+    {
+     "line1": "10 Space Jam @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
      "fascia": "preserata",
      "family": "Altro"
     }
    ]
   },
   "big_events": [],
-  "caption_handles": [],
+  "caption_handles": [
+   "@inkclub_bergamo",
+   "@bowie.hc",
+   "@bolgia.official",
+   "@tumulto_bg",
+   "@calce.viva.oi",
+   "@scalpo_punk",
+   "@sezione.8"
+  ],
   "hashtags": [
    "#bergamo",
    "#bergamonightlife",
@@ -101,12 +284,70 @@
   "from": "2026-11-01",
   "to": "2026-11-30",
   "dates_with_serate": [
+   "2026-11-18",
+   "2026-11-19",
+   "2026-11-20",
    "2026-11-21",
-   "2026-11-22"
+   "2026-11-22",
+   "2026-11-28"
   ],
   "serate_by_family": {
    "Altro": {
+    "2026-11-18": [
+     {
+      "line1": "Centro congressi Giovanni XXIII",
+      "line2": "",
+      "time": "00:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-19": [
+     {
+      "line1": "Centro congressi Giovanni XXIII",
+      "line2": "",
+      "time": "00:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-20": [
+     {
+      "line1": "Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 30.8,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-21": [
+     {
+      "line1": "MAD DOG @ Bolgia",
+      "line2": "",
+      "time": "23:30",
+      "score": 35.7,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Uboa @ Bolgia",
+      "line2": "lab room",
+      "time": "23:30",
+      "score": 30.9,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 30.8,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
       "line2": "",
@@ -125,6 +366,28 @@
       "fascia": "serata",
       "family": "Altro"
      }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "MARIE VAUNT @ Bolgia",
+      "line2": "",
+      "time": "23:30",
+      "score": 35.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   },
+   "Commerciale": {
+    "2026-11-21": [
+     {
+      "line1": "Dance Project School",
+      "line2": "Latino",
+      "time": "00:00",
+      "score": 28.5,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
     ]
    }
   },
@@ -139,7 +402,33 @@
      "family": "Altro"
     }
    ],
+   "2026-11-20": [
+    {
+     "line1": "Orari: @ Live Club",
+     "line2": "dj set",
+     "time": "20:00",
+     "score": 40.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-11-21": [
+    {
+     "line1": "NXT Station",
+     "line2": "Hip Hop",
+     "time": "18:00",
+     "score": 26.8,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    },
+    {
+     "line1": "Antico benessere",
+     "line2": "dj set",
+     "time": "22:30",
+     "score": 23.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
@@ -149,19 +438,99 @@
      "family": "Altro"
     }
    ],
-   "2026-11-25": [
+   "2026-11-22": [
     {
-     "line1": "Gigi D’Alessio @ ChorusLife Arena",
+     "line1": "10 Mega Tornei X Street Radio @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-23": [
+    {
+     "line1": "10 To_On.Tv @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-24": [
+    {
+     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
      "line2": "live",
+     "time": "20:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Bowie.Hc @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-27": [
+    {
+     "line1": "10 Torneo Fifa @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-28": [
+    {
+     "line1": "Ink Club",
+     "line2": "Rock",
      "time": "21:00",
-     "score": 26.3,
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-29": [
+    {
+     "line1": "10 Space Jam @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-30": [
+    {
+     "line1": "10 Kendasoundsystem Party @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 50.1,
      "fascia": "preserata",
      "family": "Altro"
     }
    ]
   },
   "big_events": [],
-  "caption_handles": [],
+  "caption_handles": [
+   "@inkclub_bergamo",
+   "@bolgia.official",
+   "@divinabergamo",
+   "@liveclub",
+   "@danceprojectschool",
+   "@antico_benessere",
+   "@bowie.hc",
+   "@tumulto_bg",
+   "@calce.viva.oi",
+   "@scalpo_punk",
+   "@sezione.8"
+  ],
   "hashtags": [
    "#bergamo",
    "#bergamonightlife",
@@ -172,11 +541,49 @@
   "month": "dicembre",
   "from": "2026-12-01",
   "to": "2026-12-31",
-  "dates_with_serate": [],
-  "serate_by_family": {},
-  "preserate": {},
+  "dates_with_serate": [
+   "2026-12-05"
+  ],
+  "serate_by_family": {
+   "Altro": {
+    "2026-12-05": [
+     {
+      "line1": "CHELINA MANUHUTU @ Bolgia",
+      "line2": "",
+      "time": "23:30",
+      "score": 35.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   }
+  },
+  "preserate": {
+   "2026-12-04": [
+    {
+     "line1": "NXT Station",
+     "line2": "Hip Hop",
+     "time": "18:00",
+     "score": 26.8,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    }
+   ],
+   "2026-12-27": [
+    {
+     "line1": "NXT Station",
+     "line2": "Hip Hop",
+     "time": "18:00",
+     "score": 26.8,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    }
+   ]
+  },
   "big_events": [],
-  "caption_handles": [],
+  "caption_handles": [
+   "@bolgia.official"
+  ],
   "hashtags": [
    "#bergamo",
    "#bergamonightlife",
