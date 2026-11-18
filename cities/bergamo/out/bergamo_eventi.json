@@ -802,7 +802,7 @@
   "scope": "zona",
   "type": "culture",
   "nightlife": false,
-  "party": "Fiorella Mannoia",
+  "party": null,
   "promoter_name": null,
   "promoter_instagram": null,
   "promoter_followers": null,
@@ -824,7 +824,7 @@
   "room": null,
   "entry": null,
   "price": null,
-  "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/fiorella-mannoia_302643/",
+  "tickets": null,
   "image": "https://scontent-sea5-2.cdninstagram.com/v/t39.30808-6/905825481_1806839848114058_818090737338989454_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DUSc8DMvb5AQ7kNvwGQMri7&_nc_oc=AdqAcCDcqGFgaJF15eWk74bl7z0-5yi_rUgrDTwhgpJQpWP4MbNXKaAM9SmUd22PjsU&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HIZh5zbPYb7cvCDI9tcL9Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTVPgj7-EvY1sG-rPMUG4JHNR_MY-Zlbr6LnqgEDVz-Tw&oe=6B0342E2",
   "score": 56.8,
   "score_parts": {
@@ -833,16 +833,14 @@
    "capacity": 3.4,
    "venue_followers": 9.3
   },
-  "confidence": 0.95,
+  "confidence": 0.9,
   "sources": [
-   "agenda",
    "instagram-locale"
   ],
   "urls": [
    "https://www.instagram.com/p/DfsHg2ZFOY_/",
    "https://www.instagram.com/p/DfzTkyFjSbn/",
-   "https://www.instagram.com/p/Df14X3qDfY2/",
-   "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/fiorella-mannoia_302643/"
+   "https://www.instagram.com/p/Df14X3qDfY2/"
   ],
   "handles": [],
   "posted": "2026-11-13T17:00+00:00",
@@ -962,7 +960,7 @@
    "https://primabergamo.it/tempo-libero/eventi/feed/"
   ],
   "handles": [],
-  "posted": "2026-11-18T15:59+00:00",
+  "posted": "2026-11-18T17:05+00:00",
   "lead_days": 3,
   "day_note": null,
   "in_posts": true,
@@ -1161,72 +1159,6 @@
    "same_family": 1,
    "capacity_same_night": 400,
    "strongest_rival": "NXT Station @ NXT Station"
-  },
-  "first_seen": "2026-11-18",
-  "status": "pubblicato"
- },
- {
-  "id": "2026-11-22-sala_piatti",
-  "date": "2026-11-22",
-  "weekday": "domenica",
-  "start": "16:30",
-  "end": null,
-  "fascia": "serata",
-  "fascia_why": "grande evento",
-  "scope": "zona",
-  "type": "festival",
-  "nightlife": true,
-  "party": "Alfredo Piatti e Guglielmo Quarenghi: un metodo",
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": null,
-  "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
-  "venue": "Sala Piatti",
-  "venue_known": true,
-  "address": "Via S. Salvatore, 11, Bergamo",
-  "city": "Bergamo",
-  "km": 1.4,
-  "venue_instagram": null,
-  "venue_type": "bar",
-  "venue_followers": null,
-  "capacity": 100,
-  "capacity_source": "stima",
-  "room": null,
-  "entry": null,
-  "price": null,
-  "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfredo-piatti-e-guglielmo-quarenghi-un-metodo_307418/",
-  "image": null,
-  "score": 7.7,
-  "score_parts": {
-   "venue": 1.7,
-   "capacity": 1.7,
-   "venue_followers": 0.0,
-   "promoter": 0.0,
-   "guest": 0.0
-  },
-  "confidence": 0.8,
-  "sources": [
-   "agenda"
-  ],
-  "urls": [
-   "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfredo-piatti-e-guglielmo-quarenghi-un-metodo_307418/"
-  ],
-  "handles": [],
-  "posted": null,
-  "lead_days": null,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
-  "rank_in_night": 1,
-  "competition": {
-   "events_same_night": 0,
-   "same_family": 0,
-   "capacity_same_night": 0,
-   "strongest_rival": null
   },
   "first_seen": "2026-11-18",
   "status": "pubblicato"
@@ -1669,64 +1601,6 @@
    "capacity_same_night": 700,
    "strongest_rival": "Bowie.Hc @ Ink Club"
   },
-  "first_seen": "2026-11-18",
-  "status": "pubblicato"
- },
- {
-  "id": "2026-11-24-biblioteca_civica_angelo_mai_di_bergamo-pre",
-  "date": "2026-11-24",
-  "weekday": "martedì",
-  "start": "17:00",
-  "end": null,
-  "fascia": "preserata",
-  "fascia_why": "inizia alle 17:00",
-  "scope": "zona",
-  "type": "evento",
-  "nightlife": false,
-  "party": "Il portale MusicalmenteBergamo",
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": null,
-  "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
-  "venue": "Biblioteca Civica Angelo Mai di Bergamo",
-  "venue_known": true,
-  "address": "Piazza Vecchia 15, Bergamo",
-  "city": "Bergamo",
-  "km": 1.3,
-  "venue_instagram": null,
-  "venue_type": "bar",
-  "venue_followers": null,
-  "capacity": 100,
-  "capacity_source": "stima",
-  "room": null,
-  "entry": null,
-  "price": null,
-  "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/il-portale-musicalmentebergamo_305749/",
-  "image": null,
-  "score": 26.3,
-  "score_parts": {
-   "promoter": 0.0,
-   "distance": 9.5,
-   "capacity": 1.7,
-   "venue_followers": 0.0
-  },
-  "confidence": 0.8,
-  "sources": [
-   "agenda"
-  ],
-  "urls": [
-   "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/il-portale-musicalmentebergamo_305749/"
-  ],
-  "handles": [],
-  "posted": null,
-  "lead_days": null,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
   "first_seen": "2026-11-18",
   "status": "pubblicato"
  },
@@ -2377,7 +2251,7 @@
    "https://primabergamo.it/tempo-libero/eventi/feed/"
   ],
   "handles": [],
-  "posted": "2026-11-18T15:59+00:00",
+  "posted": "2026-11-18T17:05+00:00",
   "lead_days": 16,
   "day_note": null,
   "in_posts": true,
@@ -2747,7 +2621,7 @@
    "https://primabergamo.it/tempo-libero/eventi/feed/"
   ],
   "handles": [],
-  "posted": "2026-11-18T15:59+00:00",
+  "posted": "2026-11-18T17:05+00:00",
   "lead_days": 39,
   "day_note": null,
   "in_posts": true,
