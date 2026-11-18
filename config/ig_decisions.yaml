@@ -26,6 +26,7 @@ reject:
   - "18118837556276061-0"   # NXT 20/11: Bergamo on Ice opening, not a night (Filippo)
   - "18118837556276061-1"   # same post, 10/01
   - "18131034407481342-0"   # Premiere's own post for 21/11: already on the calendar by hand (main room)
+  - "17896218162433561-0"   # Daste Sat 21: Riccobellis + The Peawees is a punk concert, not a DJ night
 # Rename a night: id: "New name"
 titles:
   "18121861250051412-0": "Oasi"
@@ -34,6 +35,7 @@ titles:
   "18509540932100006-0": "Icon"
   "18119513246281577-0": "Mercoledì Boaro"
   "18118514726109142-0": "The Box"
+  "18134818288743523-0": "Indie Power"   # Druso Sat 21: indiepower_official's indie DJ set (S03 E03)
   "18132417196701272-0": "Suave"   # Thanka Sat 21/11: "il prossimo livello si chiama SUAVE. Questo sabato..." (17874889269648704)
   "18084191429405556-0": "The Circle"   # Filippo 2026-11-17: Sat 21 Zero club room = The Circle; main room = Premiere (manual_events)
 
