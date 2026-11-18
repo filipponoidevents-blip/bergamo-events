@@ -7,8 +7,36 @@ X-WR-CALNAME:Serate · Bergamo e dintorni
 X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
+UID:2026-11-21-biblioteca_tiraboschi_sala_mimmo_boninelli@nightlife-bergamo
+DTSTAMP:20261118T094223Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+SUMMARY:Biblioteca Tiraboschi - Sala Mimmo Boninelli · Alfredo Piatti e G
+ uglielmo Quarenghi: un metodo
+LOCATION:Biblioteca Tiraboschi - Sala Mimmo Boninelli\, Via San Bernardino
+  74\, Bergamo
+DESCRIPTION:SERATA · voto 7.7/100\ngrande evento\n📍 Via San Bernardino
+  74\, Bergamo (1.7 km)\nhttps://www.ecodibergamo.it/eventi/eppen/dettagli
+ o/musica/bergamo/out-of-the-mist_307417/
+CATEGORIES:SERATA,Altro
+URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/out-
+ of-the-mist_307417/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-sala_piatti@nightlife-bergamo
+DTSTAMP:20261118T094223Z
+DTSTART;TZID=Europe/Rome:20261122T163000
+SUMMARY:Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo
+LOCATION:Sala Piatti\, Via S. Salvatore\, 11\, Bergamo
+DESCRIPTION:SERATA · voto 7.7/100\ngrande evento\n📍 Via S. Salvatore\,
+  11\, Bergamo (1.4 km)\nhttps://www.ecodibergamo.it/eventi/eppen/dettagli
+ o/musica/bergamo/alfredo-piatti-e-guglielmo-quarenghi-un-metodo_307418/
+CATEGORIES:SERATA,Altro
+URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfr
+ edo-piatti-e-guglielmo-quarenghi-un-metodo_307418/
+END:VEVENT
+BEGIN:VEVENT
 UID:token-2027-01-05@nightlife-bergamo
-DTSTAMP:20261118T093318Z
+DTSTAMP:20261118T094223Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:⚠️ Rinnovare il token di Instagram (scade tra 10 giorni)
 END:VEVENT

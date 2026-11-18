@@ -6,4 +6,43 @@ METHOD:PUBLISH
 X-WR-CALNAME:Preserate · Bergamo e dintorni
 X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
+BEGIN:VEVENT
+UID:2026-11-19-nxt_station-pre@nightlife-bergamo
+DTSTAMP:20261118T094223Z
+DTSTART;TZID=Europe/Rome:20261119T200000
+SUMMARY:[Rock] NXT Station · Giorgio Canali
+LOCATION:NXT Station\, Piazzale degli Alpini\, Bergamo
+DESCRIPTION:PRESERATA · voto 26.8/100\ninizia alle 20:00\n📍 Piazzale d
+ egli Alpini\, Bergamo (0.7 km)\nhttps://www.ecodibergamo.it/eventi/eppen/
+ dettaglio/musica/bergamo/giorgio-canali_307096/
+CATEGORIES:PRESERATA,Altro
+URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/gior
+ gio-canali_307096/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-auditorium_modernissimo-pre@nightlife-bergamo
+DTSTAMP:20261118T094223Z
+DTSTART;TZID=Europe/Rome:20261121T210000
+SUMMARY:Auditorium Modernissimo · Metti una sera all'opera
+LOCATION:Auditorium Modernissimo\, Piazza Libertà\, Nembro
+DESCRIPTION:PRESERATA · voto 19.6/100\ninizia alle 21:00\n📍 Piazza Lib
+ ertà\, Nembro (8.1 km)\nhttps://www.ecodibergamo.it/eventi/eppen/dettagl
+ io/musica/nembro/concerto-lirico-metti-una-sera-allopera_307658/
+CATEGORIES:PRESERATA,Altro
+URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/nembro/conce
+ rto-lirico-metti-una-sera-allopera_307658/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-choruslife_arena-pre@nightlife-bergamo
+DTSTAMP:20261118T094223Z
+DTSTART;TZID=Europe/Rome:20261125T210000
+SUMMARY:ChorusLife Arena · Gigi D’Alessio
+LOCATION:ChorusLife Arena\, Via Carlo Serassi\, 26\, Bergamo
+DESCRIPTION:PRESERATA · voto 26.3/100\ninizia alle 21:00\n📍 Via Carlo 
+ Serassi\, 26\, Bergamo (1.2 km)\nhttps://www.ecodibergamo.it/eventi/eppen
+ /dettaglio/musica/bergamo/gigi-dalessio_302123/
+CATEGORIES:PRESERATA,Altro
+URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/gigi
+ -dalessio_302123/
+END:VEVENT
 END:VCALENDAR

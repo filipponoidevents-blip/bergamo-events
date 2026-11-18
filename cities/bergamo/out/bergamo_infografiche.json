@@ -9,13 +9,60 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-18T09:33",
+ "generated": "2026-11-18T09:42",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
-  "dates_with_serate": [],
-  "serate_by_family": {},
-  "preserate": {},
+  "dates_with_serate": [
+   "2026-11-21",
+   "2026-11-22"
+  ],
+  "serate_by_family": {
+   "Altro": {
+    "2026-11-21": [
+     {
+      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
+      "line2": "",
+      "time": "16:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-22": [
+     {
+      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Sala Piatti",
+      "line2": "",
+      "time": "16:30",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   }
+  },
+  "preserate": {
+   "2026-11-19": [
+    {
+     "line1": "Giorgio Canali @ NXT Station",
+     "line2": "Rock",
+     "time": "20:00",
+     "score": 26.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-21": [
+    {
+     "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
+     "line2": "live",
+     "time": "21:00",
+     "score": 19.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ]
+  },
   "big_events": [],
   "caption_handles": [],
   "hashtags": [
@@ -29,7 +76,18 @@
   "to": "2026-11-29",
   "dates_with_serate": [],
   "serate_by_family": {},
-  "preserate": {},
+  "preserate": {
+   "2026-11-25": [
+    {
+     "line1": "Gigi D’Alessio @ ChorusLife Arena",
+     "line2": "live",
+     "time": "21:00",
+     "score": 26.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ]
+  },
   "big_events": [],
   "caption_handles": [],
   "hashtags": [
@@ -42,9 +100,66 @@
   "month": "novembre",
   "from": "2026-11-01",
   "to": "2026-11-30",
-  "dates_with_serate": [],
-  "serate_by_family": {},
-  "preserate": {},
+  "dates_with_serate": [
+   "2026-11-21",
+   "2026-11-22"
+  ],
+  "serate_by_family": {
+   "Altro": {
+    "2026-11-21": [
+     {
+      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
+      "line2": "",
+      "time": "16:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-22": [
+     {
+      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Sala Piatti",
+      "line2": "",
+      "time": "16:30",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   }
+  },
+  "preserate": {
+   "2026-11-19": [
+    {
+     "line1": "Giorgio Canali @ NXT Station",
+     "line2": "Rock",
+     "time": "20:00",
+     "score": 26.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-21": [
+    {
+     "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
+     "line2": "live",
+     "time": "21:00",
+     "score": 19.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-25": [
+    {
+     "line1": "Gigi D’Alessio @ ChorusLife Arena",
+     "line2": "live",
+     "time": "21:00",
+     "score": 26.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ]
+  },
   "big_events": [],
   "caption_handles": [],
   "hashtags": [

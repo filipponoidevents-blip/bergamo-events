@@ -1,9 +1,241 @@
 {
  "accounts": {},
- "geocode": {},
+ "geocode": {
+  "Piazza Cavour 15, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.69508,
+   "lon": 9.67109,
+   "province": null
+  },
+  "Piazza Libertà, Nembro": {
+   "city": "Nembro",
+   "lat": 45.74377,
+   "lon": 9.75908,
+   "province": null
+  },
+  "Piazza Vecchia 15, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.70435,
+   "lon": 9.66322,
+   "province": null
+  },
+  "Piazza caduti di Nassyria, Alzano Lombardo": {
+   "city": "Alzano Lombardo",
+   "lat": 45.7308,
+   "lon": 9.72948,
+   "province": null
+  },
+  "Piazzale degli Alpini, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.6922,
+   "lon": 9.67356,
+   "province": null
+  },
+  "Via Bartolomeo Colleoni, 4,, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.70435,
+   "lon": 9.66238,
+   "province": null
+  },
+  "Via Carlo Serassi, 26, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.70352,
+   "lon": 9.69132,
+   "province": null
+  },
+  "Via S. Salvatore, 11, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.70399,
+   "lon": 9.66054,
+   "province": null
+  },
+  "Via San Bernardino 74, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.68725,
+   "lon": 9.66303,
+   "province": null
+  },
+  "Viale Papa Giovanni XXIII, 106, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.69161,
+   "lon": 9.67381,
+   "province": null
+  }
+ },
  "hashtags": {
   "checked": "2026-11-18T09:30+00:00"
  },
- "venues": {},
+ "venues": {
+  "auditorium modernissimo": {
+   "address": "Piazza Libertà, Nembro",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Nembro",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 8.1,
+   "lat": 45.74377,
+   "lon": 9.75908,
+   "name": "Auditorium Modernissimo",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "biblioteca civica angelo mai di bergamo": {
+   "address": "Piazza Vecchia 15, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 1.3,
+   "lat": 45.70435,
+   "lon": 9.66322,
+   "name": "Biblioteca Civica Angelo Mai di Bergamo",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "biblioteca tiraboschi sala mimmo boninelli": {
+   "address": "Via San Bernardino 74, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 1.7,
+   "lat": 45.68725,
+   "lon": 9.66303,
+   "name": "Biblioteca Tiraboschi - Sala Mimmo Boninelli",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "centro congressi giovanni xxiii": {
+   "address": "Viale Papa Giovanni XXIII, 106, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 0.8,
+   "lat": 45.69161,
+   "lon": 9.67381,
+   "name": "Centro congressi Giovanni XXIII",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "choruslife arena": {
+   "address": "Via Carlo Serassi, 26, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 1.2,
+   "lat": 45.70352,
+   "lon": 9.69132,
+   "name": "ChorusLife Arena",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "nxt station": {
+   "address": "Piazzale degli Alpini, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 0.7,
+   "lat": 45.6922,
+   "lon": 9.67356,
+   "name": "NXT Station",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "sala piatti": {
+   "address": "Via S. Salvatore, 11, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 1.4,
+   "lat": 45.70399,
+   "lon": 9.66054,
+   "name": "Sala Piatti",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "teatro degli storti": {
+   "address": "Piazza caduti di Nassyria, Alzano Lombardo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Alzano Lombardo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 5.4,
+   "lat": 45.7308,
+   "lon": 9.72948,
+   "name": "Teatro degli Storti",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "teatro donizetti": {
+   "address": "Piazza Cavour 15, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 0.6,
+   "lat": 45.69508,
+   "lon": 9.67109,
+   "name": "Teatro Donizetti",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "teatro sociale citta alta": {
+   "address": "Via Bartolomeo Colleoni, 4,, Bergamo",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-18",
+   "followers": null,
+   "km": 1.3,
+   "lat": 45.70435,
+   "lon": 9.66238,
+   "name": "Teatro Sociale, Citta Alta",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  }
+ },
  "xceed": {}
 }

@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-18T09:33",
+ "generated": "2026-11-18T09:42",
  "nights": [
   {
    "date": "2026-11-18",
@@ -73,44 +73,56 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 7.7,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 100,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Biblioteca Tiraboschi - Sala Mimmo Boninelli · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
+     "score": 7.7,
+     "capacity": 100
+    }
+   ]
   },
   {
    "date": "2026-11-22",
    "weekday": "domenica",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 7.7,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 100,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
+     "score": 7.7,
+     "capacity": 100
+    }
+   ]
   },
   {
    "date": "2026-11-23",
