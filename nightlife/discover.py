@@ -261,6 +261,9 @@ def estimate(city: City) -> None:
 
 def run(city: City, force_osm: bool = False) -> list[str]:
     notes = []
+    for v in city.registry["venues"].values():   # pulizia: quello che i filtri di oggi escluderebbero
+        if v.get("sources") == ["osm"] and (NOT_NIGHTLIFE.search(v["name"]) or (v.get("type") == "live_club" and EVENT_HALL.search(v["name"]))):
+            v["removed"] = True
     last = city.registry.get("osm_checked")
     if city.settings["sources"]["osm"].get("enabled") and (force_osm or not last or (date.today() - date.fromisoformat(last)).days >= 7):
         try:
