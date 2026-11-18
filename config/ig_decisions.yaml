@@ -26,6 +26,9 @@ reject:
   - "18118837556276061-0"   # NXT 20/11: Bergamo on Ice opening, not a night (Filippo)
   - "18118837556276061-1"   # same post, 10/01
   - "18131034407481342-0"   # Premiere's own post for 21/11: already on the calendar by hand (main room)
+  - "17994000783101670-5"   # Zero programme, Please 18/11: Please's own post has it (18102286793646181-0)
+  - "17994000783101670-6"   # Zero programme, UniBG 20/11: UniBG's own post has it
+  - "17994000783101670-9"   # Zero programme, Crystal Castles 27/11: the promoter's own post has it (17959624719267684-0)
   - "17896218162433561-0"   # Daste Sat 21: Riccobellis + The Peawees is a punk concert, not a DJ night
 # Rename a night: id: "New name"
 titles:

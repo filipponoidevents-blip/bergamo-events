@@ -355,6 +355,8 @@ class InstagramSource(Source):
                 if cat not in self.calendar_kinds:
                     it["status"] = "info"
             # a lowered auto_approve_confidence also applies to waiting ones
+            if it["status"] == "pending" and self._main_club_own_night(q, it):
+                it["status"] = "auto"
             if it["status"] == "pending" and it.get("confidence", 0) >= self.auto_conf:
                 it["status"] = "auto"
         self._save_review(q)
@@ -396,6 +398,29 @@ class InstagramSource(Source):
                 "image": (_images(post) or [None])[0],
                 "event": e.model_dump(),
             }
+
+    def main_clubs(self) -> set[str]:
+        """Venues with location score >= main_club_score (default 7) in config/ranking.yaml: Bolgia, Zero..."""
+        if not hasattr(self, "_main_clubs"):
+            path = self.cfg.root / "config" / "ranking.yaml"
+            venues = (yaml.safe_load(path.read_text()) or {}).get("venues", {}) if path.exists() else {}
+            floor = self._ig.get("main_club_score", 7)
+            self._main_clubs = {n for n, v in venues.items()
+                                if ((v or {}).get("score", 0) if isinstance(v, dict) else (v or 0)) >= floor}
+        return self._main_clubs
+
+    def _main_club_own_night(self, q, it) -> bool:
+        """A main club's night read from its own account (its monthly programme too) needs no approval
+        (Filippo, 2026-11-18), unless another post already has a night at that venue that date (a double)."""
+        e = it["event"]
+        venue = e.get("venue_name") or it.get("account_venue")
+        if not venue or venue != it.get("account_venue") or venue not in self.main_clubs():
+            return False
+        post = it["id"].rsplit("-", 1)[0]
+        return not any(o is not it and o["id"].rsplit("-", 1)[0] != post and o["status"] in ("auto", "pending")
+                       and o["event"].get("date") == e.get("date")
+                       and (o["event"].get("venue_name") or o.get("account_venue")) == venue
+                       for o in q["items"].values())
 
     def _venue_category(self, name: str | None) -> str | None:
         """`category:` on a venue in venues.yaml fixes the category of all its nights (Decibel: ballo_da_sala)."""
