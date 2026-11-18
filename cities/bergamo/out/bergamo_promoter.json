@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-18T17:06",
+ "generated": "2026-11-18T18:09",
  "nights": [
   {
    "date": "2026-11-18",
@@ -134,22 +134,28 @@
    "weekday": "domenica",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
-   "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "events": 1,
+   "load": 7.7,
+   "level": "tranquilla",
+   "capacity_taken": 100,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
+     "score": 7.7,
+     "capacity": 100
+    }
+   ]
   },
   {
    "date": "2026-11-23",

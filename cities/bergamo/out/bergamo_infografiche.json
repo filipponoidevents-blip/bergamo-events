@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-18T17:06",
+ "generated": "2026-11-18T18:09",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -17,7 +17,8 @@
    "2026-11-18",
    "2026-11-19",
    "2026-11-20",
-   "2026-11-21"
+   "2026-11-21",
+   "2026-11-22"
   ],
   "serate_by_family": {
    "Altro": {
@@ -80,6 +81,16 @@
       "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
       "line2": "",
       "time": "16:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-22": [
+     {
+      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Sala Piatti",
+      "line2": "",
+      "time": "16:30",
       "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
@@ -275,6 +286,7 @@
    "2026-11-19",
    "2026-11-20",
    "2026-11-21",
+   "2026-11-22",
    "2026-11-28"
   ],
   "serate_by_family": {
@@ -338,6 +350,16 @@
       "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
       "line2": "",
       "time": "16:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-22": [
+     {
+      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Sala Piatti",
+      "line2": "",
+      "time": "16:30",
       "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
