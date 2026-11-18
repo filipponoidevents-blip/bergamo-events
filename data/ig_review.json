@@ -10,11 +10,11 @@
     "bar_sanmarco": 2096,
     "barperlage": 2695,
     "barrys__": 9713,
-    "bergamonightservice": 1092,
+    "bergamonightservice": 1091,
     "bobadillafeelingclub": 31625,
     "bolgia.official": 124486,
     "brinapasticceria": 3125,
-    "bsk.sound": 1742,
+    "bsk.sound": 1748,
     "bucheesebar": 6835,
     "bv_rooftop": 11310,
     "cafeteriatreviolo": 5427,
@@ -23,25 +23,25 @@
     "capogirojoyclub": 17733,
     "casacostez": 6209,
     "charleston.treviglio": 2426,
-    "cheri.it": 4706,
+    "cheri.it": 4705,
     "choruslife.bergamo": 67284,
     "circolinomalpensata_bergamo": 2924,
     "contest_bg": 3935,
     "cosmo.food.club": 2371,
     "crocevia_": 1065,
     "cromaroom": 1988,
-    "crystalcastlesnightt": 730,
+    "crystalcastlesnightt": 734,
     "csapacipaciana": 13758,
     "daste_bergamo": 21238,
     "decibel_club": 4565,
-    "discopastasc": 1422,
+    "discopastasc": 1420,
     "discoteca_queen": 16916,
     "drusobg": 24650,
     "edonebergamo": 29977,
     "gres_art_671": 21234,
     "hiddenhell.techno": 11131,
     "hype.club.official": 24476,
-    "icksdresstoimpress": 6688,
+    "icksdresstoimpress": 6687,
     "iconevents.official": 608,
     "incroissanterialab": 27615,
     "inkclub_bergamo": 14643,
@@ -57,12 +57,12 @@
     "mint_lounge": 15361,
     "nikita__land": 25599,
     "ninfeasocialclub": 8674,
-    "noidfamilia": 7874,
+    "noidfamilia": 7875,
     "nxtbergamo": 30205,
-    "oasi.night": 507,
+    "oasi.night": 506,
     "officinapanarari": 5364,
     "oroneroloveandmusic": 7812,
-    "please.nights": 2514,
+    "please.nights": 2515,
     "premiere.premiere": 2132,
     "sabbiemobili_official": 7833,
     "savana.king25": 192,
@@ -72,13 +72,13 @@
     "sommet_night": 492,
     "sprint_bergamo": 5102,
     "supertatobolgia": 20622,
-    "talk.maf": 2210,
+    "talk.maf": 2211,
     "thanka.official": 30945,
     "the.circlehub": 831,
     "theboxbergamo": 8039,
     "tiky.klub": 996,
     "twofestival": 2954,
-    "unibg_party": 3437,
+    "unibg_party": 3444,
     "unplug.project": 547,
     "unplug__bg": 2934,
     "utopia.direction": 8468,
@@ -4772,6 +4772,36 @@
       "permalink": "https://www.instagram.com/reel/DfNFxuotofp/",
       "status": "auto"
     },
+    "18112494833526185-0": {
+      "account": "bsk.sound",
+      "account_venue": null,
+      "caption": "Sabato 28 Novembre 2026\n00:30 - CHIUSURA\nInfo:\n\nBar Florio by BsK Sound \nClub Room — ZeroClub\nSabato 28 Novembre \n00:30 – till late\n\nFeel Free to\nBe Yourself.\n\nAccesso solo su prenotazione da link o dm:\nsciallup bsk.sound\n\nAndrea +39 333 869 8002",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": true,
+        "price": null,
+        "start_time": "00:30",
+        "ticket_url": null,
+        "title": "BSK Sound",
+        "venue_name": null
+      },
+      "id": "18112494833526185-0",
+      "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/902764563_2171138760464213_6112469781667291589_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8u4XGR695FIQ7kNvwEddwgG&_nc_oc=Ado8UWlEknpqF2-yvSumU6ikSs-UYOC63Yx9RvgONEqRn5gPr9wUJe8yOSIGkB8JVRQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=S6I_dDC3sWceIyRHkAoGmA&_nc_tpa=Q5bMBQKHFVZkdvkm2bOLt9id7Ezv5SuVDKLb8PW8VWfBhJquvuwWhSN_61mK5AaEEI1TsHll1a62apQBcQ&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQR3Bd5EMSBi46Ep1WUSFC5Occk1Wod5FtNMT-tf3huTyA&oe=6B0318BF",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/Df2kLG_Rfmx/",
+      "status": "info"
+    },
     "18112728383337831-0": {
       "account": "hype.club.official",
       "account_venue": "Hype Club",
@@ -9283,7 +9313,7 @@
       "status": "info"
     }
   },
-  "next_account": 61,
+  "next_account": 81,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -9553,6 +9583,11 @@
       "at": "2026-11-15T08:35:17+0000",
       "event": false
     },
+    "17892225159455115": {
+      "account": "premiere.premiere",
+      "at": "2026-10-26T20:02:12+0000",
+      "event": false
+    },
     "17892308013478177": {
       "account": "bergamonightservice",
       "at": "2026-11-12T17:04:04+0000",
@@ -9661,6 +9696,11 @@
     "17902719768597807": {
       "account": "intothewoodsbg",
       "at": "2026-10-04T08:44:13+0000",
+      "event": true
+    },
+    "17903323005597393": {
+      "account": "the.circlehub",
+      "at": "2026-10-04T17:54:13+0000",
       "event": true
     },
     "17904523878598388": {
@@ -9821,6 +9861,11 @@
     "17914376121513136": {
       "account": "capogirojoyclub",
       "at": "2026-11-03T12:30:01+0000",
+      "event": false
+    },
+    "17914751376531022": {
+      "account": "talk.maf",
+      "at": "2026-10-12T13:01:18+0000",
       "event": false
     },
     "17914800627287982": {
@@ -9993,6 +10038,11 @@
       "at": "2026-11-07T16:01:32+0000",
       "event": true
     },
+    "17927740443428411": {
+      "account": "cheri.it",
+      "at": "2026-10-20T14:27:23+0000",
+      "event": false
+    },
     "17927900598266054": {
       "account": "daste_bergamo",
       "at": "2026-11-17T12:02:05+0000",
@@ -10042,6 +10092,11 @@
       "account": "bobadillafeelingclub",
       "at": "2026-10-07T15:00:07+0000",
       "event": true
+    },
+    "17937340953381555": {
+      "account": "sloth.bg",
+      "at": "2026-10-05T11:57:17+0000",
+      "event": false
     },
     "17937779958390878": {
       "account": "al_tabarin",
@@ -10173,6 +10228,11 @@
       "at": "2026-11-06T18:40:58+0000",
       "event": true
     },
+    "17951403801298764": {
+      "account": "we.are.stepup",
+      "at": "2026-10-14T14:50:33+0000",
+      "event": true
+    },
     "17951884890321946": {
       "account": "choruslife.bergamo",
       "at": "2026-10-31T11:22:07+0000",
@@ -10228,6 +10288,11 @@
       "at": "2026-10-23T10:18:41+0000",
       "event": true
     },
+    "17954252976255916": {
+      "account": "noidfamilia",
+      "at": "2026-10-19T14:50:53+0000",
+      "event": true
+    },
     "17955208302300879": {
       "account": "supertatobolgia",
       "at": "2026-11-11T14:15:16+0000",
@@ -10273,6 +10338,11 @@
       "at": "2026-10-21T17:42:19+0000",
       "event": false
     },
+    "17959356945076620": {
+      "account": "cromaroom",
+      "at": "2026-10-21T09:54:20+0000",
+      "event": false
+    },
     "17959624719267684": {
       "account": "crystalcastlesnightt",
       "at": "2026-11-12T15:01:17+0000",
@@ -10308,6 +10378,11 @@
       "at": "2026-11-17T10:42:41+0000",
       "event": false
     },
+    "17963517933211374": {
+      "account": "we.are.stepup",
+      "at": "2026-10-19T15:28:10+0000",
+      "event": true
+    },
     "17963551314000320": {
       "account": "arya.lounge",
       "at": "2026-11-04T11:02:00+0000",
@@ -10316,6 +10391,11 @@
     "17964212049235421": {
       "account": "afrodylanofficial",
       "at": "2026-10-29T12:53:26+0000",
+      "event": true
+    },
+    "17964746241237044": {
+      "account": "icksdresstoimpress",
+      "at": "2026-10-22T10:41:08+0000",
       "event": true
     },
     "17964829449232224": {
@@ -10356,6 +10436,11 @@
     "17970900035965023": {
       "account": "noidfamilia",
       "at": "2026-10-29T15:13:41+0000",
+      "event": false
+    },
+    "17971125183188277": {
+      "account": "noidfamilia",
+      "at": "2026-10-27T17:03:48+0000",
       "event": false
     },
     "17971290726200791": {
@@ -10523,6 +10608,11 @@
       "at": "2026-10-19T09:29:03+0000",
       "event": true
     },
+    "17989013777877260": {
+      "account": "noidfamilia",
+      "at": "2026-10-21T10:09:22+0000",
+      "event": true
+    },
     "17989433606867479": {
       "account": "capogirojoyclub",
       "at": "2026-10-09T11:15:01+0000",
@@ -10644,6 +10734,11 @@
       "at": "2026-11-01T00:02:33+0000",
       "event": false
     },
+    "17996767608022665": {
+      "account": "cromaroom",
+      "at": "2026-10-12T10:06:25+0000",
+      "event": false
+    },
     "17996837850049959": {
       "account": "ninfeasocialclub",
       "at": "2026-11-03T11:24:35+0000",
@@ -10677,6 +10772,11 @@
     "18000602898045102": {
       "account": "arya.lounge",
       "at": "2026-11-04T17:47:41+0000",
+      "event": true
+    },
+    "18001585232798288": {
+      "account": "sommet_night",
+      "at": "2026-10-11T12:00:40+0000",
       "event": true
     },
     "18001817822817919": {
@@ -10714,6 +10814,11 @@
       "at": "2026-11-16T11:35:43+0000",
       "event": false
     },
+    "18005362883792712": {
+      "account": "we.are.stepup",
+      "at": "2026-10-09T11:33:28+0000",
+      "event": false
+    },
     "18007029407794113": {
       "account": "barrys__",
       "at": "2026-11-04T11:00:17+0000",
@@ -10727,6 +10832,11 @@
     "18011025236985642": {
       "account": "oroneroloveandmusic",
       "at": "2026-10-13T16:19:34+0000",
+      "event": false
+    },
+    "18013381541952556": {
+      "account": "noidfamilia",
+      "at": "2026-10-07T09:19:33+0000",
       "event": false
     },
     "18014525909977568": {
@@ -10837,6 +10947,11 @@
     "18023082818945988": {
       "account": "thanka.official",
       "at": "2026-10-24T10:56:34+0000",
+      "event": true
+    },
+    "18024537155864088": {
+      "account": "we.are.stepup",
+      "at": "2026-10-21T14:02:59+0000",
       "event": true
     },
     "18024706580929779": {
@@ -11034,6 +11149,11 @@
       "at": "2026-11-16T14:13:04+0000",
       "event": false
     },
+    "18045525857623650": {
+      "account": "noidfamilia",
+      "at": "2026-10-05T18:24:12+0000",
+      "event": true
+    },
     "18046138421829795": {
       "account": "circolinomalpensata_bergamo",
       "at": "2026-11-12T11:00:24+0000",
@@ -11079,6 +11199,11 @@
       "at": "2026-11-16T12:17:07+0000",
       "event": false
     },
+    "18055104926803526": {
+      "account": "theboxbergamo",
+      "at": "2026-10-19T15:55:37+0000",
+      "event": true
+    },
     "18056419844587217": {
       "account": "barrys__",
       "at": "2026-10-26T10:22:22+0000",
@@ -11118,6 +11243,11 @@
       "account": "setai_club_official",
       "at": "2026-10-05T16:05:58+0000",
       "event": false
+    },
+    "18064324577789273": {
+      "account": "bsk.sound",
+      "at": "2026-10-11T17:44:03+0000",
+      "event": true
     },
     "18064540868569327": {
       "account": "nxtbergamo",
@@ -11189,6 +11319,11 @@
       "at": "2026-10-14T16:00:08+0000",
       "event": false
     },
+    "18074761739470738": {
+      "account": "premiere.premiere",
+      "at": "2026-10-15T11:48:23+0000",
+      "event": false
+    },
     "18075323366722501": {
       "account": "kellerfactory_",
       "at": "2026-10-23T07:06:51+0000",
@@ -11223,6 +11358,11 @@
       "account": "bar_sanmarco",
       "at": "2026-11-09T20:55:07+0000",
       "event": false
+    },
+    "18078528212476631": {
+      "account": "please.nights",
+      "at": "2026-10-21T15:52:15+0000",
+      "event": true
     },
     "18078530729742190": {
       "account": "decibel_club",
@@ -11338,6 +11478,11 @@
       "account": "vibetheclub",
       "at": "2026-10-20T16:10:39+0000",
       "event": false
+    },
+    "18090316868690338": {
+      "account": "we.are.stepup",
+      "at": "2026-10-12T14:40:02+0000",
+      "event": true
     },
     "18090684368253886": {
       "account": "liveclub",
@@ -11459,6 +11604,11 @@
       "at": "2026-10-07T15:55:10+0000",
       "event": true
     },
+    "18096643097136945": {
+      "account": "the.circlehub",
+      "at": "2026-10-19T16:55:22+0000",
+      "event": true
+    },
     "18096674075114671": {
       "account": "baiadelrebrignano",
       "at": "2026-10-12T09:59:16+0000",
@@ -11477,6 +11627,11 @@
     "18097320305680830": {
       "account": "aliveofficialparty",
       "at": "2026-11-05T16:50:44+0000",
+      "event": false
+    },
+    "18097452359535364": {
+      "account": "unibg_party",
+      "at": "2026-10-09T10:35:29+0000",
       "event": false
     },
     "18097465463119125": {
@@ -11704,6 +11859,11 @@
       "at": "2026-10-06T18:42:51+0000",
       "event": false
     },
+    "18104733998525357": {
+      "account": "theboxbergamo",
+      "at": "2026-10-15T15:55:01+0000",
+      "event": false
+    },
     "18104868671198108": {
       "account": "tiky.klub",
       "at": "2026-10-21T10:27:42+0000",
@@ -11895,6 +12055,11 @@
       "at": "2026-11-16T17:27:50+0000",
       "event": false
     },
+    "18111670073181601": {
+      "account": "talk.maf",
+      "at": "2026-10-19T15:37:39+0000",
+      "event": false
+    },
     "18111900128185049": {
       "account": "gres_art_671",
       "at": "2026-10-28T13:15:04+0000",
@@ -11905,10 +12070,20 @@
       "at": "2026-10-08T16:01:41+0000",
       "event": true
     },
+    "18112082131867896": {
+      "account": "please.nights",
+      "at": "2026-10-07T16:28:46+0000",
+      "event": true
+    },
     "18112128604894213": {
       "account": "lecannibaleclub",
       "at": "2026-10-26T17:37:02+0000",
       "event": false
+    },
+    "18112494833526185": {
+      "account": "bsk.sound",
+      "at": "2026-11-17T18:23:24+0000",
+      "event": true
     },
     "18112728383337831": {
       "account": "hype.club.official",
@@ -12029,6 +12204,11 @@
       "account": "tiky.klub",
       "at": "2026-11-06T17:26:14+0000",
       "event": true
+    },
+    "18114870107171831": {
+      "account": "sommet_night",
+      "at": "2026-10-22T10:33:55+0000",
+      "event": false
     },
     "18114958373614403": {
       "account": "arya.lounge",
@@ -12163,6 +12343,11 @@
       "at": "2026-11-15T17:01:57+0000",
       "event": true
     },
+    "18117583076085394": {
+      "account": "cromaroom",
+      "at": "2026-10-14T10:47:09+0000",
+      "event": false
+    },
     "18117610949015537": {
       "account": "thanka.official",
       "at": "2026-11-07T11:55:37+0000",
@@ -12291,6 +12476,11 @@
     "18119515997037378": {
       "account": "arya.lounge",
       "at": "2026-11-13T15:30:06+0000",
+      "event": true
+    },
+    "18119619356093830": {
+      "account": "unibg_party",
+      "at": "2026-10-06T11:31:09+0000",
       "event": true
     },
     "18119687656825903": {
@@ -12593,6 +12783,16 @@
       "at": "2026-11-16T11:05:13+0000",
       "event": true
     },
+    "18126832204842806": {
+      "account": "cromaroom",
+      "at": "2026-10-07T09:27:37+0000",
+      "event": false
+    },
+    "18126939965488175": {
+      "account": "we.are.stepup",
+      "at": "2026-10-07T11:17:33+0000",
+      "event": false
+    },
     "18127017478937586": {
       "account": "oasi.night",
       "at": "2026-11-09T18:00:05+0000",
@@ -12637,6 +12837,11 @@
       "account": "casacostez",
       "at": "2026-10-22T16:30:08+0000",
       "event": true
+    },
+    "18128321167883700": {
+      "account": "premiere.premiere",
+      "at": "2026-10-13T17:18:04+0000",
+      "event": false
     },
     "18128329675866704": {
       "account": "liveclub",
@@ -12836,6 +13041,11 @@
     "18132116353796039": {
       "account": "liveclub",
       "at": "2026-11-02T18:00:41+0000",
+      "event": true
+    },
+    "18132136684681795": {
+      "account": "cheri.it",
+      "at": "2026-10-12T10:05:20+0000",
       "event": true
     },
     "18132236531507734": {
@@ -13201,6 +13411,11 @@
       "at": "2026-11-03T17:03:32+0000",
       "event": false
     },
+    "18146297383538760": {
+      "account": "the.circlehub",
+      "at": "2026-10-19T16:14:31+0000",
+      "event": false
+    },
     "18146724460578361": {
       "account": "bv_rooftop",
       "at": "2026-10-31T12:43:26+0000",
@@ -13276,6 +13491,11 @@
       "at": "2026-10-16T10:03:35+0000",
       "event": false
     },
+    "18149884504546973": {
+      "account": "premiere.premiere",
+      "at": "2026-10-04T17:02:37+0000",
+      "event": false
+    },
     "18150023575547670": {
       "account": "capogirojoyclub",
       "at": "2026-11-03T16:01:49+0000",
@@ -13289,6 +13509,11 @@
     "18150914371552550": {
       "account": "cafeteriatreviolo",
       "at": "2026-10-31T16:45:28+0000",
+      "event": true
+    },
+    "18151586140556188": {
+      "account": "noidfamilia",
+      "at": "2026-10-12T10:04:28+0000",
       "event": true
     },
     "18151884607520755": {
@@ -13371,6 +13596,11 @@
       "at": "2026-10-17T10:02:17+0000",
       "event": true
     },
+    "18166121164486743": {
+      "account": "premiere.premiere",
+      "at": "2026-10-18T17:00:19+0000",
+      "event": false
+    },
     "18168279712504973": {
       "account": "kellerfactory_",
       "at": "2026-11-03T15:31:31+0000",
@@ -13381,6 +13611,11 @@
       "at": "2026-10-09T15:21:47+0000",
       "event": true
     },
+    "18170681464422297": {
+      "account": "bergamonightservice",
+      "at": "2026-10-22T10:02:02+0000",
+      "event": true
+    },
     "18171429772483864": {
       "account": "bobadillafeelingclub",
       "at": "2026-11-14T16:00:43+0000",
@@ -13389,6 +13624,11 @@
     "18171949786482273": {
       "account": "discoteca_queen",
       "at": "2026-11-09T16:24:07+0000",
+      "event": false
+    },
+    "18172664989475451": {
+      "account": "the.circlehub",
+      "at": "2026-10-19T16:22:25+0000",
       "event": false
     },
     "18172889077461618": {
@@ -13489,6 +13729,11 @@
     "18190064005421310": {
       "account": "arya.lounge",
       "at": "2026-11-09T17:00:04+0000",
+      "event": true
+    },
+    "18190173919410008": {
+      "account": "noidfamilia",
+      "at": "2026-10-07T09:21:55+0000",
       "event": true
     },
     "18191150662404131": {
@@ -13651,6 +13896,11 @@
       "at": "2026-10-25T11:00:08+0000",
       "event": false
     },
+    "18235311541317349": {
+      "account": "unibg_party",
+      "at": "2026-10-12T10:18:21+0000",
+      "event": false
+    },
     "18241600534317614": {
       "account": "drusobg",
       "at": "2026-11-15T14:55:06+0000",
@@ -13721,6 +13971,16 @@
       "at": "2026-10-05T12:41:32+0000",
       "event": true
     },
+    "18345276271271424": {
+      "account": "crocevia_",
+      "at": "2026-10-12T14:00:18+0000",
+      "event": false
+    },
+    "18345658744281537": {
+      "account": "unibg_party",
+      "at": "2026-10-08T10:00:33+0000",
+      "event": false
+    },
     "18346025065282357": {
       "account": "officinapanarari",
       "at": "2026-11-09T16:45:05+0000",
@@ -13770,6 +14030,11 @@
       "account": "csapacipaciana",
       "at": "2026-11-02T12:13:41+0000",
       "event": true
+    },
+    "18358551052169978": {
+      "account": "noidfamilia",
+      "at": "2026-10-26T11:36:00+0000",
+      "event": false
     },
     "18359036782169271": {
       "account": "inkclub_bergamo",
@@ -13851,6 +14116,11 @@
       "at": "2026-10-15T15:03:36+0000",
       "event": true
     },
+    "18385320820235714": {
+      "account": "cromaroom",
+      "at": "2026-10-17T10:19:56+0000",
+      "event": false
+    },
     "18386441623236015": {
       "account": "bar_sanmarco",
       "at": "2026-11-09T20:50:09+0000",
@@ -13901,6 +14171,11 @@
       "at": "2026-10-12T15:34:16+0000",
       "event": false
     },
+    "18412180006090063": {
+      "account": "sommet_night",
+      "at": "2026-10-12T11:47:13+0000",
+      "event": true
+    },
     "18412543159083715": {
       "account": "al_tabarin",
       "at": "2026-10-18T20:24:55+0000",
@@ -13909,6 +14184,11 @@
     "18413445379089517": {
       "account": "bobadillafeelingclub",
       "at": "2026-10-16T15:00:26+0000",
+      "event": true
+    },
+    "18413564773080271": {
+      "account": "noidfamilia",
+      "at": "2026-10-05T10:00:06+0000",
       "event": true
     },
     "18414817489085621": {
@@ -13939,6 +14219,11 @@
     "18439597441145409": {
       "account": "mint_lounge",
       "at": "2026-11-12T12:01:13+0000",
+      "event": true
+    },
+    "18451637398192898": {
+      "account": "please.nights",
+      "at": "2026-10-14T16:54:29+0000",
       "event": true
     },
     "18456169510123929": {
@@ -14025,6 +14310,11 @@
       "account": "oroneroloveandmusic",
       "at": "2026-11-16T11:46:47+0000",
       "event": true
+    },
+    "18621491584027082": {
+      "account": "cromaroom",
+      "at": "2026-10-05T10:00:07+0000",
+      "event": false
     },
     "18632695852056105": {
       "account": "lecannibaleclub",
