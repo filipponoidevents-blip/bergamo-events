@@ -1,6 +1,6 @@
 # Stato · Bergamo e dintorni
 
-Ultimo giro: 18/11/2026 14:56
+Ultimo giro: 18/11/2026 15:59
 
 - Eventi in arrivo: **43** (10 serate, 33 preserate, 0 grandi eventi fuori zona)
 - Locali in anagrafica: **32**, profili Instagram conosciuti: **23**, seguiti: **13**
@@ -8,7 +8,7 @@ Ultimo giro: 18/11/2026 14:56
 
 ## Cosa è successo in questo giro
 
-- Instagram: Meta ha bloccato l'accesso finché non entri su facebook.com con l'account collegato e segui le istruzioni (controllo di sicurezza). Poi, se serve, rinnova il token.
+- Instagram: il token è scaduto o non valido. Va rinnovato (vedi README, 'Rinnovare il token'). Errore Meta: 190: Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security re
 - xceed: 0 eventi letti.
 - dice: 0 eventi letti.
 - jsonld: 13 eventi letti.
