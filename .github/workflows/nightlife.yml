@@ -19,23 +19,28 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q -e .
-      - name: Giro completo per ogni città
-        run: python -m nightlife run --city all
+      - name: Giro completo per ogni città (dopo una modifica del programma, 5 giri a un'ora di distanza per partire più in fretta)
+        timeout-minutes: 340
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-      - name: Confronto con la lista fatta a mano (solo verifica)
-        run: python -m nightlife compare archivio/database-v1 --city bergamo || true
-      - name: Salva dati e uscite
+          CYCLES: ${{ github.event_name == 'push' && '5' || '1' }}
         run: |
           git config user.name "events-bot"
           git config user.email "events-bot@users.noreply.github.com"
-          git add cities
-          if ! git diff --cached --quiet; then
-            git commit -q -m "Aggiorna eventi v2 [skip ci]"
-            git pull -q --rebase -X theirs origin claude/project-thread-b9jaty
-            git push -q origin HEAD:claude/project-thread-b9jaty
-          fi
+          for i in $(seq 1 "$CYCLES"); do
+            echo "::group::Giro $i di $CYCLES"
+            python -m nightlife run --city all || echo "giro $i fallito"
+            python -m nightlife compare archivio/database-v1 --city bergamo || true
+            echo "::endgroup::"
+            git add cities
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Aggiorna eventi v2 [skip ci]"
+              git pull -q --rebase -X theirs origin claude/project-thread-b9jaty || true
+              git push -q origin HEAD:claude/project-thread-b9jaty || true
+            fi
+            if [ "$i" -lt "$CYCLES" ]; then sleep 3660; fi
+          done
       - name: Pubblica le uscite sul branch feed-v2
         run: |
           mkdir -p /tmp/site

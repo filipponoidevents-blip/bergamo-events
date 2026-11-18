@@ -292,7 +292,9 @@ class Reader:
     def title_line(self, text: str) -> str | None:
         """Il nome della serata quando nessun promoter è riconosciuto: la prima riga corta scritta in maiuscolo."""
         for line in text.splitlines()[:6]:
-            l = clean_name(line)
+            l = re.sub(r"^\d{1,2}\s+", "", clean_name(line)).strip()
+            if line.rstrip().endswith(":"):
+                continue
             if not (3 <= len(l) <= 40) or D_MONTH.search(l) or D_NUM.search(l) or re.search(rf"\b(?:{WD_LONG})\b", plain(l).lower()):
                 continue
             letters = [c for c in l if c.isalpha()]

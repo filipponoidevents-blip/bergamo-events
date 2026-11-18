@@ -175,6 +175,8 @@ def fascia_of(city: City, ev: dict, v: dict | None, big: bool) -> tuple[str, str
         return "preserata", f"finisce alle {ev['end']}"
     if ends_late:
         return "serata", "finisce a tarda notte"
+    if ev.get("type") in ("culture", "sport", "evento", "dinner show") and not ends_late:
+        return "preserata", f"tipo di evento: {ev['type']}"
     if ev.get("type") in ("aperitivo", "quiz", "karaoke", "comedy", "live") and (v or {}).get("type") != "club":
         return "preserata", f"tipo di evento: {ev['type']}"
     if ev.get("entry") == "a pagamento" and (v or {}).get("fascia") != "preserata":

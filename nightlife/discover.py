@@ -19,6 +19,9 @@ log = logging.getLogger("nightlife.discover")
 OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter",
             "https://maps.mail.ru/osm/tools/overpass/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
 PHOTON = "https://photon.komoot.io/api/"
+# scuole di ballo, palestre, sale per matrimoni e sale comunali: su OpenStreetMap stanno con i locali da ballo, ma non sono nightlife
+NOT_NIGHTLIFE = re.compile(r"\b(?:school|scuola|academy|accademia|asd|a\.s\.d|ssd|palestra|studio danza|danza|wedding|matrimoni|sposi|oratorio|parrocchi|pro loco|sala civica|comunale|biblioteca)\b", re.I)
+EVENT_HALL = re.compile(r"\b(?:villa|tenuta|castello|cascina|palazzo|agriturismo|ristorante|palafeste|area feste|sala|centro|corte|locanda|resort|hotel|relais)\b", re.I)
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 BASE_CAPACITY = {"club": 500, "live_club": 400, "open_air": 1000, "arena": 3000, "bar": 80}
 IG_LINK = re.compile(r"instagram\.com/(?!p/|reel/|explore/|accounts/|stories/)([A-Za-z0-9_.]{3,30})")
@@ -63,6 +66,8 @@ def from_osm(city: City) -> int:
         if not name or lat is None or t.get("disused:amenity") or t.get("abandoned"):
             continue
         if (city.distance(lat, lon) or 99) > c["radius_km"]:
+            continue
+        if NOT_NIGHTLIFE.search(name) or (t.get("amenity") == "events_venue" and EVENT_HALL.search(name)):
             continue
         ig = t.get("contact:instagram") or t.get("instagram") or ""
         m = IG_LINK.search(ig)
