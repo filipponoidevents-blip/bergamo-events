@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
 UID:2026-11-18-centro_congressi_giovanni_xxiii@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Centro congressi Giovanni XXIII
 LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
@@ -23,7 +23,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-centro_congressi_giovanni_xxiii@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Centro congressi Giovanni XXIII
 LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
@@ -38,7 +38,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-nxt_station-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261119T200000
 SUMMARY:[Rock] NXT Station · Giorgio Canali
 LOCATION:NXT Station\, Piazzale degli Alpini\, Bergamo
@@ -51,7 +51,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/gior
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-divina_music_bar@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Divina Music Bar
 LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
@@ -64,7 +64,7 @@ URL:https://www.instagram.com/reel/Dftr-IuNYje/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-live_club-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261120T200000
 SUMMARY:Live Club
 LOCATION:Live Club\, Via Giuseppe Mazzini 58\, 20056\, Trezzo sull'Adda
@@ -76,7 +76,7 @@ URL:https://www.instagram.com/p/DfzU4PDqouR/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-bolgia@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261121T233000
 SUMMARY:Bolgia · MAD DOG
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -89,7 +89,7 @@ URL:https://www.instagram.com/reel/DfUkfwWoqMA/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-bolgia-lab_room@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261121T233000
 SUMMARY:Bolgia (lab room) · Uboa
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -102,7 +102,7 @@ URL:https://www.instagram.com/p/DfZuXEsIVlQ/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-divina_music_bar@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Divina Music Bar
 LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
@@ -115,7 +115,7 @@ URL:https://www.instagram.com/reel/DfwAisKNC1Q/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-biblioteca_tiraboschi_sala_mimmo_boninelli@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261121T160000
 SUMMARY:Biblioteca Tiraboschi - Sala Mimmo Boninelli · Alfredo Piatti e G
  uglielmo Quarenghi: un metodo
@@ -131,7 +131,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/out-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-nxt_station-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261121T180000
 SUMMARY:[Hip Hop] NXT Station
 LOCATION:NXT Station\, Piazzale degli Alpini\, Bergamo
@@ -143,7 +143,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/feed/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-antico_benessere@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261121T223000
 SUMMARY:Antico benessere
 LOCATION:Antico benessere\, Via Treviglio 25
@@ -155,7 +155,7 @@ URL:https://www.instagram.com/p/DfPLeq5gPmW/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-auditorium_modernissimo-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261121T210000
 SUMMARY:Auditorium Modernissimo · Metti una sera all'opera
 LOCATION:Auditorium Modernissimo\, Piazza Libertà\, Nembro
@@ -169,7 +169,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/nembro/conce
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-sala_piatti@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261122T163000
 SUMMARY:Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo
 LOCATION:Sala Piatti\, Via S. Salvatore\, 11\, Bergamo
@@ -182,7 +182,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfr
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-ink_club@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Ink Club · 10 Mega Tornei X Street Radio
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -194,7 +194,7 @@ URL:https://www.instagram.com/reel/DewxyXztDDw/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-ink_club@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Ink Club · 10 To_On.Tv
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -206,7 +206,7 @@ URL:https://www.instagram.com/reel/DewxyXztDDw/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-ink_club-club_room@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:Ink Club (club room) · Bowie.Hc
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -219,7 +219,7 @@ URL:https://www.instagram.com/reel/DewxyXztDDw/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-ink_club-main_room-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261124T200000
 SUMMARY:Ink Club · 10 Spacazotot: Graveryofficial
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -232,7 +232,7 @@ URL:https://www.instagram.com/p/Df4IjSeAXPv/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-choruslife_arena-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261125T210000
 SUMMARY:ChorusLife Arena · Gigi D’Alessio
 LOCATION:ChorusLife Arena\, Via Carlo Serassi\, 26\, Bergamo
@@ -246,7 +246,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/gigi
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-ink_club@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:Ink Club · 10 Torneo Fifa
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -258,7 +258,7 @@ URL:https://www.instagram.com/reel/DewxyXztDDw/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-bolgia@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261128T233000
 SUMMARY:Bolgia · MARIE VAUNT
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -270,7 +270,7 @@ URL:https://www.instagram.com/reel/DfmlzJmIigC/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-ink_club-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261128T210000
 SUMMARY:[Rock] Ink Club · Tumulto w/ SCALPO
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -283,7 +283,7 @@ URL:https://www.instagram.com/p/DfU0Y3xNf8p/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-ink_club@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261129
 SUMMARY:Ink Club · 10 Space Jam
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -295,7 +295,7 @@ URL:https://www.instagram.com/reel/DfC7UCYxvTm/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-30-ink_club@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Ink Club · 10 Kendasoundsystem Party
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -307,7 +307,7 @@ URL:https://www.instagram.com/reel/DfC7UCYxvTm/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-nxt_station-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261204T180000
 SUMMARY:[Hip Hop] NXT Station
 LOCATION:NXT Station\, Piazzale degli Alpini\, Bergamo
@@ -319,7 +319,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/feed/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-bolgia@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261205T233000
 SUMMARY:Bolgia · CHELINA MANUHUTU
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -331,7 +331,7 @@ URL:https://www.instagram.com/reel/Df2C9x4IjrH/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-27-nxt_station-pre@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;TZID=Europe/Rome:20261227T180000
 SUMMARY:[Hip Hop] NXT Station
 LOCATION:NXT Station\, Piazzale degli Alpini\, Bergamo
@@ -343,7 +343,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/feed/
 END:VEVENT
 BEGIN:VEVENT
 UID:token-2027-01-05@nightlife-bergamo
-DTSTAMP:20261118T120514Z
+DTSTAMP:20261118T130854Z
 DTSTART;VALUE=DATE:20270105
 SUMMARY:⚠️ Rinnovare il token di Instagram (scade tra 10 giorni)
 END:VEVENT
