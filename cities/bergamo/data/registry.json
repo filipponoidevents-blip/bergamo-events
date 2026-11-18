@@ -6,10 +6,10 @@
    "events_found": 0,
    "followers": 2201,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "L'angolo delle feste",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "antico_benessere": {
@@ -18,10 +18,10 @@
    "events_found": 5,
    "followers": 2399,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "Antico Benessere Official",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.thefork.it/ristorante/antico-benessere-r836840"
   },
   "bobadillafeelingclub": {
@@ -30,29 +30,38 @@
    "events_found": 13,
    "followers": 31620,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
    "bio": "Info ☎️ 3383624803\n21.11 @djmaddog + @gravedgrmusic + @flymeonmusic\n28.11 @marievaunt\n05.12 @chelinamanuhutu",
    "checked": "2026-11-18",
    "events_found": 18,
-   "followers": 124527,
+   "followers": 124528,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
-   "mentions": 1
+   "bio": "WE SPEAK IN VIOLENCE \n33100 - Udine (Italy)\n@nuhc33100 \nbooking (Italy): @bloopevents",
+   "checked": "2026-11-18",
+   "followers": 3382,
+   "kind": "artist",
+   "mentions": 1,
+   "name": "BOWIE",
+   "readable": true,
+   "website": "https://bowiehc.bandcamp.com/"
   },
   "calce.viva.oi": {
-   "mentions": 1
+   "checked": "2026-11-18",
+   "mentions": 1,
+   "readable": false
   },
   "castellodimonasterolo": {
    "bio": "Un castello sul lago, tra storia e natura: la scenografia perfetta per il vostro evento.\nUn luogo che nessuna foto potrà raccontare fino in fondo ✨",
@@ -83,10 +92,10 @@
    "events_found": 14,
    "followers": 67311,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://choruslife.com/it/"
   },
   "danceprojectschool": {
@@ -107,11 +116,11 @@
    "events_found": 13,
    "followers": 17173,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "mentions": 2,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "inkclub_bergamo": {
@@ -120,11 +129,11 @@
    "events_found": 20,
    "followers": 14646,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "mentions": 1,
    "name": "Ink Club",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://linktr.ee/Ink_Club"
   },
   "la.corte.e.il.sogno": {
@@ -145,10 +154,10 @@
    "events_found": 19,
    "followers": 6625,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -157,10 +166,10 @@
    "events_found": 0,
    "followers": 1662,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "La Bassanina Locale per Banchetti",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://labassanina.it/"
   },
   "liveclub": {
@@ -169,32 +178,53 @@
    "events_found": 12,
    "followers": 33389,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "mentions": 1,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.liveclub.it/start/"
   },
   "scalpo_punk": {
-   "mentions": 1
+   "bio": "Raw Oi!-punk from Italy.\n______________________________",
+   "checked": "2026-11-18",
+   "followers": 1815,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "SCALPO",
+   "readable": true,
+   "website": "http://linktr.ee/scalpo/"
   },
   "sezione.8": {
-   "mentions": 1
+   "bio": "LOMBARDIA (it) NEW WAVE OF POST OI \nNESCIT VOX MISSA REVERTI\nNuova intervista: https://www.punkadeka.it/quattro-chiacchiere-con-i-sezione-8/",
+   "checked": "2026-11-18",
+   "followers": 282,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Sezione 8",
+   "readable": true,
+   "website": null
   },
   "tsunamiclub_": {
    "bio": "See you soon 🪩\nInfoline: 351 729 0245\nVia Statale 6, Osnago (LC)\nTicket e link utili👇🏻",
    "checked": "2026-11-18",
-   "followers": 20098,
+   "followers": 20097,
    "kind": "venue",
-   "last_read": "2026-11-18T09:44+00:00",
+   "last_read": "2026-11-18T09:54+00:00",
    "name": "tsunamiClub",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://linktr.ee/tsunamiclub?utm_source=linktree_profile_share&ltsid=923ad707-8d1d-4d60-a358-ed26e377ef25"
   },
   "tumulto_bg": {
-   "mentions": 1
+   "bio": "organizzazione concerti , festival , casa editrice indipendente e etichetta discografica\nSince 2014\n@pier_tumulto",
+   "checked": "2026-11-18",
+   "followers": 775,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Tumulto",
+   "readable": true,
+   "website": "https://www.facebook.com/tumultoconcerti/"
   },
   "villaacquaroli": {
    "bio": "Location per matrimoni, eventi aziendali ed altri eventi di vario genere con esclusiva giornaliera e cucina interna. \n#wedding \n#locationmatrimonio",
@@ -293,11 +323,11 @@
  "venues": {
   "antico benessere": {
    "address": "Via Treviglio 25",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 4.2,
+   "capacity": 300,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 2399,
    "instagram": "antico_benessere",
    "km": 18.4,
    "lat": 45.55229,
@@ -322,6 +352,8 @@
    "lon": 9.68895,
    "name": "Area Feste attrezzata",
    "osm": "way/761485914",
+   "removed": true,
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
@@ -329,12 +361,13 @@
   },
   "arena esterno notte": {
    "address": "Via Torquato Tasso 4, 24121, Bergamo",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 5.1,
+   "capacity": 450,
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 6625,
+   "instagram": "lab80cinemas",
    "km": 0.5,
    "lat": 45.69566,
    "lon": 9.67248,
@@ -344,7 +377,8 @@
     "osm"
    ],
    "type": "live_club",
-   "website": "https://lab80.it/it/arena-esterno-notte"
+   "website": "https://lab80.it/it/arena-esterno-notte",
+   "website_checked": true
   },
   "astoria": {
    "auto_vote": 4.1,
@@ -415,11 +449,11 @@
    "type": "bar"
   },
   "bobadilla feeling club": {
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 7.1,
+   "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 31620,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -433,11 +467,11 @@
   },
   "bolgia": {
    "address": "Via Vaccarezza 8",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 7.8,
+   "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 124527,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -479,6 +513,7 @@
    "lon": 9.54756,
    "name": "Cascina Bosco grosso",
    "osm": "node/7691583720",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -497,26 +532,30 @@
    "lon": 9.64006,
    "name": "Cascina San Carlo",
    "osm": "node/11677289830",
+   "removed": true,
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
    "type": "live_club",
-   "website": "https://www.cascinasancarlo.it/"
+   "website": "https://www.cascinasancarlo.it/",
+   "website_checked": true
   },
   "castello di monasterolo": {
    "address": "Piazzetta Contessa Terny 1, 24060, Monasterolo del Castello",
-   "auto_vote": 3.1,
+   "auto_vote": 4.0,
    "capacity": 220,
    "capacity_source": "dichiarata",
    "city": "Monasterolo del Castello",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 2282,
    "instagram": "castellodimonasterolo",
    "km": 19.9,
    "lat": 45.75835,
    "lon": 9.91843,
    "name": "Castello di Monasterolo",
    "osm": "node/7649394626",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -525,17 +564,18 @@
    "website_checked": true
   },
   "castello di rossino": {
-   "auto_vote": 3.5,
+   "auto_vote": 4.9,
    "capacity": 400,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 5460,
    "instagram": "castellodirossino",
    "km": 22.0,
    "lat": 45.8049,
    "lon": 9.43837,
    "name": "Castello di Rossino",
    "osm": "node/3942508757",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -562,12 +602,12 @@
   },
   "choruslife arena": {
    "address": "Via Carlo Serassi, 26, Bergamo",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 5.0,
+   "capacity": 200,
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 67311,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -583,18 +623,19 @@
   },
   "dance project school": {
    "address": "Via Dalmine 4b, 24035, Curno",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 5.9,
+   "capacity": 650,
    "capacity_source": "stima",
    "city": "Curno",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 7857,
    "instagram": "danceprojectschool",
    "km": 6.1,
    "lat": 45.68543,
    "lon": 9.6013,
    "name": "Dance Project School",
    "osm": "node/7456949221",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -621,12 +662,12 @@
   },
   "divina music bar": {
    "address": "Via Azzano San Paolo 71d, 24050, Grassobbio",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 6.6,
+   "capacity": 950,
    "capacity_source": "stima",
    "city": "Grassobbio",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 17173,
    "instagram": "divinabergamo",
    "km": 5.0,
    "lat": 45.65964,
@@ -680,11 +721,11 @@
   },
   "ink club": {
    "address": "Via Giosuè Carducci 4/b, 24127",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 5.8,
+   "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 14646,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
@@ -698,11 +739,11 @@
    "website": "https://www.inkclub.bergamo.it"
   },
   "l angolo delle feste": {
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 4.0,
+   "capacity": 250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 2201,
    "instagram": "angolodellefestecaravaggio",
    "km": 22.0,
    "lat": 45.50219,
@@ -716,11 +757,11 @@
   },
   "la bassanina": {
    "address": "Via Caravaggio 53",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 3.9,
+   "capacity": 250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 1662,
    "instagram": "labassaninaristorante",
    "km": 22.6,
    "lat": 45.49505,
@@ -745,6 +786,7 @@
    "lon": 9.9219,
    "name": "La Capannina",
    "osm": "way/900510487",
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
@@ -752,18 +794,19 @@
   },
   "la corte e il sogno": {
    "address": "Via Donatelli 3, 24069",
-   "auto_vote": 3.5,
+   "auto_vote": 4.8,
    "capacity": 400,
    "capacity_source": "stima",
    "city": "Trescore Balneario",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 4614,
    "instagram": "la.corte.e.il.sogno",
    "km": 14.1,
    "lat": 45.70853,
    "lon": 9.85887,
    "name": "La Corte e il Sogno",
    "osm": "node/13306048901",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -781,20 +824,22 @@
    "lon": 9.50812,
    "name": "Le cave del ceppo",
    "osm": "way/1053972513",
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
    "type": "live_club",
-   "website": "https://www.lecavedelceppo.it/it_it/index/"
+   "website": "https://www.lecavedelceppo.it/it_it/index/",
+   "website_checked": true
   },
   "live club": {
    "address": "Via Giuseppe Mazzini 58, 20056, Trezzo sull'Adda",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 7.1,
+   "capacity": 1250,
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 33389,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -815,16 +860,19 @@
    "city": "Trescore Balneario",
    "first_seen": "2026-11-18",
    "followers": null,
+   "instagram": "locanda.armonia",
    "km": 14.9,
    "lat": 45.71248,
    "lon": 9.86813,
    "name": "Locanda Armonia",
    "osm": "way/834928943",
+   "removed": true,
    "sources": [
     "osm"
    ],
    "type": "live_club",
-   "website": "https://locanda-armonia.it"
+   "website": "https://locanda-armonia.it",
+   "website_checked": true
   },
   "mayimbe dance academy": {
    "address": "Via Alcide de Gasperi 18",
@@ -838,6 +886,7 @@
    "lon": 9.64203,
    "name": "Mayimbe Dance Academy",
    "osm": "node/7180943823",
+   "removed": true,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -855,6 +904,7 @@
    "lon": 9.7369,
    "name": "Mea Studio ASD",
    "osm": "node/8448998946",
+   "removed": true,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -927,6 +977,8 @@
    "lon": 9.87814,
    "name": "Palafeste",
    "osm": "node/11734635466",
+   "removed": true,
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
@@ -943,6 +995,7 @@
    "lon": 9.82461,
    "name": "PalaIncontro",
    "osm": "way/886312268",
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
@@ -959,6 +1012,7 @@
    "lon": 9.69067,
    "name": "PalaZanica",
    "osm": "node/12038109715",
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
@@ -976,6 +1030,7 @@
    "lon": 9.75525,
    "name": "Palazzo Muratori",
    "osm": "node/10297901983",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -994,6 +1049,7 @@
    "lon": 9.56601,
    "name": "Pro Loco Pizzino",
    "osm": "way/1476942574",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -1011,6 +1067,8 @@
    "lon": 9.7296,
    "name": "Sala Civica",
    "osm": "node/7635756074",
+   "removed": true,
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
@@ -1018,18 +1076,19 @@
   },
   "sala dell orologio": {
    "address": "Piazza della Libertà, 24121, Bergamo",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 5.1,
+   "capacity": 450,
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 6625,
    "instagram": "lab80cinemas",
    "km": 0.7,
    "lat": 45.69728,
    "lon": 9.66861,
    "name": "Sala dell'orologio",
    "osm": "node/13446524100",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -1044,16 +1103,19 @@
    "city": "Bergamo",
    "first_seen": "2026-11-18",
    "followers": null,
+   "instagram": "comunedibergamo",
    "km": 0.5,
    "lat": 45.69591,
    "lon": 9.6722,
    "name": "Sala Ferruccio Galmozzi",
    "osm": "node/13446708933",
+   "removed": true,
    "sources": [
     "osm"
    ],
    "type": "live_club",
-   "website": "https://www.comune.bergamo.it/node/13265"
+   "website": "https://www.comune.bergamo.it/node/13265",
+   "website_checked": true
   },
   "sala piatti": {
    "address": "Via S. Salvatore, 11, Bergamo",
@@ -1085,6 +1147,7 @@
    "lon": 9.40046,
    "name": "Sophie's Wedding",
    "osm": "node/12676565463",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -1153,11 +1216,14 @@
    "lon": 9.72384,
    "name": "Tenuta Canova",
    "osm": "node/12041929664",
+   "removed": true,
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],
    "type": "live_club",
-   "website": "https://tenutacanova.com"
+   "website": "https://tenutacanova.com",
+   "website_checked": true
   },
   "tenuta serradesca": {
    "address": "Via Serradesca 2, 24020, Scanzorosciate",
@@ -1167,23 +1233,26 @@
    "city": "Scanzorosciate",
    "first_seen": "2026-11-18",
    "followers": null,
+   "instagram": "acquaroliricevimenti",
    "km": 7.1,
    "lat": 45.70759,
    "lon": 9.76743,
    "name": "Tenuta Serradesca",
    "osm": "way/722732615",
+   "removed": true,
    "sources": [
     "osm"
    ],
    "type": "live_club",
-   "website": "https://acquaroli.it/location-matrimoni/tenuta-serradesca"
+   "website": "https://acquaroli.it/location-matrimoni/tenuta-serradesca",
+   "website_checked": true
   },
   "tsunami club": {
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 6.7,
+   "capacity": 1000,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 20098,
    "instagram": "tsunamiclub_",
    "km": 21.9,
    "lat": 45.67758,
@@ -1216,17 +1285,18 @@
   },
   "villa acquaroli": {
    "address": "Via Conte Ottavio Morlani 9, 24030",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 5.0,
+   "capacity": 450,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 6032,
    "instagram": "villaacquaroli",
    "km": 15.2,
    "lat": 45.70826,
    "lon": 9.48256,
    "name": "Villa Acquaroli",
    "osm": "node/13306049001",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -1235,17 +1305,18 @@
   },
   "villa belvedere": {
    "address": "Via Beata Vergine 1",
-   "auto_vote": 3.5,
+   "auto_vote": 4.8,
    "capacity": 400,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 4725,
    "instagram": "villabelvedere1849",
    "km": 24.8,
    "lat": 45.478,
    "lon": 9.62707,
    "name": "Villa Belvedere",
    "osm": "node/11251709388",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -1264,6 +1335,8 @@
    "lon": 9.53269,
    "name": "Villa Gromo",
    "osm": "node/14162795357",
+   "removed": true,
+   "search_checked": "2026-11-18",
    "sources": [
     "osm"
    ],

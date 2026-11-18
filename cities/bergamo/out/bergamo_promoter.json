@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-18T09:48",
+ "generated": "2026-11-18T09:56",
  "nights": [
   {
    "date": "2026-11-18",
@@ -64,9 +64,9 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 30.8,
+   "load": 40.6,
    "level": "libera",
-   "capacity_taken": 500,
+   "capacity_taken": 950,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
@@ -81,8 +81,8 @@
    "top": [
     {
      "title": "Divina Music Bar",
-     "score": 30.8,
-     "capacity": 500
+     "score": 40.6,
+     "capacity": 950
     }
    ]
   },
@@ -91,40 +91,36 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 5,
-   "load": 133.6,
+   "events": 4,
+   "load": 139.5,
    "level": "media",
-   "capacity_taken": 2100,
+   "capacity_taken": 3550,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 1,
+    "Commerciale": 0,
     "Altro": 4
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap"
+    "Hip Hop / Trap",
+    "Commerciale"
    ],
    "top": [
     {
      "title": "Bolgia · MAD DOG",
-     "score": 35.7,
-     "capacity": 500
+     "score": 50.2,
+     "capacity": 1250
     },
     {
      "title": "Bolgia (lab room) · Uboa",
-     "score": 30.9,
-     "capacity": 500
+     "score": 41.0,
+     "capacity": 1250
     },
     {
      "title": "Divina Music Bar",
-     "score": 30.8,
-     "capacity": 500
-    },
-    {
-     "title": "[Latino] Dance Project School",
-     "score": 28.5,
-     "capacity": 500
+     "score": 40.6,
+     "capacity": 950
     },
     {
      "title": "Biblioteca Tiraboschi - Sala Mimmo Boninelli · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
@@ -277,9 +273,9 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 35.7,
+   "load": 50.2,
    "level": "non ancora annunciata",
-   "capacity_taken": 500,
+   "capacity_taken": 1250,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
@@ -294,8 +290,8 @@
    "top": [
     {
      "title": "Bolgia · MARIE VAUNT",
-     "score": 35.7,
-     "capacity": 500
+     "score": 50.2,
+     "capacity": 1250
     }
    ]
   },
@@ -437,9 +433,9 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 35.7,
+   "load": 50.2,
    "level": "non ancora annunciata",
-   "capacity_taken": 500,
+   "capacity_taken": 1250,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
@@ -454,8 +450,8 @@
    "top": [
     {
      "title": "Bolgia · CHELINA MANUHUTU",
-     "score": 35.7,
-     "capacity": 500
+     "score": 50.2,
+     "capacity": 1250
     }
    ]
   },

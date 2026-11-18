@@ -1,55 +1,33 @@
 ﻿nome;tipo;indirizzo;comune;km;instagram;follower;capienza;capienza_fonte;voto;voto_auto;fonti
-Arena Esterno Notte;live_club;Via Torquato Tasso 4, 24121, Bergamo;Bergamo;0.5;;;400;stima;;3.5;osm
-Sala Ferruccio Galmozzi;live_club;Via Torquato Tasso 4, 24121, Bergamo;Bergamo;0.5;;;400;stima;;3.5;osm
+Arena Esterno Notte;live_club;Via Torquato Tasso 4, 24121, Bergamo;Bergamo;0.5;lab80cinemas;6625;450;stima;;5.1;osm
 Teatro Donizetti;bar;Piazza Cavour 15, Bergamo;Bergamo;0.6;;;100;stima;;1.7;eventi
 NXT Station;bar;Piazzale degli Alpini, Bergamo;Bergamo;0.7;;;100;stima;;1.7;eventi
-Sala dell'orologio;live_club;Piazza della Libertà, 24121, Bergamo;Bergamo;0.7;lab80cinemas;6625;400;stima;;3.5;osm
 Centro congressi Giovanni XXIII;bar;Viale Papa Giovanni XXIII, 106, Bergamo;Bergamo;0.8;;;100;stima;;1.7;eventi
-ChorusLife Arena;bar;Via Carlo Serassi, 26, Bergamo;Bergamo;1.2;choruslife.bergamo;67311;100;stima;;1.7;eventi, osm
+ChorusLife Arena;bar;Via Carlo Serassi, 26, Bergamo;Bergamo;1.2;choruslife.bergamo;67311;200;stima;;5.0;eventi, osm
 Biblioteca Civica Angelo Mai di Bergamo;bar;Piazza Vecchia 15, Bergamo;Bergamo;1.3;;;100;stima;;1.7;eventi
 Teatro Sociale, Citta Alta;bar;Via Bartolomeo Colleoni, 4,, Bergamo;Bergamo;1.3;;;100;stima;;1.7;eventi
 Sala Piatti;bar;Via S. Salvatore, 11, Bergamo;Bergamo;1.4;;;100;stima;;1.7;eventi
 Biblioteca Tiraboschi - Sala Mimmo Boninelli;bar;Via San Bernardino 74, Bergamo;Bergamo;1.7;;;100;stima;;1.7;eventi
 Druso Circus;club;Via Guido Galimberti 6, 24124, Bergamo;Bergamo;1.7;;;500;stima;;4.1;osm
-Ink Club;live_club;Via Giosuè Carducci 4/b, 24127;;1.7;inkclub_bergamo;14646;400;stima;;3.5;osm
+Ink Club;live_club;Via Giosuè Carducci 4/b, 24127;;1.7;inkclub_bergamo;14646;700;stima;;5.8;osm
 Druso;club;Via Antonio Locatelli 17, 24020, Ranica;Ranica;3.9;;;500;stima;;4.1;osm
 VIBE;club;Via Mohandas Karamchand Gandhi, 24048, Treviolo;Treviolo;3.9;;;500;stima;;4.1;osm
 Capogiro;club;;;4.8;;;500;stima;;4.1;osm
-Divina Music Bar;club;Via Azzano San Paolo 71d, 24050, Grassobbio;Grassobbio;5.0;divinabergamo;17173;500;stima;;4.1;osm
+Divina Music Bar;club;Via Azzano San Paolo 71d, 24050, Grassobbio;Grassobbio;5.0;divinabergamo;17173;950;stima;;6.6;osm
 Teatro degli Storti;bar;Piazza caduti di Nassyria, Alzano Lombardo;Alzano Lombardo;5.4;;;100;stima;;1.7;eventi
-Mea Studio ASD;club;;;5.6;;;500;stima;;4.1;osm
-Dance Project School;club;Via Dalmine 4b, 24035, Curno;Curno;6.1;danceprojectschool;7857;500;stima;;4.1;osm
 PalaZanica;live_club;;;6.3;;;400;stima;;3.5;osm
-Area Feste attrezzata;live_club;;;6.7;;;400;stima;;3.5;osm
-Tenuta Serradesca;live_club;Via Serradesca 2, 24020, Scanzorosciate;Scanzorosciate;7.1;;;250;dichiarata;;3.2;osm
 Auditorium Modernissimo;bar;Piazza Libertà, Nembro;Nembro;8.1;;;100;stima;;1.7;eventi
-Bobadilla Feeling Club;club;;;9.1;bobadillafeelingclub;31620;500;stima;;4.1;osm
-Bolgia;club;Via Vaccarezza 8;;9.2;bolgia.official;124527;500;stima;;4.1;osm
+Bobadilla Feeling Club;club;;;9.1;bobadillafeelingclub;31620;1250;stima;;7.1;osm
+Bolgia;club;Via Vaccarezza 8;;9.2;bolgia.official;124528;1250;stima;;7.8;osm
 Oronero;club;Via Case Sparse Europa 15, 24027, Nembro;Nembro;10.1;;;500;stima;;4.1;osm
-Villa Gromo;live_club;;;11.2;;;400;stima;;3.5;osm
 PalaIncontro;live_club;;;11.4;;;400;stima;;3.5;osm
 Astoria;club;;;14.1;;;500;stima;;4.1;osm
-La Corte e il Sogno;live_club;Via Donatelli 3, 24069;Trescore Balneario;14.1;la.corte.e.il.sogno;4614;400;stima;;3.5;osm
-Tenuta Canova;live_club;Strada delle gambe 27;;14.6;;;400;stima;;3.5;osm
-Locanda Armonia;live_club;Via Redona 40, 24060, Trescore Balneario;Trescore Balneario;14.9;;;400;stima;;3.5;osm
-Villa Acquaroli;live_club;Via Conte Ottavio Morlani 9, 24030;;15.2;villaacquaroli;6032;400;stima;;3.5;osm
-Mayimbe Dance Academy;club;Via Alcide de Gasperi 18;;15.3;;;500;stima;;4.1;osm
 Le cave del ceppo;live_club;;;15.5;;;400;stima;;3.5;osm
 Nikita;club;Via dei Morenghi 2, 24064, Grumello del Monte;Grumello del Monte;15.8;;;500;stima;;4.1;osm
-Live Club;club;Via Giuseppe Mazzini 58, 20056, Trezzo sull'Adda;Trezzo sull'Adda;16.6;liveclub;33389;500;stima;;4.1;osm
-Palafeste;live_club;;;16.7;;;400;stima;;3.5;osm
-Antico benessere;live_club;Via Treviglio 25;;18.4;antico_benessere;2399;400;stima;;3.5;osm
-Cascina San Carlo;live_club;;;18.8;;;400;stima;;3.5;osm
-Sala Civica;live_club;Via Palma il Vecchio;;19.8;;;400;stima;;3.5;osm
-Castello di Monasterolo;live_club;Piazzetta Contessa Terny 1, 24060, Monasterolo del Castello;Monasterolo del Castello;19.9;castellodimonasterolo;2282;220;dichiarata;;3.1;osm
+Live Club;club;Via Giuseppe Mazzini 58, 20056, Trezzo sull'Adda;Trezzo sull'Adda;16.6;liveclub;33389;1250;stima;;7.1;osm
+Antico benessere;live_club;Via Treviglio 25;;18.4;antico_benessere;2399;300;stima;;4.2;osm
 La Capannina;live_club;;;20.3;;;400;stima;;3.5;osm
-Palazzo Muratori;live_club;Via Giovanni Battista Rubini 19;;20.7;;;400;stima;;3.5;osm
-Tsunami Club;club;;;21.9;tsunamiclub_;20098;500;stima;;4.1;osm
-Castello di Rossino;live_club;;;22.0;castellodirossino;5460;400;stima;;3.5;osm
+Tsunami Club;club;;;21.9;tsunamiclub_;20097;1000;stima;;6.7;osm
 Dancing Lavello;club;Viale Alcide de Gasperi;;22.0;;;500;stima;;4.1;osm
-L'angolo delle feste;live_club;;;22.0;angolodellefestecaravaggio;2201;400;stima;;3.5;osm
-Sophie's Wedding;live_club;Via Galileo Galilei 11, 20881, Bernareggio;Bernareggio;22.2;;;400;stima;;3.5;osm
-La Bassanina;live_club;Via Caravaggio 53;;22.6;labassaninaristorante;1662;400;stima;;3.5;osm
-Pro Loco Pizzino;live_club;Via Samuele Biava 62, 24010, Taleggio;Taleggio;23.9;;;400;stima;;3.5;osm
-Cascina Bosco grosso;live_club;;;24.8;;;400;stima;;3.5;osm
-Villa Belvedere;live_club;Via Beata Vergine 1;;24.8;villabelvedere1849;4725;400;stima;;3.5;osm
+L'angolo delle feste;live_club;;;22.0;angolodellefestecaravaggio;2201;250;stima;;4.0;osm
+La Bassanina;live_club;Via Caravaggio 53;;22.6;labassaninaristorante;1662;250;stima;;3.9;osm
