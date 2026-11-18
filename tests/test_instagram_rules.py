@@ -38,6 +38,13 @@ def test_recap_without_future_date_is_not_an_event():
     assert not read("Grazie a tutti per ieri sera! What a night 🔥").is_event_announcement
 
 
+def test_special_thanks_on_a_future_night_is_not_a_recap():
+    # Please, posted 12/11: "Single Night PLEASE - MER 18/11 ... Special thanks to: sammjtiffany"
+    ex = read("Single Night PLEASE - MER 18/11\n📍 zeroclub.bg - via E. Baschenis 9, Bergamo\n"
+              "⏰️ From 23:30 to 03:30\n🥰 Special thanks to:\nsammjtiffany", account="please.nights")
+    assert ex.events[0].date == "2026-11-18" and "recap" not in ex.notes
+
+
 def test_past_dates_ignored_and_year_rollover():
     assert find_dates("10 novembre", POSTED.date())[0] == []
     assert find_dates("3 gennaio", POSTED.date())[0][0].isoformat() == "2027-01-03"

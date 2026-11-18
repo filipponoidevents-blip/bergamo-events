@@ -79,6 +79,11 @@ def score_event(ev: Event, cfg: Config) -> Event:
         reasons.append("big-venue")
 
     # --- concert rule ---------------------------------------------------
+    # venues.yaml `calendar_also: [live_music]`: that venue's live nights count like club nights (NXT, Filippo)
+    also = next((v.get("calendar_also") or [] for v in cfg.venues if v.get("name") == ev.venue.name), [])
+    if ev.category == Category.CONCERT and "live_music" in also and in_radius:
+        ev.score, ev.scope, ev.reasons = score, Scope.LOCAL, reasons + ["venue-live-nights"]
+        return ev
     if ev.category == Category.CONCERT and th.get("concert_requires_watchlist") and not live_hits:
         ev.score, ev.scope, ev.reasons = score, Scope.IGNORE, reasons + ["concert-not-crossover"]
         return ev

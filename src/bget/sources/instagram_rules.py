@@ -481,7 +481,8 @@ class RulesExtractor:
         if not dates:
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no date in caption")
         head_title = _clean_name(head.group("t")) if head and dates else ""
-        recap = bool(RECAP.search(caption))
+        # "Special thanks to @x" on a post for a written future date is a credit, not a recap (Please 18/11)
+        recap = bool(RECAP.search(caption)) and not (explicit and min(dates) > posted)
         times = read_times(caption)
         start, end = times.start, times.end
 

@@ -12,3 +12,4 @@ hide:
   # nights (live artists) have their own posts and stay, so match only the season announcements.
   - {text: "52 giorni di pattinaggio"}   # NXT's season post
   - {text: "Nergamo on Ice"}             # L'Eco's listing of the same season (typo in the source)
+  - {text: "torna il progetto natalizio"}   # L'Eco's "Bergamo On Ice & Star Garden" (20/11-10/01) season listing

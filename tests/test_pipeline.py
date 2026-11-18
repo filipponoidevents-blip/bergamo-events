@@ -28,6 +28,12 @@ def test_plain_concert_is_dropped():
     assert e.scope == Scope.IGNORE
 
 
+def test_nxt_live_nights_are_kept():
+    # venues.yaml calendar_also: [live_music] (Filippo: NXT's live acts go in the preserata post)
+    e = score_event(ev("Giorgio Canali", "NXT Station", "Bergamo", [], Category.CONCERT, hour=21), cfg)
+    assert e.scope == Scope.LOCAL
+
+
 def test_crossover_concert_is_kept():
     e = score_event(ev("Bicep live", "Druso", "Ranica", ["electronic"], Category.CONCERT, ["Bicep"]), cfg)
     assert e.scope == Scope.LOCAL and e.alert_level == "regional"
