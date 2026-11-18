@@ -103,11 +103,11 @@ class Instagram:
             except Exception as e:  # noqa: BLE001
                 msg = str(e)
                 if re.search(r"\b(?:4|17|32|613)\b:|limit", msg):
-                    self.problems.append(f"Instagram: limite orario di Meta raggiunto dopo {self.calls - 1} profili; gli altri al prossimo giro.")
+                    self.problems.append(f"Instagram: limite orario di Meta raggiunto dopo {self.calls - 1} profili; gli altri al prossimo giro. ({msg[:100]})")
                     stop = True
                     break
                 if re.search(r"\b190\b|expired|access token", msg, re.I):
-                    self.problems.append("Instagram: il token è scaduto o non valido. Va rinnovato (vedi README, 'Rinnovare il token').")
+                    self.problems.append(f"Instagram: il token è scaduto o non valido. Va rinnovato (vedi README, 'Rinnovare il token'). Errore Meta: {msg[:160]}")
                     stop = True
                     break
                 accounts.setdefault(h, {}).update({"readable": False, "error": msg[:160], "checked": now_iso()[:10]})
