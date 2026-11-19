@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-19T17:11",
+ "generated": "2026-11-19T18:15",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -169,17 +169,25 @@
      "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Divina Music Bar",
+     "line2": "dj set",
+     "time": "16:00",
+     "score": 50.9,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ]
   },
   "big_events": [],
   "caption_handles": [
    "@inkclub_bergamo",
+   "@divinabergamo",
    "@liveclub",
    "@barleyartsreal",
    "@alchemica_club",
    "@megan_is_missing_band",
-   "@divinabergamo",
    "@missdivina1",
    "@bolgia.official",
    "@attenzione",
@@ -474,6 +482,14 @@
      "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Divina Music Bar",
+     "line2": "dj set",
+     "time": "16:00",
+     "score": 50.9,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-23": [
@@ -558,12 +574,12 @@
   "big_events": [],
   "caption_handles": [
    "@inkclub_bergamo",
+   "@divinabergamo",
    "@bolgia.official",
    "@liveclub",
    "@barleyartsreal",
    "@alchemica_club",
    "@megan_is_missing_band",
-   "@divinabergamo",
    "@missdivina1",
    "@attenzione",
    "@worst.zine",
@@ -592,7 +608,8 @@
   "dates_with_serate": [
    "2026-12-05",
    "2026-12-07",
-   "2026-12-12"
+   "2026-12-12",
+   "2026-12-25"
   ],
   "serate_by_family": {
    "Altro": {
@@ -625,6 +642,16 @@
       "fascia": "serata",
       "family": "Altro"
      }
+    ],
+    "2026-12-25": [
+     {
+      "line1": "Via Treviglio 2058, Fara Gera d'Adda",
+      "line2": "",
+      "time": "00:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
     ]
    }
   },
@@ -633,7 +660,8 @@
   "caption_handles": [
    "@bolgia.official",
    "@liveclub",
-   "@barleyartsreal"
+   "@barleyartsreal",
+   "@prenotazione"
   ],
   "hashtags": [
    "#bergamo",

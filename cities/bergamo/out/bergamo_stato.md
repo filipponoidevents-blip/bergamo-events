@@ -1,21 +1,16 @@
 # Stato · Bergamo e dintorni
 
-Ultimo giro: 19/11/2026 17:11
+Ultimo giro: 19/11/2026 18:15
 
-- Eventi in arrivo: **49** (12 serate, 37 preserate, 0 grandi eventi fuori zona)
-- Locali in anagrafica: **37**, profili Instagram conosciuti: **102**, seguiti: **16**
-- Da controllare (affidabilità bassa, non pubblicati): **1**
+- Eventi in arrivo: **49** (13 serate, 36 preserate, 0 grandi eventi fuori zona)
+- Locali in anagrafica: **38**, profili Instagram conosciuti: **105**, seguiti: **17**
+- Da controllare (affidabilità bassa, non pubblicati): **0**
 
 ## Cosa è successo in questo giro
 
+- 1 locali nuovi scoperti da Instagram.
 - xceed: 0 eventi letti.
 - dice: 0 eventi letti.
 - jsonld: 15 eventi letti.
 - articles: 3 eventi letti.
-
-## Da controllare
-
-Non serve fare niente: se una fonte conferma l'evento, esce da solo. Per correggerlo a mano usa `conoscenze.yaml`.
-
-- 2027-10-07 · [Rock] Evento in collaborazione con A Comic Soul e For Laughs' Sake · Barley Arts · affidabilità 0.45 · https://www.instagram.com/p/DfmG_cUlBP0/
 

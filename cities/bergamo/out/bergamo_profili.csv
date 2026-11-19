@@ -1,18 +1,19 @@
 ﻿instagram;nome;tipo;follower;citato_in_eventi;seguito;leggibile
+henge_cosmicdross;HENGE;artist;293143;;False;True
 missdivina1;Miss DIVINA Fulvio Facchinetti;unknown;127309;2;False;True
-bolgia.official;Bolgia - dj's from the world;venue;124638;;True;True
+bolgia.official;Bolgia - dj's from the world;venue;124644;;True;True
 maledetta.nostalgia;Maledetta Nostalgia;venue;82391;;False;True
-choruslife.bergamo;ChorusLife;venue;67362;;True;True
+choruslife.bergamo;ChorusLife;venue;67367;;True;True
 zeb_horsemann;Zeb Horsemann;artist;63378;;False;True
 streeatfoodtruckfestival;STREEAT Food Truck Festival;promoter;58275;;True;True
 theblankcontemporaryart;The Blank Contemporary Art;unknown;45037;1;False;True
-liveclub;(( LIVE MUSIC CLUB MI ));venue;33389;2;True;True
+liveclub;(( LIVE MUSIC CLUB MI ));venue;33390;2;True;True
 bobadillafeelingclub;Bobadilla;venue;31625;;True;True
 tsunamiclub_;tsunamiClub;venue;20097;;True;True
 andrea_kor3;k0r3;unknown;18055;1;False;True
 divinabergamo;Divina Music fashion bar;venue;17174;2;True;True
-inkclub_bergamo;Ink Club;venue;14648;2;True;True
-barleyartsreal;Barley Arts;promoter;13891;5;True;True
+inkclub_bergamo;Ink Club;venue;14647;2;True;True
+barleyartsreal;Barley Arts;promoter;13891;4;True;True
 xand.rea;xandy;artist;10669;;False;True
 alchemica_club;Alchemica Music Club - Bologna;artist;8866;2;False;True
 danceprojectschool;Accademia Dance Project;venue;7857;;False;True
@@ -20,7 +21,7 @@ lab80cinemas;Il tuo cinema a Bergamo;venue;6630;;True;True
 villaacquaroli;Villa Acquaroli;venue;6032;;False;True
 castellodirossino;Castello di Rossino;venue;5460;;False;True
 cherry.ills;Cherry Ills;unknown;4844;;False;True
-spazioteatro89;Spazio Teatro 89;venue;4759;1;False;True
+spazioteatro89;Spazio Teatro 89;venue;4759;1;True;True
 villabelvedere1849;Villa Belvedere 1849;venue;4725;;False;True
 la.corte.e.il.sogno;La Corte e il Sogno;venue;4614;;False;True
 station.liveclub;STATION Live Club;venue;4361;3;False;True
@@ -37,8 +38,11 @@ megan_is_missing_band;M.I.M_BAND;unknown;1997;2;False;True
 worst.zine;Worst Collective;promoter;1872;1;True;True
 scalpo_punk;SCALPO;unknown;1815;1;False;True
 labassaninaristorante;La Bassanina Locale per Banchetti;venue;1662;;True;True
+femme.cell;femmecell;unknown;1465;;False;True
 inkclub_radio;INK CLUB RADIO;media;1179;1;False;True
 aendriu_official;Ændriu;unknown;1059;;False;True
+done.with.world.hc;DONE WITH WORLD;unknown;1049;;False;True
+insolaze_official;INSOLAZE;artist;880;;False;True
 buscemi_s_eyes;BUSCEMI’s EYES;unknown;797;;False;True
 tumulto_bg;Tumulto;promoter;777;1;True;True
 to_on.tv;TOON.TV;unknown;339;1;False;True
@@ -61,7 +65,6 @@ consorzio.lucertole.giganti;;;;;False;
 cosmo.food.club;;;;;False;
 croccante_all_amarezza;;;;;False;
 darktails_lab;;;;;False;
-done.with.world.hc;;;;;False;
 e.katea_99;;;;;False;
 embrace_the_wind;;;;;False;
 erika.gagliardi;;;;;False;
@@ -69,14 +72,12 @@ euphoria.clubbing;;;;;False;
 everyday.is.caturday;;;;;False;
 fabrique_milano;;;;;False;
 fandango_official;;;;;False;
-femme.cell;;;;;False;
 flyer_billy;;;;;False;
 fotosenzaposa_official;;;;;False;
-golden_heir_sun;;;;;False;
-henge_cosmicdross;;;;;False;
+giuseppe.russorossi_giuro;;;;;False;
+golden_heir_sun;;;;;False;False
 incisions054;;;;;False;
 inkclub.academy;;;;;False;
-insolaze_official;;;;;False;
 jonathan.tapes;;;;;False;
 kamelotofficial;;;;;False;
 kayro_dark;;;;;False;
@@ -90,10 +91,12 @@ night_sinners;;;;;False;
 ophelia.suicide;;;;;False;
 orlandobergamo;;;;;False;
 pete_roth_trio;;;;;False;
+prenotazione;;;;1;False;
 prisca_cavalleri;;;;;False;
 psychedelia;;;;;False;
 riccardo_mortelliti;;;;;False;
 spazio211;;;;;False;
+spettacoli;;;;;False;
 stevedanceproject;;;;;False;
 stunner.boyzz;;;;;False;
 teatromiela_trieste;;;;;False;
