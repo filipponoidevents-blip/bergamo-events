@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-19T16:07",
+ "generated": "2026-11-19T17:11",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -151,14 +151,6 @@
      "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
-    },
-    {
-     "line1": "NXT Station",
-     "line2": "Hip Hop",
-     "time": "18:00",
-     "score": 26.8,
-     "fascia": "preserata",
-     "family": "Hip Hop / Trap"
     },
     {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
@@ -466,14 +458,6 @@
      "family": "Altro"
     },
     {
-     "line1": "NXT Station",
-     "line2": "Hip Hop",
-     "time": "18:00",
-     "score": 26.8,
-     "fascia": "preserata",
-     "family": "Hip Hop / Trap"
-    },
-    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
@@ -644,28 +628,7 @@
     ]
    }
   },
-  "preserate": {
-   "2026-12-04": [
-    {
-     "line1": "NXT Station",
-     "line2": "Hip Hop",
-     "time": "18:00",
-     "score": 26.8,
-     "fascia": "preserata",
-     "family": "Hip Hop / Trap"
-    }
-   ],
-   "2026-12-27": [
-    {
-     "line1": "NXT Station",
-     "line2": "Hip Hop",
-     "time": "18:00",
-     "score": 26.8,
-     "fascia": "preserata",
-     "family": "Hip Hop / Trap"
-    }
-   ]
-  },
+  "preserate": {},
   "big_events": [],
   "caption_handles": [
    "@bolgia.official",
