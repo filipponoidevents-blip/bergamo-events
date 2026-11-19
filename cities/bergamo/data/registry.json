@@ -79,11 +79,11 @@
    "events_found": 24,
    "followers": 13891,
    "kind": "promoter",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 4,
    "name": "Barley Arts",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "watch": true,
    "website": "http://linktr.ee/barleyartsreal"
   },
@@ -94,24 +94,24 @@
    "bio": "Il locale Storico di Bergamo✨\nRistorante: @bobadillaristorante\nDiscoteca: @bobadillafeelingclub \nAperitivo Domenica: @aperitivomartini",
    "checked": "2026-11-19",
    "events_found": 13,
-   "followers": 31625,
+   "followers": 31624,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
    "bio": "Info ☎️ 3383624803\n21.11 @djmaddog + @gravedgrmusic + @flymeonmusic\n28.11 @marievaunt\n05.12 @chelinamanuhutu\n07.12 @novah.music",
    "checked": "2026-11-19",
    "events_found": 19,
-   "followers": 124644,
+   "followers": 124652,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
@@ -198,12 +198,12 @@
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
    "checked": "2026-11-19",
    "events_found": 16,
-   "followers": 67367,
+   "followers": 67373,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "https://choruslife.com/it/"
   },
   "cinescatti": {
@@ -254,11 +254,11 @@
    "events_found": 14,
    "followers": 17174,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 2,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "done.with.world.hc": {
@@ -337,13 +337,13 @@
    "cands": 2,
    "checked": "2026-11-19",
    "events_found": 22,
-   "followers": 14647,
+   "followers": 14648,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 2,
    "name": "Ink Club",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
@@ -396,12 +396,12 @@
    "bio": "Auditorium + Sala Orologio📍@cultbergamo🏢\nLo Schermo Bianco📍@daste_bergamo🏭 \nEsterno Notte📍d’estate in via Tasso🌙✨\n#Lmaiuscolaabspazio80innumero",
    "checked": "2026-11-19",
    "events_found": 22,
-   "followers": 6630,
+   "followers": 6629,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -433,13 +433,13 @@
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
    "checked": "2026-11-19",
    "events_found": 12,
-   "followers": 33390,
+   "followers": 33394,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 2,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "https://www.liveclub.it/start/"
   },
   "maledetta.nostalgia": {
@@ -454,10 +454,24 @@
    "website": "https://www.maledettanostalgia.it/"
   },
   "markthehammer86": {
-   "cands": 2
+   "bio": "🎸 Musicista senza talento\n📔 In elenco agcom\n👇 LIVE",
+   "cands": 2,
+   "checked": "2026-11-19",
+   "followers": 220929,
+   "kind": "artist",
+   "name": "Mark The Hammer",
+   "readable": true,
+   "website": "https://linktr.ee/markthehammer"
   },
   "marlonmostaceromendoza": {
-   "cands": 2
+   "bio": "w il suono 🧙🏽‍♂️\nfantasma del @dungeon000000 😝\nwizard of @futurfeudi 🏰",
+   "cands": 2,
+   "checked": "2026-11-19",
+   "followers": 1931,
+   "kind": "unknown",
+   "name": "",
+   "readable": true,
+   "website": "https://linktr.ee/marlonmostaceromendoza"
   },
   "megan_is_missing_band": {
    "bio": "“Punk and Belligerent” out NOW!!!",
@@ -491,7 +505,14 @@
    "cands": 1
   },
   "ophelia.suicide": {
-   "cands": 2
+   "bio": "Death infused hardcore from Bergamo (IT)\nFirst Ep coming soon.",
+   "cands": 2,
+   "checked": "2026-11-19",
+   "followers": 226,
+   "kind": "unknown",
+   "name": "Ophelia Suicide",
+   "readable": true,
+   "website": null
   },
   "orlandobergamo": {
    "cands": 1
@@ -501,7 +522,9 @@
   },
   "prenotazione": {
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-19",
+   "mentions": 1,
+   "readable": false
   },
   "principessa11270": {
    "bio": "",
@@ -526,11 +549,11 @@
    "events_found": 6,
    "followers": 3026,
    "kind": "promoter",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 4,
    "name": "Retro Vibes Events",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "watch": true,
    "website": "https://linktr.ee/retrovibes.events"
   },
@@ -560,7 +583,14 @@
    "website": null
   },
   "spazio211": {
-   "cands": 2
+   "bio": "Loud noise for restless minds. \nMore than a live club. \nTickets on @dicefm",
+   "cands": 2,
+   "checked": "2026-11-19",
+   "followers": 22015,
+   "kind": "venue",
+   "name": "sPAZIO211",
+   "readable": true,
+   "website": null
   },
   "spazioteatro89": {
    "bio": "Il Teatro per Te",
@@ -569,11 +599,11 @@
    "events_found": 6,
    "followers": 4759,
    "kind": "venue",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 1,
    "name": "Spazio Teatro 89",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "venue_done": true,
    "website": "https://spazioteatro89.org"
   },
@@ -602,10 +632,10 @@
    "events_found": 11,
    "followers": 58275,
    "kind": "promoter",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "name": "STREEAT Food Truck Festival",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "watch": true,
    "website": "http://www.streeatfoodtruckfestival.it"
   },
@@ -660,11 +690,11 @@
    "checked": "2026-11-19",
    "followers": 777,
    "kind": "promoter",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 1,
    "name": "Tumulto",
    "readable": true,
-   "reads": 10,
+   "reads": 11,
    "website": "https://www.facebook.com/tumultoconcerti/"
   },
   "velvet_shot": {
@@ -703,11 +733,11 @@
    "events_found": 1,
    "followers": 2716,
    "kind": "promoter",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 1,
    "name": "VPS",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "https://forms.gle/wuX4mswv5M28NvHWA"
   },
   "worst.zine": {
@@ -717,11 +747,11 @@
    "events_found": 3,
    "followers": 1872,
    "kind": "promoter",
-   "last_read": "2026-11-19T18:12+00:00",
+   "last_read": "2026-11-19T19:16+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 7,
+   "reads": 8,
    "website": "https://linktr.ee/worstzine"
   },
   "xand.rea": {
@@ -970,7 +1000,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6630,
+   "followers": 6629,
    "instagram": "lab80cinemas",
    "km": 0.5,
    "lat": 45.69566,
@@ -1063,7 +1093,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 31625,
+   "followers": 31624,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -1081,7 +1111,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 124644,
+   "followers": 124652,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -1241,7 +1271,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67367,
+   "followers": 67373,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -1422,7 +1452,7 @@
    "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 14647,
+   "followers": 14648,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
@@ -1478,6 +1508,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
    "followers": null,
+   "ig_guessed": "2026-11-19",
    "km": 20.3,
    "lat": 45.76244,
    "lon": 9.9219,
@@ -1517,6 +1548,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
    "followers": null,
+   "ig_guessed": "2026-11-19",
    "km": 15.5,
    "lat": 45.625,
    "lon": 9.50812,
@@ -1537,7 +1569,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33390,
+   "followers": 33394,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -1838,7 +1870,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6630,
+   "followers": 6629,
    "instagram": "lab80cinemas",
    "km": 0.7,
    "lat": 45.69728,
