@@ -14,7 +14,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 from .city import City, clean_name
-from .util import UA, now_iso, plain
+from .util import UA, norm, now_iso, plain
 
 log = logging.getLogger("nightlife.instagram")
 PROFILE = "username,name,biography,website,followers_count,media_count"
@@ -25,6 +25,12 @@ ADDRESS_WORDS = re.compile(r"\b(?:via|viale|piazza|piazzale|largo|corso|strada|l
 PROMOTER_WORDS = re.compile(r"\b(?:party|parties|event[is]?|eventi|serat[ae]|format|nights?|crew|collective|collettivo|organizzazion|one\s*night|rave|festival|clubbing|community|label|movement|project|production)", re.I)
 ARTIST_WORDS = re.compile(r"\b(?:dj|producer|artist[a]?|musician|musicista|singer|cantante|rapper|vocalist|live\s*set|bookings?|mgmt|management|resident|selector|beatmaker)\b", re.I)
 MEDIA_WORDS = re.compile(r"\b(?:news|magazine|blog|radio|giornale|quotidiano|webzine|guida|agenda)\b", re.I)
+# L'API restituisce le didascalie senza "@": i profili citati restano parole come "euphoria.clubbing" o "missdivina1".
+BARE_HANDLE = re.compile(r"(?<![\w@#/.])([a-z][a-z0-9]*(?:[._][a-z0-9]+)+_?|[a-z][a-z._]{2,}[0-9]{1,6})(?![\w@/]|\.\w)")
+CUE_HANDLE = re.compile(r"\b(?:by|con|with|w/|feat\.?|ft\.?|calls|presenta|presents|in collaborazione con|powered by|hosted by|guest)\s+([a-z][a-z0-9._]{5,29})\b")
+NOT_HANDLE = re.compile(r"\.(?:it|com|net|org|eu|io|info|html?|php)$|^(?:www|http|e\.g|i\.e|a\.s\.d|s\.r\.l|p\.s)|\d{2}[._]\d{2}|^[a-z]+3$")
+CUE_STOP = {"tutti", "tutte", "amici", "amiche", "noi", "voi", "musica", "special", "drink", "ingresso", "tantissimi", "grande", "nostro", "nostra", "questo", "questa",
+            "ospiti", "artisti", "partecipazione", "collaborazione", "l'evento", "evento", "serata"}
 
 
 def guess_kind(name: str, bio: str) -> str:
@@ -126,8 +132,10 @@ class Instagram:
                     continue
                 self.posts[post["id"]] = {"account": h, "at": at.isoformat(timespec="minutes"), "caption": post["caption"], "permalink": post.get("permalink"),
                                           "image": post.get("media_url") or post.get("thumbnail_url")}
+        self._candidates()
         if not stop:
             self._lookups()
+            self._guess_venues()
             self._hashtags()
         cutoff = (today - max_age - timedelta(days=30)).isoformat()
         self.posts = {k: v for k, v in self.posts.items() if v["at"] >= cutoff}
@@ -167,12 +175,75 @@ class Instagram:
     def _lookups(self) -> None:
         """Profili taggati negli eventi e mai visti: nome, follower e biografia dicono chi sono."""
         accounts = self.city.registry["accounts"]
-        pending = sorted((h for h, a in accounts.items() if a.get("mentions") and not a.get("checked") and a.get("readable") is not False),
-                         key=lambda h: -accounts[h]["mentions"])
-        for h in pending[: self.cfg["follower_lookups_per_run"]]:
+        pending = sorted((h for h, a in accounts.items() if (a.get("mentions") or a.get("cands")) and not a.get("checked") and a.get("readable") is not False),
+                         key=lambda h: -(2 * (accounts[h].get("mentions") or 0) + (accounts[h].get("cands") or 0)))
+        budget = max(self.cfg["follower_lookups_per_run"], self.cfg["accounts_per_run"] + 2 - self.calls - 4)
+        for h in pending[:budget]:
             try:
-                self._profile(h, self._get(h, with_media=False))
+                acc = self._profile(h, self._get(h, with_media=False))
+                if acc.get("kind") == "promoter" and (acc.get("cands") or 0) + (acc.get("mentions") or 0) >= self.city.settings["instagram"]["auto_watch_after"]:
+                    acc["watch"] = True
             except Exception as e:  # noqa: BLE001
                 if re.search(r"\b(?:4|17|32|613)\b:|limit", str(e)):
                     break
                 accounts[h].update({"readable": False, "checked": now_iso()[:10]})
+
+
+    def _candidates(self) -> None:
+        """Nelle didascalie i profili citati compaiono senza "@": li riconosce dalla forma (punti, trattini bassi, numeri)
+        o dalla parola prima (by, con, feat, presenta...). Poi _lookups li controlla uno per uno."""
+        accounts = self.city.registry["accounts"]
+        count: dict[str, int] = {}
+        for post in self.posts.values():
+            text = plain(post.get("caption") or "")
+            low = text.lower()
+            seen = set()
+            for m in BARE_HANDLE.finditer(text):   # solo minuscole: un handle si scrive così
+                seen.add(m.group(1))
+            for m in CUE_HANDLE.finditer(low):
+                h = m.group(1).rstrip("._")
+                if h not in CUE_STOP and h in text and (len(h) >= 10 or re.search(r"[._0-9]", h)):   # minuscolo nel testo, non una parola qualsiasi
+                    seen.add(h)
+            for h in seen:
+                h = h.rstrip("._")
+                if len(h) < 4 or NOT_HANDLE.search(h) or h == post.get("account"):
+                    continue
+                count[h] = count.get(h, 0) + 1
+        for h, n in count.items():
+            accounts.setdefault(h, {})["cands"] = n
+
+    def _guess_venues(self, max_calls: int = 6) -> None:
+        """Locali trovati sulla mappa ma senza Instagram: prova i nomi utente più probabili (nikitaclub, nikita.bergamo...)
+        e tiene il profilo solo se nome o biografia parlano di quel locale e della zona."""
+        accounts = self.city.registry["accounts"]
+        today = now_iso()[:10]
+        venues = [v for v in self.city.registry["venues"].values()
+                  if not v.get("instagram") and not v.get("removed") and not v.get("ig_guessed") and v.get("type") in ("club", "live_club", "open_air", "arena")]
+        venues.sort(key=lambda v: (v.get("type") != "club", -(v.get("auto_vote") or 0)))
+        city_words = {norm(self.city.c["name"]), "bg", "bergamo"}
+        calls = 0
+        for v in venues:
+            words = [w for w in norm(v["name"]).split() if w not in ("club", "disco", "discoteca", "the", "il", "la", "lo", "le")]
+            if not words or calls >= max_calls:
+                continue
+            slug = "".join(words)
+            tries = [slug + "club", slug, slug + "bergamo", slug + ".club", slug + "_club"] if "club" not in norm(v["name"]) else [slug + "club", slug, slug + "bergamo"]
+            towns = {w for w in norm(v.get("address") or "").split() if len(w) > 3 and not w.isdigit()} - {"via", "viale", "piazza", "strada"}
+            v["ig_guessed"] = today
+            for h in tries:
+                if calls >= max_calls or h in accounts:
+                    continue
+                calls += 1
+                try:
+                    bd = self._get(h, with_media=False)
+                except Exception as e:  # noqa: BLE001
+                    if re.search(r"\b(?:4|17|32|613)\b:|limit", str(e)):
+                        return
+                    continue
+                text = norm(f"{bd.get('username')} {bd.get('name')} {bd.get('biography')} {bd.get('website')}")
+                if all(w in text for w in words) and (city_words | towns) & set(text.split()):
+                    acc = self._profile(h, bd)
+                    acc["kind"] = "venue"
+                    v["instagram"] = h
+                    self.problems.append(f"Trovato Instagram di {v['name']}: @{h}.")
+                    break

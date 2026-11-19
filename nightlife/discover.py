@@ -21,6 +21,7 @@ OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.private
 PHOTON = "https://photon.komoot.io/api/"
 # scuole di ballo, palestre, sale per matrimoni e sale comunali: su OpenStreetMap stanno con i locali da ballo, ma non sono nightlife
 NOT_NIGHTLIFE = re.compile(r"\b(?:school|scuola|academy|accademia|asd|a\.s\.d|ssd|palestra|studio danza|danza|wedding|matrimoni|sposi|oratorio|parrocchi|pro loco|sala civica|comunale|biblioteca)\b", re.I)
+WEDDING = re.compile(r"\b(?:wedding|matrimoni\w*|sposi|ricevimenti|banqueting|catering|location per eventi|eventi privati|cerimonie)\b", re.I)
 EVENT_HALL = re.compile(r"\b(?:villa|tenuta|castello|cascina|palazzo|agriturismo|ristorante|palafeste|area feste|sala|centro|corte|locanda|resort|hotel|relais)\b", re.I)
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 BASE_CAPACITY = {"club": 500, "live_club": 400, "open_air": 1000, "arena": 3000, "bar": 80}
@@ -261,8 +262,13 @@ def estimate(city: City) -> None:
 
 def run(city: City, force_osm: bool = False) -> list[str]:
     notes = []
+    accounts = city.registry["accounts"]
     for v in city.registry["venues"].values():   # pulizia: quello che i filtri di oggi escluderebbero
-        if v.get("sources") == ["osm"] and (NOT_NIGHTLIFE.search(v["name"]) or (v.get("type") == "live_club" and EVENT_HALL.search(v["name"]))):
+        if v.get("vote") or v.get("manual"):
+            continue
+        bio = (accounts.get(v.get("instagram") or "", {}).get("bio") or "")
+        party = re.search(r"\b(?:club|discoteca|disco|live\s*music|concerti|dj|party|serate)\b", bio, re.I)
+        if NOT_NIGHTLIFE.search(v["name"]) or WEDDING.search(bio) or (v.get("type") == "live_club" and EVENT_HALL.search(v["name"]) and not party):
             v["removed"] = True
     last = city.registry.get("osm_checked")
     if city.settings["sources"]["osm"].get("enabled") and (force_osm or not last or (date.today() - date.fromisoformat(last)).days >= 7):
