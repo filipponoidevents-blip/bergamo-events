@@ -1,7 +1,14 @@
 {
  "accounts": {
   "andrea_kor3": {
-   "mentions": 1
+   "bio": "🎵🎶 parlo di metal che non conosci 🫵🏻\n⚡💀 divieto di gatekeeping 👌\n📤📩 kor3msg@gmail.com",
+   "checked": "2026-11-19",
+   "followers": 18055,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "k0r3",
+   "readable": true,
+   "website": null
   },
   "angolodellefestecaravaggio": {
    "bio": "🎈 Allestimenti \n👥 Spazio eventi per bambini e adulti\n🛝 Area giochi\n🎉 Pacchetti feste personalizzati",
@@ -19,36 +26,36 @@
    "bio": "Un luogo, infinite esperienze.\nHotel • SPA • Ristorante • Eventi \nWedding & Corporate Events\nFara Gera d’Adda (BG)\n↓ Prenota la tua esperienza",
    "checked": "2026-11-19",
    "events_found": 5,
-   "followers": 2417,
+   "followers": 2420,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "name": "Antico Benessere Official",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://www.thefork.it/ristorante/antico-benessere-r836840"
   },
   "bobadillafeelingclub": {
    "bio": "Il locale Storico di Bergamo✨\nRistorante: @bobadillaristorante\nDiscoteca: @bobadillafeelingclub \nAperitivo Domenica: @aperitivomartini",
    "checked": "2026-11-19",
    "events_found": 13,
-   "followers": 31627,
+   "followers": 31628,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
    "bio": "Info ☎️ 3383624803\n21.11 @djmaddog + @gravedgrmusic + @flymeonmusic\n28.11 @marievaunt\n05.12 @chelinamanuhutu\n07.12 @novah.music",
    "checked": "2026-11-19",
    "events_found": 19,
-   "followers": 124603,
+   "followers": 124604,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
@@ -95,16 +102,23 @@
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
    "checked": "2026-11-19",
    "events_found": 16,
-   "followers": 67351,
+   "followers": 67352,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://choruslife.com/it/"
   },
   "corinna_fm": {
-   "mentions": 1
+   "bio": "🏰📖",
+   "checked": "2026-11-19",
+   "followers": 2375,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Corinna",
+   "readable": true,
+   "website": "https://lnk.fuga.com/ilmiocastellodiparole-album"
   },
   "danceprojectschool": {
    "bio": "𝐀𝐜𝐜𝐚𝐝𝐞𝐦𝐢𝐚 𝐝𝐢 𝐃𝐚𝐧𝐳𝐚 & 𝐅𝐢𝐭𝐧𝐞𝐬𝐬 Bergamo 🇮🇹Italy • Since 2009\nCorsi di Ballo&Fitness|Lezioni Private\n☎️ 𝟑𝟑𝟗.𝟖𝟎.𝟑𝟎.𝟖𝟐𝟒",
@@ -125,11 +139,11 @@
    "events_found": 13,
    "followers": 17174,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "mentions": 2,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "inkclub_bergamo": {
@@ -138,11 +152,11 @@
    "events_found": 22,
    "followers": 14649,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "mentions": 1,
    "name": "Ink Club",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://linktr.ee/Ink_Club"
   },
   "la.corte.e.il.sogno": {
@@ -164,10 +178,10 @@
    "events_found": 21,
    "followers": 6628,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -188,11 +202,11 @@
    "events_found": 12,
    "followers": 33387,
    "kind": "venue",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "mentions": 1,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://www.liveclub.it/start/"
   },
   "scalpo_punk": {
@@ -231,11 +245,11 @@
    "checked": "2026-11-19",
    "followers": 774,
    "kind": "promoter",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "mentions": 1,
    "name": "Tumulto",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://www.facebook.com/tumultoconcerti/"
   },
   "villaacquaroli": {
@@ -268,17 +282,24 @@
    "bio": "Cars, culture, community • Bergamo\nPROSSIMO RADUNO: CHORUSLIFE 22 NOV\nTeam Mongol Rally 2027\nsponsor e collab: info@vintagepitstop.it",
    "checked": "2026-11-19",
    "events_found": 1,
-   "followers": 2711,
+   "followers": 2712,
    "kind": "promoter",
-   "last_read": "2026-11-19T09:27+00:00",
+   "last_read": "2026-11-19T10:31+00:00",
    "mentions": 1,
    "name": "VPS",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://forms.gle/wuX4mswv5M28NvHWA"
   },
   "worst.zine": {
-   "mentions": 1
+   "bio": "𝗞𝗲𝗲𝗽 𝗧𝗵𝗲 𝗦𝗰𝗲𝗻𝗲 𝗢𝗿 𝗗𝗶𝗲 𝗧𝗿𝘆𝗶𝗻’\n𝗠𝘂𝘀𝗶𝗰 - 𝗔𝗿𝘁 - 𝗦𝘁𝗿𝗲𝗲𝘁 𝗖𝘂𝗹𝘁𝘂𝗿𝗲\n⬇️ LINKS ⬇️",
+   "checked": "2026-11-19",
+   "followers": 1872,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Worst Collective",
+   "readable": true,
+   "website": "https://linktr.ee/worstzine"
   }
  },
  "geocode": {
@@ -1132,6 +1153,7 @@
    "lat": 45.52101,
    "lon": 9.59193,
    "name": "Piazza Garibaldi",
+   "search_checked": "2026-11-19",
    "sources": [
     "eventi"
    ],
