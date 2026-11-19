@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-18T19:13",
+ "generated": "2026-11-19T09:30",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -101,6 +101,14 @@
   "preserate": {
    "2026-11-19": [
     {
+     "line1": "11 Worst.Zine Talk: Andrea_Kor3 @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Giorgio Canali @ NXT Station",
      "line2": "Rock",
      "time": "20:00",
@@ -111,6 +119,14 @@
    ],
    "2026-11-20": [
     {
+     "line1": "11 Spaca Molto Moltomalefest @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Live Club",
      "line2": "dj set",
      "time": "20:00",
@@ -120,6 +136,14 @@
     }
    ],
    "2026-11-21": [
+    {
+     "line1": "11 Spaca Male Moltomalefest @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "NXT Station",
      "line2": "Hip Hop",
@@ -158,11 +182,12 @@
   },
   "big_events": [],
   "caption_handles": [
+   "@inkclub_bergamo",
    "@divinabergamo",
    "@bolgia.official",
+   "@worst.zine",
    "@liveclub",
-   "@antico_benessere",
-   "@inkclub_bergamo"
+   "@antico_benessere"
   ],
   "hashtags": [
    "#bergamo",
@@ -232,11 +257,11 @@
    "2026-11-27": [
     {
      "line1": "10 Torneo Fifa @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
+     "line2": "Elettronica",
+     "time": "21:00",
      "score": 52.0,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "House / Elettronica"
     }
    ],
    "2026-11-28": [
@@ -265,6 +290,7 @@
    "@inkclub_bergamo",
    "@bowie.hc",
    "@choruslife.bergamo",
+   "@corinna_fm",
    "@bolgia.official",
    "@tumulto_bg",
    "@scalpo_punk",
@@ -380,6 +406,14 @@
   "preserate": {
    "2026-11-19": [
     {
+     "line1": "11 Worst.Zine Talk: Andrea_Kor3 @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Giorgio Canali @ NXT Station",
      "line2": "Rock",
      "time": "20:00",
@@ -390,6 +424,14 @@
    ],
    "2026-11-20": [
     {
+     "line1": "11 Spaca Molto Moltomalefest @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Live Club",
      "line2": "dj set",
      "time": "20:00",
@@ -399,6 +441,14 @@
     }
    ],
    "2026-11-21": [
+    {
+     "line1": "11 Spaca Male Moltomalefest @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "NXT Station",
      "line2": "Hip Hop",
@@ -475,11 +525,11 @@
    "2026-11-27": [
     {
      "line1": "10 Torneo Fifa @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
+     "line2": "Elettronica",
+     "time": "21:00",
      "score": 52.0,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "House / Elettronica"
     }
    ],
    "2026-11-28": [
@@ -518,10 +568,12 @@
    "@inkclub_bergamo",
    "@bolgia.official",
    "@divinabergamo",
+   "@worst.zine",
    "@liveclub",
    "@antico_benessere",
    "@bowie.hc",
    "@choruslife.bergamo",
+   "@corinna_fm",
    "@tumulto_bg",
    "@scalpo_punk",
    "@calce.viva.oi",
@@ -538,13 +590,24 @@
   "from": "2026-12-01",
   "to": "2026-12-31",
   "dates_with_serate": [
-   "2026-12-05"
+   "2026-12-05",
+   "2026-12-07"
   ],
   "serate_by_family": {
    "Altro": {
     "2026-12-05": [
      {
       "line1": "CHELINA MANUHUTU @ Bolgia",
+      "line2": "",
+      "time": "23:30",
+      "score": 50.2,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-07": [
+     {
+      "line1": "NOVAH @ Bolgia",
       "line2": "",
       "time": "23:30",
       "score": 50.2,

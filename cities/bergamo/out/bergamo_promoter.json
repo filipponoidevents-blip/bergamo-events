@@ -1,35 +1,7 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-18T19:13",
+ "generated": "2026-11-19T09:30",
  "nights": [
-  {
-   "date": "2026-11-18",
-   "weekday": "mercoledì",
-   "note": null,
-   "weekend_like": false,
-   "events": 1,
-   "load": 7.7,
-   "level": "tranquilla",
-   "capacity_taken": 100,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 1
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
-   ],
-   "top": [
-    {
-     "title": "Centro congressi Giovanni XXIII",
-     "score": 7.7,
-     "capacity": 100
-    }
-   ]
-  },
   {
    "date": "2026-11-19",
    "weekday": "giovedì",
@@ -482,22 +454,28 @@
    "weekday": "lunedì",
    "note": "prefestivo (Immacolata)",
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 50.2,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 1250,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Bolgia · NOVAH",
+     "score": 50.2,
+     "capacity": 1250
+    }
+   ]
   },
   {
    "date": "2026-12-08",
@@ -2020,6 +1998,28 @@
   {
    "date": "2027-02-15",
    "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-16",
+   "weekday": "martedì",
    "note": null,
    "weekend_like": false,
    "events": 0,
