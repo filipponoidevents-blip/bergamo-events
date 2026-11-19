@@ -12,7 +12,7 @@ city:
 
 instagram:
   user_id: "17841456676305081"   # l'account che fa le chiamate (non è un segreto; il token sta nei segreti di GitHub)
-  token_renewed: 2026-11-16      # il token dura circa 60 giorni: il promemoria esce nel calendario
+  token_renewed: 2026-11-19
 
 sources:
   jsonld:
