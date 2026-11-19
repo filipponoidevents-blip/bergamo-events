@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-19T15:03",
+ "generated": "2026-11-19T16:07",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -34,6 +34,14 @@
     ],
     "2026-11-19": [
      {
+      "line1": "Barley Arts @ Live Club",
+      "line2": "Rock, Alchemica Music Club - Bologna",
+      "time": "20:00",
+      "score": 68.4,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Centro congressi Giovanni XXIII",
       "line2": "",
       "time": "00:00",
@@ -43,6 +51,14 @@
      }
     ],
     "2026-11-20": [
+     {
+      "line1": "Barley Arts @ Live Club",
+      "line2": "Rock, Alchemica Music Club - Bologna",
+      "time": "20:00",
+      "score": 68.4,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
       "line2": "",
@@ -119,18 +135,10 @@
      "family": "Altro"
     },
     {
-     "line1": "Arena Esterno Notte",
+     "line1": "The Blank Contemporary Art @ Arena Esterno Notte",
      "line2": "dj set",
      "time": "00:00",
      "score": 47.3,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Live Club",
-     "line2": "dj set",
-     "time": "20:00",
-     "score": 44.1,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -175,6 +183,10 @@
   "big_events": [],
   "caption_handles": [
    "@inkclub_bergamo",
+   "@liveclub",
+   "@barleyartsreal",
+   "@alchemica_club",
+   "@megan_is_missing_band",
    "@divinabergamo",
    "@missdivina1",
    "@bolgia.official",
@@ -182,8 +194,7 @@
    "@worst.zine",
    "@andrea_kor3",
    "@lab80cinemas",
-   "@theblankcontemporaryart",
-   "@liveclub"
+   "@theblankcontemporaryart"
   ],
   "hashtags": [
    "#bergamo",
@@ -326,6 +337,14 @@
     ],
     "2026-11-19": [
      {
+      "line1": "Barley Arts @ Live Club",
+      "line2": "Rock, Alchemica Music Club - Bologna",
+      "time": "20:00",
+      "score": 68.4,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Centro congressi Giovanni XXIII",
       "line2": "",
       "time": "00:00",
@@ -335,6 +354,14 @@
      }
     ],
     "2026-11-20": [
+     {
+      "line1": "Barley Arts @ Live Club",
+      "line2": "Rock, Alchemica Music Club - Bologna",
+      "time": "20:00",
+      "score": 68.4,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
       "line2": "",
@@ -421,18 +448,10 @@
      "family": "Altro"
     },
     {
-     "line1": "Arena Esterno Notte",
+     "line1": "The Blank Contemporary Art @ Arena Esterno Notte",
      "line2": "dj set",
      "time": "00:00",
      "score": 47.3,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Live Club",
-     "line2": "dj set",
-     "time": "20:00",
-     "score": 44.1,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -556,6 +575,10 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@bolgia.official",
+   "@liveclub",
+   "@barleyartsreal",
+   "@alchemica_club",
+   "@megan_is_missing_band",
    "@divinabergamo",
    "@missdivina1",
    "@attenzione",
@@ -563,7 +586,6 @@
    "@andrea_kor3",
    "@lab80cinemas",
    "@theblankcontemporaryart",
-   "@liveclub",
    "@to_on.tv",
    "@bowie.hc",
    "@choruslife.bergamo",
@@ -585,7 +607,8 @@
   "to": "2026-12-31",
   "dates_with_serate": [
    "2026-12-05",
-   "2026-12-07"
+   "2026-12-07",
+   "2026-12-12"
   ],
   "serate_by_family": {
    "Altro": {
@@ -605,6 +628,16 @@
       "line2": "",
       "time": "23:30",
       "score": 50.2,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-12": [
+     {
+      "line1": "Barley Arts @ Live Club",
+      "line2": "Rock / Elettronica",
+      "time": "00:00",
+      "score": 57.6,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -635,7 +668,9 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@bolgia.official"
+   "@bolgia.official",
+   "@liveclub",
+   "@barleyartsreal"
   ],
   "hashtags": [
    "#bergamo",

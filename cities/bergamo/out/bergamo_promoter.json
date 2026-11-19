@@ -1,21 +1,21 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-19T15:03",
+ "generated": "2026-11-19T16:07",
  "nights": [
   {
    "date": "2026-11-19",
    "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 7.7,
-   "level": "tranquilla",
-   "capacity_taken": 100,
+   "events": 2,
+   "load": 76.1,
+   "level": "media",
+   "capacity_taken": 1350,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "House / Elettronica",
@@ -23,6 +23,11 @@
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna",
+     "score": 68.4,
+     "capacity": 1250
+    },
     {
      "title": "Centro congressi Giovanni XXIII",
      "score": 7.7,
@@ -35,15 +40,15 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 60.6,
+   "events": 2,
+   "load": 129.0,
    "level": "media",
-   "capacity_taken": 950,
+   "capacity_taken": 2200,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "House / Elettronica",
@@ -51,6 +56,11 @@
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna",
+     "score": 68.4,
+     "capacity": 1250
+    },
     {
      "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
      "score": 60.6,
@@ -565,22 +575,28 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 57.6,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 1250,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Rock / Elettronica] Live Club · Barley Arts",
+     "score": 57.6,
+     "capacity": 1250
+    }
+   ]
   },
   {
    "date": "2026-12-13",

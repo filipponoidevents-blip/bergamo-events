@@ -3,6 +3,17 @@
   "aendriu_official": {
    "cands": 2
   },
+  "alchemica_club": {
+   "bio": "Live Rock/Metal Club - Scuola di Musica - Sale Prova - Recording Studio - Label - Booking - Management",
+   "cands": 6,
+   "checked": "2026-11-19",
+   "followers": 8866,
+   "kind": "artist",
+   "mentions": 2,
+   "name": "Alchemica Music Club - Bologna",
+   "readable": true,
+   "website": "https://li.sten.to/alchemicamusicclub"
+  },
   "alonic_shakti": {
    "cands": 1
   },
@@ -42,6 +53,7 @@
    "name": "Antico Benessere Official",
    "readable": true,
    "reads": 8,
+   "venue_done": true,
    "website": "https://www.thefork.it/ristorante/antico-benessere-r836840"
   },
   "areakitchen_group": {
@@ -49,16 +61,22 @@
   },
   "attenzione": {
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-19",
+   "mentions": 1,
+   "readable": false
   },
   "barleyartsreal": {
    "bio": "Tra i più importanti organizzatori, produttori e promoter indipendenti di concerti, spettacoli e festival in Italia e nel mondo 🔥🎸",
    "cands": 4,
    "checked": "2026-11-19",
+   "events_found": 24,
    "followers": 13888,
    "kind": "promoter",
+   "last_read": "2026-11-19T16:04+00:00",
+   "mentions": 5,
    "name": "Barley Arts",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "http://linktr.ee/barleyartsreal"
   },
@@ -71,22 +89,22 @@
    "events_found": 13,
    "followers": 31626,
    "kind": "venue",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
    "bio": "Info ☎️ 3383624803\n21.11 @djmaddog + @gravedgrmusic + @flymeonmusic\n28.11 @marievaunt\n05.12 @chelinamanuhutu\n07.12 @novah.music",
    "checked": "2026-11-19",
    "events_found": 19,
-   "followers": 124632,
+   "followers": 124636,
    "kind": "venue",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
@@ -159,12 +177,12 @@
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
    "checked": "2026-11-19",
    "events_found": 16,
-   "followers": 67361,
+   "followers": 67362,
    "kind": "venue",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "https://choruslife.com/it/"
   },
   "cinescatti": {
@@ -215,11 +233,11 @@
    "events_found": 13,
    "followers": 17173,
    "kind": "venue",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "mentions": 2,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "done.with.world.hc": {
@@ -240,6 +258,9 @@
   "everyday.is.caturday": {
    "cands": 1
   },
+  "fabrique_milano": {
+   "cands": 1
+  },
   "fandango_official": {
    "cands": 1
   },
@@ -255,6 +276,9 @@
   "golden_heir_sun": {
    "cands": 2
   },
+  "henge_cosmicdross": {
+   "cands": 2
+  },
   "incisions054": {
    "cands": 1
   },
@@ -268,11 +292,11 @@
    "events_found": 22,
    "followers": 14648,
    "kind": "venue",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "mentions": 2,
    "name": "Ink Club",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
@@ -320,10 +344,10 @@
    "events_found": 22,
    "followers": 6630,
    "kind": "venue",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -337,6 +361,9 @@
    "readable": true,
    "reads": 2,
    "website": "https://labassanina.it/"
+  },
+  "lazzaretto_bergamo_estate": {
+   "cands": 1
   },
   "le_bigodini": {
    "bio": "@miss_elettra_bigodini_ \n@madame_lacleopatrick \nLE BIGODINI DRAG QUEEN 👑\nInfo e collaborazioni in DM ✉️",
@@ -352,13 +379,13 @@
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
    "checked": "2026-11-19",
    "events_found": 12,
-   "followers": 33390,
+   "followers": 33389,
    "kind": "venue",
-   "last_read": "2026-11-19T15:00+00:00",
-   "mentions": 1,
+   "last_read": "2026-11-19T16:04+00:00",
+   "mentions": 2,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "https://www.liveclub.it/start/"
   },
   "maledetta.nostalgia": {
@@ -369,10 +396,18 @@
    "kind": "venue",
    "name": "Maledetta Nostalgia",
    "readable": true,
+   "venue_done": true,
    "website": "https://www.maledettanostalgia.it/"
+  },
+  "markthehammer86": {
+   "cands": 2
   },
   "marlonmostaceromendoza": {
    "cands": 2
+  },
+  "megan_is_missing_band": {
+   "cands": 3,
+   "mentions": 2
   },
   "mercatocoperto_bergamo": {
    "cands": 1
@@ -400,6 +435,9 @@
   "orlandobergamo": {
    "cands": 1
   },
+  "pete_roth_trio": {
+   "cands": 1
+  },
   "principessa11270": {
    "bio": "",
    "cands": 2,
@@ -417,8 +455,19 @@
    "cands": 1
   },
   "retrovibesevents": {
+   "bio": "Creiamo eventi brandizzati nell'ambito di market di artigianato, vintage e collezionismo.",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-19",
+   "followers": 3026,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Retro Vibes Events",
+   "readable": true,
+   "watch": true,
+   "website": "https://linktr.ee/retrovibes.events"
+  },
+  "riccardo_mortelliti": {
+   "cands": 1
   },
   "scalpo_punk": {
    "bio": "Raw Oi!-punk from Italy.\n______________________________",
@@ -442,6 +491,24 @@
    "readable": true,
    "website": null
   },
+  "spazio211": {
+   "cands": 2
+  },
+  "spazioteatro89": {
+   "cands": 2,
+   "mentions": 1
+  },
+  "station.liveclub": {
+   "bio": "𝙇𝙄𝙑𝙀 𝙈𝙐𝙎𝙄𝘾 CLUB ▶️\n𝘝𝘪𝘢 𝘊𝘶𝘴𝘵𝘰𝘻𝘢 43, 𝘗𝘢𝘥𝘦𝘳𝘯𝘰 𝘋𝘶𝘨𝘯𝘢𝘯𝘰 (MILANO) \n𝘐𝘯𝘧𝘰: 3518689290\n𝘉𝘦𝘦𝘳𝘴𝘵𝘢𝘵𝘪𝘰𝘯𝘱𝘢𝘥𝘦𝘳𝘯𝘰@𝘨𝘮𝘢𝘪𝘭.𝘤𝘰𝘮",
+   "cands": 4,
+   "checked": "2026-11-19",
+   "followers": 4361,
+   "kind": "venue",
+   "mentions": 3,
+   "name": "STATION Live Club",
+   "readable": true,
+   "website": "https://www.facebook.com/beerstationpaderno"
+  },
   "stevedanceproject": {
    "cands": 1
   },
@@ -449,23 +516,49 @@
    "bio": "🚛 See you in 2027",
    "cands": 4,
    "checked": "2026-11-19",
-   "followers": 58280,
+   "events_found": 11,
+   "followers": 58276,
    "kind": "promoter",
+   "last_read": "2026-11-19T16:04+00:00",
    "name": "STREEAT Food Truck Festival",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "http://www.streeatfoodtruckfestival.it"
   },
   "stunner.boyzz": {
    "cands": 1
   },
+  "teatromiela_trieste": {
+   "cands": 1
+  },
+  "the_baby_lasagna": {
+   "cands": 1
+  },
+  "the_veils": {
+   "cands": 2
+  },
   "theblankcontemporaryart": {
+   "bio": "Arte contemporanea a Bergamo dal 2010\n⠀\nArtDate 2026: il programma completo al link 👇",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-19",
+   "followers": 45037,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "The Blank Contemporary Art",
+   "readable": true,
+   "website": null
   },
   "to_on.tv": {
+   "bio": "piattaforma musicale multi-genere 📡\nSEE YOU T👀N\n⤵  ⤵  ⤵  ⤵  ⤵  ⤵  ⤵",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-19",
+   "followers": 339,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "TOON.TV",
+   "readable": true,
+   "website": "https://linktr.ee/to_on.tv"
   },
   "tsunamiclub_": {
    "bio": "See you soon 🪩\nInfoline: 351 729 0245\nVia Statale 6, Osnago (LC)\nTicket e link utili👇🏻",
@@ -484,11 +577,11 @@
    "checked": "2026-11-19",
    "followers": 777,
    "kind": "promoter",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "mentions": 1,
    "name": "Tumulto",
    "readable": true,
-   "reads": 7,
+   "reads": 8,
    "website": "https://www.facebook.com/tumultoconcerti/"
   },
   "velvet_shot": {
@@ -527,11 +620,11 @@
    "events_found": 1,
    "followers": 2716,
    "kind": "promoter",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "mentions": 1,
    "name": "VPS",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "website": "https://forms.gle/wuX4mswv5M28NvHWA"
   },
   "worst.zine": {
@@ -541,11 +634,11 @@
    "events_found": 3,
    "followers": 1872,
    "kind": "promoter",
-   "last_read": "2026-11-19T15:00+00:00",
+   "last_read": "2026-11-19T16:04+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://linktr.ee/worstzine"
   },
   "xand.rea": {
@@ -579,6 +672,18 @@
    "lon": 9.6013,
    "province": null
   },
+  "Antico Benessere Official, Bergamo": {
+   "city": "Fara Gera d'Adda",
+   "lat": 45.55226,
+   "lon": 9.56511,
+   "province": null
+  },
+  "CHORUSLIFE BERGAMO, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.7031,
+   "lon": 9.68987,
+   "province": null
+  },
   "Castello di Monasterolo, Bergamo": {
    "city": "Monasterolo del Castello",
    "lat": 45.75835,
@@ -591,10 +696,24 @@
    "lon": 9.43837,
    "province": null
   },
+  "Evento in collaborazione con A Comic Soul e For Laughs' Sake, Bergamo": null,
   "La Corte e il Sogno, Bergamo": {
    "city": "Trescore Balneario",
    "lat": 45.7078,
    "lon": 9.85862,
+   "province": null
+  },
+  "Maledetta Nostalgia, Bergamo": {
+   "city": "Ayvalık",
+   "lat": 39.30294,
+   "lon": 26.77645,
+   "province": null
+  },
+  "Oktoberfest Parma continua fino a questa sera, Domenica 11 O, Bergamo": null,
+  "PIAZZA GHIAIA, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.94779,
+   "lon": 9.67562,
    "province": null
   },
   "Piazza Cavour 15, Bergamo": {
@@ -621,6 +740,12 @@
    "lon": 9.66322,
    "province": null
   },
+  "Piazza Visconti, Bergamo": {
+   "city": "Brignano Gera d'Adda",
+   "lat": 45.54333,
+   "lon": 9.64847,
+   "province": null
+  },
   "Piazza caduti di Nassyria, Alzano Lombardo": {
    "city": "Alzano Lombardo",
    "lat": 45.7308,
@@ -633,6 +758,12 @@
    "lon": 9.67356,
    "province": null
   },
+  "VIA CARLO, Bergamo": {
+   "city": "Leffe",
+   "lat": 45.7954,
+   "lon": 9.89511,
+   "province": null
+  },
   "Via Bartolomeo Colleoni, 4,, Bergamo": {
    "city": "Bergamo",
    "lat": 45.70435,
@@ -643,6 +774,12 @@
    "city": "Bergamo",
    "lat": 45.70352,
    "lon": 9.69132,
+   "province": null
+  },
+  "Via Carlo, Bergamo": {
+   "city": "Leffe",
+   "lat": 45.7954,
+   "lon": 9.89511,
    "province": null
   },
   "Via S. Salvatore, 11, Bergamo": {
@@ -689,9 +826,13 @@
  "venues": {
   "antico benessere": {
    "address": "Via Treviglio 25",
+   "aliases": [
+    "Antico Benessere Official"
+   ],
    "auto_vote": 4.2,
    "capacity": 300,
    "capacity_source": "stima",
+   "city": "Fara Gera d'Adda",
    "first_seen": "2026-11-18",
    "followers": 2423,
    "instagram": "antico_benessere",
@@ -702,7 +843,8 @@
    "osm": "node/11415610698",
    "removed": true,
    "sources": [
-    "osm"
+    "osm",
+    "instagram"
    ],
    "type": "live_club",
    "website": "https://www.anticobenessere.it/",
@@ -844,7 +986,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 124632,
+   "followers": 124636,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -986,7 +1128,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67361,
+   "followers": 67362,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -999,6 +1141,59 @@
    ],
    "type": "bar",
    "website": "https://choruslife.com/it/areas/arena"
+  },
+  "choruslife bergamo": {
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-19",
+   "followers": null,
+   "km": 1.1,
+   "lat": 45.7031,
+   "lon": 9.68987,
+   "name": "CHORUSLIFE BERGAMO",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "choruslife bergamo via carlo serassi 26": {
+   "address": "VIA CARLO",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Leffe",
+   "first_seen": "2026-11-19",
+   "followers": null,
+   "km": 20.1,
+   "lat": 45.7954,
+   "lon": 9.89511,
+   "name": "CHORUSLIFE BERGAMO - VIA CARLO SERASSI 26",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "choruslife via carlo serassi 26": {
+   "address": "Via Carlo",
+   "aliases": [
+    "CHORUSLIFE - VIA CARLO SERASSI 26 - 2 WEEKEND"
+   ],
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Leffe",
+   "first_seen": "2026-11-19",
+   "followers": null,
+   "km": 20.1,
+   "lat": 45.7954,
+   "lon": 9.89511,
+   "name": "CHORUSLIFE -Via Carlo Serassi 26",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
   },
   "dance project school": {
    "address": "Via Dalmine 4b, 24035, Curno",
@@ -1032,6 +1227,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
    "followers": null,
+   "ig_guessed": "2026-11-19",
    "km": 22.0,
    "lat": 45.7942,
    "lon": 9.4298,
@@ -1070,6 +1266,7 @@
    "city": "Ranica",
    "first_seen": "2026-11-18",
    "followers": null,
+   "ig_guessed": "2026-11-19",
    "km": 3.9,
    "lat": 45.71265,
    "lon": 9.72262,
@@ -1223,7 +1420,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33390,
+   "followers": 33389,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -1440,6 +1637,23 @@
    ],
    "type": "bar"
   },
+  "piazza ghiaia parma": {
+   "address": "PIAZZA GHIAIA",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-19",
+   "followers": null,
+   "km": 27.7,
+   "lat": 45.94779,
+   "lon": 9.67562,
+   "name": "PIAZZA GHIAIA PARMA",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
   "pro loco pizzino": {
    "address": "Via Samuele Biava 62, 24010, Taleggio",
    "auto_vote": 3.5,
@@ -1459,6 +1673,23 @@
     "osm"
    ],
    "type": "live_club"
+  },
+  "prossimo appuntamento brescia piazza tebaldo brusato": {
+   "address": "Piazza Visconti",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Brignano Gera d'Adda",
+   "first_seen": "2026-11-19",
+   "followers": null,
+   "km": 17.4,
+   "lat": 45.54333,
+   "lon": 9.64847,
+   "name": "PROSSIMO APPUNTAMENTO: BRESCIA PIAZZA TEBALDO BRUSATO",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
   },
   "sala civica": {
    "address": "Via Palma il Vecchio",
@@ -1689,6 +1920,7 @@
    "lat": 45.54297,
    "lon": 9.60125,
    "name": "Via Treviglio 2058, Fara Gera d'Adda",
+   "search_checked": "2026-11-19",
    "sources": [
     "eventi"
    ],
