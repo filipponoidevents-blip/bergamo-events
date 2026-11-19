@@ -1,22 +1,22 @@
 {
   "followers": {
     "afrodylanofficial": 12163,
-    "al_tabarin": 716,
+    "al_tabarin": 720,
     "aliveofficialparty": 29290,
     "arya.lounge": 2469,
-    "baiadelrebrignano": 4253,
+    "baiadelrebrignano": 4249,
     "balzerbynight": 7483,
     "bar30elode": 1169,
     "bar_sanmarco": 2096,
-    "barperlage": 2695,
+    "barperlage": 2696,
     "barrys__": 9713,
     "bergamonightservice": 1091,
-    "bobadillafeelingclub": 31625,
-    "bolgia.official": 124486,
-    "brinapasticceria": 3125,
+    "bobadillafeelingclub": 31628,
+    "bolgia.official": 124604,
+    "brinapasticceria": 3116,
     "bsk.sound": 1748,
     "bucheesebar": 6835,
-    "bv_rooftop": 11310,
+    "bv_rooftop": 11308,
     "cafeteriatreviolo": 5427,
     "caffetteria_nuova_rotonda": 1727,
     "call._.out": 732,
@@ -33,29 +33,29 @@
     "crystalcastlesnightt": 734,
     "csapacipaciana": 13758,
     "daste_bergamo": 21238,
-    "decibel_club": 4565,
+    "decibel_club": 4567,
     "discopastasc": 1420,
     "discoteca_queen": 16916,
     "drusobg": 24650,
     "edonebergamo": 29977,
     "gres_art_671": 21234,
     "hiddenhell.techno": 11131,
-    "hype.club.official": 24476,
+    "hype.club.official": 24470,
     "icksdresstoimpress": 6687,
     "iconevents.official": 608,
-    "incroissanterialab": 27615,
+    "incroissanterialab": 27629,
     "inkclub_bergamo": 14643,
     "intothewoodsbg": 33087,
-    "jamlivestudio": 6025,
+    "jamlivestudio": 6028,
     "juiceclubit": 8585,
     "karma_lounge_official_": 5158,
     "kellerfactory_": 7326,
     "lazzaretto_bergamo_estate": 11448,
     "lecannibaleclub": 42873,
-    "liveclub": 33388,
+    "liveclub": 33387,
     "loft.bergamo": 10789,
-    "mint_lounge": 15361,
-    "nikita__land": 25599,
+    "mint_lounge": 15355,
+    "nikita__land": 25603,
     "ninfeasocialclub": 8674,
     "noidfamilia": 7875,
     "nxtbergamo": 30205,
@@ -64,7 +64,7 @@
     "oroneroloveandmusic": 7812,
     "please.nights": 2515,
     "premiere.premiere": 2132,
-    "sabbiemobili_official": 7833,
+    "sabbiemobili_official": 7837,
     "savana.king25": 192,
     "selected.lab": 198,
     "setai_club_official": 36677,
@@ -77,12 +77,12 @@
     "the.circlehub": 831,
     "theboxbergamo": 8039,
     "tiky.klub": 996,
-    "twofestival": 2954,
+    "twofestival": 2955,
     "unibg_party": 3444,
     "unplug.project": 547,
     "unplug__bg": 2934,
     "utopia.direction": 8468,
-    "vibetheclub": 11567,
+    "vibetheclub": 11569,
     "victorialoungebar_bonate": 1290,
     "we.are.stepup": 354,
     "zeroclub.bg": 20823
@@ -2455,6 +2455,36 @@
       "permalink": "https://www.instagram.com/p/DfiZA9XAATb/",
       "status": "info"
     },
+    "17999642640044467-0": {
+      "account": "mint_lounge",
+      "account_venue": "MINT",
+      "caption": "ogni #weekend\nogni venerdì & sabato \n🖤🦓⭐✔🖤👐🦓⭐🖤",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-20",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "MINT",
+        "venue_name": "MINT"
+      },
+      "id": "17999642640044467-0",
+      "image": null,
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/Df6fqSEAVnP/",
+      "status": "pending"
+    },
     "18007029407794113-0": {
       "account": "barrys__",
       "account_venue": "Barry's",
@@ -2795,6 +2825,36 @@
       "permalink": "https://www.instagram.com/p/DfZuXEsIVlQ/",
       "status": "auto"
     },
+    "18030579776865881-0": {
+      "account": "arya.lounge",
+      "account_venue": "Arya Lounge",
+      "caption": "chi l’ha detto che devi aspettare il weekend? 🍸\noltre al friday e al saturday night, ti aspettiamo anche mercoledì, giovedì e domenica con i nostri nuovi signature cocktail, tutti da scoprire.\n\nscegli da quale iniziare, ci vediamo da arya. ✨",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-20",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Arya Lounge",
+        "venue_name": "Arya Lounge"
+      },
+      "id": "18030579776865881-0",
+      "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/907622279_17917258368513946_337783259869890186_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=nRM09geKvCgQ7kNvwGSJ0ic&_nc_oc=Adp559ss2MIK1yF3vNijfBvrDPeEAq117qQffbyWM1wGQREMtbg7afJGkyAw7fHiLCM&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=tg1RV6YfBb4B2lv3ZOBYGA&_nc_tpa=Q5bMBQLwQWGSUbeFEbownQkDxyz42wtkLlUSscCXVjc5qHpp8VSzwA1Vc5xWYJLYJafa_ChZXsk6tog5pg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQR05Qm6THbIFjGq9vGoQTYGT-6g9F5K-K4VHtungm8Vtg&oe=6B04B093",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/Df5C8yQnF_M/",
+      "status": "info"
+    },
     "18030881792879396-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
@@ -3127,6 +3187,36 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpCDw5IFC4/",
       "status": "info"
+    },
+    "18049890719827954-0": {
+      "account": "nikita__land",
+      "account_venue": "Nikita",
+      "caption": "20 NOVEMBRE [MAIN AREA]\n\ndalle 22:30 a mezzanotte ingresso gratuito\nda mezzanotte ingresso donna 10 uomo 15, drink incluso\n\n▵ | NIKITA | ▵\ngrumello del monte bg, via dei morenghi 2",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-20",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "NIKITA",
+        "venue_name": "Nikita"
+      },
+      "id": "18049890719827954-0",
+      "image": null,
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df6wZs2CHeg/",
+      "status": "auto"
     },
     "18050866490815308-1": {
       "account": "sommet_night",
@@ -8424,6 +8514,36 @@
       "permalink": "https://www.instagram.com/p/DfPyxkXl6sE/",
       "status": "pending"
     },
+    "18249753784313127-0": {
+      "account": "bolgia.official",
+      "account_venue": "Bolgia",
+      "caption": "LUNEDÌ 07 Dicembre dalle ore 23:30 alle 06:00!\n💰Lista 25€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/gk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: NOVAH\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld #novah",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-07",
+        "end_time": "06:00",
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "23:30",
+        "ticket_url": null,
+        "title": "Bolgia",
+        "venue_name": "Bolgia"
+      },
+      "id": "18249753784313127-0",
+      "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/916039765_1417695501431179_2766771141467482717_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kE_QfIF7ASsQ7kNvwHlNyUp&_nc_oc=AdqEFm7X_ndMKGYlIkgjNg50BVxdcGi569DqA-evhw0zLB3_RxyovHGLocCzZgHKfDg&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=v2TIxe_urVFOZSC9gtnQqw&_nc_tpa=Q5bMBQLZOcEKQzx-k4oYhd09Fo75CxDpWFrMe-8aMKrqFQ46djecpmBxOVyQ69o-eCZmc-baH-9mppR2Qw&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTq58Uvbg1_gA1MT8qyxMeZjLrGjMzABSZPpHsIkr6yZg&oe=6B04B3B9",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/Df4m_TCI71w/",
+      "status": "auto"
+    },
     "18253327816309041-0": {
       "account": "tiky.klub",
       "account_venue": "Tiky Klub",
@@ -8762,6 +8882,36 @@
       "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfjwAlgAcE6/",
+      "status": "info"
+    },
+    "18361173331220166-0": {
+      "account": "nikita__land",
+      "account_venue": "Nikita",
+      "caption": "open wine, not emails.\n\nVENTITRÉ\ntutti i venerdì ingresso gratuito dalle 22:30 a mezzanotte\n\n#reel #nikita",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-20",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "VENTITRÉ",
+        "venue_name": "Nikita"
+      },
+      "id": "18361173331220166-0",
+      "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/916772123_17919560037541494_2895831976178847470_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=F4Wom5gbw6AQ7kNvwGMmJYq&_nc_oc=Adp21zLyqap-RcTlhDDBN5lBlR5cNHcvvCa0nXF72k4DNzhLFsg6K9Z-UgYfc18jiDs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=bZ1bemxfhjgvaZrjzW6bnw&_nc_tpa=Q5bMBQKad_1y6DK3ZC5M_YOb_OXFCAi406YHp6l8sArt76GNdaNYd0lBGTelSByCVVqcXKFrAykCsERl7Q&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQQLyLuV_rnMb5rYtDnb5tyg3zQSlAcLI6kPoVD-4JHuHQ&oe=6B049B33",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/Df44wg4D2Fy/",
       "status": "info"
     },
     "18376876597210351-0": {
@@ -9313,7 +9463,7 @@
       "status": "info"
     }
   },
-  "next_account": 34,
+  "next_account": 54,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -10438,6 +10588,11 @@
       "at": "2026-10-29T15:13:41+0000",
       "event": false
     },
+    "17970946421973709": {
+      "account": "hype.club.official",
+      "at": "2026-11-18T11:24:10+0000",
+      "event": false
+    },
     "17971125183188277": {
       "account": "noidfamilia",
       "at": "2026-10-27T17:03:48+0000",
@@ -10759,6 +10914,11 @@
       "at": "2026-11-09T22:20:41+0000",
       "event": true
     },
+    "17999642640044467": {
+      "account": "mint_lounge",
+      "at": "2026-11-19T07:00:31+0000",
+      "event": true
+    },
     "17999770449111856": {
       "account": "supertatobolgia",
       "at": "2026-11-16T12:22:02+0000",
@@ -11024,6 +11184,11 @@
       "at": "2026-10-09T09:25:32+0000",
       "event": false
     },
+    "18030579776865881": {
+      "account": "arya.lounge",
+      "at": "2026-11-18T17:30:47+0000",
+      "event": true
+    },
     "18030748775856055": {
       "account": "tiky.klub",
       "at": "2026-10-23T16:26:00+0000",
@@ -11173,6 +11338,11 @@
       "account": "charleston.treviglio",
       "at": "2026-11-05T11:16:04+0000",
       "event": false
+    },
+    "18049890719827954": {
+      "account": "nikita__land",
+      "at": "2026-11-19T09:26:48+0000",
+      "event": true
     },
     "18050866490815308": {
       "account": "sommet_night",
@@ -11822,6 +11992,11 @@
     "18103533539362408": {
       "account": "bobadillafeelingclub",
       "at": "2026-10-10T15:01:29+0000",
+      "event": false
+    },
+    "18103644461668620": {
+      "account": "baiadelrebrignano",
+      "at": "2026-11-18T16:05:08+0000",
       "event": false
     },
     "18103701383412985": {
@@ -12868,6 +13043,11 @@
       "at": "2026-10-23T10:55:09+0000",
       "event": false
     },
+    "18129009817846819": {
+      "account": "liveclub",
+      "at": "2026-11-18T11:34:19+0000",
+      "event": false
+    },
     "18129200836627512": {
       "account": "bucheesebar",
       "at": "2026-10-13T09:07:54+0000",
@@ -13117,6 +13297,11 @@
     "18133898689782476": {
       "account": "vibetheclub",
       "at": "2026-10-22T13:01:33+0000",
+      "event": false
+    },
+    "18133957228819077": {
+      "account": "bobadillafeelingclub",
+      "at": "2026-11-18T16:01:51+0000",
       "event": false
     },
     "18133973374783241": {
@@ -13511,6 +13696,11 @@
       "at": "2026-10-31T16:45:28+0000",
       "event": true
     },
+    "18151075759567464": {
+      "account": "brinapasticceria",
+      "at": "2026-11-18T16:30:04+0000",
+      "event": false
+    },
     "18151586140556188": {
       "account": "noidfamilia",
       "at": "2026-10-12T10:04:28+0000",
@@ -13525,6 +13715,11 @@
       "account": "oroneroloveandmusic",
       "at": "2026-10-19T13:26:23+0000",
       "event": true
+    },
+    "18152873578539698": {
+      "account": "incroissanterialab",
+      "at": "2026-11-18T15:37:21+0000",
+      "event": false
     },
     "18154217074526516": {
       "account": "decibel_club",
@@ -13916,6 +14111,11 @@
       "at": "2026-11-02T17:00:01+0000",
       "event": true
     },
+    "18249753784313127": {
+      "account": "bolgia.official",
+      "at": "2026-11-18T13:29:12+0000",
+      "event": true
+    },
     "18253327816309041": {
       "account": "tiky.klub",
       "at": "2026-11-09T08:38:35+0000",
@@ -14049,6 +14249,11 @@
     "18360850096216820": {
       "account": "drusobg",
       "at": "2026-11-10T11:00:55+0000",
+      "event": true
+    },
+    "18361173331220166": {
+      "account": "nikita__land",
+      "at": "2026-11-18T16:01:41+0000",
       "event": true
     },
     "18371107891211645": {
