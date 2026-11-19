@@ -60,7 +60,7 @@
    "end": null,
    "late_end": false,
    "venue": "Biblioteca Tiraboschi - Sala Mimmo Boninelli",
-   "venue_known": true,
+   "venue_known": false,
    "address": "Via San Bernardino 74, Bergamo",
    "room": null,
    "party": "Alfredo Piatti e Guglielmo Quarenghi: un metodo",
@@ -268,7 +268,7 @@
    "end": null,
    "late_end": false,
    "venue": "Biblioteca Civica Angelo Mai di Bergamo",
-   "venue_known": true,
+   "venue_known": false,
    "address": "Piazza Vecchia 15, Bergamo",
    "room": null,
    "party": "Il portale MusicalmenteBergamo",
@@ -417,7 +417,7 @@
    "source": "giornale",
    "account": null,
    "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
-   "posted": "2026-11-19T13:45+00:00",
+   "posted": "2026-11-19T15:03+00:00",
    "text": "\nTue, 17 Nov 2026 08:11:48 +0000 \n\t\t\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659094 \n\n\t\t\t\t\t   A Clusone e in ValSeriana ci sono luoghi meravigliosi e un’arte dell’accoglienza davvero unica. Ne e consapevole anche Babbo Natale, che ha scelto anche quest’anno di trasferirsi nella citta baradella. E infatti Palazzo Gorra, un’antica residenza nelle immediate vicinanze del cinquecentesco Orologio Astronomico Fanzago, affacciato sull’omonima piazza ad ospitare sino al 27 dicembre “La Casa [...]\nContinua la lettura di  Babbo Natale torna a soggiornare a Clusone, la sua Casa Bergamasca e in piazza Or"
   },
   {
@@ -443,7 +443,7 @@
    "source": "giornale",
    "account": null,
    "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
-   "posted": "2026-11-19T13:45+00:00",
+   "posted": "2026-11-19T15:03+00:00",
    "text": "\nTue, 17 Nov 2026 08:11:48 +0000 \n\t\t\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659094 \n\n\t\t\t\t\t   A Clusone e in ValSeriana ci sono luoghi meravigliosi e un’arte dell’accoglienza davvero unica. Ne e consapevole anche Babbo Natale, che ha scelto anche quest’anno di trasferirsi nella citta baradella. E infatti Palazzo Gorra, un’antica residenza nelle immediate vicinanze del cinquecentesco Orologio Astronomico Fanzago, affacciato sull’omonima piazza ad ospitare sino al 27 dicembre “La Casa [...]\nContinua la lettura di  Babbo Natale torna a soggiornare a Clusone, la sua Casa Bergamasca e in piazza Or"
   },
   {
@@ -469,7 +469,7 @@
    "source": "giornale",
    "account": null,
    "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
-   "posted": "2026-11-19T13:45+00:00",
+   "posted": "2026-11-19T15:03+00:00",
    "text": "\nTue, 17 Nov 2026 08:11:48 +0000 \n\t\t\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659094 \n\n\t\t\t\t\t   A Clusone e in ValSeriana ci sono luoghi meravigliosi e un’arte dell’accoglienza davvero unica. Ne e consapevole anche Babbo Natale, che ha scelto anche quest’anno di trasferirsi nella citta baradella. E infatti Palazzo Gorra, un’antica residenza nelle immediate vicinanze del cinquecentesco Orologio Astronomico Fanzago, affacciato sull’omonima piazza ad ospitare sino al 27 dicembre “La Casa [...]\nContinua la lettura di  Babbo Natale torna a soggiornare a Clusone, la sua Casa Bergamasca e in piazza Or"
   },
   {
@@ -484,13 +484,23 @@
    "party": null,
    "promoter": null,
    "promoter_name": null,
-   "guests": [],
+   "guests": [
+    {
+     "name": "attenzione",
+     "instagram": "attenzione",
+     "level": null,
+     "cue": false,
+     "followers": null
+    }
+   ],
    "genre": null,
    "type": "dj set",
    "entry": "a pagamento",
    "price": null,
    "tickets": null,
-   "handles": [],
+   "handles": [
+    "attenzione"
+   ],
    "confidence": 0.75,
    "source": "giornale",
    "account": null,

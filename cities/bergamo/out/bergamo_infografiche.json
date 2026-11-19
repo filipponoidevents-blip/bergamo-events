@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-19T13:46",
+ "generated": "2026-11-19T15:03",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -44,15 +44,23 @@
     ],
     "2026-11-20": [
      {
-      "line1": "Divina Music Bar",
+      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
       "line2": "",
       "time": "00:00",
-      "score": 40.6,
+      "score": 60.6,
       "fascia": "serata",
       "family": "Altro"
      }
     ],
     "2026-11-21": [
+     {
+      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 60.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "MAD DOG @ Bolgia",
       "line2": "",
@@ -66,22 +74,6 @@
       "line2": "lab room",
       "time": "23:30",
       "score": 41.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Divina Music Bar",
-      "line2": "",
-      "time": "00:00",
-      "score": 40.6,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
-      "line2": "",
-      "time": "16:00",
-      "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -127,6 +119,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Arena Esterno Notte",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 47.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Live Club",
      "line2": "dj set",
      "time": "20:00",
@@ -153,14 +153,6 @@
      "family": "Hip Hop / Trap"
     },
     {
-     "line1": "Antico benessere",
-     "line2": "dj set",
-     "time": "22:30",
-     "score": 22.1,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
@@ -184,11 +176,14 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@divinabergamo",
+   "@missdivina1",
    "@bolgia.official",
+   "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
-   "@liveclub",
-   "@antico_benessere"
+   "@lab80cinemas",
+   "@theblankcontemporaryart",
+   "@liveclub"
   ],
   "hashtags": [
    "#bergamo",
@@ -289,6 +284,7 @@
   "big_events": [],
   "caption_handles": [
    "@inkclub_bergamo",
+   "@to_on.tv",
    "@bowie.hc",
    "@choruslife.bergamo",
    "@corinna_fm",
@@ -340,15 +336,23 @@
     ],
     "2026-11-20": [
      {
-      "line1": "Divina Music Bar",
+      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
       "line2": "",
       "time": "00:00",
-      "score": 40.6,
+      "score": 60.6,
       "fascia": "serata",
       "family": "Altro"
      }
     ],
     "2026-11-21": [
+     {
+      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 60.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "MAD DOG @ Bolgia",
       "line2": "",
@@ -362,22 +366,6 @@
       "line2": "lab room",
       "time": "23:30",
       "score": 41.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Divina Music Bar",
-      "line2": "",
-      "time": "00:00",
-      "score": 40.6,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Biblioteca Tiraboschi - Sala Mimmo Boninelli",
-      "line2": "",
-      "time": "16:00",
-      "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -433,6 +421,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Arena Esterno Notte",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 47.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Live Club",
      "line2": "dj set",
      "time": "20:00",
@@ -457,14 +453,6 @@
      "score": 26.8,
      "fascia": "preserata",
      "family": "Hip Hop / Trap"
-    },
-    {
-     "line1": "Antico benessere",
-     "line2": "dj set",
-     "time": "22:30",
-     "score": 22.1,
-     "fascia": "preserata",
-     "family": "Altro"
     },
     {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
@@ -569,10 +557,14 @@
    "@inkclub_bergamo",
    "@bolgia.official",
    "@divinabergamo",
+   "@missdivina1",
+   "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
+   "@lab80cinemas",
+   "@theblankcontemporaryart",
    "@liveclub",
-   "@antico_benessere",
+   "@to_on.tv",
    "@bowie.hc",
    "@choruslife.bergamo",
    "@corinna_fm",

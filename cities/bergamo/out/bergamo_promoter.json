@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-19T13:46",
+ "generated": "2026-11-19T15:03",
  "nights": [
   {
    "date": "2026-11-19",
@@ -36,8 +36,8 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 40.6,
-   "level": "libera",
+   "load": 60.6,
+   "level": "media",
    "capacity_taken": 950,
    "by_family": {
     "House / Elettronica": 0,
@@ -52,8 +52,8 @@
    ],
    "top": [
     {
-     "title": "Divina Music Bar",
-     "score": 40.6,
+     "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
+     "score": 60.6,
      "capacity": 950
     }
    ]
@@ -63,15 +63,15 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 4,
-   "load": 139.5,
-   "level": "media",
-   "capacity_taken": 3550,
+   "events": 3,
+   "load": 151.8,
+   "level": "piena",
+   "capacity_taken": 3450,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 4
+    "Altro": 3
    },
    "missing_families": [
     "House / Elettronica",
@@ -79,6 +79,11 @@
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
+     "score": 60.6,
+     "capacity": 950
+    },
     {
      "title": "Bolgia · MAD DOG",
      "score": 50.2,
@@ -88,16 +93,6 @@
      "title": "Bolgia (lab room) · Uboa",
      "score": 41.0,
      "capacity": 1250
-    },
-    {
-     "title": "Divina Music Bar",
-     "score": 40.6,
-     "capacity": 950
-    },
-    {
-     "title": "Biblioteca Tiraboschi - Sala Mimmo Boninelli · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
-     "score": 7.7,
-     "capacity": 100
     }
    ]
   },

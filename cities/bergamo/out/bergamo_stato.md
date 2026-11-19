@@ -1,9 +1,9 @@
 # Stato · Bergamo e dintorni
 
-Ultimo giro: 19/11/2026 13:46
+Ultimo giro: 19/11/2026 15:03
 
-- Eventi in arrivo: **49** (10 serate, 39 preserate, 0 grandi eventi fuori zona)
-- Locali in anagrafica: **33**, profili Instagram conosciuti: **27**, seguiti: **14**
+- Eventi in arrivo: **45** (9 serate, 36 preserate, 0 grandi eventi fuori zona)
+- Locali in anagrafica: **31**, profili Instagram conosciuti: **88**, seguiti: **15**
 - Da controllare (affidabilità bassa, non pubblicati): **0**
 
 ## Cosa è successo in questo giro

@@ -1,7 +1,17 @@
 {
  "accounts": {
+  "aendriu_official": {
+   "cands": 2
+  },
+  "alonic_shakti": {
+   "cands": 1
+  },
+  "alternative": {
+   "cands": 1
+  },
   "andrea_kor3": {
    "bio": "🎵🎶 parlo di metal che non conosci 🫵🏻\n⚡💀 divieto di gatekeeping 👌\n📤📩 kor3msg@gmail.com",
+   "cands": 2,
    "checked": "2026-11-19",
    "followers": 18055,
    "kind": "unknown",
@@ -34,32 +44,54 @@
    "reads": 8,
    "website": "https://www.thefork.it/ristorante/antico-benessere-r836840"
   },
+  "areakitchen_group": {
+   "cands": 1
+  },
+  "attenzione": {
+   "cands": 1,
+   "mentions": 1
+  },
+  "barleyartsreal": {
+   "bio": "Tra i più importanti organizzatori, produttori e promoter indipendenti di concerti, spettacoli e festival in Italia e nel mondo 🔥🎸",
+   "cands": 4,
+   "checked": "2026-11-19",
+   "followers": 13888,
+   "kind": "promoter",
+   "name": "Barley Arts",
+   "readable": true,
+   "watch": true,
+   "website": "http://linktr.ee/barleyartsreal"
+  },
+  "bergamo_rock": {
+   "cands": 1
+  },
   "bobadillafeelingclub": {
    "bio": "Il locale Storico di Bergamo✨\nRistorante: @bobadillaristorante\nDiscoteca: @bobadillafeelingclub \nAperitivo Domenica: @aperitivomartini",
    "checked": "2026-11-19",
    "events_found": 13,
-   "followers": 31630,
+   "followers": 31626,
    "kind": "venue",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
    "bio": "Info ☎️ 3383624803\n21.11 @djmaddog + @gravedgrmusic + @flymeonmusic\n28.11 @marievaunt\n05.12 @chelinamanuhutu\n07.12 @novah.music",
    "checked": "2026-11-19",
    "events_found": 19,
-   "followers": 124618,
+   "followers": 124632,
    "kind": "venue",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
    "bio": "WE SPEAK IN VIOLENCE \n33100 - Udine (Italy)\n@nuhc33100 \nbooking (Italy): @bloopevents",
+   "cands": 1,
    "checked": "2026-11-18",
    "followers": 3382,
    "kind": "artist",
@@ -68,10 +100,26 @@
    "readable": true,
    "website": "https://bowiehc.bandcamp.com/"
   },
+  "burnt.shoes": {
+   "cands": 1
+  },
+  "buscemi_s_eyes": {
+   "cands": 2
+  },
   "calce.viva.oi": {
+   "cands": 1,
    "checked": "2026-11-18",
    "mentions": 1,
    "readable": false
+  },
+  "caravan_orkestar": {
+   "cands": 1
+  },
+  "carli.roncoo": {
+   "cands": 1
+  },
+  "carlo_manti": {
+   "cands": 1
   },
   "castellodimonasterolo": {
    "bio": "Un castello sul lago, tra storia e natura: la scenografia perfetta per il vostro evento.\nUn luogo che nessuna foto potrà raccontare fino in fondo ✨",
@@ -98,20 +146,39 @@
    "venue_done": true,
    "website": "http://www.castellodirossino.it/"
   },
+  "cgtv_it": {
+   "cands": 1
+  },
+  "cherry.ills": {
+   "cands": 2
+  },
+  "chiave.di.bacco": {
+   "cands": 1
+  },
   "choruslife.bergamo": {
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
    "checked": "2026-11-19",
    "events_found": 16,
-   "followers": 67359,
+   "followers": 67361,
    "kind": "venue",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "https://choruslife.com/it/"
+  },
+  "cinescatti": {
+   "cands": 1
+  },
+  "colore_ai_sogni": {
+   "cands": 1
+  },
+  "consorzio.lucertole.giganti": {
+   "cands": 1
   },
   "corinna_fm": {
    "bio": "🏰📖",
+   "cands": 1,
    "checked": "2026-11-19",
    "followers": 2375,
    "kind": "unknown",
@@ -119,6 +186,12 @@
    "name": "Corinna",
    "readable": true,
    "website": "https://lnk.fuga.com/ilmiocastellodiparole-album"
+  },
+  "cosmo.food.club": {
+   "cands": 1
+  },
+  "croccante_all_amarezza": {
+   "cands": 1
   },
   "danceprojectschool": {
    "bio": "𝐀𝐜𝐜𝐚𝐝𝐞𝐦𝐢𝐚 𝐝𝐢 𝐃𝐚𝐧𝐳𝐚 & 𝐅𝐢𝐭𝐧𝐞𝐬𝐬 Bergamo 🇮🇹Italy • Since 2009\nCorsi di Ballo&Fitness|Lezioni Private\n☎️ 𝟑𝟑𝟗.𝟖𝟎.𝟑𝟎.𝟖𝟐𝟒",
@@ -133,34 +206,78 @@
    "venue_done": true,
    "website": "https://linktr.ee/danceprojectschool"
   },
+  "darktails_lab": {
+   "cands": 1
+  },
   "divinabergamo": {
    "bio": "🇮🇹🏳️‍🌈❤️ dal 1991 Dedicato a Raffaella Carra' 👉🏻Dal 1991 Bergamo dal 2017 a Grassobbio ✈️🚁 👑 locale di👉🏻 @missdivina1 ❤️👸🏼#missdivina ⬇️  Ven  & Sab",
    "checked": "2026-11-19",
    "events_found": 13,
-   "followers": 17174,
+   "followers": 17173,
    "kind": "venue",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "mentions": 2,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
+  },
+  "done.with.world.hc": {
+   "cands": 2
+  },
+  "e.katea_99": {
+   "cands": 1
+  },
+  "embrace_the_wind": {
+   "cands": 1
+  },
+  "erika.gagliardi": {
+   "cands": 1
+  },
+  "euphoria.clubbing": {
+   "cands": 1
+  },
+  "everyday.is.caturday": {
+   "cands": 1
+  },
+  "fandango_official": {
+   "cands": 1
+  },
+  "femme.cell": {
+   "cands": 2
+  },
+  "flyer_billy": {
+   "cands": 1
+  },
+  "fotosenzaposa_official": {
+   "cands": 1
+  },
+  "golden_heir_sun": {
+   "cands": 2
+  },
+  "incisions054": {
+   "cands": 1
+  },
+  "inkclub.academy": {
+   "cands": 1
   },
   "inkclub_bergamo": {
    "bio": "MUSICA, CULTURA e cose belle ⚡️\nConcerti • club • radio • arte • birrette\n🎓 Academy → @inkclub.academy\n📍 Bergamo\n↓ Scopri cosa succede a Ink",
+   "cands": 2,
    "checked": "2026-11-19",
    "events_found": 22,
-   "followers": 14650,
+   "followers": 14648,
    "kind": "venue",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "mentions": 2,
    "name": "Ink Club",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
    "bio": "Web radio & podcast by @inkclub_bergamo \n📡 LIVE/stream 🔴",
+   "cands": 2,
    "checked": "2026-11-19",
    "followers": 1179,
    "kind": "media",
@@ -168,6 +285,21 @@
    "name": "INK CLUB RADIO",
    "readable": true,
    "website": "https://linktr.ee/InkClubRadio"
+  },
+  "insolaze_official": {
+   "cands": 2
+  },
+  "jonathan.tapes": {
+   "cands": 1
+  },
+  "kamelotofficial": {
+   "cands": 1
+  },
+  "kayro_dark": {
+   "cands": 1
+  },
+  "killingspree_hhc": {
+   "cands": 1
   },
   "la.corte.e.il.sogno": {
    "bio": "Location per matrimoni ed eventi del gruppo Acquaroli. Rito civile legale in loco. Esclusiva giornaliera e cucina interna\n#wedding #locationmatrimoni",
@@ -188,10 +320,10 @@
    "events_found": 22,
    "followers": 6630,
    "kind": "venue",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -206,21 +338,91 @@
    "reads": 2,
    "website": "https://labassanina.it/"
   },
+  "le_bigodini": {
+   "bio": "@miss_elettra_bigodini_ \n@madame_lacleopatrick \nLE BIGODINI DRAG QUEEN 👑\nInfo e collaborazioni in DM ✉️",
+   "cands": 2,
+   "checked": "2026-11-19",
+   "followers": 2042,
+   "kind": "unknown",
+   "name": "Le Bigodini",
+   "readable": true,
+   "website": null
+  },
   "liveclub": {
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
    "checked": "2026-11-19",
    "events_found": 12,
-   "followers": 33391,
+   "followers": 33390,
    "kind": "venue",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "mentions": 1,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "https://www.liveclub.it/start/"
+  },
+  "maledetta.nostalgia": {
+   "bio": "Diventare grandi fa schifo :(\n📍14.11 Trezzo📍04.12 Padova 📍05.12 Treviso\nBooking 👉🏻 ciao@popcorngang.it",
+   "cands": 3,
+   "checked": "2026-11-19",
+   "followers": 82391,
+   "kind": "venue",
+   "name": "Maledetta Nostalgia",
+   "readable": true,
+   "website": "https://www.maledettanostalgia.it/"
+  },
+  "marlonmostaceromendoza": {
+   "cands": 2
+  },
+  "mercatocoperto_bergamo": {
+   "cands": 1
+  },
+  "missdivina1": {
+   "bio": "#missdivina  #divinabergamo 👑 Bergamo 🇮🇹 🇲🇨 DragQueenSinger ❤️Dal1991 mio il @divinabergamo  dedicato a Raffaella Carra'🇮🇹🏳️‍🌈🇲🇨 tiktok missdivina1",
+   "cands": 19,
+   "checked": "2026-11-19",
+   "followers": 127309,
+   "kind": "unknown",
+   "mentions": 2,
+   "name": "Miss DIVINA Fulvio Facchinetti",
+   "readable": true,
+   "website": "https://open.spotify.com/artist/4TLeeE4HJds7U1jNd78Rle?si=eSIZ_E6vQxa5jWGBW0gmYQ"
+  },
+  "naturalezza": {
+   "cands": 1
+  },
+  "night_sinners": {
+   "cands": 1
+  },
+  "ophelia.suicide": {
+   "cands": 2
+  },
+  "orlandobergamo": {
+   "cands": 1
+  },
+  "principessa11270": {
+   "bio": "",
+   "cands": 2,
+   "checked": "2026-11-19",
+   "followers": 3465,
+   "kind": "unknown",
+   "name": "isabella",
+   "readable": true,
+   "website": null
+  },
+  "prisca_cavalleri": {
+   "cands": 1
+  },
+  "psychedelia": {
+   "cands": 1
+  },
+  "retrovibesevents": {
+   "cands": 1,
+   "mentions": 1
   },
   "scalpo_punk": {
    "bio": "Raw Oi!-punk from Italy.\n______________________________",
+   "cands": 1,
    "checked": "2026-11-18",
    "followers": 1815,
    "kind": "unknown",
@@ -231,6 +433,7 @@
   },
   "sezione.8": {
    "bio": "LOMBARDIA (it) NEW WAVE OF POST OI \nNESCIT VOX MISSA REVERTI\nNuova intervista: https://www.punkadeka.it/quattro-chiacchiere-con-i-sezione-8/",
+   "cands": 1,
    "checked": "2026-11-18",
    "followers": 282,
    "kind": "unknown",
@@ -238,6 +441,31 @@
    "name": "Sezione 8",
    "readable": true,
    "website": null
+  },
+  "stevedanceproject": {
+   "cands": 1
+  },
+  "streeatfoodtruckfestival": {
+   "bio": "🚛 See you in 2027",
+   "cands": 4,
+   "checked": "2026-11-19",
+   "followers": 58280,
+   "kind": "promoter",
+   "name": "STREEAT Food Truck Festival",
+   "readable": true,
+   "watch": true,
+   "website": "http://www.streeatfoodtruckfestival.it"
+  },
+  "stunner.boyzz": {
+   "cands": 1
+  },
+  "theblankcontemporaryart": {
+   "cands": 1,
+   "mentions": 1
+  },
+  "to_on.tv": {
+   "cands": 2,
+   "mentions": 1
   },
   "tsunamiclub_": {
    "bio": "See you soon 🪩\nInfoline: 351 729 0245\nVia Statale 6, Osnago (LC)\nTicket e link utili👇🏻",
@@ -252,15 +480,19 @@
   },
   "tumulto_bg": {
    "bio": "organizzazione concerti , festival , casa editrice indipendente e etichetta discografica\nSince 2014\n@pier_tumulto",
+   "cands": 1,
    "checked": "2026-11-19",
-   "followers": 775,
+   "followers": 777,
    "kind": "promoter",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "mentions": 1,
    "name": "Tumulto",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "website": "https://www.facebook.com/tumultoconcerti/"
+  },
+  "velvet_shot": {
+   "cands": 1
   },
   "villaacquaroli": {
    "bio": "Location per matrimoni, eventi aziendali ed altri eventi di vario genere con esclusiva giornaliera e cucina interna. \n#wedding \n#locationmatrimonio",
@@ -290,29 +522,54 @@
   },
   "vintage.pitstop": {
    "bio": "Cars, culture, community • Bergamo\nPROSSIMO RADUNO: CHORUSLIFE 22 NOV\nTeam Mongol Rally 2027\nsponsor e collab: info@vintagepitstop.it",
+   "cands": 4,
    "checked": "2026-11-19",
    "events_found": 1,
-   "followers": 2713,
+   "followers": 2716,
    "kind": "promoter",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "mentions": 1,
    "name": "VPS",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "website": "https://forms.gle/wuX4mswv5M28NvHWA"
   },
   "worst.zine": {
    "bio": "𝗞𝗲𝗲𝗽 𝗧𝗵𝗲 𝗦𝗰𝗲𝗻𝗲 𝗢𝗿 𝗗𝗶𝗲 𝗧𝗿𝘆𝗶𝗻’\n𝗠𝘂𝘀𝗶𝗰 - 𝗔𝗿𝘁 - 𝗦𝘁𝗿𝗲𝗲𝘁 𝗖𝘂𝗹𝘁𝘂𝗿𝗲\n⬇️ LINKS ⬇️",
+   "cands": 3,
    "checked": "2026-11-19",
    "events_found": 3,
    "followers": 1872,
    "kind": "promoter",
-   "last_read": "2026-11-19T13:43+00:00",
+   "last_read": "2026-11-19T15:00+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://linktr.ee/worstzine"
+  },
+  "xand.rea": {
+   "bio": "🕷️Dark Lettering and Ornamental\n🕸️Milan, Italy\n🏴‍☠️Info and Booking DM\n🗡️Sponsored by @electricdormouse",
+   "cands": 3,
+   "checked": "2026-11-19",
+   "followers": 10669,
+   "kind": "artist",
+   "name": "xandy",
+   "readable": true,
+   "website": null
+  },
+  "zanirhello": {
+   "cands": 1
+  },
+  "zeb_horsemann": {
+   "bio": "Divulgo musica, creo video e vedo concerti.\nOrganizzatore e Dj di @blaster_event e @messa.night",
+   "cands": 4,
+   "checked": "2026-11-19",
+   "followers": 63378,
+   "kind": "artist",
+   "name": "Zeb Horsemann",
+   "readable": true,
+   "website": null
   }
  },
  "geocode": {
@@ -400,6 +657,12 @@
    "lon": 9.66303,
    "province": null
   },
+  "Via Treviglio 2058, Bergamo": {
+   "city": "Treviglio",
+   "lat": 45.54297,
+   "lon": 9.60125,
+   "province": null
+  },
   "Viale Papa Giovanni XXIII, 106, Bergamo": {
    "city": "Bergamo",
    "lat": 45.69161,
@@ -437,6 +700,7 @@
    "lon": 9.56507,
    "name": "Antico benessere",
    "osm": "node/11415610698",
+   "removed": true,
    "sources": [
     "osm"
    ],
@@ -469,7 +733,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6628,
+   "followers": 6630,
    "instagram": "lab80cinemas",
    "km": 0.5,
    "lat": 45.69566,
@@ -489,6 +753,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
    "followers": null,
+   "ig_guessed": "2026-11-19",
    "km": 14.1,
    "lat": 45.7046,
    "lon": 9.85834,
@@ -530,6 +795,7 @@
    "lat": 45.70435,
    "lon": 9.66322,
    "name": "Biblioteca Civica Angelo Mai di Bergamo",
+   "removed": true,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
@@ -548,6 +814,7 @@
    "lat": 45.68725,
    "lon": 9.66303,
    "name": "Biblioteca Tiraboschi - Sala Mimmo Boninelli",
+   "removed": true,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
@@ -559,7 +826,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 31631,
+   "followers": 31626,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -577,7 +844,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 124611,
+   "followers": 124632,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -597,6 +864,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
    "followers": null,
+   "ig_guessed": "2026-11-19",
    "km": 4.8,
    "lat": 45.69403,
    "lon": 9.6153,
@@ -718,7 +986,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67359,
+   "followers": 67361,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -782,7 +1050,7 @@
    "capacity_source": "stima",
    "city": "Grassobbio",
    "first_seen": "2026-11-18",
-   "followers": 17174,
+   "followers": 17173,
    "instagram": "divinabergamo",
    "km": 5.0,
    "lat": 45.65964,
@@ -840,7 +1108,7 @@
    "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 14649,
+   "followers": 14648,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
@@ -955,7 +1223,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33388,
+   "followers": 33390,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -1218,7 +1486,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6628,
+   "followers": 6630,
    "instagram": "lab80cinemas",
    "km": 0.7,
    "lat": 45.69728,
@@ -1405,6 +1673,26 @@
     "osm"
    ],
    "type": "club"
+  },
+  "via treviglio 2058 fara gera d adda": {
+   "address": "Via Treviglio 2058",
+   "aliases": [
+    "Via Treviglio 2058, Fara Gera d’Adda (BG)"
+   ],
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Treviglio",
+   "first_seen": "2026-11-19",
+   "followers": null,
+   "km": 18.3,
+   "lat": 45.54297,
+   "lon": 9.60125,
+   "name": "Via Treviglio 2058, Fara Gera d'Adda",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
   },
   "vibe": {
    "address": "Via Mohandas Karamchand Gandhi, 24048, Treviolo",
