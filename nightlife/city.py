@@ -58,12 +58,15 @@ class City:
     def _build(self) -> None:
         """Unisce l'anagrafica automatica con le conoscenze: quello che scrive una persona vince sempre."""
         self.venues: list[dict] = [dict(v) for v in self.registry["venues"].values() if not v.get("removed")]
+        self._index = None
         for patch in self.know.get("venues") or []:
             v = self.venue_named(patch.get("name"), exact=True) or (self.venue_by_handle(patch.get("instagram")) if patch.get("instagram") else None)
             if v is None:
                 v = {"name": patch["name"], "sources": ["conoscenze"]}
                 self.venues.append(v)
             v.update({k: x for k, x in patch.items() if x is not None})
+            if patch.get("remove"):   # "non è nightlife": il locale sparisce da tutto
+                self.venues.remove(v)
             self._index = None
         self.promoters: dict[str, dict] = {}
         for h, a in self.registry["accounts"].items():

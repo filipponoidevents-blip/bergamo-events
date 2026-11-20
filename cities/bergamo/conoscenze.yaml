@@ -6,6 +6,7 @@
 # venues:
 #   - {name: Bolgia, vote: 10, capacity: 3000, genre: Techno}
 #   - {name: Garota de Ipanema, genre: Latino, genre_always: true}
+#   - {name: Luxor Club, remove: true}            # non è nightlife: sparisce da tutto
 #   - {name: Zero Club, rooms: {main room: {vote: 10, capacity: 500}, club room: {vote: 6, capacity: 100}}}
 # promoters:
 #   - {name: The Box, instagram: theboxbergamo, genre: Tech House, vote: 7}
@@ -18,3 +19,6 @@
 # events:                                           # eventi che nessuna fonte pubblica
 #   - {date: 2026-11-21, start: "23:00", venue: Zero Club, party: Premiere, room: main room}
 seeds: []
+venues:
+  - {name: Kristall Night Club, remove: true}   # locale per adulti (Filippo, 20/11/2026)
+  - {name: Luxor Club, remove: true}            # locale per adulti (Filippo, 20/11/2026)
