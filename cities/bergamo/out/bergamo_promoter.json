@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-20T19:56",
+ "generated": "2026-11-20T21:02",
  "nights": [
   {
    "date": "2026-11-20",
@@ -267,7 +267,7 @@
    "note": null,
    "weekend_like": true,
    "events": 4,
-   "load": 168.3,
+   "load": 182.2,
    "level": "piena",
    "capacity_taken": 4350,
    "by_family": {
@@ -282,14 +282,14 @@
    ],
    "top": [
     {
+     "title": "[Disco / Rock] Druso · Savana Funk",
+     "score": 57.0,
+     "capacity": 1100
+    },
+    {
      "title": "Bolgia · MARIE VAUNT",
      "score": 50.2,
      "capacity": 1250
-    },
-    {
-     "title": "[Disco / Rock] Druso · Savana Funk",
-     "score": 43.1,
-     "capacity": 1100
     },
     {
      "title": "Zero Club · Cromaroom",

@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-20T19:56",
+ "generated": "2026-11-20T21:02",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -343,7 +343,7 @@
    ],
    "2026-11-22": [
     {
-     "line1": "Druso",
+     "line1": "Savana Funk @ Druso",
      "line2": "Jazz / Rock",
      "time": "18:00",
      "score": 54.5,
@@ -452,7 +452,7 @@
       "line1": "Savana Funk @ Druso",
       "line2": "Disco / Rock",
       "time": "00:00",
-      "score": 43.1,
+      "score": 57.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -631,17 +631,16 @@
    "@www.bloomnet",
    "@bowie.hc",
    "@door_74",
-   "@nouvellevague_tirana",
    "@please.nights",
    "@spettacoli",
    "@choruslife.bergamo",
    "@oroneroloveandmusic",
    "@consumazione",
    "@corinna_fm",
-   "@bolgia.official",
    "@drusobg",
    "@savana_funk",
    "@ozza.dj",
+   "@bolgia.official",
    "@tumulto_bg",
    "@scalpo_punk",
    "@calce.viva.oi",
@@ -650,7 +649,8 @@
    "@esse.pietro",
    "@federicoo_riva",
    "@marte.bandemergenti",
-   "@digitalispurpurea_"
+   "@digitalispurpurea_",
+   "@mudilva_"
   ],
   "hashtags": [
    "#bergamo",
@@ -973,7 +973,7 @@
       "line1": "Savana Funk @ Druso",
       "line2": "Disco / Rock",
       "time": "00:00",
-      "score": 43.1,
+      "score": 57.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1093,7 +1093,7 @@
    ],
    "2026-11-22": [
     {
-     "line1": "Druso",
+     "line1": "Savana Funk @ Druso",
      "line2": "Jazz / Rock",
      "time": "18:00",
      "score": 54.5,
@@ -1252,14 +1252,14 @@
    "@nikita__land",
    "@choruslife.bergamo",
    "@door_74",
-   "@nouvellevague_tirana",
    "@savana_funk",
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
    "@bobadillafeelingclub",
    "@cotd_iron_maiden",
-   "@the_big4_theory"
+   "@the_big4_theory",
+   "@unibg_party"
   ],
   "hashtags": [
    "#bergamo",
@@ -1387,7 +1387,7 @@
    "2026-12-25": [
     {
      "line1": "Druso",
-     "line2": "live",
+     "line2": "Rock",
      "time": "00:00",
      "score": 54.5,
      "fascia": "preserata",
@@ -1408,7 +1408,6 @@
    "@barleyartsreal",
    "@nikita__land",
    "@door_74",
-   "@nouvellevague_tirana",
    "@charlie.blackbird",
    "@drusobg"
   ],

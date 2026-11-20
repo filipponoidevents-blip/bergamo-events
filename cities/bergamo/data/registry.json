@@ -42,11 +42,32 @@
    "reads": 2,
    "website": "https://on.soundcloud.com/6DGe3ZkIhs9CMLhghL"
   },
+  "altafunicolare": {
+   "bio": "Bringing people together since 1887.\nIl timeless bistrot di Città Alta che unisce generazioni, culture, storie.",
+   "checked": "2026-11-20",
+   "events_found": 5,
+   "followers": 1527,
+   "kind": "venue",
+   "last_read": "2026-11-20T20:58+00:00",
+   "name": "Alta Funicolare",
+   "readable": true,
+   "reads": 1,
+   "website": "http://altafunicolare.it"
+  },
   "alternative": {
    "cands": 1,
    "checked": "2026-11-20",
    "mentions": 1,
    "readable": false
+  },
+  "amabergamo": {
+   "bio": "📲AmaBergAmo è un progetto social che diffonde la bellezza e l’unicità della terra bergamasca in ogni sua forma\n🏡Ti mostriamo i dettagli di Bergamo",
+   "checked": "2026-11-20",
+   "followers": 8578,
+   "kind": "venue",
+   "name": "AmaBergAmo",
+   "readable": true,
+   "website": null
   },
   "andrea_kor3": {
    "bio": "🎵🎶 parlo di metal che non conosci 🫵🏻\n⚡💀 divieto di gatekeeping 👌\n📤📩 kor3msg@gmail.com",
@@ -70,6 +91,9 @@
    "readable": true,
    "reads": 2,
    "website": null
+  },
+  "anpi_vimercate": {
+   "cands": 1
   },
   "antico_benessere": {
    "bio": "Un luogo, infinite esperienze.\nHotel • SPA • Ristorante • Eventi \nWedding & Corporate Events\nFara Gera d’Adda (BG)\n↓ Prenota la tua esperienza",
@@ -106,14 +130,17 @@
    "events_found": 20,
    "followers": 2473,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "ARYA",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://t.me/AryaLounge"
   },
   "assonica_": {
    "mentions": 1
+  },
+  "asst_brianza": {
+   "cands": 1
   },
   "attenzione": {
    "cands": 1,
@@ -197,11 +224,11 @@
    "events_found": 27,
    "followers": 13894,
    "kind": "promoter",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "mentions": 21,
    "name": "Barley Arts",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "watch": true,
    "website": "http://linktr.ee/barleyartsreal"
   },
@@ -217,19 +244,21 @@
   },
   "bloom_mezzago": {
    "bio": "Sviluppi incontrollati nel cuore della Brianza ⚡️",
+   "cands": 2,
    "checked": "2026-11-20",
    "events_found": 20,
-   "followers": 16263,
+   "followers": 16266,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
-   "mentions": 4,
+   "last_read": "2026-11-20T20:58+00:00",
+   "mentions": 5,
    "name": "B L O O M Dal 1987",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://linktr.ee/bloommezzago"
   },
   "bloomcinema_mezzago": {
-   "cands": 2
+   "cands": 4,
+   "mentions": 1
   },
   "bob_theotherside": {
    "bio": "A place where time stops.\nBeside @bob_isoladistrict\nMon - Sat | 19.00 - 2.00",
@@ -246,12 +275,12 @@
    "bio": "Il locale Storico di Bergamo✨\nRistorante: @bobadillaristorante\nDiscoteca: @bobadillafeelingclub \nAperitivo Domenica: @aperitivomartini",
    "checked": "2026-11-20",
    "events_found": 14,
-   "followers": 31627,
+   "followers": 31628,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 17,
+   "reads": 18,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
@@ -259,12 +288,12 @@
    "cands": 1,
    "checked": "2026-11-20",
    "events_found": 19,
-   "followers": 124729,
+   "followers": 124747,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 17,
+   "reads": 18,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
@@ -304,10 +333,10 @@
    "checked": "2026-11-20",
    "followers": 4521,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "Cafe Noir BG",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.cafenoirlounge.com"
   },
   "calce.viva.oi": {
@@ -402,12 +431,12 @@
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
    "checked": "2026-11-20",
    "events_found": 19,
-   "followers": 67447,
+   "followers": 67451,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 17,
+   "reads": 18,
    "website": "https://choruslife.com/it/"
   },
   "chris_bergson": {
@@ -505,18 +534,29 @@
    "cands": 1
   },
   "degustazione": {
+   "bio": "🍴| Dicas sobre restaurantes e gastronomia\n⠀⠀⠀⠀⠀⠀⠀⠀⠀\n🙋🏻‍♀️🙋🏼‍♂️| @larygoes @fellipe.quintanilha",
    "cands": 1,
-   "mentions": 7
+   "checked": "2026-11-20",
+   "followers": 178,
+   "kind": "unknown",
+   "mentions": 7,
+   "name": "Degustazione Di Due",
+   "readable": true,
+   "website": null
   },
   "delleali_teatro": {
    "bio": "🎭 Compagnia e residenza teatrale dal 1996, delleAli Teatro è: teatro ragazzi, teatro sonoro e teatro sociale.",
    "cands": 1,
    "checked": "2026-11-20",
+   "events_found": 5,
    "followers": 2375,
    "kind": "venue",
+   "last_read": "2026-11-20T20:58+00:00",
    "mentions": 3,
    "name": "delleAli Teatro",
    "readable": true,
+   "reads": 1,
+   "venue_done": true,
    "website": "http://www.delleali.it"
   },
   "digitalispurpurea_": {
@@ -601,10 +641,10 @@
    "events_found": 1,
    "followers": 2157,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "Drink Responsibly Club",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://g.co/kgs/wBWKzvJ"
   },
   "drusobg": {
@@ -702,7 +742,9 @@
   },
   "gruppoteatrobagai": {
    "cands": 3,
-   "mentions": 1
+   "checked": "2026-11-20",
+   "mentions": 1,
+   "readable": false
   },
   "harlem_bergamo": {
    "bio": "Hamburgeria 🍔🍸Cocktail Bar\n📆 Mar•Mer•Gio•Dom  18-00\n🕑 Ven•Sab 18-02\nCHIUSI IL LUNEDì\n📌Prenota il tuo tavolo chiamandoci dalle 18:00 📞0350030996",
@@ -738,12 +780,12 @@
    "cands": 5,
    "checked": "2026-11-20",
    "events_found": 5,
-   "followers": 11137,
+   "followers": 11136,
    "kind": "promoter",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "HiddenHell",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "watch": true,
    "website": "https://linktr.ee/HiddenHell"
   },
@@ -838,10 +880,10 @@
    "events_found": 7,
    "followers": 6022,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "Jam Live Studio",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://linktr.ee/jamlivestudio"
   },
   "jolie.bg": {
@@ -876,6 +918,9 @@
    "website": "https://www.acquaroli.it/location-matrimoni/la-corte-e-il-sogno"
   },
   "la.locanda.del.santo.bevitore": {
+   "cands": 1
+  },
+  "lab.librialbanco": {
    "cands": 1
   },
   "lab80cinemas": {
@@ -934,13 +979,13 @@
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
    "checked": "2026-11-20",
    "events_found": 12,
-   "followers": 33394,
+   "followers": 33400,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "mentions": 2,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 17,
+   "reads": 18,
    "website": "https://www.liveclub.it/start/"
   },
   "lotocafe": {
@@ -1103,8 +1148,15 @@
    "website": "http://nikita.land"
   },
   "nouvellevague_tirana": {
+   "bio": "A pioneering cocktail bar since 2012, blending local flavors with a fine twist.#Original\n@50bestbars #28\n@50bestbars EUROPE #16\n@top500bars #39",
    "cands": 1,
-   "mentions": 3
+   "checked": "2026-11-20",
+   "followers": 9623,
+   "kind": "venue",
+   "mentions": 3,
+   "name": "Nouvelle Vague Cocktail Bar",
+   "readable": true,
+   "website": "http://www.nouvellevaguetirana.com"
   },
   "oasi.night": {
    "bio": "OASI \nWhere the groove takes over.\nTech House •Groovy Tech House• House\n20/11 vibe club \n📍 Bergamo",
@@ -1124,6 +1176,11 @@
   "offline.raw": {
    "cands": 1
   },
+  "ommemusic": {
+   "checked": "2026-11-20",
+   "error": "110: Invalid user id",
+   "readable": false
+  },
   "ophelia.suicide": {
    "bio": "Death infused hardcore from Bergamo (IT)\nFirst Ep coming soon.",
    "cands": 2,
@@ -1141,12 +1198,12 @@
    "bio": "UPCOMING EVENTS:\n27/11: HARDCORE w/@lancinhousedj",
    "checked": "2026-11-20",
    "events_found": 7,
-   "followers": 7811,
+   "followers": 7812,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "name": "ORONERO",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": null
   },
   "ozza.dj": {
@@ -1156,6 +1213,17 @@
   "palmas.night": {
    "cands": 1,
    "mentions": 1
+  },
+  "pasticceria_alpino": {
+   "bio": "Siamo la tua pasticceria gelateria artigianale di fiducia! \nPer il tuo dolce momento di pausa 🥐🍨🎂🥧\n📌Viale rimembranze 21, Casirate d'Adda (BG)",
+   "checked": "2026-11-20",
+   "followers": 1647,
+   "kind": "venue",
+   "last_read": "2026-11-20T20:58+00:00",
+   "name": "Alpino Casirate d’Adda",
+   "readable": true,
+   "reads": 1,
+   "website": "https://www.pasticceria-alpino.com"
   },
   "pete_roth_trio": {
    "cands": 1
@@ -1211,21 +1279,28 @@
   "psychedelia": {
    "cands": 1
   },
+  "rares_materials": {
+   "cands": 1
+  },
   "redazione_bargiornale": {
    "cands": 1
+  },
+  "regionelombardia.official": {
+   "cands": 2,
+   "mentions": 1
   },
   "retrovibesevents": {
    "bio": "Creiamo eventi brandizzati nell'ambito di market di artigianato, vintage e collezionismo.",
    "cands": 2,
    "checked": "2026-11-20",
    "events_found": 6,
-   "followers": 3033,
+   "followers": 3034,
    "kind": "promoter",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "mentions": 4,
    "name": "Retro Vibes Events",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "watch": true,
    "website": "https://linktr.ee/retrovibes.events"
   },
@@ -1236,8 +1311,15 @@
    "cands": 3
   },
   "savana_funk": {
+   "bio": "SAVANA FUNK Grooving since 2015 💥                                   Booking: @antennamusicfactory \nTickets Club Tour👇",
    "cands": 2,
-   "mentions": 3
+   "checked": "2026-11-20",
+   "followers": 20004,
+   "kind": "artist",
+   "mentions": 3,
+   "name": "Savana Funk",
+   "readable": true,
+   "website": "https://linktr.ee/Savana_Funk"
   },
   "scalpo_punk": {
    "bio": "Raw Oi!-punk from Italy.\n______________________________",
@@ -1269,6 +1351,9 @@
    "website": null
   },
   "sloth.bg": {
+   "cands": 1
+  },
+  "sloworking.coworking": {
    "cands": 1
   },
   "sotto_traccia_eventi": {
@@ -1367,8 +1452,15 @@
    "website": "https://www.fourvenues.com/prmr/events/talk-07-11-2026-T05U"
   },
   "teatromiela_trieste": {
+   "bio": "🎭 Dal 1990 a Trieste un luogo per spettacoli, musica, incontri e altre instabilità\n🟨 Per divertirsi, riflettere e stupirsi\nLa stagione 2026/2027⭣",
    "cands": 1,
-   "mentions": 5
+   "checked": "2026-11-20",
+   "followers": 7917,
+   "kind": "venue",
+   "mentions": 5,
+   "name": "Teatro Miela",
+   "readable": true,
+   "website": "https://linktr.ee/teatromiela"
   },
   "the.circlehub": {
    "cands": 1,
@@ -1434,11 +1526,11 @@
    "checked": "2026-11-20",
    "followers": 777,
    "kind": "promoter",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "mentions": 1,
    "name": "Tumulto",
    "readable": true,
-   "reads": 13,
+   "reads": 14,
    "website": "https://www.facebook.com/tumultoconcerti/"
   },
   "unibg_party": {
@@ -1520,11 +1612,11 @@
    "events_found": 1,
    "followers": 2717,
    "kind": "promoter",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "mentions": 1,
    "name": "VPS",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "https://forms.gle/wuX4mswv5M28NvHWA"
   },
   "vintage_violence": {
@@ -1544,11 +1636,11 @@
    "events_found": 3,
    "followers": 1873,
    "kind": "promoter",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T20:58+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 10,
+   "reads": 11,
    "website": "https://linktr.ee/worstzine"
   },
   "www.bloomnet": {
@@ -1804,6 +1896,12 @@
    "lon": 9.62707,
    "province": null
   },
+  "delleAli Teatro, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.69508,
+   "lon": 9.67109,
+   "province": null
+  },
   "sPAZIO211, Bergamo": null
  },
  "google_checked": "2026-11-20",
@@ -1842,6 +1940,7 @@
    "lat": 45.68636,
    "lon": 9.66169,
    "name": "30 & Lode Bergamo",
+   "removed": false,
    "reviews": 93,
    "sources": [
     "google"
@@ -1859,12 +1958,14 @@
    "lat": 45.6731,
    "lon": 9.65886,
    "name": "A.r.c.i. Bergamo",
+   "removed": false,
    "reviews": 19,
    "sources": [
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.arcibergamo.it/"
+   "website": "http://www.arcibergamo.it/",
+   "website_checked": true
   },
   "aguadecoco": {
    "address": "Via Treviglio, 22, 24053 Brignano Gera d'Adda BG",
@@ -1877,6 +1978,7 @@
    "lat": 45.54055,
    "lon": 9.63893,
    "name": "Aguadecoco",
+   "removed": false,
    "reviews": 691,
    "sources": [
     "google"
@@ -1914,6 +2016,7 @@
    "lat": 45.5985,
    "lon": 9.42296,
    "name": "Al 10",
+   "removed": false,
    "reviews": 261,
    "sources": [
     "google"
@@ -1931,12 +2034,14 @@
    "lat": 45.70766,
    "lon": 9.59136,
    "name": "Alborghetti Events | musica e intrattenimento",
+   "removed": false,
    "reviews": 27,
    "sources": [
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.alborghettievents.com/"
+   "website": "http://www.alborghettievents.com/",
+   "website_checked": true
   },
   "alkimia food drink": {
    "address": "Via Trento, 2/A, 24048 Treviolo BG",
@@ -1969,67 +2074,79 @@
    "lat": 45.6975,
    "lon": 9.71696,
    "name": "Almadolce Caffetteria Pasticceria",
+   "removed": false,
    "reviews": 600,
    "sources": [
     "google"
    ],
    "type": "bar",
-   "website": "http://www.almapasticceria.it/"
+   "website": "http://www.almapasticceria.it/",
+   "website_checked": true
   },
   "alpino": {
    "address": "Viale Rimembranze, 21, 24040 Casirate D'adda BG",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 1.9,
+   "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 1647,
+   "instagram": "pasticceria_alpino",
    "km": 24.0,
    "lat": 45.49575,
    "lon": 9.56894,
    "name": "Alpino",
+   "removed": false,
    "reviews": 635,
    "sources": [
     "google"
    ],
    "type": "bar",
-   "website": "http://pasticceria-alpino.com/"
+   "website": "http://pasticceria-alpino.com/",
+   "website_checked": true
   },
   "alta funicolare": {
    "address": "Via Porta Dipinta, 1, 24129 Bergamo BG",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 1.8,
+   "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 1527,
+   "instagram": "altafunicolare",
    "km": 1.1,
    "lat": 45.70296,
    "lon": 9.66523,
    "name": "Alta Funicolare",
+   "removed": false,
    "reviews": 571,
    "sources": [
     "google"
    ],
    "type": "bar",
-   "website": "https://www.altafunicolare.it/"
+   "website": "https://www.altafunicolare.it/",
+   "website_checked": true
   },
   "ama club": {
    "address": "Via Provinciale, 166, 24059 Urgnano BG",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 5.9,
+   "capacity": 650,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 8578,
+   "ig_guessed": "2026-11-20",
+   "instagram": "amabergamo",
    "km": 9.5,
    "lat": 45.614,
    "lon": 9.69288,
    "name": "Ama Club",
+   "removed": false,
    "reviews": 446,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club",
-   "website": "https://www.amadeusdancing.it/"
+   "website": "https://www.amadeusdancing.it/",
+   "website_checked": true
   },
   "ambria music festival": {
    "address": "Via Piave, 6, 24019 Ambria-Spino BG",
@@ -2042,12 +2159,14 @@
    "lat": 45.80697,
    "lon": 9.67873,
    "name": "Ambria Music Festival",
+   "removed": false,
    "reviews": 236,
    "sources": [
     "google"
    ],
    "type": "live_club",
-   "website": "https://it-it.facebook.com/ambriamusicfestival/"
+   "website": "https://it-it.facebook.com/ambriamusicfestival/",
+   "website_checked": true
   },
   "animas group": {
    "address": "Via del Paradiso, 273, 24059 Urgnano BG",
@@ -2056,16 +2175,19 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "ommemusic",
    "km": 11.0,
    "lat": 45.60062,
    "lon": 9.69826,
    "name": "Animas Group",
+   "removed": false,
    "reviews": 299,
    "sources": [
     "google"
    ],
    "type": "live_club",
-   "website": "https://www.animasgroup.it/"
+   "website": "https://www.animasgroup.it/",
+   "website_checked": true
   },
   "antico benessere": {
    "address": "Via Treviglio 25",
@@ -2104,6 +2226,7 @@
    "lat": 45.59957,
    "lon": 9.42384,
    "name": "Arci Ornago Fabrizio de Andre",
+   "removed": false,
    "reviews": 2,
    "sources": [
     "google"
@@ -2121,6 +2244,7 @@
    "lat": 45.54972,
    "lon": 9.52713,
    "name": "Area Fara Rock",
+   "removed": false,
    "reviews": 225,
    "sources": [
     "google"
@@ -2179,6 +2303,7 @@
    "lat": 45.65151,
    "lon": 9.65327,
    "name": "Art Cafe' Snc di Nozza Giorgio & C",
+   "removed": false,
    "reviews": 210,
    "sources": [
     "google"
@@ -2215,6 +2340,7 @@
    "lat": 45.72387,
    "lon": 9.65733,
    "name": "Associazione Bandistica Musicale Vivace",
+   "removed": false,
    "reviews": 49,
    "sources": [
     "google"
@@ -2233,6 +2359,7 @@
    "lat": 45.60475,
    "lon": 9.4167,
    "name": "Associazione Culturale BHM",
+   "removed": false,
    "reviews": 167,
    "sources": [
     "google"
@@ -2251,6 +2378,7 @@
    "lat": 45.63863,
    "lon": 9.58833,
    "name": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
+   "removed": false,
    "sources": [
     "google"
    ],
@@ -2345,6 +2473,7 @@
    "lat": 45.69574,
    "lon": 9.67072,
    "name": "Balzer - Caffetteria Pasticceria Ristorante",
+   "removed": false,
    "reviews": 3397,
    "sources": [
     "google"
@@ -2381,6 +2510,7 @@
    "lat": 45.69231,
    "lon": 9.708,
    "name": "Bar Class",
+   "removed": false,
    "reviews": 338,
    "sources": [
     "google"
@@ -2437,6 +2567,7 @@
    "lat": 45.69336,
    "lon": 9.664,
    "name": "Bar Haiti",
+   "removed": false,
    "reviews": 923,
    "sources": [
     "google"
@@ -2455,6 +2586,7 @@
    "lat": 45.76266,
    "lon": 9.59028,
    "name": "Bar La Dogana",
+   "removed": false,
    "reviews": 303,
    "sources": [
     "google"
@@ -2472,6 +2604,7 @@
    "lat": 45.72371,
    "lon": 9.71816,
    "name": "Bar Le Torrette",
+   "removed": false,
    "reviews": 1059,
    "sources": [
     "google"
@@ -2490,6 +2623,7 @@
    "lat": 45.66922,
    "lon": 9.76598,
    "name": "Bar Marconi C.P. Di Cinesi Patrizia Snc",
+   "removed": false,
    "reviews": 171,
    "sources": [
     "google"
@@ -2507,6 +2641,7 @@
    "lat": 45.78149,
    "lon": 9.75257,
    "name": "Bar Marika",
+   "removed": false,
    "reviews": 496,
    "sources": [
     "google"
@@ -2544,6 +2679,7 @@
    "lat": 45.69399,
    "lon": 9.4813,
    "name": "Bar On Off",
+   "removed": false,
    "reviews": 776,
    "sources": [
     "google"
@@ -2562,6 +2698,7 @@
    "lat": 45.66791,
    "lon": 9.82632,
    "name": "Bar Pasticceria Capitanio",
+   "removed": false,
    "reviews": 148,
    "sources": [
     "google"
@@ -2579,6 +2716,7 @@
    "lat": 45.74668,
    "lon": 9.76683,
    "name": "Bar Pasticceria Dolci sogni",
+   "removed": false,
    "reviews": 233,
    "sources": [
     "google"
@@ -2597,6 +2735,7 @@
    "lat": 45.89077,
    "lon": 9.76986,
    "name": "Bar-Pasticceria-Gelateria- di Manenti",
+   "removed": false,
    "reviews": 356,
    "sources": [
     "google"
@@ -2634,6 +2773,7 @@
    "lat": 45.73366,
    "lon": 9.63677,
    "name": "Baricentro",
+   "removed": false,
    "reviews": 635,
    "sources": [
     "google"
@@ -2693,6 +2833,7 @@
    "lat": 45.73231,
    "lon": 9.63568,
    "name": "Barrito",
+   "removed": false,
    "reviews": 373,
    "sources": [
     "google"
@@ -2788,6 +2929,7 @@
    "lat": 45.69088,
    "lon": 9.81305,
    "name": "Birra 'n Banda",
+   "removed": false,
    "reviews": 158,
    "sources": [
     "google"
@@ -2801,7 +2943,7 @@
    "capacity": 900,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 16263,
+   "followers": 16266,
    "ig_guessed": "2026-11-20",
    "instagram": "bloom_mezzago",
    "km": 19.8,
@@ -2826,7 +2968,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 31627,
+   "followers": 31628,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -2851,7 +2993,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 124729,
+   "followers": 124747,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -2879,6 +3021,7 @@
    "lat": 45.66255,
    "lon": 9.67771,
    "name": "Bono' s bar",
+   "removed": false,
    "reviews": 368,
    "sources": [
     "google"
@@ -2935,6 +3078,7 @@
    "lat": 45.71101,
    "lon": 9.5917,
    "name": "Briolo Caffe | winebar con cucina",
+   "removed": false,
    "reviews": 546,
    "sources": [
     "google"
@@ -2952,6 +3096,7 @@
    "lat": 45.68678,
    "lon": 9.83576,
    "name": "Bum Bum Festival",
+   "removed": false,
    "reviews": 394,
    "sources": [
     "google"
@@ -2991,6 +3136,7 @@
    "lat": 45.48036,
    "lon": 9.69693,
    "name": "Cafe Roma",
+   "removed": false,
    "reviews": 574,
    "sources": [
     "google"
@@ -3009,6 +3155,7 @@
    "lat": 45.69221,
    "lon": 9.66111,
    "name": "Cafe triangolo",
+   "removed": false,
    "reviews": 104,
    "sources": [
     "google"
@@ -3046,6 +3193,7 @@
    "lat": 45.69419,
    "lon": 9.63116,
    "name": "Caffe Bazzini dal 1987 -Caffetteria Enoteca Cucina Gelateria",
+   "removed": false,
    "reviews": 988,
    "sources": [
     "google"
@@ -3064,6 +3212,7 @@
    "lat": 45.70625,
    "lon": 9.65919,
    "name": "Caffe Cittadella - Bergamo",
+   "removed": false,
    "reviews": 450,
    "sources": [
     "google"
@@ -3081,6 +3230,7 @@
    "lat": 45.7035,
    "lon": 9.67509,
    "name": "Caffe Degli Artisti",
+   "removed": false,
    "reviews": 215,
    "sources": [
     "google"
@@ -3099,6 +3249,7 @@
    "lat": 45.69637,
    "lon": 9.71435,
    "name": "Caffe e Salotto",
+   "removed": false,
    "reviews": 507,
    "sources": [
     "google"
@@ -3117,6 +3268,7 @@
    "lat": 45.52141,
    "lon": 9.59249,
    "name": "Caffe Milano",
+   "removed": false,
    "reviews": 423,
    "sources": [
     "google"
@@ -3134,6 +3286,7 @@
    "lat": 45.69896,
    "lon": 9.73794,
    "name": "Caffelatte",
+   "removed": false,
    "reviews": 72,
    "sources": [
     "google"
@@ -3151,6 +3304,7 @@
    "lat": 45.59028,
    "lon": 9.70923,
    "name": "Caffetteria Colleoni 2.0",
+   "removed": false,
    "reviews": 152,
    "sources": [
     "google"
@@ -3168,6 +3322,7 @@
    "lat": 45.57929,
    "lon": 9.70871,
    "name": "Caffetteria d'Elite di Rapizza Riccardo e C",
+   "removed": false,
    "reviews": 161,
    "sources": [
     "google"
@@ -3231,6 +3386,7 @@
    "lat": 45.69141,
    "lon": 9.56634,
    "name": "Capriccio Patisserie",
+   "removed": false,
    "reviews": 450,
    "sources": [
     "google"
@@ -3396,10 +3552,12 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-20",
    "km": 23.0,
    "lat": 45.52765,
    "lon": 9.51099,
    "name": "Champagne Club Snc Di Maccario Piero & C",
+   "removed": false,
    "reviews": 93,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3458,6 +3616,7 @@
    "lat": 45.73158,
    "lon": 9.60498,
    "name": "Chocolat Bistrot",
+   "removed": false,
    "reviews": 508,
    "sources": [
     "google"
@@ -3491,7 +3650,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67447,
+   "followers": 67451,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -3515,7 +3674,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-19",
-   "followers": 67447,
+   "followers": 67451,
    "instagram": "choruslife.bergamo",
    "km": 1.1,
    "lat": 45.7031,
@@ -3584,6 +3743,7 @@
    "lat": 45.65111,
    "lon": 9.85155,
    "name": "Circolo Arci",
+   "removed": false,
    "reviews": 5,
    "sources": [
     "google"
@@ -3602,6 +3762,7 @@
    "lat": 45.75628,
    "lon": 9.41513,
    "name": "Circolo Arci Ass. Amici Tino",
+   "removed": false,
    "reviews": 7,
    "sources": [
     "google"
@@ -3619,6 +3780,7 @@
    "lat": 45.66444,
    "lon": 9.43361,
    "name": "Circolo ARCI Pintupi",
+   "removed": false,
    "reviews": 113,
    "sources": [
     "google"
@@ -3637,6 +3799,7 @@
    "lat": 45.61356,
    "lon": 9.88401,
    "name": "Circolo Arci Quintano",
+   "removed": false,
    "reviews": 60,
    "sources": [
     "google"
@@ -3654,6 +3817,7 @@
    "lat": 45.80396,
    "lon": 9.43234,
    "name": "Circolo Arci Spazio Condiviso",
+   "removed": false,
    "reviews": 55,
    "sources": [
     "google"
@@ -3672,7 +3836,9 @@
    "lat": 45.69503,
    "lon": 9.67844,
    "name": "Circolo Artistico Bergamasco",
+   "removed": false,
    "reviews": 23,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -3690,6 +3856,7 @@
    "lat": 45.5702,
    "lon": 9.85232,
    "name": "Circolo Cooperativo A.R.C.A. Di Ricreazione E Cultura Soc. Coop. A R.L",
+   "removed": false,
    "reviews": 3,
    "sources": [
     "google"
@@ -3707,6 +3874,7 @@
    "lat": 45.69161,
    "lon": 9.66319,
    "name": "Circolo Culturale G. Greppi",
+   "removed": false,
    "reviews": 7,
    "sources": [
     "google"
@@ -3725,6 +3893,7 @@
    "lat": 45.71856,
    "lon": 9.73248,
    "name": "Circolo Culturale Ricreativo Per Anziani",
+   "removed": false,
    "reviews": 8,
    "sources": [
     "google"
@@ -3762,6 +3931,7 @@
    "lat": 45.66972,
    "lon": 9.95747,
    "name": "Circolo La Famiglia",
+   "removed": false,
    "reviews": 24,
    "sources": [
     "google"
@@ -3779,6 +3949,7 @@
    "lat": 45.80667,
    "lon": 9.40314,
    "name": "Circolo Ricreativo Arci",
+   "removed": false,
    "reviews": 68,
    "sources": [
     "google"
@@ -3817,6 +3988,7 @@
    "lat": 45.58197,
    "lon": 9.41929,
    "name": "Civico Corpo Musicale Bandistico - CCMB",
+   "removed": false,
    "reviews": 2,
    "sources": [
     "google"
@@ -3837,6 +4009,7 @@
    "name": "CLUB 369 MILANO",
    "removed": false,
    "reviews": 66,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -3855,7 +4028,9 @@
    "lat": 45.6907,
    "lon": 9.66773,
    "name": "Club G. Quarenghi Per L'Arte Cultura E Spettacolo",
+   "removed": false,
    "reviews": 4,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -3891,6 +4066,7 @@
    "lat": 45.57018,
    "lon": 9.76633,
    "name": "Comics Bar - Craft Beers",
+   "removed": false,
    "reviews": 243,
    "sources": [
     "google"
@@ -3949,6 +4125,7 @@
    "lat": 45.7953,
    "lon": 9.66825,
    "name": "Cremeria delle valli",
+   "removed": false,
    "reviews": 219,
    "sources": [
     "google"
@@ -3967,7 +4144,9 @@
    "lat": 45.69739,
    "lon": 9.6688,
    "name": "CULT! Diffusione culturale - Auditorium di Piazza della Liberta",
+   "removed": false,
    "reviews": 451,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -3985,6 +4164,7 @@
    "lat": 45.64124,
    "lon": 9.50951,
    "name": "D'Oc Cafe' 56 Di Innocenti Claudia",
+   "removed": false,
    "reviews": 323,
    "sources": [
     "google"
@@ -4022,6 +4202,7 @@
    "lat": 45.74746,
    "lon": 9.78752,
    "name": "Dama Pasticceria Forneria Caffetteria",
+   "removed": false,
    "reviews": 61,
    "sources": [
     "google"
@@ -4088,6 +4269,7 @@
    "lat": 45.69383,
    "lon": 9.70401,
    "name": "Daste Bergamo",
+   "removed": false,
    "reviews": 1231,
    "sources": [
     "google"
@@ -4106,6 +4288,7 @@
    "lat": 45.68688,
    "lon": 9.53867,
    "name": "DAUDA CAFE",
+   "removed": false,
    "reviews": 112,
    "sources": [
     "google"
@@ -4124,6 +4307,7 @@
    "lat": 45.66674,
    "lon": 9.53312,
    "name": "Decibel Club",
+   "removed": false,
    "reviews": 818,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4160,12 +4344,31 @@
    "lat": 45.60357,
    "lon": 9.69822,
    "name": "Delizie - Croissanteria, Gelateria, Pasticceria, Cocktail Bar",
+   "removed": false,
    "reviews": 1132,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "http://www.bardelizie.it/"
+  },
+  "delleali teatro": {
+   "auto_vote": 4.2,
+   "capacity": 300,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-20",
+   "followers": 2375,
+   "instagram": "delleali_teatro",
+   "km": 0.6,
+   "lat": 45.69508,
+   "lon": 9.67109,
+   "name": "delleAli Teatro",
+   "sources": [
+    "instagram"
+   ],
+   "type": "live_club",
+   "website": "http://www.delleali.it"
   },
   "disco kiss": {
    "address": "Via G.Marconi, 10, 24051 Antegnate BG",
@@ -4180,6 +4383,7 @@
    "name": "Disco Kiss",
    "removed": false,
    "reviews": 33,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -4236,6 +4440,8 @@
    "lat": 45.69017,
    "lon": 9.67242,
    "name": "District - Spazio Eventi",
+   "removed": false,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -4278,6 +4484,7 @@
    "lat": 45.69933,
    "lon": 9.73348,
    "name": "Dolce Pausa",
+   "removed": false,
    "reviews": 262,
    "sources": [
     "google"
@@ -4297,6 +4504,7 @@
    "lat": 45.68879,
    "lon": 9.69182,
    "name": "Door 74",
+   "removed": false,
    "sources": [
     "instagram"
    ],
@@ -4440,6 +4648,7 @@
    "lat": 45.66952,
    "lon": 9.9398,
    "name": "EGO BAR CAFFE&LOUNGE DRINK",
+   "removed": false,
    "reviews": 422,
    "sources": [
     "google"
@@ -4457,6 +4666,7 @@
    "lat": 45.66705,
    "lon": 9.80621,
    "name": "Estafestarock",
+   "removed": false,
    "reviews": 11,
    "sources": [
     "google"
@@ -4494,6 +4704,7 @@
    "lat": 45.51244,
    "lon": 9.5708,
    "name": "Fabbrica in Pedavena Treviglio",
+   "removed": false,
    "reviews": 3087,
    "sources": [
     "google"
@@ -4512,6 +4723,7 @@
    "lat": 45.74778,
    "lon": 9.58084,
    "name": "FantaBrass Quartet",
+   "removed": false,
    "reviews": 42,
    "sources": [
     "google"
@@ -4531,6 +4743,7 @@
    "name": "Fashion Antegnate",
    "removed": false,
    "reviews": 5,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -4566,6 +4779,7 @@
    "lat": 45.6081,
    "lon": 9.55556,
    "name": "Festa dell'Unita Brembate-Grignano-Filago",
+   "removed": false,
    "reviews": 204,
    "sources": [
     "google"
@@ -4584,6 +4798,7 @@
    "lat": 45.65098,
    "lon": 9.65303,
    "name": "Fiori a merenda",
+   "removed": false,
    "reviews": 398,
    "sources": [
     "google"
@@ -4621,6 +4836,7 @@
    "lat": 45.70708,
    "lon": 9.75649,
    "name": "Forneria Cortinovis. Panetteria, caffetteria, aperitivi, pasticceria",
+   "removed": false,
    "reviews": 1005,
    "sources": [
     "google"
@@ -4638,6 +4854,7 @@
    "lat": 45.7223,
    "lon": 9.70369,
    "name": "FR animation",
+   "removed": false,
    "reviews": 18,
    "sources": [
     "google"
@@ -4656,6 +4873,7 @@
    "lat": 45.52572,
    "lon": 9.51878,
    "name": "Frulleria cafe",
+   "removed": false,
    "reviews": 854,
    "sources": [
     "google"
@@ -4712,6 +4930,7 @@
    "lat": 45.66818,
    "lon": 9.81423,
    "name": "Gelateria Pasticceria Valcalepio",
+   "removed": false,
    "reviews": 648,
    "sources": [
     "google"
@@ -4747,6 +4966,7 @@
    "lat": 45.52665,
    "lon": 9.58594,
    "name": "Giancarlo",
+   "removed": false,
    "reviews": 224,
    "sources": [
     "google"
@@ -4764,6 +4984,7 @@
    "lat": 45.6887,
    "lon": 9.6645,
    "name": "Glamour Cafe",
+   "removed": false,
    "reviews": 453,
    "sources": [
     "google"
@@ -4781,6 +5002,7 @@
    "lat": 45.72835,
    "lon": 9.71633,
    "name": "Gli Zanni",
+   "removed": false,
    "reviews": 4,
    "sources": [
     "google"
@@ -4858,6 +5080,7 @@
    "name": "Hype Back Garden",
    "removed": false,
    "reviews": 18,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -4911,6 +5134,7 @@
    "lat": 45.6848,
    "lon": 9.67497,
    "name": "Il Circolino della Malpensata",
+   "removed": false,
    "reviews": 989,
    "sources": [
     "google"
@@ -4948,6 +5172,7 @@
    "lat": 45.69185,
    "lon": 9.56803,
    "name": "Il dolce forno di ALE & JAC",
+   "removed": false,
    "reviews": 332,
    "sources": [
     "google"
@@ -5026,6 +5251,7 @@
    "lat": 45.71075,
    "lon": 9.59949,
    "name": "Inno's Cafe",
+   "removed": false,
    "reviews": 969,
    "sources": [
     "google"
@@ -5043,6 +5269,7 @@
    "lat": 45.71295,
    "lon": 9.70413,
    "name": "Into the Woods",
+   "removed": false,
    "reviews": 1415,
    "sources": [
     "google"
@@ -5082,6 +5309,7 @@
    "lat": 45.52303,
    "lon": 9.59292,
    "name": "Jammin Vinyl Bar",
+   "removed": false,
    "reviews": 435,
    "sources": [
     "google"
@@ -5158,6 +5386,7 @@
    "lat": 45.69266,
    "lon": 9.61326,
    "name": "Keller Factory 2.0 - Live Music Pub",
+   "removed": false,
    "reviews": 2393,
    "sources": [
     "google"
@@ -5176,6 +5405,7 @@
    "lat": 45.7061,
    "lon": 9.60511,
    "name": "Kilimangiaro",
+   "removed": false,
    "reviews": 66,
    "search_checked": "2026-11-20",
    "sources": [
@@ -5251,6 +5481,7 @@
    "lat": 45.59992,
    "lon": 9.87961,
    "name": "La Base",
+   "removed": false,
    "reviews": 168,
    "sources": [
     "google"
@@ -5290,6 +5521,7 @@
    "lat": 45.70696,
    "lon": 9.49386,
    "name": "La Caffetteria Bar Paninoteca Gelateria",
+   "removed": false,
    "reviews": 76,
    "sources": [
     "google"
@@ -5348,6 +5580,7 @@
    "lat": 45.81452,
    "lon": 9.85774,
    "name": "La Dolce Pausa",
+   "removed": false,
    "reviews": 263,
    "sources": [
     "google"
@@ -5366,6 +5599,7 @@
    "lat": 45.70635,
    "lon": 9.65822,
    "name": "La Marianna - Bergamo",
+   "removed": false,
    "reviews": 10031,
    "sources": [
     "google"
@@ -5384,6 +5618,7 @@
    "lat": 45.6934,
    "lon": 9.61844,
    "name": "La Marianna Lab",
+   "removed": false,
    "reviews": 869,
    "sources": [
     "google"
@@ -5402,6 +5637,7 @@
    "lat": 45.6946,
    "lon": 9.66662,
    "name": "La Nina Centro",
+   "removed": false,
    "reviews": 292,
    "sources": [
     "google"
@@ -5419,6 +5655,7 @@
    "lat": 45.63715,
    "lon": 9.886,
    "name": "La Pasticceria di Dario",
+   "removed": false,
    "reviews": 721,
    "sources": [
     "google"
@@ -5437,6 +5674,7 @@
    "lat": 45.67318,
    "lon": 9.66145,
    "name": "La Plaza",
+   "removed": false,
    "reviews": 637,
    "sources": [
     "google"
@@ -5455,6 +5693,7 @@
    "lat": 45.75962,
    "lon": 9.81891,
    "name": "La Sosta Cafe",
+   "removed": false,
    "reviews": 488,
    "sources": [
     "google"
@@ -5513,6 +5752,7 @@
    "lat": 45.68434,
    "lon": 9.82339,
    "name": "Le Golosie",
+   "removed": false,
    "reviews": 411,
    "sources": [
     "google"
@@ -5567,6 +5807,7 @@
    "lat": 45.63275,
    "lon": 9.57865,
    "name": "Libera La Festa",
+   "removed": false,
    "reviews": 66,
    "sources": [
     "google"
@@ -5599,7 +5840,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33394,
+   "followers": 33400,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -5624,6 +5865,7 @@
    "lat": 45.59904,
    "lon": 9.51688,
    "name": "Live Music Club",
+   "removed": false,
    "reviews": 3433,
    "sources": [
     "google"
@@ -5684,6 +5926,7 @@
    "lat": 45.71953,
    "lon": 9.55455,
    "name": "Losa Break Lab",
+   "removed": false,
    "reviews": 397,
    "sources": [
     "google"
@@ -5702,6 +5945,7 @@
    "lat": 45.71744,
    "lon": 9.57928,
    "name": "Loto Cafe",
+   "removed": false,
    "reviews": 578,
    "sources": [
     "google"
@@ -5756,6 +6000,7 @@
    "lat": 45.56874,
    "lon": 9.56741,
    "name": "LOUNGE BAR VERONICA",
+   "removed": false,
    "reviews": 15,
    "sources": [
     "google"
@@ -5848,6 +6093,7 @@
    "lat": 45.61777,
    "lon": 9.45498,
    "name": "Mais - Pasticceria Gelateria Caffetteria",
+   "removed": false,
    "reviews": 1785,
    "sources": [
     "google"
@@ -5866,6 +6112,7 @@
    "lat": 45.70513,
    "lon": 9.66158,
    "name": "MAITE",
+   "removed": false,
    "reviews": 220,
    "sources": [
     "google"
@@ -5883,6 +6130,7 @@
    "lat": 45.6961,
    "lon": 9.69324,
    "name": "MAJORELLE LOUNGE BAR & NARGHILE",
+   "removed": false,
    "reviews": 30,
    "sources": [
     "google"
@@ -5900,6 +6148,7 @@
    "lat": 45.61618,
    "lon": 9.75862,
    "name": "Malpaga Sounds Music Fest",
+   "removed": false,
    "reviews": 78,
    "sources": [
     "google"
@@ -5937,6 +6186,7 @@
    "lat": 45.7317,
    "lon": 9.49823,
    "name": "Matinee Bar Pontida",
+   "removed": false,
    "reviews": 599,
    "sources": [
     "google"
@@ -5992,6 +6242,7 @@
    "lat": 45.71971,
    "lon": 9.57906,
    "name": "MG2 Pasticceria Caffetteria",
+   "removed": false,
    "reviews": 297,
    "sources": [
     "google"
@@ -6048,6 +6299,7 @@
    "lat": 45.55546,
    "lon": 9.62326,
    "name": "Moon Cafe",
+   "removed": false,
    "reviews": 200,
    "sources": [
     "google"
@@ -6084,6 +6336,7 @@
    "lat": 45.64025,
    "lon": 9.68687,
    "name": "Morlacchi - Premiata Pasticceria Artigianale",
+   "removed": false,
    "reviews": 2247,
    "sources": [
     "google"
@@ -6102,6 +6355,7 @@
    "lat": 45.69901,
    "lon": 9.73796,
    "name": "Morotti Monica Maria",
+   "removed": false,
    "reviews": 201,
    "sources": [
     "google"
@@ -6119,7 +6373,9 @@
    "lat": 45.68991,
    "lon": 9.6722,
    "name": "MOSS: Punto di Contatto - Eventi",
+   "removed": false,
    "reviews": 28,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -6137,6 +6393,7 @@
    "lat": 45.59498,
    "lon": 9.57559,
    "name": "Mulino Fiori e Caffe",
+   "removed": false,
    "reviews": 941,
    "sources": [
     "google"
@@ -6173,6 +6430,7 @@
    "lat": 45.5339,
    "lon": 9.70514,
    "name": "Musica dal Vivo Bergamo HP Music",
+   "removed": false,
    "reviews": 8,
    "sources": [
     "google"
@@ -6255,6 +6513,7 @@
    "lat": 45.73293,
    "lon": 9.62881,
    "name": "Ninfea Social Club",
+   "removed": false,
    "reviews": 294,
    "sources": [
     "google"
@@ -6293,6 +6552,7 @@
    "lat": 45.63613,
    "lon": 9.90266,
    "name": "Non solo caffe",
+   "removed": false,
    "reviews": 148,
    "sources": [
     "google"
@@ -6329,6 +6589,7 @@
    "lat": 45.69197,
    "lon": 9.67361,
    "name": "NXT Bergamo",
+   "removed": false,
    "reviews": 295,
    "search_checked": "2026-11-20",
    "sources": [
@@ -6404,6 +6665,7 @@
    "lat": 45.63824,
    "lon": 9.88749,
    "name": "Officina Caffe",
+   "removed": false,
    "reviews": 262,
    "sources": [
     "google"
@@ -6422,6 +6684,7 @@
    "lat": 45.65716,
    "lon": 9.72281,
    "name": "Ol Forner Bar Pasticceria",
+   "removed": false,
    "reviews": 208,
    "sources": [
     "google"
@@ -6459,6 +6722,7 @@
    "lat": 45.73863,
    "lon": 9.66881,
    "name": "ONEMUSIC",
+   "removed": false,
    "reviews": 164,
    "sources": [
     "google"
@@ -6477,6 +6741,7 @@
    "lat": 45.70601,
    "lon": 9.49434,
    "name": "Organo T.C.Lewis | Sotto il Monte Giovanni XXIII",
+   "removed": false,
    "reviews": 5,
    "sources": [
     "google"
@@ -6510,7 +6775,7 @@
    "capacity_source": "stima",
    "city": "Nembro",
    "first_seen": "2026-11-18",
-   "followers": 7811,
+   "followers": 7812,
    "ig_guessed": "2026-11-19",
    "instagram": "oroneroloveandmusic",
    "km": 10.1,
@@ -6634,6 +6899,7 @@
    "lat": 45.51699,
    "lon": 9.58937,
    "name": "Paolo Riva",
+   "removed": false,
    "reviews": 1815,
    "sources": [
     "google"
@@ -6671,6 +6937,7 @@
    "lat": 45.63831,
    "lon": 9.59173,
    "name": "Paprika Jazz Club",
+   "removed": false,
    "reviews": 209,
    "sources": [
     "google"
@@ -6688,6 +6955,7 @@
    "lat": 45.87497,
    "lon": 9.73021,
    "name": "Pasticceria Bar La Sirena",
+   "removed": false,
    "reviews": 727,
    "sources": [
     "google"
@@ -6707,6 +6975,7 @@
    "lat": 45.7332,
    "lon": 9.60441,
    "name": "Pasticceria Bardoni",
+   "removed": false,
    "reviews": 202,
    "sources": [
     "google"
@@ -6724,6 +6993,7 @@
    "lat": 45.78616,
    "lon": 9.75726,
    "name": "Pasticceria Caffetteria Gelateria Del Piccinini",
+   "removed": false,
    "reviews": 403,
    "sources": [
     "google"
@@ -6741,6 +7011,7 @@
    "lat": 45.69701,
    "lon": 9.7391,
    "name": "Pasticceria Florian",
+   "removed": false,
    "reviews": 2305,
    "sources": [
     "google"
@@ -6759,6 +7030,7 @@
    "lat": 45.64484,
    "lon": 9.40888,
    "name": "Pasticceria Golosa",
+   "removed": false,
    "reviews": 512,
    "sources": [
     "google"
@@ -6776,6 +7048,7 @@
    "lat": 45.60202,
    "lon": 9.69785,
    "name": "Pasticceria Melograno Urgnano",
+   "removed": false,
    "reviews": 3388,
    "sources": [
     "google"
@@ -6794,6 +7067,7 @@
    "lat": 45.68471,
    "lon": 9.71663,
    "name": "Pasticceria Norma",
+   "removed": false,
    "reviews": 269,
    "sources": [
     "google"
@@ -6812,6 +7086,7 @@
    "lat": 45.66896,
    "lon": 9.63632,
    "name": "PDF Motociclette",
+   "removed": false,
    "reviews": 1014,
    "sources": [
     "google"
@@ -6829,6 +7104,7 @@
    "lat": 45.70574,
    "lon": 9.6847,
    "name": "Petit - Antica Caffetteria Del Borgo",
+   "removed": false,
    "reviews": 25,
    "sources": [
     "google"
@@ -6902,6 +7178,7 @@
    "lat": 45.73244,
    "lon": 9.63925,
    "name": "Ploom Reseller - Bar Breakfast",
+   "removed": false,
    "reviews": 23,
    "sources": [
     "google"
@@ -6919,6 +7196,7 @@
    "lat": 45.60489,
    "lon": 9.63105,
    "name": "PLOOM RESELLER -Il Barettino",
+   "removed": false,
    "reviews": 252,
    "sources": [
     "google"
@@ -6936,6 +7214,7 @@
    "lat": 45.64691,
    "lon": 9.84365,
    "name": "Polo Fieristico",
+   "removed": false,
    "reviews": 11,
    "sources": [
     "google"
@@ -6953,6 +7232,7 @@
    "lat": 45.62077,
    "lon": 9.47321,
    "name": "Portello Caffe Busnago Globo",
+   "removed": false,
    "reviews": 653,
    "sources": [
     "google"
@@ -6972,6 +7252,7 @@
    "lat": 45.59222,
    "lon": 9.83411,
    "name": "Posto Fisso Cocktail Bar",
+   "removed": false,
    "reviews": 307,
    "sources": [
     "google"
@@ -7122,6 +7403,7 @@
    "lat": 45.66521,
    "lon": 9.63445,
    "name": "Re Caffe Scudeletti",
+   "removed": false,
    "reviews": 469,
    "sources": [
     "google"
@@ -7140,6 +7422,7 @@
    "lat": 45.51266,
    "lon": 9.58943,
    "name": "Revel Treviglio",
+   "removed": false,
    "reviews": 1136,
    "sources": [
     "google"
@@ -7176,6 +7459,7 @@
    "lat": 45.70808,
    "lon": 9.67477,
    "name": "Rio Bar",
+   "removed": false,
    "reviews": 1100,
    "sources": [
     "google"
@@ -7233,6 +7517,7 @@
    "lat": 45.72245,
    "lon": 9.73592,
    "name": "Rock sul Serio",
+   "removed": false,
    "reviews": 215,
    "sources": [
     "google"
@@ -7394,6 +7679,7 @@
    "lat": 45.81578,
    "lon": 9.86969,
    "name": "Societa di Mutuo Soccorso Circolo Fratellanza",
+   "removed": false,
    "reviews": 183,
    "sources": [
     "google"
@@ -7411,6 +7697,7 @@
    "lat": 45.61025,
    "lon": 9.52234,
    "name": "Societa Operaia del Mutuo Soccorso",
+   "removed": false,
    "reviews": 50,
    "sources": [
     "google"
@@ -7467,6 +7754,7 @@
    "lat": 45.6605,
    "lon": 9.65194,
    "name": "Spazio Eventi Kilometro Rosso",
+   "removed": false,
    "reviews": 407,
    "sources": [
     "google"
@@ -7485,6 +7773,7 @@
    "lat": 45.67329,
    "lon": 9.38929,
    "name": "Spazio Fabrizio De Andre",
+   "removed": false,
    "reviews": 21,
    "sources": [
     "google"
@@ -7521,6 +7810,7 @@
    "lat": 45.69084,
    "lon": 9.63409,
    "name": "Spazio Polaresco",
+   "removed": false,
    "reviews": 557,
    "sources": [
     "google"
@@ -7558,6 +7848,7 @@
    "lat": 45.56217,
    "lon": 9.50009,
    "name": "Sweetandsour",
+   "removed": false,
    "reviews": 18,
    "sources": [
     "google"
@@ -7576,6 +7867,7 @@
    "lat": 45.56125,
    "lon": 9.543,
    "name": "Switch cafe",
+   "removed": false,
    "reviews": 230,
    "sources": [
     "google"
@@ -7593,6 +7885,7 @@
    "lat": 45.6933,
    "lon": 9.66386,
    "name": "Tassino Cafe",
+   "removed": false,
    "reviews": 1228,
    "sources": [
     "google"
@@ -7667,7 +7960,9 @@
    "lat": 45.62126,
    "lon": 9.96841,
    "name": "Teatro Mucchetti",
+   "removed": false,
    "reviews": 542,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -7822,6 +8117,7 @@
    "lat": 45.66663,
    "lon": 9.63343,
    "name": "The Bros Pastry Lab",
+   "removed": false,
    "reviews": 346,
    "sources": [
     "google"
@@ -7933,6 +8229,7 @@
    "lat": 45.689,
    "lon": 9.54613,
    "name": "Towers' Cafe",
+   "removed": false,
    "reviews": 209,
    "sources": [
     "google"
@@ -7950,6 +8247,7 @@
    "lat": 45.51877,
    "lon": 9.70656,
    "name": "TPA Bar, Grill & Music",
+   "removed": false,
    "reviews": 125,
    "sources": [
     "google"
@@ -7987,6 +8285,7 @@
    "lat": 45.69057,
    "lon": 9.68537,
    "name": "Trex Ristoforno caffe",
+   "removed": false,
    "reviews": 3612,
    "sources": [
     "google"
@@ -8023,6 +8322,7 @@
    "lat": 45.70837,
    "lon": 9.60504,
    "name": "UFO",
+   "removed": false,
    "reviews": 467,
    "sources": [
     "google"
@@ -8425,6 +8725,7 @@
    "lat": 45.68477,
    "lon": 9.45962,
    "name": "Zoom Cafe",
+   "removed": false,
    "reviews": 638,
    "sources": [
     "google"
