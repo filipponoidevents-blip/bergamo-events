@@ -28,6 +28,12 @@ Ogni voce vale 0-10, poi media pesata.
 - Ospite: DJ "top" 10, "notable" 8, altrimenti dai follower del profilo taggato. Un nome non taggato e non in lista vale 0.
 - Una seconda sala (club room, lab room...) vale il 60% del locale.
 
+## Scoperta di locali e promoter
+- Locali: OpenStreetMap, Google Maps (una volta al mese, se c'è la chiave), siti dei locali, profili Instagram che sono locali.
+- Promoter: profili citati nei post letti (anche senza @), controllati per nome, biografia e follower; seguiti se citati almeno 2 volte.
+- Pagine nightlife della città (es. @nightlifebergamo), trovate provando i nomi tipici: si leggono solo per scoprire promoter e locali, mai come fonte del calendario. Un promoter citato lì viene seguito subito.
+- Esclusi: scuole di ballo, sale per matrimoni, sale slot, locali per adulti.
+
 ## Capienza
 Quella scritta (OpenStreetMap o `conoscenze.yaml`), altrimenti una stima: discoteca 500, live club 400, open air 1000, bar 80,
 corretta con i follower. Nel file si vede se è "dichiarata" o "stima".

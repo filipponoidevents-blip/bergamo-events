@@ -93,7 +93,7 @@ class Instagram:
         today = datetime.now(timezone.utc)
         def due(h):
             a = accounts.get(h, {})
-            quiet = a.get("reads", 0) >= 2 and not a.get("events_found") and a.get("kind") != "promoter" and not (self.city.venue_by_handle(h) or {}).get("vote")
+            quiet = a.get("reads", 0) >= 2 and not a.get("events_found") and a.get("kind") not in ("promoter", "scout") and not (self.city.venue_by_handle(h) or {}).get("vote")
             last = a.get("last_read") or ""
             return not (quiet and last and (today - datetime.fromisoformat(last)).days < 30)
         order = [h for h in self.city.watch_list() if due(h)]
@@ -136,6 +136,7 @@ class Instagram:
         if not stop:
             self._lookups()
             self._guess_venues()
+            self._city_pages()
             if self.cfg.get("hashtags"):   # spento di base: in zona gli hashtag si usano poco e Meta non dà il permesso
                 self._hashtags()
         cutoff = (today - max_age - timedelta(days=30)).isoformat()
@@ -182,7 +183,7 @@ class Instagram:
         for h in pending[:budget]:
             try:
                 acc = self._profile(h, self._get(h, with_media=False))
-                if acc.get("kind") == "promoter" and (acc.get("cands") or 0) + (acc.get("mentions") or 0) >= self.city.settings["instagram"]["auto_watch_after"]:
+                if acc.get("kind") == "promoter" and (acc.get("via_scout") or (acc.get("cands") or 0) + (acc.get("mentions") or 0) >= self.city.settings["instagram"]["auto_watch_after"]):
                     acc["watch"] = True
             except Exception as e:  # noqa: BLE001
                 if re.search(r"\b(?:4|17|32|613)\b:|limit", str(e)):
@@ -195,6 +196,7 @@ class Instagram:
         o dalla parola prima (by, con, feat, presenta...). Poi _lookups li controlla uno per uno."""
         accounts = self.city.registry["accounts"]
         count: dict[str, int] = {}
+        via_scout: set[str] = set()
         for post in self.posts.values():
             text = plain(post.get("caption") or "")
             low = text.lower()
@@ -210,8 +212,12 @@ class Instagram:
                 if len(h) < 4 or NOT_HANDLE.search(h) or h == post.get("account"):
                     continue
                 count[h] = count.get(h, 0) + 1
+                if accounts.get(post.get("account"), {}).get("kind") == "scout":
+                    via_scout.add(h)
         for h, n in count.items():
             accounts.setdefault(h, {})["cands"] = n
+            if h in via_scout:
+                accounts[h]["via_scout"] = True
 
     def _guess_venues(self, max_calls: int = 6) -> None:
         """Locali trovati sulla mappa ma senza Instagram: prova i nomi utente più probabili (nikitaclub, nikita.bergamo...)
@@ -248,3 +254,38 @@ class Instagram:
                     v["instagram"] = h
                     self.problems.append(f"Trovato Instagram di {v['name']}: @{h}.")
                     break
+
+    def _city_pages(self, max_calls: int = 6) -> None:
+        """Pagine che raccontano la nightlife della città (es. @nightlifebergamo): lì si incrociano tanti promoter.
+        Prova i nomi tipici, tiene solo quelle che parlano della città e di serate. Si leggono SOLO per scoprire
+        promoter e locali (tipo "scout"): i loro post non entrano mai nel calendario."""
+        accounts = self.city.registry["accounts"]
+        state = self.city.registry.setdefault("city_pages", {"tried": []})
+        slug = norm(self.city.c["name"]).replace(" ", "")
+        own = ((self.city.c.get("page") or {}).get("handle") or "").lower().lstrip("@")
+        names = [f"nightlife{slug}", f"{slug}nightlife", f"nightlife_{slug}", f"nightlife.{slug}", f"serate{slug}", f"{slug}serate",
+                 f"{slug}bynight", f"{slug}_by_night", f"movida{slug}", f"{slug}movida", f"eventi{slug}", f"{slug}eventi",
+                 f"{slug}night", f"{slug}clubbing", f"clubbing{slug}", f"party{slug}", f"{slug}party", f"discoteche{slug}", f"{slug}discoteche"]
+        calls = 0
+        for h in names:
+            if calls >= max_calls:
+                break
+            if h in state["tried"] or h == own:
+                continue
+            state["tried"].append(h)
+            if accounts.get(h, {}).get("checked"):
+                bd = {"username": h, "name": accounts[h].get("name"), "biography": accounts[h].get("bio")}
+            else:
+                calls += 1
+                try:
+                    bd = self._get(h, with_media=False)
+                except Exception as e:  # noqa: BLE001
+                    if re.search(r"\b(?:4|17|32|613)\b:|limit", str(e)):
+                        state["tried"].remove(h)
+                        return
+                    continue
+            text = norm(f"{bd.get('username')} {bd.get('name')} {bd.get('biography')}")
+            if slug in text.replace(" ", "") and re.search(r"\b(?:nightlife|night|serate|serata|eventi|party|club|clubbing|movida|discoteche|disco)\b", text):
+                acc = self._profile(h, bd) if "followers_count" in bd else accounts[h]
+                acc.update({"kind": "scout", "watch": True})
+                self.problems.append(f"Pagina nightlife della città trovata: @{h} (letta solo per scoprire promoter e locali).")

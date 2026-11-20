@@ -49,8 +49,9 @@ def collect(city: City, online: bool = True) -> tuple[list[dict], list[str]]:
     raws: list[dict] = [e for v in web.values() for e in v]
     hidden_posts = {str(h["post"]) for h in city.know.get("hide") or [] if h.get("post")}
     found = Counter()
+    scouts = {h for h, a in city.registry["accounts"].items() if a.get("kind") == "scout"}
     for pid, post in ig.posts.items():
-        if pid in hidden_posts:
+        if pid in hidden_posts or post["account"] in scouts:   # le pagine "scout" servono solo a scoprire profili
             continue
         evs = reader.read(post["caption"], when=datetime.fromisoformat(post["at"]), account=post["account"], url=post.get("permalink"))
         for e in evs:
