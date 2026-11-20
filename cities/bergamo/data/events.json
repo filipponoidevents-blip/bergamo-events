@@ -565,9 +565,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 5950,
-   "events_same_night": 6,
-   "same_family": 6,
+   "capacity_same_night": 6550,
+   "events_same_night": 8,
+   "same_family": 8,
    "strongest_rival": "Barley Arts @ Live Club"
   },
   "confidence": 0.95,
@@ -594,7 +594,7 @@
   ],
   "headliner": null,
   "id": "2026-11-20-arya_lounge_bar",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/907470830_17916986103513946_3684887603819229354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LvTizoBUvHMQ7kNvwGdyArs&_nc_oc=AdpQp6FchnHqmLjobBEjy-F3eRqLSPapRxU66joWzaBBDuQRCzRULoQXhVyDRvFOZWg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fNd6RHb2VS2tRPNPgm4TsQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTdMsrUThFqiO49d67BzOUO-E52zeXoYvMniz_G4Z7u3Q&oe=6B06570B",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/907470830_17916986103513946_3684887603819229354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LvTizoBUvHMQ7kNvwGxoDkB&_nc_oc=Adr32qsnLiBfQO7Kch0dAFamW8pXcXYiKacWkZs0P4dly1njPslCyBea-P6fMy8eiuU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=dt0vMzIjuI5btTGFM8JvkQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRe0nhsciybUGaf_6HFuj0Duu3vXqfBWuFkz3Ad5p93eQ&oe=6B06570B",
   "in_posts": true,
   "km": 20.2,
   "lead_days": 4,
@@ -605,7 +605,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 7,
+  "rank_in_night": 9,
   "room": null,
   "scope": "zona",
   "score": 10.8,
@@ -635,6 +635,125 @@
   "venue_type": "bar",
   "weekday": "venerdì"
  },
+ "2026-11-20-bloom-pre": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.9,
+  "date": "2026-11-20",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 21:00",
+  "first_seen": "2026-11-20",
+  "genre": "Rock",
+  "genre_source": "post",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "lateres_ets",
+    "level": null,
+    "name": "lateres_ets"
+   },
+   {
+    "followers": null,
+    "instagram": "maschileplurale_",
+    "level": null,
+    "name": "maschileplurale_"
+   },
+   {
+    "followers": null,
+    "instagram": "donnedemocratichemezzago",
+    "level": null,
+    "name": "donnedemocratichemezzago"
+   },
+   {
+    "followers": null,
+    "instagram": "delleali_teatro",
+    "level": null,
+    "name": "delleali_teatro"
+   },
+   {
+    "followers": null,
+    "instagram": "muffx.band",
+    "level": null,
+    "name": "muffx.band"
+   },
+   {
+    "followers": null,
+    "instagram": "stage_jump",
+    "level": null,
+    "name": "stage_jump"
+   },
+   {
+    "followers": null,
+    "instagram": "importanti",
+    "level": null,
+    "name": "importanti"
+   },
+   {
+    "followers": null,
+    "instagram": "alternative",
+    "level": null,
+    "name": "alternative"
+   }
+  ],
+  "handles": [
+   "alternative",
+   "bloom_mezzago",
+   "delleali_teatro",
+   "donnedemocratichemezzago",
+   "importanti",
+   "lateres_ets",
+   "maschileplurale_",
+   "muffx.band",
+   "stage_jump"
+  ],
+  "headliner": null,
+  "id": "2026-11-20-bloom-pre",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/905847864_18652422415014819_3760840850590642347_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=r2jFhhGuFkUQ7kNvwF05Mg3&_nc_oc=AdpqpKS5o1vigM-ibQaSzF6UNrwRh_HAdjPL1BZGXx5MsyFNwEJXsEkrCKkbvrCZaUU&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS95YOjff76411QZyls3Hjn6q6XnYk6U209O4YzmukZxA&oe=6B067C15",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 9,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-11T16:26+00:00",
+  "price": 4,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "21:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "culture",
+  "urls": [
+   "https://www.instagram.com/p/DfzBdzLjP7Z/",
+   "https://www.instagram.com/p/Dfm6GgmDCwK/",
+   "https://www.instagram.com/p/Df9Cr7WjImu/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "venerdì"
+ },
  "2026-11-20-bobadilla_feeling_club": {
   "address": "Via Pascolo, 34, 24044 Dalmine BG",
   "brand": null,
@@ -642,9 +761,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4750,
-   "events_same_night": 6,
-   "same_family": 6,
+   "capacity_same_night": 5350,
+   "events_same_night": 8,
+   "same_family": 8,
    "strongest_rival": "Barley Arts @ Live Club"
   },
   "confidence": 0.7,
@@ -662,7 +781,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-20-bobadilla_feeling_club",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/912567362_1616904540477254_4053994748706093121_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DYtgpGqjjGYQ7kNvwH5t98D&_nc_oc=Adqelzqvj6l_bAhs7LVtA8EIFArsvlxffrVNTj8eJJUlVszNB-FWzeSjxyUiTPu2q0I&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gzvEbGYaQXEZVtdkFyrpsQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTlNvHNfvRkkVa78XsbmLWo-MlVJUX-RWVgel0syq5-0A&oe=6B0665E7",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/912567362_1616904540477254_4053994748706093121_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=llNPM_OftdcQ7kNvwFU_r0Y&_nc_oc=AdoTkwxtOmoEJQTlcsjq3QQquk5dp-iXPI5lItkgtGpZ1r03g1mLwLFgCTC5tAWCPhI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=pi6cKF9nkIFn_z-IAF1h7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQStuPr_alci5RMWbK2aASmfjF1L-9KwiD0RwGOH9IRgiQ&oe=6B0665E7",
   "in_posts": true,
   "km": 9.1,
   "lead_days": 0,
@@ -695,7 +814,7 @@
    "https://www.instagram.com/p/Df-COQ7Dykq/"
   ],
   "venue": "Bobadilla Feeling Club",
-  "venue_followers": 31628,
+  "venue_followers": 31627,
   "venue_instagram": "bobadillafeelingclub",
   "venue_known": true,
   "venue_type": "club",
@@ -731,7 +850,7 @@
   ],
   "headliner": null,
   "id": "2026-11-20-choruslife_arena",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/918234024_18473821066141516_3231681390689191850_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=BCfXx33_fxgQ7kNvwE6H5qP&_nc_oc=AdogFiy3Hwa4ogQUkSm55AlqkFDPqfiSOPYFB6LO4X_BBhw0gZ5EvOzjfuXrC8paVME&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2cpmj2Rwkf69z__bNQtPMg&_nc_tpa=Q5bMBQKxfe0r8FJyGa5OXvCITG4g4Onk-uVECqXU0Kr4hqDdAqA1kdKxBC15lfH1KwToAm6QxxSEb7bQ8Q&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQS2h3QcYB1ofdRDJzJD0dlUG22iGym0tuuVpEug39fWfw&oe=6B064ED2",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/918234024_18473821066141516_3231681390689191850_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=BCfXx33_fxgQ7kNvwE6H5qP&_nc_oc=AdogFiy3Hwa4ogQUkSm55AlqkFDPqfiSOPYFB6LO4X_BBhw0gZ5EvOzjfuXrC8paVME&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7tYNHXmATI-iz-ckuXzi3w&_nc_tpa=Q5bMBQIzUrMnE56l-_BZUaF5rqyOIGDoGGJC9nmVMlybEKm5xrdVq3GvJYb3RGP1gcQXdA9eCX3dBKNFXg&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQT9I0j1W3i1tT2lu8lonlHz1M_TQMRWqlHrFva4baeWCA&oe=6B064ED2",
   "in_posts": true,
   "km": 1.2,
   "lead_days": 0,
@@ -764,7 +883,7 @@
    "https://primabergamo.it/tempo-libero/eventi/feed/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -777,9 +896,9 @@
   "capacity_source": "stima",
   "city": "Grassobbio",
   "competition": {
-   "capacity_same_night": 5050,
-   "events_same_night": 6,
-   "same_family": 6,
+   "capacity_same_night": 5650,
+   "events_same_night": 8,
+   "same_family": 8,
    "strongest_rival": "Barley Arts @ Live Club"
   },
   "confidence": 0.7,
@@ -919,9 +1038,9 @@
   "capacity_source": "stima",
   "city": "Trezzo sull'Adda",
   "competition": {
-   "capacity_same_night": 4750,
-   "events_same_night": 6,
-   "same_family": 6,
+   "capacity_same_night": 5350,
+   "events_same_night": 8,
+   "same_family": 8,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "confidence": 0.99,
@@ -957,7 +1076,7 @@
   ],
   "headliner": "Alchemica Music Club - Bologna",
   "id": "2026-11-20-live_club",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/904425478_18652780999042262_5989338757614203788_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Ua89DJGPCaYQ7kNvwFDg-Z2&_nc_oc=AdoepfjEAoX3y9nVjwxarnIPX038nT2GVxiFWOFCKMxcQQhLZp3Y01QLDsTxbFzFgOo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=epyPLJFXAtKVR5E6Tc4YMQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRebDYyDmz7h0mjRkoete2WZAafoXk_pa8lMTpMp5FRKg&oe=6B066D46",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/904425478_18652780999042262_5989338757614203788_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Ua89DJGPCaYQ7kNvwFDg-Z2&_nc_oc=AdoepfjEAoX3y9nVjwxarnIPX038nT2GVxiFWOFCKMxcQQhLZp3Y01QLDsTxbFzFgOo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=qpCiczm73rmXnWnv7Wwt7A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTEY61udZ6lSJPEscWhO-ulnHhq3E4aXamGVsZSx9YkDw&oe=6B066D46",
   "in_posts": true,
   "km": 16.6,
   "lead_days": 4,
@@ -993,7 +1112,7 @@
    "https://www.instagram.com/p/DfzackdwNxu/"
   ],
   "venue": "Live Club",
-  "venue_followers": 33393,
+  "venue_followers": 33394,
   "venue_instagram": "liveclub",
   "venue_known": true,
   "venue_type": "club",
@@ -1076,6 +1195,169 @@
   "venue_type": "club",
   "weekday": "venerdì"
  },
+ "2026-11-20-oasi-main_room": {
+  "address": null,
+  "brand": null,
+  "capacity": 300,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 6300,
+   "events_same_night": 8,
+   "same_family": 8,
+   "strongest_rival": "Barley Arts @ Live Club"
+  },
+  "confidence": 0.95,
+  "date": "2026-11-20",
+  "day_note": null,
+  "end": "04:30",
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "inizia alle 23:30",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "selected.lab",
+    "level": null,
+    "name": "selected.lab"
+   },
+   {
+    "followers": null,
+    "instagram": "fede_regooo",
+    "level": null,
+    "name": "fede_regooo"
+   }
+  ],
+  "handles": [
+   "fede_regooo",
+   "selected.lab",
+   "upside.down.night",
+   "vibetheclub"
+  ],
+  "headliner": null,
+  "id": "2026-11-20-oasi-main_room",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902586300_18110327042207598_3922936966679751654_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8EJnWVKrTkAQ7kNvwGACWMc&_nc_oc=AdodYEORrkUB99EvTR4_tF2dv4SyN4e7yTDMKysjiTuTyTVflgd6k5HBPEnGXuD7hxI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hyZ48nfODYwySgbsqzAYgA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRPw-ANTX-736cOOqYigOE7n_0S9WMH9GB2WhDqmkWNaA&oe=6B066BA6",
+  "in_posts": true,
+  "km": 9.1,
+  "lead_days": 11,
+  "nightlife": true,
+  "party": "The Next Ritual",
+  "posted": "2026-11-09T18:00+00:00",
+  "price": 12,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 7,
+  "room": "main room",
+  "scope": "zona",
+  "score": 17.7,
+  "score_parts": {
+   "capacity": 4.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 3.7,
+   "venue_followers": 0.0
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "23:30",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DfpizOwFnHS/",
+   "https://www.instagram.com/reel/Dfh7S6KxwCZ/"
+  ],
+  "venue": "OASI",
+  "venue_followers": 513,
+  "venue_instagram": "oasi.night",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "venerdì"
+ },
+ "2026-11-20-oasi-theater_room": {
+  "address": null,
+  "brand": null,
+  "capacity": 300,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 6300,
+   "events_same_night": 8,
+   "same_family": 8,
+   "strongest_rival": "Barley Arts @ Live Club"
+  },
+  "confidence": 0.95,
+  "date": "2026-11-20",
+  "day_note": null,
+  "end": "04:30",
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "inizia alle 23:30",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "upside.down.night",
+    "level": null,
+    "name": "upside.down.night"
+   }
+  ],
+  "handles": [
+   "fede_regooo",
+   "selected.lab",
+   "upside.down.night",
+   "vibetheclub"
+  ],
+  "headliner": null,
+  "id": "2026-11-20-oasi-theater_room",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902586300_18110327042207598_3922936966679751654_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8EJnWVKrTkAQ7kNvwGACWMc&_nc_oc=AdodYEORrkUB99EvTR4_tF2dv4SyN4e7yTDMKysjiTuTyTVflgd6k5HBPEnGXuD7hxI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hyZ48nfODYwySgbsqzAYgA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRPw-ANTX-736cOOqYigOE7n_0S9WMH9GB2WhDqmkWNaA&oe=6B066BA6",
+  "in_posts": true,
+  "km": 9.1,
+  "lead_days": 8,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-12T17:00+00:00",
+  "price": 12,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 8,
+  "room": "theater room",
+  "scope": "zona",
+  "score": 13.2,
+  "score_parts": {
+   "capacity": 4.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 2.2,
+   "venue_followers": 0.0
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "23:30",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DfpizOwFnHS/"
+  ],
+  "venue": "OASI",
+  "venue_followers": 513,
+  "venue_instagram": "oasi.night",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "venerdì"
+ },
  "2026-11-20-teatro_donizetti-pre": {
   "address": "Piazza Cavour 15, Bergamo",
   "brand": null,
@@ -1141,9 +1423,9 @@
   "capacity_source": "stima",
   "city": "Treviolo",
   "competition": {
-   "capacity_same_night": 5250,
-   "events_same_night": 6,
-   "same_family": 6,
+   "capacity_same_night": 5850,
+   "events_same_night": 8,
+   "same_family": 8,
    "strongest_rival": "Barley Arts @ Live Club"
   },
   "confidence": 0.9,
@@ -1210,9 +1492,9 @@
   "capacity_source": "stima",
   "city": "Treviolo",
   "competition": {
-   "capacity_same_night": 5250,
-   "events_same_night": 6,
-   "same_family": 6,
+   "capacity_same_night": 5850,
+   "events_same_night": 8,
+   "same_family": 8,
    "strongest_rival": "Barley Arts @ Live Club"
   },
   "confidence": 0.9,
@@ -1286,9 +1568,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 5000,
-   "events_same_night": 6,
-   "same_family": 6,
+   "capacity_same_night": 5600,
+   "events_same_night": 8,
+   "same_family": 8,
    "strongest_rival": "Barley Arts @ Live Club"
   },
   "confidence": 0.7,
@@ -1430,18 +1712,18 @@
   "genre_source": null,
   "guests": [
    {
-    "followers": null,
+    "followers": 1353,
     "instagram": "dj_arinatop",
     "level": null,
-    "name": "dj_arinatop"
+    "name": "Dj Arina Top"
    }
   ],
   "handles": [
    "dj_arinatop"
   ],
-  "headliner": null,
+  "headliner": "Dj Arina Top",
   "id": "2026-11-21-arya_lounge_bar",
-  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQO6mpdqOrDGKtTAcq5pK-XlMtK-kX-nd6Ax3qQefnktL5bXToW0aKachmv5V9_N9wTDm6jISBxxMaW-M4UQ_HZHyw8fIIgnMRzlvAk.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=SV0o3DBLVsMQ7kNvwH-Oc1w&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjA3ODMyNzEyMDIzNzM5MiwiYXNzZXRfYWdlX2RheXMiOjMsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoxMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5b843b800f30c833&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BQTkyMTM4NUJCMTk0MTkyOERDQTY5RUNFNDkwNTU0Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc2QUZBMzYwODkyMzQ3RTE4RDIzQjVBQ0U1MzhENDAwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACagzdTbx46xBxUCKAJDMywXQCchysCDEm8YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=fNd6RHb2VS2tRPNPgm4TsQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQx6_MnlmKei54AIuB9UwDp4Hd_DH0UGsj_16DFQZfkgA&oe=6B027117",
+  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQO6mpdqOrDGKtTAcq5pK-XlMtK-kX-nd6Ax3qQefnktL5bXToW0aKachmv5V9_N9wTDm6jISBxxMaW-M4UQ_HZHyw8fIIgnMRzlvAk.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=SV0o3DBLVsMQ7kNvwEB4wHr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjA3ODMyNzEyMDIzNzM5MiwiYXNzZXRfYWdlX2RheXMiOjMsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoxMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5b843b800f30c833&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BQTkyMTM4NUJCMTk0MTkyOERDQTY5RUNFNDkwNTU0Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzc2QUZBMzYwODkyMzQ3RTE4RDIzQjVBQ0U1MzhENDAwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACagzdTbx46xBxUCKAJDMywXQCchysCDEm8YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=dt0vMzIjuI5btTGFM8JvkQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR3Q2MWVI7eeySy2sZEXi4vjQNkZeP-A87EToAhHhbfDg&oe=6B027117",
   "in_posts": true,
   "km": 20.2,
   "lead_days": 4,
@@ -1455,10 +1737,10 @@
   "rank_in_night": 7,
   "room": null,
   "scope": "zona",
-  "score": 10.8,
+  "score": 14.6,
   "score_parts": {
    "capacity": 0.0,
-   "guest": 0.0,
+   "guest": 1.9,
    "promoter": 0.0,
    "venue": 2.1,
    "venue_followers": 3.0
@@ -1570,6 +1852,18 @@
   "genre_source": "post",
   "guests": [
    {
+    "followers": 53787,
+    "instagram": "badcompany_1920",
+    "level": null,
+    "name": "Contrasena: VENIMOS DESDE ATLANTIC CITY"
+   },
+   {
+    "followers": 1500,
+    "instagram": "bob_theotherside",
+    "level": null,
+    "name": "BoB The Other Side"
+   },
+   {
     "followers": null,
     "instagram": null,
     "level": null,
@@ -1580,24 +1874,6 @@
     "instagram": "assonica_",
     "level": null,
     "name": "assonica_"
-   },
-   {
-    "followers": null,
-    "instagram": "badcompany_1920",
-    "level": null,
-    "name": "badcompany_1920"
-   },
-   {
-    "followers": null,
-    "instagram": "door_74",
-    "level": null,
-    "name": "door_74"
-   },
-   {
-    "followers": null,
-    "instagram": "bob_theotherside",
-    "level": null,
-    "name": "bob_theotherside"
    }
   ],
   "handles": [
@@ -1649,6 +1925,94 @@
   "venue_type": "bar",
   "weekday": "sabato"
  },
+ "2026-11-21-bloom-pre": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.85,
+  "date": "2026-11-21",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 21:00",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "lateres_ets",
+    "level": null,
+    "name": "lateres_ets"
+   },
+   {
+    "followers": null,
+    "instagram": "maschileplurale_",
+    "level": null,
+    "name": "maschileplurale_"
+   },
+   {
+    "followers": null,
+    "instagram": "donnedemocratichemezzago",
+    "level": null,
+    "name": "donnedemocratichemezzago"
+   },
+   {
+    "followers": null,
+    "instagram": "delleali_teatro",
+    "level": null,
+    "name": "delleali_teatro"
+   }
+  ],
+  "handles": [
+   "delleali_teatro",
+   "donnedemocratichemezzago",
+   "lateres_ets",
+   "maschileplurale_"
+  ],
+  "headliner": null,
+  "id": "2026-11-21-bloom-pre",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/905847864_18652422415014819_3760840850590642347_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=r2jFhhGuFkUQ7kNvwF05Mg3&_nc_oc=AdpqpKS5o1vigM-ibQaSzF6UNrwRh_HAdjPL1BZGXx5MsyFNwEJXsEkrCKkbvrCZaUU&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS95YOjff76411QZyls3Hjn6q6XnYk6U209O4YzmukZxA&oe=6B067C15",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 5,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-16T09:21+00:00",
+  "price": 4,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "21:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "culture",
+  "urls": [
+   "https://www.instagram.com/p/DfzBdzLjP7Z/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "sabato"
+ },
  "2026-11-21-bolgia": {
   "address": "Via Vaccarezza 8",
   "brand": null,
@@ -1695,7 +2059,7 @@
   "handles": [],
   "headliner": "MAD DOG",
   "id": "2026-11-21-bolgia",
-  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQM7wMQiuyfjS-65bpbaPFE65YiQJJdaXo47k8mKKzP-cnqaeOWgFuKv6mtvTe-KsJu9t44MA5KQMYHIebzRPPoMw4836dPJuVfkoZU.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=fqMxEvdcu5QQ7kNvwF38nhu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ1NjQ4OTk1NjQ1Mjc4MywiYXNzZXRfYWdlX2RheXMiOjE2LCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=7e063d04e2f92fcd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FNkVFMTI2M0UwNDk0OUVDOTZDRDdDQjA0NDQ0MEJGRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzgyOTNGNTdEQzU0NTQyMjE4RDZBNUMzOTFDMUJFNDYyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbepsnn76qWBRUCKAJDMywXQDMKPXCj1woYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=eC-PlxtdKmsjL086lBJ3YA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=Up_CDlk4ru4s5sd0cyRXJPwmTpw9nX0oqtPpUKgxiNfvvbcoMCxXj2_mLzTiEvs9A6gp1cfz9jlbvq71StFCj-tS2jhnNiU9E3m2K8z_z1etGey7n07uZDtd3cbq2B5LRPiH&oh=00_AQRn4C_vyIgS-v2ihKh2qTVCXccodPZyxIbY9ZJNxbMtew&oe=6B0258AA",
+  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQM7wMQiuyfjS-65bpbaPFE65YiQJJdaXo47k8mKKzP-cnqaeOWgFuKv6mtvTe-KsJu9t44MA5KQMYHIebzRPPoMw4836dPJuVfkoZU.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=fqMxEvdcu5QQ7kNvwF38nhu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ1NjQ4OTk1NjQ1Mjc4MywiYXNzZXRfYWdlX2RheXMiOjE2LCJ2aV91c2VjYXNlX2lkIjoxMjM3NCwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=7e063d04e2f92fcd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FNkVFMTI2M0UwNDk0OUVDOTZDRDdDQjA0NDQ0MEJGRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzgyOTNGNTdEQzU0NTQyMjE4RDZBNUMzOTFDMUJFNDYyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbepsnn76qWBRUCKAJDMywXQDMKPXCj1woYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=x2FPcrYQ2fF2HpjIzjZJVw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UuAYnPIULf4aAvaszVL97wsYnNvCETTQpJKgl10bJ2zk1WQuheEz1QnGnGSD9nZbOUNQF4eo1THJ1ESosQxjqx9FMGIhWiLkSFkF5Clp89KGyWIFvxvn6VtfYjyeesU5-_Dr&oh=00_AQQDjF20nkjYITM6ztNGeW2Jv0gkDvh4aLgnceZdfQsrow&oe=6B0258AA",
   "in_posts": true,
   "km": 9.2,
   "lead_days": 17,
@@ -1728,7 +2092,7 @@
    "https://www.instagram.com/reel/DfUkfwWoqMA/"
   ],
   "venue": "Bolgia",
-  "venue_followers": 124724,
+  "venue_followers": 124729,
   "venue_instagram": "bolgia.official",
   "venue_known": true,
   "venue_type": "club",
@@ -1761,7 +2125,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-21-bolgia-lab_room",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/888832617_18652168933044157_5241533041335717426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JSB7Y7OTZQAQ7kNvwEAyk8h&_nc_oc=AdpjfJ3sAnBWGl58iOI0YnJgJRv_eK7i_riA3yuC35kgFT8PkEZztRfhnp7JlXMRmGg&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=eC-PlxtdKmsjL086lBJ3YA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQhwZAhBOKq-wiRGMrtdHsKuNZQO8I5iz7B_Vn5nI-Lxw&oe=6B06448A",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/888832617_18652168933044157_5241533041335717426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JSB7Y7OTZQAQ7kNvwEAyk8h&_nc_oc=AdpjfJ3sAnBWGl58iOI0YnJgJRv_eK7i_riA3yuC35kgFT8PkEZztRfhnp7JlXMRmGg&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=x2FPcrYQ2fF2HpjIzjZJVw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR8BoVh9ZfYB_ZyL-5DEniodx8asMmFmjjjLGTftQwtaQ&oe=6B067CCA",
   "in_posts": true,
   "km": 9.2,
   "lead_days": 15,
@@ -1794,7 +2158,7 @@
    "https://www.instagram.com/p/DfZuXEsIVlQ/"
   ],
   "venue": "Bolgia",
-  "venue_followers": 124724,
+  "venue_followers": 124729,
   "venue_instagram": "bolgia.official",
   "venue_known": true,
   "venue_type": "club",
@@ -1886,7 +2250,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-21-choruslife_arena-pre",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/905825481_1806839848114058_818090737338989454_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=SmsvSd4Z9UAQ7kNvwGRacrb&_nc_oc=AdodBIfeq03yqlGubTZUeWKOfb0TffrtSYyGp5Kub00MVaA69nT_aMfLduVmlFrVWpw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2cpmj2Rwkf69z__bNQtPMg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS3kl-UlGHRc6MUvjD9dYk99SqIppdlKHya837rs9ZJmw&oe=6B065662",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/905825481_1806839848114058_818090737338989454_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=SmsvSd4Z9UAQ7kNvwGRacrb&_nc_oc=AdodBIfeq03yqlGubTZUeWKOfb0TffrtSYyGp5Kub00MVaA69nT_aMfLduVmlFrVWpw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7tYNHXmATI-iz-ckuXzi3w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRkEiqP1fwTHk36PLtxcdaa9xuMXjI4iEgi6YR1SESOtA&oe=6B065662",
   "in_posts": true,
   "km": 1.2,
   "lead_days": 8,
@@ -1922,7 +2286,7 @@
    "https://www.instagram.com/p/Df14X3qDfY2/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -2124,7 +2488,7 @@
    "https://www.instagram.com/p/Df4WTYXwIKu/"
   ],
   "venue": "Live Club",
-  "venue_followers": 33393,
+  "venue_followers": 33394,
   "venue_instagram": "liveclub",
   "venue_known": true,
   "venue_type": "club",
@@ -2457,6 +2821,126 @@
   "venue_type": "live_club",
   "weekday": "domenica"
  },
+ "2026-11-22-bloom-pre": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.95,
+  "date": "2026-11-22",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 18:00",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "hesperia.lasciateci_le_ali",
+    "level": null,
+    "name": "hesperia.lasciateci_le_ali"
+   },
+   {
+    "followers": null,
+    "instagram": "gruppoteatrobagai",
+    "level": null,
+    "name": "gruppoteatrobagai"
+   },
+   {
+    "followers": null,
+    "instagram": "lateres_ets",
+    "level": null,
+    "name": "lateres_ets"
+   },
+   {
+    "followers": null,
+    "instagram": "maschileplurale_",
+    "level": null,
+    "name": "maschileplurale_"
+   },
+   {
+    "followers": null,
+    "instagram": "donnedemocratichemezzago",
+    "level": null,
+    "name": "donnedemocratichemezzago"
+   },
+   {
+    "followers": null,
+    "instagram": "delleali_teatro",
+    "level": null,
+    "name": "delleali_teatro"
+   },
+   {
+    "followers": null,
+    "instagram": "unponteper_comitato.mi.mb",
+    "level": null,
+    "name": "unponteper_comitato.mi.mb"
+   },
+   {
+    "followers": null,
+    "instagram": "arci.scuotivento",
+    "level": null,
+    "name": "arci.scuotivento"
+   }
+  ],
+  "handles": [
+   "arci.scuotivento",
+   "bloom_mezzago",
+   "delleali_teatro",
+   "donnedemocratichemezzago",
+   "gruppoteatrobagai",
+   "hesperia.lasciateci_le_ali",
+   "lateres_ets",
+   "maschileplurale_",
+   "unponteper_comitato.mi.mb"
+  ],
+  "headliner": null,
+  "id": "2026-11-22-bloom-pre",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/887736599_18647287864014819_7935549389649886414_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=r9-yUIWJNcIQ7kNvwEb6iF8&_nc_oc=AdoDZo5VEwuuaeifIZUPz6zNrBcCvVzJR3o3piIN5hSnPt-18jkyGAEW7TpkzMPAu-M&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS6KTKl1A0viq2awT3VbMehrjXSUC9zT_-jZgWI1GS9gQ&oe=6B0667B4",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 20,
+  "nightlife": false,
+  "party": "Parallelo",
+  "posted": "2026-11-02T15:19+00:00",
+  "price": 6,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "18:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "culture",
+  "urls": [
+   "https://www.instagram.com/p/DfPnK0ds1de/",
+   "https://www.instagram.com/p/DfzBdzLjP7Z/",
+   "https://www.instagram.com/p/Dfz7kAasM1Z/",
+   "https://www.instagram.com/p/DfUTNyHDFYv/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "domenica"
+ },
  "2026-11-22-chorus_life_bergamo_via_carlo_serassi_26": {
   "address": "Via Carlo",
   "brand": null,
@@ -2540,7 +3024,7 @@
   ],
   "headliner": null,
   "id": "2026-11-22-choruslife_arena-pre",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/863421879_1792781762853200_6566955439552940881_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VOQGIDaoWm0Q7kNvwEI_LZ_&_nc_oc=Adp1TvWL3LFjxId115lzy9onDYNvfz1kjapZ4e0eYUY9d2zQR2pd7weRfYpJRMRoKGQ&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2cpmj2Rwkf69z__bNQtPMg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTQWjuZdiTljpvmAESELq6i3tasp6h1SaMGcMYmzi7w3Q&oe=6B064CE4",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/863421879_1792781762853200_6566955439552940881_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VOQGIDaoWm0Q7kNvwEI_LZ_&_nc_oc=Adp1TvWL3LFjxId115lzy9onDYNvfz1kjapZ4e0eYUY9d2zQR2pd7weRfYpJRMRoKGQ&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7tYNHXmATI-iz-ckuXzi3w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTTOHuzdXFv1ud-eT44xmuXceXNCZuYQBCH9RFVF2356g&oe=6B064CE4",
   "in_posts": true,
   "km": 1.2,
   "lead_days": 20,
@@ -2574,7 +3058,7 @@
    "https://www.instagram.com/p/Df4_tceFF2z/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -2901,7 +3385,7 @@
   "capacity": 450,
   "capacity_source": "stima",
   "city": "Bergamo",
-  "confidence": 0.8,
+  "confidence": 0.9,
   "date": "2026-11-23",
   "day_note": null,
   "end": null,
@@ -2912,8 +3396,17 @@
   "first_seen": "2026-11-18",
   "genre": "Revival",
   "genre_source": "post",
-  "guests": [],
-  "handles": [],
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "importanti",
+    "level": null,
+    "name": "importanti"
+   }
+  ],
+  "handles": [
+   "importanti"
+  ],
   "headliner": null,
   "id": "2026-11-23-arena_esterno_notte",
   "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/893633433_18173799715478940_1638452794155211432_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VSPXm7bsKxMQ7kNvwGl6YK3&_nc_oc=AdpU5ZU3kyc1kIwiM6sgLB-1SMBideKD_sXTqczbUIe9hdI3HvP1R5JDlDW7V8FOf4c&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=c5m8RnMS8dPTvdVBNs8uzg&_nc_tpa=Q5bMBQIn5dXbEu-XI432iO_xiRtOQYrO_hZHJqtin0cj1jENpDA5A5ezSmHOjgiZSS6R-Gjwq9P6l8SKKQ&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQJAnfHwhl8vHbpUbImzTldLJoHGtclZH75iwt95foNWw&oe=6B065C4A",
@@ -3020,6 +3513,96 @@
   "venue_known": true,
   "venue_type": "live_club",
   "weekday": "lunedì"
+ },
+ "2026-11-24-bloom": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.9,
+  "date": "2026-11-24",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "House / Elettronica",
+  "fascia": "serata",
+  "fascia_why": "ingresso a pagamento o in lista",
+  "first_seen": "2026-11-20",
+  "genre": "Hard Techno / Rock",
+  "genre_source": "post",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "lowl_fest",
+    "level": null,
+    "name": "lowl_fest"
+   },
+   {
+    "followers": null,
+    "instagram": "spike.hellis",
+    "level": null,
+    "name": "spike.hellis"
+   },
+   {
+    "followers": null,
+    "instagram": "www.bloomnet",
+    "level": null,
+    "name": "www.bloomnet"
+   }
+  ],
+  "handles": [
+   "bloom_mezzago",
+   "lowl_fest",
+   "spike.hellis",
+   "www.bloomnet"
+  ],
+  "headliner": null,
+  "id": "2026-11-24-bloom",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/912271397_18653098120014819_6708679935040988318_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=isJruDl6s7MQ7kNvwHuWL1i&_nc_oc=Adp2MVoTyDDsUeAN3CGZJ26cm9JklbJx9euODACdJ93b9iVv3LoVXGysYx3DOmpwId0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQT6D2PscArdCPlEGkpYMhlLbjaRMR2DMMJikLWbC9NORw&oe=6B067244",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 6,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-18T10:47+00:00",
+  "price": 20,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 40.0,
+  "score_parts": {
+   "capacity": 7.1,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 6.5,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "live",
+  "urls": [
+   "https://www.instagram.com/p/Df4U06BjB_6/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "martedì"
  },
  "2026-11-24-ink_club-club_room": {
   "address": "Via Giosuè Carducci 4/b, 24127",
@@ -3214,7 +3797,7 @@
    "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/gigi-dalessio_302123/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -3464,7 +4047,7 @@
   ],
   "headliner": "Possibilita",
   "id": "2026-11-27-oronero",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/910249314_18580880929075006_4479768447135807069_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kEdZkegLoJUQ7kNvwHpuXpZ&_nc_oc=Adq4EEbK062uh3z7rAuwYNrpv8nFknEPfLxC6v7KGgF2noNDeQpw3VAxXASAslF78FE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=tEmDPXDlZyGprZSS15OIpg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQZXucp9rpwajVSPgWqqh__Yw-c47ZmjCQGPTtQ_HdcJw&oe=6B06673A",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/910249314_18580880929075006_4479768447135807069_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kEdZkegLoJUQ7kNvwFVbbie&_nc_oc=AdqWqRJqjd8h2KCZMHTQCClA802-Sg4aPYAgmURKks6Br4yq1p5PvtMAtkJrP7MGN1M&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=mLmEgy4afM7a0ze0cHpfUw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSXTNOhw7w7-ijfzE3iEa7vaFNQ2sSIQiGnAVEQ2JiLQQ&oe=6B06673A",
   "in_posts": true,
   "km": 10.1,
   "lead_days": 11,
@@ -3629,6 +4212,94 @@
   "venue_type": "club",
   "weekday": "venerdì"
  },
+ "2026-11-28-bloom-pre": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 700,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "Tumulto @ Ink Club"
+  },
+  "confidence": 0.95,
+  "date": "2026-11-28",
+  "day_note": null,
+  "end": null,
+  "entry": "gratis",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 21:00",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "cre.sp1",
+    "level": null,
+    "name": "cre.sp1"
+   },
+   {
+    "followers": null,
+    "instagram": "esse.pietro",
+    "level": null,
+    "name": "esse.pietro"
+   },
+   {
+    "followers": null,
+    "instagram": "federicoo_riva",
+    "level": null,
+    "name": "federicoo_riva"
+   }
+  ],
+  "handles": [
+   "cre.sp1",
+   "esse.pietro",
+   "federicoo_riva"
+  ],
+  "headliner": null,
+  "id": "2026-11-28-bloom-pre",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/869424130_18644866078014819_9086600296940675454_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ibZsRyPr_OUQ7kNvwEyAFME&_nc_oc=AdqIWR2T02cSz2jwTfmFkTCM3CQb3NGNr6XF4vSqR5saK6XANxWINsdLxUCdHb5mx8M&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSVGB9yledGUzDayNHh8VWS0DJvLzZsSzLiHnEgKu1cfA&oe=6B066125",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 32,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-10-27T09:17+00:00",
+  "price": 0,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 2,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "21:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/De_grszsNgO/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "sabato"
+ },
  "2026-11-28-bolgia": {
   "address": "Via Vaccarezza 8",
   "brand": null,
@@ -3663,7 +4334,7 @@
   "handles": [],
   "headliner": "MARIE VAUNT",
   "id": "2026-11-28-bolgia",
-  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQO7Eaa-j1g3_C8IT_d6YnmpBEaUzGP0Agi0ZgfHF8NHW6d_Ptgd02m1Gcmop2TM3O9kIP38ktyUmJErpzUYlZrFQMGqdu3v1mrY5u0h1w.mp4?_nc_cat=108&_nc_sid=8bf8fe&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=pZCGXEopL-UQ7kNvwEJVGBp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMzY0NTAxNzMwOTcwMDc3LCJhc3NldF9hZ2VfZGF5cyI6OSwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjE4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=eC-PlxtdKmsjL086lBJ3YA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTpY0AdtoCFgaSMnPrrO16L4U_RVQp0YVZ9ZmlSz1VJFg&oe=6B066FC2",
+  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQO7Eaa-j1g3_C8IT_d6YnmpBEaUzGP0Agi0ZgfHF8NHW6d_Ptgd02m1Gcmop2TM3O9kIP38ktyUmJErpzUYlZrFQMGqdu3v1mrY5u0h1w.mp4?_nc_cat=108&_nc_sid=8bf8fe&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=pZCGXEopL-UQ7kNvwEJVGBp&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyMzY0NTAxNzMwOTcwMDc3LCJhc3NldF9hZ2VfZGF5cyI6OSwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjE4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=x2FPcrYQ2fF2HpjIzjZJVw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSMub7HWhVLbvoqfXrclUGuTzjT-ZGkpKK2fW628-7M-A&oe=6B066FC2",
   "in_posts": true,
   "km": 9.2,
   "lead_days": 17,
@@ -3696,7 +4367,7 @@
    "https://www.instagram.com/reel/DfmlzJmIigC/"
   ],
   "venue": "Bolgia",
-  "venue_followers": 124724,
+  "venue_followers": 124729,
   "venue_instagram": "bolgia.official",
   "venue_known": true,
   "venue_type": "club",
@@ -3738,7 +4409,7 @@
   "lead_days": 8,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-20T17:43+00:00",
+  "posted": "2026-11-20T18:49+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -3763,7 +4434,7 @@
    "https://primabergamo.it/tempo-libero/eventi/feed/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -3776,10 +4447,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
-   "same_family": 0,
-   "strongest_rival": null
+   "capacity_same_night": 900,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "Bloom @ Bloom"
   },
   "confidence": 0.95,
   "date": "2026-11-28",
@@ -4175,6 +4846,95 @@
   "venue_type": "bar",
   "weekday": "domenica"
  },
+ "2026-11-29-bloom": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 700,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "10 Space Jam @ Ink Club"
+  },
+  "confidence": 0.9,
+  "date": "2026-11-29",
+  "day_note": null,
+  "end": null,
+  "entry": "gratis",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "ingresso gratuito",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "marte.bandemergenti",
+    "level": null,
+    "name": "marte.bandemergenti"
+   },
+   {
+    "followers": null,
+    "instagram": "digitalispurpurea_",
+    "level": null,
+    "name": "digitalispurpurea_"
+   },
+   {
+    "followers": null,
+    "instagram": "mudilva_",
+    "level": null,
+    "name": "mudilva_"
+   }
+  ],
+  "handles": [
+   "bloom_mezzago",
+   "digitalispurpurea_",
+   "marte.bandemergenti",
+   "mudilva_"
+  ],
+  "headliner": null,
+  "id": "2026-11-29-bloom",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/870165767_18645341407014819_5555533051910263835_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EaQ8djssTgUQ7kNvwG99yI8&_nc_oc=Adqun2B2YMlBgYy7VoQp80IiVl_x8vULvzJZbrOPt8Sz4EKCqSVkbDvdf1ijfHI9svE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTE2daJSGqP7OwrISDqo1Aq1nRDcT2w8Me5IrILFNDO9A&oe=6B065B8C",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 32,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-10-28T13:40+00:00",
+  "price": 0,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 2,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "live",
+  "urls": [
+   "https://www.instagram.com/p/DfCj6isjCkO/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "domenica"
+ },
  "2026-11-29-ink_club": {
   "address": "Via Giosuè Carducci 4/b, 24127",
   "brand": null,
@@ -4182,10 +4942,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
-   "same_family": 0,
-   "strongest_rival": null
+   "capacity_same_night": 900,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "Bloom @ Bloom"
   },
   "confidence": 0.7,
   "date": "2026-11-29",
@@ -4363,6 +5123,87 @@
   "venue_type": "live_club",
   "weekday": "lunedì"
  },
+ "2026-12-05-bloom": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.9,
+  "date": "2026-12-05",
+  "day_note": null,
+  "end": null,
+  "entry": "gratis",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "ingresso gratuito",
+  "first_seen": "2026-11-20",
+  "genre": "Rock / Commerciale",
+  "genre_source": "post",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "dj.sofficino",
+    "level": null,
+    "name": "dj.sofficino"
+   },
+   {
+    "followers": null,
+    "instagram": "nico.bre1917",
+    "level": null,
+    "name": "nico.bre1917"
+   }
+  ],
+  "handles": [
+   "dj.sofficino",
+   "nico.bre1917"
+  ],
+  "headliner": null,
+  "id": "2026-12-05-bloom",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/888065784_18648402739014819_2589113684473825786_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=TVJFlWpzizMQ7kNvwExGtwd&_nc_oc=AdrSanJGbjiRnVxbiBNxPZmUZMyGSmuvYjroY0T0wU-60WNuKGux9ystDV97_WDoMvk&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTjCQX5UIQWfBoqZhht-_PC7LAndjl_sIzaYJieSfE_aw&oe=6B066365",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 30,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-05T15:21+00:00",
+  "price": 0,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DfXVi9kM2i0/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "sabato"
+ },
  "2026-12-05-bolgia": {
   "address": "Via Vaccarezza 8",
   "brand": null,
@@ -4397,7 +5238,7 @@
   "handles": [],
   "headliner": "CHELINA MANUHUTU",
   "id": "2026-12-05-bolgia",
-  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQNJ9EWbo-hT0ayBTLpCG64epNI5SFWu7Q09OShbjXJ_1VrpbHOaU6w5c22iZnuq9CwOXglQ2fo9qa4RQfl_dU8E2q-eawUw8CCa-CE.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=GQcpz3gb7JIQ7kNvwH4YsV5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjkzMDA0OTE5MzYyNjY2MzIsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8da626fbedec256c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EN0JFN0I0NTExNjM0RTI0QUI3NUIxQUVERDdGMTUwRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FFQUY1NDMwRDZDMDQyQzY5NEFBRTQ5OERBRjZCMTc1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaQ5tfZjKmMaBUCKAJDMywXQD4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=eC-PlxtdKmsjL086lBJ3YA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQQ0skTdJMLbbbYTrNKmOmS8-wdjbrJ-4xCSoNktizLkw&oe=6B027F7A",
+  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQNJ9EWbo-hT0ayBTLpCG64epNI5SFWu7Q09OShbjXJ_1VrpbHOaU6w5c22iZnuq9CwOXglQ2fo9qa4RQfl_dU8E2q-eawUw8CCa-CE.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=GQcpz3gb7JIQ7kNvwH4YsV5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjkzMDA0OTE5MzYyNjY2MzIsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8da626fbedec256c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9EN0JFN0I0NTExNjM0RTI0QUI3NUIxQUVERDdGMTUwRV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FFQUY1NDMwRDZDMDQyQzY5NEFBRTQ5OERBRjZCMTc1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaQ5tfZjKmMaBUCKAJDMywXQD4AAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=x2FPcrYQ2fF2HpjIzjZJVw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQ-Hdnefx56tAzszQ260viEjc_atO03YcCT_lPaj-x90Q&oe=6B027F7A",
   "in_posts": true,
   "km": 9.2,
   "lead_days": 18,
@@ -4430,7 +5271,7 @@
    "https://www.instagram.com/reel/Df2C9x4IjrH/"
   ],
   "venue": "Bolgia",
-  "venue_followers": 124724,
+  "venue_followers": 124729,
   "venue_instagram": "bolgia.official",
   "venue_known": true,
   "venue_type": "club",
@@ -4457,7 +5298,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-05-choruslife_arena",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/912403929_1812193997578643_2599073971987529248_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=K1y134XkAp0Q7kNvwFEnRRR&_nc_oc=Adp8t4tihirAWHOKwlQyCmYC5DVu9sQqcGaA3K0IdfRsEYHEKdiuFRG_yRwrkVo6Q0k&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2cpmj2Rwkf69z__bNQtPMg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRejNJFF5jLRD037WpOko5gMIXdI9IxEsfBv0AK6swPFg&oe=6B066DED",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/912403929_1812193997578643_2599073971987529248_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=K1y134XkAp0Q7kNvwFEnRRR&_nc_oc=Adp8t4tihirAWHOKwlQyCmYC5DVu9sQqcGaA3K0IdfRsEYHEKdiuFRG_yRwrkVo6Q0k&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7tYNHXmATI-iz-ckuXzi3w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ9A0QDMk4AhVtdrMLVr721kAMUZTq-aH3KEC1VVlt4vg&oe=6B066DED",
   "in_posts": true,
   "km": 1.2,
   "lead_days": 18,
@@ -4488,7 +5329,7 @@
    "https://www.instagram.com/p/Df14X3qDfY2/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -4528,7 +5369,7 @@
   "handles": [],
   "headliner": "NOVAH",
   "id": "2026-12-07-bolgia",
-  "image": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQO5BwxD_FrFW23CE-e6r5AU6Rxp3EbsiGRqKRaAo1wLZrBawBSpmuROt0S21GCTCmABzmHdz2BpmYpTTFERcjYwbY093cfaCXIF7HtfIg.mp4?_nc_cat=102&_nc_sid=8bf8fe&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=CtaDFHggnSkQ7kNvwHOYi8N&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyNDUzODE4NTkyMDcxOTgxLCJhc3NldF9hZ2VfZGF5cyI6MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=eC-PlxtdKmsjL086lBJ3YA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSiRKMDl8txq1wM3BK64fC1g4kXucX7U-al6rPRBtyYSQ&oe=6B066A6C",
+  "image": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQO5BwxD_FrFW23CE-e6r5AU6Rxp3EbsiGRqKRaAo1wLZrBawBSpmuROt0S21GCTCmABzmHdz2BpmYpTTFERcjYwbY093cfaCXIF7HtfIg.mp4?_nc_cat=102&_nc_sid=8bf8fe&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=CtaDFHggnSkQ7kNvwHOYi8N&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl83MjBwIiwieHB2X2Fzc2V0X2lkIjoyNDUzODE4NTkyMDcxOTgxLCJhc3NldF9hZ2VfZGF5cyI6MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=x2FPcrYQ2fF2HpjIzjZJVw&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRuWoXQFx16dN7QuLbPbGXYd6l1iMWob_CbAhqEP_smeQ&oe=6B066A6C",
   "in_posts": true,
   "km": 9.2,
   "lead_days": 19,
@@ -4561,7 +5402,7 @@
    "https://www.instagram.com/reel/Df4m_TCI71w/"
   ],
   "venue": "Bolgia",
-  "venue_followers": 124724,
+  "venue_followers": 124729,
   "venue_instagram": "bolgia.official",
   "venue_known": true,
   "venue_type": "club",
@@ -4588,7 +5429,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-08-choruslife_arena",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/912403929_1812193997578643_2599073971987529248_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=K1y134XkAp0Q7kNvwFEnRRR&_nc_oc=Adp8t4tihirAWHOKwlQyCmYC5DVu9sQqcGaA3K0IdfRsEYHEKdiuFRG_yRwrkVo6Q0k&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2cpmj2Rwkf69z__bNQtPMg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRejNJFF5jLRD037WpOko5gMIXdI9IxEsfBv0AK6swPFg&oe=6B066DED",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/912403929_1812193997578643_2599073971987529248_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=K1y134XkAp0Q7kNvwFEnRRR&_nc_oc=Adp8t4tihirAWHOKwlQyCmYC5DVu9sQqcGaA3K0IdfRsEYHEKdiuFRG_yRwrkVo6Q0k&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7tYNHXmATI-iz-ckuXzi3w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ9A0QDMk4AhVtdrMLVr721kAMUZTq-aH3KEC1VVlt4vg&oe=6B066DED",
   "in_posts": true,
   "km": 1.2,
   "lead_days": 21,
@@ -4619,11 +5460,76 @@
    "https://www.instagram.com/p/Df14X3qDfY2/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
   "weekday": "martedì"
+ },
+ "2026-12-11-bloom": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.9,
+  "date": "2026-12-11",
+  "day_note": null,
+  "end": null,
+  "entry": "gratis",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "ingresso gratuito",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-11-bloom",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902024908_18651686068014819_8162259761330011643_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nuQfjE-4ihoQ7kNvwEOgXFG&_nc_oc=Adqcbxu1NmKxLTd5qAqE8cybycZ1Epvz1S0zSjSdpBNTS5UGrmtv1DevM6Eo_iyIrf0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSKRZnd-nkdRaGdq1BDc5J2FcG0CA5oo7mt9fKsFGJnjg&oe=6B0662D6",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 27,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-14T13:00+00:00",
+  "price": 0,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "live",
+  "urls": [
+   "https://www.instagram.com/p/DfuQcKlMqJT/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "venerdì"
  },
  "2026-12-12-chorus_life_bergamo_via_carlo_serassi_26": {
   "address": "Via Carlo",
@@ -4747,7 +5653,7 @@
    "https://www.instagram.com/reel/Df1xmwFBSvO/"
   ],
   "venue": "Live Club",
-  "venue_followers": 33393,
+  "venue_followers": 33394,
   "venue_instagram": "liveclub",
   "venue_known": true,
   "venue_type": "club",
@@ -4789,7 +5695,7 @@
   "lead_days": 25,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-20T17:43+00:00",
+  "posted": "2026-11-20T18:49+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -4814,7 +5720,7 @@
    "https://primabergamo.it/tempo-libero/eventi/feed/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -4895,6 +5801,108 @@
   "venue_type": "club",
   "weekday": "venerdì"
  },
+ "2026-12-19-bloom": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.9,
+  "date": "2026-12-19",
+  "day_note": null,
+  "end": null,
+  "entry": "gratis",
+  "family": "Hip Hop / Trap",
+  "fascia": "preserata",
+  "fascia_why": "tipo di evento: culture",
+  "first_seen": "2026-11-20",
+  "genre": "Hip Hop",
+  "genre_source": "post",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "vintage_violence",
+    "level": null,
+    "name": "vintage_violence"
+   },
+   {
+    "followers": null,
+    "instagram": "le.urla",
+    "level": null,
+    "name": "le.urla"
+   },
+   {
+    "followers": null,
+    "instagram": "spread_band_",
+    "level": null,
+    "name": "spread_band_"
+   },
+   {
+    "followers": null,
+    "instagram": "luke_style.official",
+    "level": null,
+    "name": "luke_style.official"
+   },
+   {
+    "followers": null,
+    "instagram": "mugenon.band",
+    "level": null,
+    "name": "mugenon.band"
+   },
+   {
+    "followers": null,
+    "instagram": "treccani.officialband",
+    "level": null,
+    "name": "treccani.officialband"
+   }
+  ],
+  "handles": [
+   "le.urla",
+   "luke_style.official",
+   "mugenon.band",
+   "spread_band_",
+   "treccani.officialband",
+   "vintage_violence"
+  ],
+  "headliner": null,
+  "id": "2026-12-19-bloom",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/918033859_18653384167014819_8598601925095312184_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=65Xh1XYIRUEQ7kNvwH7KmNU&_nc_oc=Adqze3n4UAO2YWswwP6lOHVN98c2h3XJlhI5ZXVzkbF7KxVMe0h3RLLIMJpmSt9V0YQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQToDYlq1OOP4rCMJtvXItmYaeSig6Kla_kjDq-upYxdfQ&oe=6B064DF8",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 30,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-19T11:11+00:00",
+  "price": 0,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "culture",
+  "urls": [
+   "https://www.instagram.com/p/Df68bdYjA2X/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "sabato"
+ },
  "2026-12-19-choruslife_arena-pre": {
   "address": "Via Carlo Serassi, 26, Bergamo",
   "brand": null,
@@ -4916,7 +5924,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-19-choruslife_arena-pre",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/840752762_1763119439152766_8943726775126790603_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CjWJ4KMR2NMQ7kNvwHUTyrT&_nc_oc=Adrtzh_lU2TFzjHT3x4mLI_9KAztFP-Ph9mASxBPmkqZAthYcQGdmKDEMNdHJvfe6KE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2cpmj2Rwkf69z__bNQtPMg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQlaRQFO13dMwKqBh0Elx2yihtB_zP6d70DgCZbB-Yegg&oe=6B064366",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/840752762_1763119439152766_8943726775126790603_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CjWJ4KMR2NMQ7kNvwHUTyrT&_nc_oc=Adrtzh_lU2TFzjHT3x4mLI_9KAztFP-Ph9mASxBPmkqZAthYcQGdmKDEMNdHJvfe6KE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7tYNHXmATI-iz-ckuXzi3w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT96VaAXhRMtYO_iDwVORHevNLojrSPX5q2JSeoA9onPw&oe=6B067BA6",
   "in_posts": true,
   "km": 1.2,
   "lead_days": 72,
@@ -4947,11 +5955,85 @@
    "https://www.instagram.com/p/DeOy11fkix5/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",
   "weekday": "sabato"
+ },
+ "2026-12-23-bloom": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.9,
+  "date": "2026-12-23",
+  "day_note": null,
+  "end": null,
+  "entry": "gratis",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "ingresso gratuito",
+  "first_seen": "2026-11-20",
+  "genre": "Rock / Jazz",
+  "genre_source": "post",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "charlie.blackbird",
+    "level": null,
+    "name": "charlie.blackbird"
+   }
+  ],
+  "handles": [
+   "charlie.blackbird"
+  ],
+  "headliner": null,
+  "id": "2026-12-23-bloom",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/911722826_18653680888014819_7795550786552629878_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Na-c93exLTgQ7kNvwGOfKAo&_nc_oc=Adq7mpd5jT3S5gSdGQTGnwbEkkbogughi6bf9oCCmElh1MCSKoe-rXDz4-_mkkc7tbc&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT79CfMHHsfoIqt4ehEZv82k8XCsB6TEVahZtQ3IOnDcg&oe=6B0656A2",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 33,
+  "nightlife": true,
+  "party": "Brianza Backroads",
+  "posted": "2026-11-20T11:41+00:00",
+  "price": 0,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 35.7,
+  "score_parts": {
+   "capacity": 7.1,
+   "distance": 2.1,
+   "promoter": 0.0,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "live",
+  "urls": [
+   "https://www.instagram.com/p/Df9kko-DDDk/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "mercoledì"
  },
  "2026-12-25-via_treviglio_2058_fara_gera_d_adda": {
   "address": "Via Treviglio 2058",
@@ -5026,6 +6108,72 @@
   "venue_instagram": null,
   "venue_known": true,
   "venue_type": "bar",
+  "weekday": "venerdì"
+ },
+ "2027-01-15-bloom": {
+  "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+  "brand": null,
+  "capacity": 900,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.9,
+  "date": "2027-01-15",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "ingresso a pagamento o in lista",
+  "first_seen": "2026-11-20",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2027-01-15-bloom",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/916918391_18652886239014819_72885029480389872_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rvU59X9G_TMQ7kNvwHo_qRC&_nc_oc=Adob8a3L6-zTkrB1e3ohRp8WqAvrc_8pWWy5uPMqSQA4SwZcig_5Arzd2mM880cQJrU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HnMoFSicauK_de48e-yZfg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTdAOhqxVgrzzAw-jlM-2SUorhA3AY_VYBFuCILTXDBow&oe=6B065D32",
+  "in_posts": true,
+  "km": 19.8,
+  "lead_days": 59,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-17T16:47+00:00",
+  "price": 20,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 40.0,
+  "score_parts": {
+   "capacity": 7.1,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 6.5,
+   "venue_followers": 6.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "live",
+  "urls": [
+   "https://www.instagram.com/p/Df2ZEqYsXo3/"
+  ],
+  "venue": "Bloom",
+  "venue_followers": 16263,
+  "venue_instagram": "bloom_mezzago",
+  "venue_known": true,
+  "venue_type": "club",
   "weekday": "venerdì"
  },
  "2027-03-22-hoka_10_year_anniversary_tour_eu_uk_2027": {
@@ -5129,7 +6277,7 @@
   "lead_days": 233,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-20T17:43+00:00",
+  "posted": "2026-11-20T18:49+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -5154,7 +6302,7 @@
    "https://primabergamo.it/tempo-libero/eventi/feed/"
   ],
   "venue": "ChorusLife Arena",
-  "venue_followers": 67445,
+  "venue_followers": 67447,
   "venue_instagram": "choruslife.bergamo",
   "venue_known": true,
   "venue_type": "bar",

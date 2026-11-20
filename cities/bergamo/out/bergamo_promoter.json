@@ -1,21 +1,21 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-20T17:44",
+ "generated": "2026-11-20T18:50",
  "nights": [
   {
    "date": "2026-11-20",
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 7,
-   "load": 293.0,
+   "events": 9,
+   "load": 323.9,
    "level": "piena",
-   "capacity_taken": 6000,
+   "capacity_taken": 6600,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 7
+    "Altro": 9
    },
    "missing_families": [
     "House / Elettronica",
@@ -56,7 +56,7 @@
    "note": null,
    "weekend_like": true,
    "events": 7,
-   "load": 286.5,
+   "load": 290.3,
    "level": "piena",
    "capacity_taken": 6650,
    "by_family": {
@@ -152,22 +152,27 @@
    "weekday": "martedì",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 40.0,
    "level": "tranquilla",
-   "capacity_taken": 0,
+   "capacity_taken": 900,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Hard Techno / Rock] Bloom",
+     "score": 40.0,
+     "capacity": 900
+    }
+   ]
   },
   {
    "date": "2026-11-25",
@@ -1364,22 +1369,28 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 40.0,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 900,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Bloom",
+     "score": 40.0,
+     "capacity": 900
+    }
+   ]
   },
   {
    "date": "2027-01-16",

@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-20T17:44",
+ "generated": "2026-11-20T18:50",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -100,6 +100,22 @@
       "family": "Altro"
      },
      {
+      "line1": "The Next Ritual @ OASI",
+      "line2": "",
+      "time": "23:30",
+      "score": 17.7,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "OASI",
+      "line2": "theater room",
+      "time": "23:30",
+      "score": 13.2,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "ARYA Lounge Bar",
       "line2": "",
       "time": "22:00",
@@ -150,10 +166,10 @@
       "family": "Altro"
      },
      {
-      "line1": "ARYA Lounge Bar",
+      "line1": "Dj Arina Top @ ARYA Lounge Bar",
       "line2": "",
       "time": "00:00",
-      "score": 10.8,
+      "score": 14.6,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -291,6 +307,8 @@
    "@megan_is_missing_band",
    "@missdivina1",
    "@vibetheclub",
+   "@upside.down.night",
+   "@oasi.night",
    "@arya.lounge",
    "@nikita__land",
    "@bolgia.official",
@@ -299,7 +317,8 @@
    "@andrea_kor3",
    "@bobadillafeelingclub",
    "@unibg_party",
-   "@upside.down.night",
+   "@selected.lab",
+   "@fede_regooo",
    "@alessiosielii",
    "@lab80cinemas",
    "@theblankcontemporaryart",
@@ -308,10 +327,7 @@
    "@palmas.night",
    "@the.circlehub",
    "@dj_arinatop",
-   "@choruslife.bergamo",
-   "@bar_barrier",
-   "@assonica_",
-   "@badcompany_1920"
+   "@choruslife.bergamo"
   ],
   "hashtags": [
    "#bergamo",
@@ -323,12 +339,35 @@
   "from": "2026-11-23",
   "to": "2026-11-29",
   "dates_with_serate": [
+   "2026-11-24",
    "2026-11-25",
    "2026-11-27",
    "2026-11-28",
    "2026-11-29"
   ],
   "serate_by_family": {
+   "House / Elettronica": {
+    "2026-11-24": [
+     {
+      "line1": "Bloom",
+      "line2": "Hard Techno / Rock",
+      "time": "00:00",
+      "score": 40.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ],
+    "2026-11-27": [
+     {
+      "line1": "Underground - Hardcore @ Oronero",
+      "line2": "Hard Techno, Possibilita",
+      "time": "23:30",
+      "score": 38.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ]
+   },
    "Altro": {
     "2026-11-25": [
      {
@@ -384,18 +423,6 @@
       "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
-     }
-    ]
-   },
-   "House / Elettronica": {
-    "2026-11-27": [
-     {
-      "line1": "Underground - Hardcore @ Oronero",
-      "line2": "Hard Techno, Possibilita",
-      "time": "23:30",
-      "score": 38.9,
-      "fascia": "serata",
-      "family": "House / Elettronica"
      }
     ]
    }
@@ -457,6 +484,14 @@
      "score": 54.5,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Bloom",
+     "line2": "dj set",
+     "time": "21:00",
+     "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-29": [
@@ -467,6 +502,14 @@
      "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Bloom",
+     "line2": "live",
+     "time": "00:00",
+     "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ]
   },
@@ -474,7 +517,11 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@zeroclub.bg",
+   "@bloom_mezzago",
    "@to_on.tv",
+   "@lowl_fest",
+   "@spike.hellis",
+   "@www.bloomnet",
    "@bowie.hc",
    "@please.nights",
    "@choruslife.bergamo",
@@ -486,7 +533,13 @@
    "@tumulto_bg",
    "@scalpo_punk",
    "@calce.viva.oi",
-   "@sezione.8"
+   "@sezione.8",
+   "@cre.sp1",
+   "@esse.pietro",
+   "@federicoo_riva",
+   "@marte.bandemergenti",
+   "@digitalispurpurea_",
+   "@mudilva_"
   ],
   "hashtags": [
    "#bergamo",
@@ -504,6 +557,7 @@
    "2026-11-20",
    "2026-11-21",
    "2026-11-22",
+   "2026-11-24",
    "2026-11-25",
    "2026-11-27",
    "2026-11-28",
@@ -589,6 +643,22 @@
       "family": "Altro"
      },
      {
+      "line1": "The Next Ritual @ OASI",
+      "line2": "",
+      "time": "23:30",
+      "score": 17.7,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "OASI",
+      "line2": "theater room",
+      "time": "23:30",
+      "score": 13.2,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "ARYA Lounge Bar",
       "line2": "",
       "time": "22:00",
@@ -639,10 +709,10 @@
       "family": "Altro"
      },
      {
-      "line1": "ARYA Lounge Bar",
+      "line1": "Dj Arina Top @ ARYA Lounge Bar",
       "line2": "",
       "time": "00:00",
-      "score": 10.8,
+      "score": 14.6,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -727,6 +797,16 @@
     ]
    },
    "House / Elettronica": {
+    "2026-11-24": [
+     {
+      "line1": "Bloom",
+      "line2": "Hard Techno / Rock",
+      "time": "00:00",
+      "score": 40.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ],
     "2026-11-27": [
      {
       "line1": "Underground - Hardcore @ Oronero",
@@ -892,6 +972,14 @@
      "score": 54.5,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Bloom",
+     "line2": "dj set",
+     "time": "21:00",
+     "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-29": [
@@ -900,6 +988,14 @@
      "line2": "dj set",
      "time": "00:00",
      "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Bloom",
+     "line2": "live",
+     "time": "00:00",
+     "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -921,12 +1017,15 @@
    "@zeroclub.bg",
    "@divinabergamo",
    "@bolgia.official",
+   "@bloom_mezzago",
    "@liveclub",
    "@barleyartsreal",
    "@alchemica_club",
    "@megan_is_missing_band",
    "@missdivina1",
    "@vibetheclub",
+   "@upside.down.night",
+   "@oasi.night",
    "@arya.lounge",
    "@nikita__land",
    "@choruslife.bergamo",
@@ -935,18 +1034,15 @@
    "@andrea_kor3",
    "@bobadillafeelingclub",
    "@unibg_party",
-   "@upside.down.night",
+   "@selected.lab",
+   "@fede_regooo",
    "@alessiosielii",
    "@lab80cinemas",
    "@theblankcontemporaryart",
    "@naturalezza",
    "@premiere.premiere",
    "@palmas.night",
-   "@the.circlehub",
-   "@dj_arinatop",
-   "@bar_barrier",
-   "@assonica_",
-   "@badcompany_1920"
+   "@the.circlehub"
   ],
   "hashtags": [
    "#bergamo",
@@ -1019,14 +1115,49 @@
     ]
    }
   },
-  "preserate": {},
+  "preserate": {
+   "2026-12-05": [
+    {
+     "line1": "Bloom",
+     "line2": "Rock / Commerciale",
+     "time": "00:00",
+     "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-11": [
+    {
+     "line1": "Bloom",
+     "line2": "live",
+     "time": "00:00",
+     "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-23": [
+    {
+     "line1": "Brianza Backroads @ Bloom",
+     "line2": "Rock / Jazz",
+     "time": "00:00",
+     "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ]
+  },
   "big_events": [],
   "caption_handles": [
+   "@bloom_mezzago",
    "@bolgia.official",
    "@prenotazione",
+   "@dj.sofficino",
+   "@nico.bre1917",
    "@liveclub",
    "@barleyartsreal",
-   "@nikita__land"
+   "@nikita__land",
+   "@charlie.blackbird"
   ],
   "hashtags": [
    "#bergamo",
