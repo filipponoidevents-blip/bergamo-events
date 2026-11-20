@@ -1320,6 +1320,576 @@ venues:
     instagram: null
     source: google
 
+  # =================== Altri locali da Google Maps (2026-11-20, Filippo: aggiungili tutti tranne quelli per adulti) ===================
+  - name: "Divina Music Bar"
+    address: "Via Azzano San Paolo 71d, 24050, Grassobbio"
+    lat: 45.65964
+    lon: 9.71074
+    km: 5.0
+    kind: club
+    instagram: "divinabergamo"
+    source: google
+  - name: "Musicattiva"
+    address: "Via Rosmini, 8, 24055 Cologno Al Serio BG"
+    lat: 45.58225
+    lon: 9.71127
+    km: 13.2
+    kind: club
+    instagram: null
+    source: google
+  - name: "Circolo Doppio Senso"
+    address: "Via Provinciale, 114, 24021 Albino BG"
+    lat: 45.77662
+    lon: 9.8171
+    km: 13.9
+    kind: club
+    instagram: null
+    source: google
+  - name: "Hunger night"
+    address: "SP170, 27, 24040 Suisio BG"
+    lat: 45.65595
+    lon: 9.50577
+    km: 14.1
+    kind: club
+    instagram: null
+    source: google
+  - name: "Notturna Club"
+    address: "Via Don B. Ferrari, 45, 24029 Vertova BG"
+    lat: 45.80792
+    lon: 9.85314
+    km: 18.3
+    kind: club
+    instagram: null
+    source: google
+  - name: "Discoteca Dal Randa"
+    address: "Via Pasturana, 24047 Geromina BG"
+    lat: 45.53598
+    lon: 9.57789
+    km: 19.6
+    kind: club
+    instagram: null
+    source: google
+  - name: "Casablanca club"
+    address: "Via Attilio Galli, 30, 23801 Calolziocorte LC"
+    lat: 45.80187
+    lon: 9.42783
+    km: 22.5
+    kind: club
+    instagram: null
+    source: google
+  - name: "Disco Kiss"
+    address: "Via G.Marconi, 10, 24051 Antegnate BG"
+    lat: 45.48952
+    lon: 9.79697
+    km: 25.0
+    kind: club
+    instagram: null
+    source: google
+  - name: "Fashion Antegnate"
+    address: "Via G.Marconi, 8, 24051 Antegnate BG"
+    lat: 45.48951
+    lon: 9.79691
+    km: 25.0
+    kind: club
+    instagram: null
+    source: google
+  - name: "Hype Back Garden"
+    address: "Via Brescia, 24051 Antegnate BG"
+    lat: 45.49264
+    lon: 9.80696
+    km: 25.0
+    kind: club
+    instagram: null
+    source: google
+  - name: "I-Lounge"
+    address: "Via Borgo Palazzo, 34, 24125 Bergamo BG"
+    lat: 45.6977
+    lon: 9.68103
+    km: 0.3
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Bar Arkadia Bergamo"
+    address: "Via Foro Boario, 13, 24121 Bergamo BG"
+    lat: 45.69273
+    lon: 9.67737
+    km: 0.6
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Deja vu Bergamo"
+    address: "Via Borgo Santa Caterina, 24a, 24124 Bergamo BG"
+    lat: 45.70495
+    lon: 9.68046
+    km: 0.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Le Iris"
+    address: "V.le V. Emanuele II, 12, 24121 Bergamo BG"
+    lat: 45.69739
+    lon: 9.66672
+    km: 0.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "The Alchemist Bar Bergamo"
+    address: "Via Borgo Santa Caterina, 34/B, 24124 Bergamo BG"
+    lat: 45.70514
+    lon: 9.68119
+    km: 0.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Vox ristorante, pizzeria, lounge bar"
+    address: "Viale Papa Giovanni XXIII, 94, 24121 Bergamo BG"
+    lat: 45.69228
+    lon: 9.67243
+    km: 0.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Botep Bergamo"
+    address: "Via Gombito, 32a, 24129 Bergamo BG"
+    lat: 45.70345
+    lon: 9.66496
+    km: 1.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Fly Pub"
+    address: "Via Gombito, 28a, 24129 Bergamo BG"
+    lat: 45.70347
+    lon: 9.66489
+    km: 1.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Tony'S Cucina Bar Bottega"
+    address: "Via XX Settembre, 115, 24122 Bergamo BG"
+    lat: 45.69252
+    lon: 9.66524
+    km: 1.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Vacan Latin Bar"
+    address: "Via Giacomo Quarenghi, 20a, 24122 Bergamo BG"
+    lat: 45.69182
+    lon: 9.66613
+    km: 1.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Varadero Food & Drink"
+    address: "Via Sant'Alessandro, 31/A, 24122 Bergamo BG"
+    lat: 45.69467
+    lon: 9.66433
+    km: 1.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Ombra - Miscelazione, Piattini e Vini Naturali"
+    address: "Via Broseta, 5, 24122 Bergamo BG"
+    lat: 45.69283
+    lon: 9.6623
+    km: 1.3
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Varadda - Cocktail & Beer"
+    address: "Via Gianbattista Moroni, 8, 24122 Bergamo BG"
+    lat: 45.6922
+    lon: 9.66346
+    km: 1.3
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Bar Olympus"
+    address: "Via Gabriele Rosa, 10, 24125 Bergamo BG"
+    lat: 45.68972
+    lon: 9.69065
+    km: 1.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Mamo's"
+    address: "V. Evaristo Baschenis, 13, 24122 Bergamo BG"
+    lat: 45.68784
+    lon: 9.66568
+    km: 1.5
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Beach Bar"
+    address: "Via Palma Il Vecchio, 18 a, 24128 Bergamo BG"
+    lat: 45.69127
+    lon: 9.65951
+    km: 1.6
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Harlem Food, Drink&More"
+    address: "Via dello Statuto, 19, 24128 Bergamo BG"
+    lat: 45.69832
+    lon: 9.65583
+    km: 1.7
+    kind: bar
+    instagram: "harlem_bergamo"
+    source: google
+  - name: "Lounge Bar The Bliss"
+    address: "Via Giovanni Carnovali, 80, 24126 Bergamo BG"
+    lat: 45.68469
+    lon: 9.66587
+    km: 1.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Sottovoce Speakeasy"
+    address: "Via Canove, 1, 24126 Bergamo BG"
+    lat: 45.6752
+    lon: 9.67303
+    km: 2.6
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Level up cocktail bar"
+    address: "Via Antonia Ponti, 22, 24126 Bergamo BG"
+    lat: 45.67149
+    lon: 9.67667
+    km: 3.0
+    kind: bar
+    instagram: null
+    source: google
+  - name: "New Era Cocktail & Wine Bar"
+    address: "Via Piave, 36, 24052 Azzano San Paolo BG"
+    lat: 45.66342
+    lon: 9.67239
+    km: 3.9
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Cafe Noir Lounge"
+    address: "Cafè Noir, Via G.Tadino, 4 H, 24127 Bergamo BG"
+    lat: 45.67147
+    lon: 9.64236
+    km: 4.0
+    kind: bar
+    instagram: null
+    source: google
+  - name: "CAPOLINEA EAT DRINK RELAX"
+    address: "Strada al Mulino, 1, 24129 Bergamo BG"
+    lat: 45.72879
+    lon: 9.64887
+    km: 4.0
+    kind: bar
+    instagram: "capolinea_eat.drink.relax"
+    source: google
+  - name: "Moonlight"
+    address: "Via Levata, 23, 24068 Seriate BG"
+    lat: 45.6667
+    lon: 9.74137
+    km: 6.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Kraken Factory"
+    address: "Viale Piave, 58, 24022 Alzano Lombardo BG"
+    lat: 45.73359
+    lon: 9.7398
+    km: 6.2
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Pub La Caverna"
+    address: "via Dell'innovazione, 17, 24048 Treviolo BG"
+    lat: 45.67006
+    lon: 9.60074
+    km: 6.7
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Il Pirata Pub"
+    address: "Via Papa Giovanni XXIII, 75, 24011 Almè BG"
+    lat: 45.73856
+    lon: 9.60944
+    km: 6.9
+    kind: bar
+    instagram: "ilpiratapub"
+    source: google
+  - name: "Limbo Lounge Bar | Caffetteria, Pizzeria, Ristorante"
+    address: "Via IV Novembre, 10, 24030 Brembate di Sopra BG"
+    lat: 45.71971
+    lon: 9.57982
+    km: 7.9
+    kind: bar
+    instagram: null
+    source: google
+  - name: "2.0 Caffetteria & Lounge Bar"
+    address: "V. XXV Aprile, 16, 24030 Almenno San Bartolomeo BG"
+    lat: 45.7299
+    lon: 9.5827
+    km: 8.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Te daja"
+    address: "Via Liberta', 5/A, 24046 Osio Sotto BG"
+    lat: 45.61813
+    lon: 9.59311
+    km: 11.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Lounge Bar Sorriso Tabaccheria e Ricevitoria"
+    address: "Via G. Marconi, 3, 24021 Albino BG"
+    lat: 45.75701
+    lon: 9.79546
+    km: 11.3
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Zest Lounge Bar"
+    address: "Piazza Gian Battista Moroni, 3, 24021 Albino BG"
+    lat: 45.75822
+    lon: 9.79802
+    km: 11.5
+    kind: bar
+    instagram: null
+    source: google
+  - name: "PIJEY LOUNGE BAR"
+    address: "Via del Commercio, 110, 24059 Urgnano BG"
+    lat: 45.59052
+    lon: 9.70345
+    km: 12.2
+    kind: bar
+    instagram: null
+    source: google
+  - name: "CocktailMood"
+    address: "Via Roma, 4, 24040 Pognano BG"
+    lat: 45.5861
+    lon: 9.64039
+    km: 12.8
+    kind: bar
+    instagram: "cocktail_mood_cm"
+    source: google
+  - name: "Easy Drink and Food"
+    address: "Via Papa Giovanni XXIII, 4 C/o Centro Servizi Onda, 24042 Capriate San Gervasio BG"
+    lat: 45.62097
+    lon: 9.53177
+    km: 14.2
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Prato Alto Food Drink Musik"
+    address: "V. Serio, 39, 24021 Albino BG"
+    lat: 45.7793
+    lon: 9.82225
+    km: 14.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Botanic Fusion & Cocktail"
+    address: "Corso Europa, 27, 24040 Arcene BG"
+    lat: 45.57367
+    lon: 9.61408
+    km: 14.7
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Tiny Club"
+    address: "Piazza Martiri di Cefalonia, 3, 24020 Cene BG"
+    lat: 45.78046
+    lon: 9.82614
+    km: 14.7
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Barmusicmovida"
+    address: "Via Trieste, 38, 24060 Chiuduno BG"
+    lat: 45.64591
+    lon: 9.85502
+    km: 15.0
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Serendipity Cocktails & Food"
+    address: "Via Fossa Castello, 8, 23883 Brivio LC"
+    lat: 45.74208
+    lon: 9.4485
+    km: 18.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Pub La Nuit"
+    address: "Via Gerolamo Tiraboschi, 24017 Serina BG"
+    lat: 45.86915
+    lon: 9.72914
+    km: 19.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "The First Caffe Gintoneria & Cocktail bar"
+    address: "Via Mons.E.Bignamini, 1, 24047 Treviglio BG"
+    lat: 45.53073
+    lon: 9.5897
+    km: 19.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Zen Lounge Bar"
+    address: "SP101, 24058 Romano di Lombardia BG"
+    lat: 45.52795
+    lon: 9.75978
+    km: 20.0
+    kind: bar
+    instagram: null
+    source: google
+  - name: "The Baaz Bar - Lounge Bar Cividate Al Piano"
+    address: "Via Roma, 44, 24050 Cividate al Piano BG"
+    lat: 45.55519
+    lon: 9.83458
+    km: 20.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Mai Uguali Lounge Bar"
+    address: "Piazza Sant'Ambrogio, 3, 20877 Roncello MB"
+    lat: 45.60116
+    lon: 9.45841
+    km: 20.2
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Drink Responsibly Club: The Pub"
+    address: "Via Nazionale, 38, 24060 Spinone al Lago BG"
+    lat: 45.7633
+    lon: 9.9223
+    km: 20.3
+    kind: bar
+    instagram: "drinkresponsiblyclub"
+    source: google
+  - name: "Dama lounge bar"
+    address: "Via Duca D'Aosta, 24058 Romano di Lombardia BG"
+    lat: 45.5229
+    lon: 9.75497
+    km: 20.4
+    kind: bar
+    instagram: "bar.dama"
+    source: google
+  - name: "Lounge Garibaldi Treviglio"
+    address: "Piazza Garibaldi, 7G, 24047 Treviglio BG"
+    lat: 45.52118
+    lon: 9.59215
+    km: 20.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Tramonto"
+    address: "Via Milano, 30, 24047 Treviglio BG"
+    lat: 45.52277
+    lon: 9.57398
+    km: 21.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Gasoline Cernusco"
+    address: "Via Spluga, 49, 23870 Cernusco Lombardone LC"
+    lat: 45.69467
+    lon: 9.4042
+    km: 21.2
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Papeetebar"
+    address: "Via Spluga, 67, 23870 Cernusco Lombardone LC"
+    lat: 45.69149
+    lon: 9.40213
+    km: 21.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Il rava"
+    address: "Via Carlo Porta, 2, 20060 Ornago MI"
+    lat: 45.59917
+    lon: 9.4239
+    km: 22.6
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Castle Rock Pub"
+    address: "Via S. Gerolamo, 16, 23808 Vercurago LC"
+    lat: 45.80916
+    lon: 9.42652
+    km: 23.0
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Rin'z Lounge"
+    address: "Piazzale Pietro Gobetti, 20062 Cassano d'Adda MI"
+    lat: 45.52978
+    lon: 9.5056
+    km: 23.0
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Cordiale American Bar"
+    address: "Viale Giovanni XXIII, 27, 24043 Caravaggio BG"
+    lat: 45.49051
+    lon: 9.63894
+    km: 23.3
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Gliss adro"
+    address: "Via Provinciale, 46c, 25030 Adro BS"
+    lat: 45.62098
+    lon: 9.95788
+    km: 23.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Mocambo Art Music Bar"
+    address: "Via Marchesi, 16, 20065 Inzago MI"
+    lat: 45.53954
+    lon: 9.47984
+    km: 23.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Il Covo"
+    address: "SP ex SS 525 del Brembo, 2, 20065 Inzago MI"
+    lat: 45.54763
+    lon: 9.4537
+    km: 24.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Bar della Musica"
+    address: "Via Lazzaretto, 25, 25030 Adro BS"
+    lat: 45.61944
+    lon: 9.96835
+    km: 24.3
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Zero4 - Restaurant & Lounge Bar"
+    address: "Via Beata Vergine, 4, 24040 Misano di Gera d'Adda BG"
+    lat: 45.47913
+    lon: 9.62918
+    km: 24.7
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Origami Beach"
+    address: "Via Risorgimento, 136, 25049 Clusane BS"
+    lat: 45.66522
+    lon: 9.99492
+    km: 24.9
+    kind: bar
+    instagram: null
+    source: google
+
 
 # Town -> province lookup used when a source gives only a city name.
 towns:
