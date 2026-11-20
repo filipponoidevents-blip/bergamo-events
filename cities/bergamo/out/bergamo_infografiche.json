@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-20T21:02",
+ "generated": "2026-11-20T22:09",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -76,10 +76,10 @@
       "family": "Altro"
      },
      {
-      "line1": "Druso",
+      "line1": "Children Of The Damned @ Druso",
       "line2": "Rock",
       "time": "00:00",
-      "score": 43.1,
+      "score": 43.9,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -323,6 +323,14 @@
      "score": 25.7,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
+     "line2": "live",
+     "time": "20:45",
+     "score": 21.4,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
@@ -730,10 +738,10 @@
       "family": "Altro"
      },
      {
-      "line1": "Druso",
+      "line1": "Children Of The Damned @ Druso",
       "line2": "Rock",
       "time": "00:00",
-      "score": 43.1,
+      "score": 43.9,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -1075,6 +1083,14 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
+     "line2": "live",
+     "time": "20:45",
+     "score": 21.4,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
@@ -1275,6 +1291,7 @@
    "2026-12-05",
    "2026-12-07",
    "2026-12-10",
+   "2026-12-11",
    "2026-12-12",
    "2026-12-18",
    "2026-12-25"
@@ -1307,6 +1324,16 @@
       "line2": "Jazz",
       "time": "00:00",
       "score": 25.3,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-11": [
+     {
+      "line1": "Barley Arts @ Teatro Miela",
+      "line2": "Indie / Rock",
+      "time": "21:00",
+      "score": 44.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1344,6 +1371,16 @@
    }
   },
   "preserate": {
+   "2026-12-03": [
+    {
+     "line1": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
+     "line2": "dj set",
+     "time": "20:45",
+     "score": 21.4,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-12-05": [
     {
      "line1": "Bloom",
@@ -1397,15 +1434,17 @@
   },
   "big_events": [],
   "caption_handles": [
+   "@prenotazione",
    "@bloom_mezzago",
    "@bolgia.official",
-   "@prenotazione",
+   "@barleyartsreal",
+   "@filarmonicadalmine",
    "@dj.sofficino",
    "@nico.bre1917",
    "@possibilita",
    "@spettacoli",
+   "@teatromiela_trieste",
    "@liveclub",
-   "@barleyartsreal",
    "@nikita__land",
    "@door_74",
    "@charlie.blackbird",

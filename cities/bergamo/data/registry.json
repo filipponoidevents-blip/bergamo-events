@@ -13,6 +13,9 @@
   "afrodylanofficial": {
    "cands": 1
   },
+  "agnesss.dei": {
+   "cands": 1
+  },
   "alchemica_club": {
    "bio": "Live Rock/Metal Club - Scuola di Musica - Sale Prova - Recording Studio - Label - Booking - Management",
    "cands": 8,
@@ -23,6 +26,9 @@
    "name": "Alchemica Music Club - Bologna",
    "readable": true,
    "website": "https://li.sten.to/alchemicamusicclub"
+  },
+  "ale_lussiana": {
+   "cands": 1
   },
   "alessiosielii": {
    "cands": 1,
@@ -36,10 +42,11 @@
    "checked": "2026-11-20",
    "followers": 379,
    "kind": "promoter",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
+   "mentions": 1,
    "name": "nicola",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://on.soundcloud.com/6DGe3ZkIhs9CMLhghL"
   },
   "altafunicolare": {
@@ -63,10 +70,13 @@
   "amabergamo": {
    "bio": "📲AmaBergAmo è un progetto social che diffonde la bellezza e l’unicità della terra bergamasca in ogni sua forma\n🏡Ti mostriamo i dettagli di Bergamo",
    "checked": "2026-11-20",
+   "events_found": 0,
    "followers": 8578,
    "kind": "venue",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "AmaBergAmo",
    "readable": true,
+   "reads": 1,
    "website": null
   },
   "andrea_kor3": {
@@ -118,11 +128,15 @@
    "checked": "2026-11-20",
    "followers": 2400,
    "kind": "promoter",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "Area Kitchen",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://www.areakitchen.it/"
+  },
+  "armida.kaiserfleish": {
+   "cands": 2,
+   "mentions": 1
   },
   "arya.lounge": {
    "bio": "FEEL FREE TONIGHT \nVen /  Sab 21:00 - 03:00 \nVia Balilla 66 , Romano Di Lombardia📍\nInfo e prenotazioni : 3513507240\nFoto serate👇🏻📸",
@@ -164,10 +178,10 @@
    "checked": "2026-11-20",
    "followers": 154,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "Bakary",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "bar.dama": {
@@ -188,11 +202,11 @@
    "events_found": 8,
    "followers": 10330,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "mentions": 3,
    "name": "Barrier This is the right place",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://www.bargiornale.it/barawards-2026/"
   },
   "bar_posto_fisso": {
@@ -257,8 +271,15 @@
    "website": "https://linktr.ee/bloommezzago"
   },
   "bloomcinema_mezzago": {
+   "bio": "Cinema d'essai, da martedì a domenica\n📍Via Curiel 39, Mezzago \n🎬 @bloom_mezzago\n⚠️ Orari, eventi, shop e cucina ⤵️",
    "cands": 4,
-   "mentions": 1
+   "checked": "2026-11-20",
+   "followers": 1860,
+   "kind": "venue",
+   "mentions": 1,
+   "name": "BLOOM CINEMA",
+   "readable": true,
+   "website": "http://linktr.ee/bloommezzago/"
   },
   "bob_theotherside": {
    "bio": "A place where time stops.\nBeside @bob_isoladistrict\nMon - Sat | 19.00 - 2.00",
@@ -454,10 +475,10 @@
    "events_found": 3,
    "followers": 360,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "COCKTAIL MOOD",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": null
   },
   "colore_ai_sogni": {
@@ -504,8 +525,15 @@
    "cands": 1
   },
   "cotd_iron_maiden": {
+   "bio": "Iron Maiden Tribute since 2001\nCollaborations:\nDennis Stratton italian band\nPaul di'Anno's official italian band (2003-2014)",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-20",
+   "followers": 629,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Children Of The Damned",
+   "readable": true,
+   "website": "http://www.childrenofthedamned.it/"
   },
   "cre.sp1": {
    "cands": 2,
@@ -579,14 +607,14 @@
   "divinabergamo": {
    "bio": "🇮🇹🏳️‍🌈❤️ dal 1991 Dedicato a Raffaella Carra' 👉🏻Dal 1991 Bergamo dal 2017 a Grassobbio ✈️🚁 👑 locale di👉🏻 @missdivina1 ❤️👸🏼#missdivina ⬇️  Ven  & Sab",
    "checked": "2026-11-20",
-   "events_found": 14,
-   "followers": 17178,
+   "events_found": 15,
+   "followers": 17179,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "mentions": 2,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 17,
+   "reads": 18,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "dj.sofficino": {
@@ -625,13 +653,13 @@
    "cands": 1,
    "checked": "2026-11-20",
    "events_found": 1,
-   "followers": 18863,
+   "followers": 18866,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "mentions": 1,
    "name": "Door 74",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "venue_done": true,
    "website": "https://finddoor74.com/"
   },
@@ -651,12 +679,12 @@
    "bio": "Dal 2007 la casa della musica a Bergamo\nLive music, party & more... info qui 👇",
    "checked": "2026-11-20",
    "events_found": 21,
-   "followers": 24671,
+   "followers": 24673,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "Druso",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://it-it.facebook.com/drusobergamo/"
   },
   "e.katea_99": {
@@ -684,6 +712,9 @@
   "everyday.is.caturday": {
    "cands": 1
   },
+  "fabi_martini": {
+   "cands": 1
+  },
   "fabrique_milano": {
    "cands": 1,
    "mentions": 1
@@ -694,6 +725,11 @@
   "fans_of_tim_ripper_owens": {
    "cands": 1,
    "mentions": 1
+  },
+  "fararockfest": {
+   "checked": "2026-11-20",
+   "error": "110: Invalid user id",
+   "readable": false
   },
   "fede_regooo": {
    "bio": "🎧 DJ & Producer\n🏆 #58 Beatport Top 100 — “Dirty Drive”\n🔊 Tech House\n⬇️ Latest Music",
@@ -719,6 +755,18 @@
    "name": "femmecell",
    "readable": true,
    "website": "https://on.soundcloud.com/x0EqumY1rHTwmvg4CN"
+  },
+  "filarmonicadalmine": {
+   "bio": "Corpo Musicale di Sforzatica - Corpo Musicale San Lorenzo Martire di Mariano - Scuola di Musica Giuseppe Tassis - Orchestra Città di Dalmine",
+   "checked": "2026-11-20",
+   "events_found": 4,
+   "followers": 152,
+   "kind": "venue",
+   "last_read": "2026-11-20T22:04+00:00",
+   "name": "Associazione Filarmonica Dalmine",
+   "readable": true,
+   "reads": 1,
+   "website": "www.filarmonicadalmine.it"
   },
   "flyer_billy": {
    "cands": 1
@@ -814,17 +862,19 @@
    "bio": "📍Via Papa Giovanni XXIII n75 - Almè \nAperto 7/7 \n🕰Dalle 17.00 alle 2.00 \n🎉Venerdì e sabato fino alle 5.00",
    "checked": "2026-11-20",
    "events_found": 3,
-   "followers": 1925,
+   "followers": 1924,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "Il Pirata Pub Food&Drink",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://www.facebook.com/ilpiratapubalme/"
   },
   "importanti": {
    "cands": 1,
-   "mentions": 2
+   "checked": "2026-11-20",
+   "mentions": 2,
+   "readable": false
   },
   "incisions054": {
    "cands": 1
@@ -841,13 +891,13 @@
    "cands": 2,
    "checked": "2026-11-20",
    "events_found": 22,
-   "followers": 14662,
+   "followers": 14664,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "mentions": 1,
    "name": "Ink Club",
    "readable": true,
-   "reads": 16,
+   "reads": 17,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
@@ -872,6 +922,9 @@
    "website": "https://linktr.ee/Insolaze"
   },
   "intercomunaletrash": {
+   "cands": 1
+  },
+  "isaacmaffeis": {
    "cands": 1
   },
   "jamlivestudio": {
@@ -1045,6 +1098,12 @@
    "readable": true,
    "website": "https://linktr.ee/marlonmostaceromendoza"
   },
+  "martacuscuna": {
+   "cands": 1
+  },
+  "martagrimolizzi.ph": {
+   "cands": 1
+  },
   "marte.bandemergenti": {
    "cands": 2,
    "mentions": 1
@@ -1058,6 +1117,9 @@
    "name": "Maschile Plurale",
    "readable": true,
    "website": "https://leserredeigiardini.it/maschile-plurale-fest/"
+  },
+  "massimosomaglino": {
+   "cands": 1
   },
   "mattia.bonaldi": {
    "cands": 1
@@ -1081,7 +1143,7 @@
   },
   "missdivina1": {
    "bio": "#missdivina  #divinabergamo 👑 Bergamo 🇮🇹 🇲🇨 DragQueenSinger ❤️Dal1991 mio il @divinabergamo  dedicato a Raffaella Carra'🇮🇹🏳️‍🌈🇲🇨 tiktok missdivina1",
-   "cands": 19,
+   "cands": 20,
    "checked": "2026-11-19",
    "followers": 127309,
    "kind": "unknown",
@@ -1126,12 +1188,12 @@
   "nightlifebergamo": {
    "bio": "Il punto di riferimento degli eventi a Bergamo e provincia🪩⭐️🆒🥂\n🤝 @nightlifebrescia \nLocali e brand: scrivete PARTNER in DM📥",
    "checked": "2026-11-20",
-   "followers": 11518,
+   "followers": 11519,
    "kind": "scout",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -1141,10 +1203,10 @@
    "events_found": 11,
    "followers": 25609,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "Nikita",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "http://nikita.land"
   },
   "nouvellevague_tirana": {
@@ -1156,6 +1218,7 @@
    "mentions": 3,
    "name": "Nouvelle Vague Cocktail Bar",
    "readable": true,
+   "venue_done": true,
    "website": "http://www.nouvellevaguetirana.com"
   },
   "oasi.night": {
@@ -1165,16 +1228,19 @@
    "events_found": 2,
    "followers": 513,
    "kind": "venue",
-   "last_read": "2026-11-20T18:45+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "mentions": 2,
    "name": "OASI",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "venue_done": true,
    "website": null
   },
   "offline.raw": {
    "cands": 1
+  },
+  "omar__giorgio_makhloufi": {
+   "mentions": 1
   },
   "ommemusic": {
    "checked": "2026-11-20",
@@ -1208,7 +1274,9 @@
   },
   "ozza.dj": {
    "cands": 1,
-   "mentions": 2
+   "checked": "2026-11-20",
+   "mentions": 2,
+   "readable": false
   },
   "palmas.night": {
    "cands": 1,
@@ -1258,9 +1326,9 @@
    "website": "https://linktr.ee/premierefam"
   },
   "prenotazione": {
-   "cands": 1,
+   "cands": 2,
    "checked": "2026-11-19",
-   "mentions": 3,
+   "mentions": 4,
    "readable": false
   },
   "principessa11270": {
@@ -1336,8 +1404,15 @@
    "cands": 1
   },
   "selected.lab": {
+   "bio": "Sound. Energy. Culture.\nFOR THOSE WHO FEEL THE GROOVE\nNext. 20.11 @vibetheclub",
    "cands": 1,
-   "mentions": 2
+   "checked": "2026-11-20",
+   "followers": 201,
+   "kind": "unknown",
+   "mentions": 2,
+   "name": "SELECTED",
+   "readable": true,
+   "website": "https://upass.easy-links.org/LR7B"
   },
   "sezione.8": {
    "bio": "LOMBARDIA (it) NEW WAVE OF POST OI \nNESCIT VOX MISSA REVERTI\nNuova intervista: https://www.punkadeka.it/quattro-chiacchiere-con-i-sezione-8/",
@@ -1431,10 +1506,10 @@
    "events_found": 11,
    "followers": 58263,
    "kind": "promoter",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "STREEAT Food Truck Festival",
    "readable": true,
-   "reads": 7,
+   "reads": 8,
    "watch": true,
    "website": "http://www.streeatfoodtruckfestival.it"
   },
@@ -1455,11 +1530,15 @@
    "bio": "🎭 Dal 1990 a Trieste un luogo per spettacoli, musica, incontri e altre instabilità\n🟨 Per divertirsi, riflettere e stupirsi\nLa stagione 2026/2027⭣",
    "cands": 1,
    "checked": "2026-11-20",
-   "followers": 7917,
+   "events_found": 23,
+   "followers": 7916,
    "kind": "venue",
+   "last_read": "2026-11-20T22:04+00:00",
    "mentions": 5,
    "name": "Teatro Miela",
    "readable": true,
+   "reads": 1,
+   "venue_done": true,
    "website": "https://linktr.ee/teatromiela"
   },
   "the.circlehub": {
@@ -1554,13 +1633,13 @@
    "bio": "| BE COOL BE VIBE |\n📍Bergamo, Italy\nInfoline: 3497567830",
    "checked": "2026-11-20",
    "events_found": 5,
-   "followers": 11572,
+   "followers": 11571,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "mentions": 2,
    "name": "VIBE CLUB",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "http://www.vibetheclub.it"
   },
   "victorialoungebar_bonate": {
@@ -1674,12 +1753,12 @@
    "cands": 5,
    "checked": "2026-11-20",
    "events_found": 10,
-   "followers": 20838,
+   "followers": 20836,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-20T22:04+00:00",
    "name": "Zero Club Bergamo",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://site.fourvenues.com/en/zero-club"
   }
  },
@@ -1756,6 +1835,7 @@
    "lon": 26.77645,
    "province": null
   },
+  "Nouvelle Vague Cocktail Bar, Bergamo": null,
   "OASI, Bergamo": {
    "city": "Dalmine",
    "lat": 45.65617,
@@ -1827,6 +1907,12 @@
    "city": "Milano",
    "lat": 45.47108,
    "lon": 9.10937,
+   "province": null
+  },
+  "Teatro Miela, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.69508,
+   "lon": 9.67109,
    "province": null
   },
   "VIA CARLO, Bergamo": {
@@ -1960,6 +2046,7 @@
    "name": "A.r.c.i. Bergamo",
    "removed": false,
    "reviews": 19,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -2240,6 +2327,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "fararockfest",
    "km": 20.2,
    "lat": 45.54972,
    "lon": 9.52713,
@@ -2250,7 +2338,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.fara-rock.it/"
+   "website": "http://www.fara-rock.it/",
+   "website_checked": true
   },
   "area feste attrezzata": {
    "auto_vote": 3.5,
@@ -2342,11 +2431,13 @@
    "name": "Associazione Bandistica Musicale Vivace",
    "removed": false,
    "reviews": 49,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.bandavivace.com/"
+   "website": "http://www.bandavivace.com/",
+   "website_checked": true
   },
   "associazione culturale bhm": {
    "address": "Via Ciucani, 2, 20876 Ornago MB",
@@ -2365,15 +2456,17 @@
     "google"
    ],
    "type": "live_club",
-   "website": "https://www.facebook.com/acbhm2020"
+   "website": "https://www.facebook.com/acbhm2020",
+   "website_checked": true
   },
   "associazione filarmonica dalmine corpo musicale san lorenzo martire": {
    "address": "Via Santuario, 7, 24044 Mariano al Brembo BG",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 3.2,
+   "capacity": 250,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 152,
+   "instagram": "filarmonicadalmine",
    "km": 9.6,
    "lat": 45.63863,
    "lon": 9.58833,
@@ -2383,7 +2476,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.filarmonicadalmine.it/"
+   "website": "http://www.filarmonicadalmine.it/",
+   "website_checked": true
   },
   "astoria": {
    "auto_vote": 4.1,
@@ -2479,7 +2573,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.balzer.it/"
+   "website": "http://www.balzer.it/",
+   "website_checked": true
   },
   "bar arkadia bergamo": {
    "address": "Via Foro Boario, 13, 24121 Bergamo BG",
@@ -2573,7 +2668,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://barhaiti.shop/"
+   "website": "https://barhaiti.shop/",
+   "website_checked": true
   },
   "bar la dogana": {
    "address": "Via Piave, 7A, 24030 Strozza BG",
@@ -2610,7 +2706,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.centroletorrette.com/ristobar.php"
+   "website": "http://www.centroletorrette.com/ristobar.php",
+   "website_checked": true
   },
   "bar marconi c p di cinesi patrizia snc": {
    "address": "Largo Guglielmo Marconi, 8, 24060 Brusaporto BG",
@@ -2685,7 +2782,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.ilricordo.cloud/on-off/"
+   "website": "https://www.ilricordo.cloud/on-off/",
+   "website_checked": true
   },
   "bar pasticceria capitanio": {
    "address": "Via Tresolzio, 40, 24060 Carobbio degli Angeli BG",
@@ -3876,6 +3974,7 @@
    "name": "Circolo Culturale G. Greppi",
    "removed": false,
    "reviews": 7,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -3963,6 +4062,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-20",
    "km": 2.3,
    "lat": 45.71133,
    "lon": 9.70043,
@@ -4003,6 +4103,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-20",
    "km": 23.6,
    "lat": 45.65344,
    "lon": 9.38103,
@@ -4271,6 +4372,7 @@
    "name": "Daste Bergamo",
    "removed": false,
    "reviews": 1231,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -4364,6 +4466,7 @@
    "lat": 45.69508,
    "lon": 9.67109,
    "name": "delleAli Teatro",
+   "removed": false,
    "sources": [
     "instagram"
    ],
@@ -4458,7 +4561,7 @@
    "capacity_source": "stima",
    "city": "Grassobbio",
    "first_seen": "2026-11-18",
-   "followers": 17178,
+   "followers": 17179,
    "instagram": "divinabergamo",
    "km": 5.0,
    "lat": 45.65964,
@@ -4498,7 +4601,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-20",
-   "followers": 18863,
+   "followers": 18866,
    "instagram": "door_74",
    "km": 1.5,
    "lat": 45.68879,
@@ -4557,7 +4660,7 @@
    "capacity_source": "stima",
    "city": "Ranica",
    "first_seen": "2026-11-18",
-   "followers": 24671,
+   "followers": 24673,
    "ig_guessed": "2026-11-19",
    "instagram": "drusobg",
    "km": 3.9,
@@ -4856,6 +4959,7 @@
    "name": "FR animation",
    "removed": false,
    "reviews": 18,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -5004,6 +5108,7 @@
    "name": "Gli Zanni",
    "removed": false,
    "reviews": 4,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -5186,7 +5291,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1925,
+   "followers": 1924,
    "instagram": "ilpiratapub",
    "km": 6.9,
    "lat": 45.73856,
@@ -5224,7 +5329,7 @@
    "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 14662,
+   "followers": 14664,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
@@ -6114,6 +6219,7 @@
    "name": "MAITE",
    "removed": false,
    "reviews": 220,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -6724,6 +6830,7 @@
    "name": "ONEMUSIC",
    "removed": false,
    "reviews": 164,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -7756,6 +7863,7 @@
    "name": "Spazio Eventi Kilometro Rosso",
    "removed": false,
    "reviews": 407,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -7812,6 +7920,7 @@
    "name": "Spazio Polaresco",
    "removed": false,
    "reviews": 557,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -7948,6 +8057,24 @@
     "eventi"
    ],
    "type": "bar"
+  },
+  "teatro miela": {
+   "auto_vote": 5.2,
+   "capacity": 500,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-20",
+   "followers": 7916,
+   "instagram": "teatromiela_trieste",
+   "km": 0.6,
+   "lat": 45.69508,
+   "lon": 9.67109,
+   "name": "Teatro Miela",
+   "sources": [
+    "instagram"
+   ],
+   "type": "live_club",
+   "website": "https://linktr.ee/teatromiela"
   },
   "teatro mucchetti": {
    "address": "Via Indipendenza, 25030 Adro BS",
@@ -8476,7 +8603,7 @@
    "capacity_source": "stima",
    "city": "Treviolo",
    "first_seen": "2026-11-18",
-   "followers": 11572,
+   "followers": 11571,
    "ig_guessed": "2026-11-19",
    "instagram": "vibetheclub",
    "km": 3.9,
@@ -8644,7 +8771,7 @@
    "capacity": 1000,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 20838,
+   "followers": 20836,
    "instagram": "zeroclub.bg",
    "km": 1.5,
    "lat": 45.68801,

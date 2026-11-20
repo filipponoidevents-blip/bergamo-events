@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-20T21:02",
+ "generated": "2026-11-20T22:09",
  "nights": [
   {
    "date": "2026-11-20",
@@ -8,7 +8,7 @@
    "note": null,
    "weekend_like": true,
    "events": 12,
-   "load": 431.2,
+   "load": 432.0,
    "level": "piena",
    "capacity_taken": 8300,
    "by_family": {
@@ -39,8 +39,8 @@
      "capacity": 1250
     },
     {
-     "title": "[Rock] Druso",
-     "score": 43.1,
+     "title": "[Rock] Druso · Children Of The Damned",
+     "score": 43.9,
      "capacity": 1100
     },
     {
@@ -596,22 +596,28 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 44.4,
    "level": "libera",
-   "capacity_taken": 0,
+   "capacity_taken": 500,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Indie / Rock] Teatro Miela · Barley Arts",
+     "score": 44.4,
+     "capacity": 500
+    }
+   ]
   },
   {
    "date": "2026-12-12",
