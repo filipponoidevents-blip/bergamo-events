@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-20T17:38",
+ "generated": "2026-11-20T17:44",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -129,7 +129,7 @@
       "line1": "Premiere.Premiere @ Zero Club",
       "line2": "",
       "time": "00:00",
-      "score": 41.5,
+      "score": 47.0,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -245,6 +245,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Barrier",
+     "line2": "Latino",
+     "time": "19:00",
+     "score": 43.9,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
@@ -291,17 +299,19 @@
    "@andrea_kor3",
    "@bobadillafeelingclub",
    "@unibg_party",
-   "@oasi.night",
    "@upside.down.night",
    "@alessiosielii",
    "@lab80cinemas",
    "@theblankcontemporaryart",
    "@naturalezza",
-   "@palmas.night",
    "@premiere.premiere",
+   "@palmas.night",
    "@the.circlehub",
    "@dj_arinatop",
-   "@choruslife.bergamo"
+   "@choruslife.bergamo",
+   "@bar_barrier",
+   "@assonica_",
+   "@badcompany_1920"
   ],
   "hashtags": [
    "#bergamo",
@@ -353,7 +363,7 @@
       "line1": "Cromaroom @ Zero Club",
       "line2": "",
       "time": "00:59",
-      "score": 31.2,
+      "score": 41.5,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -361,7 +371,7 @@
       "line1": "Bar Florio @ Zero Club",
       "line2": "club room",
       "time": "00:00",
-      "score": 26.4,
+      "score": 33.5,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -608,7 +618,7 @@
       "line1": "Premiere.Premiere @ Zero Club",
       "line2": "",
       "time": "00:00",
-      "score": 41.5,
+      "score": 47.0,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -680,7 +690,7 @@
       "line1": "Cromaroom @ Zero Club",
       "line2": "",
       "time": "00:59",
-      "score": 31.2,
+      "score": 41.5,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -688,7 +698,7 @@
       "line1": "Bar Florio @ Zero Club",
       "line2": "club room",
       "time": "00:00",
-      "score": 26.4,
+      "score": 33.5,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -790,6 +800,14 @@
      "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Barrier",
+     "line2": "Latino",
+     "time": "19:00",
+     "score": 43.9,
+     "fascia": "preserata",
+     "family": "Commerciale"
     },
     {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
@@ -917,18 +935,18 @@
    "@andrea_kor3",
    "@bobadillafeelingclub",
    "@unibg_party",
-   "@oasi.night",
    "@upside.down.night",
    "@alessiosielii",
    "@lab80cinemas",
    "@theblankcontemporaryart",
    "@naturalezza",
-   "@palmas.night",
    "@premiere.premiere",
+   "@palmas.night",
    "@the.circlehub",
    "@dj_arinatop",
-   "@to_on.tv",
-   "@bowie.hc"
+   "@bar_barrier",
+   "@assonica_",
+   "@badcompany_1920"
   ],
   "hashtags": [
    "#bergamo",

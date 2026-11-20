@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
 UID:2026-11-19-ink_club-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261119T213000
 SUMMARY:Ink Club · Worst Collective w/ k0r3
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -22,7 +22,7 @@ URL:https://www.instagram.com/reel/Df4r6NFNUEs/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-nxt_station-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261119T200000
 SUMMARY:[Rock] NXT Station · Giorgio Canali
 LOCATION:NXT Station\, Piazzale degli Alpini\, Bergamo
@@ -36,7 +36,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/gior
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-ink_club@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Ink Club · 11 Spaca Molto Moltomalefest
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -49,7 +49,7 @@ URL:https://www.instagram.com/reel/Df4r6NFNUEs/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-arena_esterno_notte@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Arena Esterno Notte · The Blank Contemporary Art
 LOCATION:Arena Esterno Notte\, Via Torquato Tasso 4\, 24121\, Bergamo
@@ -62,7 +62,7 @@ URL:https://www.instagram.com/p/Df5UF_9iEa4/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-nikita@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261120T223000
 SUMMARY:Nikita · Novembre
 LOCATION:Nikita\, Via dei Morenghi 2\, 24064\, Grumello del Monte
@@ -77,13 +77,13 @@ URL:https://www.instagram.com/p/Dfy_Ai_DqZe/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-choruslife_arena-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261121T180000
 SUMMARY:ChorusLife Arena · Fiorella Mannoia
 LOCATION:ChorusLife Arena\, Via Carlo Serassi\, 26\, Bergamo
 DESCRIPTION:PRESERATA · voto 56.8/100\ninizia alle 18:00\n📍 Via Carlo 
  Serassi\, 26\, Bergamo (1.2 km)\nLocale: @choruslife.bergamo\nStessa sera
- : altri 2 eventi (2 dello stesso genere)\nhttps://www.instagram.com/p/Dfs
+ : altri 3 eventi (2 dello stesso genere)\nhttps://www.instagram.com/p/Dfs
  Hg2ZFOY_/\nhttps://www.instagram.com/p/Df-GPOhm-bQ/\nhttps://www.instagra
  m.com/p/DfzTkyFjSbn/\nhttps://www.instagram.com/p/Df14X3qDfY2/
 CATEGORIES:PRESERATA,Altro
@@ -91,25 +91,41 @@ URL:https://www.instagram.com/p/DfsHg2ZFOY_/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-ink_club@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Ink Club · 11 Spaca Male Moltomalefest
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
 DESCRIPTION:PRESERATA · voto 52.0/100\nbar o locale diurno\n📍 Via Gios
  uè Carducci 4/b\, 24127 (1.7 km)\nLocale: @inkclub_bergamo\nStessa sera:
-  altri 2 eventi (2 dello stesso genere)\nhttps://www.instagram.com/reel/D
+  altri 3 eventi (2 dello stesso genere)\nhttps://www.instagram.com/reel/D
  f4r6NFNUEs/
 CATEGORIES:PRESERATA,Altro
 URL:https://www.instagram.com/reel/Df4r6NFNUEs/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-21-barrier-pre@nightlife-bergamo
+DTSTAMP:20261120T174407Z
+DTSTART;TZID=Europe/Rome:20261121T190000
+SUMMARY:[Latino] Barrier
+LOCATION:Barrier\, P.za Giacomo Matteotti\, 10\, 24122 Bergamo BG
+DESCRIPTION:PRESERATA · voto 43.9/100\ninizia alle 19:00\n📍 P.za Giaco
+ mo Matteotti\, 10\, 24122 Bergamo BG (0.8 km)\nLocale: @bar_barrier\nOspi
+ ti: Julien Reed\, assonica_\, badcompany_1920\, door_74\, bob_theothersid
+ e\nStessa sera: altri 3 eventi (0 dello stesso genere)\nhttps://www.insta
+ gram.com/p/DfU6HrcsVr4/\nhttps://www.instagram.com/p/Dfh3RaGMtME/\nhttps:
+ //www.instagram.com/p/DfkYfj1s-yZ/\nhttps://www.instagram.com/p/DfuID0HM3
+ cU/
+CATEGORIES:PRESERATA,Commerciale
+URL:https://www.instagram.com/p/DfU6HrcsVr4/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-21-auditorium_modernissimo-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261121T210000
 SUMMARY:Auditorium Modernissimo · Metti una sera all'opera
 LOCATION:Auditorium Modernissimo\, Piazza Libertà\, Nembro
 DESCRIPTION:PRESERATA · voto 19.6/100\ninizia alle 21:00\n📍 Piazza Lib
- ertà\, Nembro (8.1 km)\nStessa sera: altri 2 eventi (2 dello stesso gene
+ ertà\, Nembro (8.1 km)\nStessa sera: altri 3 eventi (2 dello stesso gene
  re)\nhttps://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/nembro/con
  certo-lirico-metti-una-sera-allopera_307658/
 CATEGORIES:PRESERATA,Altro
@@ -118,7 +134,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/nembro/conce
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-ink_club@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Ink Club · 10 Mega Tornei X Street Radio
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -131,7 +147,7 @@ URL:https://www.instagram.com/reel/DewxyXztDDw/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-divina_music_bar-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261122T160000
 SUMMARY:Divina Music Bar
 LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
@@ -144,7 +160,7 @@ URL:https://www.instagram.com/reel/Df7qoRkNBZW/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-ink_club@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Ink Club · 10 To_On.Tv
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -156,7 +172,7 @@ URL:https://www.instagram.com/reel/DewxyXztDDw/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-ink_club-club_room@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:Ink Club (club room) · Bowie.Hc
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -169,7 +185,7 @@ URL:https://www.instagram.com/reel/DewxyXztDDw/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-ink_club-main_room-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261124T200000
 SUMMARY:Ink Club · 10 Spacazotot: Graveryofficial
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -183,7 +199,7 @@ URL:https://www.instagram.com/p/Df4IjSeAXPv/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-choruslife_arena-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261125T210000
 SUMMARY:ChorusLife Arena · Gigi D’Alessio
 LOCATION:ChorusLife Arena\, Via Carlo Serassi\, 26\, Bergamo
@@ -197,7 +213,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/gigi
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-ink_club-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261127T210000
 SUMMARY:[Elettronica] Ink Club · 10 Torneo Fifa w/ Corinna
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -210,7 +226,7 @@ URL:https://www.instagram.com/p/Df4_gCcl2Wi/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-ink_club-pre@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;TZID=Europe/Rome:20261128T210000
 SUMMARY:[Rock] Ink Club · Tumulto w/ SCALPO
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -223,7 +239,7 @@ URL:https://www.instagram.com/p/DfU0Y3xNf8p/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-ink_club@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261129
 SUMMARY:Ink Club · 10 Space Jam
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -235,7 +251,7 @@ URL:https://www.instagram.com/reel/DfC7UCYxvTm/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-30-ink_club@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Ink Club · 10 Kendasoundsystem Party
 LOCATION:Ink Club\, Via Giosuè Carducci 4/b\, 24127
@@ -247,7 +263,7 @@ URL:https://www.instagram.com/reel/DfC7UCYxvTm/
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-22-hoka_10_year_anniversary_tour_eu_uk_2027@nightlife-bergamo
-DTSTAMP:20261120T173806Z
+DTSTAMP:20261120T174407Z
 DTSTART;VALUE=DATE:20270322
 SUMMARY:[Rock] HOKA 10 YEAR ANNIVERSARY TOUR EU + UK 2027 · Barley Arts
 LOCATION:HOKA 10 YEAR ANNIVERSARY TOUR EU + UK 2027
