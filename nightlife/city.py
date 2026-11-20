@@ -36,6 +36,21 @@ def read_yaml(path: Path) -> dict:
     return (yaml.safe_load(path.read_text(encoding="utf-8")) or {}) if path.exists() else {}
 
 
+GENERIC = {"lounge", "bar", "ristorante", "restaurant", "risto", "cocktail", "cocktails", "club", "discoteca", "disco", "pub", "food", "drink", "drinks", "and", "more",
+           "caffe", "cafe", "caffetteria", "pizzeria", "music", "musik", "wine", "beer", "the", "il", "la", "lo", "le", "di", "del", "della", "e", "bistrot", "bergamo", "night"}
+COMMON = {"beach", "summer", "garden", "moonlight", "tramonto", "bloom", "charlie", "level", "fashion", "barrier", "ombra", "zero", "drop", "limbo",
+          "origami", "tiny", "karma", "sprint", "vibe", "hype", "queen", "feeling", "notturna", "terminal"}
+
+
+def core_name(name: str) -> str | None:
+    """Il nome del locale senza le parole generiche, se resta qualcosa di riconoscibile da solo."""
+    words = [w for w in norm(re.split(r"[|/(]", name or "")[0]).split() if w not in GENERIC]
+    core = " ".join(words)
+    if len(core) < 4 or (len(words) == 1 and core in COMMON):   # una parola qualunque ("zero", "vibe") farebbe confusione nei testi
+        return None
+    return core
+
+
 class City:
     def __init__(self, folder: str | Path):
         self.dir = Path(folder)
@@ -87,6 +102,9 @@ class City:
                 for a in [v["name"], *(v.get("aliases") or [])]:
                     if len(norm(a)) >= 3:
                         pairs.append((norm(a), v))
+                core = core_name(v["name"])   # "Mint Lounge Bar" -> "mint", "Ristorante BV Rooftop lounge bar" -> "bv rooftop"
+                if core and core != norm(v["name"]):
+                    pairs.append((core, v))
             self._index = sorted(pairs, key=lambda p: -len(p[0]))
         return self._index
 

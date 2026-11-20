@@ -87,9 +87,11 @@ def from_osm(city: City) -> int:
 GOOGLE_TEXT = "https://places.googleapis.com/v1/places:searchText"
 GOOGLE_FIELDS = ("places.displayName,places.formattedAddress,places.location,places.types,places.primaryType,"
                  "places.businessStatus,places.websiteUri,places.userRatingCount,nextPageToken")
-GOOGLE_TYPES = {"night_club": "club", "dance_hall": "club", "concert_hall": "live_club", "live_music_venue": "live_club", "amphitheatre": "open_air",
+GOOGLE_TYPES = {"cultural_center": "live_club", "community_center": "live_club", "event_venue": "live_club", "performing_arts_theater": "live_club",
+                "cafe": "bar", "coffee_shop": "bar", "cafeteria": "bar", "bakery": "bar", "dessert_shop": "bar", "confectionery": "bar",
+                "night_club": "club", "dance_hall": "club", "concert_hall": "live_club", "live_music_venue": "live_club", "amphitheatre": "open_air",
                 "bar": "bar", "pub": "bar", "cocktail_bar": "bar", "lounge_bar": "bar", "wine_bar": "bar", "bar_and_grill": "bar", "karaoke": "bar"}
-GOOGLE_SKIP = {"wedding_venue", "event_venue", "banquet_hall", "dance_school", "gym", "school", "lodging", "hotel"}
+GOOGLE_SKIP = {"wedding_venue", "banquet_hall", "dance_school", "gym", "school", "lodging", "hotel"}
 
 
 def from_google(city: City) -> int:
@@ -121,7 +123,7 @@ def from_google(city: City) -> int:
                     continue
                 if types & GOOGLE_SKIP or NOT_NIGHTLIFE.search(name) or WEDDING.search(name):
                     continue
-                typ = GOOGLE_TYPES.get(pl.get("primaryType")) or next((GOOGLE_TYPES[t] for t in ("night_club", "concert_hall", "live_music_venue", "bar", "pub") if t in types), None)
+                typ = GOOGLE_TYPES.get(pl.get("primaryType")) or next((GOOGLE_TYPES[t] for t in ("night_club", "concert_hall", "live_music_venue", "bar", "pub", "cultural_center", "cafe") if t in types), None)
                 if not typ or (city.distance(loc["latitude"], loc["longitude"]) or 99) > c["radius_km"]:
                     continue
                 site = pl.get("websiteUri") or ""
@@ -322,8 +324,8 @@ def run(city: City, force_osm: bool = False) -> list[str]:
             continue
         bio = (accounts.get(v.get("instagram") or "", {}).get("bio") or "")
         party = re.search(r"\b(?:club|discoteca|disco|live\s*music|concerti|dj|party|serate)\b", bio, re.I)
-        if NOT_NIGHTLIFE.search(v["name"]) or WEDDING.search(bio) or (v.get("type") == "live_club" and EVENT_HALL.search(v["name"]) and not party):
-            v["removed"] = True
+        hall = v.get("type") not in ("club", "bar") and not party   # un bar che fa anche feste private resta
+        v["removed"] = bool(NOT_NIGHTLIFE.search(v["name"]) or (WEDDING.search(bio) and hall) or (v.get("type") == "live_club" and EVENT_HALL.search(v["name"]) and not party))
     last = city.registry.get("osm_checked")
     if city.settings["sources"]["osm"].get("enabled") and (force_osm or not last or (date.today() - date.fromisoformat(last)).days >= 7):
         try:
@@ -333,11 +335,14 @@ def run(city: City, force_osm: bool = False) -> list[str]:
         except Exception as e:  # noqa: BLE001
             notes.append(f"OpenStreetMap saltato: {e}")
     lastg = city.registry.get("google_checked")
-    if city.settings["sources"].get("google", {}).get("enabled") and (force_osm or not lastg or (date.today() - date.fromisoformat(lastg)).days >= city.settings["sources"]["google"].get("every_days", 30)):
+    gq = "|".join(city.settings["sources"].get("google", {}).get("queries") or [])
+    changed = city.registry.get("google_queries") != gq   # ricerche nuove nelle impostazioni: si rifà subito
+    if city.settings["sources"].get("google", {}).get("enabled") and (force_osm or changed or not lastg or (date.today() - date.fromisoformat(lastg)).days >= city.settings["sources"]["google"].get("every_days", 30)):
         try:
             n = from_google(city)
             if n >= 0:
                 city.registry["google_checked"] = date.today().isoformat()
+                city.registry["google_queries"] = gq
                 notes.append(f"Google Maps: {n} locali nuovi.")
         except Exception as e:  # noqa: BLE001
             notes.append(f"Google Maps saltato: {str(e)[:150]}")

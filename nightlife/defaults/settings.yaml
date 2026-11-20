@@ -45,7 +45,8 @@ sources:
   google:                    # Google Maps, solo se c'è il segreto GOOGLE_PLACES_KEY (una volta al mese, quota gratuita)
     enabled: true
     every_days: 30
-    queries: [discoteca, night club, club, disco pub, locale musica dal vivo, cocktail bar dj, lounge bar]
+    queries: [discoteca, night club, club, disco pub, locale musica dal vivo, cocktail bar dj, lounge bar,
+              centro culturale musica, spazio eventi concerti, circolo arci, caffetteria aperitivo, aperitivo dj set, pasticceria aperitivo]
   xceed: {enabled: true}     # pagine xceed dei locali (trovate da sole o scritte in conoscenze.yaml)
   jsonld: {enabled: true, pages: []}     # pagine con dati strutturati schema.org (agende, siti dei locali)
   articles: {enabled: true, pages: []}   # articoli di giornale letti come una didascalia
