@@ -1,0 +1,2155 @@
+{
+ "city": "Bergamo",
+ "generated": "2026-11-20T22:09",
+ "nights": [
+  {
+   "date": "2026-11-20",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 12,
+   "load": 432.0,
+   "level": "piena",
+   "capacity_taken": 8300,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 12
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna",
+     "score": 68.4,
+     "capacity": 1250
+    },
+    {
+     "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
+     "score": 60.6,
+     "capacity": 950
+    },
+    {
+     "title": "Bobadilla Feeling Club",
+     "score": 44.8,
+     "capacity": 1250
+    },
+    {
+     "title": "[Rock] Druso · Children Of The Damned",
+     "score": 43.9,
+     "capacity": 1100
+    },
+    {
+     "title": "Zero Club · Unibg_Party",
+     "score": 41.5,
+     "capacity": 1000
+    }
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 8,
+   "load": 333.4,
+   "level": "piena",
+   "capacity_taken": 7750,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 1,
+    "Altro": 7
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap"
+   ],
+   "top": [
+    {
+     "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
+     "score": 60.6,
+     "capacity": 950
+    },
+    {
+     "title": "Bolgia · MAD DOG",
+     "score": 50.2,
+     "capacity": 1250
+    },
+    {
+     "title": "Zero Club · Premiere.Premiere",
+     "score": 47.0,
+     "capacity": 1000
+    },
+    {
+     "title": "[Reggaeton / Commerciale] Nikita · Novembre Enter The Void",
+     "score": 43.4,
+     "capacity": 1150
+    },
+    {
+     "title": "[Indie] Druso",
+     "score": 43.1,
+     "capacity": 1100
+    }
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 1,
+   "load": 7.7,
+   "level": "tranquilla",
+   "capacity_taken": 100,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
+     "score": 7.7,
+     "capacity": 100
+    }
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-11-24",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 1,
+   "load": 40.0,
+   "level": "tranquilla",
+   "capacity_taken": 900,
+   "by_family": {
+    "House / Elettronica": 1,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Hard Techno / Rock] Bloom",
+     "score": 40.0,
+     "capacity": 900
+    }
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 2,
+   "load": 66.8,
+   "level": "media",
+   "capacity_taken": 1500,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 2
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Zero Club · Please.Nights",
+     "score": 41.5,
+     "capacity": 1000
+    },
+    {
+     "title": "[Jazz] NXT Bergamo · Possibilita",
+     "score": 25.3,
+     "capacity": 500
+    }
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-11-27",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 2,
+   "load": 80.4,
+   "level": "media",
+   "capacity_taken": 1600,
+   "by_family": {
+    "House / Elettronica": 1,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Zero Club · Crystalcastlesnightt",
+     "score": 41.5,
+     "capacity": 1000
+    },
+    {
+     "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
+     "score": 38.9,
+     "capacity": 600
+    }
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 4,
+   "load": 182.2,
+   "level": "piena",
+   "capacity_taken": 4350,
+   "by_family": {
+    "House / Elettronica": 1,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 3
+   },
+   "missing_families": [
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Disco / Rock] Druso · Savana Funk",
+     "score": 57.0,
+     "capacity": 1100
+    },
+    {
+     "title": "Bolgia · MARIE VAUNT",
+     "score": 50.2,
+     "capacity": 1250
+    },
+    {
+     "title": "Zero Club · Cromaroom",
+     "score": 41.5,
+     "capacity": 1000
+    },
+    {
+     "title": "Zero Club (club room) · Bar Florio",
+     "score": 33.5,
+     "capacity": 1000
+    }
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 1,
+   "load": 7.7,
+   "level": "tranquilla",
+   "capacity_taken": 100,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello",
+     "score": 7.7,
+     "capacity": 100
+    }
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-01",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-02",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-03",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-04",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "libera",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-05",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 1,
+   "load": 50.2,
+   "level": "libera",
+   "capacity_taken": 1250,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Bolgia · CHELINA MANUHUTU",
+     "score": 50.2,
+     "capacity": 1250
+    }
+   ]
+  },
+  {
+   "date": "2026-12-06",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-07",
+   "weekday": "lunedì",
+   "note": "prefestivo (Immacolata)",
+   "weekend_like": true,
+   "events": 1,
+   "load": 50.2,
+   "level": "libera",
+   "capacity_taken": 1250,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Bolgia · NOVAH",
+     "score": 50.2,
+     "capacity": 1250
+    }
+   ]
+  },
+  {
+   "date": "2026-12-08",
+   "weekday": "martedì",
+   "note": "festivo (Immacolata)",
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-09",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "tranquilla",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-10",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 1,
+   "load": 25.3,
+   "level": "tranquilla",
+   "capacity_taken": 500,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Jazz] NXT Bergamo · Possibilita",
+     "score": 25.3,
+     "capacity": 500
+    }
+   ]
+  },
+  {
+   "date": "2026-12-11",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 1,
+   "load": 44.4,
+   "level": "libera",
+   "capacity_taken": 500,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Indie / Rock] Teatro Miela · Barley Arts",
+     "score": 44.4,
+     "capacity": 500
+    }
+   ]
+  },
+  {
+   "date": "2026-12-12",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 1,
+   "load": 57.6,
+   "level": "libera",
+   "capacity_taken": 1250,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Rock / Elettronica] Live Club · Barley Arts",
+     "score": 57.6,
+     "capacity": 1250
+    }
+   ]
+  },
+  {
+   "date": "2026-12-13",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-14",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-15",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-16",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-17",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-18",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 1,
+   "load": 43.4,
+   "level": "non ancora annunciata",
+   "capacity_taken": 1150,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Nikita",
+     "score": 43.4,
+     "capacity": 1150
+    }
+   ]
+  },
+  {
+   "date": "2026-12-19",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-20",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-21",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-22",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-23",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-24",
+   "weekday": "giovedì",
+   "note": "Vigilia di Natale",
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-25",
+   "weekday": "venerdì",
+   "note": "prefestivo (Santo Stefano)",
+   "weekend_like": true,
+   "events": 1,
+   "load": 7.7,
+   "level": "non ancora annunciata",
+   "capacity_taken": 100,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Via Treviglio 2058, Fara Gera d'Adda",
+     "score": 7.7,
+     "capacity": 100
+    }
+   ]
+  },
+  {
+   "date": "2026-12-26",
+   "weekday": "sabato",
+   "note": "festivo (Santo Stefano)",
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-27",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-28",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-29",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-30",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2026-12-31",
+   "weekday": "giovedì",
+   "note": "Capodanno (veglione)",
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-01",
+   "weekday": "venerdì",
+   "note": "festivo (Capodanno)",
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-02",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 1,
+   "load": 43.1,
+   "level": "non ancora annunciata",
+   "capacity_taken": 1100,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Rock] Druso",
+     "score": 43.1,
+     "capacity": 1100
+    }
+   ]
+  },
+  {
+   "date": "2027-01-03",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-04",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-05",
+   "weekday": "martedì",
+   "note": "prefestivo (Epifania)",
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-06",
+   "weekday": "mercoledì",
+   "note": "festivo (Epifania)",
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-07",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-08",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-09",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-10",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-11",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-12",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-13",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-14",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-15",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 1,
+   "load": 40.0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 900,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "Bloom",
+     "score": 40.0,
+     "capacity": 900
+    }
+   ]
+  },
+  {
+   "date": "2027-01-16",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-17",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-18",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-19",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-20",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-21",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-22",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-23",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-24",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-25",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-26",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-27",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-28",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-29",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-30",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-01-31",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-01",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-02",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-03",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-04",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-05",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-06",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-07",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-08",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-09",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-10",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-11",
+   "weekday": "giovedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 1,
+   "load": 43.1,
+   "level": "non ancora annunciata",
+   "capacity_taken": 1100,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 1
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Rock] Druso · Tim Ripper Owens Band",
+     "score": 43.1,
+     "capacity": 1100
+    }
+   ]
+  },
+  {
+   "date": "2027-02-12",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-13",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-14",
+   "weekday": "domenica",
+   "note": "San Valentino",
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-15",
+   "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-16",
+   "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-17",
+   "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  }
+ ]
+}
