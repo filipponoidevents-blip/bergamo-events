@@ -1,21 +1,21 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-20T18:50",
+ "generated": "2026-11-20T19:56",
  "nights": [
   {
    "date": "2026-11-20",
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 9,
-   "load": 323.9,
+   "events": 12,
+   "load": 431.2,
    "level": "piena",
-   "capacity_taken": 6600,
+   "capacity_taken": 8300,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 9
+    "Altro": 12
    },
    "missing_families": [
     "House / Elettronica",
@@ -39,14 +39,14 @@
      "capacity": 1250
     },
     {
+     "title": "[Rock] Druso",
+     "score": 43.1,
+     "capacity": 1100
+    },
+    {
      "title": "Zero Club · Unibg_Party",
      "score": 41.5,
      "capacity": 1000
-    },
-    {
-     "title": "VIBE · This Week",
-     "score": 37.0,
-     "capacity": 750
     }
    ]
   },
@@ -55,15 +55,15 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 7,
-   "load": 290.3,
+   "events": 8,
+   "load": 333.4,
    "level": "piena",
-   "capacity_taken": 6650,
+   "capacity_taken": 7750,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
-    "Altro": 6
+    "Altro": 7
    },
    "missing_families": [
     "House / Elettronica",
@@ -91,9 +91,9 @@
      "capacity": 1150
     },
     {
-     "title": "Bolgia (lab room) · Uboa",
-     "score": 41.0,
-     "capacity": 1250
+     "title": "[Indie] Druso",
+     "score": 43.1,
+     "capacity": 1100
     }
    ]
   },
@@ -179,15 +179,15 @@
    "weekday": "mercoledì",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 41.5,
-   "level": "tranquilla",
-   "capacity_taken": 1000,
+   "events": 2,
+   "load": 66.8,
+   "level": "media",
+   "capacity_taken": 1500,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "House / Elettronica",
@@ -199,6 +199,11 @@
      "title": "Zero Club · Please.Nights",
      "score": 41.5,
      "capacity": 1000
+    },
+    {
+     "title": "[Jazz] NXT Bergamo · Possibilita",
+     "score": 25.3,
+     "capacity": 500
     }
    ]
   },
@@ -261,18 +266,17 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 3,
-   "load": 125.2,
-   "level": "media",
-   "capacity_taken": 3250,
+   "events": 4,
+   "load": 168.3,
+   "level": "piena",
+   "capacity_taken": 4350,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 3
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
@@ -281,6 +285,11 @@
      "title": "Bolgia · MARIE VAUNT",
      "score": 50.2,
      "capacity": 1250
+    },
+    {
+     "title": "[Disco / Rock] Druso · Savana Funk",
+     "score": 43.1,
+     "capacity": 1100
     },
     {
      "title": "Zero Club · Cromaroom",
@@ -329,7 +338,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -351,7 +360,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -373,7 +382,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -395,7 +404,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -417,7 +426,7 @@
    "weekend_like": true,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -439,7 +448,7 @@
    "weekend_like": true,
    "events": 1,
    "load": 50.2,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 1250,
    "by_family": {
     "House / Elettronica": 0,
@@ -467,7 +476,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -489,7 +498,7 @@
    "weekend_like": true,
    "events": 1,
    "load": 50.2,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 1250,
    "by_family": {
     "House / Elettronica": 0,
@@ -517,7 +526,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -539,7 +548,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -559,22 +568,28 @@
    "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
-   "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "events": 1,
+   "load": 25.3,
+   "level": "tranquilla",
+   "capacity_taken": 500,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Jazz] NXT Bergamo · Possibilita",
+     "score": 25.3,
+     "capacity": 500
+    }
+   ]
   },
   {
    "date": "2026-12-11",
@@ -583,7 +598,7 @@
    "weekend_like": true,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -605,7 +620,7 @@
    "weekend_like": true,
    "events": 1,
    "load": 57.6,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 1250,
    "by_family": {
     "House / Elettronica": 0,
@@ -1083,22 +1098,28 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 43.1,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 1100,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Rock] Druso",
+     "score": 43.1,
+     "capacity": 1100
+    }
+   ]
   },
   {
    "date": "2027-01-03",
@@ -1969,22 +1990,28 @@
    "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 43.1,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 1100,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Rock] Druso · Tim Ripper Owens Band",
+     "score": 43.1,
+     "capacity": 1100
+    }
+   ]
   },
   {
    "date": "2027-02-12",

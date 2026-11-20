@@ -10,13 +10,16 @@
    "readable": true,
    "website": "https://ditto.fm/il-brutto"
   },
+  "afrodylanofficial": {
+   "cands": 1
+  },
   "alchemica_club": {
    "bio": "Live Rock/Metal Club - Scuola di Musica - Sale Prova - Recording Studio - Label - Booking - Management",
    "cands": 8,
    "checked": "2026-11-19",
    "followers": 8866,
    "kind": "artist",
-   "mentions": 1,
+   "mentions": 8,
    "name": "Alchemica Music Club - Bologna",
    "readable": true,
    "website": "https://li.sten.to/alchemicamusicclub"
@@ -153,15 +156,34 @@
   },
   "bar_barrier": {
    "bio": "Listed @top500bars world\nAlways open!\nLunedì a Giovedì 7.30-01.00\nVenerdì / Sabato 08.00-02.00\nDomenica 08.00-01.00",
+   "cands": 1,
    "checked": "2026-11-20",
    "events_found": 8,
-   "followers": 10331,
+   "followers": 10330,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
+   "mentions": 3,
    "name": "Barrier This is the right place",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.bargiornale.it/barawards-2026/"
+  },
+  "bar_posto_fisso": {
+   "checked": "2026-11-20",
+   "error": "110: Invalid user id",
+   "readable": false
+  },
+  "bardoni_pasticceria": {
+   "bio": "🎂 🍰 ☕️ 🍧 🍦 🍻 \n📍Largo Pablo Picasso 1, Paladina\n⏰Lun 6.30-12.30\n⏰Mar-Mer-Gio 6.30-12.30; 15.30-18.30\n⏰Ven-Sab-Dom 6.30-12.30; 15.30-22.30",
+   "checked": "2026-11-20",
+   "events_found": 1,
+   "followers": 1904,
+   "kind": "venue",
+   "last_read": "2026-11-20T19:52+00:00",
+   "name": "Bardoni Pasticceria",
+   "readable": true,
+   "reads": 1,
+   "website": "http://www.bardonipasticceria.it/"
   },
   "barh_lounge": {
    "checked": "2026-11-20",
@@ -176,7 +198,7 @@
    "followers": 13894,
    "kind": "promoter",
    "last_read": "2026-11-20T17:40+00:00",
-   "mentions": 4,
+   "mentions": 21,
    "name": "Barley Arts",
    "readable": true,
    "reads": 6,
@@ -256,6 +278,11 @@
    "readable": true,
    "website": "https://bowiehc.bandcamp.com/"
   },
+  "briolocaffe": {
+   "checked": "2026-11-20",
+   "error": "110: Invalid user id",
+   "readable": false
+  },
   "burnt.shoes": {
    "cands": 1
   },
@@ -289,6 +316,9 @@
    "mentions": 1,
    "readable": false
   },
+  "calibro_35": {
+   "cands": 3
+  },
   "capolinea_eat.drink.relax": {
    "bio": "✨ Eat.Drink.Relax \n📍Strada al Mulino 1, 24129, Bergamo \n📲 Contattaci per prenotare \nTi aspettiamo qui ⤵️",
    "checked": "2026-11-20",
@@ -299,6 +329,12 @@
    "readable": true,
    "reads": 2,
    "website": "https://maps.app.goo.gl/vK8mpb4oQkEz7Jkw8?g_st=ic"
+  },
+  "capovilla_cattivimaestri": {
+   "cands": 3
+  },
+  "cappuccino": {
+   "cands": 1
   },
   "caravan_orkestar": {
    "cands": 1
@@ -333,6 +369,11 @@
    "reads": 1,
    "venue_done": true,
    "website": "http://www.castellodirossino.it/"
+  },
+  "centrocongressigiovanni_xxiii": {
+   "checked": "2026-11-20",
+   "error": "110: Invalid user id",
+   "readable": false
   },
   "cestlavie_bg": {
    "cands": 1
@@ -369,6 +410,9 @@
    "reads": 17,
    "website": "https://choruslife.com/it/"
   },
+  "chris_bergson": {
+   "cands": 1
+  },
   "cinescatti": {
    "cands": 1
   },
@@ -404,6 +448,18 @@
    "readable": true,
    "website": "http://wwwnotimpersonating.com"
   },
+  "contest_bg": {
+   "bio": "Cocktail bar 🍸\n✨Food drink and more✨\n👉🏼Lunedì - Giovedì 18:00-1:30\n👉🏼Venerdì e Sabato 18:00-2:30\n// Domenica chiuso \n📍Via V. Bellini 47, Bergamo",
+   "checked": "2026-11-20",
+   "events_found": 3,
+   "followers": 3933,
+   "kind": "venue",
+   "last_read": "2026-11-20T19:52+00:00",
+   "name": "Contest Bergamo",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "corinna_fm": {
    "bio": "🏰📖",
    "cands": 1,
@@ -417,6 +473,10 @@
   },
   "cosmo.food.club": {
    "cands": 1
+  },
+  "cotd_iron_maiden": {
+   "cands": 2,
+   "mentions": 1
   },
   "cre.sp1": {
    "cands": 2,
@@ -444,9 +504,20 @@
   "darktails_lab": {
    "cands": 1
   },
-  "delleali_teatro": {
+  "degustazione": {
    "cands": 1,
-   "mentions": 3
+   "mentions": 7
+  },
+  "delleali_teatro": {
+   "bio": "🎭 Compagnia e residenza teatrale dal 1996, delleAli Teatro è: teatro ragazzi, teatro sonoro e teatro sociale.",
+   "cands": 1,
+   "checked": "2026-11-20",
+   "followers": 2375,
+   "kind": "venue",
+   "mentions": 3,
+   "name": "delleAli Teatro",
+   "readable": true,
+   "website": "http://www.delleali.it"
   },
   "digitalispurpurea_": {
    "mentions": 1
@@ -455,10 +526,13 @@
    "bio": "The original format \"Diprè per lei\" Is back.\nPowered by @infinityagency_fans \n~A project by Avv. Andrea Diprè\n@andreadipreworld",
    "cands": 3,
    "checked": "2026-11-20",
-   "followers": 2304,
+   "events_found": 1,
+   "followers": 2306,
    "kind": "promoter",
+   "last_read": "2026-11-20T19:52+00:00",
    "name": "Andrea Dipre",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "https://andreadipreshop.com"
   },
@@ -468,11 +542,11 @@
    "events_found": 14,
    "followers": 17178,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "mentions": 2,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 16,
+   "reads": 17,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "dj.sofficino": {
@@ -502,17 +576,23 @@
   },
   "donnedemocratichemezzago": {
    "cands": 1,
-   "mentions": 3
+   "checked": "2026-11-20",
+   "mentions": 3,
+   "readable": false
   },
   "door_74": {
    "bio": "Hidden cocktailbar in Amsterdam. \nPerfectly balanced creations from a passionate team.",
    "cands": 1,
    "checked": "2026-11-20",
-   "followers": 18861,
+   "events_found": 1,
+   "followers": 18863,
    "kind": "venue",
+   "last_read": "2026-11-20T19:52+00:00",
    "mentions": 1,
    "name": "Door 74",
    "readable": true,
+   "reads": 1,
+   "venue_done": true,
    "website": "https://finddoor74.com/"
   },
   "drinkresponsiblyclub": {
@@ -526,6 +606,18 @@
    "readable": true,
    "reads": 2,
    "website": "https://g.co/kgs/wBWKzvJ"
+  },
+  "drusobg": {
+   "bio": "Dal 2007 la casa della musica a Bergamo\nLive music, party & more... info qui 👇",
+   "checked": "2026-11-20",
+   "events_found": 21,
+   "followers": 24671,
+   "kind": "venue",
+   "last_read": "2026-11-20T19:52+00:00",
+   "name": "Druso",
+   "readable": true,
+   "reads": 1,
+   "website": "https://it-it.facebook.com/drusobergamo/"
   },
   "e.katea_99": {
    "cands": 1
@@ -553,14 +645,26 @@
    "cands": 1
   },
   "fabrique_milano": {
-   "cands": 1
+   "cands": 1,
+   "mentions": 1
   },
   "fandango_official": {
    "cands": 1
   },
-  "fede_regooo": {
+  "fans_of_tim_ripper_owens": {
    "cands": 1,
-   "mentions": 2
+   "mentions": 1
+  },
+  "fede_regooo": {
+   "bio": "🎧 DJ & Producer\n🏆 #58 Beatport Top 100 — “Dirty Drive”\n🔊 Tech House\n⬇️ Latest Music",
+   "cands": 1,
+   "checked": "2026-11-20",
+   "followers": 3883,
+   "kind": "artist",
+   "mentions": 2,
+   "name": "Fede Rego",
+   "readable": true,
+   "website": "https://open.spotify.com/artist/1givwtQXh3LZPSiVqnQdzN?si=M-eZTIFRS9WlFB0UTJca9w"
   },
   "federicoo_riva": {
    "cands": 2,
@@ -620,6 +724,7 @@
    "checked": "2026-11-19",
    "followers": 293143,
    "kind": "artist",
+   "mentions": 3,
    "name": "HENGE",
    "readable": true,
    "website": "https://hengemusic.com"
@@ -645,6 +750,24 @@
   "ifidietoday_official": {
    "cands": 1
   },
+  "il_barrito": {
+   "bio": "☕️ Colazioni, pranzi, aperitivi\n🍷 Selezione vini, gin e spirits\n🥪 Qualità sempre al tuo servizio, dall'alba a tarda sera\n📍 Petosino BG\nScopri di più👇🏼",
+   "checked": "2026-11-20",
+   "events_found": 4,
+   "followers": 1310,
+   "kind": "venue",
+   "last_read": "2026-11-20T19:52+00:00",
+   "name": "BARRITO - Il tuo bar di fiducia",
+   "readable": true,
+   "reads": 1,
+   "website": "https://maps.app.goo.gl/x1WMq748BZU6fuWm6"
+  },
+  "il_boffe": {
+   "cands": 1
+  },
+  "ilmessicano.official": {
+   "cands": 1
+  },
   "ilpiratapub": {
    "bio": "📍Via Papa Giovanni XXIII n75 - Almè \nAperto 7/7 \n🕰Dalle 17.00 alle 2.00 \n🎉Venerdì e sabato fino alle 5.00",
    "checked": "2026-11-20",
@@ -664,6 +787,10 @@
   "incisions054": {
    "cands": 1
   },
+  "indiepower_official": {
+   "cands": 1,
+   "mentions": 1
+  },
   "inkclub.academy": {
    "cands": 1
   },
@@ -672,13 +799,13 @@
    "cands": 2,
    "checked": "2026-11-20",
    "events_found": 22,
-   "followers": 14659,
+   "followers": 14662,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "mentions": 1,
    "name": "Ink Club",
    "readable": true,
-   "reads": 15,
+   "reads": 16,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
@@ -748,16 +875,19 @@
    "venue_done": true,
    "website": "https://www.acquaroli.it/location-matrimoni/la-corte-e-il-sogno"
   },
+  "la.locanda.del.santo.bevitore": {
+   "cands": 1
+  },
   "lab80cinemas": {
    "bio": "Auditorium + Sala Orologio📍@cultbergamo🏢\nLo Schermo Bianco📍@daste_bergamo🏭 \nEsterno Notte📍d’estate in via Tasso🌙✨\n#Lmaiuscolaabspazio80innumero",
    "checked": "2026-11-20",
    "events_found": 23,
-   "followers": 6632,
+   "followers": 6633,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 15,
+   "reads": 16,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -773,8 +903,15 @@
    "website": "https://labassanina.it/"
   },
   "lateres_ets": {
+   "bio": "🧩 Approccio creativo\n🔭 Sguardo pedagogico\n🧠 Pensiero laterale\n🧱 Percorsi di cittadinanza\n \n \nEnte del terzo settore",
    "cands": 2,
-   "mentions": 3
+   "checked": "2026-11-20",
+   "followers": 252,
+   "kind": "unknown",
+   "mentions": 3,
+   "name": "Lateres - Dinamiche creative diffuse",
+   "readable": true,
+   "website": "https://sites.google.com/view/zagrang2026/home-page?authuser=4"
   },
   "lazzaretto_bergamo_estate": {
    "cands": 1
@@ -806,9 +943,23 @@
    "reads": 17,
    "website": "https://www.liveclub.it/start/"
   },
+  "lotocafe": {
+   "bio": "Colazioni, Aperitivi, Pranzi e cene 🥐🍹\nAperti tutti i giorni!🪷\nLunedì-Giovedì 5.30-00.00\nVenerdì-Sabato. 5.30-2.00\nDomenica 6.30-00.00\n377/3750605",
+   "checked": "2026-11-20",
+   "followers": 1024,
+   "kind": "venue",
+   "last_read": "2026-11-20T19:52+00:00",
+   "name": "Loto Cafe",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "lowl_fest": {
    "cands": 1,
    "mentions": 1
+  },
+  "luca_puma_official": {
+   "cands": 1
   },
   "luke_style.official": {
    "cands": 1,
@@ -834,6 +985,7 @@
    "checked": "2026-11-19",
    "followers": 220929,
    "kind": "artist",
+   "mentions": 3,
    "name": "Mark The Hammer",
    "readable": true,
    "website": "https://linktr.ee/markthehammer"
@@ -853,7 +1005,14 @@
    "mentions": 1
   },
   "maschileplurale_": {
-   "mentions": 3
+   "bio": "Profilo ufficiale dell'Associazione Maschile Plurale. Per ogni richiesta di informazioni scrivete a info@maschileplurale.it e visitate il nostro sito",
+   "checked": "2026-11-20",
+   "followers": 7009,
+   "kind": "unknown",
+   "mentions": 3,
+   "name": "Maschile Plurale",
+   "readable": true,
+   "website": "https://leserredeigiardini.it/maschile-plurale-fest/"
   },
   "mattia.bonaldi": {
    "cands": 1
@@ -864,12 +1023,15 @@
    "checked": "2026-11-19",
    "followers": 1997,
    "kind": "unknown",
-   "mentions": 1,
+   "mentions": 2,
    "name": "M.I.M_BAND",
    "readable": true,
    "website": "https://open.spotify.com/album/6Ro64EFg9TG8MYzsUH8PZm?si=aVeERnpgRMyPgMjb7eERfw"
   },
   "mercatocoperto_bergamo": {
+   "cands": 1
+  },
+  "mirko.mirkoro": {
    "cands": 1
   },
   "missdivina1": {
@@ -882,6 +1044,9 @@
    "name": "Miss DIVINA Fulvio Facchinetti",
    "readable": true,
    "website": "https://open.spotify.com/artist/4TLeeE4HJds7U1jNd78Rle?si=eSIZ_E6vQxa5jWGBW0gmYQ"
+  },
+  "monelle_chiti": {
+   "cands": 3
   },
   "mudilva_": {
    "mentions": 1
@@ -907,6 +1072,9 @@
    "cands": 1,
    "mentions": 1
   },
+  "nicolevalentini67": {
+   "cands": 1
+  },
   "night_sinners": {
    "cands": 1
   },
@@ -926,13 +1094,17 @@
    "bio": "[ENTER THE VOID] \nvia dei morenghi 2 grumello (bg)",
    "checked": "2026-11-20",
    "events_found": 11,
-   "followers": 25608,
+   "followers": 25609,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "name": "Nikita",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://nikita.land"
+  },
+  "nouvellevague_tirana": {
+   "cands": 1,
+   "mentions": 3
   },
   "oasi.night": {
    "bio": "OASI \nWhere the groove takes over.\nTech House •Groovy Tech House• House\n20/11 vibe club \n📍 Bergamo",
@@ -977,12 +1149,19 @@
    "reads": 2,
    "website": null
   },
+  "ozza.dj": {
+   "cands": 1,
+   "mentions": 2
+  },
   "palmas.night": {
    "cands": 1,
    "mentions": 1
   },
   "pete_roth_trio": {
    "cands": 1
+  },
+  "pierpaolo_capovilla": {
+   "cands": 2
   },
   "please.nights": {
    "cands": 1,
@@ -994,7 +1173,7 @@
    "checked": "2026-11-20",
    "followers": 1712,
    "kind": "unknown",
-   "mentions": 1,
+   "mentions": 5,
    "name": "Possibilita",
    "readable": true,
    "website": "https://linktr.ee/Possibilita"
@@ -1013,7 +1192,7 @@
   "prenotazione": {
    "cands": 1,
    "checked": "2026-11-19",
-   "mentions": 2,
+   "mentions": 3,
    "readable": false
   },
   "principessa11270": {
@@ -1052,6 +1231,13 @@
   },
   "riccardo_mortelliti": {
    "cands": 1
+  },
+  "santamarea.band": {
+   "cands": 3
+  },
+  "savana_funk": {
+   "cands": 2,
+   "mentions": 3
   },
   "scalpo_punk": {
    "bio": "Raw Oi!-punk from Italy.\n______________________________",
@@ -1094,6 +1280,7 @@
    "checked": "2026-11-19",
    "followers": 22015,
    "kind": "venue",
+   "mentions": 3,
    "name": "sPAZIO211",
    "readable": true,
    "venue_done": true,
@@ -1106,18 +1293,18 @@
    "events_found": 7,
    "followers": 4761,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "mentions": 1,
    "name": "Spazio Teatro 89",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "venue_done": true,
    "website": "https://spazioteatro89.org"
   },
   "spettacoli": {
    "cands": 1,
    "checked": "2026-11-20",
-   "mentions": 4,
+   "mentions": 12,
    "readable": false
   },
   "spike.hellis": {
@@ -1125,7 +1312,7 @@
    "mentions": 1
   },
   "spread_band": {
-   "cands": 1
+   "cands": 4
   },
   "spread_band_": {
    "mentions": 1
@@ -1159,10 +1346,10 @@
    "events_found": 11,
    "followers": 58263,
    "kind": "promoter",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "name": "STREEAT Food Truck Festival",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "watch": true,
    "website": "http://www.streeatfoodtruckfestival.it"
   },
@@ -1180,7 +1367,8 @@
    "website": "https://www.fourvenues.com/prmr/events/talk-07-11-2026-T05U"
   },
   "teatromiela_trieste": {
-   "cands": 1
+   "cands": 1,
+   "mentions": 5
   },
   "the.circlehub": {
    "cands": 1,
@@ -1188,6 +1376,10 @@
   },
   "the_baby_lasagna": {
    "cands": 1
+  },
+  "the_big4_theory": {
+   "cands": 1,
+   "mentions": 1
   },
   "the_veils": {
    "bio": "New album Fragile World out now on @v2records\nTour tickets and pre-orders here:",
@@ -1272,11 +1464,11 @@
    "events_found": 5,
    "followers": 11572,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "mentions": 2,
    "name": "VIBE CLUB",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://www.vibetheclub.it"
   },
   "victorialoungebar_bonate": {
@@ -1285,10 +1477,10 @@
    "events_found": 1,
    "followers": 1289,
    "kind": "venue",
-   "last_read": "2026-11-20T17:32+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "name": "Victoria Lounge Bar Bonate Sotto",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "venue_done": true,
    "website": null
   },
@@ -1392,10 +1584,10 @@
    "events_found": 10,
    "followers": 20838,
    "kind": "venue",
-   "last_read": "2026-11-20T17:40+00:00",
+   "last_read": "2026-11-20T19:52+00:00",
    "name": "Zero Club Bergamo",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://site.fourvenues.com/en/zero-club"
   }
  },
@@ -1412,7 +1604,13 @@
    "bergamomovida",
    "eventibergamo",
    "bergamoeventi",
-   "bergamonight"
+   "bergamonight",
+   "bergamoclubbing",
+   "clubbingbergamo",
+   "partybergamo",
+   "bergamoparty",
+   "discotechebergamo",
+   "bergamodiscoteche"
   ]
  },
  "geocode": {
@@ -1444,6 +1642,12 @@
    "city": "Calolziocorte",
    "lat": 45.8049,
    "lon": 9.43837,
+   "province": null
+  },
+  "Door 74, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.68879,
+   "lon": 9.69182,
    "province": null
   },
   "Evento in collaborazione con A Comic Soul e For Laughs' Sake, Bergamo": null,
@@ -1603,6 +1807,7 @@
   "sPAZIO211, Bergamo": null
  },
  "google_checked": "2026-11-20",
+ "google_queries": "discoteca|night club|club|disco pub|locale musica dal vivo|cocktail bar dj|lounge bar|centro culturale musica|spazio eventi concerti|circolo arci|caffetteria aperitivo|aperitivo dj set|pasticceria aperitivo",
  "hashtags": {
   "checked": "2026-11-18T09:30+00:00"
  },
@@ -1619,7 +1824,60 @@
    "lat": 45.7299,
    "lon": 9.5827,
    "name": "2.0 Caffetteria & Lounge Bar",
+   "removed": false,
    "reviews": 668,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "30 lode bergamo": {
+   "address": "Via dei Caniana, 3, 24100 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.8,
+   "lat": 45.68636,
+   "lon": 9.66169,
+   "name": "30 & Lode Bergamo",
+   "reviews": 93,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "a r c i bergamo": {
+   "address": "Via Giovanni Battista Rampinelli, 10, 24126 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.1,
+   "lat": 45.6731,
+   "lon": 9.65886,
+   "name": "A.r.c.i. Bergamo",
+   "reviews": 19,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.arcibergamo.it/"
+  },
+  "aguadecoco": {
+   "address": "Via Treviglio, 22, 24053 Brignano Gera d'Adda BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 17.8,
+   "lat": 45.54055,
+   "lon": 9.63893,
+   "name": "Aguadecoco",
+   "reviews": 691,
    "sources": [
     "google"
    ],
@@ -1636,6 +1894,7 @@
    "lat": 45.69772,
    "lon": 9.66781,
    "name": "Ai Giardini",
+   "removed": false,
    "reviews": 1052,
    "sources": [
     "google"
@@ -1643,6 +1902,41 @@
    "type": "bar",
    "website": "https://share-me.it/locali/ai-giardini/",
    "website_checked": true
+  },
+  "al 10": {
+   "address": "Via Santuario, 10, 20876 Ornago MB",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.7,
+   "lat": 45.5985,
+   "lon": 9.42296,
+   "name": "Al 10",
+   "reviews": 261,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "alborghetti events musica e intrattenimento": {
+   "address": "Via Raffaello Sanzio, 45, 24036 Ponte San Pietro BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 6.8,
+   "lat": 45.70766,
+   "lon": 9.59136,
+   "name": "Alborghetti Events | musica e intrattenimento",
+   "reviews": 27,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.alborghettievents.com/"
   },
   "alkimia food drink": {
    "address": "Via Trento, 2/A, 24048 Treviolo BG",
@@ -1655,6 +1949,7 @@
    "lat": 45.67526,
    "lon": 9.60108,
    "name": "Alkimia Food & Drink",
+   "removed": false,
    "reviews": 892,
    "sources": [
     "google"
@@ -1662,6 +1957,115 @@
    "type": "bar",
    "website": "http://www.alkimiafoodedrink.it/",
    "website_checked": true
+  },
+  "almadolce caffetteria pasticceria": {
+   "address": "Via Roma, 4, 24020 Gorle BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.1,
+   "lat": 45.6975,
+   "lon": 9.71696,
+   "name": "Almadolce Caffetteria Pasticceria",
+   "reviews": 600,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.almapasticceria.it/"
+  },
+  "alpino": {
+   "address": "Viale Rimembranze, 21, 24040 Casirate D'adda BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 24.0,
+   "lat": 45.49575,
+   "lon": 9.56894,
+   "name": "Alpino",
+   "reviews": 635,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://pasticceria-alpino.com/"
+  },
+  "alta funicolare": {
+   "address": "Via Porta Dipinta, 1, 24129 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.1,
+   "lat": 45.70296,
+   "lon": 9.66523,
+   "name": "Alta Funicolare",
+   "reviews": 571,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.altafunicolare.it/"
+  },
+  "ama club": {
+   "address": "Via Provinciale, 166, 24059 Urgnano BG",
+   "auto_vote": 4.1,
+   "capacity": 500,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 9.5,
+   "lat": 45.614,
+   "lon": 9.69288,
+   "name": "Ama Club",
+   "reviews": 446,
+   "search_checked": "2026-11-20",
+   "sources": [
+    "google"
+   ],
+   "type": "club",
+   "website": "https://www.amadeusdancing.it/"
+  },
+  "ambria music festival": {
+   "address": "Via Piave, 6, 24019 Ambria-Spino BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 12.1,
+   "lat": 45.80697,
+   "lon": 9.67873,
+   "name": "Ambria Music Festival",
+   "reviews": 236,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://it-it.facebook.com/ambriamusicfestival/"
+  },
+  "animas group": {
+   "address": "Via del Paradiso, 273, 24059 Urgnano BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 11.0,
+   "lat": 45.60062,
+   "lon": 9.69826,
+   "name": "Animas Group",
+   "reviews": 299,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.animasgroup.it/"
   },
   "antico benessere": {
    "address": "Via Treviglio 25",
@@ -1689,6 +2093,41 @@
    "website": "https://www.anticobenessere.it/",
    "website_checked": true
   },
+  "arci ornago fabrizio de andre": {
+   "address": "Via Carlo Porta, 2, 20060 Ornago MI",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.6,
+   "lat": 45.59957,
+   "lon": 9.42384,
+   "name": "Arci Ornago Fabrizio de Andre",
+   "reviews": 2,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
+  },
+  "area fara rock": {
+   "address": "Via Angelo Reseghetti, 116/324, 24045 Fara Gera d'Adda BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.2,
+   "lat": 45.54972,
+   "lon": 9.52713,
+   "name": "Area Fara Rock",
+   "reviews": 225,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.fara-rock.it/"
+  },
   "area feste attrezzata": {
    "auto_vote": 3.5,
    "capacity": 400,
@@ -1714,19 +2153,37 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6632,
+   "followers": 6633,
    "instagram": "lab80cinemas",
    "km": 0.5,
    "lat": 45.69566,
    "lon": 9.67248,
    "name": "Arena Esterno Notte",
    "osm": "node/13446550220",
+   "removed": false,
    "sources": [
     "osm"
    ],
    "type": "live_club",
    "website": "https://lab80.it/it/arena-esterno-notte",
    "website_checked": true
+  },
+  "art cafe snc di nozza giorgio c": {
+   "address": "Piazza Libertà, 45, 24040 Stezzano BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.5,
+   "lat": 45.65151,
+   "lon": 9.65327,
+   "name": "Art Cafe' Snc di Nozza Giorgio & C",
+   "reviews": 210,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "arya lounge bar": {
    "address": "Via Balilla, 66, 24058 Romano di Lombardia BG",
@@ -1740,11 +2197,65 @@
    "lat": 45.52313,
    "lon": 9.74516,
    "name": "ARYA Lounge Bar",
+   "removed": false,
    "reviews": 11,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "associazione bandistica musicale vivace": {
+   "address": "Via Papa Giovanni XXIII, 10, 24010 Ponteranica BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.2,
+   "lat": 45.72387,
+   "lon": 9.65733,
+   "name": "Associazione Bandistica Musicale Vivace",
+   "reviews": 49,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.bandavivace.com/"
+  },
+  "associazione culturale bhm": {
+   "address": "Via Ciucani, 2, 20876 Ornago MB",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.8,
+   "lat": 45.60475,
+   "lon": 9.4167,
+   "name": "Associazione Culturale BHM",
+   "reviews": 167,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.facebook.com/acbhm2020"
+  },
+  "associazione filarmonica dalmine corpo musicale san lorenzo martire": {
+   "address": "Via Santuario, 7, 24044 Mariano al Brembo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 9.6,
+   "lat": 45.63863,
+   "lon": 9.58833,
+   "name": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.filarmonicadalmine.it/"
   },
   "astoria": {
    "auto_vote": 4.1,
@@ -1758,6 +2269,7 @@
    "lon": 9.85834,
    "name": "Astoria",
    "osm": "way/56435692",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -1776,6 +2288,7 @@
    "lat": 45.74377,
    "lon": 9.75908,
    "name": "Auditorium Modernissimo",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
@@ -1794,6 +2307,7 @@
    "lat": 45.70515,
    "lon": 9.67288,
    "name": "Aula Magna, sede di Sant'Agostino",
+   "removed": false,
    "sources": [
     "eventi"
    ],
@@ -1812,12 +2326,31 @@
    "lat": 45.71941,
    "lon": 9.71002,
    "name": "BAKARY LOUNGE BAR",
+   "removed": false,
    "reviews": 26,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "balzer caffetteria pasticceria ristorante": {
+   "address": "Via Portici, Sentierone, 41, 24121 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 0.6,
+   "lat": 45.69574,
+   "lon": 9.67072,
+   "name": "Balzer - Caffetteria Pasticceria Ristorante",
+   "reviews": 3397,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.balzer.it/"
   },
   "bar arkadia bergamo": {
    "address": "Via Foro Boario, 13, 24121 Bergamo BG",
@@ -1830,7 +2363,25 @@
    "lat": 45.69273,
    "lon": 9.67737,
    "name": "Bar Arkadia Bergamo",
+   "removed": false,
    "reviews": 18,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "bar class": {
+   "address": "Via Pizzo di Redorta, 20h, 24125 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 2.5,
+   "lat": 45.69231,
+   "lon": 9.708,
+   "name": "Bar Class",
+   "reviews": 338,
    "sources": [
     "google"
    ],
@@ -1847,6 +2398,7 @@
    "lat": 45.61944,
    "lon": 9.96835,
    "name": "Bar della Musica",
+   "removed": false,
    "reviews": 182,
    "sources": [
     "google"
@@ -1865,6 +2417,7 @@
    "lat": 45.6896,
    "lon": 9.64716,
    "name": "Bar H",
+   "removed": false,
    "reviews": 1031,
    "sources": [
     "google"
@@ -1872,6 +2425,93 @@
    "type": "bar",
    "website": "http://www.barhbergamo.it/",
    "website_checked": true
+  },
+  "bar haiti": {
+   "address": "4, Largo Nicolò Rezzara, 12, 24122 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.2,
+   "lat": 45.69336,
+   "lon": 9.664,
+   "name": "Bar Haiti",
+   "reviews": 923,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://barhaiti.shop/"
+  },
+  "bar la dogana": {
+   "address": "Via Piave, 7A, 24030 Strozza BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 9.8,
+   "lat": 45.76266,
+   "lon": 9.59028,
+   "name": "Bar La Dogana",
+   "reviews": 303,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "bar le torrette": {
+   "address": "Via Guglielmo Marconi, 37, 24020 Ranica BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.2,
+   "lat": 45.72371,
+   "lon": 9.71816,
+   "name": "Bar Le Torrette",
+   "reviews": 1059,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.centroletorrette.com/ristobar.php"
+  },
+  "bar marconi c p di cinesi patrizia snc": {
+   "address": "Largo Guglielmo Marconi, 8, 24060 Brusaporto BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 7.6,
+   "lat": 45.66922,
+   "lon": 9.76598,
+   "name": "Bar Marconi C.P. Di Cinesi Patrizia Snc",
+   "reviews": 171,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "bar marika": {
+   "address": "Corso Milano, 17, 24020 Selvino BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.9,
+   "lat": 45.78149,
+   "lon": 9.75257,
+   "name": "Bar Marika",
+   "reviews": 496,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "bar olympus": {
    "address": "Via Gabriele Rosa, 10, 24125 Bergamo BG",
@@ -1884,6 +2524,7 @@
    "lat": 45.68972,
    "lon": 9.69065,
    "name": "Bar Olympus",
+   "removed": false,
    "reviews": 689,
    "sources": [
     "google"
@@ -1891,6 +2532,76 @@
    "type": "bar",
    "website": "https://share-me.it/locali/olympus/",
    "website_checked": true
+  },
+  "bar on off": {
+   "address": "Via S. Rocco, 988, 24033 Calusco d'Adda BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 15.2,
+   "lat": 45.69399,
+   "lon": 9.4813,
+   "name": "Bar On Off",
+   "reviews": 776,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.ilricordo.cloud/on-off/"
+  },
+  "bar pasticceria capitanio": {
+   "address": "Via Tresolzio, 40, 24060 Carobbio degli Angeli BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 12.1,
+   "lat": 45.66791,
+   "lon": 9.82632,
+   "name": "Bar Pasticceria Capitanio",
+   "reviews": 148,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "bar pasticceria dolci sogni": {
+   "address": "Via Antonio Locatelli, 7a, 24027 Nembro BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 8.8,
+   "lat": 45.74668,
+   "lon": 9.76683,
+   "name": "Bar Pasticceria Dolci sogni",
+   "reviews": 233,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.dolcisogniliberi.it/"
+  },
+  "bar pasticceria gelateria di manenti": {
+   "address": "Via Roma, 325, 24013 Oltre il Colle BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.6,
+   "lat": 45.89077,
+   "lon": 9.76986,
+   "name": "Bar-Pasticceria-Gelateria- di Manenti",
+   "reviews": 356,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "bar savoy": {
    "address": "Via S. Bernardino, 107, 24126 Bergamo BG",
@@ -1903,6 +2614,7 @@
    "lat": 45.6817,
    "lon": 9.6619,
    "name": "Bar Savoy",
+   "removed": false,
    "reviews": 1120,
    "sources": [
     "google"
@@ -1910,6 +2622,23 @@
    "type": "bar",
    "website": "https://it-it.facebook.com/pages/category/Cafe/Wine-Bar-Savoy-324100207697596/",
    "website_checked": true
+  },
+  "baricentro": {
+   "address": "Via Aldo Moro, 2, 24010 Sorisole BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.0,
+   "lat": 45.73366,
+   "lon": 9.63677,
+   "name": "Baricentro",
+   "reviews": 635,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "barmusicmovida": {
    "address": "Via Trieste, 38, 24060 Chiuduno BG",
@@ -1922,6 +2651,7 @@
    "lat": 45.64591,
    "lon": 9.85502,
    "name": "Barmusicmovida",
+   "removed": false,
    "reviews": 48,
    "sources": [
     "google"
@@ -1936,12 +2666,13 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 10331,
+   "followers": 10330,
    "instagram": "bar_barrier",
    "km": 0.8,
    "lat": 45.69369,
    "lon": 9.66877,
    "name": "Barrier",
+   "removed": false,
    "reviews": 848,
    "sources": [
     "google"
@@ -1949,6 +2680,24 @@
    "type": "bar",
    "website": "https://www.barbarrier.com/",
    "website_checked": true
+  },
+  "barrito": {
+   "address": "Via Guglielmo Marconi, 43, 24010 Sorisole BG",
+   "auto_vote": 1.7,
+   "capacity": 50,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": 1310,
+   "instagram": "il_barrito",
+   "km": 5.0,
+   "lat": 45.73231,
+   "lon": 9.63568,
+   "name": "Barrito",
+   "reviews": 373,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "barry s": {
    "address": "Via per Grumello, 57, 24127 Bergamo BG",
@@ -1961,6 +2710,7 @@
    "lat": 45.67013,
    "lon": 9.63973,
    "name": "Barry’s",
+   "removed": false,
    "reviews": 540,
    "sources": [
     "google"
@@ -1980,6 +2730,7 @@
    "lat": 45.69127,
    "lon": 9.65951,
    "name": "Beach Bar",
+   "removed": false,
    "reviews": 1236,
    "sources": [
     "google"
@@ -2026,6 +2777,24 @@
    ],
    "type": "bar"
   },
+  "birra n banda": {
+   "address": "Via Buzzone, 24060 San Paolo d'Argon BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.6,
+   "lat": 45.69088,
+   "lon": 9.81305,
+   "name": "Birra 'n Banda",
+   "reviews": 158,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.argonband.it/birranbanda/"
+  },
   "bloom": {
    "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
    "auto_vote": 6.5,
@@ -2039,6 +2808,7 @@
    "lat": 45.63111,
    "lon": 9.44203,
    "name": "Bloom",
+   "removed": false,
    "reviews": 507,
    "sources": [
     "google"
@@ -2063,6 +2833,7 @@
    "lon": 9.58596,
    "name": "Bobadilla Feeling Club",
    "osm": "node/12056260084",
+   "removed": false,
    "reviews": 976,
    "sources": [
     "osm",
@@ -2087,6 +2858,7 @@
    "lon": 9.60324,
    "name": "Bolgia",
    "osm": "node/11238527858",
+   "removed": false,
    "reviews": 1542,
    "sources": [
     "osm",
@@ -2095,6 +2867,23 @@
    "type": "club",
    "website": "https://www.bolgia.it/",
    "website_checked": true
+  },
+  "bono s bar": {
+   "address": "Viale Trieste, 24052 Azzano San Paolo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.0,
+   "lat": 45.66255,
+   "lon": 9.67771,
+   "name": "Bono' s bar",
+   "reviews": 368,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "botanic fusion cocktail": {
    "address": "Corso Europa, 27, 24040 Arcene BG",
@@ -2107,6 +2896,7 @@
    "lat": 45.57367,
    "lon": 9.61408,
    "name": "Botanic Fusion & Cocktail",
+   "removed": false,
    "reviews": 736,
    "sources": [
     "google"
@@ -2126,11 +2916,48 @@
    "lat": 45.70345,
    "lon": 9.66496,
    "name": "Botep Bergamo",
+   "removed": false,
    "reviews": 322,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "briolo caffe winebar con cucina": {
+   "address": "Via L. Da Vinci, 48, 24030 Valbrembo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "instagram": "briolocaffe",
+   "km": 6.8,
+   "lat": 45.71101,
+   "lon": 9.5917,
+   "name": "Briolo Caffe | winebar con cucina",
+   "reviews": 546,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "bum bum festival": {
+   "address": "Parco Le Stanze, 24069 Trescore Balneario BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 12.4,
+   "lat": 45.68678,
+   "lon": 9.83576,
+   "name": "Bum Bum Festival",
+   "reviews": 394,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.bumbumfestival.it/"
   },
   "cafe noir lounge": {
    "address": "Cafè Noir, Via G.Tadino, 4 H, 24127 Bergamo BG",
@@ -2144,6 +2971,7 @@
    "lat": 45.67147,
    "lon": 9.64236,
    "name": "Cafe Noir Lounge",
+   "removed": false,
    "reviews": 170,
    "sources": [
     "google"
@@ -2151,6 +2979,41 @@
    "type": "bar",
    "website": "https://www.cafenoirlounge.com/",
    "website_checked": true
+  },
+  "cafe roma": {
+   "address": "Via Padana Superiore 11, 10, 24050 Mozzanica BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 24.3,
+   "lat": 45.48036,
+   "lon": 9.69693,
+   "name": "Cafe Roma",
+   "reviews": 574,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://it-it.facebook.com/pages/Caff%C3%A8-Roma-Mozzanica/473582956009453"
+  },
+  "cafe triangolo": {
+   "address": "Via Giacomo Manzu', 7, 24122 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.4,
+   "lat": 45.69221,
+   "lon": 9.66111,
+   "name": "Cafe triangolo",
+   "reviews": 104,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "cafeteria": {
    "address": "Viale Europa, 32, 24048 Treviolo BG",
@@ -2163,6 +3026,7 @@
    "lat": 45.67715,
    "lon": 9.63503,
    "name": "Cafeteria",
+   "removed": false,
    "reviews": 1040,
    "sources": [
     "google"
@@ -2170,6 +3034,145 @@
    "type": "bar",
    "website": "https://cafeteriatreviolo.it/",
    "website_checked": true
+  },
+  "caffe bazzini dal 1987 caffetteria enoteca cucina gelateria": {
+   "address": "Via Guglielmo Mattioli, 14/C, 24129 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.6,
+   "lat": 45.69419,
+   "lon": 9.63116,
+   "name": "Caffe Bazzini dal 1987 -Caffetteria Enoteca Cucina Gelateria",
+   "reviews": 988,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/caffebazzini/"
+  },
+  "caffe cittadella bergamo": {
+   "address": "L.go Colle Aperto, 2, 24129 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.7,
+   "lat": 45.70625,
+   "lon": 9.65919,
+   "name": "Caffe Cittadella - Bergamo",
+   "reviews": 450,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "caffe degli artisti": {
+   "address": "Via San Tomaso, 70, 24126 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 0.6,
+   "lat": 45.7035,
+   "lon": 9.67509,
+   "name": "Caffe Degli Artisti",
+   "reviews": 215,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.barismo.wordpress.com/"
+  },
+  "caffe e salotto": {
+   "address": "Via M. Buonarroti, 17 G, 24020 Gorle BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 2.9,
+   "lat": 45.69637,
+   "lon": 9.71435,
+   "name": "Caffe e Salotto",
+   "reviews": 507,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.caffesalotto.com/"
+  },
+  "caffe milano": {
+   "address": "Piazza Luciano Manara, 7, 24047 Treviglio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.7,
+   "lat": 45.52141,
+   "lon": 9.59249,
+   "name": "Caffe Milano",
+   "reviews": 423,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "caffelatte": {
+   "address": "Viale Fratelli Kennedy, 18, 24066 Pedrengo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.7,
+   "lat": 45.69896,
+   "lon": 9.73794,
+   "name": "Caffelatte",
+   "reviews": 72,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "caffetteria colleoni 2 0": {
+   "address": "Via Antignano, 23, 24055 Zona Artigianale Francesca BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 12.3,
+   "lat": 45.59028,
+   "lon": 9.70923,
+   "name": "Caffetteria Colleoni 2.0",
+   "reviews": 152,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "caffetteria d elite di rapizza riccardo e c": {
+   "address": "Via Umberto I°, 2, 24055 Cologno Al Serio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 13.5,
+   "lat": 45.57929,
+   "lon": 9.70871,
+   "name": "Caffetteria d'Elite di Rapizza Riccardo e C",
+   "reviews": 161,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "capogiro": {
    "address": "Via Trento, 14, 24035 Curno BG",
@@ -2187,6 +3190,7 @@
    "lon": 9.6153,
    "name": "Capogiro",
    "osm": "node/14196554592",
+   "removed": false,
    "reviews": 458,
    "search_checked": "2026-11-18",
    "sources": [
@@ -2209,11 +3213,30 @@
    "lat": 45.72879,
    "lon": 9.64887,
    "name": "CAPOLINEA EAT DRINK RELAX",
+   "removed": false,
    "reviews": 440,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "capriccio patisserie": {
+   "address": "Via Vittorio Veneto, 1073, 24030 Presezzo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 8.7,
+   "lat": 45.69141,
+   "lon": 9.56634,
+   "name": "Capriccio Patisserie",
+   "reviews": 450,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://capriccio84.com/"
   },
   "casablanca club": {
    "address": "Via Attilio Galli, 30, 23801 Calolziocorte LC",
@@ -2227,7 +3250,9 @@
    "lat": 45.80187,
    "lon": 9.42783,
    "name": "Casablanca club",
+   "removed": false,
    "reviews": 3,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -2331,6 +3356,7 @@
    "lat": 45.80916,
    "lon": 9.42652,
    "name": "Castle Rock Pub",
+   "removed": false,
    "reviews": 264,
    "sources": [
     "google"
@@ -2347,15 +3373,39 @@
    "city": "Bergamo",
    "first_seen": "2026-11-18",
    "followers": null,
+   "instagram": "centrocongressigiovanni_xxiii",
    "km": 0.8,
    "lat": 45.69161,
    "lon": 9.67381,
    "name": "Centro congressi Giovanni XXIII",
+   "removed": false,
+   "reviews": 910,
    "search_checked": "2026-11-18",
    "sources": [
-    "eventi"
+    "eventi",
+    "google"
    ],
-   "type": "bar"
+   "type": "bar",
+   "website": "https://www.centrocongressibergamo.com/",
+   "website_checked": true
+  },
+  "champagne club snc di maccario piero c": {
+   "address": "Via Milano, 32, 20062 Cassano d'Adda MI",
+   "auto_vote": 4.1,
+   "capacity": 500,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 23.0,
+   "lat": 45.52765,
+   "lon": 9.51099,
+   "name": "Champagne Club Snc Di Maccario Piero & C",
+   "reviews": 93,
+   "search_checked": "2026-11-20",
+   "sources": [
+    "google"
+   ],
+   "type": "club"
   },
   "charleston": {
    "address": "Via Rossaro, 28, 24047 Treviglio BG",
@@ -2369,7 +3419,9 @@
    "lat": 45.51239,
    "lon": 9.57096,
    "name": "Charleston",
+   "removed": false,
    "reviews": 142,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -2382,15 +3434,36 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-20",
    "km": 22.3,
    "lat": 45.51243,
    "lon": 9.571,
    "name": "Charlie",
+   "removed": false,
    "reviews": 403,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "chocolat bistrot": {
+   "address": "Via Libertà, 74, 24040 Paladina BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 6.7,
+   "lat": 45.73158,
+   "lon": 9.60498,
+   "name": "Chocolat Bistrot",
+   "reviews": 508,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://chocolatbistrot.it/"
   },
   "chorus life bergamo via carlo serassi 26": {
    "address": "Via Carlo",
@@ -2404,6 +3477,7 @@
    "lat": 45.7954,
    "lon": 9.89511,
    "name": "Chorus Life Bergamo (Via Carlo Serassi 26)",
+   "removed": false,
    "search_checked": "2026-11-19",
    "sources": [
     "eventi"
@@ -2424,29 +3498,39 @@
    "lon": 9.69132,
    "name": "ChorusLife Arena",
    "osm": "way/1365313986",
+   "removed": false,
+   "reviews": 748,
    "sources": [
     "eventi",
-    "osm"
+    "osm",
+    "google"
    ],
    "type": "bar",
    "website": "https://choruslife.com/it/areas/arena"
   },
   "choruslife bergamo": {
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "address": "Via Carlo Serassi, 26, 24124 Bergamo BG",
+   "auto_vote": 5.0,
+   "capacity": 200,
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-19",
-   "followers": null,
+   "followers": 67447,
+   "instagram": "choruslife.bergamo",
    "km": 1.1,
    "lat": 45.7031,
    "lon": 9.68987,
    "name": "CHORUSLIFE BERGAMO",
+   "removed": false,
+   "reviews": 2214,
    "search_checked": "2026-11-19",
    "sources": [
-    "eventi"
+    "eventi",
+    "google"
    ],
-   "type": "bar"
+   "type": "bar",
+   "website": "https://choruslife.com/",
+   "website_checked": true
   },
   "choruslife bergamo via carlo serassi 26": {
    "address": "VIA CARLO",
@@ -2460,6 +3544,7 @@
    "lat": 45.7954,
    "lon": 9.89511,
    "name": "CHORUSLIFE BERGAMO - VIA CARLO SERASSI 26",
+   "removed": false,
    "search_checked": "2026-11-19",
    "sources": [
     "eventi"
@@ -2481,11 +3566,170 @@
    "lat": 45.7954,
    "lon": 9.89511,
    "name": "CHORUSLIFE -Via Carlo Serassi 26",
+   "removed": false,
    "search_checked": "2026-11-19",
    "sources": [
     "eventi"
    ],
    "type": "bar"
+  },
+  "circolo arci": {
+   "address": "Via Banzolini Storti, 2, 24060 Chiuduno BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 14.5,
+   "lat": 45.65111,
+   "lon": 9.85155,
+   "name": "Circolo Arci",
+   "reviews": 5,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://arcicolnago.it/"
+  },
+  "circolo arci ass amici tino": {
+   "address": "Unnamed Road, 23881 Aizurro LC",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 21.3,
+   "lat": 45.75628,
+   "lon": 9.41513,
+   "name": "Circolo Arci Ass. Amici Tino",
+   "reviews": 7,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "circolo arci pintupi": {
+   "address": "Via A.Moro, 29, 23879 Verderio LC",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 19.3,
+   "lat": 45.66444,
+   "lon": 9.43361,
+   "name": "Circolo ARCI Pintupi",
+   "reviews": 113,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://arcipintupi.wordpress.com/"
+  },
+  "circolo arci quintano": {
+   "address": "Via Padre Serafino Biffi, 24060 Castelli Calepio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 18.6,
+   "lat": 45.61356,
+   "lon": 9.88401,
+   "name": "Circolo Arci Quintano",
+   "reviews": 60,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "circolo arci spazio condiviso": {
+   "address": "Piazza Regazzoni, 7, 23801 Calolziocorte LC",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.3,
+   "lat": 45.80396,
+   "lon": 9.43234,
+   "name": "Circolo Arci Spazio Condiviso",
+   "reviews": 55,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/circoloarcispaziocondiviso/"
+  },
+  "circolo artistico bergamasco": {
+   "address": "Via Malj Tabajani, 4, 24121 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 0.4,
+   "lat": 45.69503,
+   "lon": 9.67844,
+   "name": "Circolo Artistico Bergamasco",
+   "reviews": 23,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.circoloartisticobergamasco.it/"
+  },
+  "circolo cooperativo a r c a di ricreazione e cultura soc coop a r l": {
+   "address": "Piazza 26 Aprile, n1, 25037 Pontoglio BS",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 19.7,
+   "lat": 45.5702,
+   "lon": 9.85232,
+   "name": "Circolo Cooperativo A.R.C.A. Di Ricreazione E Cultura Soc. Coop. A R.L",
+   "reviews": 3,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
+  },
+  "circolo culturale g greppi": {
+   "address": "Via Gianbattista Moroni, 25, 24122 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.3,
+   "lat": 45.69161,
+   "lon": 9.66319,
+   "name": "Circolo Culturale G. Greppi",
+   "reviews": 7,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.circologreppi.it/"
+  },
+  "circolo culturale ricreativo per anziani": {
+   "address": "Via Dosie, 2, 24020 Villa di Serio BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.8,
+   "lat": 45.71856,
+   "lon": 9.73248,
+   "name": "Circolo Culturale Ricreativo Per Anziani",
+   "reviews": 8,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
   },
   "circolo doppio senso": {
    "address": "Via Provinciale, 114, 24021 Albino BG",
@@ -2494,16 +3738,52 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-20",
    "km": 13.9,
    "lat": 45.77662,
    "lon": 9.8171,
    "name": "Circolo Doppio Senso",
+   "removed": false,
    "reviews": 1,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "circolo la famiglia": {
+   "address": "Via A. Faccanoni, 4, 24067 Sarnico BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.0,
+   "lat": 45.66972,
+   "lon": 9.95747,
+   "name": "Circolo La Famiglia",
+   "reviews": 24,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "circolo ricreativo arci": {
+   "address": "Via Dopolavoro, 1, 23852 Garlate LC",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 24.4,
+   "lat": 45.80667,
+   "lon": 9.40314,
+   "name": "Circolo Ricreativo Arci",
+   "reviews": 68,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
   },
   "citta dei mille restaurant lounge": {
    "address": "Via Martinella, 3, 24124 Torre Boldone BG",
@@ -2516,6 +3796,7 @@
    "lat": 45.71133,
    "lon": 9.70043,
    "name": "Citta Dei Mille - Restaurant & Lounge",
+   "removed": false,
    "reviews": 135,
    "search_checked": "2026-11-20",
    "sources": [
@@ -2524,6 +3805,24 @@
    "type": "club",
    "website": "https://ristorantecittadeimille.it/",
    "website_checked": true
+  },
+  "civico corpo musicale bandistico ccmb": {
+   "address": "Via S. Giulio, 20, 20873 Cavenago di Brianza MB",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 23.9,
+   "lat": 45.58197,
+   "lon": 9.41929,
+   "name": "Civico Corpo Musicale Bandistico - CCMB",
+   "reviews": 2,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.ccmb.it/"
   },
   "club 369 milano": {
    "address": "Via Grigna, 17, 20866 Carnate MB",
@@ -2536,12 +3835,31 @@
    "lat": 45.65344,
    "lon": 9.38103,
    "name": "CLUB 369 MILANO",
+   "removed": false,
    "reviews": 66,
    "sources": [
     "google"
    ],
    "type": "club",
-   "website": "https://www.club369milano.it/"
+   "website": "https://www.club369milano.it/",
+   "website_checked": true
+  },
+  "club g quarenghi per l arte cultura e spettacolo": {
+   "address": "Via Giacomo Quarenghi, 42, 24122 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.1,
+   "lat": 45.6907,
+   "lon": 9.66773,
+   "name": "Club G. Quarenghi Per L'Arte Cultura E Spettacolo",
+   "reviews": 4,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
   },
   "cocktailmood": {
    "address": "Via Roma, 4, 24040 Pognano BG",
@@ -2555,7 +3873,25 @@
    "lat": 45.5861,
    "lon": 9.64039,
    "name": "CocktailMood",
+   "removed": false,
    "reviews": 49,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "comics bar craft beers": {
+   "address": "Via A. Locatelli, 32, 24057 Martinengo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 15.8,
+   "lat": 45.57018,
+   "lon": 9.76633,
+   "name": "Comics Bar - Craft Beers",
+   "reviews": 243,
    "sources": [
     "google"
    ],
@@ -2563,21 +3899,24 @@
   },
   "contest cocktail bar": {
    "address": "Via Vincenzo Bellini, 47, 24129 Bergamo BG",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 2.4,
+   "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 3933,
+   "instagram": "contest_bg",
    "km": 3.7,
    "lat": 45.69137,
    "lon": 9.63072,
    "name": "Contest Cocktail Bar",
+   "removed": false,
    "reviews": 1287,
    "sources": [
     "google"
    ],
    "type": "bar",
-   "website": "https://www.contest-loungebar.it/"
+   "website": "https://www.contest-loungebar.it/",
+   "website_checked": true
   },
   "cordiale american bar": {
    "address": "Viale Giovanni XXIII, 27, 24043 Caravaggio BG",
@@ -2590,12 +3929,68 @@
    "lat": 45.49051,
    "lon": 9.63894,
    "name": "Cordiale American Bar",
+   "removed": false,
    "reviews": 476,
    "sources": [
     "google"
    ],
    "type": "bar",
-   "website": "https://cordialeamericanbar.com/"
+   "website": "https://cordialeamericanbar.com/",
+   "website_checked": true
+  },
+  "cremeria delle valli": {
+   "address": "Via Mazzini, 61, 24019 Zogno BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.8,
+   "lat": 45.7953,
+   "lon": 9.66825,
+   "name": "Cremeria delle valli",
+   "reviews": 219,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://cremeriadellevalli.com/"
+  },
+  "cult diffusione culturale auditorium di piazza della liberta": {
+   "address": "Via Norberto Duzioni, 2, 24121 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 0.7,
+   "lat": 45.69739,
+   "lon": 9.6688,
+   "name": "CULT! Diffusione culturale - Auditorium di Piazza della Liberta",
+   "reviews": 451,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://auditorium.lab80.18tickets.it/"
+  },
+  "d oc cafe 56 di innocenti claudia": {
+   "address": "VIA PAPA GIOVANNI XXIII, 56, 24040 Bottanuco BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 14.5,
+   "lat": 45.64124,
+   "lon": 9.50951,
+   "name": "D'Oc Cafe' 56 Di Innocenti Claudia",
+   "reviews": 323,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/birreriadoc56/"
   },
   "dama lounge bar": {
    "address": "Via Duca D'Aosta, 24058 Romano di Lombardia BG",
@@ -2609,7 +4004,25 @@
    "lat": 45.5229,
    "lon": 9.75497,
    "name": "Dama lounge bar",
+   "removed": false,
    "reviews": 58,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "dama pasticceria forneria caffetteria": {
+   "address": "Via S. Martino, 3, 24020 Pradalunga BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.2,
+   "lat": 45.74746,
+   "lon": 9.78752,
+   "name": "Dama Pasticceria Forneria Caffetteria",
+   "reviews": 61,
    "sources": [
     "google"
    ],
@@ -2653,9 +4066,68 @@
    "lon": 9.4298,
    "name": "Dancing Lavello",
    "osm": "way/456790407",
+   "removed": false,
+   "reviews": 138,
    "search_checked": "2026-11-18",
    "sources": [
-    "osm"
+    "osm",
+    "google"
+   ],
+   "type": "club",
+   "website": "https://www.facebook.com/profile.php?id=100063639579060",
+   "website_checked": true
+  },
+  "daste bergamo": {
+   "address": "Via Daste e Spalenga, 15, 24125 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 2.1,
+   "lat": 45.69383,
+   "lon": 9.70401,
+   "name": "Daste Bergamo",
+   "reviews": 1231,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.dastebergamo.com/"
+  },
+  "dauda cafe": {
+   "address": "Via Roma, 66, 24030 Terno d'Isola BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.8,
+   "lat": 45.68688,
+   "lon": 9.53867,
+   "name": "DAUDA CAFE",
+   "reviews": 112,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.dauda-cafe.eatbu.com/"
+  },
+  "decibel club": {
+   "address": "Via Industriale dell'Isola, 11, 24040 Chignolo D'isola BG",
+   "auto_vote": 4.1,
+   "capacity": 500,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 11.7,
+   "lat": 45.66674,
+   "lon": 9.53312,
+   "name": "Decibel Club",
+   "reviews": 818,
+   "search_checked": "2026-11-20",
+   "sources": [
+    "google"
    ],
    "type": "club"
   },
@@ -2670,11 +4142,30 @@
    "lat": 45.70495,
    "lon": 9.68046,
    "name": "Deja vu Bergamo",
+   "removed": false,
    "reviews": 16,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "delizie croissanteria gelateria pasticceria cocktail bar": {
+   "address": "Via Piemonte, 105, 24059 Urgnano BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.7,
+   "lat": 45.60357,
+   "lon": 9.69822,
+   "name": "Delizie - Croissanteria, Gelateria, Pasticceria, Cocktail Bar",
+   "reviews": 1132,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.bardelizie.it/"
   },
   "disco kiss": {
    "address": "Via G.Marconi, 10, 24051 Antegnate BG",
@@ -2687,6 +4178,7 @@
    "lat": 45.48952,
    "lon": 9.79697,
    "name": "Disco Kiss",
+   "removed": false,
    "reviews": 33,
    "sources": [
     "google"
@@ -2705,6 +4197,7 @@
    "lat": 45.64636,
    "lon": 9.63184,
    "name": "Discoteca Cascina Due Torri",
+   "removed": false,
    "reviews": 480,
    "search_checked": "2026-11-20",
    "sources": [
@@ -2725,10 +4218,29 @@
    "lat": 45.53598,
    "lon": 9.57789,
    "name": "Discoteca Dal Randa",
+   "removed": false,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "district spazio eventi": {
+   "address": "Via Giorgio e Guido Paglia, 31E, 24122 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.0,
+   "lat": 45.69017,
+   "lon": 9.67242,
+   "name": "District - Spazio Eventi",
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.mossevents.it/"
   },
   "divina music bar": {
    "address": "Via Azzano San Paolo 71d, 24050, Grassobbio",
@@ -2747,12 +4259,49 @@
    "lon": 9.71074,
    "name": "Divina Music Bar",
    "osm": "node/13787527702",
+   "removed": false,
    "reviews": 173,
    "sources": [
     "osm",
     "google"
    ],
    "type": "club"
+  },
+  "dolce pausa": {
+   "address": "Via Donadoni, 1, 24066 Pedrengo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.4,
+   "lat": 45.69933,
+   "lon": 9.73348,
+   "name": "Dolce Pausa",
+   "reviews": 262,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.dolce-pausa.it/"
+  },
+  "door 74": {
+   "auto_vote": 4.1,
+   "capacity": 150,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-20",
+   "followers": 18863,
+   "instagram": "door_74",
+   "km": 1.5,
+   "lat": 45.68879,
+   "lon": 9.69182,
+   "name": "Door 74",
+   "sources": [
+    "instagram"
+   ],
+   "type": "bar",
+   "website": "https://finddoor74.com/"
   },
   "drink responsibly club the pub": {
    "address": "Via Nazionale, 38, 24060 Spinone al Lago BG",
@@ -2766,6 +4315,7 @@
    "lat": 45.7633,
    "lon": 9.9223,
    "name": "Drink Responsibly Club: The Pub",
+   "removed": false,
    "reviews": 213,
    "sources": [
     "google"
@@ -2783,32 +4333,40 @@
    "lat": 45.646,
    "lon": 9.61714,
    "name": "DROP - Dalmine",
+   "removed": false,
    "reviews": 1156,
    "sources": [
     "google"
    ],
    "type": "bar",
-   "website": "https://generica.drop-dalmine.com/optin"
+   "website": "https://generica.drop-dalmine.com/optin",
+   "website_checked": true
   },
   "druso": {
    "address": "Via Antonio Locatelli 17, 24020, Ranica",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 6.9,
+   "capacity": 1100,
    "capacity_source": "stima",
    "city": "Ranica",
    "first_seen": "2026-11-18",
-   "followers": null,
+   "followers": 24671,
    "ig_guessed": "2026-11-19",
+   "instagram": "drusobg",
    "km": 3.9,
    "lat": 45.71265,
    "lon": 9.72262,
    "name": "Druso",
    "osm": "way/311519287",
+   "removed": false,
+   "reviews": 884,
    "search_checked": "2026-11-18",
    "sources": [
-    "osm"
+    "osm",
+    "google"
    ],
-   "type": "club"
+   "type": "club",
+   "website": "https://www.drusobg.com/",
+   "website_checked": true
   },
   "druso circus": {
    "address": "Via Guido Galimberti 6, 24124, Bergamo",
@@ -2824,6 +4382,7 @@
    "lon": 9.69009,
    "name": "Druso Circus",
    "osm": "node/2641953823",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -2843,6 +4402,7 @@
    "lat": 45.62097,
    "lon": 9.53177,
    "name": "Easy Drink and Food",
+   "removed": false,
    "reviews": 479,
    "sources": [
     "google"
@@ -2861,12 +4421,48 @@
    "lat": 45.70734,
    "lon": 9.69671,
    "name": "Edone",
+   "removed": false,
    "reviews": 1989,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://edonebergamo.com/"
+  },
+  "ego bar caffe lounge drink": {
+   "address": "Via G. Verdi, 15, 24060 Villongo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.6,
+   "lat": 45.66952,
+   "lon": 9.9398,
+   "name": "EGO BAR CAFFE&LOUNGE DRINK",
+   "reviews": 422,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "estafestarock": {
+   "address": "24060 Montello BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.6,
+   "lat": 45.66705,
+   "lon": 9.80621,
+   "name": "Estafestarock",
+   "reviews": 11,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://estafestarock.altervista.org/"
   },
   "ex discoteca capriccio": {
    "address": "Viale Suardi, 42, 24040 Arcene BG",
@@ -2887,6 +4483,41 @@
    ],
    "type": "club"
   },
+  "fabbrica in pedavena treviglio": {
+   "address": "Via Rossaro, 28, 24047 Treviglio BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.3,
+   "lat": 45.51244,
+   "lon": 9.5708,
+   "name": "Fabbrica in Pedavena Treviglio",
+   "reviews": 3087,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.fabbricainpedavenatreviglio.it/"
+  },
+  "fantabrass quartet": {
+   "address": "Via Castello Rescanzi, 12, 24030 Almenno San Bartolomeo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 9.3,
+   "lat": 45.74778,
+   "lon": 9.58084,
+   "name": "FantaBrass Quartet",
+   "reviews": 42,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
+  },
   "fashion antegnate": {
    "address": "Via G.Marconi, 8, 24051 Antegnate BG",
    "auto_vote": 4.1,
@@ -2898,6 +4529,7 @@
    "lat": 45.48951,
    "lon": 9.79691,
    "name": "Fashion Antegnate",
+   "removed": false,
    "reviews": 5,
    "sources": [
     "google"
@@ -2915,12 +4547,49 @@
    "lat": 45.77723,
    "lon": 9.81765,
    "name": "Feeling Club",
+   "removed": false,
    "reviews": 1,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "festa dell unita brembate grignano filago": {
+   "address": "Via Tiziano Vecellio, 24041 Brembate BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 13.8,
+   "lat": 45.6081,
+   "lon": 9.55556,
+   "name": "Festa dell'Unita Brembate-Grignano-Filago",
+   "reviews": 204,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.festaunitabrembate.it/"
+  },
+  "fiori a merenda": {
+   "address": "Via Adua, 1, 24040 Stezzano BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.6,
+   "lat": 45.65098,
+   "lon": 9.65303,
+   "name": "Fiori a merenda",
+   "reviews": 398,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://m.facebook.com/FioriaMerenda/"
   },
   "fly pub": {
    "address": "Via Gombito, 28a, 24129 Bergamo BG",
@@ -2933,12 +4602,66 @@
    "lat": 45.70347,
    "lon": 9.66489,
    "name": "Fly Pub",
+   "removed": false,
    "reviews": 582,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://www.facebook.com/fly.pub1/"
+  },
+  "forneria cortinovis panetteria caffetteria aperitivi pasticceria": {
+   "address": "Via Monte Negrone, 2/A, 24020 Negrone BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 6.2,
+   "lat": 45.70708,
+   "lon": 9.75649,
+   "name": "Forneria Cortinovis. Panetteria, caffetteria, aperitivi, pasticceria",
+   "reviews": 1005,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "fr animation": {
+   "address": "Via Roma, 9, 24020 Torre Boldone BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.4,
+   "lat": 45.7223,
+   "lon": 9.70369,
+   "name": "FR animation",
+   "reviews": 18,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.matrimonio.com/musica-matrimonio/fr-animation--e129121"
+  },
+  "frulleria cafe": {
+   "address": "Via Vittorio Veneto, 66, 20062 Cassano d'Adda MI",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.8,
+   "lat": 45.52572,
+   "lon": 9.51878,
+   "name": "Frulleria cafe",
+   "reviews": 854,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.frulleriacafe.it/home.asp"
   },
   "garota de ipanema": {
    "address": "Via Enrico Fermi, 56, 24035 Curno BG",
@@ -2951,6 +4674,7 @@
    "lat": 45.69065,
    "lon": 9.6244,
    "name": "Garota De Ipanema",
+   "removed": false,
    "reviews": 259,
    "search_checked": "2026-11-20",
    "sources": [
@@ -2969,12 +4693,30 @@
    "lat": 45.69467,
    "lon": 9.4042,
    "name": "Gasoline Cernusco",
+   "removed": false,
    "reviews": 373,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://wa.me/393477878595?text=Ciao%20vorrei%20prenotare%20al%20Gasoline%20Cernusco.%20Giorno:%20%20Ora:%20%20Numero%20persone:%20"
+  },
+  "gelateria pasticceria valcalepio": {
+   "address": "Via Primo Maggio, 1, 24060 Gorlago BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 11.2,
+   "lat": 45.66818,
+   "lon": 9.81423,
+   "name": "Gelateria Pasticceria Valcalepio",
+   "reviews": 648,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "gemp lounge bar": {
    "address": "Via Roma, 12A, 24011 Almè BG",
@@ -2987,11 +4729,64 @@
    "lat": 45.74337,
    "lon": 9.61583,
    "name": "Gemp Lounge Bar",
+   "removed": false,
    "reviews": 898,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "giancarlo": {
+   "address": "Via Monsignor Ambrogio Portaluppi, 75, 24047 Treviglio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.4,
+   "lat": 45.52665,
+   "lon": 9.58594,
+   "name": "Giancarlo",
+   "reviews": 224,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "glamour cafe": {
+   "address": "Via Don Luigi Palazzolo, 74, 24122 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.5,
+   "lat": 45.6887,
+   "lon": 9.6645,
+   "name": "Glamour Cafe",
+   "reviews": 453,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "gli zanni": {
+   "address": "Passaggio Sciopero di Ranica, 5, 24020 Ranica BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.5,
+   "lat": 45.72835,
+   "lon": 9.71633,
+   "name": "Gli Zanni",
+   "reviews": 4,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.glizanni.it/"
   },
   "gliss adro": {
    "address": "Via Provinciale, 46c, 25030 Adro BS",
@@ -3004,6 +4799,7 @@
    "lat": 45.62098,
    "lon": 9.95788,
    "name": "Gliss adro",
+   "removed": false,
    "reviews": 272,
    "sources": [
     "google"
@@ -3023,6 +4819,7 @@
    "lat": 45.69832,
    "lon": 9.65583,
    "name": "Harlem Food, Drink&More",
+   "removed": false,
    "reviews": 468,
    "sources": [
     "google"
@@ -3040,6 +4837,7 @@
    "lat": 45.65595,
    "lon": 9.50577,
    "name": "Hunger night",
+   "removed": false,
    "reviews": 8,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3058,6 +4856,7 @@
    "lat": 45.49264,
    "lon": 9.80696,
    "name": "Hype Back Garden",
+   "removed": false,
    "reviews": 18,
    "sources": [
     "google"
@@ -3075,7 +4874,9 @@
    "lat": 45.53503,
    "lon": 9.77404,
    "name": "HYPE Club",
+   "removed": false,
    "reviews": 97,
+   "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
@@ -3092,11 +4893,30 @@
    "lat": 45.6977,
    "lon": 9.68103,
    "name": "I-Lounge",
+   "removed": false,
    "reviews": 176,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "il circolino della malpensata": {
+   "address": "Via Luigi Luzzatti, 6b, 24126 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.5,
+   "lat": 45.6848,
+   "lon": 9.67497,
+   "name": "Il Circolino della Malpensata",
+   "reviews": 989,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/ilcircolinodellamalpensatabergamo/"
   },
   "il covo": {
    "address": "SP ex SS 525 del Brembo, 2, 20065 Inzago MI",
@@ -3109,12 +4929,31 @@
    "lat": 45.54763,
    "lon": 9.4537,
    "name": "Il Covo",
+   "removed": false,
    "reviews": 265,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "http://www.facebook.com/Il-Covo-729793657085223"
+  },
+  "il dolce forno di ale jac": {
+   "address": "Via Vittorio Veneto, 929, 24030 Presezzo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 8.5,
+   "lat": 45.69185,
+   "lon": 9.56803,
+   "name": "Il dolce forno di ALE & JAC",
+   "reviews": 332,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.ildolcefornobg.it/"
   },
   "il pirata pub": {
    "address": "Via Papa Giovanni XXIII, 75, 24011 Almè BG",
@@ -3128,6 +4967,7 @@
    "lat": 45.73856,
    "lon": 9.60944,
    "name": "Il Pirata Pub",
+   "removed": false,
    "reviews": 716,
    "sources": [
     "google"
@@ -3145,6 +4985,7 @@
    "lat": 45.59917,
    "lon": 9.4239,
    "name": "Il rava",
+   "removed": false,
    "reviews": 165,
    "sources": [
     "google"
@@ -3158,18 +4999,56 @@
    "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 14659,
+   "followers": 14662,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
    "lon": 9.66159,
    "name": "Ink Club",
    "osm": "node/13996340501",
+   "removed": false,
+   "reviews": 160,
    "sources": [
-    "osm"
+    "osm",
+    "google"
    ],
    "type": "live_club",
    "website": "https://www.inkclub.bergamo.it"
+  },
+  "inno s cafe": {
+   "address": "Corso Europa Unita, 2, 24030 Valbrembo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 6.2,
+   "lat": 45.71075,
+   "lon": 9.59949,
+   "name": "Inno's Cafe",
+   "reviews": 969,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "into the woods": {
+   "address": "Via Ugo Foscolo, 10, 24020 Torre Boldone BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 2.6,
+   "lat": 45.71295,
+   "lon": 9.70413,
+   "name": "Into the Woods",
+   "reviews": 1415,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.intothewoods.it/"
   },
   "jam live studio": {
    "address": "Via Lombardia, 23, 24027 Nembro BG",
@@ -3183,6 +5062,7 @@
    "lat": 45.74037,
    "lon": 9.76049,
    "name": "Jam Live Studio",
+   "removed": false,
    "reviews": 195,
    "sources": [
     "google"
@@ -3190,6 +5070,24 @@
    "type": "club",
    "website": "https://jamnembro.com/",
    "website_checked": true
+  },
+  "jammin vinyl bar": {
+   "address": "Piazzetta Tullio e Ildebrando Santagiuliana, 2, 24047 Treviglio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.6,
+   "lat": 45.52303,
+   "lon": 9.59292,
+   "name": "Jammin Vinyl Bar",
+   "reviews": 435,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://m.facebook.com/jammintreviglio/?locale2=it_IT"
   },
   "jclub": {
    "address": "Via Guglielmo Marconi, 23/B, 24036 Ponte San Pietro BG",
@@ -3202,6 +5100,7 @@
    "lat": 45.70361,
    "lon": 9.58123,
    "name": "JClub",
+   "removed": false,
    "reviews": 74,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3221,6 +5120,7 @@
    "lat": 45.63128,
    "lon": 9.57931,
    "name": "Joe Koala",
+   "removed": false,
    "reviews": 905,
    "sources": [
     "google"
@@ -3239,7 +5139,44 @@
    "lat": 45.67597,
    "lon": 9.63245,
    "name": "Karma Lounge",
+   "removed": false,
    "reviews": 51,
+   "search_checked": "2026-11-20",
+   "sources": [
+    "google"
+   ],
+   "type": "club"
+  },
+  "keller factory 2 0 live music pub": {
+   "address": "Via Bergamo, 32, 24035 Curno BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.0,
+   "lat": 45.69266,
+   "lon": 9.61326,
+   "name": "Keller Factory 2.0 - Live Music Pub",
+   "reviews": 2393,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.newkeller.it/"
+  },
+  "kilimangiaro": {
+   "address": "Via del Chioso, 1, 24030 Mozzo BG",
+   "auto_vote": 4.1,
+   "capacity": 500,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.7,
+   "lat": 45.7061,
+   "lon": 9.60511,
+   "name": "Kilimangiaro",
+   "reviews": 66,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
@@ -3257,6 +5194,7 @@
    "lat": 45.73359,
    "lon": 9.7398,
    "name": "Kraken Factory",
+   "removed": false,
    "reviews": 549,
    "sources": [
     "google"
@@ -3275,6 +5213,7 @@
    "lat": 45.64885,
    "lon": 9.61839,
    "name": "Kristall Night Club",
+   "removed": false,
    "reviews": 75,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3295,10 +5234,29 @@
    "lon": 9.64186,
    "name": "L'angolo delle feste",
    "osm": "node/12231149569",
+   "removed": false,
    "sources": [
     "osm"
    ],
    "type": "live_club"
+  },
+  "la base": {
+   "address": "Via C. Costa, 5, 25036 Palazzolo sull'Oglio BS",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 19.2,
+   "lat": 45.59992,
+   "lon": 9.87961,
+   "name": "La Base",
+   "reviews": 168,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://m.facebook.com/BasePalazzolo/"
   },
   "la bassanina": {
    "address": "Via Caravaggio 53",
@@ -3313,12 +5271,30 @@
    "lon": 9.66922,
    "name": "La Bassanina",
    "osm": "node/11332731277",
+   "removed": false,
    "sources": [
     "osm"
    ],
    "type": "live_club",
    "website": "https://www.labassanina.it/",
    "website_checked": true
+  },
+  "la caffetteria bar paninoteca gelateria": {
+   "address": "Via Brusicco, 24039 Sotto il Monte Giovanni XXIII BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 14.3,
+   "lat": 45.70696,
+   "lon": 9.49386,
+   "name": "La Caffetteria Bar Paninoteca Gelateria",
+   "reviews": 76,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "la capannina": {
    "auto_vote": 3.5,
@@ -3332,6 +5308,7 @@
    "lon": 9.9219,
    "name": "La Capannina",
    "osm": "way/900510487",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -3359,6 +5336,131 @@
    ],
    "type": "live_club",
    "website": "https://www.acquaroli.it/location-matrimoni/la-corte-e-il-sogno"
+  },
+  "la dolce pausa": {
+   "address": "Via Roma, 56/a, 24020 Colzate BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 19.1,
+   "lat": 45.81452,
+   "lon": 9.85774,
+   "name": "La Dolce Pausa",
+   "reviews": 263,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://ladolcepausa.eu/"
+  },
+  "la marianna bergamo": {
+   "address": "L.go Colle Aperto, 4, 24129 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.7,
+   "lat": 45.70635,
+   "lon": 9.65822,
+   "name": "La Marianna - Bergamo",
+   "reviews": 10031,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.lamarianna.it/"
+  },
+  "la marianna lab": {
+   "address": "Via dell'Aeronautica, 12, 24035 Curno BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.6,
+   "lat": 45.6934,
+   "lon": 9.61844,
+   "name": "La Marianna Lab",
+   "reviews": 869,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.lamarianna.it/"
+  },
+  "la nina centro": {
+   "address": "Via Daniele Piccinini, 10, 24122 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 0.9,
+   "lat": 45.6946,
+   "lon": 9.66662,
+   "name": "La Nina Centro",
+   "reviews": 292,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "la pasticceria di dario": {
+   "address": "Via Roma, 206, 24064 Grumello del Monte BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 17.6,
+   "lat": 45.63715,
+   "lon": 9.886,
+   "name": "La Pasticceria di Dario",
+   "reviews": 721,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.lapasticceriadidario.it/"
+  },
+  "la plaza": {
+   "address": "Piazza Emanuele Filiberto, 4, 24126 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.1,
+   "lat": 45.67318,
+   "lon": 9.66145,
+   "name": "La Plaza",
+   "reviews": 637,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://laplazabergamo.it/"
+  },
+  "la sosta cafe": {
+   "address": "Via Molinello, 2/E, 24021 Vall'alta BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 12.9,
+   "lat": 45.75962,
+   "lon": 9.81891,
+   "name": "La Sosta Cafe",
+   "reviews": 488,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://lasostacafe.eatbu.com/"
   },
   "las vegas salaslot": {
    "address": "Via Leon Battista Alberti, 18, 24059 Urgnano BG",
@@ -3391,6 +5493,7 @@
    "lon": 9.50812,
    "name": "Le cave del ceppo",
    "osm": "way/1053972513",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -3398,6 +5501,23 @@
    "type": "live_club",
    "website": "https://www.lecavedelceppo.it/it_it/index/",
    "website_checked": true
+  },
+  "le golosie": {
+   "address": "Via Amellina, 100, 24069 Trescore Balneario BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 11.5,
+   "lat": 45.68434,
+   "lon": 9.82339,
+   "name": "Le Golosie",
+   "reviews": 411,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "le iris": {
    "address": "V.le V. Emanuele II, 12, 24121 Bergamo BG",
@@ -3410,6 +5530,7 @@
    "lat": 45.69739,
    "lon": 9.66672,
    "name": "Le Iris",
+   "removed": false,
    "reviews": 518,
    "sources": [
     "google"
@@ -3428,11 +5549,29 @@
    "lat": 45.67149,
    "lon": 9.67667,
    "name": "Level up cocktail bar",
+   "removed": false,
    "reviews": 73,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "libera la festa": {
+   "address": "Via Circonvallaz. Nord, 24040 Osio Sopra BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.6,
+   "lat": 45.63275,
+   "lon": 9.57865,
+   "name": "Libera La Festa",
+   "reviews": 66,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
   },
   "limbo lounge bar caffetteria pizzeria ristorante": {
    "address": "Via IV Novembre, 10, 24030 Brembate di Sopra BG",
@@ -3445,6 +5584,7 @@
    "lat": 45.71971,
    "lon": 9.57982,
    "name": "Limbo Lounge Bar | Caffetteria, Pizzeria, Ristorante",
+   "removed": false,
    "reviews": 747,
    "sources": [
     "google"
@@ -3466,11 +5606,30 @@
    "lon": 9.51691,
    "name": "Live Club",
    "osm": "node/10775065752",
+   "removed": false,
    "sources": [
     "osm"
    ],
    "type": "club",
    "website": "https://www.liveclub.it"
+  },
+  "live music club": {
+   "address": "Via Giuseppe Mazzini, 58, 20056 Trezzo sull'Adda MI",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 16.7,
+   "lat": 45.59904,
+   "lon": 9.51688,
+   "name": "Live Music Club",
+   "reviews": 3433,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://liveclub.it/"
   },
   "locanda armonia": {
    "address": "Via Redona 40, 24060, Trescore Balneario",
@@ -3505,6 +5664,7 @@
    "lat": 45.66061,
    "lon": 9.66623,
    "name": "LOFT",
+   "removed": false,
    "reviews": 15,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3512,6 +5672,41 @@
    ],
    "type": "club",
    "website": "http://www.loftbergamo.com/"
+  },
+  "losa break lab": {
+   "address": "Via Briantea, 1A, 24030 Ambivere BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 9.8,
+   "lat": 45.71953,
+   "lon": 9.55455,
+   "name": "Losa Break Lab",
+   "reviews": 397,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "loto cafe": {
+   "address": "Via Sorte, 43, 24030 Brembate di Sopra BG",
+   "auto_vote": 1.6,
+   "capacity": 50,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": 1024,
+   "instagram": "lotocafe",
+   "km": 7.9,
+   "lat": 45.71744,
+   "lon": 9.57928,
+   "name": "Loto Cafe",
+   "reviews": 578,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "lounge bar sorriso tabaccheria e ricevitoria": {
    "address": "Via G. Marconi, 3, 24021 Albino BG",
@@ -3524,6 +5719,7 @@
    "lat": 45.75701,
    "lon": 9.79546,
    "name": "Lounge Bar Sorriso Tabaccheria e Ricevitoria",
+   "removed": false,
    "reviews": 599,
    "sources": [
     "google"
@@ -3542,7 +5738,25 @@
    "lat": 45.68469,
    "lon": 9.66587,
    "name": "Lounge Bar The Bliss",
+   "removed": false,
    "reviews": 39,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "lounge bar veronica": {
+   "address": "Via A. Gavazzi, 13, 24040 Pontirolo Nuovo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 16.7,
+   "lat": 45.56874,
+   "lon": 9.56741,
+   "name": "LOUNGE BAR VERONICA",
+   "reviews": 15,
    "sources": [
     "google"
    ],
@@ -3559,6 +5773,7 @@
    "lat": 45.52118,
    "lon": 9.59215,
    "name": "Lounge Garibaldi Treviglio",
+   "removed": false,
    "reviews": 63,
    "sources": [
     "google"
@@ -3577,6 +5792,7 @@
    "lat": 45.75958,
    "lon": 9.80003,
    "name": "Luxor Club",
+   "removed": false,
    "reviews": 1,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3613,12 +5829,83 @@
    "lat": 45.60116,
    "lon": 9.45841,
    "name": "Mai Uguali Lounge Bar",
+   "removed": false,
    "reviews": 346,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://www.facebook.com/Maiuguali/"
+  },
+  "mais pasticceria gelateria caffetteria": {
+   "address": "Via Italia, 48, 20874 Busnago MB",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 19.5,
+   "lat": 45.61777,
+   "lon": 9.45498,
+   "name": "Mais - Pasticceria Gelateria Caffetteria",
+   "reviews": 1785,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/pages/category/Coffee-Shop/Ma%C3%ADs-816874401983208/"
+  },
+  "maite": {
+   "address": "Vicolo Sant'Agata, 6, 24129 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.4,
+   "lat": 45.70513,
+   "lon": 9.66158,
+   "name": "MAITE",
+   "reviews": 220,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
+  },
+  "majorelle lounge bar narghile": {
+   "address": "Via Monte Cenisio, 17, 24121 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.3,
+   "lat": 45.6961,
+   "lon": 9.69324,
+   "name": "MAJORELLE LOUNGE BAR & NARGHILE",
+   "reviews": 30,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "malpaga sounds music fest": {
+   "address": "Via Guglielmo Marconi, 20, 24050 Malpaga BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 11.1,
+   "lat": 45.61618,
+   "lon": 9.75862,
+   "name": "Malpaga Sounds Music Fest",
+   "reviews": 78,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.facebook.com/malpagasounds/"
   },
   "mamo s": {
    "address": "V. Evaristo Baschenis, 13, 24122 Bergamo BG",
@@ -3631,12 +5918,31 @@
    "lat": 45.68784,
    "lon": 9.66568,
    "name": "Mamo's",
+   "removed": false,
    "reviews": 307,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "http://menu.mamos.it/"
+  },
+  "matinee bar pontida": {
+   "address": "via Lecco, 403, 24030 Pontida BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 14.4,
+   "lat": 45.7317,
+   "lon": 9.49823,
+   "name": "Matinee Bar Pontida",
+   "reviews": 599,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/Matin%C3%A9e-Bar-Pontida-104362534305975/?modal=admin_todo_tour"
   },
   "mayimbe dance academy": {
    "address": "Via Alcide de Gasperi 18",
@@ -3675,6 +5981,24 @@
    ],
    "type": "club"
   },
+  "mg2 pasticceria caffetteria": {
+   "address": "Via IV Novembre, 14, 24030 Brembate di Sopra BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 8.0,
+   "lat": 45.71971,
+   "lon": 9.57906,
+   "name": "MG2 Pasticceria Caffetteria",
+   "reviews": 297,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://mgalquadrato.it/la-pasticceria/"
+  },
   "mint lounge bar": {
    "address": "Via Trieste, 38, 24060 Chiuduno BG",
    "auto_vote": 4.1,
@@ -3686,6 +6010,7 @@
    "lat": 45.64617,
    "lon": 9.8549,
    "name": "Mint Lounge Bar",
+   "removed": false,
    "reviews": 501,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3705,7 +6030,25 @@
    "lat": 45.53954,
    "lon": 9.47984,
    "name": "Mocambo Art Music Bar",
+   "removed": false,
    "reviews": 302,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "moon cafe": {
+   "address": "Piazza Castello, 17, 24040 Castel Rozzone BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 16.4,
+   "lat": 45.55546,
+   "lon": 9.62326,
+   "name": "Moon Cafe",
+   "reviews": 200,
    "sources": [
     "google"
    ],
@@ -3722,12 +6065,83 @@
    "lat": 45.6667,
    "lon": 9.74137,
    "name": "Moonlight",
+   "removed": false,
    "reviews": 463,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://www.appartamentimoonlight.com/"
+  },
+  "morlacchi premiata pasticceria artigianale": {
+   "address": "Via Padergnone, 6, 24050 Zanica BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 6.5,
+   "lat": 45.64025,
+   "lon": 9.68687,
+   "name": "Morlacchi - Premiata Pasticceria Artigianale",
+   "reviews": 2247,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.pasticceriamorlacchi.it/"
+  },
+  "morotti monica maria": {
+   "address": "Viale Fratelli Kennedy, 18, 24066 Pedrengo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.7,
+   "lat": 45.69901,
+   "lon": 9.73796,
+   "name": "Morotti Monica Maria",
+   "reviews": 201,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "moss punto di contatto eventi": {
+   "address": "Via Geremia Bonomelli, 9, 24122 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.0,
+   "lat": 45.68991,
+   "lon": 9.6722,
+   "name": "MOSS: Punto di Contatto - Eventi",
+   "reviews": 28,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.mossevents.it/"
+  },
+  "mulino fiori e caffe": {
+   "address": "Via Monte Grappa, 63, 24040 Boltiere BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 13.9,
+   "lat": 45.59498,
+   "lon": 9.57559,
+   "name": "Mulino Fiori e Caffe",
+   "reviews": 941,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "music factory s r l": {
    "address": "Via Portico, 6/A, 24050 Orio al Serio BG",
@@ -3748,6 +6162,24 @@
    ],
    "type": "club"
   },
+  "musica dal vivo bergamo hp music": {
+   "address": "Via Umberto I', 18, 24050 Morengo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 18.4,
+   "lat": 45.5339,
+   "lon": 9.70514,
+   "name": "Musica dal Vivo Bergamo HP Music",
+   "reviews": 8,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://hp-music.com/"
+  },
   "musicattiva": {
    "address": "Via Rosmini, 8, 24055 Cologno Al Serio BG",
    "auto_vote": 4.1,
@@ -3759,6 +6191,7 @@
    "lat": 45.58225,
    "lon": 9.71127,
    "name": "Musicattiva",
+   "removed": false,
    "reviews": 6,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3778,6 +6211,7 @@
    "lat": 45.66342,
    "lon": 9.67239,
    "name": "New Era Cocktail & Wine Bar",
+   "removed": false,
    "reviews": 379,
    "sources": [
     "google"
@@ -3791,7 +6225,7 @@
    "capacity_source": "stima",
    "city": "Grumello del Monte",
    "first_seen": "2026-11-18",
-   "followers": 25608,
+   "followers": 25609,
    "ig_guessed": "2026-11-19",
    "instagram": "nikita__land",
    "km": 15.8,
@@ -3799,6 +6233,7 @@
    "lon": 9.8586,
    "name": "Nikita",
    "osm": "way/77661976",
+   "removed": false,
    "reviews": 1313,
    "search_checked": "2026-11-18",
    "sources": [
@@ -3808,6 +6243,24 @@
    "type": "club",
    "website": "https://nikita.land/",
    "website_checked": true
+  },
+  "ninfea social club": {
+   "address": "Via Guglielmo Marconi, 65, 24010 Sorisole BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.4,
+   "lat": 45.73293,
+   "lon": 9.62881,
+   "name": "Ninfea Social Club",
+   "reviews": 294,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.ninfeasocialclub.org/"
   },
   "niniva risto lounge bar": {
    "address": "Via Milano, 42A, 24011 Almè BG",
@@ -3820,6 +6273,7 @@
    "lat": 45.7366,
    "lon": 9.60804,
    "name": "Niniva Risto Lounge Bar",
+   "removed": false,
    "reviews": 2512,
    "search_checked": "2026-11-20",
    "sources": [
@@ -3827,6 +6281,23 @@
    ],
    "type": "club",
    "website": "https://niniva.it/"
+  },
+  "non solo caffe": {
+   "address": "Via Antonio Locatelli, 24060 Castelli Calepio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 18.8,
+   "lat": 45.63613,
+   "lon": 9.90266,
+   "name": "Non solo caffe",
+   "reviews": 148,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "notturna club": {
    "address": "Via Don B. Ferrari, 45, 24029 Vertova BG",
@@ -3839,12 +6310,32 @@
    "lat": 45.80792,
    "lon": 9.85314,
    "name": "Notturna Club",
+   "removed": false,
    "reviews": 4,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "nxt bergamo": {
+   "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+   "auto_vote": 4.1,
+   "capacity": 500,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 0.8,
+   "lat": 45.69197,
+   "lon": 9.67361,
+   "name": "NXT Bergamo",
+   "reviews": 295,
+   "search_checked": "2026-11-20",
+   "sources": [
+    "google"
+   ],
+   "type": "club",
+   "website": "https://nxtbergamo.it/"
   },
   "nxt station": {
    "address": "Piazzale degli Alpini, Bergamo",
@@ -3858,6 +6349,7 @@
    "lat": 45.6922,
    "lon": 9.67356,
    "name": "NXT Station",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
@@ -3875,6 +6367,7 @@
    "lat": 45.68873,
    "lon": 9.70726,
    "name": "O'Dea's Irish Pub",
+   "removed": false,
    "reviews": 1828,
    "sources": [
     "google"
@@ -3894,10 +6387,47 @@
    "lat": 45.65617,
    "lon": 9.57623,
    "name": "OASI",
+   "removed": false,
    "sources": [
     "instagram"
    ],
    "type": "club"
+  },
+  "officina caffe": {
+   "address": "Via dei Mille, 188, 24060 Tagliuno BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 17.6,
+   "lat": 45.63824,
+   "lon": 9.88749,
+   "name": "Officina Caffe",
+   "reviews": 262,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://m.facebook.com/OfficinaCaffeTagliuno/"
+  },
+  "ol forner bar pasticceria": {
+   "address": "Via Roma, 52, 24050 Grassobbio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.8,
+   "lat": 45.65716,
+   "lon": 9.72281,
+   "name": "Ol Forner Bar Pasticceria",
+   "reviews": 208,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.olforner-pasticceriasalvetti.com/"
   },
   "ombra miscelazione piattini e vini naturali": {
    "address": "Via Broseta, 5, 24122 Bergamo BG",
@@ -3910,12 +6440,49 @@
    "lat": 45.69283,
    "lon": 9.6623,
    "name": "Ombra - Miscelazione, Piattini e Vini Naturali",
+   "removed": false,
    "reviews": 178,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://www.ombrabergamo.it/"
+  },
+  "onemusic": {
+   "address": "Via Castello, 24010 Ponteranica BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.5,
+   "lat": 45.73863,
+   "lon": 9.66881,
+   "name": "ONEMUSIC",
+   "reviews": 164,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.onemusic.it/"
+  },
+  "organo t c lewis sotto il monte giovanni xxiii": {
+   "address": "Via Colombera, 5, 24039 Sotto il Monte Giovanni XXIII BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 14.2,
+   "lat": 45.70601,
+   "lon": 9.49434,
+   "name": "Organo T.C.Lewis | Sotto il Monte Giovanni XXIII",
+   "reviews": 5,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.organolewis.it/"
   },
   "origami beach": {
    "address": "Via Risorgimento, 136, 25049 Clusane BS",
@@ -3928,6 +6495,7 @@
    "lat": 45.66522,
    "lon": 9.99492,
    "name": "Origami Beach",
+   "removed": false,
    "reviews": 742,
    "sources": [
     "google"
@@ -3950,6 +6518,7 @@
    "lon": 9.78145,
    "name": "Oronero",
    "osm": "node/3885330293",
+   "removed": false,
    "reviews": 167,
    "search_checked": "2026-11-18",
    "sources": [
@@ -3971,6 +6540,7 @@
    "lat": 45.6931,
    "lon": 9.66375,
    "name": "P40 Lounge Bar",
+   "removed": false,
    "reviews": 1977,
    "sources": [
     "google"
@@ -4008,6 +6578,7 @@
    "lon": 9.82461,
    "name": "PalaIncontro",
    "osm": "way/886312268",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -4026,6 +6597,7 @@
    "lon": 9.69067,
    "name": "PalaZanica",
    "osm": "node/12038109715",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "osm"
@@ -4051,6 +6623,24 @@
    ],
    "type": "live_club"
   },
+  "paolo riva": {
+   "address": "Viale Alcide de Gasperi, 14/E, 24047 Treviglio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 21.3,
+   "lat": 45.51699,
+   "lon": 9.58937,
+   "name": "Paolo Riva",
+   "reviews": 1815,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://pasticceriapaoloriva.it/?utm_source=google&utm_medium=organic&utm_campaign=google_mybusiness_website_CTA_Treviglio"
+  },
   "papeetebar": {
    "address": "Via Spluga, 67, 23870 Cernusco Lombardone LC",
    "auto_vote": 1.7,
@@ -4062,12 +6652,188 @@
    "lat": 45.69149,
    "lon": 9.40213,
    "name": "Papeetebar",
+   "removed": false,
    "reviews": 728,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "http://www.papeetebar.it/"
+  },
+  "paprika jazz club": {
+   "address": "Via Bergamo, 3, 24044 Mariano al Brembo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 9.4,
+   "lat": 45.63831,
+   "lon": 9.59173,
+   "name": "Paprika Jazz Club",
+   "reviews": 209,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "pasticceria bar la sirena": {
+   "address": "Via Dante Alighieri, 11, 24017 Serina BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.1,
+   "lat": 45.87497,
+   "lon": 9.73021,
+   "name": "Pasticceria Bar La Sirena",
+   "reviews": 727,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.pasticceriabarlasirena.it/"
+  },
+  "pasticceria bardoni": {
+   "address": "L.go Pablo Picasso, 1, 24030 Paladina BG",
+   "auto_vote": 2.0,
+   "capacity": 50,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": 1904,
+   "instagram": "bardoni_pasticceria",
+   "km": 6.9,
+   "lat": 45.7332,
+   "lon": 9.60441,
+   "name": "Pasticceria Bardoni",
+   "reviews": 202,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "pasticceria caffetteria gelateria del piccinini": {
+   "address": "Via Daniele Piccinini, 3, 24020 Selvino BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 11.6,
+   "lat": 45.78616,
+   "lon": 9.75726,
+   "name": "Pasticceria Caffetteria Gelateria Del Piccinini",
+   "reviews": 403,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "pasticceria florian": {
+   "address": "Viale Fratelli Kennedy, 29, 24066 Pedrengo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.8,
+   "lat": 45.69701,
+   "lon": 9.7391,
+   "name": "Pasticceria Florian",
+   "reviews": 2305,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://m.facebook.com/pasticceriaflorian/?locale2=it_IT"
+  },
+  "pasticceria golosa": {
+   "address": "Via Michelangelo Buonarroti, 1, 20881 Bernareggio MB",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 21.7,
+   "lat": 45.64484,
+   "lon": 9.40888,
+   "name": "Pasticceria Golosa",
+   "reviews": 512,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "pasticceria melograno urgnano": {
+   "address": "Via C. Colombo, 271, 24059 Urgnano BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.8,
+   "lat": 45.60202,
+   "lon": 9.69785,
+   "name": "Pasticceria Melograno Urgnano",
+   "reviews": 3388,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.pasticceriamelograno.it/"
+  },
+  "pasticceria norma": {
+   "address": "Via Italia, 81, 24068 Seriate BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.4,
+   "lat": 45.68471,
+   "lon": 9.71663,
+   "name": "Pasticceria Norma",
+   "reviews": 269,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/Bar-Pasticceria-NORMA-1522691217972215/"
+  },
+  "pdf motociclette": {
+   "address": "Via per Grumello, 61, 24127 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.6,
+   "lat": 45.66896,
+   "lon": 9.63632,
+   "name": "PDF Motociclette",
+   "reviews": 1014,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "petit antica caffetteria del borgo": {
+   "address": "Via Borgo Santa Caterina, 88/b, 24124 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.0,
+   "lat": 45.70574,
+   "lon": 9.6847,
+   "name": "Petit - Antica Caffetteria Del Borgo",
+   "reviews": 25,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   },
   "piazza garibaldi": {
    "address": "Piazza Garibaldi, Treviglio",
@@ -4081,6 +6847,7 @@
    "lat": 45.52101,
    "lon": 9.59193,
    "name": "Piazza Garibaldi",
+   "removed": false,
    "search_checked": "2026-11-19",
    "sources": [
     "eventi"
@@ -4099,6 +6866,7 @@
    "lat": 45.94779,
    "lon": 9.67562,
    "name": "PIAZZA GHIAIA PARMA",
+   "removed": false,
    "search_checked": "2026-11-19",
    "sources": [
     "eventi"
@@ -4116,7 +6884,95 @@
    "lat": 45.59052,
    "lon": 9.70345,
    "name": "PIJEY LOUNGE BAR",
+   "removed": false,
    "reviews": 7,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "ploom reseller bar breakfast": {
+   "address": "Via Martiri della Libertà, 9C, 24010 Sorisole BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.8,
+   "lat": 45.73244,
+   "lon": 9.63925,
+   "name": "Ploom Reseller - Bar Breakfast",
+   "reviews": 23,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "ploom reseller il barettino": {
+   "address": "Via Adua, 3, 24049 Verdello BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 11.0,
+   "lat": 45.60489,
+   "lon": 9.63105,
+   "name": "PLOOM RESELLER -Il Barettino",
+   "reviews": 252,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "polo fieristico": {
+   "address": "Via Martiri della Libertà, 6, 24060 Chiuduno BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 14.1,
+   "lat": 45.64691,
+   "lon": 9.84365,
+   "name": "Polo Fieristico",
+   "reviews": 11,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "portello caffe busnago globo": {
+   "address": "Via Italia, 197, 20874 Busnago MB",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 18.1,
+   "lat": 45.62077,
+   "lon": 9.47321,
+   "name": "Portello Caffe Busnago Globo",
+   "reviews": 653,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://it-it.facebook.com/portellocaffe/"
+  },
+  "posto fisso cocktail bar": {
+   "address": "Via Marinai, 8, 24050 Palosco BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "instagram": "bar_posto_fisso",
+   "km": 17.0,
+   "lat": 45.59222,
+   "lon": 9.83411,
+   "name": "Posto Fisso Cocktail Bar",
+   "reviews": 307,
    "sources": [
     "google"
    ],
@@ -4133,6 +6989,7 @@
    "lat": 45.7793,
    "lon": 9.82225,
    "name": "Prato Alto Food Drink Musik",
+   "removed": false,
    "reviews": 992,
    "sources": [
     "google"
@@ -4172,6 +7029,7 @@
    "lat": 45.54333,
    "lon": 9.64847,
    "name": "PROSSIMO APPUNTAMENTO: BRESCIA PIAZZA TEBALDO BRUSATO",
+   "removed": false,
    "search_checked": "2026-11-19",
    "sources": [
     "eventi"
@@ -4189,6 +7047,7 @@
    "lat": 45.67006,
    "lon": 9.60074,
    "name": "Pub La Caverna",
+   "removed": false,
    "reviews": 341,
    "sources": [
     "google"
@@ -4206,6 +7065,7 @@
    "lat": 45.86915,
    "lon": 9.72914,
    "name": "Pub La Nuit",
+   "removed": false,
    "reviews": 119,
    "sources": [
     "google"
@@ -4223,6 +7083,7 @@
    "lat": 45.66631,
    "lon": 9.74275,
    "name": "Queen Club",
+   "removed": false,
    "reviews": 261,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4242,12 +7103,49 @@
    "lat": 45.62006,
    "lon": 9.54327,
    "name": "Quei Bravi Ragazzi",
+   "removed": false,
    "reviews": 1606,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "http://www.queibraviragazzibg.it/"
+  },
+  "re caffe scudeletti": {
+   "address": "Via Provinciale, 3, 24040 Lallio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.0,
+   "lat": 45.66521,
+   "lon": 9.63445,
+   "name": "Re Caffe Scudeletti",
+   "reviews": 469,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://re-caffe.eatbu.com/"
+  },
+  "revel treviglio": {
+   "address": "Via Roggia Vignola, 9, 24047 Treviglio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 21.7,
+   "lat": 45.51266,
+   "lon": 9.58943,
+   "name": "Revel Treviglio",
+   "reviews": 1136,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.reveltreviglio.it/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile&utm_content=website"
   },
   "rin z lounge": {
    "address": "Piazzale Pietro Gobetti, 20062 Cassano d'Adda MI",
@@ -4260,11 +7158,30 @@
    "lat": 45.52978,
    "lon": 9.5056,
    "name": "Rin'z Lounge",
+   "removed": false,
    "reviews": 115,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "rio bar": {
+   "address": "Via C. Baioni, 24, 24123 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.1,
+   "lat": 45.70808,
+   "lon": 9.67477,
+   "name": "Rio Bar",
+   "reviews": 1100,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.riobarbergamo.it/"
   },
   "ristorante bv rooftop lounge bar": {
    "address": "Via Provinciale per Verdello, 9, 24053 Brignano Gera d'Adda BG",
@@ -4277,6 +7194,7 @@
    "lat": 45.54316,
    "lon": 9.64127,
    "name": "Ristorante BV Rooftop lounge bar",
+   "removed": false,
    "reviews": 591,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4296,12 +7214,31 @@
    "lat": 45.70373,
    "lon": 9.58136,
    "name": "Ritrovo Brasil",
+   "removed": false,
    "reviews": 59,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "rock sul serio": {
+   "address": "Piazza Mercato, 24020 Villa di Serio BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.3,
+   "lat": 45.72245,
+   "lon": 9.73592,
+   "name": "Rock sul Serio",
+   "reviews": 215,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "http://www.rocksulserio.it/"
   },
   "sabbie mobili": {
    "address": "Via Bedeschi, 24040 Chignolo d'Isola BG",
@@ -4315,6 +7252,7 @@
    "lat": 45.65416,
    "lon": 9.52951,
    "name": "Sabbie Mobili",
+   "removed": false,
    "reviews": 405,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4350,7 +7288,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6632,
+   "followers": 6633,
    "instagram": "lab80cinemas",
    "km": 0.7,
    "lat": 45.69728,
@@ -4398,9 +7336,12 @@
    "lat": 45.70399,
    "lon": 9.66054,
    "name": "Sala Piatti",
+   "removed": false,
+   "reviews": 151,
    "search_checked": "2026-11-18",
    "sources": [
-    "eventi"
+    "eventi",
+    "google"
    ],
    "type": "bar"
   },
@@ -4415,6 +7356,7 @@
    "lat": 45.74208,
    "lon": 9.4485,
    "name": "Serendipity Cocktails & Food",
+   "removed": false,
    "reviews": 464,
    "sources": [
     "google"
@@ -4433,12 +7375,47 @@
    "lat": 45.66489,
    "lon": 9.68648,
    "name": "Setai",
+   "removed": false,
    "reviews": 1177,
    "search_checked": "2026-11-20",
    "sources": [
     "google"
    ],
    "type": "club"
+  },
+  "societa di mutuo soccorso circolo fratellanza": {
+   "address": "Via Trento, 10, 24020 Casnigo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 19.8,
+   "lat": 45.81578,
+   "lon": 9.86969,
+   "name": "Societa di Mutuo Soccorso Circolo Fratellanza",
+   "reviews": 183,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
+  },
+  "societa operaia del mutuo soccorso": {
+   "address": "Piazza Santo Stefano, 2, 20056 Trezzo sull'Adda MI",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 15.5,
+   "lat": 45.61025,
+   "lon": 9.52234,
+   "name": "Societa Operaia del Mutuo Soccorso",
+   "reviews": 50,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
   },
   "sophie s wedding": {
    "address": "Via Galileo Galilei 11, 20881, Bernareggio",
@@ -4471,12 +7448,48 @@
    "lat": 45.6752,
    "lon": 9.67303,
    "name": "Sottovoce Speakeasy",
+   "removed": false,
    "reviews": 332,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://facebook.com/sottovocebergamo/"
+  },
+  "spazio eventi kilometro rosso": {
+   "address": "Via Stezzano, 87, 24126 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.6,
+   "lat": 45.6605,
+   "lon": 9.65194,
+   "name": "Spazio Eventi Kilometro Rosso",
+   "reviews": 407,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.kilometrorosso.com/spazio-eventi/"
+  },
+  "spazio fabrizio de andre": {
+   "address": "Via Giacomo Matteotti, 1, 23875 Osnago LC",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 22.5,
+   "lat": 45.67329,
+   "lon": 9.38929,
+   "name": "Spazio Fabrizio De Andre",
+   "reviews": 21,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
   },
   "spazio marconi": {
    "address": "Via Guglielmo Marconi, 40, 24068 Seriate BG",
@@ -4489,12 +7502,31 @@
    "lat": 45.68093,
    "lon": 9.72848,
    "name": "Spazio Marconi",
+   "removed": false,
    "reviews": 1144,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "http://www.uglybgy.it/"
+  },
+  "spazio polaresco": {
+   "address": "Via del Polaresco, 15, 24129 Bergamo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 3.5,
+   "lat": 45.69084,
+   "lon": 9.63409,
+   "name": "Spazio Polaresco",
+   "reviews": 557,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.spaziopolaresco.it/"
   },
   "spazio teatro 89": {
    "auto_vote": 4.8,
@@ -4508,11 +7540,65 @@
    "lat": 45.47108,
    "lon": 9.10937,
    "name": "Spazio Teatro 89",
+   "removed": false,
    "sources": [
     "instagram"
    ],
    "type": "live_club",
    "website": "https://spazioteatro89.org"
+  },
+  "sweetandsour": {
+   "address": "Via Marco Biagi, 20060 Pozzo d'Adda MI",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.5,
+   "lat": 45.56217,
+   "lon": 9.50009,
+   "name": "Sweetandsour",
+   "reviews": 18,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club",
+   "website": "https://www.sweetandsourduo.com/"
+  },
+  "switch cafe": {
+   "address": "Via Cimitero, 27, 24040 Canonica d'Adda BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 18.5,
+   "lat": 45.56125,
+   "lon": 9.543,
+   "name": "Switch cafe",
+   "reviews": 230,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "tassino cafe": {
+   "address": "Largo Nicolò Rezzara, 6, 24122 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.2,
+   "lat": 45.6933,
+   "lon": 9.66386,
+   "name": "Tassino Cafe",
+   "reviews": 1228,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "http://www.tassinocafe.it/"
   },
   "te daja": {
    "address": "Via Liberta', 5/A, 24046 Osio Sotto BG",
@@ -4525,6 +7611,7 @@
    "lat": 45.61813,
    "lon": 9.59311,
    "name": "Te daja",
+   "removed": false,
    "reviews": 19,
    "sources": [
     "google"
@@ -4543,6 +7630,7 @@
    "lat": 45.7308,
    "lon": 9.72948,
    "name": "Teatro degli Storti",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
@@ -4561,11 +7649,29 @@
    "lat": 45.69508,
    "lon": 9.67109,
    "name": "Teatro Donizetti",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
    ],
    "type": "bar"
+  },
+  "teatro mucchetti": {
+   "address": "Via Indipendenza, 25030 Adro BS",
+   "auto_vote": 4.1,
+   "capacity": 500,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 24.2,
+   "lat": 45.62126,
+   "lon": 9.96841,
+   "name": "Teatro Mucchetti",
+   "reviews": 542,
+   "sources": [
+    "google"
+   ],
+   "type": "club"
   },
   "teatro sociale citta alta": {
    "address": "Via Bartolomeo Colleoni, 4,, Bergamo",
@@ -4579,6 +7685,7 @@
    "lat": 45.70435,
    "lon": 9.66238,
    "name": "Teatro Sociale, Citta Alta",
+   "removed": false,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
@@ -4639,6 +7746,7 @@
    "lat": 45.68084,
    "lon": 9.60543,
    "name": "Terminal Club Curno",
+   "removed": false,
    "reviews": 2,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4657,6 +7765,7 @@
    "lat": 45.68725,
    "lon": 9.73905,
    "name": "THANKA",
+   "removed": false,
    "reviews": 707,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4676,6 +7785,7 @@
    "lat": 45.70514,
    "lon": 9.68119,
    "name": "The Alchemist Bar Bergamo",
+   "removed": false,
    "reviews": 180,
    "sources": [
     "google"
@@ -4694,7 +7804,25 @@
    "lat": 45.55519,
    "lon": 9.83458,
    "name": "The Baaz Bar - Lounge Bar Cividate Al Piano",
+   "removed": false,
    "reviews": 7,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "the bros pastry lab": {
+   "address": "Via IV Novembre, 10, 24040 Lallio BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 4.9,
+   "lat": 45.66663,
+   "lon": 9.63343,
+   "name": "The Bros Pastry Lab",
+   "reviews": 346,
    "sources": [
     "google"
    ],
@@ -4711,6 +7839,7 @@
    "lat": 45.53073,
    "lon": 9.5897,
    "name": "The First Caffe Gintoneria & Cocktail bar",
+   "removed": false,
    "reviews": 316,
    "sources": [
     "google"
@@ -4729,6 +7858,7 @@
    "lat": 45.70296,
    "lon": 9.66497,
    "name": "The Tucans Pub",
+   "removed": false,
    "reviews": 1376,
    "sources": [
     "google"
@@ -4747,6 +7877,7 @@
    "lat": 45.68725,
    "lon": 9.73905,
    "name": "Tiky Klub",
+   "removed": false,
    "reviews": 9,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4766,6 +7897,7 @@
    "lat": 45.78046,
    "lon": 9.82614,
    "name": "Tiny Club",
+   "removed": false,
    "reviews": 185,
    "sources": [
     "google"
@@ -4783,11 +7915,47 @@
    "lat": 45.69252,
    "lon": 9.66524,
    "name": "Tony'S Cucina Bar Bottega",
+   "removed": false,
    "reviews": 599,
    "sources": [
     "google"
    ],
    "type": "bar"
+  },
+  "towers cafe": {
+   "address": "Via Marco Biagi, 93, 24030 Terno D'isola BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 10.2,
+   "lat": 45.689,
+   "lon": 9.54613,
+   "name": "Towers' Cafe",
+   "reviews": 209,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
+  },
+  "tpa bar grill music": {
+   "address": "Via Aldo Moro, 3, 24050 Bariano BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 20.1,
+   "lat": 45.51877,
+   "lon": 9.70656,
+   "name": "TPA Bar, Grill & Music",
+   "reviews": 125,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.tpamusicbar.com/"
   },
   "tramonto": {
    "address": "Via Milano, 30, 24047 Treviglio BG",
@@ -4800,12 +7968,31 @@
    "lat": 45.52277,
    "lon": 9.57398,
    "name": "Tramonto",
+   "removed": false,
    "reviews": 116,
    "sources": [
     "google"
    ],
    "type": "bar",
    "website": "https://www.facebook.com/untramontoalbar/"
+  },
+  "trex ristoforno caffe": {
+   "address": "Via Mauro Gavazzeni, 39, 24125 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 1.1,
+   "lat": 45.69057,
+   "lon": 9.68537,
+   "name": "Trex Ristoforno caffe",
+   "reviews": 3612,
+   "sources": [
+    "google"
+   ],
+   "type": "bar",
+   "website": "https://www.trexristofornocaffe.rocks/"
   },
   "tsunami club": {
    "auto_vote": 6.7,
@@ -4819,10 +8006,28 @@
    "lon": 9.39663,
    "name": "Tsunami Club",
    "osm": "node/11803420049",
+   "removed": false,
    "sources": [
     "osm"
    ],
    "type": "club"
+  },
+  "ufo": {
+   "address": "Via dell'Industria, 4, 24030 Mozzo BG",
+   "auto_vote": 3.5,
+   "capacity": 400,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 5.7,
+   "lat": 45.70837,
+   "lon": 9.60504,
+   "name": "UFO",
+   "reviews": 467,
+   "sources": [
+    "google"
+   ],
+   "type": "live_club"
   },
   "under music club": {
    "address": "Via Nazionale, 93, 24068 Seriate BG",
@@ -4835,6 +8040,7 @@
    "lat": 45.68725,
    "lon": 9.73905,
    "name": "Under Music Club",
+   "removed": false,
    "reviews": 15,
    "search_checked": "2026-11-20",
    "sources": [
@@ -4855,6 +8061,7 @@
    "lat": 45.69305,
    "lon": 9.65686,
    "name": "UNPLUG BAR",
+   "removed": false,
    "reviews": 158,
    "sources": [
     "google"
@@ -4873,6 +8080,7 @@
    "lat": 45.68719,
    "lon": 9.62197,
    "name": "Urban R-Evolution Pub",
+   "removed": false,
    "reviews": 966,
    "sources": [
     "google"
@@ -4891,6 +8099,7 @@
    "lat": 45.69182,
    "lon": 9.66613,
    "name": "Vacan Latin Bar",
+   "removed": false,
    "reviews": 89,
    "sources": [
     "google"
@@ -4908,6 +8117,7 @@
    "lat": 45.6922,
    "lon": 9.66346,
    "name": "Varadda - Cocktail & Beer",
+   "removed": false,
    "reviews": 65,
    "sources": [
     "google"
@@ -4926,6 +8136,7 @@
    "lat": 45.69467,
    "lon": 9.66433,
    "name": "Varadero Food & Drink",
+   "removed": false,
    "reviews": 645,
    "sources": [
     "google"
@@ -4948,6 +8159,7 @@
    "lat": 45.54297,
    "lon": 9.60125,
    "name": "Via Treviglio 2058, Fara Gera d'Adda",
+   "removed": false,
    "search_checked": "2026-11-19",
    "sources": [
     "eventi"
@@ -4972,6 +8184,7 @@
    "lon": 9.63218,
    "name": "VIBE",
    "osm": "node/11777863811",
+   "removed": false,
    "reviews": 525,
    "search_checked": "2026-11-18",
    "sources": [
@@ -4995,7 +8208,7 @@
    "lat": 45.66108,
    "lon": 9.55512,
    "name": "Victoria lounge bar",
-   "removed": true,
+   "removed": false,
    "reviews": 20,
    "sources": [
     "google",
@@ -5080,6 +8293,7 @@
    "lat": 45.66899,
    "lon": 9.74847,
    "name": "VOG Summer",
+   "removed": false,
    "reviews": 89,
    "search_checked": "2026-11-20",
    "sources": [
@@ -5098,6 +8312,7 @@
    "lat": 45.69228,
    "lon": 9.67243,
    "name": "Vox ristorante, pizzeria, lounge bar",
+   "removed": false,
    "reviews": 1329,
    "sources": [
     "google"
@@ -5116,6 +8331,7 @@
    "lat": 45.52795,
    "lon": 9.75978,
    "name": "Zen Lounge Bar",
+   "removed": false,
    "reviews": 114,
    "sources": [
     "google"
@@ -5134,6 +8350,7 @@
    "lat": 45.68801,
    "lon": 9.66469,
    "name": "Zero Club",
+   "removed": false,
    "reviews": 86,
    "sources": [
     "google"
@@ -5151,6 +8368,7 @@
    "lat": 45.47913,
    "lon": 9.62918,
    "name": "Zero4 - Restaurant & Lounge Bar",
+   "removed": false,
    "reviews": 49,
    "sources": [
     "google"
@@ -5169,6 +8387,7 @@
    "lat": 45.75822,
    "lon": 9.79802,
    "name": "Zest Lounge Bar",
+   "removed": false,
    "reviews": 92,
    "sources": [
     "google"
@@ -5194,9 +8413,27 @@
     "google"
    ],
    "type": "club"
+  },
+  "zoom cafe": {
+   "address": "Via Vittorio Emanuele II, 1123, 24033 Calusco d'Adda BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-20",
+   "followers": null,
+   "km": 17.0,
+   "lat": 45.68477,
+   "lon": 9.45962,
+   "name": "Zoom Cafe",
+   "reviews": 638,
+   "sources": [
+    "google"
+   ],
+   "type": "bar"
   }
  },
  "xceed": {
+  "ama club": "https://xceed.me/it/bergamo/club/ama-club",
   "astoria": "https://xceed.me/it/bergamo/club/astoria",
   "bakary lounge bar": "https://xceed.me/it/bergamo/club/bakary-lounge-bar",
   "bloom": "https://xceed.me/it/bergamo/club/bloom",
@@ -5204,6 +8441,7 @@
   "bolgia": "https://xceed.me/it/bergamo/club/bolgia",
   "capogiro": "https://xceed.me/it/bergamo/club/capogiro",
   "casablanca club": "https://xceed.me/it/bergamo/club/casablanca-club",
+  "champagne club snc di maccario piero c": "https://xceed.me/it/bergamo/club/champagne-club-snc-di-maccario-piero-c",
   "charleston": "https://xceed.me/it/bergamo/club/charleston",
   "charlie": "https://xceed.me/it/bergamo/club/charlie",
   "circolo doppio senso": "https://xceed.me/it/bergamo/club/circolo-doppio-senso",
@@ -5211,6 +8449,7 @@
   "club 369 milano": "https://xceed.me/it/bergamo/club/club-369-milano",
   "dance project school": "https://xceed.me/it/bergamo/club/dance-project-school",
   "dancing lavello": "https://xceed.me/it/bergamo/club/dancing-lavello",
+  "decibel club": "https://xceed.me/it/bergamo/club/decibel-club",
   "disco kiss": "https://xceed.me/it/bergamo/club/disco-kiss",
   "discoteca cascina due torri": "https://xceed.me/it/bergamo/club/discoteca-cascina-due-torri",
   "discoteca dal randa": "https://xceed.me/it/bergamo/club/discoteca-dal-randa",
@@ -5227,6 +8466,7 @@
   "jam live studio": "https://xceed.me/it/bergamo/club/jam-live-studio",
   "jclub": "https://xceed.me/it/bergamo/club/jclub",
   "karma lounge": "https://xceed.me/it/bergamo/club/karma-lounge",
+  "kilimangiaro": "https://xceed.me/it/bergamo/club/kilimangiaro",
   "kristall night club": "https://xceed.me/it/bergamo/club/kristall-night-club",
   "las vegas salaslot": "https://xceed.me/it/bergamo/club/las-vegas-salaslot",
   "live club": "https://xceed.me/it/bergamo/club/live-club",
@@ -5240,6 +8480,7 @@
   "nikita": "https://xceed.me/it/bergamo/club/nikita",
   "niniva risto lounge bar": "https://xceed.me/it/bergamo/club/niniva-risto-lounge-bar",
   "notturna club": "https://xceed.me/it/bergamo/club/notturna-club",
+  "nxt bergamo": "https://xceed.me/it/bergamo/club/nxt-bergamo",
   "oasi": "https://xceed.me/it/bergamo/club/oasi",
   "oronero": "https://xceed.me/it/bergamo/club/oronero",
   "queen club": "https://xceed.me/it/bergamo/club/queen-club",
@@ -5247,6 +8488,7 @@
   "ritrovo brasil": "https://xceed.me/it/bergamo/club/ritrovo-brasil",
   "sabbie mobili": "https://xceed.me/it/bergamo/club/sabbie-mobili",
   "setai": "https://xceed.me/it/bergamo/club/setai",
+  "teatro mucchetti": "https://xceed.me/it/bergamo/club/teatro-mucchetti",
   "terminal club curno": "https://xceed.me/it/bergamo/club/terminal-club-curno",
   "thanka": "https://xceed.me/it/bergamo/club/thanka",
   "tiky klub": "https://xceed.me/it/bergamo/club/tiky-klub",

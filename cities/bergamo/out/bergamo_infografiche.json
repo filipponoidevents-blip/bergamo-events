@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-20T18:50",
+ "generated": "2026-11-20T19:56",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -76,6 +76,14 @@
       "family": "Altro"
      },
      {
+      "line1": "Druso",
+      "line2": "Rock",
+      "time": "00:00",
+      "score": 43.1,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Unibg_Party @ Zero Club",
       "line2": "",
       "time": "00:00",
@@ -92,6 +100,14 @@
       "family": "Altro"
      },
      {
+      "line1": "Barley Arts @ Bar della Musica",
+      "line2": "Rock, Alchemica Music Club - Bologna",
+      "time": "20:00",
+      "score": 31.1,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "VIBE",
       "line2": "theater room",
       "time": "00:00",
@@ -101,9 +117,17 @@
      },
      {
       "line1": "The Next Ritual @ OASI",
-      "line2": "",
+      "line2": "Fede Rego",
       "time": "23:30",
-      "score": 17.7,
+      "score": 25.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Possibilita @ NXT Bergamo",
+      "line2": "Jazz",
+      "time": "00:00",
+      "score": 25.3,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -146,6 +170,14 @@
       "line2": "",
       "time": "00:00",
       "score": 47.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Druso",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 43.1,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -241,6 +273,14 @@
      "score": 43.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Barley Arts @ Caffe Milano",
+     "line2": "Rock, HENGE",
+     "time": "10:00",
+     "score": 25.7,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-21": [
@@ -261,6 +301,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Door 74",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 48.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Barrier",
      "line2": "Latino",
      "time": "19:00",
@@ -269,15 +317,39 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Barley Arts @ Caffe Milano",
+     "line2": "Hard Techno / Rock, HENGE",
+     "time": "21:00",
+     "score": 25.7,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
      "score": 19.6,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Bar della Musica",
+     "line2": "Latino",
+     "time": "22:30",
+     "score": 3.3,
+     "fascia": "preserata",
+     "family": "Commerciale"
     }
    ],
    "2026-11-22": [
+    {
+     "line1": "Druso",
+     "line2": "Jazz / Rock",
+     "time": "18:00",
+     "score": 54.5,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "10 Mega Tornei X Street Radio @ Ink Club",
      "line2": "dj set",
@@ -293,18 +365,29 @@
      "score": 50.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Barley Arts @ Caffe Milano",
+     "line2": "Hard Techno / Rock, HENGE",
+     "time": "21:00",
+     "score": 25.7,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     }
    ]
   },
   "big_events": [],
   "caption_handles": [
-   "@inkclub_bergamo",
-   "@divinabergamo",
-   "@zeroclub.bg",
-   "@liveclub",
    "@barleyartsreal",
    "@alchemica_club",
+   "@inkclub_bergamo",
    "@megan_is_missing_band",
+   "@divinabergamo",
+   "@drusobg",
+   "@zeroclub.bg",
+   "@henge_cosmicdross",
+   "@markthehammer86",
+   "@liveclub",
    "@missdivina1",
    "@vibetheclub",
    "@upside.down.night",
@@ -316,18 +399,15 @@
    "@worst.zine",
    "@andrea_kor3",
    "@bobadillafeelingclub",
+   "@cotd_iron_maiden",
+   "@the_big4_theory",
    "@unibg_party",
-   "@selected.lab",
    "@fede_regooo",
+   "@selected.lab",
+   "@possibilita",
+   "@spettacoli",
    "@alessiosielii",
-   "@lab80cinemas",
-   "@theblankcontemporaryart",
-   "@naturalezza",
-   "@premiere.premiere",
-   "@palmas.night",
-   "@the.circlehub",
-   "@dj_arinatop",
-   "@choruslife.bergamo"
+   "@lab80cinemas"
   ],
   "hashtags": [
    "#bergamo",
@@ -366,6 +446,16 @@
       "fascia": "serata",
       "family": "House / Elettronica"
      }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Savana Funk @ Druso",
+      "line2": "Disco / Rock",
+      "time": "00:00",
+      "score": 43.1,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
     ]
    },
    "Altro": {
@@ -375,6 +465,14 @@
       "line2": "",
       "time": "00:00",
       "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Possibilita @ NXT Bergamo",
+      "line2": "Jazz",
+      "time": "00:00",
+      "score": 25.3,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -454,6 +552,14 @@
      "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Door 74",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 48.2,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-25": [
@@ -518,18 +624,24 @@
    "@inkclub_bergamo",
    "@zeroclub.bg",
    "@bloom_mezzago",
+   "@possibilita",
    "@to_on.tv",
    "@lowl_fest",
    "@spike.hellis",
    "@www.bloomnet",
    "@bowie.hc",
+   "@door_74",
+   "@nouvellevague_tirana",
    "@please.nights",
+   "@spettacoli",
    "@choruslife.bergamo",
    "@oroneroloveandmusic",
-   "@possibilita",
    "@consumazione",
    "@corinna_fm",
    "@bolgia.official",
+   "@drusobg",
+   "@savana_funk",
+   "@ozza.dj",
    "@tumulto_bg",
    "@scalpo_punk",
    "@calce.viva.oi",
@@ -538,8 +650,7 @@
    "@esse.pietro",
    "@federicoo_riva",
    "@marte.bandemergenti",
-   "@digitalispurpurea_",
-   "@mudilva_"
+   "@digitalispurpurea_"
   ],
   "hashtags": [
    "#bergamo",
@@ -619,6 +730,14 @@
       "family": "Altro"
      },
      {
+      "line1": "Druso",
+      "line2": "Rock",
+      "time": "00:00",
+      "score": 43.1,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Unibg_Party @ Zero Club",
       "line2": "",
       "time": "00:00",
@@ -635,6 +754,14 @@
       "family": "Altro"
      },
      {
+      "line1": "Barley Arts @ Bar della Musica",
+      "line2": "Rock, Alchemica Music Club - Bologna",
+      "time": "20:00",
+      "score": 31.1,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "VIBE",
       "line2": "theater room",
       "time": "00:00",
@@ -644,9 +771,17 @@
      },
      {
       "line1": "The Next Ritual @ OASI",
-      "line2": "",
+      "line2": "Fede Rego",
       "time": "23:30",
-      "score": 17.7,
+      "score": 25.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Possibilita @ NXT Bergamo",
+      "line2": "Jazz",
+      "time": "00:00",
+      "score": 25.3,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -693,6 +828,14 @@
       "family": "Altro"
      },
      {
+      "line1": "Druso",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 43.1,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Uboa @ Bolgia",
       "line2": "lab room",
       "time": "23:30",
@@ -733,6 +876,14 @@
       "line2": "",
       "time": "00:00",
       "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Possibilita @ NXT Bergamo",
+      "line2": "Jazz",
+      "time": "00:00",
+      "score": 25.3,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -816,6 +967,16 @@
       "fascia": "serata",
       "family": "House / Elettronica"
      }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Savana Funk @ Druso",
+      "line2": "Disco / Rock",
+      "time": "00:00",
+      "score": 43.1,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
     ]
    }
   },
@@ -862,6 +1023,14 @@
      "score": 43.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Barley Arts @ Caffe Milano",
+     "line2": "Rock, HENGE",
+     "time": "10:00",
+     "score": 25.7,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-21": [
@@ -882,6 +1051,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Door 74",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 48.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Barrier",
      "line2": "Latino",
      "time": "19:00",
@@ -890,15 +1067,39 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Barley Arts @ Caffe Milano",
+     "line2": "Hard Techno / Rock, HENGE",
+     "time": "21:00",
+     "score": 25.7,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
      "score": 19.6,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Bar della Musica",
+     "line2": "Latino",
+     "time": "22:30",
+     "score": 3.3,
+     "fascia": "preserata",
+     "family": "Commerciale"
     }
    ],
    "2026-11-22": [
+    {
+     "line1": "Druso",
+     "line2": "Jazz / Rock",
+     "time": "18:00",
+     "score": 54.5,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "10 Mega Tornei X Street Radio @ Ink Club",
      "line2": "dj set",
@@ -914,6 +1115,14 @@
      "score": 50.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Barley Arts @ Caffe Milano",
+     "line2": "Hard Techno / Rock, HENGE",
+     "time": "21:00",
+     "score": 25.7,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     }
    ],
    "2026-11-23": [
@@ -940,6 +1149,14 @@
      "line2": "live",
      "time": "20:00",
      "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Door 74",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 48.2,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1015,34 +1232,34 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@zeroclub.bg",
+   "@barleyartsreal",
+   "@alchemica_club",
+   "@drusobg",
+   "@megan_is_missing_band",
    "@divinabergamo",
+   "@possibilita",
+   "@henge_cosmicdross",
+   "@markthehammer86",
    "@bolgia.official",
    "@bloom_mezzago",
    "@liveclub",
-   "@barleyartsreal",
-   "@alchemica_club",
-   "@megan_is_missing_band",
    "@missdivina1",
    "@vibetheclub",
    "@upside.down.night",
    "@oasi.night",
+   "@spettacoli",
    "@arya.lounge",
    "@nikita__land",
    "@choruslife.bergamo",
+   "@door_74",
+   "@nouvellevague_tirana",
+   "@savana_funk",
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
    "@bobadillafeelingclub",
-   "@unibg_party",
-   "@selected.lab",
-   "@fede_regooo",
-   "@alessiosielii",
-   "@lab80cinemas",
-   "@theblankcontemporaryart",
-   "@naturalezza",
-   "@premiere.premiere",
-   "@palmas.night",
-   "@the.circlehub"
+   "@cotd_iron_maiden",
+   "@the_big4_theory"
   ],
   "hashtags": [
    "#bergamo",
@@ -1057,6 +1274,7 @@
   "dates_with_serate": [
    "2026-12-05",
    "2026-12-07",
+   "2026-12-10",
    "2026-12-12",
    "2026-12-18",
    "2026-12-25"
@@ -1079,6 +1297,16 @@
       "line2": "",
       "time": "23:30",
       "score": 50.2,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-10": [
+     {
+      "line1": "Possibilita @ NXT Bergamo",
+      "line2": "Jazz",
+      "time": "00:00",
+      "score": 25.3,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1136,12 +1364,32 @@
      "family": "Altro"
     }
    ],
+   "2026-12-22": [
+    {
+     "line1": "Door 74",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 48.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-12-23": [
     {
      "line1": "Brianza Backroads @ Bloom",
      "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-25": [
+    {
+     "line1": "Druso",
+     "line2": "live",
+     "time": "00:00",
+     "score": 54.5,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1154,10 +1402,15 @@
    "@prenotazione",
    "@dj.sofficino",
    "@nico.bre1917",
+   "@possibilita",
+   "@spettacoli",
    "@liveclub",
    "@barleyartsreal",
    "@nikita__land",
-   "@charlie.blackbird"
+   "@door_74",
+   "@nouvellevague_tirana",
+   "@charlie.blackbird",
+   "@drusobg"
   ],
   "hashtags": [
    "#bergamo",
