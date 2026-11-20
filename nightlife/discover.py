@@ -4,8 +4,8 @@
 2. Sito del locale: da lì si ricava il profilo Instagram.
 3. Profili Instagram classificati come "locale" (taggati nei post di eventi): diventano locali, con indirizzo dalla biografia.
 4. Nominatim (gratis): indirizzo -> coordinate, per calcolare la distanza dal centro.
-6. Google Maps (facoltativo, chiave GOOGLE_PLACES_KEY, dentro la quota gratuita): i club che su OpenStreetMap mancano.
 5. Capienza: quella dichiarata, altrimenti una stima da tipo di locale e follower.
+6. Google Maps (facoltativo, chiave GOOGLE_PLACES_KEY, una volta al mese, dentro la quota gratuita): i club che su OpenStreetMap mancano.
 """
 from __future__ import annotations
 
