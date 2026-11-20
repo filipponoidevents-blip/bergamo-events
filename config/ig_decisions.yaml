@@ -19,12 +19,18 @@ approve:   # approved by Filippo in chat, 2026-11-16
   - "18149439076605153-0"
   - "18618600628070947-0"
   - "17943169710390742-0"
+  - "18102286793646181-0"   # Please "Single Night" Wed 18/11 at Zero (Filippo 2026-11-17: "please a zero club")
 
 reject:
   - "17994000783101670-7"   # Zero's programme, Sat 21 Premiere: already on the calendar by hand (main room)
   - "18118837556276061-0"   # NXT 20/11: Bergamo on Ice opening, not a night (Filippo)
   - "18118837556276061-1"   # same post, 10/01
   - "18131034407481342-0"   # Premiere's own post for 21/11: already on the calendar by hand (main room)
+  - "17994000783101670-5"   # Zero programme, Please 18/11: Please's own post has it (18102286793646181-0)
+  - "17994000783101670-6"   # Zero programme, UniBG 20/11: UniBG's own post has it
+  - "17994000783101670-9"   # Zero programme, Crystal Castles 27/11: the promoter's own post has it (17959624719267684-0)
+  - "17994000783101670-10"  # Zero programme, CRØMA 28/11: @cromaroom's own post has it (18113985998352231-0)
+  - "17896218162433561-0"   # Daste Sat 21: Riccobellis + The Peawees is a punk concert, not a DJ night
 # Rename a night: id: "New name"
 titles:
   "18121861250051412-0": "Oasi"
@@ -33,6 +39,8 @@ titles:
   "18509540932100006-0": "Icon"
   "18119513246281577-0": "Mercoledì Boaro"
   "18118514726109142-0": "The Box"
+  "18134818288743523-0": "Indie Power"   # Druso Sat 21: indiepower_official's indie DJ set (S03 E03)
+  "18132417196701272-0": "Suave"   # Thanka Sat 21/11: "il prossimo livello si chiama SUAVE. Questo sabato..." (17874889269648704)
   "18084191429405556-0": "The Circle"   # Filippo 2026-11-17: Sat 21 Zero club room = The Circle; main room = Premiere (manual_events)
 
 
@@ -52,3 +60,6 @@ reread:
   - "18135979441707761"   # NXT: date from the headline, not the rink-season footer
   - "18139261447750537"   # NXT: date from the headline, not the rink-season footer
   - "18115639505130367"   # NXT: date from the headline, not the rink-season footer
+  - "18109564565206781"   # NXT Giorgio Canali live 19/11: queued before NXT live nights went on the calendar
+  - "18102286793646181"   # Please "Single Night" Wed 18/11 at Zero: "Special thanks to" had made it look like a recap
+  - "18130206880852436"   # Nikita Fri 20/11 main area: opens 22:30 ("dalle 22:30 a mezzanotte ingresso gratuito")

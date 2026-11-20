@@ -228,10 +228,16 @@ def read_times(text: str) -> Times:
     starts: list[tuple[int, int]] = []
     ends: list[tuple[int, int]] = []
     late = False
+    entry_opens: list[tuple[int, int]] = []
     for line in normalize(text).splitlines():
         if RE_LATE.search(line):
             late = True
         if RE_ENTRY_LINE.search(line):
+            # "dalle 22:30 a mezzanotte ingresso gratuito" (Nikita): the doors open at 22:30. Used only
+            # when the post gives no other start.
+            for m in RE_RANGE.finditer(line):
+                if re.match(r"\s*dalle", m.group(0), re.I) and (a := _hm(m.groupdict(), "a")) and a[0] >= 17:
+                    entry_opens.append(a)
             continue
         used: list[tuple[int, int]] = []
         for m in RE_RANGE.finditer(line):
@@ -273,7 +279,7 @@ def read_times(text: str) -> Times:
                 starts.append((int(m.group(1)), int(m.group(2))))
     # daytime times only count when nothing in the evening is given (a brunch, a conference)
     evening = [s for s in starts if not 7 <= s[0] < 17]
-    starts = evening or starts
+    starts = evening or starts or entry_opens
     t = Times(late=late)
     if starts:
         s = min(starts, key=_night_minutes)
@@ -481,7 +487,8 @@ class RulesExtractor:
         if not dates:
             return Extraction(is_event_announcement=False, confidence=0.0, notes="no date in caption")
         head_title = _clean_name(head.group("t")) if head and dates else ""
-        recap = bool(RECAP.search(caption))
+        # "Special thanks to @x" on a post for a written future date is a credit, not a recap (Please 18/11)
+        recap = bool(RECAP.search(caption)) and not (explicit and min(dates) > posted)
         times = read_times(caption)
         start, end = times.start, times.end
 

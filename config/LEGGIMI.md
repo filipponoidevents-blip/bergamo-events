@@ -16,6 +16,7 @@ Ogni informazione ha un solo posto. Se due file sembrano dire la stessa cosa, va
 | Generi trovati con la ricerca | `promoters.yaml` / `venues.yaml` → `genres:` | usati solo se `genres.yaml` non dice niente |
 | Account Instagram letti | `sources.yaml` → `accounts:` | `venue:` = account del locale; `monthly: true` = programma mensile (Zero) |
 | Approva / scarta un post, rinomina una serata, forza serata/preserata, rileggi un post | `ig_decisions.yaml` | `approve`, `reject`, `titles`, `fascia`, `reread` |
+| Club principali: le loro serate (anche dal programma del mese) entrano senza approvazione, salvo doppioni | `ranking.yaml` | `venues:` con score 7 o più (soglia: `instagram.main_club_score` in settings.yaml) |
 | Togli un evento | `hidden.yaml` | per testo, locale o data |
 | Eventi inseriti a mano | `../data/manual_events.yaml` | es. Premiere a Zero, 21/11 |
 | DJ e artisti importanti (ospiti) | `watchlist.yaml` | un nome qui = voto ospite 10 |

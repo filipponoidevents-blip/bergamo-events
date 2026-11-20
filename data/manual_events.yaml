@@ -25,3 +25,20 @@ events:
       - {name: fssquah, socials: {instagram: fssquah}}
       - {name: luca._stanzione, socials: {instagram: luca._stanzione}}
       - {name: forthakoolture, socials: {instagram: forthakoolture}}
+
+  # Filippo 2026-11-17: "Flag" is Cafeteria's Wednesday night (aperi-cena from 19:00, then after dinner with a
+  # DJ set). Cafeteria posts it on the day without a date, so the reader can't place it: entered by hand.
+  - title: "Flag"
+    start: 2026-11-18T19:00
+    venue: Cafeteria
+    promoter: Flag
+    category: club
+    description: "FLAG - aperi-cena e cena dalle 19:00, poi after dinner con DJ set (Cafeteria Treviolo, ogni mercoledì)"
+    url: https://www.instagram.com/p/Dfm5fjXm3ip/
+  - title: "Flag"
+    start: 2026-11-25T19:00
+    venue: Cafeteria
+    promoter: Flag
+    category: club
+    description: "FLAG - aperi-cena e cena dalle 19:00, poi after dinner con DJ set (Cafeteria Treviolo, ogni mercoledì)"
+    url: https://www.instagram.com/p/Dfm5fjXm3ip/

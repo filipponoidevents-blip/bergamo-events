@@ -38,6 +38,20 @@ def test_recap_without_future_date_is_not_an_event():
     assert not read("Grazie a tutti per ieri sera! What a night 🔥").is_event_announcement
 
 
+def test_special_thanks_on_a_future_night_is_not_a_recap():
+    # Please, posted 12/11: "Single Night PLEASE - MER 18/11 ... Special thanks to: sammjtiffany"
+    ex = read("Single Night PLEASE - MER 18/11\n📍 zeroclub.bg - via E. Baschenis 9, Bergamo\n"
+              "⏰️ From 23:30 to 03:30\n🥰 Special thanks to:\nsammjtiffany", account="please.nights")
+    assert ex.events[0].date == "2026-11-18" and "recap" not in ex.notes
+
+
+def test_free_entry_from_is_the_opening_when_nothing_else():
+    # Nikita 20/11: "dalle 22:30 a mezzanotte ingresso gratuito / da mezzanotte ingresso donna 10 uomo 15"
+    assert find_times("20 NOVEMBRE [MAIN AREA]\ndalle 22:30 a mezzanotte ingresso gratuito\n"
+                      "da mezzanotte ingresso donna 10 uomo 15, drink incluso")[0] == "22:30"
+    assert find_times("omaggio donna dalle 23 alle 24\nstart 23:30")[0] == "23:30"
+
+
 def test_past_dates_ignored_and_year_rollover():
     assert find_dates("10 novembre", POSTED.date())[0] == []
     assert find_dates("3 gennaio", POSTED.date())[0][0].isoformat() == "2027-01-03"
