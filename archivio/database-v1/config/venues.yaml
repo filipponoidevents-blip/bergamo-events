@@ -1118,6 +1118,208 @@ venues:
     socials: {instagram: null, tiktok: null, website: null}
     fascia: serata
     in_posts: false   # calendar only, never in the graphics (Filippo, 2026-11-17)
+  # =================== Aggiunti 2026-11-20 (trovati da Google Maps, approvati da Filippo) ===================
+  - name: "Niniva Risto Lounge Bar"
+    address: "Via Milano, 42A, 24011 Almè BG"
+    lat: 45.7366
+    lon: 9.60804
+    km: 6.9
+    kind: club
+    instagram: null
+    source: google
+  - name: "Bloom"
+    address: "Via Eugenio Curiel, 39, 20883 Mezzago MB"
+    lat: 45.63111
+    lon: 9.44203
+    km: 19.8
+    kind: club
+    instagram: null
+    source: google
+  - name: "Discoteca Cascina Due Torri"
+    address: "Via Guzzanica, 41, 24044 Stezzano BG"
+    lat: 45.64636
+    lon: 9.63184
+    km: 6.8
+    kind: club
+    instagram: null
+    source: google
+  - name: "Charlie"
+    address: "Via Rossaro, 28, 24047 Treviglio BG"
+    lat: 45.51243
+    lon: 9.571
+    km: 22.3
+    kind: club
+    instagram: null
+    source: google
+  - name: "CLUB 369 MILANO"
+    address: "Via Grigna, 17, 20866 Carnate MB"
+    lat: 45.65344
+    lon: 9.38103
+    km: 23.6
+    kind: club
+    instagram: null
+    source: google
+  - name: "Citta Dei Mille - Restaurant & Lounge"
+    address: "Via Martinella, 3, 24124 Torre Boldone BG"
+    lat: 45.71133
+    lon: 9.70043
+    km: 2.3
+    kind: club
+    instagram: null
+    source: google
+  - name: "VOG Summer"
+    address: "Via Pastrengo, 7/I, 24068 Seriate BG"
+    lat: 45.66899
+    lon: 9.74847
+    km: 6.4
+    kind: club
+    instagram: null
+    source: google
+  - name: "JClub"
+    address: "Via Guglielmo Marconi, 23/B, 24036 Ponte San Pietro BG"
+    lat: 45.70361
+    lon: 9.58123
+    km: 7.5
+    kind: club
+    instagram: null
+    source: google
+  - name: "Ritrovo Brasil"
+    address: "Via Guglielmo Marconi, 6, 24036 Ponte San Pietro BG"
+    lat: 45.70373
+    lon: 9.58136
+    km: 7.5
+    kind: club
+    instagram: null
+    source: google
+  - name: "BAKARY LOUNGE BAR"
+    address: "Via Leonardo Da Vinci, 1, 24020 Torre Boldone BG"
+    lat: 45.71941
+    lon: 9.71002
+    km: 3.5
+    kind: club
+    instagram: null
+    source: google
+  - name: "Terminal Club Curno"
+    address: "Via Europa, 19, 24035 Curno BG"
+    lat: 45.68084
+    lon: 9.60543
+    km: 5.9
+    kind: club
+    instagram: null
+    source: google
+  - name: "P40 Lounge Bar"
+    address: "Piazza Pontida, 40, 24122 Bergamo BG"
+    lat: 45.6931
+    lon: 9.66375
+    km: 1.2
+    kind: bar
+    instagram: null
+    source: google
+  - name: "O'Dea's Irish Pub"
+    address: "Via Borgo Palazzo, 211, 24125 Bergamo BG"
+    lat: 45.68873
+    lon: 9.70726
+    km: 2.6
+    kind: bar
+    instagram: null
+    source: google
+  - name: "The Tucans Pub"
+    address: "Via Gaetano Donizetti, 25/A, 24129 Bergamo BG"
+    lat: 45.70296
+    lon: 9.66497
+    km: 1.1
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Bar Savoy"
+    address: "Via S. Bernardino, 107, 24126 Bergamo BG"
+    lat: 45.6817
+    lon: 9.6619
+    km: 2.2
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Bar H"
+    address: "Via Giosuè Carducci, 452, 24127 Bergamo BG"
+    lat: 45.6896
+    lon: 9.64716
+    km: 2.5
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Barrier"
+    address: "P.za Giacomo Matteotti, 10, 24122 Bergamo BG"
+    lat: 45.69369
+    lon: 9.66877
+    km: 0.8
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Ai Giardini"
+    address: "Piazza della Repubblica, 2, 24122 Bergamo BG"
+    lat: 45.69772
+    lon: 9.66781
+    km: 0.7
+    kind: bar
+    instagram: null
+    source: google
+  - name: "DROP - Dalmine"
+    address: "Via Provinciale, 58, 24044 Dalmine BG"
+    lat: 45.646
+    lon: 9.61714
+    km: 7.5
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Spazio Marconi"
+    address: "Via Guglielmo Marconi, 40, 24068 Seriate BG"
+    lat: 45.68093
+    lon: 9.72848
+    km: 4.4
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Urban R-Evolution Pub"
+    address: "Via Enrico Fermi, 27, 24035 Curno BG"
+    lat: 45.68719
+    lon: 9.62197
+    km: 4.5
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Joe Koala"
+    address: "Via Leonardo Da Vinci, 35, 24040 Osio Sopra BG"
+    lat: 45.63128
+    lon: 9.57931
+    km: 10.7
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Gemp Lounge Bar"
+    address: "Via Roma, 12A, 24011 Almè BG"
+    lat: 45.74337
+    lon: 9.61583
+    km: 6.9
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Alkimia Food & Drink"
+    address: "Via Trento, 2/A, 24048 Treviolo BG"
+    lat: 45.67526
+    lon: 9.60108
+    km: 6.5
+    kind: bar
+    instagram: null
+    source: google
+  - name: "Quei Bravi Ragazzi"
+    address: "Via Resistenza, 4, 24041 Brembate BG"
+    lat: 45.62006
+    lon: 9.54327
+    km: 13.6
+    kind: bar
+    instagram: null
+    source: google
+
 
 # Town -> province lookup used when a source gives only a city name.
 towns:
