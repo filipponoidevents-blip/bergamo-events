@@ -37,6 +37,7 @@ Talk to Filippo in Italian, simple words, click-by-click steps, free tools only.
 ## Things to know
 - Instagram token lasts ~60 days: a reminder appears in the calendar 10 days before; renewal steps in README. Update `token_renewed` after.
 - If Meta answers "You cannot access the app till you log in to www.facebook.com", the person must log in to facebook.com with the linked account and pass the security check; renew the token if it still fails.
+- Google Maps (Places API New) fills the clubs OpenStreetMap misses: optional secret `GOOGLE_PLACES_KEY` (Google Cloud project, billing linked, Places API (New) enabled, key restricted to it, daily quota capped at 100). ~20 requests/week, inside the free tier.
 - Only public Business/Creator Instagram accounts are readable; personal accounts are marked unreadable and skipped.
 - Blocked/unreadable from GitHub (Nov 2026): TicketSMS, Upass, Eventbrite (405), Fourvenues (403), Resident Advisor (403), Shotgun (429). Xceed club pages and DICE city pages work.
 - The sandbox where Claude runs has no internet for these sites: test sources by pushing and reading the workflow logs.

@@ -41,6 +41,9 @@ instagram:
 # Fonti oltre a Instagram. Ogni fonte che fallisce viene saltata e segnalata nel report, senza fermare il resto.
 sources:
   osm: {enabled: true}       # OpenStreetMap: discoteche, locali con musica, indirizzi e coordinate
+  google:                    # Google Maps, solo se c'è il segreto GOOGLE_PLACES_KEY (una volta a settimana, quota gratuita)
+    enabled: true
+    queries: [discoteca, night club, club, disco pub, locale musica dal vivo, cocktail bar dj, lounge bar]
   xceed: {enabled: true}     # pagine xceed dei locali (trovate da sole o scritte in conoscenze.yaml)
   jsonld: {enabled: true, pages: []}     # pagine con dati strutturati schema.org (agende, siti dei locali)
   articles: {enabled: true, pages: []}   # articoli di giornale letti come una didascalia

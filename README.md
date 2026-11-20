@@ -39,6 +39,10 @@ li mette in classifica e prepara i calendari e i dati per i post. Gratis: niente
 - `archivio/` la versione 1: note e database salvati, usati solo per il confronto.
 - `skill/SKILL.md` la procedura per rifare tutto su un'altra città.
 
+## Google Maps (facoltativo)
+
+Trova i club che mancano su OpenStreetMap. Serve il segreto `GOOGLE_PLACES_KEY` su GitHub: progetto su console.cloud.google.com con fatturazione collegata, "Places API (New)" abilitata, chiave API limitata a quel servizio, quota giornaliera a 100. Circa 20 richieste a settimana, dentro la quota gratuita.
+
 ## Rinnovare il token di Instagram (ogni ~60 giorni, il promemoria esce nel calendario)
 
 1. Apri developers.facebook.com → Strumenti → Graph API Explorer, scegli la tua app e l'account della pagina.

@@ -4,11 +4,13 @@
 2. Sito del locale: da lì si ricava il profilo Instagram.
 3. Profili Instagram classificati come "locale" (taggati nei post di eventi): diventano locali, con indirizzo dalla biografia.
 4. Nominatim (gratis): indirizzo -> coordinate, per calcolare la distanza dal centro.
+6. Google Maps (facoltativo, chiave GOOGLE_PLACES_KEY, dentro la quota gratuita): i club che su OpenStreetMap mancano.
 5. Capienza: quella dichiarata, altrimenti una stima da tipo di locale e follower.
 """
 from __future__ import annotations
 
 import logging
+import os
 import re
 from datetime import date
 
@@ -79,6 +81,58 @@ def from_osm(city: City) -> int:
                "website": t.get("website") or t.get("contact:website"), "capacity": int(t["capacity"]) if str(t.get("capacity", "")).isdigit() else None,
                "capacity_source": "dichiarata" if str(t.get("capacity", "")).isdigit() else None, "osm": f"{el['type']}/{el['id']}"}
         added += upsert(city, rec, "osm")
+    return added
+
+
+GOOGLE_TEXT = "https://places.googleapis.com/v1/places:searchText"
+GOOGLE_FIELDS = ("places.displayName,places.formattedAddress,places.location,places.types,places.primaryType,"
+                 "places.businessStatus,places.websiteUri,places.userRatingCount,nextPageToken")
+GOOGLE_TYPES = {"night_club": "club", "dance_hall": "club", "concert_hall": "live_club", "live_music_venue": "live_club", "amphitheatre": "open_air",
+                "bar": "bar", "pub": "bar", "cocktail_bar": "bar", "lounge_bar": "bar", "wine_bar": "bar", "bar_and_grill": "bar", "karaoke": "bar"}
+GOOGLE_SKIP = {"wedding_venue", "event_venue", "banquet_hall", "dance_school", "gym", "school", "lodging", "hotel"}
+
+
+def from_google(city: City) -> int:
+    """Google Maps (Places API New, ricerca per testo nel riquadro della città). Una volta a settimana, circa 20 richieste:
+    resta nella quota gratuita. Senza chiave non fa niente."""
+    key = os.environ.get("GOOGLE_PLACES_KEY")
+    if not key:
+        return -1
+    import math
+    c = city.c
+    dlat = c["radius_km"] / 111.0
+    dlon = c["radius_km"] / (111.0 * math.cos(math.radians(c["lat"])))
+    rect = {"rectangle": {"low": {"latitude": c["lat"] - dlat, "longitude": c["lon"] - dlon},
+                          "high": {"latitude": c["lat"] + dlat, "longitude": c["lon"] + dlon}}}
+    headers = {"X-Goog-Api-Key": key, "X-Goog-FieldMask": GOOGLE_FIELDS, "Content-Type": "application/json"}
+    added = 0
+    for q in city.settings["sources"].get("google", {}).get("queries") or []:
+        token = None
+        for _ in range(3):   # al massimo 60 risultati per ricerca
+            body = {"textQuery": q, "languageCode": "it", "regionCode": c.get("country", "it").upper(), "locationRestriction": rect, "pageSize": 20}
+            if token:
+                body["pageToken"] = token
+            res = fetch(GOOGLE_TEXT, method="POST", json=body, headers=headers, pause=0.5).json()
+            for pl in res.get("places", []):
+                name = (pl.get("displayName") or {}).get("text")
+                loc = pl.get("location") or {}
+                types = set(pl.get("types") or [])
+                if not name or loc.get("latitude") is None or pl.get("businessStatus", "OPERATIONAL") != "OPERATIONAL":
+                    continue
+                if types & GOOGLE_SKIP or NOT_NIGHTLIFE.search(name) or WEDDING.search(name):
+                    continue
+                typ = GOOGLE_TYPES.get(pl.get("primaryType")) or next((GOOGLE_TYPES[t] for t in ("night_club", "concert_hall", "live_music_venue", "bar", "pub") if t in types), None)
+                if not typ or (city.distance(loc["latitude"], loc["longitude"]) or 99) > c["radius_km"]:
+                    continue
+                site = pl.get("websiteUri") or ""
+                m = IG_LINK.search(site)
+                addr = re.sub(r",\s*(?:Italia|Italy)$", "", pl.get("formattedAddress") or "")
+                added += upsert(city, {"name": clean_name(name), "address": addr or None, "lat": round(loc["latitude"], 5), "lon": round(loc["longitude"], 5),
+                                       "type": typ, "instagram": m.group(1).lower() if m else None, "website": None if m else (site or None),
+                                       "reviews": pl.get("userRatingCount")}, "google")
+            token = res.get("nextPageToken")
+            if not token:
+                break
     return added
 
 
@@ -278,6 +332,15 @@ def run(city: City, force_osm: bool = False) -> list[str]:
             notes.append(f"OpenStreetMap: {n} locali nuovi, {len(city.registry['venues'])} in anagrafica.")
         except Exception as e:  # noqa: BLE001
             notes.append(f"OpenStreetMap saltato: {e}")
+    lastg = city.registry.get("google_checked")
+    if city.settings["sources"].get("google", {}).get("enabled") and (force_osm or not lastg or (date.today() - date.fromisoformat(lastg)).days >= 7):
+        try:
+            n = from_google(city)
+            if n >= 0:
+                city.registry["google_checked"] = date.today().isoformat()
+                notes.append(f"Google Maps: {n} locali nuovi.")
+        except Exception as e:  # noqa: BLE001
+            notes.append(f"Google Maps saltato: {str(e)[:150]}")
     if city.settings["sources"]["xceed"].get("enabled"):
         n = from_xceed(city)
         if n:
