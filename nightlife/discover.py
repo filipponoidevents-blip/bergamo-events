@@ -93,7 +93,7 @@ GOOGLE_SKIP = {"wedding_venue", "event_venue", "banquet_hall", "dance_school", "
 
 
 def from_google(city: City) -> int:
-    """Google Maps (Places API New, ricerca per testo nel riquadro della città). Una volta a settimana, circa 20 richieste:
+    """Google Maps (Places API New, ricerca per testo nel riquadro della città). Una volta al mese, circa 20 richieste:
     resta nella quota gratuita. Senza chiave non fa niente."""
     key = os.environ.get("GOOGLE_PLACES_KEY")
     if not key:
@@ -333,7 +333,7 @@ def run(city: City, force_osm: bool = False) -> list[str]:
         except Exception as e:  # noqa: BLE001
             notes.append(f"OpenStreetMap saltato: {e}")
     lastg = city.registry.get("google_checked")
-    if city.settings["sources"].get("google", {}).get("enabled") and (force_osm or not lastg or (date.today() - date.fromisoformat(lastg)).days >= 7):
+    if city.settings["sources"].get("google", {}).get("enabled") and (force_osm or not lastg or (date.today() - date.fromisoformat(lastg)).days >= city.settings["sources"]["google"].get("every_days", 30)):
         try:
             n = from_google(city)
             if n >= 0:
