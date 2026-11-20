@@ -12,7 +12,7 @@ Talk to Filippo in Italian, simple words, click-by-click steps, free tools only.
 ## What the system does (no human input needed)
 1. Discovery: OpenStreetMap venues in the radius (nightclub, music_venue, dance, bars with live music), venue websites → Instagram handles,
    Xceed club pages, newspaper agendas, and Instagram chain discovery (tagged profiles are checked: name, followers, bio → venue/promoter/artist;
-   promoters tagged in ≥2 events are followed automatically; weekly hashtag scan of the city's hashtags).
+   promoters tagged in ≥2 events are followed automatically).
 2. Collection: Instagram Business Discovery (≈20 profiles per run, every 2 h), Xceed, DICE pages, schema.org JSON-LD pages, articles.
 3. Reading: free rule-based reader (`nightlife/reader.py`): dates (also monthly programmes), times, rooms, price, promoter, guests, genre, type, confidence.
 4. Merge across sources, serata/preserata, score 0-100, competition per night.

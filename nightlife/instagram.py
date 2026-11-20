@@ -136,7 +136,8 @@ class Instagram:
         if not stop:
             self._lookups()
             self._guess_venues()
-            self._hashtags()
+            if self.cfg.get("hashtags"):   # spento di base: in zona gli hashtag si usano poco e Meta non dà il permesso
+                self._hashtags()
         cutoff = (today - max_age - timedelta(days=30)).isoformat()
         self.posts = {k: v for k, v in self.posts.items() if v["at"] >= cutoff}
         self.posts_path.write_text(json.dumps(self.posts, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -35,6 +35,7 @@ instagram:
   posts_per_account: 25
   accounts_per_run: 20           # limite orario di Meta per le app in modalità sviluppo
   max_post_age_days: 45
+  hashtags: false               # ricerca per hashtag: poco utile e non permessa da Meta
   follower_lookups_per_run: 5    # follower di DJ/promoter taggati e ancora sconosciuti
   auto_watch_after: 2            # un profilo taggato in almeno N eventi viene seguito da solo
 
