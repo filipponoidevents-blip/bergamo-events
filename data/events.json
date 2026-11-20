@@ -64,7 +64,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:30.392968+00:00",
-    "updated": "2026-11-20T12:59:24.935988+00:00",
+    "updated": "2026-11-20T17:32:11.559728+00:00",
     "uid": "0851063064bd7432"
   },
   {
@@ -132,7 +132,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:32.630929+00:00",
-    "updated": "2026-11-20T12:59:26.880062+00:00",
+    "updated": "2026-11-20T17:32:13.389731+00:00",
     "uid": "88a21a6e1842fbcf"
   },
   {
@@ -200,7 +200,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:27.490455+00:00",
-    "updated": "2026-11-20T12:59:23.033206+00:00",
+    "updated": "2026-11-20T17:32:10.431122+00:00",
     "uid": "b893e9108493116b"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.921136+00:00",
-    "updated": "2026-11-20T13:00:34.124197+00:00",
+    "updated": "2026-11-20T17:33:41.912106+00:00",
     "uid": "384b9e5d98b5b0be"
   },
   {
@@ -334,7 +334,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.030585+00:00",
-    "updated": "2026-11-20T13:00:34.020598+00:00",
+    "updated": "2026-11-20T17:33:41.827547+00:00",
     "uid": "772b486f4a4271df"
   },
   {
@@ -399,7 +399,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.868750+00:00",
-    "updated": "2026-11-20T13:00:33.956043+00:00",
+    "updated": "2026-11-20T17:33:41.769583+00:00",
     "uid": "5696384f5b8e4038"
   },
   {
@@ -462,7 +462,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.860540+00:00",
-    "updated": "2026-11-20T13:00:33.928821+00:00",
+    "updated": "2026-11-20T17:33:41.747000+00:00",
     "uid": "23c1cc663127a572"
   },
   {
@@ -528,8 +528,74 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.866463+00:00",
-    "updated": "2026-11-20T13:00:33.951126+00:00",
+    "updated": "2026-11-20T17:33:41.765566+00:00",
     "uid": "9812fabf19ef2bf6"
+  },
+  {
+    "title": "Sabato talk.maf",
+    "start": "2026-11-07T23:00:00+01:00",
+    "venue": {
+      "name": "Zero Club",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.693,
+      "lon": 9.665,
+      "address": "Via Baschenis 9, Bergamo",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "zeroclub.bg",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/72471"
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "house"
+    ],
+    "genre": "House",
+    "genre_source": "event",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": false,
+    "late_end": false,
+    "entry": null,
+    "fascia_auto": "serata",
+    "fascia_why": "tipo di locale",
+    "in_posts": true,
+    "rank": 4.18,
+    "category": "club",
+    "description": "",
+    "url": "https://www.instagram.com/p/DfXlMaIEehS/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/882452586_18417688717090375_9174381743212899456_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VqRIud841V0Q7kNvwEuPjFu&_nc_oc=AdpjkFFYbuaPwSGr7YhLbRYEc8Fr7F_Cox-M1DRFQyz5XjxnijgSoWJzSeXV2kN_a84&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=slLhHpJJHudmHQnbmBPhiw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQScnUUZmK_VEwav9eOh7bPvmXkwXYGEr0KtlzuoQzWKdw&oe=6B0156F4",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:18059204756566707-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/DfXlMaIEehS/"
+    ],
+    "score": 6.0,
+    "scope": "local",
+    "distance_km": 1.1,
+    "reasons": [
+      "genre:house",
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:41.787741+00:00",
+    "updated": "2026-11-20T17:33:41.787741+00:00",
+    "uid": "341904222fcfb76e"
   },
   {
     "title": "JUSTICE",
@@ -594,7 +660,7 @@
     ],
     "alert_level": "regional",
     "first_seen": "2026-11-16T22:49:17.889199+00:00",
-    "updated": "2026-11-20T13:00:34.029070+00:00",
+    "updated": "2026-11-20T17:33:41.834677+00:00",
     "uid": "e29198108d5147b2"
   },
   {
@@ -660,7 +726,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.037923+00:00",
-    "updated": "2026-11-20T13:00:34.033955+00:00",
+    "updated": "2026-11-20T17:33:41.838730+00:00",
     "uid": "44add0a834bf5a8f"
   },
   {
@@ -729,7 +795,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.038962+00:00",
-    "updated": "2026-11-20T13:00:34.187234+00:00",
+    "updated": "2026-11-20T17:33:41.968311+00:00",
     "uid": "33ae889e5b197349"
   },
   {
@@ -792,7 +858,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036390+00:00",
-    "updated": "2026-11-20T13:00:34.222260+00:00",
+    "updated": "2026-11-20T17:33:41.997676+00:00",
     "uid": "2992e78d345bcc70"
   },
   {
@@ -865,7 +931,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.836801+00:00",
-    "updated": "2026-11-20T13:00:33.857796+00:00",
+    "updated": "2026-11-20T17:33:41.691217+00:00",
     "uid": "0472940301c97bde"
   },
   {
@@ -933,7 +999,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.922942+00:00",
-    "updated": "2026-11-20T13:00:34.128970+00:00",
+    "updated": "2026-11-20T17:33:41.915946+00:00",
     "uid": "3e59373b90be9585"
   },
   {
@@ -998,7 +1064,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034104+00:00",
-    "updated": "2026-11-20T13:00:33.964897+00:00",
+    "updated": "2026-11-20T17:33:41.777131+00:00",
     "uid": "1d9cfe638a16e92c"
   },
   {
@@ -1061,7 +1127,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.929300+00:00",
-    "updated": "2026-11-20T13:00:34.147524+00:00",
+    "updated": "2026-11-20T17:33:41.931420+00:00",
     "uid": "9580797f17c8556b"
   },
   {
@@ -1126,7 +1192,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035819+00:00",
-    "updated": "2026-11-20T13:00:34.213510+00:00",
+    "updated": "2026-11-20T17:33:41.990290+00:00",
     "uid": "208673cac3dfbdf1"
   },
   {
@@ -1194,7 +1260,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.924775+00:00",
-    "updated": "2026-11-20T13:00:34.133448+00:00",
+    "updated": "2026-11-20T17:33:41.919790+00:00",
     "uid": "23b44d4645d5cb43"
   },
   {
@@ -1260,7 +1326,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.960891+00:00",
-    "updated": "2026-11-20T13:00:34.217973+00:00",
+    "updated": "2026-11-20T17:33:41.994019+00:00",
     "uid": "fd5526e063ff246b"
   },
   {
@@ -1325,7 +1391,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.885210+00:00",
-    "updated": "2026-11-20T13:00:34.165351+00:00",
+    "updated": "2026-11-20T17:33:41.949970+00:00",
     "uid": "94e5dbb6defc6f98"
   },
   {
@@ -1390,7 +1456,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.877673+00:00",
-    "updated": "2026-11-20T13:00:34.177769+00:00",
+    "updated": "2026-11-20T17:33:41.960443+00:00",
     "uid": "fea86f733c04a94a"
   },
   {
@@ -1458,7 +1524,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.032372+00:00",
-    "updated": "2026-11-20T13:00:34.182298+00:00",
+    "updated": "2026-11-20T17:33:41.964221+00:00",
     "uid": "c10b522e27dac62e"
   },
   {
@@ -1523,8 +1589,68 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.029938+00:00",
-    "updated": "2026-11-20T13:00:34.231327+00:00",
+    "updated": "2026-11-20T17:33:42.005254+00:00",
     "uid": "58e01054adc70132"
+  },
+  {
+    "title": "Flag",
+    "start": "2026-11-18T19:00:00+01:00",
+    "venue": {
+      "name": "Cafeteria",
+      "city": "Treviolo",
+      "province": "BG",
+      "lat": 45.672,
+      "lon": 9.616,
+      "address": null,
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "cafeteriatreviolo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": null,
+    "fascia_auto": "preserata",
+    "fascia_why": "inizia alle 19:00",
+    "in_posts": true,
+    "rank": 0.849,
+    "category": "club",
+    "description": "FLAG - aperi-cena e cena dalle 19:00, poi after dinner con DJ set (Cafeteria Treviolo, ogni mercoledì)",
+    "url": "https://www.instagram.com/p/Dfm5fjXm3ip/",
+    "ticket_url": null,
+    "image_url": null,
+    "price": null,
+    "promoter": null,
+    "promoter_name": "Flag",
+    "room": null,
+    "sources": [
+      "manual"
+    ],
+    "source_urls": [],
+    "score": 1.5,
+    "scope": "ignore",
+    "distance_km": 5.6,
+    "reasons": [
+      "genre:dj set"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:32:01.983360+00:00",
+    "updated": "2026-11-20T17:32:01.983360+00:00",
+    "uid": "1260a6b59422efea"
   },
   {
     "title": "Mercoledì Boaro",
@@ -1590,7 +1716,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.031795+00:00",
-    "updated": "2026-11-20T13:00:34.065382+00:00",
+    "updated": "2026-11-20T17:33:41.865266+00:00",
     "uid": "ea678bf0abdd35a3"
   },
   {
@@ -1656,7 +1782,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.619930+00:00",
-    "updated": "2026-11-20T13:00:34.195934+00:00",
+    "updated": "2026-11-20T17:33:41.975468+00:00",
     "uid": "c7785c7178dd86b4"
   },
   {
@@ -1728,74 +1854,6 @@
     "uid": "a7745e866b03936a"
   },
   {
-    "title": "Bergamo On Ice &amp; Star Garden",
-    "start": "2026-11-20T18:00:00+01:00",
-    "venue": {
-      "name": "NXT Station",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.691967,
-      "lon": 9.673615,
-      "address": "Piazzale degli Alpini",
-      "kind": "open_air",
-      "capacity": null,
-      "socials": {
-        "instagram": "nxtbergamo",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": null
-      },
-      "verified": false
-    },
-    "end": "2027-01-10T23:00:00+01:00",
-    "artists": [],
-    "genres": [],
-    "genre": "Live",
-    "genre_source": "venue",
-    "headliners": [],
-    "fascia": null,
-    "fascia_hint": null,
-    "start_known": true,
-    "late_end": false,
-    "entry": null,
-    "fascia_auto": "preserata",
-    "fascia_why": "NXT Station: sempre preserata",
-    "in_posts": true,
-    "rank": 1.5,
-    "category": "other",
-    "description": "Dal 20 novembre 2026 al 10 gennaio 2027 torna il progetto natalizio realizzato da NXT Bergamo e Zambo Events. Una grande pista di pattinaggio sul ghiaccio, un bosco incantato di installazioni luminose, un grande albero di Natale e tanti appuntamenti.",
-    "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/nergamo-on-ice_307420/",
-    "ticket_url": null,
-    "image_url": "https://eventsbox.ecodibergamo.it/media/photologue/2026/10/22/photos/cache/bergamo-on-ice-_2026_11_06T17_38_58_791160_detail_box.jpg",
-    "price": null,
-    "promoter": {
-      "instagram": null,
-      "tiktok": null,
-      "facebook": null,
-      "website": null,
-      "resident_advisor": null
-    },
-    "promoter_name": "NXT Station",
-    "room": null,
-    "sources": [
-      "eco_di_bergamo"
-    ],
-    "source_urls": [
-      "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/nergamo-on-ice_307420/"
-    ],
-    "score": 1.0,
-    "scope": "ignore",
-    "distance_km": 0.8,
-    "reasons": [
-      "venue:open_air"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-17T16:45:44.590563+00:00",
-    "updated": "2026-11-20T12:59:17.031055+00:00",
-    "uid": "15f229d1d827c62a"
-  },
-  {
     "title": "The Box",
     "start": "2026-11-20T19:00:00+01:00",
     "venue": {
@@ -1863,7 +1921,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.876543+00:00",
-    "updated": "2026-11-20T13:00:34.060890+00:00",
+    "updated": "2026-11-20T17:33:41.861380+00:00",
     "uid": "0843639d3d07ce0a"
   },
   {
@@ -1931,7 +1989,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:51.389610+00:00",
-    "updated": "2026-11-20T12:59:19.031762+00:00",
+    "updated": "2026-11-20T17:32:07.723324+00:00",
     "uid": "f84ecbdb6180c0f6"
   },
   {
@@ -1994,7 +2052,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.589079+00:00",
-    "updated": "2026-11-20T13:00:33.947047+00:00",
+    "updated": "2026-11-20T17:33:41.762171+00:00",
     "uid": "c78d17103755137d"
   },
   {
@@ -2062,7 +2120,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:54.158808+00:00",
-    "updated": "2026-11-20T12:59:21.029542+00:00",
+    "updated": "2026-11-20T17:32:09.241068+00:00",
     "uid": "f901d76cddb6a0ec"
   },
   {
@@ -2124,7 +2182,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.917308+00:00",
-    "updated": "2026-11-20T13:00:34.106483+00:00",
+    "updated": "2026-11-20T17:33:41.900773+00:00",
     "uid": "131e458eb37de0bf"
   },
   {
@@ -2196,12 +2254,12 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.035283+00:00",
-    "updated": "2026-11-20T13:00:34.191626+00:00",
+    "updated": "2026-11-20T17:33:41.971894+00:00",
     "uid": "9cf51909d542c793"
   },
   {
     "title": "NIKITA",
-    "start": "2026-11-20T23:00:00+01:00",
+    "start": "2026-11-20T22:30:00+01:00",
     "venue": {
       "name": "Nikita",
       "city": "Telgate",
@@ -2228,7 +2286,7 @@
     "headliners": [],
     "fascia": null,
     "fascia_hint": null,
-    "start_known": false,
+    "start_known": true,
     "late_end": false,
     "entry": "paid",
     "fascia_auto": "serata",
@@ -2261,7 +2319,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.919972+00:00",
-    "updated": "2026-11-20T13:00:34.120179+00:00",
+    "updated": "2026-11-20T17:33:42.042426+00:00",
     "uid": "e07b61b3f1067a08"
   },
   {
@@ -2324,7 +2382,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.606599+00:00",
-    "updated": "2026-11-20T13:00:34.097601+00:00",
+    "updated": "2026-11-20T17:33:41.893147+00:00",
     "uid": "f47131ce77fe681f"
   },
   {
@@ -2397,7 +2455,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.877417+00:00",
-    "updated": "2026-11-20T13:00:34.056063+00:00",
+    "updated": "2026-11-20T17:33:41.857271+00:00",
     "uid": "8157d59ca876ca73"
   },
   {
@@ -2476,7 +2534,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.607613+00:00",
-    "updated": "2026-11-20T13:00:34.226529+00:00",
+    "updated": "2026-11-20T17:33:42.001297+00:00",
     "uid": "c761c9a36eccdb0d"
   },
   {
@@ -2544,7 +2602,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:05:57.436809+00:00",
-    "updated": "2026-11-20T12:59:29.052042+00:00",
+    "updated": "2026-11-20T17:32:16.520531+00:00",
     "uid": "40907cae453e0a09"
   },
   {
@@ -2609,7 +2667,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.605065+00:00",
-    "updated": "2026-11-20T13:00:34.078650+00:00",
+    "updated": "2026-11-20T17:33:41.876883+00:00",
     "uid": "c0bc77bb3f29681a"
   },
   {
@@ -2677,7 +2735,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:03.257502+00:00",
-    "updated": "2026-11-20T12:59:33.325348+00:00",
+    "updated": "2026-11-20T17:32:19.278406+00:00",
     "uid": "558df46a4293d542"
   },
   {
@@ -2743,7 +2801,7 @@
     "reasons": [],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:05.245654+00:00",
-    "updated": "2026-11-20T12:59:35.385713+00:00",
+    "updated": "2026-11-20T17:32:21.986288+00:00",
     "uid": "a2a69b28cace3113"
   },
   {
@@ -2811,7 +2869,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:08:44.520584+00:00",
-    "updated": "2026-11-20T12:59:35.217293+00:00",
+    "updated": "2026-11-20T17:32:20.611884+00:00",
     "uid": "dd3ff654a601b664"
   },
   {
@@ -2874,7 +2932,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:22:13.131244+00:00",
-    "updated": "2026-11-20T13:00:33.852598+00:00",
+    "updated": "2026-11-20T17:33:41.686798+00:00",
     "uid": "c30a1422e08f91fc"
   },
   {
@@ -2943,74 +3001,11 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:00.233235+00:00",
-    "updated": "2026-11-20T12:59:37.149472+00:00",
+    "updated": "2026-11-20T17:32:23.302657+00:00",
     "uid": "79091e7c0115b162"
   },
   {
-    "title": "RICCOBELLIS",
-    "start": "2026-11-21T21:30:00+01:00",
-    "venue": {
-      "name": "Daste",
-      "city": "Bergamo",
-      "province": "BG",
-      "lat": 45.7005,
-      "lon": 9.6905,
-      "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
-      "kind": "live_club",
-      "capacity": null,
-      "socials": {
-        "instagram": "daste_bergamo",
-        "tiktok": null,
-        "facebook": null,
-        "website": null,
-        "resident_advisor": "https://ra.co/clubs/208117"
-      },
-      "verified": false
-    },
-    "end": null,
-    "artists": [],
-    "genres": [],
-    "genre": "Rock / Punk",
-    "genre_source": "manual",
-    "headliners": [],
-    "fascia": null,
-    "fascia_hint": null,
-    "start_known": true,
-    "late_end": false,
-    "entry": "paid",
-    "fascia_auto": "preserata",
-    "fascia_why": "inizia alle 21:30",
-    "in_posts": true,
-    "rank": 2.67,
-    "category": "club",
-    "description": "🎸RICCOBELLIS🎸\n\nOPENING FOR THE PEAWEES\n\nDa Brescia, con i Ramones nel cuore e una predilezione per le melodie di Queers e Undertones. Il trio ha appena pubblicato “Afterparty Heroes”, quarto album e titolo piuttosto adatto alla compagnia che volevamo per questa sera.\n\n🎟 Biglietti già in vendita su diceitaly \n10 € +DDP in prevendita\n15 € in cassa in serata\n\n📅 Sabato 21 novembre 2026 · ore 21:30\nDASTE — via Daste e Spalenga 13/15, Bergamo",
-    "url": "https://www.instagram.com/reel/DfsAUGvsXGE/",
-    "ticket_url": null,
-    "image_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905963463_18109790456579285_3350779978732215911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZkKP53vFSCYQ7kNvwHunwgo&_nc_oc=Adq1O_thvA7bgXuJjRYpSwDmgPFKzcCjB6jRHWuN7e3xvZJKY7pNpf6xQmmwD4QhDVI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AL-3X8kEAAAA&_nc_gid=QNW026cHX6tjENluaua7Iw&_nc_tpa=Q5bMBQI5x0cvcoM8TNYIDoTJAxyIrZDaztdEBXlK3cdosK5T9BqGYD2yUJQ5ItqlRyhowNdZI-F-pzH-SA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQT7GMB_dv4ggivlzQcUKiQ919a02qR7agRXPr7H7hn9rg&oe=6B016E11",
-    "price": null,
-    "promoter": null,
-    "promoter_name": null,
-    "room": null,
-    "sources": [
-      "ig:17896218162433561-0"
-    ],
-    "source_urls": [
-      "https://www.instagram.com/reel/DfsAUGvsXGE/"
-    ],
-    "score": 2.3,
-    "scope": "local",
-    "distance_km": 1.1,
-    "reasons": [
-      "instagram-club-night",
-      "venue:live_club"
-    ],
-    "alert_level": null,
-    "first_seen": "2026-11-16T22:49:17.840523+00:00",
-    "updated": "2026-11-20T13:00:33.871426+00:00",
-    "uid": "b593852d25289a48"
-  },
-  {
-    "title": "Druso",
+    "title": "Indie Power",
     "start": "2026-11-21T22:30:00+01:00",
     "venue": {
       "name": "Druso",
@@ -3072,8 +3067,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.610420+00:00",
-    "updated": "2026-11-20T13:00:34.151937+00:00",
-    "uid": "ebbac802d8099955"
+    "updated": "2026-11-20T17:33:41.935134+00:00",
+    "uid": "9ba819c0872feba5"
   },
   {
     "title": "NOTTE A CASO",
@@ -3141,7 +3136,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034727+00:00",
-    "updated": "2026-11-20T13:00:34.161274+00:00",
+    "updated": "2026-11-20T17:33:41.946508+00:00",
     "uid": "b84c21bf242adce0"
   },
   {
@@ -3224,11 +3219,11 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.855574+00:00",
-    "updated": "2026-11-20T13:00:34.092757+00:00",
+    "updated": "2026-11-20T17:33:41.889072+00:00",
     "uid": "5774e7ba2cab0ffe"
   },
   {
-    "title": "Thanka",
+    "title": "Suave",
     "start": "2026-11-21T23:00:00+01:00",
     "venue": {
       "name": "Thanka",
@@ -3287,8 +3282,8 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.609301+00:00",
-    "updated": "2026-11-20T13:00:34.138343+00:00",
-    "uid": "5cd04e10cf20d3d6"
+    "updated": "2026-11-20T17:33:41.923919+00:00",
+    "uid": "f03a14aa6811bca4"
   },
   {
     "title": "Premiere",
@@ -3392,7 +3387,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:17:09.844696+00:00",
-    "updated": "2026-11-20T12:59:09.257380+00:00",
+    "updated": "2026-11-20T17:32:01.982649+00:00",
     "uid": "1599a3d16369623d"
   },
   {
@@ -3461,7 +3456,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:19:01.181356+00:00",
-    "updated": "2026-11-20T13:00:33.982096+00:00",
+    "updated": "2026-11-20T17:33:41.794588+00:00",
     "uid": "4794a894c3e8de0b"
   },
   {
@@ -3526,7 +3521,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T21:14:32.450724+00:00",
-    "updated": "2026-11-20T13:00:33.969576+00:00",
+    "updated": "2026-11-20T17:33:41.780868+00:00",
     "uid": "09517bc73e06bf68"
   },
   {
@@ -3605,7 +3600,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.587439+00:00",
-    "updated": "2026-11-20T13:00:34.101613+00:00",
+    "updated": "2026-11-20T17:33:41.896635+00:00",
     "uid": "ff269abe61d00fd4"
   },
   {
@@ -3668,7 +3663,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T12:19:01.175737+00:00",
-    "updated": "2026-11-20T13:00:33.960286+00:00",
+    "updated": "2026-11-20T17:33:41.773301+00:00",
     "uid": "62a897456730d501"
   },
   {
@@ -3734,7 +3729,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T23:34:43.652810+00:00",
-    "updated": "2026-11-20T13:00:34.240780+00:00",
+    "updated": "2026-11-20T17:33:42.012978+00:00",
     "uid": "ebb36f2c470476c2"
   },
   {
@@ -3797,7 +3792,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.584757+00:00",
-    "updated": "2026-11-20T13:00:33.888626+00:00",
+    "updated": "2026-11-20T17:33:41.713478+00:00",
     "uid": "0438a994b76e2cee"
   },
   {
@@ -3864,7 +3859,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:35:28.192105+00:00",
-    "updated": "2026-11-20T13:00:34.074256+00:00",
+    "updated": "2026-11-20T17:33:41.873045+00:00",
     "uid": "12b801c2dcaee62a"
   },
   {
@@ -3932,7 +3927,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:13.073039+00:00",
-    "updated": "2026-11-20T12:59:40.917515+00:00",
+    "updated": "2026-11-20T17:32:26.863003+00:00",
     "uid": "36143068bebf6e60"
   },
   {
@@ -4000,7 +3995,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:16.208911+00:00",
-    "updated": "2026-11-20T12:59:43.038422+00:00",
+    "updated": "2026-11-20T17:32:27.991913+00:00",
     "uid": "f42ce13053371ed4"
   },
   {
@@ -4068,7 +4063,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T16:43:36.646881+00:00",
-    "updated": "2026-11-20T12:59:44.794835+00:00",
+    "updated": "2026-11-20T17:32:29.269366+00:00",
     "uid": "dc4015baaf0a4074"
   },
   {
@@ -4136,8 +4131,68 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:31.348859+00:00",
-    "updated": "2026-11-20T12:59:49.459628+00:00",
+    "updated": "2026-11-20T17:32:33.812278+00:00",
     "uid": "5ba14d2787fb6fad"
+  },
+  {
+    "title": "Flag",
+    "start": "2026-11-25T19:00:00+01:00",
+    "venue": {
+      "name": "Cafeteria",
+      "city": "Treviolo",
+      "province": "BG",
+      "lat": 45.672,
+      "lon": 9.616,
+      "address": null,
+      "kind": "bar",
+      "capacity": null,
+      "socials": {
+        "instagram": "cafeteriatreviolo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Unspecified",
+    "genre_source": "none",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": null,
+    "fascia_auto": "preserata",
+    "fascia_why": "inizia alle 19:00",
+    "in_posts": true,
+    "rank": 0.849,
+    "category": "club",
+    "description": "FLAG - aperi-cena e cena dalle 19:00, poi after dinner con DJ set (Cafeteria Treviolo, ogni mercoledì)",
+    "url": "https://www.instagram.com/p/Dfm5fjXm3ip/",
+    "ticket_url": null,
+    "image_url": null,
+    "price": null,
+    "promoter": null,
+    "promoter_name": "Flag",
+    "room": null,
+    "sources": [
+      "manual"
+    ],
+    "source_urls": [],
+    "score": 1.5,
+    "scope": "ignore",
+    "distance_km": 5.6,
+    "reasons": [
+      "genre:dj set"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:32:01.983927+00:00",
+    "updated": "2026-11-20T17:32:01.983927+00:00",
+    "uid": "d47d6347a45320b4"
   },
   {
     "title": "Gigi D’Alessio",
@@ -4202,8 +4257,143 @@
     "reasons": [],
     "alert_level": null,
     "first_seen": "2026-11-17T00:06:37.940048+00:00",
-    "updated": "2026-11-20T12:59:51.107238+00:00",
+    "updated": "2026-11-20T17:32:36.669258+00:00",
     "uid": "68a07451e6d114d6"
+  },
+  {
+    "title": "Queen Latin Night",
+    "start": "2026-11-25T23:00:00+01:00",
+    "venue": {
+      "name": "Queen Club",
+      "city": "Seriate",
+      "province": "BG",
+      "lat": 45.68,
+      "lon": 9.735,
+      "address": "Cassinone (Seriate)",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "discoteca_queen",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "latin / reggaeton"
+    ],
+    "genre": "Latin / Reggaeton",
+    "genre_source": "event",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": false,
+    "late_end": false,
+    "entry": "paid",
+    "fascia_auto": "serata",
+    "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
+    "rank": 2.83,
+    "category": "club",
+    "description": "MERCOLEDÌ 25 NOVEMBRE \nQueen Latin Night \nin collaborazione con Life Dance\n\nIngresso OMAGGIO \nConsumazione OBBLIGATORIA\n\nLATINO \nIn consolle Steve Romei \n\nStage gratuito di Bachata con Estudio Salsa\n\n*************************************\nPRENOTAZIONI TAVOLI GRATUITA \n*************************************\n\nLocation:\nQueen\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
+    "url": "https://www.instagram.com/p/Df-L-wXtuZD/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/914585073_18345859225258835_1611483492159085827_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HtnjTvIM96sQ7kNvwH88nEi&_nc_oc=AdqJwvqzkR-8_nuQwNfXLYouu1mx4ZgzV5F9egL2xgFuI_AQ1HXhSdY8rLRjT8RRVmc&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ucaXO9F3RVuEoYmroc6KOg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTIOMBgU-i8ytNfzKM4F-RXUhnZldWgquU-N5Cp0Crifw&oe=6B0665C6",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:17889459219622538-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df-L-wXtuZD/"
+    ],
+    "score": 3.9,
+    "scope": "local",
+    "distance_km": 4.9,
+    "reasons": [
+      "genre:reggaeton",
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.027887+00:00",
+    "updated": "2026-11-20T17:33:42.027887+00:00",
+    "uid": "e3d2f74655abe2f9"
+  },
+  {
+    "title": "Please",
+    "start": "2026-11-25T23:30:00+01:00",
+    "venue": {
+      "name": "Zero Club",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.693,
+      "lon": 9.665,
+      "address": "Via Baschenis 9, Bergamo",
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "zeroclub.bg",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": "https://ra.co/clubs/72471"
+      },
+      "verified": false
+    },
+    "end": "2026-11-26T03:30:00+01:00",
+    "artists": [],
+    "genres": [],
+    "genre": "Commerciale 360",
+    "genre_source": "promoter",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": "paid",
+    "fascia_auto": "serata",
+    "fascia_why": "finisce alle 03:30",
+    "in_posts": true,
+    "rank": 4.27,
+    "category": "club",
+    "description": "PLEASE x RÈVERIE - MER 25/11 🔥\n\nPotrai anche prendere le ferie dal lavoro o balzare la scuola per giocare a GTA VI, ma non puoi perdere il tuo appuntamento settimanale prefe ❤️\n\nInsieme a noi anche gli amici di reverie__night per sgasare al massimo🚔 \n\n🫧 INGRESSO GRATUITO consumazione obbligatoria\n🍾 TAVOLI da 100€ con 4 pass \n\n📍 zeroclub.bg - via E. Baschenis 9, Bergamo\n⏰️ From 23:30 to 03:30\n\n🥰 Special thanks to:\nsammjtiffany \n\n✨️ NON MANCARE 😍\n #mercolediplease",
+    "url": "https://www.instagram.com/p/Df9iZR8jWSV/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/914522227_17957683938308635_7639491796475542068_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0_HEpV8TZdcQ7kNvwF5o8z8&_nc_oc=AdouOxW0hopO8Wf7FE8-WMIWhPFMrQfXb_wU0arvQvd38finYl1GCXry9q9WIfBgjHc&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=saM-T5u3fz81Far8O67c6Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRdtEZuoYNjVasJbm-LsoqFvinrDvd7qFIwoG3Kk0ze8w&oe=6B064045",
+    "price": null,
+    "promoter": {
+      "instagram": "please.nights",
+      "tiktok": null,
+      "facebook": null,
+      "website": null,
+      "resident_advisor": null
+    },
+    "promoter_name": "@please.nights",
+    "room": null,
+    "sources": [
+      "ig:18103430102396824-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df9iZR8jWSV/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 1.1,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.045940+00:00",
+    "updated": "2026-11-20T17:33:42.045940+00:00",
+    "uid": "bd555e829fe1e3e8"
   },
   {
     "title": "Alahor in Granata",
@@ -4270,7 +4460,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-18T07:36:44.104419+00:00",
-    "updated": "2026-11-20T12:59:55.807369+00:00",
+    "updated": "2026-11-20T17:32:40.687459+00:00",
     "uid": "6c55cee6e1de186a"
   },
   {
@@ -4328,17 +4518,17 @@
       "https://www.instagram.com/p/DfkWuNAG4US/"
     ],
     "score": 4.2,
-    "scope": "ignore",
+    "scope": "local",
     "distance_km": 0.7,
     "reasons": [
       "genre:disco",
       "instagram-club-night",
       "venue:open_air",
-      "concert-not-crossover"
+      "venue-live-nights"
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T21:14:32.467512+00:00",
-    "updated": "2026-11-20T13:00:34.016466+00:00",
+    "updated": "2026-11-20T17:33:41.824079+00:00",
     "uid": "1a9cc20993cbded2"
   },
   {
@@ -4405,7 +4595,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.614015+00:00",
-    "updated": "2026-11-20T13:00:34.173545+00:00",
+    "updated": "2026-11-20T17:33:41.956891+00:00",
     "uid": "761e00f931361d5e"
   },
   {
@@ -4471,7 +4661,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-20T13:00:34.245209+00:00",
-    "updated": "2026-11-20T13:00:34.245209+00:00",
+    "updated": "2026-11-20T17:33:41.938808+00:00",
     "uid": "729117387a1aff47"
   },
   {
@@ -4542,7 +4732,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.583794+00:00",
-    "updated": "2026-11-20T13:00:34.235918+00:00",
+    "updated": "2026-11-20T17:33:42.008906+00:00",
     "uid": "0d6683345360f7ba"
   },
   {
@@ -4620,7 +4810,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.880857+00:00",
-    "updated": "2026-11-20T13:00:34.209263+00:00",
+    "updated": "2026-11-20T17:33:41.986688+00:00",
     "uid": "36cd0b0ad4ecbce9"
   },
   {
@@ -4688,7 +4878,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-19T00:27:30.555801+00:00",
-    "updated": "2026-11-20T13:00:00.218765+00:00",
+    "updated": "2026-11-20T17:32:43.566319+00:00",
     "uid": "bd465ea9910be082"
   },
   {
@@ -4756,8 +4946,77 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-19T00:27:32.612635+00:00",
-    "updated": "2026-11-20T13:00:02.290586+00:00",
+    "updated": "2026-11-20T17:32:44.892065+00:00",
     "uid": "8a634d36ffcc7a2d"
+  },
+  {
+    "title": "SAVANA FUNK",
+    "start": "2026-11-28T20:30:00+01:00",
+    "venue": {
+      "name": "Druso",
+      "city": "Ranica",
+      "province": "BG",
+      "lat": 45.724,
+      "lon": 9.714,
+      "address": null,
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "drusobg",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "hard techno",
+      "afro house",
+      "disco / funk"
+    ],
+    "genre": "Hard Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": "paid",
+    "fascia_auto": "serata",
+    "fascia_why": "grande evento musicale",
+    "in_posts": true,
+    "rank": 2.53,
+    "category": "concert",
+    "description": "𝗦𝗔𝗩𝗔𝗡𝗔 𝗙𝗨𝗡𝗞\nin concerto al Druso di Bergamo\n\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n📅 Sabato 28 Novembre 2026\n🕥 Porte 20:30 | Live 22:00\n📍 Druso via Antonio Locatelli 17 Ranica BG\n🍔 Food truck attivo \n🎸 openact: lividooo\n🎧 aftershow: ozza.dj\n\nI savana_funk nel 2026 aprono un nuovo capitolo del loro percorso musicale con “Behind The Eyes”, il sesto album in studio, pubblicato il 20 febbraio, e il singolo “Làbas”, uscito il 25 settembre. Dopo aver festeggiato dieci anni di attività, la band bolognese prosegue la propria evoluzione sonora, esplorando nuove direzioni e ampliando i propri orizzonti musicali, anche attraverso la collaborazione con il produttore artistico Tommaso Colliva.\n\nCon sei album, un EP e centinaia di concerti alle spalle, i Savana Funk si sono affermati come una delle realtà più originali della scena italiana, capaci di conquistare un pubblico trasversale grazie a una miscela esplosiva di funk, rock, blues e influenze afrobeat. Nei loro concerti il groove diventa un linguaggio universale, un flusso continuo di suono, corpo e movimento che celebra la musica nella sua forma più libera e travolgente, fondendo tradizione e sperimentazione in un’esperienza live ad ",
+    "url": "https://www.instagram.com/reel/Df71ERpAVju/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/920311784_2045382962838469_8284266642189817494_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=OqKDbKXESj4Q7kNvwFOIB2m&_nc_oc=AdoCRhAlrxw2ZZgkWlVwfCyXzBYbiTPjfFl0tp1kbUanbY1mqmDNC-rAs8ceS3okRHk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HAWBy9RMUM_u47baSbTweg&_nc_tpa=Q5bMBQLc9bGRWoeSpZKmf5FYZhzSMdO4eLyrrfrwxYZi5UTfIPT2oiA0jrdjZ98aqG1OFl9QUJrTgSxLZQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQS9qV689tpKJL6XWLpjgjgjHgHR15mVBwWKIl6A2vDghw&oe=6B064E7F",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:18394092943229347-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/Df71ERpAVju/"
+    ],
+    "score": 5.3,
+    "scope": "ignore",
+    "distance_km": 4.0,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:live_club",
+      "concert-not-crossover"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.016703+00:00",
+    "updated": "2026-11-20T17:33:42.016703+00:00",
+    "uid": "262dfffae0fb0418"
   },
   {
     "title": "Deep e House Vinyl Selection",
@@ -4826,7 +5085,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.034453+00:00",
-    "updated": "2026-11-20T13:00:33.998773+00:00",
+    "updated": "2026-11-20T17:33:41.809266+00:00",
     "uid": "47d27f9ca1accd23"
   },
   {
@@ -4894,7 +5153,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.893181+00:00",
-    "updated": "2026-11-20T13:00:34.047691+00:00",
+    "updated": "2026-11-20T17:33:41.850183+00:00",
     "uid": "d3c806a14be574cf"
   },
   {
@@ -4976,7 +5235,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.956467+00:00",
-    "updated": "2026-11-20T13:00:34.205113+00:00",
+    "updated": "2026-11-20T17:33:41.983169+00:00",
     "uid": "6ae7abc31d1ead45"
   },
   {
@@ -5049,7 +5308,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:33:09.585576+00:00",
-    "updated": "2026-11-20T13:00:33.901471+00:00",
+    "updated": "2026-11-20T17:33:41.724446+00:00",
     "uid": "94f4e09d78327a16"
   },
   {
@@ -5118,7 +5377,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-20T03:25:24.436360+00:00",
-    "updated": "2026-11-20T13:00:33.994342+00:00",
+    "updated": "2026-11-20T17:33:41.805522+00:00",
     "uid": "680a137bc50e9aae"
   },
   {
@@ -5186,7 +5445,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-20T03:24:47.508660+00:00",
-    "updated": "2026-11-20T13:00:06.437150+00:00",
+    "updated": "2026-11-20T17:32:54.989416+00:00",
     "uid": "9a0229e26a5adc78"
   },
   {
@@ -5254,7 +5513,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-20T03:24:55.454549+00:00",
-    "updated": "2026-11-20T13:00:08.589871+00:00",
+    "updated": "2026-11-20T17:32:56.290062+00:00",
     "uid": "cb07fc5448f8e82d"
   },
   {
@@ -5327,7 +5586,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T22:49:17.843777+00:00",
-    "updated": "2026-11-20T13:00:33.880370+00:00",
+    "updated": "2026-11-20T17:33:41.706416+00:00",
     "uid": "32d173c9290dab09"
   },
   {
@@ -5394,7 +5653,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T15:52:06.100708+00:00",
-    "updated": "2026-11-20T13:00:34.169414+00:00",
+    "updated": "2026-11-20T17:33:41.953408+00:00",
     "uid": "86ddb578e2744048"
   },
   {
@@ -5463,7 +5722,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T00:07:19.884174+00:00",
-    "updated": "2026-11-20T13:00:33.923953+00:00",
+    "updated": "2026-11-20T17:33:41.742975+00:00",
     "uid": "e2cff1d5820ec654"
   },
   {
@@ -5518,16 +5777,16 @@
       "https://www.instagram.com/p/Df2gM6AN0i7/"
     ],
     "score": 3.0,
-    "scope": "ignore",
+    "scope": "local",
     "distance_km": 0.7,
     "reasons": [
       "instagram-club-night",
       "venue:open_air",
-      "concert-not-crossover"
+      "venue-live-nights"
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T21:14:32.458881+00:00",
-    "updated": "2026-11-20T13:00:33.862671+00:00",
+    "updated": "2026-11-20T17:33:41.695093+00:00",
     "uid": "5cd188944a831c97"
   },
   {
@@ -5594,8 +5853,137 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-19T10:27:33.828686+00:00",
-    "updated": "2026-11-20T13:00:34.200041+00:00",
+    "updated": "2026-11-20T17:33:41.978971+00:00",
     "uid": "b22ef149e42cc053"
+  },
+  {
+    "title": "Dj Lola Italova DJ",
+    "start": "2026-12-08T18:00:00+01:00",
+    "venue": {
+      "name": "NXT Station",
+      "city": "Bergamo",
+      "province": "BG",
+      "lat": 45.693,
+      "lon": 9.673,
+      "address": null,
+      "kind": "open_air",
+      "capacity": null,
+      "socials": {
+        "instagram": "nxtbergamo",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "dj set"
+    ],
+    "genre": "Live",
+    "genre_source": "venue",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": false,
+    "late_end": false,
+    "entry": "free",
+    "fascia_auto": "preserata",
+    "fascia_why": "NXT Station: sempre preserata",
+    "in_posts": true,
+    "rank": 1.5,
+    "category": "club",
+    "description": "𝐃𝐣 𝐋𝐨𝐥𝐚 🎧🍹 𝐈𝐭𝐚𝐥𝐨𝐯𝐚 𝐃𝐉 𝐒𝐞𝐭 @ 𝐍𝐗𝐓 𝐁𝐞𝐫𝐠𝐚𝐦𝐨, 𝐏𝐢𝐚𝐳𝐳𝐚𝐥𝐞 𝐝𝐞𝐠𝐥𝐢 𝐀𝐥𝐩𝐢𝐧𝐢 - 𝟖 𝐝𝐢𝐜𝐞𝐦𝐛𝐫𝐞 𝐈𝐍𝐆𝐑𝐄𝐒𝐒𝐎 𝐆𝐑𝐀𝐓𝐔𝐈𝐓𝐎, ore 17:00\nMusica di classe e stile - come solo Lola sa scegliere - e la magia del nostro Ice & Star Garden ✨ Il mix giusto per star bene, godersi ottima musica all'aria aperta e lasciarsi andare in ottima compagnia. \n\nCi vediamo in Piazzale degli Alpini 😘",
+    "url": "https://www.instagram.com/p/Df9uwpNm0p4/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/916054347_1137943918993087_8491511990873271753_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2iZl-tCFZokQ7kNvwEEOS8_&_nc_oc=AdoEzRVyJ9q3jIGOUKaVqpN1Gp6Q19eI6yqILyVOpmXFJtNqDTKqVuG_w4DmKjz0tbk&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=19KyuVi9CRB7f0Qd73TX7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRKTEhw-A6Ynv_uyFYeZYHL7viwm9hJVPr_zzuFil2wbQ&oe=6B064637",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:18134472499691014-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df9uwpNm0p4/"
+    ],
+    "score": 4.5,
+    "scope": "local",
+    "distance_km": 0.7,
+    "reasons": [
+      "genre:dj set",
+      "instagram-club-night",
+      "venue:open_air"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.038900+00:00",
+    "updated": "2026-11-20T17:33:42.038900+00:00",
+    "uid": "c872f4368e34648b"
+  },
+  {
+    "title": "RIO NEW YEAR'S EVE 2027",
+    "start": "2026-12-22T22:00:00+01:00",
+    "venue": {
+      "name": "Capogiro",
+      "city": "Curno",
+      "province": "BG",
+      "lat": 45.69,
+      "lon": 9.612,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "capogirojoyclub",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Commerciale",
+    "genre_source": "venue",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": "paid",
+    "fascia_auto": "serata",
+    "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
+    "rank": 3.03,
+    "category": "club",
+    "description": "MIDNIGHT IN RIO NEW YEAR’S EVE 2027 ✨\n\nFesteggia il tuo Capodanno al CaPoGiRo per una notte tutta da vivere con le vibes di Rio! \n\nUn’atmosfera brasiliana accompagnerà l’ultima notte dell’anno con una pista pronta ad accogliere il 2027.\n\nTICKET OPTIONS \nBUFFET & CLUB TICKET \n• Prevendita: 45€\n• Senza prevendita: 50€ donna | 55€ uomo\nIngresso dalle 22:00 fino alle 00:30: ricco buffet, brindisi di mezzanotte, ingresso al club con drink incluso e festa fino alle 05:00.\n\nCLUB TICKET \n• Prevendita: 25€\n• Senza prevendita: 30€ donna | 35€ uomo\n\nPrevendite disponibili fino al 22 dicembre! \n\n31 dicembre 2026 | CaPoGiRo\nVia Trento 14, Curno (BG)\n\nUn Capodanno tutto da ballare, per iniziare il nuovo anno con l’energia giusta 🪩\n\nInfo e prenotazioni: 3756399960 o in DM.\n\n#capogirojoyclub #newyearseve #capodanno2027",
+    "url": "https://www.instagram.com/p/Df-JF6zjNx-/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/917340751_18652353709048414_8392972159042342255_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VMySszE7mOYQ7kNvwGSgcOP&_nc_oc=AdoEkrXxzp_g-fN7DWC4tCiice13iL8Ls9GpZpaA5YJcBF4HntL8Qr6AKxVwvLCsyJs&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=lfnjuvVw8aPaSzS9soKVYg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRtemds7fzc2faHFouA6d-I90lOAj26iZ2C9cBtNFEA7w&oe=6B066BA4",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:18100287572111376-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df-JF6zjNx-/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 5.2,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.031504+00:00",
+    "updated": "2026-11-20T17:33:42.031504+00:00",
+    "uid": "d1f6269f325dde82"
   },
   {
     "title": "Keller Factory",
@@ -5659,7 +6047,7 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-16T21:22:23.036898+00:00",
-    "updated": "2026-11-20T13:00:34.003413+00:00",
+    "updated": "2026-11-20T17:33:41.813064+00:00",
     "uid": "223ae55c0998170b"
   },
   {
@@ -5732,7 +6120,205 @@
     ],
     "alert_level": null,
     "first_seen": "2026-11-17T21:14:32.442397+00:00",
-    "updated": "2026-11-20T13:00:34.087791+00:00",
+    "updated": "2026-11-20T17:33:41.884756+00:00",
     "uid": "e30b92a000d65557"
+  },
+  {
+    "title": "RIO NEW YEAR'S EVE 2027",
+    "start": "2026-12-31T22:00:00+01:00",
+    "venue": {
+      "name": "Capogiro",
+      "city": "Curno",
+      "province": "BG",
+      "lat": 45.69,
+      "lon": 9.612,
+      "address": null,
+      "kind": "club",
+      "capacity": null,
+      "socials": {
+        "instagram": "capogirojoyclub",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [],
+    "genre": "Commerciale",
+    "genre_source": "venue",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": "paid",
+    "fascia_auto": "serata",
+    "fascia_why": "lista / prezzo / biglietti",
+    "in_posts": true,
+    "rank": 3.03,
+    "category": "club",
+    "description": "MIDNIGHT IN RIO NEW YEAR’S EVE 2027 ✨\n\nFesteggia il tuo Capodanno al CaPoGiRo per una notte tutta da vivere con le vibes di Rio! \n\nUn’atmosfera brasiliana accompagnerà l’ultima notte dell’anno con una pista pronta ad accogliere il 2027.\n\nTICKET OPTIONS \nBUFFET & CLUB TICKET \n• Prevendita: 45€\n• Senza prevendita: 50€ donna | 55€ uomo\nIngresso dalle 22:00 fino alle 00:30: ricco buffet, brindisi di mezzanotte, ingresso al club con drink incluso e festa fino alle 05:00.\n\nCLUB TICKET \n• Prevendita: 25€\n• Senza prevendita: 30€ donna | 35€ uomo\n\nPrevendite disponibili fino al 22 dicembre! \n\n31 dicembre 2026 | CaPoGiRo\nVia Trento 14, Curno (BG)\n\nUn Capodanno tutto da ballare, per iniziare il nuovo anno con l’energia giusta 🪩\n\nInfo e prenotazioni: 3756399960 o in DM.\n\n#capogirojoyclub #newyearseve #capodanno2027",
+    "url": "https://www.instagram.com/p/Df-JF6zjNx-/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/917340751_18652353709048414_8392972159042342255_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VMySszE7mOYQ7kNvwGSgcOP&_nc_oc=AdoEkrXxzp_g-fN7DWC4tCiice13iL8Ls9GpZpaA5YJcBF4HntL8Qr6AKxVwvLCsyJs&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=lfnjuvVw8aPaSzS9soKVYg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRtemds7fzc2faHFouA6d-I90lOAj26iZ2C9cBtNFEA7w&oe=6B066BA4",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:18100287572111376-1"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df-JF6zjNx-/"
+    ],
+    "score": 3.5,
+    "scope": "local",
+    "distance_km": 5.2,
+    "reasons": [
+      "instagram-club-night",
+      "venue:club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.035104+00:00",
+    "updated": "2026-11-20T17:33:42.035104+00:00",
+    "uid": "238df304396c59fd"
+  },
+  {
+    "title": "SO PURE Alanis Morissette Tribute",
+    "start": "2027-01-02T20:00:00+01:00",
+    "venue": {
+      "name": "Druso",
+      "city": "Ranica",
+      "province": "BG",
+      "lat": 45.724,
+      "lon": 9.714,
+      "address": null,
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "drusobg",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "hard techno"
+    ],
+    "genre": "Hard Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": "paid",
+    "fascia_auto": "preserata",
+    "fascia_why": "inizia alle 20:00",
+    "in_posts": true,
+    "rank": 2.53,
+    "category": "club",
+    "description": "🔥 SO PURE Alanis Morissette Tribute\nAftershow: SUE L.N. DjSet \n\nUna serata dedicata a una delle artiste più iconiche del rock internazionale.\nDalle sonorità graffianti di You Oughta Know all'energia travolgente di Ironic, passando per Hand in My Pocket e Thank U: un viaggio attraverso i brani che hanno segnato un'intera generazione.\n\nI SO PURE portano sul palco del Druso tutta la forza, l'energia e le emozioni della musica di Alanis Morissette.\n🎸 Pronti a cantarle tutte?\n\n📍 Druso – Via Antonio Locatelli 17, Ranica (BG)\n📅 Sabato 02 Gennaio 2027\n🕕 20:00 porte | 21:30 live\n\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Food Truck Attivo\n\n🍏 #druso #sopure #alanismorrisette #rock",
+    "url": "https://www.instagram.com/p/Df49j5GAAWV/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/911194714_18456258655134654_1738643233330787803_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uwwMdxW7tBIQ7kNvwE5Sw6D&_nc_oc=Adp_e6UCtvldeNhzNRNgVR528vFHqGSKrXr2mANFWJ3lVbVdCQDXSpbbkoWbmmtE-2Q&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HAWBy9RMUM_u47baSbTweg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT6VcmvYjCeiU2_7KonyrhPOxYmwi6r8qZW5Go9tezd_A&oe=6B0653F8",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:18117696938138616-0"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/p/Df49j5GAAWV/"
+    ],
+    "score": 5.3,
+    "scope": "local",
+    "distance_km": 4.0,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:live_club"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.024239+00:00",
+    "updated": "2026-11-20T17:33:42.024239+00:00",
+    "uid": "d9bc5a360253562d"
+  },
+  {
+    "title": "SAVANA FUNK",
+    "start": "2027-02-20T20:30:00+01:00",
+    "venue": {
+      "name": "Druso",
+      "city": "Ranica",
+      "province": "BG",
+      "lat": 45.724,
+      "lon": 9.714,
+      "address": null,
+      "kind": "live_club",
+      "capacity": null,
+      "socials": {
+        "instagram": "drusobg",
+        "tiktok": null,
+        "facebook": null,
+        "website": null,
+        "resident_advisor": null
+      },
+      "verified": false
+    },
+    "end": null,
+    "artists": [],
+    "genres": [
+      "hard techno",
+      "afro house",
+      "disco / funk"
+    ],
+    "genre": "Hard Techno",
+    "genre_source": "event",
+    "headliners": [],
+    "fascia": null,
+    "fascia_hint": null,
+    "start_known": true,
+    "late_end": false,
+    "entry": "paid",
+    "fascia_auto": "serata",
+    "fascia_why": "grande evento musicale",
+    "in_posts": true,
+    "rank": 2.53,
+    "category": "concert",
+    "description": "𝗦𝗔𝗩𝗔𝗡𝗔 𝗙𝗨𝗡𝗞\nin concerto al Druso di Bergamo\n\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n📅 Sabato 28 Novembre 2026\n🕥 Porte 20:30 | Live 22:00\n📍 Druso via Antonio Locatelli 17 Ranica BG\n🍔 Food truck attivo \n🎸 openact: lividooo\n🎧 aftershow: ozza.dj\n\nI savana_funk nel 2026 aprono un nuovo capitolo del loro percorso musicale con “Behind The Eyes”, il sesto album in studio, pubblicato il 20 febbraio, e il singolo “Làbas”, uscito il 25 settembre. Dopo aver festeggiato dieci anni di attività, la band bolognese prosegue la propria evoluzione sonora, esplorando nuove direzioni e ampliando i propri orizzonti musicali, anche attraverso la collaborazione con il produttore artistico Tommaso Colliva.\n\nCon sei album, un EP e centinaia di concerti alle spalle, i Savana Funk si sono affermati come una delle realtà più originali della scena italiana, capaci di conquistare un pubblico trasversale grazie a una miscela esplosiva di funk, rock, blues e influenze afrobeat. Nei loro concerti il groove diventa un linguaggio universale, un flusso continuo di suono, corpo e movimento che celebra la musica nella sua forma più libera e travolgente, fondendo tradizione e sperimentazione in un’esperienza live ad ",
+    "url": "https://www.instagram.com/reel/Df71ERpAVju/",
+    "ticket_url": null,
+    "image_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/920311784_2045382962838469_8284266642189817494_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=OqKDbKXESj4Q7kNvwFOIB2m&_nc_oc=AdoCRhAlrxw2ZZgkWlVwfCyXzBYbiTPjfFl0tp1kbUanbY1mqmDNC-rAs8ceS3okRHk&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HAWBy9RMUM_u47baSbTweg&_nc_tpa=Q5bMBQLc9bGRWoeSpZKmf5FYZhzSMdO4eLyrrfrwxYZi5UTfIPT2oiA0jrdjZ98aqG1OFl9QUJrTgSxLZQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQS9qV689tpKJL6XWLpjgjgjHgHR15mVBwWKIl6A2vDghw&oe=6B064E7F",
+    "price": null,
+    "promoter": null,
+    "promoter_name": null,
+    "room": null,
+    "sources": [
+      "ig:18394092943229347-1"
+    ],
+    "source_urls": [
+      "https://www.instagram.com/reel/Df71ERpAVju/"
+    ],
+    "score": 5.3,
+    "scope": "ignore",
+    "distance_km": 4.0,
+    "reasons": [
+      "genre:techno",
+      "instagram-club-night",
+      "venue:live_club",
+      "concert-not-crossover"
+    ],
+    "alert_level": null,
+    "first_seen": "2026-11-20T17:33:42.020414+00:00",
+    "updated": "2026-11-20T17:33:42.020414+00:00",
+    "uid": "9edb968ddca3b13a"
   }
 ]
