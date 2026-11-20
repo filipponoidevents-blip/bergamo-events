@@ -1,21 +1,21 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-20T17:26",
+ "generated": "2026-11-20T17:38",
  "nights": [
   {
    "date": "2026-11-20",
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 3,
-   "load": 173.8,
-   "level": "media",
-   "capacity_taken": 3450,
+   "events": 7,
+   "load": 293.0,
+   "level": "piena",
+   "capacity_taken": 6000,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 3
+    "Altro": 7
    },
    "missing_families": [
     "House / Elettronica",
@@ -37,6 +37,16 @@
      "title": "Bobadilla Feeling Club",
      "score": 44.8,
      "capacity": 1250
+    },
+    {
+     "title": "Zero Club · Unibg_Party",
+     "score": 41.5,
+     "capacity": 1000
+    },
+    {
+     "title": "VIBE · This Week",
+     "score": 37.0,
+     "capacity": 750
     }
    ]
   },
@@ -45,20 +55,19 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 3,
-   "load": 151.8,
+   "events": 7,
+   "load": 281.0,
    "level": "piena",
-   "capacity_taken": 3450,
+   "capacity_taken": 6650,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 3
+    "Commerciale": 1,
+    "Altro": 6
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
@@ -70,6 +79,16 @@
      "title": "Bolgia · MAD DOG",
      "score": 50.2,
      "capacity": 1250
+    },
+    {
+     "title": "[Reggaeton / Commerciale] Nikita · Novembre Enter The Void",
+     "score": 43.4,
+     "capacity": 1150
+    },
+    {
+     "title": "Zero Club · Premiere.Premiere",
+     "score": 41.5,
+     "capacity": 1000
     },
     {
      "title": "Bolgia (lab room) · Uboa",
@@ -113,7 +132,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -135,7 +154,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -155,22 +174,28 @@
    "weekday": "mercoledì",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
-   "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "events": 1,
+   "load": 41.5,
+   "level": "tranquilla",
+   "capacity_taken": 1000,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Zero Club · Please.Nights",
+     "score": 41.5,
+     "capacity": 1000
+    }
+   ]
   },
   {
    "date": "2026-11-26",
@@ -179,7 +204,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -199,37 +224,47 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
-   "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "events": 2,
+   "load": 80.4,
+   "level": "media",
+   "capacity_taken": 1600,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Zero Club · Crystalcastlesnightt",
+     "score": 41.5,
+     "capacity": 1000
+    },
+    {
+     "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
+     "score": 38.9,
+     "capacity": 600
+    }
+   ]
   },
   {
    "date": "2026-11-28",
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 50.2,
-   "level": "non ancora annunciata",
-   "capacity_taken": 1250,
+   "events": 3,
+   "load": 107.8,
+   "level": "media",
+   "capacity_taken": 2250,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 3
    },
    "missing_families": [
     "House / Elettronica",
@@ -241,6 +276,16 @@
      "title": "Bolgia · MARIE VAUNT",
      "score": 50.2,
      "capacity": 1250
+    },
+    {
+     "title": "Zero Club · Cromaroom",
+     "score": 31.2,
+     "capacity": 500
+    },
+    {
+     "title": "Zero Club (club room) · Bar Florio",
+     "score": 26.4,
+     "capacity": 500
     }
    ]
   },
@@ -251,7 +296,7 @@
    "weekend_like": false,
    "events": 1,
    "load": 7.7,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 100,
    "by_family": {
     "House / Elettronica": 0,
@@ -691,22 +736,28 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 43.4,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 1150,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "Nikita",
+     "score": 43.4,
+     "capacity": 1150
+    }
+   ]
   },
   {
    "date": "2026-12-19",

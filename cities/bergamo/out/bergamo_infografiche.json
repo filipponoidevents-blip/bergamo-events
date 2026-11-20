@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-20T17:26",
+ "generated": "2026-11-20T17:38",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -74,6 +74,38 @@
       "score": 44.8,
       "fascia": "serata",
       "family": "Altro"
+     },
+     {
+      "line1": "Unibg_Party @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "This Week @ VIBE",
+      "line2": "",
+      "time": "00:00",
+      "score": 37.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "VIBE",
+      "line2": "theater room",
+      "time": "00:00",
+      "score": 29.9,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "ARYA Lounge Bar",
+      "line2": "",
+      "time": "22:00",
+      "score": 10.8,
+      "fascia": "serata",
+      "family": "Altro"
      }
     ],
     "2026-11-21": [
@@ -94,10 +126,34 @@
       "family": "Altro"
      },
      {
+      "line1": "Premiere.Premiere @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Uboa @ Bolgia",
       "line2": "lab room",
       "time": "23:30",
       "score": 41.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "The.Circlehub @ Zero Club",
+      "line2": "club room",
+      "time": "00:00",
+      "score": 33.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "ARYA Lounge Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 10.8,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -110,6 +166,18 @@
       "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
+     }
+    ]
+   },
+   "Commerciale": {
+    "2026-11-21": [
+     {
+      "line1": "Novembre Enter The Void @ Nikita",
+      "line2": "Reggaeton / Commerciale",
+      "time": "00:00",
+      "score": 43.4,
+      "fascia": "serata",
+      "family": "Commerciale"
      }
     ]
    }
@@ -147,6 +215,14 @@
      "line2": "dj set",
      "time": "00:00",
      "score": 47.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Novembre @ Nikita",
+     "line2": "live",
+     "time": "22:30",
+     "score": 43.0,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -200,18 +276,31 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@divinabergamo",
+   "@zeroclub.bg",
    "@liveclub",
    "@barleyartsreal",
    "@alchemica_club",
    "@megan_is_missing_band",
    "@missdivina1",
+   "@vibetheclub",
+   "@arya.lounge",
+   "@nikita__land",
    "@bolgia.official",
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
    "@bobadillafeelingclub",
+   "@unibg_party",
+   "@oasi.night",
+   "@upside.down.night",
+   "@alessiosielii",
    "@lab80cinemas",
    "@theblankcontemporaryart",
+   "@naturalezza",
+   "@palmas.night",
+   "@premiere.premiere",
+   "@the.circlehub",
+   "@dj_arinatop",
    "@choruslife.bergamo"
   ],
   "hashtags": [
@@ -224,17 +313,55 @@
   "from": "2026-11-23",
   "to": "2026-11-29",
   "dates_with_serate": [
+   "2026-11-25",
+   "2026-11-27",
    "2026-11-28",
    "2026-11-29"
   ],
   "serate_by_family": {
    "Altro": {
+    "2026-11-25": [
+     {
+      "line1": "Please.Nights @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-27": [
+     {
+      "line1": "Crystalcastlesnightt @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-28": [
      {
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
       "time": "23:30",
       "score": 50.2,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Cromaroom @ Zero Club",
+      "line2": "",
+      "time": "00:59",
+      "score": 31.2,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Bar Florio @ Zero Club",
+      "line2": "club room",
+      "time": "00:00",
+      "score": 26.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -247,6 +374,18 @@
       "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
+     }
+    ]
+   },
+   "House / Elettronica": {
+    "2026-11-27": [
+     {
+      "line1": "Underground - Hardcore @ Oronero",
+      "line2": "Hard Techno, Possibilita",
+      "time": "23:30",
+      "score": 38.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ]
    }
@@ -324,9 +463,14 @@
   "big_events": [],
   "caption_handles": [
    "@inkclub_bergamo",
+   "@zeroclub.bg",
    "@to_on.tv",
    "@bowie.hc",
+   "@please.nights",
    "@choruslife.bergamo",
+   "@oroneroloveandmusic",
+   "@possibilita",
+   "@consumazione",
    "@corinna_fm",
    "@bolgia.official",
    "@tumulto_bg",
@@ -350,6 +494,8 @@
    "2026-11-20",
    "2026-11-21",
    "2026-11-22",
+   "2026-11-25",
+   "2026-11-27",
    "2026-11-28",
    "2026-11-29"
   ],
@@ -407,6 +553,38 @@
       "score": 44.8,
       "fascia": "serata",
       "family": "Altro"
+     },
+     {
+      "line1": "Unibg_Party @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "This Week @ VIBE",
+      "line2": "",
+      "time": "00:00",
+      "score": 37.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "VIBE",
+      "line2": "theater room",
+      "time": "00:00",
+      "score": 29.9,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "ARYA Lounge Bar",
+      "line2": "",
+      "time": "22:00",
+      "score": 10.8,
+      "fascia": "serata",
+      "family": "Altro"
      }
     ],
     "2026-11-21": [
@@ -427,10 +605,34 @@
       "family": "Altro"
      },
      {
+      "line1": "Premiere.Premiere @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Uboa @ Bolgia",
       "line2": "lab room",
       "time": "23:30",
       "score": 41.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "The.Circlehub @ Zero Club",
+      "line2": "club room",
+      "time": "00:00",
+      "score": 33.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "ARYA Lounge Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 10.8,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -445,12 +647,48 @@
       "family": "Altro"
      }
     ],
+    "2026-11-25": [
+     {
+      "line1": "Please.Nights @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-27": [
+     {
+      "line1": "Crystalcastlesnightt @ Zero Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-28": [
      {
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
       "time": "23:30",
       "score": 50.2,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Cromaroom @ Zero Club",
+      "line2": "",
+      "time": "00:59",
+      "score": 31.2,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Bar Florio @ Zero Club",
+      "line2": "club room",
+      "time": "00:00",
+      "score": 26.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -463,6 +701,30 @@
       "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
+     }
+    ]
+   },
+   "Commerciale": {
+    "2026-11-21": [
+     {
+      "line1": "Novembre Enter The Void @ Nikita",
+      "line2": "Reggaeton / Commerciale",
+      "time": "00:00",
+      "score": 43.4,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ]
+   },
+   "House / Elettronica": {
+    "2026-11-27": [
+     {
+      "line1": "Underground - Hardcore @ Oronero",
+      "line2": "Hard Techno, Possibilita",
+      "time": "23:30",
+      "score": 38.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ]
    }
@@ -500,6 +762,14 @@
      "line2": "dj set",
      "time": "00:00",
      "score": 47.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Novembre @ Nikita",
+     "line2": "live",
+     "time": "22:30",
+     "score": 43.0,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -630,6 +900,7 @@
   "big_events": [],
   "caption_handles": [
    "@inkclub_bergamo",
+   "@zeroclub.bg",
    "@divinabergamo",
    "@bolgia.official",
    "@liveclub",
@@ -637,20 +908,27 @@
    "@alchemica_club",
    "@megan_is_missing_band",
    "@missdivina1",
+   "@vibetheclub",
+   "@arya.lounge",
+   "@nikita__land",
    "@choruslife.bergamo",
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
    "@bobadillafeelingclub",
+   "@unibg_party",
+   "@oasi.night",
+   "@upside.down.night",
+   "@alessiosielii",
    "@lab80cinemas",
    "@theblankcontemporaryart",
+   "@naturalezza",
+   "@palmas.night",
+   "@premiere.premiere",
+   "@the.circlehub",
+   "@dj_arinatop",
    "@to_on.tv",
-   "@bowie.hc",
-   "@corinna_fm",
-   "@tumulto_bg",
-   "@scalpo_punk",
-   "@calce.viva.oi",
-   "@sezione.8"
+   "@bowie.hc"
   ],
   "hashtags": [
    "#bergamo",
@@ -666,6 +944,7 @@
    "2026-12-05",
    "2026-12-07",
    "2026-12-12",
+   "2026-12-18",
    "2026-12-25"
   ],
   "serate_by_family": {
@@ -700,6 +979,16 @@
       "family": "Altro"
      }
     ],
+    "2026-12-18": [
+     {
+      "line1": "Nikita",
+      "line2": "",
+      "time": "00:00",
+      "score": 43.4,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-12-25": [
      {
       "line1": "Via Treviglio 2058, Fara Gera d'Adda",
@@ -716,9 +1005,10 @@
   "big_events": [],
   "caption_handles": [
    "@bolgia.official",
+   "@prenotazione",
    "@liveclub",
    "@barleyartsreal",
-   "@prenotazione"
+   "@nikita__land"
   ],
   "hashtags": [
    "#bergamo",
