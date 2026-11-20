@@ -3,32 +3,6 @@
  "dice": [],
  "jsonld": [
   {
-   "date": "2026-11-19",
-   "start": "20:00",
-   "end": null,
-   "late_end": false,
-   "venue": "NXT Station",
-   "venue_known": true,
-   "address": "Piazzale degli Alpini, Bergamo",
-   "room": null,
-   "party": "Giorgio Canali",
-   "promoter": null,
-   "promoter_name": null,
-   "guests": [],
-   "genre": "Rock",
-   "type": "live",
-   "entry": null,
-   "price": null,
-   "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/giorgio-canali_307096/",
-   "handles": [],
-   "confidence": 0.8,
-   "source": "agenda",
-   "account": null,
-   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/giorgio-canali_307096/",
-   "posted": null,
-   "text": "Il musicista e produttore Giorgio Canali presenta il progetto solista «Rossosolo Live» all'interno di una serata dedicata alla sua produzione artistica tra rock e sperimentazione."
-  },
-  {
    "date": "2026-11-20",
    "start": "20:00",
    "end": null,
@@ -391,15 +365,67 @@
    "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/le-convenienze-ed-inconvenienze-teatrali_305902/",
    "posted": null,
    "text": "L'evento presenta il dramma giocoso in un atto «Le convenienze ed inconvenienze teatrali», con musica di Gaetano Donizetti e libretto di Domenico Gilardi, nell'ambito della rassegna «Donizetti Operats»."
+  },
+  {
+   "date": "2026-11-29",
+   "start": "15:30",
+   "end": null,
+   "late_end": false,
+   "venue": "Teatro Donizetti",
+   "venue_known": true,
+   "address": "Piazza Cavour 15, Bergamo",
+   "room": null,
+   "party": "L’esule di Roma",
+   "promoter": null,
+   "promoter_name": null,
+   "guests": [],
+   "genre": null,
+   "type": null,
+   "entry": null,
+   "price": null,
+   "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/lesule-di-roma_305892/",
+   "handles": [],
+   "confidence": 0.8,
+   "source": "agenda",
+   "account": null,
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/lesule-di-roma_305892/",
+   "posted": null,
+   "text": "L'opera «L'esule di Roma», parte della rassegna «Donizetti Opera», presenta un melodramma eroico in due atti con musica di Gaetano Don"
+  },
+  {
+   "date": "2026-11-29",
+   "start": "16:30",
+   "end": null,
+   "late_end": false,
+   "venue": "Aula Magna, sede di Sant'Agostino",
+   "venue_known": false,
+   "address": "Piazzale Sant'Agostino 2, Bergamo",
+   "room": null,
+   "party": "Kaleidoscopic Cello",
+   "promoter": null,
+   "promoter_name": null,
+   "guests": [],
+   "genre": null,
+   "type": "festival",
+   "entry": null,
+   "price": null,
+   "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfredo-piatti-e-guglielmo-quarenghi-un-metodo_307419/",
+   "handles": [],
+   "confidence": 0.8,
+   "source": "agenda",
+   "account": null,
+   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfredo-piatti-e-guglielmo-quarenghi-un-metodo_307419/",
+   "posted": null,
+   "text": "Per il «Festival Violoncellistico Internazionale Alfredo Piatti», domenica 29 novembre all’Università degli Studi di Bergamo il concerto conclusivo con la violoncellista Natalie Clein."
   }
  ],
  "articles": [
   {
-   "date": "2026-11-19",
+   "date": "2026-11-20",
    "start": null,
    "end": null,
    "late_end": false,
-   "venue": "Centro congressi Giovanni XXIII",
+   "venue": "ChorusLife Arena",
    "venue_known": true,
    "address": null,
    "room": null,
@@ -408,27 +434,135 @@
    "promoter_name": null,
    "guests": [
     {
-     "name": "attenzione",
-     "instagram": "attenzione",
+     "name": "spettacoli",
+     "instagram": "spettacoli",
      "level": null,
      "cue": false,
      "followers": null
     }
    ],
    "genre": null,
-   "type": "dj set",
+   "type": "culture",
    "entry": "a pagamento",
    "price": null,
    "tickets": null,
    "handles": [
-    "attenzione"
+    "spettacoli"
    ],
    "confidence": 0.75,
    "source": "giornale",
    "account": null,
-   "url": "https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-bergamo-due-giorni-di-confronto-per-parlare-della-sanita-a-360/",
-   "posted": "2026-11-05T09:00+00:00",
-   "text": "Nasce InnovaSalute: a Bergamo due giorni di confronto per parlare della sanita a 360°\nVenti sessioni e piu di trecento relatori animeranno il Centro Congressi Giovanni XXIII il 18 e il 19 novembre\n\n                                                     Bergamo  ·\n                                                  05 Novembre 2026 alle 10:00  \n                    \nDue giorni di dibattito, formazione e confronto: InnovaSalute e un progetto per approfondire qualita e sostenibilita dei servizi sociosanitari e costruire una sanita condivisa. Debutta a  Bergamo  il 18 e il 19 novembre al Centro Congres"
+   "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
+   "posted": "2026-11-20T17:26+00:00",
+   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
+  },
+  {
+   "date": "2026-11-28",
+   "start": null,
+   "end": null,
+   "late_end": false,
+   "venue": "ChorusLife Arena",
+   "venue_known": true,
+   "address": null,
+   "room": null,
+   "party": null,
+   "promoter": null,
+   "promoter_name": null,
+   "guests": [
+    {
+     "name": "spettacoli",
+     "instagram": "spettacoli",
+     "level": null,
+     "cue": false,
+     "followers": null
+    }
+   ],
+   "genre": null,
+   "type": "culture",
+   "entry": "a pagamento",
+   "price": null,
+   "tickets": null,
+   "handles": [
+    "spettacoli"
+   ],
+   "confidence": 0.75,
+   "source": "giornale",
+   "account": null,
+   "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
+   "posted": "2026-11-20T17:26+00:00",
+   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
+  },
+  {
+   "date": "2026-12-15",
+   "start": null,
+   "end": null,
+   "late_end": false,
+   "venue": "ChorusLife Arena",
+   "venue_known": true,
+   "address": null,
+   "room": null,
+   "party": null,
+   "promoter": null,
+   "promoter_name": null,
+   "guests": [
+    {
+     "name": "spettacoli",
+     "instagram": "spettacoli",
+     "level": null,
+     "cue": false,
+     "followers": null
+    }
+   ],
+   "genre": null,
+   "type": "culture",
+   "entry": "a pagamento",
+   "price": null,
+   "tickets": null,
+   "handles": [
+    "spettacoli"
+   ],
+   "confidence": 0.75,
+   "source": "giornale",
+   "account": null,
+   "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
+   "posted": "2026-11-20T17:26+00:00",
+   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
+  },
+  {
+   "date": "2027-07-11",
+   "start": null,
+   "end": null,
+   "late_end": false,
+   "venue": "ChorusLife Arena",
+   "venue_known": true,
+   "address": null,
+   "room": null,
+   "party": null,
+   "promoter": null,
+   "promoter_name": null,
+   "guests": [
+    {
+     "name": "spettacoli",
+     "instagram": "spettacoli",
+     "level": null,
+     "cue": false,
+     "followers": null
+    }
+   ],
+   "genre": null,
+   "type": "culture",
+   "entry": "a pagamento",
+   "price": null,
+   "tickets": null,
+   "handles": [
+    "spettacoli"
+   ],
+   "confidence": 0.75,
+   "source": "giornale",
+   "account": null,
+   "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
+   "posted": "2026-11-20T17:26+00:00",
+   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
   }
  ]
 }

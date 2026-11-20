@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
 UID:2026-11-18-centro_congressi_giovanni_xxiii@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Centro congressi Giovanni XXIII
 LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
@@ -23,7 +23,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-live_club@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261119T200000
 SUMMARY:[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna
 LOCATION:Live Club\, Via Giuseppe Mazzini 58\, 20056\, Trezzo sull'Adda
@@ -37,7 +37,7 @@ URL:https://www.instagram.com/p/Df4IYleQNX3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-centro_congressi_giovanni_xxiii@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Centro congressi Giovanni XXIII
 LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
@@ -53,14 +53,14 @@ URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-live_club@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261120T200000
 SUMMARY:[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna
 LOCATION:Live Club\, Via Giuseppe Mazzini 58\, 20056\, Trezzo sull'Adda
 DESCRIPTION:SERATA · voto 68.4/100\ngrande evento\n📍 Via Giuseppe Mazz
  ini 58\, 20056\, Trezzo sull'Adda (16.6 km)\nLocale: @liveclub\nPromoter:
   @barleyartsreal\nOspiti: Alchemica Music Club - Bologna\, M.I.M_BAND\nSt
- essa sera: altri 1 eventi (1 dello stesso genere)\nhttps://www.instagram.
+ essa sera: altri 2 eventi (2 dello stesso genere)\nhttps://www.instagram.
  com/p/DfzU4PDqouR/\nhttps://www.instagram.com/p/Df4IYleQNX3/\nhttps://www
  .instagram.com/p/DfzackdwNxu/
 CATEGORIES:SERATA,Altro
@@ -68,21 +68,33 @@ URL:https://www.instagram.com/p/DfzU4PDqouR/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-divina_music_bar@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Divina Music Bar · Miss DIVINA Fulvio Facchinetti
 LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
 DESCRIPTION:SERATA · voto 60.6/100\ningresso a pagamento o in lista\n📍
   Via Azzano San Paolo 71d\, 24050\, Grassobbio (5.0 km)\nLocale: @divinab
- ergamo\nOspiti: Miss DIVINA Fulvio Facchinetti\nStessa sera: altri 1 even
- ti (1 dello stesso genere)\nhttps://www.instagram.com/reel/Dftr-IuNYje/\n
+ ergamo\nOspiti: Miss DIVINA Fulvio Facchinetti\nStessa sera: altri 2 even
+ ti (2 dello stesso genere)\nhttps://www.instagram.com/reel/Dftr-IuNYje/\n
  https://www.instagram.com/reel/Dfxba2ttc8K/
 CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/reel/Dftr-IuNYje/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-20-bobadilla_feeling_club@nightlife-bergamo
+DTSTAMP:20261120T172628Z
+DTSTART;VALUE=DATE:20261120
+SUMMARY:Bobadilla Feeling Club
+LOCATION:Bobadilla Feeling Club
+DESCRIPTION:SERATA · voto 44.8/100\ndiscoteca\nLocale: @bobadillafeelingc
+ lub\nStessa sera: altri 2 eventi (2 dello stesso genere)\nhttps://www.ins
+ tagram.com/p/Df-COQ7Dykq/
+CATEGORIES:SERATA,Altro
+URL:https://www.instagram.com/p/Df-COQ7Dykq/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-21-divina_music_bar@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Divina Music Bar · Miss DIVINA Fulvio Facchinetti
 LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
@@ -95,7 +107,7 @@ URL:https://www.instagram.com/reel/DfwAisKNC1Q/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-bolgia@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261121T233000
 SUMMARY:Bolgia · MAD DOG
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -108,7 +120,7 @@ URL:https://www.instagram.com/reel/DfUkfwWoqMA/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-bolgia-lab_room@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261121T233000
 SUMMARY:Bolgia (lab room) · Uboa
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -121,7 +133,7 @@ URL:https://www.instagram.com/p/DfZuXEsIVlQ/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-sala_piatti@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261122T163000
 SUMMARY:Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo
 LOCATION:Sala Piatti\, Via S. Salvatore\, 11\, Bergamo
@@ -134,7 +146,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfr
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-bolgia@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261128T233000
 SUMMARY:Bolgia · MARIE VAUNT
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -145,8 +157,23 @@ CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/reel/DfmlzJmIigC/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-29-aula_magna_sede_di_sant_agostino@nightlife-bergamo
+DTSTAMP:20261120T172628Z
+DTSTART;TZID=Europe/Rome:20261129T163000
+SUMMARY:Aula Magna\, sede di Sant'Agostino · Kaleidoscopic Cello
+LOCATION:Aula Magna\, sede di Sant'Agostino\, Piazzale Sant'Agostino 2\, B
+ ergamo
+DESCRIPTION:SERATA · voto 7.7/100\ngrande evento\n📍 Piazzale Sant'Agos
+ tino 2\, Bergamo (0.8 km)\nhttps://www.ecodibergamo.it/eventi/eppen/detta
+ glio/musica/bergamo/alfredo-piatti-e-guglielmo-quarenghi-un-metodo_307419
+ /
+CATEGORIES:SERATA,Altro
+URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfr
+ edo-piatti-e-guglielmo-quarenghi-un-metodo_307419/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-05-bolgia@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261205T233000
 SUMMARY:Bolgia · CHELINA MANUHUTU
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -158,7 +185,7 @@ URL:https://www.instagram.com/reel/Df2C9x4IjrH/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-07-bolgia@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;TZID=Europe/Rome:20261207T233000
 SUMMARY:Bolgia · NOVAH
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -170,7 +197,7 @@ URL:https://www.instagram.com/reel/Df4m_TCI71w/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-live_club@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;VALUE=DATE:20261212
 SUMMARY:[Rock / Elettronica] Live Club · Barley Arts
 LOCATION:Live Club\, Via Giuseppe Mazzini 58\, 20056\, Trezzo sull'Adda
@@ -183,7 +210,7 @@ URL:https://www.instagram.com/p/DfreTr2Bm88/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-25-via_treviglio_2058_fara_gera_d_adda@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;VALUE=DATE:20261225
 SUMMARY:Via Treviglio 2058\, Fara Gera d'Adda
 LOCATION:Via Treviglio 2058\, Fara Gera d'Adda\, Via Treviglio 2058
@@ -195,7 +222,7 @@ URL:https://www.instagram.com/p/DfkV4SOjjrz/
 END:VEVENT
 BEGIN:VEVENT
 UID:token-2027-01-08@nightlife-bergamo
-DTSTAMP:20261119T191907Z
+DTSTAMP:20261120T172628Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:⚠️ Rinnovare il token di Instagram (scade tra 10 giorni)
 END:VEVENT

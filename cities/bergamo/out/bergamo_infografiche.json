@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-19T19:19",
+ "generated": "2026-11-20T17:26",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -64,6 +64,14 @@
       "line2": "",
       "time": "00:00",
       "score": 60.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Bobadilla Feeling Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 44.8,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -145,6 +153,14 @@
    ],
    "2026-11-21": [
     {
+     "line1": "Fiorella Mannoia @ ChorusLife Arena",
+     "line2": "dj set",
+     "time": "18:00",
+     "score": 56.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "11 Spaca Male Moltomalefest @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
@@ -193,8 +209,10 @@
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
+   "@bobadillafeelingclub",
    "@lab80cinemas",
-   "@theblankcontemporaryart"
+   "@theblankcontemporaryart",
+   "@choruslife.bergamo"
   ],
   "hashtags": [
    "#bergamo",
@@ -206,7 +224,8 @@
   "from": "2026-11-23",
   "to": "2026-11-29",
   "dates_with_serate": [
-   "2026-11-28"
+   "2026-11-28",
+   "2026-11-29"
   ],
   "serate_by_family": {
    "Altro": {
@@ -216,6 +235,16 @@
       "line2": "",
       "time": "23:30",
       "score": 50.2,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-29": [
+     {
+      "line1": "Kaleidoscopic Cello @ Aula Magna, sede di Sant'Agostino",
+      "line2": "",
+      "time": "16:30",
+      "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -321,7 +350,8 @@
    "2026-11-20",
    "2026-11-21",
    "2026-11-22",
-   "2026-11-28"
+   "2026-11-28",
+   "2026-11-29"
   ],
   "serate_by_family": {
    "Altro": {
@@ -367,6 +397,14 @@
       "line2": "",
       "time": "00:00",
       "score": 60.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Bobadilla Feeling Club",
+      "line2": "",
+      "time": "00:00",
+      "score": 44.8,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -416,6 +454,16 @@
       "fascia": "serata",
       "family": "Altro"
      }
+    ],
+    "2026-11-29": [
+     {
+      "line1": "Kaleidoscopic Cello @ Aula Magna, sede di Sant'Agostino",
+      "line2": "",
+      "time": "16:30",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
     ]
    }
   },
@@ -457,6 +505,14 @@
     }
    ],
    "2026-11-21": [
+    {
+     "line1": "Fiorella Mannoia @ ChorusLife Arena",
+     "line2": "dj set",
+     "time": "18:00",
+     "score": 56.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "11 Spaca Male Moltomalefest @ Ink Club",
      "line2": "dj set",
@@ -581,14 +637,15 @@
    "@alchemica_club",
    "@megan_is_missing_band",
    "@missdivina1",
+   "@choruslife.bergamo",
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
+   "@bobadillafeelingclub",
    "@lab80cinemas",
    "@theblankcontemporaryart",
    "@to_on.tv",
    "@bowie.hc",
-   "@choruslife.bergamo",
    "@corinna_fm",
    "@tumulto_bg",
    "@scalpo_punk",
