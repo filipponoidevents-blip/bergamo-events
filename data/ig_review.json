@@ -9,10 +9,10 @@
     "bar30elode": 1172,
     "bar_sanmarco": 2096,
     "barperlage": 2696,
-    "barrys__": 9719,
+    "barrys__": 9730,
     "bergamonightservice": 1092,
-    "bobadillafeelingclub": 31627,
-    "bolgia.official": 124724,
+    "bobadillafeelingclub": 31628,
+    "bolgia.official": 124809,
     "brinapasticceria": 3119,
     "bsk.sound": 1743,
     "bucheesebar": 6842,
@@ -20,7 +20,7 @@
     "cafeteriatreviolo": 5433,
     "caffetteria_nuova_rotonda": 1730,
     "call._.out": 730,
-    "capogirojoyclub": 17743,
+    "capogirojoyclub": 17761,
     "casacostez": 6310,
     "charleston.treviglio": 2429,
     "cheri.it": 4708,
@@ -31,14 +31,14 @@
     "crocevia_": 1068,
     "cromaroom": 1987,
     "crystalcastlesnightt": 764,
-    "csapacipaciana": 13789,
+    "csapacipaciana": 13824,
     "daste_bergamo": 21295,
     "decibel_club": 4573,
     "discopastasc": 1422,
-    "discoteca_queen": 17077,
-    "drusobg": 24669,
+    "discoteca_queen": 17091,
+    "drusobg": 24688,
     "edonebergamo": 29974,
-    "gres_art_671": 21302,
+    "gres_art_671": 21324,
     "hiddenhell.techno": 11136,
     "hype.club.official": 24462,
     "icksdresstoimpress": 6682,
@@ -46,43 +46,43 @@
     "incroissanterialab": 27685,
     "inkclub_bergamo": 14667,
     "intothewoodsbg": 33146,
-    "jamlivestudio": 6022,
+    "jamlivestudio": 6021,
     "juiceclubit": 8581,
     "karma_lounge_official_": 5163,
-    "kellerfactory_": 7340,
-    "lazzaretto_bergamo_estate": 11490,
+    "kellerfactory_": 7348,
+    "lazzaretto_bergamo_estate": 11502,
     "lecannibaleclub": 42998,
     "liveclub": 33393,
-    "loft.bergamo": 10804,
+    "loft.bergamo": 10815,
     "mint_lounge": 15362,
     "nikita__land": 25609,
-    "ninfeasocialclub": 8692,
+    "ninfeasocialclub": 8708,
     "noidfamilia": 7887,
     "nxtbergamo": 30320,
     "oasi.night": 513,
     "officinapanarari": 5379,
-    "oroneroloveandmusic": 7811,
+    "oroneroloveandmusic": 7812,
     "please.nights": 2511,
     "premiere.premiere": 2136,
     "sabbiemobili_official": 7835,
     "savana.king25": 192,
     "selected.lab": 201,
-    "setai_club_official": 36680,
+    "setai_club_official": 36670,
     "sloth.bg": 826,
     "sommet_night": 494,
     "sprint_bergamo": 5109,
     "supertatobolgia": 20635,
     "talk.maf": 2208,
-    "thanka.official": 30907,
+    "thanka.official": 30905,
     "the.circlehub": 830,
     "theboxbergamo": 8077,
-    "tiky.klub": 998,
-    "twofestival": 2953,
+    "tiky.klub": 1000,
+    "twofestival": 2951,
     "unibg_party": 3463,
     "unplug.project": 547,
     "unplug__bg": 3013,
     "utopia.direction": 8479,
-    "vibetheclub": 11571,
+    "vibetheclub": 11574,
     "victorialoungebar_bonate": 1289,
     "we.are.stepup": 355,
     "zeroclub.bg": 20842
@@ -1805,6 +1805,40 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/Dfmm5mSO9zC/",
       "status": "auto"
+    },
+    "17957733321039694-0": {
+      "account": "gres_art_671",
+      "account_venue": "Gres Art 671",
+      "caption": "Da San Paolo a Baltimora, fino alla costa pacifica del Messico: le opere di Isaac Julien attraversano luoghi, culture e storie lontane, costruendo una geografia fatta di incontri e connessioni.\n\nOgni città è molto più di uno scenario: è un archivio di memorie, un paesaggio culturale, un punto di partenza per esplorare temi come identità, appartenenza, desiderio e memoria collettiva.\n\nIn Museum Dreams, il viaggio diventa un modo per mettere in relazione mondi diversi e scoprire quanto le loro storie siano intrecciate.\n\nMuseum Dreams di Isaac Julien è in mostra a gres art 671 fino al 10 gennaio 2027.\n\nBiglietti al link in bio.\n-\nFrom São Paulo to Baltimore, all the way to Mexico’s Pacific coast: Isaac Julien’s works span distant places, cultures and histories, building a geography shaped by encounters and connections.\n\nEach city is much more than a backdrop: it is an archive of memories, a cultural landscape and a starting point for exploring themes such as identity, belonging, desire and collective memory.\n\nIn Museum Dreams, the journey becomes a way to bring different worlds into dialogue and discover how deeply their stories are intertwined.\n\nIsaac Julien’s Museum Dreams is on vie",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2027-01-10",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "hard techno",
+          "disco / funk",
+          "hip hop / trap"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "culture",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Gres Art 671",
+        "venue_name": "Gres Art 671"
+      },
+      "id": "17957733321039694-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/907586971_18003634680034022_4329508163273975179_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OoCweukSUEYQ7kNvwHQ2Kpa&_nc_oc=AdpsE76YaazreLgrLYwLU0wNgGgM7I2VeJA4_ushvgUBG4OUX24VdSRlkSWjAqTrvCc&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=3T472981YRuTDLdW6zFaAg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSw4dVOlAWPXA2jmJ_Wb68w7MgTG0htbWcubP65zPDz9w&oe=6B07D6D0",
+      "kind": "culture",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df_3jsUigsQ/",
+      "status": "info"
     },
     "17957739894314574-0": {
       "account": "aliveofficialparty",
@@ -4328,6 +4362,36 @@
       "permalink": "https://www.instagram.com/reel/DfmpwV6I5cN/",
       "status": "auto"
     },
+    "18086838059368420-0": {
+      "account": "thanka.official",
+      "account_venue": "Thanka",
+      "caption": "Io e la mia migliore amica, vestite uguali e pronte a fare danni.\n\nStasera si fa sul serio. ci vediamo al thanka.\n\n#thanka",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Thanka",
+        "venue_name": "Thanka"
+      },
+      "id": "18086838059368420-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/919522448_18403918438204392_1502216102881617135_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=roM18FVRCfwQ7kNvwF7kPAx&_nc_oc=AdqNdsWi78H0tPhMTDT4D-Ey5lmiqutlTLyg4kk6wYN2f23Lbr0njdU7lJnWAsxKAnY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=_3d6oFziMuuY9J5BP2rdAw&_nc_tpa=Q5bMBQIQvGfJQm9N6P-Gud6Uv6bHMz1TGL7icmjW-Bt-kzx1goclPp1oLcbkrSWtXFF_bdPyeJVWFR0DwA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTlssspUE5mnWAzjYe8HDbZOU1W5Fb4aUTRgYHJyjmmFQ&oe=6B07EB11",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgAK-jGnBIn/",
+      "status": "pending"
+    },
     "18094381595221486-0": {
       "account": "nikita__land",
       "account_venue": "Nikita",
@@ -5418,6 +5482,38 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Df14X3qDfY2/",
       "status": "info"
+    },
+    "18111185744193508-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "⚡ IL SABATO SERA HA UN NUOVO SUONO. E NON È PER TUTTI.\n\n🎸 ELECTRO INDIE ROCK.\n🔥 Chitarre, elettronica, vibrazioni indie e un’atmosfera tutta da vivere.\n\nIl Keller Factory 2.0 cambia ritmo e accende la notte!\n\n🎧 IN CONSOLLE: DJ ROKS\n\n📅 SABATO 21 NOVEMBRE 2026\n🕚 DALLE 23:00\n\nSe ami la musica fuori dagli schemi, se l’indie incontra l’elettronica nelle tue playlist e se cerchi una serata diversa dal solito… sai già dove devi essere.\n\nNON SEGUIRE LA MODA. CREA IL TUO SOUND.\n\n📍 KELLER FACTORY 2.0\n\nTagga la persona con cui vuoi vivere questa notte e condividi il post nelle tue Stories!\n\n#KellerFactory #ElectroIndieRock #DJRoks #BergamoNightlife #SaturdayNight IndieMusic ElectroMusic KellerEvents",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-21",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "elettronica"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "23:00",
+        "ticket_url": null,
+        "title": "ELECTRO INDIE ROCK",
+        "venue_name": "Keller Factory"
+      },
+      "id": "18111185744193508-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/916698279_1730576865151792_5241458572229170498_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Qgx1qKsCX24Q7kNvwEg0Dh3&_nc_oc=AdoZAtvehaUHMV7SBXBSNK7bKoSqf4VbM8-tYfXTjbYxE2uKj9WvDUcrtBeK8A5eCk8&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=WRDT5kKddFwTj7KOgRTbMA&_nc_tpa=Q5bMBQJn-G7L_gJ82Lxkdod26mP_w6unCgIjHLYPskFwD_cqwovM1M8p2LcE56vCSA4UCM5N-Y9eXmiJVQ&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQS3Fc-JWwMoch3vIUJ_rHydU8rAKDMD3VlM9mYwuXDmMA&oe=6B07C765",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/Df-W8b-gnE-/",
+      "status": "auto"
     },
     "18111221297283695-0": {
       "account": "nxtbergamo",
@@ -7068,6 +7164,36 @@
       "permalink": "https://www.instagram.com/p/Dfb6s4YD_IZ/",
       "status": "pending"
     },
+    "18122200207978827-0": {
+      "account": "ninfeasocialclub",
+      "account_venue": "Ninfea Social Club",
+      "caption": "⚡ELEKTRO JAM - LIVE SET⚡\n\nVenerdì sera tunnelsottoilmondo e alonic_shakti approdano sulle sponde del lago con macchinette infuocate, per una serata di live set elettronici, suoni eterei, beat e sperimentazioni, senza orario di scadenza. 🔌🔊🎧\n\n🎣Pesca vibrante autunnale, till late 😶\n\n📅 Venerdì 27.11\n🎛️ Dalle 21:00, finché reggiamo\n📍 Ninfea Social Club – Via Marconi 65, Sorisole (BG)\n\nIngresso gratuito, riservato agli associati.",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": "free",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": true,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "ELEKTRO JAM - LIVE",
+        "venue_name": "Ninfea Social Club"
+      },
+      "id": "18122200207978827-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/913178937_122126672091240064_3394640830288145781_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=47FgW3zbyz0Q7kNvwH3if2q&_nc_oc=AdpVzQWtRIaskL2Mt6G6Wxi_AT-882sJJA__cHYPlxOitBCxr_LykienVf_1NTFWbt8&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Vxeo7T8N9AkT_qU0AAc1gw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ3pXoiV-FCu0GVsGEiYso2zgr2qj9LjqdZ8U-pMNrTXA&oe=6B07CD7D",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df-FgJqm9Hq/",
+      "status": "info"
+    },
     "18122213602950095-0": {
       "account": "decibel_club",
       "account_venue": "Decibel Club",
@@ -7179,6 +7305,36 @@
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/Dft1dsFHc6P/",
       "status": "pending"
+    },
+    "18123967823283626-0": {
+      "account": "ninfeasocialclub",
+      "account_venue": "Ninfea Social Club",
+      "caption": "ALLA SCOPERTA DELLE APERTURE SCACCHISTICHE! ♟️\n\nDa Ninfea si dà il via al corso di scacchi sulle aperture.\n\nUn percorso di 10 lezioni dedicato alle principali aperture degli scacchi, per conoscerne le caratteristiche, comprenderne le idee strategiche e imparare a riconoscere i piani di gioco.\n\nDalla Partita Italiana alla Spagnola, dal Gambetto di Re alla Difesa Siciliana, passando per l'olandese, la Caro-Kann, la Francese, il Gambetto di Donna e le principali difese indiane.\n\n📚 10 lezioni da 1 ora e mezza.\n♟️ Nessuna esperienza necessaria\n🎟️ Quota di partecipazione 10€ lezione singola | 60€ 10 lezioni\n👉🏼 Iscrizione riservata agli associati tramite link in bio.\n\n🗓️ Da Giovedì 03.12 per 10 giovedì (calendario in bio)\n⏰ h 21:00\n\n📍Ninfea Social Club, Via G. Marconi 65, Sorisole (BG)",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-03",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "quiz_games",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "SCOPERTA DELLE APERTURE SCACCHISTICHE",
+        "venue_name": "Ninfea Social Club"
+      },
+      "id": "18123967823283626-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/913179274_122126675031240064_5452637648807670230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=AZpZ61Q0e18Q7kNvwGxVxm-&_nc_oc=AdrNWXscu_Un6CFRrfMWnKZWM6rxqfyZabGv9LAW-19mo09QlNOihPBJpf5UqVodLAw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Vxeo7T8N9AkT_qU0AAc1gw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSD7uYFlHZeawlAweh_xdF4NnmZ6euytR5OgFD6RvEUTA&oe=6B07CEBE",
+      "kind": "quiz_games",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/Df-TX4FiCyg/",
+      "status": "info"
     },
     "18123990431063245-0": {
       "account": "capogirojoyclub",
@@ -8354,6 +8510,36 @@
       "permalink": "https://www.instagram.com/p/Df4eqXwsxDJ/",
       "status": "auto"
     },
+    "18135201079774760-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "😂 MERCOLEDÌ SI RIDE AL KELLER FACTORY! 🎤\n\nIl 25 novembre arriva LUCA ANSELMI con la sua Stand Up Comedy: ironia, battute irriverenti e tante risate!\n\n📅 Mercoledì 25 novembre\n🕘 Ore 21:00\n📍 Keller Factory\n\n📲 COME PRENOTARE? È FACILISSIMO!\n\n👇 CLICCA SU “INVIA UN MESSAGGIO” QUI SU INSTAGRAM O FACEBOOK!\n\nScrivici:\n\n* PRENOTAZIONE COMEDY\n* Il tuo nome\n* Il numero di persone\n\nTi risponderemo con la conferma della prenotazione!\n\n🎁 VUOI REGALARE LA SERATA A QUALCUNO?\n\nScrivici BIGLIETTO REGALO in DM, comunicaci il nome della persona da invitare e prepareremo un biglietto digitale personalizzato, pronto da regalare!\n\n❤️ ATTENZIONE: prenotazioni e biglietti regalo si richiedono esclusivamente tramite messaggio privato su Instagram o Facebook.\n\n🔥 Non pensarci troppo: scegli la compagnia e scrivici subito!\n\n#KellerFactory #StandUpComedy #LucaAnselmi #BergamoEventi",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-25",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "comedy",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "SI RIDE AL KELLER FACTORY",
+        "venue_name": "Keller Factory"
+      },
+      "id": "18135201079774760-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/916961908_18577757095074567_3099152824104633451_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9VRD09o2fXQQ7kNvwEF_u28&_nc_oc=AdofKzYEtLSHZY4sX01mpuO7fZn0-4WYouXa4go4yqFu1cLnWM5WJOJVfZukkGDp85g&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=WRDT5kKddFwTj7KOgRTbMA&_nc_tpa=Q5bMBQLoNdhjJhS0mIfi6q5ag0zC7SjDY_mU6uk9dHnhw6EEkJHRx05-3TBqG77t6qLleqAd7aQUGygn9A&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQT9o_JKoUC10rtO5_OD6rdkE1smzfEV2qrM0HzKCiSgNg&oe=6B07E588",
+      "kind": "comedy",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgAl5_yI3pH/",
+      "status": "info"
+    },
     "18135744931777677-0": {
       "account": "drusobg",
       "account_venue": "Druso",
@@ -9207,6 +9393,36 @@
       "kind": "dj_club",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/reel/DfkcHdUDjv6/",
+      "status": "pending"
+    },
+    "18156509539529864-0": {
+      "account": "jamlivestudio",
+      "account_venue": "Jam Live Studio",
+      "caption": "e voi domani verrete a #NOFILTER?",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-22",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Jam Live Studio",
+        "venue_name": "Jam Live Studio"
+      },
+      "id": "18156509539529864-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/922121581_18683179816032730_8403952416601588609_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzIifQ%3D%3D&_nc_ohc=8GpJL4AjXQQQ7kNvwH_bQE2&_nc_oc=AdqJ--LEmReyX79_Y9NFmEHJ5vwcrEs96RgFHlfL4L4pEhHmzGaGQCeVEQVl7tygpus&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JjBGBJQwAyyE2YRk_yHBPQ&_nc_tpa=Q5bMBQLF_YanbJ13CYXVsMQd_aqnlLJbV0p7wHpqp4gyVYhoIomXbq8rG8xYxjsgcXnFGZkum_nn0G5Lpg&_nc_ct=RQgsPBUKFQwAAAA&oh=00_AQQ4UJ6Toar0MsK8R6gwT67Xse6_kJ1HnMZus3C56oYahg&oe=6B07BE73",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgAqcFQPi68/",
       "status": "pending"
     },
     "18160085134513889-0": {
@@ -11015,7 +11231,7 @@
       "status": "info"
     }
   },
-  "next_account": 21,
+  "next_account": 41,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -11675,6 +11891,11 @@
       "at": "2026-10-31T10:19:28+0000",
       "event": false
     },
+    "17916394944558520": {
+      "account": "gres_art_671",
+      "at": "2026-11-21T17:00:05+0000",
+      "event": false
+    },
     "17916483129288318": {
       "account": "ninfeasocialclub",
       "at": "2026-11-17T20:26:41+0000",
@@ -12119,6 +12340,11 @@
       "account": "officinapanarari",
       "at": "2026-11-13T15:06:02+0000",
       "event": false
+    },
+    "17957733321039694": {
+      "account": "gres_art_671",
+      "at": "2026-11-21T09:05:01+0000",
+      "event": true
     },
     "17957739894314574": {
       "account": "aliveofficialparty",
@@ -13391,6 +13617,11 @@
       "at": "2026-11-08T19:44:50+0000",
       "event": true
     },
+    "18086838059368420": {
+      "account": "thanka.official",
+      "at": "2026-11-21T11:55:32+0000",
+      "event": true
+    },
     "18088536188704234": {
       "account": "nxtbergamo",
       "at": "2026-11-14T22:29:22+0000",
@@ -14027,6 +14258,11 @@
       "at": "2026-11-18T15:45:45+0000",
       "event": false
     },
+    "18111185744193508": {
+      "account": "kellerfactory_",
+      "at": "2026-11-20T19:02:26+0000",
+      "event": true
+    },
     "18111221297283695": {
       "account": "nxtbergamo",
       "at": "2026-11-10T16:39:08+0000",
@@ -14067,6 +14303,11 @@
       "account": "gres_art_671",
       "at": "2026-10-28T13:15:04+0000",
       "event": true
+    },
+    "18111952664249568": {
+      "account": "drusobg",
+      "at": "2026-11-21T00:50:42+0000",
+      "event": false
     },
     "18112006970157017": {
       "account": "jamlivestudio",
@@ -14706,6 +14947,11 @@
       "at": "2026-11-10T17:00:12+0000",
       "event": false
     },
+    "18122200207978827": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-20T16:28:55+0000",
+      "event": true
+    },
     "18122213602950095": {
       "account": "decibel_club",
       "at": "2026-11-02T22:15:50+0000",
@@ -14754,6 +15000,11 @@
     "18123790084915491": {
       "account": "lecannibaleclub",
       "at": "2026-10-07T16:02:34+0000",
+      "event": true
+    },
+    "18123967823283626": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-20T18:30:09+0000",
       "event": true
     },
     "18123990431063245": {
@@ -15318,6 +15569,21 @@
       "at": "2026-11-18T12:18:53+0000",
       "event": true
     },
+    "18135039181835176": {
+      "account": "bolgia.official",
+      "at": "2026-11-21T12:33:37+0000",
+      "event": false
+    },
+    "18135201079774760": {
+      "account": "kellerfactory_",
+      "at": "2026-11-21T15:51:51+0000",
+      "event": true
+    },
+    "18135228568829266": {
+      "account": "bobadillafeelingclub",
+      "at": "2026-11-21T16:00:53+0000",
+      "event": false
+    },
     "18135384799733566": {
       "account": "bucheesebar",
       "at": "2026-11-05T08:30:02+0000",
@@ -15758,6 +16024,11 @@
     "18155902267463480": {
       "account": "tiky.klub",
       "at": "2026-11-10T17:26:52+0000",
+      "event": true
+    },
+    "18156509539529864": {
+      "account": "jamlivestudio",
+      "at": "2026-11-21T16:30:35+0000",
       "event": true
     },
     "18156618595475614": {
