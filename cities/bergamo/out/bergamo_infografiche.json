@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-21T15:05",
+ "generated": "2026-11-21T16:12",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -223,7 +223,7 @@
       "line1": "Novembre Enter The Void @ Nikita",
       "line2": "Reggaeton / Commerciale",
       "time": "00:00",
-      "score": 43.4,
+      "score": 46.2,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -437,10 +437,10 @@
    "House / Elettronica": {
     "2026-11-24": [
      {
-      "line1": "Bloom",
+      "line1": "Spike Hellis @ Bloom",
       "line2": "Hard Techno / Rock",
       "time": "00:00",
-      "score": 40.0,
+      "score": 53.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -486,6 +486,14 @@
      }
     ],
     "2026-11-27": [
+     {
+      "line1": "X Schivardi @ Nikita",
+      "line2": "",
+      "time": "00:00",
+      "score": 43.4,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Crystalcastlesnightt @ Zero Club",
       "line2": "",
@@ -601,7 +609,7 @@
     },
     {
      "line1": "cre.sp1 @ Bloom",
-     "line2": "dj set",
+     "line2": "Rock / Jazz",
      "time": "21:00",
      "score": 35.7,
      "fascia": "preserata",
@@ -619,7 +627,7 @@
     },
     {
      "line1": "Bloom",
-     "line2": "live",
+     "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
      "fascia": "preserata",
@@ -634,14 +642,16 @@
    "@bloom_mezzago",
    "@possibilita",
    "@to_on.tv",
-   "@lowl_fest",
    "@spike.hellis",
+   "@lowl_fest",
    "@www.bloomnet",
    "@bowie.hc",
    "@door_74",
    "@please.nights",
    "@spettacoli",
    "@choruslife.bergamo",
+   "@nikita__land",
+   "@schivardi1953",
    "@oroneroloveandmusic",
    "@consumazione",
    "@corinna_fm",
@@ -656,9 +666,7 @@
    "@cre.sp1",
    "@esse.pietro",
    "@federicoo_riva",
-   "@marte.bandemergenti",
-   "@digitalispurpurea_",
-   "@mudilva_"
+   "@digitalispurpurea_"
   ],
   "hashtags": [
    "#bergamo",
@@ -898,6 +906,14 @@
     ],
     "2026-11-27": [
      {
+      "line1": "X Schivardi @ Nikita",
+      "line2": "",
+      "time": "00:00",
+      "score": 43.4,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Crystalcastlesnightt @ Zero Club",
       "line2": "",
       "time": "00:00",
@@ -949,7 +965,7 @@
       "line1": "Novembre Enter The Void @ Nikita",
       "line2": "Reggaeton / Commerciale",
       "time": "00:00",
-      "score": 43.4,
+      "score": 46.2,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -958,10 +974,10 @@
    "House / Elettronica": {
     "2026-11-24": [
      {
-      "line1": "Bloom",
+      "line1": "Spike Hellis @ Bloom",
       "line2": "Hard Techno / Rock",
       "time": "00:00",
-      "score": 40.0,
+      "score": 53.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1208,7 +1224,7 @@
     },
     {
      "line1": "cre.sp1 @ Bloom",
-     "line2": "dj set",
+     "line2": "Rock / Jazz",
      "time": "21:00",
      "score": 35.7,
      "fascia": "preserata",
@@ -1226,7 +1242,7 @@
     },
     {
      "line1": "Bloom",
-     "line2": "live",
+     "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
      "fascia": "preserata",
@@ -1255,6 +1271,7 @@
    "@divinabergamo",
    "@possibilita",
    "@spettacoli",
+   "@nikita__land",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
@@ -1265,7 +1282,6 @@
    "@upside.down.night",
    "@oasi.night",
    "@arya.lounge",
-   "@nikita__land",
    "@choruslife.bergamo",
    "@door_74",
    "@savana_funk",
@@ -1405,7 +1421,7 @@
    "2026-12-11": [
     {
      "line1": "Bloom",
-     "line2": "live",
+     "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
      "fascia": "preserata",

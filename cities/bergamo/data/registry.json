@@ -18,7 +18,7 @@
   },
   "alchemica_club": {
    "bio": "Live Rock/Metal Club - Scuola di Musica - Sale Prova - Recording Studio - Label - Booking - Management",
-   "cands": 8,
+   "cands": 9,
    "checked": "2026-11-19",
    "followers": 8866,
    "kind": "artist",
@@ -55,14 +55,14 @@
   },
   "altafunicolare": {
    "bio": "Bringing people together since 1887.\nIl timeless bistrot di Città Alta che unisce generazioni, culture, storie.",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 5,
-   "followers": 1527,
+   "followers": 1560,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "Alta Funicolare",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://altafunicolare.it"
   },
   "alternative": {
@@ -73,14 +73,14 @@
   },
   "amabergamo": {
    "bio": "📲AmaBergAmo è un progetto social che diffonde la bellezza e l’unicità della terra bergamasca in ogni sua forma\n🏡Ti mostriamo i dettagli di Bergamo",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 0,
-   "followers": 8578,
+   "followers": 8579,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "AmaBergAmo",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "andrea_kor3": {
@@ -125,6 +125,11 @@
   "arci.scuotivento": {
    "cands": 1,
    "mentions": 1
+  },
+  "arcipintupi": {
+   "checked": "2026-11-21",
+   "error": "110: Invalid user id",
+   "readable": false
   },
   "areakitchen_group": {
    "bio": "✨ CONCEPT CATERING ✨ \nCorporate & Wedding Events \nFrom Milano wherever you are 🌍",
@@ -204,16 +209,16 @@
   "bar_barrier": {
    "bio": "Listed @top500bars world\nAlways open!\nLunedì a Giovedì 7.30-01.00\nVenerdì / Sabato 08.00-02.00\nDomenica 08.00-01.00",
    "cands": 1,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 8,
-   "followers": 10330,
+   "followers": 10336,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 3,
    "name": "Barrier This is the right place",
    "readable": true,
-   "reads": 3,
-   "website": "https://www.bargiornale.it/barawards-2026/"
+   "reads": 4,
+   "website": "https://www.barbarrier.com/"
   },
   "bar_posto_fisso": {
    "checked": "2026-11-20",
@@ -240,15 +245,15 @@
   "barleyartsreal": {
    "bio": "Tra i più importanti organizzatori, produttori e promoter indipendenti di concerti, spettacoli e festival in Italia e nel mondo 🔥🎸",
    "cands": 4,
-   "checked": "2026-11-20",
-   "events_found": 27,
-   "followers": 13894,
+   "checked": "2026-11-21",
+   "events_found": 29,
+   "followers": 13893,
    "kind": "promoter",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 18,
    "name": "Barley Arts",
    "readable": true,
-   "reads": 7,
+   "reads": 8,
    "watch": true,
    "website": "http://linktr.ee/barleyartsreal"
   },
@@ -564,7 +569,7 @@
   },
   "cotd_iron_maiden": {
    "bio": "Iron Maiden Tribute since 2001\nCollaborations:\nDennis Stratton italian band\nPaul di'Anno's official italian band (2003-2014)",
-   "cands": 2,
+   "cands": 3,
    "checked": "2026-11-20",
    "followers": 629,
    "kind": "unknown",
@@ -654,15 +659,15 @@
   },
   "divinabergamo": {
    "bio": "🇮🇹🏳️‍🌈❤️ dal 1991 Dedicato a Raffaella Carra' 👉🏻Dal 1991 Bergamo dal 2017 a Grassobbio ✈️🚁 👑 locale di👉🏻 @missdivina1 ❤️👸🏼#missdivina ⬇️  Ven  & Sab",
-   "checked": "2026-11-20",
-   "events_found": 15,
-   "followers": 17179,
+   "checked": "2026-11-21",
+   "events_found": 16,
+   "followers": 17156,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 1,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 18,
+   "reads": 19,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "dj.sofficino": {
@@ -711,40 +716,40 @@
   "door_74": {
    "bio": "Hidden cocktailbar in Amsterdam. \nPerfectly balanced creations from a passionate team.",
    "cands": 1,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 1,
    "followers": 18866,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 1,
    "name": "Door 74",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "venue_done": true,
    "website": "https://finddoor74.com/"
   },
   "drinkresponsiblyclub": {
    "bio": "Creiamo @lake.n.roll ♥️\nBirreria con cucina sulla riva del lago a Spinone al Lago BG\nCraft Beers 🍻 Wine Bar 🍷Cocktail Bar 🍸 Live Music 🎸 Sky Bar ⚽",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 1,
-   "followers": 2157,
+   "followers": 2158,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "Drink Responsibly Club",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://g.co/kgs/wBWKzvJ"
   },
   "drusobg": {
    "bio": "Dal 2007 la casa della musica a Bergamo\nLive music, party & more... info qui 👇",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 21,
-   "followers": 24673,
+   "followers": 24685,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "Druso",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://it-it.facebook.com/drusobergamo/"
   },
   "e.katea_99": {
@@ -830,6 +835,7 @@
    "name": "Associazione Filarmonica Dalmine",
    "readable": true,
    "reads": 1,
+   "venue_done": true,
    "website": "www.filarmonicadalmine.it"
   },
   "flyer_billy": {
@@ -878,7 +884,7 @@
   },
   "henge_cosmicdross": {
    "bio": "ATTENTION EARTH. THIS IS HENGE\nbookings:\nWorldwide - André at Earth Agency \nNorth America - Noah at Pivotal Agency",
-   "cands": 3,
+   "cands": 4,
    "checked": "2026-11-19",
    "followers": 293143,
    "kind": "artist",
@@ -901,14 +907,14 @@
   "hiddenhell.techno": {
    "bio": "THE MOVEMENT FROM HELL 🩸 🇮🇹\n💿Label: \n@hiddenhell.records \n👹Next events:\n• 12.12 @bolgia.official \n• 25.12 @zeroclub.bg",
    "cands": 5,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 5,
-   "followers": 11136,
+   "followers": 11135,
    "kind": "promoter",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "HiddenHell",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "watch": true,
    "website": "https://linktr.ee/HiddenHell"
   },
@@ -964,15 +970,15 @@
   "inkclub_bergamo": {
    "bio": "MUSICA, CULTURA e cose belle ⚡️\nConcerti • club • radio • arte • birrette\n🎓 Academy → @inkclub.academy\n📍 Bergamo\n↓ Scopri cosa succede a Ink",
    "cands": 2,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 22,
-   "followers": 14664,
+   "followers": 14675,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 1,
    "name": "Ink Club",
    "readable": true,
-   "reads": 17,
+   "reads": 18,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
@@ -1158,7 +1164,7 @@
   },
   "markthehammer86": {
    "bio": "🎸 Musicista senza talento\n📔 In elenco agcom\n👇 LIVE",
-   "cands": 3,
+   "cands": 4,
    "checked": "2026-11-19",
    "followers": 220929,
    "kind": "artist",
@@ -1184,8 +1190,16 @@
    "cands": 1
   },
   "marte.bandemergenti": {
+   "bio": "🎸 La Martesana emergente\n🎤 Spazio alle nuove band\n🔥 Live • community • musica nuova\n👇 Partecipa / scopri di più",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 204,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Martesana Emergente",
+   "readable": true,
+   "watch": true,
+   "website": "https://drive.google.com/file/d/1ARTv7yfvthblr2luT5SBqOcmbS8tSmnW/view?usp=share_link"
   },
   "maschileplurale_": {
    "bio": "Profilo ufficiale dell'Associazione Maschile Plurale. Per ogni richiesta di informazioni scrivete a info@maschileplurale.it e visitate il nostro sito",
@@ -1222,7 +1236,7 @@
   },
   "missdivina1": {
    "bio": "#missdivina  #divinabergamo 👑 Bergamo 🇮🇹 🇲🇨 DragQueenSinger ❤️Dal1991 mio il @divinabergamo  dedicato a Raffaella Carra'🇮🇹🏳️‍🌈🇲🇨 tiktok missdivina1",
-   "cands": 20,
+   "cands": 21,
    "checked": "2026-11-19",
    "followers": 127309,
    "kind": "unknown",
@@ -1238,8 +1252,15 @@
    "mentions": 1
   },
   "muffx.band": {
+   "bio": "MUFFX è una band italiana attiva nella scena rock psichedelico e progressive dal 2006. Scopri date, album e video live!",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 89,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "muffx.band",
+   "readable": true,
+   "website": null
   },
   "mugenon.band": {
    "cands": 1,
@@ -1278,14 +1299,14 @@
   },
   "nikita__land": {
    "bio": "[ENTER THE VOID] \nvia dei morenghi 2 grumello (bg)",
-   "checked": "2026-11-20",
-   "events_found": 11,
-   "followers": 25609,
+   "checked": "2026-11-21",
+   "events_found": 13,
+   "followers": 25611,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "Nikita",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "http://nikita.land"
   },
   "nouvellevague_tirana": {
@@ -1358,18 +1379,25 @@
    "readable": false
   },
   "palmas.night": {
-   "cands": 1,
-   "mentions": 1
+   "bio": "𝓝𝓸 𝓱𝓪𝔂 𝓻𝓮𝓰𝓵𝓪𝓼. 𝓢𝓸𝓵𝓸 𝓻𝓲𝓽𝓶𝓸. 💘\n𝑹𝑬𝑮𝑮𝑨𝑬𝑻𝑶𝑵 / 𝑫𝑬𝑴𝑩𝑶𝑾 / 𝑴𝑨𝑰𝑵𝑺𝑻𝑹𝑬𝑨𝑴\n🗓️ 21.11 @nikita__land w/ dj set by @edoolucky \n📲 3737848069",
+   "cands": 2,
+   "checked": "2026-11-21",
+   "followers": 1064,
+   "kind": "artist",
+   "mentions": 1,
+   "name": "PALMAS",
+   "readable": true,
+   "website": null
   },
   "pasticceria_alpino": {
    "bio": "Siamo la tua pasticceria gelateria artigianale di fiducia! \nPer il tuo dolce momento di pausa 🥐🍨🎂🥧\n📌Viale rimembranze 21, Casirate d'Adda (BG)",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "followers": 1647,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "Alpino Casirate d’Adda",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.pasticceria-alpino.com"
   },
   "pete_roth_trio": {
@@ -1433,21 +1461,28 @@
    "cands": 1
   },
   "regionelombardia.official": {
+   "bio": "Canale Instagram ufficiale di #RegioneLombardia\nSiamo anche su TikTok! Segui regione_lombardia",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 164312,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Regione Lombardia",
+   "readable": true,
+   "website": "https://linktr.ee/regionelombardia"
   },
   "retrovibesevents": {
    "bio": "Creiamo eventi brandizzati nell'ambito di market di artigianato, vintage e collezionismo.",
    "cands": 2,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 6,
-   "followers": 3034,
+   "followers": 3039,
    "kind": "promoter",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 4,
    "name": "Retro Vibes Events",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "watch": true,
    "website": "https://linktr.ee/retrovibes.events"
   },
@@ -1480,7 +1515,8 @@
    "website": "http://linktr.ee/scalpo/"
   },
   "schivardi1953": {
-   "cands": 1
+   "cands": 2,
+   "mentions": 1
   },
   "selected.lab": {
    "bio": "Sound. Energy. Culture.\nFOR THOSE WHO FEEL THE GROOVE\nNext. 20.11 @vibetheclub",
@@ -1547,8 +1583,15 @@
    "readable": false
   },
   "spike.hellis": {
+   "bio": "",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 15916,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Spike Hellis",
+   "readable": true,
+   "website": "http://www.spikehellis.com"
   },
   "spread_band": {
    "cands": 4
@@ -1562,7 +1605,7 @@
   },
   "station.liveclub": {
    "bio": "𝙇𝙄𝙑𝙀 𝙈𝙐𝙎𝙄𝘾 CLUB ▶️\n𝘝𝘪𝘢 𝘊𝘶𝘴𝘵𝘰𝘻𝘢 43, 𝘗𝘢𝘥𝘦𝘳𝘯𝘰 𝘋𝘶𝘨𝘯𝘢𝘯𝘰 (MILANO) \n𝘐𝘯𝘧𝘰: 3518689290\n𝘉𝘦𝘦𝘳𝘴𝘵𝘢𝘵𝘪𝘰𝘯𝘱𝘢𝘥𝘦𝘳𝘯𝘰@𝘨𝘮𝘢𝘪𝘭.𝘤𝘰𝘮",
-   "cands": 4,
+   "cands": 5,
    "checked": "2026-11-19",
    "followers": 4361,
    "kind": "venue",
@@ -1581,14 +1624,14 @@
   "streeatfoodtruckfestival": {
    "bio": "🚛 See you in 2027",
    "cands": 4,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 11,
-   "followers": 58263,
+   "followers": 58261,
    "kind": "promoter",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "STREEAT Food Truck Festival",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "watch": true,
    "website": "http://www.streeatfoodtruckfestival.it"
   },
@@ -1628,7 +1671,7 @@
    "cands": 1
   },
   "the_big4_theory": {
-   "cands": 1,
+   "cands": 2,
    "mentions": 1
   },
   "the_veils": {
@@ -1681,14 +1724,14 @@
   "tumulto_bg": {
    "bio": "organizzazione concerti , festival , casa editrice indipendente e etichetta discografica\nSince 2014\n@pier_tumulto",
    "cands": 1,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "followers": 777,
    "kind": "promoter",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 1,
    "name": "Tumulto",
    "readable": true,
-   "reads": 14,
+   "reads": 15,
    "website": "https://www.facebook.com/tumultoconcerti/"
   },
   "unibg_party": {
@@ -1710,15 +1753,15 @@
   },
   "vibetheclub": {
    "bio": "| BE COOL BE VIBE |\n📍Bergamo, Italy\nInfoline: 3497567830",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 5,
-   "followers": 11571,
+   "followers": 11570,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 2,
    "name": "VIBE CLUB",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "http://www.vibetheclub.it"
   },
   "victorialoungebar_bonate": {
@@ -1766,15 +1809,15 @@
   "vintage.pitstop": {
    "bio": "Cars, culture, community • Bergamo\nPROSSIMO RADUNO: CHORUSLIFE 22 NOV\nTeam Mongol Rally 2027\nsponsor e collab: info@vintagepitstop.it",
    "cands": 4,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 1,
-   "followers": 2717,
+   "followers": 2719,
    "kind": "promoter",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 1,
    "name": "VPS",
    "readable": true,
-   "reads": 13,
+   "reads": 14,
    "website": "https://forms.gle/wuX4mswv5M28NvHWA"
   },
   "vintage_violence": {
@@ -1790,15 +1833,15 @@
   "worst.zine": {
    "bio": "𝗞𝗲𝗲𝗽 𝗧𝗵𝗲 𝗦𝗰𝗲𝗻𝗲 𝗢𝗿 𝗗𝗶𝗲 𝗧𝗿𝘆𝗶𝗻’\n𝗠𝘂𝘀𝗶𝗰 - 𝗔𝗿𝘁 - 𝗦𝘁𝗿𝗲𝗲𝘁 𝗖𝘂𝗹𝘁𝘂𝗿𝗲\n⬇️ LINKS ⬇️",
    "cands": 3,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 3,
-   "followers": 1873,
+   "followers": 1874,
    "kind": "promoter",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 11,
+   "reads": 12,
    "website": "https://linktr.ee/worstzine"
   },
   "www.bloomnet": {
@@ -1830,14 +1873,14 @@
   "zeroclub.bg": {
    "bio": "Every wed @please.nights \nFri 20th @unibg_party \nSat 21st @premiere.premiere \nInfo +393474100909",
    "cands": 5,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 10,
-   "followers": 20836,
+   "followers": 20844,
    "kind": "venue",
-   "last_read": "2026-11-20T22:04+00:00",
+   "last_read": "2026-11-21T16:07+00:00",
    "name": "Zero Club Bergamo",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://site.fourvenues.com/en/zero-club"
   }
  },
@@ -1876,6 +1919,7 @@
    "lon": 9.56511,
    "province": null
   },
+  "Associazione Filarmonica Dalmine, Bergamo": null,
   "CHORUSLIFE BERGAMO, Bergamo": {
    "city": "Bergamo",
    "lat": 45.7031,
@@ -2318,7 +2362,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1527,
+   "followers": 1560,
    "instagram": "altafunicolare",
    "km": 1.1,
    "lat": 45.70296,
@@ -2339,7 +2383,7 @@
    "capacity": 650,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 8578,
+   "followers": 8579,
    "ig_guessed": "2026-11-20",
    "instagram": "amabergamo",
    "km": 9.5,
@@ -2369,6 +2413,7 @@
    "name": "Ambria Music Festival",
    "removed": false,
    "reviews": 236,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -3027,7 +3072,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 10330,
+   "followers": 10336,
    "instagram": "bar_barrier",
    "km": 0.8,
    "lat": 45.69369,
@@ -3112,6 +3157,7 @@
    "city": "Bergamo",
    "first_seen": "2026-11-18",
    "followers": null,
+   "instagram": "bibliotecacivicaangelomai",
    "km": 1.3,
    "lat": 45.70435,
    "lon": 9.66322,
@@ -3123,7 +3169,8 @@
     "eventi"
    ],
    "type": "bar",
-   "website": "http://www.bibliotecamai.org/"
+   "website": "http://www.bibliotecamai.org/",
+   "website_checked": true
   },
   "biblioteca tiraboschi sala mimmo boninelli": {
    "address": "Via San Bernardino 74, Bergamo",
@@ -3147,7 +3194,8 @@
     "eventi"
    ],
    "type": "bar",
-   "website": "https://biblioteche.comune.bergamo.it/"
+   "website": "https://biblioteche.comune.bergamo.it/",
+   "website_checked": true
   },
   "birra n banda": {
    "address": "Via Buzzone, 24060 San Paolo d'Argon BG",
@@ -3862,6 +3910,7 @@
    "lat": 45.63908,
    "lon": 9.58576,
    "name": "Chiesa Parrochiale di Santa Maria, Dalmine (BG)",
+   "removed": false,
    "sources": [
     "eventi"
    ],
@@ -3884,7 +3933,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://chocolatbistrot.it/"
+   "website": "https://chocolatbistrot.it/",
+   "website_checked": true
   },
   "chorus life bergamo via carlo serassi 26": {
    "address": "Via Carlo",
@@ -4007,11 +4057,13 @@
    "name": "Circolo Arci",
    "removed": false,
    "reviews": 5,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
    "type": "live_club",
-   "website": "https://arcicolnago.it/"
+   "website": "https://arcicolnago.it/",
+   "website_checked": true
   },
   "circolo arci ass amici tino": {
    "address": "Unnamed Road, 23881 Aizurro LC",
@@ -4038,6 +4090,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "arcipintupi",
    "km": 19.3,
    "lat": 45.66444,
    "lon": 9.43361,
@@ -4048,7 +4101,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://arcipintupi.wordpress.com/"
+   "website": "http://arcipintupi.wordpress.com/",
+   "website_checked": true
   },
   "circolo arci quintano": {
    "address": "Via Padre Serafino Biffi, 24060 Castelli Calepio BG",
@@ -4085,7 +4139,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/circoloarcispaziocondiviso/"
+   "website": "https://www.facebook.com/circoloarcispaziocondiviso/",
+   "website_checked": true
   },
   "circolo artistico bergamasco": {
    "address": "Via Malj Tabajani, 4, 24121 Bergamo BG",
@@ -4105,7 +4160,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.circoloartisticobergamasco.it/"
+   "website": "http://www.circoloartisticobergamasco.it/",
+   "website_checked": true
   },
   "circolo cooperativo a r c a di ricreazione e cultura soc coop a r l": {
    "address": "Piazza 26 Aprile, n1, 25037 Pontoglio BS",
@@ -4120,6 +4176,7 @@
    "name": "Circolo Cooperativo A.R.C.A. Di Ricreazione E Cultura Soc. Coop. A R.L",
    "removed": false,
    "reviews": 3,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -4143,7 +4200,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "https://www.circologreppi.it/"
+   "website": "https://www.circologreppi.it/",
+   "website_checked": true
   },
   "circolo culturale ricreativo per anziani": {
    "address": "Via Dosie, 2, 24020 Villa di Serio BG",
@@ -4688,6 +4746,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-21",
    "km": 19.6,
    "lat": 45.53598,
    "lon": 9.57789,
@@ -4728,7 +4787,7 @@
    "capacity_source": "stima",
    "city": "Grassobbio",
    "first_seen": "2026-11-18",
-   "followers": 17179,
+   "followers": 17156,
    "instagram": "divinabergamo",
    "km": 5.0,
    "lat": 45.65964,
@@ -4787,7 +4846,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 2157,
+   "followers": 2158,
    "instagram": "drinkresponsiblyclub",
    "km": 20.3,
    "lat": 45.7633,
@@ -4827,7 +4886,7 @@
    "capacity_source": "stima",
    "city": "Ranica",
    "first_seen": "2026-11-18",
-   "followers": 24673,
+   "followers": 24685,
    "ig_guessed": "2026-11-19",
    "instagram": "drusobg",
    "km": 3.9,
@@ -5009,6 +5068,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-21",
    "km": 25.0,
    "lat": 45.48951,
    "lon": 9.79691,
@@ -5498,7 +5558,7 @@
    "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 14664,
+   "followers": 14675,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
@@ -6143,6 +6203,7 @@
    "name": "Live Music Club",
    "removed": false,
    "reviews": 3433,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -6427,6 +6488,7 @@
    "name": "Malpaga Sounds Music Fest",
    "removed": false,
    "reviews": 78,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -6709,6 +6771,7 @@
    "name": "Musica dal Vivo Bergamo HP Music",
    "removed": false,
    "reviews": 8,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -6760,7 +6823,7 @@
    "capacity_source": "stima",
    "city": "Grumello del Monte",
    "first_seen": "2026-11-18",
-   "followers": 25609,
+   "followers": 25611,
    "ig_guessed": "2026-11-19",
    "instagram": "nikita__land",
    "km": 15.8,
@@ -7022,6 +7085,7 @@
    "name": "Organo T.C.Lewis | Sotto il Monte Giovanni XXIII",
    "removed": true,
    "reviews": 5,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -7961,6 +8025,7 @@
    "name": "Societa di Mutuo Soccorso Circolo Fratellanza",
    "removed": false,
    "reviews": 183,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -7979,6 +8044,7 @@
    "name": "Societa Operaia del Mutuo Soccorso",
    "removed": false,
    "reviews": 50,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -8132,6 +8198,7 @@
    "name": "Sweetandsour",
    "removed": false,
    "reviews": 18,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -8778,7 +8845,7 @@
    "capacity_source": "stima",
    "city": "Treviolo",
    "first_seen": "2026-11-18",
-   "followers": 11571,
+   "followers": 11570,
    "ig_guessed": "2026-11-19",
    "instagram": "vibetheclub",
    "km": 3.9,
@@ -8946,7 +9013,7 @@
    "capacity": 1000,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 20836,
+   "followers": 20844,
    "instagram": "zeroclub.bg",
    "km": 1.5,
    "lat": 45.68801,

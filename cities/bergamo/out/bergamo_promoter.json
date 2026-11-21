@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-21T15:05",
+ "generated": "2026-11-21T16:12",
  "nights": [
   {
    "date": "2026-11-21",
@@ -8,7 +8,7 @@
    "note": null,
    "weekend_like": true,
    "events": 8,
-   "load": 333.4,
+   "load": 336.2,
    "level": "piena",
    "capacity_taken": 7750,
    "by_family": {
@@ -39,7 +39,7 @@
     },
     {
      "title": "[Reggaeton / Commerciale] Nikita · Novembre Enter The Void",
-     "score": 43.4,
+     "score": 46.2,
      "capacity": 1150
     },
     {
@@ -105,7 +105,7 @@
    "note": null,
    "weekend_like": false,
    "events": 1,
-   "load": 40.0,
+   "load": 53.0,
    "level": "tranquilla",
    "capacity_taken": 900,
    "by_family": {
@@ -120,8 +120,8 @@
    ],
    "top": [
     {
-     "title": "[Hard Techno / Rock] Bloom",
-     "score": 40.0,
+     "title": "[Hard Techno / Rock] Bloom · Spike Hellis",
+     "score": 53.0,
      "capacity": 900
     }
    ]
@@ -186,21 +186,26 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 2,
-   "load": 81.1,
+   "events": 3,
+   "load": 124.5,
    "level": "media",
-   "capacity_taken": 1650,
+   "capacity_taken": 2800,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "Hip Hop / Trap",
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "Nikita · X Schivardi",
+     "score": 43.4,
+     "capacity": 1150
+    },
     {
      "title": "Zero Club · Crystalcastlesnightt",
      "score": 41.5,
@@ -1371,7 +1376,7 @@
    ],
    "top": [
     {
-     "title": "Bloom",
+     "title": "[Rock / Jazz] Bloom",
      "score": 40.0,
      "capacity": 900
     }
