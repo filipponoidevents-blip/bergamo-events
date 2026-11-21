@@ -138,6 +138,51 @@ def from_google(city: City) -> int:
     return added
 
 
+_google_budget = {"left": 15}   # ricerche per nome a ogni giro, al massimo
+
+
+def google_place(city: City, name: str) -> dict | None:
+    """Un locale nominato in un evento ma mai visto: lo cerca per nome su Google Maps vicino alla città.
+    Tiene il risultato solo se il nome corrisponde davvero. Ogni nome si cerca una volta sola."""
+    key = os.environ.get("GOOGLE_PLACES_KEY")
+    cache = city.registry.setdefault("google_lookup", {})
+    q = norm(name)
+    if q in cache:
+        return cache[q]
+    if not key or len(q) < 3 or _google_budget["left"] <= 0:
+        return None
+    _google_budget["left"] -= 1
+    c = city.c
+    body = {"textQuery": f"{name}, {c['name']}", "languageCode": "it", "pageSize": 5,
+            "locationBias": {"circle": {"center": {"latitude": c["lat"], "longitude": c["lon"]}, "radius": 50000.0}}}
+    headers = {"X-Goog-Api-Key": key, "X-Goog-FieldMask": GOOGLE_FIELDS.replace(",nextPageToken", ""), "Content-Type": "application/json"}
+    try:
+        res = fetch(GOOGLE_TEXT, method="POST", json=body, headers=headers, pause=0.5).json()
+    except Exception as e:  # noqa: BLE001
+        log.warning("google %s: %s", name, e)
+        return None
+    out = None
+    want = set(q.split()) - {"bar", "club", "pub", "lounge", "il", "la", "lo", "the", "di", "del"}
+    for pl in res.get("places", []):
+        pname = (pl.get("displayName") or {}).get("text") or ""
+        got = set(norm(pname).split())
+        loc = pl.get("location") or {}
+        if not want or loc.get("latitude") is None or pl.get("businessStatus", "OPERATIONAL") == "CLOSED_PERMANENTLY":
+            continue
+        if len(want & got) / len(want) < 0.6 and q not in norm(pname):   # nome diverso: meglio niente che il posto sbagliato
+            continue
+        types = set(pl.get("types") or [])
+        typ = GOOGLE_TYPES.get(pl.get("primaryType")) or next((GOOGLE_TYPES[t] for t in GOOGLE_TYPES if t in types), "bar")
+        site = pl.get("websiteUri") or ""
+        m = IG_LINK.search(site)
+        out = {"name": clean_name(pname), "address": re.sub(r",\s*(?:Italia|Italy)$", "", pl.get("formattedAddress") or "") or None,
+               "lat": round(loc["latitude"], 5), "lon": round(loc["longitude"], 5), "type": typ, "instagram": m.group(1).lower() if m else None,
+               "website": None if m else (site or None), "reviews": pl.get("userRatingCount"), "aliases": [name] if norm(pname) != q else []}
+        break
+    cache[q] = out
+    return out
+
+
 def upsert(city: City, rec: dict, source: str) -> int:
     """Aggiunge un locale o completa quello che c'è già (non sovrascrive mai un dato esistente)."""
     venues = city.registry["venues"]

@@ -296,7 +296,15 @@ def _slim(ev: dict) -> dict:
 
 
 def _new_venue(city: City, ev: dict) -> dict | None:
-    """Un locale mai visto: se ha un indirizzo o un nome trovabile sulla mappa entra in anagrafica da solo."""
+    """Un locale mai visto: se ha un indirizzo o un nome trovabile sulla mappa entra in anagrafica da solo.
+    Prima Google Maps per nome (se c'è la chiave: indirizzo e tipo giusti), poi la mappa libera."""
+    if ev.get("venue") and len(norm(ev["venue"])) >= 3:
+        rec = discover.google_place(city, ev["venue"])
+        if rec:
+            discover.upsert(city, rec, "eventi")
+            discover.estimate(city)
+            city._build()
+            return city.venue_named(rec["name"], exact=True) or city.venue_named(ev["venue"])
     place = None
     for q in [f"{ev['address']}" if ev.get("address") else None, f"{ev['venue']}, {city.c['name']}" if ev.get("venue") else None]:
         if q:
