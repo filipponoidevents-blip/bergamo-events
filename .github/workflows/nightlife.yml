@@ -18,6 +18,7 @@ jobs:
         with: {ref: claude/project-thread-b9jaty}
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
+      - run: sudo apt-get install -y -q tesseract-ocr tesseract-ocr-ita > /dev/null
       - run: pip install -q -e .
       - name: Giro completo per ogni città (dopo una modifica del programma, 5 giri a un'ora di distanza per partire più in fretta)
         timeout-minutes: 340

@@ -13,12 +13,13 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
+from . import ocr
 from .city import City, clean_name
 from .util import UA, norm, now_iso, plain
 
 log = logging.getLogger("nightlife.instagram")
 PROFILE = "username,name,biography,website,followers_count,media_count"
-MEDIA = "id,caption,media_type,permalink,timestamp,media_url,thumbnail_url"
+MEDIA = "id,caption,media_type,permalink,timestamp,media_url,thumbnail_url,children{media_url,media_type}"
 
 VENUE_WORDS = re.compile(r"\b(?:club|discoteca|disco\s*(?:bar|pub|club)|lounge|cocktail|bar\b|pub\b|bistrot?|caf[eè]|caffetteria|ristorante|pizzeria|birreria|brewery|live\s*music\s*(?:club|venue)|locale|rooftop|circolo|teatro|spazio|venue|beach|lido|chiosco|osteria|enoteca)", re.I)
 ADDRESS_WORDS = re.compile(r"\b(?:via|viale|piazza|piazzale|largo|corso|strada|localit[aà])\s+\w+|📍", re.I)
@@ -130,8 +131,12 @@ class Instagram:
                 at = datetime.fromisoformat(post["timestamp"].replace("+0000", "+00:00"))
                 if today - at > max_age or not post.get("caption"):
                     continue
+                old = self.posts.get(post["id"], {})
                 self.posts[post["id"]] = {"account": h, "at": at.isoformat(timespec="minutes"), "caption": post["caption"], "permalink": post.get("permalink"),
-                                          "image": post.get("media_url") or post.get("thumbnail_url")}
+                                          "image": post.get("media_url") or post.get("thumbnail_url"),
+                                          "slides": [c["media_url"] for c in (post.get("children") or {}).get("data", []) if c.get("media_type") == "IMAGE" and c.get("media_url")][:10],
+                                          **({"ocr": old["ocr"]} if "ocr" in old else {})}
+        self._ocr_scouts()
         self._candidates()
         if not stop:
             self._lookups()
@@ -200,7 +205,7 @@ class Instagram:
         for post in self.posts.values():
             text = plain(post.get("caption") or "")
             low = text.lower()
-            seen = set()
+            seen = {m.lower().rstrip(".") for m in re.findall(r"@([A-Za-z0-9._]{3,30})", plain(post.get("ocr") or ""))}   # nelle immagini la @ resta
             for m in BARE_HANDLE.finditer(text):   # solo minuscole: un handle si scrive così
                 seen.add(m.group(1))
             for m in CUE_HANDLE.finditer(low):
@@ -289,3 +294,21 @@ class Instagram:
                 acc = self._profile(h, bd) if "followers_count" in bd else accounts[h]
                 acc.update({"kind": "scout", "watch": True})
                 self.problems.append(f"Pagina nightlife della città trovata: @{h} (letta solo per scoprire promoter e locali).")
+
+    def _ocr_scouts(self) -> None:
+        """Pagine scout (es. @nightlifebergamo): il recap delle serate è nelle immagini del carosello, non nella didascalia.
+        Si legge il testo di tutte le slide, una volta per post. Solo per scoprire profili: niente entra nel calendario."""
+        if not ocr.AVAILABLE:
+            if any(self.city.registry["accounts"].get(p["account"], {}).get("kind") == "scout" for p in self.posts.values()):
+                self.problems.append("Lettura immagini saltata: Tesseract non installato.")
+            return
+        scouts = {h for h, a in self.city.registry["accounts"].items() if a.get("kind") == "scout"}
+        done = 0
+        for p in sorted(self.posts.values(), key=lambda p: p["at"], reverse=True):
+            if p["account"] not in scouts or "ocr" in p or done >= 15:
+                continue
+            texts = [t for u in (p.get("slides") or [p.get("image")]) if u and (t := ocr.read_image(u))]
+            p["ocr"] = "\n\n".join(texts)
+            done += 1
+        if done:
+            self.problems.append(f"Lette le immagini di {done} post delle pagine scout.")
