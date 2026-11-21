@@ -66,13 +66,13 @@
   "altafunicolare": {
    "bio": "Bringing people together since 1887.\nIl timeless bistrot di Città Alta che unisce generazioni, culture, storie.",
    "checked": "2026-11-21",
-   "events_found": 5,
-   "followers": 1560,
+   "events_found": 6,
+   "followers": 1562,
    "kind": "venue",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "name": "Alta Funicolare",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://altafunicolare.it"
   },
   "alternative": {
@@ -228,13 +228,13 @@
    "cands": 1,
    "checked": "2026-11-21",
    "events_found": 8,
-   "followers": 10336,
+   "followers": 10341,
    "kind": "venue",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 3,
    "name": "Barrier This is the right place",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://www.barbarrier.com/"
   },
   "bar_posto_fisso": {
@@ -266,17 +266,25 @@
    "events_found": 29,
    "followers": 13893,
    "kind": "promoter",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 18,
    "name": "Barley Arts",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "watch": true,
    "website": "http://linktr.ee/barleyartsreal"
   },
   "bellatmosferaevents": {
+   "bio": "Servizi di intrattenimento\n musicale per i vostri eventi 🎧🎤🔊\n💍 @bellatmosferawedding \n👥 @bellatmosferacorporate \nTutti i nostri servizi\n⬇️⬇️⬇️",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 2340,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Bell’Atmosfera - Experience",
+   "readable": true,
+   "watch": true,
+   "website": null
   },
   "beppe_noto": {
    "cands": 1
@@ -345,12 +353,12 @@
    "cands": 1,
    "checked": "2026-11-21",
    "events_found": 20,
-   "followers": 124794,
+   "followers": 124803,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 20,
+   "reads": 21,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
@@ -517,8 +525,15 @@
    "readable": false
   },
   "charlie_cinelli": {
+   "bio": "",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 6793,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Charlie Cinelli",
+   "readable": true,
+   "website": "https://charliecinelli.it/"
   },
   "chefvicario": {
    "cands": 1
@@ -540,12 +555,12 @@
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
    "checked": "2026-11-21",
    "events_found": 19,
-   "followers": 67499,
+   "followers": 67506,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 20,
+   "reads": 21,
    "website": "https://choruslife.com/it/"
   },
   "chris_bergson": {
@@ -558,8 +573,15 @@
    "cands": 1
   },
   "circolofratellanza": {
+   "bio": "Società di mutuo soccorso di Casnigo dal 1904",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 832,
+   "kind": "venue",
+   "mentions": 1,
+   "name": "Circolo Fratellanza Casnigo",
+   "readable": true,
+   "website": "https://linktr.ee/circolofratellanzacasnigo"
   },
   "cocktail_mood_cm": {
    "bio": "🍸 Cocktail Bar & Hamburgheria a Pognano Bg\n🌮 Fajitas fumanti, Pulled Pork & Burger \n🌿 Esclusiva Gin Tonic Selection\n🎤 Eventi, Serate a Tema & Karaoke",
@@ -689,11 +711,14 @@
    "bio": "📞 Prenota al 3207203193\n🏭 Eventi @daste_bergamo",
    "cands": 3,
    "checked": "2026-11-21",
+   "events_found": 4,
    "followers": 9429,
    "kind": "promoter",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 1,
    "name": "Daste Bistro",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": null
   },
@@ -747,18 +772,25 @@
    "bio": "🇮🇹🏳️‍🌈❤️ dal 1991 Dedicato a Raffaella Carra' 👉🏻Dal 1991 Bergamo dal 2017 a Grassobbio ✈️🚁 👑 locale di👉🏻 @missdivina1 ❤️👸🏼#missdivina ⬇️  Ven  & Sab",
    "checked": "2026-11-21",
    "events_found": 16,
-   "followers": 17156,
+   "followers": 17158,
    "kind": "venue",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 1,
    "name": "Divina Music fashion bar",
    "readable": true,
-   "reads": 19,
+   "reads": 20,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
   },
   "dj.sofficino": {
+   "bio": "🇵🇸💃🏻🪩 l’importante è la presa bene 🪩💃🏻🇵🇸\n- dj set quality trash from Brianza con amore -\n@soff.icino",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 637,
+   "kind": "artist",
+   "mentions": 1,
+   "name": "diggei sofficino",
+   "readable": true,
+   "website": null
   },
   "dj_arinatop": {
    "bio": "",
@@ -772,8 +804,16 @@
    "website": "https://www.youtube.com/user/BoyoManMusi"
   },
   "doctor.beat.band": {
+   "bio": "@teoteocoliofficialfanpage's official band since 2002\n🎶#livemusic \n🎵#musicband \n👥#convention\n🎤#partyband\nChiamaci per il tuo evento 🎶🎸🎵",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 2331,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Doctor Beat",
+   "readable": true,
+   "watch": true,
+   "website": "http://www.doctorbeat.it/"
   },
   "dolcisogni_coop": {
    "bio": "🕊️ cooperativa sociale\n☕️ caffetteria, pasticceria e tanto altro!\n🫱🏼‍🫲🏿 inserimento lavorativo e percorsi di autonomia\n🤍 cucinare, avere cura",
@@ -822,12 +862,12 @@
    "bio": "Creiamo @lake.n.roll ♥️\nBirreria con cucina sulla riva del lago a Spinone al Lago BG\nCraft Beers 🍻 Wine Bar 🍷Cocktail Bar 🍸 Live Music 🎸 Sky Bar ⚽",
    "checked": "2026-11-21",
    "events_found": 1,
-   "followers": 2158,
+   "followers": 2159,
    "kind": "venue",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "name": "Drink Responsibly Club",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://g.co/kgs/wBWKzvJ"
   },
   "drusobg": {
@@ -985,6 +1025,11 @@
   "frenz_delfine": {
    "cands": 1
   },
+  "frulleriacafe": {
+   "checked": "2026-11-21",
+   "error": "110: Invalid user id",
+   "readable": false
+  },
   "generazioni_fa": {
    "cands": 1,
    "mentions": 1
@@ -1050,12 +1095,12 @@
    "cands": 5,
    "checked": "2026-11-21",
    "events_found": 5,
-   "followers": 11135,
+   "followers": 11137,
    "kind": "promoter",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "name": "HiddenHell",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "watch": true,
    "website": "https://linktr.ee/HiddenHell"
   },
@@ -1119,13 +1164,13 @@
    "cands": 2,
    "checked": "2026-11-21",
    "events_found": 22,
-   "followers": 14675,
+   "followers": 14678,
    "kind": "venue",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 1,
    "name": "Ink Club",
    "readable": true,
-   "reads": 18,
+   "reads": 19,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
@@ -1167,6 +1212,15 @@
    "reads": 5,
    "website": "http://linktr.ee/jamlivestudio"
   },
+  "jclubbergamo": {
+   "bio": "🗓️ 𝐅𝐑𝐈𝐃𝐀𝐘 • 𝐒𝐀𝐓𝐔𝐑𝐃𝐀𝐘\n🌙 𝐎𝐏𝐄𝐍 𝐓𝐈𝐋𝐋 𝟓 𝐀𝐌\n📲 𝟑𝟗𝟐𝟔𝟑𝟏𝟐𝟒𝟖𝟑\n📲 𝟑𝟐𝟒𝟖𝟔𝟓𝟕𝟐𝟎𝟏\n📍 Via G. Marconi 23/B • Ponte S. Pietro (BG)",
+   "checked": "2026-11-21",
+   "followers": 14748,
+   "kind": "venue",
+   "name": "J CLUB",
+   "readable": true,
+   "website": null
+  },
   "jolie.bg": {
    "cands": 1
   },
@@ -1184,6 +1238,9 @@
   },
   "killingspree_hhc": {
    "cands": 1
+  },
+  "kimi.antonelli": {
+   "cands": 2
   },
   "kokedama_laboratorio": {
    "cands": 1,
@@ -1415,6 +1472,7 @@
    "name": "Moss - Punto di contatto",
    "readable": true,
    "reads": 1,
+   "venue_done": true,
    "website": "https://www.mossevents.it/"
   },
   "mudilva_": {
@@ -1467,12 +1525,12 @@
   "nightlifebergamo": {
    "bio": "Il punto di riferimento degli eventi a Bergamo e provincia🪩⭐️🆒🥂\n🤝 @nightlifebrescia \nLocali e brand: scrivete PARTNER in DM📥",
    "checked": "2026-11-21",
-   "followers": 11530,
+   "followers": 11531,
    "kind": "scout",
-   "last_read": "2026-11-21T18:21+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -1487,6 +1545,17 @@
    "readable": true,
    "reads": 6,
    "website": "http://nikita.land"
+  },
+  "ninespace.villongo": {
+   "bio": "Via Aldo Moro 9 Villongo(BG)\nmar sab 9:30/12:30 15:30/19:30\n@jennyagosti",
+   "checked": "2026-11-21",
+   "followers": 1365,
+   "kind": "venue",
+   "last_read": "2026-11-21T19:29+00:00",
+   "name": "NINE SPACE",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "nouvellevague_tirana": {
    "bio": "A pioneering cocktail bar since 2012, blending local flavors with a fine twist.#Original\n@50bestbars #28\n@50bestbars EUROPE #16\n@top500bars #39",
@@ -1655,13 +1724,13 @@
    "cands": 2,
    "checked": "2026-11-21",
    "events_found": 6,
-   "followers": 3039,
+   "followers": 3040,
    "kind": "promoter",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 4,
    "name": "Retro Vibes Events",
    "readable": true,
-   "reads": 7,
+   "reads": 8,
    "watch": true,
    "website": "https://linktr.ee/retrovibes.events"
   },
@@ -1818,12 +1887,12 @@
    "cands": 4,
    "checked": "2026-11-21",
    "events_found": 11,
-   "followers": 58261,
+   "followers": 58251,
    "kind": "promoter",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "name": "STREEAT Food Truck Festival",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "watch": true,
    "website": "http://www.streeatfoodtruckfestival.it"
   },
@@ -1926,11 +1995,11 @@
    "checked": "2026-11-21",
    "followers": 777,
    "kind": "promoter",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 1,
    "name": "Tumulto",
    "readable": true,
-   "reads": 15,
+   "reads": 16,
    "website": "https://www.facebook.com/tumultoconcerti/"
   },
   "unibg_party": {
@@ -1958,13 +2027,13 @@
    "bio": "| BE COOL BE VIBE |\n📍Bergamo, Italy\nInfoline: 3497567830",
    "checked": "2026-11-21",
    "events_found": 5,
-   "followers": 11570,
+   "followers": 11573,
    "kind": "venue",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 2,
    "name": "VIBE CLUB",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "website": "http://www.vibetheclub.it"
   },
   "victorialoungebar_bonate": {
@@ -2014,13 +2083,13 @@
    "cands": 4,
    "checked": "2026-11-21",
    "events_found": 1,
-   "followers": 2719,
+   "followers": 2720,
    "kind": "promoter",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 1,
    "name": "VPS",
    "readable": true,
-   "reads": 14,
+   "reads": 15,
    "website": "https://forms.gle/wuX4mswv5M28NvHWA"
   },
   "vintage_violence": {
@@ -2033,6 +2102,18 @@
   "we.are.stepup": {
    "cands": 1
   },
+  "whatsapp": {
+   "bio": "WhatUp everyone?",
+   "checked": "2026-11-21",
+   "events_found": 1,
+   "followers": 5512654,
+   "kind": "venue",
+   "last_read": "2026-11-21T19:29+00:00",
+   "name": "WhatsApp",
+   "readable": true,
+   "reads": 1,
+   "website": "https://blog.whatsapp.com/its-time-to-reserve-your-whatsapp-username"
+  },
   "wojtek3522": {
    "cands": 1
   },
@@ -2043,11 +2124,11 @@
    "events_found": 3,
    "followers": 1874,
    "kind": "promoter",
-   "last_read": "2026-11-21T16:07+00:00",
+   "last_read": "2026-11-21T19:29+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 12,
+   "reads": 13,
    "website": "https://linktr.ee/worstzine"
   },
   "www.bloomnet": {
@@ -2279,6 +2360,12 @@
    "city": "Mezzago",
    "lat": 45.63102,
    "lon": 9.44196,
+   "province": null
+  },
+  "Via G. Bonomelli, 9, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.6899,
+   "lon": 9.67233,
    "province": null
   },
   "Via S. Salvatore, 11, Bergamo": {
@@ -2570,7 +2657,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1560,
+   "followers": 1562,
    "instagram": "altafunicolare",
    "km": 1.1,
    "lat": 45.70296,
@@ -3043,6 +3130,7 @@
    "name": "Bar Haiti",
    "removed": false,
    "reviews": 923,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -3285,7 +3373,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 10336,
+   "followers": 10341,
    "instagram": "bar_barrier",
    "km": 0.8,
    "lat": 45.69369,
@@ -3492,7 +3580,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 124794,
+   "followers": 124803,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -4177,7 +4265,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67499,
+   "followers": 67506,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -4201,7 +4289,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-19",
-   "followers": 67499,
+   "followers": 67506,
    "instagram": "choruslife.bergamo",
    "km": 1.1,
    "lat": 45.7031,
@@ -4987,9 +5075,13 @@
   },
   "district spazio eventi": {
    "address": "Via Giorgio e Guido Paglia, 31E, 24122 Bergamo BG",
+   "aliases": [
+    "Moss - Punto di contatto"
+   ],
    "auto_vote": 5.6,
    "capacity": 600,
    "capacity_source": "stima",
+   "city": "Bergamo",
    "first_seen": "2026-11-20",
    "followers": 11959,
    "instagram": "mosspuntodicontatto",
@@ -5000,7 +5092,8 @@
    "removed": true,
    "search_checked": "2026-11-20",
    "sources": [
-    "google"
+    "google",
+    "instagram"
    ],
    "type": "live_club",
    "website": "https://www.mossevents.it/",
@@ -5016,7 +5109,7 @@
    "capacity_source": "stima",
    "city": "Grassobbio",
    "first_seen": "2026-11-18",
-   "followers": 17156,
+   "followers": 17158,
    "instagram": "divinabergamo",
    "km": 5.0,
    "lat": 45.65964,
@@ -5076,7 +5169,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 2158,
+   "followers": 2159,
    "instagram": "drinkresponsiblyclub",
    "km": 20.3,
    "lat": 45.7633,
@@ -5437,7 +5530,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "https://www.matrimonio.com/musica-matrimonio/fr-animation--e129121"
+   "website": "https://www.matrimonio.com/musica-matrimonio/fr-animation--e129121",
+   "website_checked": true
   },
   "frulleria cafe": {
    "address": "Via Vittorio Veneto, 66, 20062 Cassano d'Adda MI",
@@ -5446,6 +5540,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "frulleriacafe",
    "km": 22.8,
    "lat": 45.52572,
    "lon": 9.51878,
@@ -5456,7 +5551,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.frulleriacafe.it/home.asp"
+   "website": "http://www.frulleriacafe.it/home.asp",
+   "website_checked": true
   },
   "garota de ipanema": {
    "address": "Via Enrico Fermi, 56, 24035 Curno BG",
@@ -5480,11 +5576,12 @@
   },
   "gasoline cernusco": {
    "address": "Via Spluga, 49, 23870 Cernusco Lombardone LC",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 5.2,
+   "capacity": 200,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 5512654,
+   "instagram": "whatsapp",
    "km": 21.2,
    "lat": 45.69467,
    "lon": 9.4042,
@@ -5495,7 +5592,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://wa.me/393477878595?text=Ciao%20vorrei%20prenotare%20al%20Gasoline%20Cernusco.%20Giorno:%20%20Ora:%20%20Numero%20persone:%20"
+   "website": "https://wa.me/393477878595?text=Ciao%20vorrei%20prenotare%20al%20Gasoline%20Cernusco.%20Giorno:%20%20Ora:%20%20Numero%20persone:%20",
+   "website_checked": true
   },
   "gelateria pasticceria valcalepio": {
    "address": "Via Primo Maggio, 1, 24060 Gorlago BG",
@@ -5587,15 +5685,17 @@
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.glizanni.it/"
+   "website": "http://www.glizanni.it/",
+   "website_checked": true
   },
   "gliss adro": {
    "address": "Via Provinciale, 46c, 25030 Adro BS",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 1.8,
+   "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 1365,
+   "instagram": "ninespace.villongo",
    "km": 23.4,
    "lat": 45.62098,
    "lon": 9.95788,
@@ -5606,7 +5706,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://glissadro.com/"
+   "website": "http://glissadro.com/",
+   "website_checked": true
   },
   "harlem food drink more": {
    "address": "Via dello Statuto, 19, 24128 Bergamo BG",
@@ -5674,6 +5775,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-21",
    "km": 19.7,
    "lat": 45.53503,
    "lon": 9.77404,
@@ -5722,7 +5824,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/ilcircolinodellamalpensatabergamo/"
+   "website": "https://www.facebook.com/ilcircolinodellamalpensatabergamo/",
+   "website_checked": true
   },
   "il covo": {
    "address": "SP ex SS 525 del Brembo, 2, 20065 Inzago MI",
@@ -5741,7 +5844,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.facebook.com/Il-Covo-729793657085223"
+   "website": "http://www.facebook.com/Il-Covo-729793657085223",
+   "website_checked": true
   },
   "il dolce forno di ale jac": {
    "address": "Via Vittorio Veneto, 929, 24030 Presezzo BG",
@@ -5760,7 +5864,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.ildolcefornobg.it/"
+   "website": "http://www.ildolcefornobg.it/",
+   "website_checked": true
   },
   "il pirata pub": {
    "address": "Via Papa Giovanni XXIII, 75, 24011 Almè BG",
@@ -5806,7 +5911,7 @@
    "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 14675,
+   "followers": 14678,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
@@ -5901,11 +6006,13 @@
   },
   "jclub": {
    "address": "Via Guglielmo Marconi, 23/B, 24036 Ponte San Pietro BG",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 6.4,
+   "capacity": 850,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 14748,
+   "ig_guessed": "2026-11-21",
+   "instagram": "jclubbergamo",
    "km": 7.5,
    "lat": 45.70361,
    "lon": 9.58123,
@@ -6720,6 +6827,7 @@
    "name": "MAJORELLE LOUNGE BAR & NARGHILE",
    "removed": false,
    "reviews": 30,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -7400,6 +7508,7 @@
    "name": "P40 Lounge Bar",
    "removed": false,
    "reviews": 1977,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -8055,6 +8164,7 @@
    "name": "Rio Bar",
    "removed": false,
    "reviews": 1100,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -8488,6 +8598,7 @@
    "name": "Tassino Cafe",
    "removed": false,
    "reviews": 1228,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -8777,6 +8888,7 @@
    "name": "The Tucans Pub",
    "removed": false,
    "reviews": 1376,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -8834,6 +8946,7 @@
    "name": "Tony'S Cucina Bar Bottega",
    "removed": false,
    "reviews": 599,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -8908,6 +9021,7 @@
    "name": "Trex Ristoforno caffe",
    "removed": false,
    "reviews": 3612,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -9023,6 +9137,7 @@
    "name": "Vacan Latin Bar",
    "removed": false,
    "reviews": 89,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -9060,6 +9175,7 @@
    "name": "Varadero Food & Drink",
    "removed": false,
    "reviews": 645,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -9098,7 +9214,7 @@
    "capacity_source": "stima",
    "city": "Treviolo",
    "first_seen": "2026-11-18",
-   "followers": 11570,
+   "followers": 11573,
    "ig_guessed": "2026-11-19",
    "instagram": "vibetheclub",
    "km": 3.9,

@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-21T18:27",
+ "generated": "2026-11-21T19:34",
  "nights": [
   {
    "date": "2026-11-21",
@@ -917,7 +917,7 @@
    "note": "festivo (Santo Stefano)",
    "weekend_like": true,
    "events": 1,
-   "load": 46.2,
+   "load": 49.8,
    "level": "libera",
    "capacity_taken": 900,
    "by_family": {
@@ -933,8 +933,8 @@
    ],
    "top": [
     {
-     "title": "[Rock / Jazz] Bloom · Alessandro Sipolo",
-     "score": 46.2,
+     "title": "[Rock / Jazz] Bloom · Charlie Cinelli",
+     "score": 49.8,
      "capacity": 900
     }
    ]
