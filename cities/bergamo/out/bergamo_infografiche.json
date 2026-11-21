@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-20T22:09",
+ "generated": "2026-11-21T15:05",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -325,18 +325,18 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
-     "line2": "live",
-     "time": "20:45",
-     "score": 21.4,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
      "score": 19.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Chiesa Parrochiale di Santa Maria, Dalmine (BG)",
+     "line2": "live",
+     "time": "20:45",
+     "score": 17.8,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -400,6 +400,7 @@
    "@vibetheclub",
    "@upside.down.night",
    "@oasi.night",
+   "@spettacoli",
    "@arya.lounge",
    "@nikita__land",
    "@bolgia.official",
@@ -413,7 +414,6 @@
    "@fede_regooo",
    "@selected.lab",
    "@possibilita",
-   "@spettacoli",
    "@alessiosielii",
    "@lab80cinemas"
   ],
@@ -450,7 +450,7 @@
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 38.9,
+      "score": 39.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -600,7 +600,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Bloom",
+     "line1": "cre.sp1 @ Bloom",
      "line2": "dj set",
      "time": "21:00",
      "score": 35.7,
@@ -971,7 +971,7 @@
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 38.9,
+      "score": 39.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1083,18 +1083,18 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
-     "line2": "live",
-     "time": "20:45",
-     "score": 21.4,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
      "score": 19.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Chiesa Parrochiale di Santa Maria, Dalmine (BG)",
+     "line2": "live",
+     "time": "20:45",
+     "score": 17.8,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1207,7 +1207,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Bloom",
+     "line1": "cre.sp1 @ Bloom",
      "line2": "dj set",
      "time": "21:00",
      "score": 35.7,
@@ -1254,6 +1254,7 @@
    "@megan_is_missing_band",
    "@divinabergamo",
    "@possibilita",
+   "@spettacoli",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
@@ -1263,7 +1264,6 @@
    "@vibetheclub",
    "@upside.down.night",
    "@oasi.night",
-   "@spettacoli",
    "@arya.lounge",
    "@nikita__land",
    "@choruslife.bergamo",
@@ -1294,7 +1294,8 @@
    "2026-12-11",
    "2026-12-12",
    "2026-12-18",
-   "2026-12-25"
+   "2026-12-25",
+   "2026-12-26"
   ],
   "serate_by_family": {
    "Altro": {
@@ -1367,16 +1368,26 @@
       "fascia": "serata",
       "family": "Altro"
      }
+    ],
+    "2026-12-26": [
+     {
+      "line1": "Bloom",
+      "line2": "Rock / Jazz",
+      "time": "00:00",
+      "score": 40.0,
+      "fascia": "serata",
+      "family": "Altro"
+     }
     ]
    }
   },
   "preserate": {
    "2026-12-03": [
     {
-     "line1": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
-     "line2": "dj set",
+     "line1": "Bar della Musica",
+     "line2": "Rock",
      "time": "20:45",
-     "score": 21.4,
+     "score": 3.3,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1434,11 +1445,10 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@prenotazione",
    "@bloom_mezzago",
+   "@prenotazione",
    "@bolgia.official",
    "@barleyartsreal",
-   "@filarmonicadalmine",
    "@dj.sofficino",
    "@nico.bre1917",
    "@possibilita",
@@ -1448,7 +1458,13 @@
    "@nikita__land",
    "@door_74",
    "@charlie.blackbird",
-   "@drusobg"
+   "@drusobg",
+   "@importanti",
+   "@charlie_cinelli",
+   "@naturalezza",
+   "@lorenzo.monguzzi",
+   "@alessandro.sipolo",
+   "@attenzione"
   ],
   "hashtags": [
    "#bergamo",

@@ -30,32 +30,6 @@
  "dice": [],
  "jsonld": [
   {
-   "date": "2026-11-20",
-   "start": "20:00",
-   "end": null,
-   "late_end": false,
-   "venue": "Teatro Donizetti",
-   "venue_known": true,
-   "address": "Piazza Cavour 15, Bergamo",
-   "room": null,
-   "party": "Le convenienze ed inconvenienze teatrali",
-   "promoter": null,
-   "promoter_name": null,
-   "guests": [],
-   "genre": null,
-   "type": null,
-   "entry": null,
-   "price": null,
-   "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/le-convenienze-ed-inconvenienze-teatrali_305901/",
-   "handles": [],
-   "confidence": 0.8,
-   "source": "agenda",
-   "account": null,
-   "url": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/le-convenienze-ed-inconvenienze-teatrali_305901/",
-   "posted": null,
-   "text": "L'evento presenta il dramma giocoso in un atto «Le convenienze ed inconvenienze teatrali», con musica di Gaetano Donizetti e libretto di Domenico Gilardi, nell'ambito della rassegna «Donizetti Operats»."
-  },
-  {
    "date": "2026-11-21",
    "start": "16:00",
    "end": null,
@@ -448,7 +422,7 @@
  ],
  "articles": [
   {
-   "date": "2026-11-20",
+   "date": "2026-11-21",
    "start": null,
    "end": null,
    "late_end": false,
@@ -480,8 +454,8 @@
    "source": "giornale",
    "account": null,
    "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
-   "posted": "2026-11-20T22:08+00:00",
-   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
+   "posted": "2026-11-21T15:05+00:00",
+   "text": "\nSat, 21 Nov 2026 08:16:27 +0000 \n\t\t\t\t   \n\t\t https://primabergamo.it/?p=659512 \n\n\t\t\t\t\t   Dopo il successo dello scorso anno, i felini piu affascinanti d’Europa tornano protagonisti ad Azzano San Paolo. Oggi (21 novembre) e domani, il centro sportivo di via Stezzano ospitera una nuova edizione della Mostra felina internazionale Tica, intitolata “Chi e il gatto piu bello del reame?”. Un appuntamento che vedra la partecipazione di circa 200 [...]\nContinua la lettura di  Il gatto piu bello del reame? Lo si elegge ad Azzano, alla seconda Mostra felina internazionale  sul portale  Prima Bergamo .\nFr"
   },
   {
    "date": "2026-11-28",
@@ -516,8 +490,8 @@
    "source": "giornale",
    "account": null,
    "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
-   "posted": "2026-11-20T22:08+00:00",
-   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
+   "posted": "2026-11-21T15:05+00:00",
+   "text": "\nSat, 21 Nov 2026 08:16:27 +0000 \n\t\t\t\t   \n\t\t https://primabergamo.it/?p=659512 \n\n\t\t\t\t\t   Dopo il successo dello scorso anno, i felini piu affascinanti d’Europa tornano protagonisti ad Azzano San Paolo. Oggi (21 novembre) e domani, il centro sportivo di via Stezzano ospitera una nuova edizione della Mostra felina internazionale Tica, intitolata “Chi e il gatto piu bello del reame?”. Un appuntamento che vedra la partecipazione di circa 200 [...]\nContinua la lettura di  Il gatto piu bello del reame? Lo si elegge ad Azzano, alla seconda Mostra felina internazionale  sul portale  Prima Bergamo .\nFr"
   },
   {
    "date": "2026-12-15",
@@ -552,44 +526,8 @@
    "source": "giornale",
    "account": null,
    "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
-   "posted": "2026-11-20T22:08+00:00",
-   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
-  },
-  {
-   "date": "2027-07-11",
-   "start": null,
-   "end": null,
-   "late_end": false,
-   "venue": "ChorusLife Arena",
-   "venue_known": true,
-   "address": null,
-   "room": null,
-   "party": null,
-   "promoter": null,
-   "promoter_name": null,
-   "guests": [
-    {
-     "name": "spettacoli",
-     "instagram": "spettacoli",
-     "level": null,
-     "cue": false,
-     "followers": null
-    }
-   ],
-   "genre": null,
-   "type": "culture",
-   "entry": "a pagamento",
-   "price": null,
-   "tickets": null,
-   "handles": [
-    "spettacoli"
-   ],
-   "confidence": 0.75,
-   "source": "giornale",
-   "account": null,
-   "url": "https://primabergamo.it/tempo-libero/eventi/feed/",
-   "posted": "2026-11-20T22:08+00:00",
-   "text": "\nFri, 20 Nov 2026 12:14:45 +0000 \n\t\t\t\t   \n\t\t   \n\t\t   \n\t\t https://primabergamo.it/?p=659467 \n\n\t\t\t\t\t   Promessa mantenuta. Un anno fa, a fine serata, ci si era dati appuntamento per tagliare il traguardo dei centomila euro: ieri sera (giovedi 19 novembre), nella splendida cornice della Tenuta Serradesca di Scanzorosciate, quel traguardo non solo e stato raggiunto, ma ampiamente superato. La sesta edizione della serata benefica di RadioDea ha fruttato 23 mila [...]\nContinua la lettura di  Superata quota centomila: RadioDea raccoglie altri 23 mila euro per gli Amici della Pediatria  sul portale  P"
+   "posted": "2026-11-21T15:05+00:00",
+   "text": "\nSat, 21 Nov 2026 08:16:27 +0000 \n\t\t\t\t   \n\t\t https://primabergamo.it/?p=659512 \n\n\t\t\t\t\t   Dopo il successo dello scorso anno, i felini piu affascinanti d’Europa tornano protagonisti ad Azzano San Paolo. Oggi (21 novembre) e domani, il centro sportivo di via Stezzano ospitera una nuova edizione della Mostra felina internazionale Tica, intitolata “Chi e il gatto piu bello del reame?”. Un appuntamento che vedra la partecipazione di circa 200 [...]\nContinua la lettura di  Il gatto piu bello del reame? Lo si elegge ad Azzano, alla seconda Mostra felina internazionale  sul portale  Prima Bergamo .\nFr"
   },
   {
    "date": "2026-12-27",
@@ -800,64 +738,6 @@
    "url": "https://primabergamo.it/tempo-libero/eventi/natale-luci-e-spettacoli-choruslife-si-accende-a-bergamo/",
    "posted": "2026-11-16T17:07+00:00",
    "text": "Albero, luci e spettacoli: sabato 21 si accende il Natale a ChorusLife\nFino al 6 gennaio un ricco calendario di iniziative animera il periodo delle feste tra musica, laboratori e intrattenimento per tutte le eta\n\n                                                     Bergamo  ·\n                                                  16 Novembre 2026 alle 18:07  \n                    \ndi  \n            Irene Buccio \nIl Natale arriva allo Smart District di ChorusLife a  Bergamo  con un calendario di appuntamenti dedicati a famiglie, bambini e visitatori di tutte le eta.\nSabato 21 novembre, a partire dalle"
-  },
-  {
-   "date": "2026-11-20",
-   "start": null,
-   "end": null,
-   "late_end": false,
-   "venue": "NXT Bergamo",
-   "venue_known": true,
-   "address": null,
-   "room": null,
-   "party": null,
-   "promoter": null,
-   "promoter_name": null,
-   "guests": [
-    {
-     "name": "Roby Zonca",
-     "instagram": null,
-     "level": null,
-     "cue": true,
-     "followers": null
-    },
-    {
-     "name": "Carlo Skizzo",
-     "instagram": null,
-     "level": null,
-     "cue": true,
-     "followers": null
-    },
-    {
-     "name": "Possibilita",
-     "instagram": "possibilita",
-     "level": null,
-     "cue": false,
-     "followers": 1712
-    },
-    {
-     "name": "spettacoli",
-     "instagram": "spettacoli",
-     "level": null,
-     "cue": false,
-     "followers": null
-    }
-   ],
-   "genre": "Jazz",
-   "type": "karaoke",
-   "entry": null,
-   "price": null,
-   "tickets": null,
-   "handles": [
-    "possibilita",
-    "spettacoli"
-   ],
-   "confidence": 0.75,
-   "source": "giornale",
-   "account": null,
-   "url": "https://primabergamo.it/tempo-libero/eventi/in-piazzale-alpini-a-bergamo-torna-la-pista-di-pattinaggio-con-il-bosco-incantato-luminoso-e-tanti-eventi/",
-   "posted": "2026-11-06T07:18+00:00",
-   "text": "In piazzale Alpini a Bergamo torna la pista di pattinaggio, con il bosco incantato luminoso e tanti eventi\nIl ricco programma di iniziative prendera il via venerdi 20 novembre con la Country Night. Appuntamenti anche durante le feste, con buon cibo\n\n                                                     Bergamo  ·\n                                                  06 Novembre 2026 alle 08:18  \n                    \nIl Natale torna ad accendere Piazzale degli Alpini con  Bergamo  On Ice & Star Garden, il progetto realizzato in collaborazione tra Nxt Bergamo e Zambo Events, in programma dal 20 novem"
   },
   {
    "date": "2026-11-25",

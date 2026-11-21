@@ -22,13 +22,17 @@
    "checked": "2026-11-19",
    "followers": 8866,
    "kind": "artist",
-   "mentions": 8,
+   "mentions": 5,
    "name": "Alchemica Music Club - Bologna",
    "readable": true,
    "website": "https://li.sten.to/alchemicamusicclub"
   },
   "ale_lussiana": {
    "cands": 1
+  },
+  "alessandro.sipolo": {
+   "cands": 1,
+   "mentions": 1
   },
   "alessiosielii": {
    "cands": 1,
@@ -136,18 +140,20 @@
   },
   "armida.kaiserfleish": {
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "mentions": 1,
+   "readable": false
   },
   "arya.lounge": {
    "bio": "FEEL FREE TONIGHT \nVen /  Sab 21:00 - 03:00 \nVia Balilla 66 , Romano Di Lombardia📍\nInfo e prenotazioni : 3513507240\nFoto serate👇🏻📸",
-   "checked": "2026-11-20",
-   "events_found": 20,
+   "checked": "2026-11-21",
+   "events_found": 21,
    "followers": 2473,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "ARYA",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://t.me/AryaLounge"
   },
   "assonica_": {
@@ -216,14 +222,14 @@
   },
   "bardoni_pasticceria": {
    "bio": "🎂 🍰 ☕️ 🍧 🍦 🍻 \n📍Largo Pablo Picasso 1, Paladina\n⏰Lun 6.30-12.30\n⏰Mar-Mer-Gio 6.30-12.30; 15.30-18.30\n⏰Ven-Sab-Dom 6.30-12.30; 15.30-22.30",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 1,
-   "followers": 1904,
+   "followers": 1903,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Bardoni Pasticceria",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://www.bardonipasticceria.it/"
   },
   "barh_lounge": {
@@ -239,7 +245,7 @@
    "followers": 13894,
    "kind": "promoter",
    "last_read": "2026-11-20T20:58+00:00",
-   "mentions": 21,
+   "mentions": 18,
    "name": "Barley Arts",
    "readable": true,
    "reads": 7,
@@ -259,15 +265,15 @@
   "bloom_mezzago": {
    "bio": "Sviluppi incontrollati nel cuore della Brianza ⚡️",
    "cands": 2,
-   "checked": "2026-11-20",
-   "events_found": 20,
-   "followers": 16266,
+   "checked": "2026-11-21",
+   "events_found": 21,
+   "followers": 16297,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
-   "mentions": 5,
+   "last_read": "2026-11-21T15:00+00:00",
+   "mentions": 4,
    "name": "B L O O M Dal 1987",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://linktr.ee/bloommezzago"
   },
   "bloomcinema_mezzago": {
@@ -279,6 +285,7 @@
    "mentions": 1,
    "name": "BLOOM CINEMA",
    "readable": true,
+   "venue_done": true,
    "website": "http://linktr.ee/bloommezzago/"
   },
   "bob_theotherside": {
@@ -294,27 +301,27 @@
   },
   "bobadillafeelingclub": {
    "bio": "Il locale Storico di Bergamo✨\nRistorante: @bobadillaristorante\nDiscoteca: @bobadillafeelingclub \nAperitivo Domenica: @aperitivomartini",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 14,
-   "followers": 31628,
+   "followers": 31622,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 18,
+   "reads": 19,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
    "bio": "Info ☎️ 3383624803\n21.11 @djmaddog + @gravedgrmusic + @flymeonmusic\n28.11 @marievaunt\n05.12 @chelinamanuhutu\n07.12 @novah.music",
    "cands": 1,
-   "checked": "2026-11-20",
-   "events_found": 19,
-   "followers": 124747,
+   "checked": "2026-11-21",
+   "events_found": 20,
+   "followers": 124787,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 18,
+   "reads": 19,
    "website": "http://www.bolgia.it/"
   },
   "bowie.hc": {
@@ -332,6 +339,17 @@
    "checked": "2026-11-20",
    "error": "110: Invalid user id",
    "readable": false
+  },
+  "bumbumfestival": {
+   "bio": "Concerts. 100% Free. 100% Fun.\n20/08 -> 30/08/2026 , Trescore Balneario (BG) ITALY. INGRESSO GRATUITO. #bumbumfestival",
+   "checked": "2026-11-21",
+   "followers": 12417,
+   "kind": "venue",
+   "last_read": "2026-11-21T15:00+00:00",
+   "name": "Bum Bum Festival",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "burnt.shoes": {
    "cands": 1
@@ -359,6 +377,18 @@
    "readable": true,
    "reads": 2,
    "website": "https://www.cafenoirlounge.com"
+  },
+  "caffesalotto": {
+   "bio": "Benvenuti, qui si respira aria di casa .\n🥐🥞🍰🫖🍷\nSiamo a #gorle in via Buonarroti 17/G\nIl martedì riposiamo 🫶🏻\n☎️ 035/302275",
+   "checked": "2026-11-21",
+   "events_found": 0,
+   "followers": 11097,
+   "kind": "venue",
+   "last_read": "2026-11-21T15:00+00:00",
+   "name": "Caffe&Salotto",
+   "readable": true,
+   "reads": 1,
+   "website": "https://canva.link/6hii380amvhhlrl"
   },
   "calce.viva.oi": {
    "cands": 1,
@@ -435,6 +465,10 @@
    "cands": 1,
    "mentions": 1
   },
+  "charlie_cinelli": {
+   "cands": 1,
+   "mentions": 1
+  },
   "cherry.ills": {
    "bio": ".",
    "cands": 2,
@@ -450,14 +484,14 @@
   },
   "choruslife.bergamo": {
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 19,
-   "followers": 67451,
+   "followers": 67487,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 18,
+   "reads": 19,
    "website": "https://choruslife.com/it/"
   },
   "chris_bergson": {
@@ -468,6 +502,10 @@
   },
   "cinquanta_spiritoitaliano": {
    "cands": 1
+  },
+  "circolofratellanza": {
+   "cands": 1,
+   "mentions": 1
   },
   "cocktail_mood_cm": {
    "bio": "🍸 Cocktail Bar & Hamburgheria a Pognano Bg\n🌮 Fajitas fumanti, Pulled Pork & Burger \n🌿 Esclusiva Gin Tonic Selection\n🎤 Eventi, Serate a Tema & Karaoke",
@@ -500,14 +538,14 @@
   },
   "contest_bg": {
    "bio": "Cocktail bar 🍸\n✨Food drink and more✨\n👉🏼Lunedì - Giovedì 18:00-1:30\n👉🏼Venerdì e Sabato 18:00-2:30\n// Domenica chiuso \n📍Via V. Bellini 47, Bergamo",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 3,
-   "followers": 3933,
+   "followers": 3932,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Contest Bergamo",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "corinna_fm": {
@@ -536,8 +574,15 @@
    "website": "http://www.childrenofthedamned.it/"
   },
   "cre.sp1": {
+   "bio": "Jaggernaut\nHe/Him/Cre\nSe pensi che la Remigrazione sia una cosa giusta, ti consiglio un cappio e un ramo abbastanza resistente",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 988,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "",
+   "readable": true,
+   "website": null
   },
   "croccante_all_amarezza": {
    "cands": 1
@@ -567,7 +612,7 @@
    "checked": "2026-11-20",
    "followers": 178,
    "kind": "unknown",
-   "mentions": 7,
+   "mentions": 5,
    "name": "Degustazione Di Due",
    "readable": true,
    "website": null
@@ -575,17 +620,20 @@
   "delleali_teatro": {
    "bio": "🎭 Compagnia e residenza teatrale dal 1996, delleAli Teatro è: teatro ragazzi, teatro sonoro e teatro sociale.",
    "cands": 1,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 5,
    "followers": 2375,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
-   "mentions": 3,
+   "last_read": "2026-11-21T15:00+00:00",
+   "mentions": 2,
    "name": "delleAli Teatro",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "venue_done": true,
    "website": "http://www.delleali.it"
+  },
+  "dice_id": {
+   "cands": 1
   },
   "digitalispurpurea_": {
    "mentions": 1
@@ -593,14 +641,14 @@
   "dipreperlei_official": {
    "bio": "The original format \"Diprè per lei\" Is back.\nPowered by @infinityagency_fans \n~A project by Avv. Andrea Diprè\n@andreadipreworld",
    "cands": 3,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 1,
-   "followers": 2306,
+   "followers": 2310,
    "kind": "promoter",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Andrea Dipre",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "watch": true,
    "website": "https://andreadipreshop.com"
   },
@@ -611,7 +659,7 @@
    "followers": 17179,
    "kind": "venue",
    "last_read": "2026-11-20T22:04+00:00",
-   "mentions": 2,
+   "mentions": 1,
    "name": "Divina Music fashion bar",
    "readable": true,
    "reads": 18,
@@ -632,6 +680,18 @@
    "readable": true,
    "website": "https://www.youtube.com/user/BoyoManMusi"
   },
+  "dolcisogni_coop": {
+   "bio": "🕊️ cooperativa sociale\n☕️ caffetteria, pasticceria e tanto altro!\n🫱🏼‍🫲🏿 inserimento lavorativo e percorsi di autonomia\n🤍 cucinare, avere cura",
+   "checked": "2026-11-21",
+   "events_found": 2,
+   "followers": 649,
+   "kind": "venue",
+   "last_read": "2026-11-21T15:00+00:00",
+   "name": "Dolci Sogni Liberi Societa Cooperativa Sociale",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "done.with.world.hc": {
    "bio": "CR/HC and RM/HC Representing -\n- Nu-Beatdown from center Italy -\n- donewithworld.business@gmail.com",
    "cands": 2,
@@ -645,7 +705,7 @@
   "donnedemocratichemezzago": {
    "cands": 1,
    "checked": "2026-11-20",
-   "mentions": 3,
+   "mentions": 2,
    "readable": false
   },
   "door_74": {
@@ -701,7 +761,9 @@
   },
   "esse.pietro": {
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "mentions": 1,
+   "readable": false
   },
   "estasifashion": {
    "cands": 1
@@ -744,7 +806,9 @@
   },
   "federicoo_riva": {
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "mentions": 1,
+   "readable": false
   },
   "femme.cell": {
    "bio": "",
@@ -776,6 +840,10 @@
   },
   "frenz_delfine": {
    "cands": 1
+  },
+  "generazioni_fa": {
+   "cands": 1,
+   "mentions": 1
   },
   "giovanni.riva1979": {
    "cands": 1
@@ -814,14 +882,21 @@
    "checked": "2026-11-19",
    "followers": 293143,
    "kind": "artist",
-   "mentions": 3,
+   "mentions": 2,
    "name": "HENGE",
    "readable": true,
    "website": "https://hengemusic.com"
   },
   "hesperia.lasciateci_le_ali": {
+   "bio": "Promuove la crescita umana, civile e artistica sul territorio attraverso la produzione, promozione e diffusione di iniziative letterarie e teatrali.",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-21",
+   "followers": 365,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "HESPERIA. Lasciateci le ali",
+   "readable": true,
+   "website": "https://www.eventbrite.it/e/biglietti-atroce-natale-voce-ai-racconti-di-dino-buzzati-1977515327578?aff=oddtdtcreator"
   },
   "hiddenhell.techno": {
    "bio": "THE MOVEMENT FROM HELL 🩸 🇮🇹\n💿Label: \n@hiddenhell.records \n👹Next events:\n• 12.12 @bolgia.official \n• 25.12 @zeroclub.bg",
@@ -842,14 +917,14 @@
   },
   "il_barrito": {
    "bio": "☕️ Colazioni, pranzi, aperitivi\n🍷 Selezione vini, gin e spirits\n🥪 Qualità sempre al tuo servizio, dall'alba a tarda sera\n📍 Petosino BG\nScopri di più👇🏼",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 4,
    "followers": 1310,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "BARRITO - Il tuo bar di fiducia",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://maps.app.goo.gl/x1WMq748BZU6fuWm6"
   },
   "il_boffe": {
@@ -929,14 +1004,14 @@
   },
   "jamlivestudio": {
    "bio": "JAM Live Studio \nDiscoteca free entry | Nembro (BG)\n📲 377 0899252 / 340 8419829",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 7,
-   "followers": 6022,
+   "followers": 6021,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Jam Live Studio",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "http://linktr.ee/jamlivestudio"
   },
   "jolie.bg": {
@@ -978,14 +1053,14 @@
   },
   "lab80cinemas": {
    "bio": "Auditorium + Sala Orologio📍@cultbergamo🏢\nLo Schermo Bianco📍@daste_bergamo🏭 \nEsterno Notte📍d’estate in via Tasso🌙✨\n#Lmaiuscolaabspazio80innumero",
-   "checked": "2026-11-20",
-   "events_found": 23,
-   "followers": 6633,
+   "checked": "2026-11-21",
+   "events_found": 24,
+   "followers": 6637,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 16,
+   "reads": 17,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -1006,7 +1081,7 @@
    "checked": "2026-11-20",
    "followers": 252,
    "kind": "unknown",
-   "mentions": 3,
+   "mentions": 2,
    "name": "Lateres - Dinamiche creative diffuse",
    "readable": true,
    "website": "https://sites.google.com/view/zagrang2026/home-page?authuser=4"
@@ -1030,26 +1105,30 @@
   },
   "liveclub": {
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 12,
-   "followers": 33400,
+   "followers": 33465,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
-   "mentions": 2,
+   "last_read": "2026-11-21T15:00+00:00",
+   "mentions": 1,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 18,
+   "reads": 19,
    "website": "https://www.liveclub.it/start/"
+  },
+  "lorenzo.monguzzi": {
+   "cands": 1,
+   "mentions": 1
   },
   "lotocafe": {
    "bio": "Colazioni, Aperitivi, Pranzi e cene 🥐🍹\nAperti tutti i giorni!🪷\nLunedì-Giovedì 5.30-00.00\nVenerdì-Sabato. 5.30-2.00\nDomenica 6.30-00.00\n377/3750605",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "followers": 1024,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Loto Cafe",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "lowl_fest": {
@@ -1083,7 +1162,7 @@
    "checked": "2026-11-19",
    "followers": 220929,
    "kind": "artist",
-   "mentions": 3,
+   "mentions": 2,
    "name": "Mark The Hammer",
    "readable": true,
    "website": "https://linktr.ee/markthehammer"
@@ -1113,7 +1192,7 @@
    "checked": "2026-11-20",
    "followers": 7009,
    "kind": "unknown",
-   "mentions": 3,
+   "mentions": 2,
    "name": "Maschile Plurale",
    "readable": true,
    "website": "https://leserredeigiardini.it/maschile-plurale-fest/"
@@ -1147,7 +1226,7 @@
    "checked": "2026-11-19",
    "followers": 127309,
    "kind": "unknown",
-   "mentions": 2,
+   "mentions": 1,
    "name": "Miss DIVINA Fulvio Facchinetti",
    "readable": true,
    "website": "https://open.spotify.com/artist/4TLeeE4HJds7U1jNd78Rle?si=eSIZ_E6vQxa5jWGBW0gmYQ"
@@ -1170,7 +1249,7 @@
    "cands": 1
   },
   "naturalezza": {
-   "cands": 2,
+   "cands": 3,
    "checked": "2026-11-20",
    "mentions": 1,
    "readable": false
@@ -1262,14 +1341,14 @@
   },
   "oroneroloveandmusic": {
    "bio": "UPCOMING EVENTS:\n27/11: HARDCORE w/@lancinhousedj",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 7,
-   "followers": 7812,
+   "followers": 7813,
    "kind": "venue",
-   "last_read": "2026-11-20T20:58+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "ORONERO",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": null
   },
   "ozza.dj": {
@@ -1309,7 +1388,7 @@
    "checked": "2026-11-20",
    "followers": 1712,
    "kind": "unknown",
-   "mentions": 5,
+   "mentions": 4,
    "name": "Possibilita",
    "readable": true,
    "website": "https://linktr.ee/Possibilita"
@@ -1440,7 +1519,7 @@
    "checked": "2026-11-19",
    "followers": 22015,
    "kind": "venue",
-   "mentions": 3,
+   "mentions": 2,
    "name": "sPAZIO211",
    "readable": true,
    "venue_done": true,
@@ -1449,22 +1528,22 @@
   "spazioteatro89": {
    "bio": "Il Teatro per Te",
    "cands": 2,
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 7,
    "followers": 4761,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "mentions": 1,
    "name": "Spazio Teatro 89",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "venue_done": true,
    "website": "https://spazioteatro89.org"
   },
   "spettacoli": {
    "cands": 1,
    "checked": "2026-11-20",
-   "mentions": 12,
+   "mentions": 10,
    "readable": false
   },
   "spike.hellis": {
@@ -1487,7 +1566,7 @@
    "checked": "2026-11-19",
    "followers": 4361,
    "kind": "venue",
-   "mentions": 2,
+   "mentions": 1,
    "name": "STATION Live Club",
    "readable": true,
    "venue_done": true,
@@ -1644,14 +1723,14 @@
   },
   "victorialoungebar_bonate": {
    "bio": "☕️ Colazioni & Caffetteria\n🥗 Business Lunch\n🍹 Aperitivi esclusivi\n🍸Cocktail \n🎉 Eventi privati\n👇🏼 Vieni a trovarci!",
-   "checked": "2026-11-20",
+   "checked": "2026-11-21",
    "events_found": 1,
    "followers": 1289,
    "kind": "venue",
-   "last_read": "2026-11-20T19:52+00:00",
+   "last_read": "2026-11-21T15:00+00:00",
    "name": "Victoria Lounge Bar Bonate Sotto",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "venue_done": true,
    "website": null
   },
@@ -1815,6 +1894,12 @@
    "lon": 9.43837,
    "province": null
   },
+  "Chiesa Parrochiale di Santa Maria, Dalmine (BG), Bergamo": {
+   "city": "Dalmine",
+   "lat": 45.63908,
+   "lon": 9.58576,
+   "province": null
+  },
   "Door 74, Bergamo": {
    "city": "Bergamo",
    "lat": 45.68879,
@@ -1939,6 +2024,12 @@
    "lon": 9.89511,
    "province": null
   },
+  "Via Curiel 39, Mezzago ": {
+   "city": "Mezzago",
+   "lat": 45.63102,
+   "lon": 9.44196,
+   "province": null
+  },
   "Via S. Salvatore, 11, Bergamo": {
    "city": "Bergamo",
    "lat": 45.70399,
@@ -1991,6 +2082,35 @@
   "sPAZIO211, Bergamo": null
  },
  "google_checked": "2026-11-20",
+ "google_lookup": {
+  "biblioteca civica angelo mai di bergamo": {
+   "address": "Piazza Vecchia, 15, 24129 Bergamo BG",
+   "aliases": [
+    "Biblioteca Civica Angelo Mai di Bergamo"
+   ],
+   "instagram": null,
+   "lat": 45.70441,
+   "lon": 9.66324,
+   "name": "Biblioteca Civica Angelo Mai",
+   "reviews": 115,
+   "type": "bar",
+   "website": "http://www.bibliotecamai.org/"
+  },
+  "biblioteca tiraboschi sala mimmo boninelli": {
+   "address": "Via S. Bernardino, 74, 24122 Bergamo BG",
+   "aliases": [
+    "Biblioteca Tiraboschi - Sala Mimmo Boninelli"
+   ],
+   "instagram": null,
+   "lat": 45.68724,
+   "lon": 9.66323,
+   "name": "Sala Mimmo Boninelli",
+   "reviews": 3,
+   "type": "bar",
+   "website": "https://biblioteche.comune.bergamo.it/"
+  },
+  "chiesa parrochiale di santa maria dalmine bg": null
+ },
  "google_queries": "discoteca|night club|club|disco pub|locale musica dal vivo|cocktail bar dj|lounge bar|centro culturale musica|spazio eventi concerti|circolo arci|caffetteria aperitivo|aperitivo dj set|pasticceria aperitivo",
  "hashtags": {
   "checked": "2026-11-18T09:30+00:00"
@@ -2123,6 +2243,7 @@
    "name": "Alborghetti Events | musica e intrattenimento",
    "removed": false,
    "reviews": 27,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -2366,7 +2487,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6633,
+   "followers": 6637,
    "instagram": "lab80cinemas",
    "km": 0.5,
    "lat": 45.69566,
@@ -2429,7 +2550,7 @@
    "lat": 45.72387,
    "lon": 9.65733,
    "name": "Associazione Bandistica Musicale Vivace",
-   "removed": false,
+   "removed": true,
    "reviews": 49,
    "search_checked": "2026-11-20",
    "sources": [
@@ -2471,7 +2592,7 @@
    "lat": 45.63863,
    "lon": 9.58833,
    "name": "Associazione Filarmonica Dalmine - Corpo Musicale San Lorenzo Martire",
-   "removed": false,
+   "removed": true,
    "sources": [
     "google"
    ],
@@ -2805,11 +2926,12 @@
   },
   "bar pasticceria dolci sogni": {
    "address": "Via Antonio Locatelli, 7a, 24027 Nembro BG",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 1.4,
+   "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 649,
+   "instagram": "dolcisogni_coop",
    "km": 8.8,
    "lat": 45.74668,
    "lon": 9.76683,
@@ -2820,7 +2942,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.dolcisogniliberi.it/"
+   "website": "https://www.dolcisogniliberi.it/",
+   "website_checked": true
   },
   "bar pasticceria gelateria di manenti": {
    "address": "Via Roma, 325, 24013 Oltre il Colle BG",
@@ -2980,6 +3103,9 @@
   },
   "biblioteca civica angelo mai di bergamo": {
    "address": "Piazza Vecchia 15, Bergamo",
+   "aliases": [
+    "Biblioteca Civica Angelo Mai"
+   ],
    "auto_vote": 1.7,
    "capacity": 100,
    "capacity_source": "stima",
@@ -2991,14 +3117,19 @@
    "lon": 9.66322,
    "name": "Biblioteca Civica Angelo Mai di Bergamo",
    "removed": true,
+   "reviews": 115,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
    ],
-   "type": "bar"
+   "type": "bar",
+   "website": "http://www.bibliotecamai.org/"
   },
   "biblioteca tiraboschi sala mimmo boninelli": {
    "address": "Via San Bernardino 74, Bergamo",
+   "aliases": [
+    "Sala Mimmo Boninelli"
+   ],
    "auto_vote": 1.7,
    "capacity": 100,
    "capacity_source": "stima",
@@ -3010,11 +3141,13 @@
    "lon": 9.66303,
    "name": "Biblioteca Tiraboschi - Sala Mimmo Boninelli",
    "removed": true,
+   "reviews": 3,
    "search_checked": "2026-11-18",
    "sources": [
     "eventi"
    ],
-   "type": "bar"
+   "type": "bar",
+   "website": "https://biblioteche.comune.bergamo.it/"
   },
   "birra n banda": {
    "address": "Via Buzzone, 24060 San Paolo d'Argon BG",
@@ -3029,19 +3162,25 @@
    "name": "Birra 'n Banda",
    "removed": false,
    "reviews": 158,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.argonband.it/birranbanda/"
+   "website": "http://www.argonband.it/birranbanda/",
+   "website_checked": true
   },
   "bloom": {
    "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
+   "aliases": [
+    "BLOOM CINEMA"
+   ],
    "auto_vote": 6.5,
    "capacity": 900,
    "capacity_source": "stima",
+   "city": "Mezzago",
    "first_seen": "2026-11-20",
-   "followers": 16266,
+   "followers": 16297,
    "ig_guessed": "2026-11-20",
    "instagram": "bloom_mezzago",
    "km": 19.8,
@@ -3051,7 +3190,8 @@
    "removed": false,
    "reviews": 507,
    "sources": [
-    "google"
+    "google",
+    "instagram"
    ],
    "type": "club",
    "website": "https://bloomnet.org/",
@@ -3066,7 +3206,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 31628,
+   "followers": 31622,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -3091,7 +3231,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 124747,
+   "followers": 124787,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -3185,11 +3325,12 @@
   },
   "bum bum festival": {
    "address": "Parco Le Stanze, 24069 Trescore Balneario BG",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 5.7,
+   "capacity": 650,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 12417,
+   "instagram": "bumbumfestival",
    "km": 12.4,
    "lat": 45.68678,
    "lon": 9.83576,
@@ -3200,7 +3341,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "http://www.bumbumfestival.it/"
+   "website": "http://www.bumbumfestival.it/",
+   "website_checked": true
   },
   "cafe noir lounge": {
    "address": "Cafè Noir, Via G.Tadino, 4 H, 24127 Bergamo BG",
@@ -3240,7 +3382,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://it-it.facebook.com/pages/Caff%C3%A8-Roma-Mozzanica/473582956009453"
+   "website": "https://it-it.facebook.com/pages/Caff%C3%A8-Roma-Mozzanica/473582956009453",
+   "website_checked": true
   },
   "cafe triangolo": {
    "address": "Via Giacomo Manzu', 7, 24122 Bergamo BG",
@@ -3297,7 +3440,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/caffebazzini/"
+   "website": "https://www.facebook.com/caffebazzini/",
+   "website_checked": true
   },
   "caffe cittadella bergamo": {
    "address": "L.go Colle Aperto, 2, 24129 Bergamo BG",
@@ -3334,15 +3478,17 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.barismo.wordpress.com/"
+   "website": "http://www.barismo.wordpress.com/",
+   "website_checked": true
   },
   "caffe e salotto": {
    "address": "Via M. Buonarroti, 17 G, 24020 Gorle BG",
-   "auto_vote": 1.7,
+   "auto_vote": 3.5,
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 11097,
+   "instagram": "caffesalotto",
    "km": 2.9,
    "lat": 45.69637,
    "lon": 9.71435,
@@ -3353,7 +3499,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.caffesalotto.com/"
+   "website": "https://www.caffesalotto.com/",
+   "website_checked": true
   },
   "caffe milano": {
    "address": "Piazza Luciano Manara, 7, 24047 Treviglio BG",
@@ -3490,7 +3637,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://capriccio84.com/"
+   "website": "https://capriccio84.com/",
+   "website_checked": true
   },
   "casablanca club": {
    "address": "Via Attilio Galli, 30, 23801 Calolziocorte LC",
@@ -3703,6 +3851,22 @@
    ],
    "type": "club"
   },
+  "chiesa parrochiale di santa maria dalmine bg": {
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Dalmine",
+   "first_seen": "2026-11-21",
+   "followers": null,
+   "km": 9.7,
+   "lat": 45.63908,
+   "lon": 9.58576,
+   "name": "Chiesa Parrochiale di Santa Maria, Dalmine (BG)",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
   "chocolat bistrot": {
    "address": "Via Libertà, 74, 24040 Paladina BG",
    "auto_vote": 1.7,
@@ -3748,7 +3912,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67451,
+   "followers": 67487,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -3772,7 +3936,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-19",
-   "followers": 67451,
+   "followers": 67487,
    "instagram": "choruslife.bergamo",
    "km": 1.1,
    "lat": 45.7031,
@@ -3992,8 +4156,9 @@
    "lat": 45.71856,
    "lon": 9.73248,
    "name": "Circolo Culturale Ricreativo Per Anziani",
-   "removed": false,
+   "removed": true,
    "reviews": 8,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -4088,7 +4253,7 @@
    "lat": 45.58197,
    "lon": 9.41929,
    "name": "Civico Corpo Musicale Bandistico - CCMB",
-   "removed": false,
+   "removed": true,
    "reviews": 2,
    "sources": [
     "google"
@@ -4180,7 +4345,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 3933,
+   "followers": 3932,
    "instagram": "contest_bg",
    "km": 3.7,
    "lat": 45.69137,
@@ -4405,6 +4570,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-21",
    "km": 11.7,
    "lat": 45.66674,
    "lon": 9.53312,
@@ -4480,6 +4646,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-21",
    "km": 25.0,
    "lat": 45.48952,
    "lon": 9.79697,
@@ -4771,6 +4938,7 @@
    "name": "Estafestarock",
    "removed": false,
    "reviews": 11,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -4826,8 +4994,9 @@
    "lat": 45.74778,
    "lon": 9.58084,
    "name": "FantaBrass Quartet",
-   "removed": false,
+   "removed": true,
    "reviews": 42,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -4957,7 +5126,7 @@
    "lat": 45.7223,
    "lon": 9.70369,
    "name": "FR animation",
-   "removed": false,
+   "removed": true,
    "reviews": 18,
    "search_checked": "2026-11-20",
    "sources": [
@@ -5388,7 +5557,7 @@
    "capacity": 550,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 6022,
+   "followers": 6021,
    "instagram": "jamlivestudio",
    "km": 8.0,
    "lat": 45.74037,
@@ -5493,6 +5662,7 @@
    "name": "Keller Factory 2.0 - Live Music Pub",
    "removed": false,
    "reviews": 2393,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -5914,6 +6084,7 @@
    "name": "Libera La Festa",
    "removed": false,
    "reviews": 66,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -5945,7 +6116,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33400,
+   "followers": 33465,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -6621,6 +6792,7 @@
    "name": "Ninfea Social Club",
    "removed": false,
    "reviews": 294,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -6848,7 +7020,7 @@
    "lat": 45.70601,
    "lon": 9.49434,
    "name": "Organo T.C.Lewis | Sotto il Monte Giovanni XXIII",
-   "removed": false,
+   "removed": true,
    "reviews": 5,
    "sources": [
     "google"
@@ -6877,12 +7049,12 @@
   },
   "oronero": {
    "address": "Via Case Sparse Europa 15, 24027, Nembro",
-   "auto_vote": 5.8,
-   "capacity": 600,
+   "auto_vote": 5.9,
+   "capacity": 650,
    "capacity_source": "stima",
    "city": "Nembro",
    "first_seen": "2026-11-18",
-   "followers": 7812,
+   "followers": 7813,
    "ig_guessed": "2026-11-19",
    "instagram": "oroneroloveandmusic",
    "km": 10.1,
@@ -7076,7 +7248,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1904,
+   "followers": 1903,
    "instagram": "bardoni_pasticceria",
    "km": 6.9,
    "lat": 45.7332,
@@ -7626,6 +7798,7 @@
    "name": "Rock sul Serio",
    "removed": false,
    "reviews": 215,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],
@@ -7680,7 +7853,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6633,
+   "followers": 6637,
    "instagram": "lab80cinemas",
    "km": 0.7,
    "lat": 45.69728,
@@ -8070,6 +8243,7 @@
    "lat": 45.69508,
    "lon": 9.67109,
    "name": "Teatro Miela",
+   "removed": false,
    "sources": [
     "instagram"
    ],
@@ -8451,6 +8625,7 @@
    "name": "UFO",
    "removed": false,
    "reviews": 467,
+   "search_checked": "2026-11-21",
    "sources": [
     "google"
    ],

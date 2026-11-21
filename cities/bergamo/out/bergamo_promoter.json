@@ -1,55 +1,7 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-20T22:09",
+ "generated": "2026-11-21T15:05",
  "nights": [
-  {
-   "date": "2026-11-20",
-   "weekday": "venerdì",
-   "note": null,
-   "weekend_like": true,
-   "events": 12,
-   "load": 432.0,
-   "level": "piena",
-   "capacity_taken": 8300,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 12
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
-   ],
-   "top": [
-    {
-     "title": "[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna",
-     "score": 68.4,
-     "capacity": 1250
-    },
-    {
-     "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
-     "score": 60.6,
-     "capacity": 950
-    },
-    {
-     "title": "Bobadilla Feeling Club",
-     "score": 44.8,
-     "capacity": 1250
-    },
-    {
-     "title": "[Rock] Druso · Children Of The Damned",
-     "score": 43.9,
-     "capacity": 1100
-    },
-    {
-     "title": "Zero Club · Unibg_Party",
-     "score": 41.5,
-     "capacity": 1000
-    }
-   ]
-  },
   {
    "date": "2026-11-21",
    "weekday": "sabato",
@@ -235,9 +187,9 @@
    "note": null,
    "weekend_like": true,
    "events": 2,
-   "load": 80.4,
+   "load": 81.1,
    "level": "media",
-   "capacity_taken": 1600,
+   "capacity_taken": 1650,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
@@ -256,8 +208,8 @@
     },
     {
      "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
-     "score": 38.9,
-     "capacity": 600
+     "score": 39.6,
+     "capacity": 650
     }
    ]
   },
@@ -950,22 +902,28 @@
    "weekday": "sabato",
    "note": "festivo (Santo Stefano)",
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 40.0,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 900,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Rock / Jazz] Bloom",
+     "score": 40.0,
+     "capacity": 900
+    }
+   ]
   },
   {
    "date": "2026-12-27",
@@ -2132,6 +2090,28 @@
   {
    "date": "2027-02-17",
    "weekday": "mercoledì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-18",
+   "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
    "events": 0,
