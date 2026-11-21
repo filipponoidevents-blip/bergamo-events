@@ -99,7 +99,7 @@ class Instagram:
             return not (quiet and last and (today - datetime.fromisoformat(last)).days < 30)
         order = [h for h in self.city.watch_list() if due(h)]
         rank = {h: i for i, h in enumerate(order)}
-        order.sort(key=lambda h: (accounts.get(h, {}).get("last_read") or "", rank[h]))
+        order.sort(key=lambda h: (accounts.get(h, {}).get("kind") != "scout", accounts.get(h, {}).get("last_read") or "", rank[h]))   # le pagine scout a ogni giro
         max_age = timedelta(days=self.cfg["max_post_age_days"])
         stop = False
         if not order:
@@ -305,10 +305,12 @@ class Instagram:
         scouts = {h for h, a in self.city.registry["accounts"].items() if a.get("kind") == "scout"}
         done = 0
         for p in sorted(self.posts.values(), key=lambda p: p["at"], reverse=True):
-            if p["account"] not in scouts or "ocr" in p or done >= 15:
+            urls = p.get("slides") or [p.get("image")]
+            if p["account"] not in scouts or done >= 15 or ("ocr" in p and p.get("ocr_n", 1) >= len(urls)):
                 continue
-            texts = [t for u in (p.get("slides") or [p.get("image")]) if u and (t := ocr.read_image(u))]
+            texts = [t for u in urls if u and (t := ocr.read_image(u))]
             p["ocr"] = "\n\n".join(texts)
+            p["ocr_n"] = len(urls)
             done += 1
         if done:
             self.problems.append(f"Lette le immagini di {done} post delle pagine scout.")
