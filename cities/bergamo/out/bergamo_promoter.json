@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-21T17:20",
+ "generated": "2026-11-21T18:27",
  "nights": [
   {
    "date": "2026-11-21",
@@ -8,7 +8,7 @@
    "note": null,
    "weekend_like": true,
    "events": 8,
-   "load": 336.2,
+   "load": 341.6,
    "level": "piena",
    "capacity_taken": 7750,
    "by_family": {
@@ -28,14 +28,14 @@
      "capacity": 950
     },
     {
+     "title": "Zero Club · Premiere.Premiere w/ PREMIERE",
+     "score": 52.4,
+     "capacity": 1000
+    },
+    {
      "title": "Bolgia · MAD DOG",
      "score": 50.2,
      "capacity": 1250
-    },
-    {
-     "title": "Zero Club · Premiere.Premiere",
-     "score": 47.0,
-     "capacity": 1000
     },
     {
      "title": "[Reggaeton / Commerciale] Nikita · Novembre Enter The Void",
@@ -54,15 +54,15 @@
    "weekday": "domenica",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 7.7,
+   "events": 2,
+   "load": 40.4,
    "level": "tranquilla",
-   "capacity_taken": 100,
+   "capacity_taken": 650,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "House / Elettronica",
@@ -70,6 +70,11 @@
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "Jam Live Studio",
+     "score": 32.7,
+     "capacity": 550
+    },
     {
      "title": "Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
      "score": 7.7,
@@ -187,7 +192,7 @@
    "note": null,
    "weekend_like": true,
    "events": 4,
-   "load": 163.4,
+   "load": 177.0,
    "level": "piena",
    "capacity_taken": 3600,
    "by_family": {
@@ -201,8 +206,8 @@
    ],
    "top": [
     {
-     "title": "Nikita · X Schivardi",
-     "score": 43.4,
+     "title": "Nikita · SCHIVARDI 1953",
+     "score": 57.0,
      "capacity": 1150
     },
     {
@@ -1027,15 +1032,15 @@
    "weekday": "giovedì",
    "note": "Capodanno (veglione)",
    "weekend_like": true,
-   "events": 1,
-   "load": 39.6,
-   "level": "libera",
-   "capacity_taken": 850,
+   "events": 2,
+   "load": 65.7,
+   "level": "media",
+   "capacity_taken": 1200,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "Hip Hop / Trap",
@@ -1046,6 +1051,11 @@
      "title": "[Elettronica] Daste Bergamo",
      "score": 39.6,
      "capacity": 850
+    },
+    {
+     "title": "Fabbrica in Pedavena Treviglio",
+     "score": 26.1,
+     "capacity": 350
     }
    ]
   },
@@ -1056,7 +1066,7 @@
    "weekend_like": true,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -1078,7 +1088,7 @@
    "weekend_like": true,
    "events": 1,
    "load": 43.1,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 1100,
    "by_family": {
     "House / Elettronica": 0,

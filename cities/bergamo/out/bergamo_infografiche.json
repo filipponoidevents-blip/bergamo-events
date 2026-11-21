@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-21T17:20",
+ "generated": "2026-11-21T18:27",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -158,18 +158,18 @@
       "family": "Altro"
      },
      {
-      "line1": "MAD DOG @ Bolgia",
-      "line2": "",
-      "time": "23:30",
-      "score": 50.2,
+      "line1": "Premiere.Premiere @ Zero Club",
+      "line2": "PREMIERE",
+      "time": "00:00",
+      "score": 52.4,
       "fascia": "serata",
       "family": "Altro"
      },
      {
-      "line1": "Premiere.Premiere @ Zero Club",
+      "line1": "MAD DOG @ Bolgia",
       "line2": "",
-      "time": "00:00",
-      "score": 47.0,
+      "time": "23:30",
+      "score": 50.2,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -207,6 +207,14 @@
      }
     ],
     "2026-11-22": [
+     {
+      "line1": "Jam Live Studio",
+      "line2": "",
+      "time": "00:00",
+      "score": 32.7,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Sala Piatti",
       "line2": "",
@@ -333,6 +341,22 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "Fabbrica in Pedavena Treviglio",
+     "line2": "live",
+     "time": "14:00",
+     "score": 20.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Fabbrica in Pedavena Treviglio",
+     "line2": "live",
+     "time": "22:45",
+     "score": 20.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
@@ -375,14 +399,6 @@
      "family": "Altro"
     },
     {
-     "line1": "District - Spazio Eventi",
-     "line2": "dj set",
-     "time": "17:00",
-     "score": 51.1,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Divina Music Bar",
      "line2": "dj set",
      "time": "16:00",
@@ -397,6 +413,14 @@
      "score": 25.7,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "LOUNGE BAR VERONICA",
+     "line2": "dj set",
+     "time": "17:00",
+     "score": 10.8,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ]
   },
@@ -419,7 +443,9 @@
    "@spettacoli",
    "@arya.lounge",
    "@nikita__land",
+   "@premiere.premiere",
    "@bolgia.official",
+   "@fabbricainpedavenatreviglio",
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
@@ -429,9 +455,7 @@
    "@unibg_party",
    "@fede_regooo",
    "@selected.lab",
-   "@possibilita",
-   "@alessiosielii",
-   "@lab80cinemas"
+   "@possibilita"
   ],
   "hashtags": [
    "#bergamo",
@@ -503,10 +527,10 @@
     ],
     "2026-11-27": [
      {
-      "line1": "X Schivardi @ Nikita",
+      "line1": "SCHIVARDI 1953 @ Nikita",
       "line2": "",
       "time": "00:00",
-      "score": 43.4,
+      "score": 57.0,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -650,6 +674,22 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Easy Drink and Food",
+     "line2": "Commerciale",
+     "time": "21:00",
+     "score": 25.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "Fabbrica in Pedavena Treviglio",
+     "line2": "live",
+     "time": "14:00",
+     "score": 20.8,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-29": [
@@ -688,6 +728,7 @@
    "@spettacoli",
    "@choruslife.bergamo",
    "@nikita__land",
+   "@schivardi1953",
    "@oroneroloveandmusic",
    "@consumazione",
    "@corinna_fm",
@@ -701,8 +742,7 @@
    "@sezione.8",
    "@cre.sp1",
    "@esse.pietro",
-   "@federicoo_riva",
-   "@marte.bandemergenti"
+   "@federicoo_riva"
   ],
   "hashtags": [
    "#bergamo",
@@ -864,18 +904,18 @@
       "family": "Altro"
      },
      {
-      "line1": "MAD DOG @ Bolgia",
-      "line2": "",
-      "time": "23:30",
-      "score": 50.2,
+      "line1": "Premiere.Premiere @ Zero Club",
+      "line2": "PREMIERE",
+      "time": "00:00",
+      "score": 52.4,
       "fascia": "serata",
       "family": "Altro"
      },
      {
-      "line1": "Premiere.Premiere @ Zero Club",
+      "line1": "MAD DOG @ Bolgia",
       "line2": "",
-      "time": "00:00",
-      "score": 47.0,
+      "time": "23:30",
+      "score": 50.2,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -914,6 +954,14 @@
     ],
     "2026-11-22": [
      {
+      "line1": "Jam Live Studio",
+      "line2": "",
+      "time": "00:00",
+      "score": 32.7,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Sala Piatti",
       "line2": "",
       "time": "16:30",
@@ -942,10 +990,10 @@
     ],
     "2026-11-27": [
      {
-      "line1": "X Schivardi @ Nikita",
+      "line1": "SCHIVARDI 1953 @ Nikita",
       "line2": "",
       "time": "00:00",
-      "score": 43.4,
+      "score": 57.0,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -1153,6 +1201,22 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "Fabbrica in Pedavena Treviglio",
+     "line2": "live",
+     "time": "14:00",
+     "score": 20.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Fabbrica in Pedavena Treviglio",
+     "line2": "live",
+     "time": "22:45",
+     "score": 20.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
      "line2": "live",
      "time": "21:00",
@@ -1195,14 +1259,6 @@
      "family": "Altro"
     },
     {
-     "line1": "District - Spazio Eventi",
-     "line2": "dj set",
-     "time": "17:00",
-     "score": 51.1,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Divina Music Bar",
      "line2": "dj set",
      "time": "16:00",
@@ -1217,6 +1273,14 @@
      "score": 25.7,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "LOUNGE BAR VERONICA",
+     "line2": "dj set",
+     "time": "17:00",
+     "score": 10.8,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-23": [
@@ -1299,6 +1363,22 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Easy Drink and Food",
+     "line2": "Commerciale",
+     "time": "21:00",
+     "score": 25.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "Fabbrica in Pedavena Treviglio",
+     "line2": "live",
+     "time": "14:00",
+     "score": 20.8,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-29": [
@@ -1346,6 +1426,7 @@
    "@markthehammer86",
    "@bolgia.official",
    "@daste_bergamo",
+   "@fabbricainpedavenatreviglio",
    "@bloom_mezzago",
    "@liveclub",
    "@missdivina1",
@@ -1353,15 +1434,14 @@
    "@upside.down.night",
    "@oasi.night",
    "@arya.lounge",
+   "@premiere.premiere",
    "@choruslife.bergamo",
    "@door_74",
    "@savana_funk",
    "@attenzione",
    "@worst.zine",
    "@andrea_kor3",
-   "@bobadillafeelingclub",
-   "@cotd_iron_maiden",
-   "@the_big4_theory"
+   "@bobadillafeelingclub"
   ],
   "hashtags": [
    "#bergamo",
@@ -1465,6 +1545,16 @@
       "fascia": "serata",
       "family": "Altro"
      }
+    ],
+    "2026-12-31": [
+     {
+      "line1": "Fabbrica in Pedavena Treviglio",
+      "line2": "",
+      "time": "00:00",
+      "score": 26.1,
+      "fascia": "serata",
+      "family": "Altro"
+     }
     ]
    },
    "House / Elettronica": {
@@ -1511,10 +1601,10 @@
    ],
    "2026-12-10": [
     {
-     "line1": "District - Spazio Eventi",
+     "line1": "Bar della Musica",
      "line2": "Jazz",
      "time": "20:00",
-     "score": 51.1,
+     "score": 3.3,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1572,7 +1662,6 @@
    "@nico.bre1917",
    "@possibilita",
    "@spettacoli",
-   "@mosspuntodicontatto",
    "@degustazione",
    "@teatromiela_trieste",
    "@liveclub",
@@ -1586,7 +1675,8 @@
    "@naturalezza",
    "@lorenzo.monguzzi",
    "@attenzione",
-   "@utopia.direction"
+   "@utopia.direction",
+   "@fabbricainpedavenatreviglio"
   ],
   "hashtags": [
    "#bergamo",
