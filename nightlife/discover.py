@@ -22,7 +22,7 @@ OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.private
             "https://maps.mail.ru/osm/tools/overpass/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
 PHOTON = "https://photon.komoot.io/api/"
 # scuole di ballo, palestre, sale per matrimoni e sale comunali: su OpenStreetMap stanno con i locali da ballo, ma non sono nightlife
-NOT_NIGHTLIFE = re.compile(r"\b(?:sala\s*slot|slot|vlt|sexy|lap\s*dance|strip|ex\s+discoteca|s\.?r\.?l|school|scuola|academy|accademia|asd|a\.s\.d|ssd|palestra|studio danza|danza|wedding|matrimoni|sposi|oratorio|parrocchi|pro loco|sala civica|comunale|biblioteca)\b", re.I)
+NOT_NIGHTLIFE = re.compile(r"\b(?:bandistic\w*|filarmonica|corpo\s+musicale|quartet|quintet|organo|anziani|animation|animazione|coro|corale|sala\s*slot|slot|vlt|sexy|lap\s*dance|strip|ex\s+discoteca|s\.?r\.?l|school|scuola|academy|accademia|asd|a\.s\.d|ssd|palestra|studio danza|danza|wedding|matrimoni|sposi|oratorio|parrocchi|pro loco|sala civica|comunale|biblioteca)\b", re.I)
 WEDDING = re.compile(r"\b(?:wedding|matrimoni\w*|sposi|ricevimenti|banqueting|catering|location per eventi|eventi privati|cerimonie)\b", re.I)
 EVENT_HALL = re.compile(r"\b(?:villa|tenuta|castello|cascina|palazzo|agriturismo|ristorante|palafeste|area feste|sala|centro|corte|locanda|resort|hotel|relais)\b", re.I)
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
