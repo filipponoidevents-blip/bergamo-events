@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-21T16:12",
+ "generated": "2026-11-21T17:20",
  "nights": [
   {
    "date": "2026-11-21",
@@ -186,19 +186,18 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 3,
-   "load": 124.5,
-   "level": "media",
-   "capacity_taken": 2800,
+   "events": 4,
+   "load": 163.4,
+   "level": "piena",
+   "capacity_taken": 3600,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 2
    },
    "missing_families": [
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
@@ -212,9 +211,14 @@
      "capacity": 1000
     },
     {
-     "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
+     "title": "[Reggaeton] Daste Bergamo · Conejo Night",
      "score": 39.6,
-     "capacity": 650
+     "capacity": 850
+    },
+    {
+     "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
+     "score": 38.9,
+     "capacity": 600
     }
    ]
   },
@@ -611,7 +615,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -633,7 +637,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -655,7 +659,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -677,7 +681,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -699,7 +703,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -721,7 +725,7 @@
    "weekend_like": true,
    "events": 1,
    "load": 43.4,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 1150,
    "by_family": {
     "House / Elettronica": 0,
@@ -749,7 +753,7 @@
    "weekend_like": true,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -771,7 +775,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -793,7 +797,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -815,7 +819,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -837,7 +841,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -859,7 +863,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -881,7 +885,7 @@
    "weekend_like": true,
    "events": 1,
    "load": 7.7,
-   "level": "non ancora annunciata",
+   "level": "libera",
    "capacity_taken": 100,
    "by_family": {
     "House / Elettronica": 0,
@@ -908,8 +912,8 @@
    "note": "festivo (Santo Stefano)",
    "weekend_like": true,
    "events": 1,
-   "load": 40.0,
-   "level": "non ancora annunciata",
+   "load": 46.2,
+   "level": "libera",
    "capacity_taken": 900,
    "by_family": {
     "House / Elettronica": 0,
@@ -924,8 +928,8 @@
    ],
    "top": [
     {
-     "title": "[Rock / Jazz] Bloom",
-     "score": 40.0,
+     "title": "[Rock / Jazz] Bloom · Alessandro Sipolo",
+     "score": 46.2,
      "capacity": 900
     }
    ]
@@ -937,7 +941,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -959,7 +963,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -981,7 +985,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -1003,7 +1007,7 @@
    "weekend_like": false,
    "events": 0,
    "load": 0,
-   "level": "non ancora annunciata",
+   "level": "tranquilla",
    "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
@@ -1023,22 +1027,27 @@
    "weekday": "giovedì",
    "note": "Capodanno (veglione)",
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
-   "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "events": 1,
+   "load": 39.6,
+   "level": "libera",
+   "capacity_taken": 850,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Elettronica] Daste Bergamo",
+     "score": 39.6,
+     "capacity": 850
+    }
+   ]
   },
   {
    "date": "2027-01-01",

@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-21T16:12",
+ "generated": "2026-11-21T17:20",
  "this_week": {
   "from": "2026-11-16",
   "to": "2026-11-22",
@@ -293,6 +293,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Manduria @ Daste Bergamo",
+     "line2": "dj set",
+     "time": "21:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "11 Spaca Male Moltomalefest @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
@@ -363,6 +371,14 @@
      "line2": "dj set",
      "time": "00:00",
      "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "District - Spazio Eventi",
+     "line2": "dj set",
+     "time": "17:00",
+     "score": 51.1,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -450,7 +466,7 @@
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 39.6,
+      "score": 38.9,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -539,6 +555,18 @@
       "family": "Altro"
      }
     ]
+   },
+   "Commerciale": {
+    "2026-11-27": [
+     {
+      "line1": "Conejo Night @ Daste Bergamo",
+      "line2": "Reggaeton",
+      "time": "00:00",
+      "score": 39.6,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ]
    }
   },
   "preserate": {
@@ -586,6 +614,14 @@
      "score": 56.8,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Incensi @ Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-27": [
@@ -626,7 +662,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Bloom",
+     "line1": "Martesana Emergente @ Bloom",
      "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
@@ -641,6 +677,7 @@
    "@zeroclub.bg",
    "@bloom_mezzago",
    "@possibilita",
+   "@daste_bergamo",
    "@to_on.tv",
    "@spike.hellis",
    "@lowl_fest",
@@ -651,7 +688,6 @@
    "@spettacoli",
    "@choruslife.bergamo",
    "@nikita__land",
-   "@schivardi1953",
    "@oroneroloveandmusic",
    "@consumazione",
    "@corinna_fm",
@@ -666,7 +702,7 @@
    "@cre.sp1",
    "@esse.pietro",
    "@federicoo_riva",
-   "@digitalispurpurea_"
+   "@marte.bandemergenti"
   ],
   "hashtags": [
    "#bergamo",
@@ -969,6 +1005,16 @@
       "fascia": "serata",
       "family": "Commerciale"
      }
+    ],
+    "2026-11-27": [
+     {
+      "line1": "Conejo Night @ Daste Bergamo",
+      "line2": "Reggaeton",
+      "time": "00:00",
+      "score": 39.6,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
     ]
    },
    "House / Elettronica": {
@@ -987,7 +1033,7 @@
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 39.6,
+      "score": 38.9,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1067,6 +1113,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Manduria @ Daste Bergamo",
+     "line2": "dj set",
+     "time": "21:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "11 Spaca Male Moltomalefest @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
@@ -1141,6 +1195,14 @@
      "family": "Altro"
     },
     {
+     "line1": "District - Spazio Eventi",
+     "line2": "dj set",
+     "time": "17:00",
+     "score": 51.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Divina Music Bar",
      "line2": "dj set",
      "time": "16:00",
@@ -1201,6 +1263,14 @@
      "score": 56.8,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Incensi @ Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-27": [
@@ -1241,7 +1311,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Bloom",
+     "line1": "Martesana Emergente @ Bloom",
      "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
@@ -1275,6 +1345,7 @@
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
+   "@daste_bergamo",
    "@bloom_mezzago",
    "@liveclub",
    "@missdivina1",
@@ -1290,8 +1361,7 @@
    "@andrea_kor3",
    "@bobadillafeelingclub",
    "@cotd_iron_maiden",
-   "@the_big4_theory",
-   "@unibg_party"
+   "@the_big4_theory"
   ],
   "hashtags": [
    "#bergamo",
@@ -1311,7 +1381,8 @@
    "2026-12-12",
    "2026-12-18",
    "2026-12-25",
-   "2026-12-26"
+   "2026-12-26",
+   "2026-12-31"
   ],
   "serate_by_family": {
    "Altro": {
@@ -1387,12 +1458,24 @@
     ],
     "2026-12-26": [
      {
-      "line1": "Bloom",
+      "line1": "Alessandro Sipolo @ Bloom",
       "line2": "Rock / Jazz",
       "time": "00:00",
-      "score": 40.0,
+      "score": 46.2,
       "fascia": "serata",
       "family": "Altro"
+     }
+    ]
+   },
+   "House / Elettronica": {
+    "2026-12-31": [
+     {
+      "line1": "Daste Bergamo",
+      "line2": "Elettronica",
+      "time": "23:00",
+      "score": 39.6,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ]
    }
@@ -1410,10 +1493,28 @@
    ],
    "2026-12-05": [
     {
+     "line1": "Daste Bergamo",
+     "line2": "Pop",
+     "time": "21:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
      "line1": "Bloom",
      "line2": "Rock / Commerciale",
      "time": "00:00",
      "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-10": [
+    {
+     "line1": "District - Spazio Eventi",
+     "line2": "Jazz",
+     "time": "20:00",
+     "score": 51.1,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1461,26 +1562,31 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@bloom_mezzago",
    "@prenotazione",
+   "@bloom_mezzago",
    "@bolgia.official",
+   "@daste_bergamo",
    "@barleyartsreal",
+   "@consumazione",
    "@dj.sofficino",
    "@nico.bre1917",
    "@possibilita",
    "@spettacoli",
+   "@mosspuntodicontatto",
+   "@degustazione",
    "@teatromiela_trieste",
    "@liveclub",
    "@nikita__land",
    "@door_74",
    "@charlie.blackbird",
    "@drusobg",
+   "@alessandro.sipolo",
    "@importanti",
    "@charlie_cinelli",
    "@naturalezza",
    "@lorenzo.monguzzi",
-   "@alessandro.sipolo",
-   "@attenzione"
+   "@attenzione",
+   "@utopia.direction"
   ],
   "hashtags": [
    "#bergamo",
