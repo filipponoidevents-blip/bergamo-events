@@ -9,7 +9,7 @@
     "bar30elode": 1173,
     "bar_sanmarco": 2096,
     "barperlage": 2696,
-    "barrys__": 9730,
+    "barrys__": 9728,
     "bergamonightservice": 1092,
     "bobadillafeelingclub": 31628,
     "bolgia.official": 124809,
@@ -18,27 +18,27 @@
     "bucheesebar": 6847,
     "bv_rooftop": 11313,
     "cafeteriatreviolo": 5434,
-    "caffetteria_nuova_rotonda": 1730,
+    "caffetteria_nuova_rotonda": 1731,
     "call._.out": 729,
-    "capogirojoyclub": 17761,
+    "capogirojoyclub": 17767,
     "casacostez": 6348,
     "charleston.treviglio": 2433,
     "cheri.it": 4705,
-    "choruslife.bergamo": 67481,
-    "circolinomalpensata_bergamo": 2931,
+    "choruslife.bergamo": 67658,
+    "circolinomalpensata_bergamo": 2933,
     "contest_bg": 3930,
     "cosmo.food.club": 2366,
     "crocevia_": 1068,
     "cromaroom": 1987,
     "crystalcastlesnightt": 770,
-    "csapacipaciana": 13824,
-    "daste_bergamo": 21295,
+    "csapacipaciana": 13837,
+    "daste_bergamo": 21345,
     "decibel_club": 4580,
     "discopastasc": 1422,
-    "discoteca_queen": 17091,
-    "drusobg": 24688,
-    "edonebergamo": 29974,
-    "gres_art_671": 21324,
+    "discoteca_queen": 17095,
+    "drusobg": 24704,
+    "edonebergamo": 29975,
+    "gres_art_671": 21335,
     "hiddenhell.techno": 11138,
     "hype.club.official": 24459,
     "icksdresstoimpress": 6680,
@@ -49,14 +49,14 @@
     "jamlivestudio": 6021,
     "juiceclubit": 8580,
     "karma_lounge_official_": 5162,
-    "kellerfactory_": 7348,
-    "lazzaretto_bergamo_estate": 11502,
+    "kellerfactory_": 7359,
+    "lazzaretto_bergamo_estate": 11505,
     "lecannibaleclub": 43069,
     "liveclub": 33487,
-    "loft.bergamo": 10815,
+    "loft.bergamo": 10820,
     "mint_lounge": 15356,
     "nikita__land": 25625,
-    "ninfeasocialclub": 8708,
+    "ninfeasocialclub": 8726,
     "noidfamilia": 7883,
     "nxtbergamo": 30363,
     "oasi.night": 513,
@@ -67,25 +67,25 @@
     "sabbiemobili_official": 7840,
     "savana.king25": 192,
     "selected.lab": 201,
-    "setai_club_official": 36670,
+    "setai_club_official": 36678,
     "sloth.bg": 826,
     "sommet_night": 496,
     "sprint_bergamo": 5113,
     "supertatobolgia": 20627,
     "talk.maf": 2206,
-    "thanka.official": 30905,
+    "thanka.official": 30889,
     "the.circlehub": 831,
     "theboxbergamo": 8090,
-    "tiky.klub": 1000,
+    "tiky.klub": 1003,
     "twofestival": 2951,
     "unibg_party": 3469,
     "unplug.project": 547,
     "unplug__bg": 3033,
     "utopia.direction": 8481,
-    "vibetheclub": 11574,
+    "vibetheclub": 11571,
     "victorialoungebar_bonate": 1289,
     "we.are.stepup": 355,
-    "zeroclub.bg": 20842
+    "zeroclub.bg": 20835
   },
   "items": {
     "17869386033675222-0": {
@@ -563,6 +563,39 @@
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DfzNZbBIRi9/",
       "status": "pending"
+    },
+    "17896999950435814-0": {
+      "account": "discoteca_queen",
+      "account_venue": "Queen Club",
+      "caption": "VENERDÌ 27 NOVEMBRE\n\nDiscoDance “ HISTORY ”\nAMICI CI SIAMO..\nVenite a ripercorrere la storia della musica dance dagli anni 80 fino ai giorni nostri.\n\nLe migliori Hit saranno suonate dai dj che hanno fatto la storia dei locali nella bergamasca\n\nSEMPLICEMENTE TUTTO IN UNA NOTTE!\n\nIn consolle:\nGuest: Teo Mix e Mimmo Mix\nDj : StefanOne\nVoice : Alle Torelli\n\n> Opening ore 22:30 // Chiusura ore 03:30\n\nPREZZI:\n>Ingresso con consumazione > € 10\nDalle 22:30 alle 23:30\n>Ingresso con consumazione > € 13\nDalle 23:30 in poi\n\n>Prenotazione tavoli gratuita e consigliata\n\n***********************************\n\nLocation:\nQueen Club\nVia Levata 18, Seriate (BG)\nInfo e Prenotazioni:\nAle 331 6218709\n\n#discoteca #revival #anni80 #anni90 #2000 retrò bergamo nightlife locale bellavita drink history",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": "03:30",
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "disco",
+          "revival"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:30",
+        "ticket_url": null,
+        "title": "DiscoDance HISTORY",
+        "venue_name": "Queen Club"
+      },
+      "id": "17896999950435814-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/920046439_18346095559258835_6811092498957211329_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=FTDGBX_0VCIQ7kNvwE9owPd&_nc_oc=AdqYEPCBizZFQq6GLtNceCWcOnrea2-njxK7C-ccDSDpTl_KyIjw4yGWTyshguu2IKg&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=SBk2RLJ2gAC8sIOlc0a80Q&_nc_tpa=Q5bMBQKTdGyUBc2H4xwMqteDkM-HFDLHgu1Lqo9ja9nU4pFrYZaVIFhkztJlVvQq-BNftYGXRZN1a-q4Fw&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQTVUIm_gi8oKb__OfLktsX-w2Yi3TH-J5Unn85wmsugrg&oe=6B096A59",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgDC913N_zr/",
+      "status": "auto"
     },
     "17899672329613109-0": {
       "account": "unibg_party",
@@ -1990,6 +2023,36 @@
       "permalink": "https://www.instagram.com/p/DfZjCsJHHLf/",
       "status": "pending"
     },
+    "17963089089256829-0": {
+      "account": "daste_bergamo",
+      "account_venue": "Daste",
+      "caption": "DASTE LAB presenta:\n🎄 MACRAMÈ con intrecci_ati\n\nCreiamo insieme le nostre decorazioni per l’albero di Natale!\n\nPer chi desidera trascorrere qualche ora rilassante imparando una nuova arte manuale.\n\n🗓 Domenica 29 novembre, dalle 19.30\n\n📌 Il lab ha un costo di 31 euro, che comprende i materiali e anche l’aperitivo :)\n\n📌 Posti limitati! Per partecipare bisogna iscriversi, al form in bio\n\n📍 DASTE - via Daste e Spalenga, 13/15 - Bergamo\n\n#DASTELAB #dastebergamo #bergamo",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-29",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": "preserata",
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": "19:30",
+        "ticket_url": null,
+        "title": "DASTE LAB",
+        "venue_name": "Daste"
+      },
+      "id": "17963089089256829-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/927940398_18110900714579285_1561701516030200282_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rHpGtIFvkyEQ7kNvwEmlPe3&_nc_oc=AdpmwK-EeHg8t0rsw7v4tTap-rzkdCXlmRCQ31VelruPIPK9FBGZl7vnna0OW9vd998&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=jAK2AB7MpXSSHb-sTr7mmg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRE2UHwVDKANucm8AVAQTfEZbg7LBbK0a5t9HO7TykwZg&oe=6B0960CF",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgDNPFnsuSc/",
+      "status": "info"
+    },
     "17964212049235421-0": {
       "account": "afrodylanofficial",
       "account_venue": null,
@@ -2720,6 +2783,39 @@
       "notes": "from @zeroclub.bg's monthly programme (OCR); check names and times",
       "permalink": "https://www.instagram.com/p/DfPzvj8CAe3/",
       "status": "pending"
+    },
+    "17994906894077070-0": {
+      "account": "discoteca_queen",
+      "account_venue": "Queen Club",
+      "caption": "VENERDÌ 27 NOVEMBRE\n\nDiscoDance “ HISTORY ”\nAMICI CI SIAMO..\nVenite a ripercorrere la storia della musica dance dagli anni 80 fino ai giorni nostri.\n\nLe migliori Hit saranno suonate dai dj che hanno fatto la storia dei locali nella bergamasca\n\nSEMPLICEMENTE TUTTO IN UNA NOTTE!\n\nIn consolle:\nGuest: Teo Mix e Mimmo Mix\nDj : StefanOne\nVoice : Alle Torelli\n\n> Opening ore 22:30 // Chiusura ore 03:30\n\nPREZZI:\n>Ingresso con consumazione > € 10\nDalle 22:30 alle 23:30\n>Ingresso con consumazione > € 13\nDalle 23:30 in poi\n\n>Prenotazione tavoli gratuita e consigliata\n\n***********************************\n\nLocation:\nQueen Club\nVia Levata 18, Seriate (BG)\nInfo e Prenotazioni:\nAle 331 6218709\n\n#discoteca #revival #anni80 #anni90 #2000 retrò bergamo nightlife locale bellavita drink history",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": "03:30",
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "disco",
+          "revival"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:30",
+        "ticket_url": null,
+        "title": "DiscoDance HISTORY",
+        "venue_name": "Queen Club"
+      },
+      "id": "17994906894077070-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/919361632_18346095250258835_6185693646322018418_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1IS7ibFxCxMQ7kNvwHRL2fp&_nc_oc=AdrDCNaYzucKJVemHAmxPWD12jpildVdPL5BTp327r5a0Ybksxa8T-luV-44qhhtlF0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=SBk2RLJ2gAC8sIOlc0a80Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSUTkAJ1Q3r6noVQWyJrdAtU4XG8S3-yaIZ5UN715V7Hw&oe=6B096449",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgDCtNlN38W/",
+      "status": "auto"
     },
     "17995504851027982-0": {
       "account": "daste_bergamo",
@@ -3986,6 +4082,39 @@
       "permalink": "https://www.instagram.com/p/DfXlMaIEehS/",
       "status": "auto"
     },
+    "18061946990801226-0": {
+      "account": "discoteca_queen",
+      "account_venue": "Queen Club",
+      "caption": "SABATO 28 NOVEMBRE ! \n\n🎁 INGRESSO GRATUITO DONNA entro le 23.00 🎁\n\nIL SUPER SHOW 90/2000 torna a Seriate!\nUn format di pura festa con : \n\n🍄 MASCOTTE A TEMA\n💃DANCER A TEMA \n🌸 GADGET LED\n🎉 SPARACORIANDOLI \nE il meglio della musica del passato !\n\nSONO TORNATI GLI ANNI D ORO DELLA MUSICA… \n\n📼✨ Ci sono anni che non passano mai… si ballano e basta! 🕺💃\n\nPreparati a rivivere le hit che hanno fatto la storia, tra ricordi, emozioni e tanta voglia di divertirsi!\n\n🎶 Gli anni ’90 sono tornati… e questa volta si balla fino all’ultimo disco! 🔥\n\n🎧 DJ STEFANONE - DJ mich \n🎤voice Matteo Palumbo \n\n📍Evento presso : QUEEN CLUB : VIA LEVATA 18, SERIATE ( BERGAMO )\n\nApertura ore 22.30 \nInizio boomer show 00.45/1.00 Circa.\n\n🪩 info e prenotazione tavoli gratuita: \n\nALE 331 6218709\n346 6358345 Omar \n\nCondividi e tagga tutti ! Vietato mancare #anni90 #anni2000 #boomer #seriate #bergamo",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "disco",
+          "revival"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:30",
+        "ticket_url": null,
+        "title": "MASCOTTE A TEMA",
+        "venue_name": "Queen Club"
+      },
+      "id": "18061946990801226-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/919716103_18346110673258835_1686147951425422869_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=IIdn6eXeyAcQ7kNvwGmbqkw&_nc_oc=Ado80pQsYYPc11gvaLPxpi6VOjONdyrYp8eFO8emkxJz131ElZcuNOZ5buj6JKI6mTU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=SBk2RLJ2gAC8sIOlc0a80Q&_nc_tpa=Q5bMBQKevYZojFOetIvUXyVCVaYQq6UGheunq0ZnKVbuq51hAPS4LkUy7VG54ICASSzaPHqAQD5fH3bbiA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQQJzNdtRMVASNt_3QHqHDD2KBp311mIs1bteJRqCvQamQ&oe=6B09603D",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgDTN_5tMpz/",
+      "status": "auto"
+    },
     "18064540868569327-0": {
       "account": "nxtbergamo",
       "account_venue": "NXT Station",
@@ -4679,6 +4808,39 @@
       "permalink": "https://www.instagram.com/p/DejRCa8DDRT/",
       "status": "info"
     },
+    "18097744076664443-0": {
+      "account": "discoteca_queen",
+      "account_venue": "Queen Club",
+      "caption": "SABATO 28 NOVEMBRE ! \n\n🎁 INGRESSO GRATUITO DONNA entro le 23.00 🎁\n\nIL SUPER SHOW 90/2000 torna a Seriate!\nUn format di pura festa con : \n\n🍄 MASCOTTE A TEMA\n💃DANCER A TEMA \n🌸 GADGET LED\n🎉 SPARACORIANDOLI \nE il meglio della musica del passato !\n\nSONO TORNATI GLI ANNI D ORO DELLA MUSICA… \n\n📼✨ Ci sono anni che non passano mai… si ballano e basta! 🕺💃\n\nPreparati a rivivere le hit che hanno fatto la storia, tra ricordi, emozioni e tanta voglia di divertirsi!\n\n🎶 Gli anni ’90 sono tornati… e questa volta si balla fino all’ultimo disco! 🔥\n\n🎧 DJ STEFANONE - DJ mich \n🎤voice Matteo Palumbo \n\n📍Evento presso : QUEEN CLUB : VIA LEVATA 18, SERIATE ( BERGAMO )\n\nApertura ore 22.30 \nInizio boomer show 00.45/1.00 Circa.\n\n🪩 info e prenotazione tavoli gratuita: \n\nALE 331 6218709\n346 6358345 Omar \n\nCondividi e tagga tutti ! Vietato mancare #anni90 #anni2000 #boomer #seriate #bergamo",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "disco",
+          "revival"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:30",
+        "ticket_url": null,
+        "title": "MASCOTTE A TEMA",
+        "venue_name": "Queen Club"
+      },
+      "id": "18097744076664443-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/921469010_18346096399258835_2013200932152164726_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mw112_joLIcQ7kNvwGosQAG&_nc_oc=AdpBduwmrcqff_fxIpzb5HWcA989hQneRBaOS-NTNv8qap9MHFOoYwNIs1kJjTfo5SM&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=SBk2RLJ2gAC8sIOlc0a80Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS3y6tclWFWp8052lw0W4BKGG9sD0JG7oxsEYiBP_ClqQ&oe=6B094A48",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgDEDq_NmyW/",
+      "status": "auto"
+    },
     "18097804685478552-0": {
       "account": "incroissanterialab",
       "account_venue": "In Croissanteria Lab",
@@ -4788,6 +4950,36 @@
       "kind": "food_drink",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DfkW6nZAH3X/",
+      "status": "info"
+    },
+    "18099609128395907-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "😂 HAI UN AMICO IN CRISI? REGALAGLI UNA RISATA!\n\nQuesta volta il regalo lo facciamo noi! 🎁\n\n🍕 Tu paghi solo la pizza.\n🎤 Lo spettacolo di stand-up comedy con Luca Anselmi te lo regaliamo noi!\n\n📩 COME FUNZIONA?\nScrivici in DM:\n\n* Il nome della persona a cui vuoi regalare la serata.\n* Ti prepariamo un biglietto personalizzato con il suo nome!\n\n📍 Keller Factory\n📅 Mercoledì 25 novembre\n🕗 Cena ore 20:00\n\nPerché tutti abbiamo un amico che avrebbe proprio bisogno di una bella risata! 😂\n\nScrivici in DM e prepara la sorpresa!",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-25",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "comedy",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "COME FUNZIONA?",
+        "venue_name": "Keller Factory"
+      },
+      "id": "18099609128395907-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/925881735_18577926613074567_8499931120828873222_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kknb1l_mQokQ7kNvwE3aJqv&_nc_oc=AdrdXvaeA8WxVdWsfQw3DFTUevGYuGctvOLq8WH7bx9DN8chSVlMP4GgbIZBbC9CQ1w&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=EEMZGy6GgFd4MiKBphYTvQ&_nc_tpa=Q5bMBQLNkGg1M-NXqB8YaDScr750DxONiywZzK7kW8aEisA-59JkNHu1e05c17ZxoH5GEcla8gzr_4aWRA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQT5kl55OLmfngw8kjOS1XFLLOnqa-Svw0R66Rw98y3uwA&oe=6B0955B2",
+      "kind": "comedy",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgCbtmig4XL/",
       "status": "info"
     },
     "18100119593640500-0": {
@@ -7109,6 +7301,38 @@
       "permalink": "https://www.instagram.com/p/Dfmdnd6ovF5/",
       "status": "info"
     },
+    "18121362800601978-0": {
+      "account": "discoteca_queen",
+      "account_venue": "Queen Club",
+      "caption": "Domenica 13 Dicembre\n“LA DOMENICA DEL SEGNO”\nFesteggia il tuo segno zodiacale con noi!\n\nSe sei del segno dello SAGITTARIO e prenoti il tavolo, in OMAGGIO avrai una BOTTIGLIA DI PROSECCO.\n(Verifica all’ingresso con carta d’identità)\n\nDalle ore 19.00 apericena a buffet \n(INGRESSO € 13,00 con drink e Buffet)\n\nDalle ore 21.30\n(INGRESSO € 10,00 con drink)\n\nDISCO DANCE\nIn consolle StefanOne \n\n*************************************\nPRENOTAZIONI TAVOLI GRATUITA \n*************************************\n\nLocation:\nQueen Club\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-13",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": "preserata",
+        "genres": [
+          "disco"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "19:00",
+        "ticket_url": null,
+        "title": "LA DOMENICA DEL SEGNO",
+        "venue_name": "Queen Club"
+      },
+      "id": "18121362800601978-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/917309133_18346017196258835_4106784097324253141_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4C1i05tfg6UQ7kNvwEJrMGN&_nc_oc=AdoDTI2Tl7nti_3cCtQabIcvqiRJsEyBm9sT4eJcJGq4uUTJQa_xxDlC-jg8WJmOXxE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=SBk2RLJ2gAC8sIOlc0a80Q&_nc_tpa=Q5bMBQLMrQasv8VhCzRdDYOnaROxDRLPlWEv4X_TK4kTgSs9gNIR9R51l23oVIJvSlqo9MOWu_wPqIjfvg&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSln68yEreyJ84A1UAWPZPZFC1lzMcSo6JaVfoJTOf4Sg&oe=6B09626E",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgBkBs4NW23/",
+      "status": "auto"
+    },
     "18121845041319617-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
@@ -7169,6 +7393,38 @@
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfz6N8_Dioz/",
+      "status": "auto"
+    },
+    "18121982839769925-0": {
+      "account": "drusobg",
+      "account_venue": "Druso",
+      "caption": "Venerdì al Druso una ventata di aria fresca: FILAGOSTO BAND BATTLE\n\n🎟️ INGRESSO GRATUITO \n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅  27 novembre 2026\n🕥 Porte 20:00 | Live 21:00 \n\nLa line up è pronta! Ecco i cinque finalisti che gareggeranno alla Filagosto Band Battle per aggiudicarsi il palco di filagostofestival 2027 💥\n\nalnthedahlias\nlucafolmusica\nmanudelquazzo + naturastorta\npollo_sono_io\nsolo.utopia\n\nSi sfideranno Venerdì 27 Novembre sul palco di drusobg e anche tu, dal pubblico, potrai votare il tuo artista preferito!\n\nA seguire, aftershow live con deneb_band_official, trio electropop milanese.\n\n🍏 #druso #filagosto #filagostobandbattle #musiccontest #bandcontest",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": "free",
+        "fascia": null,
+        "genres": [
+          "commerciale"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "Druso",
+        "venue_name": "Druso"
+      },
+      "id": "18121982839769925-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912355490_18456872893134654_635008617269000202_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gN0NWRgY_h8Q7kNvwGoaEpf&_nc_oc=AdqbiUfjkaB1YNhmgL_nB3t7Y4VdeBQf8rBDGutt0kMNqwbXHN-Og6sePDZF-yb_w1M&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=EWIjhi8KvzU1IndeICEHXg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS6jzURU5Ql1MTMAJY4SrpptfH0dnqXxDx2fiLSvZCj-A&oe=6B093C44",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgDms8ZAOxY/",
       "status": "auto"
     },
     "18122069158745925-0": {
@@ -9400,6 +9656,36 @@
       "permalink": "https://www.instagram.com/p/DfiXM8YjnvE/",
       "status": "info"
     },
+    "18154449742510335-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "🎸 **MOBER GHEM 2026 – MUSICA, STILE E SOLIDARIETÀ!** 💙\n\n📅 Domenica 29 novembre al Keller Factory 2.0 una serata speciale dove musica, divertimento e solidarietà si incontrano!\n\nOrganizzata da **Kristian e Brian – Brothers & Sisters**, con un programma tutto da vivere:\n\n🎶 **Dalle 19:00 alle 20:00 – BALLATE MALATE** \nCon Beppe Fratus e Ivano Colombi.\n\n🍽️ **Dalle 21:00 – CENA CANTATA** \nCon i Flex Sound di Gianluca Fassi.\n\n💈 **BARBIERI BROTHERS & SISTERS** \nTagli, barba, baffi e acconciature gratuiti durante la serata.\n\n🩺 **PREVENZIONE E SALUTE MASCHILE** \nInterventi di medici per parlare di prevenzione e benessere.\n\nUna serata per stare bene, condividere emozioni e soprattutto fare del bene. ❤️\n\n📍 **Keller Factory 2.0 – Mober Ghem 2026**\n\nNon mancare! Porta gli amici e diventa anche tu parte di questa bella iniziativa!\n\n👇 **Condividi il post e invita chi vuoi alla serata!**\n\n#MoberGhem2026 #KellerFactory #BrothersAndSisters #MusicaESolidarietà #PrevenzioneMaschile #CenaCantata #BergamoEventi",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-29",
+        "end_time": "20:00",
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "culture",
+        "late_end": false,
+        "price": null,
+        "start_time": "19:00",
+        "ticket_url": null,
+        "title": "BALLATE MALATE",
+        "venue_name": "Keller Factory"
+      },
+      "id": "18154449742510335-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/921183227_18577937248074567_7523147792433822501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Z9whtVit_qAQ7kNvwHkDe7-&_nc_oc=AdoTanIuOuYT4DqV4pjTAu060dHCZJpjwfe9b5koFfDB4DJbT4RNe8DlbOUnLWfS74M&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=EEMZGy6GgFd4MiKBphYTvQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSdvm575fjE674KEAckkRW04YdnDDYFccgj0iY_kpoOOw&oe=6B094F46",
+      "kind": "culture",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgClPNZI-3U/",
+      "status": "info"
+    },
     "18155902267463480-0": {
       "account": "tiky.klub",
       "account_venue": "Tiky Klub",
@@ -9819,6 +10105,38 @@
       "kind": "dj_club",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfhse5JKuuH/",
+      "status": "auto"
+    },
+    "18192436186427963-0": {
+      "account": "discoteca_queen",
+      "account_venue": "Queen Club",
+      "caption": "Domenica 13 Dicembre\n“LA DOMENICA DEL SEGNO”\nFesteggia il tuo segno zodiacale con noi!\n\nSe sei del segno dello SAGITTARIO e prenoti il tavolo, in OMAGGIO avrai una BOTTIGLIA DI PROSECCO.\n(Verifica all’ingresso con carta d’identità)\n\nDalle ore 19.00 apericena a buffet \n(INGRESSO € 13,00 con drink e Buffet)\n\nDalle ore 21.30\n(INGRESSO € 10,00 con drink)\n\nDISCO DANCE\nIn consolle StefanOne \n\n*************************************\nPRENOTAZIONI TAVOLI GRATUITA \n*************************************\n\nLocation:\nQueen Club\nVia Levata 18, Seriate (BG) \n\nInfo e Prenotazioni:\nAle 331 6218709",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-13",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": "preserata",
+        "genres": [
+          "disco"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "19:00",
+        "ticket_url": null,
+        "title": "LA DOMENICA DEL SEGNO",
+        "venue_name": "Queen Club"
+      },
+      "id": "18192436186427963-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/917309132_18346017118258835_7566910272012141481_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6-_HV4z2pUQQ7kNvwFocdhp&_nc_oc=Adr4AGI0azrqqjXd6-huLCj582XpCoZDbmqWIIVtzQww2jcwZ4XJycREQnPs8XjGQAw&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=SBk2RLJ2gAC8sIOlc0a80Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ24Uy3w6_HbzI5yN9lrWLAm-DjykrQtC9elIZtYAWs8Q&oe=6B096503",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgBj5Y8t9TR/",
       "status": "auto"
     },
     "18194396047404902-0": {
@@ -10853,6 +11171,39 @@
       "permalink": "https://www.instagram.com/p/DfwoET4ih5o/",
       "status": "info"
     },
+    "18417119983095613-0": {
+      "account": "tiky.klub",
+      "account_venue": "Tiky Klub",
+      "caption": "4thegroovers_  takes over TIKY KLUB\n\ndirty.andry , salvatorealagna98 , dariorattii and francesco_rivaa  behind the decks for a full night of tech house.\n\n27.11 — see you inside 💚\n\n#Tiky",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "tech house",
+          "house"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Tiky Klub",
+        "venue_name": "Tiky Klub"
+      },
+      "id": "18417119983095613-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/911664982_1697646832373191_4093119940597796320_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=p8x709sF5WgQ7kNvwHgWqax&_nc_oc=AdpEnyyQPnr9teTtMnt6guipnNhH1BL7VlrBhILVEx8jZn3H2-ZIiwCS_-HuU-Yu64Q&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=NTAvxLcg55t_cEXhSY0A5g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRuJa8DOGp9LPfGDkvQ88helPXj9Zsvqb5FPe9BJh3cgQ&oe=6B094B4A",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgDVhKcggGd/",
+      "status": "auto"
+    },
     "18418393306088007-0": {
       "account": "theboxbergamo",
       "account_venue": null,
@@ -11360,7 +11711,7 @@
       "status": "info"
     }
   },
-  "next_account": 15,
+  "next_account": 35,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -11693,6 +12044,11 @@
     "17896758693616351": {
       "account": "cheri.it",
       "at": "2026-11-16T11:06:54+0000",
+      "event": true
+    },
+    "17896999950435814": {
+      "account": "discoteca_queen",
+      "at": "2026-11-22T14:43:51+0000",
       "event": true
     },
     "17897247543682812": {
@@ -12545,6 +12901,11 @@
       "at": "2026-11-17T10:42:41+0000",
       "event": false
     },
+    "17963089089256829": {
+      "account": "daste_bergamo",
+      "at": "2026-11-22T16:12:51+0000",
+      "event": true
+    },
     "17963517933211374": {
       "account": "we.are.stepup",
       "at": "2026-10-19T15:28:10+0000",
@@ -12568,6 +12929,11 @@
     "17964829449232224": {
       "account": "casacostez",
       "at": "2026-10-19T10:00:07+0000",
+      "event": false
+    },
+    "17966219919245833": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-22T16:30:01+0000",
       "event": false
     },
     "17966615175228798": {
@@ -12931,6 +13297,11 @@
       "at": "2026-10-15T16:04:45+0000",
       "event": false
     },
+    "17994906894077070": {
+      "account": "discoteca_queen",
+      "at": "2026-11-22T14:42:30+0000",
+      "event": true
+    },
     "17995305954051382": {
       "account": "mint_lounge",
       "at": "2026-11-06T09:17:41+0000",
@@ -13261,6 +13632,11 @@
       "at": "2026-11-17T17:00:10+0000",
       "event": true
     },
+    "18029234510872835": {
+      "account": "zeroclub.bg",
+      "at": "2026-11-21T16:16:36+0000",
+      "event": true
+    },
     "18029415980868330": {
       "account": "mint_lounge",
       "at": "2026-10-31T09:01:49+0000",
@@ -13555,6 +13931,11 @@
       "account": "setai_club_official",
       "at": "2026-10-05T16:05:58+0000",
       "event": false
+    },
+    "18061946990801226": {
+      "account": "discoteca_queen",
+      "at": "2026-11-22T17:06:00+0000",
+      "event": true
     },
     "18064324577789273": {
       "account": "bsk.sound",
@@ -14031,6 +14412,11 @@
       "at": "2026-10-16T16:00:51+0000",
       "event": false
     },
+    "18097744076664443": {
+      "account": "discoteca_queen",
+      "at": "2026-11-22T14:53:58+0000",
+      "event": true
+    },
     "18097804685478552": {
       "account": "incroissanterialab",
       "at": "2026-11-16T16:56:01+0000",
@@ -14080,6 +14466,11 @@
       "account": "jamlivestudio",
       "at": "2026-11-10T17:01:43+0000",
       "event": false
+    },
+    "18099609128395907": {
+      "account": "kellerfactory_",
+      "at": "2026-11-22T09:02:08+0000",
+      "event": true
     },
     "18099918041236579": {
       "account": "barrys__",
@@ -14396,6 +14787,11 @@
       "at": "2026-11-17T14:18:29+0000",
       "event": true,
       "reread": "18109564565206781"
+    },
+    "18109615922212502": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-22T12:22:06+0000",
+      "event": false
     },
     "18109643729613160": {
       "account": "capogirojoyclub",
@@ -15111,6 +15507,11 @@
       "at": "2026-10-21T10:00:08+0000",
       "event": false
     },
+    "18121362800601978": {
+      "account": "discoteca_queen",
+      "at": "2026-11-22T00:53:42+0000",
+      "event": true
+    },
     "18121394042069348": {
       "account": "oroneroloveandmusic",
       "at": "2026-10-13T16:19:59+0000",
@@ -15140,6 +15541,11 @@
       "account": "csapacipaciana",
       "at": "2026-11-19T06:47:27+0000",
       "event": false
+    },
+    "18121982839769925": {
+      "account": "drusobg",
+      "at": "2026-11-22T19:55:13+0000",
+      "event": true
     },
     "18122010719088043": {
       "account": "casacostez",
@@ -16230,6 +16636,11 @@
       "at": "2026-11-09T22:04:51+0000",
       "event": true
     },
+    "18154449742510335": {
+      "account": "kellerfactory_",
+      "at": "2026-11-22T10:23:15+0000",
+      "event": true
+    },
     "18155004112557916": {
       "account": "jamlivestudio",
       "at": "2026-11-19T16:30:02+0000",
@@ -16499,6 +16910,11 @@
       "account": "brinapasticceria",
       "at": "2026-10-28T14:58:54+0000",
       "event": false
+    },
+    "18192436186427963": {
+      "account": "discoteca_queen",
+      "at": "2026-11-22T00:52:58+0000",
+      "event": true
     },
     "18192664342405697": {
       "account": "aliveofficialparty",
@@ -16840,6 +17256,11 @@
       "at": "2026-11-18T16:01:41+0000",
       "event": true
     },
+    "18363734098218367": {
+      "account": "vibetheclub",
+      "at": "2026-11-22T17:11:45+0000",
+      "event": false
+    },
     "18371107891211645": {
       "account": "casacostez",
       "at": "2026-10-21T10:00:10+0000",
@@ -17000,6 +17421,11 @@
       "at": "2026-11-15T11:01:34+0000",
       "event": true
     },
+    "18417119983095613": {
+      "account": "tiky.klub",
+      "at": "2026-11-22T17:25:04+0000",
+      "event": true
+    },
     "18418393306088007": {
       "account": "theboxbergamo",
       "at": "2026-11-21T17:55:05+0000",
@@ -17039,6 +17465,11 @@
       "account": "gres_art_671",
       "at": "2026-11-19T10:54:38+0000",
       "event": true
+    },
+    "18455415898131544": {
+      "account": "drusobg",
+      "at": "2026-11-22T13:58:40+0000",
+      "event": false
     },
     "18456169510123929": {
       "account": "intothewoodsbg",
