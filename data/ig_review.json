@@ -1,10 +1,10 @@
 {
   "followers": {
     "afrodylanofficial": 12179,
-    "al_tabarin": 728,
+    "al_tabarin": 727,
     "aliveofficialparty": 29247,
     "arya.lounge": 2474,
-    "baiadelrebrignano": 4254,
+    "baiadelrebrignano": 4252,
     "balzerbynight": 7478,
     "bar30elode": 1172,
     "bar_sanmarco": 2096,
@@ -13,16 +13,16 @@
     "bergamonightservice": 1092,
     "bobadillafeelingclub": 31628,
     "bolgia.official": 124809,
-    "brinapasticceria": 3119,
+    "brinapasticceria": 3128,
     "bsk.sound": 1743,
     "bucheesebar": 6842,
-    "bv_rooftop": 11312,
+    "bv_rooftop": 11313,
     "cafeteriatreviolo": 5433,
     "caffetteria_nuova_rotonda": 1730,
     "call._.out": 730,
     "capogirojoyclub": 17761,
     "casacostez": 6310,
-    "charleston.treviglio": 2429,
+    "charleston.treviglio": 2433,
     "cheri.it": 4708,
     "choruslife.bergamo": 67481,
     "circolinomalpensata_bergamo": 2931,
@@ -33,45 +33,45 @@
     "crystalcastlesnightt": 764,
     "csapacipaciana": 13824,
     "daste_bergamo": 21295,
-    "decibel_club": 4573,
+    "decibel_club": 4580,
     "discopastasc": 1422,
     "discoteca_queen": 17091,
     "drusobg": 24688,
     "edonebergamo": 29974,
     "gres_art_671": 21324,
-    "hiddenhell.techno": 11136,
-    "hype.club.official": 24462,
+    "hiddenhell.techno": 11138,
+    "hype.club.official": 24459,
     "icksdresstoimpress": 6682,
     "iconevents.official": 610,
-    "incroissanterialab": 27685,
+    "incroissanterialab": 27690,
     "inkclub_bergamo": 14667,
     "intothewoodsbg": 33146,
     "jamlivestudio": 6021,
-    "juiceclubit": 8581,
+    "juiceclubit": 8580,
     "karma_lounge_official_": 5163,
     "kellerfactory_": 7348,
     "lazzaretto_bergamo_estate": 11502,
-    "lecannibaleclub": 42998,
-    "liveclub": 33393,
+    "lecannibaleclub": 43069,
+    "liveclub": 33487,
     "loft.bergamo": 10815,
-    "mint_lounge": 15362,
-    "nikita__land": 25609,
+    "mint_lounge": 15356,
+    "nikita__land": 25625,
     "ninfeasocialclub": 8708,
     "noidfamilia": 7887,
     "nxtbergamo": 30320,
     "oasi.night": 513,
-    "officinapanarari": 5379,
+    "officinapanarari": 5386,
     "oroneroloveandmusic": 7812,
     "please.nights": 2511,
     "premiere.premiere": 2136,
-    "sabbiemobili_official": 7835,
+    "sabbiemobili_official": 7840,
     "savana.king25": 192,
     "selected.lab": 201,
     "setai_club_official": 36670,
     "sloth.bg": 826,
     "sommet_night": 494,
     "sprint_bergamo": 5109,
-    "supertatobolgia": 20635,
+    "supertatobolgia": 20627,
     "talk.maf": 2208,
     "thanka.official": 30905,
     "the.circlehub": 830,
@@ -81,7 +81,7 @@
     "unibg_party": 3463,
     "unplug.project": 547,
     "unplug__bg": 3013,
-    "utopia.direction": 8479,
+    "utopia.direction": 8481,
     "vibetheclub": 11574,
     "victorialoungebar_bonate": 1289,
     "we.are.stepup": 355,
@@ -11231,7 +11231,7 @@
       "status": "info"
     }
   },
-  "next_account": 41,
+  "next_account": 61,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -11448,6 +11448,11 @@
     "17880638631562095": {
       "account": "jamlivestudio",
       "at": "2026-11-14T16:00:46+0000",
+      "event": true
+    },
+    "17881007901565984": {
+      "account": "liveclub",
+      "at": "2026-11-21T16:54:06+0000",
       "event": true
     },
     "17883585330627324": {
@@ -12797,6 +12802,11 @@
       "at": "2026-11-03T16:48:39+0000",
       "event": true
     },
+    "17995923423104873": {
+      "account": "nikita__land",
+      "at": "2026-11-21T09:00:41+0000",
+      "event": true
+    },
     "17996037315098885": {
       "account": "gres_art_671",
       "at": "2026-11-12T17:30:54+0000",
@@ -13030,6 +13040,11 @@
     "18019687997739861": {
       "account": "bobadillafeelingclub",
       "at": "2026-10-26T16:01:03+0000",
+      "event": false
+    },
+    "18019796009954253": {
+      "account": "liveclub",
+      "at": "2026-11-21T20:57:16+0000",
       "event": false
     },
     "18019917641945192": {
@@ -13280,6 +13295,11 @@
     "18045525857623650": {
       "account": "noidfamilia",
       "at": "2026-10-05T18:24:12+0000",
+      "event": true
+    },
+    "18046135565827567": {
+      "account": "mint_lounge",
+      "at": "2026-11-21T09:00:38+0000",
       "event": true
     },
     "18046138421829795": {
@@ -13570,6 +13590,11 @@
     "18081523760355825": {
       "account": "inkclub_bergamo",
       "at": "2026-10-23T08:00:06+0000",
+      "event": false
+    },
+    "18082085807414143": {
+      "account": "liveclub",
+      "at": "2026-11-21T00:05:01+0000",
       "event": false
     },
     "18082111697769537": {
@@ -13926,6 +13951,11 @@
       "account": "brinapasticceria",
       "at": "2026-11-07T11:00:04+0000",
       "event": true
+    },
+    "18100396808689482": {
+      "account": "nikita__land",
+      "at": "2026-11-21T00:10:18+0000",
+      "event": false
     },
     "18100623686097168": {
       "account": "inkclub_bergamo",
@@ -14521,6 +14551,11 @@
       "at": "2026-11-04T13:12:51+0000",
       "event": false
     },
+    "18115918775269633": {
+      "account": "liveclub",
+      "at": "2026-11-21T22:55:24+0000",
+      "event": false
+    },
     "18116154098130190": {
       "account": "kellerfactory_",
       "at": "2026-11-12T11:46:46+0000",
@@ -14565,6 +14600,11 @@
     "18116984984080773": {
       "account": "thanka.official",
       "at": "2026-10-19T10:55:08+0000",
+      "event": false
+    },
+    "18117044891616633": {
+      "account": "liveclub",
+      "at": "2026-11-21T18:54:58+0000",
       "event": false
     },
     "18117094508071340": {
@@ -14616,6 +14656,11 @@
       "account": "sprint_bergamo",
       "at": "2026-11-02T17:00:01+0000",
       "event": true
+    },
+    "18117928655154104": {
+      "account": "liveclub",
+      "at": "2026-11-21T19:50:30+0000",
+      "event": false
     },
     "18117946276779936": {
       "account": "thanka.official",
@@ -15473,6 +15518,11 @@
       "at": "2026-11-06T15:30:06+0000",
       "event": true
     },
+    "18133378093830200": {
+      "account": "liveclub",
+      "at": "2026-11-21T00:28:57+0000",
+      "event": false
+    },
     "18133454647834190": {
       "account": "nxtbergamo",
       "at": "2026-11-11T12:21:50+0000",
@@ -15766,6 +15816,11 @@
       "at": "2026-11-11T13:26:08+0000",
       "event": true
     },
+    "18139922848654154": {
+      "account": "arya.lounge",
+      "at": "2026-11-21T14:04:39+0000",
+      "event": true
+    },
     "18140122042623930": {
       "account": "lecannibaleclub",
       "at": "2026-10-12T16:04:21+0000",
@@ -16031,6 +16086,11 @@
       "at": "2026-11-21T16:30:35+0000",
       "event": true
     },
+    "18156584590540822": {
+      "account": "liveclub",
+      "at": "2026-11-21T21:50:54+0000",
+      "event": false
+    },
     "18156618595475614": {
       "account": "brinapasticceria",
       "at": "2026-10-21T18:12:38+0000",
@@ -16139,6 +16199,11 @@
     "18172889077461618": {
       "account": "kellerfactory_",
       "at": "2026-10-27T10:20:27+0000",
+      "event": false
+    },
+    "18173300047461307": {
+      "account": "mint_lounge",
+      "at": "2026-11-21T17:00:28+0000",
       "event": false
     },
     "18173342491407790": {
