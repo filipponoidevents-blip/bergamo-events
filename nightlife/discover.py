@@ -385,7 +385,8 @@ def run(city: City, force_osm: bool = False) -> list[str]:
         bio = (accounts.get(v.get("instagram") or "", {}).get("bio") or "")
         party = re.search(r"\b(?:club|discoteca|disco|live\s*music|concerti|dj|party|serate)\b", bio, re.I)
         hall = v.get("type") not in ("club", "bar") and not party   # un bar che fa anche feste private resta
-        v["removed"] = bool(NOT_NIGHTLIFE.search(v["name"]) or (WEDDING.search(bio) and hall) or (v.get("type") == "live_club" and EVENT_HALL.search(v["name"]) and not party))
+        cinema = re.search(r"cinema|cineteca|multisala", f"{v.get('instagram') or ''} {bio}", re.I) and not party
+        v["removed"] = bool(NOT_NIGHTLIFE.search(v["name"]) or cinema or (WEDDING.search(bio) and hall) or (v.get("type") == "live_club" and EVENT_HALL.search(v["name"]) and not party))
     last = city.registry.get("osm_checked")
     if city.settings["sources"]["osm"].get("enabled") and (force_osm or not last or (date.today() - date.fromisoformat(last)).days >= 7):
         try:

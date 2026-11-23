@@ -39,7 +39,9 @@ def read_yaml(path: Path) -> dict:
 GENERIC = {"lounge", "bar", "ristorante", "restaurant", "risto", "cocktail", "cocktails", "club", "discoteca", "disco", "pub", "food", "drink", "drinks", "and", "more",
            "caffe", "cafe", "caffetteria", "pizzeria", "music", "musik", "wine", "beer", "the", "il", "la", "lo", "le", "di", "del", "della", "e", "bistrot", "bergamo", "night"}
 COMMON = {"beach", "summer", "garden", "moonlight", "tramonto", "bloom", "charlie", "level", "fashion", "barrier", "ombra", "zero", "drop", "limbo",
-          "origami", "tiny", "karma", "sprint", "vibe", "hype", "queen", "feeling", "notturna", "terminal"}
+          "origami", "tiny", "karma", "sprint", "vibe", "hype", "queen", "feeling", "notturna", "terminal",
+          "milano", "bergamo", "brescia", "roma", "torino", "monza", "lecco", "como", "cremona", "verona", "venezia", "napoli", "bologna", "firenze", "genova", "italia",
+          "musica", "musicale", "live", "eventi", "events", "sound", "festa", "party", "notte", "arte", "spazio", "teatro", "cinema", "centro"}
 
 
 def core_name(name: str) -> str | None:

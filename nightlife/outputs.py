@@ -217,9 +217,10 @@ def write_all(city: City, events_by_id: dict, dropped: list[dict], notes: list[s
         f"{slug}_tutto.ics": ics(city, zone_night, f"Nightlife · {label}", reminders),
     }
     # Calendari con i nomi di file della versione 1 (city.yaml -> old_feeds): chi li ha già sul telefono non deve cambiare nulla.
-    groups = {"dj": [e for e in pub if e["scope"] == "zona" and e["type"] in ("dj set", "festival")],
+    dj = lambda e: e["type"] == "dj set" or (e["type"] == "festival" and e.get("genre"))  # noqa: E731  (un concerto classico "festival" senza genere no)
+    groups = {"dj": [e for e in pub if e["scope"] == "zona" and dj(e)],
               "grandi": [e for e in zone_night if e["scope"] != "zona"],
-              "altro": [e for e in pub if e["scope"] == "zona" and e["type"] not in ("dj set", "festival")]}
+              "altro": [e for e in pub if e["scope"] == "zona" and not dj(e)]}
     for name, spec in (city.settings.get("old_feeds") or {}).items():
         evs = sorted({e["id"]: e for g in spec["groups"] for e in groups[g]}.values(), key=lambda e: (e["date"], -e["score"]))
         files[name] = ics(city, evs, spec["title"], reminders if spec.get("reminders") else ())

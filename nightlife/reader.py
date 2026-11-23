@@ -27,7 +27,7 @@ D_MONTH = re.compile(rf"(?<![\d:.,])(\d{{1,2}})(?:°|º|st|nd|rd|th)?\.?\s*(?:di
 MONTH_D = re.compile(rf"\b({MONTH_RE})\.?\s+(\d{{1,2}})(?:st|nd|rd|th)\b", re.I)
 D_NUM = re.compile(r"(?<![\d:.,/€])(\d{1,2})[./](\d{1,2})(?:[./](20\d{2}|\d{2}))?(?![\d:.,/€])")
 RANGE_WORDS = re.compile(r"\b(?:dal|from)\s+\d{1,2}.{0,25}?\b(?:al|to|fino al)\s+\d{1,2}", re.I)
-PROGRAMME_LINE = re.compile(rf"^\W*(?:{WD_RE})\w*\.?\s+(\d{{1,2}})(?:st|nd|rd|th)?\b[\s:·|-]*(.+)$", re.I)
+PROGRAMME_LINE = re.compile(rf"^\W*(?:{WD_RE})\w*\.?\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:[./](\d{{1,2}}))?\b[\s:·|>=-]*(.+)$", re.I)
 EVERY = re.compile(rf"\b(?:every|ogni|tutti i|tutte le)\s+({WD_LONG})\b[\s:·|-]*(.*)$", re.I)
 REL_DAY = re.compile(rf"\b(?:this|questo|questa|quest'|next|prossimo)?\s*({WD_LONG})\b", re.I)
 TONIGHT = re.compile(r"\b(stasera|stanotte|tonight|questa sera|questa notte|oggi)\b", re.I)
@@ -415,14 +415,16 @@ class Reader:
                 every.append((WEEKDAYS[m.group(1).lower()], m.group(2).strip()))
                 continue
             m = PROGRAMME_LINE.match(l)
-            if m and 1 <= int(m.group(1)) <= 31 and len(m.group(2)) < 80 and not re.search(r"\d{1,2}[:.]\d{2}", m.group(2)):
-                rows.append((int(m.group(1)), m.group(2).strip()))
+            if m and 1 <= int(m.group(1)) <= 31 and len(m.group(3)) < 80 and not re.search(r"\d{1,2}[:.]\d{2}", m.group(3)):
+                rows.append((int(m.group(1)), int(m.group(2)) if m.group(2) else None, m.group(3).strip()))
         if len(rows) < 3 or not acc_venue:
             return []
         month_ref = ref if ref.day <= 20 else (ref.replace(day=1) + timedelta(days=32)).replace(day=1)
         out = []
         def emit(d: date, what: str, conf: float):
             names = [n for n in re.split(r"\s*(?:\+|,|&|/)\s*", what) if n.strip()]
+            # "cromaroom + Bar Florio": un nome senza profilo e non conosciuto è un ospite della serata, non un'altra sala
+            names = names[:1] + [n for n in names[1:] if self.handles(n) or self.city.promoter_in_text(norm(n))]
             for i, n in enumerate(names):
                 hs = self.handles(n)
                 prom = self.city.promoter(hs[0]) if hs else self.city.promoter_in_text(norm(n))
@@ -433,9 +435,11 @@ class Reader:
                     "promoter_name": prom["name"] if prom else None, "guests": [], "genre": None, "type": "dj set", "entry": None, "price": None, "tickets": None,
                     "handles": hs, "confidence": conf, "source": source, "account": account, "url": url, "posted": ref.isoformat(), "text": f"{what} (programma del mese)", "programme": True,
                 })
-        for day, what in rows:
-            try:
-                d = date(month_ref.year, month_ref.month, day)
+        for day, month, what in rows:
+            try:   # "giovedì 29/10 > space jam": il mese scritto vince (un riepilogo di ottobre non diventa novembre)
+                d = date(month_ref.year, month or month_ref.month, day)
+                if month and d < ref - timedelta(days=200):
+                    d = d.replace(year=d.year + 1)
             except ValueError:
                 continue
             if d >= ref - timedelta(days=1):
