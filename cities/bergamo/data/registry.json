@@ -22,7 +22,7 @@
    "checked": "2026-11-19",
    "followers": 8866,
    "kind": "artist",
-   "mentions": 5,
+   "mentions": 3,
    "name": "Alchemica Music Club - Bologna",
    "readable": true,
    "website": "https://li.sten.to/alchemicamusicclub"
@@ -151,13 +151,13 @@
   "areakitchen_group": {
    "bio": "✨ CONCEPT CATERING ✨ \nCorporate & Wedding Events \nFrom Milano wherever you are 🌍",
    "cands": 1,
-   "checked": "2026-11-21",
-   "followers": 2402,
+   "checked": "2026-11-23",
+   "followers": 2401,
    "kind": "promoter",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "Area Kitchen",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "http://www.areakitchen.it/"
   },
   "armida.kaiserfleish": {
@@ -177,6 +177,10 @@
    "readable": true,
    "reads": 5,
    "website": "https://t.me/AryaLounge"
+  },
+  "associazione_luca_coscioni": {
+   "cands": 1,
+   "mentions": 1
   },
   "assonica_": {
    "mentions": 1
@@ -231,7 +235,7 @@
    "followers": 10341,
    "kind": "venue",
    "last_read": "2026-11-21T19:29+00:00",
-   "mentions": 3,
+   "mentions": 2,
    "name": "Barrier This is the right place",
    "readable": true,
    "reads": 5,
@@ -267,22 +271,31 @@
    "followers": 13893,
    "kind": "promoter",
    "last_read": "2026-11-21T19:29+00:00",
-   "mentions": 18,
+   "mentions": 15,
    "name": "Barley Arts",
    "readable": true,
    "reads": 9,
    "watch": true,
    "website": "http://linktr.ee/barleyartsreal"
   },
+  "beatrice_paganessi": {
+   "cands": 1
+  },
+  "beatrice_paganessi_": {
+   "mentions": 1
+  },
   "bellatmosferaevents": {
    "bio": "Servizi di intrattenimento\n musicale per i vostri eventi 🎧🎤🔊\n💍 @bellatmosferawedding \n👥 @bellatmosferacorporate \nTutti i nostri servizi\n⬇️⬇️⬇️",
    "cands": 2,
-   "checked": "2026-11-21",
-   "followers": 2340,
+   "checked": "2026-11-23",
+   "events_found": 8,
+   "followers": 2359,
    "kind": "promoter",
-   "mentions": 1,
+   "last_read": "2026-11-23T09:05+00:00",
+   "mentions": 4,
    "name": "Bell’Atmosfera - Experience",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": null
   },
@@ -302,15 +315,15 @@
   "bloom_mezzago": {
    "bio": "Sviluppi incontrollati nel cuore della Brianza ⚡️",
    "cands": 2,
-   "checked": "2026-11-21",
-   "events_found": 21,
-   "followers": 16302,
+   "checked": "2026-11-23",
+   "events_found": 22,
+   "followers": 16359,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
-   "mentions": 4,
+   "last_read": "2026-11-23T09:05+00:00",
+   "mentions": 3,
    "name": "B L O O M Dal 1987",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://linktr.ee/bloommezzago"
   },
   "bloomcinema_mezzago": {
@@ -338,14 +351,14 @@
   },
   "bobadillafeelingclub": {
    "bio": "Il locale Storico di Bergamo✨\nRistorante: @bobadillaristorante\nDiscoteca: @bobadillafeelingclub \nAperitivo Domenica: @aperitivomartini",
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 14,
-   "followers": 31622,
+   "followers": 31641,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 20,
+   "reads": 21,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
@@ -376,6 +389,9 @@
    "checked": "2026-11-20",
    "error": "110: Invalid user id",
    "readable": false
+  },
+  "bro__eat_drinks": {
+   "mentions": 1
   },
   "bruno_di_voi": {
    "cands": 1
@@ -575,24 +591,28 @@
   "circolofratellanza": {
    "bio": "Società di mutuo soccorso di Casnigo dal 1904",
    "cands": 1,
-   "checked": "2026-11-21",
-   "followers": 832,
+   "checked": "2026-11-23",
+   "events_found": 5,
+   "followers": 834,
    "kind": "venue",
+   "last_read": "2026-11-23T09:05+00:00",
    "mentions": 1,
    "name": "Circolo Fratellanza Casnigo",
    "readable": true,
+   "reads": 1,
+   "venue_done": true,
    "website": "https://linktr.ee/circolofratellanzacasnigo"
   },
   "cocktail_mood_cm": {
    "bio": "🍸 Cocktail Bar & Hamburgheria a Pognano Bg\n🌮 Fajitas fumanti, Pulled Pork & Burger \n🌿 Esclusiva Gin Tonic Selection\n🎤 Eventi, Serate a Tema & Karaoke",
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 3,
    "followers": 360,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "COCKTAIL MOOD",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": null
   },
   "colore_ai_sogni": {
@@ -662,14 +682,14 @@
   },
   "cremeria_dellevalli": {
    "bio": "🎂Pasticceria \n🍦Gelateria\n☕️ Caffetteria\n📍Zogno via Mazzini 61",
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 1,
-   "followers": 4681,
+   "followers": 4685,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "CREMERIA DELLE VALLI",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://cremeriadellevalli.com"
   },
   "croccante_all_amarezza": {
@@ -696,15 +716,15 @@
   },
   "daste_bergamo": {
    "bio": "Dove le culture contemporanee si incontrano\nSpazio Eventi | Bistrò | Cinema | Galleria | Workplace",
-   "checked": "2026-11-21",
-   "events_found": 24,
-   "followers": 21304,
+   "checked": "2026-11-23",
+   "events_found": 25,
+   "followers": 21348,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "mentions": 1,
    "name": "Daste Bergamo",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://linktr.ee/daste_bergamo"
   },
   "daste_bistro": {
@@ -728,7 +748,7 @@
    "checked": "2026-11-20",
    "followers": 178,
    "kind": "unknown",
-   "mentions": 6,
+   "mentions": 3,
    "name": "Degustazione Di Due",
    "readable": true,
    "website": null
@@ -806,12 +826,15 @@
   "doctor.beat.band": {
    "bio": "@teoteocoliofficialfanpage's official band since 2002\n🎶#livemusic \n🎵#musicband \n👥#convention\n🎤#partyband\nChiamaci per il tuo evento 🎶🎸🎵",
    "cands": 1,
-   "checked": "2026-11-21",
-   "followers": 2331,
+   "checked": "2026-11-23",
+   "events_found": 12,
+   "followers": 2330,
    "kind": "promoter",
+   "last_read": "2026-11-23T09:05+00:00",
    "mentions": 1,
    "name": "Doctor Beat",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "http://www.doctorbeat.it/"
   },
@@ -887,11 +910,13 @@
   },
   "easy_drinkandfood": {
    "bio": "BE OUR GUEST 🏡\n🔑 Da Martedì a Domenica  \n🍸 Friendly cocktail bar, con cucina 🍴\n📍 Capriate S.G. (BG) via Papa Giovanni XXIII, 4",
+   "cands": 1,
    "checked": "2026-11-21",
    "events_found": 5,
    "followers": 4454,
    "kind": "venue",
    "last_read": "2026-11-21T18:21+00:00",
+   "mentions": 1,
    "name": "Easy Drink and Food",
    "readable": true,
    "reads": 1,
@@ -951,7 +976,7 @@
    "followers": 3368,
    "kind": "venue",
    "last_read": "2026-11-21T18:21+00:00",
-   "mentions": 4,
+   "mentions": 2,
    "name": "Fabbrica in Pedavena Treviglio",
    "readable": true,
    "reads": 1,
@@ -961,15 +986,24 @@
    "cands": 1
   },
   "fabrique_milano": {
+   "bio": "La Musica Si Fabbrica Qui",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "followers": 103586,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Fabrique Milano",
+   "readable": true,
+   "website": "http://www.fabriquemilano.it"
   },
   "fandango_official": {
    "cands": 1
   },
   "fans_of_tim_ripper_owens": {
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "mentions": 1,
+   "readable": false
   },
   "fararockfest": {
    "checked": "2026-11-20",
@@ -1022,6 +1056,12 @@
   "fotosenzaposa_official": {
    "cands": 1
   },
+  "francesco_fanucchi": {
+   "cands": 1
+  },
+  "francesco_fanucchi_": {
+   "mentions": 1
+  },
   "frenz_delfine": {
    "cands": 1
   },
@@ -1031,8 +1071,15 @@
    "readable": false
   },
   "generazioni_fa": {
+   "bio": "Ci piace definirci una Impresa Sociale di Comunità.  Gestiamo servizi rivolti ai minori, alle donne e agli anziani.",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "followers": 945,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Generazioni FA",
+   "readable": true,
+   "website": "https://www.generazionifa.it/"
   },
   "giovanni.riva1979": {
    "cands": 1
@@ -1104,6 +1151,9 @@
    "watch": true,
    "website": "https://linktr.ee/HiddenHell"
   },
+  "i_frattaglie": {
+   "cands": 2
+  },
   "icksdresstoimpress": {
    "cands": 1
   },
@@ -1130,14 +1180,14 @@
   },
   "ilpiratapub": {
    "bio": "📍Via Papa Giovanni XXIII n75 - Almè \nAperto 7/7 \n🕰Dalle 17.00 alle 2.00 \n🎉Venerdì e sabato fino alle 5.00",
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 3,
-   "followers": 1925,
+   "followers": 1924,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "Il Pirata Pub Food&Drink",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "website": "https://www.facebook.com/ilpiratapubalme/"
   },
   "importanti": {
@@ -1150,11 +1200,18 @@
    "cands": 1
   },
   "indiepower_official": {
+   "bio": "𝗟𝗔 𝗙𝗘𝗦𝗧𝗔 𝗜𝗡𝗗𝗜𝗘 𝗣𝗜𝗨’ 𝗚𝗥𝗔𝗡𝗗𝗘 𝗗’𝗜𝗧𝗔𝗟𝗜𝗔💚\n📍27.11 @department.184 MI\n📍27.11 @officinecantelmo LE\n📍28.11 @kissfirenze FI\n🎫⤵️",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "followers": 92061,
+   "kind": "venue",
+   "mentions": 1,
+   "name": "INDIE POWER",
+   "readable": true,
+   "website": "http://www.indiepower.it"
   },
   "ingredienti": {
-   "cands": 1
+   "cands": 2
   },
   "inkclub.academy": {
    "cands": 1
@@ -1197,6 +1254,22 @@
   "intercomunaletrash": {
    "cands": 1
   },
+  "intothewoodsbg": {
+   "bio": "🌳WINTER SEASON 26/27✨\nPranzo di lavoro Lun - Ven 12:00 - 14:30\nLun, Gio, Ven 18:00-0:30\nSab, Dom 10:00-0:30\n📍Via Foscolo, 10 Torre Boldone BG\n👇Prenota",
+   "checked": "2026-11-23",
+   "events_found": 3,
+   "followers": 33171,
+   "kind": "venue",
+   "last_read": "2026-11-23T09:05+00:00",
+   "name": "Into The Woods",
+   "readable": true,
+   "reads": 1,
+   "website": "http://wa.me/+393279504436"
+  },
+  "intrecci_ati": {
+   "cands": 1,
+   "mentions": 1
+  },
   "isaacmaffeis": {
    "cands": 1
   },
@@ -1214,11 +1287,14 @@
   },
   "jclubbergamo": {
    "bio": "🗓️ 𝐅𝐑𝐈𝐃𝐀𝐘 • 𝐒𝐀𝐓𝐔𝐑𝐃𝐀𝐘\n🌙 𝐎𝐏𝐄𝐍 𝐓𝐈𝐋𝐋 𝟓 𝐀𝐌\n📲 𝟑𝟗𝟐𝟔𝟑𝟏𝟐𝟒𝟖𝟑\n📲 𝟑𝟐𝟒𝟖𝟔𝟓𝟕𝟐𝟎𝟏\n📍 Via G. Marconi 23/B • Ponte S. Pietro (BG)",
-   "checked": "2026-11-21",
-   "followers": 14748,
+   "checked": "2026-11-23",
+   "events_found": 1,
+   "followers": 14751,
    "kind": "venue",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "J CLUB",
    "readable": true,
+   "reads": 1,
    "website": null
   },
   "jolie.bg": {
@@ -1236,6 +1312,20 @@
   "kayro_dark": {
    "cands": 1
   },
+  "kellerfactory_ristorante": {
+   "checked": "2026-11-23",
+   "error": "110: Invalid user id",
+   "readable": false
+  },
+  "kilimangiaroclub": {
+   "bio": "Info & Reservation: +39 371 4478357\nAfrobeat, Amapiano and Trap \nBergamo",
+   "checked": "2026-11-23",
+   "followers": 419,
+   "kind": "venue",
+   "name": "KILIMANGIARO CLUB",
+   "readable": true,
+   "website": "https://maps.apple/p/z8b676~g42P-jY"
+  },
   "killingspree_hhc": {
    "cands": 1
   },
@@ -1243,8 +1333,21 @@
    "cands": 2
   },
   "kokedama_laboratorio": {
+   "bio": "Realizzazione vendita  kokedama\neventi \nlaboratori\nbomboniere",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "followers": 2126,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Mattia Benedetti",
+   "readable": true,
+   "watch": true,
+   "website": "http://www.kokedamaitalia.it"
+  },
+  "krakenfactory.it": {
+   "checked": "2026-11-23",
+   "error": "110: Invalid user id",
+   "readable": false
   },
   "la.corte.e.il.sogno": {
    "bio": "Location per matrimoni ed eventi del gruppo Acquaroli. Rito civile legale in loco. Esclusiva giornaliera e cucina interna\n#wedding #locationmatrimoni",
@@ -1267,14 +1370,14 @@
   },
   "lab80cinemas": {
    "bio": "Auditorium + Sala Orologio📍@cultbergamo🏢\nLo Schermo Bianco📍@daste_bergamo🏭 \nEsterno Notte📍d’estate in via Tasso🌙✨\n#Lmaiuscolaabspazio80innumero",
-   "checked": "2026-11-21",
-   "events_found": 24,
-   "followers": 6637,
+   "checked": "2026-11-23",
+   "events_found": 26,
+   "followers": 6644,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
-   "reads": 18,
+   "reads": 19,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -1303,6 +1406,9 @@
   "lazzaretto_bergamo_estate": {
    "cands": 1
   },
+  "le.muffe": {
+   "cands": 2
+  },
   "le.urla": {
    "cands": 1,
    "mentions": 1
@@ -1319,15 +1425,15 @@
   },
   "liveclub": {
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 13,
-   "followers": 33468,
+   "followers": 33510,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "mentions": 1,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 20,
+   "reads": 21,
    "website": "https://www.liveclub.it/start/"
   },
   "lorenzo.monguzzi": {
@@ -1444,6 +1550,9 @@
   "mercatocoperto_bergamo": {
    "cands": 1
   },
+  "messa_band": {
+   "cands": 3
+  },
   "mirko.mirkoro": {
    "cands": 1
   },
@@ -1468,7 +1577,7 @@
    "followers": 11959,
    "kind": "venue",
    "last_read": "2026-11-21T17:13+00:00",
-   "mentions": 2,
+   "mentions": 1,
    "name": "Moss - Punto di contatto",
    "readable": true,
    "reads": 1,
@@ -1524,13 +1633,13 @@
   },
   "nightlifebergamo": {
    "bio": "Il punto di riferimento degli eventi a Bergamo e provincia🪩⭐️🆒🥂\n🤝 @nightlifebrescia \nLocali e brand: scrivete PARTNER in DM📥",
-   "checked": "2026-11-21",
-   "followers": 11531,
+   "checked": "2026-11-23",
+   "followers": 11538,
    "kind": "scout",
-   "last_read": "2026-11-21T19:29+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -1557,30 +1666,34 @@
    "reads": 1,
    "website": null
   },
+  "no.mad_entertainment": {
+   "cands": 1,
+   "mentions": 1
+  },
   "nouvellevague_tirana": {
    "bio": "A pioneering cocktail bar since 2012, blending local flavors with a fine twist.#Original\n@50bestbars #28\n@50bestbars EUROPE #16\n@top500bars #39",
    "cands": 1,
    "checked": "2026-11-20",
    "followers": 9623,
    "kind": "venue",
-   "mentions": 3,
+   "mentions": 2,
    "name": "Nouvelle Vague Cocktail Bar",
    "readable": true,
    "venue_done": true,
    "website": "http://www.nouvellevaguetirana.com"
   },
   "oasi.night": {
-   "bio": "OASI \nWhere the groove takes over.\nTech House •Groovy Tech House• House\n20/11 vibe club \n📍 Bergamo",
+   "bio": "OASI \nWhere the groove takes over.\nTech House •Groovy Tech House• House\n📍 Bergamo",
    "cands": 1,
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 2,
-   "followers": 514,
+   "followers": 511,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "mentions": 2,
    "name": "OASI",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "venue_done": true,
    "website": null
   },
@@ -1610,14 +1723,14 @@
   },
   "oroneroloveandmusic": {
    "bio": "UPCOMING EVENTS:\n27/11: HARDCORE w/@lancinhousedj",
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 7,
-   "followers": 7812,
+   "followers": 7813,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "name": "ORONERO",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "website": null
   },
   "ozza.dj": {
@@ -1654,6 +1767,10 @@
   "pierpaolo_capovilla": {
    "cands": 2
   },
+  "piu_voce": {
+   "cands": 1,
+   "mentions": 1
+  },
   "please.nights": {
    "cands": 1,
    "mentions": 1
@@ -1664,7 +1781,7 @@
    "checked": "2026-11-20",
    "followers": 1712,
    "kind": "unknown",
-   "mentions": 4,
+   "mentions": 3,
    "name": "Possibilita",
    "readable": true,
    "website": "https://linktr.ee/Possibilita"
@@ -1683,7 +1800,7 @@
   "prenotazione": {
    "cands": 2,
    "checked": "2026-11-19",
-   "mentions": 7,
+   "mentions": 6,
    "readable": false
   },
   "principessa11270": {
@@ -1697,6 +1814,9 @@
    "website": null
   },
   "prisca_cavalleri": {
+   "cands": 1
+  },
+  "proiezioni": {
    "cands": 1
   },
   "psychedelia": {
@@ -1727,7 +1847,7 @@
    "followers": 3040,
    "kind": "promoter",
    "last_read": "2026-11-21T19:29+00:00",
-   "mentions": 4,
+   "mentions": 1,
    "name": "Retro Vibes Events",
    "readable": true,
    "reads": 8,
@@ -1746,7 +1866,7 @@
    "checked": "2026-11-20",
    "followers": 20004,
    "kind": "artist",
-   "mentions": 3,
+   "mentions": 2,
    "name": "Savana Funk",
    "readable": true,
    "website": "https://linktr.ee/Savana_Funk"
@@ -1838,7 +1958,7 @@
   "spettacoli": {
    "cands": 1,
    "checked": "2026-11-20",
-   "mentions": 10,
+   "mentions": 7,
    "readable": false
   },
   "spike.hellis": {
@@ -1912,15 +2032,15 @@
   "teatromiela_trieste": {
    "bio": "🎭 Dal 1990 a Trieste un luogo per spettacoli, musica, incontri e altre instabilità\n🟨 Per divertirsi, riflettere e stupirsi\nLa stagione 2026/2027⭣",
    "cands": 1,
-   "checked": "2026-11-21",
-   "events_found": 23,
-   "followers": 7920,
+   "checked": "2026-11-23",
+   "events_found": 24,
+   "followers": 7934,
    "kind": "venue",
-   "last_read": "2026-11-21T17:13+00:00",
+   "last_read": "2026-11-23T09:05+00:00",
    "mentions": 5,
    "name": "Teatro Miela",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "venue_done": true,
    "website": "https://linktr.ee/teatromiela"
   },
@@ -1963,6 +2083,9 @@
    "readable": true,
    "website": null
   },
+  "thenighteternal_official": {
+   "cands": 1
+  },
   "to_on.tv": {
    "bio": "piattaforma musicale multi-genere 📡\nSEE YOU T👀N\n⤵  ⤵  ⤵  ⤵  ⤵  ⤵  ⤵",
    "cands": 2,
@@ -1973,6 +2096,9 @@
    "name": "TOON.TV",
    "readable": true,
    "website": "https://linktr.ee/to_on.tv"
+  },
+  "totem.brewing": {
+   "cands": 3
   },
   "treccani.officialband": {
    "cands": 1,
@@ -2001,6 +2127,10 @@
    "readable": true,
    "reads": 16,
    "website": "https://www.facebook.com/tumultoconcerti/"
+  },
+  "uaar_it": {
+   "cands": 1,
+   "mentions": 1
   },
   "unibg_party": {
    "cands": 1,
@@ -2144,6 +2274,9 @@
    "readable": true,
    "website": null
   },
+  "yabasta.y.los.sicarios": {
+   "cands": 2
+  },
   "zanirhello": {
    "cands": 1
   },
@@ -2232,6 +2365,12 @@
    "lon": 9.58576,
    "province": null
   },
+  "Circolo Fratellanza Casnigo, Bergamo": {
+   "city": "Casnigo",
+   "lat": 45.8158,
+   "lon": 9.86972,
+   "province": null
+  },
   "Door 74, Bergamo": {
    "city": "Bergamo",
    "lat": 45.68879,
@@ -2240,6 +2379,12 @@
   },
   "Evento in collaborazione con A Comic Soul e For Laughs' Sake, Bergamo": null,
   "HOKA 10 YEAR ANNIVERSARY TOUR EU + UK 2027, Bergamo": null,
+  "INARI CANTU, Bergamo": {
+   "city": "Bergamo",
+   "lat": 45.67925,
+   "lon": 9.64719,
+   "province": null
+  },
   "La Corte e il Sogno, Bergamo": {
    "city": "Trescore Balneario",
    "lat": 45.7078,
@@ -2421,6 +2566,19 @@
  },
  "google_checked": "2026-11-20",
  "google_lookup": {
+  "a21 ristopizza manerbio": {
+   "address": "Str. per Leno, 7, 25025 Manerbio BS",
+   "aliases": [
+    "A21 RistoPizza Manerbio"
+   ],
+   "instagram": null,
+   "lat": 45.36246,
+   "lon": 10.16345,
+   "name": "A21 Ristopizza",
+   "reviews": 519,
+   "type": "bar",
+   "website": "https://www.a21ristopizza.it/"
+  },
   "biblioteca civica angelo mai di bergamo": {
    "address": "Piazza Vecchia, 15, 24129 Bergamo BG",
    "aliases": [
@@ -2447,13 +2605,867 @@
    "type": "bar",
    "website": "https://biblioteche.comune.bergamo.it/"
   },
-  "chiesa parrochiale di santa maria dalmine bg": null
+  "chiesa parrochiale di santa maria dalmine bg": null,
+  "inari cantu": null,
+  "inari garbagnate inarisushigarbagnate": {
+   "address": "Via Leonardo da Vinci, 29, 20024 Garbagnate Milanese MI",
+   "aliases": [
+    "INARI GARBAGNATE inarisushigarbagnate"
+   ],
+   "instagram": null,
+   "lat": 45.56357,
+   "lon": 9.06713,
+   "name": "Inari Sushi Garbagnate",
+   "reviews": 379,
+   "type": "bar",
+   "website": "https://inarigarbagnate.it/"
+  }
  },
  "google_queries": "discoteca|night club|club|disco pub|locale musica dal vivo|cocktail bar dj|lounge bar|centro culturale musica|spazio eventi concerti|circolo arci|caffetteria aperitivo|aperitivo dj set|pasticceria aperitivo",
  "hashtags": {
   "checked": "2026-11-18T09:30+00:00"
  },
  "osm_checked": "2026-11-18",
+ "parties": {
+  "act": {
+   "count": 1,
+   "done": true,
+   "name": "Act |",
+   "tried": []
+  },
+  "active party": {
+   "count": 1,
+   "name": "Active Party",
+   "tried": []
+  },
+  "afro night": {
+   "count": 1,
+   "name": "Afro Night",
+   "tried": []
+  },
+  "afro vibes": {
+   "count": 1,
+   "name": "Afro Vibes",
+   "tried": []
+  },
+  "afrodylan": {
+   "count": 1,
+   "name": "Afrodylan",
+   "tried": []
+  },
+  "afrostation": {
+   "count": 1,
+   "name": "AfroStation",
+   "tried": []
+  },
+  "after brunch": {
+   "count": 1,
+   "name": "After Brunch",
+   "tried": []
+  },
+  "after dinner con dj set dalle": {
+   "count": 1,
+   "name": "After Dinner con Dj Set dalle",
+   "tried": []
+  },
+  "all eyez on friday": {
+   "count": 2,
+   "name": "All Eyez On Friday",
+   "tried": []
+  },
+  "aperisingle": {
+   "count": 1,
+   "name": "Aperisingle",
+   "tried": []
+  },
+  "baci abbracci": {
+   "count": 2,
+   "name": "Baci&Abbracci",
+   "tried": []
+  },
+  "bad4ss": {
+   "count": 1,
+   "name": "BAD4SS",
+   "tried": []
+  },
+  "beatmode": {
+   "count": 2,
+   "name": "Beatmode",
+   "tried": []
+  },
+  "believe": {
+   "count": 2,
+   "name": "Believe",
+   "tried": []
+  },
+  "berry s circus": {
+   "count": 1,
+   "name": "Berry's Circus",
+   "tried": []
+  },
+  "besame": {
+   "count": 1,
+   "name": "Besame",
+   "tried": []
+  },
+  "blossom": {
+   "count": 1,
+   "name": "Blossom",
+   "tried": []
+  },
+  "boomer party": {
+   "count": 2,
+   "name": "Boomer Party",
+   "tried": []
+  },
+  "bucolic party": {
+   "count": 2,
+   "name": "Bucolic Party",
+   "tried": []
+  },
+  "bum bum night": {
+   "count": 1,
+   "name": "Bùm Bum Night",
+   "tried": []
+  },
+  "bunker": {
+   "count": 1,
+   "name": "Bunker",
+   "tried": []
+  },
+  "c est la vie": {
+   "count": 1,
+   "name": "C'est la vie",
+   "tried": []
+  },
+  "calenton": {
+   "count": 2,
+   "name": "Calenton",
+   "tried": []
+  },
+  "call me baby": {
+   "count": 2,
+   "name": "Call Me Baby",
+   "tried": []
+  },
+  "call out": {
+   "count": 1,
+   "name": "Call Out",
+   "tried": []
+  },
+  "calor night": {
+   "count": 3,
+   "name": "Calor Night",
+   "tried": []
+  },
+  "canta indie canta male": {
+   "count": 1,
+   "name": "Canta Indie Canta Male",
+   "tried": []
+  },
+  "centol0elode": {
+   "count": 4,
+   "name": "centol0elode",
+   "tried": []
+  },
+  "centoloelode": {
+   "count": 2,
+   "name": "centolOelode",
+   "tried": []
+  },
+  "chewing gum": {
+   "count": 2,
+   "name": "Chewing Gum",
+   "tried": []
+  },
+  "choose me": {
+   "count": 3,
+   "name": "Choose me",
+   "tried": []
+  },
+  "ciao discoteca italiana": {
+   "count": 1,
+   "name": "Ciao Discoteca Italiana",
+   "tried": []
+  },
+  "cliche": {
+   "count": 1,
+   "name": "Cliché",
+   "tried": []
+  },
+  "club culture": {
+   "count": 1,
+   "name": "Club Culture",
+   "tried": []
+  },
+  "code": {
+   "count": 1,
+   "name": "Code",
+   "tried": []
+  },
+  "dance with the devil": {
+   "count": 1,
+   "name": "Dance with the Devil",
+   "tried": []
+  },
+  "dischi channel": {
+   "count": 1,
+   "name": "Dischi Channel",
+   "tried": []
+  },
+  "disco pizza party": {
+   "count": 1,
+   "name": "Disco Pizza Party",
+   "tried": []
+  },
+  "discodance": {
+   "count": 5,
+   "name": "DiscoDance",
+   "tried": []
+  },
+  "discodance single party": {
+   "count": 1,
+   "name": "DiscoDance single party",
+   "tried": []
+  },
+  "dolcevita": {
+   "count": 1,
+   "name": "Dolcevita",
+   "tried": []
+  },
+  "dream up": {
+   "count": 2,
+   "name": "Dream Up",
+   "tried": []
+  },
+  "earth": {
+   "count": 3,
+   "name": "Earth",
+   "tried": []
+  },
+  "earth 18": {
+   "count": 1,
+   "name": "Earth. 18",
+   "tried": []
+  },
+  "eclipse": {
+   "count": 1,
+   "name": "Eclipse",
+   "tried": []
+  },
+  "el cielo": {
+   "count": 1,
+   "name": "El Cielo",
+   "tried": []
+  },
+  "elysium prive": {
+   "count": 6,
+   "done": true,
+   "name": "Elysium Privè",
+   "tried": [
+    "elysiumprive",
+    "elysiumpriveparty",
+    "elysiumprivebergamo",
+    "elysiumprivebg",
+    "elysiumprive_official"
+   ]
+  },
+  "enter the void": {
+   "count": 5,
+   "name": "Enter the Void",
+   "tried": []
+  },
+  "essence": {
+   "count": 2,
+   "name": "Essence",
+   "tried": []
+  },
+  "euphoria": {
+   "count": 2,
+   "name": "Euphoria",
+   "tried": []
+  },
+  "extasi": {
+   "count": 2,
+   "name": "Extasi",
+   "tried": []
+  },
+  "favela vibes": {
+   "count": 1,
+   "name": "Favela vibes",
+   "tried": []
+  },
+  "flag halloween party": {
+   "count": 1,
+   "name": "Flag Halloween party",
+   "tried": []
+  },
+  "football party": {
+   "count": 1,
+   "name": "Football Party",
+   "tried": []
+  },
+  "future trap": {
+   "count": 1,
+   "name": "Future Trap",
+   "tried": []
+  },
+  "gin champagne": {
+   "count": 1,
+   "name": "Gin & Champagne",
+   "tried": []
+  },
+  "glue": {
+   "count": 2,
+   "name": "Glue",
+   "tried": []
+  },
+  "groove factory": {
+   "count": 2,
+   "name": "Groove Factory",
+   "tried": []
+  },
+  "hard techno": {
+   "count": 1,
+   "name": "Hard Techno",
+   "tried": []
+  },
+  "hello weekend": {
+   "count": 6,
+   "name": "Hello Weekend",
+   "tried": [
+    "helloweekend",
+    "helloweekendparty"
+   ]
+  },
+  "hi fi fever": {
+   "count": 8,
+   "done": true,
+   "name": "Hi-Fi Fever",
+   "tried": [
+    "hififever",
+    "hififeverparty",
+    "hififeverbergamo",
+    "hififeverbg",
+    "hififever_official"
+   ]
+  },
+  "hidden hell": {
+   "count": 3,
+   "done": true,
+   "handle": "hiddenhell.techno",
+   "name": "Hidden Hell",
+   "tried": []
+  },
+  "horror circus": {
+   "count": 1,
+   "name": "Horror Circus",
+   "tried": []
+  },
+  "house of horrors": {
+   "count": 1,
+   "name": "House of Horrors",
+   "tried": []
+  },
+  "icks": {
+   "count": 1,
+   "name": "Icks",
+   "tried": []
+  },
+  "icon": {
+   "count": 1,
+   "name": "Icon",
+   "tried": []
+  },
+  "illusion": {
+   "count": 1,
+   "name": "Illusion",
+   "tried": []
+  },
+  "indie power": {
+   "count": 2,
+   "done": true,
+   "handle": "indiepower_official",
+   "name": "Indie Power",
+   "tried": []
+  },
+  "insomnia e": {
+   "count": 1,
+   "name": "Insomnia e",
+   "tried": []
+  },
+  "jolie": {
+   "count": 2,
+   "name": "Jolie",
+   "tried": []
+  },
+  "justice": {
+   "count": 2,
+   "name": "Justice",
+   "tried": []
+  },
+  "karma night": {
+   "count": 5,
+   "name": "Karma Night",
+   "tried": []
+  },
+  "kawabonga": {
+   "count": 1,
+   "name": "Kawabonga",
+   "tried": []
+  },
+  "ke spettacolo": {
+   "count": 1,
+   "name": "Ke spettacolo",
+   "tried": []
+  },
+  "kiki": {
+   "count": 1,
+   "name": "Kiki",
+   "tried": []
+  },
+  "kontrol": {
+   "count": 2,
+   "name": "Kontrol",
+   "tried": []
+  },
+  "krystal404": {
+   "count": 1,
+   "name": "Krystal404",
+   "tried": []
+  },
+  "l aperitif": {
+   "count": 3,
+   "name": "L'Apéritif",
+   "tried": []
+  },
+  "l opera": {
+   "count": 2,
+   "name": "L'Operà",
+   "tried": []
+  },
+  "l ultima della stagione": {
+   "count": 1,
+   "name": "L'ultima della stagione",
+   "tried": []
+  },
+  "la casita": {
+   "count": 1,
+   "name": "La Casita",
+   "tried": []
+  },
+  "la gabbia": {
+   "count": 1,
+   "name": "La Gabbia",
+   "tried": []
+  },
+  "la vida night": {
+   "count": 1,
+   "name": "La Vida Night",
+   "tried": []
+  },
+  "lcks dress to impress": {
+   "count": 1,
+   "name": "lcks Dress to Impress",
+   "tried": []
+  },
+  "le cannibale": {
+   "count": 2,
+   "name": "Le Cannibale",
+   "tried": []
+  },
+  "lightroom": {
+   "count": 1,
+   "name": "Lightroom",
+   "tried": []
+  },
+  "lova": {
+   "count": 1,
+   "name": "Lova",
+   "tried": []
+  },
+  "lova 9": {
+   "count": 1,
+   "name": "Lova 9",
+   "tried": []
+  },
+  "magazine": {
+   "count": 1,
+   "name": "Magazine",
+   "tried": []
+  },
+  "malicia": {
+   "count": 1,
+   "name": "Malicia",
+   "tried": []
+  },
+  "mammamia": {
+   "count": 3,
+   "name": "MammaMia",
+   "tried": []
+  },
+  "mask off": {
+   "count": 1,
+   "name": "Mask Off",
+   "tried": []
+  },
+  "matalo": {
+   "count": 1,
+   "name": "Matalo",
+   "tried": []
+  },
+  "merci": {
+   "count": 2,
+   "name": "Merci",
+   "tried": []
+  },
+  "metaphora": {
+   "count": 1,
+   "name": "Metaphora",
+   "tried": []
+  },
+  "miumiuu": {
+   "count": 1,
+   "name": "MiuMiuu",
+   "tried": []
+  },
+  "mood": {
+   "count": 1,
+   "name": "Mood",
+   "tried": []
+  },
+  "movemt": {
+   "count": 1,
+   "name": "Movemt",
+   "tried": []
+  },
+  "naif": {
+   "count": 1,
+   "name": "Naif",
+   "tried": []
+  },
+  "noche latina": {
+   "count": 5,
+   "name": "Noche Latina",
+   "tried": []
+  },
+  "nofilter": {
+   "count": 2,
+   "name": "NoFilter",
+   "tried": []
+  },
+  "noname": {
+   "count": 1,
+   "name": "NoName",
+   "tried": []
+  },
+  "noname w": {
+   "count": 1,
+   "name": "NoName w",
+   "tried": []
+  },
+  "nova": {
+   "count": 1,
+   "name": "Nova",
+   "tried": []
+  },
+  "off": {
+   "count": 2,
+   "done": true,
+   "name": "Off",
+   "tried": []
+  },
+  "offline": {
+   "count": 2,
+   "name": "Offline",
+   "tried": []
+  },
+  "oktoberfest": {
+   "count": 1,
+   "name": "Oktoberfest",
+   "tried": []
+  },
+  "one place": {
+   "count": 2,
+   "name": "One Place",
+   "tried": []
+  },
+  "open all": {
+   "count": 2,
+   "name": "Open All",
+   "tried": []
+  },
+  "otra vez": {
+   "count": 2,
+   "name": "Otra Vez",
+   "tried": []
+  },
+  "peligrosa": {
+   "count": 2,
+   "name": "Peligrosa",
+   "tried": []
+  },
+  "pitch": {
+   "count": 2,
+   "name": "Pitch",
+   "tried": []
+  },
+  "pleasure": {
+   "count": 2,
+   "name": "Pleasure",
+   "tried": []
+  },
+  "preguntas": {
+   "count": 1,
+   "name": "Preguntas",
+   "tried": []
+  },
+  "premiere": {
+   "count": 1,
+   "name": "Premiere",
+   "tried": []
+  },
+  "pump": {
+   "count": 1,
+   "name": "Pump",
+   "tried": []
+  },
+  "rapture": {
+   "count": 1,
+   "name": "Rapture",
+   "tried": []
+  },
+  "resident evil": {
+   "count": 1,
+   "name": "Resident Evil",
+   "tried": []
+  },
+  "rockoteca": {
+   "count": 1,
+   "name": "Rockoteca",
+   "tried": []
+  },
+  "s gabber": {
+   "count": 1,
+   "name": "S'Gabber",
+   "tried": []
+  },
+  "sabado de pikete": {
+   "count": 5,
+   "name": "Sabado de Pikete",
+   "tried": []
+  },
+  "sabbie explosion": {
+   "count": 2,
+   "name": "Sabbie Explosion",
+   "tried": []
+  },
+  "sabbie rewind": {
+   "count": 1,
+   "name": "Sabbie Rewind",
+   "tried": []
+  },
+  "saoko": {
+   "count": 1,
+   "name": "Saoko",
+   "tried": []
+  },
+  "savage": {
+   "count": 2,
+   "name": "Savage",
+   "tried": []
+  },
+  "selegao": {
+   "count": 1,
+   "name": "Selegao",
+   "tried": []
+  },
+  "shadow night": {
+   "count": 3,
+   "name": "Shadow Night",
+   "tried": []
+  },
+  "sommet": {
+   "count": 1,
+   "name": "Sommet",
+   "tried": []
+  },
+  "spicy": {
+   "count": 3,
+   "name": "Spicy",
+   "tried": []
+  },
+  "spritz party": {
+   "count": 4,
+   "name": "Spritz Party",
+   "tried": []
+  },
+  "spritz party universitario": {
+   "count": 1,
+   "name": "Spritz Party Universitario",
+   "tried": []
+  },
+  "stay calmo": {
+   "count": 1,
+   "name": "Stay Calmo",
+   "tried": []
+  },
+  "studio legale": {
+   "count": 2,
+   "name": "Studio Legale",
+   "tried": []
+  },
+  "suave": {
+   "count": 1,
+   "name": "Suave",
+   "tried": []
+  },
+  "take off": {
+   "count": 1,
+   "name": "Take Off",
+   "tried": []
+  },
+  "take over": {
+   "count": 2,
+   "name": "Take Over",
+   "tried": []
+  },
+  "talk": {
+   "count": 1,
+   "name": "Talk",
+   "tried": []
+  },
+  "the block": {
+   "count": 2,
+   "name": "The Block",
+   "tried": []
+  },
+  "the box": {
+   "count": 3,
+   "name": "The Box",
+   "tried": []
+  },
+  "the origin": {
+   "count": 1,
+   "name": "The Origin",
+   "tried": []
+  },
+  "the reality": {
+   "count": 1,
+   "name": "The Reality",
+   "tried": []
+  },
+  "the swing home night": {
+   "count": 1,
+   "name": "The Swing Home Night",
+   "tried": []
+  },
+  "this is dnb": {
+   "count": 1,
+   "name": "This is dnb",
+   "tried": []
+  },
+  "tiki night": {
+   "count": 1,
+   "name": "Tiki Night",
+   "tried": []
+  },
+  "tocame": {
+   "count": 2,
+   "name": "Tocame",
+   "tried": []
+  },
+  "toilet camp": {
+   "count": 1,
+   "name": "Toilet Camp",
+   "tried": []
+  },
+  "tonda bonita": {
+   "count": 1,
+   "name": "Tonda Bonita",
+   "tried": []
+  },
+  "tooncast": {
+   "count": 1,
+   "name": "Tooncast",
+   "tried": []
+  },
+  "top hits": {
+   "count": 1,
+   "name": "Top Hits",
+   "tried": []
+  },
+  "touch me the block": {
+   "count": 1,
+   "name": "Touch Me The Block",
+   "tried": []
+  },
+  "tra terra e cielo": {
+   "count": 1,
+   "name": "Tra terra e cielo",
+   "tried": []
+  },
+  "traviesa": {
+   "count": 6,
+   "name": "Traviesa",
+   "tried": []
+  },
+  "trl2000": {
+   "count": 1,
+   "name": "TRL2000",
+   "tried": []
+  },
+  "tuem": {
+   "count": 1,
+   "name": "Tuem",
+   "tried": []
+  },
+  "unibg party": {
+   "count": 2,
+   "name": "UniBg Party",
+   "tried": []
+  },
+  "urban": {
+   "count": 1,
+   "name": "Urban",
+   "tried": []
+  },
+  "utopia": {
+   "count": 2,
+   "name": "Utopia",
+   "tried": []
+  },
+  "verandito": {
+   "count": 1,
+   "name": "Verandito",
+   "tried": []
+  },
+  "verandito dance": {
+   "count": 1,
+   "name": "Verandito Dance",
+   "tried": []
+  },
+  "vida loca": {
+   "count": 1,
+   "name": "Vida Loca",
+   "tried": []
+  },
+  "video killed the radio star": {
+   "count": 1,
+   "name": "Video Killed The Radio Star",
+   "tried": []
+  },
+  "voglio tornare negli anni 90": {
+   "count": 1,
+   "name": "Voglio tornare negli anni '90",
+   "tried": []
+  },
+  "winter opening": {
+   "count": 1,
+   "name": "Winter Opening",
+   "tried": []
+  }
+ },
  "venues": {
   "2 0 caffetteria lounge bar": {
    "address": "V. XXV Aprile, 16, 24030 Almenno San Bartolomeo BG",
@@ -2511,6 +3523,27 @@
    "type": "live_club",
    "website": "http://www.arcibergamo.it/",
    "website_checked": true
+  },
+  "a21 ristopizza": {
+   "address": "Str. per Leno, 7, 25025 Manerbio BS",
+   "aliases": [
+    "A21 RistoPizza Manerbio"
+   ],
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-23",
+   "followers": null,
+   "km": 53.2,
+   "lat": 45.36246,
+   "lon": 10.16345,
+   "name": "A21 Ristopizza",
+   "reviews": 519,
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar",
+   "website": "https://www.a21ristopizza.it/"
   },
   "aguadecoco": {
    "address": "Via Treviglio, 22, 24053 Brignano Gera d'Adda BG",
@@ -2828,7 +3861,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6637,
+   "followers": 6644,
    "instagram": "lab80cinemas",
    "km": 0.5,
    "lat": 45.69566,
@@ -3225,6 +4258,7 @@
    "name": "Bar Olympus",
    "removed": false,
    "reviews": 689,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -3440,6 +4474,7 @@
    "name": "Beach Bar",
    "removed": false,
    "reviews": 1236,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -3529,7 +4564,7 @@
    "capacity_source": "stima",
    "city": "Mezzago",
    "first_seen": "2026-11-20",
-   "followers": 16302,
+   "followers": 16359,
    "ig_guessed": "2026-11-20",
    "instagram": "bloom_mezzago",
    "km": 19.8,
@@ -3555,7 +4590,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 31622,
+   "followers": 31641,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -3748,6 +4783,7 @@
    "name": "Cafe triangolo",
    "removed": false,
    "reviews": 104,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -3806,6 +4842,7 @@
    "name": "Caffe Cittadella - Bergamo",
    "removed": false,
    "reviews": 450,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -4545,6 +5582,24 @@
    ],
    "type": "club"
   },
+  "circolo fratellanza casnigo": {
+   "auto_vote": 1.5,
+   "capacity": 50,
+   "capacity_source": "stima",
+   "city": "Casnigo",
+   "first_seen": "2026-11-23",
+   "followers": 834,
+   "instagram": "circolofratellanza",
+   "km": 19.8,
+   "lat": 45.8158,
+   "lon": 9.86972,
+   "name": "Circolo Fratellanza Casnigo",
+   "sources": [
+    "instagram"
+   ],
+   "type": "bar",
+   "website": "https://linktr.ee/circolofratellanzacasnigo"
+  },
   "circolo la famiglia": {
    "address": "Via A. Faccanoni, 4, 24067 Sarnico BG",
    "auto_vote": 1.7,
@@ -4750,7 +5805,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 4681,
+   "followers": 4685,
    "instagram": "cremeria_dellevalli",
    "km": 10.8,
    "lat": 45.7953,
@@ -4898,7 +5953,7 @@
    "capacity": 850,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 21304,
+   "followers": 21348,
    "instagram": "daste_bergamo",
    "km": 2.1,
    "lat": 45.69383,
@@ -5662,6 +6717,7 @@
    "name": "Glamour Cafe",
    "removed": false,
    "reviews": 453,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -5820,6 +6876,7 @@
    "name": "Il Circolino della Malpensata",
    "removed": false,
    "reviews": 989,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -5873,7 +6930,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1925,
+   "followers": 1924,
    "instagram": "ilpiratapub",
    "km": 6.9,
    "lat": 45.73856,
@@ -5903,7 +6960,45 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/ILRAVAORNAGO/"
+   "website": "https://www.facebook.com/ILRAVAORNAGO/",
+   "website_checked": true
+  },
+  "inari cantu": {
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Bergamo",
+   "first_seen": "2026-11-23",
+   "followers": null,
+   "km": 3.2,
+   "lat": 45.67925,
+   "lon": 9.64719,
+   "name": "INARI CANTU",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
+  "inari sushi garbagnate": {
+   "address": "Via Leonardo da Vinci, 29, 20024 Garbagnate Milanese MI",
+   "aliases": [
+    "INARI GARBAGNATE inarisushigarbagnate"
+   ],
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-23",
+   "followers": null,
+   "km": 49.8,
+   "lat": 45.56357,
+   "lon": 9.06713,
+   "name": "Inari Sushi Garbagnate",
+   "reviews": 379,
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar",
+   "website": "https://inarigarbagnate.it/"
   },
   "ink club": {
    "address": "Via Giosuè Carducci 4/b, 24127",
@@ -5947,11 +7042,12 @@
   },
   "into the woods": {
    "address": "Via Ugo Foscolo, 10, 24020 Torre Boldone BG",
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 4.6,
+   "capacity": 200,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 33171,
+   "instagram": "intothewoodsbg",
    "km": 2.6,
    "lat": 45.71295,
    "lon": 9.70413,
@@ -5962,7 +7058,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.intothewoods.it/"
+   "website": "http://www.intothewoods.it/",
+   "website_checked": true
   },
   "jam live studio": {
    "address": "Via Lombardia, 23, 24027 Nembro BG",
@@ -6002,7 +7099,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://m.facebook.com/jammintreviglio/?locale2=it_IT"
+   "website": "https://m.facebook.com/jammintreviglio/?locale2=it_IT",
+   "website_checked": true
   },
   "jclub": {
    "address": "Via Guglielmo Marconi, 23/B, 24036 Ponte San Pietro BG",
@@ -6010,7 +7108,7 @@
    "capacity": 850,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 14748,
+   "followers": 14751,
    "ig_guessed": "2026-11-21",
    "instagram": "jclubbergamo",
    "km": 7.5,
@@ -6043,7 +7141,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/j0ek0ala"
+   "website": "https://www.facebook.com/j0ek0ala",
+   "website_checked": true
   },
   "karma lounge": {
    "address": "Viale Europa, 2/M, 24048 Treviolo BG",
@@ -6052,6 +7151,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-23",
    "km": 4.3,
    "lat": 45.67597,
    "lon": 9.63245,
@@ -6071,6 +7171,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "kellerfactory_ristorante",
    "km": 5.0,
    "lat": 45.69266,
    "lon": 9.61326,
@@ -6082,15 +7183,18 @@
     "google"
    ],
    "type": "live_club",
-   "website": "https://www.newkeller.it/"
+   "website": "https://www.newkeller.it/",
+   "website_checked": true
   },
   "kilimangiaro": {
    "address": "Via del Chioso, 1, 24030 Mozzo BG",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 3.7,
+   "capacity": 300,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 419,
+   "ig_guessed": "2026-11-23",
+   "instagram": "kilimangiaroclub",
    "km": 5.7,
    "lat": 45.7061,
    "lon": 9.60511,
@@ -6110,6 +7214,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "krakenfactory.it",
    "km": 6.2,
    "lat": 45.73359,
    "lon": 9.7398,
@@ -6120,7 +7225,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.krakenfactory.it/"
+   "website": "https://www.krakenfactory.it/",
+   "website_checked": true
   },
   "kristall night club": {
    "address": "Via Provinciale, 47, 24044 Dalmine BG",
@@ -6129,6 +7235,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "kristall_night_club",
    "km": 7.2,
    "lat": 45.64885,
    "lon": 9.61839,
@@ -6140,7 +7247,8 @@
     "google"
    ],
    "type": "club",
-   "website": "http://www.kristallnightclub.it/"
+   "website": "http://www.kristallnightclub.it/",
+   "website_checked": true
   },
   "l angolo delle feste": {
    "auto_vote": 4.0,
@@ -6177,7 +7285,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://m.facebook.com/BasePalazzolo/"
+   "website": "https://m.facebook.com/BasePalazzolo/",
+   "website_checked": true
   },
   "la bassanina": {
    "address": "Via Caravaggio 53",
@@ -6291,6 +7400,7 @@
    "name": "La Marianna - Bergamo",
    "removed": false,
    "reviews": 10031,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -6533,7 +7643,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33468,
+   "followers": 33510,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -6866,6 +7976,7 @@
    "name": "Mamo's",
    "removed": false,
    "reviews": 307,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -7336,12 +8447,12 @@
    "website": "https://www.odeaspub.it/"
   },
   "oasi": {
-   "auto_vote": 3.8,
+   "auto_vote": 3.7,
    "capacity": 300,
    "capacity_source": "stima",
    "city": "Dalmine",
    "first_seen": "2026-11-20",
-   "followers": 514,
+   "followers": 511,
    "instagram": "oasi.night",
    "km": 9.1,
    "lat": 45.65617,
@@ -7404,6 +8515,7 @@
    "name": "Ombra - Miscelazione, Piattini e Vini Naturali",
    "removed": false,
    "reviews": 178,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -7471,12 +8583,12 @@
   },
   "oronero": {
    "address": "Via Case Sparse Europa 15, 24027, Nembro",
-   "auto_vote": 5.8,
-   "capacity": 600,
+   "auto_vote": 5.9,
+   "capacity": 650,
    "capacity_source": "stima",
    "city": "Nembro",
    "first_seen": "2026-11-18",
-   "followers": 7812,
+   "followers": 7813,
    "ig_guessed": "2026-11-19",
    "instagram": "oroneroloveandmusic",
    "km": 10.1,
@@ -8278,7 +9390,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 6637,
+   "followers": 6644,
    "instagram": "lab80cinemas",
    "km": 0.7,
    "lat": 45.69728,
@@ -8667,7 +9779,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-20",
-   "followers": 7920,
+   "followers": 7934,
    "instagram": "teatromiela_trieste",
    "km": 0.6,
    "lat": 45.69508,
@@ -9156,6 +10268,7 @@
    "name": "Varadda - Cocktail & Beer",
    "removed": false,
    "reviews": 65,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
