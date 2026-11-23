@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T18:39",
+ "generated": "2026-11-23T19:46",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -122,10 +122,10 @@
       "family": "Altro"
      },
      {
-      "line1": "Pacì Paciana",
+      "line1": "Dub Stone Sound System @ Pacì Paciana",
       "line2": "Alternative",
       "time": "21:00",
-      "score": 24.4,
+      "score": 29.9,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -243,6 +243,14 @@
      "family": "Altro"
     },
     {
+     "line1": "UNPLUG BAR",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 33.5,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Officina Panarari",
      "line2": "aperitivo",
      "time": "17:00",
@@ -314,7 +322,7 @@
    "2026-11-27": [
     {
      "line1": "utōpia @ Druso",
-     "line2": "Melodic House",
+     "line2": "Melodic House, DENEB",
      "time": "00:00",
      "score": 65.7,
      "fascia": "preserata",
@@ -412,7 +420,7 @@
     },
     {
      "line1": "Duo Bucolico @ Ninfea Social Club",
-     "line2": "Elettronica",
+     "line2": "Elettronica, Assonica",
      "time": "21:00",
      "score": 44.6,
      "fascia": "preserata",
@@ -522,7 +530,6 @@
    "@ninfeasocialclub",
    "@sabbiemobili_official",
    "@drusobg",
-   "@sammjtiffany",
    "@nxtbergamo",
    "@possibilita",
    "@csapacipaciana",
@@ -534,6 +541,7 @@
    "@lowl_fest",
    "@www.bloomnet",
    "@door_74",
+   "@unplug__bg",
    "@officinapanarari",
    "@gres_art_671",
    "@associazione_luca_coscioni",
@@ -989,10 +997,10 @@
       "family": "Altro"
      },
      {
-      "line1": "Pacì Paciana",
+      "line1": "Dub Stone Sound System @ Pacì Paciana",
       "line2": "Alternative",
       "time": "21:00",
-      "score": 24.4,
+      "score": 29.9,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1368,6 +1376,14 @@
      "family": "Altro"
     },
     {
+     "line1": "UNPLUG BAR",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 33.5,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Officina Panarari",
      "line2": "aperitivo",
      "time": "17:00",
@@ -1439,7 +1455,7 @@
    "2026-11-27": [
     {
      "line1": "utōpia @ Druso",
-     "line2": "Melodic House",
+     "line2": "Melodic House, DENEB",
      "time": "00:00",
      "score": 65.7,
      "fascia": "preserata",
@@ -1537,7 +1553,7 @@
     },
     {
      "line1": "Duo Bucolico @ Ninfea Social Club",
-     "line2": "Elettronica",
+     "line2": "Elettronica, Assonica",
      "time": "21:00",
      "score": 44.6,
      "fascia": "preserata",
@@ -1784,6 +1800,14 @@
      }
     ],
     "2026-12-31": [
+     {
+      "line1": "VIII. Deslumbre @ Officina Panarari",
+      "line2": "",
+      "time": "21:00",
+      "score": 16.1,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Via Rossaro, 28",
       "line2": "",
@@ -2140,6 +2164,7 @@
    "@bolgia.official",
    "@importanti",
    "@daste_bergamo",
+   "@consumazione",
    "@vibetheclub",
    "@aliveofficialparty",
    "@drusobg",
@@ -2155,8 +2180,7 @@
    "@esotic_event",
    "@marci_otta",
    "@furkan_mcc",
-   "@dnaproject__",
-   "@alternative"
+   "@dnaproject__"
   ],
   "hashtags": [
    "#bergamo",
