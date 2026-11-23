@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT2H
 BEGIN:VEVENT
 UID:2026-11-18-centro_congressi_giovanni_xxiii@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Centro congressi Giovanni XXIII
 LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
@@ -23,7 +23,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-live_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261119T200000
 SUMMARY:[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna
 LOCATION:Live Club\, Via Giuseppe Mazzini 58\, 20056\, Trezzo sull'Adda
@@ -37,7 +37,7 @@ URL:https://www.instagram.com/p/Df4IYleQNX3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-centro_congressi_giovanni_xxiii@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Centro congressi Giovanni XXIII
 LOCATION:Centro congressi Giovanni XXIII\, Viale Papa Giovanni XXIII\, 106
@@ -53,7 +53,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/nasce-innovasalute-a-berga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-live_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261120T200000
 SUMMARY:[Rock] Live Club · Barley Arts w/ Alchemica Music Club - Bologna
 LOCATION:Live Club\, Via Giuseppe Mazzini 58\, 20056\, Trezzo sull'Adda
@@ -68,7 +68,7 @@ URL:https://www.instagram.com/p/DfzU4PDqouR/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-divina_music_bar@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Divina Music Bar · Miss DIVINA Fulvio Facchinetti
 LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
@@ -83,7 +83,7 @@ URL:https://www.instagram.com/reel/Dftr-IuNYje/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-bobadilla_feeling_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Bobadilla Feeling Club
 LOCATION:Bobadilla Feeling Club\, Via Pascolo\, 34\, 24044 Dalmine BG
@@ -96,7 +96,7 @@ URL:https://www.instagram.com/p/Df-COQ7Dykq/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-druso@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:[Rock] Druso · Children Of The Damned
 LOCATION:Druso\, Via Antonio Locatelli 17\, 24020\, Ranica
@@ -111,7 +111,7 @@ URL:https://www.instagram.com/reel/DfnPiZtguMi/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-zero_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Zero Club · Unibg_Party
 LOCATION:Zero Club\, V. Evaristo Baschenis\, 9\, 24122 Bergamo BG
@@ -124,7 +124,7 @@ URL:https://www.instagram.com/p/DfPzvj8CAe3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-vibe-main_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:VIBE · This Week
 LOCATION:VIBE\, Via Mohandas Karamchand Gandhi\, 24048\, Treviolo
@@ -137,7 +137,7 @@ URL:https://www.instagram.com/p/Dfz6N8_Dioz/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-bar_della_musica@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261120T200000
 SUMMARY:[Rock] Bar della Musica · Barley Arts w/ Alchemica Music Club - B
  ologna
@@ -151,7 +151,7 @@ URL:https://www.instagram.com/p/Df7NepXBugD/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-vibe-theater_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:VIBE (theater room)
 LOCATION:VIBE\, Via Mohandas Karamchand Gandhi\, 24048\, Treviolo
@@ -164,7 +164,7 @@ URL:https://www.instagram.com/p/Dfz6N8_Dioz/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-oasi-main_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261120T233000
 SUMMARY:OASI · The Next Ritual w/ Fede Rego
 LOCATION:OASI
@@ -177,7 +177,7 @@ URL:https://www.instagram.com/p/DfpizOwFnHS/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-nxt_bergamo@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:[Jazz] NXT Bergamo · Possibilita
 LOCATION:NXT Bergamo\, Piazzale degli Alpini\, 24121 Bergamo BG
@@ -194,7 +194,7 @@ URL:https://primabergamo.it/tempo-libero/eventi/in-piazzale-alpini-a-berga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-oasi-theater_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261120T233000
 SUMMARY:OASI (theater room)
 LOCATION:OASI
@@ -206,7 +206,7 @@ URL:https://www.instagram.com/p/DfpizOwFnHS/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-arya_lounge_bar@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261120T220000
 SUMMARY:ARYA Lounge Bar
 LOCATION:ARYA Lounge Bar\, Via Balilla\, 66\, 24058 Romano di Lombardia BG
@@ -220,7 +220,7 @@ URL:https://www.instagram.com/p/Dfz_Jx9KjOs/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-divina_music_bar@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Divina Music Bar · Miss DIVINA Fulvio Facchinetti
 LOCATION:Divina Music Bar\, Via Azzano San Paolo 71d\, 24050\, Grassobbio
@@ -233,7 +233,7 @@ URL:https://www.instagram.com/reel/DfwAisKNC1Q/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-zero_club-main_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Zero Club · Premiere.Premiere w/ PREMIERE
 LOCATION:Zero Club\, V. Evaristo Baschenis\, 9\, 24122 Bergamo BG
@@ -247,7 +247,7 @@ URL:https://www.instagram.com/p/DgAo48MIcx1/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-bolgia@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261121T233000
 SUMMARY:Bolgia · MAD DOG
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -261,7 +261,7 @@ URL:https://www.instagram.com/reel/DfUkfwWoqMA/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-nikita@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261121T235900
 SUMMARY:[Reggaeton / Commerciale] Nikita · Novembre Enter The Void
 LOCATION:Nikita\, Via dei Morenghi 2\, 24064\, Grumello del Monte
@@ -275,7 +275,7 @@ URL:https://www.instagram.com/p/DfzF2QmiOeK/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-druso@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:[Indie] Druso
 LOCATION:Druso\, Via Antonio Locatelli 17\, 24020\, Ranica
@@ -288,7 +288,7 @@ URL:https://www.instagram.com/p/Dfwi7bVNc49/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-bolgia-lab_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261121T233000
 SUMMARY:Bolgia (lab room) · Uboa
 LOCATION:Bolgia\, Via Vaccarezza 8
@@ -301,7 +301,7 @@ URL:https://www.instagram.com/p/DfZuXEsIVlQ/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-zero_club-club_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Zero Club (club room) · The.Circlehub
 LOCATION:Zero Club\, V. Evaristo Baschenis\, 9\, 24122 Bergamo BG
@@ -314,7 +314,7 @@ URL:https://www.instagram.com/p/DfPzvj8CAe3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-arya_lounge_bar@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:ARYA Lounge Bar · Dj Arina Top
 LOCATION:ARYA Lounge Bar\, Via Balilla\, 66\, 24058 Romano di Lombardia BG
@@ -328,7 +328,7 @@ URL:https://www.instagram.com/reel/Df2eKK6qPV-/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-jam_live_studio@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Jam Live Studio
 LOCATION:Jam Live Studio\, Via Lombardia\, 23\, 24027 Nembro BG
@@ -340,7 +340,7 @@ URL:https://www.instagram.com/reel/DgAqcFQPi68/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-sala_piatti@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261122T163000
 SUMMARY:Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo
 LOCATION:Sala Piatti\, Via S. Salvatore\, 11\, Bergamo
@@ -354,7 +354,7 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfr
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-bloom@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:[Tech House] Bloom · Club Culture w/ Spike Hellis
 LOCATION:Bloom\, Via Eugenio Curiel\, 39\, 20883 Mezzago MB
@@ -367,7 +367,7 @@ URL:https://www.instagram.com/p/Df4U06BjB_6/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-arena_esterno_notte@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Arena Esterno Notte · Anna
 LOCATION:Arena Esterno Notte\, Via Torquato Tasso 4\, 24121\, Bergamo
@@ -380,7 +380,7 @@ URL:https://www.instagram.com/p/DgEr7PKCsEU/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-zero_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:[Commerciale 360] Zero Club · Please
 LOCATION:Zero Club\, V. Evaristo Baschenis\, 9\, 24122 Bergamo BG
@@ -393,7 +393,7 @@ URL:https://www.instagram.com/p/DfPzvj8CAe3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-queen_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:[Latino / Commerciale] Queen Club
 LOCATION:Queen Club\, Via Levata\, 18\, 24068 Cassinone BG
@@ -406,40 +406,40 @@ URL:https://www.instagram.com/p/Df-L-wXtuZD/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-nikita@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:[Commerciale] Nikita · SCHIVARDI 1953
 LOCATION:Nikita\, Via dei Morenghi 2\, 24064\, Grumello del Monte
 DESCRIPTION:SERATA · voto 56.6/100\nlocale di solito serata\n📍 Via dei
   Morenghi 2\, 24064\, Grumello del Monte (15.8 km)\nLocale: @nikita__land
- \nPromoter: @schivardi1953\nStessa sera: altri 9 eventi (4 dello stesso g
+ \nPromoter: @schivardi1953\nStessa sera: altri 8 eventi (4 dello stesso g
  enere)\nhttps://www.instagram.com/reel/Df-57LmoBkO/
 CATEGORIES:SERATA,Commerciale
 URL:https://www.instagram.com/reel/Df-57LmoBkO/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-zero_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:[Witch House / EDM] Zero Club · Crystal Castles Night
 LOCATION:Zero Club\, V. Evaristo Baschenis\, 9\, 24122 Bergamo BG
 DESCRIPTION:SERATA · voto 39.9/100\nlocale di solito serata\n📍 V. Evar
  isto Baschenis\, 9\, 24122 Bergamo BG (1.5 km)\nLocale: @zeroclub.bg\nPro
- moter: @crystalcastlesnightt\nStessa sera: altri 9 eventi (3 dello stesso
+ moter: @crystalcastlesnightt\nStessa sera: altri 8 eventi (3 dello stesso
   genere)\nhttps://www.instagram.com/p/DfPzvj8CAe3/
 CATEGORIES:SERATA,House / Elettronica
 URL:https://www.instagram.com/p/DfPzvj8CAe3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-oronero@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261127T233000
 SUMMARY:[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita
 LOCATION:Oronero\, Via Case Sparse Europa 15\, 24027\, Nembro
 DESCRIPTION:SERATA · voto 38.0/100\ninizia alle 23:30\n📍 Via Case Spar
  se Europa 15\, 24027\, Nembro (10.1 km)\nLocale: @oroneroloveandmusic\nOs
  piti: Possibilita\, VIII. Deslumbre\nPrezzo da 7 €\nStessa sera: altri 
- 9 eventi (3 dello stesso genere)\nhttps://www.instagram.com/p/DfzSCDrg_42
+ 8 eventi (3 dello stesso genere)\nhttps://www.instagram.com/p/DfzSCDrg_42
  /\nhttps://www.instagram.com/p/DfzSAoCgDxs/\nhttps://www.instagram.com/p/
  DfzR_YzA9yr/
 CATEGORIES:SERATA,House / Elettronica
@@ -447,115 +447,103 @@ URL:https://www.instagram.com/p/DfzSCDrg_42/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-queen_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261127T223000
 SUMMARY:[Dance] Queen Club · DiscoDance
 LOCATION:Queen Club\, Via Levata\, 18\, 24068 Cassinone BG
 DESCRIPTION:SERATA · voto 36.1/100\ndalle 22:30 fino a tardi\n📍 Via Le
  vata\, 18\, 24068 Cassinone BG (6.2 km)\nLocale: @discoteca_queen\nOspiti
  : VIII. Deslumbre\, Guest: Teo Mix\, Mimmo Mix\, StefanOne\, Alle Torelli
- \, Teo Mix\nPrezzo da 10 €\nStessa sera: altri 9 eventi (4 dello stesso
+ \, Teo Mix\nPrezzo da 10 €\nStessa sera: altri 8 eventi (4 dello stesso
   genere)\nhttps://www.instagram.com/p/DgDCtNlN38W/\nhttps://www.instagram
  .com/reel/DgDC913N_zr/
 CATEGORIES:SERATA,Commerciale
 URL:https://www.instagram.com/p/DgDCtNlN38W/
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-27-indie_power@nightlife-bergamo
-DTSTAMP:20261123T113943Z
-DTSTART;VALUE=DATE:20261127
-SUMMARY:[Indie] INDIE POWER · Torna A Milano
-LOCATION:INDIE POWER
-DESCRIPTION:SERATA · voto 35.4/100\ningresso a pagamento o in lista\nLoca
- le: @indiepower_official\nStessa sera: altri 9 eventi (0 dello stesso gen
- ere)\nhttps://www.instagram.com/p/DfFZGRNjR4z/\nhttps://www.instagram.com
- /p/DfVDxF_jS5i/
-CATEGORIES:SERATA,Altro
-URL:https://www.instagram.com/p/DfFZGRNjR4z/
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-27-daste_bergamo@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:[Reggaeton] Daste Bergamo · Conejo Night
 LOCATION:Daste Bergamo\, Via Daste e Spalenga\, 15\, 24125 Bergamo BG
 DESCRIPTION:SERATA · voto 33.3/100\ningresso a pagamento o in lista\n📍
   Via Daste e Spalenga\, 15\, 24125 Bergamo BG (2.1 km)\nLocale: @daste_be
- rgamo\nPrezzo da 10 €\nStessa sera: altri 9 eventi (4 dello stesso gene
+ rgamo\nPrezzo da 10 €\nStessa sera: altri 8 eventi (4 dello stesso gene
  re)\nhttps://www.instagram.com/p/Df4eqXwsxDJ/
 CATEGORIES:SERATA,Commerciale
 URL:https://www.instagram.com/p/Df4eqXwsxDJ/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-tiky_klub@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:[Tech House] Tiky Klub · Dirty Andry
 LOCATION:Tiky Klub\, Via Nazionale\, 93\, 24068 Seriate BG
 DESCRIPTION:SERATA · voto 27.8/100\nlocale di solito serata\n📍 Via Naz
  ionale\, 93\, 24068 Seriate BG (5.0 km)\nLocale: @tiky.klub\nOspiti: Dirt
  y Andry\, 4thegroovers_\, salvatorealagna98\, francesco_rivaa\nStessa ser
- a: altri 9 eventi (3 dello stesso genere)\nhttps://www.instagram.com/p/Dg
+ a: altri 8 eventi (3 dello stesso genere)\nhttps://www.instagram.com/p/Dg
  DVhKcggGd/
 CATEGORIES:SERATA,House / Elettronica
 URL:https://www.instagram.com/p/DgDVhKcggGd/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-sabbie_mobili-sala_1@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261127T233000
 SUMMARY:[Afro] Sabbie Mobili (sala 1)
 LOCATION:Sabbie Mobili\, Via Bedeschi\, 24040 Chignolo d'Isola BG
 DESCRIPTION:SERATA · voto 27.0/100\ninizia alle 23:30\n📍 Via Bedeschi\
  , 24040 Chignolo d'Isola BG (12.5 km)\nLocale: @sabbiemobili_official\nPr
- ezzo da 10 €\nStessa sera: altri 9 eventi (4 dello stesso genere)\nhttp
+ ezzo da 10 €\nStessa sera: altri 8 eventi (4 dello stesso genere)\nhttp
  s://www.instagram.com/p/DgDf3i9KQjU/
 CATEGORIES:SERATA,Commerciale
 URL:https://www.instagram.com/p/DgDf3i9KQjU/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-sabbie_mobili-sala_2@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261127T233000
 SUMMARY:[Commerciale / Revival] Sabbie Mobili (sala 2)
 LOCATION:Sabbie Mobili\, Via Bedeschi\, 24040 Chignolo d'Isola BG
 DESCRIPTION:SERATA · voto 27.0/100\ninizia alle 23:30\n📍 Via Bedeschi\
  , 24040 Chignolo d'Isola BG (12.5 km)\nLocale: @sabbiemobili_official\nPr
- ezzo da 10 €\nStessa sera: altri 9 eventi (4 dello stesso genere)\nhttp
+ ezzo da 10 €\nStessa sera: altri 8 eventi (4 dello stesso genere)\nhttp
  s://www.instagram.com/p/DgDf3i9KQjU/
 CATEGORIES:SERATA,Commerciale
 URL:https://www.instagram.com/p/DgDf3i9KQjU/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-ninfea_social_club@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261127T210000
 SUMMARY:[Elettronica] Ninfea Social Club · nicola
 LOCATION:Ninfea Social Club\, Via Guglielmo Marconi\, 65\, 24010 Sorisole 
  BG
-DESCRIPTION:SERATA · voto 24.8/100\nfinisce a tarda notte\n📍 Via Gugli
+DESCRIPTION:SERATA · voto 25.9/100\nfinisce a tarda notte\n📍 Via Gugli
  elmo Marconi\, 65\, 24010 Sorisole BG (5.4 km)\nLocale: @ninfeasocialclub
- \nPromoter: @alonic_shakti\nOspiti: macchinette\nStessa sera: altri 9 eve
+ \nPromoter: @alonic_shakti\nOspiti: macchinette\nStessa sera: altri 8 eve
  nti (3 dello stesso genere)\nhttps://www.instagram.com/p/Df-FgJqm9Hq/
 CATEGORIES:SERATA,House / Elettronica
 URL:https://www.instagram.com/p/Df-FgJqm9Hq/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-bolgia@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261128T233000
 SUMMARY:Bolgia · MARIE VAUNT
 LOCATION:Bolgia\, Via Vaccarezza 8
 DESCRIPTION:SERATA · voto 60.0/100\ninizia alle 23:30\n📍 Via Vaccarezz
  a 8 (9.2 km)\nLocale: @bolgia.official\nOspiti: MARIE VAUNT\nPrezzo da 20
-  €\nStessa sera: altri 5 eventi (3 dello stesso genere)\nhttps://www.in
- stagram.com/reel/DfmlzJmIigC/
+  €\nStessa sera: altri 5 eventi (2 dello stesso genere)\nhttps://www.in
+ stagram.com/reel/DfmlzJmIigC/\nhttps://www.instagram.com/reel/Dfmm5mSO9zC
+ /
 CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/reel/DfmlzJmIigC/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-zero_club-main_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261128T235900
 SUMMARY:[Hip Hop / Trap] Zero Club · CRØMA
 LOCATION:Zero Club\, V. Evaristo Baschenis\, 9\, 24122 Bergamo BG
@@ -568,59 +556,60 @@ CATEGORIES:SERATA,Hip Hop / Trap
 URL:https://www.instagram.com/p/DfPzvj8CAe3/
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-28-indie_power@nightlife-bergamo
-DTSTAMP:20261123T113943Z
-DTSTART;VALUE=DATE:20261128
-SUMMARY:[Indie / Commerciale] INDIE POWER · Torna A Firenze
-LOCATION:INDIE POWER
-DESCRIPTION:SERATA · voto 35.4/100\ningresso a pagamento o in lista\nLoca
- le: @indiepower_official\nStessa sera: altri 5 eventi (3 dello stesso gen
- ere)\nhttps://www.instagram.com/p/DfzHEKtjVH4/
-CATEGORIES:SERATA,Altro
-URL:https://www.instagram.com/p/DfzHEKtjVH4/
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-28-sabbie_mobili@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261128T233000
 SUMMARY:[Hard Techno] Sabbie Mobili · Code
 LOCATION:Sabbie Mobili\, Via Bedeschi\, 24040 Chignolo d'Isola BG
 DESCRIPTION:SERATA · voto 34.2/100\ninizia alle 23:30\n📍 Via Bedeschi\
  , 24040 Chignolo d'Isola BG (12.5 km)\nLocale: @sabbiemobili_official\nPr
- ezzo da 15 €\nStessa sera: altri 5 eventi (0 dello stesso genere)\nhttp
+ ezzo da 15 €\nStessa sera: altri 5 eventi (1 dello stesso genere)\nhttp
  s://www.instagram.com/p/DgDpB_Hq2m4/
 CATEGORIES:SERATA,House / Elettronica
 URL:https://www.instagram.com/p/DgDpB_Hq2m4/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-zero_club-club_room@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Zero Club (club room) · Bar Florio
 LOCATION:Zero Club\, V. Evaristo Baschenis\, 9\, 24122 Bergamo BG
 DESCRIPTION:SERATA · voto 25.6/100\nlocale di solito serata\n📍 V. Evar
  isto Baschenis\, 9\, 24122 Bergamo BG (1.5 km)\nLocale: @zeroclub.bg\nSte
- ssa sera: altri 5 eventi (3 dello stesso genere)\nhttps://www.instagram.c
+ ssa sera: altri 5 eventi (2 dello stesso genere)\nhttps://www.instagram.c
  om/p/DfPzvj8CAe3/
 CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/p/DfPzvj8CAe3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-paci_paciana@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261128T210000
 SUMMARY:[Alternative] Pacì Paciana
 LOCATION:Pacì Paciana\, Via Grumello 61/c\, Bergamo
 DESCRIPTION:SERATA · voto 24.4/100\nfinisce a tarda notte\n📍 Via Grume
  llo 61/c\, Bergamo (3.0 km)\nLocale: @csapacipaciana\nOspiti: maqo___\, d
- ubstone.soundsystem\nPrezzo da 10 €\nStessa sera: altri 5 eventi (3 del
+ ubstone.soundsystem\nPrezzo da 10 €\nStessa sera: altri 5 eventi (2 del
  lo stesso genere)\nhttps://www.instagram.com/p/DfpCDw5IFC4/
 CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/p/DfpCDw5IFC4/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-28-bar_della_musica@nightlife-bergamo
+DTSTAMP:20261123T122547Z
+DTSTART;TZID=Europe/Rome:20261128T230000
+SUMMARY:[House] Bar della Musica · Le Cannibale w/ Interstellar Funk
+LOCATION:Bar della Musica\, Via Lazzaretto\, 25\, 25030 Adro BS
+DESCRIPTION:SERATA · voto 24.4/100\ngrande evento\n📍 Via Lazzaretto\, 
+ 25\, 25030 Adro BS (24.3 km)\nPromoter: @lecannibaleclub\nOspiti: Interst
+ ellar Funk\, base_milano\nStessa sera: altri 5 eventi (1 dello stesso gen
+ ere)\nhttps://www.instagram.com/p/Df4_s8vjUX7/
+CATEGORIES:SERATA,House / Elettronica
+URL:https://www.instagram.com/p/Df4_s8vjUX7/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-29-aula_magna_sede_di_sant_agostino@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261129T163000
 SUMMARY:Aula Magna\, sede di Sant'Agostino · Kaleidoscopic Cello
 LOCATION:Aula Magna\, sede di Sant'Agostino\, Piazzale Sant'Agostino 2\, B
@@ -634,95 +623,45 @@ URL:https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/alfr
  edo-piatti-e-guglielmo-quarenghi-un-metodo_307419/
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-04-indie_power@nightlife-bergamo
-DTSTAMP:20261123T113943Z
-DTSTART;VALUE=DATE:20261204
-SUMMARY:[Indie / Pop] INDIE POWER · Torna A Pisa
-LOCATION:INDIE POWER
-DESCRIPTION:SERATA · voto 35.4/100\ningresso a pagamento o in lista\nLoca
- le: @indiepower_official\nhttps://www.instagram.com/p/Dfm-STkDGTa/\nhttps
- ://www.instagram.com/p/Dfz277wDfIB/
-CATEGORIES:SERATA,Altro
-URL:https://www.instagram.com/p/Dfm-STkDGTa/
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-05-bolgia@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261205T233000
 SUMMARY:Bolgia · CHELINA MANUHUTU
 LOCATION:Bolgia\, Via Vaccarezza 8
 DESCRIPTION:SERATA · voto 60.0/100\ninizia alle 23:30\n📍 Via Vaccarezz
  a 8 (9.2 km)\nLocale: @bolgia.official\nOspiti: CHELINA MANUHUTU\nPrezzo 
- da 20 €\nStessa sera: altri 1 eventi (1 dello stesso genere)\nhttps://w
- ww.instagram.com/reel/Df2C9x4IjrH/
+ da 20 €\nhttps://www.instagram.com/reel/Df2C9x4IjrH/\nhttps://www.insta
+ gram.com/reel/Df2D6rjOxkY/
 CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/reel/Df2C9x4IjrH/
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-05-indie_power@nightlife-bergamo
-DTSTAMP:20261123T113943Z
-DTSTART;VALUE=DATE:20261205
-SUMMARY:[Indie] INDIE POWER · Torna A Bologna
-LOCATION:INDIE POWER
-DESCRIPTION:SERATA · voto 35.4/100\nfinisce a tarda notte\nLocale: @indie
- power_official\nStessa sera: altri 1 eventi (1 dello stesso genere)\nhttp
- s://www.instagram.com/p/Dfpj6jmjeFE/\nhttps://www.instagram.com/p/DfzgYBT
- jQI9/\nhttps://www.instagram.com/p/Df4_kfxDUlt/
-CATEGORIES:SERATA,Altro
-URL:https://www.instagram.com/p/Dfpj6jmjeFE/
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-07-bolgia@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261207T233000
 SUMMARY:Bolgia · NOVAH
 LOCATION:Bolgia\, Via Vaccarezza 8
 DESCRIPTION:SERATA · voto 60.0/100\ninizia alle 23:30\n📍 Via Vaccarezz
  a 8 (9.2 km)\nLocale: @bolgia.official\nOspiti: NOVAH\nPrezzo da 25 €\n
- Stessa sera: altri 1 eventi (1 dello stesso genere)\nhttps://www.instagra
- m.com/reel/Df4m_TCI71w/
+ https://www.instagram.com/reel/Df4m_TCI71w/\nhttps://www.instagram.com/re
+ el/Df4n0-KuFwO/
 CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/reel/Df4m_TCI71w/
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-12-07-indie_power@nightlife-bergamo
-DTSTAMP:20261123T113943Z
-DTSTART;VALUE=DATE:20261207
-SUMMARY:[Indie] INDIE POWER · Torna A Verona
-LOCATION:INDIE POWER
-DESCRIPTION:SERATA · voto 35.4/100\ningresso a pagamento o in lista\nLoca
- le: @indiepower_official\nStessa sera: altri 1 eventi (1 dello stesso gen
- ere)\nhttps://www.instagram.com/p/Df7nJUijQWI/
-CATEGORIES:SERATA,Altro
-URL:https://www.instagram.com/p/Df7nJUijQWI/
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-12-11-indie_power@nightlife-bergamo
-DTSTAMP:20261123T113943Z
-DTSTART;VALUE=DATE:20261211
-SUMMARY:[Indie] INDIE POWER · Torna A Perugia
-LOCATION:INDIE POWER
-DESCRIPTION:SERATA · voto 35.4/100\ningresso a pagamento o in lista\nLoca
- le: @indiepower_official\nStessa sera: altri 1 eventi (1 dello stesso gen
- ere)\nhttps://www.instagram.com/p/Df-CvZcjepk/
-CATEGORIES:SERATA,Altro
-URL:https://www.instagram.com/p/Df-CvZcjepk/
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-11-teatro_miela@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261211T210000
 SUMMARY:[Indie / Rock] Teatro Miela
 LOCATION:Teatro Miela
 DESCRIPTION:SERATA · voto 31.8/100\ngrande evento\nLocale: @teatromiela_t
- rieste\nPrezzo da 10 €\nStessa sera: altri 1 eventi (1 dello stesso gen
- ere)\nhttps://www.instagram.com/p/Df6_nUPqwv5/
+ rieste\nPrezzo da 10 €\nhttps://www.instagram.com/p/Df6_nUPqwv5/
 CATEGORIES:SERATA,Altro
 URL:https://www.instagram.com/p/Df6_nUPqwv5/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-18-nikita@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261218
 SUMMARY:[Commerciale] Nikita
 LOCATION:Nikita\, Via dei Morenghi 2\, 24064\, Grumello del Monte
@@ -734,8 +673,20 @@ CATEGORIES:SERATA,Commerciale
 URL:https://www.instagram.com/p/Df10bCtBMRr/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-19-fiera_di_bergamo@nightlife-bergamo
+DTSTAMP:20261123T122547Z
+DTSTART;TZID=Europe/Rome:20261219T200000
+SUMMARY:[Techno\, Hard Techno] Fiera di Bergamo · Galactica Festival
+LOCATION:Fiera di Bergamo\, Via Lunga\, Bergamo
+DESCRIPTION:SERATA · voto 30.0/100\ngrande evento\n📍 Via Lunga\, Berga
+ mo (4.5 km)\nPromoter: @galactica.festival\nOspiti: mattia_trani.official
+ \, parabellum_hard\nhttps://www.instagram.com/reel/DfU8bnTz3r7/
+CATEGORIES:SERATA,House / Elettronica
+URL:https://www.instagram.com/reel/DfU8bnTz3r7/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-25-via_treviglio_2058_fara_gera_d_adda@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261225
 SUMMARY:Via Treviglio 2058\, Fara Gera d'Adda
 LOCATION:Via Treviglio 2058\, Fara Gera d'Adda\, Via Treviglio 2058
@@ -747,7 +698,7 @@ URL:https://www.instagram.com/p/DfkV4SOjjrz/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-26-bloom@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261226
 SUMMARY:[Rock / Jazz] Bloom · Charlie Cinelli
 LOCATION:Bloom\, Via Eugenio Curiel\, 39\, 20883 Mezzago MB
@@ -761,20 +712,20 @@ URL:https://www.instagram.com/p/DgAdkQOMPyW/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-31-daste_bergamo@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261231T230000
 SUMMARY:[Melodic House] Daste Bergamo · utōpia
 LOCATION:Daste Bergamo\, Via Daste e Spalenga\, 15\, 24125 Bergamo BG
 DESCRIPTION:SERATA · voto 43.9/100\ninizia alle 23:00\n📍 Via Daste e S
  palenga\, 15\, 24125 Bergamo BG (2.1 km)\nLocale: @daste_bergamo\nPromote
- r: @utopia.direction\nStessa sera: altri 2 eventi (0 dello stesso genere)
- \nhttps://www.instagram.com/p/Df7kbHwMksh/
+ r: @utopia.direction\nOspiti: elettronica\nStessa sera: altri 2 eventi (0
+  dello stesso genere)\nhttps://www.instagram.com/p/Df7kbHwMksh/
 CATEGORIES:SERATA,House / Elettronica
 URL:https://www.instagram.com/p/Df7kbHwMksh/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-31-keller_factory_2_0_live_music_pub@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;TZID=Europe/Rome:20261231T230000
 SUMMARY:[Revival] Keller Factory 2.0 - Live Music Pub
 LOCATION:Keller Factory 2.0 - Live Music Pub\, Via Bergamo\, 32\, 24035 Cu
@@ -788,7 +739,7 @@ URL:https://www.instagram.com/reel/Dft9l09gc1G/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-31-via_rossaro_28@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20261231
 SUMMARY:Via Rossaro\, 28
 LOCATION:Via Rossaro\, 28\, Via Rossaro\, 28\, 24047 Treviglio BG
@@ -801,7 +752,7 @@ URL:https://www.instagram.com/p/DfkM-iDjaFE/
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-02-druso@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20270102
 SUMMARY:[Rock] Druso
 LOCATION:Druso\, Via Antonio Locatelli 17\, 24020\, Ranica
@@ -813,7 +764,7 @@ URL:https://www.instagram.com/p/Df49j5GAAWV/
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-15-bloom@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20270115
 SUMMARY:[Rock / Jazz] Bloom
 LOCATION:Bloom\, Via Eugenio Curiel\, 39\, 20883 Mezzago MB
@@ -825,7 +776,7 @@ URL:https://www.instagram.com/p/Df2ZEqYsXo3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-20-druso@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20270220
 SUMMARY:[Disco / Rock] Druso · Savana Funk
 LOCATION:Druso\, Via Antonio Locatelli 17\, 24020\, Ranica
@@ -837,7 +788,7 @@ URL:https://www.instagram.com/reel/Df71ERpAVju/
 END:VEVENT
 BEGIN:VEVENT
 UID:token-2027-01-08@nightlife-bergamo
-DTSTAMP:20261123T113943Z
+DTSTAMP:20261123T122547Z
 DTSTART;VALUE=DATE:20270108
 SUMMARY:⚠️ Rinnovare il token di Instagram (scade tra 10 giorni)
 END:VEVENT
