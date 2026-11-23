@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T13:34",
+ "generated": "2026-11-23T14:43",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -156,7 +156,7 @@
      {
       "line1": "SCHIVARDI 1953 @ Nikita",
       "line2": "Commerciale",
-      "time": "00:00",
+      "time": "22:30",
       "score": 56.6,
       "fascia": "serata",
       "family": "Commerciale"
@@ -190,6 +190,16 @@
       "line2": "Commerciale / Revival, sala 2",
       "time": "23:30",
       "score": 27.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Enter the Void @ Nikita",
+      "line2": "Commerciale 360",
+      "time": "00:00",
+      "score": 43.0,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -303,6 +313,14 @@
    ],
    "2026-11-27": [
     {
+     "line1": "utōpia @ Druso",
+     "line2": "Melodic House",
+     "time": "00:00",
+     "score": 65.7,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
@@ -325,6 +343,14 @@
      "score": 47.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Quei Bravi Ragazzi",
+     "line2": "live",
+     "time": "22:00",
+     "score": 27.2,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-28": [
@@ -435,6 +461,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Druso",
+     "line2": "Rock",
+     "time": "16:00",
+     "score": 49.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "10 Space Jam @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
@@ -496,9 +530,11 @@
    "@discoteca_queen",
    "@daste_bergamo",
    "@sabbiemobili_official",
+   "@drusobg",
    "@lab80cinemas",
    "@possibilita",
    "@csapacipaciana",
+   "@nikita__land",
    "@to_on.tv",
    "@spike.hellis",
    "@lowl_fest",
@@ -513,9 +549,7 @@
    "@nxtbergamo",
    "@spettacoli",
    "@choruslife.bergamo",
-   "@gruppo_gnam",
-   "@lenticchie",
-   "@nikita__land"
+   "@gruppo_gnam"
   ],
   "hashtags": [
    "#bergamo",
@@ -604,6 +638,14 @@
    ],
    "2026-12-04": [
     {
+     "line1": "Quei Bravi Ragazzi",
+     "line2": "live",
+     "time": "22:00",
+     "score": 27.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Paolo Riva",
      "line2": "Latino",
      "time": "21:00",
@@ -645,6 +687,16 @@
      "fascia": "preserata",
      "family": "Altro"
     }
+   ],
+   "2026-12-06": [
+    {
+     "line1": "Alive @ VIBE",
+     "line2": "School Party",
+     "time": "21:00",
+     "score": 70.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
    ]
   },
   "big_events": [],
@@ -652,15 +704,16 @@
    "@nxtbergamo",
    "@prenotazione",
    "@inkclub_bergamo",
+   "@quei_bravi_ragazzi_bg",
+   "@sensazione_moda_official",
    "@paolorivapasticceria",
    "@zeroclub.bg",
    "@noidfamilia",
+   "@16manu___",
    "@esotic_event",
    "@marci_otta",
    "@furkan_mcc",
    "@dnaproject__",
-   "@titans.djp",
-   "@16manu___",
    "@bolgia.official",
    "@importanti",
    "@daste_bergamo",
@@ -669,7 +722,9 @@
    "@alternative",
    "@bloom_mezzago",
    "@dj.sofficino",
-   "@nico.bre1917"
+   "@nico.bre1917",
+   "@vibetheclub",
+   "@aliveofficialparty"
   ],
   "hashtags": [
    "#bergamo",
@@ -985,7 +1040,7 @@
      {
       "line1": "SCHIVARDI 1953 @ Nikita",
       "line2": "Commerciale",
-      "time": "00:00",
+      "time": "22:30",
       "score": 56.6,
       "fascia": "serata",
       "family": "Commerciale"
@@ -1019,6 +1074,16 @@
       "line2": "Commerciale / Revival, sala 2",
       "time": "23:30",
       "score": 27.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Enter the Void @ Nikita",
+      "line2": "Commerciale 360",
+      "time": "00:00",
+      "score": 43.0,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -1372,6 +1437,14 @@
    ],
    "2026-11-27": [
     {
+     "line1": "utōpia @ Druso",
+     "line2": "Melodic House",
+     "time": "00:00",
+     "score": 65.7,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
@@ -1394,6 +1467,14 @@
      "score": 47.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Quei Bravi Ragazzi",
+     "line2": "live",
+     "time": "22:00",
+     "score": 27.2,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-28": [
@@ -1504,6 +1585,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Druso",
+     "line2": "Rock",
+     "time": "16:00",
+     "score": 49.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "10 Space Jam @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
@@ -1571,6 +1660,7 @@
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
+   "@nikita__land",
    "@daste_bergamo",
    "@kellerfactory_",
    "@ninfeasocialclub",
@@ -1579,7 +1669,6 @@
    "@possibilita",
    "@spettacoli",
    "@lab80cinemas",
-   "@nikita__land",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
@@ -1642,9 +1731,9 @@
     "2026-12-19": [
      {
       "line1": "Galactica Festival @ Fiera di Bergamo",
-      "line2": "Techno, Hard Techno",
+      "line2": "Techno, Hard Techno, MATTIA TRANI",
       "time": "20:00",
-      "score": 30.0,
+      "score": 46.8,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1784,6 +1873,14 @@
    ],
    "2026-12-04": [
     {
+     "line1": "Quei Bravi Ragazzi",
+     "line2": "live",
+     "time": "22:00",
+     "score": 27.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Paolo Riva",
      "line2": "Latino",
      "time": "21:00",
@@ -1826,7 +1923,33 @@
      "family": "Altro"
     }
    ],
+   "2026-12-06": [
+    {
+     "line1": "Alive @ VIBE",
+     "line2": "School Party",
+     "time": "21:00",
+     "score": 70.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-12-07": [
+    {
+     "line1": "Alive @ VIBE",
+     "line2": "School Party",
+     "time": "21:00",
+     "score": 70.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Afrodylan @ Druso",
+     "line2": "Afro / Reggaeton",
+     "time": "00:00",
+     "score": 67.8,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
     {
      "line1": "NXT Station",
      "line2": "Rock",
@@ -1966,12 +2089,12 @@
    ],
    "2026-12-25": [
     {
-     "line1": "Druso",
-     "line2": "Rock",
+     "line1": "Afrodylan @ Druso",
+     "line2": "Afro / Reggaeton",
      "time": "00:00",
-     "score": 49.8,
+     "score": 67.8,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "Commerciale"
     }
    ],
    "2026-12-31": [
@@ -1991,32 +2114,32 @@
    "@nxtbergamo",
    "@bloom_mezzago",
    "@circolinomalpensata_bergamo",
+   "@discoteca_queen",
    "@zeroclub.bg",
    "@noidfamilia",
    "@16manu___",
    "@bolgia.official",
    "@importanti",
    "@daste_bergamo",
+   "@vibetheclub",
+   "@aliveofficialparty",
+   "@drusobg",
+   "@afrodylanofficial",
+   "@jolly_club_mantova_",
    "@teatromiela_trieste",
    "@capogirojoyclub",
+   "@quei_bravi_ragazzi_bg",
+   "@sensazione_moda_official",
    "@paolorivapasticceria",
    "@esotic_event",
    "@marci_otta",
    "@furkan_mcc",
    "@dnaproject__",
-   "@titans.djp",
    "@consumazione",
    "@alternative",
    "@dj.sofficino",
    "@nico.bre1917",
-   "@numerosissime",
-   "@theboxbergamo",
-   "@gasbeer_official",
-   "@marmellata",
-   "@possibilita",
-   "@spettacoli",
-   "@brinapasticceria",
-   "@ingredienti"
+   "@numerosissime"
   ],
   "hashtags": [
    "#bergamo",

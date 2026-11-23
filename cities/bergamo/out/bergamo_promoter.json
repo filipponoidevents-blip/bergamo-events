@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-23T13:34",
+ "generated": "2026-11-23T14:43",
  "nights": [
   {
    "date": "2026-11-23",
@@ -161,25 +161,29 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 6,
-   "load": 208.5,
+   "events": 7,
+   "load": 251.5,
    "level": "piena",
-   "capacity_taken": 4200,
+   "capacity_taken": 5200,
    "by_family": {
     "House / Elettronica": 2,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 4
    },
    "missing_families": [
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
      "title": "Bolgia · MARIE VAUNT",
      "score": 60.0,
      "capacity": 3000
+    },
+    {
+     "title": "[Commerciale 360] Nikita · Enter the Void",
+     "score": 43.0,
+     "capacity": 1000
     },
     {
      "title": "Zero Club · Fuse All Night: Cuartero",
@@ -195,11 +199,6 @@
      "title": "Zero Club (club room) · Bar Florio",
      "score": 25.6,
      "capacity": 100
-    },
-    {
-     "title": "[Alternative] Pacì Paciana",
-     "score": 24.4,
-     "capacity": null
     }
    ]
   },
@@ -687,7 +686,7 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 30.0,
+   "load": 46.8,
    "level": "libera",
    "capacity_taken": 0,
    "by_family": {
@@ -702,8 +701,8 @@
    ],
    "top": [
     {
-     "title": "[Techno, Hard Techno] Fiera di Bergamo · Galactica Festival",
-     "score": 30.0,
+     "title": "[Techno, Hard Techno] Fiera di Bergamo · Galactica Festival w/ MATTIA TRANI",
+     "score": 46.8,
      "capacity": null
     }
    ]
