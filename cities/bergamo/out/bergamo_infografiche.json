@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T17:26",
+ "generated": "2026-11-23T18:33",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -321,6 +321,14 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "NXT Station",
+     "line2": "Jazz / Revival",
+     "time": "21:30",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
@@ -343,6 +351,14 @@
      "score": 47.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Mint Lounge Bar",
+     "line2": "Commerciale / House",
+     "time": "21:00",
+     "score": 34.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
     },
     {
      "line1": "Quei Bravi Ragazzi",
@@ -427,20 +443,20 @@
      "family": "Altro"
     },
     {
+     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
+     "line2": "dj set, cre.sp1",
+     "time": "21:00",
+     "score": 31.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Doctor Beat @ Charleston",
      "line2": "Commerciale",
      "time": "14:00",
      "score": 28.1,
      "fascia": "preserata",
      "family": "Commerciale"
-    },
-    {
-     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
-     "line2": "dj set, cre.sp1",
-     "time": "21:00",
-     "score": 26.3,
-     "fascia": "preserata",
-     "family": "Altro"
     },
     {
      "line1": "Easy Drink and Food",
@@ -514,9 +530,11 @@
    "@daste_bergamo",
    "@sabbiemobili_official",
    "@drusobg",
+   "@nxtbergamo",
    "@possibilita",
    "@csapacipaciana",
    "@nikita__land",
+   "@mint_lounge",
    "@liveclub",
    "@bloom_mezzago",
    "@spike.hellis",
@@ -529,11 +547,9 @@
    "@uaar_it",
    "@please.nights",
    "@reverie__night",
-   "@nxtbergamo",
    "@spettacoli",
    "@choruslife.bergamo",
-   "@gruppo_gnam",
-   "@lenticchie"
+   "@gruppo_gnam"
   ],
   "hashtags": [
    "#bergamo",
@@ -1429,6 +1445,14 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "NXT Station",
+     "line2": "Jazz / Revival",
+     "time": "21:30",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
@@ -1451,6 +1475,14 @@
      "score": 47.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Mint Lounge Bar",
+     "line2": "Commerciale / House",
+     "time": "21:00",
+     "score": 34.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
     },
     {
      "line1": "Quei Bravi Ragazzi",
@@ -1535,20 +1567,20 @@
      "family": "Altro"
     },
     {
+     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
+     "line2": "dj set, cre.sp1",
+     "time": "21:00",
+     "score": 31.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Doctor Beat @ Charleston",
      "line2": "Commerciale",
      "time": "14:00",
      "score": 28.1,
      "fascia": "preserata",
      "family": "Commerciale"
-    },
-    {
-     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
-     "line2": "dj set, cre.sp1",
-     "time": "21:00",
-     "score": 26.3,
-     "fascia": "preserata",
-     "family": "Altro"
     },
     {
      "line1": "Easy Drink and Food",
