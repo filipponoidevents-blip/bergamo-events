@@ -1,0 +1,14 @@
+# Sveglia per la nuova versione (v2) durante la settimana in parallelo (Filippo, 23/11/2026).
+# Non tocca la versione 1: ogni 2 ore fa solo partire il workflow nightlife-v2 sul suo branch.
+# Al passaggio definitivo questo file si cancella.
+name: sveglia-v2
+on:
+  schedule: [{cron: "41 */2 * * *"}]
+  workflow_dispatch: {}
+permissions: {actions: write}
+jobs:
+  avvia:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh workflow run nightlife.yml --ref claude/project-thread-b9jaty --repo "${{ github.repository }}"
+        env: {GH_TOKEN: "${{ github.token }}"}
