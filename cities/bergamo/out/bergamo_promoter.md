@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 23/11/2026 14:43. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 23/11/2026 16:18. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -20,9 +20,9 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 | Data | Sera | Serate | Carico | Capienza impegnata | Generi | Le più forti |
 |---|---|---|---|---|---|---|
 | 24/11 mar | tranquilla | 1 | 53.0 | 900 | House 1 | [Tech House] Bloom · Club Culture w/ Spike Hellis |
-| 25/11 mer | media | 3 | 132.8 | 1350 | Commerciale 2, Altro 1 | Arena Esterno Notte · Anna; [Commerciale 360] Zero Club · Please; [Latino / Commerciale] Queen Club |
-| 27/11 ven | piena | 8 | 271.7 | 4050 | House 3, Commerciale 5 | [Commerciale] Nikita · SCHIVARDI 1953; [Hard Techno] Oronero · Underground - Hardcore w/ Possibilita; [Dance] Queen Club · DiscoDance |
-| 28/11 sab | piena | 7 | 251.5 | 5200 | House 2, Commerciale 1, Altro 4 | Bolgia · MARIE VAUNT; [Commerciale 360] Nikita · Enter the Void; Zero Club · Fuse All Night: Cuartero |
+| 25/11 mer | media | 3 | 141.1 | 2900 | Commerciale 2, Altro 1 | Gres Art 671 · Anna; [Commerciale 360] Zero Club · Please; [Latino / Commerciale] Queen Club |
+| 27/11 ven | piena | 9 | 306.9 | 4550 | House 4, Commerciale 5 | [Commerciale] Nikita · SCHIVARDI 1953; [Hard Techno] Oronero · Underground - Hardcore w/ Possibilita; [Dance] Queen Club · DiscoDance |
+| 28/11 sab | piena | 7 | 286.5 | 6050 | House 2, Commerciale 1, Altro 4 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; Bolgia · MARIE VAUNT; [Commerciale 360] Nikita · Enter the Void |
 | 29/11 dom | tranquilla | 1 | 7.7 | 100 | Altro 1 | Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 04/12 ven | libera | 0 | 0 | 0 | - | - |
 | 05/12 sab | media | 2 | 126.3 | 3500 | House 1, Altro 1 | [House] Zero Club · NØID w/ Germano Ventura; Bolgia · CHELINA MANUHUTU |

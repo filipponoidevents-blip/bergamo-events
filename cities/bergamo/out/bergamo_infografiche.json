@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T14:43",
+ "generated": "2026-11-23T16:18",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -42,6 +42,14 @@
       "family": "House / Elettronica"
      },
      {
+      "line1": "This Week @ VIBE",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 35.2,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Dirty Andry @ Tiky Klub",
       "line2": "Tech House",
       "time": "00:00",
@@ -68,7 +76,7 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Le Cannibale @ Bar della Musica",
+      "line1": "Le Cannibale @ La Base",
       "line2": "House, Interstellar Funk",
       "time": "23:00",
       "score": 24.4,
@@ -80,15 +88,23 @@
    "Altro": {
     "2026-11-25": [
      {
-      "line1": "Anna @ Arena Esterno Notte",
+      "line1": "Anna @ Gres Art 671",
       "line2": "",
       "time": "00:00",
-      "score": 50.8,
+      "score": 59.1,
       "fascia": "serata",
       "family": "Altro"
      }
     ],
     "2026-11-28": [
+     {
+      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 60.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
@@ -102,14 +118,6 @@
       "line2": "",
       "time": "00:59",
       "score": 39.9,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Bar Florio @ Zero Club",
-      "line2": "club room",
-      "time": "00:00",
-      "score": 25.6,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -207,25 +215,7 @@
    }
   },
   "preserate": {
-   "2026-11-23": [
-    {
-     "line1": "10 To_On.Tv @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    }
-   ],
    "2026-11-24": [
-    {
-     "line1": "Bowie.Hc @ Ink Club",
-     "line2": "dj set, club room",
-     "time": "00:00",
-     "score": 58.4,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
     {
      "line1": "Door 74",
      "line2": "dj set",
@@ -235,7 +225,7 @@
      "family": "Altro"
     },
     {
-     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
+     "line1": "Tela Libera Live @ Ink Club",
      "line2": "live",
      "time": "20:00",
      "score": 47.6,
@@ -269,14 +259,6 @@
      "family": "Altro"
     },
     {
-     "line1": "Incensi @ Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Keller Factory 2.0 - Live Music Pub",
      "line2": "comedy",
      "time": "21:00",
@@ -289,6 +271,14 @@
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Incensi @ Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 28.9,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -337,8 +327,8 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "10 Torneo Fifa @ Ink Club",
-     "line2": "Elettronica, Corinna",
+     "line1": "Corinna @ Ink Club",
+     "line2": "Elettronica",
      "time": "21:00",
      "score": 47.6,
      "fascia": "preserata",
@@ -453,34 +443,10 @@
    ],
    "2026-11-29": [
     {
-     "line1": "Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Druso",
      "line2": "Rock",
      "time": "16:00",
      "score": 49.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "10 Space Jam @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Arena Esterno Notte",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.3,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -515,33 +481,47 @@
      "score": 35.3,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 28.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Non solo caffe",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 8.8,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ]
   },
   "big_events": [],
   "caption_handles": [
    "@prenotazione",
-   "@inkclub_bergamo",
    "@zeroclub.bg",
    "@kellerfactory_",
    "@ninfeasocialclub",
    "@bloom_mezzago",
+   "@inkclub_bergamo",
    "@consumazione",
    "@discoteca_queen",
    "@daste_bergamo",
    "@sabbiemobili_official",
    "@drusobg",
-   "@lab80cinemas",
    "@possibilita",
    "@csapacipaciana",
    "@nikita__land",
-   "@to_on.tv",
    "@spike.hellis",
    "@lowl_fest",
    "@www.bloomnet",
-   "@bowie.hc",
    "@door_74",
    "@officinapanarari",
+   "@gres_art_671",
    "@associazione_luca_coscioni",
    "@uaar_it",
    "@please.nights",
@@ -549,7 +529,9 @@
    "@nxtbergamo",
    "@spettacoli",
    "@choruslife.bergamo",
-   "@gruppo_gnam"
+   "@gruppo_gnam",
+   "@lenticchie",
+   "@schivardi1953"
   ],
   "hashtags": [
    "#bergamo",
@@ -590,16 +572,6 @@
    }
   },
   "preserate": {
-   "2026-11-30": [
-    {
-     "line1": "10 Kendasoundsystem Party @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    }
-   ],
    "2026-12-02": [
     {
      "line1": "NXT Station",
@@ -628,10 +600,26 @@
      "family": "Altro"
     },
     {
-     "line1": "Bar della Musica",
+     "line1": "Gres Art 671",
+     "line2": "dj set",
+     "time": "09:00",
+     "score": 57.5,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Revel Treviglio",
+     "line2": "comedy",
+     "time": "20:30",
+     "score": 27.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Biblioteca Civica Rita Levi Montalcini",
      "line2": "dj set",
      "time": "20:45",
-     "score": 3.3,
+     "score": 19.1,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -664,14 +652,6 @@
      "family": "Altro"
     },
     {
-     "line1": "Daste Bergamo",
-     "line2": "Pop",
-     "time": "21:30",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Commerciale"
-    },
-    {
      "line1": "Il Circolino della Malpensata",
      "line2": "Indie / Rock",
      "time": "21:30",
@@ -686,6 +666,14 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Daste Bergamo",
+     "line2": "Pop",
+     "time": "21:30",
+     "score": 28.9,
+     "fascia": "preserata",
+     "family": "Commerciale"
     }
    ],
    "2026-12-06": [
@@ -703,7 +691,10 @@
   "caption_handles": [
    "@nxtbergamo",
    "@prenotazione",
-   "@inkclub_bergamo",
+   "@gres_art_671",
+   "@particolare",
+   "@revel_treviglio",
+   "@gemboyofficial_",
    "@quei_bravi_ragazzi_bg",
    "@sensazione_moda_official",
    "@paolorivapasticceria",
@@ -716,13 +707,13 @@
    "@dnaproject__",
    "@bolgia.official",
    "@importanti",
-   "@daste_bergamo",
-   "@consumazione",
    "@circolinomalpensata_bergamo",
    "@alternative",
    "@bloom_mezzago",
    "@dj.sofficino",
    "@nico.bre1917",
+   "@daste_bergamo",
+   "@consumazione",
    "@vibetheclub",
    "@aliveofficialparty"
   ],
@@ -954,15 +945,23 @@
     ],
     "2026-11-25": [
      {
-      "line1": "Anna @ Arena Esterno Notte",
+      "line1": "Anna @ Gres Art 671",
       "line2": "",
       "time": "00:00",
-      "score": 50.8,
+      "score": 59.1,
       "fascia": "serata",
       "family": "Altro"
      }
     ],
     "2026-11-28": [
+     {
+      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
+      "line2": "",
+      "time": "00:00",
+      "score": 60.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
@@ -976,14 +975,6 @@
       "line2": "",
       "time": "00:59",
       "score": 39.9,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Bar Florio @ Zero Club",
-      "line2": "club room",
-      "time": "00:00",
-      "score": 25.6,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -1110,6 +1101,14 @@
       "family": "House / Elettronica"
      },
      {
+      "line1": "This Week @ VIBE",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 35.2,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Dirty Andry @ Tiky Klub",
       "line2": "Tech House",
       "time": "00:00",
@@ -1136,7 +1135,7 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Le Cannibale @ Bar della Musica",
+      "line1": "Le Cannibale @ La Base",
       "line2": "House, Interstellar Funk",
       "time": "23:00",
       "score": 24.4,
@@ -1331,25 +1330,7 @@
      "family": "Altro"
     }
    ],
-   "2026-11-23": [
-    {
-     "line1": "10 To_On.Tv @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    }
-   ],
    "2026-11-24": [
-    {
-     "line1": "Bowie.Hc @ Ink Club",
-     "line2": "dj set, club room",
-     "time": "00:00",
-     "score": 58.4,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
     {
      "line1": "Door 74",
      "line2": "dj set",
@@ -1359,7 +1340,7 @@
      "family": "Altro"
     },
     {
-     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
+     "line1": "Tela Libera Live @ Ink Club",
      "line2": "live",
      "time": "20:00",
      "score": 47.6,
@@ -1393,14 +1374,6 @@
      "family": "Altro"
     },
     {
-     "line1": "Incensi @ Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Keller Factory 2.0 - Live Music Pub",
      "line2": "comedy",
      "time": "21:00",
@@ -1413,6 +1386,14 @@
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Incensi @ Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 28.9,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1461,8 +1442,8 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "10 Torneo Fifa @ Ink Club",
-     "line2": "Elettronica, Corinna",
+     "line1": "Corinna @ Ink Club",
+     "line2": "Elettronica",
      "time": "21:00",
      "score": 47.6,
      "fascia": "preserata",
@@ -1577,34 +1558,10 @@
    ],
    "2026-11-29": [
     {
-     "line1": "Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Druso",
      "line2": "Rock",
      "time": "16:00",
      "score": 49.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "10 Space Jam @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Arena Esterno Notte",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.3,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1639,14 +1596,20 @@
      "score": 35.3,
      "fascia": "preserata",
      "family": "House / Elettronica"
-    }
-   ],
-   "2026-11-30": [
+    },
     {
-     "line1": "10 Kendasoundsystem Party @ Ink Club",
+     "line1": "Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 28.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Non solo caffe",
      "line2": "dj set",
      "time": "00:00",
-     "score": 47.6,
+     "score": 8.8,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1654,21 +1617,22 @@
   },
   "big_events": [],
   "caption_handles": [
+   "@prenotazione",
    "@inkclub_bergamo",
    "@zeroclub.bg",
-   "@prenotazione",
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
+   "@divinabergamo",
    "@nikita__land",
    "@daste_bergamo",
    "@kellerfactory_",
    "@ninfeasocialclub",
    "@megan_is_missing_band",
-   "@divinabergamo",
+   "@missdivina1",
+   "@vibetheclub",
    "@possibilita",
    "@spettacoli",
-   "@lab80cinemas",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
@@ -1677,13 +1641,12 @@
    "@discoteca_queen",
    "@sabbiemobili_official",
    "@liveclub",
-   "@missdivina1",
-   "@vibetheclub",
    "@upside.down.night",
    "@oasi.night",
    "@arya.lounge",
    "@premiere.premiere",
-   "@choruslife.bergamo"
+   "@choruslife.bergamo",
+   "@door_74"
   ],
   "hashtags": [
    "#bergamo",
@@ -1863,10 +1826,26 @@
      "family": "Altro"
     },
     {
-     "line1": "Bar della Musica",
+     "line1": "Gres Art 671",
+     "line2": "dj set",
+     "time": "09:00",
+     "score": 57.5,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Revel Treviglio",
+     "line2": "comedy",
+     "time": "20:30",
+     "score": 27.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Biblioteca Civica Rita Levi Montalcini",
      "line2": "dj set",
      "time": "20:45",
-     "score": 3.3,
+     "score": 19.1,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1899,14 +1878,6 @@
      "family": "Altro"
     },
     {
-     "line1": "Daste Bergamo",
-     "line2": "Pop",
-     "time": "21:30",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Commerciale"
-    },
-    {
      "line1": "Il Circolino della Malpensata",
      "line2": "Indie / Rock",
      "time": "21:30",
@@ -1921,6 +1892,14 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Daste Bergamo",
+     "line2": "Pop",
+     "time": "21:30",
+     "score": 28.9,
+     "fascia": "preserata",
+     "family": "Commerciale"
     }
    ],
    "2026-12-06": [
@@ -1959,10 +1938,10 @@
      "family": "Altro"
     },
     {
-     "line1": "The Box @ Cafe Roma",
+     "line1": "The Box @ Tassino Cafe",
      "line2": "Melodic Techno",
      "time": "22:00",
-     "score": 19.2,
+     "score": 54.2,
      "fascia": "preserata",
      "family": "House / Elettronica"
     }
@@ -1975,6 +1954,14 @@
      "score": 58.6,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "Barrito",
+     "line2": "dj set",
+     "time": "11:00",
+     "score": 25.4,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-12-10": [
@@ -1987,18 +1974,18 @@
      "family": "Altro"
     },
     {
-     "line1": "Brina Pasticceria",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 22.0,
+     "line1": "MOSS | Via G. Bonomelli 9, Bergamo",
+     "line2": "Jazz",
+     "time": "20:00",
+     "score": 26.6,
      "fascia": "preserata",
      "family": "Altro"
     },
     {
-     "line1": "Bar della Musica",
-     "line2": "Jazz",
-     "time": "20:00",
-     "score": 3.3,
+     "line1": "Brina Pasticceria",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 22.0,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -2128,6 +2115,10 @@
    "@jolly_club_mantova_",
    "@teatromiela_trieste",
    "@capogirojoyclub",
+   "@gres_art_671",
+   "@particolare",
+   "@revel_treviglio",
+   "@gemboyofficial_",
    "@quei_bravi_ragazzi_bg",
    "@sensazione_moda_official",
    "@paolorivapasticceria",
@@ -2135,11 +2126,7 @@
    "@marci_otta",
    "@furkan_mcc",
    "@dnaproject__",
-   "@consumazione",
-   "@alternative",
-   "@dj.sofficino",
-   "@nico.bre1917",
-   "@numerosissime"
+   "@alternative"
   ],
   "hashtags": [
    "#bergamo",
