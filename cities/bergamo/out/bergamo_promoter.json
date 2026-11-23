@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-23T10:31",
+ "generated": "2026-11-23T11:39",
  "nights": [
   {
    "date": "2026-11-23",
@@ -115,15 +115,15 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 9,
-   "load": 309.3,
+   "events": 10,
+   "load": 345.9,
    "level": "piena",
-   "capacity_taken": 4400,
+   "capacity_taken": 4600,
    "by_family": {
     "House / Elettronica": 4,
     "Hip Hop / Trap": 0,
     "Commerciale": 5,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "Hip Hop / Trap"
@@ -150,9 +150,9 @@
      "capacity": 400
     },
     {
-     "title": "[Reggaeton] Daste Bergamo · Conejo Night",
-     "score": 33.3,
-     "capacity": 400
+     "title": "[Indie] INDIE POWER · Torna A Milano",
+     "score": 35.4,
+     "capacity": 200
     }
    ]
   },
@@ -161,15 +161,15 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 5,
-   "load": 184.1,
+   "events": 6,
+   "load": 219.5,
    "level": "piena",
-   "capacity_taken": 4100,
+   "capacity_taken": 4300,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 1,
     "Commerciale": 0,
-    "Altro": 3
+    "Altro": 4
    },
    "missing_families": [
     "Commerciale"
@@ -186,6 +186,11 @@
      "capacity": 500
     },
     {
+     "title": "[Indie / Commerciale] INDIE POWER · Torna A Firenze",
+     "score": 35.4,
+     "capacity": 200
+    },
+    {
      "title": "[Hard Techno] Sabbie Mobili · Code",
      "score": 34.2,
      "capacity": 500
@@ -194,11 +199,6 @@
      "title": "Zero Club (club room) · Bar Florio",
      "score": 25.6,
      "capacity": 100
-    },
-    {
-     "title": "[Alternative] Pacì Paciana",
-     "score": 24.4,
-     "capacity": null
     }
    ]
   },
@@ -323,32 +323,10 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
-   "level": "libera",
-   "capacity_taken": 0,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 0
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
-   ],
-   "top": []
-  },
-  {
-   "date": "2026-12-05",
-   "weekday": "sabato",
-   "note": null,
-   "weekend_like": true,
    "events": 1,
-   "load": 60.0,
-   "level": "media",
-   "capacity_taken": 3000,
+   "load": 35.4,
+   "level": "libera",
+   "capacity_taken": 200,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
@@ -362,9 +340,42 @@
    ],
    "top": [
     {
+     "title": "[Indie / Pop] INDIE POWER · Torna A Pisa",
+     "score": 35.4,
+     "capacity": 200
+    }
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 2,
+   "load": 95.4,
+   "level": "media",
+   "capacity_taken": 3200,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 2
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
      "title": "Bolgia · CHELINA MANUHUTU",
      "score": 60.0,
      "capacity": 3000
+    },
+    {
+     "title": "[Indie] INDIE POWER · Torna A Bologna",
+     "score": 35.4,
+     "capacity": 200
     }
    ]
   },
@@ -395,15 +406,15 @@
    "weekday": "lunedì",
    "note": "prefestivo (Immacolata)",
    "weekend_like": true,
-   "events": 1,
-   "load": 60.0,
+   "events": 2,
+   "load": 95.4,
    "level": "media",
-   "capacity_taken": 3000,
+   "capacity_taken": 3200,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "House / Elettronica",
@@ -415,6 +426,11 @@
      "title": "Bolgia · NOVAH",
      "score": 60.0,
      "capacity": 3000
+    },
+    {
+     "title": "[Indie] INDIE POWER · Torna A Verona",
+     "score": 35.4,
+     "capacity": 200
     }
    ]
   },
@@ -489,15 +505,15 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 31.8,
-   "level": "libera",
-   "capacity_taken": 500,
+   "events": 2,
+   "load": 67.2,
+   "level": "media",
+   "capacity_taken": 700,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "House / Elettronica",
@@ -505,6 +521,11 @@
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "[Indie] INDIE POWER · Torna A Perugia",
+     "score": 35.4,
+     "capacity": 200
+    },
     {
      "title": "[Indie / Rock] Teatro Miela",
      "score": 31.8,
@@ -953,7 +974,7 @@
    "note": "Capodanno (veglione)",
    "weekend_like": true,
    "events": 3,
-   "load": 65.3,
+   "load": 75.9,
    "level": "media",
    "capacity_taken": 900,
    "by_family": {
@@ -968,7 +989,7 @@
    "top": [
     {
      "title": "[Melodic House] Daste Bergamo · utōpia",
-     "score": 33.3,
+     "score": 43.9,
      "capacity": 400
     },
     {

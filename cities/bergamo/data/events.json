@@ -5414,8 +5414,8 @@
   "city": "Bergamo",
   "competition": {
    "capacity_same_night": 400,
-   "events_same_night": 2,
-   "same_family": 2,
+   "events_same_night": 3,
+   "same_family": 3,
    "strongest_rival": "Bowie.Hc @ Ink Club"
   },
   "confidence": 0.75,
@@ -5482,8 +5482,8 @@
   "city": null,
   "competition": {
    "capacity_same_night": 350,
-   "events_same_night": 2,
-   "same_family": 2,
+   "events_same_night": 3,
+   "same_family": 3,
    "strongest_rival": "Door 74 @ Door 74"
   },
   "confidence": 0.7,
@@ -5549,8 +5549,8 @@
   "city": null,
   "competition": {
    "capacity_same_night": 350,
-   "events_same_night": 2,
-   "same_family": 2,
+   "events_same_night": 3,
+   "same_family": 3,
    "strongest_rival": "Bowie.Hc @ Ink Club"
   },
   "confidence": 0.9,
@@ -5606,6 +5606,80 @@
   "venue_instagram": "inkclub_bergamo",
   "venue_known": true,
   "venue_type": "live_club",
+  "weekday": "martedì"
+ },
+ "2026-11-24-officina_panarari-pre": {
+  "address": "Via Caravaggio 31, Treviglio",
+  "brand": null,
+  "capacity": null,
+  "capacity_source": null,
+  "city": "Treviglio",
+  "competition": {
+   "capacity_same_night": 550,
+   "events_same_night": 3,
+   "same_family": 3,
+   "strongest_rival": "Bowie.Hc @ Ink Club"
+  },
+  "confidence": 0.8,
+  "date": "2026-11-24",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 17:00",
+  "first_seen": "2026-11-23",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "prenotazione",
+    "level": null,
+    "name": "prenotazione"
+   }
+  ],
+  "handles": [
+   "prenotazione"
+  ],
+  "headliner": null,
+  "id": "2026-11-24-officina_panarari-pre",
+  "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/910288696_17970677082210603_7486545380742695107_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=P4we3ENbH38Q7kNvwEUw1hG&_nc_oc=AdoKFMjTnOBItciLI0NPFK1RmHIck-QMg-CCkGjg4rx5FuE_gBaRapbEnhoSdxzNjY8&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ZYWmMGNnA3rtIgy8nRfEng&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSh8posOqyPVvkVflnAdGLqo6_Se2en5Iy3QB2218BItg&oe=6B09E3D1",
+  "in_posts": true,
+  "km": 20.8,
+  "lead_days": 6,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-18T13:22+00:00",
+  "price": 25,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 4,
+  "room": null,
+  "scope": "zona",
+  "score": 17.8,
+  "score_parts": {
+   "capacity": 0.0,
+   "distance": 1.7,
+   "promoter": 0.0,
+   "venue_followers": 4.5
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "17:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "aperitivo",
+  "urls": [
+   "https://www.instagram.com/p/Df4mJ3tIAP1/"
+  ],
+  "venue": "Officina Panarari",
+  "venue_followers": 5390,
+  "venue_instagram": "officinapanarari",
+  "venue_known": true,
+  "venue_type": "bar",
   "weekday": "martedì"
  },
  "2026-11-24-teatro_miela-pre": {
@@ -5960,6 +6034,64 @@
   "venue_type": "bar",
   "weekday": "mercoledì"
  },
+ "2026-11-25-la_sosta_cafe": {
+  "address": "Via Molinello, 2/E, 24021 Vall'alta BG",
+  "brand": null,
+  "capacity": 50,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.8,
+  "date": "2026-11-25",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "tipo di evento: evento",
+  "first_seen": "2026-11-23",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-25-la_sosta_cafe",
+  "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/889001896_18497847292111914_5602019321242767516_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=axIhfB4p3MgQ7kNvwEIxoS0&_nc_oc=AdpeJmvblIQYPXScTnQCYUcAx2bZGiPz3-BP69gOWcJOb1cKn6JXEnoLNtyPqrQF5KM&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=oDdzbxHlCjH5v3xDPn9u3w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR5DDgkLXffTn3bCsSkqHIxPFeIa_cbLpMHZVerWvJ4Jw&oe=6B09DCDD",
+  "in_posts": true,
+  "km": 12.9,
+  "lead_days": 18,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-07T10:51+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 20.4,
+  "score_parts": {
+   "capacity": 0.0,
+   "distance": 4.8,
+   "promoter": 0.0,
+   "venue_followers": 2.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "evento",
+  "urls": [
+   "https://www.instagram.com/p/Dfb_8wNxCpt/"
+  ],
+  "venue": "La Sosta Cafe",
+  "venue_followers": 2163,
+  "venue_instagram": "la_sosta_cafe",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "mercoledì"
+ },
  "2026-11-25-nxt_station": {
   "address": "Piazzale degli Alpini, Bergamo",
   "brand": null,
@@ -6077,12 +6209,6 @@
   "genre": "Alternative",
   "genre_source": "locale (conoscenze)",
   "guests": [
-   {
-    "followers": null,
-    "instagram": "crp_pignolo",
-    "level": null,
-    "name": "crp_pignolo"
-   },
    {
     "followers": null,
     "instagram": "gruppo_gnam",
@@ -6635,8 +6761,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4000,
-   "events_same_night": 8,
+   "capacity_same_night": 4200,
+   "events_same_night": 9,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -6666,7 +6792,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 5,
+  "rank_in_night": 6,
   "room": null,
   "scope": "zona",
   "score": 33.3,
@@ -6692,6 +6818,73 @@
   "venue_instagram": "daste_bergamo",
   "venue_known": true,
   "venue_type": "live_club",
+  "weekday": "venerdì"
+ },
+ "2026-11-27-indie_power": {
+  "address": null,
+  "brand": null,
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 4400,
+   "events_same_night": 9,
+   "same_family": 0,
+   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+  },
+  "confidence": 0.9,
+  "date": "2026-11-27",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "ingresso a pagamento o in lista",
+  "first_seen": "2026-11-23",
+  "genre": "Indie",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-27-indie_power",
+  "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/875555050_18213565303368273_6152023520919342363_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NOiPHDpVtl8Q7kNvwF2E4Gi&_nc_oc=AdqkTqrGPiJxyIu9iPN8-3MaH88Tk-dfsDRwEcXLFQKgamm2BFHKgQC8wXTokjCc4VI&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CFVx4oszlnU7KUNPSqStxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQDlhIpJrxw7xSIwKM9sPql77bWJ0hEALzV-YOr1Yr_Fw&oe=6B0A1099",
+  "in_posts": true,
+  "km": 9.2,
+  "lead_days": 29,
+  "nightlife": true,
+  "party": "Torna A Milano",
+  "posted": "2026-10-29T16:03+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 5,
+  "room": null,
+  "scope": "zona",
+  "score": 35.4,
+  "score_parts": {
+   "capacity": 3.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 5.2,
+   "venue_followers": 9.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DfFZGRNjR4z/",
+   "https://www.instagram.com/p/DfVDxF_jS5i/"
+  ],
+  "venue": "INDIE POWER",
+  "venue_followers": 92070,
+  "venue_instagram": "indiepower_official",
+  "venue_known": true,
+  "venue_type": "bar",
   "weekday": "venerdì"
  },
  "2026-11-27-ink_club-pre": {
@@ -6834,8 +7027,8 @@
   "capacity_source": "stima",
   "city": "Grumello del Monte",
   "competition": {
-   "capacity_same_night": 3400,
-   "events_same_night": 8,
+   "capacity_same_night": 3600,
+   "events_same_night": 9,
    "same_family": 4,
    "strongest_rival": "Crystal Castles Night @ Zero Club"
   },
@@ -6902,8 +7095,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4000,
-   "events_same_night": 8,
+   "capacity_same_night": 4200,
+   "events_same_night": 9,
    "same_family": 3,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -6943,7 +7136,7 @@
   "promoter_followers": 380,
   "promoter_instagram": "alonic_shakti",
   "promoter_name": "nicola",
-  "rank_in_night": 9,
+  "rank_in_night": 10,
   "room": null,
   "scope": "zona",
   "score": 24.8,
@@ -6978,8 +7171,8 @@
   "capacity_source": "stima",
   "city": "Nembro",
   "competition": {
-   "capacity_same_night": 4000,
-   "events_same_night": 8,
+   "capacity_same_night": 4200,
+   "events_same_night": 9,
    "same_family": 3,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7062,8 +7255,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4000,
-   "events_same_night": 8,
+   "capacity_same_night": 4200,
+   "events_same_night": 9,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7169,8 +7362,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3900,
-   "events_same_night": 8,
+   "capacity_same_night": 4100,
+   "events_same_night": 9,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7200,7 +7393,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 6,
+  "rank_in_night": 8,
   "room": "sala 1",
   "scope": "zona",
   "score": 27.0,
@@ -7235,8 +7428,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3900,
-   "events_same_night": 8,
+   "capacity_same_night": 4100,
+   "events_same_night": 9,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7266,7 +7459,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 7,
+  "rank_in_night": 9,
   "room": "sala 2",
   "scope": "zona",
   "score": 27.0,
@@ -7495,8 +7688,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4100,
-   "events_same_night": 8,
+   "capacity_same_night": 4300,
+   "events_same_night": 9,
    "same_family": 3,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7513,16 +7706,16 @@
   "genre_source": "post",
   "guests": [
    {
+    "followers": 691,
+    "instagram": "dirty.andry",
+    "level": null,
+    "name": "Dirty Andry"
+   },
+   {
     "followers": null,
     "instagram": "4thegroovers_",
     "level": null,
     "name": "4thegroovers_"
-   },
-   {
-    "followers": null,
-    "instagram": "dirty.andry",
-    "level": null,
-    "name": "dirty.andry"
    },
    {
     "followers": null,
@@ -7543,7 +7736,7 @@
    "francesco_rivaa",
    "salvatorealagna98"
   ],
-  "headliner": null,
+  "headliner": "Dirty Andry",
   "id": "2026-11-27-tiky_klub",
   "image": "https://scontent-sea5-2.cdninstagram.com/v/t39.30808-6/911664982_1697646832373191_4093119940597796320_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=p8x709sF5WgQ7kNvwEeYh7u&_nc_oc=AdrI9a5g6-OH7TZM-iJXK8T73Z3unluJaseh3_38rGCFLklUchXXmaULYroKF7Mh4ZE&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=NZ5Lo_tD_qU_W2L_3dxR_w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSUexbAvPMLBeVK7-5wzsZrSJOrMH8jFaVHvNHaPL0jTQ&oe=6B09BBCA",
   "in_posts": true,
@@ -7556,13 +7749,13 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 8,
+  "rank_in_night": 7,
   "room": null,
   "scope": "zona",
-  "score": 26.6,
+  "score": 27.8,
   "score_parts": {
    "capacity": 4.4,
-   "guest": 0.0,
+   "guest": 0.6,
    "promoter": 0.0,
    "venue": 6,
    "venue_followers": 1.3
@@ -7591,8 +7784,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3900,
-   "events_same_night": 8,
+   "capacity_same_night": 4100,
+   "events_same_night": 9,
    "same_family": 3,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7747,9 +7940,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 1100,
-   "events_same_night": 4,
-   "same_family": 2,
+   "capacity_same_night": 1300,
+   "events_same_night": 5,
+   "same_family": 3,
    "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
@@ -7916,7 +8109,7 @@
   "lead_days": 5,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-23T10:31+00:00",
+  "posted": "2026-11-23T11:39+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -8166,7 +8359,7 @@
    "same_family": 3,
    "strongest_rival": "Savana Funk @ Druso"
   },
-  "confidence": 0.95,
+  "confidence": 0.9,
   "date": "2026-11-28",
   "day_note": null,
   "end": null,
@@ -8177,14 +8370,7 @@
   "first_seen": "2026-11-23",
   "genre": "Rock",
   "genre_source": "post",
-  "guests": [
-   {
-    "followers": null,
-    "instagram": "mdmp_mdmp",
-    "level": null,
-    "name": "mdmp_mdmp"
-   }
-  ],
+  "guests": [],
   "handles": [
    "mdmp_mdmp"
   ],
@@ -8224,6 +8410,72 @@
   "venue": "Il Circolino della Malpensata",
   "venue_followers": 2933,
   "venue_instagram": "circolinomalpensata_bergamo",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "sabato"
+ },
+ "2026-11-28-indie_power": {
+  "address": null,
+  "brand": null,
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 4100,
+   "events_same_night": 5,
+   "same_family": 3,
+   "strongest_rival": "MARIE VAUNT @ Bolgia"
+  },
+  "confidence": 0.9,
+  "date": "2026-11-28",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "ingresso a pagamento o in lista",
+  "first_seen": "2026-11-23",
+  "genre": "Indie / Commerciale",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-28-indie_power",
+  "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/910416242_18215646355368273_5138840136902424324_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=oEEXH8yK_kEQ7kNvwGZQBOz&_nc_oc=Adqa_SWQ0FuW9cFTBqgk3GxmDfJsuN8m5eNW_BahIg2sxAQcwABz96kc0Om9AMabt4U&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CFVx4oszlnU7KUNPSqStxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRVXOVKOQpJGejo2SrnpL0aahBOWksImQ5_enIfFyASfw&oe=6B09FACD",
+  "in_posts": true,
+  "km": 9.2,
+  "lead_days": 12,
+  "nightlife": true,
+  "party": "Torna A Firenze",
+  "posted": "2026-11-16T10:10+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 3,
+  "room": null,
+  "scope": "zona",
+  "score": 35.4,
+  "score_parts": {
+   "capacity": 3.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 5.2,
+   "venue_followers": 9.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DfzHEKtjVH4/"
+  ],
+  "venue": "INDIE POWER",
+  "venue_followers": 92070,
+  "venue_instagram": "indiepower_official",
   "venue_known": true,
   "venue_type": "bar",
   "weekday": "sabato"
@@ -8595,9 +8847,9 @@
   "capacity_source": null,
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 4100,
-   "events_same_night": 4,
-   "same_family": 2,
+   "capacity_same_night": 4300,
+   "events_same_night": 5,
+   "same_family": 3,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
   "confidence": 0.95,
@@ -8643,7 +8895,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 5,
+  "rank_in_night": 6,
   "room": null,
   "scope": "zona",
   "score": 24.4,
@@ -8761,8 +9013,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3600,
-   "events_same_night": 4,
+   "capacity_same_night": 3800,
+   "events_same_night": 5,
    "same_family": 0,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
@@ -8792,7 +9044,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": "Code",
-  "rank_in_night": 3,
+  "rank_in_night": 4,
   "room": null,
   "scope": "zona",
   "score": 34.2,
@@ -8944,9 +9196,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4000,
-   "events_same_night": 4,
-   "same_family": 2,
+   "capacity_same_night": 4200,
+   "events_same_night": 5,
+   "same_family": 3,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
   "confidence": 0.7,
@@ -8975,7 +9227,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 4,
+  "rank_in_night": 5,
   "room": "club room",
   "scope": "zona",
   "score": 25.6,
@@ -9010,8 +9262,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3600,
-   "events_same_night": 4,
+   "capacity_same_night": 3800,
+   "events_same_night": 5,
    "same_family": 0,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
@@ -9081,7 +9333,7 @@
   "city": "Bergamo",
   "competition": {
    "capacity_same_night": 2300,
-   "events_same_night": 5,
+   "events_same_night": 6,
    "same_family": 5,
    "strongest_rival": "Daste Bergamo @ Daste Bergamo"
   },
@@ -9221,7 +9473,7 @@
   "city": "Mezzago",
   "competition": {
    "capacity_same_night": 1850,
-   "events_same_night": 5,
+   "events_same_night": 6,
    "same_family": 5,
    "strongest_rival": "Daste Bergamo @ Daste Bergamo"
   },
@@ -9378,7 +9630,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 2350,
-   "events_same_night": 5,
+   "events_same_night": 6,
    "same_family": 5,
    "strongest_rival": "10 Space Jam @ Ink Club"
   },
@@ -9444,6 +9696,73 @@
   "venue_type": "live_club",
   "weekday": "domenica"
  },
+ "2026-11-29-in_croissanteria_lab": {
+  "address": null,
+  "brand": null,
+  "capacity": null,
+  "capacity_source": null,
+  "city": "Carobbio degli Angeli",
+  "competition": {
+   "capacity_same_night": 2750,
+   "events_same_night": 6,
+   "same_family": 0,
+   "strongest_rival": "Daste Bergamo @ Daste Bergamo"
+  },
+  "confidence": 0.9,
+  "date": "2026-11-29",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "House / Elettronica",
+  "fascia": "preserata",
+  "fascia_why": "locale di solito preserata",
+  "first_seen": "2026-11-23",
+  "genre": "Tech House",
+  "genre_source": "promoter (conoscenze)",
+  "guests": [],
+  "handles": [
+   "incroissanterialab"
+  ],
+  "headliner": null,
+  "id": "2026-11-29-in_croissanteria_lab",
+  "image": "https://scontent-sea5-1.cdninstagram.com/o1/v/t2/f2/m86/AQPmpkO69_K-7IsBZFSWC4y-QYEphXLl-NL2RhKD940Gy22I_l5UWIrHXXHAwS178dg_HXvk4hXIlrUZpj0rvqf8cNCjUU_KLML-1Tk.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_ohc=e8LAQOgTKY4Q7kNvwGWx3Zq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTk4MjEwMDMyNzI3MDMxLCJhc3NldF9hZ2VfZGF5cyI6NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=927b11924358b4e7&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84MUU5RTQ2ODBGN0I0RkFCOUNEMDdENDE1QURGNEQ4QV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0EyMUNGNERGOTRCNTQ1MUQ5REIxNkMyRDRDOUU3MzEwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbuz8umvPfFAxUCKAJDMywXQEQPXCj1wo8YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=4Tof-0KQqqUCM4LjZ2_zSg&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSPbkLpIQyIhsIf03LlEfWkCypFv5F3YCH4fIt79pOfXg&oe=6B05F440",
+  "in_posts": true,
+  "km": 12.6,
+  "lead_days": 13,
+  "nightlife": true,
+  "party": "Gabass Subculture",
+  "posted": "2026-11-16T16:56+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": "Gabass Subculture",
+  "rank_in_night": 7,
+  "room": null,
+  "scope": "zona",
+  "score": 35.3,
+  "score_parts": {
+   "capacity": 0.0,
+   "distance": 5.0,
+   "promoter": 0.0,
+   "venue_followers": 7.6
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/reel/Dfz0be4xIGA/"
+  ],
+  "venue": "In Croissanteria Lab",
+  "venue_followers": 27706,
+  "venue_instagram": "incroissanterialab",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "domenica"
+ },
  "2026-11-29-ink_club": {
   "address": "Via Giosuè Carducci 4/b, 24127",
   "brand": null,
@@ -9452,7 +9771,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 2550,
-   "events_same_night": 5,
+   "events_same_night": 6,
    "same_family": 5,
    "strongest_rival": "Daste Bergamo @ Daste Bergamo"
   },
@@ -9517,7 +9836,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 2350,
-   "events_same_night": 5,
+   "events_same_night": 6,
    "same_family": 5,
    "strongest_rival": "Daste Bergamo @ Daste Bergamo"
   },
@@ -9582,7 +9901,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 2350,
-   "events_same_night": 5,
+   "events_same_night": 6,
    "same_family": 5,
    "strongest_rival": "Daste Bergamo @ Daste Bergamo"
   },
@@ -10283,6 +10602,73 @@
   "venue_type": "open_air",
   "weekday": "giovedì"
  },
+ "2026-12-04-indie_power": {
+  "address": null,
+  "brand": null,
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.9,
+  "date": "2026-12-04",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "ingresso a pagamento o in lista",
+  "first_seen": "2026-11-23",
+  "genre": "Indie / Pop",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-04-indie_power",
+  "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/900607201_18215077456368273_2297647904023341635_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fEibcLBMttsQ7kNvwHi9Iyo&_nc_oc=AdoSEP7nCoVRueuQONOK_QCcUhrsS_Ki7K3QXN6fVBNEk_9L0Xw4teuMRHiNLf6o_Aw&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CFVx4oszlnU7KUNPSqStxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSDXv-BWbAFOphyItaMRdRGJRq9rT8CVuRNzcP_CUIEdA&oe=6B09F8D6",
+  "in_posts": true,
+  "km": 9.2,
+  "lead_days": 23,
+  "nightlife": true,
+  "party": "Torna A Pisa",
+  "posted": "2026-11-11T17:03+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 35.4,
+  "score_parts": {
+   "capacity": 3.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 5.2,
+   "venue_followers": 9.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/Dfm-STkDGTa/",
+   "https://www.instagram.com/p/Dfz277wDfIB/"
+  ],
+  "venue": "INDIE POWER",
+  "venue_followers": 92070,
+  "venue_instagram": "indiepower_official",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "venerdì"
+ },
  "2026-12-04-nxt_station-pre": {
   "address": "Piazzale degli Alpini, Bergamo",
   "brand": null,
@@ -10429,10 +10815,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
-   "same_family": 0,
-   "strongest_rival": null
+   "capacity_same_night": 200,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "Torna A Bologna @ INDIE POWER"
   },
   "confidence": 0.95,
   "date": "2026-12-05",
@@ -10701,6 +11087,74 @@
   "venue_type": "bar",
   "weekday": "sabato"
  },
+ "2026-12-05-indie_power": {
+  "address": null,
+  "brand": null,
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 3000,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "CHELINA MANUHUTU @ Bolgia"
+  },
+  "confidence": 0.9,
+  "date": "2026-12-05",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "finisce a tarda notte",
+  "first_seen": "2026-11-23",
+  "genre": "Indie",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-05-indie_power",
+  "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/902094684_18215193676368273_6020618210947997115_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xZeyHAZqwm4Q7kNvwG0Fn6h&_nc_oc=AdrRyQ_91FL27a1a-jUkmak00lld72w-x1h7ncyaIpjha0MMHdJVlHgKjnY5BxGP6QM&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CFVx4oszlnU7KUNPSqStxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT9hOdpjOgs4RqIEyEdpA5L04a69ccT-npmiIpAgkenFg&oe=6B09E9F8",
+  "in_posts": true,
+  "km": 9.2,
+  "lead_days": 23,
+  "nightlife": true,
+  "party": "Torna A Bologna",
+  "posted": "2026-11-12T17:10+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 2,
+  "room": null,
+  "scope": "zona",
+  "score": 35.4,
+  "score_parts": {
+   "capacity": 3.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 5.2,
+   "venue_followers": 9.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/Dfpj6jmjeFE/",
+   "https://www.instagram.com/p/DfzgYBTjQI9/",
+   "https://www.instagram.com/p/Df4_kfxDUlt/"
+  ],
+  "venue": "INDIE POWER",
+  "venue_followers": 92070,
+  "venue_instagram": "indiepower_official",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "sabato"
+ },
  "2026-12-05-nxt_station-pre": {
   "address": "Piazzale degli Alpini, Bergamo",
   "brand": null,
@@ -10849,10 +11303,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
-   "same_family": 0,
-   "strongest_rival": null
+   "capacity_same_night": 200,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "Torna A Verona @ INDIE POWER"
   },
   "confidence": 0.95,
   "date": "2026-12-07",
@@ -10913,6 +11367,72 @@
   "venue_instagram": "bolgia.official",
   "venue_known": true,
   "venue_type": "club",
+  "weekday": "lunedì"
+ },
+ "2026-12-07-indie_power": {
+  "address": null,
+  "brand": null,
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 3000,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "NOVAH @ Bolgia"
+  },
+  "confidence": 0.9,
+  "date": "2026-12-07",
+  "day_note": "prefestivo (Immacolata)",
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "ingresso a pagamento o in lista",
+  "first_seen": "2026-11-23",
+  "genre": "Indie",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-07-indie_power",
+  "image": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/914351618_18215971117368273_8030945960297811365_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bprinxRnA4wQ7kNvwHI4vau&_nc_oc=Adqq8VTeestg8E8ixjrJnzOIGUSNX-6w8eqy6ryRX6Kx2bPYDo83y0DE3Pm5CN6a138&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CFVx4oszlnU7KUNPSqStxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSaxJGc6JYcU-1jOCvN2ZrswHJXSYImjTTZJ5jXQijMiQ&oe=6B09FFE8",
+  "in_posts": true,
+  "km": 9.2,
+  "lead_days": 18,
+  "nightlife": true,
+  "party": "Torna A Verona",
+  "posted": "2026-11-19T17:25+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 2,
+  "room": null,
+  "scope": "zona",
+  "score": 35.4,
+  "score_parts": {
+   "capacity": 3.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 5.2,
+   "venue_followers": 9.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/Df7nJUijQWI/"
+  ],
+  "venue": "INDIE POWER",
+  "venue_followers": 92070,
+  "venue_instagram": "indiepower_official",
+  "venue_known": true,
+  "venue_type": "bar",
   "weekday": "lunedì"
  },
  "2026-12-07-nxt_station": {
@@ -11122,85 +11642,83 @@
   "venue_type": "open_air",
   "weekday": "martedì"
  },
- "2026-12-10-bar_della_musica-pre": {
-  "address": "Via Lazzaretto, 25, 25030 Adro BS",
+ "2026-12-10-brina_pasticceria": {
+  "address": null,
   "brand": null,
-  "capacity": 100,
-  "capacity_source": "stima",
-  "city": null,
+  "capacity": null,
+  "capacity_source": null,
+  "city": "Cologno al Serio",
   "competition": {
-   "capacity_same_night": 1000,
-   "events_same_night": 1,
-   "same_family": 1,
+   "capacity_same_night": 1600,
+   "events_same_night": 2,
+   "same_family": 2,
    "strongest_rival": "Possibilita @ NXT Station"
   },
-  "confidence": 0.95,
+  "confidence": 0.9,
   "date": "2026-12-10",
   "day_note": null,
   "end": null,
   "entry": null,
   "family": "Altro",
   "fascia": "preserata",
-  "fascia_why": "inizia alle 20:00",
-  "first_seen": "2026-11-21",
-  "genre": "Jazz",
-  "genre_source": "post",
+  "fascia_why": "locale di solito preserata",
+  "first_seen": "2026-11-23",
+  "genre": null,
+  "genre_source": null,
   "guests": [
    {
     "followers": null,
-    "instagram": "prenotazione",
+    "instagram": "ingredienti",
     "level": null,
-    "name": "prenotazione"
+    "name": "ingredienti"
    },
    {
-    "followers": 178,
-    "instagram": "degustazione",
+    "followers": null,
+    "instagram": "super.effort_",
     "level": null,
-    "name": "Degustazione Di Due"
+    "name": "super.effort_"
    }
   ],
   "handles": [
-   "degustazione",
-   "mosspuntodicontatto",
-   "prenotazione"
+   "ingredienti",
+   "super.effort_"
   ],
   "headliner": null,
-  "id": "2026-12-10-bar_della_musica-pre",
-  "image": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/878981579_17948905416349694_2172928467637464165_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6EHJgx0PMb8Q7kNvwF3K3Rc&_nc_oc=AdoeoAiole-o-MJzuz6drUiwJgcdX3HbftoNm2w2LiVdmWxEmp57uTFitXMdKiC_PmI&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HzPpoFjrEx4TwsAmExnM1w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRTHl_DDClUs_zIlzu97c65RtEeyU-OYdzWFaVhPGurMA&oe=6B07B06C",
+  "id": "2026-12-10-brina_pasticceria",
+  "image": "https://scontent-sea5-1.cdninstagram.com/o1/v/t2/f2/m86/AQO_mL80J5nMp__r1eUlzzgF0tPIfoBjcDf4KHvdgyZ8yrPPbmC0wwNzL8F2WYUKPtYRWCVz3ENQfMAQ9Ny_kTBxh-dMu9FBD-FeKR4.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_ohc=mDs110zorQ4Q7kNvwH5dZrd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjk0OTE5OTAzNTA0ODczOTgsImFzc2V0X2FnZV9kYXlzIjoxNiwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=50b525376be3fb64&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FMDA0NDgyOUFFRjg0NEYxOTE4REZEMEQ4MjRBREU1MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NBMTEzOUUwQkU1MjQxOThCN0M3ODczODg5RUI4ODA2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbM_fqI47PjaBUCKAJDMywXQDmIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=zVRl7OOFc4V7rADcEI5zwg&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQT-JGwhw2golNd7nALe57q28bL_goWwFwbz_fTcwDQMTQ&oe=6B060DB9",
   "in_posts": true,
-  "km": 24.3,
-  "lead_days": 36,
+  "km": 13.5,
+  "lead_days": 33,
   "nightlife": true,
   "party": null,
-  "posted": "2026-11-04T17:40+00:00",
+  "posted": "2026-11-07T11:00+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 2,
+  "rank_in_night": 3,
   "room": null,
   "scope": "zona",
-  "score": 3.3,
+  "score": 22.0,
   "score_parts": {
-   "capacity": 1.7,
-   "distance": 0.3,
+   "capacity": 0.0,
+   "distance": 4.6,
    "promoter": 0.0,
-   "venue_followers": 0.0
+   "venue_followers": 3.5
   },
   "sources": [
-   "instagram"
+   "instagram-locale"
   ],
-  "start": "20:00",
+  "start": null,
   "status": "pubblicato",
   "tickets": null,
-  "type": "dinner show",
+  "type": "dj set",
   "urls": [
-   "https://www.instagram.com/p/DfVA8SnjTVH/",
-   "https://www.instagram.com/reel/DffJ4irtPB5/"
+   "https://www.instagram.com/reel/DfcBmb8BfXm/"
   ],
-  "venue": "Bar della Musica",
-  "venue_followers": null,
-  "venue_instagram": null,
+  "venue": "Brina Pasticceria",
+  "venue_followers": 3130,
+  "venue_instagram": "brinapasticceria",
   "venue_known": true,
   "venue_type": "bar",
   "weekday": "giovedì"
@@ -11263,6 +11781,89 @@
   "venue_type": "live_club",
   "weekday": "giovedì"
  },
+ "2026-12-10-moss_punto_di_contatto_eventi-pre": {
+  "address": "Via Geremia Bonomelli, 9, 24122 Bergamo BG",
+  "brand": null,
+  "capacity": 600,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 1000,
+   "events_same_night": 2,
+   "same_family": 2,
+   "strongest_rival": "Possibilita @ NXT Station"
+  },
+  "confidence": 0.95,
+  "date": "2026-12-10",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 20:00",
+  "first_seen": "2026-11-23",
+  "genre": "Jazz",
+  "genre_source": "post",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "prenotazione",
+    "level": null,
+    "name": "prenotazione"
+   },
+   {
+    "followers": 178,
+    "instagram": "degustazione",
+    "level": null,
+    "name": "Degustazione Di Due"
+   }
+  ],
+  "handles": [
+   "degustazione",
+   "mosspuntodicontatto",
+   "prenotazione"
+  ],
+  "headliner": null,
+  "id": "2026-12-10-moss_punto_di_contatto_eventi-pre",
+  "image": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-15/878981579_17948905416349694_2172928467637464165_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6EHJgx0PMb8Q7kNvwF3K3Rc&_nc_oc=AdoeoAiole-o-MJzuz6drUiwJgcdX3HbftoNm2w2LiVdmWxEmp57uTFitXMdKiC_PmI&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HzPpoFjrEx4TwsAmExnM1w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRTHl_DDClUs_zIlzu97c65RtEeyU-OYdzWFaVhPGurMA&oe=6B07B06C",
+  "in_posts": true,
+  "km": 1.0,
+  "lead_days": 36,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-04T17:40+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 2,
+  "room": null,
+  "scope": "zona",
+  "score": 51.1,
+  "score_parts": {
+   "capacity": 6.1,
+   "distance": 9.6,
+   "promoter": 0.0,
+   "venue_followers": 6.0
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "20:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dinner show",
+  "urls": [
+   "https://www.instagram.com/p/DfVA8SnjTVH/",
+   "https://www.instagram.com/reel/DffJ4irtPB5/"
+  ],
+  "venue": "MOSS: Punto di Contatto - Eventi",
+  "venue_followers": 11959,
+  "venue_instagram": "mosspuntodicontatto",
+  "venue_known": true,
+  "venue_type": "live_club",
+  "weekday": "giovedì"
+ },
  "2026-12-10-nxt_station": {
   "address": "Piazzale degli Alpini, Bergamo",
   "brand": null,
@@ -11270,10 +11871,10 @@
   "capacity_source": "stima",
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 100,
-   "events_same_night": 1,
-   "same_family": 1,
-   "strongest_rival": "Bar della Musica @ Bar della Musica"
+   "capacity_same_night": 600,
+   "events_same_night": 2,
+   "same_family": 2,
+   "strongest_rival": "MOSS: Punto di Contatto - Eventi @ MOSS: Punto di Contatto - Eventi"
   },
   "confidence": 0.75,
   "date": "2026-12-10",
@@ -11555,6 +12156,72 @@
   "venue_type": "bar",
   "weekday": "venerdì"
  },
+ "2026-12-11-indie_power": {
+  "address": null,
+  "brand": "Afterlife",
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "competition": {
+   "capacity_same_night": 500,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "Teatro Miela @ Teatro Miela"
+  },
+  "confidence": 0.9,
+  "date": "2026-12-11",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "ingresso a pagamento o in lista",
+  "first_seen": "2026-11-23",
+  "genre": "Indie",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-11-indie_power",
+  "image": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/915762594_18216066091368273_6480461526242603215_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=GTvlgfuarggQ7kNvwG4P-Gi&_nc_oc=AdoBWCXEOFIRXS0j4CssOi3w-HAgxf86GlMwKTGOCV7Nr0vgx-iULRSj4mu0KcM5L1c&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CFVx4oszlnU7KUNPSqStxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSmr2hGyKXSrwghS1KypuE8nK30grILZdu8aQNeY9PslQ&oe=6B09F991",
+  "in_posts": true,
+  "km": 9.2,
+  "lead_days": 21,
+  "nightlife": true,
+  "party": "Torna A Perugia",
+  "posted": "2026-11-20T16:04+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 35.4,
+  "score_parts": {
+   "capacity": 3.4,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 5.2,
+   "venue_followers": 9.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/Df-CvZcjepk/"
+  ],
+  "venue": "INDIE POWER",
+  "venue_followers": 92070,
+  "venue_instagram": "indiepower_official",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "venerdì"
+ },
  "2026-12-11-teatro_miela": {
   "address": null,
   "brand": null,
@@ -11562,10 +12229,10 @@
   "capacity_source": "stima",
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
-   "same_family": 0,
-   "strongest_rival": null
+   "capacity_same_night": 200,
+   "events_same_night": 1,
+   "same_family": 1,
+   "strongest_rival": "Torna A Perugia @ INDIE POWER"
   },
   "confidence": 0.9,
   "date": "2026-12-11",
@@ -11593,7 +12260,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 1,
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
   "score": 31.8,
@@ -11860,7 +12527,7 @@
   "lead_days": 22,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-23T10:31+00:00",
+  "posted": "2026-11-23T11:39+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -12821,9 +13488,17 @@
     "instagram": null,
     "level": "notable",
     "name": "Prezioso"
+   },
+   {
+    "followers": null,
+    "instagram": "estrazione",
+    "level": null,
+    "name": "estrazione"
    }
   ],
-  "handles": [],
+  "handles": [
+   "estrazione"
+  ],
   "headliner": "Prezioso",
   "id": "2026-12-27-caffe_e_salotto",
   "image": null,
@@ -12969,17 +13644,17 @@
   "party": "utōpia",
   "posted": "2026-11-19T17:01+00:00",
   "price": null,
-  "promoter_followers": null,
+  "promoter_followers": 8477,
   "promoter_instagram": "utopia.direction",
   "promoter_name": "utōpia",
   "rank_in_night": 1,
   "room": null,
   "scope": "zona",
-  "score": 33.3,
+  "score": 43.9,
   "score_parts": {
    "capacity": 5.1,
    "guest": 0.0,
-   "promoter": 0.0,
+   "promoter": 5.3,
    "venue": 5,
    "venue_followers": 7.1
   },
@@ -12998,6 +13673,64 @@
   "venue_instagram": "daste_bergamo",
   "venue_known": true,
   "venue_type": "live_club",
+  "weekday": "giovedì"
+ },
+ "2026-12-31-indie_power": {
+  "address": null,
+  "brand": null,
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": "Dalmine",
+  "confidence": 0.8,
+  "date": "2026-12-31",
+  "day_note": "Capodanno (veglione)",
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "tipo di evento: evento",
+  "first_seen": "2026-11-23",
+  "genre": "Indie",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-31-indie_power",
+  "image": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-15/883374983_18214055092368273_2077374521953475293_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=zmPt_lOQok4Q7kNvwFanJ31&_nc_oc=Adpne7kt3K8BmXs_vOy47OZ9G4EH1WCxHs-y1p1Z0ih3_VRtmE3G42HnTS7eIMStI4M&_nc_zt=23&_nc_ht=scontent-sea5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CFVx4oszlnU7KUNPSqStxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT31-Y0yU3obhZ1KBCEnBwLxbsdoirLWlI2OpgJ4E6yKg&oe=6B09E575",
+  "in_posts": true,
+  "km": 9.2,
+  "lead_days": 59,
+  "nightlife": false,
+  "party": "Episodio Speciale: Capodanno",
+  "posted": "2026-11-02T17:04+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 50.2,
+  "score_parts": {
+   "capacity": 3.4,
+   "distance": 6.3,
+   "promoter": 0.0,
+   "venue_followers": 9.8
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "evento",
+  "urls": [
+   "https://www.instagram.com/p/DfPzUPTjRem/"
+  ],
+  "venue": "INDIE POWER",
+  "venue_followers": 92070,
+  "venue_instagram": "indiepower_official",
+  "venue_known": true,
+  "venue_type": "bar",
   "weekday": "giovedì"
  },
  "2026-12-31-keller_factory_2_0_live_music_pub": {
@@ -13157,6 +13890,64 @@
   "venue_known": true,
   "venue_type": "bar",
   "weekday": "giovedì"
+ },
+ "2027-01-01-la_pasticceria_di_dario": {
+  "address": "Via Roma, 206, 24064 Grumello del Monte BG",
+  "brand": null,
+  "capacity": 200,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.8,
+  "date": "2027-01-01",
+  "day_note": "festivo (Capodanno)",
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "tipo di evento: evento",
+  "first_seen": "2026-11-23",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2027-01-01-la_pasticceria_di_dario",
+  "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/894461073_18477105043137578_8583216725664346639_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8Mw8kGvfc2QQ7kNvwFAqzFK&_nc_oc=AdobRvIMkEjSrBegAMZOFmwME_UjbRqPmpIoTMSKIEwX5HblNyZkzi-JzezNnCc3-os&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hZmC6HK9r8yiQD0_KSJbFw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQScfoKglkHUZ4t0QI_X-1T8gNW8h55MQf9x5rBiFlvW6Q&oe=6B0A1035",
+  "in_posts": true,
+  "km": 17.6,
+  "lead_days": 50,
+  "nightlife": false,
+  "party": "Aperti Tutti I Giorni!",
+  "posted": "2026-11-12T10:12+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 34.8,
+  "score_parts": {
+   "capacity": 3.4,
+   "distance": 3.0,
+   "promoter": 0.0,
+   "venue_followers": 7.4
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "evento",
+  "urls": [
+   "https://www.instagram.com/p/Dfoz-sdR0Xd/"
+  ],
+  "venue": "La Pasticceria di Dario",
+  "venue_followers": 25388,
+  "venue_instagram": "lapasticceriadidario",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "venerdì"
  },
  "2027-01-01-paci_paciana": {
   "address": "Via Grumello 61/c, Bergamo",

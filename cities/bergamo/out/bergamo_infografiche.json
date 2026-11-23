@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T10:31",
+ "generated": "2026-11-23T11:39",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -50,10 +50,10 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Tiky Klub",
+      "line1": "Dirty Andry @ Tiky Klub",
       "line2": "Tech House",
       "time": "00:00",
-      "score": 26.6,
+      "score": 27.8,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -88,12 +88,30 @@
       "family": "Altro"
      }
     ],
+    "2026-11-27": [
+     {
+      "line1": "Torna A Milano @ INDIE POWER",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 35.4,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-28": [
      {
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
       "time": "23:30",
       "score": 60.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Torna A Firenze @ INDIE POWER",
+      "line2": "Indie / Commerciale",
+      "time": "00:00",
+      "score": 35.4,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -233,6 +251,14 @@
      "line2": "live",
      "time": "20:00",
      "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Officina Panarari",
+     "line2": "aperitivo",
+     "time": "17:00",
+     "score": 17.8,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -445,6 +471,14 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Gabass Subculture @ In Croissanteria Lab",
+     "line2": "Tech House",
+     "time": "00:00",
+     "score": 35.3,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     }
    ]
   },
@@ -463,23 +497,23 @@
    "@possibilita",
    "@csapacipaciana",
    "@consumazione",
+   "@indiepower_official",
    "@to_on.tv",
    "@spike.hellis",
    "@lowl_fest",
    "@www.bloomnet",
    "@bowie.hc",
    "@door_74",
+   "@officinapanarari",
    "@associazione_luca_coscioni",
    "@uaar_it",
    "@please.nights",
    "@nxtbergamo",
    "@spettacoli",
    "@choruslife.bergamo",
-   "@crp_pignolo",
    "@gruppo_gnam",
    "@lenticchie",
-   "@nikita__land",
-   "@schivardi1953"
+   "@nikita__land"
   ],
   "hashtags": [
    "#bergamo",
@@ -491,16 +525,35 @@
   "from": "2026-11-30",
   "to": "2026-12-06",
   "dates_with_serate": [
+   "2026-12-04",
    "2026-12-05"
   ],
   "serate_by_family": {
    "Altro": {
+    "2026-12-04": [
+     {
+      "line1": "Torna A Pisa @ INDIE POWER",
+      "line2": "Indie / Pop",
+      "time": "00:00",
+      "score": 35.4,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-12-05": [
      {
       "line1": "CHELINA MANUHUTU @ Bolgia",
       "line2": "",
       "time": "23:30",
       "score": 60.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Torna A Bologna @ INDIE POWER",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 35.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -585,6 +638,7 @@
   "caption_handles": [
    "@nxtbergamo",
    "@prenotazione",
+   "@indiepower_official",
    "@inkclub_bergamo",
    "@bolgia.official",
    "@importanti",
@@ -832,12 +886,30 @@
       "family": "Altro"
      }
     ],
+    "2026-11-27": [
+     {
+      "line1": "Torna A Milano @ INDIE POWER",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 35.4,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-28": [
      {
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
       "time": "23:30",
       "score": 60.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Torna A Firenze @ INDIE POWER",
+      "line2": "Indie / Commerciale",
+      "time": "00:00",
+      "score": 35.4,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -970,10 +1042,10 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Tiky Klub",
+      "line1": "Dirty Andry @ Tiky Klub",
       "line2": "Tech House",
       "time": "00:00",
-      "score": 26.6,
+      "score": 27.8,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -1229,6 +1301,14 @@
      "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Officina Panarari",
+     "line2": "aperitivo",
+     "time": "17:00",
+     "score": 17.8,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-25": [
@@ -1439,6 +1519,14 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Gabass Subculture @ In Croissanteria Lab",
+     "line2": "Tech House",
+     "time": "00:00",
+     "score": 35.3,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     }
    ],
    "2026-11-30": [
@@ -1456,9 +1544,9 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@zeroclub.bg",
+   "@prenotazione",
    "@barleyartsreal",
    "@alchemica_club",
-   "@prenotazione",
    "@drusobg",
    "@daste_bergamo",
    "@kellerfactory_",
@@ -1472,6 +1560,7 @@
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
+   "@indiepower_official",
    "@bloom_mezzago",
    "@discoteca_queen",
    "@sabbiemobili_official",
@@ -1482,8 +1571,7 @@
    "@oasi.night",
    "@arya.lounge",
    "@premiere.premiere",
-   "@choruslife.bergamo",
-   "@door_74"
+   "@choruslife.bergamo"
   ],
   "hashtags": [
    "#bergamo",
@@ -1496,6 +1584,7 @@
   "from": "2026-12-01",
   "to": "2026-12-31",
   "dates_with_serate": [
+   "2026-12-04",
    "2026-12-05",
    "2026-12-07",
    "2026-12-11",
@@ -1506,12 +1595,30 @@
   ],
   "serate_by_family": {
    "Altro": {
+    "2026-12-04": [
+     {
+      "line1": "Torna A Pisa @ INDIE POWER",
+      "line2": "Indie / Pop",
+      "time": "00:00",
+      "score": 35.4,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-12-05": [
      {
       "line1": "CHELINA MANUHUTU @ Bolgia",
       "line2": "",
       "time": "23:30",
       "score": 60.0,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Torna A Bologna @ INDIE POWER",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 35.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1524,9 +1631,25 @@
       "score": 60.0,
       "fascia": "serata",
       "family": "Altro"
+     },
+     {
+      "line1": "Torna A Verona @ INDIE POWER",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 35.4,
+      "fascia": "serata",
+      "family": "Altro"
      }
     ],
     "2026-12-11": [
+     {
+      "line1": "Torna A Perugia @ INDIE POWER",
+      "line2": "Indie",
+      "time": "00:00",
+      "score": 35.4,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Teatro Miela",
       "line2": "Indie / Rock",
@@ -1595,7 +1718,7 @@
       "line1": "utōpia @ Daste Bergamo",
       "line2": "Melodic House",
       "time": "23:00",
-      "score": 33.3,
+      "score": 43.9,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1695,10 +1818,18 @@
      "family": "Altro"
     },
     {
-     "line1": "Bar della Musica",
+     "line1": "MOSS: Punto di Contatto - Eventi",
      "line2": "Jazz",
      "time": "20:00",
-     "score": 3.3,
+     "score": 51.1,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Brina Pasticceria",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 22.0,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1812,6 +1943,7 @@
   "caption_handles": [
    "@prenotazione",
    "@nxtbergamo",
+   "@indiepower_official",
    "@bloom_mezzago",
    "@circolinomalpensata_bergamo",
    "@bolgia.official",
@@ -1827,19 +1959,18 @@
    "@marmellata",
    "@possibilita",
    "@spettacoli",
+   "@mosspuntodicontatto",
    "@degustazione",
+   "@brinapasticceria",
+   "@ingredienti",
+   "@super.effort_",
    "@csapacipaciana",
    "@discoteca_queen",
    "@nikita__land",
    "@francesco_fanucchi_",
    "@garden.exe.music",
    "@garden.exe",
-   "@door_74",
-   "@charlie.blackbird",
-   "@drusobg",
-   "@charlie_cinelli",
-   "@alessandro.sipolo",
-   "@naturalezza"
+   "@door_74"
   ],
   "hashtags": [
    "#bergamo",
