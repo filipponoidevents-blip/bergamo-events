@@ -51,13 +51,21 @@ def core_name(name: str) -> str | None:
     return core
 
 
+def merge_knowledge(base: dict, mine: dict) -> dict:
+    """Conoscenze importate + conoscenze scritte a mano: le liste si sommano e le voci a mano vengono dopo, quindi vincono."""
+    out = dict(base)
+    for k, v in (mine or {}).items():
+        out[k] = (out.get(k) or []) + v if isinstance(v, list) and isinstance(out.get(k), list) else v
+    return out
+
+
 class City:
-    def __init__(self, folder: str | Path):
+    def __init__(self, folder: str | Path, knowledge: bool = True):
         self.dir = Path(folder)
         self.slug = self.dir.name
         self.settings = deep_merge(read_yaml(ROOT / "defaults" / "settings.yaml"), read_yaml(self.dir / "city.yaml"))
         self.c = self.settings["city"]
-        self.know = read_yaml(self.dir / "conoscenze.yaml")
+        self.know = merge_knowledge(read_yaml(self.dir / "conoscenze-importate.yaml"), read_yaml(self.dir / "conoscenze.yaml")) if knowledge else {}
         self.data = self.dir / "data"
         self.out = self.dir / "out"
         self.data.mkdir(parents=True, exist_ok=True)
@@ -82,6 +90,8 @@ class City:
             v.update({k: x for k, x in patch.items() if x is not None})
             if patch.get("remove"):   # "non è nightlife": il locale sparisce da tutto
                 self.venues.remove(v)
+            else:
+                self._absorb_twins(v)
             self._index = None
         self.promoters: dict[str, dict] = {}
         for h, a in self.registry["accounts"].items():
@@ -95,6 +105,19 @@ class City:
             if v.get("lat") is not None and v.get("km") is None:
                 v["km"] = km_between(self.c["lat"], self.c["lon"], v["lat"], v["lon"])
         self._index = None
+
+    def _absorb_twins(self, v: dict) -> None:
+        """Lo stesso locale trovato due volte dal sistema (es. "NXT Station" e "NXT Bergamo", a 50 m): resta quello delle conoscenze."""
+        if v.get("lat") is None:
+            return
+        words = {w for n in [v["name"], *(v.get("aliases") or [])] for w in norm(n).split() if len(w) >= 3 and w not in GENERIC}
+        for o in list(self.venues):
+            if o is v or o.get("lat") is None or km_between(v["lat"], v["lon"], o["lat"], o["lon"]) > 0.3:
+                continue
+            same = (o.get("instagram") and o.get("instagram") == v.get("instagram")) or words & {w for w in norm(o["name"]).split() if w not in GENERIC}
+            if same and not any(norm(o["name"]) == norm(p.get("name") or "") for p in self.know.get("venues") or []):
+                self.venues.remove(o)
+                v["aliases"] = sorted({*(v.get("aliases") or []), o["name"]})
 
     def _aliases(self):
         if self._index is None:
@@ -170,7 +193,7 @@ class City:
         def add(h, weight):
             h = (h or "").lower().lstrip("@")
             a = self.account(h)
-            if h and h not in seen and a.get("readable") is not False and a.get("kind") not in ("artist", "ignore"):
+            if h and h not in seen and a.get("readable") is not False and a.get("kind") not in ("artist", "ignore", "national", "media"):
                 seen.add(h)
                 out.append((weight, h))
         for v in self.venues:

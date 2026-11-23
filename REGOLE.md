@@ -46,6 +46,7 @@ Per i post le serate sono divise in: House / Elettronica, Hip Hop / Trap, Commer
 ## Titoli e grafiche
 - Calendario: `[Genere] Locale · Serata w/ Headliner`, le parti che mancano si tolgono.
 - Grafiche: riga 1 "Serata @ Locale" (senza nome serata: l'headliner), riga 2 "genere, headliner, sala". Nomi dei profili, mai gli @.
+  Solo serate DJ/club; pagine per famiglia di genere, preserate su pagine bianche, poi i grandi eventi fuori zona. Locali con `in_posts: false` solo nel calendario.
 - Telefono: solo l'ora di inizio; dopo mezzanotte va alle 23:59 della sera prima.
 
 ## Nessuna approvazione
@@ -55,6 +56,13 @@ Sotto resta in "da controllare" nel file di stato e esce appena un'altra fonte l
 ## Conoscenze (facoltative, `cities/<città>/conoscenze.yaml`)
 `seeds` profili da cui partire · `venues` voto, capienza, sale, genere di un locale · `promoters` genere, voto, nome della serata ·
 `artists` DJ importanti in più · `hide` eventi da togliere · `fix` correzioni di un evento · `events` eventi che nessuno pubblica.
+Per Bergamo il lavoro a mano della versione 1 (voti, capienze, sale, generi, 85 promoter, artisti, nascosti) è in `conoscenze-importate.yaml`;
+`conoscenze.yaml` viene dopo e vince. Un locale delle conoscenze assorbe i doppioni trovati dal sistema a meno di 300 m con una parola del nome in comune.
+
+## Profili che non diventano eventi
+Pagine scout (servono solo a scoprire), organizzatori nazionali (biografia "in Italia", "nel mondo", tour, booking: i loro post parlano di tutta Italia)
+e profili che organizzano eventi ma non serate (catering, matrimoni, raduni, mercatini, band). Un locale sconosciuto conta "in zona" solo se
+il post è di un locale della zona, non di un promoter (che gira anche fuori). Un locale cercato per nome sulla mappa deve avere davvero quel nome.
 
 ## Limiti noti
 - Instagram: solo profili pubblici Business/Creator; circa 20 profili ogni 2 ore (limite di Meta). Le storie non si leggono.

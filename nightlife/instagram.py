@@ -65,11 +65,22 @@ def scout_party_names(text: str) -> list[str]:
     return out
 
 
+# Profili che organizzano "eventi" ma non serate: catering, matrimoni, raduni, mercatini, band, cover.
+NOT_PARTY = re.compile(r"catering|wedding|matrimon|food ?truck|street ?food|raduno|\bcars\b|market|mercatin|artigian|casa editrice|"
+                       r"\bband\b|cover band|tribute|per i vostri eventi|eventi privati|animazione|noleggio|service audio|fotograf", re.I)
+# Organizzatori nazionali di concerti e tour: non sono della zona, i loro post parlano di tutta Italia.
+NATIONAL = re.compile(r"in italia|nel mondo|in tutta italia|worldwide|\btour\b|booking agency|management|live nation", re.I)
+
+
 def guess_kind(name: str, bio: str) -> str:
     """Locale, promoter, artista o testata: si capisce dal nome e dalla biografia del profilo."""
     text = plain(f"{name}\n{bio}")
     if MEDIA_WORDS.search(text):
         return "media"
+    if NOT_PARTY.search(text) and not re.search(r"\bclub\b|party|serat|night|techno|house|\bdj\b", text, re.I):
+        return "ignore"
+    if NATIONAL.search(text) and not re.search(r"bergamo|\bbg\b", text, re.I):
+        return "national"
     venue = bool(VENUE_WORDS.search(text)) + 2 * bool(ADDRESS_WORDS.search(text))
     artist = 2 * bool(ARTIST_WORDS.search(text))
     promoter = bool(PROMOTER_WORDS.search(text))
@@ -80,6 +91,19 @@ def guess_kind(name: str, bio: str) -> str:
     if promoter:
         return "promoter"
     return "venue" if venue else "unknown"
+
+
+def known_promoter(city, h: str) -> bool:
+    return any((p.get("instagram") or "").lower() == h for p in city.know.get("promoters") or [])
+
+
+def reclassify(city) -> None:
+    """Le regole su chi è promoter migliorano: i profili già visti si ricontrollano con quelle nuove (senza chiamate)."""
+    for h, a in city.registry["accounts"].items():
+        if a.get("kind") == "promoter" and a.get("bio") is not None and not known_promoter(city, h) and not a.get("party_name"):
+            k = guess_kind(a.get("name") or h, a.get("bio") or "")
+            if k in ("ignore", "national"):
+                a["kind"], a["watch"] = k, None
 
 
 class Instagram:
@@ -113,11 +137,15 @@ class Instagram:
         acc.update({"name": clean_name(bd.get("name") or handle), "followers": bd.get("followers_count"), "bio": (bd.get("biography") or "")[:300],
                     "website": bd.get("website"), "checked": now_iso()[:10], "readable": True})
         if not acc.get("kind") or acc.get("kind") == "unknown":
-            acc["kind"] = "venue" if self.city.venue_by_handle(handle) else guess_kind(acc["name"], acc["bio"])
+            acc["kind"] = "venue" if self.city.venue_by_handle(handle) else "promoter" if self._known_promoter(handle) else guess_kind(acc["name"], acc["bio"])
         return acc
+
+    def _known_promoter(self, h: str) -> bool:
+        return known_promoter(self.city, h)
 
     def run(self) -> None:
         """Legge un gruppo di profili (i meno recenti per primi) e controlla alcuni profili taggati ancora sconosciuti."""
+        reclassify(self.city)
         if not self.ready:
             self.problems.append("Instagram saltato: manca il segreto IG_ACCESS_TOKEN (o instagram.user_id in city.yaml).")
             return

@@ -49,7 +49,10 @@ def collect(city: City, online: bool = True) -> tuple[list[dict], list[str]]:
     raws: list[dict] = [e for v in web.values() for e in v]
     hidden_posts = {str(h["post"]) for h in city.know.get("hide") or [] if h.get("post")}
     found = Counter()
-    scouts = {h for h, a in city.registry["accounts"].items() if a.get("kind") == "scout"}
+    from .instagram import reclassify
+    reclassify(city)
+    # pagine "scout" (servono solo a scoprire profili), organizzatori nazionali e profili che non fanno serate: i loro post non diventano eventi
+    scouts = {h for h, a in city.registry["accounts"].items() if a.get("kind") in ("scout", "national", "ignore")}
     for pid, post in ig.posts.items():
         if pid in hidden_posts or post["account"] in scouts:   # le pagine "scout" servono solo a scoprire profili
             continue
@@ -225,7 +228,7 @@ def build(city: City, raws: list[dict], online: bool = True) -> tuple[list[dict]
         in_zone = km is not None and km <= radius
         big = not in_zone and bool(brand or (v and (v.get("big") or (v.get("vote") or 0) >= 9)) or (top_guest and top_guest["level"] == "top"))
         if km is None and not big:
-            in_zone = any(city.venue_by_handle(a) or city.promoter(a) for a in ev["accounts"])  # locale sconosciuto ma annunciato da un profilo della zona
+            in_zone = any(city.venue_by_handle(a) for a in ev["accounts"])  # locale sconosciuto ma annunciato da un locale della zona (un promoter gira anche fuori)
             ev["confidence"] = round(ev["confidence"] - 0.15, 2)
         if not in_zone and not big:
             dropped.append({**_slim(ev), "why": f"fuori zona ({km} km) e non è un grande evento"})
@@ -306,9 +309,9 @@ def _new_venue(city: City, ev: dict) -> dict | None:
             city._build()
             return city.venue_named(rec["name"], exact=True) or city.venue_named(ev["venue"])
     place = None
-    for q in [f"{ev['address']}" if ev.get("address") else None, f"{ev['venue']}, {city.c['name']}" if ev.get("venue") else None]:
+    for q, by_name in [(ev.get("address"), False), (f"{ev['venue']}, {city.c['name']}" if ev.get("venue") else None, True)]:
         if q:
-            place = discover.geocode(city, q if "," in q else f"{q}, {city.c['name']}")
+            place = discover.geocode(city, q if "," in q else f"{q}, {city.c['name']}", name=ev["venue"] if by_name else None)
             if place:
                 break
     if not place or not ev.get("venue") or len(norm(ev["venue"])) < 3:

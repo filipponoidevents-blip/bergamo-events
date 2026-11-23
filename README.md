@@ -13,6 +13,8 @@ li mette in classifica e prepara i calendari e i dati per i post. Gratis: niente
 | `bergamo_infografiche.json` | dati pronti per i post della settimana e del mese, con gli @ per la didascalia |
 | `bergamo_locali.csv`, `bergamo_profili.csv` | l'anagrafica trovata: locali (indirizzo, km, capienza, follower) e profili Instagram |
 | `bergamo_stato.md` | com'è andato l'ultimo giro, fonti saltate, eventi da controllare |
+| `bergamo.ics`, `alerts.ics`, `all.ics`, `other.ics` | gli stessi calendari della versione 1, con gli stessi nomi (`old_feeds` in `city.yaml`): chi li ha sul telefono non cambia niente |
+| `post/` (scaricabile dalla pagina del giro su GitHub, "Artifacts") | grafiche Instagram e TikTok: lunedì la settimana, mercoledì "Prima della serata", ultima domenica il mese dopo |
 
 ## Come funziona
 
@@ -29,12 +31,15 @@ li mette in classifica e prepara i calendari e i dati per i post. Gratis: niente
     python -m nightlife run --city bergamo        # un giro completo
     python -m nightlife run --offline              # rilegge solo i post già salvati
     python -m nightlife new-city brescia 45.5398 10.2195 25
-    python -m nightlife compare archivio/database-v1   # quanto della vecchia lista a mano ha trovato da solo
+    python -m nightlife compare archivio/database-v1   # quanto della vecchia lista a mano ha trovato da solo (senza conoscenze)
+    python -m nightlife import-v1 archivio/database-v1 --city bergamo   # voti, generi, promoter della versione 1 -> conoscenze-importate.yaml
+    python -m nightlife posts --city bergamo --week 2026-11-23           # grafiche (anche --month 2026-12, --midweek 2026-11-25)
 
 ## Cartelle
 
 - `nightlife/` il programma, uguale per ogni città. `nightlife/defaults/` valori di base, DJ importanti, grandi marchi.
-- `cities/<città>/city.yaml` centro, raggio, pagina social. `conoscenze.yaml` facoltativo.
+- `cities/<città>/city.yaml` centro, raggio, pagina social. `conoscenze.yaml` facoltativo, scritto a mano, vince su tutto.
+  `conoscenze-importate.yaml` (solo Bergamo) è generato da `import-v1`: non si modifica a mano.
 - `cities/<città>/data/` scritto dal programma: anagrafica, post letti, eventi (con lo storico).
 - `archivio/` la versione 1: note e database salvati, usati solo per il confronto.
 - `skill/SKILL.md` la procedura per rifare tutto su un'altra città.

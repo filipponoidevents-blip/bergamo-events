@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
   push:
     branches: ["claude/project-thread-b9jaty"]
-    paths: ["nightlife/**", "cities/*/city.yaml", "cities/*/conoscenze.yaml", ".github/workflows/nightlife.yml"]
+    paths: ["nightlife/**", "cities/*/city.yaml", "cities/*/conoscenze*.yaml", ".github/workflows/nightlife.yml"]
 permissions:
   contents: write
 concurrency: {group: nightlife-v2, cancel-in-progress: false}
@@ -20,13 +20,13 @@ jobs:
         with: {python-version: "3.12"}
       - run: sudo apt-get install -y -q tesseract-ocr tesseract-ocr-ita > /dev/null
       - run: pip install -q -e .
-      - name: Giro completo per ogni città (dopo una modifica del programma, 5 giri a un'ora di distanza per partire più in fretta)
+      - name: Giro completo per ogni città (dopo una modifica del programma, 3 giri a un'ora di distanza per partire più in fretta)
         timeout-minutes: 340
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
-          CYCLES: ${{ github.event_name == 'push' && '5' || '1' }}
+          CYCLES: ${{ github.event_name == 'push' && '3' || '1' }}
         run: |
           git config user.name "events-bot"
           git config user.email "events-bot@users.noreply.github.com"
@@ -43,10 +43,16 @@ jobs:
             fi
             if [ "$i" -lt "$CYCLES" ]; then sleep 3660; fi
           done
+      - name: Grafiche dei post in calendario oggi (lunedì settimana, mercoledì preserata, ultima domenica il mese)
+        run: python -m nightlife posts --city all || true
+      - uses: actions/upload-artifact@v4
+        if: hashFiles('cities/*/out/post/*.png') != ''
+        with: {name: post, path: "cities/*/out/post/", retention-days: 30}
       - name: Pubblica le uscite sul branch feed-v2
         run: |
           mkdir -p /tmp/site
           for d in cities/*/out; do cp -r "$d"/. /tmp/site/; done
+          rm -rf /tmp/site/post
           cd /tmp/site
           git init -q -b feed-v2
           git config user.name "events-bot"

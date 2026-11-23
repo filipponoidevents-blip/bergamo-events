@@ -18,6 +18,9 @@ Talk to Filippo in Italian, simple words, click-by-click steps, free tools only.
 4. Merge across sources, serata/preserata, score 0-100, competition per night.
 5. Outputs in `cities/<city>/out/` and branch `feed-v2`: .ics calendars (serate, preserate, grandi eventi, tutto), events CSV, promoter calendar (md/json),
    infographics JSON (week/month, serate by genre family, preserate, big events, caption @handles), venue and profile lists, status report.
+   Optional `old_feeds` in city.yaml publishes extra .ics files with legacy names (Bergamo: bergamo.ics, alerts.ics, all.ics, other.ics).
+6. Post graphics (`python -m nightlife posts`): wall-calendar slides, IG 4:5 and TikTok 9:16, Monday week / Wednesday "Prima della serata" /
+   last Sunday next month; uploaded as the run's "post" artifact.
 
 ## New city: steps
 1. `python -m nightlife new-city <nome> <lat> <lon> [raggio]` → creates `cities/<nome>/city.yaml` and an empty `conoscenze.yaml`.
@@ -32,7 +35,8 @@ Talk to Filippo in Italian, simple words, click-by-click steps, free tools only.
 ## Rerun / check Bergamo
 - Status: `cities/bergamo/out/bergamo_stato.md` (sources skipped, Instagram limit or expired token, events to check).
 - Offline reread after reader changes: `python -m nightlife run --city bergamo --offline`.
-- Coverage vs the old hand-made list: `python -m nightlife compare archivio/database-v1 --city bergamo` (also printed in every workflow run).
+- Bergamo's hand-made v1 knowledge lives in `cities/bergamo/conoscenze-importate.yaml` (regenerate with `python -m nightlife import-v1 archivio/database-v1 --city bergamo`); corrections go in `conoscenze.yaml`.
+- Coverage vs the old hand-made list (autonomous discovery only, knowledge ignored): `python -m nightlife compare archivio/database-v1 --city bergamo` (also printed in every workflow run).
 
 ## Things to know
 - Instagram token lasts ~60 days: a reminder appears in the calendar 10 days before; renewal steps in README. Update `token_renewed` after.

@@ -38,6 +38,15 @@ def main(argv=None) -> None:
     c = sub.add_parser("compare")
     c.add_argument("old")
     c.add_argument("--city", default="bergamo")
+    po = sub.add_parser("posts", help="grafiche dei post: quelle in calendario oggi, o --week/--month/--midweek")
+    po.add_argument("--city", default="all")
+    po.add_argument("--week")
+    po.add_argument("--month")
+    po.add_argument("--midweek")
+    po.add_argument("--date", help="fa finta che oggi sia questa data (AAAA-MM-GG)")
+    iv = sub.add_parser("import-v1", help="porta voti, generi, promoter e locali scritti a mano nella versione 1")
+    iv.add_argument("old")
+    iv.add_argument("--city", default="bergamo")
     a = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
@@ -63,6 +72,24 @@ instagram:
         return
 
     for folder in city_dirs(a.city):
+        if a.cmd == "posts":
+            from datetime import date as _d
+            from .posts import due, make
+            jobs = [(k, v) for k, v in (("week", a.week), ("month", a.month), ("midweek", a.midweek)) if v] or due(_d.fromisoformat(a.date) if a.date else _d.today())
+            for kind, arg in jobs:
+                for p in make(City(folder), kind, arg):
+                    print(p)
+            if not jobs:
+                print("Oggi nessun post in calendario.")
+            continue
+        if a.cmd == "import-v1":
+            from .importa import write
+            print(write(City(folder, knowledge=False), Path(a.old)))
+            continue
+        if a.cmd == "compare":   # misura cosa trova il sistema da solo: senza conoscenze
+            from .compare import compare
+            print(compare(City(folder, knowledge=False), Path(a.old)))
+            continue
         city = City(folder)
         if a.cmd == "discover":
             for note in discover.run(city, force_osm=True):

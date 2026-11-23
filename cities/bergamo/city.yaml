@@ -26,3 +26,11 @@ sources:
       - url: "https://primabergamo.it/tempo-libero/eventi/"
         follow: "primabergamo\\.it/tempo-libero/eventi/[a-z0-9-]+/?$"
         max_pages: 20
+
+# Gli stessi calendari della versione 1, con gli stessi nomi di file: chi li ha già sul telefono non cambia niente.
+# groups: dj = serate e preserate con DJ in zona, grandi = grandi eventi fuori zona, altro = il resto in zona (live, quiz, cultura...)
+old_feeds:
+  bergamo.ics: {title: "Bergamo Nights", groups: [dj], reminders: true}
+  alerts.ics: {title: "Bergamo Nights · Big events", groups: [grandi], reminders: true}
+  all.ics: {title: "Bergamo Nights · All", groups: [dj, grandi]}
+  other.ics: {title: "Bergamo Nights · Other events", groups: [altro]}

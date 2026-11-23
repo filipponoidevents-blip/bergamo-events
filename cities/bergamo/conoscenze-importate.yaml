@@ -1,0 +1,966 @@
+# Generato da: python -m nightlife import-v1 archivio/database-v1  (non modificare a mano: si rigenera)
+# Le correzioni vanno in conoscenze.yaml, che vince su questo file.
+seeds: [unplug__bg, casacostez, bucheesebar, savana.king25, cosmo.food.club, contest_bg, bar30elode, inkclub_bergamo, nxtbergamo, sprint_bergamo, balzerbynight, intothewoodsbg, cafeteriatreviolo, karma_lounge_official_,
+  victorialoungebar_bonate, caffetteria_nuova_rotonda, zeroclub.bg, daste_bergamo, edonebergamo, circolinomalpensata_bergamo, choruslife.bergamo, lazzaretto_bergamo_estate, gres_art_671, csapacipaciana,
+  barrys__, setai_club_official, ninfeasocialclub, drusobg, loft.bergamo, tiky.klub, discoteca_queen, thanka.official, capogirojoyclub, kellerfactory_, vibetheclub, bolgia.official, bobadillafeelingclub,
+  oroneroloveandmusic, jamlivestudio, barperlage, twofestival, decibel_club, sabbiemobili_official, incroissanterialab, brinapasticceria, mint_lounge, liveclub, nikita__land, bv_rooftop, baiadelrebrignano,
+  hype.club.official, arya.lounge, al_tabarin, charleston.treviglio, officinapanarari, bar_sanmarco, hiddenhell.techno, juiceclubit, supertatobolgia, lecannibaleclub, utopia.direction, discopastasc, sommet_night,
+  noidfamilia, icksdresstoimpress, theboxbergamo, bsk.sound, crocevia_, bergamonightservice, please.nights, talk.maf, sloth.bg, we.are.stepup, unibg_party, premiere.premiere, cheri.it, the.circlehub, crystalcastlesnightt,
+  cromaroom, oasi.night, selected.lab, upside.down.night, aliveofficialparty, afrodylanofficial, call._.out, iconevents.official]
+venues:
+- name: Bolgia
+  aliases: [Bolgia Bergamo, Bolgia Club, Bolgia Summer Garden, Discoteca Bolgia]
+  instagram: bolgia.official
+  type: club
+  fascia: serata
+  vote: 10
+  capacity: 3000
+  rooms:
+    main room: {vote: 10, capacity: 3000}
+    summer garden: {vote: 10, capacity: 3000}
+    sala 2: {vote: 6, capacity: 200}
+  watch: true
+- name: Setai
+  aliases: [Ex Fluid, Fluid, Setai Club, Setai Orio]
+  instagram: setai_club_official
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 700
+  rooms:
+    garden: {vote: 10, capacity: 1000}
+    sala privè: {vote: 6, capacity: 50}
+    sala privé: {vote: 6, capacity: 50}
+    sala prive: {vote: 6, capacity: 50}
+  watch: true
+- name: Zero Club
+  aliases: [Cavo Club, Circolo Ego, Clash Club, Zero Club Bergamo]
+  instagram: zeroclub.bg
+  type: club
+  fascia: serata
+  vote: 7
+  capacity: 500
+  rooms:
+    main room: {vote: 10, capacity: 500}
+    club room: {vote: 6, capacity: 100}
+  watch: true
+- name: Nikita
+  aliases: [Costez, Costez Summer Club, El Jardin de Nikita, Nikita Disco Club, Nikita Grumello, Nikita Telgate]
+  instagram: nikita__land
+  type: club
+  fascia: serata
+  vote: 7
+  capacity: 1000
+  rooms:
+    el cielo: {vote: 6, capacity: 500}
+  genre: Commerciale
+  watch: true
+- name: Bobadilla Feeling Club
+  aliases: [Bobadilla, Bobadilla Dalmine]
+  instagram: bobadillafeelingclub
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 500
+  genre: Commerciale
+  watch: true
+- name: Decibel Club
+  aliases: [Decibel Chignolo, Discoteca Decibel]
+  instagram: decibel_club
+  type: club
+  fascia: preserata
+  vote: 3
+  capacity: 200
+  genre: Ballo Da Sala
+  category: ballo da sala
+  watch: true
+- name: HYPE Club
+  aliases: [Hype Club Cortenuova]
+  instagram: hype.club.official
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 500
+  genre: Commerciale
+  watch: true
+- name: Capogiro
+  aliases: [CaPoGiRo Joy Club, Capogiro Curno, Capogiro Joyclub]
+  instagram: capogirojoyclub
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 600
+  rooms:
+    main room: {vote: 10, capacity: 600}
+    elysium: {vote: 6, capacity: 250}
+  watch: true
+- name: Tiky Klub
+  aliases: [Fiorenudo, Tiky Club, Tiky Seriate, Under Music Club, Under Seriate]
+  instagram: tiky.klub
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 300
+  watch: true
+- name: Queen Club
+  aliases: [Discoteca Queen, Queen Disco, Queen Seriate]
+  instagram: discoteca_queen
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 400
+  genre: Dance / Hits / Revival
+  watch: true
+- name: Oronero
+  aliases: [Oro Nero Nembro, Oronero Love & Music]
+  instagram: oroneroloveandmusic
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 400
+  genre: Commerciale
+  watch: true
+- name: Ristorante BV Rooftop lounge bar
+  aliases: [BV Rooftop, BV Rooftop Brignano]
+  instagram: bv_rooftop
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Baia del Re
+  aliases: [Baia del Re Brignano]
+  instagram: baiadelrebrignano
+  type: club
+  address: Via Cologno 22, Brignano Gera d'Adda
+  city: Brignano Gera d'Adda
+  lat: 45.542
+  lon: 9.64
+  fascia: serata
+  vote: 6
+  capacity: 500
+  genre: Commerciale
+  watch: true
+- name: LOFT
+  aliases: [LOFT Bergamo, LOFT Hi-Fi Bar, Loft Azzano]
+  instagram: loft.bergamo
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 200
+  watch: true
+- name: Edone
+  aliases: [Edoné Bergamo, Spazio Giovani Edonè]
+  instagram: edonebergamo
+  type: live_club
+  vote: 5
+  capacity: {summer: 3000, winter: 100}
+  watch: true
+- name: Daste Bergamo
+  aliases: [Daste, Daste e Spalenga, Ex Centrale Daste e Spalenga]
+  instagram: daste_bergamo
+  type: live_club
+  vote: 5
+  capacity: 400
+  watch: true
+- name: Druso
+  aliases: [Druso Circus, Druso Ranica]
+  instagram: drusobg
+  type: live_club
+  vote: 5
+  capacity: 300
+  watch: true
+- name: Spazio Polaresco
+  aliases: [Polaresco]
+  instagram: spazio_polaresco
+  type: live_club
+  vote: 5
+  capacity: {summer: 1000, winter: 200}
+  genre: Alternative
+  watch: true
+- name: Pacì Paciana
+  aliases: [C.S.A. Pacì Paciana, CSA Pacì Paciana]
+  instagram: csapacipaciana
+  type: live_club
+  address: Via Grumello 61/c, Bergamo
+  city: Bergamo
+  lat: 45.69
+  lon: 9.64
+  vote: 5
+  genre: Alternative
+  watch: true
+- name: Ink Club
+  aliases: [Arci Ink Club, Ink Bergamo]
+  instagram: inkclub_bergamo
+  type: live_club
+  vote: 5
+  capacity: 200
+  watch: true
+- name: Il Circolino della Malpensata
+  aliases: [Circolino Malpensata, Circolino della Malpensata, Il Circolino]
+  instagram: circolinomalpensata_bergamo
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Keller Factory 2.0 - Live Music Pub
+  aliases: [Keller Curno, Keller Factory]
+  instagram: kellerfactory_
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: UFO Live
+  aliases: [UFO Mozzo]
+  instagram: ufo.spacezone51
+  type: live_club
+  address: Via dell'Industria 4, Mozzo
+  city: Mozzo
+  lat: 45.7
+  lon: 9.61
+  vote: 5
+  capacity: 200
+  genre: Live
+  watch: true
+- name: Live Club
+  aliases: [Live Club Trezzo, Live Music Club Trezzo]
+  instagram: liveclub
+  type: live_club
+  fascia: serata
+  vote: 8
+  capacity: 2500
+  watch: true
+- name: Ninfea Social Club
+  aliases: [Ninfea Sorisole]
+  instagram: ninfeasocialclub
+  type: bar
+  fascia: preserata
+  vote: 3
+  genre: Elettronica
+  watch: true
+- name: Two Festival
+  aliases: [Parco di Prada, TWO Festival Mapello]
+  instagram: twofestival
+  type: open_air
+  address: Parco di Prada, Mapello
+  city: Mapello
+  lat: 45.713
+  lon: 9.548
+  vote: 6
+  watch: true
+- name: NXT Station
+  aliases: [NXT, Piazzale degli Alpini]
+  instagram: nxtbergamo
+  type: open_air
+  fascia: preserata
+  fascia_fixed: true
+  vote: 6
+  capacity: 1000
+  genre: Live
+  watch: true
+- name: Lazzaretto
+  aliases: [Lazzaretto Bergamo, Lazzaretto Estate]
+  instagram: lazzaretto_bergamo_estate
+  type: open_air
+  address: Piazzale Goisis 6, Bergamo
+  city: Bergamo
+  lat: 45.705
+  lon: 9.658
+  vote: 6
+  capacity: 2000
+  genre: Live
+  watch: true
+- name: ChorusLife Arena
+  aliases: [ChorusLife, ChorusLife Smart District]
+  instagram: choruslife.bergamo
+  type: arena
+  vote: 6
+  genre: Live
+  watch: true
+- name: Fiera di Bergamo
+  aliases: [Fiera Bergamo]
+  type: arena
+  address: Via Lunga, Bergamo
+  city: Bergamo
+  lat: 45.659
+  lon: 9.665
+  vote: 8
+  watch: true
+- name: Gres Art 671
+  aliases: [Gres Art, Gres Art 671 Bergamo, GresArt 671]
+  instagram: gres_art_671
+  type: live_club
+  address: Via San Bernardino 141, Bergamo
+  city: Bergamo
+  lat: 45.683
+  lon: 9.66
+  vote: 5
+  capacity: 2000
+  watch: true
+- name: Barry’s
+  aliases: [Barry's Bergamo, Barrys]
+  instagram: barrys__
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Sprint
+  aliases: [SPRINT Bergamo]
+  instagram: sprint_bergamo
+  type: bar
+  address: Viale Giulio Cesare 18, Bergamo
+  city: Bergamo
+  lat: 45.7035
+  lon: 9.683
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: UNPLUG BAR
+  aliases: [UNPLUG, Unplug Bergamo]
+  instagram: unplug__bg
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Casa Costez
+  aliases: [Casa Costez Bergamo, Costez Dining Club]
+  instagram: casacostez
+  type: club
+  city: Bergamo
+  lat: 45.6983
+  lon: 9.6773
+  fascia: serata
+  vote: 6
+  capacity: 300
+  watch: true
+- name: Balzer by Night
+  aliases: [Balzer, Balzer 1850]
+  instagram: balzerbynight
+  type: bar
+  address: Sentierone, Bergamo
+  city: Bergamo
+  lat: 45.6955
+  lon: 9.6695
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: BÙ Cheese Bar
+  aliases: [BÙ Bergamo]
+  instagram: bucheesebar
+  type: bar
+  city: Bergamo
+  lat: 45.6983
+  lon: 9.6773
+  fascia: preserata
+  vote: 3
+  watch: true
+- {name: Savana King, instagram: savana.king25, type: bar, address: 'Via Baschenis 3/c, Bergamo', city: Bergamo, lat: 45.6983, lon: 9.6773, fascia: preserata, vote: 3, watch: true}
+- name: Cosmo Food Club
+  aliases: [Cosmo Bergamo]
+  instagram: cosmo.food.club
+  type: bar
+  city: Bergamo
+  lat: 45.6983
+  lon: 9.6773
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Contest Cocktail Bar
+  aliases: [Contest Bergamo]
+  instagram: contest_bg
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: OperaPrima Café
+  aliases: [Opera Prima, OperaPrima]
+  instagram: operaprimacafe_
+  type: bar
+  address: Via dei Caniana, Bergamo
+  city: Bergamo
+  lat: 45.6897
+  lon: 9.6745
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: 30 & Lode Bergamo
+  aliases: [30 e Lode, 30&Lode, Bar 30&Lode]
+  instagram: bar30elode
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Into the Woods
+  aliases: [Into The Woods Pitch, Pitch Torre Boldone]
+  instagram: intothewoodsbg
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Jam Live Studio
+  aliases: [Jam Live, Jam Nembro]
+  instagram: jamlivestudio
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 600
+  genre: Commerciale
+  watch: true
+- name: Cafeteria
+  aliases: [Cafeteria Treviolo, Cafetiera]
+  instagram: cafeteriatreviolo
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Karma Lounge
+  aliases: [Karma Lounge Bar]
+  instagram: karma_lounge_official_
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: VIBE
+  aliases: [Vibe Club, Vibe Club Treviolo]
+  instagram: vibetheclub
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 500
+  rooms:
+    main room: {vote: 10, capacity: 500}
+    theater room: {vote: 6, capacity: 50}
+  genre: Tech House
+  watch: true
+- name: Garota De Ipanema
+  aliases: [Garota]
+  instagram: garotadeipanemaa
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 300
+  genre: Latino
+  genre_always: true
+  watch: true
+- {name: Sabbie Mobili, instagram: sabbiemobili_official, type: club, fascia: serata, vote: 6, capacity: 500, genre: Commerciale, watch: true}
+- name: Victoria lounge bar
+  aliases: [Victoria Lounge]
+  instagram: victorialoungebar_bonate
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Bar Perlage
+  aliases: [Perlage]
+  instagram: barperlage
+  type: bar
+  address: Via Lega Lombarda 10, Bonate Sopra
+  city: Bonate Sopra
+  lat: 45.683
+  lon: 9.558
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Caffetteria Nuova Rotonda
+  aliases: [Nuova Rotonda]
+  instagram: caffetteria_nuova_rotonda
+  type: bar
+  city: Urgnano
+  lat: 45.597
+  lon: 9.693
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: In Croissanteria Lab
+  aliases: [Croissanteria Lab]
+  instagram: incroissanterialab
+  type: bar
+  city: Carobbio degli Angeli
+  lat: 45.665
+  lon: 9.833
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Brina Pasticceria
+  aliases: [Brina]
+  instagram: brinapasticceria
+  type: bar
+  city: Cologno al Serio
+  lat: 45.578
+  lon: 9.703
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Delblaco Lunch & Bar
+  aliases: [Delblaco]
+  instagram: delblacobar
+  type: bar
+  city: Lurano
+  lat: 45.565
+  lon: 9.64
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Mint Lounge Bar
+  aliases: [MINT, Mint Chiuduno]
+  instagram: mint_lounge
+  type: club
+  fascia: preserata
+  vote: 6
+  capacity: 200
+  genre: Commerciale / House
+  watch: true
+- name: ARYA Lounge Bar
+  aliases: [Arya Lounge]
+  instagram: arya.lounge
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Al Tabarin
+  aliases: [Tabarin]
+  instagram: al_tabarin
+  type: bar
+  address: Via Balilla 163, Romano di Lombardia
+  city: Romano di Lombardia
+  lat: 45.522
+  lon: 9.754
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Charleston
+  aliases: [Charleston The Club, Charleston Treviglio]
+  instagram: charleston.treviglio
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 400
+  genre: Commerciale
+  watch: true
+- name: Officina Panarari
+  aliases: [Panarari]
+  instagram: officinapanarari
+  type: bar
+  address: Via Caravaggio 31, Treviglio
+  city: Treviglio
+  lat: 45.521
+  lon: 9.593
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Bar San Marco
+  aliases: [San Marco Sarnico]
+  instagram: bar_sanmarco
+  type: bar
+  city: Sarnico
+  lat: 45.669
+  lon: 9.962
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: Tassino Cafe
+  aliases: [Tassino]
+  instagram: tassinocafe
+  type: bar
+  fascia: preserata
+  vote: 3
+  watch: true
+- name: THANKA
+  aliases: [Thanka Official, Thanka Seriate]
+  instagram: thanka.official
+  type: club
+  fascia: serata
+  vote: 6
+  capacity: 1000
+  genre: Commerciale
+  watch: true
+- {name: Fabrique, type: live_club, city: Milano, lat: 45.444, lon: 9.24, fascia: serata, vote: 10, capacity: 3000, in_posts: false, big: true, watch: true}
+- {name: Magazzini Generali, type: club, city: Milano, lat: 45.444, lon: 9.199, fascia: serata, vote: 10, in_posts: false, big: true, watch: true}
+- name: Ippodromo SNAI San Siro
+  aliases: [Ippodromo San Siro, Ippodromo Snai La Maura]
+  type: open_air
+  city: Milano
+  lat: 45.478
+  lon: 9.124
+  fascia: serata
+  vote: 10
+  capacity: 20000
+  in_posts: false
+  big: true
+  watch: true
+- {name: Niniva Risto Lounge Bar, type: club}
+- {name: Bloom, type: club}
+- {name: Discoteca Cascina Due Torri, type: club}
+- {name: Charlie, type: club}
+- {name: CLUB 369 MILANO, type: club}
+- {name: Citta Dei Mille - Restaurant & Lounge, type: club}
+- {name: VOG Summer, type: club}
+- {name: JClub, type: club}
+- {name: Ritrovo Brasil, type: club}
+- {name: BAKARY LOUNGE BAR, type: club}
+- {name: Terminal Club Curno, type: club}
+- {name: P40 Lounge Bar, type: bar}
+- {name: O'Dea's Irish Pub, type: bar}
+- {name: The Tucans Pub, type: bar}
+- {name: Bar Savoy, type: bar}
+- {name: Bar H, type: bar}
+- {name: Barrier, type: bar}
+- {name: Ai Giardini, type: bar}
+- {name: DROP - Dalmine, type: bar}
+- {name: Spazio Marconi, type: bar}
+- {name: Urban R-Evolution Pub, type: bar}
+- {name: Joe Koala, type: bar}
+- {name: Gemp Lounge Bar, type: bar}
+- {name: Alkimia Food & Drink, type: bar}
+- {name: Quei Bravi Ragazzi, type: bar}
+- {name: Divina Music Bar, instagram: divinabergamo, type: club}
+- {name: Musicattiva, type: club}
+- {name: Circolo Doppio Senso, type: club}
+- {name: Hunger night, type: club}
+- {name: Notturna Club, type: club}
+- {name: Discoteca Dal Randa, type: club}
+- {name: Casablanca club, type: club}
+- {name: Disco Kiss, type: club}
+- {name: Fashion Antegnate, type: club}
+- {name: Hype Back Garden, type: club}
+- {name: I-Lounge, type: bar}
+- {name: Bar Arkadia Bergamo, type: bar}
+- {name: Deja vu Bergamo, type: bar}
+- {name: Le Iris, type: bar}
+- {name: The Alchemist Bar Bergamo, type: bar}
+- {name: 'Vox ristorante, pizzeria, lounge bar', type: bar}
+- {name: Botep Bergamo, type: bar}
+- {name: Fly Pub, type: bar}
+- {name: Tony'S Cucina Bar Bottega, type: bar}
+- {name: Vacan Latin Bar, type: bar}
+- {name: Varadero Food & Drink, type: bar}
+- {name: 'Ombra - Miscelazione, Piattini e Vini Naturali', type: bar}
+- {name: Varadda - Cocktail & Beer, type: bar}
+- {name: Bar Olympus, type: bar}
+- {name: Mamo's, type: bar}
+- {name: Beach Bar, type: bar}
+- {name: 'Harlem Food, Drink&More', instagram: harlem_bergamo, type: bar}
+- {name: Lounge Bar The Bliss, type: bar}
+- {name: Sottovoce Speakeasy, type: bar}
+- {name: Level up cocktail bar, type: bar}
+- {name: New Era Cocktail & Wine Bar, type: bar}
+- {name: Cafe Noir Lounge, type: bar}
+- {name: CAPOLINEA EAT DRINK RELAX, instagram: capolinea_eat.drink.relax, type: bar}
+- {name: Moonlight, type: bar}
+- {name: Kraken Factory, type: bar}
+- {name: Pub La Caverna, type: bar}
+- {name: Il Pirata Pub, instagram: ilpiratapub, type: bar}
+- {name: 'Limbo Lounge Bar | Caffetteria, Pizzeria, Ristorante', type: bar}
+- {name: 2.0 Caffetteria & Lounge Bar, type: bar}
+- {name: Te daja, type: bar}
+- {name: Lounge Bar Sorriso Tabaccheria e Ricevitoria, type: bar}
+- {name: Zest Lounge Bar, type: bar}
+- {name: PIJEY LOUNGE BAR, type: bar}
+- {name: CocktailMood, instagram: cocktail_mood_cm, type: bar}
+- {name: Easy Drink and Food, type: bar}
+- {name: Prato Alto Food Drink Musik, type: bar}
+- {name: Botanic Fusion & Cocktail, type: bar}
+- {name: Tiny Club, type: bar}
+- {name: Barmusicmovida, type: bar}
+- {name: Serendipity Cocktails & Food, type: bar}
+- {name: Pub La Nuit, type: bar}
+- {name: The First Caffe Gintoneria & Cocktail bar, type: bar}
+- {name: Zen Lounge Bar, type: bar}
+- {name: The Baaz Bar - Lounge Bar Cividate Al Piano, type: bar}
+- {name: Mai Uguali Lounge Bar, type: bar}
+- {name: 'Drink Responsibly Club: The Pub', instagram: drinkresponsiblyclub, type: bar}
+- {name: Dama lounge bar, instagram: bar.dama, type: bar}
+- {name: Lounge Garibaldi Treviglio, type: bar}
+- {name: Tramonto, type: bar}
+- {name: Gasoline Cernusco, type: bar}
+- {name: Papeetebar, type: bar}
+- {name: Il rava, type: bar}
+- {name: Castle Rock Pub, type: bar}
+- {name: Rin'z Lounge, type: bar}
+- {name: Cordiale American Bar, type: bar}
+- {name: Gliss adro, type: bar}
+- {name: Mocambo Art Music Bar, type: bar}
+- {name: Il Covo, type: bar}
+- {name: Bar della Musica, type: bar}
+- {name: Zero4 - Restaurant & Lounge Bar, type: bar}
+- {name: Origami Beach, type: bar}
+promoters:
+- name: Cheri
+  instagram: cheri.it
+  aliases: [Cheri Friday]
+  genre: Commerciale
+  venues: [MINT]
+- name: Hidden Hell
+  instagram: hiddenhell.techno
+  genre: Hard Techno
+  venues: [Bolgia, Zero Club]
+- name: Galactica Festival
+  instagram: galactica.festival
+  genre: Techno, Hard Techno
+  vote: 3
+  venues: [Bolgia]
+- name: JUICE Crew
+  instagram: juiceclubit
+  aliases: [JUICE, JUICE (BG)]
+  genre: House
+  venues: [Nikita, Setai Club, LOFT Bergamo]
+- name: Groove Factory
+  genre: Tech House
+  venues: [Bolgia]
+- name: LTC (Lorenzo Tiezzi Comunicazione)
+  venues: [Bolgia]
+- name: MiDi Motori Digitali
+  genre: Electronic
+  venues: [Edoné]
+- name: Le Cannibale
+  instagram: lecannibaleclub
+  genre: House
+  venues: [Daste, Gres Art 671]
+- name: Sabotage
+  genre: Hip Hop
+  venues: [Daste]
+- name: utōpia
+  instagram: utopia.direction
+  aliases: [Utopia, Utopia Crew, Utopia & Acrylic]
+  genre: Melodic House
+  venues: [Daste, Gres Art 671, Tassino Café]
+- {name: Discopasta Social Club, instagram: discopastasc, genre: Disco}
+- {name: Greebo Party, instagram: greebopartybergamo}
+- {name: Newrant Crew, instagram: newrant_crew_bergamo, genre: Altro}
+- name: BassBrigade / Tribe73 / Beetek / KTN
+  genre: Tekno / Free Party
+  venues: [JClub (Ponte San Pietro)]
+- {name: Night Life Bergamo, instagram: nightlifebergamo}
+- name: Sommet
+  instagram: sommet_night
+  genre: House
+  venues: [Unplug Bar]
+- name: NØID
+  instagram: noidfamilia
+  genre: House
+  venues: [Zero Club]
+- name: ICKS
+  instagram: icksdresstoimpress
+  genre: Hip Hop, Afrobeat
+  venues: [Daste]
+- name: Gabass Subculture
+  genre: Tech House
+  venues: [Brina Pasticceria]
+- name: Vida Loca
+  genre: Commerciale
+  venues: [Nikita]
+- {name: Borgo Santa Caterina, instagram: borgo.santa.caterina}
+- name: The Box Bergamo
+  instagram: theboxbergamo
+  party_name: The Box
+  aliases: [The Box, THE BOX pop-up party]
+  genre: Melodic Techno
+  venues: [Tassino Café]
+- name: BSK Sound
+  instagram: bsk.sound
+  aliases: [BSK]
+  genre: Tech House
+- {name: Crocevia, instagram: crocevia_}
+- {name: Bergamo Night Service, instagram: bergamonightservice}
+- name: PLEASE
+  instagram: please.nights
+  genre: Commerciale 360
+  venues: [Zero Club]
+- name: TALK
+  instagram: talk.maf
+  genre: House
+  venues: [Zero Club]
+- name: Sloth
+  instagram: sloth.bg
+  genre: Hip Hop / Trap
+  venues: [Zero Club]
+- name: Step Up
+  instagram: we.are.stepup
+  genre: American Hip Hop
+  venues: [Zero Club]
+- name: UniBG Party
+  instagram: unibg_party
+  genre: Hits / Dance
+  venues: [Zero Club]
+- name: Premiere
+  instagram: premiere.premiere
+  genre: Hip Hop / Trap
+  venues: [Zero Club]
+- name: Please
+  instagram: please.nights
+  venues: [Zero Club]
+- name: The Circle
+  instagram: the.circlehub
+  genre: Commerciale
+  venues: [Zero Club]
+- name: Crystal Castles Night
+  instagram: crystalcastlesnightt
+  genre: Witch House / EDM
+  venues: [Zero Club]
+- name: CRØMA
+  instagram: cromaroom
+  genre: Hip Hop / Trap
+  venues: [Zero Club]
+- name: OASI
+  instagram: oasi.night
+  genre: Tech House
+  venues: [Vibe Club]
+- name: Selected Lab
+  instagram: selected.lab
+  genre: Tech House
+  venues: [Vibe Club]
+- name: Upside Down
+  instagram: upside.down.night
+  genre: Tech House
+  venues: [Vibe Club]
+- name: Alive
+  instagram: aliveofficialparty
+  genre: School Party
+  venues: [Vibe Club]
+- name: Code
+  genre: Hard Techno
+  venues: [Zero Club]
+- name: Enter the Void
+  genre: Commerciale 360
+  venues: [Nikita]
+- name: Lova
+  genre: Commerciale
+  venues: [Nikita]
+- name: Ventitré
+  genre: Live
+  venues: [Nikita]
+- name: Savage
+  genre: Trap
+  venues: [Bobadilla]
+- name: Otra Vez
+  genre: Latin
+  venues: [Bobadilla]
+- name: Aperitivo Martini
+  genre: Commerciale
+  venues: [Bobadilla]
+- name: Merci
+  genre: Commerciale
+  venues: [Setai Club]
+- name: Studio Legale
+  genre: Commerciale
+  venues: [Thanka]
+- name: Noche Latina
+  genre: Latin
+  venues: [Thanka]
+- name: Tocame
+  genre: Latin
+  venues: [Capogiro]
+- name: Spicy
+  genre: Commerciale
+  venues: [Capogiro]
+- name: Elysium Privè
+  venues: [Capogiro]
+- name: C'est la vie
+  genre: Commerciale
+  venues: [Vibe Club]
+- name: Offline
+  genre: Tech House / Minimal
+  venues: [Vibe Club]
+- name: Open Bar Night
+  genre: Commerciale
+  venues: [Oronero]
+- name: Rockoteca
+  genre: Rock
+  venues: [Daste]
+- name: Chewing Gum
+  genre: Commerciale
+  venues: [Queen Club]
+- name: DiscoDance
+  genre: Dance
+  venues: [Queen Club]
+- name: La Casita
+  genre: Commerciale / Reggaeton
+  venues: [Hype Club]
+- name: Afrodylan
+  instagram: afrodylanofficial
+  genre: Afro / Reggaeton
+  venues: [Druso]
+- name: Tra terra e cielo
+  genre: Elettronica
+  venues: [Ninfea Social Club]
+- name: Club Culture
+  genre: Tech House
+  venues: [Barry's]
+- name: Hi-Fi Fever
+  genre: Vinyl
+  venues: [Sprint]
+- name: Side A
+  genre: House Vinyl
+  venues: [In Croissanteria Lab]
+- name: Rapture
+  genre: Commerciale
+  venues: [Bar Perlage]
+- name: Bucolic Party
+  genre: Altro
+  venues: [Cosmo Food Club]
+- name: Honey
+  genre: Tech House
+  venues: [Savana King]
+- name: Pitch
+  genre: Commerciale
+  venues: [Into The Woods]
+- name: L'Apéritif by Earth
+  genre: House Commerciale
+  venues: [Cafeteria]
+- name: Boheme
+  genre: House
+  venues: [Cafeteria]
+- name: '#NoFilter'
+  genre: Commerciale
+  venues: [Jam Live Studio]
+- name: Zona de Perreo
+  genre: Latin
+  venues: [Jam Live Studio]
+- name: Call Out
+  instagram: call._.out
+  genre: Tech House
+  venues: [Charleston]
+- name: Choose Me
+  venues: [Charleston]
+- name: Lipstick
+  genre: Commerciale
+  venues: [MINT]
+- name: Sabado de Pikete
+  genre: Latin
+  venues: [Garota de Ipanema]
+- name: Traviesa
+  genre: Latin
+  venues: [Garota de Ipanema]
+- name: Krystal404
+  venues: [Sabbie Mobili]
+- name: Naif
+  genre: House
+  venues: [Officina Panarari]
+- name: MiuMiuu
+  genre: Commerciale
+  venues: [Al Tabarin]
+- name: Back to the 90s
+  genre: Dance
+  venues: [Delblaco Lunch & Bar]
+- name: One Place, Two Souls
+  genre: Commerciale
+  venues: [Casa Costez]
+- name: cento10elode
+  genre: Commerciale
+  venues: [Bar 30&Lode]
+- name: Icon
+  instagram: iconevents.official
+  aliases: [ICON Events]
+  genre: Tech House
+  venues: [Tiky Klub, Contest Cocktail Bar]
+- name: Muchacha
+  genre: Latin
+  venues: [Thanka]
+artists:
+- {name: Germano Ventura, level: notable}
+- {name: Lapo Underground, level: notable}
+- {name: Nesta, level: notable}
+- {name: Boffe, level: notable}
+- {name: Illes, level: notable}
+hide:
+- {text: 52 giorni di pattinaggio}
+- {text: Nergamo on Ice}

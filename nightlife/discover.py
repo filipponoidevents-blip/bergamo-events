@@ -209,11 +209,21 @@ def upsert(city: City, rec: dict, source: str) -> int:
 _geo_fail = {"photon": 0, "nominatim": 0}
 
 
-def geocode(city: City, query: str) -> dict | None:
+def _same_place(wanted: str, found: str | None) -> bool:
+    """Il posto trovato sulla mappa ha davvero quel nome (almeno una parola non generica in comune)."""
+    from .city import GENERIC
+    skip = GENERIC | {"teatro", "spazio", "circolo", "centro", "sala", "piazza", "via", "locale"}
+    a = {w for w in norm(wanted).split() if len(w) >= 3 and w not in skip}
+    b = {w for w in norm(found or "").split() if len(w) >= 3}
+    return bool(a & b) if a else False
+
+
+def geocode(city: City, query: str, name: str | None = None) -> dict | None:
     """Indirizzo o nome di un posto -> coordinate. Photon (gratis), poi Nominatim. Il risultato resta in memoria."""
     cache = city.registry.setdefault("geocode", {})
-    if query in cache:
-        return cache[query]
+    key = query + (" |nome" if name else "")
+    if key in cache:
+        return cache[key]
     out = None
     if _geo_fail["photon"] < 3:
         try:
@@ -223,6 +233,9 @@ def geocode(city: City, query: str) -> dict | None:
             if f:
                 lon, lat = f["geometry"]["coordinates"]
                 pr = f.get("properties", {})
+                if name and not _same_place(name, pr.get("name")):   # "Teatro Miela" non è il Teatro Donizetti
+                    f = None
+            if f:
                 out = {"lat": round(lat, 5), "lon": round(lon, 5), "city": pr.get("city") or pr.get("town") or pr.get("village") or pr.get("county"),
                        "province": None}
         except Exception as e:  # noqa: BLE001
@@ -233,6 +246,8 @@ def geocode(city: City, query: str) -> dict | None:
             res = fetch(NOMINATIM, params={"q": query, "format": "jsonv2", "limit": 1, "addressdetails": 1, "countrycodes": city.c.get("country", "it")},
                         pause=1.2, bot_ua=True).json()
             _geo_fail["nominatim"] = 0
+            if res and name and not _same_place(name, res[0].get("name")):
+                res = []
             if res:
                 a = res[0].get("address", {})
                 out = {"lat": round(float(res[0]["lat"]), 5), "lon": round(float(res[0]["lon"]), 5),
@@ -242,7 +257,7 @@ def geocode(city: City, query: str) -> dict | None:
             log.warning("nominatim %s: %s", query, e)
             return None
     if out is not None or _geo_fail["photon"] < 3:
-        cache[query] = out
+        cache[key] = out
     return out
 
 
@@ -269,7 +284,7 @@ def from_xceed(city: City) -> int:
                 if rec is not None and link not in (rec.get("tickets") or []):
                     rec.setdefault("tickets", []).append(link)
                 continue
-            place = geocode(city, f"{name}, {city.c['name']}")
+            place = geocode(city, f"{name}, {city.c['name']}", name=name)
             if place and (city.distance(place["lat"], place["lon"]) or 99) <= city.c["radius_km"] * 1.5:
                 added += upsert(city, {"name": name, "type": "club", "tickets": [link], **place}, "xceed")
     return added
@@ -289,7 +304,7 @@ def from_accounts(city: City, limit: int = 15) -> int:
         if m:
             place = geocode(city, f"{m.group(1)}, {m.group(2) or city.c['name']}")
         if not place:
-            place = geocode(city, f"{a.get('name') or h}, {city.c['name']}")
+            place = geocode(city, f"{a.get('name') or h}, {city.c['name']}", name=a.get("name") or h)
         if not place:
             continue
         km = city.distance(place["lat"], place["lon"])
