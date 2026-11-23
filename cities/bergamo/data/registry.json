@@ -3,6 +3,9 @@
   "4thegroovers_": {
    "mentions": 1
   },
+  "abcstudiosmilano_official": {
+   "cands": 2
+  },
   "aendriu_official": {
    "bio": "IL BRUTTO - NUOVO EP - OUT NOW",
    "cands": 2,
@@ -14,6 +17,9 @@
    "website": "https://ditto.fm/il-brutto"
   },
   "afrodylanofficial": {
+   "cands": 1
+  },
+  "afrostation_official": {
    "cands": 1
   },
   "agnesss.dei": {
@@ -53,9 +59,12 @@
    "mentions": 1,
    "readable": false
   },
+  "alla.base": {
+   "cands": 1
+  },
   "alonic_shakti": {
    "bio": "🏴‍☠️🏴‍☠️🏴‍☠️🏴‍☠️🏴‍☠️🏴‍☠️\nbergamo, italy\nhardware production\n on electribe 🌀",
-   "cands": 1,
+   "cands": 2,
    "checked": "2026-11-21",
    "followers": 380,
    "kind": "promoter",
@@ -134,6 +143,9 @@
   "anpi_vimercate": {
    "cands": 1
   },
+  "ansimaproduction_official": {
+   "cands": 3
+  },
   "antico_benessere": {
    "bio": "Un luogo, infinite esperienze.\nHotel • SPA • Ristorante • Eventi \nWedding & Corporate Events\nFara Gera d’Adda (BG)\n↓ Prenota la tua esperienza",
    "checked": "2026-11-19",
@@ -148,6 +160,9 @@
    "website": "https://www.thefork.it/ristorante/antico-benessere-r836840"
   },
   "aperi_single": {
+   "cands": 2
+  },
+  "apriti.cielo": {
    "cands": 2
   },
   "arci.scuotivento": {
@@ -254,6 +269,18 @@
    "reads": 2,
    "website": null
   },
+  "balzerbynight": {
+   "bio": "Incontrarsi, ridere e sognare nel cuore di Bergamo 👩🏼‍🍳+🕺+🎷+🎶",
+   "checked": "2026-11-23",
+   "events_found": 0,
+   "followers": 7474,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "BALZER BY NIGHT",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "bar.dama": {
    "bio": "",
    "checked": "2026-11-20",
@@ -263,6 +290,18 @@
    "name": "BAR DAMA",
    "readable": true,
    "reads": 2,
+   "website": null
+  },
+  "bar30elode": {
+   "bio": "📍Via dei Caniana, 3\n🇮🇹Bergamo\n☎️035.310293      \n📲338.8882559                           \nGIOVEDÌ SERA SPRIZ 🎉🎓🍹",
+   "checked": "2026-11-23",
+   "events_found": 0,
+   "followers": 1172,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "30&lode",
+   "readable": true,
+   "reads": 1,
    "website": null
   },
   "bar_barrier": {
@@ -316,6 +355,30 @@
    "watch": null,
    "website": "http://linktr.ee/barleyartsreal"
   },
+  "barperlage": {
+   "bio": "Cocktails | Food | Coffee | Wine | Music | Lounge \nLun|Gio 6.00-00.00 \nVen|Sab 6.00-02.00\nDom 7.00-13.00",
+   "checked": "2026-11-23",
+   "events_found": 1,
+   "followers": 2696,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "PERLAGE",
+   "readable": true,
+   "reads": 1,
+   "website": "https://www.barperlage.it/"
+  },
+  "barrys__": {
+   "bio": "🥐 Brunch deliziosi e aperitivi unici\n🍹 Venerdì e Sabato cena gourmet e cocktail bar\n✨ Eleganza e comfort in ogni dettaglio\n☎️ 346 3130480",
+   "checked": "2026-11-23",
+   "events_found": 3,
+   "followers": 9728,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "barrys__",
+   "readable": true,
+   "reads": 1,
+   "website": "https://drive.google.com/file/d/13BDcOIrj9gSLhgq9hKuHlmCB9WPXY2ig/view?usp=drivesdk"
+  },
   "beatrice_paganessi": {
    "cands": 1
   },
@@ -352,6 +415,9 @@
    "name": "BG ROCK",
    "readable": true,
    "website": "http://www.casthellfestival.com"
+  },
+  "birrificio_elav": {
+   "cands": 2
   },
   "bloom_mezzago": {
    "bio": "Sviluppi incontrollati nel cuore della Brianza ⚡️",
@@ -426,6 +492,9 @@
    "readable": true,
    "website": "https://bowiehc.bandcamp.com/"
   },
+  "brasilianaitalia02": {
+   "cands": 1
+  },
   "brendon_montanari": {
    "cands": 1
   },
@@ -439,6 +508,18 @@
   },
   "bruno_di_voi": {
    "cands": 1
+  },
+  "bucheesebar": {
+   "bio": "Based in Bergamo, in the heart of the Cheese Valleys.⛰️🧀\nCommitted to traditions, local food and craft wines. \nInfo e prenotazioni +39 035 220289",
+   "checked": "2026-11-23",
+   "events_found": 6,
+   "followers": 6847,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "BU Cheese Bar",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "bumbumfestival": {
    "bio": "Concerts. 100% Free. 100% Fun.\n20/08 -> 30/08/2026 , Trescore Balneario (BG) ITALY. INGRESSO GRATUITO. #bumbumfestival",
@@ -464,6 +545,18 @@
    "readable": true,
    "website": "http://linktr.ee/buscemiseyes/"
   },
+  "bv_rooftop": {
+   "bio": "ALL DAY BAR & RESTAURANT ☀️🌙",
+   "checked": "2026-11-23",
+   "events_found": 0,
+   "followers": 11307,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "BV Rooftop",
+   "readable": true,
+   "reads": 1,
+   "website": "http://www.labarcaavela.it/MENUCARTA.pdf"
+  },
   "c0de_lsb": {
    "cands": 2
   },
@@ -477,6 +570,18 @@
    "readable": true,
    "reads": 2,
    "website": "https://www.cafenoirlounge.com"
+  },
+  "cafeteriatreviolo": {
+   "bio": "FOOD & DRINK🍝🍸\nRistorante, Pizzeria e Lounge Bar\n📍Viale Europa, 32 - Treviolo (Bg)",
+   "checked": "2026-11-23",
+   "events_found": 21,
+   "followers": 5433,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Cafeteria Treviolo",
+   "readable": true,
+   "reads": 1,
+   "website": "https://t.mtrbio.com/Cafeteria"
   },
   "caffesalotto": {
    "bio": "Benvenuti, qui si respira aria di casa .\n🥐🥞🍰🫖🍷\nSiamo a #gorle in via Buonarroti 17/G\nIl martedì riposiamo 🫶🏻\n☎️ 035/302275",
@@ -672,6 +777,21 @@
   "cinquanta_spiritoitaliano": {
    "cands": 1
   },
+  "circolinomalpensata_bergamo": {
+   "bio": "il tuo amichevole bar di quartiere!\n———————————————————————-\nInfo concerti: @ducklive2010\nPrenotazioni: 035327040",
+   "checked": "2026-11-23",
+   "events_found": 9,
+   "followers": 2933,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Lino Circo",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
+  "circolo.lavoratori.iseo": {
+   "cands": 2
+  },
   "circolofratellanza": {
    "bio": "Società di mutuo soccorso di Casnigo dal 1904",
    "cands": 1,
@@ -707,7 +827,7 @@
   },
   "consumazione": {
    "bio": "ℱ.                           𝗵𝗼𝘂𝘀𝗲 ⎯  солнце\n.          прыгать ,       (&.)     𝘮𝘦𝘴",
-   "cands": 22,
+   "cands": 23,
    "checked": "2026-11-20",
    "followers": 556,
    "kind": "unknown",
@@ -740,7 +860,17 @@
    "website": "https://lnk.fuga.com/ilmiocastellodiparole-album"
   },
   "cosmo.food.club": {
-   "cands": 1
+   "bio": "Taste the world",
+   "cands": 1,
+   "checked": "2026-11-23",
+   "events_found": 0,
+   "followers": 2365,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Cosmo Food Club",
+   "readable": true,
+   "reads": 1,
+   "website": "https://cosmofoodclub.com"
   },
   "cotd_iron_maiden": {
    "bio": "Iron Maiden Tribute since 2001\nCollaborations:\nDennis Stratton italian band\nPaul di'Anno's official italian band (2003-2014)",
@@ -849,6 +979,21 @@
    "watch": true,
    "website": null
   },
+  "decibel_club": {
+   "bio": "🪩Decibel Club Disco\n📍Via Industriale dell'Isola 11, Chignolo D'isola (BG)\n🗓️VEN - SAB - DOM\nTagga @decibel_club  per collaborazione\nInfo in DM 💌",
+   "checked": "2026-11-23",
+   "events_found": 17,
+   "followers": 4585,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Decibel Club",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
+  "deep.yume": {
+   "cands": 1
+  },
   "degustazione": {
    "bio": "🍴| Dicas sobre restaurantes e gastronomia\n⠀⠀⠀⠀⠀⠀⠀⠀⠀\n🙋🏻‍♀️🙋🏼‍♂️| @larygoes @fellipe.quintanilha",
    "cands": 1,
@@ -923,6 +1068,9 @@
    "readable": true,
    "reads": 20,
    "website": "https://open.spotify.com/album/6fvGU638DNpYjSissgjYGa?si=QPBu9EgPSQyt2goXO3XClQ"
+  },
+  "diwali_diwu": {
+   "cands": 2
   },
   "dj.sofficino": {
    "bio": "🇵🇸💃🏻🪩 l’importante è la presa bene 🪩💃🏻🇵🇸\n- dj set quality trash from Brianza con amore -\n@soff.icino",
@@ -1032,8 +1180,24 @@
    "cands": 1,
    "mentions": 1
   },
+  "ducklive2010": {
+   "cands": 1
+  },
+  "ducoli_gaffurini": {
+   "cands": 2
+  },
   "e.katea_99": {
    "cands": 1
+  },
+  "earth_ofc": {
+   "bio": "Chill Eat Drink Repeat\nTutte le domeniche in @cafeteriatreviolo",
+   "cands": 5,
+   "checked": "2026-11-23",
+   "followers": 1132,
+   "kind": "venue",
+   "name": "EARTH",
+   "readable": true,
+   "website": null
   },
   "easy_drinkandfood": {
    "bio": "BE OUR GUEST 🏡\n🔑 Da Martedì a Domenica  \n🍸 Friendly cocktail bar, con cucina 🍴\n📍 Capriate S.G. (BG) via Papa Giovanni XXIII, 4",
@@ -1067,7 +1231,17 @@
   "elbunnyclub": {
    "cands": 1
   },
+  "elisabetta": {
+   "cands": 1
+  },
   "embrace_the_wind": {
+   "cands": 1
+  },
+  "encounters": {
+   "cands": 1,
+   "mentions": 1
+  },
+  "ericavisinoni": {
    "cands": 1
   },
   "erika.gagliardi": {
@@ -1214,6 +1388,14 @@
    "error": "110: Invalid user id",
    "readable": false
   },
+  "garden.exe": {
+   "cands": 1,
+   "mentions": 1
+  },
+  "garden.exe.music": {
+   "cands": 1,
+   "mentions": 1
+  },
   "garotadeipanemaa": {
    "checked": "2026-11-23",
    "error": "110: Invalid user id",
@@ -1233,6 +1415,9 @@
    "readable": true,
    "website": "https://www.generazionifa.it/"
   },
+  "gigio_8_barber": {
+   "cands": 1
+  },
   "giorgiocanali_lazlotoz1": {
    "cands": 1
   },
@@ -1242,6 +1427,12 @@
   "giovannicolombo_com": {
    "cands": 1
   },
+  "giulia.rapizza": {
+   "cands": 1
+  },
+  "giulia.the.lobster": {
+   "cands": 1
+  },
   "giuseppe.russorossi_giuro": {
    "cands": 1
   },
@@ -1249,6 +1440,24 @@
    "cands": 2,
    "checked": "2026-11-19",
    "readable": false
+  },
+  "gres_art_671": {
+   "bio": "between Art and Life\npowered by @fondazionepesenti\nmercoledì-domenica dalle 9 alle 21\nIsaac Julien, Museum Dreams - fino al 10 gennaio 2027",
+   "checked": "2026-11-23",
+   "events_found": 18,
+   "followers": 21338,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "gres art 671",
+   "readable": true,
+   "reads": 1,
+   "website": "http://www.gresart671.org"
+  },
+  "groovegag_podcast": {
+   "cands": 1
+  },
+  "groovino_chillino": {
+   "cands": 1
   },
   "gruppo_gnam": {
    "cands": 1,
@@ -1356,6 +1565,10 @@
    "readable": true,
    "website": null
   },
+  "il_suez": {
+   "cands": 1,
+   "mentions": 1
+  },
   "illusion.norules": {
    "cands": 1
   },
@@ -1381,6 +1594,9 @@
    "readable": false
   },
   "incisions054": {
+   "cands": 1
+  },
+  "indicazioni": {
    "cands": 1
   },
   "indiepower_official": {
@@ -1494,8 +1710,32 @@
   "kamelotofficial": {
    "cands": 1
   },
+  "karma_lounge_official_": {
+   "bio": "🍾da Mercoledì a Sabato 21.00-02.00\n💌Karma Night tutti i Giovedì  \n👇Info e prenotazioni \n📞3349741699",
+   "checked": "2026-11-23",
+   "events_found": 1,
+   "followers": 5161,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Karma Lounge",
+   "readable": true,
+   "reads": 1,
+   "website": "https://www.nfcbyte.com/clienti/karma-bergamo"
+  },
   "kayro_dark": {
    "cands": 1
+  },
+  "kellerfactory_": {
+   "bio": "KELLER REBORN.\n30 years of history, but ready for a new era. 30 anni di storia, una nuova energia \n📍 Curno\n📞 Prenota: 3298147208\n👇 Menu ed eventi",
+   "checked": "2026-11-23",
+   "events_found": 14,
+   "followers": 7360,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "KELLER FACTORY 2.0 | Food Music & Beer",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "kellerfactory_ristorante": {
    "checked": "2026-11-23",
@@ -1522,6 +1762,9 @@
   },
   "kimi.antonelli": {
    "cands": 2
+  },
+  "kinodeejay": {
+   "cands": 1
   },
   "kokedama_laboratorio": {
    "bio": "Realizzazione vendita  kokedama\neventi \nlaboratori\nbomboniere",
@@ -1583,6 +1826,9 @@
    "reads": 2,
    "website": "https://labassanina.it/"
   },
+  "lamalaleche_band": {
+   "cands": 1
+  },
   "lateres_ets": {
    "bio": "🧩 Approccio creativo\n🔭 Sguardo pedagogico\n🧠 Pensiero laterale\n🧱 Percorsi di cittadinanza\n \n \nEnte del terzo settore",
    "cands": 2,
@@ -1627,9 +1873,17 @@
    "readable": true,
    "website": null
   },
+  "le_jeu_de_lor": {
+   "cands": 1
+  },
+  "lefemministe.nellaforesta": {
+   "cands": 1
+  },
   "lenticchie": {
    "cands": 1,
-   "mentions": 2
+   "checked": "2026-11-23",
+   "mentions": 2,
+   "readable": false
   },
   "lep.bg": {
    "cands": 1
@@ -1689,12 +1943,22 @@
   "luca_puma_official": {
    "cands": 1
   },
+  "lucabrancati93": {
+   "cands": 2
+  },
   "luke_style.official": {
+   "cands": 1,
+   "mentions": 1
+  },
+  "macchinette": {
    "cands": 1,
    "mentions": 1
   },
   "mad_swingteam": {
    "cands": 1
+  },
+  "madaoki_live": {
+   "cands": 2
   },
   "maledetta.nostalgia": {
    "bio": "Diventare grandi fa schifo :(\n📍14.11 Trezzo📍04.12 Padova 📍05.12 Treviso\nBooking 👉🏻 ciao@popcorngang.it",
@@ -1714,6 +1978,9 @@
    "mentions": 1
   },
   "marco_ruggierii": {
+   "cands": 1
+  },
+  "marcoferrigno_official": {
    "cands": 1
   },
   "markthehammer86": {
@@ -1739,7 +2006,9 @@
   },
   "marmellata": {
    "cands": 1,
-   "mentions": 2
+   "checked": "2026-11-23",
+   "mentions": 2,
+   "readable": false
   },
   "martacuscuna": {
    "cands": 1
@@ -1774,8 +2043,18 @@
   "massimosomaglino": {
    "cands": 1
   },
+  "matteo.carpinteri": {
+   "cands": 1
+  },
+  "matteo_coluccia_universe": {
+   "cands": 1
+  },
   "mattia.bonaldi": {
    "cands": 1
+  },
+  "mdmp_mdmp": {
+   "cands": 2,
+   "mentions": 1
   },
   "megan_is_missing_band": {
    "bio": "“Punk and Belligerent” out NOW!!!",
@@ -1796,6 +2075,22 @@
   },
   "messa_band": {
    "cands": 3
+  },
+  "michaelklashdj": {
+   "bio": "🔊 House music lover, Mash-up maker & DJ \n👨🏻‍💻 Digital Strategist by day.\n📍 Ibiza - Bergamo",
+   "cands": 5,
+   "checked": "2026-11-23",
+   "followers": 7845,
+   "kind": "venue",
+   "name": "MICHAEL KLASH",
+   "readable": true,
+   "website": "https://hypeddit.com/link/5h3zzc"
+  },
+  "michele_ventura22": {
+   "cands": 1
+  },
+  "microfonoaperto": {
+   "cands": 1
   },
   "mint_lounge": {
    "bio": "via Trieste, 38, Chiuduno (BG)\nAperto ogni venerdi' e sabato. Cocktail, music and party. Dalle 21.00 alle 3.30.\nPer info, click in bio!",
@@ -1864,6 +2159,9 @@
   "musicadiffusa2023": {
    "cands": 1
   },
+  "naotosoundsystem": {
+   "cands": 1
+  },
   "naturalezza": {
    "cands": 3,
    "checked": "2026-11-20",
@@ -1895,10 +2193,10 @@
    "checked": "2026-11-23",
    "followers": 11538,
    "kind": "scout",
-   "last_read": "2026-11-23T09:17+00:00",
+   "last_read": "2026-11-23T10:25+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 7,
+   "reads": 8,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -1924,6 +2222,18 @@
    "readable": true,
    "reads": 1,
    "website": null
+  },
+  "ninfeasocialclub": {
+   "bio": "Un’oasi sociale alle porte di Bergamo. \nPersone, natura, sport, musica, eventi e serate. \n📍 Via G. Marconi 65 - Sorisole (BG)",
+   "checked": "2026-11-23",
+   "events_found": 20,
+   "followers": 8727,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Ninfea Social Club",
+   "readable": true,
+   "reads": 1,
+   "website": "https://ninfamily.app/login"
   },
   "no.mad_entertainment": {
    "cands": 1,
@@ -1983,6 +2293,11 @@
    "error": "110: Invalid user id",
    "readable": false
   },
+  "operaprimacafe_": {
+   "checked": "2026-11-23",
+   "error": "110: Invalid user id",
+   "readable": false
+  },
   "ophelia.suicide": {
    "bio": "Death infused hardcore from Bergamo (IT)\nFirst Ep coming soon.",
    "cands": 2,
@@ -2007,6 +2322,9 @@
    "readable": true,
    "reads": 6,
    "website": null
+  },
+  "ouch_bruh": {
+   "cands": 1
   },
   "ozza.dj": {
    "cands": 1,
@@ -2049,13 +2367,23 @@
    "cands": 1,
    "mentions": 1
   },
+  "pix_in_mycam": {
+   "bio": "Live Music Photographer 📸\nVideomaker 🎥\nCreator and Host \n🎙️📻 ✍️ @cherrytimebombs\n🎙️ @tuttacolpadelpunk\nMy Work 👉 @studio_pix_inmycam",
+   "cands": 7,
+   "checked": "2026-11-23",
+   "followers": 1342,
+   "kind": "unknown",
+   "name": "Pix_Lisa Vavassori",
+   "readable": true,
+   "website": null
+  },
   "please.nights": {
    "cands": 1,
    "mentions": 1
   },
   "possibilita": {
    "bio": "Onde pessoas e empresas se conectam.\nDesenvolvimento humano, lideranças e cultura organizacional.\n↓ Conheça nossas experiências.",
-   "cands": 6,
+   "cands": 7,
    "checked": "2026-11-20",
    "followers": 1712,
    "kind": "unknown",
@@ -2076,9 +2404,9 @@
    "website": "https://linktr.ee/premierefam"
   },
   "prenotazione": {
-   "cands": 2,
+   "cands": 4,
    "checked": "2026-11-19",
-   "mentions": 9,
+   "mentions": 13,
    "readable": false
   },
   "principessa11270": {
@@ -2097,7 +2425,17 @@
   "proiezioni": {
    "cands": 1
   },
+  "protagonista": {
+   "cands": 1,
+   "mentions": 1
+  },
   "psychedelia": {
+   "cands": 1
+  },
+  "quintessenza": {
+   "cands": 1
+  },
+  "radioautbergamo": {
    "cands": 1
   },
   "rares_materials": {
@@ -2116,6 +2454,9 @@
    "name": "Regione Lombardia",
    "readable": true,
    "website": "https://linktr.ee/regionelombardia"
+  },
+  "reservation": {
+   "cands": 2
   },
   "retrovibesevents": {
    "bio": "Creiamo eventi brandizzati nell'ambito di market di artigianato, vintage e collezionismo.",
@@ -2151,8 +2492,22 @@
    "cands": 1,
    "mentions": 1
   },
+  "samu.togni": {
+   "cands": 3
+  },
   "santamarea.band": {
    "cands": 3
+  },
+  "savana.king25": {
+   "bio": "Bar pub narghilé e musica via Baschenis 3/c Bergamo",
+   "checked": "2026-11-23",
+   "followers": 192,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Savanah",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "savana_funk": {
    "bio": "SAVANA FUNK Grooving since 2015 💥                                   Booking: @antennamusicfactory \nTickets Club Tour👇",
@@ -2231,6 +2586,12 @@
   "sloworking.coworking": {
    "cands": 1
   },
+  "sofia.nembrini": {
+   "cands": 1
+  },
+  "sofia.somenzi": {
+   "cands": 1
+  },
   "sotto_traccia_eventi": {
    "cands": 1
   },
@@ -2291,6 +2652,18 @@
   "spread_band_": {
    "mentions": 1
   },
+  "sprint_bergamo": {
+   "bio": "Bottega. Trattoria. Hi-Fi bar. |📍Viale Giulio Cesare 18, Bergamo | ✏️ Prenotazioni: 0350044587 (anche whatsapp) | 🪩 Music: artisti@sprintbergamo.it",
+   "checked": "2026-11-23",
+   "events_found": 3,
+   "followers": 5111,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "SPRINT Bottega. Trattoria. Hi-Fi bar",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "stage_jump": {
    "cands": 1,
    "mentions": 1
@@ -2327,6 +2700,9 @@
    "watch": null,
    "website": "http://www.streeatfoodtruckfestival.it"
   },
+  "studio_ruralia": {
+   "cands": 1
+  },
   "stunner.boyzz": {
    "cands": 1
   },
@@ -2339,6 +2715,21 @@
    "name": "TALKMAF",
    "readable": true,
    "website": "https://www.fourvenues.com/prmr/events/talk-07-11-2026-T05U"
+  },
+  "tassinocafe": {
+   "bio": "🔴TASSINO CAFÈ🔴\nPer info: \n•feste ed eventi: 3522137887 Nicolo’ \n⬇️Prenota direttamente il tuo tavolo su whatsapp⬇️",
+   "checked": "2026-11-23",
+   "events_found": 1,
+   "followers": 4101,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "Tassino Cafe",
+   "readable": true,
+   "reads": 1,
+   "website": "https://wa.me/+393385882833"
+  },
+  "teatro_bric_a_brac": {
+   "cands": 1
   },
   "teatromiela_trieste": {
    "bio": "🎭 Dal 1990 a Trieste un luogo per spettacoli, musica, incontri e altre instabilità\n🟨 Per divertirsi, riflettere e stupirsi\nLa stagione 2026/2027⭣",
@@ -2412,6 +2803,9 @@
   "thenighteternal_official": {
    "cands": 1
   },
+  "this.is.playlist": {
+   "cands": 1
+  },
   "tiky.klub": {
    "bio": "VENERDÌ — tech house, from 23:30 till late\nVia Nazionale, 93, Seriate (Bg)",
    "checked": "2026-11-23",
@@ -2471,7 +2865,7 @@
    "followers": 777,
    "kind": "ignore",
    "last_read": "2026-11-21T19:29+00:00",
-   "mentions": 2,
+   "mentions": 1,
    "name": "Tumulto",
    "readable": true,
    "reads": 16,
@@ -2515,6 +2909,21 @@
   "unipiu.bergamo": {
    "cands": 1
   },
+  "unplug.project": {
+   "cands": 1
+  },
+  "unplug__bg": {
+   "bio": "🍸 Cocktail bar artigianale a Bergamo\n🗓 Gio–Mar · 18:00–02:00\nPrenotazioni ⬇️",
+   "checked": "2026-11-23",
+   "events_found": 4,
+   "followers": 3034,
+   "kind": "venue",
+   "last_read": "2026-11-23T10:25+00:00",
+   "name": "UNPLUG COCKTAIL BAR Bergamo",
+   "readable": true,
+   "reads": 1,
+   "website": "https://www.unplugbar.it/menu/"
+  },
   "unponteper_comitato.mi.mb": {
    "cands": 1,
    "mentions": 1
@@ -2526,8 +2935,11 @@
    "readable": false
   },
   "utopia.direction": {
-   "cands": 1,
+   "cands": 2,
    "mentions": 1
+  },
+  "valerio_el_director": {
+   "cands": 1
   },
   "velvet_shot": {
    "cands": 1
@@ -2612,7 +3024,16 @@
   "vol.2": {
    "cands": 1
   },
+  "vs.dati": {
+   "cands": 1
+  },
+  "wavesinalens": {
+   "cands": 1
+  },
   "we.are.stepup": {
+   "cands": 1
+  },
+  "wemeet.eventi.lombardia": {
    "cands": 1
   },
   "whatsapp": {
@@ -3258,6 +3679,8 @@
   },
   "earth": {
    "count": 3,
+   "done": true,
+   "handle": "earth_ofc",
    "name": "Earth",
    "tried": []
   },
@@ -3290,10 +3713,14 @@
   },
   "enter the void": {
    "count": 5,
+   "done": true,
    "name": "Enter the Void",
    "tried": [
     "enterthevoid",
-    "enterthevoidparty"
+    "enterthevoidparty",
+    "enterthevoidbergamo",
+    "enterthevoidbg",
+    "enterthevoid_official"
    ]
   },
   "essence": {
@@ -3431,8 +3858,15 @@
   },
   "karma night": {
    "count": 5,
+   "done": true,
    "name": "Karma Night",
-   "tried": []
+   "tried": [
+    "karmanight",
+    "karmanightparty",
+    "karmanightbergamo",
+    "karmanightbg",
+    "karmanight_official"
+   ]
   },
   "kawabonga": {
    "count": 1,
@@ -3572,7 +4006,12 @@
   "noche latina": {
    "count": 5,
    "name": "Noche Latina",
-   "tried": []
+   "tried": [
+    "nochelatina",
+    "nochelatinaparty",
+    "nochelatinabergamo",
+    "nochelatinabg"
+   ]
   },
   "nofilter": {
    "count": 2,
@@ -4638,6 +5077,7 @@
    "name": "Bar Le Torrette",
    "removed": false,
    "reviews": 1059,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -4891,6 +5331,7 @@
    "name": "Barry’s",
    "removed": false,
    "reviews": 540,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -5082,6 +5523,7 @@
    "name": "Bono' s bar",
    "removed": false,
    "reviews": 368,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -5239,6 +5681,7 @@
    "name": "Cafeteria",
    "removed": false,
    "reviews": 1040,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -5259,6 +5702,7 @@
    "name": "Caffe Bazzini dal 1987 -Caffetteria Enoteca Cucina Gelateria",
    "removed": false,
    "reviews": 988,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -6630,6 +7074,7 @@
    "name": "Dolce Pausa",
    "removed": false,
    "reviews": 262,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -7457,6 +7902,7 @@
    "lat": 45.63577,
    "lon": 9.59967,
    "name": "INDIE POWER",
+   "removed": false,
    "sources": [
     "instagram"
    ],
@@ -8042,6 +8488,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "leirisbar",
    "km": 0.8,
    "lat": 45.69739,
    "lon": 9.66672,
@@ -8053,7 +8500,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.leirisbar.com/"
+   "website": "http://www.leirisbar.com/",
+   "website_checked": true
   },
   "level up cocktail bar": {
    "address": "Via Antonia Ponti, 22, 24126 Bergamo BG",
@@ -8100,6 +8548,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "limbo_bar.ristorante.pizzeria",
    "km": 7.9,
    "lat": 45.71971,
    "lon": 9.57982,
@@ -8110,7 +8559,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.limboloungebar.com/"
+   "website": "http://www.limboloungebar.com/",
+   "website_checked": true
   },
   "live club": {
    "address": "Via Giuseppe Mazzini 58, 20056, Trezzo sull'Adda",
@@ -8135,11 +8585,12 @@
   },
   "live music club": {
    "address": "Via Giuseppe Mazzini, 58, 20056 Trezzo sull'Adda MI",
-   "auto_vote": 3.5,
-   "capacity": 400,
+   "auto_vote": 6.6,
+   "capacity": 1000,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 33510,
+   "instagram": "liveclub",
    "km": 16.7,
    "lat": 45.59904,
    "lon": 9.51688,
@@ -8151,7 +8602,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "https://liveclub.it/"
+   "website": "https://liveclub.it/",
+   "website_checked": true
   },
   "locanda armonia": {
    "address": "Via Redona 40, 24060, Trescore Balneario",
@@ -8177,12 +8629,13 @@
   },
   "loft": {
    "address": "Via Stezzano, 18, 24052 Azzano San Paolo BG",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 6.1,
+   "capacity": 750,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 10819,
    "ig_guessed": "2026-11-23",
+   "instagram": "loft.bergamo",
    "km": 4.3,
    "lat": 45.66061,
    "lon": 9.66623,
@@ -8194,7 +8647,8 @@
     "google"
    ],
    "type": "club",
-   "website": "http://www.loftbergamo.com/"
+   "website": "http://www.loftbergamo.com/",
+   "website_checked": true
   },
   "losa break lab": {
    "address": "Via Briantea, 1A, 24030 Ambivere BG",
@@ -8250,7 +8704,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/Lounge-Bar-Sorriso-889691724406232/?rf=124959047657836"
+   "website": "https://www.facebook.com/Lounge-Bar-Sorriso-889691724406232/?rf=124959047657836",
+   "website_checked": true
   },
   "lounge bar the bliss": {
    "address": "Via Giovanni Carnovali, 80, 24126 Bergamo BG",
@@ -8306,7 +8761,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.garibaldilounge-treviglio.it/"
+   "website": "https://www.garibaldilounge-treviglio.it/",
+   "website_checked": true
   },
   "luxor club": {
    "address": "Via Provinciale, 24, 24021 Albino BG",
@@ -8363,7 +8819,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/Maiuguali/"
+   "website": "https://www.facebook.com/Maiuguali/",
+   "website_checked": true
   },
   "mais pasticceria gelateria caffetteria": {
    "address": "Via Italia, 48, 20874 Busnago MB",
@@ -8382,7 +8839,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "https://www.facebook.com/pages/category/Coffee-Shop/Ma%C3%ADs-816874401983208/"
+   "website": "https://www.facebook.com/pages/category/Coffee-Shop/Ma%C3%ADs-816874401983208/",
+   "website_checked": true
   },
   "maite": {
    "address": "Vicolo Sant'Agata, 6, 24129 Bergamo BG",
@@ -8544,6 +9002,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-23",
    "km": 15.0,
    "lat": 45.64617,
    "lon": 9.8549,
@@ -8733,6 +9192,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-23",
    "km": 13.2,
    "lat": 45.58225,
    "lon": 9.71127,
@@ -8759,6 +9219,7 @@
    "name": "New Era Cocktail & Wine Bar",
    "removed": false,
    "reviews": 379,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -9363,6 +9824,7 @@
    "name": "Pasticceria Norma",
    "removed": false,
    "reviews": 269,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -10095,6 +10557,7 @@
    "name": "Spazio Marconi",
    "removed": false,
    "reviews": 1144,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -10712,6 +11175,7 @@
    "name": "Urban R-Evolution Pub",
    "removed": false,
    "reviews": 966,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -10791,6 +11255,7 @@
    "lat": 45.51252,
    "lon": 9.57047,
    "name": "Via Rossaro, 28",
+   "removed": false,
    "sources": [
     "eventi"
    ],

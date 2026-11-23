@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T09:23",
+ "generated": "2026-11-23T10:31",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -54,6 +54,14 @@
       "line2": "Tech House",
       "time": "00:00",
       "score": 26.6,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "nicola @ Ninfea Social Club",
+      "line2": "Elettronica",
+      "time": "21:00",
+      "score": 24.8,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -255,10 +263,36 @@
      "family": "Altro"
     },
     {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "comedy",
+     "time": "21:00",
+     "score": 42.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Pacì Paciana",
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-26": [
+    {
+     "line1": "Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "21:00",
+     "score": 43.4,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "karaoke",
+     "time": "21:30",
+     "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -283,20 +317,20 @@
    ],
    "2026-11-28": [
     {
-     "line1": "Tumulto @ Ink Club",
-     "line2": "Rock, SCALPO",
-     "time": "21:00",
-     "score": 50.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Savana Funk @ Druso",
      "line2": "Disco / Rock",
      "time": "00:00",
      "score": 49.8,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "SCALPO @ Ink Club",
+     "line2": "Rock",
+     "time": "21:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "Queen Club",
@@ -307,12 +341,36 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Duo Bucolico @ Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "21:00",
+     "score": 43.4,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Apericena A Buffet @ LOFT",
      "line2": "House, Lapo Underground",
      "time": "21:00",
      "score": 43.2,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "live",
+     "time": "22:00",
+     "score": 42.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Il Circolino della Malpensata",
+     "line2": "Rock",
+     "time": "21:30",
+     "score": 35.9,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "cre.sp1 @ Bloom",
@@ -323,18 +381,18 @@
      "family": "Altro"
     },
     {
-     "line1": "Bell’Atmosfera - Experience @ Easy Drink and Food",
-     "line2": "Commerciale",
-     "time": "21:00",
-     "score": 34.3,
-     "fascia": "preserata",
-     "family": "Commerciale"
-    },
-    {
      "line1": "Doctor Beat @ Charleston",
      "line2": "Commerciale",
      "time": "14:00",
      "score": 28.1,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "Easy Drink and Food",
+     "line2": "Commerciale",
+     "time": "21:00",
+     "score": 25.6,
      "fascia": "preserata",
      "family": "Commerciale"
     }
@@ -365,7 +423,23 @@
      "family": "Altro"
     },
     {
-     "line1": "Martesana Emergente @ Bloom",
+     "line1": "Meri Lu Jacket @ Ninfea Social Club",
+     "line2": "Jazz / Rock",
+     "time": "21:00",
+     "score": 43.4,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "dj set",
+     "time": "19:00",
+     "score": 42.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Bloom",
      "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
@@ -377,7 +451,10 @@
   "big_events": [],
   "caption_handles": [
    "@inkclub_bergamo",
+   "@prenotazione",
    "@zeroclub.bg",
+   "@kellerfactory_",
+   "@ninfeasocialclub",
    "@bloom_mezzago",
    "@discoteca_queen",
    "@daste_bergamo",
@@ -385,7 +462,6 @@
    "@lab80cinemas",
    "@possibilita",
    "@csapacipaciana",
-   "@prenotazione",
    "@consumazione",
    "@to_on.tv",
    "@spike.hellis",
@@ -403,9 +479,7 @@
    "@gruppo_gnam",
    "@lenticchie",
    "@nikita__land",
-   "@schivardi1953",
-   "@crystalcastlesnightt",
-   "@oroneroloveandmusic"
+   "@schivardi1953"
   ],
   "hashtags": [
    "#bergamo",
@@ -465,7 +539,7 @@
     },
     {
      "line1": "Bar della Musica",
-     "line2": "Rock",
+     "line2": "dj set",
      "time": "20:45",
      "score": 3.3,
      "fascia": "preserata",
@@ -490,6 +564,14 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Il Circolino della Malpensata",
+     "line2": "Indie / Rock",
+     "time": "21:30",
+     "score": 35.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "diggei sofficino @ Bloom",
      "line2": "Rock / Commerciale",
      "time": "00:00",
@@ -508,6 +590,8 @@
    "@importanti",
    "@daste_bergamo",
    "@consumazione",
+   "@circolinomalpensata_bergamo",
+   "@alternative",
    "@bloom_mezzago",
    "@dj.sofficino",
    "@nico.bre1917"
@@ -892,6 +976,14 @@
       "score": 26.6,
       "fascia": "serata",
       "family": "House / Elettronica"
+     },
+     {
+      "line1": "nicola @ Ninfea Social Club",
+      "line2": "Elettronica",
+      "time": "21:00",
+      "score": 24.8,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ],
     "2026-11-28": [
@@ -1165,10 +1257,36 @@
      "family": "Altro"
     },
     {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "comedy",
+     "time": "21:00",
+     "score": 42.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Pacì Paciana",
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-11-26": [
+    {
+     "line1": "Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "21:00",
+     "score": 43.4,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "karaoke",
+     "time": "21:30",
+     "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1193,20 +1311,20 @@
    ],
    "2026-11-28": [
     {
-     "line1": "Tumulto @ Ink Club",
-     "line2": "Rock, SCALPO",
-     "time": "21:00",
-     "score": 50.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Savana Funk @ Druso",
      "line2": "Disco / Rock",
      "time": "00:00",
      "score": 49.8,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "SCALPO @ Ink Club",
+     "line2": "Rock",
+     "time": "21:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "Queen Club",
@@ -1217,12 +1335,36 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Duo Bucolico @ Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "21:00",
+     "score": 43.4,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Apericena A Buffet @ LOFT",
      "line2": "House, Lapo Underground",
      "time": "21:00",
      "score": 43.2,
      "fascia": "preserata",
      "family": "House / Elettronica"
+    },
+    {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "live",
+     "time": "22:00",
+     "score": 42.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Il Circolino della Malpensata",
+     "line2": "Rock",
+     "time": "21:30",
+     "score": 35.9,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "cre.sp1 @ Bloom",
@@ -1233,18 +1375,18 @@
      "family": "Altro"
     },
     {
-     "line1": "Bell’Atmosfera - Experience @ Easy Drink and Food",
-     "line2": "Commerciale",
-     "time": "21:00",
-     "score": 34.3,
-     "fascia": "preserata",
-     "family": "Commerciale"
-    },
-    {
      "line1": "Doctor Beat @ Charleston",
      "line2": "Commerciale",
      "time": "14:00",
      "score": 28.1,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "Easy Drink and Food",
+     "line2": "Commerciale",
+     "time": "21:00",
+     "score": 25.6,
      "fascia": "preserata",
      "family": "Commerciale"
     }
@@ -1275,7 +1417,23 @@
      "family": "Altro"
     },
     {
-     "line1": "Martesana Emergente @ Bloom",
+     "line1": "Meri Lu Jacket @ Ninfea Social Club",
+     "line2": "Jazz / Rock",
+     "time": "21:00",
+     "score": 43.4,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line2": "dj set",
+     "time": "19:00",
+     "score": 42.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Bloom",
      "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
@@ -1300,8 +1458,11 @@
    "@zeroclub.bg",
    "@barleyartsreal",
    "@alchemica_club",
+   "@prenotazione",
    "@drusobg",
    "@daste_bergamo",
+   "@kellerfactory_",
+   "@ninfeasocialclub",
    "@megan_is_missing_band",
    "@divinabergamo",
    "@possibilita",
@@ -1311,7 +1472,6 @@
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
-   "@prenotazione",
    "@bloom_mezzago",
    "@discoteca_queen",
    "@sabbiemobili_official",
@@ -1323,9 +1483,7 @@
    "@arya.lounge",
    "@premiere.premiere",
    "@choruslife.bergamo",
-   "@door_74",
-   "@fabbricainpedavenatreviglio",
-   "@savana_funk"
+   "@door_74"
   ],
   "hashtags": [
    "#bergamo",
@@ -1400,8 +1558,8 @@
     ],
     "2026-12-31": [
      {
-      "line1": "Bar della Musica",
-      "line2": "Rock",
+      "line1": "Via Rossaro, 28",
+      "line2": "",
       "time": "00:00",
       "score": 7.7,
       "fascia": "serata",
@@ -1416,6 +1574,16 @@
       "line2": "Commerciale",
       "time": "00:00",
       "score": 43.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-12-31": [
+     {
+      "line1": "Keller Factory 2.0 - Live Music Pub",
+      "line2": "Revival",
+      "time": "23:00",
+      "score": 24.3,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -1456,7 +1624,7 @@
     },
     {
      "line1": "Bar della Musica",
-     "line2": "Rock",
+     "line2": "dj set",
      "time": "20:45",
      "score": 3.3,
      "fascia": "preserata",
@@ -1479,6 +1647,14 @@
      "score": 52.0,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "Il Circolino della Malpensata",
+     "line2": "Indie / Rock",
+     "time": "21:30",
+     "score": 35.9,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "diggei sofficino @ Bloom",
@@ -1539,10 +1715,18 @@
    ],
    "2026-12-12": [
     {
-     "line1": "Tumulto @ Pacì Paciana",
+     "line1": "Rude Night Chapter 01 @ Pacì Paciana",
      "line2": "Rock / Hard Techno",
      "time": "00:00",
-     "score": 43.3,
+     "score": 40.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Il Circolino della Malpensata",
+     "line2": "Rock",
+     "time": "21:30",
+     "score": 35.9,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1560,11 +1744,19 @@
    "2026-12-19": [
     {
      "line1": "Francesco Fanucchi - Tutto Sbagliato @ Teatro Miela",
-     "line2": "Revival",
+     "line2": "comedy",
      "time": "21:00",
      "score": 48.5,
      "fascia": "preserata",
-     "family": "Commerciale"
+     "family": "Altro"
+    },
+    {
+     "line1": "Il Circolino della Malpensata",
+     "line2": "Elettronica",
+     "time": "21:30",
+     "score": 35.9,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     }
    ],
    "2026-12-22": [
@@ -1618,15 +1810,17 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@nxtbergamo",
    "@prenotazione",
+   "@nxtbergamo",
    "@bloom_mezzago",
+   "@circolinomalpensata_bergamo",
    "@bolgia.official",
    "@importanti",
    "@daste_bergamo",
    "@teatromiela_trieste",
    "@capogirojoyclub",
    "@consumazione",
+   "@alternative",
    "@dj.sofficino",
    "@nico.bre1917",
    "@numerosissime",
@@ -1635,19 +1829,17 @@
    "@spettacoli",
    "@degustazione",
    "@csapacipaciana",
-   "@tumulto_bg",
    "@discoteca_queen",
    "@nikita__land",
    "@francesco_fanucchi_",
+   "@garden.exe.music",
+   "@garden.exe",
    "@door_74",
    "@charlie.blackbird",
    "@drusobg",
    "@charlie_cinelli",
    "@alessandro.sipolo",
-   "@naturalezza",
-   "@lorenzo.monguzzi",
-   "@attenzione",
-   "@utopia.direction"
+   "@naturalezza"
   ],
   "hashtags": [
    "#bergamo",

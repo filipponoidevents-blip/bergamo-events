@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-23T09:23",
+ "generated": "2026-11-23T10:31",
  "nights": [
   {
    "date": "2026-11-23",
@@ -115,12 +115,12 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 8,
-   "load": 284.5,
+   "events": 9,
+   "load": 309.3,
    "level": "piena",
-   "capacity_taken": 4000,
+   "capacity_taken": 4400,
    "by_family": {
-    "House / Elettronica": 3,
+    "House / Elettronica": 4,
     "Hip Hop / Trap": 0,
     "Commerciale": 5,
     "Altro": 0
@@ -952,19 +952,18 @@
    "weekday": "giovedì",
    "note": "Capodanno (veglione)",
    "weekend_like": true,
-   "events": 2,
-   "load": 41.0,
-   "level": "libera",
-   "capacity_taken": 500,
+   "events": 3,
+   "load": 65.3,
+   "level": "media",
+   "capacity_taken": 900,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 1
    },
    "missing_families": [
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
@@ -973,7 +972,12 @@
      "capacity": 400
     },
     {
-     "title": "[Rock] Bar della Musica",
+     "title": "[Revival] Keller Factory 2.0 - Live Music Pub",
+     "score": 24.3,
+     "capacity": 400
+    },
+    {
+     "title": "Via Rossaro, 28",
      "score": 7.7,
      "capacity": 100
     }

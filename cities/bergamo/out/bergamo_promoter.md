@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 23/11/2026 09:23. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 23/11/2026 10:31. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -9,9 +9,9 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 - **venerdì 04/12**: 0 serate, carico 0, manca House / Elettronica, Hip Hop / Trap, Commerciale
 - **venerdì 11/12**: 1 serate, carico 31.8, manca House / Elettronica, Hip Hop / Trap, Commerciale
 - **sabato 12/12**: 0 serate, carico 0, manca House / Elettronica, Hip Hop / Trap, Commerciale
+- **venerdì 18/12**: 1 serate, carico 43.0, manca House / Elettronica, Hip Hop / Trap
 - **sabato 19/12**: 0 serate, carico 0, manca House / Elettronica, Hip Hop / Trap, Commerciale
 - **venerdì 25/12** · prefestivo (Santo Stefano): 1 serate, carico 7.7, manca House / Elettronica, Hip Hop / Trap, Commerciale
-- **giovedì 31/12** · Capodanno (veglione): 2 serate, carico 41.0, manca Hip Hop / Trap, Commerciale
 - **venerdì 01/01** · festivo (Capodanno): 0 serate, carico 0, manca House / Elettronica, Hip Hop / Trap, Commerciale
 - **sabato 02/01**: 1 serate, carico 32.7, manca House / Elettronica, Hip Hop / Trap, Commerciale
 
@@ -21,7 +21,7 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 |---|---|---|---|---|---|---|
 | 24/11 mar | tranquilla | 1 | 53.0 | 900 | House 1 | [Tech House] Bloom · Club Culture w/ Spike Hellis |
 | 25/11 mer | media | 3 | 126.4 | 1350 | Commerciale 2, Altro 1 | Arena Esterno Notte · Anna; [Commerciale 360] Zero Club · Please; [Latino / Commerciale] Queen Club |
-| 27/11 ven | piena | 8 | 284.5 | 4000 | House 3, Commerciale 5 | [Commerciale] Nikita · SCHIVARDI 1953; [Witch House / EDM] Zero Club · Crystal Castles Night; [Hard Techno] Oronero · Underground - Hardcore w/ Possibilita |
+| 27/11 ven | piena | 9 | 309.3 | 4400 | House 4, Commerciale 5 | [Commerciale] Nikita · SCHIVARDI 1953; [Witch House / EDM] Zero Club · Crystal Castles Night; [Hard Techno] Oronero · Underground - Hardcore w/ Possibilita |
 | 28/11 sab | piena | 5 | 184.1 | 4100 | House 1, Hip Hop 1, Altro 3 | Bolgia · MARIE VAUNT; [Hip Hop / Trap] Zero Club · CRØMA; [Hard Techno] Sabbie Mobili · Code |
 | 29/11 dom | tranquilla | 1 | 7.7 | 100 | Altro 1 | Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 04/12 ven | libera | 0 | 0 | 0 | - | - |
@@ -33,6 +33,6 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 | 19/12 sab | libera | 0 | 0 | 0 | - | - |
 | 25/12 ven (prefestivo (Santo Stefano)) | libera | 1 | 7.7 | 100 | Altro 1 | Via Treviglio 2058, Fara Gera d'Adda |
 | 26/12 sab (festivo (Santo Stefano)) | libera | 1 | 49.8 | 900 | Altro 1 | [Rock / Jazz] Bloom · Charlie Cinelli |
-| 31/12 gio (Capodanno (veglione)) | libera | 2 | 41.0 | 500 | House 1, Altro 1 | [Melodic House] Daste Bergamo · utōpia; [Rock] Bar della Musica |
+| 31/12 gio (Capodanno (veglione)) | media | 3 | 65.3 | 900 | House 1, Commerciale 1, Altro 1 | [Melodic House] Daste Bergamo · utōpia; [Revival] Keller Factory 2.0 - Live Music Pub; Via Rossaro, 28 |
 | 01/01 ven (festivo (Capodanno)) | libera | 0 | 0 | 0 | - | - |
 | 02/01 sab | libera | 1 | 32.7 | 300 | Altro 1 | [Rock] Druso |
