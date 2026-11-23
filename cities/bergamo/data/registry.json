@@ -22,12 +22,12 @@
    "bio": "Orari:\n-mar 12/14:15\n-mer, gio 12/14.15 - 19/22:30\n-ven 12/14.15 - 19/23\n-sab 19/23:30\n-dom 12/14:30 - 19/22:30\nPrenota allo 030 9383239 / 3314329375",
    "checked": "2026-11-23",
    "events_found": 10,
-   "followers": 2295,
+   "followers": 2296,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "A21 Ristopizza",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.a21ristopizza.it/"
   },
   "abbrobotics": {
@@ -1072,13 +1072,13 @@
    "bio": "Sabato @capogirojoyclub",
    "checked": "2026-11-23",
    "events_found": 3,
-   "followers": 4703,
+   "followers": 4701,
    "kind": "promoter",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "mentions": 1,
    "name": "Cheri",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "cherry.ills": {
@@ -1745,7 +1745,9 @@
   },
   "encounters": {
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "mentions": 1,
+   "readable": false
   },
   "enea_pascal": {
    "cands": 1
@@ -1757,8 +1759,15 @@
    "cands": 1
   },
   "esotic_event": {
+   "bio": "ꜰᴇᴇʟ ᴛʜᴇ ꜱᴜɴ 🌅\n29/11: @after_caposile w/: @gennaro.music\n05/12: @noidfamilia - @auraclubmantova \n18/12: TBA - Reggio Emilia",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "followers": 2352,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Esotic Wave",
+   "readable": true,
+   "website": "https://linktr.ee/Esotic_Event"
   },
   "esse.pietro": {
    "cands": 2,
@@ -1782,7 +1791,9 @@
   },
   "estrazione": {
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "mentions": 1,
+   "readable": false
   },
   "estudio_salsa": {
    "cands": 1
@@ -1947,25 +1958,34 @@
    "readable": false
   },
   "furkan_mcc": {
+   "bio": "@housedistrict._",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "followers": 1362,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "FURKAN MACCAIONE",
+   "readable": true,
+   "website": "https://on.soundcloud.com/3KomgtW25HMMwWPp8"
   },
   "galactica.festival": {
    "bio": "• Festival • Music Label • Global Movement\nTickets ▼",
    "checked": "2026-11-23",
    "events_found": 9,
-   "followers": 113002,
+   "followers": 113039,
    "kind": "promoter",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "mentions": 1,
    "name": "GALACTICA",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://linktr.ee/galactica.festival"
   },
   "garden.exe": {
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "mentions": 1,
+   "readable": false
   },
   "garden.exe.music": {
    "cands": 1,
@@ -2265,13 +2285,13 @@
   "inarisushigarbagnate": {
    "bio": "IL SUSHI PIÙ GRANDE DI MILANO\n🍣 Menù AYCE\n📍 Via Leonardo Da Vinci 29, Garbagnate Milanese\n🗓️ Aperti tutti i giorni\n📞 3313226255 / 0225135603",
    "checked": "2026-11-23",
-   "events_found": 4,
-   "followers": 6184,
+   "events_found": 5,
+   "followers": 6189,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "Inari Garbagnate",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://app.brenvo.ai/?rwg_token=AE37R_jslVJlVq967AFCbzZb9Y-jBO0PojVbDEjAlWZLsl1xYPyhcdJcaFVD5rlOOAyo8n29SgFsd1UASG7MvjsOoYaaENFRl06zHHiWbR21C5_Siz2BrAg%253D%23/reservations?string_id=LEA4Y"
   },
   "incisions054": {
@@ -2428,12 +2448,12 @@
   "juiceclubit": {
    "bio": "⭐️ THIS IS JUICE.\n☎️ 348/5524298\n🗓️ SAT 28/11 @loft.bergamo \nPrenota qui ⬇️",
    "checked": "2026-11-23",
-   "followers": 8575,
+   "followers": 8576,
    "kind": "promoter",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "JUICE (BG)",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.juiceclub.it/buy"
   },
   "jurij.razza": {
@@ -2488,10 +2508,10 @@
    "checked": "2026-11-23",
    "followers": 419,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "KILIMANGIARO CLUB",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://maps.apple/p/z8b676~g42P-jY"
   },
   "killingspree_hhc": {
@@ -2568,22 +2588,22 @@
    "checked": "2026-11-23",
    "followers": 1591,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "La Dolce Pausa",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://ladolcepausa.eu"
   },
   "la_sosta_cafe": {
    "bio": "🟩 WATHSAPP 035771469 \nPER PRENOTAZIONI TAVOLI, FESTE DI COMPLEANNO E LAUREE",
    "checked": "2026-11-23",
    "events_found": 4,
-   "followers": 2163,
+   "followers": 2164,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "La Sosta Cafe",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "lab.librialbanco": {
@@ -2638,12 +2658,12 @@
    "bio": "🧡 La Dispensa del Gusto\n🤩 Brunch, Pranzo, Aperitivo e..\n👇🏻 Scopri i menu e prenota ora",
    "checked": "2026-11-23",
    "events_found": 1,
-   "followers": 4272,
+   "followers": 4273,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "La Plaza",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://la-plaza-prenotazioni.area-di-lavo-7125.chatgpt.site/"
   },
   "lateres_ets": {
@@ -2697,14 +2717,14 @@
    "bio": "Events & Urban Experiences since 2011\nNext events ↓",
    "cands": 1,
    "checked": "2026-11-23",
-   "events_found": 20,
-   "followers": 43129,
+   "events_found": 21,
+   "followers": 43144,
    "kind": "promoter",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "mentions": 1,
    "name": "Le Cannibale",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://linktr.ee/lecannibale"
   },
   "led_velvet": {
@@ -2724,10 +2744,10 @@
    "events_found": 0,
    "followers": 4313,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "Le Iris",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://www.leirisbar.com/"
   },
   "lelesacchi": {
@@ -2767,10 +2787,10 @@
    "checked": "2026-11-23",
    "followers": 962,
    "kind": "venue",
-   "last_read": "2026-11-23T11:33+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "limbo bar ristorante e pizzeria",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "liveclub": {
@@ -3178,10 +3198,10 @@
    "checked": "2026-11-23",
    "followers": 11540,
    "kind": "scout",
-   "last_read": "2026-11-23T19:41+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 17,
+   "reads": 18,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -3229,10 +3249,10 @@
    "events_found": 0,
    "followers": 2733,
    "kind": "venue",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "Niniva Risto Lounge Bar",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://wa.me/39035638123"
   },
   "no.mad_entertainment": {
@@ -3315,12 +3335,12 @@
    "bio": "🧞‍♂️ BENVENUTI! 🧞‍♂️\n\"OHANA\" è il concerto-spettacolo suonato e cantato dal vivo omaggio al meraviglioso mondo Disney!😍\n✨️Rivivi la magia✨️",
    "checked": "2026-11-23",
    "events_found": 0,
-   "followers": 995,
+   "followers": 996,
    "kind": "venue",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "OHANA Disney Live Show",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://youtu.be/jxw-vQ3B498"
   },
   "olfornerpasticceriasalvetti": {
@@ -3328,10 +3348,10 @@
    "checked": "2026-11-23",
    "followers": 938,
    "kind": "venue",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "Ol Forner Pasticceria Salvetti",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.olforner-pasticceriasalvetti.com/"
   },
   "omar__giorgio_makhloufi": {
@@ -3474,12 +3494,12 @@
    "bio": "Più di 40 anni di passione e tradizione ❤️\ncondividi con noi #pasticceriamorlacchi \nI nostri orari:\nDa martedì a sabato 7-19:30\nDomenica 7:30-18",
    "checked": "2026-11-23",
    "events_found": 2,
-   "followers": 19348,
+   "followers": 19349,
    "kind": "venue",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "PASTICCERIA MORLACCHI",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://shop.pasticceriamorlacchi.it/"
   },
   "pasticceriamelograno": {
@@ -3498,6 +3518,9 @@
    "cands": 1
   },
   "pete_roth_trio": {
+   "cands": 1
+  },
+  "pier.cut": {
    "cands": 1
   },
   "pierpaolo_capovilla": {
@@ -3769,6 +3792,7 @@
    "mentions": 2,
    "name": "Sammj Stortini",
    "readable": true,
+   "venue_done": true,
    "website": null
   },
   "samu.togni": {
@@ -4076,10 +4100,10 @@
    "events_found": 7,
    "followers": 20635,
    "kind": "unknown",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "Supertato Bolgia",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://www.bolgia.it/"
   },
   "talk.maf": {
@@ -4087,12 +4111,12 @@
    "cands": 3,
    "checked": "2026-11-23",
    "events_found": 1,
-   "followers": 2204,
+   "followers": 2203,
    "kind": "promoter",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "name": "TALKMAF",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://www.fourvenues.com/prmr/events/talk-07-11-2026-T05U"
   },
   "tama_sumo": {
@@ -4129,7 +4153,7 @@
    "website": "https://linktr.ee/teatromiela"
   },
   "techno_ladies": {
-   "cands": 1
+   "cands": 2
   },
   "thanka.official": {
    "bio": "Il tuo sabato sera\nVia Nazionale 93, Seriate (Bg)",
@@ -4432,13 +4456,13 @@
    "cands": 2,
    "checked": "2026-11-23",
    "events_found": 2,
-   "followers": 8477,
+   "followers": 8474,
    "kind": "promoter",
-   "last_read": "2026-11-23T12:19+00:00",
+   "last_read": "2026-11-23T20:48+00:00",
    "mentions": 2,
    "name": "utopia",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "watch": true,
    "website": "https://linktr.ee/utopia.direction"
   },
@@ -4869,6 +4893,7 @@
   },
   "Sala dell'Orologio all'interno di Thesaurus. Archivi di mem, Bergamo |nome": null,
   "Sala dell'Orologio, all'interno di ArtDate 2026 MAGIA, con, Bergamo |nome": null,
+  "Sammj Stortini, Bergamo |nome": null,
   "Spazio Teatro 89, Bergamo": {
    "city": "Milano",
    "lat": 45.47108,
@@ -4892,6 +4917,12 @@
    "city": "Bergamo",
    "lat": 45.70435,
    "lon": 9.66238,
+   "province": null
+  },
+  "Via Bergognone 34, Bergamo": {
+   "city": "Milano",
+   "lat": 45.45285,
+   "lon": 9.16369,
    "province": null
   },
   "Via Carlo Serassi, 26, Bergamo": {
@@ -5193,6 +5224,7 @@
   "sala dell orologio all interno di artdate 2026 magia con": null,
   "sala dell orologio all interno di thesaurus archivi di mem": null,
   "teatro sala della comunita viale betelli 1 dalmine bg": null,
+  "via bergognone 34 milano": null,
   "via borgo santa caterina 1a bergamo": {
    "address": "Via Borgo Santa Caterina, 1a, 24124 Bergamo BG",
    "aliases": [
@@ -5609,16 +5641,27 @@
   },
   "euphoria": {
    "count": 2,
+   "done": true,
    "name": "Euphoria",
    "tried": [
     "euphoria",
-    "euphoriaparty"
+    "euphoriaparty",
+    "euphoriabergamo",
+    "euphoriabg",
+    "euphoria_official"
    ]
   },
   "extasi": {
    "count": 2,
+   "done": true,
    "name": "Extasi",
-   "tried": []
+   "tried": [
+    "extasi",
+    "extasiparty",
+    "extasibergamo",
+    "extasibg",
+    "extasi_official"
+   ]
   },
   "favela vibes": {
    "count": 1,
@@ -5648,7 +5691,12 @@
   "glue": {
    "count": 2,
    "name": "Glue",
-   "tried": []
+   "tried": [
+    "glue",
+    "glueparty",
+    "gluebergamo",
+    "gluebg"
+   ]
   },
   "groove factory": {
    "count": 2,
@@ -6349,7 +6397,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-23",
-   "followers": 2295,
+   "followers": 2296,
    "instagram": "a21ristopizza",
    "km": 53.2,
    "lat": 45.36246,
@@ -6417,6 +6465,7 @@
    "name": "Al 10",
    "removed": false,
    "reviews": 261,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -7199,6 +7248,7 @@
    "name": "Bar-Pasticceria-Gelateria- di Manenti",
    "removed": false,
    "reviews": 356,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -8071,6 +8121,7 @@
    "name": "Castle Rock Pub",
    "removed": false,
    "reviews": 264,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -8340,6 +8391,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-23",
    "km": 14.5,
    "lat": 45.65111,
    "lon": 9.85155,
@@ -8426,6 +8478,7 @@
    "name": "Circolo Arci Spazio Condiviso",
    "removed": false,
    "reviews": 55,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -8440,6 +8493,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-23",
    "km": 0.4,
    "lat": 45.69503,
    "lon": 9.67844,
@@ -8565,6 +8619,7 @@
    "name": "Circolo La Famiglia",
    "removed": false,
    "reviews": 24,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -8745,6 +8800,7 @@
    "name": "Cordiale American Bar",
    "removed": false,
    "reviews": 476,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -9966,6 +10022,7 @@
    "name": "Il rava",
    "removed": false,
    "reviews": 165,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -10000,7 +10057,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-23",
-   "followers": 6184,
+   "followers": 6189,
    "instagram": "inarisushigarbagnate",
    "km": 49.8,
    "lat": 45.56357,
@@ -10517,7 +10574,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 4272,
+   "followers": 4273,
    "instagram": "laplazabg",
    "km": 3.1,
    "lat": 45.67318,
@@ -10538,7 +10595,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 2163,
+   "followers": 2164,
    "instagram": "la_sosta_cafe",
    "km": 12.9,
    "lat": 45.75962,
@@ -11227,7 +11284,7 @@
    "capacity": 150,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 19348,
+   "followers": 19349,
    "instagram": "pasticceria_morlacchi",
    "km": 6.5,
    "lat": 45.64025,
@@ -11368,7 +11425,7 @@
    "capacity": 250,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 995,
+   "followers": 996,
    "instagram": "ohana_disney_show",
    "km": 18.4,
    "lat": 45.5339,
@@ -12043,6 +12100,7 @@
    "name": "Pasticceria Golosa",
    "removed": false,
    "reviews": 512,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -12478,6 +12536,7 @@
    "name": "Rin'z Lounge",
    "removed": false,
    "reviews": 115,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -12710,6 +12769,7 @@
    "lat": 45.69056,
    "lon": 9.64761,
    "name": "SALVO",
+   "removed": false,
    "sources": [
     "instagram"
    ],
@@ -13631,6 +13691,23 @@
    "website": "https://www.barvaradero.com/",
    "website_checked": true
   },
+  "via bergognone 34 milano": {
+   "address": "Via Bergognone 34",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "city": "Milano",
+   "first_seen": "2026-11-23",
+   "followers": null,
+   "km": 48.4,
+   "lat": 45.45285,
+   "lon": 9.16369,
+   "name": "Via Bergognone 34, Milano",
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
   "via borgo santa caterina 1a": {
    "address": "Via Borgo Santa Caterina, 1a, 24124 Bergamo BG",
    "aliases": [
@@ -13707,6 +13784,7 @@
    "lon": 9.57047,
    "name": "Via Rossaro, 28",
    "removed": false,
+   "search_checked": "2026-11-23",
    "sources": [
     "eventi"
    ],

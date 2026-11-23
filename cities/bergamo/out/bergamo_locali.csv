@@ -83,7 +83,7 @@ Level up cocktail bar;bar;Via Antonia Ponti, 22, 24126 Bergamo BG;;3.0;;;100;sti
 Pacì Paciana;live_club;Via Grumello 61/c, Bergamo;Bergamo;3.0;csapacipaciana;13846;;;5;;conoscenze
 A.r.c.i. Bergamo;live_club;Via Giovanni Battista Rampinelli, 10, 24126 Bergamo BG;;3.1;;;400;stima;;3.5;google
 Almadolce Caffetteria Pasticceria;bar;Via Roma, 4, 24020 Gorle BG;;3.1;;;100;stima;;1.7;google
-La Plaza;bar;Piazza Emanuele Filiberto, 4, 24126 Bergamo BG;;3.1;laplazabg;4272;50;stima;;2.4;google
+La Plaza;bar;Piazza Emanuele Filiberto, 4, 24126 Bergamo BG;;3.1;laplazabg;4273;50;stima;;2.4;google
 INARI CANTU;bar;;Bergamo;3.2;;;100;stima;;1.7;eventi
 Pasticceria Norma;bar;Via Italia, 81, 24068 Seriate BG;;3.4;;;100;stima;;1.7;google
 BAKARY LOUNGE BAR;club;Via Leonardo Da Vinci, 1, 24020 Torre Boldone BG;;3.5;bakaryloungebar;154;300;stima;;3.7;google
@@ -145,7 +145,7 @@ Queen Club;club;Via Levata, 18, 24068 Cassinone BG;;6.2;discoteca_queen;17104;40
 PalaZanica;live_club;;;6.3;;;400;stima;;3.5;osm
 VOG Summer;club;Via Pastrengo, 7/I, 24068 Seriate BG;;6.4;;;500;stima;;4.1;google
 Alkimia Food & Drink;bar;Via Trento, 2/A, 24048 Treviolo BG;;6.5;;;100;stima;;1.7;google
-Morlacchi - Premiata Pasticceria Artigianale;bar;Via Padergnone, 6, 24050 Zanica BG;;6.5;pasticceria_morlacchi;19348;150;stima;;4.1;google
+Morlacchi - Premiata Pasticceria Artigianale;bar;Via Padergnone, 6, 24050 Zanica BG;;6.5;pasticceria_morlacchi;19349;150;stima;;4.1;google
 Chocolat Bistrot;bar;Via Libertà, 74, 24040 Paladina BG;;6.7;;;100;stima;;1.7;google
 Pub La Caverna;bar;via Dell'innovazione, 17, 24048 Treviolo BG;;6.7;;;100;stima;;1.7;google
 Alborghetti Events | musica e intrattenimento;live_club;Via Raffaello Sanzio, 45, 24036 Ponte San Pietro BG;;6.8;;;400;stima;;3.5;google
@@ -214,7 +214,7 @@ Bum Bum Festival;live_club;Parco Le Stanze, 24069 Trescore Balneario BG;;12.4;bu
 Sabbie Mobili;club;Via Bedeschi, 24040 Chignolo d'Isola BG;;12.5;sabbiemobili_official;7835;500;stima;6;4.1;google
 In Croissanteria Lab;bar;;Carobbio degli Angeli;12.6;incroissanterialab;27708;;;3;;conoscenze
 CocktailMood;bar;Via Roma, 4, 24040 Pognano BG;;12.8;cocktail_mood_cm;360;50;stima;;1.2;google
-La Sosta Cafe;bar;Via Molinello, 2/E, 24021 Vall'alta BG;;12.9;la_sosta_cafe;2163;50;stima;;2.0;google
+La Sosta Cafe;bar;Via Molinello, 2/E, 24021 Vall'alta BG;;12.9;la_sosta_cafe;2164;50;stima;;2.0;google
 Musicattiva;club;Via Rosmini, 8, 24055 Cologno Al Serio BG;;13.2;;;500;stima;;4.1;google
 Caffetteria d'Elite di Rapizza Riccardo e C;bar;Via Umberto I°, 2, 24055 Cologno Al Serio BG;;13.5;;;100;stima;;1.7;google
 Brina Pasticceria;bar;;Cologno al Serio;13.5;brinapasticceria;3130;;;3;;conoscenze
@@ -256,7 +256,7 @@ Aguadecoco;bar;Via Treviglio, 22, 24053 Brignano Gera d'Adda BG;;17.8;;;100;stim
 Portello Caffe Busnago Globo;bar;Via Italia, 197, 20874 Busnago MB;;18.1;;;100;stima;;1.7;google
 Notturna Club;club;Via Don B. Ferrari, 45, 24029 Vertova BG;;18.3;;;500;stima;;4.1;google
 Via Treviglio 2058, Fara Gera d'Adda;bar;Via Treviglio 2058;Treviglio;18.3;;;100;stima;;1.7;eventi
-Musica dal Vivo Bergamo HP Music;live_club;Via Umberto I', 18, 24050 Morengo BG;;18.4;ohana_disney_show;995;250;stima;;3.6;google
+Musica dal Vivo Bergamo HP Music;live_club;Via Umberto I', 18, 24050 Morengo BG;;18.4;ohana_disney_show;996;250;stima;;3.6;google
 Serendipity Cocktails & Food;bar;Via Fossa Castello, 8, 23883 Brivio LC;;18.4;;;100;stima;;1.7;google
 Switch cafe;bar;Via Cimitero, 27, 24040 Canonica d'Adda BG;;18.5;;;100;stima;;1.7;google
 Circolo Arci Quintano;bar;Via Padre Serafino Biffi, 24060 Castelli Calepio BG;;18.6;;;100;stima;;1.7;google
@@ -343,9 +343,10 @@ Fabrique;live_club;;Milano;44.3;;;3000;;10;;conoscenze
 RNLT Milano Corso Garibaldi - Renord;bar;Corso Garibaldi, 73, 20121 Milano MI;;45.7;renault_italia;121477;200;stima;;5.2;eventi
 Via Procaccini 4, Milano;bar;Via Procaccini 4;Milano;45.8;;;100;stima;;1.7;eventi
 Magazzini Generali;club;;Milano;46.8;;;;;10;;conoscenze
+Via Bergognone 34, Milano;bar;Via Bergognone 34;Milano;48.4;;;100;stima;;1.7;eventi
 Ippodromo SNAI San Siro;open_air;;Milano;49.5;;;20000;;10;;conoscenze
-Inari Sushi Garbagnate;bar;Via Leonardo da Vinci, 29, 20024 Garbagnate Milanese MI;;49.8;inarisushigarbagnate;6184;100;stima;;3.1;eventi
+Inari Sushi Garbagnate;bar;Via Leonardo da Vinci, 29, 20024 Garbagnate Milanese MI;;49.8;inarisushigarbagnate;6189;100;stima;;3.1;eventi
 Spazio Teatro 89;live_club;;Milano;50.9;spazioteatro89;4766;400;stima;;4.8;instagram
-A21 Ristopizza;bar;Str. per Leno, 7, 25025 Manerbio BS;;53.2;a21ristopizza;2295;50;stima;;2.1;eventi
+A21 Ristopizza;bar;Str. per Leno, 7, 25025 Manerbio BS;;53.2;a21ristopizza;2296;50;stima;;2.1;eventi
 Dove: AL Colle HUB sociale (Via Ripa, 62, Bruntino - Villa d;bar;Via Ripa, 62;Scandolara Ripa d'Oglio;65.1;;;100;stima;;1.7;eventi
 Daste Bergamo;live_club;;;;daste_bergamo;21355;400;;5;;conoscenze
