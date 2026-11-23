@@ -193,6 +193,9 @@ def fascia_of(city: City, ev: dict, v: dict | None, big: bool) -> tuple[str, str
     return ("serata", "discoteca") if (v or {}).get("type") in ("club", "arena") else ("preserata", "bar o locale diurno")
 
 
+FAR_CITY = re.compile(r"(?:📍[^\n]*?|\b(?:a|in)\s+)\b(milano|brescia|torino|roma|bologna|verona|venezia|firenze|napoli|genova|monza|como|lecco|cremona|padova|parma)\b", re.I)
+
+
 def build(city: City, raws: list[dict], online: bool = True) -> tuple[list[dict], list[dict]]:
     """Restituisce (eventi finiti, eventi scartati con il motivo)."""
     r = city.settings["ranking"]
@@ -204,6 +207,9 @@ def build(city: City, raws: list[dict], online: bool = True) -> tuple[list[dict]
     for ev in merge(raws):
         d = date.fromisoformat(ev["date"])
         v = city.venue_named(ev["venue"], exact=True) or (city.venue_named(ev["venue"]) if ev["venue_known"] else None)
+        far = FAR_CITY.search(ev.get("all_text") or "")
+        if v and far and norm(far.group(1)) != norm(city.c["name"]) and norm(far.group(1)) not in norm(f"{v.get('address') or ''} {v.get('city') or ''}"):
+            v = None   # "Dekmantel a Milano, via Bergognone": non è "La Base" di Bergamo anche se il nome somiglia
         if not v and online and (ev.get("address") or ev.get("venue")):
             v = _new_venue(city, ev)
         tn = norm(f"{ev.get('party') or ''} {ev['all_text']}")
