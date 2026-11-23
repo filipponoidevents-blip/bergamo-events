@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T09:10",
+ "generated": "2026-11-23T09:23",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -24,8 +24,8 @@
    "House / Elettronica": {
     "2026-11-24": [
      {
-      "line1": "Spike Hellis @ Bloom",
-      "line2": "Hard Techno / Rock",
+      "line1": "Club Culture @ Bloom",
+      "line2": "Tech House, Spike Hellis",
       "time": "00:00",
       "score": 53.0,
       "fascia": "serata",
@@ -34,20 +34,36 @@
     ],
     "2026-11-27": [
      {
+      "line1": "Crystal Castles Night @ Zero Club",
+      "line2": "Witch House / EDM",
+      "time": "00:00",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 39.6,
+      "score": 38.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "Tiky Klub",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 26.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
     ],
     "2026-11-28": [
      {
-      "line1": "Savana Funk @ Druso",
-      "line2": "Disco / Rock",
-      "time": "00:00",
-      "score": 57.0,
+      "line1": "Code @ Sabbie Mobili",
+      "line2": "Hard Techno",
+      "time": "23:30",
+      "score": 34.2,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -62,48 +78,6 @@
       "score": 50.8,
       "fascia": "serata",
       "family": "Altro"
-     },
-     {
-      "line1": "Please.Nights @ Zero Club",
-      "line2": "",
-      "time": "00:00",
-      "score": 41.5,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Possibilita @ NXT Bergamo",
-      "line2": "Jazz",
-      "time": "00:00",
-      "score": 25.3,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-11-27": [
-     {
-      "line1": "SCHIVARDI 1953 @ Nikita",
-      "line2": "",
-      "time": "00:00",
-      "score": 57.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Crystalcastlesnightt @ Zero Club",
-      "line2": "",
-      "time": "00:00",
-      "score": 41.5,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Bell’Atmosfera - Experience @ INARI CANTU",
-      "line2": "",
-      "time": "00:00",
-      "score": 13.4,
-      "fascia": "serata",
-      "family": "Altro"
      }
     ],
     "2026-11-28": [
@@ -111,15 +85,7 @@
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
       "time": "23:30",
-      "score": 50.2,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Cromaroom @ Zero Club",
-      "line2": "",
-      "time": "00:59",
-      "score": 41.5,
+      "score": 60.0,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -127,7 +93,15 @@
       "line1": "Bar Florio @ Zero Club",
       "line2": "club room",
       "time": "00:00",
-      "score": 33.5,
+      "score": 25.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Pacì Paciana",
+      "line2": "Alternative",
+      "time": "21:00",
+      "score": 24.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -144,24 +118,76 @@
     ]
    },
    "Commerciale": {
-    "2026-11-27": [
+    "2026-11-25": [
      {
-      "line1": "Conejo Night @ Daste Bergamo",
-      "line2": "Reggaeton",
+      "line1": "Please @ Zero Club",
+      "line2": "Commerciale 360",
       "time": "00:00",
-      "score": 39.6,
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Queen Club",
+      "line2": "Latino / Commerciale",
+      "time": "00:00",
+      "score": 35.7,
       "fascia": "serata",
       "family": "Commerciale"
      }
     ],
-    "2026-11-28": [
+    "2026-11-27": [
      {
-      "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
-      "line2": "Commerciale / Revival",
+      "line1": "SCHIVARDI 1953 @ Nikita",
+      "line2": "Commerciale",
       "time": "00:00",
-      "score": 13.4,
+      "score": 56.6,
       "fascia": "serata",
       "family": "Commerciale"
+     },
+     {
+      "line1": "DiscoDance @ Queen Club",
+      "line2": "Dance",
+      "time": "22:30",
+      "score": 36.1,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Conejo Night @ Daste Bergamo",
+      "line2": "Reggaeton",
+      "time": "00:00",
+      "score": 33.3,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Sabbie Mobili",
+      "line2": "Afro, sala 1",
+      "time": "23:30",
+      "score": 27.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Sabbie Mobili",
+      "line2": "Commerciale / Revival, sala 2",
+      "time": "23:30",
+      "score": 27.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ]
+   },
+   "Hip Hop / Trap": {
+    "2026-11-28": [
+     {
+      "line1": "CRØMA @ Zero Club",
+      "line2": "Hip Hop / Trap",
+      "time": "00:59",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "Hip Hop / Trap"
      }
     ]
    }
@@ -172,7 +198,7 @@
      "line1": "10 To_On.Tv @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
-     "score": 52.0,
+     "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -182,15 +208,7 @@
      "line1": "Bowie.Hc @ Ink Club",
      "line2": "dj set, club room",
      "time": "00:00",
-     "score": 62.9,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
-     "line2": "live",
-     "time": "20:00",
-     "score": 52.0,
+     "score": 58.4,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -201,12 +219,28 @@
      "score": 48.2,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
+     "line2": "live",
+     "time": "20:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-25": [
     {
+     "line1": "Possibilita @ NXT Station",
+     "line2": "Jazz",
+     "time": "00:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Gigi D’Alessio @ ChorusLife Arena",
-     "line2": "live",
+     "line2": "Live",
      "time": "21:00",
      "score": 56.8,
      "fascia": "preserata",
@@ -216,27 +250,33 @@
      "line1": "Incensi @ Daste Bergamo",
      "line2": "aperitivo",
      "time": "19:30",
-     "score": 54.6,
+     "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
-    }
-   ],
-   "2026-11-26": [
+    },
     {
-     "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
-     "line2": "Rock",
-     "time": "00:00",
-     "score": 12.0,
+     "line1": "Pacì Paciana",
+     "line2": "Alternative",
+     "time": "18:30",
+     "score": 40.9,
      "fascia": "preserata",
      "family": "Altro"
     }
    ],
    "2026-11-27": [
     {
+     "line1": "Maison Grove @ Setai",
+     "line2": "House, Massimino Lippoli",
+     "time": "00:00",
+     "score": 55.1,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "10 Torneo Fifa @ Ink Club",
      "line2": "Elettronica, Corinna",
      "time": "21:00",
-     "score": 52.0,
+     "score": 47.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
     }
@@ -246,9 +286,33 @@
      "line1": "Tumulto @ Ink Club",
      "line2": "Rock, SCALPO",
      "time": "21:00",
-     "score": 54.5,
+     "score": 50.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Savana Funk @ Druso",
+     "line2": "Disco / Rock",
+     "time": "00:00",
+     "score": 49.8,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
+     "line1": "Queen Club",
+     "line2": "Revival / Commerciale",
+     "time": "00:45",
+     "score": 46.5,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "Apericena A Buffet @ LOFT",
+     "line2": "House, Lapo Underground",
+     "time": "21:00",
+     "score": 43.2,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "cre.sp1 @ Bloom",
@@ -267,12 +331,12 @@
      "family": "Commerciale"
     },
     {
-     "line1": "Doctor Beat @ Fabbrica in Pedavena Treviglio",
-     "line2": "live",
+     "line1": "Doctor Beat @ Charleston",
+     "line2": "Commerciale",
      "time": "14:00",
-     "score": 29.4,
+     "score": 28.1,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "Commerciale"
     }
    ],
    "2026-11-29": [
@@ -280,7 +344,7 @@
      "line1": "Daste Bergamo",
      "line2": "aperitivo",
      "time": "19:30",
-     "score": 54.6,
+     "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -288,7 +352,7 @@
      "line1": "10 Space Jam @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
-     "score": 52.0,
+     "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -314,34 +378,34 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@zeroclub.bg",
-   "@bellatmosferaevents",
    "@bloom_mezzago",
+   "@discoteca_queen",
    "@daste_bergamo",
+   "@sabbiemobili_official",
    "@lab80cinemas",
    "@possibilita",
+   "@csapacipaciana",
+   "@prenotazione",
+   "@consumazione",
    "@to_on.tv",
    "@spike.hellis",
    "@lowl_fest",
    "@www.bloomnet",
    "@bowie.hc",
    "@door_74",
-   "@uaar_it",
    "@associazione_luca_coscioni",
+   "@uaar_it",
    "@please.nights",
+   "@nxtbergamo",
    "@spettacoli",
    "@choruslife.bergamo",
+   "@crp_pignolo",
+   "@gruppo_gnam",
+   "@lenticchie",
    "@nikita__land",
    "@schivardi1953",
-   "@oroneroloveandmusic",
-   "@consumazione",
-   "@corinna_fm",
-   "@drusobg",
-   "@savana_funk",
-   "@ozza.dj",
-   "@bolgia.official",
-   "@bro__eat_drinks",
-   "@tumulto_bg",
-   "@scalpo_punk"
+   "@crystalcastlesnightt",
+   "@oroneroloveandmusic"
   ],
   "hashtags": [
    "#bergamo",
@@ -362,7 +426,7 @@
       "line1": "CHELINA MANUHUTU @ Bolgia",
       "line2": "",
       "time": "23:30",
-      "score": 50.2,
+      "score": 60.0,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -375,12 +439,30 @@
      "line1": "10 Kendasoundsystem Party @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
-     "score": 52.0,
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-02": [
+    {
+     "line1": "NXT Station",
+     "line2": "Live",
+     "time": "20:00",
+     "score": 58.6,
      "fascia": "preserata",
      "family": "Altro"
     }
    ],
    "2026-12-03": [
+    {
+     "line1": "NXT Station",
+     "line2": "Live",
+     "time": "21:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Bar della Musica",
      "line2": "Rock",
@@ -392,10 +474,18 @@
    ],
    "2026-12-05": [
     {
+     "line1": "NXT Station",
+     "line2": "Rock",
+     "time": "21:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Daste Bergamo",
      "line2": "Pop",
      "time": "21:30",
-     "score": 54.6,
+     "score": 52.0,
      "fascia": "preserata",
      "family": "Commerciale"
     },
@@ -411,9 +501,11 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@inkclub_bergamo",
+   "@nxtbergamo",
    "@prenotazione",
+   "@inkclub_bergamo",
    "@bolgia.official",
+   "@importanti",
    "@daste_bergamo",
    "@consumazione",
    "@bloom_mezzago",
@@ -654,48 +746,6 @@
       "score": 50.8,
       "fascia": "serata",
       "family": "Altro"
-     },
-     {
-      "line1": "Please.Nights @ Zero Club",
-      "line2": "",
-      "time": "00:00",
-      "score": 41.5,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Possibilita @ NXT Bergamo",
-      "line2": "Jazz",
-      "time": "00:00",
-      "score": 25.3,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-11-27": [
-     {
-      "line1": "SCHIVARDI 1953 @ Nikita",
-      "line2": "",
-      "time": "00:00",
-      "score": 57.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Crystalcastlesnightt @ Zero Club",
-      "line2": "",
-      "time": "00:00",
-      "score": 41.5,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Bell’Atmosfera - Experience @ INARI CANTU",
-      "line2": "",
-      "time": "00:00",
-      "score": 13.4,
-      "fascia": "serata",
-      "family": "Altro"
      }
     ],
     "2026-11-28": [
@@ -703,15 +753,7 @@
       "line1": "MARIE VAUNT @ Bolgia",
       "line2": "",
       "time": "23:30",
-      "score": 50.2,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Cromaroom @ Zero Club",
-      "line2": "",
-      "time": "00:59",
-      "score": 41.5,
+      "score": 60.0,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -719,7 +761,15 @@
       "line1": "Bar Florio @ Zero Club",
       "line2": "club room",
       "time": "00:00",
-      "score": 33.5,
+      "score": 25.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Pacì Paciana",
+      "line2": "Alternative",
+      "time": "21:00",
+      "score": 24.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -746,22 +796,62 @@
       "family": "Commerciale"
      }
     ],
-    "2026-11-27": [
+    "2026-11-25": [
      {
-      "line1": "Conejo Night @ Daste Bergamo",
-      "line2": "Reggaeton",
+      "line1": "Please @ Zero Club",
+      "line2": "Commerciale 360",
       "time": "00:00",
-      "score": 39.6,
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Queen Club",
+      "line2": "Latino / Commerciale",
+      "time": "00:00",
+      "score": 35.7,
       "fascia": "serata",
       "family": "Commerciale"
      }
     ],
-    "2026-11-28": [
+    "2026-11-27": [
      {
-      "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
-      "line2": "Commerciale / Revival",
+      "line1": "SCHIVARDI 1953 @ Nikita",
+      "line2": "Commerciale",
       "time": "00:00",
-      "score": 13.4,
+      "score": 56.6,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "DiscoDance @ Queen Club",
+      "line2": "Dance",
+      "time": "22:30",
+      "score": 36.1,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Conejo Night @ Daste Bergamo",
+      "line2": "Reggaeton",
+      "time": "00:00",
+      "score": 33.3,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Sabbie Mobili",
+      "line2": "Afro, sala 1",
+      "time": "23:30",
+      "score": 27.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Sabbie Mobili",
+      "line2": "Commerciale / Revival, sala 2",
+      "time": "23:30",
+      "score": 27.0,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -770,8 +860,8 @@
    "House / Elettronica": {
     "2026-11-24": [
      {
-      "line1": "Spike Hellis @ Bloom",
-      "line2": "Hard Techno / Rock",
+      "line1": "Club Culture @ Bloom",
+      "line2": "Tech House, Spike Hellis",
       "time": "00:00",
       "score": 53.0,
       "fascia": "serata",
@@ -780,22 +870,50 @@
     ],
     "2026-11-27": [
      {
+      "line1": "Crystal Castles Night @ Zero Club",
+      "line2": "Witch House / EDM",
+      "time": "00:00",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 39.6,
+      "score": 38.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "Tiky Klub",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 26.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
     ],
     "2026-11-28": [
      {
-      "line1": "Savana Funk @ Druso",
-      "line2": "Disco / Rock",
-      "time": "00:00",
-      "score": 57.0,
+      "line1": "Code @ Sabbie Mobili",
+      "line2": "Hard Techno",
+      "time": "23:30",
+      "score": 34.2,
       "fascia": "serata",
       "family": "House / Elettronica"
+     }
+    ]
+   },
+   "Hip Hop / Trap": {
+    "2026-11-28": [
+     {
+      "line1": "CRØMA @ Zero Club",
+      "line2": "Hip Hop / Trap",
+      "time": "00:59",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "Hip Hop / Trap"
      }
     ]
    }
@@ -990,7 +1108,7 @@
      "line1": "10 To_On.Tv @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
-     "score": 52.0,
+     "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1000,15 +1118,7 @@
      "line1": "Bowie.Hc @ Ink Club",
      "line2": "dj set, club room",
      "time": "00:00",
-     "score": 62.9,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
-     "line2": "live",
-     "time": "20:00",
-     "score": 52.0,
+     "score": 58.4,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1019,12 +1129,28 @@
      "score": 48.2,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "10 Spacazotot: Graveryofficial @ Ink Club",
+     "line2": "live",
+     "time": "20:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-25": [
     {
+     "line1": "Possibilita @ NXT Station",
+     "line2": "Jazz",
+     "time": "00:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Gigi D’Alessio @ ChorusLife Arena",
-     "line2": "live",
+     "line2": "Live",
      "time": "21:00",
      "score": 56.8,
      "fascia": "preserata",
@@ -1034,27 +1160,33 @@
      "line1": "Incensi @ Daste Bergamo",
      "line2": "aperitivo",
      "time": "19:30",
-     "score": 54.6,
+     "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
-    }
-   ],
-   "2026-11-26": [
+    },
     {
-     "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
-     "line2": "Rock",
-     "time": "00:00",
-     "score": 12.0,
+     "line1": "Pacì Paciana",
+     "line2": "Alternative",
+     "time": "18:30",
+     "score": 40.9,
      "fascia": "preserata",
      "family": "Altro"
     }
    ],
    "2026-11-27": [
     {
+     "line1": "Maison Grove @ Setai",
+     "line2": "House, Massimino Lippoli",
+     "time": "00:00",
+     "score": 55.1,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "10 Torneo Fifa @ Ink Club",
      "line2": "Elettronica, Corinna",
      "time": "21:00",
-     "score": 52.0,
+     "score": 47.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
     }
@@ -1064,9 +1196,33 @@
      "line1": "Tumulto @ Ink Club",
      "line2": "Rock, SCALPO",
      "time": "21:00",
-     "score": 54.5,
+     "score": 50.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Savana Funk @ Druso",
+     "line2": "Disco / Rock",
+     "time": "00:00",
+     "score": 49.8,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
+     "line1": "Queen Club",
+     "line2": "Revival / Commerciale",
+     "time": "00:45",
+     "score": 46.5,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "Apericena A Buffet @ LOFT",
+     "line2": "House, Lapo Underground",
+     "time": "21:00",
+     "score": 43.2,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "cre.sp1 @ Bloom",
@@ -1085,12 +1241,12 @@
      "family": "Commerciale"
     },
     {
-     "line1": "Doctor Beat @ Fabbrica in Pedavena Treviglio",
-     "line2": "live",
+     "line1": "Doctor Beat @ Charleston",
+     "line2": "Commerciale",
      "time": "14:00",
-     "score": 29.4,
+     "score": 28.1,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "Commerciale"
     }
    ],
    "2026-11-29": [
@@ -1098,7 +1254,7 @@
      "line1": "Daste Bergamo",
      "line2": "aperitivo",
      "time": "19:30",
-     "score": 54.6,
+     "score": 52.0,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1106,7 +1262,7 @@
      "line1": "10 Space Jam @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
-     "score": 52.0,
+     "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1132,7 +1288,7 @@
      "line1": "10 Kendasoundsystem Party @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
-     "score": 52.0,
+     "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1146,7 +1302,6 @@
    "@alchemica_club",
    "@drusobg",
    "@daste_bergamo",
-   "@bellatmosferaevents",
    "@megan_is_missing_band",
    "@divinabergamo",
    "@possibilita",
@@ -1156,8 +1311,10 @@
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
-   "@fabbricainpedavenatreviglio",
+   "@prenotazione",
    "@bloom_mezzago",
+   "@discoteca_queen",
+   "@sabbiemobili_official",
    "@liveclub",
    "@missdivina1",
    "@vibetheclub",
@@ -1167,9 +1324,8 @@
    "@premiere.premiere",
    "@choruslife.bergamo",
    "@door_74",
-   "@savana_funk",
-   "@attenzione",
-   "@worst.zine"
+   "@fabbricainpedavenatreviglio",
+   "@savana_funk"
   ],
   "hashtags": [
    "#bergamo",
@@ -1184,9 +1340,7 @@
   "dates_with_serate": [
    "2026-12-05",
    "2026-12-07",
-   "2026-12-10",
    "2026-12-11",
-   "2026-12-12",
    "2026-12-18",
    "2026-12-25",
    "2026-12-26",
@@ -1199,7 +1353,7 @@
       "line1": "CHELINA MANUHUTU @ Bolgia",
       "line2": "",
       "time": "23:30",
-      "score": 50.2,
+      "score": 60.0,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1209,47 +1363,17 @@
       "line1": "NOVAH @ Bolgia",
       "line2": "",
       "time": "23:30",
-      "score": 50.2,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-12-10": [
-     {
-      "line1": "Possibilita @ NXT Bergamo",
-      "line2": "Jazz",
-      "time": "00:00",
-      "score": 25.3,
+      "score": 60.0,
       "fascia": "serata",
       "family": "Altro"
      }
     ],
     "2026-12-11": [
      {
-      "line1": "Barley Arts @ Teatro Miela",
+      "line1": "Teatro Miela",
       "line2": "Indie / Rock",
       "time": "21:00",
-      "score": 44.4,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-12-12": [
-     {
-      "line1": "Barley Arts @ Live Club",
-      "line2": "Rock / Elettronica",
-      "time": "00:00",
-      "score": 57.6,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-12-18": [
-     {
-      "line1": "Nikita",
-      "line2": "",
-      "time": "00:00",
-      "score": 43.4,
+      "score": 31.8,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1276,22 +1400,34 @@
     ],
     "2026-12-31": [
      {
-      "line1": "Fabbrica in Pedavena Treviglio",
-      "line2": "",
+      "line1": "Bar della Musica",
+      "line2": "Rock",
       "time": "00:00",
-      "score": 26.1,
+      "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
+     }
+    ]
+   },
+   "Commerciale": {
+    "2026-12-18": [
+     {
+      "line1": "Nikita",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 43.0,
+      "fascia": "serata",
+      "family": "Commerciale"
      }
     ]
    },
    "House / Elettronica": {
     "2026-12-31": [
      {
-      "line1": "Daste Bergamo",
-      "line2": "Elettronica",
+      "line1": "utōpia @ Daste Bergamo",
+      "line2": "Melodic House",
       "time": "23:00",
-      "score": 39.6,
+      "score": 33.3,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1299,7 +1435,25 @@
    }
   },
   "preserate": {
+   "2026-12-02": [
+    {
+     "line1": "NXT Station",
+     "line2": "Live",
+     "time": "20:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-12-03": [
+    {
+     "line1": "NXT Station",
+     "line2": "Live",
+     "time": "21:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Bar della Musica",
      "line2": "Rock",
@@ -1311,10 +1465,18 @@
    ],
    "2026-12-05": [
     {
+     "line1": "NXT Station",
+     "line2": "Rock",
+     "time": "21:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Daste Bergamo",
      "line2": "Pop",
      "time": "21:30",
-     "score": 54.6,
+     "score": 52.0,
      "fascia": "preserata",
      "family": "Commerciale"
     },
@@ -1327,7 +1489,35 @@
      "family": "Altro"
     }
    ],
+   "2026-12-07": [
+    {
+     "line1": "NXT Station",
+     "line2": "Rock",
+     "time": "00:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-08": [
+    {
+     "line1": "NXT Station",
+     "line2": "Latino",
+     "time": "17:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    }
+   ],
    "2026-12-10": [
+    {
+     "line1": "Possibilita @ NXT Station",
+     "line2": "Jazz",
+     "time": "00:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Bar della Musica",
      "line2": "Jazz",
@@ -1347,6 +1537,26 @@
      "family": "Altro"
     }
    ],
+   "2026-12-12": [
+    {
+     "line1": "Tumulto @ Pacì Paciana",
+     "line2": "Rock / Hard Techno",
+     "time": "00:00",
+     "score": 43.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-13": [
+    {
+     "line1": "Queen Club",
+     "line2": "Commerciale",
+     "time": "19:00",
+     "score": 46.5,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    }
+   ],
    "2026-12-19": [
     {
      "line1": "Francesco Fanucchi - Tutto Sbagliato @ Teatro Miela",
@@ -1358,6 +1568,14 @@
     }
    ],
    "2026-12-22": [
+    {
+     "line1": "Capogiro",
+     "line2": "dj set",
+     "time": "22:00",
+     "score": 49.5,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Door 74",
      "line2": "dj set",
@@ -1382,7 +1600,17 @@
      "line1": "Druso",
      "line2": "Rock",
      "time": "00:00",
-     "score": 54.5,
+     "score": 49.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-31": [
+    {
+     "line1": "Capogiro",
+     "line2": "dj set",
+     "time": "22:00",
+     "score": 49.5,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1390,19 +1618,25 @@
   },
   "big_events": [],
   "caption_handles": [
+   "@nxtbergamo",
    "@prenotazione",
    "@bloom_mezzago",
    "@bolgia.official",
+   "@importanti",
    "@daste_bergamo",
    "@teatromiela_trieste",
-   "@barleyartsreal",
+   "@capogirojoyclub",
    "@consumazione",
    "@dj.sofficino",
    "@nico.bre1917",
+   "@numerosissime",
+   "@marmellata",
    "@possibilita",
    "@spettacoli",
    "@degustazione",
-   "@liveclub",
+   "@csapacipaciana",
+   "@tumulto_bg",
+   "@discoteca_queen",
    "@nikita__land",
    "@francesco_fanucchi_",
    "@door_74",
@@ -1410,12 +1644,10 @@
    "@drusobg",
    "@charlie_cinelli",
    "@alessandro.sipolo",
-   "@importanti",
    "@naturalezza",
    "@lorenzo.monguzzi",
    "@attenzione",
-   "@utopia.direction",
-   "@fabbricainpedavenatreviglio"
+   "@utopia.direction"
   ],
   "hashtags": [
    "#bergamo",

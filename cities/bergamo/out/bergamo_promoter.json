@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-23T09:10",
+ "generated": "2026-11-23T09:23",
  "nights": [
   {
    "date": "2026-11-23",
@@ -45,7 +45,7 @@
    ],
    "top": [
     {
-     "title": "[Hard Techno / Rock] Bloom · Spike Hellis",
+     "title": "[Tech House] Bloom · Club Culture w/ Spike Hellis",
      "score": 53.0,
      "capacity": 900
     }
@@ -57,19 +57,18 @@
    "note": null,
    "weekend_like": false,
    "events": 3,
-   "load": 117.6,
+   "load": 126.4,
    "level": "media",
-   "capacity_taken": 1950,
+   "capacity_taken": 1350,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 3
+    "Commerciale": 2,
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
@@ -78,14 +77,14 @@
      "capacity": 450
     },
     {
-     "title": "Zero Club · Please.Nights",
-     "score": 41.5,
-     "capacity": 1000
+     "title": "[Commerciale 360] Zero Club · Please",
+     "score": 39.9,
+     "capacity": 500
     },
     {
-     "title": "[Jazz] NXT Bergamo · Possibilita",
-     "score": 25.3,
-     "capacity": 500
+     "title": "[Latino / Commerciale] Queen Club",
+     "score": 35.7,
+     "capacity": 400
     }
    ]
   },
@@ -116,44 +115,44 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 5,
-   "load": 191.1,
+   "events": 8,
+   "load": 284.5,
    "level": "piena",
-   "capacity_taken": 3750,
+   "capacity_taken": 4000,
    "by_family": {
-    "House / Elettronica": 1,
+    "House / Elettronica": 3,
     "Hip Hop / Trap": 0,
-    "Commerciale": 1,
-    "Altro": 3
+    "Commerciale": 5,
+    "Altro": 0
    },
    "missing_families": [
     "Hip Hop / Trap"
    ],
    "top": [
     {
-     "title": "Nikita · SCHIVARDI 1953",
-     "score": 57.0,
-     "capacity": 1150
-    },
-    {
-     "title": "Zero Club · Crystalcastlesnightt",
-     "score": 41.5,
+     "title": "[Commerciale] Nikita · SCHIVARDI 1953",
+     "score": 56.6,
      "capacity": 1000
     },
     {
+     "title": "[Witch House / EDM] Zero Club · Crystal Castles Night",
+     "score": 39.9,
+     "capacity": 500
+    },
+    {
      "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
-     "score": 39.6,
-     "capacity": 650
+     "score": 38.0,
+     "capacity": 400
+    },
+    {
+     "title": "[Dance] Queen Club · DiscoDance",
+     "score": 36.1,
+     "capacity": 400
     },
     {
      "title": "[Reggaeton] Daste Bergamo · Conejo Night",
-     "score": 39.6,
-     "capacity": 850
-    },
-    {
-     "title": "INARI CANTU · Bell’Atmosfera - Experience",
-     "score": 13.4,
-     "capacity": 100
+     "score": 33.3,
+     "capacity": 400
     }
    ]
   },
@@ -163,43 +162,43 @@
    "note": null,
    "weekend_like": true,
    "events": 5,
-   "load": 195.6,
+   "load": 184.1,
    "level": "piena",
-   "capacity_taken": 4450,
+   "capacity_taken": 4100,
    "by_family": {
     "House / Elettronica": 1,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 1,
+    "Hip Hop / Trap": 1,
+    "Commerciale": 0,
     "Altro": 3
    },
    "missing_families": [
-    "Hip Hop / Trap"
+    "Commerciale"
    ],
    "top": [
     {
-     "title": "[Disco / Rock] Druso · Savana Funk",
-     "score": 57.0,
-     "capacity": 1100
-    },
-    {
      "title": "Bolgia · MARIE VAUNT",
-     "score": 50.2,
-     "capacity": 1250
+     "score": 60.0,
+     "capacity": 3000
     },
     {
-     "title": "Zero Club · Cromaroom",
-     "score": 41.5,
-     "capacity": 1000
+     "title": "[Hip Hop / Trap] Zero Club · CRØMA",
+     "score": 39.9,
+     "capacity": 500
+    },
+    {
+     "title": "[Hard Techno] Sabbie Mobili · Code",
+     "score": 34.2,
+     "capacity": 500
     },
     {
      "title": "Zero Club (club room) · Bar Florio",
-     "score": 33.5,
-     "capacity": 1000
+     "score": 25.6,
+     "capacity": 100
     },
     {
-     "title": "[Commerciale / Revival] Bar della Musica · Bell’Atmosfera - Experience",
-     "score": 13.4,
-     "capacity": 100
+     "title": "[Alternative] Pacì Paciana",
+     "score": 24.4,
+     "capacity": null
     }
    ]
   },
@@ -347,9 +346,9 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 50.2,
-   "level": "libera",
-   "capacity_taken": 1250,
+   "load": 60.0,
+   "level": "media",
+   "capacity_taken": 3000,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
@@ -364,8 +363,8 @@
    "top": [
     {
      "title": "Bolgia · CHELINA MANUHUTU",
-     "score": 50.2,
-     "capacity": 1250
+     "score": 60.0,
+     "capacity": 3000
     }
    ]
   },
@@ -397,9 +396,9 @@
    "note": "prefestivo (Immacolata)",
    "weekend_like": true,
    "events": 1,
-   "load": 50.2,
-   "level": "libera",
-   "capacity_taken": 1250,
+   "load": 60.0,
+   "level": "media",
+   "capacity_taken": 3000,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
@@ -414,8 +413,8 @@
    "top": [
     {
      "title": "Bolgia · NOVAH",
-     "score": 50.2,
-     "capacity": 1250
+     "score": 60.0,
+     "capacity": 3000
     }
    ]
   },
@@ -468,28 +467,22 @@
    "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 25.3,
+   "events": 0,
+   "load": 0,
    "level": "tranquilla",
-   "capacity_taken": 500,
+   "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": [
-    {
-     "title": "[Jazz] NXT Bergamo · Possibilita",
-     "score": 25.3,
-     "capacity": 500
-    }
-   ]
+   "top": []
   },
   {
    "date": "2026-12-11",
@@ -497,7 +490,7 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 44.4,
+   "load": 31.8,
    "level": "libera",
    "capacity_taken": 500,
    "by_family": {
@@ -513,8 +506,8 @@
    ],
    "top": [
     {
-     "title": "[Indie / Rock] Teatro Miela · Barley Arts",
-     "score": 44.4,
+     "title": "[Indie / Rock] Teatro Miela",
+     "score": 31.8,
      "capacity": 500
     }
    ]
@@ -524,28 +517,22 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 57.6,
+   "events": 0,
+   "load": 0,
    "level": "libera",
-   "capacity_taken": 1250,
+   "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": [
-    {
-     "title": "[Rock / Elettronica] Live Club · Barley Arts",
-     "score": 57.6,
-     "capacity": 1250
-    }
-   ]
+   "top": []
   },
   {
    "date": "2026-12-13",
@@ -663,25 +650,24 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 43.4,
+   "load": 43.0,
    "level": "libera",
-   "capacity_taken": 1150,
+   "capacity_taken": 1000,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 1
+    "Commerciale": 1,
+    "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
-     "title": "Nikita",
-     "score": 43.4,
-     "capacity": 1150
+     "title": "[Commerciale] Nikita",
+     "score": 43.0,
+     "capacity": 1000
     }
    ]
   },
@@ -967,9 +953,9 @@
    "note": "Capodanno (veglione)",
    "weekend_like": true,
    "events": 2,
-   "load": 65.7,
-   "level": "media",
-   "capacity_taken": 1200,
+   "load": 41.0,
+   "level": "libera",
+   "capacity_taken": 500,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
@@ -982,14 +968,14 @@
    ],
    "top": [
     {
-     "title": "[Elettronica] Daste Bergamo",
-     "score": 39.6,
-     "capacity": 850
+     "title": "[Melodic House] Daste Bergamo · utōpia",
+     "score": 33.3,
+     "capacity": 400
     },
     {
-     "title": "Fabbrica in Pedavena Treviglio",
-     "score": 26.1,
-     "capacity": 350
+     "title": "[Rock] Bar della Musica",
+     "score": 7.7,
+     "capacity": 100
     }
    ]
   },
@@ -1021,9 +1007,9 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 43.1,
+   "load": 32.7,
    "level": "libera",
-   "capacity_taken": 1100,
+   "capacity_taken": 300,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
@@ -1038,8 +1024,8 @@
    "top": [
     {
      "title": "[Rock] Druso",
-     "score": 43.1,
-     "capacity": 1100
+     "score": 32.7,
+     "capacity": 300
     }
    ]
   },
@@ -1912,28 +1898,22 @@
    "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 43.1,
+   "events": 0,
+   "load": 0,
    "level": "non ancora annunciata",
-   "capacity_taken": 1100,
+   "capacity_taken": 0,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": [
-    {
-     "title": "[Rock] Druso · Tim Ripper Owens Band",
-     "score": 43.1,
-     "capacity": 1100
-    }
-   ]
+   "top": []
   },
   {
    "date": "2027-02-12",
@@ -2117,9 +2097,9 @@
    "note": null,
    "weekend_like": true,
    "events": 1,
-   "load": 57.0,
+   "load": 46.7,
    "level": "non ancora annunciata",
-   "capacity_taken": 1100,
+   "capacity_taken": 300,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
@@ -2133,8 +2113,8 @@
    "top": [
     {
      "title": "[Disco / Rock] Druso · Savana Funk",
-     "score": 57.0,
-     "capacity": 1100
+     "score": 46.7,
+     "capacity": 300
     }
    ]
   }
