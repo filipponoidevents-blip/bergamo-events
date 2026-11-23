@@ -968,7 +968,7 @@
   "party": "Please",
   "promoter_name": "Please",
   "promoter_instagram": "please.nights",
-  "promoter_followers": 2508,
+  "promoter_followers": 2509,
   "headliner": null,
   "guests": [
    {
@@ -3510,9 +3510,9 @@
   "brand": null,
   "rank_in_night": 1,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 3,
-   "capacity_same_night": 5100,
+   "capacity_same_night": 5000,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
   "first_seen": "2026-11-23",
@@ -3585,9 +3585,9 @@
   "brand": null,
   "rank_in_night": 2,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 3,
-   "capacity_same_night": 3050,
+   "capacity_same_night": 2950,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "first_seen": "2026-11-18",
@@ -3660,9 +3660,9 @@
   "brand": null,
   "rank_in_night": 3,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 0,
-   "capacity_same_night": 5050,
+   "capacity_same_night": 4950,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "first_seen": "2026-11-23",
@@ -3726,9 +3726,9 @@
   "brand": null,
   "rank_in_night": 4,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 3,
-   "capacity_same_night": 5550,
+   "capacity_same_night": 5450,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "first_seen": "2026-11-23",
@@ -3792,9 +3792,9 @@
   "brand": null,
   "rank_in_night": 5,
   "competition": {
-   "events_same_night": 6,
-   "same_family": 1,
-   "capacity_same_night": 5550,
+   "events_same_night": 5,
+   "same_family": 0,
+   "capacity_same_night": 5450,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "first_seen": "2026-11-23",
@@ -3875,83 +3875,8 @@
   "brand": null,
   "rank_in_night": 6,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 3,
-   "capacity_same_night": 6050,
-   "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
-  },
-  "first_seen": "2026-11-23",
-  "status": "pubblicato"
- },
- {
-  "id": "2026-11-28-la_base",
-  "date": "2026-11-28",
-  "weekday": "sabato",
-  "start": "23:00",
-  "end": "03:00",
-  "fascia": "serata",
-  "fascia_why": "grande evento",
-  "scope": "zona",
-  "type": "festival",
-  "nightlife": true,
-  "party": "Le Cannibale",
-  "promoter_name": "Le Cannibale",
-  "promoter_instagram": "lecannibaleclub",
-  "promoter_followers": 43144,
-  "headliner": "Interstellar Funk",
-  "guests": [
-   {
-    "name": "Interstellar Funk",
-    "instagram": null,
-    "followers": null,
-    "level": null
-   }
-  ],
-  "genre": "House",
-  "genre_source": "promoter (conoscenze)",
-  "family": "House / Elettronica",
-  "venue": "ALLA BASE pizza & delivery",
-  "venue_known": true,
-  "address": "VIA MORONI, 1, 24010 Ponteranica BG",
-  "city": null,
-  "km": 4.1,
-  "venue_instagram": null,
-  "venue_type": "bar",
-  "venue_followers": null,
-  "capacity": 100,
-  "capacity_source": "stima",
-  "room": null,
-  "entry": "a pagamento",
-  "price": null,
-  "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/911030353_18658542016013320_237232273318652688_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=99c9sUkoy9MQ7kNvwHHBds_&_nc_oc=AdpcDPN7-kWbPuq2ypFxKtc_OmQW2fMjuDSigi8DSAokQzdUQELZfMbBq7ra-UoZyNw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=47uoFgNopJfe_dsGqbj44Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTfUfH_h9l-hElHoBN-386uIiEcMcAs6K1gpKnUPmi68A&oe=6B0A829F",
-  "score": 24.4,
-  "score_parts": {
-   "venue": 1.7,
-   "capacity": 1.7,
-   "venue_followers": 0.0,
-   "promoter": 8.4,
-   "guest": 0.0
-  },
-  "confidence": 0.95,
-  "sources": [
-   "instagram-promoter"
-  ],
-  "urls": [
-   "https://www.instagram.com/p/Df4_s8vjUX7/"
-  ],
-  "handles": [
-   "base_milano"
-  ],
-  "posted": "2026-11-18T17:02+00:00",
-  "lead_days": 10,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
-  "rank_in_night": 7,
-  "competition": {
-   "events_same_night": 6,
-   "same_family": 1,
    "capacity_same_night": 5950,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
@@ -4048,17 +3973,17 @@
   "promoter_name": "CRØMA",
   "promoter_instagram": "cromaroom",
   "promoter_followers": 1989,
-  "headliner": null,
+  "headliner": "REHAB_in_town",
   "guests": [
    {
-    "name": "prenotazione",
-    "instagram": "prenotazione",
-    "followers": null,
+    "name": "REHAB_in_town",
+    "instagram": "rehab_in_town",
+    "followers": 6225,
     "level": null
    },
    {
-    "name": "rehab_in_town",
-    "instagram": "rehab_in_town",
+    "name": "prenotazione",
+    "instagram": "prenotazione",
     "followers": null,
     "level": null
    }
@@ -4183,7 +4108,7 @@
   "handles": [
    "spettacoli"
   ],
-  "posted": "2026-11-23T20:53+00:00",
+  "posted": "2026-11-23T22:18+00:00",
   "lead_days": 5,
   "day_note": null,
   "in_posts": true,
@@ -6113,7 +6038,7 @@
   "entry": "a pagamento",
   "price": 35,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/870176204_17987488797118827_5122717342896729621_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YXNZJBq1cMUQ7kNvwGS8Map&_nc_oc=AdrAGhfcoe-cBlcujg2FuVOrU2O3OG8zNk31pxN-_SnCgDScZQ9A7nZ12uoV-ljYRXw&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fwwM35qPzjiJkZgpmcWcow&_nc_tpa=Q5bMBQJuMbxVMn9WcNra1TaEk5Ia0Ssi6h4uckEpkboXLS0oHk8UhAV4Rseijp0EuYVXmvtQsbXBJlWNpg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTqo0jH-EKcSEvaE65ytmxbgUY_gen7Xt1pYVumNKI62Q&oe=6B09FBC9",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/870176204_17987488797118827_5122717342896729621_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YXNZJBq1cMUQ7kNvwGhSe1x&_nc_oc=AdptzHHH5uQfbx0HaYzDejMH3F9mhbI8MyKQNlXOmbXWICSV080qWOsiXpdSYlwXM_o&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=6T0WNBw7itZfAXJDrXnX4w&_nc_tpa=Q5bMBQLwyDiFWyjzs8A_IBcYtCHhsT-iNf-w4d8v0jHOzDDwAMS3afRJy1eyAIPmrJmVDUy1JXXkX1-99A&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQ82c_28nJYm2fKM0MS5-qgidRExbNyJQdlhOW2Gi-Yfg&oe=6B0AA489",
   "score": 15.7,
   "score_parts": {
    "promoter": 2.7,
@@ -6247,14 +6172,14 @@
   "km": 21.3,
   "venue_instagram": "paolorivapasticceria",
   "venue_type": "bar",
-  "venue_followers": 11402,
+  "venue_followers": 11404,
   "capacity": 100,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": 10,
   "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/910871464_1442952647998980_6470525108591154457_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gjFQ2NMEQKkQ7kNvwFDX-jE&_nc_oc=AdoIedurFge6DYWOTynpgLsLA4CEtb-xL1qLtqhXfWvd8fyEtblWY1uT7vQA57BTIrE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=D0ElQRheAhosugWoG0grEg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSv7G4rgPBCiUOeMjTTi-lhCJejoJ3X2-bmL5Sewl4slQ&oe=6B0A16E4",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/910871464_1442952647998980_6470525108591154457_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gjFQ2NMEQKkQ7kNvwGxITYv&_nc_oc=AdrwNWqjMj0JvVBUkz6CbALD_G-5hEx1-Qs6ntVx6kCZ1b4gvvTRSfxx-K_tSIKMRNs&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=E-2Yma1gs8ZhZHZOHUaMRQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRsnWbNPl9GRvrOyRCffYzHdP2RVPNKlnOQ9qTq6yHHyA&oe=6B0A8764",
   "score": 24.0,
   "score_parts": {
    "promoter": 0.0,
@@ -7039,14 +6964,14 @@
   "km": 21.3,
   "venue_instagram": "paolorivapasticceria",
   "venue_type": "bar",
-  "venue_followers": 11402,
+  "venue_followers": 11404,
   "capacity": 100,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": 25,
   "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/920476200_1443922591235319_4649951067928870160_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I6K9sEzpbf4Q7kNvwEhHRCr&_nc_oc=AdpMcHFfT0UJVcU95vX0OrztWSVbia-7StH1WWA_0Bs_zQF1LG5zSKKn3eIsZDpl92o&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=D0ElQRheAhosugWoG0grEg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQST_ZHILBgmNX4WLMYDPFUApWc2WtTn8aFT8xJomVRlYg&oe=6B0A07FB",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/920476200_1443922591235319_4649951067928870160_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I6K9sEzpbf4Q7kNvwGYJbxo&_nc_oc=AdplPvKgTBEl6gOMukrb4mC2cK9inzd8IMsxRdbRDgpWmHrHbt0dg4opVo-wBNwhC88&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=E-2Yma1gs8ZhZHZOHUaMRQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTMNjq1rh5G3uZmIIf2hV_sJrjUUMfTlRYtN8pJBUifXw&oe=6B0A787B",
   "score": 24.0,
   "score_parts": {
    "promoter": 0.0,
@@ -7148,7 +7073,7 @@
   "entry": null,
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902601554_18646284853041982_7320124325033223503_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=YZ8oWnVjnxUQ7kNvwFiyfJ_&_nc_oc=AdqE0a6eSjxaVoefcnGMKG8CvTfeYbKwS2pTN6fK1d8p4ZMvNBopsAdG8Nbq7WPf1xw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=AJVcWa8bL2_ae8LsyJuf4A&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQS9uqd6YrKOPhHKkz8dc2gRnQX-zzZO-tZvmQXPzQU-aQ&oe=6B0A06EA",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902601554_18646284853041982_7320124325033223503_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=YZ8oWnVjnxUQ7kNvwEm4qUj&_nc_oc=AdpNekFKohVy5m1Pb8pQwM7uDwS6F7s67IJsYtr6CMDt4ju55QG0OBi4ffgMpaijw88&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Y2Hv_z5lcaFSR4dyqUMrFA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQREG8LYJ2_418wTdkP4AzmoelOwZvL7ClhGXimeuvPfhw&oe=6B0A776A",
   "score": 66.3,
   "score_parts": {
    "venue": 7,
@@ -8077,13 +8002,13 @@
   "party": "The Box",
   "promoter_name": "The Box Bergamo",
   "promoter_instagram": "theboxbergamo",
-  "promoter_followers": 8087,
-  "headliner": null,
+  "promoter_followers": 8090,
+  "headliner": "Gas Beer",
   "guests": [
    {
-    "name": "gasbeer_official",
+    "name": "Gas Beer",
     "instagram": "gasbeer_official",
-    "followers": null,
+    "followers": 4043,
     "level": null
    }
   ],
@@ -8104,7 +8029,7 @@
   "entry": "gratis",
   "price": 0,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920270423_18645662383000301_1786774814471734823_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=yW0fXGVALJoQ7kNvwEge1jk&_nc_oc=Adq1V9fXhPX5vRSXusq9kykcGM-vEQKbFhn7c1_KV6zYzPeO1lEzQPKdLouaqXeZriE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fk-SAiGafzO1R3zdEY7p_A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT9CapqaH-5I-CKBaVuib1G5-_j7CfKkF1Oz119OTAuHQ&oe=6B0A0498",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920270423_18645662383000301_1786774814471734823_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=yW0fXGVALJoQ7kNvwHuhIxM&_nc_oc=AdqcOFZmLiuKz1PRmXN8y0D49dSjc6hRGp2v11AoUxQKVT34Ll0NCGWrzR8av7iNJyo&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RzvwBHv_wjmeWoDr5LW9Ng&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQKQTYJKlQ59I1zuYSaYiynh1c42N_DY57w7bCZ6bI3-w&oe=6B0A7518",
   "score": 54.2,
   "score_parts": {
    "promoter": 5.3,
@@ -8744,14 +8669,14 @@
   "km": 21.3,
   "venue_instagram": "paolorivapasticceria",
   "venue_type": "bar",
-  "venue_followers": 11402,
+  "venue_followers": 11404,
   "capacity": 100,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": 25,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/914967162_1444181184542793_1248290464230078133_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KV7FbNO8cuIQ7kNvwF21ajO&_nc_oc=AdrVMkcO0BDwx-6nT0D7w2WmoMXpnbTpcbTvorQDDyK4GqrjFP4-tqdgPwPMqa7wpa0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=D0ElQRheAhosugWoG0grEg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQWZYT7AO3EdtDBM7IBG-3q0uD8U67CLrOTPQAzDioMmw&oe=6B0A08F1",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/914967162_1444181184542793_1248290464230078133_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KV7FbNO8cuIQ7kNvwHjKqh2&_nc_oc=Adp5sCzAFqHJon2b8L7GVGGmYtYBHr6_W4B7b5gShG3rvZfcXtK2yIa_QmKifZEK8-w&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=E-2Yma1gs8ZhZHZOHUaMRQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRjcmOfk1TSsrh5crxEjXh13I33bq2Ve16w8qvSON7DmQ&oe=6B0A7971",
   "score": 24.0,
   "score_parts": {
    "promoter": 0.0,
@@ -9101,7 +9026,7 @@
   "entry": null,
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQPZCcntJkkYfyH1-du7TJnW3YsQlIyIt6TLpZhRVPOIifPDX7MQz3ZJCT83AiW3BwU0Gxw_xQFeesBJtRpymkpW0sVaGGtIfZ5orhA.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=VsxeSJvdpioQ7kNvwGhkx-B&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI3Ni5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjE0NTMxNjU3NjYyNTU4MDAsImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=312b70aabe2fb7cf&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81NkNFNEQyNTZEODE0NTUyOEJFRERFNzQyOUEzMThFMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdERDNEODI2OUZBMTQ2ODY4N0Q5ODREODQ4QThBRDQ1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbwkuHUsOmUBRUCKAJDMywXQF86n752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=AJVcWa8bL2_ae8LsyJuf4A&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQnHIdvcWwh4d7jtcPh91z1b-ocGaN6f-EriP5Uql0rZw&oe=6B0630F8",
+  "image": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQPZCcntJkkYfyH1-du7TJnW3YsQlIyIt6TLpZhRVPOIifPDX7MQz3ZJCT83AiW3BwU0Gxw_xQFeesBJtRpymkpW0sVaGGtIfZ5orhA.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=D2naz09k6SAQ7kNvwFIzXWn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI3Ni5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjE0NTMxNjU3NjYyNTU4MDAsImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=312b70aabe2fb7cf&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81NkNFNEQyNTZEODE0NTUyOEJFRERFNzQyOUEzMThFMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdERDNEODI2OUZBMTQ2ODY4N0Q5ODREODQ4QThBRDQ1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbwkuHUsOmUBRUCKAJDMywXQF86n752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Y2Hv_z5lcaFSR4dyqUMrFA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTK43szJ1ktv499Vqoe4j8J_Ih-JHJD4XkWkSclDYBaNg&oe=6B06A178",
   "score": 66.3,
   "score_parts": {
    "venue": 7,
@@ -9400,7 +9325,7 @@
   "handles": [
    "spettacoli"
   ],
-  "posted": "2026-11-23T20:53+00:00",
+  "posted": "2026-11-23T22:18+00:00",
   "lead_days": 22,
   "day_note": null,
   "in_posts": true,
@@ -9797,15 +9722,9 @@
   "headliner": null,
   "guests": [
    {
-    "name": "garden.exe.music",
-    "instagram": "garden.exe.music",
-    "followers": null,
-    "level": null
-   },
-   {
     "name": "garden.exe",
-    "instagram": "garden.exe",
-    "followers": null,
+    "instagram": "garden.exe.music",
+    "followers": 309,
     "level": null
    }
   ],

@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T20:53",
+ "generated": "2026-11-23T22:19",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -72,14 +72,6 @@
       "line2": "Hard Techno",
       "time": "23:30",
       "score": 34.2,
-      "fascia": "serata",
-      "family": "House / Elettronica"
-     },
-     {
-      "line1": "Le Cannibale @ ALLA BASE pizza & delivery",
-      "line2": "House, Interstellar Funk",
-      "time": "23:00",
-      "score": 24.4,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -380,7 +372,7 @@
    "2026-11-28": [
     {
      "line1": "CRØMA @ Zero Club",
-     "line2": "Hip Hop / Trap",
+     "line2": "Hip Hop / Trap, REHAB_in_town",
      "time": "19:00",
      "score": 60.7,
      "fascia": "preserata",
@@ -1151,14 +1143,6 @@
       "score": 34.2,
       "fascia": "serata",
       "family": "House / Elettronica"
-     },
-     {
-      "line1": "Le Cannibale @ ALLA BASE pizza & delivery",
-      "line2": "House, Interstellar Funk",
-      "time": "23:00",
-      "score": 24.4,
-      "fascia": "serata",
-      "family": "House / Elettronica"
      }
     ]
    }
@@ -1513,7 +1497,7 @@
    "2026-11-28": [
     {
      "line1": "CRØMA @ Zero Club",
-     "line2": "Hip Hop / Trap",
+     "line2": "Hip Hop / Trap, REHAB_in_town",
      "time": "19:00",
      "score": 60.7,
      "fascia": "preserata",
@@ -1983,7 +1967,7 @@
     },
     {
      "line1": "The Box @ Tassino Cafe",
-     "line2": "Melodic Techno",
+     "line2": "Melodic Techno, Gas Beer",
      "time": "22:00",
      "score": 54.2,
      "fascia": "preserata",
