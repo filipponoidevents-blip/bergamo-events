@@ -9,461 +9,8 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-21T19:34",
+ "generated": "2026-11-23T09:10",
  "this_week": {
-  "from": "2026-11-16",
-  "to": "2026-11-22",
-  "dates_with_serate": [
-   "2026-11-18",
-   "2026-11-19",
-   "2026-11-20",
-   "2026-11-21",
-   "2026-11-22"
-  ],
-  "serate_by_family": {
-   "Altro": {
-    "2026-11-18": [
-     {
-      "line1": "Centro congressi Giovanni XXIII",
-      "line2": "",
-      "time": "00:00",
-      "score": 7.7,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-11-19": [
-     {
-      "line1": "Barley Arts @ Live Club",
-      "line2": "Rock, Alchemica Music Club - Bologna",
-      "time": "20:00",
-      "score": 68.4,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Centro congressi Giovanni XXIII",
-      "line2": "",
-      "time": "00:00",
-      "score": 7.7,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-11-20": [
-     {
-      "line1": "Barley Arts @ Live Club",
-      "line2": "Rock, Alchemica Music Club - Bologna",
-      "time": "20:00",
-      "score": 68.4,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
-      "line2": "",
-      "time": "00:00",
-      "score": 60.6,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Bobadilla Feeling Club",
-      "line2": "",
-      "time": "00:00",
-      "score": 44.8,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Children Of The Damned @ Druso",
-      "line2": "Rock",
-      "time": "00:00",
-      "score": 43.9,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Unibg_Party @ Zero Club",
-      "line2": "",
-      "time": "00:00",
-      "score": 41.5,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "This Week @ VIBE",
-      "line2": "",
-      "time": "00:00",
-      "score": 37.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Barley Arts @ Bar della Musica",
-      "line2": "Rock, Alchemica Music Club - Bologna",
-      "time": "20:00",
-      "score": 31.1,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "VIBE",
-      "line2": "theater room",
-      "time": "00:00",
-      "score": 29.9,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "The Next Ritual @ OASI",
-      "line2": "Fede Rego",
-      "time": "23:30",
-      "score": 25.5,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Possibilita @ NXT Bergamo",
-      "line2": "Jazz",
-      "time": "00:00",
-      "score": 25.3,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "OASI",
-      "line2": "theater room",
-      "time": "23:30",
-      "score": 13.2,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "ARYA Lounge Bar",
-      "line2": "",
-      "time": "22:00",
-      "score": 10.8,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-11-21": [
-     {
-      "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
-      "line2": "",
-      "time": "00:00",
-      "score": 60.6,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Premiere.Premiere @ Zero Club",
-      "line2": "PREMIERE",
-      "time": "00:00",
-      "score": 52.4,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "MAD DOG @ Bolgia",
-      "line2": "",
-      "time": "23:30",
-      "score": 50.2,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Druso",
-      "line2": "Indie",
-      "time": "00:00",
-      "score": 43.1,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Uboa @ Bolgia",
-      "line2": "lab room",
-      "time": "23:30",
-      "score": 41.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "The.Circlehub @ Zero Club",
-      "line2": "club room",
-      "time": "00:00",
-      "score": 33.5,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Dj Arina Top @ ARYA Lounge Bar",
-      "line2": "",
-      "time": "00:00",
-      "score": 14.6,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-11-22": [
-     {
-      "line1": "Jam Live Studio",
-      "line2": "",
-      "time": "00:00",
-      "score": 32.7,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Alfredo Piatti e Guglielmo Quarenghi: un metodo @ Sala Piatti",
-      "line2": "",
-      "time": "16:30",
-      "score": 7.7,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ]
-   },
-   "Commerciale": {
-    "2026-11-21": [
-     {
-      "line1": "Novembre Enter The Void @ Nikita",
-      "line2": "Reggaeton / Commerciale",
-      "time": "00:00",
-      "score": 46.2,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ]
-   }
-  },
-  "preserate": {
-   "2026-11-19": [
-    {
-     "line1": "Worst Collective @ Ink Club",
-     "line2": "dj set, k0r3",
-     "time": "21:30",
-     "score": 59.5,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Giorgio Canali @ NXT Station",
-     "line2": "Rock",
-     "time": "20:00",
-     "score": 26.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    }
-   ],
-   "2026-11-20": [
-    {
-     "line1": "11 Spaca Molto Moltomalefest @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "The Blank Contemporary Art @ Arena Esterno Notte",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 47.3,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Novembre @ Nikita",
-     "line2": "live",
-     "time": "22:30",
-     "score": 43.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Barley Arts @ Caffe Milano",
-     "line2": "Rock, HENGE",
-     "time": "10:00",
-     "score": 25.7,
-     "fascia": "preserata",
-     "family": "Altro"
-    }
-   ],
-   "2026-11-21": [
-    {
-     "line1": "Fiorella Mannoia @ ChorusLife Arena",
-     "line2": "dj set",
-     "time": "18:00",
-     "score": 56.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Manduria @ Daste Bergamo",
-     "line2": "dj set",
-     "time": "21:30",
-     "score": 54.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "11 Spaca Male Moltomalefest @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Door 74",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 48.2,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Barrier",
-     "line2": "Latino",
-     "time": "19:00",
-     "score": 43.9,
-     "fascia": "preserata",
-     "family": "Commerciale"
-    },
-    {
-     "line1": "Barley Arts @ Caffe Milano",
-     "line2": "Hard Techno / Rock, HENGE",
-     "time": "21:00",
-     "score": 25.7,
-     "fascia": "preserata",
-     "family": "House / Elettronica"
-    },
-    {
-     "line1": "Fabbrica in Pedavena Treviglio",
-     "line2": "live",
-     "time": "14:00",
-     "score": 20.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Fabbrica in Pedavena Treviglio",
-     "line2": "live",
-     "time": "22:45",
-     "score": 20.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Metti una sera all'opera @ Auditorium Modernissimo",
-     "line2": "live",
-     "time": "21:00",
-     "score": 19.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Chiesa Parrochiale di Santa Maria, Dalmine (BG)",
-     "line2": "live",
-     "time": "20:45",
-     "score": 17.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Bar della Musica",
-     "line2": "Latino",
-     "time": "22:30",
-     "score": 3.3,
-     "fascia": "preserata",
-     "family": "Commerciale"
-    }
-   ],
-   "2026-11-22": [
-    {
-     "line1": "Savana Funk @ Druso",
-     "line2": "Jazz / Rock",
-     "time": "18:00",
-     "score": 54.5,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "10 Mega Tornei X Street Radio @ Ink Club",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 52.0,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Divina Music Bar",
-     "line2": "dj set",
-     "time": "16:00",
-     "score": 50.9,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Barley Arts @ Caffe Milano",
-     "line2": "Hard Techno / Rock, HENGE",
-     "time": "21:00",
-     "score": 25.7,
-     "fascia": "preserata",
-     "family": "House / Elettronica"
-    },
-    {
-     "line1": "LOUNGE BAR VERONICA",
-     "line2": "dj set",
-     "time": "17:00",
-     "score": 10.8,
-     "fascia": "preserata",
-     "family": "Altro"
-    }
-   ]
-  },
-  "big_events": [],
-  "caption_handles": [
-   "@barleyartsreal",
-   "@alchemica_club",
-   "@inkclub_bergamo",
-   "@megan_is_missing_band",
-   "@divinabergamo",
-   "@drusobg",
-   "@zeroclub.bg",
-   "@henge_cosmicdross",
-   "@markthehammer86",
-   "@liveclub",
-   "@missdivina1",
-   "@vibetheclub",
-   "@upside.down.night",
-   "@oasi.night",
-   "@spettacoli",
-   "@arya.lounge",
-   "@nikita__land",
-   "@premiere.premiere",
-   "@bolgia.official",
-   "@fabbricainpedavenatreviglio",
-   "@attenzione",
-   "@worst.zine",
-   "@andrea_kor3",
-   "@bobadillafeelingclub",
-   "@cotd_iron_maiden",
-   "@the_big4_theory",
-   "@unibg_party",
-   "@fede_regooo",
-   "@selected.lab",
-   "@possibilita"
-  ],
-  "hashtags": [
-   "#bergamo",
-   "#bergamonightlife",
-   "#seratebergamo"
-  ]
- },
- "next_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
   "dates_with_serate": [
@@ -490,7 +37,7 @@
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 38.9,
+      "score": 39.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -508,6 +55,14 @@
    },
    "Altro": {
     "2026-11-25": [
+     {
+      "line1": "Anna @ Arena Esterno Notte",
+      "line2": "",
+      "time": "00:00",
+      "score": 50.8,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Please.Nights @ Zero Club",
       "line2": "",
@@ -539,6 +94,14 @@
       "line2": "",
       "time": "00:00",
       "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Bell’Atmosfera - Experience @ INARI CANTU",
+      "line2": "",
+      "time": "00:00",
+      "score": 13.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -587,6 +150,16 @@
       "line2": "Reggaeton",
       "time": "00:00",
       "score": 39.6,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
+      "line2": "Commerciale / Revival",
+      "time": "00:00",
+      "score": 13.4,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -648,6 +221,16 @@
      "family": "Altro"
     }
    ],
+   "2026-11-26": [
+    {
+     "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
+     "line2": "Rock",
+     "time": "00:00",
+     "score": 12.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-11-27": [
     {
      "line1": "10 Torneo Fifa @ Ink Club",
@@ -676,28 +259,44 @@
      "family": "Altro"
     },
     {
-     "line1": "Easy Drink and Food",
+     "line1": "Bell’Atmosfera - Experience @ Easy Drink and Food",
      "line2": "Commerciale",
      "time": "21:00",
-     "score": 25.6,
+     "score": 34.3,
      "fascia": "preserata",
      "family": "Commerciale"
     },
     {
-     "line1": "Fabbrica in Pedavena Treviglio",
+     "line1": "Doctor Beat @ Fabbrica in Pedavena Treviglio",
      "line2": "live",
      "time": "14:00",
-     "score": 20.8,
+     "score": 29.4,
      "fascia": "preserata",
      "family": "Altro"
     }
    ],
    "2026-11-29": [
     {
+     "line1": "Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "10 Space Jam @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
      "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Arena Esterno Notte",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 47.3,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -715,15 +314,19 @@
   "caption_handles": [
    "@inkclub_bergamo",
    "@zeroclub.bg",
+   "@bellatmosferaevents",
    "@bloom_mezzago",
-   "@possibilita",
    "@daste_bergamo",
+   "@lab80cinemas",
+   "@possibilita",
    "@to_on.tv",
    "@spike.hellis",
    "@lowl_fest",
    "@www.bloomnet",
    "@bowie.hc",
    "@door_74",
+   "@uaar_it",
+   "@associazione_luca_coscioni",
    "@please.nights",
    "@spettacoli",
    "@choruslife.bergamo",
@@ -736,13 +339,86 @@
    "@savana_funk",
    "@ozza.dj",
    "@bolgia.official",
+   "@bro__eat_drinks",
    "@tumulto_bg",
-   "@scalpo_punk",
-   "@calce.viva.oi",
-   "@sezione.8",
-   "@cre.sp1",
-   "@esse.pietro",
-   "@federicoo_riva"
+   "@scalpo_punk"
+  ],
+  "hashtags": [
+   "#bergamo",
+   "#bergamonightlife",
+   "#seratebergamo"
+  ]
+ },
+ "next_week": {
+  "from": "2026-11-30",
+  "to": "2026-12-06",
+  "dates_with_serate": [
+   "2026-12-05"
+  ],
+  "serate_by_family": {
+   "Altro": {
+    "2026-12-05": [
+     {
+      "line1": "CHELINA MANUHUTU @ Bolgia",
+      "line2": "",
+      "time": "23:30",
+      "score": 50.2,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   }
+  },
+  "preserate": {
+   "2026-11-30": [
+    {
+     "line1": "10 Kendasoundsystem Party @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-03": [
+    {
+     "line1": "Bar della Musica",
+     "line2": "Rock",
+     "time": "20:45",
+     "score": 3.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
+   "2026-12-05": [
+    {
+     "line1": "Daste Bergamo",
+     "line2": "Pop",
+     "time": "21:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "diggei sofficino @ Bloom",
+     "line2": "Rock / Commerciale",
+     "time": "00:00",
+     "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ]
+  },
+  "big_events": [],
+  "caption_handles": [
+   "@inkclub_bergamo",
+   "@prenotazione",
+   "@bolgia.official",
+   "@daste_bergamo",
+   "@consumazione",
+   "@bloom_mezzago",
+   "@dj.sofficino",
+   "@nico.bre1917"
   ],
   "hashtags": [
    "#bergamo",
@@ -972,6 +648,14 @@
     ],
     "2026-11-25": [
      {
+      "line1": "Anna @ Arena Esterno Notte",
+      "line2": "",
+      "time": "00:00",
+      "score": 50.8,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Please.Nights @ Zero Club",
       "line2": "",
       "time": "00:00",
@@ -1002,6 +686,14 @@
       "line2": "",
       "time": "00:00",
       "score": 41.5,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
+      "line1": "Bell’Atmosfera - Experience @ INARI CANTU",
+      "line2": "",
+      "time": "00:00",
+      "score": 13.4,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1063,6 +755,16 @@
       "fascia": "serata",
       "family": "Commerciale"
      }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
+      "line2": "Commerciale / Revival",
+      "time": "00:00",
+      "score": 13.4,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
     ]
    },
    "House / Elettronica": {
@@ -1081,7 +783,7 @@
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
-      "score": 38.9,
+      "score": 39.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1337,6 +1039,16 @@
      "family": "Altro"
     }
    ],
+   "2026-11-26": [
+    {
+     "line1": "Bell’Atmosfera - Experience @ Bar della Musica",
+     "line2": "Rock",
+     "time": "00:00",
+     "score": 12.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-11-27": [
     {
      "line1": "10 Torneo Fifa @ Ink Club",
@@ -1365,28 +1077,44 @@
      "family": "Altro"
     },
     {
-     "line1": "Easy Drink and Food",
+     "line1": "Bell’Atmosfera - Experience @ Easy Drink and Food",
      "line2": "Commerciale",
      "time": "21:00",
-     "score": 25.6,
+     "score": 34.3,
      "fascia": "preserata",
      "family": "Commerciale"
     },
     {
-     "line1": "Fabbrica in Pedavena Treviglio",
+     "line1": "Doctor Beat @ Fabbrica in Pedavena Treviglio",
      "line2": "live",
      "time": "14:00",
-     "score": 20.8,
+     "score": 29.4,
      "fascia": "preserata",
      "family": "Altro"
     }
    ],
    "2026-11-29": [
     {
+     "line1": "Daste Bergamo",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 54.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "10 Space Jam @ Ink Club",
      "line2": "dj set",
      "time": "00:00",
      "score": 52.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Arena Esterno Notte",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 47.3,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1417,15 +1145,17 @@
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
+   "@daste_bergamo",
+   "@bellatmosferaevents",
    "@megan_is_missing_band",
    "@divinabergamo",
    "@possibilita",
    "@spettacoli",
+   "@lab80cinemas",
    "@nikita__land",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
-   "@daste_bergamo",
    "@fabbricainpedavenatreviglio",
    "@bloom_mezzago",
    "@liveclub",
@@ -1439,9 +1169,7 @@
    "@door_74",
    "@savana_funk",
    "@attenzione",
-   "@worst.zine",
-   "@andrea_kor3",
-   "@bobadillafeelingclub"
+   "@worst.zine"
   ],
   "hashtags": [
    "#bergamo",
@@ -1619,6 +1347,16 @@
      "family": "Altro"
     }
    ],
+   "2026-12-19": [
+    {
+     "line1": "Francesco Fanucchi - Tutto Sbagliato @ Teatro Miela",
+     "line2": "Revival",
+     "time": "21:00",
+     "score": 48.5,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    }
+   ],
    "2026-12-22": [
     {
      "line1": "Door 74",
@@ -1656,6 +1394,7 @@
    "@bloom_mezzago",
    "@bolgia.official",
    "@daste_bergamo",
+   "@teatromiela_trieste",
    "@barleyartsreal",
    "@consumazione",
    "@dj.sofficino",
@@ -1663,9 +1402,9 @@
    "@possibilita",
    "@spettacoli",
    "@degustazione",
-   "@teatromiela_trieste",
    "@liveclub",
    "@nikita__land",
+   "@francesco_fanucchi_",
    "@door_74",
    "@charlie.blackbird",
    "@drusobg",

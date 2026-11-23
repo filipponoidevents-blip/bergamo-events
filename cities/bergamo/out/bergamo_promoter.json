@@ -1,87 +1,7 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-21T19:34",
+ "generated": "2026-11-23T09:10",
  "nights": [
-  {
-   "date": "2026-11-21",
-   "weekday": "sabato",
-   "note": null,
-   "weekend_like": true,
-   "events": 8,
-   "load": 341.6,
-   "level": "piena",
-   "capacity_taken": 7750,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 1,
-    "Altro": 7
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap"
-   ],
-   "top": [
-    {
-     "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
-     "score": 60.6,
-     "capacity": 950
-    },
-    {
-     "title": "Zero Club · Premiere.Premiere w/ PREMIERE",
-     "score": 52.4,
-     "capacity": 1000
-    },
-    {
-     "title": "Bolgia · MAD DOG",
-     "score": 50.2,
-     "capacity": 1250
-    },
-    {
-     "title": "[Reggaeton / Commerciale] Nikita · Novembre Enter The Void",
-     "score": 46.2,
-     "capacity": 1150
-    },
-    {
-     "title": "[Indie] Druso",
-     "score": 43.1,
-     "capacity": 1100
-    }
-   ]
-  },
-  {
-   "date": "2026-11-22",
-   "weekday": "domenica",
-   "note": null,
-   "weekend_like": false,
-   "events": 2,
-   "load": 40.4,
-   "level": "tranquilla",
-   "capacity_taken": 650,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 2
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
-   ],
-   "top": [
-    {
-     "title": "Jam Live Studio",
-     "score": 32.7,
-     "capacity": 550
-    },
-    {
-     "title": "Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo",
-     "score": 7.7,
-     "capacity": 100
-    }
-   ]
-  },
   {
    "date": "2026-11-23",
    "weekday": "lunedì",
@@ -136,15 +56,15 @@
    "weekday": "mercoledì",
    "note": null,
    "weekend_like": false,
-   "events": 2,
-   "load": 66.8,
+   "events": 3,
+   "load": 117.6,
    "level": "media",
-   "capacity_taken": 1500,
+   "capacity_taken": 1950,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 2
+    "Altro": 3
    },
    "missing_families": [
     "House / Elettronica",
@@ -152,6 +72,11 @@
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "Arena Esterno Notte · Anna",
+     "score": 50.8,
+     "capacity": 450
+    },
     {
      "title": "Zero Club · Please.Nights",
      "score": 41.5,
@@ -191,15 +116,15 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 4,
-   "load": 177.0,
+   "events": 5,
+   "load": 191.1,
    "level": "piena",
-   "capacity_taken": 3600,
+   "capacity_taken": 3750,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
-    "Altro": 2
+    "Altro": 3
    },
    "missing_families": [
     "Hip Hop / Trap"
@@ -216,14 +141,19 @@
      "capacity": 1000
     },
     {
+     "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
+     "score": 39.6,
+     "capacity": 650
+    },
+    {
      "title": "[Reggaeton] Daste Bergamo · Conejo Night",
      "score": 39.6,
      "capacity": 850
     },
     {
-     "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
-     "score": 38.9,
-     "capacity": 600
+     "title": "INARI CANTU · Bell’Atmosfera - Experience",
+     "score": 13.4,
+     "capacity": 100
     }
    ]
   },
@@ -232,19 +162,18 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 4,
-   "load": 182.2,
+   "events": 5,
+   "load": 195.6,
    "level": "piena",
-   "capacity_taken": 4350,
+   "capacity_taken": 4450,
    "by_family": {
     "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 3
    },
    "missing_families": [
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
@@ -266,6 +195,11 @@
      "title": "Zero Club (club room) · Bar Florio",
      "score": 33.5,
      "capacity": 1000
+    },
+    {
+     "title": "[Commerciale / Revival] Bar della Musica · Bell’Atmosfera - Experience",
+     "score": 13.4,
+     "capacity": 100
     }
    ]
   },
@@ -2154,6 +2088,55 @@
     "Commerciale"
    ],
    "top": []
+  },
+  {
+   "date": "2027-02-19",
+   "weekday": "venerdì",
+   "note": null,
+   "weekend_like": true,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-20",
+   "weekday": "sabato",
+   "note": null,
+   "weekend_like": true,
+   "events": 1,
+   "load": 57.0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 1100,
+   "by_family": {
+    "House / Elettronica": 1,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": [
+    {
+     "title": "[Disco / Rock] Druso · Savana Funk",
+     "score": 57.0,
+     "capacity": 1100
+    }
+   ]
   }
  ]
 }

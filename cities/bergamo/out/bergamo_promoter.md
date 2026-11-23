@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 21/11/2026 19:34. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 23/11/2026 09:10. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -19,12 +19,10 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 
 | Data | Sera | Serate | Carico | Capienza impegnata | Generi | Le più forti |
 |---|---|---|---|---|---|---|
-| 21/11 sab | piena | 8 | 341.6 | 7750 | Commerciale 1, Altro 7 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; Zero Club · Premiere.Premiere w/ PREMIERE; Bolgia · MAD DOG |
-| 22/11 dom | tranquilla | 2 | 40.4 | 650 | Altro 2 | Jam Live Studio; Sala Piatti · Alfredo Piatti e Guglielmo Quarenghi: un metodo |
 | 24/11 mar | tranquilla | 1 | 53.0 | 900 | House 1 | [Hard Techno / Rock] Bloom · Spike Hellis |
-| 25/11 mer | media | 2 | 66.8 | 1500 | Altro 2 | Zero Club · Please.Nights; [Jazz] NXT Bergamo · Possibilita |
-| 27/11 ven | piena | 4 | 177.0 | 3600 | House 1, Commerciale 1, Altro 2 | Nikita · SCHIVARDI 1953; Zero Club · Crystalcastlesnightt; [Reggaeton] Daste Bergamo · Conejo Night |
-| 28/11 sab | piena | 4 | 182.2 | 4350 | House 1, Altro 3 | [Disco / Rock] Druso · Savana Funk; Bolgia · MARIE VAUNT; Zero Club · Cromaroom |
+| 25/11 mer | media | 3 | 117.6 | 1950 | Altro 3 | Arena Esterno Notte · Anna; Zero Club · Please.Nights; [Jazz] NXT Bergamo · Possibilita |
+| 27/11 ven | piena | 5 | 191.1 | 3750 | House 1, Commerciale 1, Altro 3 | Nikita · SCHIVARDI 1953; Zero Club · Crystalcastlesnightt; [Hard Techno] Oronero · Underground - Hardcore w/ Possibilita |
+| 28/11 sab | piena | 5 | 195.6 | 4450 | House 1, Commerciale 1, Altro 3 | [Disco / Rock] Druso · Savana Funk; Bolgia · MARIE VAUNT; Zero Club · Cromaroom |
 | 29/11 dom | tranquilla | 1 | 7.7 | 100 | Altro 1 | Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 04/12 ven | libera | 0 | 0 | 0 | - | - |
 | 05/12 sab | libera | 1 | 50.2 | 1250 | Altro 1 | Bolgia · CHELINA MANUHUTU |
