@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-23T12:25",
+ "generated": "2026-11-23T13:34",
  "nights": [
   {
    "date": "2026-11-23",
@@ -57,7 +57,7 @@
    "note": null,
    "weekend_like": false,
    "events": 3,
-   "load": 126.4,
+   "load": 132.8,
    "level": "media",
    "capacity_taken": 1350,
    "by_family": {
@@ -78,7 +78,7 @@
     },
     {
      "title": "[Commerciale 360] Zero Club · Please",
-     "score": 39.9,
+     "score": 46.3,
      "capacity": 500
     },
     {
@@ -115,12 +115,12 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 9,
-   "load": 311.6,
+   "events": 8,
+   "load": 271.7,
    "level": "piena",
-   "capacity_taken": 4550,
+   "capacity_taken": 4050,
    "by_family": {
-    "House / Elettronica": 4,
+    "House / Elettronica": 3,
     "Hip Hop / Trap": 0,
     "Commerciale": 5,
     "Altro": 0
@@ -133,11 +133,6 @@
      "title": "[Commerciale] Nikita · SCHIVARDI 1953",
      "score": 56.6,
      "capacity": 1000
-    },
-    {
-     "title": "[Witch House / EDM] Zero Club · Crystal Castles Night",
-     "score": 39.9,
-     "capacity": 500
     },
     {
      "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
@@ -153,6 +148,11 @@
      "title": "[Reggaeton] Daste Bergamo · Conejo Night",
      "score": 33.3,
      "capacity": 400
+    },
+    {
+     "title": "[Tech House] Tiky Klub · Dirty Andry",
+     "score": 27.8,
+     "capacity": 300
     }
    ]
   },
@@ -167,11 +167,12 @@
    "capacity_taken": 4200,
    "by_family": {
     "House / Elettronica": 2,
-    "Hip Hop / Trap": 1,
+    "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 3
+    "Altro": 4
    },
    "missing_families": [
+    "Hip Hop / Trap",
     "Commerciale"
    ],
    "top": [
@@ -181,7 +182,7 @@
      "capacity": 3000
     },
     {
-     "title": "[Hip Hop / Trap] Zero Club · CRØMA",
+     "title": "Zero Club · Fuse All Night: Cuartero",
      "score": 39.9,
      "capacity": 500
     },
@@ -345,22 +346,26 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 60.0,
+   "events": 2,
+   "load": 126.3,
    "level": "media",
-   "capacity_taken": 3000,
+   "capacity_taken": 3500,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 1
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "[House] Zero Club · NØID w/ Germano Ventura",
+     "score": 66.3,
+     "capacity": 500
+    },
     {
      "title": "Bolgia · CHELINA MANUHUTU",
      "score": 60.0,
@@ -517,22 +522,27 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
-   "level": "libera",
-   "capacity_taken": 0,
+   "events": 1,
+   "load": 66.3,
+   "level": "media",
+   "capacity_taken": 500,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[House] Zero Club · NØID w/ Germano Ventura",
+     "score": 66.3,
+     "capacity": 500
+    }
+   ]
   },
   {
    "date": "2026-12-13",

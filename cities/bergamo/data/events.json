@@ -6361,20 +6361,36 @@
    "same_family": 1,
    "strongest_rival": "Anna @ Arena Esterno Notte"
   },
-  "confidence": 0.65,
+  "confidence": 0.99,
   "date": "2026-11-25",
   "day_note": null,
-  "end": null,
-  "entry": null,
+  "end": "03:30",
+  "entry": "a pagamento",
   "family": "Commerciale",
   "fascia": "serata",
-  "fascia_why": "locale di solito serata",
+  "fascia_why": "inizia alle 23:30",
   "first_seen": "2026-11-20",
   "genre": "Commerciale 360",
   "genre_source": "promoter (conoscenze)",
-  "guests": [],
+  "guests": [
+   {
+    "followers": 556,
+    "instagram": "consumazione",
+    "level": null,
+    "name": "VIII. Deslumbre"
+   },
+   {
+    "followers": null,
+    "instagram": "reverie__night",
+    "level": null,
+    "name": "reverie__night"
+   }
+  ],
   "handles": [
-   "please.nights"
+   "consumazione",
+   "please.nights",
+   "reverie__night",
+   "zeroclub.bg"
   ],
   "headliner": null,
   "id": "2026-11-25-zero_club",
@@ -6385,30 +6401,32 @@
   "nightlife": true,
   "party": "Please",
   "posted": "2026-11-02",
-  "price": null,
-  "promoter_followers": null,
+  "price": 100,
+  "promoter_followers": 2508,
   "promoter_instagram": "please.nights",
   "promoter_name": "Please",
   "rank_in_night": 2,
   "room": null,
   "scope": "zona",
-  "score": 39.9,
+  "score": 46.3,
   "score_parts": {
    "capacity": 5.6,
-   "guest": 0.0,
-   "promoter": 0.0,
+   "guest": 0.2,
+   "promoter": 3.0,
    "venue": 7,
    "venue_followers": 7.0
   },
   "sources": [
-   "instagram-locale"
+   "instagram-locale",
+   "instagram-promoter"
   ],
-  "start": null,
+  "start": "23:30",
   "status": "pubblicato",
   "tickets": null,
   "type": "dj set",
   "urls": [
-   "https://www.instagram.com/p/DfPzvj8CAe3/"
+   "https://www.instagram.com/p/DfPzvj8CAe3/",
+   "https://www.instagram.com/p/Df9iZR8jWSV/"
   ],
   "venue": "Zero Club",
   "venue_followers": 20839,
@@ -6761,8 +6779,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4150,
-   "events_same_night": 8,
+   "capacity_same_night": 3650,
+   "events_same_night": 7,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -6792,7 +6810,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 5,
+  "rank_in_night": 4,
   "room": null,
   "scope": "zona",
   "score": 33.3,
@@ -6827,10 +6845,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 700,
-   "events_same_night": 1,
-   "same_family": 1,
-   "strongest_rival": "Maison Grove @ Setai"
+   "capacity_same_night": 1200,
+   "events_same_night": 2,
+   "same_family": 2,
+   "strongest_rival": "Crystal Castles Night @ Zero Club"
   },
   "confidence": 0.95,
   "date": "2026-11-27",
@@ -6874,7 +6892,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 2,
+  "rank_in_night": 3,
   "room": null,
   "scope": "zona",
   "score": 47.6,
@@ -6967,10 +6985,10 @@
   "capacity_source": "stima",
   "city": "Grumello del Monte",
   "competition": {
-   "capacity_same_night": 3550,
-   "events_same_night": 8,
+   "capacity_same_night": 3050,
+   "events_same_night": 7,
    "same_family": 4,
-   "strongest_rival": "Crystal Castles Night @ Zero Club"
+   "strongest_rival": "Underground - Hardcore @ Oronero"
   },
   "confidence": 0.7,
   "date": "2026-11-27",
@@ -7035,9 +7053,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4000,
-   "events_same_night": 8,
-   "same_family": 3,
+   "capacity_same_night": 3500,
+   "events_same_night": 7,
+   "same_family": 2,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "confidence": 0.95,
@@ -7076,7 +7094,7 @@
   "promoter_followers": 380,
   "promoter_instagram": "alonic_shakti",
   "promoter_name": "nicola",
-  "rank_in_night": 9,
+  "rank_in_night": 8,
   "room": null,
   "scope": "zona",
   "score": 25.9,
@@ -7111,9 +7129,9 @@
   "capacity_source": "stima",
   "city": "Nembro",
   "competition": {
-   "capacity_same_night": 4150,
-   "events_same_night": 8,
-   "same_family": 3,
+   "capacity_same_night": 3650,
+   "events_same_night": 7,
+   "same_family": 2,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "confidence": 0.95,
@@ -7158,7 +7176,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 3,
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
   "score": 38.0,
@@ -7195,8 +7213,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4150,
-   "events_same_night": 8,
+   "capacity_same_night": 3650,
+   "events_same_night": 7,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7266,7 +7284,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": "DiscoDance",
-  "rank_in_night": 4,
+  "rank_in_night": 3,
   "room": null,
   "scope": "zona",
   "score": 36.1,
@@ -7302,8 +7320,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4050,
-   "events_same_night": 8,
+   "capacity_same_night": 3550,
+   "events_same_night": 7,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7333,7 +7351,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 7,
+  "rank_in_night": 6,
   "room": "sala 1",
   "scope": "zona",
   "score": 27.0,
@@ -7368,8 +7386,8 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4050,
-   "events_same_night": 8,
+   "capacity_same_night": 3550,
+   "events_same_night": 7,
    "same_family": 4,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
@@ -7399,7 +7417,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 8,
+  "rank_in_night": 7,
   "room": "sala 2",
   "scope": "zona",
   "score": 27.0,
@@ -7434,10 +7452,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 200,
-   "events_same_night": 1,
-   "same_family": 1,
-   "strongest_rival": "10 Torneo Fifa @ Ink Club"
+   "capacity_same_night": 700,
+   "events_same_night": 2,
+   "same_family": 2,
+   "strongest_rival": "Crystal Castles Night @ Zero Club"
   },
   "confidence": 0.9,
   "date": "2026-11-27",
@@ -7478,7 +7496,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 1,
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
   "score": 55.1,
@@ -7628,9 +7646,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4250,
-   "events_same_night": 8,
-   "same_family": 3,
+   "capacity_same_night": 3750,
+   "events_same_night": 7,
+   "same_family": 2,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "confidence": 0.9,
@@ -7689,7 +7707,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 6,
+  "rank_in_night": 5,
   "room": null,
   "scope": "zona",
   "score": 27.8,
@@ -7724,25 +7742,33 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 4050,
-   "events_same_night": 8,
-   "same_family": 3,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "capacity_same_night": 900,
+   "events_same_night": 2,
+   "same_family": 2,
+   "strongest_rival": "Maison Grove @ Setai"
   },
-  "confidence": 0.7,
+  "confidence": 0.99,
   "date": "2026-11-27",
   "day_note": null,
-  "end": null,
+  "end": "02:00",
   "entry": null,
   "family": "House / Elettronica",
-  "fascia": "serata",
-  "fascia_why": "locale di solito serata",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 00:00",
   "first_seen": "2026-11-20",
   "genre": "Witch House / EDM",
   "genre_source": "promoter (conoscenze)",
-  "guests": [],
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "pit.ent",
+    "level": null,
+    "name": "pit.ent"
+   }
+  ],
   "handles": [
-   "crystalcastlesnightt"
+   "crystalcastlesnightt",
+   "pit.ent"
   ],
   "headliner": null,
   "id": "2026-11-27-zero_club",
@@ -7754,29 +7780,31 @@
   "party": "Crystal Castles Night",
   "posted": "2026-11-02",
   "price": null,
-  "promoter_followers": null,
+  "promoter_followers": 780,
   "promoter_instagram": "crystalcastlesnightt",
   "promoter_name": "Crystal Castles Night",
-  "rank_in_night": 2,
+  "rank_in_night": 1,
   "room": null,
   "scope": "zona",
-  "score": 39.9,
+  "score": 55.3,
   "score_parts": {
    "capacity": 5.6,
-   "guest": 0.0,
-   "promoter": 0.0,
-   "venue": 7,
+   "distance": 9.4,
+   "promoter": 0.8,
    "venue_followers": 7.0
   },
   "sources": [
-   "instagram-locale"
+   "instagram-locale",
+   "instagram-promoter"
   ],
-  "start": null,
+  "start": "00:00",
   "status": "pubblicato",
   "tickets": null,
   "type": "dj set",
   "urls": [
-   "https://www.instagram.com/p/DfPzvj8CAe3/"
+   "https://www.instagram.com/p/DfPzvj8CAe3/",
+   "https://www.instagram.com/p/DfpVFvDqAcM/",
+   "https://www.instagram.com/reel/Df5EQ3QKVzk/"
   ],
   "venue": "Zero Club",
   "venue_followers": 20839,
@@ -7814,12 +7842,6 @@
     "instagram": null,
     "level": null,
     "name": "Interstellar Funk"
-   },
-   {
-    "followers": null,
-    "instagram": "base_milano",
-    "level": null,
-    "name": "base_milano"
    }
   ],
   "handles": [
@@ -7873,10 +7895,10 @@
   "capacity_source": "stima",
   "city": "Mezzago",
   "competition": {
-   "capacity_same_night": 2850,
-   "events_same_night": 10,
+   "capacity_same_night": 3350,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
   "date": "2026-11-28",
@@ -7927,7 +7949,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 9,
+  "rank_in_night": 10,
   "room": null,
   "scope": "zona",
   "score": 35.7,
@@ -7963,8 +7985,8 @@
   "competition": {
    "capacity_same_night": 1200,
    "events_same_night": 5,
-   "same_family": 2,
-   "strongest_rival": "CRØMA @ Zero Club"
+   "same_family": 3,
+   "strongest_rival": "Fuse All Night: Cuartero @ Zero Club"
   },
   "confidence": 0.99,
   "date": "2026-11-28",
@@ -8036,10 +8058,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3350,
-   "events_same_night": 10,
+   "capacity_same_night": 3850,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.85,
   "date": "2026-11-28",
@@ -8069,7 +8091,7 @@
   "promoter_followers": 2330,
   "promoter_instagram": "doctor.beat.band",
   "promoter_name": "Doctor Beat",
-  "rank_in_night": 10,
+  "rank_in_night": 11,
   "room": null,
   "scope": "zona",
   "score": 28.1,
@@ -8132,7 +8154,7 @@
   "lead_days": 5,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-23T12:25+00:00",
+  "posted": "2026-11-23T13:33+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -8228,10 +8250,10 @@
   "capacity_source": "stima",
   "city": "Ranica",
   "competition": {
-   "capacity_same_night": 3450,
-   "events_same_night": 10,
+   "capacity_same_night": 3950,
+   "events_same_night": 11,
    "same_family": 2,
-   "strongest_rival": "SCALPO @ Ink Club"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.75,
   "date": "2026-11-28",
@@ -8275,7 +8297,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 1,
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
   "score": 49.8,
@@ -8310,10 +8332,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3650,
-   "events_same_night": 10,
+   "capacity_same_night": 4150,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.9,
   "date": "2026-11-28",
@@ -8343,7 +8365,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 11,
+  "rank_in_night": 12,
   "room": null,
   "scope": "zona",
   "score": 25.6,
@@ -8377,10 +8399,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3650,
-   "events_same_night": 10,
+   "capacity_same_night": 4150,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.9,
   "date": "2026-11-28",
@@ -8410,7 +8432,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 8,
+  "rank_in_night": 9,
   "room": null,
   "scope": "zona",
   "score": 35.9,
@@ -8444,10 +8466,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3550,
-   "events_same_night": 10,
+   "capacity_same_night": 4050,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
   "date": "2026-11-28",
@@ -8500,7 +8522,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 2,
+  "rank_in_night": 3,
   "room": null,
   "scope": "zona",
   "score": 47.6,
@@ -8534,10 +8556,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3350,
-   "events_same_night": 10,
+   "capacity_same_night": 3850,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.9,
   "date": "2026-11-28",
@@ -8565,7 +8587,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 7,
+  "rank_in_night": 8,
   "room": null,
   "scope": "zona",
   "score": 42.9,
@@ -8600,10 +8622,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3550,
-   "events_same_night": 10,
+   "capacity_same_night": 4050,
+   "events_same_night": 11,
    "same_family": 2,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
   "date": "2026-11-28",
@@ -8638,7 +8660,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 6,
+  "rank_in_night": 7,
   "room": null,
   "scope": "zona",
   "score": 43.2,
@@ -8730,10 +8752,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3550,
-   "events_same_night": 10,
+   "capacity_same_night": 4050,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.55,
   "date": "2026-11-28",
@@ -8761,7 +8783,7 @@
   "promoter_followers": 4703,
   "promoter_instagram": "cheri.it",
   "promoter_name": "Cheri",
-  "rank_in_night": 3,
+  "rank_in_night": 4,
   "room": null,
   "scope": "zona",
   "score": 47.2,
@@ -8795,10 +8817,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3200,
-   "events_same_night": 10,
+   "capacity_same_night": 3700,
+   "events_same_night": 11,
    "same_family": 2,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
   "date": "2026-11-28",
@@ -8835,7 +8857,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 5,
+  "rank_in_night": 6,
   "room": null,
   "scope": "zona",
   "score": 44.6,
@@ -8871,7 +8893,7 @@
   "competition": {
    "capacity_same_night": 4200,
    "events_same_night": 5,
-   "same_family": 2,
+   "same_family": 3,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
   "confidence": 0.95,
@@ -8952,10 +8974,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3350,
-   "events_same_night": 10,
+   "capacity_same_night": 3850,
+   "events_same_night": 11,
    "same_family": 3,
-   "strongest_rival": "Savana Funk @ Druso"
+   "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
   "date": "2026-11-28",
@@ -9000,7 +9022,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 4,
+  "rank_in_night": 5,
   "room": null,
   "scope": "zona",
   "score": 46.5,
@@ -9211,6 +9233,72 @@
   "venue_type": "live_club",
   "weekday": "sabato"
  },
+ "2026-11-28-zero_club": {
+  "address": "V. Evaristo Baschenis, 9, 24122 Bergamo BG",
+  "brand": null,
+  "capacity": 500,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 3700,
+   "events_same_night": 5,
+   "same_family": 3,
+   "strongest_rival": "MARIE VAUNT @ Bolgia"
+  },
+  "confidence": 0.85,
+  "date": "2026-11-28",
+  "day_note": null,
+  "end": "07:00",
+  "entry": null,
+  "family": "Altro",
+  "fascia": "serata",
+  "fascia_why": "inizia alle 00:59",
+  "first_seen": "2026-11-23",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-28-zero_club",
+  "image": null,
+  "in_posts": true,
+  "km": 1.5,
+  "lead_days": null,
+  "nightlife": true,
+  "party": "Fuse All Night: Cuartero",
+  "posted": null,
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 2,
+  "room": null,
+  "scope": "zona",
+  "score": 39.9,
+  "score_parts": {
+   "capacity": 5.6,
+   "guest": 0.0,
+   "promoter": 0.0,
+   "venue": 7,
+   "venue_followers": 7.0
+  },
+  "sources": [
+   "xceed"
+  ],
+  "start": "00:59",
+  "status": "pubblicato",
+  "tickets": "https://xceed.me/it/bergamo/club/zero-club",
+  "type": "dj set",
+  "urls": [
+   "https://xceed.me/it/bergamo/club/zero-club"
+  ],
+  "venue": "Zero Club",
+  "venue_followers": 20839,
+  "venue_instagram": "zeroclub.bg",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "sabato"
+ },
  "2026-11-28-zero_club-club_room": {
   "address": "V. Evaristo Baschenis, 9, 24122 Bergamo BG",
   "brand": null,
@@ -9220,7 +9308,7 @@
   "competition": {
    "capacity_same_night": 4100,
    "events_same_night": 5,
-   "same_family": 2,
+   "same_family": 3,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
   "confidence": 0.7,
@@ -9277,35 +9365,73 @@
   "venue_type": "club",
   "weekday": "sabato"
  },
- "2026-11-28-zero_club-main_room": {
+ "2026-11-28-zero_club-main_room-pre": {
   "address": "V. Evaristo Baschenis, 9, 24122 Bergamo BG",
   "brand": null,
   "capacity": 500,
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 3700,
-   "events_same_night": 5,
+   "capacity_same_night": 3750,
+   "events_same_night": 11,
    "same_family": 0,
-   "strongest_rival": "MARIE VAUNT @ Bolgia"
+   "strongest_rival": "Savana Funk @ Druso"
   },
-  "confidence": 0.9,
+  "confidence": 0.99,
   "date": "2026-11-28",
   "day_note": null,
-  "end": "07:00",
-  "entry": null,
+  "end": "00:00",
+  "entry": "a pagamento",
   "family": "Hip Hop / Trap",
-  "fascia": "serata",
-  "fascia_why": "inizia alle 00:59",
-  "first_seen": "2026-11-20",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 19:00",
+  "first_seen": "2026-11-23",
   "genre": "Hip Hop / Trap",
   "genre_source": "promoter (conoscenze)",
-  "guests": [],
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "caffemiro_mantova",
+    "level": null,
+    "name": "caffemiro_mantova"
+   },
+   {
+    "followers": null,
+    "instagram": "angeway.music",
+    "level": null,
+    "name": "angeway.music"
+   },
+   {
+    "followers": null,
+    "instagram": "titans.djp",
+    "level": null,
+    "name": "titans.djp"
+   },
+   {
+    "followers": null,
+    "instagram": "prenotazione",
+    "level": null,
+    "name": "prenotazione"
+   },
+   {
+    "followers": null,
+    "instagram": "rehab_in_town",
+    "level": null,
+    "name": "rehab_in_town"
+   }
+  ],
   "handles": [
-   "cromaroom"
+   "angeway.music",
+   "caffemiro_mantova",
+   "cromaroom",
+   "noidfamilia",
+   "prenotazione",
+   "rehab_in_town",
+   "titans.djp",
+   "zeroclub.bg"
   ],
   "headliner": null,
-  "id": "2026-11-28-zero_club-main_room",
+  "id": "2026-11-28-zero_club-main_room-pre",
   "image": "https://scontent-dfw6-1.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Keyln5XDKVUQ7kNvwFD106B&_nc_oc=AdqTRH3vpyPPW28mtWbfDwGjoIp9T92p5cxmXiJQGiwfHEHW0hQD485T38iiOqW1Rd4&_nc_zt=23&_nc_ht=scontent-dfw6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7PMbtO2CI4mhXKpbX51vbQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTFgde3wbClwe9l9UCYpFITAQXVSE9FcqMig7vQ1sewjg&oe=6B07A8AF",
   "in_posts": true,
   "km": 1.5,
@@ -9313,32 +9439,33 @@
   "nightlife": true,
   "party": "CRØMA",
   "posted": "2026-11-02",
-  "price": null,
-  "promoter_followers": null,
+  "price": 20,
+  "promoter_followers": 1989,
   "promoter_instagram": "cromaroom",
   "promoter_name": "CRØMA",
-  "rank_in_night": 2,
+  "rank_in_night": 1,
   "room": "main room",
   "scope": "zona",
-  "score": 39.9,
+  "score": 60.7,
   "score_parts": {
    "capacity": 5.6,
-   "guest": 0.0,
-   "promoter": 0.0,
-   "venue": 7.0,
+   "distance": 9.4,
+   "promoter": 2.6,
    "venue_followers": 7.0
   },
   "sources": [
    "instagram-locale",
-   "xceed"
+   "instagram-promoter"
   ],
-  "start": "00:59",
+  "start": "19:00",
   "status": "pubblicato",
-  "tickets": "https://xceed.me/it/bergamo/club/zero-club",
+  "tickets": null,
   "type": "dj set",
   "urls": [
    "https://www.instagram.com/p/DfPzvj8CAe3/",
-   "https://xceed.me/it/bergamo/club/zero-club"
+   "https://www.instagram.com/reel/Df7kYOqs2Pc/",
+   "https://www.instagram.com/reel/DfzNzGsMowG/",
+   "https://www.instagram.com/p/Df4aUUflmk0/"
   ],
   "venue": "Zero Club",
   "venue_followers": 20839,
@@ -10239,6 +10366,73 @@
   "venue_type": "live_club",
   "weekday": "lunedì"
  },
+ "2026-11-30-paolo_riva-pre": {
+  "address": "Viale Alcide de Gasperi, 14/E, 24047 Treviglio BG",
+  "brand": null,
+  "capacity": 100,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.95,
+  "date": "2026-11-30",
+  "day_note": null,
+  "end": "18:00",
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 17:00",
+  "first_seen": "2026-11-23",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "prenotazione",
+    "level": null,
+    "name": "prenotazione"
+   }
+  ],
+  "handles": [
+   "prenotazione"
+  ],
+  "headliner": null,
+  "id": "2026-11-30-paolo_riva-pre",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/910871464_1442952647998980_6470525108591154457_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gjFQ2NMEQKkQ7kNvwFDX-jE&_nc_oc=AdoIedurFge6DYWOTynpgLsLA4CEtb-xL1qLtqhXfWvd8fyEtblWY1uT7vQA57BTIrE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=D0ElQRheAhosugWoG0grEg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSv7G4rgPBCiUOeMjTTi-lhCJejoJ3X2-bmL5Sewl4slQ&oe=6B0A16E4",
+  "in_posts": true,
+  "km": 21.3,
+  "lead_days": 11,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-19T11:45+00:00",
+  "price": 10,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 24.0,
+  "score_parts": {
+   "capacity": 1.7,
+   "distance": 1.5,
+   "promoter": 0.0,
+   "venue_followers": 5.9
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "17:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "culture",
+  "urls": [
+   "https://www.instagram.com/p/Df7APlgBjGP/"
+  ],
+  "venue": "Paolo Riva",
+  "venue_followers": 11402,
+  "venue_instagram": "paolorivapasticceria",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "lunedì"
+ },
  "2026-12-01-paci_paciana": {
   "address": "Via Grumello 61/c, Bergamo",
   "brand": null,
@@ -10355,7 +10549,7 @@
   "venue_type": "bar",
   "weekday": "martedì"
  },
- "2026-12-02-chiesa_dei_santi_filippo_e_giacomo_apostoli-pre": {
+ "2026-12-02-chiesa_parrocchiale_dei_santi_filippo_e_giacomo_apostoli-pre": {
   "address": "Pl. Chiesa, 6, 24020 Selvino BG",
   "brand": null,
   "capacity": 100,
@@ -10381,7 +10575,7 @@
   "guests": [],
   "handles": [],
   "headliner": null,
-  "id": "2026-12-02-chiesa_dei_santi_filippo_e_giacomo_apostoli-pre",
+  "id": "2026-12-02-chiesa_parrocchiale_dei_santi_filippo_e_giacomo_apostoli-pre",
   "image": null,
   "in_posts": true,
   "km": 11.1,
@@ -10807,6 +11001,71 @@
   "venue_type": "open_air",
   "weekday": "venerdì"
  },
+ "2026-12-04-paolo_riva-pre": {
+  "address": "Viale Alcide de Gasperi, 14/E, 24047 Treviglio BG",
+  "brand": null,
+  "capacity": 100,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.95,
+  "date": "2026-12-04",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Commerciale",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 21:00",
+  "first_seen": "2026-11-23",
+  "genre": "Latino",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-04-paolo_riva-pre",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/920476200_1443922591235319_4649951067928870160_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I6K9sEzpbf4Q7kNvwEhHRCr&_nc_oc=AdpMcHFfT0UJVcU95vX0OrztWSVbia-7StH1WWA_0Bs_zQF1LG5zSKKn3eIsZDpl92o&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=D0ElQRheAhosugWoG0grEg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQST_ZHILBgmNX4WLMYDPFUApWc2WtTn8aFT8xJomVRlYg&oe=6B0A07FB",
+  "in_posts": true,
+  "km": 21.3,
+  "lead_days": 14,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-20T10:25+00:00",
+  "price": 25,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 24.0,
+  "score_parts": {
+   "capacity": 1.7,
+   "distance": 1.5,
+   "promoter": 0.0,
+   "venue_followers": 5.9
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "21:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/Df9b5UZh3Km/"
+  ],
+  "venue": "Paolo Riva",
+  "venue_followers": 11402,
+  "venue_instagram": "paolorivapasticceria",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "venerdì"
+ },
  "2026-12-05-bloom": {
   "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
   "brand": null,
@@ -10895,10 +11154,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
+   "capacity_same_night": 500,
+   "events_same_night": 1,
    "same_family": 0,
-   "strongest_rival": null
+   "strongest_rival": "NØID @ Zero Club"
   },
   "confidence": 0.99,
   "date": "2026-12-05",
@@ -10933,7 +11192,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 1,
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
   "score": 60.0,
@@ -11243,6 +11502,127 @@
   "venue_type": "open_air",
   "weekday": "sabato"
  },
+ "2026-12-05-zero_club": {
+  "address": "V. Evaristo Baschenis, 9, 24122 Bergamo BG",
+  "brand": null,
+  "capacity": 500,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 3000,
+   "events_same_night": 1,
+   "same_family": 0,
+   "strongest_rival": "CHELINA MANUHUTU @ Bolgia"
+  },
+  "confidence": 0.75,
+  "date": "2026-12-05",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "House / Elettronica",
+  "fascia": "serata",
+  "fascia_why": "locale di solito serata",
+  "first_seen": "2026-11-23",
+  "genre": "House",
+  "genre_source": "promoter (conoscenze)",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": null,
+    "level": "notable",
+    "name": "Germano Ventura"
+   },
+   {
+    "followers": null,
+    "instagram": "esotic_event",
+    "level": null,
+    "name": "esotic_event"
+   },
+   {
+    "followers": null,
+    "instagram": "marci_otta",
+    "level": null,
+    "name": "marci_otta"
+   },
+   {
+    "followers": null,
+    "instagram": "furkan_mcc",
+    "level": null,
+    "name": "furkan_mcc"
+   },
+   {
+    "followers": null,
+    "instagram": "dnaproject__",
+    "level": null,
+    "name": "dnaproject__"
+   },
+   {
+    "followers": null,
+    "instagram": "titans.djp",
+    "level": null,
+    "name": "titans.djp"
+   },
+   {
+    "followers": null,
+    "instagram": "16manu___",
+    "level": null,
+    "name": "16manu___"
+   }
+  ],
+  "handles": [
+   "16manu___",
+   "dnaproject__",
+   "esotic_event",
+   "furkan_mcc",
+   "germano_ventura_",
+   "heider.music",
+   "marci_otta",
+   "noidfamilia",
+   "titans.djp",
+   "zeroclub.bg"
+  ],
+  "headliner": "Germano Ventura",
+  "id": "2026-12-05-zero_club",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902601554_18646284853041982_7320124325033223503_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=YZ8oWnVjnxUQ7kNvwFiyfJ_&_nc_oc=AdqE0a6eSjxaVoefcnGMKG8CvTfeYbKwS2pTN6fK1d8p4ZMvNBopsAdG8Nbq7WPf1xw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=AJVcWa8bL2_ae8LsyJuf4A&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQS9uqd6YrKOPhHKkz8dc2gRnQX-zzZO-tZvmQXPzQU-aQ&oe=6B0A06EA",
+  "in_posts": true,
+  "km": 1.5,
+  "lead_days": 19,
+  "nightlife": true,
+  "party": "NØID",
+  "posted": "2026-11-16T17:00+00:00",
+  "price": null,
+  "promoter_followers": 7886,
+  "promoter_instagram": "noidfamilia",
+  "promoter_name": "NØID",
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 66.3,
+  "score_parts": {
+   "capacity": 5.6,
+   "guest": 8.0,
+   "promoter": 5.2,
+   "venue": 7,
+   "venue_followers": 7.0
+  },
+  "sources": [
+   "instagram-promoter"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/Dfz17U8kYYw/",
+   "https://www.instagram.com/reel/Df2LPcaznmD/"
+  ],
+  "venue": "Zero Club",
+  "venue_followers": 20839,
+  "venue_instagram": "zeroclub.bg",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "sabato"
+ },
  "2026-12-06-bloom": {
   "address": "Via Eugenio Curiel, 39, 20883 Mezzago MB",
   "brand": null,
@@ -11385,6 +11765,80 @@
   "venue_type": "club",
   "weekday": "lunedì"
  },
+ "2026-12-07-cafe_roma": {
+  "address": "Via Padana Superiore 11, 10, 24050 Mozzanica BG",
+  "brand": null,
+  "capacity": 100,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 1000,
+   "events_same_night": 1,
+   "same_family": 0,
+   "strongest_rival": "NXT Station @ NXT Station"
+  },
+  "confidence": 0.95,
+  "date": "2026-12-07",
+  "day_note": "prefestivo (Immacolata)",
+  "end": "02:30",
+  "entry": "gratis",
+  "family": "House / Elettronica",
+  "fascia": "preserata",
+  "fascia_why": "finisce alle 02:30",
+  "first_seen": "2026-11-23",
+  "genre": "Melodic Techno",
+  "genre_source": "promoter (conoscenze)",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "gasbeer_official",
+    "level": null,
+    "name": "gasbeer_official"
+   }
+  ],
+  "handles": [
+   "gasbeer_official"
+  ],
+  "headliner": null,
+  "id": "2026-12-07-cafe_roma",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920270423_18645662383000301_1786774814471734823_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=yW0fXGVALJoQ7kNvwEge1jk&_nc_oc=Adq1V9fXhPX5vRSXusq9kykcGM-vEQKbFhn7c1_KV6zYzPeO1lEzQPKdLouaqXeZriE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fk-SAiGafzO1R3zdEY7p_A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT9CapqaH-5I-CKBaVuib1G5-_j7CfKkF1Oz119OTAuHQ&oe=6B0A0498",
+  "in_posts": true,
+  "km": 24.3,
+  "lead_days": 16,
+  "nightlife": true,
+  "party": "The Box",
+  "posted": "2026-11-21T17:55+00:00",
+  "price": 0,
+  "promoter_followers": 8087,
+  "promoter_instagram": "theboxbergamo",
+  "promoter_name": "The Box Bergamo",
+  "rank_in_night": 2,
+  "room": null,
+  "scope": "zona",
+  "score": 19.2,
+  "score_parts": {
+   "capacity": 1.7,
+   "distance": 0.3,
+   "promoter": 5.3,
+   "venue_followers": 0.0
+  },
+  "sources": [
+   "instagram-promoter"
+  ],
+  "start": "22:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DgAxKb5xVfr/"
+  ],
+  "venue": "Cafe Roma",
+  "venue_followers": null,
+  "venue_instagram": null,
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "lunedì"
+ },
  "2026-12-07-nxt_station": {
   "address": "Piazzale degli Alpini, Bergamo",
   "brand": null,
@@ -11392,10 +11846,10 @@
   "capacity_source": "stima",
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
+   "capacity_same_night": 100,
+   "events_same_night": 1,
    "same_family": 0,
-   "strongest_rival": null
+   "strongest_rival": "The Box @ Cafe Roma"
   },
   "confidence": 0.9,
   "date": "2026-12-07",
@@ -11907,6 +12361,64 @@
   "venue_type": "open_air",
   "weekday": "giovedì"
  },
+ "2026-12-10-paolo_riva-pre": {
+  "address": "Viale Alcide de Gasperi, 14/E, 24047 Treviglio BG",
+  "brand": null,
+  "capacity": 100,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.9,
+  "date": "2026-12-10",
+  "day_note": null,
+  "end": null,
+  "entry": "a pagamento",
+  "family": "Commerciale",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 21:00",
+  "first_seen": "2026-11-23",
+  "genre": "Latino",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-10-paolo_riva-pre",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/914967162_1444181184542793_1248290464230078133_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KV7FbNO8cuIQ7kNvwF21ajO&_nc_oc=AdrVMkcO0BDwx-6nT0D7w2WmoMXpnbTpcbTvorQDDyK4GqrjFP4-tqdgPwPMqa7wpa0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=D0ElQRheAhosugWoG0grEg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQWZYT7AO3EdtDBM7IBG-3q0uD8U67CLrOTPQAzDioMmw&oe=6B0A08F1",
+  "in_posts": true,
+  "km": 21.3,
+  "lead_days": 20,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-20T15:29+00:00",
+  "price": 25,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 24.0,
+  "score_parts": {
+   "capacity": 1.7,
+   "distance": 1.5,
+   "promoter": 0.0,
+   "venue_followers": 5.9
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "21:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "evento",
+  "urls": [
+   "https://www.instagram.com/p/Df9-qAgho7d/"
+  ],
+  "venue": "Paolo Riva",
+  "venue_followers": 11402,
+  "venue_instagram": "paolorivapasticceria",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "giovedì"
+ },
  "2026-12-10-teatro_miela-pre": {
   "address": null,
   "brand": null,
@@ -12302,6 +12814,90 @@
   "venue_type": "live_club",
   "weekday": "sabato"
  },
+ "2026-12-12-zero_club": {
+  "address": "V. Evaristo Baschenis, 9, 24122 Bergamo BG",
+  "brand": null,
+  "capacity": 500,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.75,
+  "date": "2026-12-12",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "House / Elettronica",
+  "fascia": "serata",
+  "fascia_why": "locale di solito serata",
+  "first_seen": "2026-11-23",
+  "genre": "House",
+  "genre_source": "promoter (conoscenze)",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": null,
+    "level": "notable",
+    "name": "Germano Ventura"
+   },
+   {
+    "followers": null,
+    "instagram": "16manu___",
+    "level": null,
+    "name": "16manu___"
+   }
+  ],
+  "handles": [
+   "16manu___",
+   "germano_ventura_",
+   "heider.music",
+   "zeroclub.bg"
+  ],
+  "headliner": "Germano Ventura",
+  "id": "2026-12-12-zero_club",
+  "image": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQPZCcntJkkYfyH1-du7TJnW3YsQlIyIt6TLpZhRVPOIifPDX7MQz3ZJCT83AiW3BwU0Gxw_xQFeesBJtRpymkpW0sVaGGtIfZ5orhA.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=VsxeSJvdpioQ7kNvwGhkx-B&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI3Ni5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjE0NTMxNjU3NjYyNTU4MDAsImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTI0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=312b70aabe2fb7cf&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81NkNFNEQyNTZEODE0NTUyOEJFRERFNzQyOUEzMThFMl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdERDNEODI2OUZBMTQ2ODY4N0Q5ODREODQ4QThBRDQ1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbwkuHUsOmUBRUCKAJDMywXQF86n752yLQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=AJVcWa8bL2_ae8LsyJuf4A&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQnHIdvcWwh4d7jtcPh91z1b-ocGaN6f-EriP5Uql0rZw&oe=6B0630F8",
+  "in_posts": true,
+  "km": 1.5,
+  "lead_days": 25,
+  "nightlife": true,
+  "party": "NØID",
+  "posted": "2026-11-17T14:47+00:00",
+  "price": null,
+  "promoter_followers": 7886,
+  "promoter_instagram": "noidfamilia",
+  "promoter_name": "NØID",
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 66.3,
+  "score_parts": {
+   "capacity": 5.6,
+   "guest": 8.0,
+   "promoter": 5.2,
+   "venue": 7,
+   "venue_followers": 7.0
+  },
+  "sources": [
+   "instagram-promoter"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/reel/Df2LPcaznmD/"
+  ],
+  "venue": "Zero Club",
+  "venue_followers": 20839,
+  "venue_instagram": "zeroclub.bg",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "sabato"
+ },
  "2026-12-13-queen_club-pre": {
   "address": "Via Levata, 18, 24068 Cassinone BG",
   "brand": null,
@@ -12411,7 +13007,7 @@
   "lead_days": 22,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-23T12:25+00:00",
+  "posted": "2026-11-23T13:33+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,

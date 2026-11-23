@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T12:25",
+ "generated": "2026-11-23T13:34",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -33,14 +33,6 @@
      }
     ],
     "2026-11-27": [
-     {
-      "line1": "Crystal Castles Night @ Zero Club",
-      "line2": "Witch House / EDM",
-      "time": "00:00",
-      "score": 39.9,
-      "fascia": "serata",
-      "family": "House / Elettronica"
-     },
      {
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
@@ -106,6 +98,14 @@
       "family": "Altro"
      },
      {
+      "line1": "Fuse All Night: Cuartero @ Zero Club",
+      "line2": "",
+      "time": "00:59",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Bar Florio @ Zero Club",
       "line2": "club room",
       "time": "00:00",
@@ -138,8 +138,8 @@
      {
       "line1": "Please @ Zero Club",
       "line2": "Commerciale 360",
-      "time": "00:00",
-      "score": 39.9,
+      "time": "23:30",
+      "score": 46.3,
       "fascia": "serata",
       "family": "Commerciale"
      },
@@ -192,18 +192,6 @@
       "score": 27.0,
       "fascia": "serata",
       "family": "Commerciale"
-     }
-    ]
-   },
-   "Hip Hop / Trap": {
-    "2026-11-28": [
-     {
-      "line1": "CRØMA @ Zero Club",
-      "line2": "Hip Hop / Trap",
-      "time": "00:59",
-      "score": 39.9,
-      "fascia": "serata",
-      "family": "Hip Hop / Trap"
      }
     ]
    }
@@ -315,6 +303,14 @@
    ],
    "2026-11-27": [
     {
+     "line1": "Crystal Castles Night @ Zero Club",
+     "line2": "Witch House / EDM",
+     "time": "00:00",
+     "score": 55.3,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Maison Grove @ Setai",
      "line2": "House, Massimino Lippoli",
      "time": "00:00",
@@ -332,6 +328,14 @@
     }
    ],
    "2026-11-28": [
+    {
+     "line1": "CRØMA @ Zero Club",
+     "line2": "Hip Hop / Trap",
+     "time": "19:00",
+     "score": 60.7,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    },
     {
      "line1": "Savana Funk @ Druso",
      "line2": "Disco / Rock",
@@ -482,19 +486,19 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@inkclub_bergamo",
    "@prenotazione",
+   "@inkclub_bergamo",
    "@zeroclub.bg",
    "@kellerfactory_",
    "@ninfeasocialclub",
    "@bloom_mezzago",
+   "@consumazione",
    "@discoteca_queen",
    "@daste_bergamo",
    "@sabbiemobili_official",
    "@lab80cinemas",
    "@possibilita",
    "@csapacipaciana",
-   "@consumazione",
    "@to_on.tv",
    "@spike.hellis",
    "@lowl_fest",
@@ -505,13 +509,13 @@
    "@associazione_luca_coscioni",
    "@uaar_it",
    "@please.nights",
+   "@reverie__night",
    "@nxtbergamo",
    "@spettacoli",
    "@choruslife.bergamo",
    "@gruppo_gnam",
    "@lenticchie",
-   "@nikita__land",
-   "@schivardi1953"
+   "@nikita__land"
   ],
   "hashtags": [
    "#bergamo",
@@ -526,6 +530,18 @@
    "2026-12-05"
   ],
   "serate_by_family": {
+   "House / Elettronica": {
+    "2026-12-05": [
+     {
+      "line1": "NØID @ Zero Club",
+      "line2": "House, Germano Ventura",
+      "time": "00:00",
+      "score": 66.3,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ]
+   },
    "Altro": {
     "2026-12-05": [
      {
@@ -586,6 +602,16 @@
      "family": "Altro"
     }
    ],
+   "2026-12-04": [
+    {
+     "line1": "Paolo Riva",
+     "line2": "Latino",
+     "time": "21:00",
+     "score": 24.0,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    }
+   ],
    "2026-12-05": [
     {
      "line1": "NXT Station",
@@ -626,6 +652,15 @@
    "@nxtbergamo",
    "@prenotazione",
    "@inkclub_bergamo",
+   "@paolorivapasticceria",
+   "@zeroclub.bg",
+   "@noidfamilia",
+   "@esotic_event",
+   "@marci_otta",
+   "@furkan_mcc",
+   "@dnaproject__",
+   "@titans.djp",
+   "@16manu___",
    "@bolgia.official",
    "@importanti",
    "@daste_bergamo",
@@ -882,6 +917,14 @@
       "family": "Altro"
      },
      {
+      "line1": "Fuse All Night: Cuartero @ Zero Club",
+      "line2": "",
+      "time": "00:59",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "Altro"
+     },
+     {
       "line1": "Bar Florio @ Zero Club",
       "line2": "club room",
       "time": "00:00",
@@ -924,8 +967,8 @@
      {
       "line1": "Please @ Zero Club",
       "line2": "Commerciale 360",
-      "time": "00:00",
-      "score": 39.9,
+      "time": "23:30",
+      "score": 46.3,
       "fascia": "serata",
       "family": "Commerciale"
      },
@@ -994,14 +1037,6 @@
     ],
     "2026-11-27": [
      {
-      "line1": "Crystal Castles Night @ Zero Club",
-      "line2": "Witch House / EDM",
-      "time": "00:00",
-      "score": 39.9,
-      "fascia": "serata",
-      "family": "House / Elettronica"
-     },
-     {
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
@@ -1042,18 +1077,6 @@
       "score": 24.4,
       "fascia": "serata",
       "family": "House / Elettronica"
-     }
-    ]
-   },
-   "Hip Hop / Trap": {
-    "2026-11-28": [
-     {
-      "line1": "CRØMA @ Zero Club",
-      "line2": "Hip Hop / Trap",
-      "time": "00:59",
-      "score": 39.9,
-      "fascia": "serata",
-      "family": "Hip Hop / Trap"
      }
     ]
    }
@@ -1349,6 +1372,14 @@
    ],
    "2026-11-27": [
     {
+     "line1": "Crystal Castles Night @ Zero Club",
+     "line2": "Witch House / EDM",
+     "time": "00:00",
+     "score": 55.3,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Maison Grove @ Setai",
      "line2": "House, Massimino Lippoli",
      "time": "00:00",
@@ -1366,6 +1397,14 @@
     }
    ],
    "2026-11-28": [
+    {
+     "line1": "CRØMA @ Zero Club",
+     "line2": "Hip Hop / Trap",
+     "time": "19:00",
+     "score": 60.7,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    },
     {
      "line1": "Savana Funk @ Druso",
      "line2": "Disco / Rock",
@@ -1545,6 +1584,7 @@
    "@markthehammer86",
    "@bolgia.official",
    "@bloom_mezzago",
+   "@consumazione",
    "@discoteca_queen",
    "@sabbiemobili_official",
    "@liveclub",
@@ -1554,8 +1594,7 @@
    "@oasi.night",
    "@arya.lounge",
    "@premiere.premiere",
-   "@choruslife.bergamo",
-   "@door_74"
+   "@choruslife.bergamo"
   ],
   "hashtags": [
    "#bergamo",
@@ -1571,6 +1610,7 @@
    "2026-12-05",
    "2026-12-07",
    "2026-12-11",
+   "2026-12-12",
    "2026-12-18",
    "2026-12-19",
    "2026-12-25",
@@ -1578,6 +1618,48 @@
    "2026-12-31"
   ],
   "serate_by_family": {
+   "House / Elettronica": {
+    "2026-12-05": [
+     {
+      "line1": "NØID @ Zero Club",
+      "line2": "House, Germano Ventura",
+      "time": "00:00",
+      "score": 66.3,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ],
+    "2026-12-12": [
+     {
+      "line1": "NØID @ Zero Club",
+      "line2": "House, Germano Ventura",
+      "time": "00:00",
+      "score": 66.3,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ],
+    "2026-12-19": [
+     {
+      "line1": "Galactica Festival @ Fiera di Bergamo",
+      "line2": "Techno, Hard Techno",
+      "time": "20:00",
+      "score": 30.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ],
+    "2026-12-31": [
+     {
+      "line1": "utōpia @ Daste Bergamo",
+      "line2": "Melodic House",
+      "time": "23:00",
+      "score": 43.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ]
+   },
    "Altro": {
     "2026-12-05": [
      {
@@ -1661,28 +1743,6 @@
       "family": "Commerciale"
      }
     ]
-   },
-   "House / Elettronica": {
-    "2026-12-19": [
-     {
-      "line1": "Galactica Festival @ Fiera di Bergamo",
-      "line2": "Techno, Hard Techno",
-      "time": "20:00",
-      "score": 30.0,
-      "fascia": "serata",
-      "family": "House / Elettronica"
-     }
-    ],
-    "2026-12-31": [
-     {
-      "line1": "utōpia @ Daste Bergamo",
-      "line2": "Melodic House",
-      "time": "23:00",
-      "score": 43.9,
-      "fascia": "serata",
-      "family": "House / Elettronica"
-     }
-    ]
    }
   },
   "preserate": {
@@ -1720,6 +1780,16 @@
      "score": 3.3,
      "fascia": "preserata",
      "family": "Altro"
+    }
+   ],
+   "2026-12-04": [
+    {
+     "line1": "Paolo Riva",
+     "line2": "Latino",
+     "time": "21:00",
+     "score": 24.0,
+     "fascia": "preserata",
+     "family": "Commerciale"
     }
    ],
    "2026-12-05": [
@@ -1764,6 +1834,14 @@
      "score": 58.6,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "The Box @ Cafe Roma",
+     "line2": "Melodic Techno",
+     "time": "22:00",
+     "score": 19.2,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     }
    ],
    "2026-12-08": [
@@ -1913,32 +1991,32 @@
    "@nxtbergamo",
    "@bloom_mezzago",
    "@circolinomalpensata_bergamo",
+   "@zeroclub.bg",
+   "@noidfamilia",
+   "@16manu___",
    "@bolgia.official",
    "@importanti",
    "@daste_bergamo",
    "@teatromiela_trieste",
    "@capogirojoyclub",
+   "@paolorivapasticceria",
+   "@esotic_event",
+   "@marci_otta",
+   "@furkan_mcc",
+   "@dnaproject__",
+   "@titans.djp",
    "@consumazione",
    "@alternative",
    "@dj.sofficino",
    "@nico.bre1917",
    "@numerosissime",
+   "@theboxbergamo",
+   "@gasbeer_official",
    "@marmellata",
    "@possibilita",
    "@spettacoli",
    "@brinapasticceria",
-   "@ingredienti",
-   "@super.effort_",
-   "@degustazione",
-   "@csapacipaciana",
-   "@discoteca_queen",
-   "@nikita__land",
-   "@galactica.festival",
-   "@mattia_trani.official",
-   "@parabellum_hard",
-   "@francesco_fanucchi_",
-   "@garden.exe.music",
-   "@garden.exe"
+   "@ingredienti"
   ],
   "hashtags": [
    "#bergamo",

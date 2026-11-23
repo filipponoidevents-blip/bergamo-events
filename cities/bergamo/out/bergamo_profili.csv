@@ -4,6 +4,7 @@ henge_cosmicdross;HENGE;artist;293143;2;False;True
 markthehammer86;Mark The Hammer;artist;220929;2;False;True
 regionelombardia.official;Regione Lombardia;unknown;164312;1;False;True
 missdivina1;Miss DIVINA Fulvio Facchinetti;unknown;127309;1;False;True
+base_milano;BASE Milano;venue;125725;1;False;True
 bolgia.official;Bolgia - dj's from the world;venue;124803;;True;True
 galactica.festival;GALACTICA;promoter;113002;1;True;True
 fabrique_milano;Fabrique Milano;unknown;103586;1;False;True
@@ -33,7 +34,7 @@ traviesaparty;TRAVIESA PARTY;national;23499;;False;True
 spazio211;sPAZIO211;venue;22015;2;False;True
 daste_bergamo;Daste Bergamo;venue;21348;1;True;True
 gres_art_671;gres art 671;venue;21338;;True;True
-zeroclub.bg;Zero Club Bergamo;venue;20839;1;True;True
+zeroclub.bg;Zero Club Bergamo;venue;20839;4;True;True
 supertatobolgia;Supertato Bolgia;unknown;20635;;True;True
 tsunamiclub_;tsunamiClub;venue;20097;;True;True
 gianni_dibernardo;Gianni Di Bernardo;artist;20051;;False;True
@@ -58,6 +59,7 @@ mosspuntodicontatto;Moss - Punto di contatto;venue;11959;1;False;True
 vibetheclub;VIBE CLUB;venue;11573;2;True;True
 nightlifebergamo;Night Life Bergamo;scout;11539;;True;True
 lazzaretto_bergamo_estate;Lazzaretto Estate Bergamo;venue;11505;;True;True
+paolorivapasticceria;Paolo Riva Pasticceria;venue;11402;;True;True
 bv_rooftop;BV Rooftop;venue;11307;;True;True
 hiddenhell.techno;HiddenHell;promoter;11137;;True;True
 caffesalotto;Caffe&Salotto;venue;11097;;True;True
@@ -72,7 +74,9 @@ ninfeasocialclub;Ninfea Social Club;venue;8727;;True;True
 amabergamo;AmaBergAmo;venue;8579;;True;True
 juiceclubit;JUICE (BG);promoter;8575;;True;True
 utopia.direction;utopia;promoter;8477;1;True;True
+theboxbergamo;TheBox;promoter;8087;1;True;True
 teatromiela_trieste;Teatro Miela;venue;7934;5;True;True
+noidfamilia;NØID;promoter;7886;3;True;True
 danceprojectschool;Accademia Dance Project;venue;7857;;False;True
 michaelklashdj;MICHAEL KLASH;venue;7845;;False;True
 sabbiemobili_official;SABBIE MOBILI;venue;7837;;True;True
@@ -84,6 +88,7 @@ capovilla_cattivimaestri;Capovilla e i Cattivi Maestri;artist;7262;;False;True
 maschileplurale_;Maschile Plurale;unknown;7009;2;False;True
 bucheesebar;BU Cheese Bar;venue;6847;;True;True
 charlie_cinelli;Charlie Cinelli;unknown;6793;1;False;True
+icksdresstoimpress;ICKS;promoter;6682;;True;True
 lab80cinemas;Il tuo cinema a Bergamo;venue;6644;;True;True
 casacostez;CASA COSTEZ;venue;6359;;True;True
 harlem_bergamo;HARLEM | Food, Drink & More Bergamo;venue;6273;;True;True
@@ -96,6 +101,7 @@ officinapanarari;Officina Panarari | Treviglio;venue;5390;;True;True
 hiroko_hacci;Hiroko Hacci;artist;5161;;False;True
 karma_lounge_official_;Karma Lounge;venue;5161;;True;True
 sprint_bergamo;SPRINT Bottega. Trattoria. Hi-Fi bar;venue;5111;;True;True
+heider.music;Heider;venue;4856;2;False;True
 cherry.ills;Cherry Ills;unknown;4844;;False;True
 spazioteatro89;Spazio Teatro 89;venue;4762;1;True;True
 villabelvedere1849;Villa Belvedere 1849;venue;4725;;False;True
@@ -109,11 +115,13 @@ station.liveclub;STATION Live Club;venue;4361;1;False;True
 leirisbar;Le Iris;venue;4313;;True;True
 laplazabg;La Plaza;venue;4272;;True;True
 baiadelrebrignano;BAIA DEL RE (Brignano);venue;4247;;True;True
+ombra_bergamo;OMBRA - Miscelazione, Piattini e Vini Naturali;venue;4130;;True;True
 tassinocafe;Tassino Cafe;venue;4101;;True;True
 contest_bg;Contest Bergamo;venue;3932;;True;True
 fede_regooo;Fede Rego;artist;3883;2;False;True
 ufo.spacezone51;UFO;venue;3825;;True;True
 crp_pignolo;Club Ricreativo Di Pignolo;venue;3687;1;False;True
+unibg_party;UNIBG PARTY TM;promoter;3468;1;True;True
 principessa11270;isabella;unknown;3465;;False;True
 bowie.hc;BOWIE;artist;3382;1;False;True
 fabbricainpedavenatreviglio;Fabbrica in Pedavena Treviglio;venue;3368;2;False;True
@@ -127,7 +135,9 @@ vintage.pitstop;VPS;ignore;2720;1;False;True
 barperlage;PERLAGE;venue;2696;;True;True
 alessandro.sipolo;Alessandro Sipolo;unknown;2567;1;False;True
 arci.scuotivento;Arci Scuotivento;unknown;2518;1;False;True
+please.nights;PLEASE;promoter;2508;1;True;True
 arya.lounge;ARYA;venue;2475;;True;True
+bar_p40;P40 Caffe e Mezzodi;venue;2449;;True;True
 charleston.treviglio;Charleston;venue;2431;;True;True
 antico_benessere;Antico Benessere Official;venue;2423;;False;True
 areakitchen_group;Area Kitchen;ignore;2401;;False;True
@@ -148,6 +158,7 @@ kokedama_laboratorio;Mattia Benedetti;promoter;2127;1;True;True
 bar_sanmarco;BAR SAN MARCO;venue;2099;;True;True
 le_bigodini;Le Bigodini;unknown;2042;;False;True
 megan_is_missing_band;M.I.M_BAND;unknown;1997;2;False;True
+cromaroom;CRØMA;promoter;1989;1;True;True
 void.rgb;VOID;unknown;1965;;False;True
 marlonmostaceromendoza;;unknown;1931;;False;True
 ilpiratapub;Il Pirata Pub Food&Drink;venue;1924;;True;True
@@ -156,6 +167,7 @@ bardoni_pasticceria;Bardoni Pasticceria;venue;1903;;True;True
 worst.zine;Worst Collective;promoter;1874;1;True;True
 bloomcinema_mezzago;BLOOM CINEMA;venue;1860;1;False;True
 scalpo_punk;SCALPO;unknown;1815;1;False;True
+bsk.sound;BSK Sound;promoter;1745;;True;True
 caffetteria_nuova_rotonda;Caffetteria Nuova Rotonda;venue;1731;;True;True
 possibilita;Possibilita;unknown;1712;3;False;True
 labassaninaristorante;La Bassanina Locale per Banchetti;venue;1662;;True;True
@@ -176,6 +188,9 @@ victorialoungebar_bonate;Victoria Lounge Bar Bonate Sotto;venue;1289;;True;True
 inkclub_radio;INK CLUB RADIO;media;1179;1;False;True
 bar30elode;30&lode;venue;1172;;True;True
 earth_ofc;EARTH;venue;1132;;False;True
+bergamonightservice;Bergamo Night Service;promoter;1091;;True;True
+onemusicbg;ONE MUSIC;venue;1091;;True;True
+crocevia_;Crocevia;promoter;1068;;True;True
 palmas.night;PALMAS;artist;1064;1;False;True
 aendriu_official;Ændriu;unknown;1059;;False;True
 done.with.world.hc;DONE WITH WORLD;unknown;1049;;False;True
@@ -189,23 +204,28 @@ olfornerpasticceriasalvetti;Ol Forner Pasticceria Salvetti;venue;938;;True;True
 insolaze_official;INSOLAZE;artist;880;;False;True
 bergamo_rock;BG ROCK;media;879;;False;True
 circolofratellanza;Circolo Fratellanza Casnigo;venue;834;1;True;True
+the.circlehub;the.circlehub;promoter;832;1;True;True
+sloth.bg;sloth;promoter;825;;True;True
 buscemi_s_eyes;BUSCEMI’s EYES;unknown;797;;False;True
+crystalcastlesnightt;Crystal Castles night 𖥟;promoter;780;1;True;True
 tumulto_bg;Tumulto;ignore;777;1;False;True
 al_tabarin;TABARIN;venue;728;;True;True
 dirty.andry;Dirty Andry;unknown;691;1;False;True
 dolcisogni_coop;Dolci Sogni Liberi Societa Cooperativa Sociale;venue;649;;True;True
 dj.sofficino;diggei sofficino;artist;637;1;False;True
 cotd_iron_maiden;Children Of The Damned;unknown;629;1;False;True
-consumazione;VIII. Deslumbre;unknown;556;3;False;True
+consumazione;VIII. Deslumbre;unknown;556;4;False;True
 bar.dama;BAR DAMA;venue;550;;True;True
 delblacobar;DELBLACO LUNCH&BAR;venue;541;;True;True
 mdmp_mdmp;Mad Dog & The Morning People;venue;519;1;False;True
 ansimaproduction_official;ANSIMA PRODUCTION;promoter;517;;True;True
 oasi.night;OASI;venue;511;2;True;True
+sommet_night;SOMMET;promoter;497;;True;True
 kilimangiaroclub;KILIMANGIARO CLUB;venue;419;;True;True
 alonic_shakti;nicola;promoter;380;1;True;True
 hesperia.lasciateci_le_ali;HESPERIA. Lasciateci le ali;unknown;365;1;False;True
 cocktail_mood_cm;COCKTAIL MOOD;venue;360;;True;True
+we.are.stepup;STEP UP;promoter;355;;True;True
 to_on.tv;TOON.TV;unknown;339;1;False;True
 sezione.8;Sezione 8;unknown;282;1;False;True
 lateres_ets;Lateres - Dinamiche creative diffuse;unknown;252;2;False;True
@@ -218,6 +238,7 @@ degustazione;Degustazione Di Due;unknown;178;3;False;True
 bakaryloungebar;Bakary;venue;154;;True;True
 filarmonicadalmine;Associazione Filarmonica Dalmine;venue;152;;False;True
 muffx.band;muffx.band;unknown;89;1;False;True
+16manu___;;;;2;False;
 4thegroovers_;;;;1;False;
 abcstudiosmilano_official;;;;;False;
 afrodylanofficial;;;;;True;
@@ -232,6 +253,7 @@ alla.base;;;;;False;
 allestimenti;;;;;False;
 alternative;;;;1;False;False
 andrea.damia;;;;;False;
+angeway.music;;;;1;False;
 anni2000;;;;1;False;False
 anni90;;;;2;False;False
 anpi_vimercate;;;;;False;
@@ -244,15 +266,16 @@ assonica_;;;;1;False;
 asst_brianza;;;;;False;
 attenzione;;;;1;False;False
 badaboom.verdellino;;;;;False;
+baile.rebra;;;;;False;
 bar_posto_fisso;;;;;False;False
 barbara_boeing;;;;;False;
 barh_lounge;;;;;False;False
-base_milano;;;;1;False;
 beatrice_paganessi;;;;;False;
 beatrice_paganessi_;;;;1;False;
 benedetta.montolli;;;;;False;
 beppe_noto;;;;;False;
 birrificio_elav;;;;;False;
+borgo.santa.caterina;;;;;False;False
 brasilianaitalia02;;;;;False;
 brendon_montanari;;;;;False;
 briolocaffe;;;;;False;False
@@ -260,6 +283,7 @@ bro__eat_drinks;;;;1;False;
 bruno_di_voi;;;;;False;
 burnt.shoes;;;;;False;
 c0de_lsb;;;;;False;
+caffemiro_mantova;;;;1;False;
 calce.viva.oi;;;;1;False;False
 calenton.official;;;;;False;
 campanini.music;;;;;False;
@@ -280,30 +304,34 @@ cinquanta_spiritoitaliano;;;;;False;
 circolo.lavoratori.iseo;;;;;False;
 colore_ai_sogni;;;;;False;
 consorzio.lucertole.giganti;;;;;False;
+corey.squarzoni;;;;;False;
 cristian_comes;;;;;False;
 croccante_all_amarezza;;;;;False;
 croce666;;;;;False;
-cromaroom;;;;1;True;
-crystalcastlesnightt;;;;1;True;
 darktails_lab;;;;;False;
+ddp.haircouture;;;;;False;
 deep.yume;;;;;False;
 dice_id;;;;;False;
 digitalispurpurea_;;;;1;False;
 diwali_diwu;;;;;False;
+dnaproject__;;;;1;False;
 donnedemocratichemezzago;;;;2;False;False
 dubstone.soundsystem;;;;1;False;
 ducklive2010;;;;;False;
 ducoli_gaffurini;;;;;False;
 e.katea_99;;;;;False;
 eclipse.evnt;;;;;False;
+edor.ofc;;;;;False;
+eisnobiety;;;;;False;
 elbunnyclub;;;;;False;
-elettronica;;;;2;False;
+elettronica;;;;2;False;False
 elisabetta;;;;;False;
 embrace_the_wind;;;;;False;
 encounters;;;;1;False;
 enea_pascal;;;;;False;
 ericavisinoni;;;;;False;
 erika.gagliardi;;;;;False;
+esotic_event;;;;1;False;
 esse.pietro;;;;1;False;False
 estasifashion;;;;;False;
 estrazione;;;;1;False;
@@ -318,6 +346,7 @@ fararockfest;;;;;False;False
 farout_liveartsfestival;;;;;False;
 federicoo_riva;;;;1;False;False
 federicosalimeii;;;;;False;
+florio_bros;;;;;False;
 flyer_billy;;;;;False;
 foresta_foresta;;;;;False;
 fotosenzaposa_official;;;;;False;
@@ -326,11 +355,16 @@ francesco_fanucchi_;;;;1;False;
 francesco_rivaa;;;;1;False;
 francescozazzadj;;;;;False;
 frenz_delfine;;;;;False;
+frish.official;;;;;False;
 frulleriacafe;;;;;False;False
+furkan_mcc;;;;1;False;
 garden.exe;;;;1;False;
 garden.exe.music;;;;1;False;
 garotadeipanemaa;;;;;False;False
+gasbeer_official;;;;1;False;
 gat_bergamo;;;;;False;
+germano_ventura;;;;;False;False
+germano_ventura_;;;;2;False;
 gigio_8_barber;;;;;False;
 giorgiocanali_lazlotoz1;;;;;False;
 giovanni.riva1979;;;;;False;
@@ -346,7 +380,6 @@ gruppo_gnam;;;;1;False;
 gruppoteatrobagai;;;;1;False;False
 hell_reporter;;;;;False;
 i_frattaglie;;;;;False;
-icksdresstoimpress;;;;;True;
 icon.events.official;;;;;False;
 ifidietoday_official;;;;;False;
 il_suez;;;;1;False;
@@ -355,7 +388,7 @@ ilmessicano.official;;;;;False;
 importanti;;;;4;False;False
 incisions054;;;;;False;
 indicazioni;;;;;False;
-ingredienti;;;;1;False;
+ingredienti;;;;1;False;False
 inkclub.academy;;;;;False;
 intercomunaletrash;;;;;False;
 intrecci_ati;;;;1;False;
@@ -375,7 +408,9 @@ kimi.antonelli;;;;;False;
 kinodeejay;;;;;False;
 known.artist2;;;;;False;
 krakenfactory.it;;;;;False;False
+kristian.algeri;;;;;False;
 kymera_it;;;;;False;
+l.operaaevents;;;;;False;
 la.locanda.del.santo.bevitore;;;;;False;
 lab.librialbanco;;;;;False;
 lamalaleche_band;;;;;False;
@@ -384,6 +419,7 @@ latin_flag;;;;;False;
 le.muffe;;;;;False;
 le.urla;;;;1;False;
 le_jeu_de_lor;;;;;False;
+led_velvet;;;;;False;
 lefemministe.nellaforesta;;;;;False;
 lelesacchi;;;;;False;
 lenticchie;;;;2;False;False
@@ -403,6 +439,7 @@ mamos.bg;;;;;False;False
 manuel_epifani;;;;;False;
 maqo___;;;;1;False;
 marais.fm;;;;;False;
+marci_otta;;;;1;False;
 marco_ruggierii;;;;;False;
 marcoferrigno_official;;;;;False;
 marmellata;;;;2;False;False
@@ -447,11 +484,12 @@ p.p.s;;;;;False;
 palestrapopolaretrollmann;;;;;False;
 paoloferrara_official;;;;;False;
 parabellum_hard;;;;1;False;
+pausacaffe.bg;;;;;False;
 pete_roth_trio;;;;;False;
 pierpaolo_capovilla;;;;;False;
+pit.ent;;;;1;False;
 piu_voce;;;;1;False;
-please.nights;;;;1;True;
-prenotazione;;;;14;False;False
+prenotazione;;;;16;False;False
 prisca_cavalleri;;;;;False;
 proiezioni;;;;;False;
 protagonista;;;;1;False;
@@ -459,18 +497,26 @@ psychedelia;;;;;False;
 quintessenza;;;;;False;
 radioautbergamo;;;;;False;
 rares_materials;;;;;False;
+rawdistrict000;;;;;False;
 redazione_bargiornale;;;;;False;
 registrazione;;;;;False;False
+rehab_in_town;;;;1;False;
+renato.lombardii;;;;;False;
 reservation;;;;;False;
+reverie__night;;;;1;False;
 riccardo_mortelliti;;;;;False;
 rnlt.milano;;;;;False;
+roberto_dossena_aka_robbie_dox;;;;;False;
+s4s_unibg;;;;;False;
+salv_27;;;;;False;
 salvatorealagna98;;;;1;False;
 samu.togni;;;;;False;
+sandrina_bergamo;;;;;False;
 sanem.musiic;;;;;False;
 santamarea.band;;;;;False;
 santos.officiall;;;;;False;
+siamofuturo.bergamo;;;;;False;
 simo.monaco;;;;;False;
-sloth.bg;;;;;True;
 sloworking.coworking;;;;;False;
 soaphouse.exmiralanza;;;;;False;
 sofia.nembrini;;;;;False;
@@ -478,6 +524,7 @@ sofia.somenzi;;;;;False;
 sotto_traccia_eventi;;;;;False;
 spazio_polaresco;;;;;False;False
 spettacoli;;;;7;False;False
+spl.bergamo;;;;;False;
 spread_band;;;;;False;False
 spread_band_;;;;1;False;
 stage_jump;;;;1;False;
@@ -491,17 +538,17 @@ super.effort_;;;;1;False;
 tama_sumo;;;;;False;
 teatro_bric_a_brac;;;;;False;
 techno_ladies;;;;;False;
-the.circlehub;;;;1;True;
 the_baby_lasagna;;;;;False;
+the_real_domenico;;;;;False;
 thehazzardcountry_dance;;;;;False;
 thenighteternal_official;;;;;False;
 this.is.playlist;;;;;False;
+titans.djp;;;;2;False;
 totem.brewing;;;;;False;
 treccani.officialband;;;;1;False;
 tube_club_modena;;;;;False;
 uaar_it;;;;1;False;
 uds_bergamo;;;;;False;
-unibg_party;;;;1;True;
 unipiu.bergamo;;;;;False;
 unolab.uno;;;;;False;
 unplug.project;;;;;False;
@@ -511,16 +558,17 @@ valentina_magaletti;;;;;False;
 valerio_el_director;;;;;False;
 velvet_shot;;;;;False;
 veronellie;;;;;False;
+vesta_restaurants;;;;;False;
 vidalocaofficialtour;;;;;False;
 vintage_violence;;;;1;False;
 visual_substance;;;;;False;
 vol.2;;;;;False;
 vs.dati;;;;;False;
 wavesinalens;;;;;False;
-we.are.stepup;;;;;True;
 wemeet.eventi.lombardia;;;;;False;
 wojtek3522;;;;;False;
 www.bloomnet;;;;1;False;
 yabasta.y.los.sicarios;;;;;False;
+yo.soy.sanchez;;;;;False;
 zambo_events;;;;;False;
 zanirhello;;;;;False;
