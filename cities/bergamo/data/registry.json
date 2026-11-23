@@ -1738,13 +1738,15 @@
    "checked": "2026-11-23",
    "events_found": 19,
    "followers": 92070,
-   "kind": "venue",
+   "kind": "national",
    "last_read": "2026-11-23T11:33+00:00",
    "mentions": 1,
    "name": "INDIE POWER",
+   "party_name": null,
    "readable": true,
    "reads": 1,
    "venue_done": true,
+   "watch": null,
    "website": "http://www.indiepower.it"
   },
   "ingredienti": {
@@ -3093,11 +3095,11 @@
    "bio": "🔥 11/21 @vermonthollywood \n👇🏽 Click the link to RSVP + more info",
    "checked": "2026-11-23",
    "followers": 23499,
-   "kind": "promoter",
+   "kind": "national",
    "name": "TRAVIESA PARTY",
-   "party_name": "Traviesa",
+   "party_name": null,
    "readable": true,
-   "watch": true,
+   "watch": null,
    "website": "https://linktr.ee/traviesaparty"
   },
   "treccani.officialband": {
@@ -4114,7 +4116,7 @@
   "indie power": {
    "count": 2,
    "done": true,
-   "handle": "indiepower_official",
+   "handle": null,
    "name": "Indie Power",
    "tried": []
   },
@@ -4560,7 +4562,7 @@
   "traviesa": {
    "count": 6,
    "done": true,
-   "handle": "traviesaparty",
+   "handle": null,
    "name": "Traviesa",
    "tried": [
     "traviesa",

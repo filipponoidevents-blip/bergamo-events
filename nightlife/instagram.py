@@ -429,7 +429,10 @@ class Instagram:
                         continue
                 who = norm(f"{bd.get('username')} {bd.get('name')}").replace(" ", "")
                 about = norm(f"{bd.get('name')} {bd.get('biography')}")
-                if slug in who and (bd.get("followers_count") or 0) >= 200 and \
+                bio = (bd.get("biography") or "").lower()
+                local = re.search(rf"\b(?:{slug_city}|bg)\b", about) or any(v.get("instagram") and v["instagram"].lower() in bio for v in self.city.venues)
+                faraway = NATIONAL.search(bio) or re.search(r"d.italia|rsvp|hollywood|\busa\b|london|ibiza", bio) or (bd.get("followers_count") or 0) > 15000
+                if slug in who and (bd.get("followers_count") or 0) >= 200 and (local or not faraway) and \
                         re.search(rf"\b(?:{slug_city}|bg|party|events?|eventi|serat\w*|club\w*|night|crew|dj|format|collective|rave)\b", about):
                     acc = self._profile(h, bd) if fetched else accounts[h]
                     if acc.get("kind") in (None, "unknown", "artist"):
