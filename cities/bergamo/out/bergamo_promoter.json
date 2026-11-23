@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-23T18:33",
+ "generated": "2026-11-23T18:39",
  "nights": [
   {
    "date": "2026-11-23",
@@ -116,7 +116,7 @@
    "note": null,
    "weekend_like": true,
    "events": 9,
-   "load": 306.9,
+   "load": 309.5,
    "level": "piena",
    "capacity_taken": 4550,
    "by_family": {

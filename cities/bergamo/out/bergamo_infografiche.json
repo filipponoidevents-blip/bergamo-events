@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T18:33",
+ "generated": "2026-11-23T18:39",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -50,10 +50,10 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Dirty Andry @ Tiky Klub",
-      "line2": "Tech House",
+      "line1": "Icon @ Tiky Klub",
+      "line2": "Tech House, Francesco Riva",
       "time": "00:00",
-      "score": 27.8,
+      "score": 30.4,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -477,14 +477,6 @@
      "family": "Altro"
     },
     {
-     "line1": "Meri Lu Jacket @ Ninfea Social Club",
-     "line2": "Jazz / Rock",
-     "time": "21:00",
-     "score": 44.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Keller Factory 2.0 - Live Music Pub",
      "line2": "dj set",
      "time": "19:00",
@@ -523,13 +515,14 @@
    "@prenotazione",
    "@zeroclub.bg",
    "@kellerfactory_",
-   "@ninfeasocialclub",
    "@inkclub_bergamo",
    "@consumazione",
    "@discoteca_queen",
    "@daste_bergamo",
+   "@ninfeasocialclub",
    "@sabbiemobili_official",
    "@drusobg",
+   "@sammjtiffany",
    "@nxtbergamo",
    "@possibilita",
    "@csapacipaciana",
@@ -548,8 +541,7 @@
    "@please.nights",
    "@reverie__night",
    "@spettacoli",
-   "@choruslife.bergamo",
-   "@gruppo_gnam"
+   "@choruslife.bergamo"
   ],
   "hashtags": [
    "#bergamo",
@@ -596,6 +588,14 @@
      "line2": "Live",
      "time": "20:00",
      "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Gres Art 671",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 57.3,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -700,8 +700,9 @@
   "big_events": [],
   "caption_handles": [
    "@nxtbergamo",
-   "@prenotazione",
    "@gres_art_671",
+   "@prenotazione",
+   "@reservation",
    "@particolare",
    "@revel_treviglio",
    "@gemboyofficial_",
@@ -1118,10 +1119,10 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Dirty Andry @ Tiky Klub",
-      "line2": "Tech House",
+      "line1": "Icon @ Tiky Klub",
+      "line2": "Tech House, Francesco Riva",
       "time": "00:00",
-      "score": 27.8,
+      "score": 30.4,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -1601,14 +1602,6 @@
      "family": "Altro"
     },
     {
-     "line1": "Meri Lu Jacket @ Ninfea Social Club",
-     "line2": "Jazz / Rock",
-     "time": "21:00",
-     "score": 44.6,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Keller Factory 2.0 - Live Music Pub",
      "line2": "dj set",
      "time": "19:00",
@@ -1644,9 +1637,9 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@prenotazione",
    "@inkclub_bergamo",
    "@zeroclub.bg",
+   "@prenotazione",
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
@@ -1654,7 +1647,6 @@
    "@nikita__land",
    "@daste_bergamo",
    "@kellerfactory_",
-   "@ninfeasocialclub",
    "@liveclub",
    "@megan_is_missing_band",
    "@missdivina1",
@@ -1666,6 +1658,7 @@
    "@bolgia.official",
    "@consumazione",
    "@discoteca_queen",
+   "@ninfeasocialclub",
    "@sabbiemobili_official",
    "@upside.down.night",
    "@oasi.night",
@@ -1673,7 +1666,7 @@
    "@premiere.premiere",
    "@choruslife.bergamo",
    "@door_74",
-   "@fabbricainpedavenatreviglio"
+   "@assonica_"
   ],
   "hashtags": [
    "#bergamo",
@@ -1835,6 +1828,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Gres Art 671",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 57.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Elevazione Musicale con il Wind Queentet @ Chiesa Parrocchiale dei Santi Filippo e Giacomo Apostoli",
      "line2": "live",
      "time": "20:45",
@@ -1983,6 +1984,16 @@
      "family": "Altro"
     }
    ],
+   "2026-12-09": [
+    {
+     "line1": "Gres Art 671",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 57.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-12-10": [
     {
      "line1": "Possibilita @ NXT Station",
@@ -2116,11 +2127,13 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@nxtbergamo",
    "@prenotazione",
+   "@nxtbergamo",
    "@bloom_mezzago",
+   "@gres_art_671",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
+   "@reservation",
    "@zeroclub.bg",
    "@noidfamilia",
    "@16manu___",
@@ -2134,7 +2147,6 @@
    "@jolly_club_mantova_",
    "@teatromiela_trieste",
    "@capogirojoyclub",
-   "@gres_art_671",
    "@particolare",
    "@revel_treviglio",
    "@gemboyofficial_",
@@ -2144,8 +2156,7 @@
    "@marci_otta",
    "@furkan_mcc",
    "@dnaproject__",
-   "@alternative",
-   "@dj.sofficino"
+   "@alternative"
   ],
   "hashtags": [
    "#bergamo",
