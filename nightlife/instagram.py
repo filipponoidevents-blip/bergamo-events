@@ -33,6 +33,37 @@ NOT_HANDLE = re.compile(r"\.(?:it|com|net|org|eu|io|info|html?|php)$|^(?:www|htt
 CUE_STOP = {"tutti", "tutte", "amici", "amiche", "noi", "voi", "musica", "special", "drink", "ingresso", "tantissimi", "grande", "nostro", "nostra", "questo", "questa",
             "ospiti", "artisti", "partecipazione", "collaborazione", "l'evento", "evento", "serata"}
 
+VENUE_LINE = re.compile(r"^[Q9O0]{1,2}\s*([A-Za-z0-9'&.!À-ÿ ]{2,40}?)\s+-\s+([A-Za-z0-9'&.!À-ÿ ]{3,40}?)(?:\s*[—–_\-+=~.]{2,}.*|\s+\d{1,2}[.:]\d{2}.*|\s+Dalle.*)?$")
+TOWN_LINE = re.compile(r"^[A-ZÀ-Ü' ]{3,}\s*\((?:[A-Z]{2})\)+\s*//\s*(.+)$")
+GENERIC_PARTY = re.compile(r"^(?:main\s*room|sala\b|side\s*[ab]\b|ticket|halloween|opening|closing|school\s*party|open\s*bar|free\s*dj|happy\s*birthday|back\s*to|"
+                           r"dj\s*set|free\s*entry|ingresso|special\s*guest|dalle|lounge\s*bar|live\s*music|sala\s*\d|prevendita|prenota|aperitivo|"
+                           r"saturday|friday|sabato|venerd|domenica|serata|party$|latin\s*night|karaoke|cena|dinner|drink|\d)", re.I)
+
+
+def scout_party_names(text: str) -> list[str]:
+    """Dai recap delle pagine scout (testo letto dalle immagini): i nomi delle serate e dei promoter.
+    Righe tipo "Q Nikita - Mask Off ---- 22.30-03.30" e "SERIATE (BG) // Hi-Fi Fever, 10€ con drink"."""
+    out = []
+    for line in (text or "").splitlines():
+        line = line.strip()
+        m = VENUE_LINE.match(line)
+        parts = [m.group(2)] if m else []
+        t = TOWN_LINE.match(line)
+        if t:
+            body = t.group(1)
+            by = re.search(r"\bby\s+([A-Za-z0-9._ ]{3,30})", body)
+            if by:
+                parts.append(by.group(1))
+            parts.append(re.split(r"\s+-\s+|[,.:(]|\s+\d", body)[0])
+        split = []
+        for x in parts:   # "Hidden Hell x Code", "Open All w/Utopia", "After Brunch by The Box": ogni nome per conto suo
+            split += re.split(r"\s+x\s+|\s*\bw/\s*|\s+by\s+|\s+feat\.?\s+", x)
+        for x in split:
+            x = re.sub(r"\s+m+$", "", re.sub(r"\s+", " ", x)).strip(" -—_.#")
+            if 3 <= len(x) <= 30 and not GENERIC_PARTY.search(x) and re.search(r"[A-Za-z]{3}", x):
+                out.append(x)
+    return out
+
 
 def guess_kind(name: str, bio: str) -> str:
     """Locale, promoter, artista o testata: si capisce dal nome e dalla biografia del profilo."""
@@ -142,6 +173,7 @@ class Instagram:
             self._lookups()
             self._guess_venues()
             self._city_pages()
+            self._guess_parties()
             if self.cfg.get("hashtags"):   # spento di base: in zona gli hashtag si usano poco e Meta non dà il permesso
                 self._hashtags()
         cutoff = (today - max_age - timedelta(days=30)).isoformat()
@@ -314,3 +346,72 @@ class Instagram:
             done += 1
         if done:
             self.problems.append(f"Lette le immagini di {done} post delle pagine scout.")
+
+    def _guess_parties(self, max_calls: int = 12) -> None:
+        """Nomi di serate e promoter letti nei recap delle pagine scout (es. "Hidden Hell", "Hi-Fi Fever"):
+        prova i nomi utente più probabili e tiene il profilo solo se il nome corrisponde e parla di serate o della zona.
+        Il profilo trovato viene seguito come promoter."""
+        accounts = self.city.registry["accounts"]
+        scouts = {h for h, a in accounts.items() if a.get("kind") == "scout"}
+        state = self.city.registry.setdefault("parties", {})
+        counts: dict[str, list] = {}
+        for p in self.posts.values():
+            if p["account"] in scouts:
+                for n in scout_party_names(p.get("ocr") or ""):
+                    counts.setdefault(norm(n), [n, 0])[1] += 1
+        for k, (n, c) in counts.items():
+            st = state.setdefault(k, {"name": n, "tried": []})
+            st["count"] = c
+        slug_city = norm(self.city.c["name"]).replace(" ", "")
+        calls = 0
+        for k, st in sorted(state.items(), key=lambda kv: -kv[1].get("count", 0)):
+            if st.get("done"):
+                continue
+            slug = re.sub(r"[^a-z0-9]", "", plain(st["name"]).lower())
+            known = next((h for h, a in accounts.items() if a.get("kind") in ("promoter", "venue") and len(slug) >= 4 and
+                          (norm(a.get("name") or "").replace(" ", "") == slug or norm(a.get("party_name") or "").replace(" ", "") == slug or h.startswith(slug))), None)
+            if known:   # già conosciuto (es. Hidden Hell = @hiddenhell.techno)
+                st.update({"handle": known, "done": True})
+                continue
+            if len(slug) < 4:
+                st["done"] = True
+                continue
+            if calls >= max_calls:
+                continue
+            raw = plain(st["name"]).lower().replace(" ", "")
+            tries = ([raw] if re.fullmatch(r"[a-z0-9._]{4,30}", raw) and raw != slug else []) + [slug, slug + "party", slug + slug_city, slug + "bg", slug + "_official"]
+            for h in tries:
+                if calls >= max_calls:
+                    break
+                if h in st["tried"]:
+                    continue
+                st["tried"].append(h)
+                a = accounts.get(h, {})
+                fetched = not a.get("checked")
+                if not fetched:
+                    bd = {"username": h, "name": a.get("name"), "biography": a.get("bio"), "followers_count": a.get("followers")}
+                else:
+                    calls += 1
+                    try:
+                        bd = self._get(h, with_media=False)
+                    except Exception as e:  # noqa: BLE001
+                        if re.search(r"\b(?:4|17|32|613)\b:|limit", str(e)):
+                            st["tried"].remove(h)
+                            return
+                        continue
+                who = norm(f"{bd.get('username')} {bd.get('name')}").replace(" ", "")
+                about = norm(f"{bd.get('name')} {bd.get('biography')}")
+                if slug in who and (bd.get("followers_count") or 0) >= 200 and \
+                        re.search(rf"\b(?:{slug_city}|bg|party|events?|eventi|serat\w*|club\w*|night|crew|dj|format|collective|rave)\b", about):
+                    acc = self._profile(h, bd) if fetched else accounts[h]
+                    if acc.get("kind") in (None, "unknown", "artist"):
+                        acc["kind"] = "promoter"
+                    if acc.get("kind") == "promoter":
+                        acc["watch"] = True
+                        acc["party_name"] = st["name"]
+                    st["handle"] = h
+                    st["done"] = True
+                    self.problems.append(f"Serata \"{st['name']}\" → @{h}.")
+                    break
+            else:
+                st["done"] = True

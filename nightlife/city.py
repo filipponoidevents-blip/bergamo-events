@@ -86,7 +86,8 @@ class City:
         self.promoters: dict[str, dict] = {}
         for h, a in self.registry["accounts"].items():
             if a.get("kind") == "promoter":
-                self.promoters[h] = {"instagram": h, "name": clean_name(a.get("name") or h), "followers": a.get("followers")}
+                self.promoters[h] = {"instagram": h, "name": clean_name(a.get("name") or h), "followers": a.get("followers"),
+                                     **({"party_name": a["party_name"]} if a.get("party_name") else {})}
         for patch in self.know.get("promoters") or []:
             h = (patch.get("instagram") or norm(patch["name"]).replace(" ", "")).lower()
             self.promoters[h] = {**self.promoters.get(h, {"instagram": patch.get("instagram")}), **patch}
