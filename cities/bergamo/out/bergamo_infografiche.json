@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T16:18",
+ "generated": "2026-11-23T17:26",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -76,7 +76,7 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Le Cannibale @ La Base",
+      "line1": "Le Cannibale @ ALLA BASE pizza & delivery",
       "line2": "House, Interstellar Funk",
       "time": "23:00",
       "score": 24.4,
@@ -215,6 +215,16 @@
    }
   },
   "preserate": {
+   "2026-11-23": [
+    {
+     "line1": "Live Club",
+     "line2": "Pop",
+     "time": "00:00",
+     "score": 46.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    }
+   ],
    "2026-11-24": [
     {
      "line1": "Door 74",
@@ -417,20 +427,20 @@
      "family": "Altro"
     },
     {
-     "line1": "cre.sp1 @ Bloom",
-     "line2": "Rock / Jazz",
-     "time": "21:00",
-     "score": 35.7,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Doctor Beat @ Charleston",
      "line2": "Commerciale",
      "time": "14:00",
      "score": 28.1,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
+     "line2": "dj set, cre.sp1",
+     "time": "21:00",
+     "score": 26.3,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "Easy Drink and Food",
@@ -467,14 +477,6 @@
      "family": "Altro"
     },
     {
-     "line1": "Bloom",
-     "line2": "Rock / Jazz",
-     "time": "00:00",
-     "score": 35.7,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Gabass Subculture @ In Croissanteria Lab",
      "line2": "Tech House",
      "time": "00:00",
@@ -506,7 +508,6 @@
    "@zeroclub.bg",
    "@kellerfactory_",
    "@ninfeasocialclub",
-   "@bloom_mezzago",
    "@inkclub_bergamo",
    "@consumazione",
    "@discoteca_queen",
@@ -516,6 +517,8 @@
    "@possibilita",
    "@csapacipaciana",
    "@nikita__land",
+   "@liveclub",
+   "@bloom_mezzago",
    "@spike.hellis",
    "@lowl_fest",
    "@www.bloomnet",
@@ -530,8 +533,7 @@
    "@spettacoli",
    "@choruslife.bergamo",
    "@gruppo_gnam",
-   "@lenticchie",
-   "@schivardi1953"
+   "@lenticchie"
   ],
   "hashtags": [
    "#bergamo",
@@ -603,7 +605,7 @@
      "line1": "Gres Art 671",
      "line2": "dj set",
      "time": "09:00",
-     "score": 57.5,
+     "score": 57.3,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -612,14 +614,6 @@
      "line2": "comedy",
      "time": "20:30",
      "score": 27.7,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Biblioteca Civica Rita Levi Montalcini",
-     "line2": "dj set",
-     "time": "20:45",
-     "score": 19.1,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -696,7 +690,6 @@
    "@revel_treviglio",
    "@gemboyofficial_",
    "@quei_bravi_ragazzi_bg",
-   "@sensazione_moda_official",
    "@paolorivapasticceria",
    "@zeroclub.bg",
    "@noidfamilia",
@@ -1135,7 +1128,7 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Le Cannibale @ La Base",
+      "line1": "Le Cannibale @ ALLA BASE pizza & delivery",
       "line2": "House, Interstellar Funk",
       "time": "23:00",
       "score": 24.4,
@@ -1328,6 +1321,16 @@
      "score": 10.8,
      "fascia": "preserata",
      "family": "Altro"
+    }
+   ],
+   "2026-11-23": [
+    {
+     "line1": "Live Club",
+     "line2": "Pop",
+     "time": "00:00",
+     "score": 46.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
     }
    ],
    "2026-11-24": [
@@ -1532,20 +1535,20 @@
      "family": "Altro"
     },
     {
-     "line1": "cre.sp1 @ Bloom",
-     "line2": "Rock / Jazz",
-     "time": "21:00",
-     "score": 35.7,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
      "line1": "Doctor Beat @ Charleston",
      "line2": "Commerciale",
      "time": "14:00",
      "score": 28.1,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
+     "line2": "dj set, cre.sp1",
+     "time": "21:00",
+     "score": 26.3,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "Easy Drink and Food",
@@ -1578,14 +1581,6 @@
      "line2": "dj set",
      "time": "19:00",
      "score": 42.9,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Bloom",
-     "line2": "Rock / Jazz",
-     "time": "00:00",
-     "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1628,6 +1623,7 @@
    "@daste_bergamo",
    "@kellerfactory_",
    "@ninfeasocialclub",
+   "@liveclub",
    "@megan_is_missing_band",
    "@missdivina1",
    "@vibetheclub",
@@ -1636,17 +1632,16 @@
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
-   "@bloom_mezzago",
    "@consumazione",
    "@discoteca_queen",
    "@sabbiemobili_official",
-   "@liveclub",
    "@upside.down.night",
    "@oasi.night",
    "@arya.lounge",
    "@premiere.premiere",
    "@choruslife.bergamo",
-   "@door_74"
+   "@door_74",
+   "@fabbricainpedavenatreviglio"
   ],
   "hashtags": [
    "#bergamo",
@@ -1829,7 +1824,7 @@
      "line1": "Gres Art 671",
      "line2": "dj set",
      "time": "09:00",
-     "score": 57.5,
+     "score": 57.3,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1838,14 +1833,6 @@
      "line2": "comedy",
      "time": "20:30",
      "score": 27.7,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Biblioteca Civica Rita Levi Montalcini",
-     "line2": "dj set",
-     "time": "20:45",
-     "score": 19.1,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -2097,8 +2084,8 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@prenotazione",
    "@nxtbergamo",
+   "@prenotazione",
    "@bloom_mezzago",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
@@ -2120,13 +2107,13 @@
    "@revel_treviglio",
    "@gemboyofficial_",
    "@quei_bravi_ragazzi_bg",
-   "@sensazione_moda_official",
    "@paolorivapasticceria",
    "@esotic_event",
    "@marci_otta",
    "@furkan_mcc",
    "@dnaproject__",
-   "@alternative"
+   "@alternative",
+   "@dj.sofficino"
   ],
   "hashtags": [
    "#bergamo",

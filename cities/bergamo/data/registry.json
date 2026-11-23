@@ -397,6 +397,9 @@
    "reads": 1,
    "website": null
   },
+  "bambina.music": {
+   "cands": 1
+  },
   "bar.dama": {
    "bio": "",
    "checked": "2026-11-20",
@@ -465,7 +468,7 @@
   },
   "barbara_boeing": {
    "bio": "CONVIDA @convida_by_bb",
-   "cands": 4,
+   "cands": 7,
    "checked": "2026-11-23",
    "followers": 20063,
    "kind": "unknown",
@@ -597,14 +600,14 @@
    "bio": "Sviluppi incontrollati nel cuore della Brianza ⚡️",
    "cands": 2,
    "checked": "2026-11-23",
-   "events_found": 22,
-   "followers": 16359,
+   "events_found": 23,
+   "followers": 16365,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "mentions": 3,
    "name": "B L O O M Dal 1987",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "website": "https://linktr.ee/bloommezzago"
   },
   "bloomcinema_mezzago": {
@@ -634,12 +637,12 @@
    "bio": "Il locale Storico di Bergamo✨\nRistorante: @bobadillaristorante\nDiscoteca: @bobadillafeelingclub \nAperitivo Domenica: @aperitivomartini",
    "checked": "2026-11-23",
    "events_found": 14,
-   "followers": 31641,
+   "followers": 31651,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "Bobadilla",
    "readable": true,
-   "reads": 21,
+   "reads": 22,
    "website": "http://www.bobadilla.it"
   },
   "bolgia.official": {
@@ -901,6 +904,10 @@
   "carlo_manti": {
    "cands": 1
   },
+  "carolinabenvenga": {
+   "cands": 1,
+   "mentions": 1
+  },
   "casacostez": {
    "bio": "DINING | CLUB \nUn nuovo posto, una nuova CASA. ✨\n@costez_official",
    "checked": "2026-11-23",
@@ -1076,6 +1083,28 @@
   "colore_ai_sogni": {
    "cands": 1
   },
+  "comune_milano": {
+   "bio": "Profilo ufficiale del Comune di Milano • The City of Milano official profile | Raccontiamo insieme la nostra città 👉 @comune_milano | #comunemilano",
+   "checked": "2026-11-23",
+   "events_found": 14,
+   "followers": 160138,
+   "kind": "venue",
+   "last_read": "2026-11-23T17:20+00:00",
+   "name": "Comune di Milano",
+   "readable": true,
+   "reads": 1,
+   "website": "http://linktr.ee/comune_milano"
+  },
+  "comunedimilano_cultura": {
+   "bio": "Profilo ufficiale della Direzione Cultura del Comune di Milano \nScopri la Milano Museo Card 🎟️👇🏻",
+   "cands": 5,
+   "checked": "2026-11-23",
+   "followers": 36871,
+   "kind": "unknown",
+   "name": "Comune di Milano - Cultura",
+   "readable": true,
+   "website": "https://www.comune.milano.it/servizi/cultura/le-card-dei-musei-civici"
+  },
   "confindustria_bergamo": {
    "cands": 2
   },
@@ -1157,16 +1186,19 @@
    "readable": true,
    "website": null
   },
+  "crema_video": {
+   "cands": 2
+  },
   "cremeria_dellevalli": {
    "bio": "🎂Pasticceria \n🍦Gelateria\n☕️ Caffetteria\n📍Zogno via Mazzini 61",
    "checked": "2026-11-23",
    "events_found": 1,
-   "followers": 4685,
+   "followers": 4686,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "CREMERIA DELLE VALLI",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://cremeriadellevalli.com"
   },
   "cristian_comes": {
@@ -1261,28 +1293,28 @@
    "bio": "Dove le culture contemporanee si incontrano\nSpazio Eventi | Bistrò | Cinema | Galleria | Workplace",
    "cands": 7,
    "checked": "2026-11-23",
-   "events_found": 25,
-   "followers": 21348,
+   "events_found": 26,
+   "followers": 21355,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "mentions": 1,
    "name": "Daste Bergamo",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://linktr.ee/daste_bergamo"
   },
   "daste_bistro": {
    "bio": "📞 Prenota al 3207203193\n🏭 Eventi @daste_bergamo",
    "cands": 3,
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 4,
-   "followers": 9429,
+   "followers": 9439,
    "kind": "promoter",
-   "last_read": "2026-11-21T19:29+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "mentions": 1,
    "name": "Daste Bistro",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "watch": true,
    "website": null
   },
@@ -1376,6 +1408,9 @@
    "name": "Dirty Andry",
    "readable": true,
    "website": null
+  },
+  "disabilita": {
+   "cands": 1
   },
   "discopastasc": {
    "bio": "There’s no place like DISCOPASTA 🍝",
@@ -1760,6 +1795,9 @@
   "flyer_billy": {
    "cands": 1
   },
+  "fonds_artculture": {
+   "cands": 1
+  },
   "foresta_foresta": {
    "cands": 1
   },
@@ -1935,6 +1973,9 @@
    "mentions": 1,
    "readable": false
   },
+  "handisportofficiel": {
+   "cands": 1
+  },
   "harlem_bergamo": {
    "bio": "Hamburgeria 🍔🍸Cocktail Bar\n📆 Mar•Mer•Gio•Dom  18-00\n🕑 Ven•Sab 18-02\nCHIUSI IL LUNEDì\n📌Prenota il tuo tavolo chiamandoci dalle 18:00 📞0350030996",
    "checked": "2026-11-20",
@@ -1986,14 +2027,14 @@
   "hiddenhell.techno": {
    "bio": "THE MOVEMENT FROM HELL 🩸 🇮🇹\n💿Label: \n@hiddenhell.records \n👹Next events:\n• 12.12 @bolgia.official \n• 25.12 @zeroclub.bg",
    "cands": 5,
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 5,
-   "followers": 11137,
+   "followers": 11149,
    "kind": "promoter",
-   "last_read": "2026-11-21T19:29+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "HiddenHell",
    "readable": true,
-   "reads": 4,
+   "reads": 5,
    "watch": true,
    "website": "https://linktr.ee/HiddenHell"
   },
@@ -2089,12 +2130,12 @@
    "bio": "📍Via Papa Giovanni XXIII n75 - Almè \nAperto 7/7 \n🕰Dalle 17.00 alle 2.00 \n🎉Venerdì e sabato fino alle 5.00",
    "checked": "2026-11-23",
    "events_found": 3,
-   "followers": 1924,
+   "followers": 1925,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "Il Pirata Pub Food&Drink",
    "readable": true,
-   "reads": 5,
+   "reads": 6,
    "website": "https://www.facebook.com/ilpiratapubalme/"
   },
   "importanti": {
@@ -2204,10 +2245,10 @@
    "events_found": 3,
    "followers": 33171,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "Into The Woods",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://wa.me/+393279504436"
   },
   "intrecci_ati": {
@@ -2236,12 +2277,12 @@
    "bio": "🗓️ 𝐅𝐑𝐈𝐃𝐀𝐘 • 𝐒𝐀𝐓𝐔𝐑𝐃𝐀𝐘\n🌙 𝐎𝐏𝐄𝐍 𝐓𝐈𝐋𝐋 𝟓 𝐀𝐌\n📲 𝟑𝟗𝟐𝟔𝟑𝟏𝟐𝟒𝟖𝟑\n📲 𝟑𝟐𝟒𝟖𝟔𝟓𝟕𝟐𝟎𝟏\n📍 Via G. Marconi 23/B • Ponte S. Pietro (BG)",
    "checked": "2026-11-23",
    "events_found": 1,
-   "followers": 14751,
+   "followers": 14747,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "J CLUB",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "jolie.bg": {
@@ -2281,6 +2322,9 @@
    "cands": 1
   },
   "kamelotofficial": {
+   "cands": 1
+  },
+  "kapsul.tv": {
    "cands": 1
   },
   "karma_lounge_official_": {
@@ -2437,6 +2481,7 @@
    "name": "Il tuo cinema a Bergamo",
    "readable": true,
    "reads": 19,
+   "venue_done": true,
    "website": "https://www.lab80.it/programmazione"
   },
   "labassaninaristorante": {
@@ -2532,6 +2577,7 @@
   },
   "lecannibaleclub": {
    "bio": "Events & Urban Experiences since 2011\nNext events ↓",
+   "cands": 1,
    "checked": "2026-11-23",
    "events_found": 20,
    "followers": 43129,
@@ -2548,6 +2594,11 @@
   },
   "lefemministe.nellaforesta": {
    "cands": 1
+  },
+  "legal": {
+   "checked": "2026-11-23",
+   "error": "110: Invalid user id",
+   "readable": false
   },
   "leirisbar": {
    "bio": "Cucina e miscelazioni.\nPRENOTAZIONI\n👉🏻 035.217037\nda lunedì a sabato dopo le 19.00\nFacebook Le Iris - Bergamo",
@@ -2595,18 +2646,26 @@
   "liveclub": {
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
    "checked": "2026-11-23",
-   "events_found": 13,
-   "followers": 33510,
+   "events_found": 14,
+   "followers": 33519,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "mentions": 1,
    "name": "(( LIVE MUSIC CLUB MI ))",
    "readable": true,
-   "reads": 21,
+   "reads": 22,
    "website": "https://www.liveclub.it/start/"
   },
   "llum_collettivo": {
-   "cands": 1
+   "bio": "COLLETTIVO FOTOGRAFICO\n@stemattea \n@claudiu_asmarandei \n@giacomodecaro \n@elsa_quaglia \nContatti: llum.collettivo@gmail.com",
+   "cands": 6,
+   "checked": "2026-11-23",
+   "followers": 2984,
+   "kind": "ignore",
+   "mentions": 1,
+   "name": "llum collettivo",
+   "readable": true,
+   "website": "https://www.llumcollettivo.eu"
   },
   "loft.bergamo": {
    "bio": "Hi-Fi Bar & Premium Club\n• Uno spazio fuori dal tempo dove il suono diventa esperienza e la notte un viaggio.\n[ 𝙄𝙣𝙛𝙤 𝙚 𝙋𝙧𝙚𝙣𝙤𝙩𝙖𝙯𝙞𝙤𝙣𝙞 | 𝙇𝙞𝙣𝙠 𝙞𝙣 𝘽𝙞𝙤 ]",
@@ -2655,6 +2714,9 @@
   "luke_style.official": {
    "cands": 1,
    "mentions": 1
+  },
+  "m2oradio": {
+   "cands": 1
   },
   "macchinette": {
    "cands": 1,
@@ -2761,6 +2823,9 @@
   "massimosomaglino": {
    "cands": 1
   },
+  "mattea.fo": {
+   "cands": 1
+  },
   "matteo.carpinteri": {
    "cands": 1
   },
@@ -2780,6 +2845,10 @@
    "name": "MATTIA TRANI",
    "readable": true,
    "website": "https://mattiatrani.komi.io"
+  },
+  "maxpezzali": {
+   "cands": 1,
+   "mentions": 1
   },
   "mdmp_mdmp": {
    "bio": "CANI CATIF 🐺\nNon siamo professionisti, siamo presi dalla strada\nGAMMA DELTA 👇🏼",
@@ -2842,10 +2911,14 @@
    "bio": "Dal 16 al 22 Novembre 2026, torna la settimana più attesa della musica italiana a Milano. Candida il tuo evento 👇🏻",
    "cands": 4,
    "checked": "2026-11-23",
-   "followers": 33167,
+   "events_found": 5,
+   "followers": 33172,
    "kind": "promoter",
+   "last_read": "2026-11-23T17:20+00:00",
+   "mentions": 1,
    "name": "Milano Music Week",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "https://link.dice.fm/ieab340e663c"
   },
@@ -2899,6 +2972,9 @@
    "venue_done": true,
    "website": "https://www.mossevents.it/"
   },
+  "mrs.mille": {
+   "cands": 1
+  },
   "muchacha_party": {
    "cands": 1
   },
@@ -2919,6 +2995,9 @@
   "mugenon.band": {
    "cands": 1,
    "mentions": 1
+  },
+  "museostorianaturale_milano": {
+   "cands": 1
   },
   "musicadiffusa2023": {
    "cands": 1
@@ -2967,12 +3046,12 @@
   "nightlifebergamo": {
    "bio": "Il punto di riferimento degli eventi a Bergamo e provincia🪩⭐️🆒🥂\n🤝 @nightlifebrescia \nLocali e brand: scrivete PARTNER in DM📥",
    "checked": "2026-11-23",
-   "followers": 11541,
+   "followers": 11540,
    "kind": "scout",
-   "last_read": "2026-11-23T16:12+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 13,
+   "reads": 14,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -2988,15 +3067,18 @@
    "reads": 7,
    "website": "http://nikita.land"
   },
+  "nina.nayko": {
+   "cands": 1
+  },
   "ninespace.villongo": {
-   "bio": "Via Aldo Moro 9 Villongo(BG)\nmar sab 9:30/12:30 15:30/19:30\n@jennyagosti",
-   "checked": "2026-11-21",
-   "followers": 1365,
+   "bio": "Via Aldo Moro 9 Villongo(BG)\nmar sab 9:30/12:30 15:30/19:30",
+   "checked": "2026-11-23",
+   "followers": 1359,
    "kind": "venue",
-   "last_read": "2026-11-21T19:29+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "NINE SPACE",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "ninfeasocialclub": {
@@ -3176,12 +3258,12 @@
    "bio": "UPCOMING EVENTS:\n27/11: HARDCORE w/@lancinhousedj",
    "checked": "2026-11-23",
    "events_found": 7,
-   "followers": 7813,
+   "followers": 7815,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "name": "ORONERO",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "website": null
   },
   "ouch_bruh": {
@@ -3231,7 +3313,9 @@
   },
   "particolare": {
    "cands": 1,
-   "mentions": 3
+   "checked": "2026-11-23",
+   "mentions": 3,
+   "readable": false
   },
   "pasticceria_alpino": {
    "bio": "Siamo la tua pasticceria gelateria artigianale di fiducia! \nPer il tuo dolce momento di pausa 🥐🍨🎂🥧\n📌Viale rimembranze 21, Casirate d'Adda (BG)",
@@ -3293,11 +3377,14 @@
    "bio": "⬇️CC NIGHT 27/11 TICKETS⬇️",
    "cands": 2,
    "checked": "2026-11-23",
+   "events_found": 1,
    "followers": 194,
    "kind": "promoter",
+   "last_read": "2026-11-23T17:20+00:00",
    "mentions": 1,
    "name": "Kidis & Zulpyk",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "https://site.fourvenues.com/en/zero-club/events/crystal-castles-night-27-11-2026-F1PW"
   },
@@ -3359,9 +3446,9 @@
    "website": "https://linktr.ee/premierefam"
   },
   "prenotazione": {
-   "cands": 4,
+   "cands": 6,
    "checked": "2026-11-19",
-   "mentions": 16,
+   "mentions": 17,
    "readable": false
   },
   "principessa11270": {
@@ -3436,6 +3523,18 @@
   },
   "renato.lombardii": {
    "cands": 1
+  },
+  "renault_italia": {
+   "bio": "benvenuti nella pagina Instagram ufficiale di Renault Italia",
+   "checked": "2026-11-23",
+   "events_found": 0,
+   "followers": 121477,
+   "kind": "venue",
+   "last_read": "2026-11-23T17:20+00:00",
+   "name": "Renault Italia",
+   "readable": true,
+   "reads": 1,
+   "website": "https://www.renault.it/veicoli-ibridi/nuova-clio.html"
   },
   "reservation": {
    "cands": 2
@@ -3526,7 +3625,14 @@
    "cands": 3
   },
   "santos.officiall": {
-   "cands": 4
+   "bio": "MAKING PEOPLE HAPPY WITH MUSIC ❤️‍🔥\nRotterdam, NL 📍\nbookings: maarten@mach9agency.com",
+   "cands": 4,
+   "checked": "2026-11-23",
+   "followers": 70002,
+   "kind": "venue",
+   "name": "SANTØS",
+   "readable": true,
+   "website": "https://open.spotify.com/track/4WipiEP1uhAQEfdWDtLi3h?si=hgFnVSl4S16Ut3U7DDP0UA&utm_source=copy-link"
   },
   "savageparty.official": {
    "mentions": 1
@@ -3593,8 +3699,15 @@
    "website": "https://upass.easy-links.org/LR7B"
   },
   "sensazione_moda_official": {
+   "bio": "Pagina Ufficiale Instagram “Sensazione Modà” @sensazione_moda_official (Tributo ai Modà) 🇮🇹",
    "cands": 2,
-   "mentions": 1
+   "checked": "2026-11-23",
+   "followers": 2792,
+   "kind": "ignore",
+   "mentions": 1,
+   "name": "Sensazione Moda Tribute Band",
+   "readable": true,
+   "website": "https://www.facebook.com/SensazioneModaOfficial/"
   },
   "setai_club_official": {
    "bio": "Info & Reservation ☎️‭ 𝟑𝟑𝟖/𝟓𝟗𝟓𝟒𝟖𝟔𝟕",
@@ -3707,7 +3820,7 @@
   "spettacoli": {
    "cands": 1,
    "checked": "2026-11-20",
-   "mentions": 7,
+   "mentions": 9,
    "readable": false
   },
   "spike.hellis": {
@@ -3842,14 +3955,14 @@
    "bio": "🎭 Dal 1990 a Trieste un luogo per spettacoli, musica, incontri e altre instabilità\n🟨 Per divertirsi, riflettere e stupirsi\nLa stagione 2026/2027⭣",
    "cands": 1,
    "checked": "2026-11-23",
-   "events_found": 24,
-   "followers": 7934,
+   "events_found": 25,
+   "followers": 7937,
    "kind": "venue",
-   "last_read": "2026-11-23T09:05+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "mentions": 5,
    "name": "Teatro Miela",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "venue_done": true,
    "website": "https://linktr.ee/teatromiela"
   },
@@ -4275,15 +4388,15 @@
   "worst.zine": {
    "bio": "𝗞𝗲𝗲𝗽 𝗧𝗵𝗲 𝗦𝗰𝗲𝗻𝗲 𝗢𝗿 𝗗𝗶𝗲 𝗧𝗿𝘆𝗶𝗻’\n𝗠𝘂𝘀𝗶𝗰 - 𝗔𝗿𝘁 - 𝗦𝘁𝗿𝗲𝗲𝘁 𝗖𝘂𝗹𝘁𝘂𝗿𝗲\n⬇️ LINKS ⬇️",
    "cands": 3,
-   "checked": "2026-11-21",
+   "checked": "2026-11-23",
    "events_found": 3,
    "followers": 1874,
    "kind": "promoter",
-   "last_read": "2026-11-21T19:29+00:00",
+   "last_read": "2026-11-23T17:20+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 13,
+   "reads": 14,
    "website": "https://linktr.ee/worstzine"
   },
   "www.bloomnet": {
@@ -4323,13 +4436,13 @@
   },
   "zeroclub.bg": {
    "bio": "Every wed @please.nights \nFri 27th @crystalcastlesnightt \nSat 28th @cromaroom \nInfo +393474100909",
-   "cands": 40,
+   "cands": 41,
    "checked": "2026-11-23",
    "events_found": 11,
    "followers": 20834,
    "kind": "venue",
    "last_read": "2026-11-23T14:36+00:00",
-   "mentions": 4,
+   "mentions": 5,
    "name": "Zero Club Bergamo",
    "readable": true,
    "reads": 7,
@@ -4609,6 +4722,7 @@
    "lon": 9.69324,
    "province": null
   },
+  "Viale Emilio Alemagna 6, Milano, Bergamo |nome": null,
   "Viale Emilio, Bergamo": {
    "city": "Bergamo",
    "lat": 45.70921,
@@ -4646,6 +4760,13 @@
    "city": "Azzano San Paolo",
    "lat": 45.66136,
    "lon": 9.6685,
+   "province": null
+  },
+  "via Palestro 14, Milano, Bergamo |nome": null,
+  "via Tasso🌙✨, Bergamo": {
+   "city": "Orio al Serio",
+   "lat": 45.67089,
+   "lon": 9.69875,
    "province": null
   },
   "viale Betelli, 1": {
@@ -4710,6 +4831,19 @@
    "type": "bar",
    "website": "https://biblioteche.comune.bergamo.it/"
   },
+  "bloom": {
+   "address": "Via Broseta, 17, 24122 Bergamo BG",
+   "aliases": [
+    "Bloom"
+   ],
+   "instagram": null,
+   "lat": 45.69285,
+   "lon": 9.66196,
+   "name": "Bloom from Seoul | Skincare Coreana Bergamo",
+   "reviews": 23,
+   "type": "bar",
+   "website": "http://bloomfromseoul.it/"
+  },
   "chiesa dei santi filippo e giacomo apostoli": {
    "address": "Pl. Chiesa, 6, 24020 Selvino BG",
    "aliases": [
@@ -4738,7 +4872,40 @@
    "website": "https://www.renault.it/rnlt.html?utm_source=GMB&utm_medium=SchedaGoogle&utm_campaign=Renord"
   },
   "crocevia cocktail bar": null,
+  "daste bergamo": {
+   "address": "Via Daste e Spalenga, 15, 24125 Bergamo BG",
+   "aliases": [],
+   "instagram": null,
+   "lat": 45.69383,
+   "lon": 9.70401,
+   "name": "Daste Bergamo",
+   "reviews": 1237,
+   "type": "live_club",
+   "website": "http://www.dastebergamo.com/"
+  },
   "dove al colle hub sociale via ripa 62 bruntino villa d": null,
+  "gres art 671": {
+   "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+   "aliases": [],
+   "instagram": null,
+   "lat": 45.67838,
+   "lon": 9.65977,
+   "name": "gres art 671",
+   "reviews": 394,
+   "type": "bar",
+   "website": "https://gresart671.org/it"
+  },
+  "il circolino della malpensata": {
+   "address": "Via Luigi Luzzatti, 6b, 24126 Bergamo BG",
+   "aliases": [],
+   "instagram": null,
+   "lat": 45.6848,
+   "lon": 9.67497,
+   "name": "Il Circolino della Malpensata",
+   "reviews": 989,
+   "type": "bar",
+   "website": "https://www.facebook.com/ilcircolinodellamalpensatabergamo/"
+  },
   "inari cantu": null,
   "inari garbagnate inarisushigarbagnate": {
    "address": "Via Leonardo da Vinci, 29, 20024 Garbagnate Milanese MI",
@@ -4752,6 +4919,19 @@
    "reviews": 379,
    "type": "bar",
    "website": "https://inarigarbagnate.it/"
+  },
+  "la base": {
+   "address": "VIA MORONI, 1, 24010 Ponteranica BG",
+   "aliases": [
+    "La Base"
+   ],
+   "instagram": null,
+   "lat": 45.73062,
+   "lon": 9.65058,
+   "name": "ALLA BASE pizza & delivery",
+   "reviews": 105,
+   "type": "bar",
+   "website": null
   },
   "moss punto di contatto via g bonomelli 9": null,
   "moss punto di contatto via g bonomelli 9 bergamo": null,
@@ -4888,18 +5068,27 @@
   },
   "beatmode": {
    "count": 2,
+   "done": true,
    "name": "Beatmode",
    "tried": [
     "beatmode",
     "beatmodeparty",
     "beatmodebergamo",
-    "beatmodebg"
+    "beatmodebg",
+    "beatmode_official"
    ]
   },
   "believe": {
    "count": 2,
+   "done": true,
    "name": "Believe",
-   "tried": []
+   "tried": [
+    "believe",
+    "believeparty",
+    "believebergamo",
+    "believebg",
+    "believe_official"
+   ]
   },
   "berry s circus": {
    "count": 1,
@@ -4918,13 +5107,22 @@
   },
   "boomer party": {
    "count": 2,
+   "done": true,
    "name": "Boomer Party",
-   "tried": []
+   "tried": [
+    "boomerparty",
+    "boomerpartyparty",
+    "boomerpartybergamo",
+    "boomerpartybg",
+    "boomerparty_official"
+   ]
   },
   "bucolic party": {
    "count": 2,
    "name": "Bucolic Party",
-   "tried": []
+   "tried": [
+    "bucolicparty"
+   ]
   },
   "bum bum night": {
    "count": 1,
@@ -5972,6 +6170,26 @@
    "website": "http://www.alkimiafoodedrink.it/",
    "website_checked": true
   },
+  "alla base pizza delivery": {
+   "address": "VIA MORONI, 1, 24010 Ponteranica BG",
+   "aliases": [
+    "La Base"
+   ],
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-23",
+   "followers": null,
+   "km": 4.1,
+   "lat": 45.73062,
+   "lon": 9.65058,
+   "name": "ALLA BASE pizza & delivery",
+   "reviews": 105,
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar"
+  },
   "almadolce caffetteria pasticceria": {
    "address": "Via Roma, 4, 24020 Gorle BG",
    "auto_vote": 1.7,
@@ -6186,6 +6404,9 @@
   },
   "arena esterno notte": {
    "address": "Via Torquato Tasso 4, 24121, Bergamo",
+   "aliases": [
+    "Il tuo cinema a Bergamo"
+   ],
    "auto_vote": 5.1,
    "capacity": 450,
    "capacity_source": "stima",
@@ -6200,7 +6421,8 @@
    "osm": "node/13446550220",
    "removed": true,
    "sources": [
-    "osm"
+    "osm",
+    "instagram"
    ],
    "type": "live_club",
    "website": "https://lab80.it/it/arena-esterno-notte",
@@ -6862,12 +7084,15 @@
    "lat": 45.64644,
    "lon": 9.59914,
    "name": "Biblioteca Civica Rita Levi Montalcini",
+   "removed": true,
    "reviews": 118,
+   "search_checked": "2026-11-23",
    "sources": [
     "eventi"
    ],
    "type": "bar",
-   "website": "http://www.rbbg.it/library/dalmine"
+   "website": "http://www.rbbg.it/library/dalmine",
+   "website_checked": true
   },
   "biblioteca tiraboschi sala mimmo boninelli": {
    "address": "Via San Bernardino 74, Bergamo",
@@ -6925,7 +7150,7 @@
    "capacity_source": "stima",
    "city": "Mezzago",
    "first_seen": "2026-11-20",
-   "followers": 16359,
+   "followers": 16365,
    "ig_guessed": "2026-11-20",
    "instagram": "bloom_mezzago",
    "km": 19.8,
@@ -6942,6 +7167,27 @@
    "website": "https://bloomnet.org/",
    "website_checked": true
   },
+  "bloom from seoul skincare coreana bergamo": {
+   "address": "Via Broseta, 17, 24122 Bergamo BG",
+   "aliases": [
+    "Bloom"
+   ],
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-23",
+   "followers": null,
+   "km": 1.3,
+   "lat": 45.69285,
+   "lon": 9.66196,
+   "name": "Bloom from Seoul | Skincare Coreana Bergamo",
+   "reviews": 23,
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar",
+   "website": "http://bloomfromseoul.it/"
+  },
   "bobadilla feeling club": {
    "address": "Via Pascolo, 34, 24044 Dalmine BG",
    "aliases": [
@@ -6951,7 +7197,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 31641,
+   "followers": 31651,
    "instagram": "bobadillafeelingclub",
    "km": 9.1,
    "lat": 45.64639,
@@ -7025,6 +7271,7 @@
    "name": "Botanic Fusion & Cocktail",
    "removed": false,
    "reviews": 736,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -8200,7 +8447,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 4685,
+   "followers": 4686,
    "instagram": "cremeria_dellevalli",
    "km": 10.8,
    "lat": 45.7953,
@@ -8249,6 +8496,7 @@
    "name": "D'Oc Cafe' 56 Di Innocenti Claudia",
    "removed": false,
    "reviews": 323,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -8349,7 +8597,7 @@
    "capacity": 850,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 21348,
+   "followers": 21355,
    "instagram": "daste_bergamo",
    "km": 2.1,
    "lat": 45.69383,
@@ -8359,7 +8607,8 @@
    "reviews": 1231,
    "search_checked": "2026-11-20",
    "sources": [
-    "google"
+    "google",
+    "eventi"
    ],
    "type": "live_club",
    "website": "http://www.dastebergamo.com/",
@@ -9175,7 +9424,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1365,
+   "followers": 1359,
    "instagram": "ninespace.villongo",
    "km": 23.4,
    "lat": 45.62098,
@@ -9189,6 +9438,24 @@
    "type": "bar",
    "website": "http://glissadro.com/",
    "website_checked": true
+  },
+  "gres art 671": {
+   "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+   "auto_vote": 1.7,
+   "capacity": 100,
+   "capacity_source": "stima",
+   "first_seen": "2026-11-23",
+   "followers": null,
+   "km": 2.6,
+   "lat": 45.67838,
+   "lon": 9.65977,
+   "name": "gres art 671",
+   "reviews": 394,
+   "sources": [
+    "eventi"
+   ],
+   "type": "bar",
+   "website": "https://gresart671.org/it"
   },
   "harlem food drink more": {
    "address": "Via dello Statuto, 19, 24128 Bergamo BG",
@@ -9303,7 +9570,8 @@
    "reviews": 989,
    "search_checked": "2026-11-23",
    "sources": [
-    "google"
+    "google",
+    "eventi"
    ],
    "type": "bar",
    "website": "https://www.facebook.com/ilcircolinodellamalpensatabergamo/",
@@ -9356,7 +9624,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1924,
+   "followers": 1925,
    "instagram": "ilpiratapub",
    "km": 6.9,
    "lat": 45.73856,
@@ -9559,7 +9827,7 @@
    "capacity": 850,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 14751,
+   "followers": 14747,
    "ig_guessed": "2026-11-21",
    "instagram": "jclubbergamo",
    "km": 7.5,
@@ -10114,7 +10382,7 @@
    "capacity_source": "stima",
    "city": "Trezzo sull'Adda",
    "first_seen": "2026-11-18",
-   "followers": 33510,
+   "followers": 33519,
    "instagram": "liveclub",
    "km": 16.6,
    "lat": 45.59909,
@@ -10134,7 +10402,7 @@
    "capacity": 1000,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 33510,
+   "followers": 33519,
    "instagram": "liveclub",
    "km": 16.7,
    "lat": 45.59904,
@@ -10484,6 +10752,7 @@
    "name": "Matinee Bar Pontida",
    "removed": false,
    "reviews": 599,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -10706,6 +10975,8 @@
    "lat": 45.6899,
    "lon": 9.67233,
    "name": "MOSS: Punto di Contatto, Via G. Bonomelli 9",
+   "removed": false,
+   "search_checked": "2026-11-23",
    "sources": [
     "eventi"
    ],
@@ -10723,6 +10994,8 @@
    "lat": 45.6899,
    "lon": 9.67233,
    "name": "MOSS | Via G. Bonomelli 9, Bergamo",
+   "removed": false,
+   "search_checked": "2026-11-23",
    "sources": [
     "eventi"
    ],
@@ -11151,7 +11424,7 @@
    "capacity_source": "stima",
    "city": "Nembro",
    "first_seen": "2026-11-18",
-   "followers": 7813,
+   "followers": 7815,
    "ig_guessed": "2026-11-19",
    "instagram": "oroneroloveandmusic",
    "km": 10.1,
@@ -11332,21 +11605,24 @@
    "aliases": [
     "Parco Martiri della Liberta Iracheni Vittime del Terrorismo"
    ],
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 5.2,
+   "capacity": 200,
    "capacity_source": "stima",
    "first_seen": "2026-11-23",
-   "followers": null,
+   "followers": 160138,
+   "instagram": "comune_milano",
    "km": 41.0,
    "lat": 45.50236,
    "lon": 9.23149,
    "name": "Parco pubblico - Martiri della Liberta Iracheni Vittime del Terrorismo",
+   "removed": false,
    "reviews": 2521,
    "sources": [
     "eventi"
    ],
    "type": "bar",
-   "website": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana"
+   "website": "https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-martiri-della-liberta-iracheni-vittime-del-terrorismo-ex-parco-della-martesana",
+   "website_checked": true
   },
   "pasticceria bar la sirena": {
    "address": "Via Dante Alighieri, 11, 24017 Serina BG",
@@ -11692,6 +11968,7 @@
    "name": "Prato Alto Food Drink Musik",
    "removed": false,
    "reviews": 992,
+   "search_checked": "2026-11-23",
    "sources": [
     "google"
    ],
@@ -11947,21 +12224,24 @@
    "aliases": [
     "Corso Garibaldi 73, Milano"
    ],
-   "auto_vote": 1.7,
-   "capacity": 100,
+   "auto_vote": 5.2,
+   "capacity": 200,
    "capacity_source": "stima",
    "first_seen": "2026-11-23",
-   "followers": null,
+   "followers": 121477,
+   "instagram": "renault_italia",
    "km": 45.7,
    "lat": 45.47539,
    "lon": 9.18333,
    "name": "RNLT Milano Corso Garibaldi - Renord",
+   "removed": false,
    "reviews": 54,
    "sources": [
     "eventi"
    ],
    "type": "bar",
-   "website": "https://www.renault.it/rnlt.html?utm_source=GMB&utm_medium=SchedaGoogle&utm_campaign=Renord"
+   "website": "https://www.renault.it/rnlt.html?utm_source=GMB&utm_medium=SchedaGoogle&utm_campaign=Renord",
+   "website_checked": true
   },
   "rock sul serio": {
    "address": "Piazza Mercato, 24020 Villa di Serio BG",
@@ -12268,7 +12548,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.uglybgy.it/"
+   "website": "http://www.uglybgy.it/",
+   "website_checked": true
   },
   "spazio polaresco": {
    "address": "Via del Polaresco, 15, 24129 Bergamo BG",
@@ -12277,6 +12558,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "spaziopolaresco",
    "km": 3.5,
    "lat": 45.69084,
    "lon": 9.63409,
@@ -12288,7 +12570,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "https://www.spaziopolaresco.it/"
+   "website": "https://www.spaziopolaresco.it/",
+   "website_checked": true
   },
   "spazio teatro 89": {
    "auto_vote": 4.8,
@@ -12316,6 +12599,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "instagram": "legal",
    "km": 20.5,
    "lat": 45.56217,
    "lon": 9.50009,
@@ -12327,7 +12611,8 @@
     "google"
    ],
    "type": "live_club",
-   "website": "https://www.sweetandsourduo.com/"
+   "website": "https://www.sweetandsourduo.com/",
+   "website_checked": true
   },
   "switch cafe": {
    "address": "Via Cimitero, 27, 24040 Canonica d'Adda BG",
@@ -12365,7 +12650,8 @@
     "google"
    ],
    "type": "bar",
-   "website": "http://www.tassinocafe.it/"
+   "website": "http://www.tassinocafe.it/",
+   "website_checked": true
   },
   "te daja": {
    "address": "Via Liberta', 5/A, 24046 Osio Sotto BG",
@@ -12430,7 +12716,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-20",
-   "followers": 7934,
+   "followers": 7937,
    "instagram": "teatromiela_trieste",
    "km": 0.6,
    "lat": 45.69508,
@@ -12475,6 +12761,8 @@
    "lat": 45.64837,
    "lon": 9.60135,
    "name": "Teatro Sala della Comunita , viale Betelli, 1, Dalmine (Bg)",
+   "removed": false,
+   "search_checked": "2026-11-23",
    "sources": [
     "eventi"
    ],
@@ -12564,12 +12852,13 @@
   },
   "thanka": {
    "address": "Via Nazionale, 93, 24068 Seriate BG",
-   "auto_vote": 4.1,
-   "capacity": 500,
+   "auto_vote": 7.1,
+   "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": null,
+   "followers": 30886,
    "ig_guessed": "2026-11-23",
+   "instagram": "thanka.official",
    "km": 5.0,
    "lat": 45.68725,
    "lon": 9.73905,
@@ -12581,7 +12870,8 @@
     "google"
    ],
    "type": "club",
-   "website": "https://www.thanka.it/"
+   "website": "https://www.thanka.it/",
+   "website_checked": true
   },
   "the alchemist bar bergamo": {
    "address": "Via Borgo Santa Caterina, 34/B, 24124 Bergamo BG",
@@ -12858,6 +13148,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-23",
    "km": 5.0,
    "lat": 45.68725,
    "lon": 9.73905,
@@ -13007,6 +13298,8 @@
    "lat": 45.66136,
    "lon": 9.6685,
    "name": "via Palestro 14, Milano",
+   "removed": false,
+   "search_checked": "2026-11-23",
    "sources": [
     "eventi"
    ],
@@ -13024,6 +13317,7 @@
    "lat": 45.48399,
    "lon": 9.17538,
    "name": "Via Procaccini 4, Milano",
+   "removed": false,
    "sources": [
     "eventi"
    ],
@@ -13083,6 +13377,8 @@
    "lat": 45.70921,
    "lon": 9.68083,
    "name": "Viale Emilio Alemagna 6, Milano",
+   "removed": false,
+   "search_checked": "2026-11-23",
    "sources": [
     "eventi"
    ],
@@ -13211,6 +13507,7 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
    "followers": null,
+   "ig_guessed": "2026-11-23",
    "km": 6.4,
    "lat": 45.66899,
    "lon": 9.74847,

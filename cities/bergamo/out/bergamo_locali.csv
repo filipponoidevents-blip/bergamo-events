@@ -9,7 +9,7 @@ Bar Arkadia Bergamo;bar;Via Foro Boario, 13, 24121 Bergamo BG;;0.6;;;100;stima;;
 Caffe Degli Artisti;bar;Via San Tomaso, 70, 24126 Bergamo BG;;0.6;;;100;stima;;1.7;google
 delleAli Teatro;live_club;;Bergamo;0.6;delleali_teatro;2375;300;stima;;4.2;instagram
 Teatro Donizetti;bar;Piazza Cavour 15, Bergamo;Bergamo;0.6;;;100;stima;;1.7;eventi
-Teatro Miela;live_club;;Bergamo;0.6;teatromiela_trieste;7934;500;stima;;5.2;instagram
+Teatro Miela;live_club;;Bergamo;0.6;teatromiela_trieste;7937;500;stima;;5.2;instagram
 Via Borgo Santa Caterina, 1a;bar;Via Borgo Santa Caterina, 1a, 24124 Bergamo BG;;0.6;;;100;stima;;1.7;eventi
 Ai Giardini;bar;Piazza della Repubblica, 2, 24122 Bergamo BG;;0.7;;;100;stima;;1.7;google
 CULT! Diffusione culturale - Auditorium di Piazza della Liberta;live_club;Via Norberto Duzioni, 2, 24121 Bergamo BG;;0.7;;;400;stima;;3.5;google
@@ -43,6 +43,7 @@ ChorusLife Arena;arena;Via Carlo Serassi, 26, Bergamo;Bergamo;1.2;choruslife.ber
 P40 Lounge Bar;bar;Piazza Pontida, 40, 24122 Bergamo BG;;1.2;bar_p40;2449;50;stima;;2.1;google
 Tassino Cafe;bar;Largo Nicolò Rezzara, 6, 24122 Bergamo BG;;1.2;tassinocafe;4101;100;stima;3;1.7;google
 Viale Emilio Alemagna 6, Milano;bar;Viale Emilio;Bergamo;1.2;;;100;stima;;1.7;eventi
+Bloom from Seoul | Skincare Coreana Bergamo;bar;Via Broseta, 17, 24122 Bergamo BG;;1.3;;;100;stima;;1.7;eventi
 Circolo Culturale G. Greppi;live_club;Via Gianbattista Moroni, 25, 24122 Bergamo BG;;1.3;;;400;stima;;3.5;google
 MAJORELLE LOUNGE BAR & NARGHILE;bar;Via Monte Cenisio, 17, 24121 Bergamo BG;;1.3;;;100;stima;;1.7;google
 Ombra - Miscelazione, Piattini e Vini Naturali;bar;Via Broseta, 5, 24122 Bergamo BG;;1.3;ombra_bergamo;4130;50;stima;;2.4;google
@@ -54,7 +55,7 @@ MAITE;live_club;Vicolo Sant'Agata, 6, 24129 Bergamo BG;;1.4;;;400;stima;;3.5;goo
 Sala Piatti;bar;Via S. Salvatore, 11, Bergamo;Bergamo;1.4;;;100;stima;;1.7;eventi, google
 Door 74;bar;;Bergamo;1.5;door_74;18879;150;stima;;4.1;instagram
 Glamour Cafe;bar;Via Don Luigi Palazzolo, 74, 24122 Bergamo BG;;1.5;;;100;stima;;1.7;google
-Il Circolino della Malpensata;bar;Via Luigi Luzzatti, 6b, 24126 Bergamo BG;;1.5;circolinomalpensata_bergamo;2933;100;stima;3;1.7;google
+Il Circolino della Malpensata;bar;Via Luigi Luzzatti, 6b, 24126 Bergamo BG;;1.5;circolinomalpensata_bergamo;2933;100;stima;3;1.7;google, eventi
 Mamo's;bar;V. Evaristo Baschenis, 13, 24122 Bergamo BG;;1.5;mamos.bg;;100;stima;;1.7;google
 Zero Club;club;V. Evaristo Baschenis, 9, 24122 Bergamo BG;;1.5;zeroclub.bg;20834;500;stima;7;6.7;google
 Beach Bar;bar;Via Palma Il Vecchio, 18 a, 24128 Bergamo BG;;1.6;;;100;stima;;1.7;google
@@ -69,10 +70,10 @@ Lazzaretto;open_air;Piazzale Goisis 6, Bergamo;Bergamo;1.7;lazzaretto_bergamo_es
 Edone;live_club;Via Agostino Gemelli, 17, 24124 Bergamo BG;;1.8;edonebergamo;29981;{'summer': 3000, 'winter': 100};stima;5;4.5;google
 Lounge Bar The Bliss;bar;Via Giovanni Carnovali, 80, 24126 Bergamo BG;;1.8;;;100;stima;;1.7;google
 Bar Savoy;bar;Via S. Bernardino, 107, 24126 Bergamo BG;;2.2;;;100;stima;;1.7;google
-Gres Art 671;live_club;Via San Bernardino 141, Bergamo;Bergamo;2.2;gres_art_671;21338;2000;;5;;conoscenze
 Citta Dei Mille - Restaurant & Lounge;club;Via Martinella, 3, 24124 Torre Boldone BG;;2.3;;;500;stima;;4.1;google
 Bar Class;bar;Via Pizzo di Redorta, 20h, 24125 Bergamo BG;;2.5;;;100;stima;;1.7;google
 Bar H;bar;Via Giosuè Carducci, 452, 24127 Bergamo BG;;2.5;barh_lounge;;100;stima;;1.7;google
+Gres Art 671;live_club;Via San Bernardino 141, Bergamo;Bergamo;2.6;gres_art_671;21338;2000;stima;5;1.7;eventi
 Into the Woods;bar;Via Ugo Foscolo, 10, 24020 Torre Boldone BG;;2.6;intothewoodsbg;33171;200;stima;3;4.6;google
 O'Dea's Irish Pub;bar;Via Borgo Palazzo, 211, 24125 Bergamo BG;;2.6;;;100;stima;;1.7;google
 Sottovoce Speakeasy;bar;Via Canove, 1, 24126 Bergamo BG;;2.6;;;100;stima;;1.7;google
@@ -96,6 +97,7 @@ Bono' s bar;bar;Viale Trieste, 24052 Azzano San Paolo BG;;4.0;;;100;stima;;1.7;g
 Cafe Noir Lounge;bar;Cafè Noir, Via G.Tadino, 4 H, 24127 Bergamo BG;;4.0;cafe_noir_bg;4521;100;stima;;3.0;google
 Cafeteria;bar;Viale Europa, 32, 24048 Treviolo BG;;4.0;cafeteriatreviolo;5433;100;stima;3;1.7;google
 CAPOLINEA EAT DRINK RELAX;bar;Strada al Mulino, 1, 24129 Bergamo BG;;4.0;capolinea_eat.drink.relax;1380;50;stima;;1.8;google
+ALLA BASE pizza & delivery;bar;VIA MORONI, 1, 24010 Ponteranica BG;;4.1;;;100;stima;;1.7;eventi
 Bar Le Torrette;bar;Via Guglielmo Marconi, 37, 24020 Ranica BG;;4.2;;;100;stima;;1.7;google
 Garota De Ipanema;club;Via Enrico Fermi, 56, 24035 Curno BG;;4.2;garotadeipanemaa;;300;stima;6;4.1;google
 via Palestro 14, Milano;bar;via Palestro 14;Azzano San Paolo;4.2;;;100;stima;;1.7;eventi
@@ -122,7 +124,7 @@ Barrito;bar;Via Guglielmo Marconi, 43, 24010 Sorisole BG;;5.0;il_barrito;1316;50
 Divina Music Bar;club;Via Azzano San Paolo 71d, 24050, Grassobbio;Grassobbio;5.0;divinabergamo;17168;950;stima;;6.6;osm, google
 Keller Factory 2.0 - Live Music Pub;bar;Via Bergamo, 32, 24035 Curno BG;;5.0;kellerfactory_;7360;400;stima;3;3.5;google
 Re Caffe Scudeletti;bar;Via Provinciale, 3, 24040 Lallio BG;;5.0;;;100;stima;;1.7;google
-THANKA;club;Via Nazionale, 93, 24068 Seriate BG;;5.0;thanka.official;30886;1000;stima;6;4.1;google
+THANKA;club;Via Nazionale, 93, 24068 Seriate BG;;5.0;thanka.official;30886;1000;stima;6;7.1;google
 Tiky Klub;club;Via Nazionale, 93, 24068 Seriate BG;;5.0;tiky.klub;1002;300;stima;6;4.1;google
 UFO Live;live_club;Via dell'Industria 4, Mozzo;Mozzo;5.2;ufo.spacezone51;3825;200;;5;;conoscenze
 Rock sul Serio;live_club;Piazza Mercato, 24020 Villa di Serio BG;;5.3;rocksulserio;6113;450;stima;;5.0;google
@@ -149,11 +151,11 @@ Alborghetti Events | musica e intrattenimento;live_club;Via Raffaello Sanzio, 45
 Briolo Caffe | winebar con cucina;bar;Via L. Da Vinci, 48, 24030 Valbrembo BG;;6.8;briolocaffe;;100;stima;;1.7;google
 Discoteca Cascina Due Torri;club;Via Guzzanica, 41, 24044 Stezzano BG;;6.8;;;500;stima;;4.1;google
 Gemp Lounge Bar;bar;Via Roma, 12A, 24011 Almè BG;;6.9;;;100;stima;;1.7;google
-Il Pirata Pub;bar;Via Papa Giovanni XXIII, 75, 24011 Almè BG;;6.9;ilpiratapub;1924;50;stima;;2.0;google
+Il Pirata Pub;bar;Via Papa Giovanni XXIII, 75, 24011 Almè BG;;6.9;ilpiratapub;1925;50;stima;;2.0;google
 Niniva Risto Lounge Bar;club;Via Milano, 42A, 24011 Almè BG;;6.9;ninivaloungebar;2733;350;stima;;4.8;google
 Pasticceria Bardoni;bar;L.go Pablo Picasso, 1, 24030 Paladina BG;;6.9;bardoni_pasticceria;1903;50;stima;;2.0;google
 DROP - Dalmine;bar;Via Provinciale, 58, 24044 Dalmine BG;;7.5;;;100;stima;;1.7;google
-JClub;club;Via Guglielmo Marconi, 23/B, 24036 Ponte San Pietro BG;;7.5;jclubbergamo;14751;850;stima;;6.4;google
+JClub;club;Via Guglielmo Marconi, 23/B, 24036 Ponte San Pietro BG;;7.5;jclubbergamo;14747;850;stima;;6.4;google
 Ritrovo Brasil;club;Via Guglielmo Marconi, 6, 24036 Ponte San Pietro BG;;7.5;;;500;stima;;4.1;google
 Bar Marconi C.P. Di Cinesi Patrizia Snc;bar;Largo Guglielmo Marconi, 8, 24060 Brusaporto BG;;7.6;;;100;stima;;1.7;google
 Limbo Lounge Bar | Caffetteria, Pizzeria, Ristorante;bar;Via IV Novembre, 10, 24030 Brembate di Sopra BG;;7.9;limbo_bar.ristorante.pizzeria;962;50;stima;;1.6;google
@@ -163,11 +165,10 @@ MG2 Pasticceria Caffetteria;bar;Via IV Novembre, 14, 24030 Brembate di Sopra BG;
 2.0 Caffetteria & Lounge Bar;bar;V. XXV Aprile, 16, 24030 Almenno San Bartolomeo BG;;8.1;;;100;stima;;1.7;google
 Auditorium Modernissimo;bar;Piazza Libertà, Nembro;Nembro;8.1;;;100;stima;;1.7;eventi
 Teatro Sala della Comunita , viale Betelli, 1, Dalmine (Bg);bar;viale Betelli, 1;Dalmine;8.1;;;100;stima;;1.7;eventi
-Biblioteca Civica Rita Levi Montalcini;bar;Piazza Giacomo Matteotti, 6, 24044 Dalmine BG;;8.4;;;100;stima;;1.7;eventi
 Il dolce forno di ALE & JAC;bar;Via Vittorio Veneto, 929, 24030 Presezzo BG;;8.5;;;100;stima;;1.7;google
 Capriccio Patisserie;bar;Via Vittorio Veneto, 1073, 24030 Presezzo BG;;8.7;;;100;stima;;1.7;google
 Bar Pasticceria Dolci sogni;bar;Via Antonio Locatelli, 7a, 24027 Nembro BG;;8.8;dolcisogni_coop;652;50;stima;;1.4;google
-Bobadilla Feeling Club;club;Via Pascolo, 34, 24044 Dalmine BG;;9.1;bobadillafeelingclub;31641;500;stima;6;7.1;osm, google
+Bobadilla Feeling Club;club;Via Pascolo, 34, 24044 Dalmine BG;;9.1;bobadillafeelingclub;31651;500;stima;6;7.1;osm, google
 OASI;club;;Dalmine;9.1;oasi.night;511;300;stima;;3.7;instagram
 Bolgia;club;Via Vaccarezza 8;;9.2;bolgia.official;124984;3000;stima;10;7.8;osm, google
 INDIE POWER;bar;;Dalmine;9.2;indiepower_official;92070;200;stima;;5.2;instagram
@@ -177,7 +178,7 @@ Ama Club;club;Via Provinciale, 166, 24059 Urgnano BG;;9.5;amabergamo;8579;650;st
 Chiesa Parrochiale di Santa Maria, Dalmine (BG);bar;;Dalmine;9.7;;;100;stima;;1.7;eventi
 Bar La Dogana;bar;Via Piave, 7A, 24030 Strozza BG;;9.8;;;100;stima;;1.7;google
 Losa Break Lab;bar;Via Briantea, 1A, 24030 Ambivere BG;;9.8;;;100;stima;;1.7;google
-Oronero;club;Via Case Sparse Europa 15, 24027, Nembro;Nembro;10.1;oroneroloveandmusic;7813;400;stima;6;5.9;osm, google
+Oronero;club;Via Case Sparse Europa 15, 24027, Nembro;Nembro;10.1;oroneroloveandmusic;7815;400;stima;6;5.9;osm, google
 Dama Pasticceria Forneria Caffetteria;bar;Via S. Martino, 3, 24020 Pradalunga BG;;10.2;;;100;stima;;1.7;google
 Towers' Cafe;bar;Via Marco Biagi, 93, 24030 Terno D'isola BG;;10.2;;;100;stima;;1.7;google
 Two Festival;open_air;Parco di Prada, Mapello;Mapello;10.2;twofestival;2950;;;6;;conoscenze
@@ -187,7 +188,7 @@ Estafestarock;live_club;24060 Montello BG;;10.6;estafestarock;1380;250;stima;;3.
 Libera La Festa;live_club;Via Circonvallaz. Nord, 24040 Osio Sopra BG;;10.6;;;400;stima;;3.5;google
 Delizie - Croissanteria, Gelateria, Pasticceria, Cocktail Bar;bar;Via Piemonte, 105, 24059 Urgnano BG;;10.7;;;100;stima;;1.7;google
 Joe Koala;bar;Via Leonardo Da Vinci, 35, 24040 Osio Sopra BG;;10.7;;;100;stima;;1.7;google
-Cremeria delle valli;bar;Via Mazzini, 61, 24019 Zogno BG;;10.8;cremeria_dellevalli;4685;100;stima;;3.0;google
+Cremeria delle valli;bar;Via Mazzini, 61, 24019 Zogno BG;;10.8;cremeria_dellevalli;4686;100;stima;;3.0;google
 DAUDA CAFE;bar;Via Roma, 66, 24030 Terno d'Isola BG;;10.8;;;100;stima;;1.7;google
 Pasticceria Melograno Urgnano;bar;Via C. Colombo, 271, 24059 Urgnano BG;;10.8;pasticceriamelograno;17062;150;stima;;4.0;google
 Bar Marika;bar;Corso Milano, 17, 24020 Selvino BG;;10.9;;;100;stima;;1.7;google
@@ -241,7 +242,7 @@ Societa Operaia del Mutuo Soccorso;live_club;Piazza Santo Stefano, 2, 20056 Trez
 Comics Bar - Craft Beers;bar;Via A. Locatelli, 32, 24057 Martinengo BG;;15.8;;;100;stima;;1.7;google
 Nikita;club;Via dei Morenghi 2, 24064, Grumello del Monte;Grumello del Monte;15.8;nikita__land;25662;1000;stima;7;6.9;osm, google
 Moon Cafe;bar;Piazza Castello, 17, 24040 Castel Rozzone BG;;16.4;;;100;stima;;1.7;google
-Live Club;live_club;Via Giuseppe Mazzini 58, 20056, Trezzo sull'Adda;Trezzo sull'Adda;16.6;liveclub;33510;2500;stima;8;7.1;osm
+Live Club;live_club;Via Giuseppe Mazzini 58, 20056, Trezzo sull'Adda;Trezzo sull'Adda;16.6;liveclub;33519;2500;stima;8;7.1;osm
 LOUNGE BAR VERONICA;bar;Via A. Gavazzi, 13, 24040 Pontirolo Nuovo BG;;16.7;;;100;stima;;1.7;google
 Posto Fisso Cocktail Bar;bar;Via Marinai, 8, 24050 Palosco BG;;17.0;bar_posto_fisso;;100;stima;;1.7;google
 Zoom Cafe;bar;Via Vittorio Emanuele II, 1123, 24033 Calusco d'Adda BG;;17.0;;;100;stima;;1.7;google
@@ -267,7 +268,7 @@ Mais - Pasticceria Gelateria Caffetteria;bar;Via Italia, 48, 20874 Busnago MB;;1
 Discoteca Dal Randa;club;Via Pasturana, 24047 Geromina BG;;19.6;;;500;stima;;4.1;google
 Circolo Cooperativo A.R.C.A. Di Ricreazione E Cultura Soc. Coop. A R.L;live_club;Piazza 26 Aprile, n1, 25037 Pontoglio BS;;19.7;;;400;stima;;3.5;google
 HYPE Club;club;Via Giosuè Carducci, 2, 24050 Cortenuova BG;;19.7;hype.club.official;24454;500;stima;6;4.1;google
-Bloom;club;Via Eugenio Curiel, 39, 20883 Mezzago MB;Mezzago;19.8;bloom_mezzago;16359;900;stima;;6.5;google, instagram
+Bloom;club;Via Eugenio Curiel, 39, 20883 Mezzago MB;Mezzago;19.8;bloom_mezzago;16365;900;stima;;6.5;google, instagram
 Circolo Fratellanza Casnigo;bar;;Casnigo;19.8;circolofratellanza;834;50;stima;;1.5;instagram
 Societa di Mutuo Soccorso Circolo Fratellanza;live_club;Via Trento, 10, 24020 Casnigo BG;;19.8;;;400;stima;;3.5;google
 The First Caffe Gintoneria & Cocktail bar;bar;Via Mons.E.Bignamini, 1, 24047 Treviglio BG;;19.8;;;100;stima;;1.7;google
@@ -285,7 +286,7 @@ Drink Responsibly Club: The Pub;bar;Via Nazionale, 38, 24060 Spinone al Lago BG;
 La Capannina;live_club;;;20.3;;;400;stima;;3.5;osm
 Dama lounge bar;bar;Via Duca D'Aosta, 24058 Romano di Lombardia BG;;20.4;bar.dama;550;50;stima;;1.3;google
 Giancarlo;bar;Via Monsignor Ambrogio Portaluppi, 75, 24047 Treviglio BG;;20.4;;;100;stima;;1.7;google
-Sweetandsour;live_club;Via Marco Biagi, 20060 Pozzo d'Adda MI;;20.5;;;400;stima;;3.5;google
+Sweetandsour;live_club;Via Marco Biagi, 20060 Pozzo d'Adda MI;;20.5;legal;;400;stima;;3.5;google
 Al Tabarin;bar;Via Balilla 163, Romano di Lombardia;Romano di Lombardia;20.5;al_tabarin;728;;;3;;conoscenze
 EGO BAR CAFFE&LOUNGE DRINK;bar;Via G. Verdi, 15, 24060 Villongo BG;;20.6;;;100;stima;;1.7;google
 Jammin Vinyl Bar;bar;Piazzetta Tullio e Ildebrando Santagiuliana, 2, 24047 Treviglio BG;;20.6;;;100;stima;;1.7;google
@@ -321,7 +322,7 @@ Castle Rock Pub;bar;Via S. Gerolamo, 16, 23808 Vercurago LC;;23.0;;;100;stima;;1
 Champagne Club Snc Di Maccario Piero & C;club;Via Milano, 32, 20062 Cassano d'Adda MI;;23.0;;;500;stima;;4.1;google
 Rin'z Lounge;bar;Piazzale Pietro Gobetti, 20062 Cassano d'Adda MI;;23.0;;;100;stima;;1.7;google
 Cordiale American Bar;bar;Viale Giovanni XXIII, 27, 24043 Caravaggio BG;;23.3;;;100;stima;;1.7;google
-Gliss adro;bar;Via Provinciale, 46c, 25030 Adro BS;;23.4;ninespace.villongo;1365;50;stima;;1.8;google
+Gliss adro;bar;Via Provinciale, 46c, 25030 Adro BS;;23.4;ninespace.villongo;1359;50;stima;;1.8;google
 Mocambo Art Music Bar;bar;Via Marchesi, 16, 20065 Inzago MI;;23.4;;;100;stima;;1.7;google
 CLUB 369 MILANO;club;Via Grigna, 17, 20866 Carnate MB;;23.6;;;500;stima;;4.1;google
 Alpino;bar;Viale Rimembranze, 21, 24040 Casirate D'adda BG;;24.0;pasticceria_alpino;1647;50;stima;;1.9;google
@@ -336,9 +337,9 @@ Disco Kiss;club;Via G.Marconi, 10, 24051 Antegnate BG;;25.0;;;500;stima;;4.1;goo
 Fashion Antegnate;club;Via G.Marconi, 8, 24051 Antegnate BG;;25.0;;;500;stima;;4.1;google
 Hype Back Garden;club;Via Brescia, 24051 Antegnate BG;;25.0;;;500;stima;;4.1;google
 PIAZZA GHIAIA PARMA;bar;PIAZZA GHIAIA;Bergamo;27.7;;;100;stima;;1.7;eventi
-Parco pubblico - Martiri della Liberta Iracheni Vittime del Terrorismo;bar;Via Valtorta, 20127 Milano MI;;41.0;;;100;stima;;1.7;eventi
+Parco pubblico - Martiri della Liberta Iracheni Vittime del Terrorismo;bar;Via Valtorta, 20127 Milano MI;;41.0;comune_milano;160138;200;stima;;5.2;eventi
 Fabrique;live_club;;Milano;44.3;;;3000;;10;;conoscenze
-RNLT Milano Corso Garibaldi - Renord;bar;Corso Garibaldi, 73, 20121 Milano MI;;45.7;;;100;stima;;1.7;eventi
+RNLT Milano Corso Garibaldi - Renord;bar;Corso Garibaldi, 73, 20121 Milano MI;;45.7;renault_italia;121477;200;stima;;5.2;eventi
 Via Procaccini 4, Milano;bar;Via Procaccini 4;Milano;45.8;;;100;stima;;1.7;eventi
 Magazzini Generali;club;;Milano;46.8;;;;;10;;conoscenze
 Ippodromo SNAI San Siro;open_air;;Milano;49.5;;;20000;;10;;conoscenze
@@ -346,4 +347,4 @@ Inari Sushi Garbagnate;bar;Via Leonardo da Vinci, 29, 20024 Garbagnate Milanese 
 Spazio Teatro 89;live_club;;Milano;50.9;spazioteatro89;4766;400;stima;;4.8;instagram
 A21 Ristopizza;bar;Str. per Leno, 7, 25025 Manerbio BS;;53.2;a21ristopizza;2295;50;stima;;2.1;eventi
 Dove: AL Colle HUB sociale (Via Ripa, 62, Bruntino - Villa d;bar;Via Ripa, 62;Scandolara Ripa d'Oglio;65.1;;;100;stima;;1.7;eventi
-Daste Bergamo;live_club;;;;daste_bergamo;21348;400;;5;;conoscenze
+Daste Bergamo;live_club;;;;daste_bergamo;21355;400;;5;;conoscenze
