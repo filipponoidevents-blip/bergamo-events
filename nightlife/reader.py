@@ -422,16 +422,15 @@ class Reader:
         month_ref = ref if ref.day <= 20 else (ref.replace(day=1) + timedelta(days=32)).replace(day=1)
         out = []
         def emit(d: date, what: str, conf: float):
-            names = [n for n in re.split(r"\s*(?:\+|,|&|/)\s*", what) if n.strip()]
-            # "cromaroom + Bar Florio": un nome senza profilo e non conosciuto è un ospite della serata, non un'altra sala
-            names = names[:1] + [n for n in names[1:] if self.handles(n) or self.city.promoter_in_text(norm(n))]
+            names = [n for n in re.split(r"\s*(?:\+|,|&|/)\s*", what) if n.strip()]   # "cromaroom + Bar Florio": due sale (main e club room)
             for i, n in enumerate(names):
                 hs = self.handles(n)
                 prom = self.city.promoter(hs[0]) if hs else self.city.promoter_in_text(norm(n))
                 out.append({
                     "date": d.isoformat(), "start": None, "end": None, "late_end": False, "venue": acc_venue["name"], "venue_known": True, "address": None,
                     "room": None if len(names) == 1 else ("main room" if i == 0 else "club room"),
-                    "party": (prom.get("party_name") or prom["name"]) if prom else clean_name(n).title(), "promoter": prom.get("instagram") if prom else (hs[0] if hs else None),
+                    # scritto col profilo (cromaroom) -> nome della serata del promoter; scritto per nome (Bar Florio) -> resta quel nome
+                    "party": ((prom.get("party_name") or prom["name"]) if hs else clean_name(n)) if prom else clean_name(n).title(), "promoter": prom.get("instagram") if prom else (hs[0] if hs else None),
                     "promoter_name": prom["name"] if prom else None, "guests": [], "genre": None, "type": "dj set", "entry": None, "price": None, "tickets": None,
                     "handles": hs, "confidence": conf, "source": source, "account": account, "url": url, "posted": ref.isoformat(), "text": f"{what} (programma del mese)", "programme": True,
                 })
