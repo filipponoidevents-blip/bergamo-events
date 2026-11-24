@@ -88,6 +88,9 @@ def import_v1(city: City, old: Path) -> tuple[str, dict]:
             p["genre"], p["genre_always"] = ga[name], True
         elif name in gv:
             p["genre"] = gv[name]
+        elif v.get("genres") and v.get("kind") == "club":   # Bolgia: [techno, hard techno, ...] -> Techno
+            g = str(v["genres"][0]).title()
+            p["genre"] = {"Commercial": "Commerciale", "Electronic": "Elettronica", "Latin": "Latino"}.get(g, g)
         if v.get("category") == "ballo_da_sala":
             p["category"] = "ballo da sala"
         if v.get("in_posts") is False:

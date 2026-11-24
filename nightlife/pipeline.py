@@ -255,6 +255,8 @@ def build(city: City, raws: list[dict], online: bool = True) -> tuple[list[dict]
                     break
         fam = family_of(city, genre)
         typ = (v or {}).get("category") or ev.get("type") or ("dj set" if (v or {}).get("type") == "club" or prom or ev["guests"] else "evento")
+        if typ in ("dinner show", "aperitivo", "evento") and (v or {}).get("type") == "club" and genre and family_of(city, genre) != list(city.settings["genre_families"])[-1]:
+            typ = "dj set"   # "cena + dj" in discoteca (Setai, Maison Grove): è una serata
         fascia, why = fascia_of(city, {**ev, "type": typ}, v, big)
         show_guest = top_guest and (top_guest["level"] or (fam != "Commerciale" and (top_guest.get("cue") or top_guest["score"] > 0)))
         headliner = ev.get("headliner") or (top_guest["name"] if show_guest else None)
