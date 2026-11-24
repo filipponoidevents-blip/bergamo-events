@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-24T13:53",
+ "generated": "2026-11-24T15:07",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -219,6 +219,14 @@
      }
     ],
     "2026-11-28": [
+     {
+      "line1": "Cheri @ Capogiro",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 45.6,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
      {
       "line1": "Enter the Void @ Nikita",
       "line2": "Commerciale 360",
@@ -431,6 +439,14 @@
      "family": "Hip Hop / Trap"
     },
     {
+     "line1": "utōpia @ Tassino Cafe",
+     "line2": "Melodic House",
+     "time": "00:00",
+     "score": 54.2,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Savana Funk @ Druso",
      "line2": "Disco / Rock",
      "time": "00:00",
@@ -612,7 +628,9 @@
    "@csapacipaciana",
    "@nikita__land",
    "@vibetheclub",
+   "@utopia.direction",
    "@mint_lounge",
+   "@cheri.it",
    "@liveclub",
    "@bloom_mezzago",
    "@spike.hellis",
@@ -623,9 +641,7 @@
    "@officinapanarari",
    "@gres_art_671",
    "@associazione_luca_coscioni",
-   "@uaar_it",
-   "@please.nights",
-   "@reverie__night"
+   "@uaar_it"
   ],
   "hashtags": [
    "#bergamo",
@@ -1166,6 +1182,14 @@
     ],
     "2026-11-28": [
      {
+      "line1": "Cheri @ Capogiro",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 45.6,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
       "line1": "Enter the Void @ Nikita",
       "line2": "Commerciale 360",
       "time": "00:00",
@@ -1655,6 +1679,14 @@
      "score": 60.7,
      "fascia": "preserata",
      "family": "Hip Hop / Trap"
+    },
+    {
+     "line1": "utōpia @ Tassino Cafe",
+     "line2": "Melodic House",
+     "time": "00:00",
+     "score": 54.2,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "Savana Funk @ Druso",

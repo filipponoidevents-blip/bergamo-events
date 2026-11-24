@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T13:53",
+ "generated": "2026-11-24T15:07",
  "nights": [
   {
    "date": "2026-11-24",
@@ -137,14 +137,14 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 9,
-   "load": 370.5,
+   "events": 10,
+   "load": 416.1,
    "level": "piena",
-   "capacity_taken": 7050,
+   "capacity_taken": 7650,
    "by_family": {
     "House / Elettronica": 5,
     "Hip Hop / Trap": 0,
-    "Commerciale": 2,
+    "Commerciale": 3,
     "Altro": 2
    },
    "missing_families": [
@@ -162,6 +162,11 @@
      "capacity": 3000
     },
     {
+     "title": "[Commerciale] Capogiro · Cheri",
+     "score": 45.6,
+     "capacity": 600
+    },
+    {
      "title": "[Commerciale 360] Nikita · Enter the Void",
      "score": 43.0,
      "capacity": 1000
@@ -169,11 +174,6 @@
     {
      "title": "[House] Zero Club · Fuse All Night: Cuartero",
      "score": 39.9,
-     "capacity": 500
-    },
-    {
-     "title": "[Commerciale] HYPE Club · Lova",
-     "score": 37.3,
      "capacity": 500
     }
    ]
