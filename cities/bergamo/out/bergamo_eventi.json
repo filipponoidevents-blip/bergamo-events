@@ -366,14 +366,14 @@
   "km": 0.0,
   "venue_instagram": "bucheesebar",
   "venue_type": "bar",
-  "venue_followers": 6843,
+  "venue_followers": 6842,
   "capacity": null,
   "capacity_source": null,
   "room": null,
   "entry": null,
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912606898_18580727230074158_2202457044101304821_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xZEUSQWxK-UQ7kNvwGQPb0i&_nc_oc=Ado1RixpuPlnkhF8lqfhHhcHAwa3ymc69FjREuLJwxxoalkq0UqNnYEkh_Gx-jmbSaM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=pSrzewABhe6fAx40LYaRSg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTmFMEren9rbzsm4JqPHDJL4GDMVtvBPyXgv0av6P56eA&oe=6B0A697D",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/912606898_18580727230074158_2202457044101304821_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xZEUSQWxK-UQ7kNvwGWjUmH&_nc_oc=AdqdPRGnRtQEvDiz_dw3BYYd4RJb2q80j5S7BIHIzro8OPlnFGnkMfTGiLd53rchymw&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ApphVpOQg8M-xXvn5emAxQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTgQQWmfilchcjAUChAkQcnHY1lWkAVQVvGTQ3pZ7gNvw&oe=6B0B4A7D",
   "score": 39.7,
   "score_parts": {
    "promoter": 0.0,
@@ -633,14 +633,14 @@
   "genre": null,
   "genre_source": null,
   "family": "Altro",
-  "venue": "Gres Art 671",
+  "venue": "gres art 671",
   "venue_known": true,
-  "address": "Via San Bernardino 141, Bergamo",
-  "city": "Bergamo",
+  "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+  "city": null,
   "km": 2.6,
   "venue_instagram": "gres_art_671",
   "venue_type": "live_club",
-  "venue_followers": 21341,
+  "venue_followers": 21346,
   "capacity": 2000,
   "capacity_source": "stima",
   "room": null,
@@ -846,7 +846,7 @@
    "events_same_night": 2,
    "same_family": 1,
    "capacity_same_night": 2400,
-   "strongest_rival": "Anna @ Gres Art 671"
+   "strongest_rival": "Anna @ gres art 671"
   },
   "first_seen": "2026-11-20",
   "status": "pubblicato"
@@ -919,13 +919,13 @@
    "events_same_night": 2,
    "same_family": 1,
    "capacity_same_night": 2500,
-   "strongest_rival": "Anna @ Gres Art 671"
+   "strongest_rival": "Anna @ gres art 671"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {
-  "id": "2026-11-25-nxt_station",
+  "id": "2026-11-25-nxt_bergamo",
   "date": "2026-11-25",
   "weekday": "mercoledì",
   "start": null,
@@ -969,11 +969,11 @@
   "genre": "Jazz",
   "genre_source": "post",
   "family": "Altro",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -1014,7 +1014,7 @@
    "capacity_same_night": 1000,
    "strongest_rival": "Gigi D’Alessio @ ChorusLife Arena"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -1077,9 +1077,74 @@
    "events_same_night": 4,
    "same_family": 4,
    "capacity_same_night": 1800,
-   "strongest_rival": "Possibilita @ NXT Station"
+   "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "first_seen": "2026-11-18",
+  "status": "pubblicato"
+ },
+ {
+  "id": "2026-11-25-daste-pre",
+  "date": "2026-11-25",
+  "weekday": "mercoledì",
+  "start": "19:30",
+  "end": null,
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 19:30",
+  "scope": "zona",
+  "type": "aperitivo",
+  "nightlife": true,
+  "party": "Incensi",
+  "promoter_name": null,
+  "promoter_instagram": null,
+  "promoter_followers": null,
+  "headliner": null,
+  "guests": [],
+  "genre": null,
+  "genre_source": null,
+  "family": "Altro",
+  "venue": "Daste",
+  "venue_known": true,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
+  "venue_instagram": "daste_bergamo",
+  "venue_type": "live_club",
+  "venue_followers": 21365,
+  "capacity": 400,
+  "capacity_source": "conoscenze",
+  "room": null,
+  "entry": "a pagamento",
+  "price": 40,
+  "tickets": null,
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/909639991_18110430437579285_4862264301499313660_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FqHnyiTqxAMQ7kNvwH8Qsxb&_nc_oc=AdrdIVrwN809hveNKOY1ReB7M2nuL4ONPz4jpSa4YIHBtDKb4zhZOJ_Rzo9ok_pl-iM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSET32yKMbhiWjjtMglKT82CgMXuXaj56h9z4LGs0wOIw&oe=6B0B1329",
+  "score": 53.0,
+  "score_parts": {
+   "promoter": 0.0,
+   "distance": 9.6,
+   "capacity": 5.1,
+   "venue_followers": 7.1
+  },
+  "confidence": 0.9,
+  "sources": [
+   "instagram-locale"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/Df4YaY9M8pC/"
+  ],
+  "handles": [],
+  "posted": "2026-11-18T11:19+00:00",
+  "lead_days": 7,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "rank_in_night": 3,
+  "competition": {
+   "events_same_night": 4,
+   "same_family": 4,
+   "capacity_same_night": 1600,
+   "strongest_rival": "Possibilita @ NXT Bergamo"
+  },
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -1116,14 +1181,14 @@
   "km": 5.0,
   "venue_instagram": "kellerfactory_",
   "venue_type": "bar",
-  "venue_followers": 7367,
+  "venue_followers": 7369,
   "capacity": 400,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": null,
   "tickets": "https://www.newkeller.it/prenota-ora",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/886794415_18573469012074567_5701643518193418382_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=PEERI34vjZUQ7kNvwFYTIAV&_nc_oc=AdovJd2Y0c6avFXLWYeDlKEnKNcBFcOF-zFjq7uTJrT0RvsFLeT9ocK_cSTBGXZWzRQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gn08AHV4AhTcOMriRvNZtg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSXQaymrxDbc3yRv5pFLDolE7YXAZ5IFBplWQQ0bpF5RA&oe=6B0A3F3E",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/886794415_18573469012074567_5701643518193418382_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jgfeBnXQWQcQ7kNvwHW9gYt&_nc_oc=AdoE2BnqbTx7Qw5vIvQCga_LOwETMXmBp6ME1esOj0xaIK1DRaB5DU7dt8QrlNUBlpI&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=yUN27CFE5JTn8FaALogdsQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRW0BukBsxAmInTvh_83I6AOJTf-qgzvb5rg8edAGtokA&oe=6B0B587E",
   "score": 42.9,
   "score_parts": {
    "promoter": 0.0,
@@ -1148,12 +1213,12 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 3,
+  "rank_in_night": 4,
   "competition": {
    "events_same_night": 4,
    "same_family": 4,
    "capacity_same_night": 1600,
-   "strongest_rival": "Possibilita @ NXT Station"
+   "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -1204,14 +1269,14 @@
   "km": 3.0,
   "venue_instagram": "csapacipaciana",
   "venue_type": "live_club",
-  "venue_followers": 13846,
+  "venue_followers": 13855,
   "capacity": null,
   "capacity_source": null,
   "room": null,
   "entry": "a pagamento",
   "price": 5,
   "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/856673459_18649597285056454_1194042451790293394_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LZMah-hzGfsQ7kNvwFdpkYs&_nc_oc=AdoayF061aW5JWJhtSIadyo0V3X9xBiV5DdPFoUsy4GXECLojxEiG03bwvl5cnv2CWE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Q8Xf652hfftdOJL-F-IMuw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQx14AbzSt0MyHqq3b0niiKA19IIAETFeMIA_RcAlDTtg&oe=6B0A5FC8",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/856673459_18649597285056454_1194042451790293394_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=hmaJGsHNuokQ7kNvwGz5F8d&_nc_oc=AdrHw7Le7sgb8Jdr7k3CoUuRGreo33Z9uzuz2zKPQighWeujH_7wVkxdbnft5gIVOOo&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=cO0qiKwO10tm3qUccP2-0A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS4Pw_O6Jh8MV8k9R4lRZtQbCKgnQYYgKMZZaFZjmzpWA&oe=6B0B40C8",
   "score": 40.9,
   "score_parts": {
    "promoter": 0.0,
@@ -1239,12 +1304,12 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 4,
+  "rank_in_night": 5,
   "competition": {
    "events_same_night": 4,
    "same_family": 4,
    "capacity_same_night": 2000,
-   "strongest_rival": "Possibilita @ NXT Station"
+   "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -1305,71 +1370,6 @@
   "in_posts": true,
   "brand": null,
   "first_seen": "2026-11-23",
-  "status": "pubblicato"
- },
- {
-  "id": "2026-11-25-daste_bergamo-pre",
-  "date": "2026-11-25",
-  "weekday": "mercoledì",
-  "start": "19:30",
-  "end": null,
-  "fascia": "preserata",
-  "fascia_why": "inizia alle 19:30",
-  "scope": "zona",
-  "type": "aperitivo",
-  "nightlife": true,
-  "party": "Incensi",
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": null,
-  "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
-  "venue": "Daste Bergamo",
-  "venue_known": true,
-  "address": null,
-  "city": null,
-  "km": null,
-  "venue_instagram": "daste_bergamo",
-  "venue_type": "live_club",
-  "venue_followers": 21365,
-  "capacity": 400,
-  "capacity_source": "conoscenze",
-  "room": null,
-  "entry": "a pagamento",
-  "price": 40,
-  "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/909639991_18110430437579285_4862264301499313660_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FqHnyiTqxAMQ7kNvwH8Qsxb&_nc_oc=AdrdIVrwN809hveNKOY1ReB7M2nuL4ONPz4jpSa4YIHBtDKb4zhZOJ_Rzo9ok_pl-iM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSET32yKMbhiWjjtMglKT82CgMXuXaj56h9z4LGs0wOIw&oe=6B0B1329",
-  "score": 28.9,
-  "score_parts": {
-   "promoter": 0.0,
-   "distance": 0.0,
-   "capacity": 5.1,
-   "venue_followers": 7.1
-  },
-  "confidence": 0.75,
-  "sources": [
-   "instagram-locale"
-  ],
-  "urls": [
-   "https://www.instagram.com/p/Df4YaY9M8pC/"
-  ],
-  "handles": [],
-  "posted": "2026-11-18T11:19+00:00",
-  "lead_days": 7,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
-  "rank_in_night": 5,
-  "competition": {
-   "events_same_night": 4,
-   "same_family": 4,
-   "capacity_same_night": 1600,
-   "strongest_rival": "Possibilita @ NXT Station"
-  },
-  "first_seen": "2026-11-21",
   "status": "pubblicato"
  },
  {
@@ -1589,14 +1589,14 @@
   "km": 5.4,
   "venue_instagram": "ninfeasocialclub",
   "venue_type": "bar",
-  "venue_followers": 8727,
+  "venue_followers": 8734,
   "capacity": 550,
   "capacity_source": "stima",
   "room": null,
   "entry": null,
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/916700238_122126610843240064_8463434757181225556_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Ny-bC4JbFaoQ7kNvwHaM1gd&_nc_oc=Ado4ze4jjYyJuBDpXAhwMnyzuZA_Ur9QghB5OwmTKXbEEDsOA46Y_NBIY6t6zi1F3x8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gWMwdk5CL-fQcjcS7LZdlw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRvpMMl12QRSvPXzZA-FkGBW907yn63F73JRE0RfClJtA&oe=6B0A6B30",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/916700238_122126610843240064_8463434757181225556_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Ny-bC4JbFaoQ7kNvwGCaLCm&_nc_oc=AdokAZCKTHLBs0MeU8uKd4Olig8HSInSTiQ2OceZMNaGqsR-qIVahFr81P_XlvVKnaM&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2Swktrk100ju0AzPe8Tc4A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSshvDNcByEoFCehcNlplsZev_IhJi0hS6ZsQm1ZcrJwQ&oe=6B0B4C30",
   "score": 44.6,
   "score_parts": {
    "promoter": 0.0,
@@ -1654,14 +1654,14 @@
   "km": 5.0,
   "venue_instagram": "kellerfactory_",
   "venue_type": "bar",
-  "venue_followers": 7367,
+  "venue_followers": 7369,
   "capacity": 400,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/919217018_18578123794074567_4534908523987472497_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Y3dsEIj418MQ7kNvwHR6NAF&_nc_oc=AdrXwgfZ_8A9AqfwWl1Q1qtTwPBpdWd6r41J2KS91qLRLW-gpKT3srIxrxPzz0uLkF4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gn08AHV4AhTcOMriRvNZtg&_nc_tpa=Q5bMBQLqIcz6X78Uf_SJXdqbGoRqxl9HJJ4D_8BvD8nOMeqRTz94OMveM_hS1LtMe_AB4RKtrQbMSSi48A&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQRwFKSuiTngeaa46R-vJNrt1xMbd2NjlhoxTdMr8pKRnw&oe=6B0A61FE",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/919217018_18578123794074567_4534908523987472497_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wI-700jux04Q7kNvwFf2uiz&_nc_oc=AdodP5uDK414RXvl6VYXgEuTGEdJceO1KjgJVBm2dsx0t-dTep__SJVbyxjnya9R9Gw&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=yUN27CFE5JTn8FaALogdsQ&_nc_tpa=Q5bMBQL-Slswlbm1ji5ERbSbj4Ge0CrFJciXQGzldgmMRbxL70S77opxR8EzOA_QFhfsO6yQw8ccEjMV-w&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQQghHJG08DykNtd34jdCIDBp8ySbaZxd3yDHmVVb1o7Tw&oe=6B0B42FE",
   "score": 42.9,
   "score_parts": {
    "promoter": 0.0,
@@ -1900,9 +1900,9 @@
   "brand": null,
   "rank_in_night": 1,
   "competition": {
-   "events_same_night": 9,
+   "events_same_night": 10,
    "same_family": 4,
-   "capacity_same_night": 3600,
+   "capacity_same_night": 4300,
    "strongest_rival": "This Week @ VIBE"
   },
   "first_seen": "2026-11-21",
@@ -1982,9 +1982,88 @@
   "brand": null,
   "rank_in_night": 2,
   "competition": {
-   "events_same_night": 9,
-   "same_family": 3,
-   "capacity_same_night": 4100,
+   "events_same_night": 10,
+   "same_family": 4,
+   "capacity_same_night": 4800,
+   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+  },
+  "first_seen": "2026-11-23",
+  "status": "pubblicato"
+ },
+ {
+  "id": "2026-11-27-setai",
+  "date": "2026-11-27",
+  "weekday": "venerdì",
+  "start": null,
+  "end": null,
+  "fascia": "serata",
+  "fascia_why": "locale di solito serata",
+  "scope": "zona",
+  "type": "dj set",
+  "nightlife": true,
+  "party": "Maison Grove",
+  "promoter_name": null,
+  "promoter_instagram": null,
+  "promoter_followers": null,
+  "headliner": "Massimino Lippoli",
+  "guests": [
+   {
+    "name": "Massimino Lippoli",
+    "instagram": null,
+    "followers": null,
+    "level": null
+   },
+   {
+    "name": "Roby Intrallazzi",
+    "instagram": null,
+    "followers": null,
+    "level": null
+   }
+  ],
+  "genre": "House",
+  "genre_source": "post",
+  "family": "House / Elettronica",
+  "venue": "Setai",
+  "venue_known": true,
+  "address": "Località, Via Portico, 21, 24050 Orio al Serio BG",
+  "city": null,
+  "km": 3.8,
+  "venue_instagram": "setai_club_official",
+  "venue_type": "club",
+  "venue_followers": 36683,
+  "capacity": 700,
+  "capacity_source": "stima",
+  "room": null,
+  "entry": null,
+  "price": null,
+  "tickets": null,
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/892343002_18381163300240083_6760708357399831972_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=v97_S-dl6lMQ7kNvwGpsFXm&_nc_oc=Adr9S9N5gIav6bTGMtZdbu5tN2iiKjvdKGAwsd9mYBsc3eMRDTH8Y5pvbRXBv9wR6aE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7-p1zKNVimc4KhkosrwSiA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTV_v7DMMvNliNhcjhpyQTanKeI--1LS5gnFR5W-nVU4w&oe=6B0B4339",
+  "score": 39.8,
+  "score_parts": {
+   "venue": 6,
+   "capacity": 6.4,
+   "venue_followers": 8.1,
+   "promoter": 0.0,
+   "guest": 0.0
+  },
+  "confidence": 0.9,
+  "sources": [
+   "instagram-locale"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/DfkY46Rouz6/"
+  ],
+  "handles": [],
+  "posted": "2026-11-10T17:00+00:00",
+  "lead_days": 17,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "rank_in_night": 3,
+  "competition": {
+   "events_same_night": 10,
+   "same_family": 4,
+   "capacity_same_night": 4600,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-23",
@@ -2064,11 +2143,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 3,
+  "rank_in_night": 4,
   "competition": {
-   "events_same_night": 9,
-   "same_family": 3,
-   "capacity_same_night": 4200,
+   "events_same_night": 10,
+   "same_family": 4,
+   "capacity_same_night": 4900,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-20",
@@ -2171,18 +2250,18 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 4,
+  "rank_in_night": 5,
   "competition": {
-   "events_same_night": 9,
+   "events_same_night": 10,
    "same_family": 4,
-   "capacity_same_night": 4200,
+   "capacity_same_night": 4900,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {
-  "id": "2026-11-27-daste_bergamo",
+  "id": "2026-11-27-daste",
   "date": "2026-11-27",
   "weekday": "venerdì",
   "start": null,
@@ -2201,11 +2280,11 @@
   "genre": "Reggaeton",
   "genre_source": "post",
   "family": "Commerciale",
-  "venue": "Daste Bergamo",
+  "venue": "Daste",
   "venue_known": true,
-  "address": null,
-  "city": null,
-  "km": null,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
   "venue_instagram": "daste_bergamo",
   "venue_type": "live_club",
   "venue_followers": 21365,
@@ -2224,7 +2303,7 @@
    "promoter": 0.0,
    "guest": 0.0
   },
-  "confidence": 0.75,
+  "confidence": 0.9,
   "sources": [
    "instagram-locale"
   ],
@@ -2238,14 +2317,14 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 5,
+  "rank_in_night": 6,
   "competition": {
-   "events_same_night": 9,
+   "events_same_night": 10,
    "same_family": 4,
-   "capacity_same_night": 4200,
+   "capacity_same_night": 4900,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
-  "first_seen": "2026-11-21",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -2294,7 +2373,7 @@
   "km": 5.0,
   "venue_instagram": "tiky.klub",
   "venue_type": "club",
-  "venue_followers": 1003,
+  "venue_followers": 1006,
   "capacity": 300,
   "capacity_source": "stima",
   "room": null,
@@ -2332,11 +2411,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 6,
+  "rank_in_night": 7,
   "competition": {
-   "events_same_night": 9,
-   "same_family": 3,
-   "capacity_same_night": 4300,
+   "events_same_night": 10,
+   "same_family": 4,
+   "capacity_same_night": 5000,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-23",
@@ -2398,11 +2477,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 7,
+  "rank_in_night": 8,
   "competition": {
-   "events_same_night": 9,
+   "events_same_night": 10,
    "same_family": 4,
-   "capacity_same_night": 4100,
+   "capacity_same_night": 4800,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-23",
@@ -2464,11 +2543,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 8,
+  "rank_in_night": 9,
   "competition": {
-   "events_same_night": 9,
+   "events_same_night": 10,
    "same_family": 4,
-   "capacity_same_night": 4100,
+   "capacity_same_night": 4800,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-23",
@@ -2508,14 +2587,14 @@
   "km": 5.4,
   "venue_instagram": "ninfeasocialclub",
   "venue_type": "bar",
-  "venue_followers": 8727,
+  "venue_followers": 8734,
   "capacity": 550,
   "capacity_source": "stima",
   "room": null,
   "entry": "gratis",
   "price": 0,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/913178937_122126672091240064_3394640830288145781_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=q9qAZXpGoroQ7kNvwHijR6d&_nc_oc=AdrUxFeG0CDiMdFJsXMhSKzJVLDPKpCN1XlKVKHMDhdAAPzwQTR-qQvX9i9e3znaIJc&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gWMwdk5CL-fQcjcS7LZdlw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRiZ7fZ5KKqqkvrCTMQqv2HdesIJcu_QYifVijp2G1JXg&oe=6B0A707D",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/913178937_122126672091240064_3394640830288145781_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=q9qAZXpGoroQ7kNvwGTgdqj&_nc_oc=AdpQVG74UE8qPjSFR_XMoYQV-wTN4gC7l9umgaKpsgoL2GYhHazBrqy0YlGOz2f8aFw&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2Swktrk100ju0AzPe8Tc4A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSpaRwLEgYPh4YyCsWRKwxnRLBm1ZpnnsVeFFrWF3twvA&oe=6B0B517D",
   "score": 25.9,
   "score_parts": {
    "venue": 3,
@@ -2540,11 +2619,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 9,
+  "rank_in_night": 10,
   "competition": {
-   "events_same_night": 9,
-   "same_family": 3,
-   "capacity_same_night": 4050,
+   "events_same_night": 10,
+   "same_family": 4,
+   "capacity_same_night": 4750,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-23",
@@ -2606,11 +2685,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 10,
+  "rank_in_night": 11,
   "competition": {
-   "events_same_night": 9,
+   "events_same_night": 10,
    "same_family": 0,
-   "capacity_same_night": 4550,
+   "capacity_same_night": 5250,
    "strongest_rival": "SCHIVARDI 1953 @ Nikita"
   },
   "first_seen": "2026-11-24",
@@ -2631,18 +2710,18 @@
   "promoter_name": "utōpia",
   "promoter_instagram": "utopia.direction",
   "promoter_followers": 8474,
-  "headliner": "DENEB",
+  "headliner": "Pollo",
   "guests": [
+   {
+    "name": "Pollo",
+    "instagram": "pollo_sono_io",
+    "followers": 3193,
+    "level": null
+   },
    {
     "name": "DENEB",
     "instagram": "deneb_band_official",
     "followers": 2423,
-    "level": null
-   },
-   {
-    "name": "pollo_sono_io",
-    "instagram": "pollo_sono_io",
-    "followers": null,
     "level": null
    },
    {
@@ -2697,16 +2776,16 @@
   "brand": null,
   "rank_in_night": 1,
   "competition": {
-   "events_same_night": 6,
-   "same_family": 3,
-   "capacity_same_night": 2700,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "events_same_night": 5,
+   "same_family": 2,
+   "capacity_same_night": 2000,
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {
-  "id": "2026-11-27-nxt_station-pre",
+  "id": "2026-11-27-nxt_bergamo-pre",
   "date": "2026-11-27",
   "weekday": "venerdì",
   "start": "21:30",
@@ -2732,11 +2811,11 @@
   "genre": "Jazz / Revival",
   "genre_source": "post",
   "family": "Altro",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -2771,12 +2850,12 @@
   "brand": null,
   "rank_in_night": 2,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 1,
-   "capacity_same_night": 2000,
+   "capacity_same_night": 1300,
    "strongest_rival": "utōpia @ Druso"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -2844,90 +2923,12 @@
   "brand": null,
   "rank_in_night": 3,
   "competition": {
-   "events_same_night": 6,
-   "same_family": 3,
-   "capacity_same_night": 2500,
+   "events_same_night": 5,
+   "same_family": 2,
+   "capacity_same_night": 1800,
    "strongest_rival": "utōpia @ Druso"
   },
   "first_seen": "2026-11-20",
-  "status": "pubblicato"
- },
- {
-  "id": "2026-11-27-setai",
-  "date": "2026-11-27",
-  "weekday": "venerdì",
-  "start": null,
-  "end": null,
-  "fascia": "preserata",
-  "fascia_why": "tipo di evento: dinner show",
-  "scope": "zona",
-  "type": "dinner show",
-  "nightlife": true,
-  "party": "Maison Grove",
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": "Massimino Lippoli",
-  "guests": [
-   {
-    "name": "Massimino Lippoli",
-    "instagram": null,
-    "followers": null,
-    "level": null
-   },
-   {
-    "name": "Roby Intrallazzi",
-    "instagram": null,
-    "followers": null,
-    "level": null
-   }
-  ],
-  "genre": "House",
-  "genre_source": "post",
-  "family": "House / Elettronica",
-  "venue": "Setai",
-  "venue_known": true,
-  "address": "Località, Via Portico, 21, 24050 Orio al Serio BG",
-  "city": null,
-  "km": 3.8,
-  "venue_instagram": "setai_club_official",
-  "venue_type": "club",
-  "venue_followers": 36683,
-  "capacity": 700,
-  "capacity_source": "stima",
-  "room": null,
-  "entry": null,
-  "price": null,
-  "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/892343002_18381163300240083_6760708357399831972_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=v97_S-dl6lMQ7kNvwGpsFXm&_nc_oc=Adr9S9N5gIav6bTGMtZdbu5tN2iiKjvdKGAwsd9mYBsc3eMRDTH8Y5pvbRXBv9wR6aE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7-p1zKNVimc4KhkosrwSiA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTV_v7DMMvNliNhcjhpyQTanKeI--1LS5gnFR5W-nVU4w&oe=6B0B4339",
-  "score": 55.1,
-  "score_parts": {
-   "promoter": 0.0,
-   "distance": 8.5,
-   "capacity": 6.4,
-   "venue_followers": 8.1
-  },
-  "confidence": 0.9,
-  "sources": [
-   "instagram-locale"
-  ],
-  "urls": [
-   "https://www.instagram.com/p/DfkY46Rouz6/"
-  ],
-  "handles": [],
-  "posted": "2026-11-10T17:00+00:00",
-  "lead_days": 17,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
-  "rank_in_night": 4,
-  "competition": {
-   "events_same_night": 6,
-   "same_family": 3,
-   "capacity_same_night": 2300,
-   "strongest_rival": "utōpia @ Druso"
-  },
-  "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {
@@ -3060,11 +3061,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 5,
+  "rank_in_night": 4,
   "competition": {
-   "events_same_night": 6,
-   "same_family": 3,
-   "capacity_same_night": 2800,
+   "events_same_night": 5,
+   "same_family": 2,
+   "capacity_same_night": 2100,
    "strongest_rival": "utōpia @ Druso"
   },
   "first_seen": "2026-11-19",
@@ -3097,14 +3098,14 @@
   "km": 5.0,
   "venue_instagram": "kellerfactory_",
   "venue_type": "bar",
-  "venue_followers": 7367,
+  "venue_followers": 7369,
   "capacity": 400,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/924816739_18578123404074567_281123542748383120_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6Zz6LYs9-qgQ7kNvwHBpHZ3&_nc_oc=AdqUlNPbPzYrt31xAF--yplDhnPYWwV-2YFF4InLCqBAYAPkYPvWR1m-G-gxNMXKz9U&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gn08AHV4AhTcOMriRvNZtg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRXXUwz7HVKTCrvl7B5mKyvrdVYwoHaY9xAPUfJH_jHdQ&oe=6B0A530F",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/924816739_18578123404074567_281123542748383120_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6Zz6LYs9-qgQ7kNvwHy7Ym2&_nc_oc=Adp_Yyr4Kd1hDJFQrqoz5XKaI3iQjQlXA0XHEWoVNv2TGhnVJRFkZyxsVDYJA4Ug7wQ&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=yUN27CFE5JTn8FaALogdsQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQZusYtPWXckrry9bSegcvbgRSBFqxaKCGwrgY7R80DXw&oe=6B0B6C4F",
   "score": 42.9,
   "score_parts": {
    "promoter": 0.0,
@@ -3193,11 +3194,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 6,
+  "rank_in_night": 5,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 0,
-   "capacity_same_night": 2800,
+   "capacity_same_night": 2100,
    "strongest_rival": "utōpia @ Druso"
   },
   "first_seen": "2026-11-23",
@@ -3260,11 +3261,11 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 7,
+  "rank_in_night": 6,
   "competition": {
-   "events_same_night": 6,
+   "events_same_night": 5,
    "same_family": 1,
-   "capacity_same_night": 2900,
+   "capacity_same_night": 2200,
    "strongest_rival": "utōpia @ Druso"
   },
   "first_seen": "2026-11-23",
@@ -3472,7 +3473,7 @@
   "rank_in_night": 1,
   "competition": {
    "events_same_night": 8,
-   "same_family": 3,
+   "same_family": 1,
    "capacity_same_night": 6100,
    "strongest_rival": "MARIE VAUNT @ Bolgia"
   },
@@ -3503,9 +3504,9 @@
     "level": null
    }
   ],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
+  "genre": "Techno",
+  "genre_source": "locale (conoscenze)",
+  "family": "House / Elettronica",
   "venue": "Bolgia",
   "venue_known": true,
   "address": "Via Vaccarezza 8",
@@ -3547,7 +3548,7 @@
   "rank_in_night": 2,
   "competition": {
    "events_same_night": 8,
-   "same_family": 3,
+   "same_family": 4,
    "capacity_same_night": 4050,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
@@ -3646,9 +3647,9 @@
   "promoter_followers": null,
   "headliner": null,
   "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
+  "genre": "House",
+  "genre_source": "locale (conoscenze)",
+  "family": "House / Elettronica",
   "venue": "Zero Club",
   "venue_known": true,
   "address": "V. Evaristo Baschenis, 9, 24122 Bergamo BG",
@@ -3688,7 +3689,7 @@
   "rank_in_night": 4,
   "competition": {
    "events_same_night": 8,
-   "same_family": 3,
+   "same_family": 4,
    "capacity_same_night": 6550,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
@@ -3820,7 +3821,7 @@
   "rank_in_night": 6,
   "competition": {
    "events_same_night": 8,
-   "same_family": 2,
+   "same_family": 4,
    "capacity_same_night": 6550,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
@@ -3886,7 +3887,7 @@
   "rank_in_night": 7,
   "competition": {
    "events_same_night": 8,
-   "same_family": 2,
+   "same_family": 4,
    "capacity_same_night": 6550,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
@@ -3952,7 +3953,7 @@
   "rank_in_night": 8,
   "competition": {
    "events_same_night": 8,
-   "same_family": 2,
+   "same_family": 4,
    "capacity_same_night": 6950,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
@@ -3999,14 +4000,14 @@
   "km": 3.0,
   "venue_instagram": "csapacipaciana",
   "venue_type": "live_club",
-  "venue_followers": 13846,
+  "venue_followers": 13855,
   "capacity": null,
   "capacity_source": null,
   "room": null,
   "entry": "a pagamento",
   "price": 10,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/899029118_18658482862056454_5116899418069586914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=GLoSnHCMpXIQ7kNvwGIrvsj&_nc_oc=AdqO-XzPDgpJ4fjTGMjdHAfreq2M9g01oIEcvchNRVPXvYJMNV_XLLlMyi1FF9nergo&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Q8Xf652hfftdOJL-F-IMuw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRI1xc3y4_UMao817mmC_9ISZ6lypw9LMSQLykthUDMVw&oe=6B0A446A",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/899029118_18658482862056454_5116899418069586914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=oTsEJruZQOsQ7kNvwH5tA2L&_nc_oc=AdpmZhuvksnz_OxYR0PWKe_Xf22bHbKdj7sJQfQwuJWB6JOHBqzirah5Vp6nrjohW60&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=cO0qiKwO10tm3qUccP2-0A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQQEFmKFylJB-7fCCx9MXSmW_TfjyMh7R2HvDJdTWzdhQ&oe=6B0B5DAA",
   "score": 29.9,
   "score_parts": {
    "venue": 5,
@@ -4035,7 +4036,7 @@
   "rank_in_night": 9,
   "competition": {
    "events_same_night": 8,
-   "same_family": 3,
+   "same_family": 1,
    "capacity_same_night": 7050,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
@@ -4267,12 +4268,70 @@
   "handles": [
    "spettacoli"
   ],
-  "posted": "2026-11-24T10:57+00:00",
+  "posted": "2026-11-24T12:45+00:00",
   "lead_days": 4,
   "day_note": null,
   "in_posts": true,
   "brand": null,
   "first_seen": "2026-11-20",
+  "status": "pubblicato"
+ },
+ {
+  "id": "2026-11-28-daste-pre",
+  "date": "2026-11-28",
+  "weekday": "sabato",
+  "start": "14:00",
+  "end": "19:00",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 14:00",
+  "scope": "zona",
+  "type": "culture",
+  "nightlife": false,
+  "party": null,
+  "promoter_name": null,
+  "promoter_instagram": null,
+  "promoter_followers": null,
+  "headliner": null,
+  "guests": [],
+  "genre": null,
+  "genre_source": null,
+  "family": "Altro",
+  "venue": "Daste",
+  "venue_known": true,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
+  "venue_instagram": "daste_bergamo",
+  "venue_type": "live_club",
+  "venue_followers": 21365,
+  "capacity": 400,
+  "capacity_source": "conoscenze",
+  "room": null,
+  "entry": null,
+  "price": null,
+  "tickets": null,
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/918166130_18110655038579285_800543259424981628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vTA1AC9jU1sQ7kNvwH0USSC&_nc_oc=AdreaOmpAhSs70W9ZZTxyrM9pEL_Wjnc3ehEMAnQ2ZGuj6xQtTolPJNCY76Ph3AhbTs&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQd4zrHplX21kq6ZU8LrT7zueM8xS5H_6rG03sniLX6RA&oe=6B0B3AED",
+  "score": 53.0,
+  "score_parts": {
+   "promoter": 0.0,
+   "distance": 9.6,
+   "capacity": 5.1,
+   "venue_followers": 7.1
+  },
+  "confidence": 0.9,
+  "sources": [
+   "instagram-locale"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/Df9wejRM57R/"
+  ],
+  "handles": [],
+  "posted": "2026-11-20T13:26+00:00",
+  "lead_days": 8,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -4524,9 +4583,9 @@
   "headliner": null,
   "guests": [
    {
-    "name": "cr3mas_brothers",
+    "name": "Cremas brothers",
     "instagram": "cr3mas_brothers",
-    "followers": null,
+    "followers": 500,
     "level": null
    }
   ],
@@ -4711,14 +4770,14 @@
   "km": 5.4,
   "venue_instagram": "ninfeasocialclub",
   "venue_type": "bar",
-  "venue_followers": 8727,
+  "venue_followers": 8734,
   "capacity": 550,
   "capacity_source": "stima",
   "room": null,
   "entry": "gratis",
   "price": 0,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/897436972_122125877943240064_7770713743618903354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=u2sA1pY41P4Q7kNvwFaNLx1&_nc_oc=AdpTOpmbWOnHAoVlifx9BrsGja0lC2HF85ehvIJamTWDM3Nut4g11PE7mDmfdw-wvmU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gWMwdk5CL-fQcjcS7LZdlw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSHfkpwSYKisxFgXCZSzkrIUBizHDFuglB6q7z1Rg5MoA&oe=6B0A6DE5",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/897436972_122125877943240064_7770713743618903354_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=u2sA1pY41P4Q7kNvwF4ur2b&_nc_oc=AdpdNwN7D8jpQyVGxFXh_8q9v1GMBJOT6PvinD9s2dppByMmLFwRJ8JPfw-Emq96xvA&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2Swktrk100ju0AzPe8Tc4A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQTODy5m1CE_DVwv9B4vENquXmqN3f6tjvSYyDNKv29Pg&oe=6B0B4EE5",
   "score": 44.6,
   "score_parts": {
    "promoter": 0.0,
@@ -4853,14 +4912,14 @@
   "km": 5.0,
   "venue_instagram": "kellerfactory_",
   "venue_type": "bar",
-  "venue_followers": 7367,
+  "venue_followers": 7369,
   "capacity": 400,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/925947553_18578122897074567_7059376927370444535_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=XVx2gZAfNAkQ7kNvwF9Pb3l&_nc_oc=Ado-L3WZZdEnZcSV45Er_num8auxkqDHcf8nrsKOphd_LSV_7VbupZfim9WcSEep99U&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gn08AHV4AhTcOMriRvNZtg&_nc_tpa=Q5bMBQLBPpyVPz38r_QSnSoE9TkD0nX5oz7H7nUfbuG0t8Rdc5IZrNJYYNwGBvi3Knl4xz3jHKI9qxUcLQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQQfBc6JykgR_GFB9A2yI1ASdJLPbgtMoNoBOQFCzk-Wxw&oe=6B0A5347",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/925947553_18578122897074567_7059376927370444535_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=fiV8cM4QXE0Q7kNvwHf456_&_nc_oc=Ado53cMBi6O159Ul4cZMdDTSJYKLyEQJfrklITRRuwnmNwwOfhdvVFvMe6Bc1-8ih-E&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=yUN27CFE5JTn8FaALogdsQ&_nc_tpa=Q5bMBQKh3gpd2oq52pCGn5kDs5KyKBZ7OnZ_IpPw-OEspDPlcqcuIRRyIxPP7LviYrXOJq4ent_FmZfOqw&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQR9hqjK4hkJCy20YvnQXouwWpVKz3A4bWnbuM1zR9qnWg&oe=6B0B6C87",
   "score": 42.9,
   "score_parts": {
    "promoter": 0.0,
@@ -5107,64 +5166,6 @@
   "status": "pubblicato"
  },
  {
-  "id": "2026-11-28-daste_bergamo-pre",
-  "date": "2026-11-28",
-  "weekday": "sabato",
-  "start": "14:00",
-  "end": "19:00",
-  "fascia": "preserata",
-  "fascia_why": "inizia alle 14:00",
-  "scope": "zona",
-  "type": "culture",
-  "nightlife": false,
-  "party": null,
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": null,
-  "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
-  "venue": "Daste Bergamo",
-  "venue_known": true,
-  "address": null,
-  "city": null,
-  "km": null,
-  "venue_instagram": "daste_bergamo",
-  "venue_type": "live_club",
-  "venue_followers": 21365,
-  "capacity": 400,
-  "capacity_source": "conoscenze",
-  "room": null,
-  "entry": null,
-  "price": null,
-  "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/918166130_18110655038579285_800543259424981628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vTA1AC9jU1sQ7kNvwH0USSC&_nc_oc=AdreaOmpAhSs70W9ZZTxyrM9pEL_Wjnc3ehEMAnQ2ZGuj6xQtTolPJNCY76Ph3AhbTs&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQd4zrHplX21kq6ZU8LrT7zueM8xS5H_6rG03sniLX6RA&oe=6B0B3AED",
-  "score": 28.9,
-  "score_parts": {
-   "promoter": 0.0,
-   "distance": 0.0,
-   "capacity": 5.1,
-   "venue_followers": 7.1
-  },
-  "confidence": 0.75,
-  "sources": [
-   "instagram-locale"
-  ],
-  "urls": [
-   "https://www.instagram.com/p/Df9wejRM57R/"
-  ],
-  "handles": [],
-  "posted": "2026-11-20T13:26+00:00",
-  "lead_days": 8,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
-  "first_seen": "2026-11-21",
-  "status": "pubblicato"
- },
- {
   "id": "2026-11-28-charleston-pre",
   "date": "2026-11-28",
   "weekday": "sabato",
@@ -5178,7 +5179,7 @@
   "party": "Doctor Beat",
   "promoter_name": "Doctor Beat",
   "promoter_instagram": "doctor.beat.band",
-  "promoter_followers": 2330,
+  "promoter_followers": 2329,
   "headliner": null,
   "guests": [],
   "genre": "Commerciale",
@@ -5481,7 +5482,7 @@
   "status": "pubblicato"
  },
  {
-  "id": "2026-11-29-nxt_station",
+  "id": "2026-11-29-nxt_bergamo",
   "date": "2026-11-29",
   "weekday": "domenica",
   "start": null,
@@ -5507,11 +5508,11 @@
   "genre": "Latino",
   "genre_source": "post",
   "family": "Commerciale",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -5544,7 +5545,7 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -5624,6 +5625,73 @@
   "status": "pubblicato"
  },
  {
+  "id": "2026-11-29-daste-pre",
+  "date": "2026-11-29",
+  "weekday": "domenica",
+  "start": "19:30",
+  "end": null,
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 19:30",
+  "scope": "zona",
+  "type": "aperitivo",
+  "nightlife": true,
+  "party": null,
+  "promoter_name": null,
+  "promoter_instagram": null,
+  "promoter_followers": null,
+  "headliner": null,
+  "guests": [],
+  "genre": null,
+  "genre_source": null,
+  "family": "Altro",
+  "venue": "Daste",
+  "venue_known": true,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
+  "venue_instagram": "daste_bergamo",
+  "venue_type": "live_club",
+  "venue_followers": 21365,
+  "capacity": 400,
+  "capacity_source": "conoscenze",
+  "room": null,
+  "entry": "a pagamento",
+  "price": 31,
+  "tickets": null,
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/927940398_18110900714579285_1561701516030200282_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rHpGtIFvkyEQ7kNvwGf59oF&_nc_oc=AdqY16gGKBQzV1MGXWJbePnSZOGzGrsLmfQFOAHBxg7zpElHS_EIuuJxbFMg7ojUIas&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS2yOxDKRaLJtuZbURdnaG7IEK0s3G0YjH2dIZSQNpUXA&oe=6B0B22CF",
+  "score": 53.0,
+  "score_parts": {
+   "promoter": 0.0,
+   "distance": 9.6,
+   "capacity": 5.1,
+   "venue_followers": 7.1
+  },
+  "confidence": 0.9,
+  "sources": [
+   "instagram-locale"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/DgDNPFnsuSc/"
+  ],
+  "handles": [
+   "intrecci_ati"
+  ],
+  "posted": "2026-11-22T16:12+00:00",
+  "lead_days": 7,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "rank_in_night": 1,
+  "competition": {
+   "events_same_night": 4,
+   "same_family": 3,
+   "capacity_same_night": 800,
+   "strongest_rival": "Druso @ Druso"
+  },
+  "first_seen": "2026-11-24",
+  "status": "pubblicato"
+ },
+ {
   "id": "2026-11-29-druso-pre",
   "date": "2026-11-29",
   "weekday": "domenica",
@@ -5680,12 +5748,12 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 1,
+  "rank_in_night": 2,
   "competition": {
    "events_same_night": 4,
    "same_family": 3,
    "capacity_same_night": 900,
-   "strongest_rival": "Keller Factory 2.0 - Live Music Pub @ Keller Factory 2.0 - Live Music Pub"
+   "strongest_rival": "Daste @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -5736,14 +5804,14 @@
   "km": 5.4,
   "venue_instagram": "ninfeasocialclub",
   "venue_type": "bar",
-  "venue_followers": 8727,
+  "venue_followers": 8734,
   "capacity": 550,
   "capacity_source": "stima",
   "room": null,
   "entry": "gratis",
   "price": 0,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/900433257_18083788442531213_1473087593094767426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=hh2IjMEk-4wQ7kNvwGo3W0J&_nc_oc=AdrqgvEqe85c2LxzoZ9LlACSEPbJHWDVUNAmrpmt6zyKGcgEfr8yS_0qXvADE-fiGFE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gWMwdk5CL-fQcjcS7LZdlw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSFi8jNWoXMA5s8s2cq4IUgx9oCDBfFt1CMWFp2O5SYQA&oe=6B0A70CF",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/900433257_18083788442531213_1473087593094767426_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=hh2IjMEk-4wQ7kNvwGZAyNS&_nc_oc=AdqGWIuBEhm-KFrpDcVnGZmCUD58hGtZHLoV022DxFy4aCsTwnesoQTzkFZGFJeNVE8&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2Swktrk100ju0AzPe8Tc4A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSzD4Ks5wWtW69jqe4RmLtBmlV11fotqSCPm6ro5eS3hQ&oe=6B0B51CF",
   "score": 44.6,
   "score_parts": {
    "promoter": 0.0,
@@ -5799,14 +5867,14 @@
   "km": 5.0,
   "venue_instagram": "kellerfactory_",
   "venue_type": "bar",
-  "venue_followers": 7367,
+  "venue_followers": 7369,
   "capacity": 400,
   "capacity_source": "stima",
   "room": null,
   "entry": null,
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/921183227_18577937248074567_7523147792433822501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Z9whtVit_qAQ7kNvwGGG3Vv&_nc_oc=Adoqk1pnRkm-SsEFfHGtR2_nXW7sQHeQ3ALwcTDmlDLhjJAomtJ1kX-KpkjU65tN9RY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gn08AHV4AhTcOMriRvNZtg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTilTcoGk3zWtBy6lax9h8A-Ez80ldTkK2_a7SlyQvsJw&oe=6B0A6886",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/921183227_18577937248074567_7523147792433822501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FvQ5iYdc1ykQ7kNvwElTOqY&_nc_oc=AdoF6j-BEHr4_-xaGpCFAxnMxQUqzNNPMERTdRC7OBjVBr0MUsB8ETbT1mvo3DDoAzA&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=yUN27CFE5JTn8FaALogdsQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTIFNLJwex4fMqHYZRi5pwMqJRpNJgwDtxVeUeK-_Uyaw&oe=6B0B4986",
   "score": 42.9,
   "score_parts": {
    "promoter": 0.0,
@@ -5827,12 +5895,12 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 2,
+  "rank_in_night": 3,
   "competition": {
    "events_same_night": 4,
    "same_family": 3,
    "capacity_same_night": 800,
-   "strongest_rival": "Druso @ Druso"
+   "strongest_rival": "Daste @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -5895,12 +5963,12 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 3,
+  "rank_in_night": 4,
   "competition": {
    "events_same_night": 4,
    "same_family": 0,
    "capacity_same_night": 1200,
-   "strongest_rival": "Druso @ Druso"
+   "strongest_rival": "Daste @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -6039,73 +6107,6 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "first_seen": "2026-11-23",
-  "status": "pubblicato"
- },
- {
-  "id": "2026-11-29-daste_bergamo-pre",
-  "date": "2026-11-29",
-  "weekday": "domenica",
-  "start": "19:30",
-  "end": null,
-  "fascia": "preserata",
-  "fascia_why": "inizia alle 19:30",
-  "scope": "zona",
-  "type": "aperitivo",
-  "nightlife": true,
-  "party": null,
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": null,
-  "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
-  "venue": "Daste Bergamo",
-  "venue_known": true,
-  "address": null,
-  "city": null,
-  "km": null,
-  "venue_instagram": "daste_bergamo",
-  "venue_type": "live_club",
-  "venue_followers": 21365,
-  "capacity": 400,
-  "capacity_source": "conoscenze",
-  "room": null,
-  "entry": "a pagamento",
-  "price": 31,
-  "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/927940398_18110900714579285_1561701516030200282_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rHpGtIFvkyEQ7kNvwGf59oF&_nc_oc=AdqY16gGKBQzV1MGXWJbePnSZOGzGrsLmfQFOAHBxg7zpElHS_EIuuJxbFMg7ojUIas&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS2yOxDKRaLJtuZbURdnaG7IEK0s3G0YjH2dIZSQNpUXA&oe=6B0B22CF",
-  "score": 28.9,
-  "score_parts": {
-   "promoter": 0.0,
-   "distance": 0.0,
-   "capacity": 5.1,
-   "venue_followers": 7.1
-  },
-  "confidence": 0.75,
-  "sources": [
-   "instagram-locale"
-  ],
-  "urls": [
-   "https://www.instagram.com/p/DgDNPFnsuSc/"
-  ],
-  "handles": [
-   "intrecci_ati"
-  ],
-  "posted": "2026-11-22T16:12+00:00",
-  "lead_days": 7,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
-  "rank_in_night": 4,
-  "competition": {
-   "events_same_night": 4,
-   "same_family": 3,
-   "capacity_same_night": 800,
-   "strongest_rival": "Druso @ Druso"
-  },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
@@ -6296,7 +6297,7 @@
    "events_same_night": 4,
    "same_family": 3,
    "capacity_same_night": 1100,
-   "strongest_rival": "Druso @ Druso"
+   "strongest_rival": "Daste @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -6369,6 +6370,80 @@
   "status": "pubblicato"
  },
  {
+  "id": "2026-12-01-ninfea_social_club-pre",
+  "date": "2026-12-01",
+  "weekday": "martedì",
+  "start": "19:30",
+  "end": null,
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 19:30",
+  "scope": "zona",
+  "type": "aperitivo",
+  "nightlife": true,
+  "party": "Emozioni In Fiore",
+  "promoter_name": null,
+  "promoter_instagram": null,
+  "promoter_followers": null,
+  "headliner": null,
+  "guests": [
+   {
+    "name": "emozioni.in.fiore",
+    "instagram": "emozioni.in.fiore",
+    "followers": null,
+    "level": null
+   }
+  ],
+  "genre": "Elettronica",
+  "genre_source": "locale (conoscenze)",
+  "family": "House / Elettronica",
+  "venue": "Ninfea Social Club",
+  "venue_known": true,
+  "address": "Via Guglielmo Marconi, 65, 24010 Sorisole BG",
+  "city": null,
+  "km": 5.4,
+  "venue_instagram": "ninfeasocialclub",
+  "venue_type": "bar",
+  "venue_followers": 8734,
+  "capacity": 550,
+  "capacity_source": "stima",
+  "room": null,
+  "entry": "a pagamento",
+  "price": 50,
+  "tickets": null,
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/928174041_18085578269531213_7773060136419631860_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mTDWL1bVJ7sQ7kNvwGS5Rv8&_nc_oc=AdpZoqxe8Yh6CtbR-YaaKtJfHOV_F5sAxTBXdNeKyvXAUbBbL_iQC-Wj2XK9DbGS524&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2Swktrk100ju0AzPe8Tc4A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQScRScxrISmg57cLk0Fvaiqb3yp3LokmWOW-y0za2xz8Q&oe=6B0B5BAA",
+  "score": 44.6,
+  "score_parts": {
+   "promoter": 0.0,
+   "distance": 7.8,
+   "capacity": 5.9,
+   "venue_followers": 5.4
+  },
+  "confidence": 0.95,
+  "sources": [
+   "instagram-locale"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/DgHzsDqIsTj/"
+  ],
+  "handles": [
+   "emozioni.in.fiore"
+  ],
+  "posted": "2026-11-24T11:06+00:00",
+  "lead_days": 7,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "rank_in_night": 1,
+  "competition": {
+   "events_same_night": 0,
+   "same_family": 0,
+   "capacity_same_night": 0,
+   "strongest_rival": null
+  },
+  "first_seen": "2026-11-24",
+  "status": "pubblicato"
+ },
+ {
   "id": "2026-12-01-paci_paciana",
   "date": "2026-12-01",
   "weekday": "martedì",
@@ -6395,14 +6470,14 @@
   "km": 3.0,
   "venue_instagram": "csapacipaciana",
   "venue_type": "live_club",
-  "venue_followers": 13846,
+  "venue_followers": 13855,
   "capacity": null,
   "capacity_source": null,
   "room": null,
   "entry": "a pagamento",
   "price": 25,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qBJRtm8RlM4Q7kNvwG_9L0s&_nc_oc=Adok0lg6VDv7PeKzN7orD23DXrK02U9pid93bL2vpUDRMJC0wlJlPVcu3OUwRieowiM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Q8Xf652hfftdOJL-F-IMuw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSONTBfBYmav_Jv_iu1ouSZmzCjou_n5qnlqXafnykpsA&oe=6B0A4B3C",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qBJRtm8RlM4Q7kNvwHKT-VC&_nc_oc=AdomnOO8fyyqjOrlgvoZXnAKb-WJD123lRc4tOErHwccAtHPV9p_k9poM_XVdSQyq68&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=cO0qiKwO10tm3qUccP2-0A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQzXT8tUgnUYY9AZ0dggLwNgEnzmaF-n_QyHMHuGKeDeg&oe=6B0B647C",
   "score": 40.9,
   "score_parts": {
    "promoter": 0.0,
@@ -6485,7 +6560,7 @@
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-02-nxt_station-pre",
+  "id": "2026-12-02-nxt_bergamo-pre",
   "date": "2026-12-02",
   "weekday": "mercoledì",
   "start": "20:00",
@@ -6504,11 +6579,11 @@
   "genre": "Live",
   "genre_source": "locale (conoscenze)",
   "family": "Altro",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -6544,9 +6619,9 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 2100,
-   "strongest_rival": "Gres Art 671 @ Gres Art 671"
+   "strongest_rival": "gres art 671 @ gres art 671"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -6582,21 +6657,21 @@
   "genre": null,
   "genre_source": null,
   "family": "Altro",
-  "venue": "Gres Art 671",
+  "venue": "gres art 671",
   "venue_known": true,
-  "address": "Via San Bernardino 141, Bergamo",
-  "city": "Bergamo",
+  "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+  "city": null,
   "km": 2.6,
   "venue_instagram": "gres_art_671",
   "venue_type": "live_club",
-  "venue_followers": 21341,
+  "venue_followers": 21346,
   "capacity": 2000,
   "capacity_source": "stima",
   "room": null,
   "entry": "gratis",
   "price": 0,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/928221968_18004149522034022_3535339125229174571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bQaTpkje3I8Q7kNvwFnbZ_c&_nc_oc=AdpouF7QU8lZ-A6IeHCMS0yMoDhXX1ABbmKfXE6WmI6gz8Mvh3dRryQgq2tQ5nHBqOs&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=DHILytv4hREdIkvZs0Y8tg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQWPh7XKrUad-badKBq68y5aNYqlGj9yjbo77SgCMxoew&oe=6B0A6A23",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/928221968_18004149522034022_3535339125229174571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bQaTpkje3I8Q7kNvwEuRLuU&_nc_oc=Adr32QVDMUq6P_0KpbGOORzKoUqwHqTNA8N5V-VWIuJnfFQjEDxD45yufxfCi2sPB2M&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=-PLi2gBJWamW0jMAzuuUSQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFzhaikO59Wg0bsKOtUATQZmdRSs4tPf06S_h69C88tg&oe=6B0B4B23",
   "score": 57.3,
   "score_parts": {
    "promoter": 0.0,
@@ -6625,7 +6700,7 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 1100,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -6690,13 +6765,13 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 3000,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-03-nxt_station-pre",
+  "id": "2026-12-03-nxt_bergamo-pre",
   "date": "2026-12-03",
   "weekday": "giovedì",
   "start": "21:00",
@@ -6722,11 +6797,11 @@
   "genre": "Live",
   "genre_source": "locale (conoscenze)",
   "family": "Altro",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -6764,9 +6839,9 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 2150,
-   "strongest_rival": "Gres Art 671 @ Gres Art 671"
+   "strongest_rival": "gres art 671 @ gres art 671"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -6796,21 +6871,21 @@
   "genre": null,
   "genre_source": null,
   "family": "Altro",
-  "venue": "Gres Art 671",
+  "venue": "gres art 671",
   "venue_known": true,
-  "address": "Via San Bernardino 141, Bergamo",
-  "city": "Bergamo",
+  "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+  "city": null,
   "km": 2.6,
   "venue_instagram": "gres_art_671",
   "venue_type": "live_club",
-  "venue_followers": 21341,
+  "venue_followers": 21346,
   "capacity": 2000,
   "capacity_source": "stima",
   "room": null,
   "entry": null,
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/914395118_18003599757034022_2457838128815000501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=GevcLT-AFmIQ7kNvwF5AAKi&_nc_oc=Adrp9KErn06oFR2b2i5dEyaNcMymKnqtRydj2VXf9TyEV11izK31693MCiaPzPpko8E&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=DHILytv4hREdIkvZs0Y8tg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSSqDIoMVT35deraa7a5_9nuWCbOU3l7K2u3AV8DYVRpQ&oe=6B0A3F87",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/914395118_18003599757034022_2457838128815000501_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=GevcLT-AFmIQ7kNvwGyknmj&_nc_oc=AdpADYAXWyVmjIU2_2c1Sp0MSKSLfm78LF6cuYPy1aTGoQNc7okIHjwzuUeIR0yhsis&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=-PLi2gBJWamW0jMAzuuUSQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSexRcUJeM90rhlVKss-nzF1JLiD8Wxz2JxP_5GJailFg&oe=6B0B58C7",
   "score": 57.3,
   "score_parts": {
    "promoter": 0.0,
@@ -6838,7 +6913,7 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 1150,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -6870,14 +6945,14 @@
   "km": 5.4,
   "venue_instagram": "ninfeasocialclub",
   "venue_type": "bar",
-  "venue_followers": 8727,
+  "venue_followers": 8734,
   "capacity": 550,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": 10,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/913179274_122126675031240064_5452637648807670230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VTehQsX-sdYQ7kNvwHAbk92&_nc_oc=AdpEhP5XzLd0XZTPhrWLRt317AV-LvcpNVe7dlReE3x5zp1ldqe0qYleGzK4VBHh3IE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gWMwdk5CL-fQcjcS7LZdlw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRtCl5GNu6_xn10Y4Y6ww-pfnZTzl3YWI811BdLoGPhzA&oe=6B0A71BE",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/913179274_122126675031240064_5452637648807670230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VTehQsX-sdYQ7kNvwFG0uVp&_nc_oc=AdoTeFDxbDoTXNiHs9l3FtFs_-StIgzBf7OLCm1V2hqlqVtMZqgYWLwy7AG1o-Q-Jxk&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2Swktrk100ju0AzPe8Tc4A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSiNSdkGxZKHpe1wMTfE9mf38XBh53aGRXSNFEq5qPRSw&oe=6B0B52BE",
   "score": 44.6,
   "score_parts": {
    "promoter": 0.0,
@@ -6970,13 +7045,13 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 3000,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-04-nxt_station-pre",
+  "id": "2026-12-04-nxt_bergamo-pre",
   "date": "2026-12-04",
   "weekday": "venerdì",
   "start": "21:00",
@@ -6995,11 +7070,11 @@
   "genre": "Disco / Hip Hop",
   "genre_source": "post",
   "family": "House / Elettronica",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -7030,7 +7105,7 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -7273,7 +7348,7 @@
   "rank_in_night": 1,
   "competition": {
    "events_same_night": 1,
-   "same_family": 0,
+   "same_family": 1,
    "capacity_same_night": 3000,
    "strongest_rival": "CHELINA MANUHUTU @ Bolgia"
   },
@@ -7304,9 +7379,9 @@
     "level": null
    }
   ],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
+  "genre": "Techno",
+  "genre_source": "locale (conoscenze)",
+  "family": "House / Elettronica",
   "venue": "Bolgia",
   "venue_known": true,
   "address": "Via Vaccarezza 8",
@@ -7348,7 +7423,7 @@
   "rank_in_night": 2,
   "competition": {
    "events_same_night": 1,
-   "same_family": 0,
+   "same_family": 1,
    "capacity_same_night": 500,
    "strongest_rival": "NØID @ Zero Club"
   },
@@ -7356,7 +7431,7 @@
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-05-nxt_station-pre",
+  "id": "2026-12-05-nxt_bergamo-pre",
   "date": "2026-12-05",
   "weekday": "sabato",
   "start": "21:00",
@@ -7382,11 +7457,11 @@
   "genre": "Rock",
   "genre_source": "post",
   "family": "Altro",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -7424,9 +7499,9 @@
    "events_same_night": 3,
    "same_family": 2,
    "capacity_same_night": 1400,
-   "strongest_rival": "Il Circolino della Malpensata @ Il Circolino della Malpensata"
+   "strongest_rival": "Daste @ Daste"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -7485,6 +7560,80 @@
   "in_posts": true,
   "brand": null,
   "first_seen": "2026-11-18",
+  "status": "pubblicato"
+ },
+ {
+  "id": "2026-12-05-daste-pre",
+  "date": "2026-12-05",
+  "weekday": "sabato",
+  "start": "21:30",
+  "end": null,
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 21:30",
+  "scope": "zona",
+  "type": "live",
+  "nightlife": true,
+  "party": null,
+  "promoter_name": null,
+  "promoter_instagram": null,
+  "promoter_followers": null,
+  "headliner": null,
+  "guests": [
+   {
+    "name": "VIII. Deslumbre",
+    "instagram": "consumazione",
+    "followers": 556,
+    "level": null
+   }
+  ],
+  "genre": "Pop",
+  "genre_source": "post",
+  "family": "Commerciale",
+  "venue": "Daste",
+  "venue_known": true,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
+  "venue_instagram": "daste_bergamo",
+  "venue_type": "live_club",
+  "venue_followers": 21365,
+  "capacity": 400,
+  "capacity_source": "conoscenze",
+  "room": null,
+  "entry": "a pagamento",
+  "price": null,
+  "tickets": null,
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/912233494_18110330117579285_7445316756993816937_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ItsVnco7TC8Q7kNvwGhVp_g&_nc_oc=Ado2hEdR962xH0zx3zZGrjBzSfRMZ5sak9dLt5G_U0WBKjZGJ5oh7fvNvR_Gqs7Zkvo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQAYKjN6Tf1LsY6mTorW9UoJC_tTRZ7TNpytCXaDNvANw&oe=6B0B235F",
+  "score": 53.0,
+  "score_parts": {
+   "promoter": 0.0,
+   "distance": 9.6,
+   "capacity": 5.1,
+   "venue_followers": 7.1
+  },
+  "confidence": 0.95,
+  "sources": [
+   "instagram-locale"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/Df14K0LinhV/"
+  ],
+  "handles": [
+   "consumazione"
+  ],
+  "posted": "2026-11-17T12:02+00:00",
+  "lead_days": 18,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "rank_in_night": 2,
+  "competition": {
+   "events_same_night": 3,
+   "same_family": 0,
+   "capacity_same_night": 2000,
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
+  },
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -7552,12 +7701,12 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 2,
+  "rank_in_night": 3,
   "competition": {
    "events_same_night": 3,
    "same_family": 2,
    "capacity_same_night": 2300,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -7633,88 +7782,14 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 3,
+  "rank_in_night": 4,
   "competition": {
    "events_same_night": 3,
    "same_family": 2,
    "capacity_same_night": 1500,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-20",
-  "status": "pubblicato"
- },
- {
-  "id": "2026-12-05-daste_bergamo-pre",
-  "date": "2026-12-05",
-  "weekday": "sabato",
-  "start": "21:30",
-  "end": null,
-  "fascia": "preserata",
-  "fascia_why": "inizia alle 21:30",
-  "scope": "zona",
-  "type": "live",
-  "nightlife": true,
-  "party": null,
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": null,
-  "guests": [
-   {
-    "name": "VIII. Deslumbre",
-    "instagram": "consumazione",
-    "followers": 556,
-    "level": null
-   }
-  ],
-  "genre": "Pop",
-  "genre_source": "post",
-  "family": "Commerciale",
-  "venue": "Daste Bergamo",
-  "venue_known": true,
-  "address": null,
-  "city": null,
-  "km": null,
-  "venue_instagram": "daste_bergamo",
-  "venue_type": "live_club",
-  "venue_followers": 21365,
-  "capacity": 400,
-  "capacity_source": "conoscenze",
-  "room": null,
-  "entry": "a pagamento",
-  "price": null,
-  "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/912233494_18110330117579285_7445316756993816937_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ItsVnco7TC8Q7kNvwGhVp_g&_nc_oc=Ado2hEdR962xH0zx3zZGrjBzSfRMZ5sak9dLt5G_U0WBKjZGJ5oh7fvNvR_Gqs7Zkvo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQAYKjN6Tf1LsY6mTorW9UoJC_tTRZ7TNpytCXaDNvANw&oe=6B0B235F",
-  "score": 28.9,
-  "score_parts": {
-   "promoter": 0.0,
-   "distance": 0.0,
-   "capacity": 5.1,
-   "venue_followers": 7.1
-  },
-  "confidence": 0.8,
-  "sources": [
-   "instagram-locale"
-  ],
-  "urls": [
-   "https://www.instagram.com/p/Df14K0LinhV/"
-  ],
-  "handles": [
-   "consumazione"
-  ],
-  "posted": "2026-11-17T12:02+00:00",
-  "lead_days": 18,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
-  "rank_in_night": 4,
-  "competition": {
-   "events_same_night": 3,
-   "same_family": 0,
-   "capacity_same_night": 2000,
-   "strongest_rival": "NXT Station @ NXT Station"
-  },
-  "first_seen": "2026-11-21",
   "status": "pubblicato"
  },
  {
@@ -7801,14 +7876,7 @@
   "promoter_instagram": null,
   "promoter_followers": null,
   "headliner": null,
-  "guests": [
-   {
-    "name": "piu_voce",
-    "instagram": "piu_voce",
-    "followers": null,
-    "level": null
-   }
-  ],
+  "guests": [],
   "genre": "Rock / Jazz",
   "genre_source": "locale (abitudine)",
   "family": "Altro",
@@ -7876,9 +7944,9 @@
     "level": null
    }
   ],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
+  "genre": "Techno",
+  "genre_source": "locale (conoscenze)",
+  "family": "House / Elettronica",
   "venue": "Bolgia",
   "venue_known": true,
   "address": "Via Vaccarezza 8",
@@ -8092,13 +8160,13 @@
    "events_same_night": 2,
    "same_family": 1,
    "capacity_same_night": 1100,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-07-nxt_station",
+  "id": "2026-12-07-nxt_bergamo",
   "date": "2026-12-07",
   "weekday": "lunedì",
   "start": null,
@@ -8124,11 +8192,11 @@
   "genre": "Rock",
   "genre_source": "post",
   "family": "Altro",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -8168,7 +8236,7 @@
    "capacity_same_night": 600,
    "strongest_rival": "Alive @ VIBE"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -8246,7 +8314,7 @@
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-08-nxt_station-pre",
+  "id": "2026-12-08-nxt_bergamo-pre",
   "date": "2026-12-08",
   "weekday": "martedì",
   "start": "17:00",
@@ -8272,11 +8340,11 @@
   "genre": "Latino",
   "genre_source": "post",
   "family": "Commerciale",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -8317,7 +8385,7 @@
    "capacity_same_night": 50,
    "strongest_rival": "Barrito @ Barrito"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -8438,7 +8506,7 @@
    "events_same_night": 1,
    "same_family": 0,
    "capacity_same_night": 1000,
-   "strongest_rival": "NXT Station @ NXT Station"
+   "strongest_rival": "NXT Bergamo @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -8476,21 +8544,21 @@
   "genre": null,
   "genre_source": null,
   "family": "Altro",
-  "venue": "Gres Art 671",
+  "venue": "gres art 671",
   "venue_known": true,
-  "address": "Via San Bernardino 141, Bergamo",
-  "city": "Bergamo",
+  "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+  "city": null,
   "km": 2.6,
   "venue_instagram": "gres_art_671",
   "venue_type": "live_club",
-  "venue_followers": 21341,
+  "venue_followers": 21346,
   "capacity": 2000,
   "capacity_source": "stima",
   "room": null,
   "entry": "gratis",
   "price": 0,
   "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/928221968_18004149522034022_3535339125229174571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bQaTpkje3I8Q7kNvwFnbZ_c&_nc_oc=AdpouF7QU8lZ-A6IeHCMS0yMoDhXX1ABbmKfXE6WmI6gz8Mvh3dRryQgq2tQ5nHBqOs&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=DHILytv4hREdIkvZs0Y8tg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQWPh7XKrUad-badKBq68y5aNYqlGj9yjbo77SgCMxoew&oe=6B0A6A23",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/928221968_18004149522034022_3535339125229174571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bQaTpkje3I8Q7kNvwEuRLuU&_nc_oc=Adr32QVDMUq6P_0KpbGOORzKoUqwHqTNA8N5V-VWIuJnfFQjEDxD45yufxfCi2sPB2M&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=-PLi2gBJWamW0jMAzuuUSQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFzhaikO59Wg0bsKOtUATQZmdRSs4tPf06S_h69C88tg&oe=6B0B4B23",
   "score": 57.3,
   "score_parts": {
    "promoter": 0.0,
@@ -8525,7 +8593,7 @@
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-10-nxt_station",
+  "id": "2026-12-10-nxt_bergamo",
   "date": "2026-12-10",
   "weekday": "giovedì",
   "start": null,
@@ -8569,11 +8637,11 @@
   "genre": "Jazz",
   "genre_source": "post",
   "family": "Altro",
-  "venue": "NXT Station",
+  "venue": "NXT Bergamo",
   "venue_known": true,
-  "address": "Piazzale degli Alpini, Bergamo",
-  "city": "Bergamo",
-  "km": 0.7,
+  "address": "Piazzale degli Alpini, 24121 Bergamo BG",
+  "city": null,
+  "km": 0.8,
   "venue_instagram": "nxtbergamo",
   "venue_type": "open_air",
   "venue_followers": 30373,
@@ -8614,7 +8682,7 @@
    "capacity_same_night": 100,
    "strongest_rival": "MOSS | Via G. Bonomelli 9, Bergamo @ MOSS | Via G. Bonomelli 9, Bergamo"
   },
-  "first_seen": "2026-11-23",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -8637,14 +8705,14 @@
   "genre": null,
   "genre_source": null,
   "family": "Altro",
-  "venue": "Gres Art 671",
+  "venue": "gres art 671",
   "venue_known": true,
-  "address": "Via San Bernardino 141, Bergamo",
-  "city": "Bergamo",
+  "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+  "city": null,
   "km": 2.6,
   "venue_instagram": "gres_art_671",
   "venue_type": "live_club",
-  "venue_followers": 21341,
+  "venue_followers": 21346,
   "capacity": 2000,
   "capacity_source": "stima",
   "room": null,
@@ -8820,7 +8888,7 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 1000,
-   "strongest_rival": "Possibilita @ NXT Station"
+   "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -8959,7 +9027,7 @@
    "events_same_night": 2,
    "same_family": 2,
    "capacity_same_night": 1100,
-   "strongest_rival": "Possibilita @ NXT Station"
+   "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -9273,14 +9341,14 @@
   "km": 3.0,
   "venue_instagram": "csapacipaciana",
   "venue_type": "live_club",
-  "venue_followers": 13846,
+  "venue_followers": 13855,
   "capacity": null,
   "capacity_source": null,
   "room": null,
   "entry": null,
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/916887079_18660668767056454_3829533265611098341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=05F2c-QorycQ7kNvwGlsaFE&_nc_oc=AdpsDk2YLDpEm3u2RBoIwCTboUo0qo29egBwJVvOA_zJ5l_wYpPTW3ccwhN3I3XFZBg&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Q8Xf652hfftdOJL-F-IMuw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTkHT4mI_SCJRh6UE7WDLxQmgJvS46PK9goHpC_ewdcPQ&oe=6B0A3FA9",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/916887079_18660668767056454_3829533265611098341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=05F2c-QorycQ7kNvwGec2iE&_nc_oc=AdquB4h7YKNlDXuXiGlnyqxktObiXA4CGK6qUmO2QypsvWLgMjcjqomwqEX7ZJ6vq1I&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=cO0qiKwO10tm3qUccP2-0A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQcMUAAtOWRwPNgDL3R-KejchBU0Vk0gh5JRqOlkdR5kw&oe=6B0B58E9",
   "score": 40.9,
   "score_parts": {
    "promoter": 0.0,
@@ -9377,6 +9445,81 @@
   "status": "pubblicato"
  },
  {
+  "id": "2026-12-13-daste-pre",
+  "date": "2026-12-13",
+  "weekday": "domenica",
+  "start": "12:00",
+  "end": "18:00",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 12:00",
+  "scope": "zona",
+  "type": "dj set",
+  "nightlife": true,
+  "party": "The Box",
+  "promoter_name": "The Box Bergamo",
+  "promoter_instagram": "theboxbergamo",
+  "promoter_followers": 8090,
+  "headliner": null,
+  "guests": [
+   {
+    "name": "roberto_dossena_aka_robbie_dox",
+    "instagram": "roberto_dossena_aka_robbie_dox",
+    "followers": null,
+    "level": null
+   }
+  ],
+  "genre": "Melodic Techno",
+  "genre_source": "promoter (conoscenze)",
+  "family": "House / Elettronica",
+  "venue": "Daste",
+  "venue_known": true,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
+  "venue_instagram": "daste_bergamo",
+  "venue_type": "live_club",
+  "venue_followers": 21365,
+  "capacity": 400,
+  "capacity_source": "conoscenze",
+  "room": null,
+  "entry": "a pagamento",
+  "price": null,
+  "tickets": null,
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/927472810_18646250017000301_1079717742183828845_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=B-y2pzQ-Z-8Q7kNvwHZIgzN&_nc_oc=Adrudu_qxGMBMIo1L79r4WO8Heved9h--nbBfg5RqbAd0IsltkBKrYkTIVcYlMNFAHI&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RzvwBHv_wjmeWoDr5LW9Ng&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTkLBPK1PWvdlWYJ9IHWUnzrNa5C43hNAeekRtOFf5ztA&oe=6B0AA071",
+  "score": 68.8,
+  "score_parts": {
+   "promoter": 5.3,
+   "distance": 9.6,
+   "capacity": 5.1,
+   "venue_followers": 7.1
+  },
+  "confidence": 0.95,
+  "sources": [
+   "instagram-promoter"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/DgF0Mrwxk2H/"
+  ],
+  "handles": [
+   "daste_bergamo",
+   "roberto_dossena_aka_robbie_dox"
+  ],
+  "posted": "2026-11-23T16:55+00:00",
+  "lead_days": 20,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "rank_in_night": 1,
+  "competition": {
+   "events_same_night": 1,
+   "same_family": 0,
+   "capacity_same_night": 400,
+   "strongest_rival": "Queen Club @ Queen Club"
+  },
+  "first_seen": "2026-11-24",
+  "status": "pubblicato"
+ },
+ {
   "id": "2026-12-13-queen_club-pre",
   "date": "2026-12-13",
   "weekday": "domenica",
@@ -9439,12 +9582,12 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 1,
+  "rank_in_night": 2,
   "competition": {
-   "events_same_night": 0,
+   "events_same_night": 1,
    "same_family": 0,
-   "capacity_same_night": 0,
-   "strongest_rival": null
+   "capacity_same_night": 400,
+   "strongest_rival": "The Box @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -9508,7 +9651,7 @@
   "handles": [
    "spettacoli"
   ],
-  "posted": "2026-11-24T10:57+00:00",
+  "posted": "2026-11-24T12:45+00:00",
   "lead_days": 21,
   "day_note": null,
   "in_posts": true,
@@ -9606,7 +9749,7 @@
   "fascia": "serata",
   "fascia_why": "finisce a tarda notte",
   "scope": "zona",
-  "type": "dinner show",
+  "type": "dj set",
   "nightlife": true,
   "party": null,
   "promoter_name": null,
@@ -9698,7 +9841,7 @@
    {
     "name": "parabellum_hard",
     "instagram": "parabellum_hard",
-    "followers": null,
+    "followers": 1337,
     "level": null
    }
   ],
@@ -10127,9 +10270,9 @@
   "promoter_followers": null,
   "headliner": null,
   "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
+  "genre": "Commerciale",
+  "genre_source": "locale (conoscenze)",
+  "family": "Commerciale",
   "venue": "Capogiro",
   "venue_known": true,
   "address": "Via Trento, 14, 24035 Curno BG",
@@ -10170,7 +10313,7 @@
   "rank_in_night": 1,
   "competition": {
    "events_same_night": 1,
-   "same_family": 1,
+   "same_family": 0,
    "capacity_same_night": 150,
    "strongest_rival": "Door 74 @ Door 74"
   },
@@ -10238,7 +10381,7 @@
   "rank_in_night": 2,
   "competition": {
    "events_same_night": 1,
-   "same_family": 1,
+   "same_family": 0,
    "capacity_same_night": 600,
    "strongest_rival": "Capogiro @ Capogiro"
   },
@@ -10662,7 +10805,7 @@
   "status": "pubblicato"
  },
  {
-  "id": "2026-12-31-daste_bergamo",
+  "id": "2026-12-31-daste",
   "date": "2026-12-31",
   "weekday": "giovedì",
   "start": "23:00",
@@ -10688,11 +10831,11 @@
   "genre": "Melodic House",
   "genre_source": "promoter (conoscenze)",
   "family": "House / Elettronica",
-  "venue": "Daste Bergamo",
+  "venue": "Daste",
   "venue_known": true,
-  "address": null,
-  "city": null,
-  "km": null,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
   "venue_instagram": "daste_bergamo",
   "venue_type": "live_club",
   "venue_followers": 21365,
@@ -10711,7 +10854,7 @@
    "promoter": 5.3,
    "guest": 0.0
   },
-  "confidence": 0.8,
+  "confidence": 0.95,
   "sources": [
    "instagram-locale"
   ],
@@ -10736,7 +10879,7 @@
    "capacity_same_night": 500,
    "strongest_rival": "Keller Factory 2.0 - Live Music Pub @ Keller Factory 2.0 - Live Music Pub"
   },
-  "first_seen": "2026-11-21",
+  "first_seen": "2026-11-24",
   "status": "pubblicato"
  },
  {
@@ -10773,14 +10916,14 @@
   "km": 5.0,
   "venue_instagram": "kellerfactory_",
   "venue_type": "bar",
-  "venue_followers": 7367,
+  "venue_followers": 7369,
   "capacity": 400,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": 90,
   "tickets": null,
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/905400824_18575906161074567_7335936566023769694_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ltMSB_8UQkIQ7kNvwHXyCJZ&_nc_oc=AdrkRpqs4S6m4LOrtmGl4IO_UVULDomIykLsY1X_Crhmz65x1SUGXfVUm1XPwKzUB-o&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=gn08AHV4AhTcOMriRvNZtg&_nc_tpa=Q5bMBQL5YwqHaBLIU7e7poNgFnb7i_FcZyzh-cGq7MyvaZt2VAIlEvZkRnadTrMAipZZRQj6H2lxKyPB7Q&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSVMaF-Rd5e_wYyzk364PXv7AeWfT4xtodEByWpfjQkTg&oe=6B0A51A1",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/905400824_18575906161074567_7335936566023769694_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ltMSB_8UQkIQ7kNvwHyuKyw&_nc_oc=AdoSLR0-Y9E7m5p5FaVr_Gm0bxXoJKLaE3E32gK6YrP1D4nzlPMYX6_pmAsZplZtzuU&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=yUN27CFE5JTn8FaALogdsQ&_nc_tpa=Q5bMBQIKK2CRtTdnx_yaYtqs4qwvz4aqyzB0opzdb7v_3bXZDtj18cmLoKOgB8d3u7YZN-mp3nR8VAMPHw&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQQAX2nBWVX7hGLheifF1fEWgcYRMDfdPd2XgLR3WTqSKA&oe=6B0B6AE1",
   "score": 24.3,
   "score_parts": {
    "venue": 3,
@@ -10809,7 +10952,7 @@
    "events_same_night": 3,
    "same_family": 0,
    "capacity_same_night": 500,
-   "strongest_rival": "utōpia @ Daste Bergamo"
+   "strongest_rival": "utōpia @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -10891,7 +11034,7 @@
    "events_same_night": 3,
    "same_family": 1,
    "capacity_same_night": 900,
-   "strongest_rival": "utōpia @ Daste Bergamo"
+   "strongest_rival": "utōpia @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -10974,7 +11117,7 @@
    "events_same_night": 3,
    "same_family": 1,
    "capacity_same_night": 800,
-   "strongest_rival": "utōpia @ Daste Bergamo"
+   "strongest_rival": "utōpia @ Daste"
   },
   "first_seen": "2026-11-23",
   "status": "pubblicato"
@@ -10996,9 +11139,9 @@
   "promoter_followers": null,
   "headliner": null,
   "guests": [],
-  "genre": null,
-  "genre_source": null,
-  "family": "Altro",
+  "genre": "Commerciale",
+  "genre_source": "locale (conoscenze)",
+  "family": "Commerciale",
   "venue": "Capogiro",
   "venue_known": true,
   "address": "Via Trento, 14, 24035 Curno BG",
@@ -11073,14 +11216,14 @@
   "km": 3.0,
   "venue_instagram": "csapacipaciana",
   "venue_type": "live_club",
-  "venue_followers": 13846,
+  "venue_followers": 13855,
   "capacity": null,
   "capacity_source": null,
   "room": null,
   "entry": "a pagamento",
   "price": 25,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qBJRtm8RlM4Q7kNvwG_9L0s&_nc_oc=Adok0lg6VDv7PeKzN7orD23DXrK02U9pid93bL2vpUDRMJC0wlJlPVcu3OUwRieowiM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Q8Xf652hfftdOJL-F-IMuw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSONTBfBYmav_Jv_iu1ouSZmzCjou_n5qnlqXafnykpsA&oe=6B0A4B3C",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qBJRtm8RlM4Q7kNvwHKT-VC&_nc_oc=AdomnOO8fyyqjOrlgvoZXnAKb-WJD123lRc4tOErHwccAtHPV9p_k9poM_XVdSQyq68&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=cO0qiKwO10tm3qUccP2-0A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQzXT8tUgnUYY9AZ0dggLwNgEnzmaF-n_QyHMHuGKeDeg&oe=6B0B647C",
   "score": 40.9,
   "score_parts": {
    "promoter": 0.0,
@@ -11329,21 +11472,21 @@
   "genre": null,
   "genre_source": null,
   "family": "Altro",
-  "venue": "Gres Art 671",
+  "venue": "gres art 671",
   "venue_known": true,
-  "address": "Via San Bernardino 141, Bergamo",
-  "city": "Bergamo",
+  "address": "Via S. Bernardino, 141, 24126 Bergamo BG",
+  "city": null,
   "km": 2.6,
   "venue_instagram": "gres_art_671",
   "venue_type": "live_club",
-  "venue_followers": 21341,
+  "venue_followers": 21346,
   "capacity": 2000,
   "capacity_source": "stima",
   "room": null,
   "entry": "a pagamento",
   "price": null,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/850466570_17998132473034022_7444746231845147492_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=eomYaLQKoyoQ7kNvwHNXbNz&_nc_oc=AdrbnOt0ldgoKH4d_MSmtzKiX9Kx9EFg-4ir9_XK5e9fBfTyS3QdKTcrM4X6MrMCpBg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=DHILytv4hREdIkvZs0Y8tg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRBAHpg_UEUSNWqccMRw6e73DgBywqgPoaRECYs8OzakA&oe=6B0A4572",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/850466570_17998132473034022_7444746231845147492_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=eomYaLQKoyoQ7kNvwGnSF7f&_nc_oc=AdptDrnbLe960-OiGRXEu46b8z_kY778UF4S4wUUiaa6TZXjmP-okru7jMXG2xnh9-s&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=-PLi2gBJWamW0jMAzuuUSQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQT6biHLm-SvEmkxPpNbisjrhgnMk3remnGplWBtpgzRQ&oe=6B0B5EB2",
   "score": 57.3,
   "score_parts": {
    "promoter": 0.0,
@@ -11465,14 +11608,14 @@
   "km": 3.0,
   "venue_instagram": "csapacipaciana",
   "venue_type": "live_club",
-  "venue_followers": 13846,
+  "venue_followers": 13855,
   "capacity": null,
   "capacity_source": null,
   "room": null,
   "entry": "a pagamento",
   "price": 25,
   "tickets": null,
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qBJRtm8RlM4Q7kNvwG_9L0s&_nc_oc=Adok0lg6VDv7PeKzN7orD23DXrK02U9pid93bL2vpUDRMJC0wlJlPVcu3OUwRieowiM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Q8Xf652hfftdOJL-F-IMuw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSONTBfBYmav_Jv_iu1ouSZmzCjou_n5qnlqXafnykpsA&oe=6B0A4B3C",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/885053780_18655304089056454_7737579295610603209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qBJRtm8RlM4Q7kNvwHKT-VC&_nc_oc=AdomnOO8fyyqjOrlgvoZXnAKb-WJD123lRc4tOErHwccAtHPV9p_k9poM_XVdSQyq68&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=cO0qiKwO10tm3qUccP2-0A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQzXT8tUgnUYY9AZ0dggLwNgEnzmaF-n_QyHMHuGKeDeg&oe=6B0B647C",
   "score": 40.9,
   "score_parts": {
    "promoter": 0.0,
@@ -11977,6 +12120,71 @@
   "status": "pubblicato"
  },
  {
+  "id": "2027-05-20-daste-pre",
+  "date": "2027-05-20",
+  "weekday": "giovedì",
+  "start": "20:00",
+  "end": null,
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 20:00",
+  "scope": "zona",
+  "type": "dj set",
+  "nightlife": true,
+  "party": null,
+  "promoter_name": null,
+  "promoter_instagram": null,
+  "promoter_followers": null,
+  "headliner": null,
+  "guests": [],
+  "genre": "Rock / Pop",
+  "genre_source": "post",
+  "family": "Altro",
+  "venue": "Daste",
+  "venue_known": true,
+  "address": "Via Daste e Spalenga 13-15, 24125 Bergamo",
+  "city": "Bergamo",
+  "km": 1.1,
+  "venue_instagram": "daste_bergamo",
+  "venue_type": "live_club",
+  "venue_followers": 21365,
+  "capacity": 400,
+  "capacity_source": "conoscenze",
+  "room": null,
+  "entry": "a pagamento",
+  "price": 15,
+  "tickets": null,
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/890716433_18108786389579285_211569956881561808_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JytCDWsJp0EQ7kNvwGxs1P3&_nc_oc=AdomBx7z9Bh4LX5mUN4j_1EnFh7NMsqzXfACfN4_yDcCt9Q25Uf5A5PTHAK8JE6b7ss&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR3dNXc8WbTevPmnStodVenQ7qpJIDf9ZKs_1yP9HZ8Sg&oe=6B0B12D3",
+  "score": 53.0,
+  "score_parts": {
+   "promoter": 0.0,
+   "distance": 9.6,
+   "capacity": 5.1,
+   "venue_followers": 7.1
+  },
+  "confidence": 0.95,
+  "sources": [
+   "instagram-locale"
+  ],
+  "urls": [
+   "https://www.instagram.com/p/DfZYFrXi0E5/"
+  ],
+  "handles": [],
+  "posted": "2026-11-06T10:25+00:00",
+  "lead_days": 195,
+  "day_note": null,
+  "in_posts": true,
+  "brand": null,
+  "rank_in_night": 1,
+  "competition": {
+   "events_same_night": 1,
+   "same_family": 1,
+   "capacity_same_night": 450,
+   "strongest_rival": "ABB Robotics @ Spazio Eventi Kilometro Rosso"
+  },
+  "first_seen": "2026-11-24",
+  "status": "pubblicato"
+ },
+ {
   "id": "2027-05-20-spazio_eventi_kilometro_rosso",
   "date": "2027-05-20",
   "weekday": "giovedì",
@@ -12054,79 +12262,14 @@
   "day_note": null,
   "in_posts": true,
   "brand": null,
-  "rank_in_night": 1,
-  "competition": {
-   "events_same_night": 1,
-   "same_family": 1,
-   "capacity_same_night": 400,
-   "strongest_rival": "Daste Bergamo @ Daste Bergamo"
-  },
-  "first_seen": "2026-11-23",
-  "status": "pubblicato"
- },
- {
-  "id": "2027-05-20-daste_bergamo-pre",
-  "date": "2027-05-20",
-  "weekday": "giovedì",
-  "start": "20:00",
-  "end": null,
-  "fascia": "preserata",
-  "fascia_why": "inizia alle 20:00",
-  "scope": "zona",
-  "type": "dj set",
-  "nightlife": true,
-  "party": null,
-  "promoter_name": null,
-  "promoter_instagram": null,
-  "promoter_followers": null,
-  "headliner": null,
-  "guests": [],
-  "genre": "Rock / Pop",
-  "genre_source": "post",
-  "family": "Altro",
-  "venue": "Daste Bergamo",
-  "venue_known": true,
-  "address": null,
-  "city": null,
-  "km": null,
-  "venue_instagram": "daste_bergamo",
-  "venue_type": "live_club",
-  "venue_followers": 21365,
-  "capacity": 400,
-  "capacity_source": "conoscenze",
-  "room": null,
-  "entry": "a pagamento",
-  "price": 15,
-  "tickets": null,
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/890716433_18108786389579285_211569956881561808_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JytCDWsJp0EQ7kNvwGxs1P3&_nc_oc=AdomBx7z9Bh4LX5mUN4j_1EnFh7NMsqzXfACfN4_yDcCt9Q25Uf5A5PTHAK8JE6b7ss&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=V7WnQpwMn-iAhTz79JERQQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR3dNXc8WbTevPmnStodVenQ7qpJIDf9ZKs_1yP9HZ8Sg&oe=6B0B12D3",
-  "score": 28.9,
-  "score_parts": {
-   "promoter": 0.0,
-   "distance": 0.0,
-   "capacity": 5.1,
-   "venue_followers": 7.1
-  },
-  "confidence": 0.8,
-  "sources": [
-   "instagram-locale"
-  ],
-  "urls": [
-   "https://www.instagram.com/p/DfZYFrXi0E5/"
-  ],
-  "handles": [],
-  "posted": "2026-11-06T10:25+00:00",
-  "lead_days": 195,
-  "day_note": null,
-  "in_posts": true,
-  "brand": null,
   "rank_in_night": 2,
   "competition": {
    "events_same_night": 1,
    "same_family": 1,
-   "capacity_same_night": 450,
-   "strongest_rival": "ABB Robotics @ Spazio Eventi Kilometro Rosso"
+   "capacity_same_night": 400,
+   "strongest_rival": "Daste @ Daste"
   },
-  "first_seen": "2026-11-21",
+  "first_seen": "2026-11-23",
   "status": "pubblicato"
  },
  {

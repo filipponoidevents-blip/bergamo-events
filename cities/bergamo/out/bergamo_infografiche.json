@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-24T10:57",
+ "generated": "2026-11-24T12:46",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -42,6 +42,14 @@
       "family": "House / Elettronica"
      },
      {
+      "line1": "Maison Grove @ Setai",
+      "line2": "House, Massimino Lippoli",
+      "time": "00:00",
+      "score": 39.8,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
@@ -67,6 +75,22 @@
      }
     ],
     "2026-11-28": [
+     {
+      "line1": "MARIE VAUNT @ Bolgia",
+      "line2": "Techno",
+      "time": "23:30",
+      "score": 60.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "Fuse All Night: Cuartero @ Zero Club",
+      "line2": "House",
+      "time": "00:59",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
      {
       "line1": "VIBE",
       "line2": "Tech House",
@@ -96,7 +120,7 @@
    "Altro": {
     "2026-11-25": [
      {
-      "line1": "Anna @ Gres Art 671",
+      "line1": "Anna @ gres art 671",
       "line2": "",
       "time": "00:00",
       "score": 59.1,
@@ -110,22 +134,6 @@
       "line2": "",
       "time": "00:00",
       "score": 60.6,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "MARIE VAUNT @ Bolgia",
-      "line2": "",
-      "time": "23:30",
-      "score": 60.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Fuse All Night: Cuartero @ Zero Club",
-      "line2": "",
-      "time": "00:59",
-      "score": 39.9,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -186,7 +194,7 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Conejo Night @ Daste Bergamo",
+      "line1": "Conejo Night @ Daste",
       "line2": "Reggaeton",
       "time": "00:00",
       "score": 33.3,
@@ -289,7 +297,7 @@
    ],
    "2026-11-25": [
     {
-     "line1": "Possibilita @ NXT Station",
+     "line1": "Possibilita @ NXT Bergamo",
      "line2": "Jazz",
      "time": "00:00",
      "score": 58.6,
@@ -301,6 +309,14 @@
      "line2": "Live",
      "time": "21:00",
      "score": 56.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Incensi @ Daste",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 53.0,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -317,14 +333,6 @@
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Incensi @ Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 28.9,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -358,14 +366,14 @@
    "2026-11-27": [
     {
      "line1": "utōpia @ Druso",
-     "line2": "Melodic House, DENEB",
+     "line2": "Melodic House, Pollo",
      "time": "00:00",
      "score": 65.7,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Jazz / Revival",
      "time": "21:30",
      "score": 58.6,
@@ -377,14 +385,6 @@
      "line2": "Witch House / EDM",
      "time": "00:00",
      "score": 55.6,
-     "fascia": "preserata",
-     "family": "House / Elettronica"
-    },
-    {
-     "line1": "Maison Grove @ Setai",
-     "line2": "House, Massimino Lippoli",
-     "time": "00:00",
-     "score": 55.1,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
@@ -513,6 +513,14 @@
    ],
    "2026-11-29": [
     {
+     "line1": "Daste",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 53.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Druso",
      "line2": "Rock",
      "time": "16:00",
@@ -535,14 +543,6 @@
      "score": 35.3,
      "fascia": "preserata",
      "family": "House / Elettronica"
-    },
-    {
-     "line1": "Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 28.9,
-     "fascia": "preserata",
-     "family": "Altro"
     },
     {
      "line1": "No.Mad Entertainment @ Non solo caffe",
@@ -609,26 +609,32 @@
       "score": 66.3,
       "fascia": "serata",
       "family": "House / Elettronica"
-     }
-    ]
-   },
-   "Altro": {
-    "2026-12-05": [
+     },
      {
       "line1": "CHELINA MANUHUTU @ Bolgia",
-      "line2": "",
+      "line2": "Techno",
       "time": "23:30",
       "score": 60.0,
       "fascia": "serata",
-      "family": "Altro"
+      "family": "House / Elettronica"
      }
     ]
    }
   },
   "preserate": {
+   "2026-12-01": [
+    {
+     "line1": "Emozioni In Fiore @ Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "19:30",
+     "score": 44.6,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    }
+   ],
    "2026-12-02": [
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Live",
      "time": "20:00",
      "score": 58.6,
@@ -636,7 +642,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Gres Art 671",
+     "line1": "gres art 671",
      "line2": "dj set",
      "time": "00:00",
      "score": 57.3,
@@ -654,7 +660,7 @@
    ],
    "2026-12-03": [
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Live",
      "time": "21:00",
      "score": 58.6,
@@ -662,7 +668,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Gres Art 671",
+     "line1": "gres art 671",
      "line2": "dj set",
      "time": "09:00",
      "score": 57.3,
@@ -698,12 +704,20 @@
    ],
    "2026-12-05": [
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Rock",
      "time": "21:00",
      "score": 58.6,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Daste",
+     "line2": "Pop",
+     "time": "21:30",
+     "score": 53.0,
+     "fascia": "preserata",
+     "family": "Commerciale"
     },
     {
      "line1": "Il Circolino della Malpensata",
@@ -720,14 +734,6 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
-    },
-    {
-     "line1": "Daste Bergamo",
-     "line2": "Pop",
-     "time": "21:30",
-     "score": 28.9,
-     "fascia": "preserata",
-     "family": "Commerciale"
     }
    ],
    "2026-12-06": [
@@ -746,6 +752,8 @@
    "@nxtbergamo",
    "@gres_art_671",
    "@prenotazione",
+   "@ninfeasocialclub",
+   "@emozioni.in.fiore",
    "@reservation",
    "@particolare",
    "@revel_treviglio",
@@ -761,13 +769,13 @@
    "@dnaproject__",
    "@bolgia.official",
    "@importanti",
+   "@daste_bergamo",
+   "@consumazione",
    "@circolinomalpensata_bergamo",
    "@alternative",
    "@bloom_mezzago",
    "@dj.sofficino",
    "@nico.bre1917",
-   "@daste_bergamo",
-   "@consumazione",
    "@vibetheclub",
    "@aliveofficialparty"
   ],
@@ -999,7 +1007,7 @@
     ],
     "2026-11-25": [
      {
-      "line1": "Anna @ Gres Art 671",
+      "line1": "Anna @ gres art 671",
       "line2": "",
       "time": "00:00",
       "score": 59.1,
@@ -1013,22 +1021,6 @@
       "line2": "",
       "time": "00:00",
       "score": 60.6,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "MARIE VAUNT @ Bolgia",
-      "line2": "",
-      "time": "23:30",
-      "score": 60.0,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Fuse All Night: Cuartero @ Zero Club",
-      "line2": "",
-      "time": "00:59",
-      "score": 39.9,
       "fascia": "serata",
       "family": "Altro"
      },
@@ -1099,7 +1091,7 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Conejo Night @ Daste Bergamo",
+      "line1": "Conejo Night @ Daste",
       "line2": "Reggaeton",
       "time": "00:00",
       "score": 33.3,
@@ -1163,6 +1155,14 @@
       "family": "House / Elettronica"
      },
      {
+      "line1": "Maison Grove @ Setai",
+      "line2": "House, Massimino Lippoli",
+      "time": "00:00",
+      "score": 39.8,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Underground - Hardcore @ Oronero",
       "line2": "Hard Techno, Possibilita",
       "time": "23:30",
@@ -1188,6 +1188,22 @@
      }
     ],
     "2026-11-28": [
+     {
+      "line1": "MARIE VAUNT @ Bolgia",
+      "line2": "Techno",
+      "time": "23:30",
+      "score": 60.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "Fuse All Night: Cuartero @ Zero Club",
+      "line2": "House",
+      "time": "00:59",
+      "score": 39.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
      {
       "line1": "VIBE",
       "line2": "Tech House",
@@ -1458,7 +1474,7 @@
    ],
    "2026-11-25": [
     {
-     "line1": "Possibilita @ NXT Station",
+     "line1": "Possibilita @ NXT Bergamo",
      "line2": "Jazz",
      "time": "00:00",
      "score": 58.6,
@@ -1470,6 +1486,14 @@
      "line2": "Live",
      "time": "21:00",
      "score": 56.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Incensi @ Daste",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 53.0,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -1486,14 +1510,6 @@
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
-     "fascia": "preserata",
-     "family": "Altro"
-    },
-    {
-     "line1": "Incensi @ Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 28.9,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1527,14 +1543,14 @@
    "2026-11-27": [
     {
      "line1": "utōpia @ Druso",
-     "line2": "Melodic House, DENEB",
+     "line2": "Melodic House, Pollo",
      "time": "00:00",
      "score": 65.7,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Jazz / Revival",
      "time": "21:30",
      "score": 58.6,
@@ -1546,14 +1562,6 @@
      "line2": "Witch House / EDM",
      "time": "00:00",
      "score": 55.6,
-     "fascia": "preserata",
-     "family": "House / Elettronica"
-    },
-    {
-     "line1": "Maison Grove @ Setai",
-     "line2": "House, Massimino Lippoli",
-     "time": "00:00",
-     "score": 55.1,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
@@ -1682,6 +1690,14 @@
    ],
    "2026-11-29": [
     {
+     "line1": "Daste",
+     "line2": "aperitivo",
+     "time": "19:30",
+     "score": 53.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Druso",
      "line2": "Rock",
      "time": "16:00",
@@ -1704,14 +1720,6 @@
      "score": 35.3,
      "fascia": "preserata",
      "family": "House / Elettronica"
-    },
-    {
-     "line1": "Daste Bergamo",
-     "line2": "aperitivo",
-     "time": "19:30",
-     "score": 28.9,
-     "fascia": "preserata",
-     "family": "Altro"
     },
     {
      "line1": "No.Mad Entertainment @ Non solo caffe",
@@ -1787,6 +1795,24 @@
       "score": 66.3,
       "fascia": "serata",
       "family": "House / Elettronica"
+     },
+     {
+      "line1": "CHELINA MANUHUTU @ Bolgia",
+      "line2": "Techno",
+      "time": "23:30",
+      "score": 60.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     }
+    ],
+    "2026-12-07": [
+     {
+      "line1": "NOVAH @ Bolgia",
+      "line2": "Techno",
+      "time": "23:30",
+      "score": 60.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ],
     "2026-12-12": [
@@ -1811,7 +1837,7 @@
     ],
     "2026-12-31": [
      {
-      "line1": "utōpia @ Daste Bergamo",
+      "line1": "utōpia @ Daste",
       "line2": "Melodic House",
       "time": "23:00",
       "score": 43.9,
@@ -1820,27 +1846,39 @@
      }
     ]
    },
-   "Altro": {
-    "2026-12-05": [
-     {
-      "line1": "CHELINA MANUHUTU @ Bolgia",
-      "line2": "",
-      "time": "23:30",
-      "score": 60.0,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
+   "Commerciale": {
     "2026-12-07": [
      {
-      "line1": "NOVAH @ Bolgia",
-      "line2": "",
-      "time": "23:30",
-      "score": 60.0,
+      "line1": "Afrodylan @ Druso",
+      "line2": "Afro / Reggaeton",
+      "time": "22:30",
+      "score": 58.1,
       "fascia": "serata",
-      "family": "Altro"
+      "family": "Commerciale"
      }
     ],
+    "2026-12-18": [
+     {
+      "line1": "Nikita",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 43.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-12-31": [
+     {
+      "line1": "Keller Factory 2.0 - Live Music Pub",
+      "line2": "Revival",
+      "time": "23:00",
+      "score": 24.3,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ]
+   },
+   "Altro": {
     "2026-12-11": [
      {
       "line1": "Teatro Miela",
@@ -1889,44 +1927,22 @@
       "family": "Altro"
      }
     ]
-   },
-   "Commerciale": {
-    "2026-12-07": [
-     {
-      "line1": "Afrodylan @ Druso",
-      "line2": "Afro / Reggaeton",
-      "time": "22:30",
-      "score": 58.1,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ],
-    "2026-12-18": [
-     {
-      "line1": "Nikita",
-      "line2": "Commerciale",
-      "time": "00:00",
-      "score": 43.0,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ],
-    "2026-12-31": [
-     {
-      "line1": "Keller Factory 2.0 - Live Music Pub",
-      "line2": "Revival",
-      "time": "23:00",
-      "score": 24.3,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ]
    }
   },
   "preserate": {
+   "2026-12-01": [
+    {
+     "line1": "Emozioni In Fiore @ Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "19:30",
+     "score": 44.6,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    }
+   ],
    "2026-12-02": [
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Live",
      "time": "20:00",
      "score": 58.6,
@@ -1934,7 +1950,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Gres Art 671",
+     "line1": "gres art 671",
      "line2": "dj set",
      "time": "00:00",
      "score": 57.3,
@@ -1952,7 +1968,7 @@
    ],
    "2026-12-03": [
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Live",
      "time": "21:00",
      "score": 58.6,
@@ -1960,7 +1976,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Gres Art 671",
+     "line1": "gres art 671",
      "line2": "dj set",
      "time": "09:00",
      "score": 57.3,
@@ -1996,12 +2012,20 @@
    ],
    "2026-12-05": [
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Rock",
      "time": "21:00",
      "score": 58.6,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Daste",
+     "line2": "Pop",
+     "time": "21:30",
+     "score": 53.0,
+     "fascia": "preserata",
+     "family": "Commerciale"
     },
     {
      "line1": "Il Circolino della Malpensata",
@@ -2018,14 +2042,6 @@
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
-    },
-    {
-     "line1": "Daste Bergamo",
-     "line2": "Pop",
-     "time": "21:30",
-     "score": 28.9,
-     "fascia": "preserata",
-     "family": "Commerciale"
     }
    ],
    "2026-12-06": [
@@ -2048,7 +2064,7 @@
      "family": "Altro"
     },
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Rock",
      "time": "00:00",
      "score": 58.6,
@@ -2066,7 +2082,7 @@
    ],
    "2026-12-08": [
     {
-     "line1": "NXT Station",
+     "line1": "NXT Bergamo",
      "line2": "Latino",
      "time": "17:00",
      "score": 58.6,
@@ -2084,7 +2100,7 @@
    ],
    "2026-12-09": [
     {
-     "line1": "Gres Art 671",
+     "line1": "gres art 671",
      "line2": "dj set",
      "time": "00:00",
      "score": 57.3,
@@ -2094,7 +2110,7 @@
    ],
    "2026-12-10": [
     {
-     "line1": "Possibilita @ NXT Station",
+     "line1": "Possibilita @ NXT Bergamo",
      "line2": "Jazz",
      "time": "00:00",
      "score": 58.6,
@@ -2148,6 +2164,14 @@
    ],
    "2026-12-13": [
     {
+     "line1": "The Box @ Daste",
+     "line2": "Melodic Techno",
+     "time": "12:00",
+     "score": 68.8,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Queen Club",
      "line2": "Commerciale",
      "time": "19:00",
@@ -2177,11 +2201,11 @@
    "2026-12-22": [
     {
      "line1": "Capogiro",
-     "line2": "dj set",
+     "line2": "Commerciale",
      "time": "22:00",
      "score": 49.5,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "Commerciale"
     },
     {
      "line1": "Door 74",
@@ -2215,11 +2239,11 @@
    "2026-12-31": [
     {
      "line1": "Capogiro",
-     "line2": "dj set",
+     "line2": "Commerciale",
      "time": "22:00",
      "score": 49.5,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "Commerciale"
     }
    ]
   },
@@ -2229,6 +2253,7 @@
    "@nxtbergamo",
    "@bloom_mezzago",
    "@gres_art_671",
+   "@daste_bergamo",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
    "@reservation",
@@ -2237,24 +2262,23 @@
    "@16manu___",
    "@bolgia.official",
    "@importanti",
-   "@daste_bergamo",
    "@consumazione",
    "@vibetheclub",
    "@aliveofficialparty",
    "@drusobg",
    "@afrodylanofficial",
    "@jolly_club_mantova_",
+   "@theboxbergamo",
    "@teatromiela_trieste",
    "@capogirojoyclub",
+   "@ninfeasocialclub",
+   "@emozioni.in.fiore",
    "@particolare",
    "@revel_treviglio",
    "@gemboyofficial_",
    "@quei_bravi_ragazzi_bg",
    "@paolorivapasticceria",
-   "@esotic_event",
-   "@marci_otta",
-   "@furkan_mcc",
-   "@dnaproject__"
+   "@esotic_event"
   ],
   "hashtags": [
    "#bergamo",

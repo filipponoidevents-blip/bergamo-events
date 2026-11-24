@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T10:57",
+ "generated": "2026-11-24T12:46",
  "nights": [
   {
    "date": "2026-11-24",
@@ -50,7 +50,7 @@
    ],
    "top": [
     {
-     "title": "Gres Art 671 · Anna",
+     "title": "gres art 671 · Anna",
      "score": 59.1,
      "capacity": 2000
     },
@@ -93,12 +93,12 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 10,
-   "load": 327.8,
+   "events": 11,
+   "load": 367.6,
    "level": "piena",
-   "capacity_taken": 4600,
+   "capacity_taken": 5300,
    "by_family": {
-    "House / Elettronica": 4,
+    "House / Elettronica": 5,
     "Hip Hop / Trap": 1,
     "Commerciale": 5,
     "Altro": 0
@@ -116,6 +116,11 @@
      "capacity": 500
     },
     {
+     "title": "[House] Setai · Maison Grove w/ Massimino Lippoli",
+     "score": 39.8,
+     "capacity": 700
+    },
+    {
      "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
      "score": 38.0,
      "capacity": 400
@@ -123,11 +128,6 @@
     {
      "title": "[Dance] Queen Club · DiscoDance",
      "score": 36.1,
-     "capacity": 400
-    },
-    {
-     "title": "[Reggaeton] Daste Bergamo · Conejo Night",
-     "score": 33.3,
      "capacity": 400
     }
    ]
@@ -142,10 +142,10 @@
    "level": "piena",
    "capacity_taken": 7050,
    "by_family": {
-    "House / Elettronica": 3,
+    "House / Elettronica": 5,
     "Hip Hop / Trap": 0,
     "Commerciale": 2,
-    "Altro": 4
+    "Altro": 2
    },
    "missing_families": [
     "Hip Hop / Trap"
@@ -157,7 +157,7 @@
      "capacity": 950
     },
     {
-     "title": "Bolgia · MARIE VAUNT",
+     "title": "[Techno] Bolgia · MARIE VAUNT",
      "score": 60.0,
      "capacity": 3000
     },
@@ -167,7 +167,7 @@
      "capacity": 1000
     },
     {
-     "title": "Zero Club · Fuse All Night: Cuartero",
+     "title": "[House] Zero Club · Fuse All Night: Cuartero",
      "score": 39.9,
      "capacity": 500
     },
@@ -326,10 +326,10 @@
    "level": "media",
    "capacity_taken": 3500,
    "by_family": {
-    "House / Elettronica": 1,
+    "House / Elettronica": 2,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 1
+    "Altro": 0
    },
    "missing_families": [
     "Hip Hop / Trap",
@@ -342,7 +342,7 @@
      "capacity": 500
     },
     {
-     "title": "Bolgia · CHELINA MANUHUTU",
+     "title": "[Techno] Bolgia · CHELINA MANUHUTU",
      "score": 60.0,
      "capacity": 3000
     }
@@ -380,18 +380,17 @@
    "level": "media",
    "capacity_taken": 3300,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
-    "Altro": 1
+    "Altro": 0
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap"
    ],
    "top": [
     {
-     "title": "Bolgia · NOVAH",
+     "title": "[Techno] Bolgia · NOVAH",
      "score": 60.0,
      "capacity": 3000
     },
@@ -961,7 +960,7 @@
    ],
    "top": [
     {
-     "title": "[Melodic House] Daste Bergamo · utōpia",
+     "title": "[Melodic House] Daste · utōpia",
      "score": 43.9,
      "capacity": 400
     },
