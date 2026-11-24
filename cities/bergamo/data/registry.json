@@ -11,7 +11,14 @@
    "website": "https://on.soundcloud.com/wr6oJuKv8qIs0CXEJd"
   },
   "4thegroovers_": {
-   "mentions": 1
+   "bio": "BY GROOVERS. FOR GROOVERS.\nUnderground sound. Pure groove.\nEst. 2026 \nA movement, a family 🔊",
+   "checked": "2026-11-24",
+   "followers": 470,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "FOR THE GROOVERS",
+   "readable": true,
+   "website": null
   },
   "_varaderojazzcafe_": {
    "checked": "2026-11-23",
@@ -42,21 +49,38 @@
    "website": "http://go.abb/robotics"
   },
   "abcstudiosmilano_official": {
-   "cands": 2
+   "bio": "Arte Ballo Cultura-Scuola di ballo \nDirector @marcoferrigno_official\nCo-director @fesangalli\nPRENOTA QUI LA TUA PROVA⬇️",
+   "cands": 2,
+   "checked": "2026-11-24",
+   "followers": 4259,
+   "kind": "unknown",
+   "name": "ABC Studios Milano",
+   "readable": true,
+   "website": "https://www.abcstudios.it/"
   },
   "activeparty": {
    "bio": "Организация корпоративных мероприятий, в любой точке земного шара.   \n#teambuilding, #event, #party,\ntel: +7(495)7826994\ne-mail: info@active-party.com",
    "checked": "2026-11-24",
    "followers": 1056,
    "kind": "promoter",
+   "last_read": "2026-11-24T17:16+00:00",
+   "mentions": 1,
    "name": "Activeparty",
    "party_name": "Active Party",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "http://www.active-party.com/"
   },
   "activeparty_": {
-   "mentions": 1
+   "bio": "THE EXPERIENCE\nAFROBEATS • AMAPIANO • HIP-HOP • R&B\nMUSIC • CULTURE • LIVE SHOW @vibetheclub",
+   "checked": "2026-11-24",
+   "followers": 1468,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "ACTIVE",
+   "readable": true,
+   "website": "https://upass.easy-links.org/LSHF"
   },
   "aendriu_official": {
    "bio": "IL BRUTTO - NUOVO EP - OUT NOW",
@@ -84,7 +108,16 @@
    "website": null
   },
   "afrostation_official": {
-   "cands": 1
+   "bio": "🪘🇧🇴🪘 BeRgAmO AfRo 🪘🇧🇴🪘\n🎧 DJS 🎧 VAVI / VALO / SIRA 🎧\n📱3406814261📱3495843325📱",
+   "cands": 1,
+   "checked": "2026-11-24",
+   "followers": 1339,
+   "kind": "promoter",
+   "name": "AfRoStAtIoN",
+   "party_name": "AfroStation",
+   "readable": true,
+   "watch": true,
+   "website": null
   },
   "agnesss.dei": {
    "cands": 1
@@ -119,7 +152,14 @@
    "cands": 1
   },
   "alemaestri.music": {
-   "cands": 2
+   "bio": "",
+   "cands": 2,
+   "checked": "2026-11-24",
+   "followers": 2399,
+   "kind": "unknown",
+   "name": "ALEMAESTRI",
+   "readable": true,
+   "website": null
   },
   "alessandro.sipolo": {
    "bio": "Cantautore, cooperante, attivista.",
@@ -147,11 +187,11 @@
    "events_found": 4,
    "followers": 29240,
    "kind": "promoter",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "mentions": 2,
    "name": "Alive Official Party",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "watch": true,
    "website": "https://oooh.events/evento/alive-winterland-7-dicembre-2026-biglietti/"
   },
@@ -313,7 +353,14 @@
    "website": "https://www.thefork.it/ristorante/antico-benessere-r836840"
   },
   "aperi_single": {
-   "cands": 2
+   "bio": "Prossimo appuntamento sab 26/12 alla @discoteca_queen",
+   "cands": 2,
+   "checked": "2026-11-24",
+   "followers": 2364,
+   "kind": "venue",
+   "name": "aperi_single",
+   "readable": true,
+   "website": null
   },
   "apriti.cielo": {
    "cands": 2
@@ -369,10 +416,10 @@
    "events_found": 23,
    "followers": 2472,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "ARYA",
    "readable": true,
-   "reads": 7,
+   "reads": 8,
    "website": "https://t.me/AryaLounge"
   },
   "associazione_luca_coscioni": {
@@ -734,12 +781,12 @@
    "cands": 1,
    "checked": "2026-11-24",
    "events_found": 21,
-   "followers": 125092,
+   "followers": 125147,
    "kind": "venue",
-   "last_read": "2026-11-24T08:34+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "Bolgia - dj's from the world",
    "readable": true,
-   "reads": 23,
+   "reads": 24,
    "website": "http://www.bolgia.it/"
   },
   "borgo.santa.caterina": {
@@ -1118,17 +1165,21 @@
   "choruslife.bergamo": {
    "bio": "Tutto ciò che cerchi in un distretto unico\nScopri tutti gli eventi in programma 👇",
    "checked": "2026-11-24",
-   "events_found": 21,
-   "followers": 67752,
+   "events_found": 24,
+   "followers": 67776,
    "kind": "venue",
-   "last_read": "2026-11-24T08:34+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "ChorusLife",
    "readable": true,
-   "reads": 23,
+   "reads": 24,
    "website": "https://choruslife.com/it/"
   },
   "chris_bergson": {
    "cands": 1
+  },
+  "christmasdesign_bg": {
+   "cands": 1,
+   "mentions": 1
   },
   "cinescatti": {
    "cands": 1
@@ -1369,13 +1420,13 @@
    "bio": "(ᴜɴ)ᴛʀᴜꜱᴛ ᴜꜱ\n‎\n𝗻𝗲𝘅𝘁 𝗲𝘃𝗲𝗻𝘁: 27/11",
    "checked": "2026-11-24",
    "events_found": 2,
-   "followers": 787,
+   "followers": 790,
    "kind": "promoter",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "mentions": 1,
    "name": "Crystal Castles night 𖥟",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://site.fourvenues.com/en/komatsu/events/crystal-castles-night-27-11-2026-F1PW"
   },
   "csapacipaciana": {
@@ -1664,11 +1715,11 @@
    "events_found": 1,
    "followers": 18886,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "mentions": 1,
    "name": "Door 74",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "venue_done": true,
    "website": "https://finddoor74.com/"
   },
@@ -1733,13 +1784,13 @@
    "cands": 1,
    "checked": "2026-11-24",
    "events_found": 5,
-   "followers": 4456,
+   "followers": 4455,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "mentions": 1,
    "name": "Easy Drink and Food",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://beacons.ai/easy_drinkandfood"
   },
   "eclipse.evnt": {
@@ -2418,13 +2469,13 @@
    "cands": 2,
    "checked": "2026-11-24",
    "events_found": 22,
-   "followers": 14696,
+   "followers": 14697,
    "kind": "venue",
-   "last_read": "2026-11-24T08:34+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "mentions": 1,
    "name": "Ink Club",
    "readable": true,
-   "reads": 21,
+   "reads": 22,
    "website": "https://linktr.ee/Ink_Club"
   },
   "inkclub_radio": {
@@ -3243,6 +3294,10 @@
    "readable": true,
    "website": "https://open.spotify.com/artist/4TLeeE4HJds7U1jNd78Rle?si=eSIZ_E6vQxa5jWGBW0gmYQ"
   },
+  "mondadori.choruslife.bergamo": {
+   "cands": 1,
+   "mentions": 1
+  },
   "monelle_chiti": {
    "bio": "Content Creator • Photographer • Digital PR\n💌 monellechiti@hotmail.it",
    "cands": 3,
@@ -3367,10 +3422,10 @@
    "checked": "2026-11-24",
    "followers": 11544,
    "kind": "scout",
-   "last_read": "2026-11-24T16:08+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 27,
+   "reads": 28,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -3699,12 +3754,12 @@
    "bio": "Pasticceria, gelateria e caffetteria artigianale dal 1985🍰\nQualità, passione e tradizione✨\nSerina (Bg) Via Dante 11📍\nOrdina e scopri il nostro shop⬇",
    "checked": "2026-11-24",
    "events_found": 2,
-   "followers": 3408,
+   "followers": 3407,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "Pasticceria Bar La Sirena",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://pasticceriabarlasirena.it/collections"
   },
   "pasticceria_morlacchi": {
@@ -3723,12 +3778,12 @@
    "bio": "\" Tutto quello di cui hai bisogno è un po' di dolcezza \" \nby Simone Devasini #pasticceriamelograno\n📍CISANO\n📍GAZZANIGA\n📍MADONE\n📍URGNANO\n📍SERIATE",
    "checked": "2026-11-24",
    "events_found": 1,
-   "followers": 17069,
+   "followers": 17073,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "Pasticceria_Melograno",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://www.pasticceriamelograno.it/"
   },
   "pausacaffe.bg": {
@@ -3865,12 +3920,12 @@
    "bio": "Locale elegante e dinamico\n🍴 Ristorante\n🍕 Pizzeria\n🍝 Pranzi di lavoro\n🎶 Live Music Dj set Karaoke",
    "checked": "2026-11-24",
    "events_found": 7,
-   "followers": 5033,
+   "followers": 5035,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "Quei Bravi Ragazzi Risto-Pub | Risto Pizzeria Pub & Eventi Live",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": null
   },
   "quintessenza": {
@@ -4183,12 +4238,12 @@
    "cands": 1,
    "checked": "2026-11-24",
    "events_found": 1,
-   "followers": 824,
+   "followers": 822,
    "kind": "promoter",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "sloth",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://www.fourvenues.com/prmr/events/sloth-07-11-2026-G9VO"
   },
   "sloworking.coworking": {
@@ -4218,12 +4273,12 @@
    "bio": "",
    "checked": "2026-11-24",
    "events_found": 4,
-   "followers": 495,
+   "followers": 496,
    "kind": "promoter",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "SOMMET",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": null
   },
   "sotto_traccia_eventi": {
@@ -4251,13 +4306,13 @@
    "cands": 2,
    "checked": "2026-11-24",
    "events_found": 7,
-   "followers": 4767,
+   "followers": 4770,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "mentions": 1,
    "name": "Spazio Teatro 89",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "venue_done": true,
    "website": "https://spazioteatro89.org"
   },
@@ -4815,13 +4870,13 @@
    "bio": "| BE COOL BE VIBE |\n📍Bergamo, Italy\nInfoline: 3497567830",
    "checked": "2026-11-24",
    "events_found": 7,
-   "followers": 11570,
+   "followers": 11569,
    "kind": "venue",
-   "last_read": "2026-11-24T08:34+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "mentions": 2,
    "name": "VIBE CLUB",
    "readable": true,
-   "reads": 8,
+   "reads": 9,
    "website": "http://www.vibetheclub.it"
   },
   "victorialoungebar_bonate": {
@@ -4830,10 +4885,10 @@
    "events_found": 1,
    "followers": 1289,
    "kind": "venue",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "Victoria Lounge Bar Bonate Sotto",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "venue_done": true,
    "website": null
   },
@@ -4950,10 +5005,10 @@
    "events_found": 12,
    "followers": 355,
    "kind": "promoter",
-   "last_read": "2026-11-24T06:21+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "STEP UP",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "https://we.tl/t-rsviSA4ZOBrwU7ws"
   },
   "wemeet.eventi.lombardia": {
@@ -4963,12 +5018,12 @@
    "bio": "Download WhatsApp",
    "checked": "2026-11-24",
    "events_found": 1,
-   "followers": 5518471,
+   "followers": 5518285,
    "kind": "venue",
-   "last_read": "2026-11-24T08:34+00:00",
+   "last_read": "2026-11-24T17:16+00:00",
    "name": "WhatsApp",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://www.whatsapp.com/download"
   },
   "wojtek3522": {
@@ -5006,6 +5061,10 @@
   },
   "yo.soy.sanchez": {
    "cands": 2
+  },
+  "yogaspace_it": {
+   "cands": 1,
+   "mentions": 1
   },
   "zambo_events": {
    "cands": 1
@@ -5647,18 +5706,27 @@
   },
   "afro night": {
    "count": 1,
+   "done": true,
    "name": "Afro Night",
    "tried": [
     "afronight",
     "afronightparty",
     "afronightbergamo",
-    "afronightbg"
+    "afronightbg",
+    "afronight_official"
    ]
   },
   "afro vibes": {
    "count": 1,
+   "done": true,
    "name": "Afro Vibes",
-   "tried": []
+   "tried": [
+    "afrovibes",
+    "afrovibesparty",
+    "afrovibesbergamo",
+    "afrovibesbg",
+    "afrovibes_official"
+   ]
   },
   "afrodylan": {
    "count": 1,
@@ -5669,13 +5737,23 @@
   },
   "afrostation": {
    "count": 1,
+   "done": true,
+   "handle": "afrostation_official",
    "name": "AfroStation",
-   "tried": []
+   "tried": [
+    "afrostation",
+    "afrostationparty",
+    "afrostationbergamo",
+    "afrostationbg",
+    "afrostation_official"
+   ]
   },
   "after brunch": {
    "count": 1,
    "name": "After Brunch",
-   "tried": []
+   "tried": [
+    "afterbrunch"
+   ]
   },
   "after dinner con dj set dalle": {
    "count": 1,
@@ -5696,6 +5774,8 @@
   },
   "aperisingle": {
    "count": 1,
+   "done": true,
+   "handle": "aperi_single",
    "name": "Aperisingle",
    "tried": []
   },
@@ -8106,7 +8186,7 @@
    "capacity": 1250,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 125092,
+   "followers": 125147,
    "instagram": "bolgia.official",
    "km": 9.2,
    "lat": 45.63336,
@@ -8830,7 +8910,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-18",
-   "followers": 67752,
+   "followers": 67776,
    "instagram": "choruslife.bergamo",
    "km": 1.2,
    "lat": 45.70352,
@@ -8854,7 +8934,7 @@
    "capacity_source": "stima",
    "city": "Bergamo",
    "first_seen": "2026-11-19",
-   "followers": 67752,
+   "followers": 67776,
    "instagram": "choruslife.bergamo",
    "km": 1.1,
    "lat": 45.7031,
@@ -9883,7 +9963,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 4456,
+   "followers": 4455,
    "instagram": "easy_drinkandfood",
    "km": 14.2,
    "lat": 45.62097,
@@ -10212,7 +10292,7 @@
    "capacity": 200,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 5518471,
+   "followers": 5518285,
    "instagram": "whatsapp",
    "km": 21.2,
    "lat": 45.69467,
@@ -10636,7 +10716,7 @@
    "capacity": 700,
    "capacity_source": "stima",
    "first_seen": "2026-11-18",
-   "followers": 14696,
+   "followers": 14697,
    "instagram": "inkclub_bergamo",
    "km": 1.7,
    "lat": 45.68801,
@@ -11672,6 +11752,8 @@
    "lat": 45.69921,
    "lon": 9.67523,
    "name": "Marienplatz",
+   "removed": false,
+   "search_checked": "2026-11-24",
    "sources": [
     "eventi"
    ],
@@ -12124,6 +12206,8 @@
    "lat": 33.17764,
    "lon": -107.20673,
    "name": "NMB Yacht Club",
+   "removed": false,
+   "search_checked": "2026-11-24",
    "sources": [
     "eventi"
    ],
@@ -12590,7 +12674,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 3408,
+   "followers": 3407,
    "instagram": "pasticceria_bar_lasirena",
    "km": 20.1,
    "lat": 45.87497,
@@ -12689,7 +12773,7 @@
    "capacity": 150,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 17069,
+   "followers": 17073,
    "instagram": "pasticceriamelograno",
    "km": 10.8,
    "lat": 45.60202,
@@ -13043,7 +13127,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 5033,
+   "followers": 5035,
    "instagram": "quei_bravi_ragazzi_bg",
    "km": 13.6,
    "lat": 45.62006,
@@ -13565,7 +13649,7 @@
    "capacity_source": "stima",
    "city": "Milano",
    "first_seen": "2026-11-19",
-   "followers": 4767,
+   "followers": 4770,
    "instagram": "spazioteatro89",
    "km": 50.9,
    "lat": 45.47108,
@@ -14425,7 +14509,7 @@
    "capacity_source": "stima",
    "city": "Treviolo",
    "first_seen": "2026-11-18",
-   "followers": 11570,
+   "followers": 11569,
    "ig_guessed": "2026-11-19",
    "instagram": "vibetheclub",
    "km": 3.9,

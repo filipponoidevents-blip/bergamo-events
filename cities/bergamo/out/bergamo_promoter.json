@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T16:14",
+ "generated": "2026-11-24T17:21",
  "nights": [
   {
    "date": "2026-11-24",
@@ -94,7 +94,7 @@
    "note": null,
    "weekend_like": true,
    "events": 11,
-   "load": 354.0,
+   "load": 356.9,
    "level": "piena",
    "capacity_taken": 5300,
    "by_family": {
@@ -111,8 +111,8 @@
      "capacity": 1000
     },
     {
-     "title": "[Tech House] VIBE · This Week w/ LOGIC",
-     "score": 40.0,
+     "title": "[Tech House] VIBE · Active Party w/ LOGIC",
+     "score": 42.9,
      "capacity": 500
     },
     {

@@ -1,15 +1,15 @@
 # Stato · Bergamo e dintorni
 
-Ultimo giro: 24/11/2026 16:14
+Ultimo giro: 24/11/2026 17:21
 
-- Eventi in arrivo: **184** (45 serate, 139 preserate, 2 grandi eventi fuori zona)
-- Locali in anagrafica: **353**, profili Instagram conosciuti: **652**, seguiti: **171**
+- Eventi in arrivo: **185** (45 serate, 140 preserate, 2 grandi eventi fuori zona)
+- Locali in anagrafica: **353**, profili Instagram conosciuti: **655**, seguiti: **173**
 - Da controllare (affidabilità bassa, non pubblicati): **0**
 
 ## Cosa è successo in questo giro
 
 - Lette le immagini di 8 post delle pagine scout.
-- Serata "Active Party" → @activeparty.
+- Serata "AfroStation" → @afrostation_official.
 - xceed: 1 eventi letti.
 - dice: 0 eventi letti.
 - jsonld: 9 eventi letti.
