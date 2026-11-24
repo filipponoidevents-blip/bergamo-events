@@ -24,3 +24,4 @@ venues:
   - {name: Luxor Club, remove: true}            # locale per adulti (Filippo, 20/11/2026)
 promoters:
   - {name: BSK Sound, instagram: bsk.sound, aliases: [BSK, Bar Florio]}   # Bar Florio = serata di BSK Sound, club room dello Zero (Filippo, 24/11/2026)
+  - {name: Offline, instagram: offline.raw, genre: Tech House / Minimal}   # Filippo, 24/11/2026 (non @offlineparty)

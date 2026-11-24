@@ -3497,13 +3497,13 @@
    "bio": "Techno events in Gigant, Apeldoorn. 📵",
    "checked": "2026-11-24",
    "followers": 290,
-   "kind": "promoter",
+   "kind": "ignore",
    "last_read": "2026-11-24T10:51+00:00",
    "name": "OFFLINE",
-   "party_name": "Offline",
+   "party_name": null,
    "readable": true,
    "reads": 1,
-   "watch": true,
+   "watch": null,
    "website": null
   },
   "ohana_disney_show": {
@@ -6271,7 +6271,7 @@
   "offline": {
    "count": 2,
    "done": true,
-   "handle": "offlineparty",
+   "handle": "offline.raw",
    "name": "Offline",
    "tried": [
     "offline",
