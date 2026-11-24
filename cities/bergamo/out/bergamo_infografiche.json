@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-23T22:19",
+ "generated": "2026-11-24T06:28",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -204,6 +204,18 @@
       "family": "Commerciale"
      }
     ]
+   },
+   "Hip Hop / Trap": {
+    "2026-11-27": [
+     {
+      "line1": "ARYA Lounge Bar",
+      "line2": "Trap / Hip Hop",
+      "time": "00:00",
+      "score": 13.5,
+      "fascia": "serata",
+      "family": "Hip Hop / Trap"
+     }
+    ]
    }
   },
   "preserate": {
@@ -332,7 +344,7 @@
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
-     "score": 55.3,
+     "score": 55.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
@@ -1145,6 +1157,18 @@
       "family": "House / Elettronica"
      }
     ]
+   },
+   "Hip Hop / Trap": {
+    "2026-11-27": [
+     {
+      "line1": "ARYA Lounge Bar",
+      "line2": "Trap / Hip Hop",
+      "time": "00:00",
+      "score": 13.5,
+      "fascia": "serata",
+      "family": "Hip Hop / Trap"
+     }
+    ]
    }
   },
   "preserate": {
@@ -1457,7 +1481,7 @@
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
-     "score": 55.3,
+     "score": 55.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
@@ -1653,6 +1677,7 @@
    "@vibetheclub",
    "@possibilita",
    "@spettacoli",
+   "@arya.lounge",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
@@ -1662,7 +1687,6 @@
    "@sabbiemobili_official",
    "@upside.down.night",
    "@oasi.night",
-   "@arya.lounge",
    "@premiere.premiere",
    "@choruslife.bergamo",
    "@door_74",

@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 23/11/2026 22:19. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 24/11/2026 06:28. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -21,7 +21,7 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 |---|---|---|---|---|---|---|
 | 24/11 mar | tranquilla | 1 | 53.0 | 900 | House 1 | [Tech House] Bloom · Club Culture w/ Spike Hellis |
 | 25/11 mer | media | 3 | 141.1 | 2900 | Commerciale 2, Altro 1 | Gres Art 671 · Anna; [Commerciale 360] Zero Club · Please; [Latino / Commerciale] Queen Club |
-| 27/11 ven | piena | 9 | 309.5 | 4550 | House 4, Commerciale 5 | [Commerciale] Nikita · SCHIVARDI 1953; [Hard Techno] Oronero · Underground - Hardcore w/ Possibilita; [Dance] Queen Club · DiscoDance |
+| 27/11 ven | piena | 10 | 323.0 | 4600 | House 4, Hip Hop 1, Commerciale 5 | [Commerciale] Nikita · SCHIVARDI 1953; [Hard Techno] Oronero · Underground - Hardcore w/ Possibilita; [Dance] Queen Club · DiscoDance |
 | 28/11 sab | piena | 6 | 267.6 | 5950 | House 1, Commerciale 1, Altro 4 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; Bolgia · MARIE VAUNT; [Commerciale 360] Nikita · Enter the Void |
 | 29/11 dom | tranquilla | 1 | 7.7 | 100 | Altro 1 | Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 04/12 ven | libera | 0 | 0 | 0 | - | - |

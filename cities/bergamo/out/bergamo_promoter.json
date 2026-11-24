@@ -1,29 +1,7 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-23T22:19",
+ "generated": "2026-11-24T06:28",
  "nights": [
-  {
-   "date": "2026-11-23",
-   "weekday": "lunedì",
-   "note": null,
-   "weekend_like": false,
-   "events": 0,
-   "load": 0,
-   "level": "tranquilla",
-   "capacity_taken": 0,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 0
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
-   ],
-   "top": []
-  },
   {
    "date": "2026-11-24",
    "weekday": "martedì",
@@ -115,19 +93,17 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 9,
-   "load": 309.5,
+   "events": 10,
+   "load": 323.0,
    "level": "piena",
-   "capacity_taken": 4550,
+   "capacity_taken": 4600,
    "by_family": {
     "House / Elettronica": 4,
-    "Hip Hop / Trap": 0,
+    "Hip Hop / Trap": 1,
     "Commerciale": 5,
     "Altro": 0
    },
-   "missing_families": [
-    "Hip Hop / Trap"
-   ],
+   "missing_families": [],
    "top": [
     {
      "title": "[Commerciale] Nikita · SCHIVARDI 1953",
@@ -2140,6 +2116,28 @@
      "capacity": 300
     }
    ]
+  },
+  {
+   "date": "2027-02-21",
+   "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
   }
  ]
 }
