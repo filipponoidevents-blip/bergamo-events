@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-24T06:28",
+ "generated": "2026-11-24T08:41",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -34,18 +34,18 @@
     ],
     "2026-11-27": [
      {
-      "line1": "Underground - Hardcore @ Oronero",
-      "line2": "Hard Techno, Possibilita",
-      "time": "23:30",
-      "score": 38.0,
+      "line1": "This Week @ VIBE",
+      "line2": "Tech House, LOGIC",
+      "time": "00:00",
+      "score": 40.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
      {
-      "line1": "This Week @ VIBE",
-      "line2": "Tech House",
-      "time": "00:00",
-      "score": 35.2,
+      "line1": "Underground - Hardcore @ Oronero",
+      "line2": "Hard Techno, Possibilita",
+      "time": "23:30",
+      "score": 38.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -68,10 +68,26 @@
     ],
     "2026-11-28": [
      {
+      "line1": "VIBE",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 35.2,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Code @ Sabbie Mobili",
       "line2": "Hard Techno",
       "time": "23:30",
       "score": 34.2,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "Bar Florio @ Zero Club",
+      "line2": "Tech House, club room",
+      "time": "00:00",
+      "score": 30.4,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -321,6 +337,14 @@
      "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Revel Treviglio",
+     "line2": "live",
+     "time": "00:00",
+     "score": 27.7,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-27": [
@@ -538,6 +562,7 @@
    "@possibilita",
    "@csapacipaciana",
    "@nikita__land",
+   "@vibetheclub",
    "@mint_lounge",
    "@liveclub",
    "@bloom_mezzago",
@@ -552,8 +577,7 @@
    "@uaar_it",
    "@please.nights",
    "@reverie__night",
-   "@spettacoli",
-   "@choruslife.bergamo"
+   "@spettacoli"
   ],
   "hashtags": [
    "#bergamo",
@@ -1115,18 +1139,18 @@
     ],
     "2026-11-27": [
      {
-      "line1": "Underground - Hardcore @ Oronero",
-      "line2": "Hard Techno, Possibilita",
-      "time": "23:30",
-      "score": 38.0,
+      "line1": "This Week @ VIBE",
+      "line2": "Tech House, LOGIC",
+      "time": "00:00",
+      "score": 40.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
      {
-      "line1": "This Week @ VIBE",
-      "line2": "Tech House",
-      "time": "00:00",
-      "score": 35.2,
+      "line1": "Underground - Hardcore @ Oronero",
+      "line2": "Hard Techno, Possibilita",
+      "time": "23:30",
+      "score": 38.0,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -1149,10 +1173,26 @@
     ],
     "2026-11-28": [
      {
+      "line1": "VIBE",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 35.2,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
       "line1": "Code @ Sabbie Mobili",
       "line2": "Hard Techno",
       "time": "23:30",
       "score": 34.2,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "Bar Florio @ Zero Club",
+      "line2": "Tech House, club room",
+      "time": "00:00",
+      "score": 30.4,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1458,6 +1498,14 @@
      "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Revel Treviglio",
+     "line2": "live",
+     "time": "00:00",
+     "score": 27.7,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-11-27": [
@@ -1661,20 +1709,20 @@
   },
   "big_events": [],
   "caption_handles": [
-   "@inkclub_bergamo",
    "@zeroclub.bg",
+   "@inkclub_bergamo",
    "@prenotazione",
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
    "@divinabergamo",
+   "@vibetheclub",
    "@nikita__land",
    "@daste_bergamo",
    "@kellerfactory_",
    "@liveclub",
    "@megan_is_missing_band",
    "@missdivina1",
-   "@vibetheclub",
    "@possibilita",
    "@spettacoli",
    "@arya.lounge",
@@ -1827,6 +1875,16 @@
     ]
    },
    "Commerciale": {
+    "2026-12-07": [
+     {
+      "line1": "Afrodylan @ Druso",
+      "line2": "Afro / Reggaeton",
+      "time": "22:30",
+      "score": 58.1,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
     "2026-12-18": [
      {
       "line1": "Nikita",
@@ -1972,14 +2030,6 @@
      "score": 70.2,
      "fascia": "preserata",
      "family": "Altro"
-    },
-    {
-     "line1": "Afrodylan @ Druso",
-     "line2": "Afro / Reggaeton",
-     "time": "00:00",
-     "score": 67.8,
-     "fascia": "preserata",
-     "family": "Commerciale"
     },
     {
      "line1": "NXT Station",

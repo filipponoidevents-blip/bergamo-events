@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T06:28",
+ "generated": "2026-11-24T08:41",
  "nights": [
   {
    "date": "2026-11-24",
@@ -94,7 +94,7 @@
    "note": null,
    "weekend_like": true,
    "events": 10,
-   "load": 323.0,
+   "load": 327.8,
    "level": "piena",
    "capacity_taken": 4600,
    "by_family": {
@@ -111,6 +111,11 @@
      "capacity": 1000
     },
     {
+     "title": "[Tech House] VIBE · This Week w/ LOGIC",
+     "score": 40.0,
+     "capacity": 500
+    },
+    {
      "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
      "score": 38.0,
      "capacity": 400
@@ -119,11 +124,6 @@
      "title": "[Dance] Queen Club · DiscoDance",
      "score": 36.1,
      "capacity": 400
-    },
-    {
-     "title": "[Tech House] VIBE · This Week",
-     "score": 35.2,
-     "capacity": 500
     },
     {
      "title": "[Reggaeton] Daste Bergamo · Conejo Night",
@@ -137,12 +137,12 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 6,
-   "load": 267.6,
+   "events": 8,
+   "load": 333.2,
    "level": "piena",
-   "capacity_taken": 5950,
+   "capacity_taken": 6550,
    "by_family": {
-    "House / Elettronica": 1,
+    "House / Elettronica": 3,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
     "Altro": 4
@@ -172,8 +172,8 @@
      "capacity": 500
     },
     {
-     "title": "[Hard Techno] Sabbie Mobili · Code",
-     "score": 34.2,
+     "title": "[Tech House] VIBE",
+     "score": 35.2,
      "capacity": 500
     }
    ]
@@ -375,26 +375,30 @@
    "weekday": "lunedì",
    "note": "prefestivo (Immacolata)",
    "weekend_like": true,
-   "events": 1,
-   "load": 60.0,
+   "events": 2,
+   "load": 118.1,
    "level": "media",
-   "capacity_taken": 3000,
+   "capacity_taken": 3300,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
     {
      "title": "Bolgia · NOVAH",
      "score": 60.0,
      "capacity": 3000
+    },
+    {
+     "title": "[Afro / Reggaeton] Druso · Afrodylan",
+     "score": 58.1,
+     "capacity": 300
     }
    ]
   },
