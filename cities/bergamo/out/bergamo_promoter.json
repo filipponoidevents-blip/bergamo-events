@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T09:49",
+ "generated": "2026-11-24T10:57",
  "nights": [
   {
    "date": "2026-11-24",
@@ -137,14 +137,14 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 8,
-   "load": 333.2,
+   "events": 9,
+   "load": 370.5,
    "level": "piena",
-   "capacity_taken": 6550,
+   "capacity_taken": 7050,
    "by_family": {
     "House / Elettronica": 3,
     "Hip Hop / Trap": 0,
-    "Commerciale": 1,
+    "Commerciale": 2,
     "Altro": 4
    },
    "missing_families": [
@@ -172,8 +172,8 @@
      "capacity": 500
     },
     {
-     "title": "[Tech House] VIBE",
-     "score": 35.2,
+     "title": "[Commerciale] HYPE Club · Lova",
+     "score": 37.3,
      "capacity": 500
     }
    ]

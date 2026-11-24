@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-24T09:49",
+ "generated": "2026-11-24T10:57",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -216,6 +216,14 @@
       "line2": "Commerciale 360",
       "time": "00:00",
       "score": 43.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "Lova @ HYPE Club",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 37.3,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -433,7 +441,7 @@
     {
      "line1": "Cheri @ Mint Lounge Bar",
      "line2": "Commerciale",
-     "time": "00:00",
+     "time": "21:00",
      "score": 47.2,
      "fascia": "preserata",
      "family": "Commerciale"
@@ -537,7 +545,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Non solo caffe",
+     "line1": "No.Mad Entertainment @ Non solo caffe",
      "line2": "dj set",
      "time": "00:00",
      "score": 8.8,
@@ -1123,6 +1131,14 @@
       "score": 43.0,
       "fascia": "serata",
       "family": "Commerciale"
+     },
+     {
+      "line1": "Lova @ HYPE Club",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 37.3,
+      "fascia": "serata",
+      "family": "Commerciale"
      }
     ]
    },
@@ -1594,7 +1610,7 @@
     {
      "line1": "Cheri @ Mint Lounge Bar",
      "line2": "Commerciale",
-     "time": "00:00",
+     "time": "21:00",
      "score": 47.2,
      "fascia": "preserata",
      "family": "Commerciale"
@@ -1698,7 +1714,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Non solo caffe",
+     "line1": "No.Mad Entertainment @ Non solo caffe",
      "line2": "dj set",
      "time": "00:00",
      "score": 8.8,
