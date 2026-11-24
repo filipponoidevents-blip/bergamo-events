@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-24T17:21",
+ "generated": "2026-11-24T18:22",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -58,10 +58,10 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Icon @ Tiky Klub",
+      "line1": "FOR THE GROOVERS @ Tiky Klub",
       "line2": "Tech House, Francesco Riva",
       "time": "00:00",
-      "score": 30.4,
+      "score": 29.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -1256,10 +1256,10 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "Icon @ Tiky Klub",
+      "line1": "FOR THE GROOVERS @ Tiky Klub",
       "line2": "Tech House, Francesco Riva",
       "time": "00:00",
-      "score": 30.4,
+      "score": 29.6,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -2247,6 +2247,14 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Revel Treviglio",
+     "line2": "comedy",
+     "time": "20:30",
+     "score": 27.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Barrito",
      "line2": "dj set",
      "time": "11:00",
@@ -2414,6 +2422,7 @@
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
    "@reservation",
+   "@revel_treviglio",
    "@zeroclub.bg",
    "@noidfamilia",
    "@16manu___",
@@ -2431,7 +2440,6 @@
    "@ninfeasocialclub",
    "@emozioni.in.fiore",
    "@particolare",
-   "@revel_treviglio",
    "@gemboyofficial_",
    "@quei_bravi_ragazzi_bg",
    "@paolorivapasticceria",

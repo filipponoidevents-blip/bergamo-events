@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T17:21",
+ "generated": "2026-11-24T18:22",
  "nights": [
   {
    "date": "2026-11-24",
@@ -94,7 +94,7 @@
    "note": null,
    "weekend_like": true,
    "events": 11,
-   "load": 356.9,
+   "load": 356.1,
    "level": "piena",
    "capacity_taken": 5300,
    "by_family": {
@@ -1482,22 +1482,27 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 48.6,
    "level": "non ancora annunciata",
-   "capacity_taken": 0,
+   "capacity_taken": 400,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Techno / Trance] Oronero · Metempsicosi - Pagina ufficiale",
+     "score": 48.6,
+     "capacity": 400
+    }
+   ]
   },
   {
    "date": "2027-01-24",
