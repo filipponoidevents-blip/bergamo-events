@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 24/11/2026 08:41. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 24/11/2026 09:49. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
