@@ -5487,7 +5487,7 @@
   "lead_days": 0,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-24T15:06+00:00",
+  "posted": "2026-11-24T16:14+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -6030,9 +6030,9 @@
   "capacity_source": "stima",
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 1800,
-   "events_same_night": 4,
-   "same_family": 4,
+   "capacity_same_night": 1900,
+   "events_same_night": 5,
+   "same_family": 5,
    "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "confidence": 0.8,
@@ -6095,9 +6095,9 @@
   "capacity_source": "conoscenze",
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 1600,
-   "events_same_night": 4,
-   "same_family": 4,
+   "capacity_same_night": 1700,
+   "events_same_night": 5,
+   "same_family": 5,
    "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "confidence": 0.9,
@@ -6190,10 +6190,10 @@
     "name": "Associazione Luca Coscioni"
    },
    {
-    "followers": null,
+    "followers": 25160,
     "instagram": "uaar_it",
     "level": null,
-    "name": "uaar_it"
+    "name": "Uaar"
    }
   ],
   "handles": [
@@ -6248,9 +6248,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 1600,
-   "events_same_night": 4,
-   "same_family": 4,
+   "capacity_same_night": 1700,
+   "events_same_night": 5,
+   "same_family": 5,
    "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "confidence": 0.95,
@@ -6375,6 +6375,71 @@
   "venue_type": "bar",
   "weekday": "mercoledì"
  },
+ "2026-11-25-marienplatz-pre": {
+  "address": "via Pignolo 37, Bergamo",
+  "brand": null,
+  "capacity": 100,
+  "capacity_source": "stima",
+  "city": "Bergamo",
+  "competition": {
+   "capacity_same_night": 2000,
+   "events_same_night": 5,
+   "same_family": 5,
+   "strongest_rival": "Possibilita @ NXT Bergamo"
+  },
+  "confidence": 0.8,
+  "date": "2026-11-25",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 21:00",
+  "first_seen": "2026-11-24",
+  "genre": "Jazz",
+  "genre_source": "post",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-25-marienplatz-pre",
+  "image": null,
+  "in_posts": true,
+  "km": 0.2,
+  "lead_days": null,
+  "nightlife": true,
+  "party": "Nicholas Lecchi Trio",
+  "posted": null,
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 6,
+  "room": null,
+  "scope": "zona",
+  "score": 27.3,
+  "score_parts": {
+   "capacity": 1.7,
+   "distance": 9.9,
+   "promoter": 0.0,
+   "venue_followers": 0.0
+  },
+  "sources": [
+   "agenda"
+  ],
+  "start": "21:00",
+  "status": "pubblicato",
+  "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/nicholas-lecchi-trio_307829/",
+  "type": "dj set",
+  "urls": [
+   "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/bergamo/nicholas-lecchi-trio_307829/"
+  ],
+  "venue": "Marienplatz",
+  "venue_followers": null,
+  "venue_instagram": null,
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "mercoledì"
+ },
  "2026-11-25-nxt_bergamo": {
   "address": "Piazzale degli Alpini, 24121 Bergamo BG",
   "brand": null,
@@ -6382,9 +6447,9 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 1000,
-   "events_same_night": 4,
-   "same_family": 4,
+   "capacity_same_night": 1100,
+   "events_same_night": 5,
+   "same_family": 5,
    "strongest_rival": "Gigi D’Alessio @ ChorusLife Arena"
   },
   "confidence": 0.75,
@@ -6475,9 +6540,9 @@
   "capacity_source": null,
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 2000,
-   "events_same_night": 4,
-   "same_family": 4,
+   "capacity_same_night": 2100,
+   "events_same_night": 5,
+   "same_family": 5,
    "strongest_rival": "Possibilita @ NXT Bergamo"
   },
   "confidence": 0.85,
@@ -6760,7 +6825,7 @@
   ],
   "headliner": null,
   "id": "2026-11-25-zero_club",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwGR_tOG&_nc_oc=AdrBYZYCG4hvqReTpG4MkMJDRhGFhn7YOqBfv_VzI2I3EX2ea9Hfm022laLHtp6cgFo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=op0DFIl1JgauJb-oo2sVbg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR4lmrMYWkF5DPF3lAbFoKiC5rPwSy14unDHV6KU4Qfjg&oe=6B0AF46F",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwHutRnJ&_nc_oc=AdoFNUwtNJ3pcS4aOTS6pteimlzkfvPtVvUHB9IHmXOoOxtTyqUePFybU_NKfy_mDHQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CPnhqbWXxsdpZJdjPrf-Ug&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTelrp-VMSXbs0QHk1qpBpDeYAmBtxoSth7dtR2vyZnfg&oe=6B0B9D2F",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 23,
@@ -6768,7 +6833,7 @@
   "party": "Please",
   "posted": "2026-11-02",
   "price": 100,
-  "promoter_followers": 2509,
+  "promoter_followers": 2507,
   "promoter_instagram": "please.nights",
   "promoter_name": "Please",
   "rank_in_night": 2,
@@ -6795,7 +6860,7 @@
    "https://www.instagram.com/p/Df9iZR8jWSV/"
   ],
   "venue": "Zero Club",
-  "venue_followers": 20833,
+  "venue_followers": 20834,
   "venue_instagram": "zeroclub.bg",
   "venue_known": true,
   "venue_type": "club",
@@ -7213,7 +7278,7 @@
    "capacity_same_night": 5250,
    "events_same_night": 10,
    "same_family": 0,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.7,
   "date": "2026-11-27",
@@ -7353,8 +7418,8 @@
   "competition": {
    "capacity_same_night": 4900,
    "events_same_night": 10,
-   "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "same_family": 3,
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.9,
   "date": "2026-11-27",
@@ -7534,7 +7599,7 @@
   ],
   "headliner": "Pollo",
   "id": "2026-11-27-druso",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912355490_18456872893134654_635008617269000202_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gN0NWRgY_h8Q7kNvwFd2zGr&_nc_oc=Adrm-C6Lluo2L_EYsVJyOIMYMFaJGXgMtOllj8s2agi-0FRvBTQZQHyqJErEUTvGDIA&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRj7HMy6fAnkxJFP-iYu-jywmLL66sBrOk8x0ZaRLYnwg&oe=6B0AFE44",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/912355490_18456872893134654_635008617269000202_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=A1qzJaJrpjgQ7kNvwGYa-lp&_nc_oc=Adrm5-VFi0vEgV6XVPAPpzxsj7B069X8_cq3OFJw1J3UcVYTvCkEQUBiMjbHxeUzbnQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSdL8KjWvQYhrLuHZWSn4bbxY4Q1P88r1M7WWTAY-EF2A&oe=6B0B6EC4",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 5,
@@ -7566,7 +7631,7 @@
    "https://www.instagram.com/p/DgDms8ZAOxY/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -7795,7 +7860,7 @@
   "competition": {
    "capacity_same_night": 4300,
    "events_same_night": 10,
-   "same_family": 4,
+   "same_family": 0,
    "strongest_rival": "This Week @ VIBE"
   },
   "confidence": 0.95,
@@ -7803,12 +7868,12 @@
   "day_note": null,
   "end": null,
   "entry": "gratis",
-  "family": "Commerciale",
+  "family": "Altro",
   "fascia": "serata",
   "fascia_why": "locale di solito serata",
   "first_seen": "2026-11-21",
-  "genre": "Commerciale",
-  "genre_source": "locale (conoscenze)",
+  "genre": "Live",
+  "genre_source": "promoter (conoscenze)",
   "guests": [
    {
     "followers": null,
@@ -7820,27 +7885,27 @@
   "handles": [
    "schivardi1953"
   ],
-  "headliner": null,
+  "headliner": "TAKE OVER",
   "id": "2026-11-27-nikita",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/914852911_1454661686877160_135755504986851830_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bvXM6AWi1uQQ7kNvwGeCMyG&_nc_oc=AdpDRtZ52tK53QY3m05vUsm2-x_Gywdt1KxLvMEUIxcxd7LWQ_xOhga3IP9Nklpv4NM&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=rU6QZ9hhXb1_qd-PoLY3CA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR5jVcLME4aPplrwpIP5skCjkQLexCChwfO9lCG8ms6_w&oe=6B0AEDFE",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t39.30808-6/914852911_1454661686877160_135755504986851830_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=bvXM6AWi1uQQ7kNvwEP7KSZ&_nc_oc=AdqDFmA8pAdvlFrOup8zURfZVLMJMIqrHXg4LhchIYYFlaGsXti8ulvBd3rkh5lupYs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CgO2YyGjPLkSKDknGhkDfA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR9KfuMjT8IwpM_EBUfqBlijuUYbOwn-5IydApxbanAsA&oe=6B0B96BE",
   "in_posts": true,
   "km": 15.8,
   "lead_days": 6,
   "nightlife": true,
-  "party": "SCHIVARDI 1953",
+  "party": "Ventitré",
   "posted": "2026-11-21T00:10+00:00",
   "price": 0,
-  "promoter_followers": 18775,
-  "promoter_instagram": "schivardi1953",
-  "promoter_name": "SCHIVARDI 1953",
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": "Ventitré",
   "rank_in_night": 1,
   "room": null,
   "scope": "zona",
-  "score": 56.6,
+  "score": 43.0,
   "score_parts": {
    "capacity": 7.3,
    "guest": 0.0,
-   "promoter": 6.8,
+   "promoter": 0.0,
    "venue": 7,
    "venue_followers": 7.4
   },
@@ -7850,13 +7915,14 @@
   "start": "22:30",
   "status": "pubblicato",
   "tickets": null,
-  "type": "dj set",
+  "type": "live",
   "urls": [
    "https://www.instagram.com/p/DgDE77fpOWS/",
+   "https://www.instagram.com/p/DgHsN3tJwQz/",
    "https://www.instagram.com/reel/Df-57LmoBkO/"
   ],
   "venue": "Nikita",
-  "venue_followers": 25661,
+  "venue_followers": 25659,
   "venue_instagram": "nikita__land",
   "venue_known": true,
   "venue_type": "club",
@@ -7872,7 +7938,7 @@
    "capacity_same_night": 4750,
    "events_same_night": 10,
    "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.95,
   "date": "2026-11-27",
@@ -8022,7 +8088,7 @@
    "capacity_same_night": 4900,
    "events_same_night": 10,
    "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.95,
   "date": "2026-11-27",
@@ -8105,8 +8171,8 @@
   "competition": {
    "capacity_same_night": 4900,
    "events_same_night": 10,
-   "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "same_family": 3,
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.95,
   "date": "2026-11-27",
@@ -8279,8 +8345,8 @@
   "competition": {
    "capacity_same_night": 4800,
    "events_same_night": 10,
-   "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "same_family": 3,
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.95,
   "date": "2026-11-27",
@@ -8345,8 +8411,8 @@
   "competition": {
    "capacity_same_night": 4800,
    "events_same_night": 10,
-   "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "same_family": 3,
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.95,
   "date": "2026-11-27",
@@ -8412,7 +8478,7 @@
    "capacity_same_night": 4600,
    "events_same_night": 10,
    "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.9,
   "date": "2026-11-27",
@@ -8608,7 +8674,7 @@
    "capacity_same_night": 5000,
    "events_same_night": 10,
    "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.9,
   "date": "2026-11-27",
@@ -8702,7 +8768,7 @@
    "capacity_same_night": 4800,
    "events_same_night": 10,
    "same_family": 4,
-   "strongest_rival": "SCHIVARDI 1953 @ Nikita"
+   "strongest_rival": "Ventitré @ Nikita"
   },
   "confidence": 0.7,
   "date": "2026-11-27",
@@ -8805,7 +8871,7 @@
   ],
   "headliner": null,
   "id": "2026-11-27-zero_club",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwGR_tOG&_nc_oc=AdrBYZYCG4hvqReTpG4MkMJDRhGFhn7YOqBfv_VzI2I3EX2ea9Hfm022laLHtp6cgFo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=op0DFIl1JgauJb-oo2sVbg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR4lmrMYWkF5DPF3lAbFoKiC5rPwSy14unDHV6KU4Qfjg&oe=6B0AF46F",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwHutRnJ&_nc_oc=AdoFNUwtNJ3pcS4aOTS6pteimlzkfvPtVvUHB9IHmXOoOxtTyqUePFybU_NKfy_mDHQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CPnhqbWXxsdpZJdjPrf-Ug&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTelrp-VMSXbs0QHk1qpBpDeYAmBtxoSth7dtR2vyZnfg&oe=6B0B9D2F",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 25,
@@ -8841,7 +8907,7 @@
    "https://www.instagram.com/reel/Df7HKevuPMC/"
   ],
   "venue": "Zero Club",
-  "venue_followers": 20833,
+  "venue_followers": 20834,
   "venue_instagram": "zeroclub.bg",
   "venue_known": true,
   "venue_type": "club",
@@ -9171,7 +9237,7 @@
   "lead_days": 4,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-24T15:06+00:00",
+  "posted": "2026-11-24T16:14+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -9574,7 +9640,7 @@
   ],
   "headliner": "Savana Funk",
   "id": "2026-11-28-druso",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/912329405_18456392914134654_3573916958734392433_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Ik0qm1NMREoQ7kNvwEuIxUT&_nc_oc=AdqH9IRaYdHw3m899Cip0eHcLdaXNbICWWoyeND2UnZI27daqdfjVG6w2mz2m_QthI4&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSVoijD91f44rN6s8abMwUWdomZaBsihUj-1pquVHqUxQ&oe=6B0B11BF",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/912329405_18456392914134654_3573916958734392433_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Ik0qm1NMREoQ7kNvwFzftji&_nc_oc=AdqerzObvsquq2c-bmSR2YlLXvwsPckJ9JjYvm-yW-qYUqy5wThOMgWPUFWqiPagIt0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQqZqDJAamX9TMoJNBH7mpo8kYphxdqxABva-aJTZOTUg&oe=6B0B823F",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 9,
@@ -9607,7 +9673,7 @@
    "https://www.instagram.com/reel/Df71ERpAVju/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -10286,7 +10352,7 @@
   ],
   "headliner": null,
   "id": "2026-11-28-nikita",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/914392748_1454665146876814_7960208339652639124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jL8Yt6dbl0EQ7kNvwEHEbLX&_nc_oc=AdqPMvOB05GEOCnMA57BxhiCFISHL04RSyD_sF87ETqGkRyBen6NZkewwDq08-xCv24&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=rU6QZ9hhXb1_qd-PoLY3CA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTY6vv5WL6IawPJbQAtIJ6IwQ3GsRUlU_tLkTDNkFCgXw&oe=6B0AEFDC",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/914392748_1454665146876814_7960208339652639124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jL8Yt6dbl0EQ7kNvwHjFEPA&_nc_oc=Adqr7rTn1vreE0WERvS9Vx3c6sC82-qsAqN9X2ESUQrTUBdMQUu6mwIL4bpTSiE95jc&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CgO2YyGjPLkSKDknGhkDfA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTNjIl_oRH1LA_p3o6NdRXd5xuc5j2oZc0XtpNEfEpNJg&oe=6B0B989C",
   "in_posts": true,
   "km": 15.8,
   "lead_days": 6,
@@ -10319,7 +10385,7 @@
    "https://www.instagram.com/p/DgD0_iWhPmf/"
   ],
   "venue": "Nikita",
-  "venue_followers": 25661,
+  "venue_followers": 25659,
   "venue_instagram": "nikita__land",
   "venue_known": true,
   "venue_type": "club",
@@ -10360,12 +10426,6 @@
     "instagram": "prenotazione",
     "level": null,
     "name": "prenotazione"
-   },
-   {
-    "followers": null,
-    "instagram": "vine_vininaturali",
-    "level": null,
-    "name": "vine_vininaturali"
    }
   ],
   "handles": [
@@ -10956,7 +11016,7 @@
    "https://xceed.me/it/bergamo/club/zero-club"
   ],
   "venue": "Zero Club",
-  "venue_followers": 20833,
+  "venue_followers": 20834,
   "venue_instagram": "zeroclub.bg",
   "venue_known": true,
   "venue_type": "club",
@@ -10989,7 +11049,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-28-zero_club-club_room",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwGR_tOG&_nc_oc=AdrBYZYCG4hvqReTpG4MkMJDRhGFhn7YOqBfv_VzI2I3EX2ea9Hfm022laLHtp6cgFo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=op0DFIl1JgauJb-oo2sVbg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR4lmrMYWkF5DPF3lAbFoKiC5rPwSy14unDHV6KU4Qfjg&oe=6B0AF46F",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwHutRnJ&_nc_oc=AdoFNUwtNJ3pcS4aOTS6pteimlzkfvPtVvUHB9IHmXOoOxtTyqUePFybU_NKfy_mDHQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CPnhqbWXxsdpZJdjPrf-Ug&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTelrp-VMSXbs0QHk1qpBpDeYAmBtxoSth7dtR2vyZnfg&oe=6B0B9D2F",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 26,
@@ -11022,7 +11082,7 @@
    "https://www.instagram.com/p/DfPzvj8CAe3/"
   ],
   "venue": "Zero Club",
-  "venue_followers": 20833,
+  "venue_followers": 20834,
   "venue_instagram": "zeroclub.bg",
   "venue_known": true,
   "venue_type": "club",
@@ -11077,7 +11137,7 @@
   ],
   "headliner": "REHAB_in_town",
   "id": "2026-11-28-zero_club-main_room-pre",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwGR_tOG&_nc_oc=AdrBYZYCG4hvqReTpG4MkMJDRhGFhn7YOqBfv_VzI2I3EX2ea9Hfm022laLHtp6cgFo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=op0DFIl1JgauJb-oo2sVbg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR4lmrMYWkF5DPF3lAbFoKiC5rPwSy14unDHV6KU4Qfjg&oe=6B0AF46F",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886551229_18417196972090375_6761014655910670345_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FDvLt_uQILsQ7kNvwHutRnJ&_nc_oc=AdoFNUwtNJ3pcS4aOTS6pteimlzkfvPtVvUHB9IHmXOoOxtTyqUePFybU_NKfy_mDHQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CPnhqbWXxsdpZJdjPrf-Ug&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTelrp-VMSXbs0QHk1qpBpDeYAmBtxoSth7dtR2vyZnfg&oe=6B0B9D2F",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 26,
@@ -11113,7 +11173,7 @@
    "https://www.instagram.com/p/Df4aUUflmk0/"
   ],
   "venue": "Zero Club",
-  "venue_followers": 20833,
+  "venue_followers": 20834,
   "venue_instagram": "zeroclub.bg",
   "venue_known": true,
   "venue_type": "club",
@@ -11345,7 +11405,7 @@
   ],
   "headliner": null,
   "id": "2026-11-29-chorus_life_bergamo_via_carlo_serassi_26-pre",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/870176204_17987488797118827_5122717342896729621_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YXNZJBq1cMUQ7kNvwGhSe1x&_nc_oc=AdptzHHH5uQfbx0HaYzDejMH3F9mhbI8MyKQNlXOmbXWICSV080qWOsiXpdSYlwXM_o&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=6T0WNBw7itZfAXJDrXnX4w&_nc_tpa=Q5bMBQLwyDiFWyjzs8A_IBcYtCHhsT-iNf-w4d8v0jHOzDDwAMS3afRJy1eyAIPmrJmVDUy1JXXkX1-99A&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQQ82c_28nJYm2fKM0MS5-qgidRExbNyJQdlhOW2Gi-Yfg&oe=6B0AA489",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/870176204_17987488797118827_5122717342896729621_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YXNZJBq1cMUQ7kNvwHlPXnB&_nc_oc=AdoTxz15kOqgQ6CgWYsvRQjfcvFYGmlYl3RAr1P9iBxNHj1-jMXn180xGTsaSaq4p7w&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Au6MQDeUqItl_WsVsSYPEQ&_nc_tpa=Q5bMBQL8TYvmOM3peGUvMdIA8paDYNIR_D8MjJxUaaQt52FhFH64sP_tHlPdL1k3nDeC2Zl_29egzO7OAA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQSeAcah0fNtp2ByMp6VyPCg7WGoSneew8E3RIzqe8nrww&oe=6B0B8589",
   "in_posts": true,
   "km": 20.1,
   "lead_days": 32,
@@ -11699,7 +11759,7 @@
   ],
   "headliner": null,
   "id": "2026-11-29-druso-pre",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920416372_18456972031134654_6813211802567205014_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9aMqn8Ar4tAQ7kNvwErfSJB&_nc_oc=Ado3EQQ4eTgL6v3Q5opKqjP2aVScoBiqM6yc4WP24HABaFkeMHRWFrhHsq-R66dOB6k&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSjlxuEQOWKhOYMk7y_OMB6wEJlA3IP70A430V3JD5qlQ&oe=6B0B1297",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/920416372_18456972031134654_6813211802567205014_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=TFuuZR7VQjAQ7kNvwHuXlr4&_nc_oc=AdqLoe61IWOqHNwyaXt8Z7w5NJ_Fb0D-mD7WzV8BmroAhsWV7Ku3dcnlZixAhl3UUxs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTXto81pFsV-eXeZfNjr0F5UfUAljTHyBByv7-LvgXjjA&oe=6B0B8317",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 6,
@@ -11731,7 +11791,7 @@
    "https://www.instagram.com/p/DgFVpfxAE83/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -13635,7 +13695,7 @@
    "https://www.instagram.com/reel/Df2LPcaznmD/"
   ],
   "venue": "Zero Club",
-  "venue_followers": 20833,
+  "venue_followers": 20834,
   "venue_instagram": "zeroclub.bg",
   "venue_known": true,
   "venue_type": "club",
@@ -14077,7 +14137,7 @@
    "https://www.instagram.com/reel/DgDWF0CIm8O/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -15424,7 +15484,7 @@
    "https://www.instagram.com/reel/Df2LPcaznmD/"
   ],
   "venue": "Zero Club",
-  "venue_followers": 20833,
+  "venue_followers": 20834,
   "venue_instagram": "zeroclub.bg",
   "venue_known": true,
   "venue_type": "club",
@@ -15605,7 +15665,7 @@
   "lead_days": 21,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-24T15:06+00:00",
+  "posted": "2026-11-24T16:14+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -15753,7 +15813,7 @@
   ],
   "headliner": null,
   "id": "2026-12-18-nikita",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/910463398_1452504530426209_1310758554274835850_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xTxdBtdpSTsQ7kNvwGRG-v0&_nc_oc=AdrBjVOnEYBsVZfIR8Alw78qSJ06LOGPwa7w83a1aYqNAsJPY9DQaX16dj315hD5Zcw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=rU6QZ9hhXb1_qd-PoLY3CA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRqG64eKe3zfdDzutauAvZ4pVjEoRR-Qg4nRaRAI9Ra9A&oe=6B0AEDFB",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t39.30808-6/910463398_1452504530426209_1310758554274835850_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xTxdBtdpSTsQ7kNvwGz1q_K&_nc_oc=Adoi8ngataT7bo2v4z661TtlbvU7RziirYN6DBFUsi6CK3PI8mJjpkFgOlte1fU4_uU&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=CgO2YyGjPLkSKDknGhkDfA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTiMbHTdzlGzhPIrwxVPp25XoW78tHPZJCEs-cjvMqQdQ&oe=6B0B96BB",
   "in_posts": true,
   "km": 15.8,
   "lead_days": 31,
@@ -15786,7 +15846,7 @@
    "https://www.instagram.com/p/Df10bCtBMRr/"
   ],
   "venue": "Nikita",
-  "venue_followers": 25661,
+  "venue_followers": 25659,
   "venue_instagram": "nikita__land",
   "venue_known": true,
   "venue_type": "club",
@@ -15811,6 +15871,12 @@
   "genre_source": "post",
   "guests": [
    {
+    "followers": 12212,
+    "instagram": "vintage_violence",
+    "level": null,
+    "name": "VINTAGE VIOLENCE"
+   },
+   {
     "followers": 1702,
     "instagram": "luke_style.official",
     "level": null,
@@ -15821,12 +15887,6 @@
     "instagram": "treccani.officialband",
     "level": null,
     "name": "TRECCANI"
-   },
-   {
-    "followers": null,
-    "instagram": "vintage_violence",
-    "level": null,
-    "name": "vintage_violence"
    },
    {
     "followers": null,
@@ -15843,7 +15903,7 @@
    "treccani.officialband",
    "vintage_violence"
   ],
-  "headliner": "Luke Style",
+  "headliner": "VINTAGE VIOLENCE",
   "id": "2026-12-19-bloom",
   "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/918033859_18653384167014819_8598601925095312184_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=e2yZFflhxB4Q7kNvwFQRg1n&_nc_oc=AdrsfTyAAYxSjZXOjoiqEihLc1FeDIp7k5JGAu-I90nOsedaNNLgLHwtVeYsLQ3vlDQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=8Dd14VsH01qRsDG9XBJj4w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSLtfjWLGJHJgiixtWQn_sP2OiSz4C5CY1RvmtxoNk2Tw&oe=6B0B2378",
   "in_posts": true,
@@ -16483,7 +16543,7 @@
   ],
   "headliner": null,
   "id": "2026-12-25-druso",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/907423333_18456105619134654_3304647907184507268_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cgjGK8cHT6AQ7kNvwEY9SYs&_nc_oc=AdrZDeIrvDh9Jn13V7hG_uvR0iSlxSC6ibe4ElQWUbMQSws_JloT-6RywF_3sPLgwdU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSKKug3pBNSE_sWwWP8mPpJkAa2jzcxoau_nZJSj3EZzw&oe=6B0AEB12",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/907423333_18456105619134654_3304647907184507268_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Z9Q9NhllBMgQ7kNvwGgCo6S&_nc_oc=AdrrR4azkUFOPJjnx2TZR9gtdIDvmlYvW6CJchY0hgbB_vexo_kOgFTVTY--d3gHCqA&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ7VFzG0v0gmll-hfiKd21tdzxamvDC67UzCm78G3tqFg&oe=6B0B93D2",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 38,
@@ -16517,7 +16577,7 @@
    "https://www.instagram.com/reel/DgDWF0CIm8O/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -17309,7 +17369,7 @@
   "handles": [],
   "headliner": null,
   "id": "2027-01-02-druso",
-  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/911194714_18456258655134654_1738643233330787803_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=r5oDRlCU2YsQ7kNvwG8rPjj&_nc_oc=AdrUYPdpVrDtcmniInJd48-lk7htNmVZlL6PL80KvCXnI0yKRjsAPNN9G5k843YaofE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQcuW_jRuSBQFIY-eJ3MYSUA_69Mhpbdh_DYmbtE1H31Q&oe=6B0AF138",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/911194714_18456258655134654_1738643233330787803_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=r5oDRlCU2YsQ7kNvwG5dBQB&_nc_oc=AdqufyRaEq0qKRbq1p4HprYDt_TC4UKhQSRCA-trPIdXs1pz1tnxzakLCVqfytk9SUM&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRWsm8VSqzBZc6ZWJUf8J2TVYOhE3MCnhVWuZKqMeEJjw&oe=6B0B99F8",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 45,
@@ -17342,7 +17402,7 @@
    "https://www.instagram.com/p/Df49j5GAAWV/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -17652,7 +17712,7 @@
   ],
   "headliner": null,
   "id": "2027-02-11-druso",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/906219927_18455952370134654_7450120575544315350_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=yzR2qt5VkNUQ7kNvwFe_p6d&_nc_oc=AdpHfKriANYBR1GkhI1d-UzruMI7ub0jsCncFEltGnUh3DJ1-B_M9_pYhDk881rn7_Y&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ4qIDE0gyZ7NGiKEeSSI6Vy_QGtIwtnaRNz0Ppm7hviw&oe=6B0B08FF",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/906219927_18455952370134654_7450120575544315350_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=yzR2qt5VkNUQ7kNvwE6kSOd&_nc_oc=AdqH8EJhmq8Fsxt_t7T7zx1ujOsdBjScWjkDiUxqA6McQSxPk24GlWBs6L9fq0PIF2M&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR_Dsr44mqhNka9YVUCvUXGZaQExtH9ueAc-49IlpWw7g&oe=6B0B797F",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 87,
@@ -17684,7 +17744,7 @@
    "https://www.instagram.com/p/Df0GZ8LAy2B/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -17733,7 +17793,7 @@
   ],
   "headliner": "Savana Funk",
   "id": "2027-02-20-druso",
-  "image": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m86/AQOt2T_55eLOp3UKmS96kyeiON0Bd3CuYTWk9dKPhwrx7VSK8AuzJISAK4m9zHFnSYrh9iP5cFgD84d3kuH6pOlZFuIxLYbuAbpPILw.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=v1Vbks-BdlgQ7kNvwEt4X5G&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU0NzkxOTkxNDA1NTc2MSwiYXNzZXRfYWdlX2RheXMiOjQsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoyMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=af2de19b1213b325&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yRDBBNDMzODRGMDM0N0I4QTBCRTJBNkZFRjUwRkQ3Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUwMzQwREE5RDNCQTQ5ODA5QjkzQTdCQTlERkQ4NkE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACai4fGJ5vS_BRUCKAJDMywXQDRVP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR499MCWeVQ-edN3frNi6pJduzps1eQ2Xf0NRwFCt0tJw&oe=6B070F0C",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/o1/v/t2/f2/m86/AQOt2T_55eLOp3UKmS96kyeiON0Bd3CuYTWk9dKPhwrx7VSK8AuzJISAK4m9zHFnSYrh9iP5cFgD84d3kuH6pOlZFuIxLYbuAbpPILw.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=v1Vbks-BdlgQ7kNvwGV_Cdf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU0NzkxOTkxNDA1NTc2MSwiYXNzZXRfYWdlX2RheXMiOjQsInZpX3VzZWNhc2VfaWQiOjEyMzc0LCJkdXJhdGlvbl9zIjoyMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=af2de19b1213b325&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yRDBBNDMzODRGMDM0N0I4QTBCRTJBNkZFRjUwRkQ3Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzUwMzQwREE5RDNCQTQ5ODA5QjkzQTdCQTlERkQ4NkE3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACai4fGJ5vS_BRUCKAJDMywXQDRVP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRJfF8yxPTDgdnG1d2iN9Glw-1Sc65_XUaL4N0Uv-Edaw&oe=6B077F8C",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 93,
@@ -17766,7 +17826,7 @@
    "https://www.instagram.com/reel/Df71ERpAVju/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -17799,7 +17859,7 @@
   "handles": [],
   "headliner": null,
   "id": "2027-03-13-druso",
-  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902585752_18455110525134654_9016086541522943789_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ak5VtvZTOfMQ7kNvwGtKiZN&_nc_oc=AdopbPLeeTYZ7RMpngmrbabymCEr505fjxGU2UJKdXCjXZMRb8uih8jr6abRRlbPyF0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSBqAAm2APtbSoASBt_MkKR0e1AqsQwQ3so4w7UTHocTw&oe=6B0B0683",
+  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/902585752_18455110525134654_9016086541522943789_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=UVh5JbQv0DkQ7kNvwHPrOBx&_nc_oc=AdryBaQi4QISXSC9HjayP2HC9pM2JYyPdCMEEQCY1Y9ZwgyOlz_Wby6z45Wmovw1iVE&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSYjs6k-XDIdXw5BmFlOEc_YYtBhAf26b9wsCIFUM5_lw&oe=6B0B7703",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 121,
@@ -17831,7 +17891,7 @@
    "https://www.instagram.com/p/DfpHVn2gzip/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",
@@ -17873,7 +17933,7 @@
   ],
   "headliner": null,
   "id": "2027-03-27-druso",
-  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902585588_18454711477134654_2618926209105505235_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MTsVkJkRTwQQ7kNvwFKso0-&_nc_oc=Adp2JcUNAqMjq5EcIRTKUkfGkcqhxG_5CBUPrm_ehrgrOWYp60eb611O3clTFgETvt0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=taXN7l5VIpMvxFCHA_1Q6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQiYxIILHVPzu01gjGZF13zgO_eXxSLc8GCuVHMvOLnpg&oe=6B0AF082",
+  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/902585588_18454711477134654_2618926209105505235_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MTsVkJkRTwQQ7kNvwE99ZrM&_nc_oc=AdqYkcRYMOB_91raBD5Uzox7fCC2nIwUrW2-mRp9kk_BKqbzjnSm1XNHnJyFTGzBQxI&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YG1Mw4oc-McMSJW-IlYOLA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ_78y63oh7OM2Gn703ne6xewhWN6Kee9X_jc846GwCqw&oe=6B0B9942",
   "in_posts": true,
   "km": 3.9,
   "lead_days": 137,
@@ -17905,7 +17965,7 @@
    "https://www.instagram.com/p/DfjwAlgAcE6/"
   ],
   "venue": "Druso",
-  "venue_followers": 24724,
+  "venue_followers": 24733,
   "venue_instagram": "drusobg",
   "venue_known": true,
   "venue_type": "live_club",

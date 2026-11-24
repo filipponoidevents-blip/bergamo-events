@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T15:07",
+ "generated": "2026-11-24T16:14",
  "nights": [
   {
    "date": "2026-11-24",
@@ -94,20 +94,20 @@
    "note": null,
    "weekend_like": true,
    "events": 11,
-   "load": 367.6,
+   "load": 354.0,
    "level": "piena",
    "capacity_taken": 5300,
    "by_family": {
     "House / Elettronica": 5,
     "Hip Hop / Trap": 1,
-    "Commerciale": 5,
-    "Altro": 0
+    "Commerciale": 4,
+    "Altro": 1
    },
    "missing_families": [],
    "top": [
     {
-     "title": "[Commerciale] Nikita · SCHIVARDI 1953",
-     "score": 56.6,
+     "title": "[Live] Nikita · Ventitré w/ TAKE OVER",
+     "score": 43.0,
      "capacity": 1000
     },
     {

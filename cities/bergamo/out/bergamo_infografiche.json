@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-24T15:07",
+ "generated": "2026-11-24T16:14",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -128,6 +128,16 @@
       "family": "Altro"
      }
     ],
+    "2026-11-27": [
+     {
+      "line1": "Ventitré @ Nikita",
+      "line2": "Live, TAKE OVER",
+      "time": "22:30",
+      "score": 43.0,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-28": [
      {
       "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
@@ -177,14 +187,6 @@
      }
     ],
     "2026-11-27": [
-     {
-      "line1": "SCHIVARDI 1953 @ Nikita",
-      "line2": "Commerciale",
-      "time": "22:30",
-      "score": 56.6,
-      "fascia": "serata",
-      "family": "Commerciale"
-     },
      {
       "line1": "DiscoDance @ Queen Club",
       "line2": "Dance",
@@ -341,6 +343,14 @@
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Nicholas Lecchi Trio @ Marienplatz",
+     "line2": "Jazz",
+     "time": "21:00",
+     "score": 27.3,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1080,6 +1090,16 @@
       "family": "Altro"
      }
     ],
+    "2026-11-27": [
+     {
+      "line1": "Ventitré @ Nikita",
+      "line2": "Live, TAKE OVER",
+      "time": "22:30",
+      "score": 43.0,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
     "2026-11-28": [
      {
       "line1": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar",
@@ -1139,14 +1159,6 @@
      }
     ],
     "2026-11-27": [
-     {
-      "line1": "SCHIVARDI 1953 @ Nikita",
-      "line2": "Commerciale",
-      "time": "22:30",
-      "score": 56.6,
-      "fascia": "serata",
-      "family": "Commerciale"
-     },
      {
       "line1": "DiscoDance @ Queen Club",
       "line2": "Dance",
@@ -1583,6 +1595,14 @@
      "line2": "Alternative",
      "time": "18:30",
      "score": 40.9,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Nicholas Lecchi Trio @ Marienplatz",
+     "line2": "Jazz",
+     "time": "21:00",
+     "score": 27.3,
      "fascia": "preserata",
      "family": "Altro"
     }
