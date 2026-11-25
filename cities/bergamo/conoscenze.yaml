@@ -18,7 +18,7 @@
 #   - {venue: Nikita, date: 2026-11-21, genre: Commerciale}
 # events:                                           # eventi che nessuna fonte pubblica
 #   - {date: 2026-11-21, start: "23:00", venue: Zero Club, party: Premiere, room: main room}
-seeds: []
+seeds: [hineyy.event]   # Honey: Filippo ha scritto anche questo, si prova pure lui (il sistema scarta quello che non esiste)
 venues:
   - {name: Kristall Night Club, remove: true}   # locale per adulti (Filippo, 20/11/2026)
   - {name: Luxor Club, remove: true}            # locale per adulti (Filippo, 20/11/2026)
@@ -57,7 +57,7 @@ promoters:
   - {name: "Side A", genre: "House Vinyl", venues: ["In Croissanteria Lab"], brand_of_venue: true}
   - {name: "Rapture", instagram: "rapture.exp", genre: "Tech House", venues: ["Bar Perlage"]}
   - {name: "Bucolic Party", instagram: "bucolic.party", genre: "Altro", venues: ["Cosmo Food Club"]}
-  - {name: "Honey", instagram: "hineyy.event", genre: "Tech House", venues: ["Savana King"]}
+  - {name: "Honey", instagram: "honeyy.event", genre: "Tech House", venues: ["Savana King"]}
   - {name: "Pitch", instagram: "pitch__bg", genre: "Commerciale", venues: ["Into The Woods"]}
   - {name: "L'Apéritif by Earth", instagram: "earth_ofc", genre: "House Commerciale", venues: ["Cafeteria"]}
   - {name: "Boheme", instagram: "boheme.it", genre: "House", venues: ["Cafeteria"], brand_of_venue: true}
