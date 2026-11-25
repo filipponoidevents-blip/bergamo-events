@@ -1,20 +1,20 @@
 {
   "followers": {
     "afrodylanofficial": 12180,
-    "al_tabarin": 727,
+    "al_tabarin": 733,
     "aliveofficialparty": 29240,
-    "arya.lounge": 2474,
-    "baiadelrebrignano": 4248,
+    "arya.lounge": 2473,
+    "baiadelrebrignano": 4239,
     "balzerbynight": 7482,
     "bar30elode": 1172,
-    "bar_sanmarco": 2100,
+    "bar_sanmarco": 2110,
     "barperlage": 2695,
     "barrys__": 9730,
-    "bergamonightservice": 1092,
+    "bergamonightservice": 1094,
     "bobadillafeelingclub": 31662,
     "bolgia.official": 125205,
     "brinapasticceria": 3139,
-    "bsk.sound": 1745,
+    "bsk.sound": 1746,
     "bucheesebar": 6842,
     "bv_rooftop": 11310,
     "cafeteriatreviolo": 5434,
@@ -22,45 +22,45 @@
     "call._.out": 728,
     "capogirojoyclub": 17767,
     "casacostez": 6372,
-    "charleston.treviglio": 2431,
+    "charleston.treviglio": 2432,
     "cheri.it": 4699,
     "choruslife.bergamo": 67775,
     "circolinomalpensata_bergamo": 2940,
     "contest_bg": 3929,
     "cosmo.food.club": 2365,
-    "crocevia_": 1070,
+    "crocevia_": 1071,
     "cromaroom": 1987,
     "crystalcastlesnightt": 787,
     "csapacipaciana": 13857,
     "daste_bergamo": 21371,
     "decibel_club": 4597,
-    "discopastasc": 1421,
+    "discopastasc": 1422,
     "discoteca_queen": 17138,
     "drusobg": 24734,
     "edonebergamo": 29975,
     "gres_art_671": 21350,
-    "hiddenhell.techno": 11149,
-    "hype.club.official": 24455,
-    "icksdresstoimpress": 6681,
+    "hiddenhell.techno": 11147,
+    "hype.club.official": 24434,
+    "icksdresstoimpress": 6679,
     "iconevents.official": 608,
     "incroissanterialab": 27715,
     "inkclub_bergamo": 14695,
     "intothewoodsbg": 33169,
     "jamlivestudio": 6027,
-    "juiceclubit": 8577,
+    "juiceclubit": 8575,
     "karma_lounge_official_": 5160,
     "kellerfactory_": 7372,
     "lazzaretto_bergamo_estate": 11510,
-    "lecannibaleclub": 43144,
+    "lecannibaleclub": 43172,
     "liveclub": 33538,
     "loft.bergamo": 10844,
     "mint_lounge": 15387,
     "nikita__land": 25666,
     "ninfeasocialclub": 8733,
-    "noidfamilia": 7886,
+    "noidfamilia": 7880,
     "nxtbergamo": 30369,
     "oasi.night": 512,
-    "officinapanarari": 5390,
+    "officinapanarari": 5400,
     "oroneroloveandmusic": 7835,
     "please.nights": 2509,
     "premiere.premiere": 2163,
@@ -70,19 +70,19 @@
     "selected.lab": 201,
     "setai_club_official": 36680,
     "sloth.bg": 825,
-    "sommet_night": 497,
+    "sommet_night": 496,
     "sprint_bergamo": 5114,
-    "supertatobolgia": 20636,
+    "supertatobolgia": 20630,
     "talk.maf": 2203,
     "thanka.official": 30849,
     "the.circlehub": 832,
-    "theboxbergamo": 8090,
+    "theboxbergamo": 8093,
     "tiky.klub": 1006,
     "twofestival": 2949,
     "unibg_party": 3468,
     "unplug.project": 547,
     "unplug__bg": 3125,
-    "utopia.direction": 8474,
+    "utopia.direction": 8478,
     "vibetheclub": 11569,
     "victorialoungebar_bonate": 1289,
     "we.are.stepup": 355,
@@ -1123,6 +1123,38 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Df2yVEzFxeV/",
       "status": "info"
+    },
+    "17917189611500068-0": {
+      "account": "noidfamilia",
+      "account_venue": null,
+      "caption": "Sabato 28 Novembre dalle 19:00 alle 00:00\nnoidfamilia at caffemiro_mantova \n\nDj set & gourmet street food in una delle piú belle piazze di Mantova\n\nPrenota il tuo tavolo e bevi un drink accompagnato dalla selezione di street food gourmet di Miró\n\nPosti limitati 👀",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": "00:00",
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "dj set"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "19:00",
+        "ticket_url": null,
+        "title": "NØID",
+        "venue_name": null
+      },
+      "id": "17917189611500068-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/930522674_18648954535041982_5223870311907147285_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=UyC8xhMZLWAQ7kNvwEfyBJy&_nc_oc=AdqOWi0mMy4XqOEYaGkmw8wG8ZB50Pr9hzmD6-j9ySARKpZ4h5YB6-yDe_pFmG7CWZ8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=UEcblBdHWupInDcb_pnpCg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSBdNFw2kdocFM-uRPp0skmiVLiRmYT4JuuojhtHsaI3g&oe=6B0CD563",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgKdTgbESuK/",
+      "status": "auto"
     },
     "17918319342501848-0": {
       "account": "oroneroloveandmusic",
@@ -5054,6 +5086,36 @@
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/reel/DgAK-jGnBIn/",
       "status": "pending"
+    },
+    "18090740039713931-0": {
+      "account": "bar_sanmarco",
+      "account_venue": "Bar San Marco",
+      "caption": "FRIDAY 27.11\ndanieleberardi.it and filipporecenti ON SET",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Bar San Marco",
+        "venue_name": "Bar San Marco"
+      },
+      "id": "18090740039713931-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/926681887_18431809981149849_6052347288538619161_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5YM2r4M_-owQ7kNvwH2WDUe&_nc_oc=AdqPeCAJq49qbDVzeNNjBYcaoDyfFVksBJRgl6H2drTomeV6RilOm6UU5PB6htAg2DA&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RRJh6ptPLN0gli1y7nh0lw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTB9dN2R_BFauunf2lY-NZ1XOU-_8IQy0gIMt-mBBPS2g&oe=6B0CC29E",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgIcTZZtsJ1/",
+      "status": "info"
     },
     "18094381595221486-0": {
       "account": "nikita__land",
@@ -9145,6 +9207,36 @@
       "permalink": "https://www.instagram.com/p/De_0ZfQl_LO/",
       "status": "info"
     },
+    "18131731499491647-0": {
+      "account": "hype.club.official",
+      "account_venue": "Hype Club",
+      "caption": "LOVA🩷\n\nSave the date : Sabato 28 novembre \n\nTicket disponibili nelle storie !\n\n📍Via Giosué Carducci 2 - Cortenuova (BG)\n📲+39 342 6719049\n🕒00.00 - 04:30",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": "04:30",
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "00:00",
+        "ticket_url": null,
+        "title": "LOVA",
+        "venue_name": "Hype Club"
+      },
+      "id": "18131731499491647-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/923705705_18132556555850202_3815188666038596658_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=2K4H2WfaXcAQ7kNvwGegq7i&_nc_oc=AdqAYephBbX_h0y6FU5RLr-jv2Xml_3uJtqp8oTtevZZo7bLsIsAge5YIkyKDMS44Bw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hvsL2RijuMAgGcZkMVzhHg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQE5MnWu2oI3l_iQkxy3yJQHUVtOoXoJ9MA33GTFNiEEQ&oe=6B0CBD7D",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgGCMsGIyPY/",
+      "status": "auto"
+    },
     "18131733649814990-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
@@ -9740,6 +9832,36 @@
       "permalink": "https://www.instagram.com/p/Df1-RnyiGTe/",
       "status": "info"
     },
+    "18136167562668527-0": {
+      "account": "utopia.direction",
+      "account_venue": null,
+      "caption": "Ogni scusa è buona per tornare dagli amici di tassinocafe 🖤\n\nCome sempre, sabato 28 novembre ci ritroviamo per bere qualcosa insieme, mettere un po’ di dischi e fare due balletti.\n\nCi vediamo lì 🪩",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "utōpia",
+        "venue_name": "Tassino Café"
+      },
+      "id": "18136167562668527-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/926452277_18644510299015605_5269133507884784699_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HdpjcbPIVgcQ7kNvwEFvjBw&_nc_oc=AdphCi5bC75ARZcKbNHBL4FCjO1pQfJMwa1MTkAWHcPSr03RgfKoSnHwL-lgc2kHx-g&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=u4K7a4ij7LFvHTd4deIG3g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTT0O6JWCB-2U-AfOWQns5LmrJfBgo9cTMs5I84XJdNUg&oe=6B0CD49C",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgFL4THoa40/",
+      "status": "info"
+    },
     "18136811626673698-0": {
       "account": "arya.lounge",
       "account_venue": "Arya Lounge",
@@ -9995,6 +10117,36 @@
       "kind": "other",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfPyM5flLcX/",
+      "status": "info"
+    },
+    "18141046234651392-0": {
+      "account": "al_tabarin",
+      "account_venue": "Al Tabarin",
+      "caption": "Il 7 Dicembre al Tabarin va in scena una serata indimenticabile: la nostra Cena con Delitto. Preparati a indagare tra una portata e l’altra!\n📅 Quando: 7 Dicembre, dalle ore 20:00\n🍽️ Il Menù della serata:\n• Tagliere di salumi\n• Ravioli di zucca con fonduta allo Zola\n• Polenta a scelta (Brasato o Funghi)\n• Sorbetto al limone\n🍷 Bevande incluse – 45€\nI posti sono limitati... e nessuno è al di sopra di ogni sospetto. 🤫\n📲 Prenota ora il tuo tavolo al 📞3277479791 - WhatsApp, oppure scrivici in DM!",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-07",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "Tagliere di salumi",
+        "venue_name": "Al Tabarin"
+      },
+      "id": "18141046234651392-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/924862651_18143628913650501_8647074737874839913_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EogxLePGv4wQ7kNvwFc3Y6j&_nc_oc=AdpIAGMR00GwXYuJifeU2FLrvK5vwfVVTJ55O5yYWZI2yt4tERbSMFDtPEfGASX8afA&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=U6Cn4F09dV5hcdWfu3HRtw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT0qk989sIvbtBKi86Go6XB2SpTOYa1ln-5gFlpz-AuMg&oe=6B0CD186",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgGVmL2xwpm/",
       "status": "info"
     },
     "18141159523628197-0": {
@@ -10425,6 +10577,38 @@
       "permalink": "https://www.instagram.com/p/Df9EdT5DQ_2/",
       "status": "pending"
     },
+    "18148234663592934-0": {
+      "account": "officinapanarari",
+      "account_venue": "Officina Panarari",
+      "caption": "Il 31 dicembre ci ritroviamo in Officina Panarari per salutare l’anno con una serata speciale tra cena, musica e un’atmosfera unica ispirata al Carnevale di Rio 🇧🇷🎭\n\nDalle 21:00 si comincia con la cena cantata 🎤\n\nSaranno disponibili due proposte di menu: \nuna di carne e una di pesce.\n🍽️ Un antipasto, due primi, un secondo e il nostro rinomato panettone artigianale.\n\n🍾 Una bottiglia di vino ogni 2 persone. \n Acqua compresa. \n\n🔎 Al momento della prenotazione sarà necessario scegliere la propria preferenza e segnalare eventuali intolleranze alimentari.\n\nIl costo della cena e della serata è di 100€ a persona. \n\n———\n\nDalle 00:30 poi, le porte si aprono anche a chi desidera raggiungerci dopo cena: DJ set e consumazione inclusa a 25 €.\n\nLa musica continuerá poi fino a tarda notte 🪄🎶\n\n——\n\nLa prenotazione si considera confermata con il pagamento ⚠️✅\n\n——\n\n31.12.\nCapodanno a Rio.\nOfficina Panarari, Treviglio.\nSave the date.\n\n——\n\nPer informazioni e prenotazioni, scrivici al 39 328 978 11 📲",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-31",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "dj set"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": true,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "Officina Panarari",
+        "venue_name": "Officina Panarari"
+      },
+      "id": "18148234663592934-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/923290903_17971309800210603_5440596680571627052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=oCea8Ai1mxUQ7kNvwGuXuUX&_nc_oc=AdoiUMxFEyX9DNGL-BqcqyjlEuxyKl_nCBN2ukCi1jId3Biomw82ddWFhFRq3uNDrcA&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VdKc-1MP4pVf0J7YEl_sqQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRS75ag0QehqayEilq2nIffVD7EeiKjyTTfvNQ2F-qv2Q&oe=6B0CCACF",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgFbyrICJvq/",
+      "status": "auto"
+    },
     "18148989742570645-0": {
       "account": "bolgia.official",
       "account_venue": "Bolgia",
@@ -10543,6 +10727,66 @@
       "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfUSWrjMJex/",
+      "status": "info"
+    },
+    "18149850781497764-0": {
+      "account": "bar_sanmarco",
+      "account_venue": "Bar San Marco",
+      "caption": "SATURDAY 28.11\nevents.overtime \nidefe.music ON SET",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Bar San Marco",
+        "venue_name": "Bar San Marco"
+      },
+      "id": "18149850781497764-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/928472355_18431812582149849_172976729723839849_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RbQHT5_ZdmUQ7kNvwFuJHC-&_nc_oc=Adpt2OGg-YZwCSJAIlO1L1d01i7_RCi02P6xR2mecekdp_oDEDlzmVdanSlZicm8xW0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RRJh6ptPLN0gli1y7nh0lw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQdsTbG9kY-Bg-wfmd5QDf0k4Ahuqj3-19xj1GVZ3GfUw&oe=6B0CB4A9",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgIdmEfq6Ui/",
+      "status": "info"
+    },
+    "18150322084604439-0": {
+      "account": "officinapanarari",
+      "account_venue": "Officina Panarari",
+      "caption": "Il Natale ha tanti gusti. \nNoi abbiamo deciso di assaggiarli tutti. ✨\n\nGiovedì 3 dicembre, dalle ore 20:30, vi aspettiamo per una degustazione speciale dedicata ai panettoni e alle creazioni di Pasticceria Panarari.\n\nUn calice di bollicine, tanti gusti da scoprire e un’occasione per entrare nell’atmosfera delle feste 🎄\n\nDal classico al pistacchio, dai frutti rossi al cioccolato bianco, fino alle edizioni speciali e alle proposte più sorprendenti.\n\n€20 a persona ✅\n\nPrenota adesso al 39 328 978 11 📲\n\nVi aspettiamo!\n\n#OfficinaPanarari #DegustazionePanettone #Natale2026",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-03",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:30",
+        "ticket_url": null,
+        "title": "Natale ha tanti gusti",
+        "venue_name": "Officina Panarari"
+      },
+      "id": "18150322084604439-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/925123262_17971578213210603_1907603209909800525_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NFPGL88I3DYQ7kNvwHppqOW&_nc_oc=AdqDO2X6lawB3DSpcmsd4PxRl-j23vTaD8wJoRmAd4OSqAzaijE0xwbv3qt65wWt0U4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VdKc-1MP4pVf0J7YEl_sqQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ3GtkJlrhYGB5p7E4QJaM8jJqLQcyd2YC_6nmWR6nrYg&oe=6B0CDE99",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgKhmXEI-Ai/",
       "status": "info"
     },
     "18154217074526516-0": {
@@ -12518,6 +12762,68 @@
       "permalink": "https://www.instagram.com/p/DfmgoaxKUV8/",
       "status": "info"
     },
+    "18474720877190304-0": {
+      "account": "icksdresstoimpress",
+      "account_venue": null,
+      "caption": "FRIDAY 04.12 ICKS AT nikita__land 🌟\n\nSounds by naomiplanapadilla \nthanksmike_  ema___a \n\nFREE ENTRY FROM 22:30 TILL 00:00\n\n△ | NIKITA | △\nGrumello del monte bg, via dei morenghi 2\n\n#icksdresstoimpress #dresstoimpress #bergamo",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-04",
+        "end_time": "00:00",
+        "entry": "free",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:30",
+        "ticket_url": null,
+        "title": "ICKS",
+        "venue_name": "Nikita"
+      },
+      "id": "18474720877190304-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/926362436_5277435332483221_1789082362440232731_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=E62_0plgqz4Q7kNvwH8Htb6&_nc_oc=AdqK5O_38Cd8Y40vrSD4KjQdJVoF9B8jR-JUrk4M2S1EG-lixV5LsH9rCQaEAqbGpLE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=M1IfSAHX5WbIm0udW1rxEg&_nc_tpa=Q5bMBQLKwbxfsAHwsdBEpiplePiMzfWLIixF5y35GCTUsS1knhrtVViSZ5yV3YtkdjYfZKnVHSLFA-lTBg&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQRwBPBCl4Wa1fmlftgMgAtsFTKQl6x7a6h9UzBlTbrXzQ&oe=6B0CAB46",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgKXZIQoVX0/",
+      "status": "auto"
+    },
+    "18479273566141635-0": {
+      "account": "arya.lounge",
+      "account_venue": "Arya Lounge",
+      "caption": "Venerdì la consolle di Arya è di biggottisosa 🎧\n\nTrap e hip hop tutta la notte. 🔥 \nIl tuo tavolo? Prenotalo in DM. 📲",
+      "confidence": 0.65,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "hip hop"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Trap e hip hop tutta la notte",
+        "venue_name": "Arya Lounge"
+      },
+      "id": "18479273566141635-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/924260570_1017913483990404_2656681661625357039_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6eG0H55j8iEQ7kNvwFFC_n0&_nc_oc=Adp5-VlkPod4guYGhiWcd2Xbjb94HTsBSZJ-Z7-OP8pEwfmELzEWINcqfsAZAx1oGNY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=s07YrC_wo1LVOprXsCusHw&_nc_tpa=Q5bMBQLLA2i7_E2gnZBjFhZzqDb9jlIG-Q9_zI7YViiJB5uixUlBx1tfnmoeMJs_lkF-mciiMZrOcZAbbA&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQRPjHtTZJaLW1HVGaVygnqmGcO8soE4HASY2HsntRvDsA&oe=6B0CBB04",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgF5DIhKR_R/",
+      "status": "pending"
+    },
     "18493918870111248-0": {
       "account": "inkclub_bergamo",
       "account_venue": "Ink Club",
@@ -12912,7 +13218,7 @@
       "status": "info"
     }
   },
-  "next_account": 49,
+  "next_account": 69,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -13141,6 +13447,11 @@
       "account": "liveclub",
       "at": "2026-11-21T16:54:06+0000",
       "event": true
+    },
+    "17882869950635256": {
+      "account": "hype.club.official",
+      "at": "2026-11-23T13:25:11+0000",
+      "event": false
     },
     "17883585330627324": {
       "account": "discoteca_queen",
@@ -13631,6 +13942,11 @@
     "17916483129288318": {
       "account": "ninfeasocialclub",
       "at": "2026-11-17T20:26:41+0000",
+      "event": true
+    },
+    "17917189611500068": {
+      "account": "noidfamilia",
+      "at": "2026-11-25T11:47:47+0000",
       "event": true
     },
     "17917479345259574": {
@@ -14373,6 +14689,11 @@
       "at": "2026-11-23T17:50:18+0000",
       "event": false
     },
+    "17978164614211068": {
+      "account": "hype.club.official",
+      "at": "2026-11-24T11:05:01+0000",
+      "event": false
+    },
     "17978295344920558": {
       "account": "csapacipaciana",
       "at": "2026-10-07T15:24:44+0000",
@@ -14828,6 +15149,11 @@
       "account": "bolgia.official",
       "at": "2026-11-08T15:15:41+0000",
       "event": true
+    },
+    "18015537152994795": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T16:59:41+0000",
+      "event": false
     },
     "18015564422763029": {
       "account": "liveclub",
@@ -15574,6 +15900,11 @@
       "at": "2026-11-05T19:08:53+0000",
       "event": true
     },
+    "18090740039713931": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T17:01:08+0000",
+      "event": true
+    },
     "18090776225307113": {
       "account": "theboxbergamo",
       "at": "2026-11-04T16:55:07+0000",
@@ -16241,6 +16572,11 @@
       "event": true,
       "reread": "18111221297283695"
     },
+    "18111316040245221": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T17:02:53+0000",
+      "event": false
+    },
     "18111319319629820": {
       "account": "gres_art_671",
       "at": "2026-11-09T12:00:02+0000",
@@ -16644,6 +16980,11 @@
       "at": "2026-11-18T16:55:16+0000",
       "event": false
     },
+    "18118257119599539": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T16:59:24+0000",
+      "event": false
+    },
     "18118320506113631": {
       "account": "daste_bergamo",
       "at": "2026-11-05T16:20:53+0000",
@@ -16799,6 +17140,11 @@
       "at": "2026-11-02T18:36:35+0000",
       "event": true
     },
+    "18119987345042880": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T17:11:17+0000",
+      "event": false
+    },
     "18119999429105501": {
       "account": "lecannibaleclub",
       "at": "2026-11-16T17:02:06+0000",
@@ -16897,6 +17243,11 @@
     "18121105627942308": {
       "account": "hype.club.official",
       "at": "2026-10-21T10:00:08+0000",
+      "event": false
+    },
+    "18121311104050493": {
+      "account": "al_tabarin",
+      "at": "2026-11-23T12:46:15+0000",
       "event": false
     },
     "18121362800601978": {
@@ -16999,6 +17350,11 @@
       "at": "2026-11-14T09:00:55+0000",
       "event": true
     },
+    "18122718178947363": {
+      "account": "charleston.treviglio",
+      "at": "2026-11-24T13:29:06+0000",
+      "event": false
+    },
     "18123054091954116": {
       "account": "decibel_club",
       "at": "2026-11-23T23:09:07+0000",
@@ -17063,6 +17419,11 @@
       "account": "mint_lounge",
       "at": "2026-11-07T16:00:42+0000",
       "event": true
+    },
+    "18124763851944334": {
+      "account": "baiadelrebrignano",
+      "at": "2026-11-23T17:11:50+0000",
+      "event": false
     },
     "18124801802475491": {
       "account": "nikita__land",
@@ -17187,6 +17548,11 @@
     "18127686097902343": {
       "account": "cosmo.food.club",
       "at": "2026-11-18T10:31:32+0000",
+      "event": false
+    },
+    "18127784678476729": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T17:05:25+0000",
       "event": false
     },
     "18127825312910201": {
@@ -17380,6 +17746,11 @@
       "at": "2026-10-27T12:19:27+0000",
       "event": true
     },
+    "18130823122896612": {
+      "account": "al_tabarin",
+      "at": "2026-11-24T08:53:23+0000",
+      "event": false
+    },
     "18130889368846048": {
       "account": "csapacipaciana",
       "at": "2026-11-20T08:36:39+0000",
@@ -17420,6 +17791,11 @@
       "at": "2026-10-27T12:06:32+0000",
       "event": true
     },
+    "18131394475854950": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T17:06:06+0000",
+      "event": false
+    },
     "18131437561887157": {
       "account": "arya.lounge",
       "at": "2026-11-01T18:46:17+0000",
@@ -17429,6 +17805,11 @@
       "account": "discoteca_queen",
       "at": "2026-11-16T15:19:54+0000",
       "event": false
+    },
+    "18131731499491647": {
+      "account": "hype.club.official",
+      "at": "2026-11-23T19:00:03+0000",
+      "event": true
     },
     "18131733649814990": {
       "account": "gres_art_671",
@@ -17697,6 +18078,11 @@
       "event": true,
       "reread": "18135979441707761"
     },
+    "18136167562668527": {
+      "account": "utopia.direction",
+      "at": "2026-11-24T09:00:04+0000",
+      "event": true
+    },
     "18136176019580574": {
       "account": "decibel_club",
       "at": "2026-10-26T21:42:14+0000",
@@ -17863,6 +18249,11 @@
       "at": "2026-10-17T13:00:03+0000",
       "event": false
     },
+    "18141046234651392": {
+      "account": "al_tabarin",
+      "at": "2026-11-23T21:28:28+0000",
+      "event": true
+    },
     "18141159523628197": {
       "account": "casacostez",
       "at": "2026-11-10T11:30:01+0000",
@@ -17907,6 +18298,11 @@
       "account": "decibel_club",
       "at": "2026-11-16T21:32:47+0000",
       "event": true
+    },
+    "18144662569715240": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T16:58:36+0000",
+      "event": false
     },
     "18145081624612629": {
       "account": "intothewoodsbg",
@@ -17988,6 +18384,11 @@
       "at": "2026-11-20T07:00:32+0000",
       "event": true
     },
+    "18148234663592934": {
+      "account": "officinapanarari",
+      "at": "2026-11-23T12:58:22+0000",
+      "event": true
+    },
     "18148921699562830": {
       "account": "cafeteriatreviolo",
       "at": "2026-10-23T15:21:33+0000",
@@ -18038,6 +18439,11 @@
       "at": "2026-11-04T10:53:09+0000",
       "event": true
     },
+    "18149850781497764": {
+      "account": "bar_sanmarco",
+      "at": "2026-11-24T17:12:20+0000",
+      "event": true
+    },
     "18149859622565200": {
       "account": "zeroclub.bg",
       "at": "2026-10-16T10:03:35+0000",
@@ -18052,6 +18458,11 @@
       "account": "capogirojoyclub",
       "at": "2026-11-03T16:01:49+0000",
       "event": false
+    },
+    "18150322084604439": {
+      "account": "officinapanarari",
+      "at": "2026-11-25T12:26:50+0000",
+      "event": true
     },
     "18150570175560407": {
       "account": "arya.lounge",
@@ -18618,6 +19029,11 @@
       "at": "2026-11-02T18:34:00+0000",
       "event": false
     },
+    "18261645205308249": {
+      "account": "al_tabarin",
+      "at": "2026-11-24T18:25:33+0000",
+      "event": false
+    },
     "18271734691306393": {
       "account": "afrodylanofficial",
       "at": "2026-11-01T01:28:20+0000",
@@ -18983,6 +19399,11 @@
       "at": "2026-11-12T12:01:13+0000",
       "event": true
     },
+    "18447496588178557": {
+      "account": "hype.club.official",
+      "at": "2026-11-25T11:46:29+0000",
+      "event": false
+    },
     "18451637398192898": {
       "account": "please.nights",
       "at": "2026-10-14T16:54:29+0000",
@@ -19031,6 +19452,16 @@
     "18474001003141344": {
       "account": "ninfeasocialclub",
       "at": "2026-11-11T12:45:01+0000",
+      "event": true
+    },
+    "18474720877190304": {
+      "account": "icksdresstoimpress",
+      "at": "2026-11-25T11:01:11+0000",
+      "event": true
+    },
+    "18479273566141635": {
+      "account": "arya.lounge",
+      "at": "2026-11-23T17:22:09+0000",
       "event": true
     },
     "18482384218128028": {
