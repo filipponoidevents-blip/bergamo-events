@@ -8,15 +8,15 @@
     "balzerbynight": 7482,
     "bar30elode": 1172,
     "bar_sanmarco": 2100,
-    "barperlage": 2696,
+    "barperlage": 2695,
     "barrys__": 9730,
     "bergamonightservice": 1092,
-    "bobadillafeelingclub": 31641,
-    "bolgia.official": 124924,
-    "brinapasticceria": 3130,
+    "bobadillafeelingclub": 31662,
+    "bolgia.official": 125205,
+    "brinapasticceria": 3139,
     "bsk.sound": 1745,
     "bucheesebar": 6842,
-    "bv_rooftop": 11307,
+    "bv_rooftop": 11310,
     "cafeteriatreviolo": 5434,
     "caffetteria_nuova_rotonda": 1733,
     "call._.out": 728,
@@ -33,9 +33,9 @@
     "crystalcastlesnightt": 787,
     "csapacipaciana": 13857,
     "daste_bergamo": 21371,
-    "decibel_club": 4585,
+    "decibel_club": 4597,
     "discopastasc": 1421,
-    "discoteca_queen": 17095,
+    "discoteca_queen": 17138,
     "drusobg": 24734,
     "edonebergamo": 29975,
     "gres_art_671": 21350,
@@ -43,28 +43,28 @@
     "hype.club.official": 24455,
     "icksdresstoimpress": 6681,
     "iconevents.official": 608,
-    "incroissanterialab": 27707,
+    "incroissanterialab": 27715,
     "inkclub_bergamo": 14695,
     "intothewoodsbg": 33169,
-    "jamlivestudio": 6028,
+    "jamlivestudio": 6027,
     "juiceclubit": 8577,
     "karma_lounge_official_": 5160,
-    "kellerfactory_": 7359,
+    "kellerfactory_": 7372,
     "lazzaretto_bergamo_estate": 11510,
     "lecannibaleclub": 43144,
-    "liveclub": 33509,
+    "liveclub": 33538,
     "loft.bergamo": 10844,
-    "mint_lounge": 15356,
-    "nikita__land": 25653,
+    "mint_lounge": 15387,
+    "nikita__land": 25666,
     "ninfeasocialclub": 8733,
     "noidfamilia": 7886,
     "nxtbergamo": 30369,
     "oasi.night": 512,
     "officinapanarari": 5390,
-    "oroneroloveandmusic": 7813,
+    "oroneroloveandmusic": 7835,
     "please.nights": 2509,
     "premiere.premiere": 2163,
-    "sabbiemobili_official": 7837,
+    "sabbiemobili_official": 7835,
     "savageparty.official": 4780,
     "savana.king25": 192,
     "selected.lab": 201,
@@ -74,16 +74,16 @@
     "sprint_bergamo": 5114,
     "supertatobolgia": 20636,
     "talk.maf": 2203,
-    "thanka.official": 30889,
+    "thanka.official": 30849,
     "the.circlehub": 832,
     "theboxbergamo": 8090,
-    "tiky.klub": 1003,
-    "twofestival": 2950,
+    "tiky.klub": 1006,
+    "twofestival": 2949,
     "unibg_party": 3468,
     "unplug.project": 547,
     "unplug__bg": 3125,
     "utopia.direction": 8474,
-    "vibetheclub": 11571,
+    "vibetheclub": 11569,
     "victorialoungebar_bonate": 1289,
     "we.are.stepup": 355,
     "zeroclub.bg": 20832
@@ -503,6 +503,36 @@
       "kind": "other",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/DgIIzG8kcf-/",
+      "status": "info"
+    },
+    "17892235452619722-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "💛🎤 SABATO 28 NOVEMBRE… SI BALLA E SI CANTA AL KELLER!\n\nArriva la YUPPI BAND con uno spettacolare tributo ad ADRIANO CELENTANO! 🕺\n\nPreparati a una serata di grande musica, energia e canzoni che hanno fatto la storia!\n\n🎶 I grandi successi di Adriano Celentano\n🎸 Musica dal vivo\n🔥 Atmosfera e divertimento assicurati!\n\n📅 SABATO 28 NOVEMBRE 2026\n🕙 Ore 22:00 circa\n📍 Keller Factory – Curno\n📌 Via Bergamo 32\n\n❤️ Una serata da vivere e cantare insieme!\n\n📲 Prenota il tuo tavolo e vieni a fare festa con noi!\n\n#KellerFactory #YuppiBand #AdrianoCelentano #TributoCelentano #MusicaLive EventiBergamo Curno LiveMusic",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:00",
+        "ticket_url": null,
+        "title": "Musica dal vivo",
+        "venue_name": "Keller Factory"
+      },
+      "id": "17892235452619722-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/925947553_18578122897074567_7059376927370444535_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=fiV8cM4QXE0Q7kNvwGaY3Vv&_nc_oc=AdoX_M6hsjJlyQlcbtni0SO_GxKSZuSuETZv-OmZS_BAMBLuTs2vyVGrFDNr0Yq82Xg&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fAHMGTqJmX5QBgrauza0dw&_nc_tpa=Q5bMBQJWfPgeceVkjsMawcCXhmhag6AExAKPguz3lamYprQ5qtsHQe4_DZXuEq9WPqfS10a1jSlI2KpBkQ&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQSVcQhFklS7zrUa28sHyTbStrNcA33euJ1d0xncK6GQng&oe=6B0C1547",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgEomUFgzfd/",
       "status": "info"
     },
     "17895986325654321-0": {
@@ -1094,6 +1124,39 @@
       "permalink": "https://www.instagram.com/p/Df2yVEzFxeV/",
       "status": "info"
     },
+    "17918319342501848-0": {
+      "account": "oroneroloveandmusic",
+      "account_venue": "Oronero",
+      "caption": "Sabato 23.1.2027 torna la serata History techno-trance più attesa di Bergamo.\nLa collaborazione è sempre con metempsicosi_official , lo storico marchio che dal 1997 fa da riferimento per tutto il settore.\nIn console joykitikonti_ e 00zicky accompagnati dalle sorprendenti performances del principe_maurice .\n\nAcquista subito la prevendita : https://www.ticketsms.it/event/-The-History-Night-Nembro-Oronero-Garden-23-01-2027",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2027-01-23",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "techno",
+          "trance"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": "https://www.ticketsms.it/event/-The-History-Night-Nembro-Oronero-Garden-23-01-2027",
+        "title": "Oronero",
+        "venue_name": "Oronero"
+      },
+      "id": "17918319342501848-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/918036415_18582894121075006_1213827381999366117_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=_GNhegshkVcQ7kNvwFqEui7&_nc_oc=Adp7jLPVJmNoJy3syBMwv5qFXJ483ICQQ5fXDM4WclYLLGI1U7gnu_mVsyVFiYzvYg0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=0HnuREeusVbWfxRVjOhB9w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSWrSi0OH8HujSBYsSpEn8zcpL9yfuwzj1UQOI5aQ-4aA&oe=6B0C111E",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgILsXFAk-y/",
+      "status": "auto"
+    },
     "17918546925550223-0": {
       "account": "vibetheclub",
       "account_venue": "Vibe Club",
@@ -1236,6 +1299,36 @@
       "kind": "ballo_da_sala",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfiXvfAktg6/",
+      "status": "info"
+    },
+    "17922842598465349-0": {
+      "account": "mint_lounge",
+      "account_venue": "MINT",
+      "caption": "Sabato notte: ancora più Unusual\n🧊 creazioni originali, accostamenti inediti e il sound perfetto per accendere la serata!\n\nLa nostra drink list ti aspetta dalle 21:00, ad accompagnare la notte ci pensano i cr3mas_brothers",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "MINT",
+        "venue_name": "MINT"
+      },
+      "id": "17922842598465349-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/924306596_1576199847874564_1987039857911079589_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=xiGA9JjAG0YQ7kNvwEhyEgU&_nc_oc=AdqL8XfMwwoGqhhjriA4q5PvilEbW4MU5FDpyHHEyurRopTMZi-gKcbURTtA9b4FW8Q&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hoZev1blE-GM9a_Zq_8JuA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTKS02gvPF7poao5SUfJYzrYseU7wNTG2AWgXJtCl64Yw&oe=6B0C2F31",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/DgHsMCxFLn3/",
       "status": "info"
     },
     "17923220646460714-0": {
@@ -1502,6 +1595,38 @@
       "permalink": "https://www.instagram.com/p/DfNbmAjIu77/",
       "status": "info"
     },
+    "17937368547144633-0": {
+      "account": "decibel_club",
+      "account_venue": "Decibel Club",
+      "caption": "DOMENICA 6 DICEMBRE AL DECIBEL CLUB👇👇👇\nTORNA IL SOCIAL POMERIDIANO DI BERGAMO💥💥💥\nDALLE 14,30 ALLE 19,00 UN EVENTO IMPERDIBILE DEDICATO A TUTTI GLI AMANTI DELLA SALSA\nIN CONSOLLE  DJ LA CLA  DJ CANUTO\nSPECIAL GUEST DJ POLITO 🎧🎧🎧\ningresso euro 10 drink compreso",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-06",
+        "end_time": "19:00",
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "latin / reggaeton"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": "14:30",
+        "ticket_url": null,
+        "title": "IL SOCIAL POMERIDIANO DI BERGAMO",
+        "venue_name": "Decibel Club"
+      },
+      "id": "17937368547144633-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/915349954_1755455096367262_9121890209154446540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fKQRql8LLQMQ7kNvwFiOfrO&_nc_oc=AdqyRribl0IQXJwcDvRvUl9J9yXjBRBuiL2pk_s300kt1dQvQOvC8VYziNswtnIIseE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=wO-8Q6HUiNk0jdlA1IWP0g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQRkpd6SBAPYxlz9Y4dz7Uir6DYhOB-5crOfUR-IJ0HuQ&oe=6B0C2F9F",
+      "kind": "ballo_da_sala",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgGaGw4DWky/",
+      "status": "info"
+    },
     "17938976184405204-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
@@ -1589,6 +1714,36 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/Dfj_1Q0Dd-d/",
       "status": "info"
+    },
+    "17942041782408916-0": {
+      "account": "tiky.klub",
+      "account_venue": "Tiky Klub",
+      "caption": "about last friday with iconevents.official\n\n#tiky",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Icon",
+        "venue_name": "Tiky Klub"
+      },
+      "id": "17942041782408916-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/928197392_18125277079972479_2580395506699686623_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=T-uCpfBim-QQ7kNvwFDZhDT&_nc_oc=Adr2-6KNlv9D2VzCbOXnxSHEFk_IBEcjli4w2K5wAIRdt6NDyfMfPurEXJ9pHprp3bM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=WDamt8SStYifNMTRwPRADA&_nc_tpa=Q5bMBQIpC02AWb3QlpleMx0cRRhbcpSdJbOn-DSpHoomXwrlMnjGlmil-o_1hWQKWJ4A-pIklUyB3GuPMA&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQQpGheuec3nMFuBJcmHfTzQHcutEpVS_mcvvRJsr2wbMg&oe=6B0C2C03",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgF45_wx97f/",
+      "status": "pending"
     },
     "17943169710390742-0": {
       "account": "bolgia.official",
@@ -2148,6 +2303,39 @@
       "permalink": "https://www.instagram.com/reel/DfFDQciIPHh/",
       "status": "auto"
     },
+    "17966935152246563-0": {
+      "account": "tiky.klub",
+      "account_venue": "Tiky Klub",
+      "caption": "4thegroovers_  takes over TIKY KLUB in collaboration with sammjtiffany \n\ndirty.andry , salvatorealagna98 , dariorattii  and francesco_rivaa  behind the decks for a full night of tech house.\n\n27.11 — see you inside 💚\n\n#tiky",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "tech house",
+          "house"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Tiky Klub",
+        "venue_name": "Tiky Klub"
+      },
+      "id": "17966935152246563-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/917336353_1701194685351739_1723098140403859373_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=GTOQscjzdCEQ7kNvwFln0j0&_nc_oc=AdpoBlCt56_KyXAGwcdfjTuRVhXQ2TzqkM2rE2aU8H8T5zOHfyJSFHT1h3WZSK-8l04&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=WDamt8SStYifNMTRwPRADA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRr9lr4DeFxTloRYuDZI3GzclKAh54LzSITW0kf2Wx6og&oe=6B0C2BCD",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgF6UWZCtDM/",
+      "status": "auto"
+    },
     "17970877896206520-0": {
       "account": "discoteca_queen",
       "account_venue": "Queen Club",
@@ -2522,6 +2710,68 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfU8ZNpzloq/",
       "status": "auto"
+    },
+    "17982260438922552-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "⚡ IL FUTURO STA PER ARRIVARE AL KELLER! 🚗💨\n\nPronti a fare un salto indietro nel tempo? 🕺\n\nVenerdì 27 novembre si accendono le luci di RADIO 80 – BACK TO THE FUTURE! 🎶\n\nUna notte tutta da vivere tra le hit indimenticabili degli anni ’80, musica, energia e tanta voglia di divertirsi!\n\n🔥 FESTIVALBAR 80’s\n⚡ Atmosfera anni ’80\n🎧 Si parte dalle ore 22:00\n\n📍 Keller Factory – Curno\n\n📞 Prenota il tuo tavolo: 329 8147208\n\n⏳ Il futuro ti aspetta… ma il tavolo devi prenotarlo!\n\n#KellerFactory #Radio80 #BackToTheFuture #Festivalbar80 #Anni80 Curno BergamoNightlife EventiBergamo",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "revival"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:00",
+        "ticket_url": null,
+        "title": "FUTURO STA PER ARRIVARE AL KELLER",
+        "venue_name": "Keller Factory"
+      },
+      "id": "17982260438922552-0",
+      "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/924816739_18578123404074567_281123542748383120_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6Zz6LYs9-qgQ7kNvwE7viHS&_nc_oc=AdpQmDmb9g5LiNqTLcwU1Cie-w1jX-W97BZjGYJFr6BWWisSq3ZApQhC_68sUQU4zhU&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fAHMGTqJmX5QBgrauza0dw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQwK9c0uKjJTvBnfkSz_SoWEcKHkU9_QS7EgrpHG7pAoA&oe=6B0C150F",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgEpAHtA1RR/",
+      "status": "info"
+    },
+    "17982467726923214-0": {
+      "account": "mint_lounge",
+      "account_venue": "MINT",
+      "caption": "Il venerdì sera diventa Unusual�🍸il piacere di un drink inusuale e la giusta console per iniziare il weekend!\n\n�Una drink list dedicata tutta da scoprire dalle 21:00, ad accompagnare la serata nuelmaa__",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "MINT",
+        "venue_name": "MINT"
+      },
+      "id": "17982467726923214-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/921926839_1576195944541621_6578819911693712668_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=73ENqkqO2NMQ7kNvwGsZ8cl&_nc_oc=Adrx1oSwiaGpdXYeifVlOzjd2QnL5R_-COnyHaqcTzxWPuq5yMf19ZfuyOFX9oBkp4c&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hoZev1blE-GM9a_Zq_8JuA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ20zbBm5UfHcuCTIeMWVL3pAR8FKme5YtJKce7Gr2qRA&oe=6B0C21DD",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/DgHlFj-oRDf/",
+      "status": "pending"
     },
     "17988927966110275-1": {
       "account": "csapacipaciana",
@@ -3239,6 +3489,38 @@
       "permalink": "https://www.instagram.com/p/Df6fqSEAVnP/",
       "status": "pending"
     },
+    "18005652872809358-0": {
+      "account": "decibel_club",
+      "account_venue": "Decibel Club",
+      "caption": "VENERDI 27 NOVEMBRE 2026 AL DECIBEL\nCLUB LATIN NIGHT🔝🔝🔝\nIL VENERDÌ LATINO CON DJ CHRISTIAN IL CHICHI E VALERIO EL DIRECTOR🎵🎵🎵\nDURANTE LA SERATA\n\"LATIN GIANTS\" IL NUOVO SHOW BUONA ONDA COREOGRAFIA DANIEL D'AMICO E SILVIA RESTAINO🕺💃🕺\nANIMAZIONE SARA E ALESSIO\nSI BALLA SU SALA UNICA\nAPERTURA ORE 22.00\ningresso euro 13 drink compreso",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "latin / reggaeton"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:00",
+        "ticket_url": null,
+        "title": "CLUB LATIN NIGHT",
+        "venue_name": "Decibel Club"
+      },
+      "id": "18005652872809358-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/916972910_1755510009695104_1534962130439342583_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uUSTL6nVE6AQ7kNvwG9ye03&_nc_oc=AdroIQc3NXmpFPRXErXM1OxfDwStokXi__2jS4sQcl6Rx9ZT7Ns5ZJkAvfRfMTj6DN8&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=wO-8Q6HUiNk0jdlA1IWP0g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTL3s5_9AAbGVAAboAEhukkATJLzYtiSM_xEes4VuyGwA&oe=6B0C1D94",
+      "kind": "ballo_da_sala",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgGjZLbEqkK/",
+      "status": "info"
+    },
     "18007029407794113-0": {
       "account": "barrys__",
       "account_venue": "Barry's",
@@ -3517,6 +3799,38 @@
       "kind": "other",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/Dfb6tEQilNx/",
+      "status": "info"
+    },
+    "18026365163950535-0": {
+      "account": "decibel_club",
+      "account_venue": "Decibel Club",
+      "caption": "DOMENICA 29 NOVEMBRE AL DECIBEL CLUB👇👇👇\nLA DOPPIA SERATA LATINA🎵🎵🎵\nSALA 1 BACHATA SENSUAL IN CONSOLLE VALERIO EL DIRECTOR✔️✔️✔️\nSALA 2 LATINO 360 IN CONSOLLE DJ NEGRITO✅️✅️✅️\nANIMAZIONE IRIS E ALESSIO💃💃💃\nAPERTURA ORE 21,30#️⃣#️⃣#️⃣\nINGRESSO GRATUITO A TUTTE LE DONNE ENTRO LE ORE 22.00\ningresso euro 10 drink compreso",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-29",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "latin / reggaeton"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:30",
+        "ticket_url": null,
+        "title": "LA DOPPIA SERATA LATINA",
+        "venue_name": "Decibel Club"
+      },
+      "id": "18026365163950535-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/923026894_1755491249696980_6146810477944434504_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DaQR1-vZsJEQ7kNvwHSggMw&_nc_oc=AdqLqq9smpv9pr4ZDlD1heE_Xow2j40iY5ZuLd-e7LDXh2MppEPWfZJIv6bIhyMFYa4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=wO-8Q6HUiNk0jdlA1IWP0g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS16XuIKagx9cMzUoixmyAV2RhMuy7uTfpggmB9NCXdJQ&oe=6B0C2535",
+      "kind": "ballo_da_sala",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgGgQHvF_Zu/",
       "status": "info"
     },
     "18027460907702337-0": {
@@ -4626,6 +4940,36 @@
       "permalink": "https://www.instagram.com/p/Dfcp-r9oScM/",
       "status": "info"
     },
+    "18083286218554984-0": {
+      "account": "mint_lounge",
+      "account_venue": "MINT",
+      "caption": "Fuori dall’ordinario, in ogni singolo sorso 🧊🍸\nUna selezione speciale di cocktail, tra grandi classici rivisitati e creazioni originali.\nPensata per chi cerca sapori ricercati, accostamenti inediti e il piacere di un drink inusuale.\n\nMint Unusual Cocktail Bar: il nuovo appuntamento del weekend con una drink list dedicata tutta da scoprire.\nCi vediamo venerdì e sabato, dalle 21:00.",
+      "confidence": 0.65,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "MINT",
+        "venue_name": "MINT"
+      },
+      "id": "18083286218554984-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/917181166_18646196026015734_3062227503839528692_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=TS4d9xevVk4Q7kNvwFuOww9&_nc_oc=AdreyEDD-k3d_w2ptqF_r2SBKcpdgRnStX1UXt-L1UwnpgThwp75huKAnnVQ_ABcsn4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hoZev1blE-GM9a_Zq_8JuA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQufSbGZr5CgnOO1flMfIYnKpDl_gaby3z4sJ4I-V8LRA&oe=6B0C1D8A",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/DgFpY0jAtyB/",
+      "status": "info"
+    },
     "18084191429405556-0": {
       "account": "the.circlehub",
       "account_venue": null,
@@ -5437,6 +5781,39 @@
       "permalink": "https://www.instagram.com/p/DgF5YpVC1VS/",
       "status": "auto"
     },
+    "18102884213437614-0": {
+      "account": "oroneroloveandmusic",
+      "account_venue": "Oronero",
+      "caption": "Sabato 23.1.2027 torna la serata History techno-trance più attesa di Bergamo.\nLa collaborazione è sempre con metempsicosi_official , lo storico marchio che dal 1997 fa da riferimento per tutto il settore.\nIn console joykitikonti_ e 00zicky accompagnati dalle sorprendenti performances del principe_maurice .\n\nAcquista subito la prevendita : https://www.ticketsms.it/event/-The-History-Night-Nembro-Oronero-Garden-23-01-2027",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2027-01-23",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "techno",
+          "trance"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": "https://www.ticketsms.it/event/-The-History-Night-Nembro-Oronero-Garden-23-01-2027",
+        "title": "Oronero",
+        "venue_name": "Oronero"
+      },
+      "id": "18102884213437614-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/927367513_18582895315075006_4648081142115040566_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JNS2Icrep2IQ7kNvwHubf7U&_nc_oc=AdpAiYYTbdp9xFSh7DrDRiPZFhrfklgMmbGqQT-uMXAgoe_lmtUPLlC1wjAEYCqJX_8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=0HnuREeusVbWfxRVjOhB9w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSJv3Nq-PYILsbSnwWkQcC376Y4fJqGUjUXGQPa1TCdIw&oe=6B0C17AA",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgIMLV3gPFv/",
+      "status": "auto"
+    },
     "18102968327400355-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
@@ -5615,6 +5992,36 @@
       "kind": "food_drink",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfmZfyHsmFo/",
+      "status": "info"
+    },
+    "18105463685383194-0": {
+      "account": "nikita__land",
+      "account_venue": "Nikita",
+      "caption": "27 NOVEMBRE | VENTITRÉ\na restoring time.\n\nIl prossimo appuntamento con ZONA OLLY.\n\nL’energia e le sonorità di Olly prendono vita in uno show live che ripercorre i suoi brani più amati, tra ritmo, emozioni e tutta l’energia della musica da cantare insieme.\n\nZONA OLLY · OLLY TRIBUTE BAND\n\nIngresso gratuito dalle 22:30 a mezzanotte.\n\nlive listening · cocktail sessions\nNikita, Grumello del Monte (BG)",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:30",
+        "ticket_url": null,
+        "title": "VENTITRÉ",
+        "venue_name": "Nikita"
+      },
+      "id": "18105463685383194-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/928257792_1458841376459191_3871075174738247490_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cPcw9aPRjb4Q7kNvwHHg0Hs&_nc_oc=AdqImbdk2NskDEJtfzN6lRlwOJkXc-KElb06AYtGqcpNsDeHQJHaTkIzbEwDvxoyNSc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=2VHwuXJiBrOQZZ54vNIIPw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSeM37_zC_cdl89iS77ScX7rR-wTTrIPm1jqWYmX98oJg&oe=6B0C27F3",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgHsN3tJwQz/",
       "status": "info"
     },
     "18106154075640542-0": {
@@ -7432,6 +7839,39 @@
       "permalink": "https://www.instagram.com/p/DfpBOIDtaGX/",
       "status": "info"
     },
+    "18120930148814607-0": {
+      "account": "oroneroloveandmusic",
+      "account_venue": "Oronero",
+      "caption": "Sabato 23.1.2027 torna la serata History techno-trance più attesa di Bergamo.\nLa collaborazione è sempre con metempsicosi_official , lo storico marchio che dal 1997 fa da riferimento per tutto il settore.\nIn console joykitikonti_ e 00zicky accompagnati dalle sorprendenti performances del principe_maurice .\n\nAcquista subito la prevendita : https://www.ticketsms.it/event/-The-History-Night-Nembro-Oronero-Garden-23-01-2027",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2027-01-23",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "techno",
+          "trance"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": "https://www.ticketsms.it/event/-The-History-Night-Nembro-Oronero-Garden-23-01-2027",
+        "title": "Oronero",
+        "venue_name": "Oronero"
+      },
+      "id": "18120930148814607-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/927733309_18582895582075006_4653030990579647679_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=joN1-f9rlmUQ7kNvwH5XHK-&_nc_oc=Ado4gKJ7jobcJ6YoHUwB4vthzwZfrVe84IWNsWYXqZxlRWrXM-8Aw-nnSAbNQtM6Ak4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=0HnuREeusVbWfxRVjOhB9w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ3vExcs1JfaVMx7ZBstDa6YLiLDLv7zvAQlUmLYXbPdA&oe=6B0C3392",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgIMVPZAzQG/",
+      "status": "auto"
+    },
     "18121069375985597-0": {
       "account": "csapacipaciana",
       "account_venue": "Pacì Paciana",
@@ -7784,6 +8224,38 @@
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/Dft1dsFHc6P/",
       "status": "pending"
+    },
+    "18123054091954116-0": {
+      "account": "decibel_club",
+      "account_venue": "Decibel Club",
+      "caption": "SABATO 28 NOVEMBRE AL DECIBEL CLUB👇👇👇\nSALA 1 LATIN NIGHT LA SERATA LATINA CON DJ STEVE ROMEI🎵🎵🎵\nANIMAZIONE BIBI E SIMONE💃💃💃\nIN PRESERATA DALLE 22.00 STAGE GRATUITO PER TUTTI CON MARCO E VANESSA BY LATIN FLAG🕺🕺🕺\nSALA 2 LISCIO CON ORCHESTRA MIKE E I SIMPATICI 🎼🎼🎼\ningresso euro 13 drink incluso",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": "preserata",
+        "genres": [
+          "latin / reggaeton"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "ballo_da_sala",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:00",
+        "ticket_url": null,
+        "title": "ANIMAZIONE BIBI E SIMONE",
+        "venue_name": "Decibel Club"
+      },
+      "id": "18123054091954116-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/915630838_1755499003029538_5028081204862290625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5ImkEb2Pn7gQ7kNvwE9KGrU&_nc_oc=Adoadyf-mURdlv7_clpH80pjc3vmWco5TFv-mVaQN0oKScutWIgZrh7HEh08MPfy9Xg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=wO-8Q6HUiNk0jdlA1IWP0g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQqHvf5_IZm4WNdx0e7hkkbmPh5H37E2cbRRAoN3t4q_Q&oe=6B0C159A",
+      "kind": "ballo_da_sala",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgGhr_6jxOE/",
+      "status": "info"
     },
     "18123967823283626-0": {
       "account": "ninfeasocialclub",
@@ -9408,6 +9880,38 @@
       "permalink": "https://www.instagram.com/reel/DfsKYizF5Lr/",
       "status": "pending"
     },
+    "18139099378567170-0": {
+      "account": "incroissanterialab",
+      "account_venue": "In Croissanteria Lab",
+      "caption": "«E anche questo Natale…»\n«Papà, siamo a novembre.»\n«E che c’entra? Me porto avanti.»\n\nDomenica 29 novembre da mezzogiorno cominciano le Vacanze di Natale di Pomeriggissimo in Croissanteria. Sfoggia il maglione a rombi di papà, ci vediamo al primo brindisi. Poi si balla fino a sera.\n\nsound by gabass subculture\n\n#incroissanterialab #softclubbing #pomeriggissimo #vacanzedinatale #daytime",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-29",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "electronic"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "In Croissanteria Lab",
+        "venue_name": "In Croissanteria Lab"
+      },
+      "id": "18139099378567170-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/917130222_1446566640926392_7224840783448594266_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ndajSaw7508Q7kNvwEZLLuH&_nc_oc=Ado10FHrw1MBYD2Mq59pgZQx4A19iX9f1WEWxARasG1Qa_W9c9B4bqm9etx-LBq1flw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=cPfin2-FGYR4wCc35t-U7g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTKCTksGhUCZDl-GRK568ut-3Yr6vbdO0msbPCXp6YJ2w&oe=6B0C142F",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgFwKawBHT0/",
+      "status": "info"
+    },
     "18139261447750537-0": {
       "account": "nxtbergamo",
       "account_venue": "NXT Station",
@@ -10386,7 +10890,7 @@
         "city": null,
         "date": "2026-11-29",
         "end_time": null,
-        "entry": "free",
+        "entry": null,
         "fascia": "preserata",
         "genres": [
           "dj set",
@@ -11109,6 +11613,36 @@
       "permalink": "https://www.instagram.com/reel/DfmzU92RY8W/",
       "status": "info"
     },
+    "18293102410291575-0": {
+      "account": "thanka.official",
+      "account_venue": "Thanka",
+      "caption": "Sabato si torna con un nuovo format: Gloss 💄✨ in esclusiva al Thanka. \n\nUna nuova notte tra musica, energia e tutta l’atmosfera del Thanka.\n\nTi aspettiamo sabato.\n\n#Thanka",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Thanka",
+        "venue_name": "Thanka"
+      },
+      "id": "18293102410291575-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/920788358_122135041143468368_8654685046373703794_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1DejmFz0EB0Q7kNvwF2JVVZ&_nc_oc=AdrtXbwCwYz0CQ6OVskaxqfLCKu_VadK1tW9bAJX8EYLcHy83AVIz0ZZfj_1QrZfnqQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=kKBMKf-dU9r_Lp1rAP4T2g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTAgGc1W3b0BEEfYgzjDXvnG7oNZtZeBH1lBNtkXAFvQg&oe=6B0C0227",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/DgH5QXzhP10/",
+      "status": "pending"
+    },
     "18344612377276462-0": {
       "account": "lecannibaleclub",
       "account_venue": null,
@@ -11717,6 +12251,36 @@
       "permalink": "https://www.instagram.com/p/DgAxKb5xVfr/",
       "status": "auto"
     },
+    "18420182620085655-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "💛🎤 SABATO 28 NOVEMBRE… SI BALLA E SI CANTA AL KELLER!\n\nArriva la YUPPI BAND con uno spettacolare tributo ad ADRIANO CELENTANO! 🕺\n\nPreparati a una serata di grande musica, energia e canzoni che hanno fatto la storia!\n\n🎶 I grandi successi di Adriano Celentano\n🎸 Musica dal vivo\n🔥 Atmosfera e divertimento assicurati!\n\n📅 SABATO 28 NOVEMBRE 2026\n🕙 Ore 22:00 circa\n📍 Keller Factory – Curno\n📌 Via Bergamo 32\n\n❤️ Una serata da vivere e cantare insieme!\n\n📲 Prenota il tuo tavolo e vieni a fare festa con noi!\n\n#KellerFactory #YuppiBand #AdrianoCelentano #TributoCelentano #MusicaLive EventiBergamo Curno LiveMusic",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "22:00",
+        "ticket_url": null,
+        "title": "Musica dal vivo",
+        "venue_name": "Keller Factory"
+      },
+      "id": "18420182620085655-0",
+      "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/919999735_18578124061074567_1454732857906082608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Gq1eeDKYfowQ7kNvwHYT4Ta&_nc_oc=AdrCwS1x2PSU0UKp7rE6r3KcXzNYwPDirJQ-zp_UkhWVyiZN_L7eVu3z42vZ70XWaBc&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fAHMGTqJmX5QBgrauza0dw&_nc_tpa=Q5bMBQIWKISzXPeEhlDb9wNT1oz7sANsAR9-uzMsGYjRLMs-6hRDuLafEM6XwZUtdc5cr_mlWfx-v60yxg&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQR0UGSPeubb73ivGZ4Vyre30gigi8FmV5Y8W_cBKjnWjQ&oe=6B0C0D04",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgEpfuLgN8D/",
+      "status": "info"
+    },
     "18423224272156413-0": {
       "account": "decibel_club",
       "account_venue": "Decibel Club",
@@ -12128,6 +12692,36 @@
       "permalink": "https://www.instagram.com/p/DfzSCDrg_42/",
       "status": "auto"
     },
+    "18640156180037043-0": {
+      "account": "kellerfactory_",
+      "account_venue": "Keller Factory",
+      "caption": "🎤 GIOVEDÌ SI CANTA AL KELLER! 💛💗\n\nHai già scelto la tua canzone? Perché questa volta il microfono passa a te! 🎶\n\nGiovedì 26 novembre arriva MIRCO – KELLER VOICE, una serata da vivere tra buona cucina, karaoke e tanto divertimento!\n\n🍽️ CENA, KARAOKE & PARTY\n🎤 Dalle 21:30 si accende la voce!\n🎵 Le tue canzoni preferite, la tua serata!\n\n📍 Keller Factory – Curno\n\n🔥 Raduna gli amici, scegli il tuo pezzo forte e preparati a salire sul palco!\n\n📲 PRENOTA IL TUO TAVOLO!\n\n#KellerFactory #KellerVoice #Mirco #KaraokeBergamo #CenaKaraoke EventiBergamo Curno GiovedìSera",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-26",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "quiz_games",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:30",
+        "ticket_url": null,
+        "title": "Keller Factory",
+        "venue_name": "Keller Factory"
+      },
+      "id": "18640156180037043-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/919217018_18578123794074567_4534908523987472497_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wI-700jux04Q7kNvwHT4Aty&_nc_oc=AdrDFUkegOulXz65PydTWYXSfOeQNA6wrCzoBdA6IUiwMrVabtTfqX0m41oF9CPY9vE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fAHMGTqJmX5QBgrauza0dw&_nc_tpa=Q5bMBQJQ8R2S1raSCdCeARo6Qn4bdbZ-Dsp8CcOqbbT3V6An30n0LLFJx3oOzNNpN10bP0sIZtStHWoimg&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQRMnCgqeQuo7ug6Kzc5DMU8lsSPy4oEgmLqjNqIa-JAWw&oe=6B0C23FE",
+      "kind": "quiz_games",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgEpPmlg88k/",
+      "status": "info"
+    },
     "18642162619006085-0": {
       "account": "gres_art_671",
       "account_venue": "Gres Art 671",
@@ -12257,6 +12851,36 @@
       "permalink": "https://www.instagram.com/p/DgFVpfxAE83/",
       "status": "info"
     },
+    "18653778145051908-0": {
+      "account": "vibetheclub",
+      "account_venue": "Vibe Club",
+      "caption": "Non è il solito sabato. È PRESET. ⚡️\nUn nuovo modo di vivere il club.\nE tu ci sarai al primo preset?\n\nTagga chi deve esserci con te. 👀\n\n#preset #vibe",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Vibe Club",
+        "venue_name": "Vibe Club"
+      },
+      "id": "18653778145051908-0",
+      "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/921314068_18456410113120013_8011289844695165910_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=QJTkzZ-UYgwQ7kNvwHwAfBB&_nc_oc=Adr5HlX4qVMGxLKZ5ECYx-cBEEi0bmpD9V0tHugcEQcMpUp7m2RthwyJMdj6DG8dO_s&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=F8Ud-knU3wMaBf-Kv0tK5A&_nc_tpa=Q5bMBQIVn61Y08QUcLLdo5yxYnGfaYkrQsCwm4EECTwVpl5ImrrgfPeb3ptjM72vU5tVwk1lQk09s-6Wpg&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQQyLfHTV9yj2uBME6uGVBtZKHYxGzhxL2cKArFRgF49eg&oe=6B0C098A",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgF21xdO4Xs/",
+      "status": "pending"
+    },
     "18702492754003619-0": {
       "account": "aliveofficialparty",
       "account_venue": null,
@@ -12288,7 +12912,7 @@
       "status": "info"
     }
   },
-  "next_account": 29,
+  "next_account": 49,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -12593,6 +13217,11 @@
       "account": "premiere.premiere",
       "at": "2026-10-26T20:02:12+0000",
       "event": false
+    },
+    "17892235452619722": {
+      "account": "kellerfactory_",
+      "at": "2026-11-23T05:31:31+0000",
+      "event": true
     },
     "17892308013478177": {
       "account": "bergamonightservice",
@@ -13029,6 +13658,11 @@
       "at": "2026-10-20T12:17:44+0000",
       "event": false
     },
+    "17918319342501848": {
+      "account": "oroneroloveandmusic",
+      "at": "2026-11-24T14:39:04+0000",
+      "event": true
+    },
     "17918546925550223": {
       "account": "vibetheclub",
       "at": "2026-11-04T14:15:30+0000",
@@ -13078,6 +13712,11 @@
       "account": "aliveofficialparty",
       "at": "2026-10-27T12:08:02+0000",
       "event": false
+    },
+    "17922842598465349": {
+      "account": "mint_lounge",
+      "at": "2026-11-24T10:00:08+0000",
+      "event": true
     },
     "17923220646460714": {
       "account": "ninfeasocialclub",
@@ -13169,6 +13808,11 @@
       "at": "2026-11-22T15:00:11+0000",
       "event": true
     },
+    "17928974715440595": {
+      "account": "discoteca_queen",
+      "at": "2026-11-23T15:51:28+0000",
+      "event": false
+    },
     "17929347210422679": {
       "account": "sprint_bergamo",
       "at": "2026-10-12T11:15:20+0000",
@@ -13219,6 +13863,11 @@
       "at": "2026-10-05T11:57:17+0000",
       "event": false
     },
+    "17937368547144633": {
+      "account": "decibel_club",
+      "at": "2026-11-23T22:02:53+0000",
+      "event": true
+    },
     "17937779958390878": {
       "account": "al_tabarin",
       "at": "2026-10-05T18:51:55+0000",
@@ -13247,6 +13896,11 @@
     "17940617406401413": {
       "account": "bar_sanmarco",
       "at": "2026-11-10T13:19:06+0000",
+      "event": true
+    },
+    "17942041782408916": {
+      "account": "tiky.klub",
+      "at": "2026-11-23T17:15:11+0000",
       "event": true
     },
     "17942335722383116": {
@@ -13484,6 +14138,11 @@
       "at": "2026-10-21T09:54:20+0000",
       "event": false
     },
+    "17959482753301967": {
+      "account": "tiky.klub",
+      "at": "2026-11-24T17:25:08+0000",
+      "event": false
+    },
     "17959624719267684": {
       "account": "crystalcastlesnightt",
       "at": "2026-11-12T15:01:17+0000",
@@ -13563,6 +14222,11 @@
       "account": "circolinomalpensata_bergamo",
       "at": "2026-11-19T11:00:13+0000",
       "event": false
+    },
+    "17966935152246563": {
+      "account": "tiky.klub",
+      "at": "2026-11-23T17:25:09+0000",
+      "event": true
     },
     "17967208208985106": {
       "account": "tiky.klub",
@@ -13773,6 +14437,16 @@
       "account": "bv_rooftop",
       "at": "2026-10-31T12:27:05+0000",
       "event": false
+    },
+    "17982260438922552": {
+      "account": "kellerfactory_",
+      "at": "2026-11-23T05:35:23+0000",
+      "event": true
+    },
+    "17982467726923214": {
+      "account": "mint_lounge",
+      "at": "2026-11-24T08:58:04+0000",
+      "event": true
     },
     "17984864952091873": {
       "account": "cafeteriatreviolo",
@@ -14000,6 +14674,11 @@
       "at": "2026-11-04T13:35:16+0000",
       "event": true
     },
+    "17997327126069834": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-24T16:30:02+0000",
+      "event": false
+    },
     "17997816090059957": {
       "account": "ninfeasocialclub",
       "at": "2026-11-19T17:55:48+0000",
@@ -14089,6 +14768,11 @@
       "account": "we.are.stepup",
       "at": "2026-10-09T11:33:28+0000",
       "event": false
+    },
+    "18005652872809358": {
+      "account": "decibel_club",
+      "at": "2026-11-23T23:24:02+0000",
+      "event": true
     },
     "18005776625791107": {
       "account": "oasi.night",
@@ -14253,6 +14937,11 @@
     "18025237922872961": {
       "account": "mint_lounge",
       "at": "2026-10-31T19:00:12+0000",
+      "event": true
+    },
+    "18026365163950535": {
+      "account": "decibel_club",
+      "at": "2026-11-23T22:56:35+0000",
       "event": true
     },
     "18026698037713178": {
@@ -14810,6 +15499,11 @@
       "at": "2026-11-22T04:28:21+0000",
       "event": false
     },
+    "18083286218554984": {
+      "account": "mint_lounge",
+      "at": "2026-11-23T14:57:10+0000",
+      "event": true
+    },
     "18084142214343045": {
       "account": "charleston.treviglio",
       "at": "2026-11-12T13:04:09+0000",
@@ -15240,6 +15934,11 @@
       "at": "2026-10-26T21:31:02+0000",
       "event": true
     },
+    "18102884213437614": {
+      "account": "oroneroloveandmusic",
+      "at": "2026-11-24T14:40:43+0000",
+      "event": true
+    },
     "18102968327400355": {
       "account": "csapacipaciana",
       "at": "2026-11-16T17:23:53+0000",
@@ -15335,6 +16034,11 @@
       "at": "2026-11-11T11:41:54+0000",
       "event": true
     },
+    "18105463685383194": {
+      "account": "nikita__land",
+      "at": "2026-11-24T10:00:22+0000",
+      "event": true
+    },
     "18105535382346797": {
       "account": "hiddenhell.techno",
       "at": "2026-10-08T14:40:33+0000",
@@ -15354,6 +16058,11 @@
       "account": "choruslife.bergamo",
       "at": "2026-11-16T17:00:37+0000",
       "event": false
+    },
+    "18106531145434639": {
+      "account": "liveclub",
+      "at": "2026-11-23T16:54:11+0000",
+      "event": true
     },
     "18106704580971239": {
       "account": "inkclub_bergamo",
@@ -16170,6 +16879,11 @@
       "at": "2026-11-13T09:40:08+0000",
       "event": true
     },
+    "18120930148814607": {
+      "account": "oroneroloveandmusic",
+      "at": "2026-11-24T14:41:08+0000",
+      "event": true
+    },
     "18120992795008397": {
       "account": "cafeteriatreviolo",
       "at": "2026-11-13T16:22:05+0000",
@@ -16283,6 +16997,11 @@
     "18122665978947605": {
       "account": "mint_lounge",
       "at": "2026-11-14T09:00:55+0000",
+      "event": true
+    },
+    "18123054091954116": {
+      "account": "decibel_club",
+      "at": "2026-11-23T23:09:07+0000",
       "event": true
     },
     "18123234445935207": {
@@ -17083,6 +17802,16 @@
       "at": "2026-11-13T17:25:45+0000",
       "event": true
     },
+    "18138693920507416": {
+      "account": "nikita__land",
+      "at": "2026-11-24T11:30:36+0000",
+      "event": false
+    },
+    "18139099378567170": {
+      "account": "incroissanterialab",
+      "at": "2026-11-23T15:56:23+0000",
+      "event": true
+    },
     "18139242991716090": {
       "account": "cosmo.food.club",
       "at": "2026-11-20T12:06:42+0000",
@@ -17429,6 +18158,11 @@
       "at": "2026-11-20T16:21:16+0000",
       "event": true
     },
+    "18157433431533473": {
+      "account": "kellerfactory_",
+      "at": "2026-11-24T11:18:32+0000",
+      "event": false
+    },
     "18157694107537774": {
       "account": "nxtbergamo",
       "at": "2026-11-20T21:39:32+0000",
@@ -17593,6 +18327,11 @@
       "account": "ninfeasocialclub",
       "at": "2026-11-23T17:51:42+0000",
       "event": true
+    },
+    "18183908695428463": {
+      "account": "discoteca_queen",
+      "at": "2026-11-24T16:35:46+0000",
+      "event": false
     },
     "18183948883446636": {
       "account": "supertatobolgia",
@@ -17814,6 +18553,11 @@
       "at": "2026-10-07T16:00:01+0000",
       "event": false
     },
+    "18227350552343689": {
+      "account": "thanka.official",
+      "at": "2026-11-23T11:55:09+0000",
+      "event": false
+    },
     "18227818498333503": {
       "account": "choruslife.bergamo",
       "at": "2026-10-22T14:59:10+0000",
@@ -17894,10 +18638,20 @@
       "at": "2026-11-11T15:28:23+0000",
       "event": true
     },
+    "18293102410291575": {
+      "account": "thanka.official",
+      "at": "2026-11-24T11:54:18+0000",
+      "event": true
+    },
     "18336926005277571": {
       "account": "oroneroloveandmusic",
       "at": "2026-10-14T15:54:16+0000",
       "event": true
+    },
+    "18338302690263784": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-23T16:30:04+0000",
+      "event": false
     },
     "18339199315259838": {
       "account": "intothewoodsbg",
@@ -17948,6 +18702,11 @@
       "account": "contest_bg",
       "at": "2026-10-30T17:05:30+0000",
       "event": true
+    },
+    "18351098182287336": {
+      "account": "bv_rooftop",
+      "at": "2026-11-24T11:50:09+0000",
+      "event": false
     },
     "18351967768280169": {
       "account": "thanka.official",
@@ -18194,6 +18953,11 @@
       "at": "2026-11-21T17:55:05+0000",
       "event": true
     },
+    "18420182620085655": {
+      "account": "kellerfactory_",
+      "at": "2026-11-23T05:39:38+0000",
+      "event": true
+    },
     "18423224272156413": {
       "account": "decibel_club",
       "at": "2026-11-16T21:14:48+0000",
@@ -18384,6 +19148,11 @@
       "at": "2026-11-05T15:10:51+0000",
       "event": false
     },
+    "18640156180037043": {
+      "account": "kellerfactory_",
+      "at": "2026-11-23T05:37:46+0000",
+      "event": true
+    },
     "18640286317010136": {
       "account": "drusobg",
       "at": "2026-11-03T18:56:34+0000",
@@ -18462,6 +19231,11 @@
     "18653341780045555": {
       "account": "drusobg",
       "at": "2026-11-23T12:04:41+0000",
+      "event": true
+    },
+    "18653778145051908": {
+      "account": "vibetheclub",
+      "at": "2026-11-23T16:57:20+0000",
       "event": true
     },
     "18653868961061747": {
