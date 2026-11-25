@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-25T12:42",
+ "generated": "2026-11-25T13:49",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -828,6 +828,14 @@
    ],
    "2026-12-04": [
     {
+     "line1": "ICKS @ Nikita",
+     "line2": "Hip Hop, Afrobeat",
+     "time": "22:30",
+     "score": 57.1,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    },
+    {
      "line1": "Quei Bravi Ragazzi",
      "line2": "live",
      "time": "22:00",
@@ -928,6 +936,11 @@
    "@gemboyofficial_",
    "@thanka.official",
    "@noche__latina",
+   "@nikita__land",
+   "@icksdresstoimpress",
+   "@naomiplanapadilla",
+   "@thanksmike_",
+   "@ema___a",
    "@quei_bravi_ragazzi_bg",
    "@paolorivapasticceria",
    "@zeroclub.bg",
@@ -936,15 +949,10 @@
    "@esotic_event",
    "@marci_otta",
    "@furkan_mcc",
-   "@dnaproject__",
    "@bolgia.official",
    "@importanti",
    "@daste_bergamo",
-   "@consumazione",
-   "@circolinomalpensata_bergamo",
-   "@alternative",
-   "@bloom_mezzago",
-   "@dj.sofficino"
+   "@consumazione"
   ],
   "hashtags": [
    "#bergamo",
@@ -2022,8 +2030,8 @@
   "big_events": [],
   "caption_handles": [
    "@zeroclub.bg",
-   "@inkclub_bergamo",
    "@prenotazione",
+   "@inkclub_bergamo",
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
@@ -2311,6 +2319,14 @@
     }
    ],
    "2026-12-04": [
+    {
+     "line1": "ICKS @ Nikita",
+     "line2": "Hip Hop, Afrobeat",
+     "time": "22:30",
+     "score": 57.1,
+     "fascia": "preserata",
+     "family": "Hip Hop / Trap"
+    },
     {
      "line1": "Quei Bravi Ragazzi",
      "line2": "live",
@@ -2658,6 +2674,7 @@
    "@discoteca_queen",
    "@reservation",
    "@revel_treviglio",
+   "@nikita__land",
    "@zeroclub.bg",
    "@noidfamilia",
    "@16manu___",
@@ -2677,8 +2694,7 @@
    "@ninfeasocialclub",
    "@emozioni.in.fiore",
    "@unplug__bg",
-   "@contributo",
-   "@particolare"
+   "@contributo"
   ],
   "hashtags": [
    "#bergamo",

@@ -30,14 +30,14 @@
   },
   "a21ristopizza": {
    "bio": "Orari:\n-mar 12/14:15\n-mer, gio 12/14.15 - 19/22:30\n-ven 12/14.15 - 19/23\n-sab 19/23:30\n-dom 12/14:30 - 19/22:30\nPrenota allo 030 9383239 / 3314329375",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 11,
    "followers": 2298,
    "kind": "venue",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "A21 Ristopizza",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://www.a21ristopizza.it/"
   },
   "abbrobotics": {
@@ -763,6 +763,9 @@
    "reads": 3,
    "website": "https://chat.whatsapp.com/EVfgfbMCwuUDnnDf2tQOqy"
   },
+  "beup_bergamo": {
+   "cands": 1
+  },
   "birrificio_elav": {
    "bio": "",
    "cands": 3,
@@ -1042,7 +1045,7 @@
   },
   "caffemiro_mantova": {
    "bio": "☕ Colazione • Pranzo • Aperitivo\n🍸 Cocktail • Champagne • Cucina\n🎧 DJ Set & Eventi\n📍 Piazza Andrea Mantegna 13, Mantova\n👇 Prenota il tuo tavolo",
-   "cands": 1,
+   "cands": 2,
    "checked": "2026-11-23",
    "followers": 981,
    "kind": "venue",
@@ -1287,15 +1290,15 @@
   },
   "cheri.it": {
    "bio": "Sabato @capogirojoyclub",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 4,
-   "followers": 4699,
+   "followers": 4695,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "mentions": 2,
    "name": "Cheri",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "watch": true,
    "website": null
   },
@@ -1542,8 +1545,10 @@
    "checked": "2026-11-25",
    "followers": 1825,
    "kind": "promoter",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "Crema | Video production studio",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "http://cremavideo.it/"
   },
@@ -1827,11 +1832,14 @@
   "dischichannel": {
    "bio": "Il Party di cui avevi bisogno ✨\nDisney Channel vibes 🎶\nFoto 23.10.26:",
    "checked": "2026-11-25",
+   "events_found": 2,
    "followers": 246,
    "kind": "promoter",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "Dischi Channel",
    "party_name": "Dischi Channel",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": "https://www.facebook.com/permalink.php?story_fbid=pfbid026rjz9s7GAT7RRdNwjiu37Mt17VtBP7YSB65LgQGA8QQdX4dwSMjSDm7LeDB9V2C8l&id=61589312129832"
   },
@@ -1912,7 +1920,14 @@
    "website": "https://www.youtube.com/user/BoyoManMusi"
   },
   "dnaproject__": {
-   "mentions": 1
+   "bio": "⚠️ NEXT STEP ⚠️\n🕺🏻 SOUND SUNDAY 💃🏻\n🗓️ Domenica 29 Novembre \n📍 Toscanini - Reggiolo RE\n🎧 @stacchezzz_ | @jacopoklep | @saraguzzo_ \nInfo link chat Whats👇🏼📲",
+   "checked": "2026-11-25",
+   "followers": 1893,
+   "kind": "venue",
+   "mentions": 1,
+   "name": "DNA PROJECT",
+   "readable": true,
+   "website": "https://chat.whatsapp.com/LrsnUTkGdrkDXCpNyFo9PR?mode=gi_t"
   },
   "do_mi_no_ni": {
    "bio": "RAWMATTER.nul - Rose Villain - Daykoda - Centomilacarie - Rob feat. Nitro - Naima Faraò",
@@ -2025,7 +2040,14 @@
    "cands": 1
   },
   "ducoli_gaffurini": {
-   "cands": 2
+   "bio": "Musica per cuore e mutanda\n📍Brescia\nDisponibili per eventi\nContatti in DM oppure \n📞 +39 353 4797409\n 📩 ducoligaffurini@gmail.com",
+   "cands": 2,
+   "checked": "2026-11-25",
+   "followers": 483,
+   "kind": "venue",
+   "name": "DucoliGaffurini",
+   "readable": true,
+   "website": "https://bfan.link/romanticismo-approssimativo"
   },
   "e.katea_99": {
    "cands": 1
@@ -2075,7 +2097,14 @@
    "website": "http://linktr.ee/edonebergamo/"
   },
   "edor.ofc": {
-   "cands": 2
+   "bio": "🍿EDOR CIRCLE 22 Novembre, Empoli //RIMANDATO 06/01/27🕺\n🇮🇹🇪🇺booking@golden-mgmt.com\nCo-Founder: @led_velvet\nResident & AD: @posta.clubroom",
+   "cands": 2,
+   "checked": "2026-11-25",
+   "followers": 4110,
+   "kind": "artist",
+   "name": "E D O R",
+   "readable": true,
+   "website": "https://beacons.ai/edor_dj"
   },
   "eisnobiety": {
    "cands": 1
@@ -2094,6 +2123,9 @@
   },
   "elle_parra": {
    "cands": 1
+  },
+  "ema___a": {
+   "mentions": 1
   },
   "embrace_the_wind": {
    "cands": 1
@@ -2168,8 +2200,16 @@
    "cands": 1
   },
   "events.overtime": {
+   "bio": "‘We want to be a crowd-stopper rather than a crowd-pleaser’\nYOUR NEXT TECH-HOUSE EXPERIENCE.\nNext event: Sat 28.11 @bar_sanmarco",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-25",
+   "followers": 926,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "OVERTIME",
+   "readable": true,
+   "watch": true,
+   "website": null
   },
   "everyday.is.caturday": {
    "cands": 1
@@ -2619,17 +2659,18 @@
    "website": "https://www.youtube.com/@ichnos-didymoslaboratoriod6010"
   },
   "icksdresstoimpress": {
-   "bio": "Where music & style belong to everyone.\nBattle & dance @letitpump\nIndipendent market @trendy.exp",
+   "bio": "Where music & style belong to everyone.\nFriday 04.12 at @nikita__land \nBattle & dance @letitpump\nIndipendent market @trendy.exp",
    "cands": 1,
-   "checked": "2026-11-24",
-   "events_found": 2,
+   "checked": "2026-11-25",
+   "events_found": 3,
    "followers": 6679,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
+   "mentions": 1,
    "name": "ICKS",
    "readable": true,
-   "reads": 3,
-   "website": "https://icks.it"
+   "reads": 4,
+   "website": "https://icks.it/events"
   },
   "icon.events.official": {
    "cands": 1
@@ -2649,8 +2690,15 @@
    "website": "https://www.tiktok.com/@iconevents.official?_t=ZN-8xiZDI8npBe&_r=1"
   },
   "idefe.music": {
+   "bio": "Dj & Producer \nMilan, Italy\nfounder: @housemusic_lab",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-25",
+   "followers": 487,
+   "kind": "artist",
+   "mentions": 1,
+   "name": "DEFE (ITA)",
+   "readable": true,
+   "website": null
   },
   "ifidietoday_official": {
    "cands": 1
@@ -2709,14 +2757,14 @@
   },
   "inarisushigarbagnate": {
    "bio": "IL SUSHI PIÙ GRANDE DI MILANO\n🍣 Menù AYCE\n📍 Via Leonardo Da Vinci 29, Garbagnate Milanese\n🗓️ Aperti tutti i giorni\n📞 3313226255 / 0225135603",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 5,
-   "followers": 6203,
+   "followers": 6214,
    "kind": "venue",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "Inari Garbagnate",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://app.brenvo.ai/?rwg_token=AE37R_jslVJlVq967AFCbzZb9Y-jBO0PojVbDEjAlWZLsl1xYPyhcdJcaFVD5rlOOAyo8n29SgFsd1UASG7MvjsOoYaaENFRl06zHHiWbR21C5_Siz2BrAg%253D%23/reservations?string_id=LEA4Y"
   },
   "incisions054": {
@@ -2885,13 +2933,13 @@
   },
   "juiceclubit": {
    "bio": "⭐️ THIS IS JUICE.\n☎️ 348/5524298\n🗓️ SAT 28/11 @loft.bergamo \nPrenota qui ⬇️",
-   "checked": "2026-11-24",
-   "followers": 8578,
+   "checked": "2026-11-25",
+   "followers": 8575,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "JUICE (BG)",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://www.juiceclub.it/buy"
   },
   "jurij.razza": {
@@ -3047,14 +3095,14 @@
   },
   "la_sosta_cafe": {
    "bio": "🟩 WATHSAPP 035771469 \nPER PRENOTAZIONI TAVOLI, FESTE DI COMPLEANNO E LAUREE",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 4,
    "followers": 2164,
    "kind": "venue",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "La Sosta Cafe",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": null
   },
   "lab.librialbanco": {
@@ -3115,14 +3163,14 @@
   },
   "laplazabg": {
    "bio": "🧡 La Dispensa del Gusto\n🤩 Brunch, Pranzo, Aperitivo e..\n👇🏻 Scopri i menu e prenota ora",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 1,
-   "followers": 4273,
+   "followers": 4272,
    "kind": "venue",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "La Plaza",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://la-plaza-prenotazioni.area-di-lavo-7125.chatgpt.site/"
   },
   "lateres_ets": {
@@ -3182,15 +3230,15 @@
   "lecannibaleclub": {
    "bio": "Events & Urban Experiences since 2011\nNext events ↓",
    "cands": 1,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 21,
-   "followers": 43161,
+   "followers": 43172,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "mentions": 1,
    "name": "Le Cannibale",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://linktr.ee/lecannibale"
   },
   "led_velvet": {
@@ -3322,6 +3370,9 @@
    "name": "LOGIC",
    "readable": true,
    "website": "https://upass.easy-links.org/IDSH"
+  },
+  "lorenzo.biz": {
+   "cands": 1
   },
   "lorenzo.monguzzi": {
    "bio": "",
@@ -3808,6 +3859,10 @@
    "reads": 1,
    "website": "https://youtu.be/-TTUTXQPN4o?si=GIS7PLgA2-LJlEah"
   },
+  "naomiplanapadilla": {
+   "cands": 1,
+   "mentions": 1
+  },
   "naotosoundsystem": {
    "cands": 1
   },
@@ -3855,25 +3910,26 @@
   "nightlifebergamo": {
    "bio": "Il punto di riferimento degli eventi a Bergamo e provincia🪩⭐️🆒🥂\n🤝 @nightlifebrescia \nLocali e brand: scrivete PARTNER in DM📥",
    "checked": "2026-11-25",
-   "followers": 11542,
+   "followers": 11541,
    "kind": "scout",
-   "last_read": "2026-11-25T12:36+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 34,
+   "reads": 35,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
   "nikita__land": {
    "bio": "[ENTER THE VOID] \nvia dei morenghi 2 grumello (bg)",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 16,
-   "followers": 25659,
+   "followers": 25665,
    "kind": "venue",
-   "last_read": "2026-11-24T16:08+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
+   "mentions": 1,
    "name": "Nikita",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "http://nikita.land"
   },
   "nina.nayko": {
@@ -3942,16 +3998,16 @@
    "website": "https://upass.easy-links.org/ASQM"
   },
   "noidfamilia": {
-   "bio": "Pushing Boundaries Since 2015\n28.11 @caffemiro_mantova \n5.12 @auraclubmantova\n12.12 @zeroclub.bg",
-   "checked": "2026-11-24",
-   "events_found": 8,
-   "followers": 7884,
+   "bio": "Pushing Boundaries Since 2015\n28.11 @caffemiro_mantova \n28.11 @bergamosay pop up\n5.12 @auraclubmantova\n12.12 @zeroclub.bg",
+   "checked": "2026-11-25",
+   "events_found": 9,
+   "followers": 7880,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "mentions": 3,
    "name": "NØID",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "watch": true,
    "website": "http://noidfamilia.com"
   },
@@ -4021,14 +4077,14 @@
   "offline.raw": {
    "bio": "(EST.) 2023. | not usual concept.\n—\nTURN OFF YOUR MIND.",
    "cands": 1,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 1,
-   "followers": 3001,
+   "followers": 3002,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "OFFLINE",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "offlineparty": {
@@ -4072,14 +4128,14 @@
   },
   "ombra_bergamo": {
    "bio": "Lun/Mar: CHIUSO\nMer/Gio: 12-14.30 e 18-00\nVen: 12-14.30 e 18-01\nSab:10-14.30 e 17-01\nDom:10-14.30 e 17-23\nMiscelazione, piattini e vini naturali.",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 9,
    "followers": 4130,
    "kind": "venue",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "OMBRA - Miscelazione, Piattini e Vini Naturali",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://www.ombrabergamo.it/"
   },
   "ommemusic": {
@@ -4372,7 +4428,7 @@
   "prenotazione": {
    "cands": 7,
    "checked": "2026-11-19",
-   "mentions": 20,
+   "mentions": 21,
    "readable": false
   },
   "principe_maurice": {
@@ -4990,27 +5046,27 @@
   },
   "supertatobolgia": {
    "bio": "Liste-Tavoli 338.3624803 LISTA SUPERTATO Vivete,rispettate qualunque essere vivente e venite al Bolgia..il Tempio del Divertimento #iostocontato MICA🍟",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 7,
-   "followers": 20630,
+   "followers": 20629,
    "kind": "unknown",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "Supertato Bolgia",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "http://www.bolgia.it/"
   },
   "talk.maf": {
    "bio": "Sorry we need to Talk",
    "cands": 3,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 1,
-   "followers": 2202,
+   "followers": 2199,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "name": "TALKMAF",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://www.fourvenues.com/prmr/events/talk-07-11-2026-T05U"
   },
   "tama_sumo": {
@@ -5068,6 +5124,9 @@
    "readable": true,
    "reads": 4,
    "website": "http://thanka.it"
+  },
+  "thanksmike_": {
+   "mentions": 1
   },
   "the.circlehub": {
    "bio": "Back to the hits, back to the circle",
@@ -5156,15 +5215,15 @@
   },
   "theboxbergamo": {
    "bio": "⬛️The first melodic techno party in Bergamo. NEW YEAR’S EVE•SAVE THE DATE!\n•LUNEDÌ 07 DICEMBRE @gasbeer_official \n•DOMENICA 13 DICEMBRE @daste_bergamo",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 6,
-   "followers": 8088,
+   "followers": 8092,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "mentions": 2,
    "name": "TheBox",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "watch": true,
    "website": "https://t.me/THEBOX_BGY"
   },
@@ -5404,15 +5463,15 @@
   "utopia.direction": {
    "bio": "not a destination, but a direction",
    "cands": 2,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 3,
-   "followers": 8476,
+   "followers": 8478,
    "kind": "promoter",
-   "last_read": "2026-11-24T15:01+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "mentions": 3,
    "name": "utopia",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "watch": true,
    "website": "https://linktr.ee/utopia.direction"
   },
@@ -5596,6 +5655,9 @@
    "reads": 3,
    "website": "https://we.tl/t-rsviSA4ZOBrwU7ws"
   },
+  "wearestorymint": {
+   "cands": 1
+  },
   "wearestudiolegale": {
    "bio": "21.11 @75costez",
    "checked": "2026-11-25",
@@ -5622,6 +5684,9 @@
    "readable": true,
    "reads": 4,
    "website": "https://www.whatsapp.com/download"
+  },
+  "wheats_dj": {
+   "cands": 1
   },
   "wojtek3522": {
    "cands": 1
@@ -5692,15 +5757,15 @@
   "zeroclub.bg": {
    "bio": "Every wed @please.nights \nFri 27th @crystalcastlesnightt \nSat 28th @cromaroom \nInfo +393474100909",
    "cands": 42,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 11,
-   "followers": 20834,
+   "followers": 20820,
    "kind": "venue",
-   "last_read": "2026-11-24T16:08+00:00",
+   "last_read": "2026-11-25T13:43+00:00",
    "mentions": 5,
    "name": "Zero Club Bergamo",
    "readable": true,
-   "reads": 9,
+   "reads": 10,
    "website": "https://site.fourvenues.com/en/zero-club"
   }
  },
@@ -6041,6 +6106,7 @@
   },
   "angeway.music, Bergamo |nome": null,
   "aperi_single, Bergamo |nome": null,
+  "beup_bergamo, Bergamo |nome": null,
   "delleAli Teatro, Bergamo": {
    "city": "Bergamo",
    "lat": 45.69508,
@@ -6097,6 +6163,7 @@
    "website": "https://www.a21ristopizza.it/"
   },
   "auditorium all interno di funesto festival in collaborazio": null,
+  "beup bergamo": null,
   "biblioteca civica angelo mai di bergamo": {
    "address": "Piazza Vecchia, 15, 24129 Bergamo BG",
    "aliases": [
@@ -6751,10 +6818,14 @@
   },
   "disco pizza party": {
    "count": 1,
+   "done": true,
    "name": "Disco Pizza Party",
    "tried": [
     "discopizzaparty",
-    "discopizzapartyparty"
+    "discopizzapartyparty",
+    "discopizzapartybergamo",
+    "discopizzapartybg",
+    "discopizzaparty_official"
    ]
   },
   "discodance": {
@@ -6771,13 +6842,25 @@
   },
   "discodance single party": {
    "count": 1,
+   "done": true,
    "name": "DiscoDance single party",
-   "tried": []
+   "tried": [
+    "discodancesingleparty",
+    "discodancesinglepartyparty",
+    "discodancesinglepartybergamo",
+    "discodancesinglepartybg",
+    "discodancesingleparty_official"
+   ]
   },
   "dolcevita": {
    "count": 1,
    "name": "Dolcevita",
-   "tried": []
+   "tried": [
+    "dolcevita",
+    "dolcevitaparty",
+    "dolcevitabergamo",
+    "dolcevitabg"
+   ]
   },
   "dream up": {
    "count": 2,
@@ -11474,7 +11557,7 @@
    "capacity": 100,
    "capacity_source": "stima",
    "first_seen": "2026-11-23",
-   "followers": 6203,
+   "followers": 6214,
    "instagram": "inarisushigarbagnate",
    "km": 49.8,
    "lat": 45.56357,
@@ -11991,7 +12074,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 4273,
+   "followers": 4272,
    "instagram": "laplazabg",
    "km": 3.1,
    "lat": 45.67318,
@@ -12929,7 +13012,7 @@
    "capacity_source": "stima",
    "city": "Grumello del Monte",
    "first_seen": "2026-11-18",
-   "followers": 25659,
+   "followers": 25665,
    "ig_guessed": "2026-11-19",
    "instagram": "nikita__land",
    "km": 15.8,
@@ -15528,7 +15611,7 @@
    "capacity": 1000,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 20834,
+   "followers": 20820,
    "instagram": "zeroclub.bg",
    "km": 1.5,
    "lat": 45.68801,
