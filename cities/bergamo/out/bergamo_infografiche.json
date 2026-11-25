@@ -9,13 +9,14 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-25T08:54",
+ "generated": "2026-11-25T10:01",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
   "dates_with_serate": [
    "2026-11-24",
    "2026-11-25",
+   "2026-11-26",
    "2026-11-27",
    "2026-11-28",
    "2026-11-29"
@@ -182,6 +183,16 @@
       "line2": "Latino / Commerciale",
       "time": "00:00",
       "score": 35.7,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-11-26": [
+     {
+      "line1": "Casa Costez",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 31.8,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -376,6 +387,14 @@
     }
    ],
    "2026-11-26": [
+    {
+     "line1": "cento10elode @ 30 & Lode Bergamo",
+     "line2": "Commerciale",
+     "time": "17:00",
+     "score": 48.0,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
     {
      "line1": "Ninfea Social Club",
      "line2": "Elettronica",
@@ -608,7 +627,7 @@
     },
     {
      "line1": "L'Apéritif by Earth @ Cafeteria",
-     "line2": "House Commerciale",
+     "line2": "House Commerciale, DJ KINO",
      "time": "00:00",
      "score": 41.5,
      "fascia": "preserata",
@@ -929,6 +948,7 @@
    "2026-11-22",
    "2026-11-24",
    "2026-11-25",
+   "2026-11-26",
    "2026-11-27",
    "2026-11-28",
    "2026-11-29"
@@ -1211,6 +1231,16 @@
       "line2": "Latino / Commerciale",
       "time": "00:00",
       "score": 35.7,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-11-26": [
+     {
+      "line1": "Casa Costez",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 31.8,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -1686,6 +1716,14 @@
    ],
    "2026-11-26": [
     {
+     "line1": "cento10elode @ 30 & Lode Bergamo",
+     "line2": "Commerciale",
+     "time": "17:00",
+     "score": 48.0,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
      "line1": "Ninfea Social Club",
      "line2": "Elettronica",
      "time": "21:00",
@@ -1917,7 +1955,7 @@
     },
     {
      "line1": "L'Apéritif by Earth @ Cafeteria",
-     "line2": "House Commerciale",
+     "line2": "House Commerciale, DJ KINO",
      "time": "00:00",
      "score": 41.5,
      "fascia": "preserata",
@@ -2004,6 +2042,7 @@
    "2026-12-04",
    "2026-12-05",
    "2026-12-07",
+   "2026-12-08",
    "2026-12-11",
    "2026-12-12",
    "2026-12-18",
@@ -2140,6 +2179,16 @@
       "line2": "Afro / Reggaeton",
       "time": "22:30",
       "score": 58.1,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-12-08": [
+     {
+      "line1": "cento10elode @ Easy Drink and Food",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 29.0,
       "fascia": "serata",
       "family": "Commerciale"
      }

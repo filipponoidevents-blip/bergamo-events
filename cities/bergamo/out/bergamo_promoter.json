@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-25T08:54",
+ "generated": "2026-11-25T10:01",
  "nights": [
   {
    "date": "2026-11-25",
@@ -44,22 +44,27 @@
    "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 31.8,
    "level": "tranquilla",
-   "capacity_taken": 0,
+   "capacity_taken": 300,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Commerciale] Casa Costez",
+     "score": 31.8,
+     "capacity": 300
+    }
+   ]
   },
   {
    "date": "2026-11-27",
@@ -387,22 +392,27 @@
    "weekday": "martedì",
    "note": "festivo (Immacolata)",
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 29.0,
    "level": "tranquilla",
-   "capacity_taken": 0,
+   "capacity_taken": 100,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Commerciale] Easy Drink and Food · cento10elode",
+     "score": 29.0,
+     "capacity": 100
+    }
+   ]
   },
   {
    "date": "2026-12-09",

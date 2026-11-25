@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 25/11/2026 08:54. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 25/11/2026 10:01. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -20,12 +20,14 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 | Data | Sera | Serate | Carico | Capienza impegnata | Generi | Le più forti |
 |---|---|---|---|---|---|---|
 | 25/11 mer | media | 3 | 141.1 | 2900 | Commerciale 2, Altro 1 | gres art 671 · Anna; [Commerciale 360] Zero Club · Please; [Latino / Commerciale] Queen Club |
+| 26/11 gio | tranquilla | 1 | 31.8 | 300 | Commerciale 1 | [Commerciale] Casa Costez |
 | 27/11 ven | piena | 11 | 356.1 | 5300 | House 5, Hip Hop 1, Commerciale 4, Altro 1 | [Live] Nikita · Ventitré w/ TAKE OVER; [Tech House] VIBE · Active Party w/ LOGIC; [House] Setai · Maison Grove w/ Massimino Lippoli |
 | 28/11 sab | piena | 11 | 469.3 | 8650 | House 5, Hip Hop 1, Commerciale 3, Altro 2 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; [Techno] Bolgia · MARIE VAUNT; [Trap] Nikita · Savage |
 | 29/11 dom | tranquilla | 2 | 51.6 | 600 | Commerciale 1, Altro 1 | [Commerciale] Bobadilla Feeling Club · Aperitivo Martini; Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 04/12 ven | libera | 1 | 40.6 | 1000 | Altro 1 | [Latin] THANKA · Noche Latina |
 | 05/12 sab | media | 2 | 126.3 | 3500 | House 2 | [House] Zero Club · NØID w/ Germano Ventura; [Techno] Bolgia · CHELINA MANUHUTU |
 | 07/12 lun (prefestivo (Immacolata)) | media | 2 | 118.1 | 3300 | House 1, Commerciale 1 | [Techno] Bolgia · NOVAH; [Afro / Reggaeton] Druso · Afrodylan |
+| 08/12 mar (festivo (Immacolata)) | tranquilla | 1 | 29.0 | 100 | Commerciale 1 | [Commerciale] Easy Drink and Food · cento10elode |
 | 11/12 ven | libera | 1 | 31.8 | 500 | Altro 1 | [Indie / Rock] Teatro Miela |
 | 12/12 sab | media | 1 | 66.3 | 500 | House 1 | [House] Zero Club · NØID w/ Germano Ventura |
 | 18/12 ven | libera | 1 | 43.0 | 1000 | Commerciale 1 | [Commerciale] Nikita |

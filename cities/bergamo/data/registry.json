@@ -494,23 +494,26 @@
    "bio": "Bergamo 🇮🇹\nCzłowiek Cebula\nParty plan: @bucolic.party",
    "cands": 5,
    "checked": "2026-11-25",
+   "events_found": 0,
    "followers": 736,
    "kind": "promoter",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "Samuele",
    "readable": true,
+   "reads": 1,
    "watch": true,
    "website": null
   },
   "baiadelrebrignano": {
    "bio": "LA BAIA👑",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 2,
-   "followers": 4246,
+   "followers": 4241,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "BAIA DEL RE (Brignano)",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://baiadelrebrignano.it"
   },
   "baile.rebra": {
@@ -571,6 +574,7 @@
    "followers": 1173,
    "kind": "venue",
    "last_read": "2026-11-24T13:47+00:00",
+   "mentions": 1,
    "name": "30&lode",
    "readable": true,
    "reads": 3,
@@ -794,19 +798,26 @@
   },
   "bloomfromseoul": {
    "bio": "Bloom From Seoul | Skincare Coreana\n✨ Skin Test professionale\n❤️ Beauty & routine personalizzate",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 3,
-   "followers": 1945,
+   "followers": 1950,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "mentions": 1,
    "name": "Bloom from Seoul",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://Bloomfromseoul.it"
   },
   "bluesquare.milano": {
-   "cands": 3
+   "bio": "asian-inspired piattini • sushi • music bar\nopen 7 days\nbrunch sat & sun 12pm - 4pm\n• ~ \nvia Tortona 33, Milan\nbook a table / events program👇🏼",
+   "cands": 3,
+   "checked": "2026-11-25",
+   "followers": 18067,
+   "kind": "venue",
+   "name": "bluesquare",
+   "readable": true,
+   "website": "https://link.dice.fm/hDKih18Ie7b?sharer_id=632c9b0147c1d3000172509e"
   },
   "bob_theotherside": {
    "bio": "A place where time stops.\nBeside @bob_isoladistrict\nMon - Sat | 19.00 - 2.00",
@@ -898,7 +909,14 @@
    "readable": false
   },
   "bro__eat_drinks": {
-   "mentions": 1
+   "bio": "La cena con musica più cool di Bergamo\n🔥Ogni Venerdì e Sabato \n🍽️ Ogni giorno con voi anche a pranzo\n📍Via dell’industria 6, BG\n📞349 588 0620",
+   "checked": "2026-11-25",
+   "followers": 14360,
+   "kind": "venue",
+   "mentions": 1,
+   "name": "Bro taste the summer",
+   "readable": true,
+   "website": "http://www.broeatdrink.it/"
   },
   "bruno_di_voi": {
    "cands": 1
@@ -1075,15 +1093,15 @@
   },
   "capogirojoyclub": {
    "bio": "THE PLACE TO BE\nPrenota subito il tuo tavolo DM!\nIl nostro party restaurant: @feelpartyrestaurant",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 3,
-   "followers": 17762,
+   "followers": 17765,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "mentions": 2,
    "name": "CaPoGiRo Joy Club",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://t.me/capogirofeel"
   },
   "capolinea_eat.drink.relax": {
@@ -1135,14 +1153,15 @@
   },
   "casacostez": {
    "bio": "DINING | CLUB \nUn nuovo posto, una nuova CASA. ✨\n@costez_official",
-   "checked": "2026-11-24",
-   "events_found": 10,
-   "followers": 6374,
+   "checked": "2026-11-25",
+   "events_found": 11,
+   "followers": 6393,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
+   "mentions": 1,
    "name": "CASA COSTEZ",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://costez.club"
   },
   "cascina_nascosta": {
@@ -1180,6 +1199,20 @@
    "venue_done": true,
    "website": "http://www.castellodirossino.it/"
   },
+  "cento10elode": {
+   "bio": "Il format degli universitari di Bergamo!🎓\n🗓️NEXT DATE:\n• 26 Novembre -> @bar30elode with @esnbergamo 🌎",
+   "checked": "2026-11-25",
+   "events_found": 17,
+   "followers": 10739,
+   "kind": "promoter",
+   "last_read": "2026-11-25T09:55+00:00",
+   "mentions": 2,
+   "name": "cento10elode",
+   "readable": true,
+   "reads": 1,
+   "watch": true,
+   "website": "https://www.tiktok.com/@cento10elode?_t=ZN-8uNVLM5KIo2&_r=1"
+  },
   "centrocongressigiovanni_xxiii": {
    "checked": "2026-11-20",
    "error": "110: Invalid user id",
@@ -1202,15 +1235,15 @@
    "cands": 1
   },
   "charleston.treviglio": {
-   "bio": "Lounge | Dinner | Cocktail Bar\nVia Rossaro 28, Treviglio\nPrenota un tavolo a cena o dopocena",
-   "checked": "2026-11-24",
+   "bio": "Lounge | Dinner | Cocktail Bar\nVia Rossaro 28, Treviglio\n27/11 @universitime.bg \nPrenota un tavolo a cena o dopocena",
+   "checked": "2026-11-25",
    "events_found": 1,
-   "followers": 2433,
+   "followers": 2431,
    "kind": "venue",
-   "last_read": "2026-11-24T12:40+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "Charleston",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": null
   },
   "charlie.blackbird": {
@@ -1310,15 +1343,15 @@
   "circolofratellanza": {
    "bio": "Società di mutuo soccorso di Casnigo dal 1904",
    "cands": 1,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 5,
-   "followers": 835,
+   "followers": 836,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "mentions": 1,
    "name": "Circolo Fratellanza Casnigo",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "venue_done": true,
    "website": "https://linktr.ee/circolofratellanzacasnigo"
   },
@@ -1396,7 +1429,9 @@
   },
   "contributo": {
    "cands": 1,
-   "mentions": 5
+   "checked": "2026-11-25",
+   "mentions": 5,
+   "readable": false
   },
   "cooperativa_giovani_orme": {
    "cands": 1
@@ -1665,6 +1700,10 @@
    "reads": 3,
    "website": null
   },
+  "delima_musica": {
+   "cands": 1,
+   "mentions": 1
+  },
   "delleali_teatro": {
    "bio": "🎭 Compagnia e residenza teatrale dal 1996, delleAli Teatro è: teatro ragazzi, teatro sonoro e teatro sociale.",
    "cands": 1,
@@ -1748,15 +1787,15 @@
   "discoteca_queen": {
    "bio": "Info & prenotazione tavoli 3316218709 📲\n#queen",
    "cands": 1,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 17,
-   "followers": 17108,
+   "followers": 17145,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "mentions": 2,
    "name": "Queen club",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": null
   },
   "divertendosi": {
@@ -1777,6 +1816,9 @@
   },
   "diwali_diwu": {
    "cands": 2
+  },
+  "dj.numax": {
+   "cands": 1
   },
   "dj.sofficino": {
    "bio": "🇵🇸💃🏻🪩 l’importante è la presa bene 🪩💃🏻🇵🇸\n- dj set quality trash from Brianza con amore -\n@soff.icino",
@@ -2038,7 +2080,7 @@
    "readable": false
   },
   "estudio_salsa": {
-   "cands": 1
+   "cands": 2
   },
   "euphoria.clubbing": {
    "cands": 1
@@ -2824,8 +2866,15 @@
    "cands": 2
   },
   "kinodeejay": {
+   "bio": "𝗞𝗜𝗡𝗢\nDJ from Bergamo, Italy 🇮🇹 \nNext events under👇 📆\nSound for 🎵: \n     • @earth.ofc\n     • @jolie.bg\n     • @aura.rdl\n     • @jamlivestudio",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-25",
+   "followers": 1928,
+   "kind": "artist",
+   "mentions": 1,
+   "name": "DJ KINO",
+   "readable": true,
+   "website": "https://vm.tiktok.com/ZNdgcC92h/"
   },
   "known.artist2": {
    "cands": 3,
@@ -2977,14 +3026,14 @@
   "lazzaretto_bergamo_estate": {
    "bio": "La rassegna di spettacoli, concerti e stand up comedy del Comune di Bergamo!",
    "cands": 1,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 1,
-   "followers": 11510,
+   "followers": 11509,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "Lazzaretto Estate Bergamo",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "http://www.lazzarettoestate.it/"
   },
   "le.muffe": {
@@ -3082,7 +3131,7 @@
    "cands": 1
   },
   "lifedancebergamo": {
-   "cands": 9,
+   "cands": 10,
    "checked": "2026-11-23",
    "readable": false
   },
@@ -3134,14 +3183,14 @@
   },
   "loft.bergamo": {
    "bio": "Hi-Fi Bar & Premium Club\n• Uno spazio fuori dal tempo dove il suono diventa esperienza e la notte un viaggio.\n[ 𝙄𝙣𝙛𝙤 𝙚 𝙋𝙧𝙚𝙣𝙤𝙩𝙖𝙯𝙞𝙤𝙣𝙞 | 𝙇𝙞𝙣𝙠 𝙞𝙣 𝘽𝙞𝙤 ]",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 1,
-   "followers": 10836,
+   "followers": 10872,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "LOFT Bergamo",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "http://loftbergamo.com/lft"
   },
   "logan.laugelli": {
@@ -3493,14 +3542,14 @@
   "mint_lounge": {
    "bio": "via Trieste, 38, Chiuduno (BG)\nAperto ogni venerdi' e sabato. Cocktail, music and party. Dalle 21.00 alle 3.30.\nPer info, click in bio!",
    "cands": 1,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 21,
-   "followers": 15355,
+   "followers": 15390,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "MINT",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://wa.me/+393273848736"
   },
   "mirko.mirkoro": {
@@ -3516,6 +3565,11 @@
    "name": "Miss DIVINA Fulvio Facchinetti",
    "readable": true,
    "website": "https://open.spotify.com/artist/4TLeeE4HJds7U1jNd78Rle?si=eSIZ_E6vQxa5jWGBW0gmYQ"
+  },
+  "miu.miuu_official_": {
+   "checked": "2026-11-25",
+   "error": "110: Invalid user id",
+   "readable": false
   },
   "mondadori.choruslife.bergamo": {
    "bio": "La tua nuova libreria Mondadori al CC ChorusLife di Bergamo! Ti aspettiamo! 📚❤️",
@@ -3562,7 +3616,16 @@
    "cands": 1
   },
   "muchacha_party": {
-   "cands": 1
+   "bio": "𝗺𝘂𝗰𝗵𝗮𝗰𝗵𝗮, 𝗺𝗶 𝗰𝗮𝘀𝗮 𝗲𝘀 𝘁𝘂 𝗰𝗮𝘀𝗮 \nnext date ? @thanka.official 🦋",
+   "cands": 1,
+   "checked": "2026-11-25",
+   "followers": 808,
+   "kind": "promoter",
+   "last_read": "2026-11-25T09:55+00:00",
+   "name": "MUCH CHA",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "mudilva_": {
    "mentions": 1
@@ -3629,6 +3692,9 @@
    "mentions": 1,
    "readable": false
   },
+  "nerireina_21": {
+   "cands": 2
+  },
   "newrant_crew_bergamo": {
    "checked": "2026-11-23",
    "error": "110: Invalid user id",
@@ -3666,10 +3732,10 @@
    "checked": "2026-11-25",
    "followers": 11541,
    "kind": "scout",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 31,
+   "reads": 32,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -3800,15 +3866,15 @@
   "oasi.night": {
    "bio": "OASI \nWhere the groove takes over.\nTech House •Groovy Tech House• House\n📍 Bergamo",
    "cands": 1,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 2,
-   "followers": 512,
+   "followers": 530,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "mentions": 2,
    "name": "OASI",
    "readable": true,
-   "reads": 6,
+   "reads": 7,
    "venue_done": true,
    "website": null
   },
@@ -4076,15 +4142,15 @@
   "pit.ent": {
    "bio": "⬇️CC NIGHT 27/11 TICKETS⬇️",
    "cands": 2,
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 1,
    "followers": 198,
    "kind": "promoter",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "mentions": 1,
    "name": "Kidis & Zulpyk",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "watch": true,
    "website": "https://site.fourvenues.com/en/zero-club/events/crystal-castles-night-27-11-2026-F1PW"
   },
@@ -4383,21 +4449,23 @@
    "cands": 1
   },
   "ryuichi_kawashima": {
-   "cands": 3
+   "cands": 3,
+   "checked": "2026-11-25",
+   "readable": false
   },
   "s4s_unibg": {
    "cands": 2
   },
   "sabbiemobili_official": {
    "bio": "MUSIC REVOLUTION\nINFO 👇🏻",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 4,
-   "followers": 7836,
+   "followers": 7835,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "SABBIE MOBILI",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "http://www.sabbiemobili.net"
   },
   "sabotagemilano": {
@@ -4886,14 +4954,14 @@
   },
   "the_alchemist_bar": {
    "bio": "🍸 Cocktail Bar\nDalle 18.00 alle 2.00\nChiuso Martedì\ntel 375 527 8296",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "events_found": 2,
-   "followers": 1566,
+   "followers": 1565,
    "kind": "venue",
-   "last_read": "2026-11-24T10:51+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "The Alchemist Bar Bergamo",
    "readable": true,
-   "reads": 2,
+   "reads": 3,
    "website": "http://www.alchemistbergamo.it"
   },
   "the_baby_lasagna": {
@@ -5103,13 +5171,13 @@
   },
   "twofestival": {
    "bio": "25 – 28 giugno 2026\nParco di Prada, Mapello BG\nTutte le foto del Two Festival 2026 qui 👇🏻",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "followers": 2949,
    "kind": "venue",
-   "last_read": "2026-11-24T12:40+00:00",
+   "last_read": "2026-11-25T09:55+00:00",
    "name": "Two Festival",
    "readable": true,
-   "reads": 3,
+   "reads": 4,
    "website": "https://linktr.ee/twofestival"
   },
   "uaar_it": {
@@ -6344,10 +6412,14 @@
   },
   "bunker": {
    "count": 1,
+   "done": true,
    "name": "Bunker",
    "tried": [
     "bunker",
-    "bunkerparty"
+    "bunkerparty",
+    "bunkerbergamo",
+    "bunkerbg",
+    "bunker_official"
    ]
   },
   "c est la vie": {
@@ -6402,8 +6474,15 @@
   },
   "canta indie canta male": {
    "count": 1,
+   "done": true,
    "name": "Canta Indie Canta Male",
-   "tried": []
+   "tried": [
+    "cantaindiecantamale",
+    "cantaindiecantamaleparty",
+    "cantaindiecantamalebergamo",
+    "cantaindiecantamalebg",
+    "cantaindiecantamale_official"
+   ]
   },
   "centol0elode": {
    "count": 4,
@@ -6456,7 +6535,12 @@
   "ciao discoteca italiana": {
    "count": 1,
    "name": "Ciao Discoteca Italiana",
-   "tried": []
+   "tried": [
+    "ciaodiscotecaitaliana",
+    "ciaodiscotecaitalianaparty",
+    "ciaodiscotecaitalianabergamo",
+    "ciaodiscotecaitalianabg"
+   ]
   },
   "cliche": {
    "count": 1,
@@ -8626,7 +8710,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-23",
-   "followers": 1945,
+   "followers": 1950,
    "instagram": "bloomfromseoul",
    "km": 1.3,
    "lat": 45.69285,
@@ -9692,7 +9776,7 @@
    "capacity_source": "stima",
    "city": "Casnigo",
    "first_seen": "2026-11-23",
-   "followers": 835,
+   "followers": 836,
    "instagram": "circolofratellanza",
    "km": 19.8,
    "lat": 45.8158,
@@ -11930,7 +12014,7 @@
    "capacity": 750,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 10836,
+   "followers": 10872,
    "ig_guessed": "2026-11-23",
    "instagram": "loft.bergamo",
    "km": 4.3,
@@ -12333,7 +12417,7 @@
    "capacity": 900,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 15355,
+   "followers": 15390,
    "ig_guessed": "2026-11-23",
    "instagram": "mint_lounge",
    "km": 15.0,
@@ -12804,12 +12888,12 @@
    "website_checked": true
   },
   "oasi": {
-   "auto_vote": 3.7,
+   "auto_vote": 3.8,
    "capacity": 300,
    "capacity_source": "stima",
    "city": "Dalmine",
    "first_seen": "2026-11-20",
-   "followers": 512,
+   "followers": 530,
    "instagram": "oasi.night",
    "km": 9.1,
    "lat": 45.65617,
@@ -14487,7 +14571,7 @@
    "capacity": 50,
    "capacity_source": "stima",
    "first_seen": "2026-11-20",
-   "followers": 1566,
+   "followers": 1565,
    "instagram": "the_alchemist_bar",
    "km": 0.8,
    "lat": 45.70514,
