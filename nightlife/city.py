@@ -102,7 +102,8 @@ class City:
                                      **({"party_name": a["party_name"]} if a.get("party_name") else {})}
         for patch in self.know.get("promoters") or []:
             h = (patch.get("instagram") or norm(patch["name"]).replace(" ", "")).lower()
-            self.promoters[h] = {**self.promoters.get(h, {"instagram": patch.get("instagram")}), **patch}
+            old = self.promoters.pop(norm(patch["name"]).replace(" ", ""), {}) if patch.get("instagram") else {}   # prima senza profilo, ora con
+            self.promoters[h] = {**old, **self.promoters.get(h, {"instagram": patch.get("instagram")}), **patch}
         for v in self.venues:
             if v.get("lat") is not None and v.get("km") is None:
                 v["km"] = km_between(self.c["lat"], self.c["lon"], v["lat"], v["lon"])

@@ -25,3 +25,52 @@ venues:
 promoters:
   - {name: BSK Sound, instagram: bsk.sound, aliases: [BSK, Bar Florio]}   # Bar Florio = serata di BSK Sound, club room dello Zero (Filippo, 24/11/2026)
   - {name: Offline, instagram: offline.raw, genre: Tech House / Minimal}   # Filippo, 24/11/2026 (non @offlineparty)
+# Dalla tabella 'Promoter senza profilo' compilata da Filippo (25/11/2026).
+  - {name: "Groove Factory", genre: "Tech House", venues: ["Bolgia"], brand_of_venue: true}
+  - {name: "MiDi Motori Digitali", instagram: "midimotoridigitali", genre: "Elettronica", venues: ["Edoné"]}
+  - {name: "Sabotage", instagram: "sabotagemilano", genre: "Hip Hop", venues: ["Daste"]}
+  - {name: "BassBrigade / Tribe73 / Beetek / KTN", genre: "Tekno / Free Party", venues: ["JClub"]}
+  - {name: "Gabass Subculture", genre: "Tech House", venues: ["Brina Pasticceria"]}
+  - {name: "Vida Loca", instagram: "vidalocaofficialtour", genre: "Commerciale", venues: ["Nikita"]}
+  - {name: "Code", genre: "Hard Techno", venues: ["Zero Club"], vote: 2, watch: false}
+  - {name: "Enter the Void", genre: "Commerciale 360", venues: ["Nikita"], brand_of_venue: true}
+  - {name: "Lova", genre: "Commerciale", venues: ["Nikita"], brand_of_venue: true}
+  - {name: "Ventitré", genre: "Live", venues: ["Nikita"], brand_of_venue: true}
+  - {name: "Savage", instagram: "savageparty.official", genre: "Trap", venues: ["Bobadilla"]}
+  - {name: "Otra Vez", instagram: "otravez_official", genre: "Latin", venues: ["Bobadilla"]}
+  - {name: "Aperitivo Martini", instagram: "aperitivomartini", genre: "Commerciale", venues: ["Bobadilla"]}
+  - {name: "Merci", instagram: "merci.night", genre: "Commerciale", venues: ["Setai Club"]}
+  - {name: "Studio Legale", instagram: "wearestudiolegale", genre: "Commerciale", venues: ["Thanka"]}
+  - {name: "Noche Latina", instagram: "noche__latina", genre: "Latin", venues: ["Thanka"]}
+  - {name: "Tocame", genre: "Latin", venues: ["Capogiro"], brand_of_venue: true}
+  - {name: "Spicy", instagram: "spicy.italy", genre: "Commerciale", venues: ["Capogiro"]}
+  - {name: "Elysium Privè", venues: ["Capogiro"], brand_of_venue: true}
+  - {name: "C'est la vie", instagram: "cestlavie_bg", genre: "Commerciale", venues: ["Vibe Club"]}
+  - {name: "Open Bar Night", genre: "Commerciale", venues: ["Oronero"], brand_of_venue: true}
+  - {name: "Rockoteca", genre: "Rock", venues: ["Daste"], brand_of_venue: true}
+  - {name: "Chewing Gum", genre: "Commerciale", venues: ["Queen Club"], brand_of_venue: true}
+  - {name: "DiscoDance", genre: "Dance", venues: ["Queen Club"], brand_of_venue: true}
+  - {name: "La Casita", genre: "Commerciale / Reggaeton", venues: ["Hype Club"], brand_of_venue: true}
+  - {name: "Tra terra e cielo", genre: "Elettronica", venues: ["Ninfea Social Club"], brand_of_venue: true}
+  - {name: "Club Culture", genre: "Tech House", venues: ["Barry's"], brand_of_venue: true}
+  - {name: "Hi-Fi Fever", genre: "Vinyl", venues: ["Sprint"], brand_of_venue: true}
+  - {name: "Side A", genre: "House Vinyl", venues: ["In Croissanteria Lab"], brand_of_venue: true}
+  - {name: "Rapture", instagram: "rapture.exp", genre: "Tech House", venues: ["Bar Perlage"]}
+  - {name: "Bucolic Party", instagram: "bucolic.party", genre: "Altro", venues: ["Cosmo Food Club"]}
+  - {name: "Honey", instagram: "hineyy.event", genre: "Tech House", venues: ["Savana King"]}
+  - {name: "Pitch", instagram: "pitch__bg", genre: "Commerciale", venues: ["Into The Woods"]}
+  - {name: "L'Apéritif by Earth", instagram: "earth_ofc", genre: "House Commerciale", venues: ["Cafeteria"]}
+  - {name: "Boheme", instagram: "boheme.it", genre: "House", venues: ["Cafeteria"], brand_of_venue: true}
+  - {name: "#NoFilter", genre: "Commerciale", venues: ["Jam Live Studio"], brand_of_venue: true}
+  - {name: "Zona de Perreo", genre: "Latin", venues: ["Jam Live Studio"]}
+  - {name: "Choose Me", venues: ["Charleston"], brand_of_venue: true}
+  - {name: "Lipstick", instagram: "lipstick.ofc", genre: "Commerciale", venues: ["MINT"]}
+  - {name: "Sabado de Pikete", genre: "Latin", venues: ["Garota de Ipanema"]}
+  - {name: "Traviesa", genre: "Latin", venues: ["Garota de Ipanema"]}
+  - {name: "Krystal404", venues: ["Sabbie Mobili"]}
+  - {name: "Naif", instagram: "naif.party", genre: "House", venues: ["Officina Panarari"]}
+  - {name: "MiuMiuu", instagram: "miu.miuu_official_", genre: "Commerciale", venues: ["Al Tabarin"]}
+  - {name: "Back to the 90s", genre: "Dance", venues: ["Delblaco Lunch & Bar"]}
+  - {name: "One Place, Two Souls", genre: "Commerciale", venues: ["Casa Costez"], brand_of_venue: true}
+  - {name: "cento10elode", instagram: "cento10elode", genre: "Commerciale", venues: ["Bar 30&Lode"]}
+  - {name: "Muchacha", instagram: "muchacha_party", genre: "Latin", venues: ["Thanka"]}
