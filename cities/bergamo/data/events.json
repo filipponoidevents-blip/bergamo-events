@@ -6944,7 +6944,7 @@
    "https://www.instagram.com/p/DgH59KhDbag/"
   ],
   "venue": "30 & Lode Bergamo",
-  "venue_followers": 1173,
+  "venue_followers": 1174,
   "venue_instagram": "bar30elode",
   "venue_known": true,
   "venue_type": "bar",
@@ -7562,6 +7562,64 @@
   "venue_type": "bar",
   "weekday": "venerdì"
  },
+ "2026-11-27-bar_san_marco": {
+  "address": null,
+  "brand": null,
+  "capacity": null,
+  "capacity_source": null,
+  "city": "Sarnico",
+  "confidence": 0.8,
+  "date": "2026-11-27",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "tipo di evento: evento",
+  "first_seen": "2026-11-25",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-27-bar_san_marco",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/926681887_18431809981149849_6052347288538619161_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5YM2r4M_-owQ7kNvwGWYBOH&_nc_oc=Adom7Ik0GeeNtlqhGyFGVMn_r-_3M1FD84mf4u1RqNaB3N5oQZ8RY3bsoR9VY56PKFU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=4zcn-dcfZAKFF5bKjLRvSQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQegeeR69Z0qqWUToyfVjPi4CWQjVukOvkdESP5S8hSDw&oe=6B0CC29E",
+  "in_posts": true,
+  "km": 22.4,
+  "lead_days": 3,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-24T17:01+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 10.6,
+  "score_parts": {
+   "capacity": 0.0,
+   "distance": 1.0,
+   "promoter": 0.0,
+   "venue_followers": 2.7
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "evento",
+  "urls": [
+   "https://www.instagram.com/p/DgIcTZZtsJ1/"
+  ],
+  "venue": "Bar San Marco",
+  "venue_followers": 2107,
+  "venue_instagram": "bar_sanmarco",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "venerdì"
+ },
  "2026-11-27-choruslife_arena": {
   "address": "Via Carlo Serassi, 26, Bergamo",
   "brand": null,
@@ -7743,7 +7801,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-27-decibel_club",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t39.30808-6/916972910_1755510009695104_1534962130439342583_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uUSTL6nVE6AQ7kNvwGVk1-d&_nc_oc=AdqaZit4KbXZ42rwMVjkVMGtuRctp6knqozFZAn7o4Js7xOldCZzZEbSwiXnxzffnPo&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=H-Qj1v0F_jiPeT1JC8TR7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTP9x_M7ifR-Uzb2ts2TsLGw201AGAiRZRQrgQJwzRV1Q&oe=6B0B74D4",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/916972910_1755510009695104_1534962130439342583_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=7mhVX-3BwoYQ7kNvwGrYqSl&_nc_oc=AdozTwRn8tXlBOJsKBW9H2KbMffSB7U3IfSYs8gXFsK7FCwRjDSnpvfRmRqLRdQ37UE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=zD2VvwReISZNEQ-OheifwA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRx45Nrae7OROotUCcLWF1YI6ZeYinc7GsLwZqzgOlfpA&oe=6B0C8E14",
   "in_posts": true,
   "km": 11.7,
   "lead_days": 4,
@@ -7775,7 +7833,7 @@
    "https://www.instagram.com/p/DgGjZLbEqkK/"
   ],
   "venue": "Decibel Club",
-  "venue_followers": 4591,
+  "venue_followers": 4600,
   "venue_instagram": "decibel_club",
   "venue_known": true,
   "venue_type": "club",
@@ -9145,6 +9203,87 @@
   "venue_type": "club",
   "weekday": "venerdì"
  },
+ "2026-11-28-bar_san_marco": {
+  "address": null,
+  "brand": "Music On",
+  "capacity": null,
+  "capacity_source": null,
+  "city": "Sarnico",
+  "competition": {
+   "capacity_same_night": 3900,
+   "events_same_night": 15,
+   "same_family": 4,
+   "strongest_rival": "CRØMA @ Zero Club"
+  },
+  "confidence": 0.9,
+  "date": "2026-11-28",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "locale di solito preserata",
+  "first_seen": "2026-11-25",
+  "genre": null,
+  "genre_source": null,
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "events.overtime",
+    "level": null,
+    "name": "events.overtime"
+   },
+   {
+    "followers": null,
+    "instagram": "idefe.music",
+    "level": null,
+    "name": "idefe.music"
+   }
+  ],
+  "handles": [
+   "events.overtime",
+   "idefe.music"
+  ],
+  "headliner": null,
+  "id": "2026-11-28-bar_san_marco",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/928472355_18431812582149849_172976729723839849_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RbQHT5_ZdmUQ7kNvwGSWgbO&_nc_oc=AdovEKd86pnbwU2mY7NsgQ6dOJLYpL4JY1I1lvu0ECkIfskw1AWRwV60sQzaM37Kkx8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=4zcn-dcfZAKFF5bKjLRvSQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSAwcsFupu2rDkf55tyyMgpkK5deqzVjBZNXf2t65W4jw&oe=6B0CB4A9",
+  "in_posts": true,
+  "km": 22.4,
+  "lead_days": 4,
+  "nightlife": true,
+  "party": null,
+  "posted": "2026-11-24T17:12+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "rank_in_night": 16,
+  "room": null,
+  "scope": "zona",
+  "score": 10.6,
+  "score_parts": {
+   "capacity": 0.0,
+   "distance": 1.0,
+   "promoter": 0.0,
+   "venue_followers": 2.7
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DgIdmEfq6Ui/"
+  ],
+  "venue": "Bar San Marco",
+  "venue_followers": 2107,
+  "venue_instagram": "bar_sanmarco",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "sabato"
+ },
  "2026-11-28-bloom-pre": {
   "address": "Via Broseta, 17, 24122 Bergamo BG",
   "brand": null,
@@ -9153,8 +9292,8 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3850,
-   "events_same_night": 14,
-   "same_family": 3,
+   "events_same_night": 15,
+   "same_family": 4,
    "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
@@ -9383,7 +9522,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3500,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 5,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -9577,7 +9716,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3700,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 5,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -9603,7 +9742,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-28-decibel_club-sala_1",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t39.30808-6/915630838_1755499003029538_5028081204862290625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5ImkEb2Pn7gQ7kNvwG38WCM&_nc_oc=AdrNr_-gUgaRathQZE7UlbykKNCKB5Pu9fadYQxhlxOlFX83bBXFtGzCasbrPmPIyM0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=H-Qj1v0F_jiPeT1JC8TR7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRH366VqiLl3cmzCk__W8_RNEUwydCm-F2BHVoNVgpyOA&oe=6B0B6CDA",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/915630838_1755499003029538_5028081204862290625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5ImkEb2Pn7gQ7kNvwG01ZT1&_nc_oc=AdrvP-OQFVMD5BV0wEPzeeltvIhoJ0BjCNxX8qjwYh8QC4lypi025vKawI9TB5hsy80&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=zD2VvwReISZNEQ-OheifwA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQRoVFODVScdjXaC1d19HUlubkPXCXwFK3vmTRCZ6OseQ&oe=6B0CBE5A",
   "in_posts": true,
   "km": 11.7,
   "lead_days": 5,
@@ -9635,7 +9774,7 @@
    "https://www.instagram.com/p/DgGhr_6jxOE/"
   ],
   "venue": "Decibel Club",
-  "venue_followers": 4591,
+  "venue_followers": 4600,
   "venue_instagram": "decibel_club",
   "venue_known": true,
   "venue_type": "club",
@@ -9649,7 +9788,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3700,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 5,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -9668,7 +9807,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-28-decibel_club-sala_2",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t39.30808-6/915630838_1755499003029538_5028081204862290625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5ImkEb2Pn7gQ7kNvwG38WCM&_nc_oc=AdrNr_-gUgaRathQZE7UlbykKNCKB5Pu9fadYQxhlxOlFX83bBXFtGzCasbrPmPIyM0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=H-Qj1v0F_jiPeT1JC8TR7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRH366VqiLl3cmzCk__W8_RNEUwydCm-F2BHVoNVgpyOA&oe=6B0B6CDA",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/915630838_1755499003029538_5028081204862290625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5ImkEb2Pn7gQ7kNvwG01ZT1&_nc_oc=AdrvP-OQFVMD5BV0wEPzeeltvIhoJ0BjCNxX8qjwYh8QC4lypi025vKawI9TB5hsy80&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=zD2VvwReISZNEQ-OheifwA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQRoVFODVScdjXaC1d19HUlubkPXCXwFK3vmTRCZ6OseQ&oe=6B0CBE5A",
   "in_posts": true,
   "km": 11.7,
   "lead_days": 5,
@@ -9700,7 +9839,7 @@
    "https://www.instagram.com/p/DgGhr_6jxOE/"
   ],
   "venue": "Decibel Club",
-  "venue_followers": 4591,
+  "venue_followers": 4600,
   "venue_instagram": "decibel_club",
   "venue_known": true,
   "venue_type": "club",
@@ -9848,7 +9987,7 @@
   "city": "Ranica",
   "competition": {
    "capacity_same_night": 3600,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 3,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -9930,7 +10069,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3800,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 5,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -10063,8 +10202,8 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3800,
-   "events_same_night": 14,
-   "same_family": 3,
+   "events_same_night": 15,
+   "same_family": 4,
    "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.9,
@@ -10084,7 +10223,7 @@
   ],
   "headliner": null,
   "id": "2026-11-28-il_circolino_della_malpensata-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/867530775_17998990596050683_1963570552147396759_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IJ5i1YqYe3oQ7kNvwExu834&_nc_oc=AdqehWEUO3i3n__uvjs2BzP1eTM24U24xGTJoQt3JOuYTVMlsJWDi1Lz9duEMerUhug&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VRT9snSe8ZTojIVUUl5mtw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQmP1swsbif9OiSyVnUPeRTjZ_DyLf6A4XzaW_FkCq4ow&oe=6B0B4C75",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/867530775_17998990596050683_1963570552147396759_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fZxzDlKWXp8Q7kNvwG-osCS&_nc_oc=Adop5E163-pNO7IqkWz12Hpy6Nu_LKuzhrc4PaKEtv1GsLPr4GHFHMaE5C84NX1dLJ0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9dLHWycZRWlBf4EUccj0Xw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ_o-PikYPblC250OV__OLv6AybubiVvmPeret2c5aUtA&oe=6B0C9DF5",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 33,
@@ -10116,7 +10255,7 @@
    "https://www.instagram.com/p/De9HLY2s87o/"
   ],
   "venue": "Il Circolino della Malpensata",
-  "venue_followers": 2938,
+  "venue_followers": 2942,
   "venue_instagram": "circolinomalpensata_bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -10130,8 +10269,8 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3700,
-   "events_same_night": 14,
-   "same_family": 3,
+   "events_same_night": 15,
+   "same_family": 4,
    "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.95,
@@ -10227,8 +10366,8 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3500,
-   "events_same_night": 14,
-   "same_family": 3,
+   "events_same_night": 15,
+   "same_family": 4,
    "strongest_rival": "CRØMA @ Zero Club"
   },
   "confidence": 0.9,
@@ -10368,7 +10507,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3700,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 3,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -10498,7 +10637,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3700,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 5,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -10642,7 +10781,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3350,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 3,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -10808,7 +10947,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3500,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 5,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -10957,7 +11096,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3800,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 3,
    "strongest_rival": "CRØMA @ Zero Club"
   },
@@ -11405,7 +11544,7 @@
   "city": null,
   "competition": {
    "capacity_same_night": 3400,
-   "events_same_night": 14,
+   "events_same_night": 15,
    "same_family": 0,
    "strongest_rival": "utōpia @ Tassino Cafe"
   },
@@ -11573,10 +11712,10 @@
   "genre_source": null,
   "guests": [
    {
-    "followers": null,
+    "followers": 549,
     "instagram": "digitalispurpurea_",
     "level": null,
-    "name": "digitalispurpurea_"
+    "name": "Digitalis Purpurea"
    },
    {
     "followers": null,
@@ -11591,7 +11730,7 @@
    "marte.bandemergenti",
    "mudilva_"
   ],
-  "headliner": null,
+  "headliner": "Digitalis Purpurea",
   "id": "2026-11-29-bloom-pre",
   "image": "https://scontent-lga3-3.cdninstagram.com/v/t51.82787-15/928518171_18654628276014819_3668294976663844919_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=pjGdB2UVoUEQ7kNvwFsLSm7&_nc_oc=Ado_-Oie3VkMBuT1MZF42Cdi88OJlbfXNbhaXNJZDPMKatnvcI_rEqBEi-yn61iL1g0&_nc_zt=23&_nc_ht=scontent-lga3-3.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=HITi1u1nWolRL6WT18CI-g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR2vR1IWlvQVZd7yMhbCJ_zqfPOwQ6f9fmghmswh2gQWg&oe=6B0C1088",
   "in_posts": true,
@@ -12080,7 +12219,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-29-decibel_club-sala_1-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/923026894_1755491249696980_6146810477944434504_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DaQR1-vZsJEQ7kNvwEtUJWV&_nc_oc=AdoE2nMGyOU1l3_4U-4sh6u9rc3C3WSwmeeIdX_-kw2I2qBY_QxG8bcMD-qhMKGXUBI&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=H-Qj1v0F_jiPeT1JC8TR7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRCJaATkIoUFVHUjl5N7itd7Z6e1gFXOFNhRiuMyIAzBw&oe=6B0B7C75",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/923026894_1755491249696980_6146810477944434504_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=M5pkjtC_mocQ7kNvwE2gT62&_nc_oc=AdqzWRAK7mOJDagx_0NIz19eKaP1hYVUYFX1OslqirWC107mG6Bo37J0FjzuhTYs5hs&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=zD2VvwReISZNEQ-OheifwA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQcAmhGW4gbncTHP-l0Ghhwu7Klys4QOJNVinda69uH-g&oe=6B0C95B5",
   "in_posts": true,
   "km": 11.7,
   "lead_days": 6,
@@ -12112,7 +12251,7 @@
    "https://www.instagram.com/p/DgGgQHvF_Zu/"
   ],
   "venue": "Decibel Club",
-  "venue_followers": 4591,
+  "venue_followers": 4600,
   "venue_instagram": "decibel_club",
   "venue_known": true,
   "venue_type": "club",
@@ -12152,7 +12291,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-11-29-decibel_club-sala_2-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/923026894_1755491249696980_6146810477944434504_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DaQR1-vZsJEQ7kNvwEtUJWV&_nc_oc=AdoE2nMGyOU1l3_4U-4sh6u9rc3C3WSwmeeIdX_-kw2I2qBY_QxG8bcMD-qhMKGXUBI&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=H-Qj1v0F_jiPeT1JC8TR7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRCJaATkIoUFVHUjl5N7itd7Z6e1gFXOFNhRiuMyIAzBw&oe=6B0B7C75",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/923026894_1755491249696980_6146810477944434504_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=M5pkjtC_mocQ7kNvwE2gT62&_nc_oc=AdqzWRAK7mOJDagx_0NIz19eKaP1hYVUYFX1OslqirWC107mG6Bo37J0FjzuhTYs5hs&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=zD2VvwReISZNEQ-OheifwA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQcAmhGW4gbncTHP-l0Ghhwu7Klys4QOJNVinda69uH-g&oe=6B0C95B5",
   "in_posts": true,
   "km": 11.7,
   "lead_days": 6,
@@ -12184,7 +12323,7 @@
    "https://www.instagram.com/p/DgGgQHvF_Zu/"
   ],
   "venue": "Decibel Club",
-  "venue_followers": 4591,
+  "venue_followers": 4600,
   "venue_instagram": "decibel_club",
   "venue_known": true,
   "venue_type": "club",
@@ -12390,6 +12529,64 @@
   "venue_type": "bar",
   "weekday": "domenica"
  },
+ "2026-11-29-morlacchi_premiata_pasticceria_artigianale": {
+  "address": "Via Padergnone, 6, 24050 Zanica BG",
+  "brand": null,
+  "capacity": 150,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.6,
+  "date": "2026-11-29",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "tipo di evento: culture",
+  "first_seen": "2026-11-25",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-29-morlacchi_premiata_pasticceria_artigianale",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/920863319_18440403028198880_1640994064132544173_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=X4PqF41ME0MQ7kNvwF5ZWFu&_nc_oc=AdoJ1Jo0a2Vpyi1blMVwkOulSPfYeKKqC2GahnwkH4KFCe-8RYGupkA-N91V5t5oHVw&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=-bC2fYQW-zGGp2-1Y7w1Tw&_nc_tpa=Q5bMBQItsrszDR06W-TqLw_cdhDLLSJbdHIiTCrWG9MWbcZH8it8GQMcwMInGCh9wo2WKe_5pB4hjLBg2Q&_nc_ct=RQosPBUKFQ4AAAA&oh=00_AQQ9JQYnPrTz5NEb7JmEq9HW-y2xZIBu7jTRg3ZMBZLgaQ&oe=6B0C9982",
+  "in_posts": true,
+  "km": 6.5,
+  "lead_days": 5,
+  "nightlife": false,
+  "party": null,
+  "posted": "2026-11-24T16:41+00:00",
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 43.2,
+  "score_parts": {
+   "capacity": 2.7,
+   "distance": 7.4,
+   "promoter": 0.0,
+   "venue_followers": 6.9
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "culture",
+  "urls": [
+   "https://www.instagram.com/reel/DgIaD2_ojs3/"
+  ],
+  "venue": "Morlacchi - Premiata Pasticceria Artigianale",
+  "venue_followers": 19350,
+  "venue_instagram": "pasticceria_morlacchi",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "domenica"
+ },
  "2026-11-29-ninfea_social_club-pre": {
   "address": "Via Guglielmo Marconi, 65, 24010 Sorisole BG",
   "brand": null,
@@ -12421,6 +12618,12 @@
     "name": "Assonica"
    },
    {
+    "followers": 1551,
+    "instagram": "lamalaleche_band",
+    "level": null,
+    "name": "La Malaleche"
+   },
+   {
     "followers": null,
     "instagram": "prenotazione",
     "level": null,
@@ -12437,12 +12640,6 @@
     "instagram": "groovino_chillino",
     "level": null,
     "name": "groovino_chillino"
-   },
-   {
-    "followers": null,
-    "instagram": "lamalaleche_band",
-    "level": null,
-    "name": "lamalaleche_band"
    }
   ],
   "handles": [
@@ -12723,7 +12920,7 @@
   ],
   "headliner": null,
   "id": "2026-11-30-paolo_riva-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/910871464_1442952647998980_6470525108591154457_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gjFQ2NMEQKkQ7kNvwGpmKhs&_nc_oc=Adp-UBWi-t-7neP5UjQ-XrnG2p3sqGuDTRkCZXIDlmTYtLXYMUuEcGxVy7GtS2A2tvU&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=eOYiQFWWId58ije5vX2TdA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRRSAKjemz0SaEnfjsLP6iCmkGgGr95WlHDGsyH437jtw&oe=6B0B6864",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/910871464_1442952647998980_6470525108591154457_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=gjFQ2NMEQKkQ7kNvwFN_cfT&_nc_oc=Adpez3YnxCSt6qhZqKBj6lu3xSuYzj5auAACuvFZjV9jQYlIam6HLr9jD-x7YSsCGWY&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=GkBkTvU7OwXTdKqEurt4kw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQqshWsBi17JUHkprroDG1yNSjb6_QZI507NJAB93a0Nw&oe=6B0CB9E4",
   "in_posts": true,
   "km": 21.3,
   "lead_days": 11,
@@ -12754,7 +12951,7 @@
    "https://www.instagram.com/p/Df7APlgBjGP/"
   ],
   "venue": "Paolo Riva",
-  "venue_followers": 11405,
+  "venue_followers": 11406,
   "venue_instagram": "paolorivapasticceria",
   "venue_known": true,
   "venue_type": "bar",
@@ -12767,10 +12964,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
+   "capacity_same_night": 50,
+   "events_same_night": 1,
    "same_family": 0,
-   "strongest_rival": null
+   "strongest_rival": "UNPLUG BAR @ UNPLUG BAR"
   },
   "confidence": 0.95,
   "date": "2026-12-01",
@@ -12892,38 +13089,45 @@
   "venue_type": "live_club",
   "weekday": "martedì"
  },
- "2026-12-01-unplug_bar": {
+ "2026-12-01-unplug_bar-pre": {
   "address": "Via Broseta, 57f, 24128 Bergamo BG",
   "brand": null,
   "capacity": 50,
   "capacity_source": "stima",
   "city": null,
-  "confidence": 0.8,
+  "competition": {
+   "capacity_same_night": 550,
+   "events_same_night": 1,
+   "same_family": 0,
+   "strongest_rival": "Emozioni In Fiore @ Ninfea Social Club"
+  },
+  "confidence": 0.95,
   "date": "2026-12-01",
   "day_note": null,
   "end": null,
   "entry": null,
   "family": "Altro",
   "fascia": "preserata",
-  "fascia_why": "tipo di evento: evento",
-  "first_seen": "2026-11-23",
+  "fascia_why": "inizia alle 21:00",
+  "first_seen": "2026-11-25",
   "genre": null,
   "genre_source": null,
   "guests": [],
   "handles": [],
   "headliner": null,
-  "id": "2026-12-01-unplug_bar",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/o1/v/t2/f2/m86/AQPJ94oQ1CI87PmWY96-OcE3mtDkzYV7aquL3BY1p6ZgIA3Lsq6-CF4G8PsC7f9vIpCfwMtddlX65uFPebS99IptyD_can3MFrXtFpg.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=4BvtOPJBml4Q7kNvwENO1p5&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjA2Mzg4MTU1MDk3Nzc4MiwiYXNzZXRfYWdlX2RheXMiOjYsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=801bbbb5fb875c2b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DRkQ3Njg5NEI0ODU0MkREQUFBOTRCNDlERjNGNjI3Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0MwNjk1MTA4QUM1MjRGRkI5RkJCM0U1MDU5RjI3OTlEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbs66Lr28WqBxUCKAJDMywXQCTdsi0OVgQYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=diipchkakZihAy7fpxaAsQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR4j5mdX8laBz_dEedWnN85IzUJktOtjdKAH3CZfgkrXA&oe=6B0757FD",
+  "id": "2026-12-01-unplug_bar-pre",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/926025042_18063876572799662_8795229962692241985_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=9XYUQH4zXRoQ7kNvwFoYCdh&_nc_oc=AdoWVVwOiMHy65588AY-71HAcjWt_7PQZMng5tbYuVoeehV88T9jwvzbpYjwk5yVbvU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=uBjkqcJxbay86h9nN5v-3Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQw9EsTRZoQ5enHke4MI3DE3fPAq2bqdSSvRy34KwLtKw&oe=6B0CB0A4",
   "in_posts": true,
   "km": 1.7,
   "lead_days": 13,
-  "nightlife": false,
+  "nightlife": true,
   "party": null,
   "posted": "2026-11-18T05:00+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
   "score": 33.8,
@@ -12936,15 +13140,16 @@
   "sources": [
    "instagram-locale"
   ],
-  "start": null,
+  "start": "21:00",
   "status": "pubblicato",
   "tickets": null,
-  "type": "evento",
+  "type": "dj set",
   "urls": [
+   "https://www.instagram.com/p/DgIb6EaAlp2/",
    "https://www.instagram.com/reel/Df3tJyQByp_/"
   ],
   "venue": "UNPLUG BAR",
-  "venue_followers": 3146,
+  "venue_followers": 3164,
   "venue_instagram": "unplug__bg",
   "venue_known": true,
   "venue_type": "bar",
@@ -13513,6 +13718,64 @@
   "venue_type": "bar",
   "weekday": "venerdì"
  },
+ "2026-12-04-delblaco_lunch_bar": {
+  "address": null,
+  "brand": null,
+  "capacity": null,
+  "capacity_source": null,
+  "city": "Lurano",
+  "confidence": 0.9,
+  "date": "2026-12-04",
+  "day_note": null,
+  "end": "02:00",
+  "entry": "a pagamento",
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "finisce alle 02:00",
+  "first_seen": "2026-11-25",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-04-delblaco_lunch_bar",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/927341356_18123327214980570_4529653845135154756_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cPeSelCDnJwQ7kNvwG5Kd8_&_nc_oc=AdptOg2N6WjC4tBBqkE5POSCwisZRuYUahOh6R4FCUvJLvZnPvlzHLVUbkWT2scNZdY&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=qoSYyoUVK5R63zgy6no8Zw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRoKX_5vJuMR3KVBekdEhwHc3oHyB1HHPkXk6CX-7svKg&oe=6B0CA98F",
+  "in_posts": true,
+  "km": 15.1,
+  "lead_days": 10,
+  "nightlife": false,
+  "party": "Baile Do Brasil",
+  "posted": "2026-11-24T17:33+00:00",
+  "price": 2,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 10.3,
+  "score_parts": {
+   "capacity": 0.0,
+   "distance": 4.0,
+   "promoter": 0.0,
+   "venue_followers": 0.1
+  },
+  "sources": [
+   "instagram-locale"
+  ],
+  "start": "22:00",
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "evento",
+  "urls": [
+   "https://www.instagram.com/p/DgIgCldNvqQ/"
+  ],
+  "venue": "Delblaco Lunch & Bar",
+  "venue_followers": 540,
+  "venue_instagram": "delblacobar",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "venerdì"
+ },
  "2026-12-04-lounge_garibaldi_treviglio-pre": {
   "address": "Piazza Garibaldi, 7G, 24047 Treviglio BG",
   "brand": null,
@@ -13656,7 +13919,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-04-paolo_riva-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/920476200_1443922591235319_4649951067928870160_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I6K9sEzpbf4Q7kNvwFD888B&_nc_oc=Adrd5zxLFWYi0ZbIGETNYYvll0ZjsrcgjnKKTohLVirYXm6kmJGPZioFJ8nXjHmNBR4&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=eOYiQFWWId58ije5vX2TdA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSGPe8beEBspkcq3FjQkcBmGFxSnIBcL5-v64bbVoL0Fw&oe=6B0B91BB",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/920476200_1443922591235319_4649951067928870160_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I6K9sEzpbf4Q7kNvwFKyoiE&_nc_oc=Ado3aPauW7RYRpOZVZoznpyZcBf-sL8seCie09yP_V6U9188o3q8pV9XcQb6kfVBG5M&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=GkBkTvU7OwXTdKqEurt4kw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT5RBDtCdYf3DIVewPQo0U2SDuEgZ3FopobgKh1ukjlsw&oe=6B0CAAFB",
   "in_posts": true,
   "km": 21.3,
   "lead_days": 14,
@@ -13688,7 +13951,7 @@
    "https://www.instagram.com/p/Df9b5UZh3Km/"
   ],
   "venue": "Paolo Riva",
-  "venue_followers": 11405,
+  "venue_followers": 11406,
   "venue_instagram": "paolorivapasticceria",
   "venue_known": true,
   "venue_type": "bar",
@@ -14216,7 +14479,7 @@
   ],
   "headliner": null,
   "id": "2026-12-05-il_circolino_della_malpensata-pre",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/886663397_18000519807050683_7504047954640186893_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tGTXoVlfX-oQ7kNvwGg0j-B&_nc_oc=AdraTj9aO_6vaV5N_9w1rIyp4WBxZUrQulofkVjh9MKET9ztNBOSGABkfcUcC74NOjo&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VRT9snSe8ZTojIVUUl5mtw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTyCRVWzmatFvFo94uIL2eXqLNYflsXPLkOhTCPVfN-kQ&oe=6B0B5F04",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/886663397_18000519807050683_7504047954640186893_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tGTXoVlfX-oQ7kNvwFIhPnh&_nc_oc=AdqmAtGRVxjl4_YBFqRxOlJniGgLc_ztWPcz7kn3hAW82ULe6AQXd6fOycHBJUKGBcs&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9dLHWycZRWlBf4EUccj0Xw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS_9Wu_XFdnGP6sPFR9D3bCfDCQFe9YkZjZBRNv_5l8_A&oe=6B0CB084",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 31,
@@ -14249,7 +14512,7 @@
    "https://www.instagram.com/p/DgF3afFtwLN/"
   ],
   "venue": "Il Circolino della Malpensata",
-  "venue_followers": 2938,
+  "venue_followers": 2942,
   "venue_instagram": "circolinomalpensata_bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -14596,7 +14859,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-06-decibel_club-pre",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t39.30808-6/915349954_1755455096367262_9121890209154446540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XAOfBZP4btkQ7kNvwGM6tU6&_nc_oc=AdrDAV3yhKJqi16Na6v3aIkZjXLGNC66POoUpYfRwIqC0TFITAz62mh6-VmuLV4SBoM&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=H-Qj1v0F_jiPeT1JC8TR7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS3TsRNKfSFNn-rEc7YIi67NAUbGU2SOUr7XkA1g32RVg&oe=6B0B4E9F",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/915349954_1755455096367262_9121890209154446540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fKQRql8LLQMQ7kNvwG0JOMo&_nc_oc=AdpSLGlreWWH6CPhxKybfWf1Ob1_HPLZcysojZUjMOUVukubZbBBgms4sgFJR26Nga0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=zD2VvwReISZNEQ-OheifwA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTqE4C07GKFF0e0URbQfhZG5ExZyxM2S88BDmwpcHIQGw&oe=6B0CA01F",
   "in_posts": true,
   "km": 11.7,
   "lead_days": 13,
@@ -14628,7 +14891,7 @@
    "https://www.instagram.com/p/DgGaGw4DWky/"
   ],
   "venue": "Decibel Club",
-  "venue_followers": 4591,
+  "venue_followers": 4600,
   "venue_instagram": "decibel_club",
   "venue_known": true,
   "venue_type": "club",
@@ -14729,7 +14992,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-07-al_tabarin-pre",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/924862651_18143628913650501_8647074737874839913_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EogxLePGv4wQ7kNvwH4fq3n&_nc_oc=AdpV6k-E6nWAQsBrUX178We0VOgCO6-cd5LKWSogdAJ7nd3r6knafoiC-1KSBcb_Oy0&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1h0ceyH7aNrSznay3W7GHg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSNKRjH06yCYHwSVfhzd-bWqePh91RFYhjCn5e5bToExA&oe=6B0B8006",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/924862651_18143628913650501_8647074737874839913_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EogxLePGv4wQ7kNvwFtx2QP&_nc_oc=Adq7TnoTTUjscdRztgos3OluqYaq-IKed1H3nY6K3cFjkODFMNy6tlqtZwB_et7SAio&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=kSlAWN1cmlgMsBfYOY4uQg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQlk1udSUWdAtDcXoySsokX6XiUA3DHAcUPnCfNyerRKw&oe=6B0C9946",
   "in_posts": true,
   "km": 20.5,
   "lead_days": 14,
@@ -14761,7 +15024,7 @@
    "https://www.instagram.com/p/DgGVmL2xwpm/"
   ],
   "venue": "Al Tabarin",
-  "venue_followers": 727,
+  "venue_followers": 732,
   "venue_instagram": "al_tabarin",
   "venue_known": true,
   "venue_type": "bar",
@@ -15694,7 +15957,7 @@
   ],
   "headliner": null,
   "id": "2026-12-10-brina_pasticceria",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO_mL80J5nMp__r1eUlzzgF0tPIfoBjcDf4KHvdgyZ8yrPPbmC0wwNzL8F2WYUKPtYRWCVz3ENQfMAQ9Ny_kTBxh-dMu9FBD-FeKR4.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=fJq25AyWDT8Q7kNvwFmNuq2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjk0OTE5OTAzNTA0ODczOTgsImFzc2V0X2FnZV9kYXlzIjoxNywidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=50b525376be3fb64&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FMDA0NDgyOUFFRjg0NEYxOTE4REZEMEQ4MjRBREU1MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NBMTEzOUUwQkU1MjQxOThCN0M3ODczODg5RUI4ODA2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbM_fqI47PjaBUCKAJDMywXQDmIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=ZmtckFxcWiKMjInNWXAMAA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSEEaYfHmmJJ3l7o34-FWwn-plUiumur1Gv9jF8hjkY7A&oe=6B075F39",
+  "image": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO_mL80J5nMp__r1eUlzzgF0tPIfoBjcDf4KHvdgyZ8yrPPbmC0wwNzL8F2WYUKPtYRWCVz3ENQfMAQ9Ny_kTBxh-dMu9FBD-FeKR4.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=fJq25AyWDT8Q7kNvwGcsM93&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6Mjk0OTE5OTAzNTA0ODczOTgsImFzc2V0X2FnZV9kYXlzIjoxOCwidmlfdXNlY2FzZV9pZCI6MTIzNzQsImR1cmF0aW9uX3MiOjI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=50b525376be3fb64&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9FMDA0NDgyOUFFRjg0NEYxOTE4REZEMEQ4MjRBREU1MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0NBMTEzOUUwQkU1MjQxOThCN0M3ODczODg5RUI4ODA2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACbM_fqI47PjaBUCKAJDMywXQDmIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZazBAQA&_nc_gid=cBLxeF4-F9UorjJUxDhQtA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UvTNqM1OuJtf8gKB1nbvBPW2xPuurVKs3SrFcc_T0xfPN7TZGKjF6WdjtqKGI3MLmHpgr4yflq4CuB-8qu1LddDs8HYfwvaGVfIJtOncQDBIeZCLN9Ugmz50zzmWEdkgJ33p&oh=00_AQTVj30sudsg1hTLWXXIUc1tWHH3X_J60biGa-kpCKJ2ag&oe=6B08B0B9",
   "in_posts": true,
   "km": 13.5,
   "lead_days": 33,
@@ -15726,7 +15989,7 @@
    "https://www.instagram.com/reel/DfcBmb8BfXm/"
   ],
   "venue": "Brina Pasticceria",
-  "venue_followers": 3137,
+  "venue_followers": 3138,
   "venue_instagram": "brinapasticceria",
   "venue_known": true,
   "venue_type": "bar",
@@ -15987,7 +16250,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-10-paolo_riva-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t39.30808-6/914967162_1444181184542793_1248290464230078133_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KV7FbNO8cuIQ7kNvwEzWlHs&_nc_oc=AdqSgHgj3qhC4oY7-umaVIYDMBaEuQQGSWOkp1oCezgcGIGO0AwY_SPpVFsRsOMdd2w&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=eOYiQFWWId58ije5vX2TdA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTmJpXnAksS9xq7T83XqgwwWxheNRs5nbKf6xumYLNnZA&oe=6B0B92B1",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/914967162_1444181184542793_1248290464230078133_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KV7FbNO8cuIQ7kNvwHR4zbk&_nc_oc=Ado5Z3iWeI_XJ94czSapDI5754CCJQcgNwbE99DJ0GUuscpBNJ46UAIFsrDL2VlE2QU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=GkBkTvU7OwXTdKqEurt4kw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQpSQlebWLkv7EGf1prZvFN0KEx_sNSc29LwogP0PC-Tg&oe=6B0CABF1",
   "in_posts": true,
   "km": 21.3,
   "lead_days": 20,
@@ -16018,7 +16281,7 @@
    "https://www.instagram.com/p/Df9-qAgho7d/"
   ],
   "venue": "Paolo Riva",
-  "venue_followers": 11405,
+  "venue_followers": 11406,
   "venue_instagram": "paolorivapasticceria",
   "venue_known": true,
   "venue_type": "bar",
@@ -16464,7 +16727,7 @@
   "handles": [],
   "headliner": null,
   "id": "2026-12-12-il_circolino_della_malpensata-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/906808443_18002430006050683_7158341853505467093_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WXGKrj9xKyYQ7kNvwEJvstI&_nc_oc=AdrmxpN7sg8IKXcQhsjx34DoPO8h04R0w3nj46RrJwHG4njsCiOlJNopfzltYVM-AQo&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VRT9snSe8ZTojIVUUl5mtw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT3tMrNbIpX5fv27RZRxkILjmBeXNOG8we__miNS0MEnA&oe=6B0B53AA",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/906808443_18002430006050683_7158341853505467093_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WXGKrj9xKyYQ7kNvwEgEbD2&_nc_oc=AdrfI8dWc9zFBpQaVa-GlzZfJ2xJSoxetr8ItJReBeHNPCCc4Nfmsc8-ddLQKxxaOhI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9dLHWycZRWlBf4EUccj0Xw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQKyCLpyqvTmGF6ERCNkeiH8_d5jN9-7ushPJr32AqG2w&oe=6B0CA52A",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 26,
@@ -16496,7 +16759,7 @@
    "https://www.instagram.com/p/DfzNRhYMLt1/"
   ],
   "venue": "Il Circolino della Malpensata",
-  "venue_followers": 2938,
+  "venue_followers": 2942,
   "venue_instagram": "circolinomalpensata_bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -16958,7 +17221,7 @@
   "lead_days": 20,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-25T11:07+00:00",
+  "posted": "2026-11-25T12:41+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -17412,7 +17675,7 @@
   ],
   "headliner": "MATTIA TRANI",
   "id": "2026-12-19-fiera_di_bergamo",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/874590313_2261697337708465_689256455188943237_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_AQZiDKZXqYQ7kNvwEiuiyW&_nc_oc=AdplmaYhQ1qJGbTnr43eCggDHqDqfym0yiEp3FNc9extcpYPSGXQ4zEbslHfHAQERXs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hVXJCJexl23cr8pceuKHdg&_nc_tpa=Q5bMBQKQE1gwignvpmQBKNgi7EHQKvLMb7o90G4UeC0IpTSq40K92RFBRsNvRzikjeqK0ZwAZOYHxwTC4A&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRIu1V1Y7U_5cjFeohJErIZmmpMG-mlfuJsmmB3gitgag&oe=6B0B927C",
+  "image": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/874590313_2261697337708465_689256455188943237_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bRUIwYB6PJAQ7kNvwHxdt1-&_nc_oc=AdqKCweqUoYje8RAvjzMhH9_HmZqOUwmAt5mEQKU5xe4bMw-h5u6w6bQ91PZvqk-Uvg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=OrN7FCDahX0RMp8zYY6XXQ&_nc_tpa=Q5bMBQKKvemGgxEGa2uAaRVpZrR3ogT0_aFEN3mrW1qQQdFikwPD-VjzIaCtJConsnVeI1K80lwyBgm51w&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQTEXYPuFic7hVZvzVZAbNxkoKq_UohOwCVbssiwgn8ZrA&oe=6B0CABBC",
   "in_posts": true,
   "km": 4.5,
   "lead_days": 45,
@@ -17420,7 +17683,7 @@
   "party": "Galactica Festival",
   "posted": "2026-11-04T17:00+00:00",
   "price": null,
-  "promoter_followers": 113085,
+  "promoter_followers": 113126,
   "promoter_instagram": "galactica.festival",
   "promoter_name": "Galactica Festival",
   "rank_in_night": 1,
@@ -17488,7 +17751,7 @@
   ],
   "headliner": null,
   "id": "2026-12-19-il_circolino_della_malpensata-pre",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/902825605_18002963538050683_4738788764640654989_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1wRgsjwoffgQ7kNvwF0r2wa&_nc_oc=AdpvW-BuTFYkjsiloa7F5W-l9EW7owgH2oCroYhVxS2DMt6TWt5_7b2uQp68oMa_5Qc&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VRT9snSe8ZTojIVUUl5mtw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQfUoRvPe_L_E9tN4TujeK_zTMB41uDU4seVkb2pIyBHg&oe=6B0B4DFD",
+  "image": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902825605_18002963538050683_4738788764640654989_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XSIf51TnrlIQ7kNvwFofO0n&_nc_oc=Adp7IeFPO_kI1uXzJMpNSD8D6ViZETuQ2Sv9ZWl7ib6-x-ck6tGC344TIzPaZQkg6cs&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9dLHWycZRWlBf4EUccj0Xw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQvwuZcGtXlT_zXjmgo55JYbPrQwfGNMp--f_s3JubYBw&oe=6B0C9F7D",
   "in_posts": true,
   "km": 1.5,
   "lead_days": 29,
@@ -17520,7 +17783,7 @@
    "https://www.instagram.com/p/Df9fwlHh7Ix/"
   ],
   "venue": "Il Circolino della Malpensata",
-  "venue_followers": 2938,
+  "venue_followers": 2942,
   "venue_instagram": "circolinomalpensata_bergamo",
   "venue_known": true,
   "venue_type": "bar",
@@ -18624,7 +18887,7 @@
   "handles": [],
   "headliner": null,
   "id": "2027-01-01-la_pasticceria_di_dario",
-  "image": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-15/894461073_18477105043137578_8583216725664346639_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8Mw8kGvfc2QQ7kNvwG9VlnE&_nc_oc=AdrI9wfyFYzjmtpa_n2K5FZuRQkslh-reKv_FtYnCavtLLBBUREnw3iVLh2UBfYp4KI&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=EleEvPfkpI5_hlDF6FYhCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSGAUW40b_N2Y4gAdmGXDQ45bqILADd8U50FUmlYGS4Pg&oe=6B0B61B5",
+  "image": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/894461073_18477105043137578_8583216725664346639_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=8Mw8kGvfc2QQ7kNvwFCvpzv&_nc_oc=AdpV0g_HuzHaSLqHng6Cyjlo_GOZkCEfkG98RRtAxS-mkrB_VBRARI0wNps1SBMoiZo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=SD6gayRdUcJJK1fG82ryKg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTRr0xgOJotb_qFA4KNZ19q-ajnLD6GhKXHIYqpNHK01Q&oe=6B0CB335",
   "in_posts": true,
   "km": 17.6,
   "lead_days": 50,
@@ -18655,7 +18918,7 @@
    "https://www.instagram.com/p/Dfoz-sdR0Xd/"
   ],
   "venue": "La Pasticceria di Dario",
-  "venue_followers": 25388,
+  "venue_followers": 25389,
   "venue_instagram": "lapasticceriadidario",
   "venue_known": true,
   "venue_type": "bar",
@@ -19820,7 +20083,7 @@
   ],
   "headliner": null,
   "id": "2027-06-04-tassino_cafe-pre",
-  "image": "https://scontent-sjc6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO5_UpfcSGZBSnrtoLJa3nNbcok1C0Vc6AigzIBC0UfFau3VLO9_Z1LsfBXdKt9GVQE6irW7MobNtgAIO_y3G5ftyu7Iwb7OmSUlCY.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-sjc6-1.cdninstagram.com&_nc_ohc=M-plpQqYCq0Q7kNvwFBN_cx&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEwMTI4MjA4NjAwMTg4NCwiYXNzZXRfYWdlX2RheXMiOjI1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=c520a232eea84ca0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85OTBGOTkyRDlDNjA0RUE0Qjg3MzBCODFFNUYwNkFFQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E4OEM5NDAwNDQzQzQ5RkY4NEZCRjY4RUIyRDU1MzlEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa488T4huf0AxUCKAJDMywXQDO7peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=6K-Njbc3ye66SuAJlytgTA&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UrGxaWPjkbxOeTRGZmRsnCkYDBovQGPxhfhbVZkiAdVldnVOsz-plRq_OdzVb36TUuo1-4Px9S6VhlLDT6RjOBkMrEcpW42D09D4NjrbLr1BfwOT5kq7OU4YdfK1JumqeN9_&oh=00_AQQA_vHH13855RPGmR1HP4Klpg1wWaU3lExcsZW28W_dmQ&oe=6B076311",
+  "image": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO5_UpfcSGZBSnrtoLJa3nNbcok1C0Vc6AigzIBC0UfFau3VLO9_Z1LsfBXdKt9GVQE6irW7MobNtgAIO_y3G5ftyu7Iwb7OmSUlCY.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=Vv1uJSF-xbsQ7kNvwFxbDNU&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTEwMTI4MjA4NjAwMTg4NCwiYXNzZXRfYWdlX2RheXMiOjI2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=c520a232eea84ca0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC85OTBGOTkyRDlDNjA0RUE0Qjg3MzBCODFFNUYwNkFFQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E4OEM5NDAwNDQzQzQ5RkY4NEZCRjY4RUIyRDU1MzlEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACa488T4huf0AxUCKAJDMywXQDO7peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=8akXxfYAnRJzTKDQiSqyuQ&edm=AJ-jyNUEAAAA&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_enc=UtpHUxWb7TV_SKQ94BBgncvOAUsoCjbZPS4XSCZxR6-nwYkUlzZ7RjRKfAkOA0brohEIpxPi6xcR-gjujM5vZ00N54mUbw_GW6_e-wt1L7z4Vb6ErN4tkZNP7xZ_fYst9uMt&oh=00_AQTDmzcgL2Ta8CtpIWFzkyqUDQrUWEEOhJQEnDItL6fzdA&oe=6B08B491",
   "in_posts": true,
   "km": 1.2,
   "lead_days": 218,
