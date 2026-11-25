@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-24T18:22",
+ "generated": "2026-11-25T02:54",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -234,6 +234,14 @@
       "line2": "Commerciale 360",
       "time": "00:00",
       "score": 43.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "THANKA",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 40.6,
       "fascia": "serata",
       "family": "Commerciale"
      },
@@ -766,6 +774,22 @@
      "score": 24.0,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "In dulci jubilo @ Parrocchia dei Santi Faustino e Giovita",
+     "line2": "live",
+     "time": "20:45",
+     "score": 20.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Concerto augurale corale della Valle di Scalve @ Chiesa Parrocchiale dei Santi Filippo e Giacomo Apostoli",
+     "line2": "live",
+     "time": "20:30",
+     "score": 16.6,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-12-05": [
@@ -1206,6 +1230,14 @@
       "line2": "Commerciale 360",
       "time": "00:00",
       "score": 43.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
+      "line1": "THANKA",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 40.6,
       "fascia": "serata",
       "family": "Commerciale"
      },
@@ -2149,6 +2181,22 @@
      "score": 24.0,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "In dulci jubilo @ Parrocchia dei Santi Faustino e Giovita",
+     "line2": "live",
+     "time": "20:45",
+     "score": 20.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Concerto augurale corale della Valle di Scalve @ Chiesa Parrocchiale dei Santi Filippo e Giacomo Apostoli",
+     "line2": "live",
+     "time": "20:30",
+     "score": 16.6,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-12-05": [
@@ -2247,7 +2295,7 @@
      "family": "Commerciale"
     },
     {
-     "line1": "Revel Treviglio",
+     "line1": "Daniele Fiamma @ Revel Treviglio",
      "line2": "comedy",
      "time": "20:30",
      "score": 27.7,
@@ -2264,6 +2312,14 @@
     }
    ],
    "2026-12-09": [
+    {
+     "line1": "NXT Bergamo",
+     "line2": "Live",
+     "time": "20:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "gres art 671",
      "line2": "dj set",
@@ -2301,15 +2357,39 @@
    ],
    "2026-12-11": [
     {
+     "line1": "NXT Bergamo",
+     "line2": "Commerciale",
+     "time": "20:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
      "line1": "Bloom",
      "line2": "Rock / Jazz",
      "time": "00:00",
      "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Cena Pokemon Ore 20:30 @ Il Pirata Pub",
+     "line2": "dj set",
+     "time": "20:30",
+     "score": 25.5,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-12-12": [
+    {
+     "line1": "NXT Bergamo",
+     "line2": "Revival / Commerciale",
+     "time": "21:00",
+     "score": 58.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
     {
      "line1": "Rude Night Chapter 01 @ Pacì Paciana",
      "line2": "Rock / Hard Techno",
@@ -2436,14 +2516,14 @@
    "@jolly_club_mantova_",
    "@theboxbergamo",
    "@teatromiela_trieste",
+   "@coreografie",
    "@capogirojoyclub",
    "@ninfeasocialclub",
    "@emozioni.in.fiore",
    "@particolare",
    "@gemboyofficial_",
    "@quei_bravi_ragazzi_bg",
-   "@paolorivapasticceria",
-   "@esotic_event"
+   "@paolorivapasticceria"
   ],
   "hashtags": [
    "#bergamo",

@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 24/11/2026 18:22. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 25/11/2026 02:54. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -19,10 +19,9 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 
 | Data | Sera | Serate | Carico | Capienza impegnata | Generi | Le più forti |
 |---|---|---|---|---|---|---|
-| 24/11 mar | tranquilla | 1 | 53.0 | 900 | House 1 | [Tech House] Bloom · Club Culture w/ Spike Hellis |
 | 25/11 mer | media | 3 | 141.1 | 2900 | Commerciale 2, Altro 1 | gres art 671 · Anna; [Commerciale 360] Zero Club · Please; [Latino / Commerciale] Queen Club |
 | 27/11 ven | piena | 11 | 356.1 | 5300 | House 5, Hip Hop 1, Commerciale 4, Altro 1 | [Live] Nikita · Ventitré w/ TAKE OVER; [Tech House] VIBE · Active Party w/ LOGIC; [House] Setai · Maison Grove w/ Massimino Lippoli |
-| 28/11 sab | piena | 10 | 416.1 | 7650 | House 5, Commerciale 3, Altro 2 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; [Techno] Bolgia · MARIE VAUNT; [Commerciale] Capogiro · Cheri |
+| 28/11 sab | piena | 11 | 456.7 | 8650 | House 5, Commerciale 4, Altro 2 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; [Techno] Bolgia · MARIE VAUNT; [Commerciale] Capogiro · Cheri |
 | 29/11 dom | tranquilla | 1 | 7.7 | 100 | Altro 1 | Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 04/12 ven | libera | 0 | 0 | 0 | - | - |
 | 05/12 sab | media | 2 | 126.3 | 3500 | House 2 | [House] Zero Club · NØID w/ Germano Ventura; [Techno] Bolgia · CHELINA MANUHUTU |

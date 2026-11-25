@@ -1,34 +1,7 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-24T18:22",
+ "generated": "2026-11-25T02:54",
  "nights": [
-  {
-   "date": "2026-11-24",
-   "weekday": "martedì",
-   "note": null,
-   "weekend_like": false,
-   "events": 1,
-   "load": 53.0,
-   "level": "tranquilla",
-   "capacity_taken": 900,
-   "by_family": {
-    "House / Elettronica": 1,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 0,
-    "Altro": 0
-   },
-   "missing_families": [
-    "Hip Hop / Trap",
-    "Commerciale"
-   ],
-   "top": [
-    {
-     "title": "[Tech House] Bloom · Club Culture w/ Spike Hellis",
-     "score": 53.0,
-     "capacity": 900
-    }
-   ]
-  },
   {
    "date": "2026-11-25",
    "weekday": "mercoledì",
@@ -137,14 +110,14 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 10,
-   "load": 416.1,
+   "events": 11,
+   "load": 456.7,
    "level": "piena",
-   "capacity_taken": 7650,
+   "capacity_taken": 8650,
    "by_family": {
     "House / Elettronica": 5,
     "Hip Hop / Trap": 0,
-    "Commerciale": 3,
+    "Commerciale": 4,
     "Altro": 2
    },
    "missing_families": [
@@ -172,9 +145,9 @@
      "capacity": 1000
     },
     {
-     "title": "[House] Zero Club · Fuse All Night: Cuartero",
-     "score": 39.9,
-     "capacity": 500
+     "title": "[Commerciale] THANKA",
+     "score": 40.6,
+     "capacity": 1000
     }
    ]
   },
@@ -2128,6 +2101,28 @@
   {
    "date": "2027-02-21",
    "weekday": "domenica",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-22",
+   "weekday": "lunedì",
    "note": null,
    "weekend_like": false,
    "events": 0,
