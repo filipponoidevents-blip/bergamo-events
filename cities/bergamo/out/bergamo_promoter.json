@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-25T13:49",
+ "generated": "2026-11-25T14:57",
  "nights": [
   {
    "date": "2026-11-25",
@@ -159,15 +159,15 @@
    "weekday": "domenica",
    "note": null,
    "weekend_like": false,
-   "events": 2,
-   "load": 51.6,
+   "events": 1,
+   "load": 43.9,
    "level": "tranquilla",
-   "capacity_taken": 600,
+   "capacity_taken": 500,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
-    "Altro": 1
+    "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
@@ -178,11 +178,6 @@
      "title": "[Commerciale] Bobadilla Feeling Club · Aperitivo Martini",
      "score": 43.9,
      "capacity": 500
-    },
-    {
-     "title": "Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello",
-     "score": 7.7,
-     "capacity": 100
     }
    ]
   },

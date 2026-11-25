@@ -20,6 +20,7 @@ Aula Magna, sede di Sant'Agostino;bar;Piazzale Sant'Agostino 2, Bergamo;Bergamo;
 Barrier;bar;P.za Giacomo Matteotti, 10, 24122 Bergamo BG;;0.8;bar_barrier;10371;100;stima;;3.4;google
 Centro congressi Giovanni XXIII;bar;Viale Papa Giovanni XXIII, 106, Bergamo;Bergamo;0.8;centrocongressigiovanni_xxiii;;100;stima;;1.7;eventi, google
 Deja vu Bergamo;bar;Via Borgo Santa Caterina, 24a, 24124 Bergamo BG;;0.8;;;100;stima;;1.7;google
+DNA PROJECT;bar;;Bergamo;0.8;dnaproject__;1893;50;stima;;2.0;instagram
 Le Iris;bar;V.le V. Emanuele II, 12, 24121 Bergamo BG;;0.8;leirisbar;4313;50;stima;;2.4;google
 NXT Bergamo;open_air;Piazzale degli Alpini, 24121 Bergamo BG;;0.8;nxtbergamo;30375;1000;stima;6;7.1;google
 The Alchemist Bar Bergamo;bar;Via Borgo Santa Caterina, 34/B, 24124 Bergamo BG;;0.8;the_alchemist_bar;1565;50;stima;;1.9;google
@@ -69,7 +70,7 @@ La Marianna - Bergamo;bar;L.go Colle Aperto, 4, 24129 Bergamo BG;;1.7;lamarianna
 UNPLUG BAR;bar;Via Broseta, 57f, 24128 Bergamo BG;;1.7;unplug__bg;3164;50;stima;3;2.2;google
 Lazzaretto;open_air;Piazzale Goisis 6, Bergamo;Bergamo;1.7;lazzaretto_bergamo_estate;11509;2000;;6;;conoscenze
 30 & Lode Bergamo;bar;Via dei Caniana, 3, 24100 Bergamo BG;;1.8;bar30elode;1174;100;stima;3;1.7;google
-Edone;live_club;Via Agostino Gemelli, 17, 24124 Bergamo BG;;1.8;edonebergamo;29974;{'summer': 3000, 'winter': 100};stima;5;4.5;google
+Edone;live_club;Via Agostino Gemelli, 17, 24124 Bergamo BG;;1.8;edonebergamo;29975;{'summer': 3000, 'winter': 100};stima;5;4.5;google
 Lounge Bar The Bliss;bar;Via Giovanni Carnovali, 80, 24126 Bergamo BG;;1.8;;;100;stima;;1.7;google
 Bar Savoy;bar;Via S. Bernardino, 107, 24126 Bergamo BG;;2.2;;;100;stima;;1.7;google
 Citta Dei Mille - Restaurant & Lounge;club;Via Martinella, 3, 24124 Torre Boldone BG;;2.3;;;500;stima;;4.1;google
@@ -92,9 +93,9 @@ BAKARY LOUNGE BAR;club;Via Leonardo Da Vinci, 1, 24020 Torre Boldone BG;;3.5;bak
 Spazio Polaresco;live_club;Via del Polaresco, 15, 24129 Bergamo BG;;3.5;spazio_polaresco;;{'summer': 1000, 'winter': 200};stima;5;3.5;google
 Bro taste the summer;bar;Via dell’industria 6;Bergamo;3.6;bro__eat_drinks;14361;150;stima;;3.9;instagram
 Caffe Bazzini dal 1987 -Caffetteria Enoteca Cucina Gelateria;bar;Via Guglielmo Mattioli, 14/C, 24129 Bergamo BG;;3.6;;;100;stima;;1.7;google
-Contest Cocktail Bar;bar;Via Vincenzo Bellini, 47, 24129 Bergamo BG;;3.7;contest_bg;3929;50;stima;3;2.4;google
+Contest Cocktail Bar;bar;Via Vincenzo Bellini, 47, 24129 Bergamo BG;;3.7;contest_bg;3927;50;stima;3;2.4;google
 Setai;club;Località, Via Portico, 21, 24050 Orio al Serio BG;;3.8;setai_club_official;36678;700;stima;6;4.1;google
-Druso;live_club;Via Antonio Locatelli 17, 24020, Ranica;Ranica;3.9;drusobg;24733;300;stima;5;6.9;osm, google
+Druso;live_club;Via Antonio Locatelli 17, 24020, Ranica;Ranica;3.9;drusobg;24745;300;stima;5;6.9;osm, google
 New Era Cocktail & Wine Bar;bar;Via Piave, 36, 24052 Azzano San Paolo BG;;3.9;;;100;stima;;1.7;google
 VIBE;club;Via Mohandas Karamchand Gandhi, 24048, Treviolo;Treviolo;3.9;vibetheclub;11569;500;stima;6;6.1;osm, google
 Bono' s bar;bar;Viale Trieste, 24052 Azzano San Paolo BG;;4.0;;;100;stima;;1.7;google
@@ -165,7 +166,7 @@ Ritrovo Brasil;club;Via Guglielmo Marconi, 6, 24036 Ponte San Pietro BG;;7.5;;;5
 Bar Marconi C.P. Di Cinesi Patrizia Snc;bar;Largo Guglielmo Marconi, 8, 24060 Brusaporto BG;;7.6;;;100;stima;;1.7;google
 Limbo Lounge Bar | Caffetteria, Pizzeria, Ristorante;bar;Via IV Novembre, 10, 24030 Brembate di Sopra BG;;7.9;limbo_bar.ristorante.pizzeria;962;50;stima;;1.6;google
 Loto Cafe;bar;Via Sorte, 43, 24030 Brembate di Sopra BG;;7.9;lotocafe;1024;50;stima;;1.6;google
-Jam Live Studio;club;Via Lombardia, 23, 24027 Nembro BG;;8.0;jamlivestudio;6026;600;stima;6;5.6;google
+Jam Live Studio;club;Via Lombardia, 23, 24027 Nembro BG;;8.0;jamlivestudio;6025;600;stima;6;5.6;google
 MG2 Pasticceria Caffetteria;bar;Via IV Novembre, 14, 24030 Brembate di Sopra BG;;8.0;mg2gambabrembate;;100;stima;;1.7;google
 2.0 Caffetteria & Lounge Bar;bar;V. XXV Aprile, 16, 24030 Almenno San Bartolomeo BG;;8.1;;;100;stima;;1.7;google
 Auditorium Modernissimo;bar;Piazza Libertà, Nembro;Nembro;8.1;;;100;stima;;1.7;eventi
