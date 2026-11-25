@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-25T14:57",
+ "generated": "2026-11-25T15:04",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -153,6 +153,16 @@
       "line2": "Alternative",
       "time": "21:00",
       "score": 29.9,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-29": [
+     {
+      "line1": "Kaleidoscopic Cello @ Aula Magna, sede di Sant'Agostino",
+      "line2": "",
+      "time": "16:30",
+      "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -386,6 +396,22 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Bubusettete @ Ink Club",
+     "line2": "dj set",
+     "time": "20:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "A Seguire: Space Jam @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Ninfea Social Club",
      "line2": "Elettronica",
      "time": "21:00",
@@ -428,6 +454,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Corinna_Fm @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
+     "score": 56.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
@@ -436,8 +470,8 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Corinna @ Ink Club",
-     "line2": "Elettronica",
+     "line1": "Cantautorato Elettronico: Safiyemusic Release Party @ Ink Club",
+     "line2": "Elettronica, Corinna",
      "time": "21:00",
      "score": 47.6,
      "fascia": "preserata",
@@ -478,6 +512,14 @@
      "family": "Hip Hop / Trap"
     },
     {
+     "line1": "Skinhead Fest: Scalpo_Punk @ Ink Club",
+     "line2": "Rock, SCALPO",
+     "time": "21:00",
+     "score": 54.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "utōpia @ Tassino Cafe",
      "line2": "Melodic House",
      "time": "00:00",
@@ -494,9 +536,9 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "SCALPO @ Ink Club",
-     "line2": "Rock",
-     "time": "21:00",
+     "line1": "Sezione.8 @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
      "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
@@ -675,11 +717,11 @@
   },
   "big_events": [],
   "caption_handles": [
+   "@inkclub_bergamo",
    "@prenotazione",
    "@zeroclub.bg",
    "@decibel_club",
    "@kellerfactory_",
-   "@inkclub_bergamo",
    "@contributo",
    "@consumazione",
    "@discoteca_queen",
@@ -693,18 +735,18 @@
    "@nikita__land",
    "@vibetheclub",
    "@utopia.direction",
+   "@corinna_fm",
    "@mint_lounge",
    "@cheri.it",
+   "@scalpo_punk",
+   "@sezione.8",
    "@liveclub",
    "@bloom_mezzago",
    "@spike.hellis",
    "@lowl_fest",
    "@www.bloomnet",
    "@door_74",
-   "@unplug__bg",
-   "@officinapanarari",
-   "@gres_art_671",
-   "@associazione_luca_coscioni"
+   "@unplug__bg"
   ],
   "hashtags": [
    "#bergamo",
@@ -755,6 +797,14 @@
   },
   "preserate": {
    "2026-12-01": [
+    {
+     "line1": "Serata Giochi: Scacchi Briscola Scopa @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Emozioni In Fiore @ Ninfea Social Club",
      "line2": "Elettronica",
@@ -933,6 +983,7 @@
    "@gres_art_671",
    "@prenotazione",
    "@noidfamilia",
+   "@inkclub_bergamo",
    "@ninfeasocialclub",
    "@emozioni.in.fiore",
    "@unplug__bg",
@@ -957,8 +1008,7 @@
    "@daste_bergamo",
    "@consumazione",
    "@dnaproject__",
-   "@esotic_event",
-   "@marci_otta"
+   "@esotic_event"
   ],
   "hashtags": [
    "#bergamo",
@@ -1221,6 +1271,16 @@
       "line2": "Alternative",
       "time": "21:00",
       "score": 29.9,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-11-29": [
+     {
+      "line1": "Kaleidoscopic Cello @ Aula Magna, sede di Sant'Agostino",
+      "line2": "",
+      "time": "16:30",
+      "score": 7.7,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -1744,6 +1804,22 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Bubusettete @ Ink Club",
+     "line2": "dj set",
+     "time": "20:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "A Seguire: Space Jam @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Ninfea Social Club",
      "line2": "Elettronica",
      "time": "21:00",
@@ -1786,6 +1862,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Corinna_Fm @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
+     "score": 56.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Crystal Castles Night @ Zero Club",
      "line2": "Witch House / EDM",
      "time": "00:00",
@@ -1794,8 +1878,8 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Corinna @ Ink Club",
-     "line2": "Elettronica",
+     "line1": "Cantautorato Elettronico: Safiyemusic Release Party @ Ink Club",
+     "line2": "Elettronica, Corinna",
      "time": "21:00",
      "score": 47.6,
      "fascia": "preserata",
@@ -1836,6 +1920,14 @@
      "family": "Hip Hop / Trap"
     },
     {
+     "line1": "Skinhead Fest: Scalpo_Punk @ Ink Club",
+     "line2": "Rock, SCALPO",
+     "time": "21:00",
+     "score": 54.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "utōpia @ Tassino Cafe",
      "line2": "Melodic House",
      "time": "00:00",
@@ -1852,9 +1944,9 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "SCALPO @ Ink Club",
-     "line2": "Rock",
-     "time": "21:00",
+     "line1": "Sezione.8 @ Ink Club",
+     "line2": "dj set, club room",
+     "time": "00:00",
      "score": 47.6,
      "fascia": "preserata",
      "family": "Altro"
@@ -2033,9 +2125,9 @@
   },
   "big_events": [],
   "caption_handles": [
+   "@inkclub_bergamo",
    "@zeroclub.bg",
    "@prenotazione",
-   "@inkclub_bergamo",
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
@@ -2177,6 +2269,14 @@
       "score": 66.3,
       "fascia": "serata",
       "family": "House / Elettronica"
+     },
+     {
+      "line1": "VLADIMIR CAUCHEMAR @ Bolgia",
+      "line2": "Techno",
+      "time": "23:30",
+      "score": 60.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ],
     "2026-12-19": [
@@ -2253,6 +2353,14 @@
   },
   "preserate": {
    "2026-12-01": [
+    {
+     "line1": "Serata Giochi: Scacchi Briscola Scopa @ Ink Club",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 47.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
     {
      "line1": "Emozioni In Fiore @ Ninfea Social Club",
      "line2": "Elettronica",
@@ -2682,6 +2790,7 @@
    "@bloom_mezzago",
    "@gres_art_671",
    "@noidfamilia",
+   "@bolgia.official",
    "@daste_bergamo",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
@@ -2690,7 +2799,6 @@
    "@nikita__land",
    "@zeroclub.bg",
    "@16manu___",
-   "@bolgia.official",
    "@importanti",
    "@consumazione",
    "@vibetheclub",
@@ -2703,10 +2811,10 @@
    "@coreografie",
    "@capogirojoyclub",
    "@lenticchie",
+   "@inkclub_bergamo",
    "@ninfeasocialclub",
    "@emozioni.in.fiore",
-   "@unplug__bg",
-   "@contributo"
+   "@unplug__bg"
   ],
   "hashtags": [
    "#bergamo",

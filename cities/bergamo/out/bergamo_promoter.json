@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-25T14:57",
+ "generated": "2026-11-25T15:04",
  "nights": [
   {
    "date": "2026-11-25",
@@ -159,15 +159,15 @@
    "weekday": "domenica",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 43.9,
+   "events": 2,
+   "load": 51.6,
    "level": "tranquilla",
-   "capacity_taken": 500,
+   "capacity_taken": 600,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
@@ -178,6 +178,11 @@
      "title": "[Commerciale] Bobadilla Feeling Club · Aperitivo Martini",
      "score": 43.9,
      "capacity": 500
+    },
+    {
+     "title": "Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello",
+     "score": 7.7,
+     "capacity": 100
     }
    ]
   },
@@ -486,12 +491,12 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 66.3,
+   "events": 2,
+   "load": 126.3,
    "level": "media",
-   "capacity_taken": 500,
+   "capacity_taken": 3500,
    "by_family": {
-    "House / Elettronica": 1,
+    "House / Elettronica": 2,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
@@ -505,6 +510,11 @@
      "title": "[House] Zero Club · NØID w/ Germano Ventura",
      "score": 66.3,
      "capacity": 500
+    },
+    {
+     "title": "[Techno] Bolgia · VLADIMIR CAUCHEMAR",
+     "score": 60.0,
+     "capacity": 3000
     }
    ]
   },
