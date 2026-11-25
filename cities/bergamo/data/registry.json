@@ -260,6 +260,9 @@
    "reads": 2,
    "website": null
   },
+  "amelie_lens": {
+   "cands": 1
+  },
   "andrea.damia": {
    "bio": "@dedalodistrict \nSeguimi anche qui 🙋 @su_misura_firenze",
    "cands": 4,
@@ -368,6 +371,19 @@
    "venue_done": true,
    "website": null
   },
+  "aperitivomartini": {
+   "bio": "L’aperitivo domenicale, quello vero! 🍹\nTutte le domeniche al @bobadillafeelingclub 👈🏻",
+   "checked": "2026-11-25",
+   "events_found": 18,
+   "followers": 2356,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "mentions": 1,
+   "name": "Aperitivo Martini",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "apriti.cielo": {
    "cands": 2,
    "checked": "2026-11-25",
@@ -404,7 +420,7 @@
   },
   "armando_slate": {
    "bio": "vibes don’t lie 🌈\ndad of @slate__collective",
-   "cands": 3,
+   "cands": 6,
    "checked": "2026-11-23",
    "followers": 2852,
    "kind": "unknown",
@@ -472,6 +488,17 @@
    "mentions": 1,
    "name": "Contrasena: VENIMOS DESDE ATLANTIC CITY",
    "readable": true,
+   "website": null
+  },
+  "badge.27": {
+   "bio": "Bergamo 🇮🇹\nCzłowiek Cebula\nParty plan: @bucolic.party",
+   "cands": 5,
+   "checked": "2026-11-25",
+   "followers": 736,
+   "kind": "promoter",
+   "name": "Samuele",
+   "readable": true,
+   "watch": true,
    "website": null
   },
   "baiadelrebrignano": {
@@ -562,6 +589,9 @@
    "readable": true,
    "reads": 8,
    "website": "https://www.barbarrier.com/"
+  },
+  "bar_inc_osaka": {
+   "cands": 1
   },
   "bar_p40": {
    "bio": "Ti aspettiamo al #P40 per:\n🥐#Colazione\n🍽#Pranzo \n🍝#businesslunch \n🍹#apericena \n🍸#drink \nIl vostro #locale in centro #Bergamo!",
@@ -660,7 +690,7 @@
   },
   "base_milano": {
    "bio": "📍 Cultural center & artistic research hub\n🎭 Visual & performing arts, design, residencies\n🪐 Meet us in the city at @farout_liveartsfestival",
-   "cands": 5,
+   "cands": 8,
    "checked": "2026-11-23",
    "followers": 125725,
    "kind": "venue",
@@ -775,6 +805,9 @@
    "reads": 2,
    "website": "http://Bloomfromseoul.it"
   },
+  "bluesquare.milano": {
+   "cands": 3
+  },
   "bob_theotherside": {
    "bio": "A place where time stops.\nBeside @bob_isoladistrict\nMon - Sat | 19.00 - 2.00",
    "cands": 2,
@@ -797,6 +830,17 @@
    "readable": true,
    "reads": 24,
    "website": "http://www.bobadilla.it"
+  },
+  "boheme.it": {
+   "bio": "🌿 Event from Bergamo, Milano IT\n🪇 Afro House, Melodic Techno\n🪭 STAY TUNED ☀️",
+   "checked": "2026-11-25",
+   "followers": 773,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "boheme",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "bolgia.official": {
    "bio": "Info ☎️ 3383624803\n28.11 @marievaunt\n05.12 @chelinamanuhutu\n07.12 @novah.music",
@@ -883,6 +927,18 @@
    "name": "BU Cheese Bar",
    "readable": true,
    "reads": 3,
+   "website": null
+  },
+  "bucolic.party": {
+   "bio": "Profilo official dei Mega festini Bucolici\nBergamo 🇮🇹\nHosted by @badge.27\nParty simple, party hard. 👽🧨💥",
+   "checked": "2026-11-25",
+   "events_found": 4,
+   "followers": 335,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "Bucolic party",
+   "readable": true,
+   "reads": 1,
    "website": null
   },
   "bumbumfestival": {
@@ -1089,6 +1145,16 @@
    "reads": 3,
    "website": "https://costez.club"
   },
+  "cascina_nascosta": {
+   "bio": "Legambiente Lombardia\n📱340 6755196\n📧 info@cascinanascosta.org\n👫 promozione socio-culturale\n🌱 sostenibilità ambientale \n🍽️ alimentazione consapevole",
+   "cands": 5,
+   "checked": "2026-11-25",
+   "followers": 45388,
+   "kind": "unknown",
+   "name": "Cascina Nascosta",
+   "readable": true,
+   "website": "http://cascinanascosta.org/"
+  },
   "castellodimonasterolo": {
    "bio": "Un castello sul lago, tra storia e natura: la scenografia perfetta per il vostro evento.\nUn luogo che nessuna foto potrà raccontare fino in fondo ✨",
    "checked": "2026-11-18",
@@ -1120,7 +1186,17 @@
    "readable": false
   },
   "cestlavie_bg": {
-   "cands": 1
+   "bio": "",
+   "cands": 1,
+   "checked": "2026-11-25",
+   "events_found": 1,
+   "followers": 1053,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "C’est la vie",
+   "readable": true,
+   "reads": 1,
+   "website": "https://upass.easy-links.org/E7PY"
   },
   "cgtv_it": {
    "cands": 1
@@ -1249,6 +1325,9 @@
   "clara.mammana": {
    "cands": 1
   },
+  "claudioeynard": {
+   "cands": 1
+  },
   "cocktail_mood_cm": {
    "bio": "🍸 Cocktail Bar & Hamburgheria a Pognano Bg\n🌮 Fajitas fumanti, Pulled Pork & Burger \n🌿 Esclusiva Gin Tonic Selection\n🎤 Eventi, Serate a Tema & Karaoke",
    "checked": "2026-11-24",
@@ -1294,7 +1373,7 @@
   },
   "consumazione": {
    "bio": "ℱ.                           𝗵𝗼𝘂𝘀𝗲 ⎯  солнце\n.          прыгать ,       (&.)     𝘮𝘦𝘴",
-   "cands": 24,
+   "cands": 25,
    "checked": "2026-11-20",
    "followers": 556,
    "kind": "unknown",
@@ -1315,12 +1394,18 @@
    "reads": 6,
    "website": null
   },
+  "contributo": {
+   "cands": 1,
+   "mentions": 5
+  },
   "cooperativa_giovani_orme": {
    "cands": 1
   },
   "coreografie": {
    "cands": 1,
-   "mentions": 2
+   "checked": "2026-11-25",
+   "mentions": 2,
+   "readable": false
   },
   "corey.squarzoni": {
    "cands": 1
@@ -1338,7 +1423,7 @@
   },
   "cosmo.food.club": {
    "bio": "Taste the world",
-   "cands": 1,
+   "cands": 4,
    "checked": "2026-11-24",
    "events_found": 0,
    "followers": 2364,
@@ -1368,7 +1453,7 @@
   },
   "cr3mas_brothers": {
    "bio": "Dj 🎧\n@lucaacremaschini @mattia.cremaschinii",
-   "cands": 1,
+   "cands": 3,
    "checked": "2026-11-24",
    "followers": 500,
    "kind": "artist",
@@ -1612,6 +1697,9 @@
    "mentions": 1,
    "readable": false
   },
+  "di.ora.ma": {
+   "cands": 1
+  },
   "dice_id": {
    "cands": 1
   },
@@ -1821,11 +1909,15 @@
   "earth_ofc": {
    "bio": "Chill Eat Drink Repeat\nTutte le domeniche in @cafeteriatreviolo",
    "cands": 5,
-   "checked": "2026-11-23",
-   "followers": 1132,
+   "checked": "2026-11-25",
+   "events_found": 7,
+   "followers": 1131,
    "kind": "venue",
+   "last_read": "2026-11-25T08:49+00:00",
+   "mentions": 1,
    "name": "EARTH",
    "readable": true,
+   "reads": 1,
    "venue_done": true,
    "website": null
   },
@@ -2336,6 +2428,11 @@
    "watch": true,
    "website": "https://linktr.ee/HiddenHell"
   },
+  "hineyy.event": {
+   "checked": "2026-11-25",
+   "error": "110: Invalid user id",
+   "readable": false
+  },
   "hiroko_hacci": {
    "bio": "DJ/Singer Giappoletana \nKobe-born Milan-based\n🎧@lecannibaleclub\nI sing/shout in Japanese/English/Italian with weird accent. @tamburineri @lucio_corsi",
    "cands": 6,
@@ -2360,6 +2457,9 @@
   },
   "i_frattaglie": {
    "cands": 2
+  },
+  "i_melo_drama": {
+   "cands": 1
   },
   "ichnos_espressionecorporea": {
    "bio": "Laboratorio di ricerca di Espressione Corporea attivo nella provincia di Bergamo.\n📬 espressionecorporea@gmail.com",
@@ -2516,7 +2616,7 @@
   },
   "inkclub_bergamo": {
    "bio": "MUSICA, CULTURA e cose belle ⚡️\nConcerti • club • radio • arte • birrette\n🎓 Academy → @inkclub.academy\n📍 Bergamo\n↓ Scopri cosa succede a Ink",
-   "cands": 2,
+   "cands": 6,
    "checked": "2026-11-24",
    "events_found": 22,
    "followers": 14697,
@@ -2550,6 +2650,9 @@
    "website": "https://linktr.ee/Insolaze"
   },
   "intercomunaletrash": {
+   "cands": 1
+  },
+  "international": {
    "cands": 1
   },
   "intothewoodsbg": {
@@ -2644,6 +2747,9 @@
   "jurij.razza": {
    "cands": 1
   },
+  "justme.milano": {
+   "cands": 1
+  },
   "kamelotofficial": {
    "cands": 1
   },
@@ -2718,7 +2824,8 @@
    "cands": 2
   },
   "kinodeejay": {
-   "cands": 1
+   "cands": 1,
+   "mentions": 1
   },
   "known.artist2": {
    "cands": 3,
@@ -2950,7 +3057,7 @@
   "lenticchie": {
    "cands": 1,
    "checked": "2026-11-23",
-   "mentions": 2,
+   "mentions": 3,
    "readable": false
   },
   "leonardo_company": {
@@ -2971,6 +3078,9 @@
    "reads": 2,
    "website": "https://linktr.ee/zero4restaurant"
   },
+  "life.in_4s": {
+   "cands": 1
+  },
   "lifedancebergamo": {
    "cands": 9,
    "checked": "2026-11-23",
@@ -2986,6 +3096,17 @@
    "readable": true,
    "reads": 2,
    "website": null
+  },
+  "lipstick.ofc": {
+   "bio": "𝑫𝒂𝒎𝒆 𝒎á𝒔 𝑩𝒂𝒔𝒔𝒉𝒂𝒍𝒍, 𝒎𝒆𝒏𝒐𝒔 𝒃𝒍𝒂 𝒃𝒍𝒂🫦",
+   "checked": "2026-11-25",
+   "followers": 197,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "LIPSTICK",
+   "readable": true,
+   "reads": 1,
+   "website": "https://open.spotify.com/playlist/2HWSGoowEqAw2UG9nCK0XB?si=eu8SR97nRySIW2R1q8bmJg&pi=lYWQV3vGTEGdW"
   },
   "liveclub": {
    "bio": "30 anni di concerti, eventi, party, che hanno celebrato la musica in ogni suo genere!\nAcquista qui i biglietti per i nostri eventi 💘",
@@ -3059,6 +3180,9 @@
    "reads": 2,
    "website": null
   },
+  "lovin_duo": {
+   "cands": 1
+  },
   "lowl_fest": {
    "bio": "DIY non-profit heavy shows ❤️‍🔥\n19-20-21 June 2026, TOO Piacenza",
    "cands": 1,
@@ -3086,6 +3210,9 @@
    "name": "Luke Style",
    "readable": true,
    "website": "https://youtu.be/hyxJ8t8SxmY?is=fa3zYWeBo_qs-oY4"
+  },
+  "m.eetra": {
+   "cands": 2
   },
   "m2oradio": {
    "cands": 1
@@ -3265,7 +3392,17 @@
    "cands": 1
   },
   "merci.night": {
-   "cands": 2
+   "bio": "",
+   "cands": 2,
+   "checked": "2026-11-25",
+   "events_found": 1,
+   "followers": 3189,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "Merci",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "messa_band": {
    "bio": "‘The Spin’ out now.",
@@ -3313,6 +3450,17 @@
   "microfonoaperto": {
    "cands": 1
   },
+  "midimotoridigitali": {
+   "bio": "Technology as the new canvas\n Creiamo esperienze uniche che uniscono arte e nuove tecnologia",
+   "checked": "2026-11-25",
+   "followers": 1639,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "MiDi - Motori Digitali",
+   "readable": true,
+   "reads": 1,
+   "website": "http://linktr.ee/midimotoridigitali/"
+  },
   "milano_music_week": {
    "bio": "Dal 16 al 22 Novembre 2026, torna la settimana più attesa della musica italiana a Milano. Candida il tuo evento 👇🏻",
    "cands": 4,
@@ -3332,8 +3480,15 @@
    "cands": 2
   },
   "milorau4": {
+   "bio": "",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-25",
+   "followers": 11020,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Milo Rau",
+   "readable": true,
+   "website": null
   },
   "mint_lounge": {
    "bio": "via Trieste, 38, Chiuduno (BG)\nAperto ogni venerdi' e sabato. Cocktail, music and party. Dalle 21.00 alle 3.30.\nPer info, click in bio!",
@@ -3382,6 +3537,9 @@
    "name": "Monelle Chiti",
    "readable": true,
    "website": "https://www.micolet.it/armadio/monellechiti?utm_medium=wardrobe&utm_source=micolet&utm_campaign=monellechiti"
+  },
+  "moodymann313": {
+   "cands": 1
   },
   "mosk.music": {
    "cands": 1
@@ -3449,7 +3607,18 @@
    "website": null
   },
   "naif.party": {
-   "cands": 1
+   "bio": "another unusual aperitivo\n©2022\nLatest set on YouTube ⤵️",
+   "cands": 1,
+   "checked": "2026-11-25",
+   "events_found": 9,
+   "followers": 5131,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "mentions": 1,
+   "name": "Naif | Another Unusual Aperitivo",
+   "readable": true,
+   "reads": 1,
+   "website": "https://youtu.be/-TTUTXQPN4o?si=GIS7PLgA2-LJlEah"
   },
   "naotosoundsystem": {
    "cands": 1
@@ -3495,12 +3664,12 @@
   "nightlifebergamo": {
    "bio": "Il punto di riferimento degli eventi a Bergamo e provincia🪩⭐️🆒🥂\n🤝 @nightlifebrescia \nLocali e brand: scrivete PARTNER in DM📥",
    "checked": "2026-11-25",
-   "followers": 11543,
+   "followers": 11541,
    "kind": "scout",
-   "last_read": "2026-11-25T02:47+00:00",
+   "last_read": "2026-11-25T08:49+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 30,
+   "reads": 31,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -3567,6 +3736,19 @@
   },
   "noam_official": {
    "cands": 1
+  },
+  "noche__latina": {
+   "bio": "Tu noche favorita en Bérgamo\n𝗖𝗮𝗱𝗮 𝘃𝗶𝗲𝗿𝗻𝗲𝘀\nBaila. Siente. Repite.🩷💛\n📞 393 592 8872",
+   "checked": "2026-11-25",
+   "events_found": 1,
+   "followers": 506,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "mentions": 1,
+   "name": "Noche Latina",
+   "readable": true,
+   "reads": 1,
+   "website": "https://upass.easy-links.org/ASQM"
   },
   "noidfamilia": {
    "bio": "Pushing Boundaries Since 2015\n28.11 @caffemiro_mantova \n5.12 @auraclubmantova\n12.12 @zeroclub.bg",
@@ -3756,6 +3938,18 @@
    "reads": 9,
    "website": null
   },
+  "otravez_official": {
+   "bio": "El próximo evento:\n05.01 / @bobadillafeelingclub",
+   "checked": "2026-11-25",
+   "events_found": 6,
+   "followers": 1106,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "OtraVez",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "ouch_bruh": {
    "cands": 1
   },
@@ -3894,6 +4088,18 @@
    "watch": true,
    "website": "https://site.fourvenues.com/en/zero-club/events/crystal-castles-night-27-11-2026-F1PW"
   },
+  "pitch__bg": {
+   "bio": "🍸Apericena a Buffet con Djset\n📍@intothewoodsbg \n⌚️18:00-00:30\nInfo e Prenotazioni In Dm",
+   "checked": "2026-11-25",
+   "events_found": 1,
+   "followers": 1099,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "P!TCH",
+   "readable": true,
+   "reads": 1,
+   "website": "https://intothewoods.it/contatti"
+  },
   "piu_voce": {
    "bio": "🎤 Eventi • DJ Set • Live Band \n💍 Matrimoni → @piuwedding\n🎓 Scuola di Musica\n📍 Sede a Grignano (BG)\n💬 Info e collaborazioni in DM",
    "cands": 1,
@@ -4026,8 +4232,36 @@
   "quintessenza": {
    "cands": 1
   },
+  "r.ocks": {
+   "bio": "Hot since 84\n👌🏼\n#digitaldesign #artistofinstagram\n#learnasyougo",
+   "cands": 3,
+   "checked": "2026-11-25",
+   "followers": 32,
+   "kind": "unknown",
+   "name": "rory",
+   "readable": true,
+   "website": null
+  },
+  "r.ocks_": {
+   "mentions": 1
+  },
   "radioautbergamo": {
    "cands": 1
+  },
+  "radioraheem.milano": {
+   "cands": 1
+  },
+  "rapture.exp": {
+   "bio": "LOSE YOURSELF//FIND YOUR RAPTURE.                \n🐍 \nNext event soon ⏳",
+   "checked": "2026-11-25",
+   "events_found": 2,
+   "followers": 336,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "RAPTURE",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "rares_materials": {
    "cands": 1
@@ -4050,7 +4284,7 @@
    "website": "https://linktr.ee/regionelombardia"
   },
   "registrazione": {
-   "cands": 8,
+   "cands": 12,
    "checked": "2026-11-23",
    "readable": false
   },
@@ -4145,6 +4379,12 @@
    "reads": 3,
    "website": null
   },
+  "romainfx852": {
+   "cands": 1
+  },
+  "ryuichi_kawashima": {
+   "cands": 3
+  },
   "s4s_unibg": {
    "cands": 2
   },
@@ -4159,6 +4399,19 @@
    "readable": true,
    "reads": 3,
    "website": "http://www.sabbiemobili.net"
+  },
+  "sabotagemilano": {
+   "bio": "Est. 2009 \n✨ From the soul, y’all ✨",
+   "checked": "2026-11-25",
+   "events_found": 12,
+   "followers": 15656,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "mentions": 1,
+   "name": "Sabotage Milano",
+   "readable": true,
+   "reads": 1,
+   "website": "https://linktr.ee/sabotagemilano"
   },
   "salv_27": {
    "cands": 1
@@ -4194,6 +4447,9 @@
    "checked": "2026-11-24",
    "readable": false
   },
+  "samuelepagliai": {
+   "cands": 1
+  },
   "sandrina_bergamo": {
    "cands": 1
   },
@@ -4222,7 +4478,17 @@
    "website": "https://open.spotify.com/track/4WipiEP1uhAQEfdWDtLi3h?si=hgFnVSl4S16Ut3U7DDP0UA&utm_source=copy-link"
   },
   "savageparty.official": {
-   "mentions": 1
+   "bio": "𝑮𝑬𝑻 𝒀𝑶𝑼𝑹 𝑫𝑶𝑺𝑬\n🗓️ | 28.11 @nikita__land \n☎️ | 3426286277",
+   "checked": "2026-11-25",
+   "events_found": 0,
+   "followers": 4778,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "mentions": 1,
+   "name": "SAVAGE",
+   "readable": true,
+   "reads": 1,
+   "website": "https://wa.me/message/ENJIG52KT7D4N1"
   },
   "savana.king25": {
    "bio": "Bar pub narghilé e musica via Baschenis 3/c Bergamo",
@@ -4417,6 +4683,18 @@
    "mentions": 7,
    "readable": false
   },
+  "spicy.italy": {
+   "bio": "Spicy vibes, Spicy people🌶️",
+   "checked": "2026-11-25",
+   "events_found": 2,
+   "followers": 4067,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "SPICY",
+   "readable": true,
+   "reads": 1,
+   "website": null
+  },
   "spike.hellis": {
    "bio": "",
    "cands": 2,
@@ -4538,7 +4816,7 @@
   },
   "tama_sumo": {
    "bio": "Resident @ Panorama Bar. Ww bookings @higher.ground.agency  booker alexandra@higher-ground.de\nNorth America: michelleerfer@gmail.com",
-   "cands": 3,
+   "cands": 4,
    "checked": "2026-11-24",
    "followers": 8879,
    "kind": "artist",
@@ -4747,6 +5025,9 @@
    "name": "TOON.TV",
    "readable": true,
    "website": "https://linktr.ee/to_on.tv"
+  },
+  "tommymennea": {
+   "cands": 1
   },
   "totem.brewing": {
    "bio": "Ven-Dom BRUNCH | Tutti i giorni lo SPACC1O\n🗓️12 Nov • Fermenti Sonori \n🗓️21 Nov • Groove \n🗓️26 Nov • Fermenti Sonori",
@@ -4988,7 +5269,17 @@
    "website": null
   },
   "vidalocaofficialtour": {
-   "cands": 1
+   "bio": "🔥”𝑊h𝑎𝑡 h𝑎𝑝𝑝𝑒𝑛𝑠 𝑖𝑛 𝑉𝑖𝑑𝑎𝐿𝑜𝑐𝑎, 𝑠𝑡𝑎𝑦𝑠 𝑖𝑛 𝑉𝑖𝑑𝑎𝐿𝑜𝑐𝑎”🔥\nManagement & Booking: Vidalocatour@gmail.com",
+   "cands": 1,
+   "checked": "2026-11-25",
+   "events_found": 2,
+   "followers": 41863,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "VIDA LOCA",
+   "readable": true,
+   "reads": 1,
+   "website": null
   },
   "villaacquaroli": {
    "bio": "Location per matrimoni, eventi aziendali ed altri eventi di vario genere con esclusiva giornaliera e cucina interna. \n#wedding \n#locationmatrimonio",
@@ -5055,7 +5346,7 @@
   },
   "visual_substance": {
    "bio": "@villa.nicola @ikitesnurk\naudiovisual installations and interactive multimedia performances",
-   "cands": 3,
+   "cands": 5,
    "checked": "2026-11-24",
    "followers": 484,
    "kind": "unknown",
@@ -5105,6 +5396,17 @@
    "readable": true,
    "reads": 3,
    "website": "https://we.tl/t-rsviSA4ZOBrwU7ws"
+  },
+  "wearestudiolegale": {
+   "bio": "21.11 @75costez",
+   "checked": "2026-11-25",
+   "followers": 720,
+   "kind": "promoter",
+   "last_read": "2026-11-25T08:49+00:00",
+   "name": "Studio Legale",
+   "readable": true,
+   "reads": 1,
+   "website": "https://whatsapp.com/channel/0029Vb5bsuPLCoWzA0nr2y0i"
   },
   "wemeet.eventi.lombardia": {
    "cands": 1
@@ -5994,8 +6296,15 @@
   },
   "blossom": {
    "count": 1,
+   "done": true,
    "name": "Blossom",
-   "tried": []
+   "tried": [
+    "blossom",
+    "blossomparty",
+    "blossombergamo",
+    "blossombg",
+    "blossom_official"
+   ]
   },
   "boomer party": {
    "count": 2,
@@ -6023,16 +6332,28 @@
   },
   "bum bum night": {
    "count": 1,
+   "done": true,
    "name": "Bùm Bum Night",
-   "tried": []
+   "tried": [
+    "bumbumnight",
+    "bumbumnightparty",
+    "bumbumnightbergamo",
+    "bumbumnightbg",
+    "bumbumnight_official"
+   ]
   },
   "bunker": {
    "count": 1,
    "name": "Bunker",
-   "tried": []
+   "tried": [
+    "bunker",
+    "bunkerparty"
+   ]
   },
   "c est la vie": {
    "count": 1,
+   "done": true,
+   "handle": "cestlavie_bg",
    "name": "C'est la vie",
    "tried": []
   },
@@ -6614,6 +6935,8 @@
   },
   "naif": {
    "count": 1,
+   "done": true,
+   "handle": "naif.party",
    "name": "Naif",
    "tried": []
   },
@@ -6768,6 +7091,8 @@
   },
   "rapture": {
    "count": 1,
+   "done": true,
+   "handle": "rapture.exp",
    "name": "Rapture",
    "tried": []
   },
@@ -7076,6 +7401,8 @@
   },
   "vida loca": {
    "count": 1,
+   "done": true,
+   "handle": "vidalocaofficialtour",
    "name": "Vida Loca",
    "tried": []
   },
@@ -12844,12 +13171,15 @@
    "lat": 45.74818,
    "lon": 9.6169,
    "name": "Parrocchia dei Santi Faustino e Giovita",
+   "removed": false,
    "reviews": 20,
+   "search_checked": "2026-11-25",
    "sources": [
     "eventi"
    ],
    "type": "bar",
-   "website": "http://www.scuolainfanzia-ssfaustinogiovita.it/"
+   "website": "http://www.scuolainfanzia-ssfaustinogiovita.it/",
+   "website_checked": true
   },
   "pasticceria bar la sirena": {
    "address": "Via Dante Alighieri, 11, 24017 Serina BG",
@@ -13974,16 +14304,19 @@
    "capacity_source": "stima",
    "first_seen": "2026-11-25",
    "followers": null,
+   "instagram": "teatrofilodrammaticitreviglio",
    "km": 20.7,
    "lat": 45.52232,
    "lon": 9.59066,
    "name": "Teatro Filodrammatici Treviglio",
+   "removed": false,
    "reviews": 329,
    "sources": [
     "eventi"
    ],
    "type": "live_club",
-   "website": "https://www.teatrofilodrammaticitreviglio.it/"
+   "website": "https://www.teatrofilodrammaticitreviglio.it/",
+   "website_checked": true
   },
   "teatro miela": {
    "auto_vote": 5.2,

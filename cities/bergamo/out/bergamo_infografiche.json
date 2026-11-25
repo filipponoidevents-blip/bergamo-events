@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-25T02:54",
+ "generated": "2026-11-25T08:54",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -92,18 +92,18 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "VIBE",
-      "line2": "Tech House",
-      "time": "00:00",
-      "score": 35.2,
+      "line1": "Code @ Sabbie Mobili",
+      "line2": "Hard Techno",
+      "time": "23:30",
+      "score": 38.2,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
      {
-      "line1": "Code @ Sabbie Mobili",
-      "line2": "Hard Techno",
-      "time": "23:30",
-      "score": 34.2,
+      "line1": "VIBE",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 35.2,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -230,14 +230,6 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Enter the Void @ Nikita",
-      "line2": "Commerciale 360",
-      "time": "00:00",
-      "score": 43.0,
-      "fascia": "serata",
-      "family": "Commerciale"
-     },
-     {
       "line1": "THANKA",
       "line2": "Commerciale",
       "time": "00:00",
@@ -253,6 +245,16 @@
       "fascia": "serata",
       "family": "Commerciale"
      }
+    ],
+    "2026-11-29": [
+     {
+      "line1": "Aperitivo Martini @ Bobadilla Feeling Club",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 43.9,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
     ]
    },
    "Hip Hop / Trap": {
@@ -262,6 +264,16 @@
       "line2": "Trap / Hip Hop",
       "time": "00:00",
       "score": 13.5,
+      "fascia": "serata",
+      "family": "Hip Hop / Trap"
+     }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Savage @ Nikita",
+      "line2": "Trap",
+      "time": "00:00",
+      "score": 51.6,
       "fascia": "serata",
       "family": "Hip Hop / Trap"
      }
@@ -571,12 +583,12 @@
    ],
    "2026-11-29": [
     {
-     "line1": "Daste",
-     "line2": "aperitivo",
+     "line1": "Sabotage @ Daste",
+     "line2": "Hip Hop",
      "time": "19:30",
-     "score": 53.0,
+     "score": 72.5,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "Hip Hop / Trap"
     },
     {
      "line1": "Druso",
@@ -593,6 +605,14 @@
      "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "L'Apéritif by Earth @ Cafeteria",
+     "line2": "House Commerciale",
+     "time": "00:00",
+     "score": 41.5,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "Gabass Subculture @ In Croissanteria Lab",
@@ -635,6 +655,7 @@
    "@decibel_club",
    "@kellerfactory_",
    "@inkclub_bergamo",
+   "@contributo",
    "@consumazione",
    "@discoteca_queen",
    "@daste_bergamo",
@@ -658,8 +679,7 @@
    "@unplug__bg",
    "@officinapanarari",
    "@gres_art_671",
-   "@associazione_luca_coscioni",
-   "@uaar_it"
+   "@associazione_luca_coscioni"
   ],
   "hashtags": [
    "#bergamo",
@@ -671,9 +691,22 @@
   "from": "2026-11-30",
   "to": "2026-12-06",
   "dates_with_serate": [
+   "2026-12-04",
    "2026-12-05"
   ],
   "serate_by_family": {
+   "Altro": {
+    "2026-12-04": [
+     {
+      "line1": "Noche Latina @ THANKA",
+      "line2": "Latin",
+      "time": "00:00",
+      "score": 40.6,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   },
    "House / Elettronica": {
     "2026-12-05": [
      {
@@ -853,9 +886,12 @@
    "@ninfeasocialclub",
    "@emozioni.in.fiore",
    "@reservation",
+   "@contributo",
    "@particolare",
    "@revel_treviglio",
    "@gemboyofficial_",
+   "@thanka.official",
+   "@noche__latina",
    "@quei_bravi_ragazzi_bg",
    "@paolorivapasticceria",
    "@zeroclub.bg",
@@ -873,10 +909,7 @@
    "@alternative",
    "@bloom_mezzago",
    "@dj.sofficino",
-   "@nico.bre1917",
-   "@vibetheclub",
-   "@aliveofficialparty",
-   "@decibel_club"
+   "@nico.bre1917"
   ],
   "hashtags": [
    "#bergamo",
@@ -1226,14 +1259,6 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Enter the Void @ Nikita",
-      "line2": "Commerciale 360",
-      "time": "00:00",
-      "score": 43.0,
-      "fascia": "serata",
-      "family": "Commerciale"
-     },
-     {
       "line1": "THANKA",
       "line2": "Commerciale",
       "time": "00:00",
@@ -1246,6 +1271,16 @@
       "line2": "Commerciale",
       "time": "00:00",
       "score": 37.3,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-11-29": [
+     {
+      "line1": "Aperitivo Martini @ Bobadilla Feeling Club",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 43.9,
       "fascia": "serata",
       "family": "Commerciale"
      }
@@ -1322,18 +1357,18 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "VIBE",
-      "line2": "Tech House",
-      "time": "00:00",
-      "score": 35.2,
+      "line1": "Code @ Sabbie Mobili",
+      "line2": "Hard Techno",
+      "time": "23:30",
+      "score": 38.2,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
      {
-      "line1": "Code @ Sabbie Mobili",
-      "line2": "Hard Techno",
-      "time": "23:30",
-      "score": 34.2,
+      "line1": "VIBE",
+      "line2": "Tech House",
+      "time": "00:00",
+      "score": 35.2,
       "fascia": "serata",
       "family": "House / Elettronica"
      },
@@ -1354,6 +1389,16 @@
       "line2": "Trap / Hip Hop",
       "time": "00:00",
       "score": 13.5,
+      "fascia": "serata",
+      "family": "Hip Hop / Trap"
+     }
+    ],
+    "2026-11-28": [
+     {
+      "line1": "Savage @ Nikita",
+      "line2": "Trap",
+      "time": "00:00",
+      "score": 51.6,
       "fascia": "serata",
       "family": "Hip Hop / Trap"
      }
@@ -1847,12 +1892,12 @@
    ],
    "2026-11-29": [
     {
-     "line1": "Daste",
-     "line2": "aperitivo",
+     "line1": "Sabotage @ Daste",
+     "line2": "Hip Hop",
      "time": "19:30",
-     "score": 53.0,
+     "score": 72.5,
      "fascia": "preserata",
-     "family": "Altro"
+     "family": "Hip Hop / Trap"
     },
     {
      "line1": "Druso",
@@ -1869,6 +1914,14 @@
      "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "L'Apéritif by Earth @ Cafeteria",
+     "line2": "House Commerciale",
+     "time": "00:00",
+     "score": 41.5,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "Gabass Subculture @ In Croissanteria Lab",
@@ -1927,15 +1980,15 @@
    "@henge_cosmicdross",
    "@markthehammer86",
    "@bolgia.official",
+   "@contributo",
    "@consumazione",
    "@discoteca_queen",
    "@ninfeasocialclub",
    "@sabbiemobili_official",
+   "@bobadillafeelingclub",
    "@upside.down.night",
    "@oasi.night",
-   "@premiere.premiere",
-   "@choruslife.bergamo",
-   "@door_74"
+   "@premiere.premiere"
   ],
   "hashtags": [
    "#bergamo",
@@ -1948,6 +2001,7 @@
   "from": "2026-12-01",
   "to": "2026-12-31",
   "dates_with_serate": [
+   "2026-12-04",
    "2026-12-05",
    "2026-12-07",
    "2026-12-11",
@@ -1959,6 +2013,58 @@
    "2026-12-31"
   ],
   "serate_by_family": {
+   "Altro": {
+    "2026-12-04": [
+     {
+      "line1": "Noche Latina @ THANKA",
+      "line2": "Latin",
+      "time": "00:00",
+      "score": 40.6,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-11": [
+     {
+      "line1": "Teatro Miela",
+      "line2": "Indie / Rock",
+      "time": "21:00",
+      "score": 31.8,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-25": [
+     {
+      "line1": "Via Treviglio 2058, Fara Gera d'Adda",
+      "line2": "",
+      "time": "00:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-26": [
+     {
+      "line1": "Charlie Cinelli @ Bloom",
+      "line2": "Rock / Jazz",
+      "time": "00:00",
+      "score": 49.8,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-31": [
+     {
+      "line1": "Via Rossaro, 28",
+      "line2": "",
+      "time": "00:00",
+      "score": 7.7,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ]
+   },
    "House / Elettronica": {
     "2026-12-05": [
      {
@@ -2016,6 +2122,14 @@
       "score": 43.9,
       "fascia": "serata",
       "family": "House / Elettronica"
+     },
+     {
+      "line1": "Naif @ Officina Panarari",
+      "line2": "House, VIII. Deslumbre",
+      "time": "21:00",
+      "score": 24.9,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ]
    },
@@ -2048,56 +2162,6 @@
       "score": 24.3,
       "fascia": "serata",
       "family": "Commerciale"
-     }
-    ]
-   },
-   "Altro": {
-    "2026-12-11": [
-     {
-      "line1": "Teatro Miela",
-      "line2": "Indie / Rock",
-      "time": "21:00",
-      "score": 31.8,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-12-25": [
-     {
-      "line1": "Via Treviglio 2058, Fara Gera d'Adda",
-      "line2": "",
-      "time": "00:00",
-      "score": 7.7,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-12-26": [
-     {
-      "line1": "Charlie Cinelli @ Bloom",
-      "line2": "Rock / Jazz",
-      "time": "00:00",
-      "score": 49.8,
-      "fascia": "serata",
-      "family": "Altro"
-     }
-    ],
-    "2026-12-31": [
-     {
-      "line1": "VIII. Deslumbre @ Officina Panarari",
-      "line2": "",
-      "time": "21:00",
-      "score": 16.1,
-      "fascia": "serata",
-      "family": "Altro"
-     },
-     {
-      "line1": "Via Rossaro, 28",
-      "line2": "",
-      "time": "00:00",
-      "score": 7.7,
-      "fascia": "serata",
-      "family": "Altro"
      }
     ]
    }
@@ -2518,12 +2582,12 @@
    "@teatromiela_trieste",
    "@coreografie",
    "@capogirojoyclub",
+   "@lenticchie",
    "@ninfeasocialclub",
    "@emozioni.in.fiore",
+   "@contributo",
    "@particolare",
-   "@gemboyofficial_",
-   "@quei_bravi_ragazzi_bg",
-   "@paolorivapasticceria"
+   "@gemboyofficial_"
   ],
   "hashtags": [
    "#bergamo",

@@ -6194,10 +6194,17 @@
     "instagram": "uaar_it",
     "level": null,
     "name": "Uaar"
+   },
+   {
+    "followers": null,
+    "instagram": "contributo",
+    "level": null,
+    "name": "contributo"
    }
   ],
   "handles": [
    "associazione_luca_coscioni",
+   "contributo",
    "uaar_it"
   ],
   "headliner": "Anna",
@@ -6649,6 +6656,12 @@
     "name": "Anna"
    },
    {
+    "followers": 11020,
+    "instagram": "milorau4",
+    "level": null,
+    "name": "Milo Rau"
+   },
+   {
     "followers": null,
     "instagram": "spettacoli",
     "level": null,
@@ -6659,12 +6672,6 @@
     "instagram": "prenotazione",
     "level": null,
     "name": "prenotazione"
-   },
-   {
-    "followers": null,
-    "instagram": "milorau4",
-    "level": null,
-    "name": "milorau4"
    }
   ],
   "handles": [
@@ -7754,9 +7761,16 @@
     "instagram": "elettronica",
     "level": null,
     "name": "elettronica"
+   },
+   {
+    "followers": null,
+    "instagram": "contributo",
+    "level": null,
+    "name": "contributo"
    }
   ],
   "handles": [
+   "contributo",
    "corinna_fm",
    "elettronica"
   ],
@@ -8848,7 +8862,7 @@
    "same_family": 4,
    "strongest_rival": "Ventitré @ Nikita"
   },
-  "confidence": 0.7,
+  "confidence": 0.75,
   "date": "2026-11-27",
   "day_note": null,
   "end": null,
@@ -8882,10 +8896,10 @@
   "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/919425995_18456235345120013_7239483683754997656_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NCmVIMcTpfQQ7kNvwFmo_1V&_nc_oc=Adp1eJiIEsdofxaCNADwEkiV5Vw4_h4-rrhtucCjoX5_n-qeL5Q8kr8ZctTQocOwkV0&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=C_qKrxnAJh6J7xFRRKPDYQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRVdyaQyNhisgbgsuQLRlipReUbybuKGwQN_9yLSfpQuw&oe=6B0B8120",
   "in_posts": true,
   "km": 3.9,
-  "lead_days": 5,
+  "lead_days": 6,
   "nightlife": true,
   "party": "Active Party",
-  "posted": "2026-11-22T17:11+00:00",
+  "posted": "2026-11-21T16:55+00:00",
   "price": null,
   "promoter_followers": 1056,
   "promoter_instagram": "activeparty",
@@ -8902,14 +8916,16 @@
    "venue_followers": 5.9
   },
   "sources": [
-   "instagram-locale"
+   "instagram-locale",
+   "instagram-promoter"
   ],
   "start": null,
   "status": "pubblicato",
   "tickets": null,
   "type": "dj set",
   "urls": [
-   "https://www.instagram.com/p/DgDT_qojmfr/"
+   "https://www.instagram.com/p/DgDT_qojmfr/",
+   "https://www.instagram.com/p/DgAtX5WDFjV/"
   ],
   "venue": "VIBE",
   "venue_followers": 11569,
@@ -9164,7 +9180,7 @@
   "competition": {
    "capacity_same_night": 8050,
    "events_same_night": 10,
-   "same_family": 3,
+   "same_family": 2,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "confidence": 0.7,
@@ -9193,7 +9209,7 @@
   "promoter_followers": 4699,
   "promoter_instagram": "cheri.it",
   "promoter_name": "Cheri",
-  "rank_in_night": 3,
+  "rank_in_night": 4,
   "room": null,
   "scope": "zona",
   "score": 45.6,
@@ -9844,7 +9860,7 @@
   "competition": {
    "capacity_same_night": 8150,
    "events_same_night": 10,
-   "same_family": 3,
+   "same_family": 2,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "confidence": 0.95,
@@ -9873,7 +9889,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": "Lova",
-  "rank_in_night": 7,
+  "rank_in_night": 8,
   "room": null,
   "scope": "zona",
   "score": 37.3,
@@ -10009,10 +10025,17 @@
     "instagram": "sezione.8",
     "level": null,
     "name": "Sezione 8"
+   },
+   {
+    "followers": null,
+    "instagram": "contributo",
+    "level": null,
+    "name": "contributo"
    }
   ],
   "handles": [
    "calce.viva.oi",
+   "contributo",
    "inkclub_bergamo",
    "scalpo_punk",
    "sezione.8",
@@ -10414,7 +10437,7 @@
   "competition": {
    "capacity_same_night": 7650,
    "events_same_night": 10,
-   "same_family": 3,
+   "same_family": 0,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "confidence": 0.95,
@@ -10422,20 +10445,13 @@
   "day_note": null,
   "end": null,
   "entry": "a pagamento",
-  "family": "Commerciale",
+  "family": "Hip Hop / Trap",
   "fascia": "serata",
   "fascia_why": "inizia alle 00:00",
   "first_seen": "2026-11-23",
-  "genre": "Commerciale 360",
+  "genre": "Trap",
   "genre_source": "promoter (conoscenze)",
-  "guests": [
-   {
-    "followers": null,
-    "instagram": "savageparty.official",
-    "level": null,
-    "name": "savageparty.official"
-   }
-  ],
+  "guests": [],
   "handles": [
    "savageparty.official"
   ],
@@ -10446,20 +10462,20 @@
   "km": 15.8,
   "lead_days": 6,
   "nightlife": true,
-  "party": "Enter the Void",
+  "party": "Savage",
   "posted": "2026-11-22T22:00+00:00",
   "price": null,
-  "promoter_followers": null,
-  "promoter_instagram": null,
-  "promoter_name": "Enter the Void",
-  "rank_in_night": 4,
+  "promoter_followers": 4778,
+  "promoter_instagram": "savageparty.official",
+  "promoter_name": "Savage",
+  "rank_in_night": 3,
   "room": null,
   "scope": "zona",
-  "score": 43.0,
+  "score": 51.6,
   "score_parts": {
    "capacity": 7.3,
    "guest": 0.0,
-   "promoter": 0.0,
+   "promoter": 4.3,
    "venue": 7,
    "venue_followers": 7.4
   },
@@ -10767,14 +10783,14 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": "Code",
-  "rank_in_night": 9,
+  "rank_in_night": 7,
   "room": null,
   "scope": "zona",
-  "score": 34.2,
+  "score": 38.2,
   "score_parts": {
    "capacity": 5.6,
    "guest": 0.0,
-   "promoter": 0.0,
+   "promoter": 2.0,
    "venue": 6,
    "venue_followers": 5.2
   },
@@ -10988,7 +11004,7 @@
   "competition": {
    "capacity_same_night": 7650,
    "events_same_night": 10,
-   "same_family": 3,
+   "same_family": 2,
    "strongest_rival": "Miss DIVINA Fulvio Facchinetti @ Divina Music Bar"
   },
   "confidence": 0.7,
@@ -11083,7 +11099,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 8,
+  "rank_in_night": 9,
   "room": null,
   "scope": "zona",
   "score": 35.2,
@@ -11341,10 +11357,10 @@
   "capacity_source": "stima",
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 0,
-   "events_same_night": 0,
+   "capacity_same_night": 500,
+   "events_same_night": 1,
    "same_family": 0,
-   "strongest_rival": null
+   "strongest_rival": "Aperitivo Martini @ Bobadilla Feeling Club"
   },
   "confidence": 0.8,
   "date": "2026-11-29",
@@ -11372,7 +11388,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 1,
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
   "score": 7.7,
@@ -11537,6 +11553,146 @@
   "venue_type": "bar",
   "weekday": "domenica"
  },
+ "2026-11-29-bobadilla_feeling_club": {
+  "address": "Via Pascolo, 34, 24044 Dalmine BG",
+  "brand": null,
+  "capacity": 500,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 100,
+   "events_same_night": 1,
+   "same_family": 0,
+   "strongest_rival": "Kaleidoscopic Cello @ Aula Magna, sede di Sant'Agostino"
+  },
+  "confidence": 0.7,
+  "date": "2026-11-29",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Commerciale",
+  "fascia": "serata",
+  "fascia_why": "locale di solito serata",
+  "first_seen": "2026-11-25",
+  "genre": "Commerciale",
+  "genre_source": "promoter (conoscenze)",
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-11-29-bobadilla_feeling_club",
+  "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/907405124_122208055934838514_5347925806130219315_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fTYSJBYF4-gQ7kNvwFiK_ut&_nc_oc=Adr96XPzd-d6GTsg9CJbzSCEUbg21KdcdR4o3moI6nDydTt_SDpifVX_O_XRizaT-OI&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=vKizLfy73ulzM5tF1E_5BA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS-Dkj0k6-qGFxD8R6t0nPR_xQpVPHRk7SqX4hMU_V1Jw&oe=6B0C7314",
+  "in_posts": true,
+  "km": 9.1,
+  "lead_days": 5,
+  "nightlife": true,
+  "party": "Aperitivo Martini",
+  "posted": "2026-11-24T16:00+00:00",
+  "price": null,
+  "promoter_followers": 2356,
+  "promoter_instagram": "aperitivomartini",
+  "promoter_name": "Aperitivo Martini",
+  "rank_in_night": 1,
+  "room": null,
+  "scope": "zona",
+  "score": 43.9,
+  "score_parts": {
+   "capacity": 5.6,
+   "guest": 0.0,
+   "promoter": 2.9,
+   "venue": 6,
+   "venue_followers": 7.8
+  },
+  "sources": [
+   "instagram-promoter"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DgIVaJkmQ93/"
+  ],
+  "venue": "Bobadilla Feeling Club",
+  "venue_followers": 31660,
+  "venue_instagram": "bobadillafeelingclub",
+  "venue_known": true,
+  "venue_type": "club",
+  "weekday": "domenica"
+ },
+ "2026-11-29-cafeteria": {
+  "address": "Viale Europa, 32, 24048 Treviolo BG",
+  "brand": null,
+  "capacity": 100,
+  "capacity_source": "stima",
+  "city": null,
+  "competition": {
+   "capacity_same_night": 1600,
+   "events_same_night": 7,
+   "same_family": 1,
+   "strongest_rival": "Sabotage @ Daste"
+  },
+  "confidence": 0.55,
+  "date": "2026-11-29",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "House / Elettronica",
+  "fascia": "preserata",
+  "fascia_why": "locale di solito preserata",
+  "first_seen": "2026-11-25",
+  "genre": "House Commerciale",
+  "genre_source": "promoter (conoscenze)",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "kinodeejay",
+    "level": null,
+    "name": "kinodeejay"
+   }
+  ],
+  "handles": [
+   "kinodeejay"
+  ],
+  "headliner": null,
+  "id": "2026-11-29-cafeteria",
+  "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/925123264_17967983478198291_831666850607564025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=rOoPJ42BNmgQ7kNvwHL1oA_&_nc_oc=AdpS-UheQ7Wf_XrkGjt0PSHatsX3BAGRpjYVcZuyX_RSEUlCqRi8qAVFJIrfq2CDFqA&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hWSE_UFyahoV1m_fyMx_1A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS4G_csHKT1gVb1OXpueqYuT2_bNT7Fnx30Bfl_PluL6g&oe=6B0C57A2",
+  "in_posts": true,
+  "km": 4.0,
+  "lead_days": 5,
+  "nightlife": true,
+  "party": "L'Apéritif by Earth",
+  "posted": "2026-11-24T11:53+00:00",
+  "price": null,
+  "promoter_followers": 1131,
+  "promoter_instagram": "earth_ofc",
+  "promoter_name": "L'Apéritif by Earth",
+  "rank_in_night": 4,
+  "room": null,
+  "scope": "zona",
+  "score": 41.5,
+  "score_parts": {
+   "capacity": 1.7,
+   "distance": 8.4,
+   "promoter": 1.5,
+   "venue_followers": 4.5
+  },
+  "sources": [
+   "instagram-promoter"
+  ],
+  "start": null,
+  "status": "pubblicato",
+  "tickets": null,
+  "type": "dj set",
+  "urls": [
+   "https://www.instagram.com/p/DgH5G8iCKDp/"
+  ],
+  "venue": "Cafeteria",
+  "venue_followers": 5433,
+  "venue_instagram": "cafeteriatreviolo",
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "domenica"
+ },
  "2026-11-29-chorus_life_bergamo_via_carlo_serassi_26-pre": {
   "address": "Via Carlo",
   "brand": null,
@@ -11682,25 +11838,33 @@
   "capacity_source": "conoscenze",
   "city": "Bergamo",
   "competition": {
-   "capacity_same_night": 1200,
-   "events_same_night": 6,
-   "same_family": 3,
+   "capacity_same_night": 1300,
+   "events_same_night": 7,
+   "same_family": 0,
    "strongest_rival": "Druso @ Druso"
   },
-  "confidence": 0.9,
+  "confidence": 0.95,
   "date": "2026-11-29",
   "day_note": null,
   "end": null,
   "entry": "a pagamento",
-  "family": "Altro",
+  "family": "Hip Hop / Trap",
   "fascia": "preserata",
   "fascia_why": "inizia alle 19:30",
   "first_seen": "2026-11-24",
-  "genre": null,
-  "genre_source": null,
-  "guests": [],
+  "genre": "Hip Hop",
+  "genre_source": "promoter (conoscenze)",
+  "guests": [
+   {
+    "followers": null,
+    "instagram": "r.ocks_",
+    "level": null,
+    "name": "r.ocks_"
+   }
+  ],
   "handles": [
-   "intrecci_ati"
+   "intrecci_ati",
+   "r.ocks_"
   ],
   "headliner": null,
   "id": "2026-11-29-daste-pre",
@@ -11709,31 +11873,33 @@
   "km": 1.1,
   "lead_days": 7,
   "nightlife": true,
-  "party": null,
+  "party": "Sabotage",
   "posted": "2026-11-22T16:12+00:00",
   "price": 31,
-  "promoter_followers": null,
-  "promoter_instagram": null,
-  "promoter_name": null,
+  "promoter_followers": 15656,
+  "promoter_instagram": "sabotagemilano",
+  "promoter_name": "Sabotage",
   "rank_in_night": 1,
   "room": null,
   "scope": "zona",
-  "score": 53.0,
+  "score": 72.5,
   "score_parts": {
    "capacity": 5.1,
    "distance": 9.6,
-   "promoter": 0.0,
+   "promoter": 6.5,
    "venue_followers": 7.1
   },
   "sources": [
-   "instagram-locale"
+   "instagram-locale",
+   "instagram-promoter"
   ],
   "start": "19:30",
   "status": "pubblicato",
   "tickets": null,
   "type": "aperitivo",
   "urls": [
-   "https://www.instagram.com/p/DgDNPFnsuSc/"
+   "https://www.instagram.com/p/DgDNPFnsuSc/",
+   "https://www.instagram.com/p/DgH8EoTjZ8J/"
   ],
   "venue": "Daste",
   "venue_followers": 21375,
@@ -11749,10 +11915,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 1400,
-   "events_same_night": 6,
+   "capacity_same_night": 1500,
+   "events_same_night": 7,
    "same_family": 1,
-   "strongest_rival": "Daste @ Daste"
+   "strongest_rival": "Sabotage @ Daste"
   },
   "confidence": 0.95,
   "date": "2026-11-29",
@@ -11787,7 +11953,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 5,
+  "rank_in_night": 6,
   "room": "sala 1",
   "scope": "zona",
   "score": 30.9,
@@ -11821,10 +11987,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 1400,
-   "events_same_night": 6,
+   "capacity_same_night": 1500,
+   "events_same_night": 7,
    "same_family": 1,
-   "strongest_rival": "Daste @ Daste"
+   "strongest_rival": "Sabotage @ Daste"
   },
   "confidence": 0.95,
   "date": "2026-11-29",
@@ -11859,7 +12025,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 6,
+  "rank_in_night": 7,
   "room": "sala 2",
   "scope": "zona",
   "score": 30.9,
@@ -11893,10 +12059,10 @@
   "capacity_source": "stima",
   "city": "Ranica",
   "competition": {
-   "capacity_same_night": 1300,
-   "events_same_night": 6,
-   "same_family": 3,
-   "strongest_rival": "Daste @ Daste"
+   "capacity_same_night": 1400,
+   "events_same_night": 7,
+   "same_family": 2,
+   "strongest_rival": "Sabotage @ Daste"
   },
   "confidence": 0.9,
   "date": "2026-11-29",
@@ -11960,10 +12126,10 @@
   "capacity_source": null,
   "city": "Carobbio degli Angeli",
   "competition": {
-   "capacity_same_night": 1600,
-   "events_same_night": 6,
-   "same_family": 0,
-   "strongest_rival": "Daste @ Daste"
+   "capacity_same_night": 1700,
+   "events_same_night": 7,
+   "same_family": 1,
+   "strongest_rival": "Sabotage @ Daste"
   },
   "confidence": 0.9,
   "date": "2026-11-29",
@@ -11993,7 +12159,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": "Gabass Subculture",
-  "rank_in_night": 4,
+  "rank_in_night": 5,
   "room": null,
   "scope": "zona",
   "score": 35.3,
@@ -12028,10 +12194,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 1200,
-   "events_same_night": 6,
-   "same_family": 3,
-   "strongest_rival": "Daste @ Daste"
+   "capacity_same_night": 1300,
+   "events_same_night": 7,
+   "same_family": 2,
+   "strongest_rival": "Sabotage @ Daste"
   },
   "confidence": 0.95,
   "date": "2026-11-29",
@@ -12175,10 +12341,10 @@
   "capacity_source": "stima",
   "city": null,
   "competition": {
-   "capacity_same_night": 1500,
-   "events_same_night": 6,
-   "same_family": 3,
-   "strongest_rival": "Daste @ Daste"
+   "capacity_same_night": 1600,
+   "events_same_night": 7,
+   "same_family": 2,
+   "strongest_rival": "Sabotage @ Daste"
   },
   "confidence": 0.9,
   "date": "2026-11-29",
@@ -12215,7 +12381,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 7,
+  "rank_in_night": 8,
   "room": null,
   "scope": "zona",
   "score": 8.8,
@@ -12861,12 +13027,19 @@
   "guests": [
    {
     "followers": null,
+    "instagram": "contributo",
+    "level": null,
+    "name": "contributo"
+   },
+   {
+    "followers": null,
     "instagram": "particolare",
     "level": null,
     "name": "particolare"
    }
   ],
   "handles": [
+   "contributo",
    "particolare"
   ],
   "headliner": null,
@@ -13180,6 +13353,64 @@
   "venue_type": "bar",
   "weekday": "venerdì"
  },
+ "2026-12-04-lounge_garibaldi_treviglio-pre": {
+  "address": "Piazza Garibaldi, 7G, 24047 Treviglio BG",
+  "brand": null,
+  "capacity": 100,
+  "capacity_source": "stima",
+  "city": null,
+  "confidence": 0.8,
+  "date": "2026-12-04",
+  "day_note": null,
+  "end": null,
+  "entry": null,
+  "family": "Altro",
+  "fascia": "preserata",
+  "fascia_why": "inizia alle 20:30",
+  "first_seen": "2026-11-25",
+  "genre": null,
+  "genre_source": null,
+  "guests": [],
+  "handles": [],
+  "headliner": null,
+  "id": "2026-12-04-lounge_garibaldi_treviglio-pre",
+  "image": null,
+  "in_posts": true,
+  "km": 20.8,
+  "lead_days": null,
+  "nightlife": false,
+  "party": "Tributo al Maestro Luciano Fanton",
+  "posted": null,
+  "price": null,
+  "promoter_followers": null,
+  "promoter_instagram": null,
+  "promoter_name": null,
+  "room": null,
+  "scope": "zona",
+  "score": 6.8,
+  "score_parts": {
+   "capacity": 1.7,
+   "distance": 1.7,
+   "promoter": 0.0,
+   "venue_followers": 0.0
+  },
+  "sources": [
+   "agenda"
+  ],
+  "start": "20:30",
+  "status": "pubblicato",
+  "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/treviglio/tributo-al-maestro-luciano-fanton_307010/",
+  "type": "evento",
+  "urls": [
+   "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/treviglio/tributo-al-maestro-luciano-fanton_307010/"
+  ],
+  "venue": "Lounge Garibaldi Treviglio",
+  "venue_followers": null,
+  "venue_instagram": null,
+  "venue_known": true,
+  "venue_type": "bar",
+  "weekday": "venerdì"
+ },
  "2026-12-04-nxt_bergamo-pre": {
   "address": "Piazzale degli Alpini, 24121 Bergamo BG",
   "brand": null,
@@ -13303,7 +13534,7 @@
   "venue_type": "bar",
   "weekday": "venerdì"
  },
- "2026-12-04-parrocchia_dei_ss_faustino_e_giovita-pre": {
+ "2026-12-04-parrocchia_dei_santi_faustino_e_giovita-pre": {
   "address": "Piazza Don Giacomo Carboni, 5/A, 24018 Villa d'Almè BG",
   "brand": null,
   "capacity": 100,
@@ -13329,7 +13560,7 @@
   "guests": [],
   "handles": [],
   "headliner": null,
-  "id": "2026-12-04-parrocchia_dei_ss_faustino_e_giovita-pre",
+  "id": "2026-12-04-parrocchia_dei_santi_faustino_e_giovita-pre",
   "image": null,
   "in_posts": true,
   "km": 7.3,
@@ -13435,62 +13666,70 @@
   "venue_type": "bar",
   "weekday": "venerdì"
  },
- "2026-12-04-teatro_filodrammatici-pre": {
-  "address": "Piazza Garibaldi, 7G, 24047 Treviglio BG",
+ "2026-12-04-thanka": {
+  "address": "Via Nazionale, 93, 24068 Seriate BG",
   "brand": null,
-  "capacity": 100,
+  "capacity": 1000,
   "capacity_source": "stima",
   "city": null,
-  "confidence": 0.8,
+  "competition": {
+   "capacity_same_night": 0,
+   "events_same_night": 0,
+   "same_family": 0,
+   "strongest_rival": null
+  },
+  "confidence": 0.9,
   "date": "2026-12-04",
   "day_note": null,
   "end": null,
   "entry": null,
   "family": "Altro",
-  "fascia": "preserata",
-  "fascia_why": "inizia alle 20:30",
+  "fascia": "serata",
+  "fascia_why": "locale di solito serata",
   "first_seen": "2026-11-25",
-  "genre": null,
-  "genre_source": null,
+  "genre": "Latin",
+  "genre_source": "promoter (conoscenze)",
   "guests": [],
   "handles": [],
   "headliner": null,
-  "id": "2026-12-04-teatro_filodrammatici-pre",
-  "image": null,
+  "id": "2026-12-04-thanka",
+  "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/925130515_18113500376199767_6606879914858982401_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=aVrpvRJ7NnUQ7kNvwGMUM5s&_nc_oc=AdprPXGR67OqKRMB4Y8JXyl4zPDHHiOhOrd0RRlso5Zv82C2ixnCri1hiJwbyuc9QFI&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=tPQHR1z3IVxChu3TAq3E9g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ5cHE9zCYa6tStX6jIB67tupyMaB_ib0N0wXYNVlRdSQ&oe=6B0C7EE2",
   "in_posts": true,
-  "km": 20.8,
-  "lead_days": null,
-  "nightlife": false,
-  "party": "Tributo al Maestro Luciano Fanton",
-  "posted": null,
+  "km": 5.0,
+  "lead_days": 10,
+  "nightlife": true,
+  "party": "Noche Latina",
+  "posted": "2026-11-24T15:32+00:00",
   "price": null,
-  "promoter_followers": null,
-  "promoter_instagram": null,
-  "promoter_name": null,
+  "promoter_followers": 506,
+  "promoter_instagram": "noche__latina",
+  "promoter_name": "Noche Latina",
+  "rank_in_night": 1,
   "room": null,
   "scope": "zona",
-  "score": 6.8,
+  "score": 40.6,
   "score_parts": {
-   "capacity": 1.7,
-   "distance": 1.7,
+   "capacity": 7.3,
+   "guest": 0.0,
    "promoter": 0.0,
-   "venue_followers": 0.0
+   "venue": 6,
+   "venue_followers": 7.8
   },
   "sources": [
-   "agenda"
+   "instagram-promoter"
   ],
-  "start": "20:30",
+  "start": null,
   "status": "pubblicato",
-  "tickets": "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/treviglio/tributo-al-maestro-luciano-fanton_307010/",
-  "type": "evento",
+  "tickets": null,
+  "type": "dj set",
   "urls": [
-   "https://www.ecodibergamo.it/eventi/eppen/dettaglio/musica/treviglio/tributo-al-maestro-luciano-fanton_307010/"
+   "https://www.instagram.com/p/DgISRkqDHx_/"
   ],
-  "venue": "Lounge Garibaldi Treviglio",
-  "venue_followers": null,
-  "venue_instagram": null,
+  "venue": "THANKA",
+  "venue_followers": 30849,
+  "venue_instagram": "thanka.official",
   "venue_known": true,
-  "venue_type": "bar",
+  "venue_type": "club",
   "weekday": "venerdì"
  },
  "2026-12-05-bloom": {
@@ -16435,7 +16674,7 @@
   "lead_days": 20,
   "nightlife": false,
   "party": null,
-  "posted": "2026-11-25T02:54+00:00",
+  "posted": "2026-11-25T08:53+00:00",
   "price": null,
   "promoter_followers": null,
   "promoter_instagram": null,
@@ -17687,8 +17926,8 @@
   "competition": {
    "capacity_same_night": 500,
    "events_same_night": 3,
-   "same_family": 0,
-   "strongest_rival": "Keller Factory 2.0 - Live Music Pub @ Keller Factory 2.0 - Live Music Pub"
+   "same_family": 1,
+   "strongest_rival": "Naif @ Officina Panarari"
   },
   "confidence": 0.95,
   "date": "2026-12-31",
@@ -17803,7 +18042,7 @@
   "promoter_followers": null,
   "promoter_instagram": null,
   "promoter_name": null,
-  "rank_in_night": 2,
+  "rank_in_night": 3,
   "room": null,
   "scope": "zona",
   "score": 24.3,
@@ -17843,17 +18082,17 @@
    "same_family": 1,
    "strongest_rival": "utōpia @ Daste"
   },
-  "confidence": 0.95,
+  "confidence": 0.99,
   "date": "2026-12-31",
   "day_note": "Capodanno (veglione)",
   "end": null,
   "entry": "a pagamento",
-  "family": "Altro",
+  "family": "House / Elettronica",
   "fascia": "serata",
   "fascia_why": "finisce a tarda notte",
   "first_seen": "2026-11-23",
-  "genre": null,
-  "genre_source": null,
+  "genre": "House",
+  "genre_source": "promoter (conoscenze)",
   "guests": [
    {
     "followers": 556,
@@ -17866,10 +18105,17 @@
     "instagram": "prenotazione",
     "level": null,
     "name": "prenotazione"
+   },
+   {
+    "followers": null,
+    "instagram": "lenticchie",
+    "level": null,
+    "name": "lenticchie"
    }
   ],
   "handles": [
    "consumazione",
+   "lenticchie",
    "prenotazione"
   ],
   "headliner": "VIII. Deslumbre",
@@ -17877,34 +18123,36 @@
   "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.82787-15/923290903_17971309800210603_5440596680571627052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=oCea8Ai1mxUQ7kNvwHjfk8N&_nc_oc=Adr4N74Lx3vxCRs0lJtsD7qOCR7HgkEAZn9eATFQ4ZWPkQCdX69B9e5yTo801q33hMY&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=825m0gh9u3kZYAv38bqPfw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTZfyeGK5LGX-WM2cWEjbYChCuBsdanVjHuXMKCya5gfg&oe=6B0B794F",
   "in_posts": true,
   "km": 20.8,
-  "lead_days": 38,
+  "lead_days": 39,
   "nightlife": true,
-  "party": null,
-  "posted": "2026-11-23T12:58+00:00",
+  "party": "Naif",
+  "posted": "2026-11-22T17:10+00:00",
   "price": 25,
-  "promoter_followers": null,
-  "promoter_instagram": null,
-  "promoter_name": null,
-  "rank_in_night": 3,
+  "promoter_followers": 5131,
+  "promoter_instagram": "naif.party",
+  "promoter_name": "Naif",
+  "rank_in_night": 2,
   "room": null,
   "scope": "zona",
-  "score": 16.1,
+  "score": 24.9,
   "score_parts": {
    "capacity": 0.0,
    "guest": 0.2,
-   "promoter": 0.0,
+   "promoter": 4.4,
    "venue": 3,
    "venue_followers": 4.5
   },
   "sources": [
-   "instagram-locale"
+   "instagram-locale",
+   "instagram-promoter"
   ],
   "start": "21:00",
   "status": "pubblicato",
   "tickets": null,
   "type": "dj set",
   "urls": [
-   "https://www.instagram.com/p/DgFbyrICJvq/"
+   "https://www.instagram.com/p/DgFbyrICJvq/",
+   "https://www.instagram.com/p/DgDTzDIiP4E/"
   ],
   "venue": "Officina Panarari",
   "venue_followers": 5394,
@@ -17922,7 +18170,7 @@
   "competition": {
    "capacity_same_night": 800,
    "events_same_night": 3,
-   "same_family": 1,
+   "same_family": 0,
    "strongest_rival": "utōpia @ Daste"
   },
   "confidence": 0.9,
@@ -18855,11 +19103,18 @@
     "instagram": "regionelombardia.official",
     "level": null,
     "name": "Regione Lombardia"
+   },
+   {
+    "followers": null,
+    "instagram": "contributo",
+    "level": null,
+    "name": "contributo"
    }
   ],
   "handles": [
    "bloom_mezzago",
    "bloomcinema_mezzago",
+   "contributo",
    "regionelombardia.official"
   ],
   "headliner": "Regione Lombardia",

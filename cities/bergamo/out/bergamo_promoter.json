@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-25T02:54",
+ "generated": "2026-11-25T08:54",
  "nights": [
   {
    "date": "2026-11-25",
@@ -111,18 +111,16 @@
    "note": null,
    "weekend_like": true,
    "events": 11,
-   "load": 456.7,
+   "load": 469.3,
    "level": "piena",
    "capacity_taken": 8650,
    "by_family": {
     "House / Elettronica": 5,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 4,
+    "Hip Hop / Trap": 1,
+    "Commerciale": 3,
     "Altro": 2
    },
-   "missing_families": [
-    "Hip Hop / Trap"
-   ],
+   "missing_families": [],
    "top": [
     {
      "title": "Divina Music Bar · Miss DIVINA Fulvio Facchinetti",
@@ -135,14 +133,14 @@
      "capacity": 3000
     },
     {
+     "title": "[Trap] Nikita · Savage",
+     "score": 51.6,
+     "capacity": 1000
+    },
+    {
      "title": "[Commerciale] Capogiro · Cheri",
      "score": 45.6,
      "capacity": 600
-    },
-    {
-     "title": "[Commerciale 360] Nikita · Enter the Void",
-     "score": 43.0,
-     "capacity": 1000
     },
     {
      "title": "[Commerciale] THANKA",
@@ -156,22 +154,26 @@
    "weekday": "domenica",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 7.7,
+   "events": 2,
+   "load": 51.6,
    "level": "tranquilla",
-   "capacity_taken": 100,
+   "capacity_taken": 600,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
    "top": [
+    {
+     "title": "[Commerciale] Bobadilla Feeling Club · Aperitivo Martini",
+     "score": 43.9,
+     "capacity": 500
+    },
     {
      "title": "Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello",
      "score": 7.7,
@@ -272,22 +274,28 @@
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 40.6,
    "level": "libera",
-   "capacity_taken": 0,
+   "capacity_taken": 1000,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
-    "Altro": 0
+    "Altro": 1
    },
    "missing_families": [
     "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Latin] THANKA · Noche Latina",
+     "score": 40.6,
+     "capacity": 1000
+    }
+   ]
   },
   {
    "date": "2026-12-05",
@@ -919,14 +927,14 @@
    "note": "Capodanno (veglione)",
    "weekend_like": true,
    "events": 4,
-   "load": 92.0,
+   "load": 100.8,
    "level": "media",
    "capacity_taken": 900,
    "by_family": {
-    "House / Elettronica": 1,
+    "House / Elettronica": 2,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
-    "Altro": 2
+    "Altro": 1
    },
    "missing_families": [
     "Hip Hop / Trap"
@@ -938,14 +946,14 @@
      "capacity": 400
     },
     {
+     "title": "[House] Officina Panarari · Naif w/ VIII. Deslumbre",
+     "score": 24.9,
+     "capacity": null
+    },
+    {
      "title": "[Revival] Keller Factory 2.0 - Live Music Pub",
      "score": 24.3,
      "capacity": 400
-    },
-    {
-     "title": "Officina Panarari · VIII. Deslumbre",
-     "score": 16.1,
-     "capacity": null
     },
     {
      "title": "Via Rossaro, 28",
