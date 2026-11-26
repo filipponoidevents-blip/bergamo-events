@@ -1,20 +1,20 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-26T09:01",
+ "generated": "2026-11-26T19:55",
  "nights": [
   {
    "date": "2026-11-26",
    "weekday": "giovedì",
    "note": null,
    "weekend_like": false,
-   "events": 1,
-   "load": 31.8,
-   "level": "tranquilla",
-   "capacity_taken": 300,
+   "events": 2,
+   "load": 91.7,
+   "level": "media",
+   "capacity_taken": 1300,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 1,
+    "Commerciale": 2,
     "Altro": 0
    },
    "missing_families": [
@@ -22,6 +22,11 @@
     "Hip Hop / Trap"
    ],
    "top": [
+    {
+     "title": "[Commerciale] Nikita · Vida Loca",
+     "score": 59.9,
+     "capacity": 1000
+    },
     {
      "title": "[Commerciale] Casa Costez",
      "score": 31.8,

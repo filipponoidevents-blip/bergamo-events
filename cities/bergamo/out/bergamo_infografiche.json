@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-26T09:01",
+ "generated": "2026-11-26T19:55",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -196,6 +196,14 @@
      }
     ],
     "2026-11-26": [
+     {
+      "line1": "Vida Loca @ Nikita",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 59.9,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
      {
       "line1": "Casa Costez",
       "line2": "Commerciale",
@@ -454,7 +462,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "NXT Bergamo",
+     "line1": "Zonca Legramandi Sacchitella Band @ NXT Bergamo",
      "line2": "Jazz / Revival",
      "time": "21:30",
      "score": 58.6,
@@ -590,6 +598,14 @@
      "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "L'Apéritif by Earth @ Cafeteria",
+     "line2": "House Commerciale, DJ KINO",
+     "time": "18:30",
+     "score": 41.5,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "Il Circolino della Malpensata",
@@ -742,6 +758,7 @@
    "@consumazione",
    "@discoteca_queen",
    "@daste_bergamo",
+   "@nikita__land",
    "@ninfeasocialclub",
    "@sabbiemobili_official",
    "@drusobg",
@@ -749,7 +766,6 @@
    "@possibilita",
    "@csapacipaciana",
    "@revel_treviglio",
-   "@nikita__land",
    "@vibetheclub",
    "@utopia.direction",
    "@corinna_fm",
@@ -757,12 +773,12 @@
    "@cheri.it",
    "@scalpo_punk",
    "@sezione.8",
+   "@cafeteriatreviolo",
+   "@earth_ofc",
+   "@kinodeejay",
    "@liveclub",
    "@bloom_mezzago",
-   "@spike.hellis",
-   "@lowl_fest",
-   "@www.bloomnet",
-   "@door_74"
+   "@spike.hellis"
   ],
   "hashtags": [
    "#bergamo",
@@ -1357,6 +1373,14 @@
     ],
     "2026-11-26": [
      {
+      "line1": "Vida Loca @ Nikita",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 59.9,
+      "fascia": "serata",
+      "family": "Commerciale"
+     },
+     {
       "line1": "Casa Costez",
       "line2": "Commerciale",
       "time": "00:00",
@@ -1894,7 +1918,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "NXT Bergamo",
+     "line1": "Zonca Legramandi Sacchitella Band @ NXT Bergamo",
      "line2": "Jazz / Revival",
      "time": "21:30",
      "score": 58.6,
@@ -2030,6 +2054,14 @@
      "score": 42.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "L'Apéritif by Earth @ Cafeteria",
+     "line2": "House Commerciale, DJ KINO",
+     "time": "18:30",
+     "score": 41.5,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "Il Circolino della Malpensata",
@@ -2179,10 +2211,10 @@
    "@barleyartsreal",
    "@alchemica_club",
    "@drusobg",
+   "@nikita__land",
    "@decibel_club",
    "@divinabergamo",
    "@vibetheclub",
-   "@nikita__land",
    "@daste_bergamo",
    "@kellerfactory_",
    "@liveclub",

@@ -288,7 +288,9 @@
    "cands": 1
   },
   "andreacosen_": {
-   "mentions": 1
+   "checked": "2026-11-26",
+   "mentions": 1,
+   "readable": false
   },
   "andreadegrada_photographer": {
    "bio": "💡\nAndrea Degrada Fotografia Creativa di Prodotti Creo foto per promuovere in modo coinvolgente mettendo in risalto il valore del tuo prodotto",
@@ -379,15 +381,15 @@
   },
   "aperitivomartini": {
    "bio": "L’aperitivo domenicale, quello vero! 🍹\nTutte le domeniche al @bobadillafeelingclub 👈🏻",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 18,
-   "followers": 2356,
+   "followers": 2359,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "mentions": 1,
    "name": "Aperitivo Martini",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "apriti.cielo": {
@@ -821,7 +823,7 @@
   },
   "bluesquare.milano": {
    "bio": "asian-inspired piattini • sushi • music bar\nopen 7 days\nbrunch sat & sun 12pm - 4pm\n• ~ \nvia Tortona 33, Milan\nbook a table / events program👇🏼",
-   "cands": 3,
+   "cands": 4,
    "checked": "2026-11-25",
    "events_found": 4,
    "followers": 18069,
@@ -858,13 +860,13 @@
   },
   "boheme.it": {
    "bio": "🌿 Event from Bergamo, Milano IT\n🪇 Afro House, Melodic Techno\n🪭 STAY TUNED ☀️",
-   "checked": "2026-11-25",
-   "followers": 773,
+   "checked": "2026-11-26",
+   "followers": 772,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "boheme",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "bolgia.official": {
@@ -967,14 +969,14 @@
   },
   "bucolic.party": {
    "bio": "Profilo official dei Mega festini Bucolici\nBergamo 🇮🇹\nHosted by @badge.27\nParty simple, party hard. 👽🧨💥",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 4,
    "followers": 335,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "Bucolic party",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "bumbumfestival": {
@@ -1246,14 +1248,14 @@
   "cestlavie_bg": {
    "bio": "",
    "cands": 1,
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 1,
-   "followers": 1053,
+   "followers": 1052,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "C’est la vie",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://upass.easy-links.org/E7PY"
   },
   "cgtv_it": {
@@ -2065,15 +2067,15 @@
   "earth_ofc": {
    "bio": "Chill Eat Drink Repeat\nTutte le domeniche in @cafeteriatreviolo",
    "cands": 5,
-   "checked": "2026-11-25",
-   "events_found": 7,
-   "followers": 1131,
+   "checked": "2026-11-26",
+   "events_found": 8,
+   "followers": 1129,
    "kind": "venue",
-   "last_read": "2026-11-25T08:49+00:00",
-   "mentions": 1,
+   "last_read": "2026-11-26T19:48+00:00",
+   "mentions": 2,
    "name": "EARTH",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "venue_done": true,
    "website": null
   },
@@ -2537,7 +2539,14 @@
    "cands": 1
   },
   "gloss__party": {
-   "mentions": 1
+   "bio": "",
+   "checked": "2026-11-26",
+   "followers": 2,
+   "kind": "promoter",
+   "mentions": 1,
+   "name": "Gloss Party",
+   "readable": true,
+   "website": null
   },
   "golden_heir_sun": {
    "cands": 2,
@@ -3018,7 +3027,15 @@
    "cands": 1
   },
   "justme.milano": {
-   "cands": 1
+   "bio": "Luxury destination in the heart of Milano\nItalian&Japanese Restaurant | Club | Terrace | Shisha | Bar\nCelebrate life with us!\nOpen 7/7 7:30 Pm-5:00 Am",
+   "cands": 2,
+   "checked": "2026-11-26",
+   "followers": 112730,
+   "kind": "venue",
+   "mentions": 1,
+   "name": "Justme Milano",
+   "readable": true,
+   "website": "http://www.justmemilano.com/"
   },
   "kamelotofficial": {
    "cands": 1
@@ -3106,7 +3123,7 @@
    "checked": "2026-11-25",
    "followers": 1928,
    "kind": "artist",
-   "mentions": 1,
+   "mentions": 2,
    "name": "DJ KINO",
    "readable": true,
    "website": "https://vm.tiktok.com/ZNdgcC92h/"
@@ -3187,6 +3204,7 @@
    "kind": "venue",
    "name": "La locanda del santo bevitore",
    "readable": true,
+   "venue_done": true,
    "website": "https://www.facebook.com/share/1HNv85UEEA/?mibextid=wwXIfr"
   },
   "la_dolce_pausa": {
@@ -3295,10 +3313,14 @@
    "bio": "Salsa in linea | Salsa on2 | Bachata figurata e sensual\n📍Via Corso Roma 1 ,Seriate\n📲 3299248882\n📲 3291846648",
    "cands": 2,
    "checked": "2026-11-26",
-   "followers": 1236,
+   "events_found": 0,
+   "followers": 1238,
    "kind": "venue",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "LATIN FLAG",
    "readable": true,
+   "reads": 1,
+   "venue_done": true,
    "website": "https://www.facebook.com/share/16ZSLrubv6/?mibextid=wwXIfr"
   },
   "lazzaretto_bergamo_estate": {
@@ -3402,7 +3424,14 @@
    "readable": false
   },
   "leonardo_company": {
-   "cands": 2
+   "bio": "Welcome to #Leonardo’s universe! We are a global security company, realising technology for a safer future.",
+   "cands": 2,
+   "checked": "2026-11-26",
+   "followers": 93078,
+   "kind": "unknown",
+   "name": "Leonardo",
+   "readable": true,
+   "website": "https://beacons.ai/leonardocompany"
   },
   "lep.bg": {
    "cands": 1
@@ -3528,7 +3557,7 @@
    "website": null
   },
   "lovin_duo": {
-   "cands": 1
+   "cands": 2
   },
   "lowl_fest": {
    "bio": "DIY non-profit heavy shows ❤️‍🔥\n19-20-21 June 2026, TOO Piacenza",
@@ -3750,14 +3779,14 @@
   "merci.night": {
    "bio": "",
    "cands": 2,
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 1,
-   "followers": 3189,
+   "followers": 3188,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "Merci",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "messa_band": {
@@ -3808,13 +3837,13 @@
   },
   "midimotoridigitali": {
    "bio": "Technology as the new canvas\n Creiamo esperienze uniche che uniscono arte e nuove tecnologia",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "followers": 1639,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "MiDi - Motori Digitali",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "http://linktr.ee/midimotoridigitali/"
   },
   "milano_music_week": {
@@ -3982,15 +4011,15 @@
   "naif.party": {
    "bio": "another unusual aperitivo\n©2022\nLatest set on YouTube ⤵️",
    "cands": 1,
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 9,
-   "followers": 5131,
+   "followers": 5132,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "mentions": 1,
    "name": "Naif | Another Unusual Aperitivo",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://youtu.be/-TTUTXQPN4o?si=GIS7PLgA2-LJlEah"
   },
   "naomiplanapadilla": {
@@ -4053,10 +4082,10 @@
    "checked": "2026-11-26",
    "followers": 11544,
    "kind": "scout",
-   "last_read": "2026-11-26T08:53+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "Night Life Bergamo",
    "readable": true,
-   "reads": 39,
+   "reads": 40,
    "watch": true,
    "website": "https://linktr.ee/nightlifebergamo"
   },
@@ -4127,15 +4156,15 @@
   },
   "noche__latina": {
    "bio": "Tu noche favorita en Bérgamo\n𝗖𝗮𝗱𝗮 𝘃𝗶𝗲𝗿𝗻𝗲𝘀\nBaila. Siente. Repite.🩷💛\n📞 393 592 8872",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 1,
-   "followers": 506,
+   "followers": 505,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "mentions": 1,
    "name": "Noche Latina",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://upass.easy-links.org/ASQM"
   },
   "noidfamilia": {
@@ -4297,8 +4326,15 @@
    "website": "http://www.onemusic.it/"
   },
   "openarch_bergamo": {
+   "bio": "",
    "cands": 1,
-   "mentions": 1
+   "checked": "2026-11-26",
+   "followers": 271,
+   "kind": "unknown",
+   "mentions": 1,
+   "name": "Openarch",
+   "readable": true,
+   "website": null
   },
   "operaprimacafe_": {
    "checked": "2026-11-23",
@@ -4335,14 +4371,14 @@
   },
   "otravez_official": {
    "bio": "El próximo evento:\n05.01 / @bobadillafeelingclub",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 6,
    "followers": 1106,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "OtraVez",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "ouch_bruh": {
@@ -4485,14 +4521,14 @@
   },
   "pitch__bg": {
    "bio": "🍸Apericena a Buffet con Djset\n📍@intothewoodsbg \n⌚️18:00-00:30\nInfo e Prenotazioni In Dm",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 1,
    "followers": 1099,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "P!TCH",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://intothewoods.it/contatti"
   },
   "piu_voce": {
@@ -4648,14 +4684,14 @@
   },
   "rapture.exp": {
    "bio": "LOSE YOURSELF//FIND YOUR RAPTURE.                \n🐍 \nNext event soon ⏳",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 2,
-   "followers": 336,
+   "followers": 318,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "RAPTURE",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "rares_materials": {
@@ -4679,7 +4715,7 @@
    "website": "https://linktr.ee/regionelombardia"
   },
   "registrazione": {
-   "cands": 12,
+   "cands": 13,
    "checked": "2026-11-23",
    "readable": false
   },
@@ -4798,16 +4834,16 @@
    "website": "http://www.sabbiemobili.net"
   },
   "sabotagemilano": {
-   "bio": "Est. 2009 \n✨ From the soul, y’all ✨",
-   "checked": "2026-11-25",
-   "events_found": 12,
-   "followers": 15656,
+   "bio": "Est. 2009 \n✨ From the soul, y’all ✨\n12.12 Last Bluesquare Takeover\nFREE RSVP👇",
+   "checked": "2026-11-26",
+   "events_found": 13,
+   "followers": 15666,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "mentions": 1,
    "name": "Sabotage Milano",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://linktr.ee/sabotagemilano"
   },
   "salv_27": {
@@ -4879,15 +4915,15 @@
   },
   "savageparty.official": {
    "bio": "𝑮𝑬𝑻 𝒀𝑶𝑼𝑹 𝑫𝑶𝑺𝑬\n🗓️ | 28.11 @nikita__land \n☎️ | 3426286277",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 0,
-   "followers": 4778,
+   "followers": 4779,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "mentions": 1,
    "name": "SAVAGE",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://wa.me/message/ENJIG52KT7D4N1"
   },
   "savana.king25": {
@@ -5085,14 +5121,14 @@
   },
   "spicy.italy": {
    "bio": "Spicy vibes, Spicy people🌶️",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 2,
-   "followers": 4067,
+   "followers": 4068,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "SPICY",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "spike.hellis": {
@@ -5688,14 +5724,15 @@
   "vidalocaofficialtour": {
    "bio": "🔥”𝑊h𝑎𝑡 h𝑎𝑝𝑝𝑒𝑛𝑠 𝑖𝑛 𝑉𝑖𝑑𝑎𝐿𝑜𝑐𝑎, 𝑠𝑡𝑎𝑦𝑠 𝑖𝑛 𝑉𝑖𝑑𝑎𝐿𝑜𝑐𝑎”🔥\nManagement & Booking: Vidalocatour@gmail.com",
    "cands": 1,
-   "checked": "2026-11-25",
-   "events_found": 2,
-   "followers": 41863,
+   "checked": "2026-11-26",
+   "events_found": 3,
+   "followers": 41866,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
+   "mentions": 1,
    "name": "VIDA LOCA",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": null
   },
   "villaacquaroli": {
@@ -5825,13 +5862,13 @@
   },
   "wearestudiolegale": {
    "bio": "21.11 @75costez",
-   "checked": "2026-11-25",
-   "followers": 720,
+   "checked": "2026-11-26",
+   "followers": 719,
    "kind": "promoter",
-   "last_read": "2026-11-25T08:49+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "name": "Studio Legale",
    "readable": true,
-   "reads": 1,
+   "reads": 2,
    "website": "https://whatsapp.com/channel/0029Vb5bsuPLCoWzA0nr2y0i"
   },
   "wemeet.eventi.lombardia": {
@@ -5859,15 +5896,15 @@
   "worst.zine": {
    "bio": "𝗞𝗲𝗲𝗽 𝗧𝗵𝗲 𝗦𝗰𝗲𝗻𝗲 𝗢𝗿 𝗗𝗶𝗲 𝗧𝗿𝘆𝗶𝗻’\n𝗠𝘂𝘀𝗶𝗰 - 𝗔𝗿𝘁 - 𝗦𝘁𝗿𝗲𝗲𝘁 𝗖𝘂𝗹𝘁𝘂𝗿𝗲\n⬇️ LINKS ⬇️",
    "cands": 3,
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "events_found": 3,
-   "followers": 1873,
+   "followers": 1875,
    "kind": "promoter",
-   "last_read": "2026-11-25T02:47+00:00",
+   "last_read": "2026-11-26T19:48+00:00",
    "mentions": 1,
    "name": "Worst Collective",
    "readable": true,
-   "reads": 16,
+   "reads": 17,
    "website": "https://linktr.ee/worstzine"
   },
   "www.bloomnet": {
@@ -6053,6 +6090,7 @@
    "lon": 9.85862,
    "province": null
   },
+  "La locanda del santo bevitore, Bergamo |nome": null,
   "MICHAEL KLASH, Bergamo |nome": null,
   "Mad Dog & The Morning People, Bergamo |nome": null,
   "Maledetta Nostalgia, Bergamo": {
@@ -6193,6 +6231,12 @@
    "city": "Leffe",
    "lat": 45.7954,
    "lon": 9.89511,
+   "province": null
+  },
+  "Via Corso Roma 1 , Seriate": {
+   "city": "Seriate",
+   "lat": 45.67989,
+   "lon": 9.72537,
    "province": null
   },
   "Via Curiel 39, Mezzago ": {
@@ -7288,15 +7332,27 @@
   },
   "horror circus": {
    "count": 1,
+   "done": true,
    "name": "Horror Circus",
    "tried": [
-    "horrorcircus"
+    "horrorcircus",
+    "horrorcircusparty",
+    "horrorcircusbergamo",
+    "horrorcircusbg",
+    "horrorcircus_official"
    ]
   },
   "house of horrors": {
    "count": 1,
+   "done": true,
    "name": "House of Horrors",
-   "tried": []
+   "tried": [
+    "houseofhorrors",
+    "houseofhorrorsparty",
+    "houseofhorrorsbergamo",
+    "houseofhorrorsbg",
+    "houseofhorrors_official"
+   ]
   },
   "icks": {
    "count": 1,
@@ -7315,7 +7371,11 @@
   "illusion": {
    "count": 1,
    "name": "Illusion",
-   "tried": []
+   "tried": [
+    "illusion",
+    "illusionparty",
+    "illusionbergamo"
+   ]
   },
   "indie power": {
    "count": 2,
@@ -12413,6 +12473,25 @@
     "google"
    ],
    "type": "club"
+  },
+  "latin flag": {
+   "address": "Via Corso Roma 1 ,Seriate",
+   "auto_vote": 1.7,
+   "capacity": 50,
+   "capacity_source": "stima",
+   "city": "Seriate",
+   "first_seen": "2026-11-26",
+   "followers": 1238,
+   "instagram": "latin_flag",
+   "km": 4.3,
+   "lat": 45.67989,
+   "lon": 9.72537,
+   "name": "LATIN FLAG",
+   "sources": [
+    "instagram"
+   ],
+   "type": "bar",
+   "website": "https://www.facebook.com/share/16ZSLrubv6/?mibextid=wwXIfr"
   },
   "le cave del ceppo": {
    "auto_vote": 3.5,

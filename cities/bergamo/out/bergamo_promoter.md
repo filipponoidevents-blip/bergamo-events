@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 26/11/2026 09:01. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 26/11/2026 19:55. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -19,7 +19,7 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 
 | Data | Sera | Serate | Carico | Capienza impegnata | Generi | Le più forti |
 |---|---|---|---|---|---|---|
-| 26/11 gio | tranquilla | 1 | 31.8 | 300 | Commerciale 1 | [Commerciale] Casa Costez |
+| 26/11 gio | media | 2 | 91.7 | 1300 | Commerciale 2 | [Commerciale] Nikita · Vida Loca; [Commerciale] Casa Costez |
 | 27/11 ven | piena | 11 | 356.1 | 5300 | House 5, Hip Hop 1, Commerciale 4, Altro 1 | [Live] Nikita · Ventitré w/ TAKE OVER; [Tech House] VIBE · Active Party w/ LOGIC; [House] Setai · Maison Grove w/ Massimino Lippoli |
 | 28/11 sab | piena | 11 | 469.3 | 8650 | House 5, Hip Hop 1, Commerciale 3, Altro 2 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; [Techno] Bolgia · MARIE VAUNT; [Trap] Nikita · Savage |
 | 29/11 dom | media | 3 | 78.2 | 750 | Commerciale 1, Altro 2 | [Commerciale] Bobadilla Feeling Club · Aperitivo Martini; [Rock] Revel Treviglio; Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
