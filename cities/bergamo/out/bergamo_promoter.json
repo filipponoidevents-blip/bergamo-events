@@ -1,44 +1,7 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-25T15:04",
+ "generated": "2026-11-26T00:45",
  "nights": [
-  {
-   "date": "2026-11-25",
-   "weekday": "mercoledì",
-   "note": null,
-   "weekend_like": false,
-   "events": 3,
-   "load": 141.1,
-   "level": "media",
-   "capacity_taken": 2900,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 2,
-    "Altro": 1
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap"
-   ],
-   "top": [
-    {
-     "title": "gres art 671 · Anna",
-     "score": 59.1,
-     "capacity": 2000
-    },
-    {
-     "title": "[Commerciale 360] Zero Club · Please",
-     "score": 46.3,
-     "capacity": 500
-    },
-    {
-     "title": "[Latino / Commerciale] Queen Club",
-     "score": 35.7,
-     "capacity": 400
-    }
-   ]
-  },
   {
    "date": "2026-11-26",
    "weekday": "giovedì",
@@ -159,15 +122,15 @@
    "weekday": "domenica",
    "note": null,
    "weekend_like": false,
-   "events": 2,
-   "load": 51.6,
-   "level": "tranquilla",
-   "capacity_taken": 600,
+   "events": 3,
+   "load": 78.2,
+   "level": "media",
+   "capacity_taken": 750,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
     "Commerciale": 1,
-    "Altro": 1
+    "Altro": 2
    },
    "missing_families": [
     "House / Elettronica",
@@ -178,6 +141,11 @@
      "title": "[Commerciale] Bobadilla Feeling Club · Aperitivo Martini",
      "score": 43.9,
      "capacity": 500
+    },
+    {
+     "title": "[Rock] Revel Treviglio",
+     "score": 26.6,
+     "capacity": 150
     },
     {
      "title": "Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello",
@@ -2146,6 +2114,28 @@
   {
    "date": "2027-02-22",
    "weekday": "lunedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-23",
+   "weekday": "martedì",
    "note": null,
    "weekend_like": false,
    "events": 0,

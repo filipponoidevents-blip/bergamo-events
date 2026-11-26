@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-25T15:04",
+ "generated": "2026-11-26T00:45",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -158,6 +158,14 @@
      }
     ],
     "2026-11-29": [
+     {
+      "line1": "Revel Treviglio",
+      "line2": "Rock",
+      "time": "00:00",
+      "score": 26.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Kaleidoscopic Cello @ Aula Magna, sede di Sant'Agostino",
       "line2": "",
@@ -732,6 +740,7 @@
    "@nxtbergamo",
    "@possibilita",
    "@csapacipaciana",
+   "@revel_treviglio",
    "@nikita__land",
    "@vibetheclub",
    "@utopia.direction",
@@ -745,8 +754,7 @@
    "@spike.hellis",
    "@lowl_fest",
    "@www.bloomnet",
-   "@door_74",
-   "@unplug__bg"
+   "@door_74"
   ],
   "hashtags": [
    "#bergamo",
@@ -954,6 +962,14 @@
      "line2": "Rock / Commerciale",
      "time": "00:00",
      "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Campane d'allegrezza e a concerto @ Centro storico",
+     "line2": "live",
+     "time": "15:00",
+     "score": 3.0,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -1276,6 +1292,14 @@
      }
     ],
     "2026-11-29": [
+     {
+      "line1": "Revel Treviglio",
+      "line2": "Rock",
+      "time": "00:00",
+      "score": 26.6,
+      "fascia": "serata",
+      "family": "Altro"
+     },
      {
       "line1": "Kaleidoscopic Cello @ Aula Magna, sede di Sant'Agostino",
       "line2": "",
@@ -2510,6 +2534,14 @@
      "line2": "Rock / Commerciale",
      "time": "00:00",
      "score": 35.7,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Campane d'allegrezza e a concerto @ Centro storico",
+     "line2": "live",
+     "time": "15:00",
+     "score": 3.0,
      "fascia": "preserata",
      "family": "Altro"
     }
