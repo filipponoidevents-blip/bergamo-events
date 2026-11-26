@@ -8,11 +8,11 @@
     "balzerbynight": 7479,
     "bar30elode": 1175,
     "bar_sanmarco": 2110,
-    "barperlage": 2695,
-    "barrys__": 9730,
+    "barperlage": 2693,
+    "barrys__": 9728,
     "bergamonightservice": 1094,
-    "bobadillafeelingclub": 31662,
-    "bolgia.official": 125205,
+    "bobadillafeelingclub": 31680,
+    "bolgia.official": 125358,
     "brinapasticceria": 3139,
     "bsk.sound": 1746,
     "bucheesebar": 6846,
@@ -20,7 +20,7 @@
     "cafeteriatreviolo": 5438,
     "caffetteria_nuova_rotonda": 1732,
     "call._.out": 727,
-    "capogirojoyclub": 17767,
+    "capogirojoyclub": 17765,
     "casacostez": 6410,
     "charleston.treviglio": 2432,
     "cheri.it": 4696,
@@ -31,12 +31,12 @@
     "crocevia_": 1071,
     "cromaroom": 1984,
     "crystalcastlesnightt": 802,
-    "csapacipaciana": 13857,
+    "csapacipaciana": 13883,
     "daste_bergamo": 21398,
-    "decibel_club": 4597,
+    "decibel_club": 4609,
     "discopastasc": 1422,
-    "discoteca_queen": 17138,
-    "drusobg": 24734,
+    "discoteca_queen": 17232,
+    "drusobg": 24768,
     "edonebergamo": 29972,
     "gres_art_671": 21371,
     "hiddenhell.techno": 11147,
@@ -46,39 +46,39 @@
     "incroissanterialab": 27715,
     "inkclub_bergamo": 14699,
     "intothewoodsbg": 33179,
-    "jamlivestudio": 6027,
+    "jamlivestudio": 6030,
     "juiceclubit": 8575,
     "karma_lounge_official_": 5159,
-    "kellerfactory_": 7372,
+    "kellerfactory_": 7382,
     "lazzaretto_bergamo_estate": 11514,
     "lecannibaleclub": 43172,
     "liveclub": 33538,
-    "loft.bergamo": 10844,
+    "loft.bergamo": 10917,
     "mint_lounge": 15387,
     "nikita__land": 25666,
-    "ninfeasocialclub": 8733,
+    "ninfeasocialclub": 8785,
     "noidfamilia": 7880,
     "nxtbergamo": 30415,
     "oasi.night": 533,
     "officinapanarari": 5400,
-    "oroneroloveandmusic": 7835,
+    "oroneroloveandmusic": 7839,
     "please.nights": 2505,
     "premiere.premiere": 2161,
-    "sabbiemobili_official": 7835,
+    "sabbiemobili_official": 7837,
     "savageparty.official": 4780,
     "savana.king25": 192,
     "selected.lab": 200,
-    "setai_club_official": 36680,
+    "setai_club_official": 36666,
     "sloth.bg": 835,
     "sommet_night": 496,
     "sprint_bergamo": 5119,
     "supertatobolgia": 20630,
     "talk.maf": 2202,
-    "thanka.official": 30849,
+    "thanka.official": 30824,
     "the.circlehub": 831,
     "theboxbergamo": 8093,
-    "tiky.klub": 1006,
-    "twofestival": 2949,
+    "tiky.klub": 1007,
+    "twofestival": 2948,
     "unibg_party": 3467,
     "unplug.project": 547,
     "unplug__bg": 3185,
@@ -802,6 +802,40 @@
       "permalink": "https://www.instagram.com/p/DfrQrvODFQb/",
       "status": "pending"
     },
+    "17908840437349449-0": {
+      "account": "csapacipaciana",
+      "account_venue": "Pacì Paciana",
+      "caption": "TEKNOPUNX NIGHT \nSabato 5 dicembre dalle 19.30 presso il C.s.a. Pacì Paciana\n\nDalle 19.30 Cena popolare e proiezione del documentario \" No Pet - liberi e randagi\" \nUno sguardo curioso e complice su sfuggenti scenari di libertà che sfidano l'immaginario moderno del cane per come è stato, nei secoli dei secoli, costruito.\n\nDalle 21 concerti violenti con \nCRANIAL PUTREFACTION – Grind violence\nNEKROPUNTA – Punk Hc\nMORTAIO – Fast Punk\nFRACTURE – Hc Grind\n\nA seguire fino a tardi DJ SET\n\nSTREEX / Tekno Elektro\nRRUDERE / Electro Techno\nNASIKA'S FINGERS / Electro Techno\n\nPowered by High Buzz Family \n\nIngresso 5 euro\n\nVieni presto e supporta tutti gli artisti!!!",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-05",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "techno",
+          "dj set",
+          "hard techno"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "19:30",
+        "ticket_url": null,
+        "title": "TEKNOPUNX NIGHT",
+        "venue_name": "Pacì Paciana"
+      },
+      "id": "17908840437349449-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/925198373_18662495890056454_5147075252864516054_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMiJ9&_nc_ohc=y1u4YRBP_5sQ7kNvwFYjTU5&_nc_oc=AdqtIvUHTw0LKPD0K3QR-vCe3mlHaIQ0_drYpD9rC28cNbbaRD2UYXSan3IzfqMUlUg&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=7O74UmkPy1ZLIAHT5PJbwA&_nc_ct=RQgsPBUKFQIAAAA&oh=00_AQVZZEZE_MH8w9wMqTyyCowo3d6vCXlaTn6jxOWYCm9W5Q&oe=6B0E94C9",
+      "kind": "alternative",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgIiub_oddp/",
+      "status": "info"
+    },
     "17909778966668713-0": {
       "account": "decibel_club",
       "account_venue": "Decibel Club",
@@ -1337,6 +1371,36 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/Df3tJyQByp_/",
       "status": "info"
+    },
+    "17919787098540683-0": {
+      "account": "setai_club_official",
+      "account_venue": "Setai Club",
+      "caption": "Il sabato di peligrosa.night 🩷",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Setai Club",
+        "venue_name": "Setai Club"
+      },
+      "id": "17919787098540683-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/926649878_18383490691240083_5005220760961692424_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XdNL_F4jOc8Q7kNvwFH7P3I&_nc_oc=AdrIFNNo8QwOiV6OGW6rLh-gf6PtJCIFhzofkTYuLqquIa3WALmFac8UqgN3DEggRDU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=OKc7ppKWhh-R4x5Xk1Ob8A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQX12SsdazPXD3ZwsNhgJAYAPdv6yIa6Aha1c4daLCOiCQ&oe=6B0E78EC",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/DgNLYq2iHU-/",
+      "status": "pending"
     },
     "17920081011261348-0": {
       "account": "drusobg",
@@ -2331,6 +2395,38 @@
       "permalink": "https://www.instagram.com/p/DfZjCsJHHLf/",
       "status": "pending"
     },
+    "17962632015297318-0": {
+      "account": "ninfeasocialclub",
+      "account_venue": "Ninfea Social Club",
+      "caption": "TRA TERRA E CIELO ❄️\n\nFuori freddo, dentro fuoco.🔥\nSabato 05.12 diamo il benvenuto all’inverno lacustre, tra bocconi stellati, calici di vino naturale, bella gente e bella musica.\n\n🍽️ Dalle 18:30 | Assonica in cucina\nSi mangia stellato, ma rigorosamente con le mani.\nGli amici di assonica_  tornano sulle sponde del lago.\n\n🍷 Dalle 18:30 | Viné Vini Naturali\nSi beve naturale.\nSelezione di vini naturali a cura di vine_vininaturali \n\n🎸 Dalle 21:00 | Frattaglie LIVE\nSi canta e si saltella.\ni_frattaglie  ci scaldano per bene con il loro pop rock LIVE\n\n🔊 Dalle 22:30 finché si regge | Cayto & Uriel - Troll3r\nTornano i ragazzi di metaphora.ofc, con cayto.music  ______uriel___  troll3r in console.\n\n🎣Pesca aperta fino a chiusura.\n\nChe l'inverno abbia inizio. 🐟\n\n📍 Ninfea Social Club – Via G. Marconi 65, Sorisole (BG)\n📅 Sabato 05.12\n⏰ Dalle 18:30 finché si regge\n\nIngresso gratuito riservato ai tesserati.",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-05",
+        "end_time": null,
+        "entry": "free",
+        "fascia": null,
+        "genres": [
+          "commerciale"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": true,
+        "price": null,
+        "start_time": "18:30",
+        "ticket_url": null,
+        "title": "TRA TERRA E CIELO",
+        "venue_name": "Ninfea Social Club"
+      },
+      "id": "17962632015297318-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/931934788_122127109419240064_1543501298362658348_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=E5tjxOTgcNEQ7kNvwGUpeO0&_nc_oc=AdqSL0-T-3WX6hxCQfimG_2EtaX5uvtjFScJQ8zGCxLUtUJkR9vcSSSvnsshjRxnLbI&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=5g4h8V1goB0ESVwK826r4w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQW1E8_bS6F5gT8Xa_CGF4GL_iOmr-bvNQEKVaWuPm8T3w&oe=6B0E8558",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgNrdUqm5ut/",
+      "status": "auto"
+    },
     "17963089089256829-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
@@ -2394,6 +2490,66 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfFDQciIPHh/",
       "status": "auto"
+    },
+    "17966075955239349-0": {
+      "account": "drusobg",
+      "account_venue": "Druso",
+      "caption": "Billy Cobham al Druso: Michel Benita sostituirà Ares Tavolazzi al contrabbasso.\n\nIn occasione del concerto di Billy Cobham, in programma giovedì 17 dicembre 2026 al Druso di Ranica (BG) il contrabbassista Michel Benita prenderà il posto di Ares Tavolazzi.\n\nÈ lo stesso Ares Tavolazzi a comunicare la notizia:\n“Per improvvisi motivi familiari sono costretto a rinunciare ai concerti del 17 e 19 dicembre, rispettivamente a Ranica (BG) e a Camogli (GE). Ci sarà comunque a sostituirmi un grande contrabbassista, Michel Benita, che ammiro e ringrazio molto. Inutile dire che sono molto dispiaciuto, ma sono sicuro che saranno comunque due serate di grande musica».\nAres Tavolazzi\n\n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅 Giovedì 17 Dicembre 2026\n🕥 Porte 20:00 | Concerto ore 21:30\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Hamburgeria attiva \n\n🍏 #druso #billycohbam #ritamarcotulli #michelbenita #jazz",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-17",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": true,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "Druso",
+        "venue_name": "Druso"
+      },
+      "id": "17966075955239349-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/928739528_18457372648134654_7789239704782831353_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=SoTVrCAs3twQ7kNvwGi_uYe&_nc_oc=Adp80Cqhyex0KPAA35Mwpq-Fw5m6L5QoLoKDchKoXXonCUea1ldMGVqb4SAugMyIeH8&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=z9fLPdlLoSU9NfL5k40aJQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQXjbWHKNLVO2PmCQyOh31qT6craprufEU3Ck9yEXLC6sg&oe=6B0E897B",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgM1W2FAeBm/",
+      "status": "info"
+    },
+    "17966075955239349-1": {
+      "account": "drusobg",
+      "account_venue": "Druso",
+      "caption": "Billy Cobham al Druso: Michel Benita sostituirà Ares Tavolazzi al contrabbasso.\n\nIn occasione del concerto di Billy Cobham, in programma giovedì 17 dicembre 2026 al Druso di Ranica (BG) il contrabbassista Michel Benita prenderà il posto di Ares Tavolazzi.\n\nÈ lo stesso Ares Tavolazzi a comunicare la notizia:\n“Per improvvisi motivi familiari sono costretto a rinunciare ai concerti del 17 e 19 dicembre, rispettivamente a Ranica (BG) e a Camogli (GE). Ci sarà comunque a sostituirmi un grande contrabbassista, Michel Benita, che ammiro e ringrazio molto. Inutile dire che sono molto dispiaciuto, ma sono sicuro che saranno comunque due serate di grande musica».\nAres Tavolazzi\n\n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅 Giovedì 17 Dicembre 2026\n🕥 Porte 20:00 | Concerto ore 21:30\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Hamburgeria attiva \n\n🍏 #druso #billycohbam #ritamarcotulli #michelbenita #jazz",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-19",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": true,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "Druso",
+        "venue_name": "Druso"
+      },
+      "id": "17966075955239349-1",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/928739528_18457372648134654_7789239704782831353_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=SoTVrCAs3twQ7kNvwGi_uYe&_nc_oc=Adp80Cqhyex0KPAA35Mwpq-Fw5m6L5QoLoKDchKoXXonCUea1ldMGVqb4SAugMyIeH8&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=z9fLPdlLoSU9NfL5k40aJQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQXjbWHKNLVO2PmCQyOh31qT6craprufEU3Ck9yEXLC6sg&oe=6B0E897B",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgM1W2FAeBm/",
+      "status": "info"
     },
     "17966935152246563-0": {
       "account": "tiky.klub",
@@ -4164,6 +4320,36 @@
       "permalink": "https://www.instagram.com/p/DfUZCWgI55c/",
       "status": "info"
     },
+    "18031169570697307-0": {
+      "account": "thanka.official",
+      "account_venue": "Thanka",
+      "caption": "Manca poco a sabato 💄🩷\nUna nuova notte al THANKA sta per iniziare.\n\nCi vediamo in pista.\n\n#Thanka",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Manca poco",
+        "venue_name": "Thanka"
+      },
+      "id": "18031169570697307-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/916148775_18404581711204392_4457919808131590772_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yXmZqby9UuoQ7kNvwHeNnZy&_nc_oc=AdokzMdELYxBs6UrX3Fxf0ipy9l7dOXu9d5UjLJq9Z4wEGIFZgWSJ2f_qyB39_rlDOY&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=I3QVrb0HKrKiNM-faZioOw&_nc_tpa=Q5bMBQKJX6IhCK_1V7v3ggek6ZTwBbvGdLCSzshXbo0B93o5m1dTJXCVvbaXZVGB2Fna9Q5oGgiOpJBBtg&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQVv7FvWZD6Fxs7DIoeSdY1mgoOSl-NJ0rLC2Grk8XsFYA&oe=6B0E603B",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgNC_OOgpn8/",
+      "status": "pending"
+    },
     "18036452408902518-0": {
       "account": "bobadillafeelingclub",
       "account_venue": "Bobadilla",
@@ -5611,6 +5797,38 @@
       "permalink": "https://www.instagram.com/p/DfaGArVjJU_/",
       "status": "info"
     },
+    "18098135156173073-0": {
+      "account": "drusobg",
+      "account_venue": "Druso",
+      "caption": "𝗧𝗥𝗜𝗖𝗔𝗥𝗜𝗖𝗢 in concerto al Druso di Bergamo | W L’ITALIA sogni… canzoni… squallori! \n‼️concerto alle ore 18:00 ‼️\n\nOltre 25 anni di carriera, da quel folgorante esordio con Io sono Francesco (2000), tricarico_official continua a raccontare il mondo con il suo sguardo inconfondibile: ironico, poetico, disincantato e fuori dagli schemi.\n\nPresenta al Druso il nuovo spettacolo, in una dimensione intima piano/voce, che intreccia musica, parole e riflessioni sulla contemporaneità.\nNuovi brani e racconti in prosa si alternano ai pezzi più amati, da Io sono Francesco a Vita Tranquilla, passando per Mi manchi negli occhi e A Milano non c’è il mare.\n\nUno spettacolo intenso, sorprendente e senza filtri, in cui Tricarico attraversa le contraddizioni del nostro tempo con ironia, rabbia, stupore e poesia, invitandoci a guardare oltre le apparenze e a ritrovare il valore della libertà, del pensiero e della bellezza. \n\n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅 Domenica 24 gennaio 2027\n🕥 Apertura porte ore 17:00 \n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Hamburgeria attiva \n\n🍏 #druso #tricarico #francescotricarico",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2027-01-24",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "hard techno"
+        ],
+        "is_concert": true,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "17:00",
+        "ticket_url": null,
+        "title": "Druso",
+        "venue_name": "Druso"
+      },
+      "id": "18098135156173073-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/931317332_18457292491134654_4506539721388239889_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KmJYvFaiLPwQ7kNvwHzE26Q&_nc_oc=AdogywTrnx009NGNLgZhpUpXQ-VSwRMBjaHf8tZ7jafq7-QlHSw9zopbkHnpViDAbHE&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=z9fLPdlLoSU9NfL5k40aJQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQWJLGXH6GjoTcP5Ygn2Hx1TYZ-jAf_LfpDdCXlewXf8Bw&oe=6B0E87F0",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgLRkKeAQFs/",
+      "status": "info"
+    },
     "18098613398418264-0": {
       "account": "kellerfactory_",
       "account_venue": "Keller Factory",
@@ -5722,6 +5940,36 @@
       "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfZYFrXi0E5/",
+      "status": "info"
+    },
+    "18100193153665799-0": {
+      "account": "ninfeasocialclub",
+      "account_venue": "Ninfea Social Club",
+      "caption": "🏆 TORNEO DI SCOPA D'ASSI 🃏 \n\nMartedì 01/12 si calano le carte a Ninfea.\nPreparate le coppie, affilate la memoria e soprattutto… occhio a non lasciare il 7 bello sul tavolo. 👀\n\n🏆 Scopa d'assi con banco, a coppie\n♠️ Ogni mano all'11\n👉🏼 Iscrizione gratuita sul posto, riservata agli associati\n\nChi perde offre da bere🍺\nChi vince si porta a casa una formaggella🧀\n\n📍Ninfea Social Club - Sorisole (BG), Via G. Marconi 65\n🗓️Martedì 01.12\n⏰ h 21:00\n\nAccesso riservato ai tesserati.",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-01",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "quiz_games",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "TORNEO DI SCOPA D'ASSI",
+        "venue_name": "Ninfea Social Club"
+      },
+      "id": "18100193153665799-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t39.30808-6/925512569_122127085557240064_5426949986012446058_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=_IVFr3uIFhoQ7kNvwGf6d5g&_nc_oc=Adr5cTgiEEJBxcN1mwmwpf6OgqmIB9SJjiMQYOQG5q0JpVKTuaS8EhDIqOYK6qwkcm0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=5g4h8V1goB0ESVwK826r4w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQVXR3wHHFE2C95SRyvLxHixZnZru9c7Pq1GE6wFNMXSBQ&oe=6B0E749D",
+      "kind": "quiz_games",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgM5hGgm5I1/",
       "status": "info"
     },
     "18100287572111376-0": {
@@ -6313,6 +6561,38 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfxWOxKIVNk/",
       "status": "auto"
+    },
+    "18108170963634107-0": {
+      "account": "drusobg",
+      "account_venue": "Druso",
+      "caption": "𝗕𝗜𝗟𝗟𝗬 𝗖𝗢𝗕𝗛𝗔𝗠 THE ITALIAN TRIO\nin concerto al Druso di Bergamo \n\n𝗕𝗜𝗟𝗟𝗬 𝗖𝗢𝗕𝗛𝗔𝗠 | Batteria\n𝗥𝗜𝗧𝗔 𝗠𝗔𝗥𝗖𝗢𝗧𝗨𝗟𝗟𝗜 | Pianoforte\n𝗠𝗜𝗖𝗛𝗘𝗟 𝗕𝗘𝗡𝗜𝗧𝗔 | Contrabbasso\n\nofficialbillycobham , ritamarcotulli e michelbenita si riuniscono in un nuovo trio. L'inconfondibile voce ritmica di Cobham incontra il pianoforte lirico di Marcotulli e il suono caldo e risonante del contrabbasso di Benita.\nCobham e Marcotulli hanno lavorato insieme per la prima volta alla fine degli anni '80, in tournée tra Europa e America. Anche Marcotulli e Benita hanno incrociato le loro strade in progetti precedenti.\nThe Italian Trio porta queste connessioni in una nuova dimensione, lasciando spazio all'ascolto, all'improvvisazione e alla scoperta.\n\n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅 Giovedì 17 Dicembre 2026\n🕥 Porte 20:00 | Concerto ore 21:30\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Hamburgeria attiva \n\n🍏 #druso #billycohbam #ritamarcotulli #michelbenita #jazz",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-17",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "revival"
+        ],
+        "is_concert": true,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "20:00",
+        "ticket_url": null,
+        "title": "BILLY COBHAM THE ITALIAN TRIO",
+        "venue_name": "Druso"
+      },
+      "id": "18108170963634107-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/927047250_18457419598134654_6178505303523780475_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JRzT06aIDzAQ7kNvwFI8E5s&_nc_oc=AdpgGjnFx3A-7uIG_fBySFv2xxOYM9VjSA_B6kmiivlDfMG3f4qL9IoZPilpud5ER4M&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=z9fLPdlLoSU9NfL5k40aJQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQXbdhNEqn4VS8kapWLRuBJsLaVEUmlTc65LuwFwVDQK-Q&oe=6B0E80CE",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgNlMYVgXIV/",
+      "status": "info"
     },
     "18109774610249007-0": {
       "account": "al_tabarin",
@@ -7329,6 +7609,36 @@
       "permalink": "https://www.instagram.com/p/Df49j5GAAWV/",
       "status": "auto"
     },
+    "18117807521620952-0": {
+      "account": "ninfeasocialclub",
+      "account_venue": "Ninfea Social Club",
+      "caption": "We SOCIAL Run 🍃\nGiovedì 03.12 la Social Run di Ninfea si unisce ancora agli amici di werunbergamo \n\n🪷Si parte da Ninfea, ci facciamo 10 km di corsa o 5km con qualche esercizio di forza 💪🏻e poi si torna alla base\nper recuperare con il nostro aperitivo + buffet. 🍻🍕🍸\n\nNiente podi, niente ansia da cronometro.\nSolo gambe, gente e buona energia 🏃🏻‍♀️⚡️\n\n🗓️Giovedì 03.12\n⏰19:00 Ritrovo\n🏃🏻‍♂️19.30 Partenza\n📍Ninfea Social Club - Sorisole - Via G. Marconi 65\n🎟️15 € con aperitivo\n\n🔦Consigliato l’utilizzo del frontalino.\n\n👉🏼Prenotazione tramite link in bio.\n\nIngresso riservato ai tesserati.",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-03",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": "preserata",
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": "19:00",
+        "ticket_url": null,
+        "title": "We SOCIAL Run",
+        "venue_name": "Ninfea Social Club"
+      },
+      "id": "18117807521620952-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/927040718_18085692302531213_4016039845238178219_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=uQWg9MkL_wsQ7kNvwF8l6vQ&_nc_oc=Adq-fWHnWsA5z0g5m3WDtpWbzwGrpDib_FwWaC-8DNzTdWSTEfXOMMyPxkwI_U3ZcNg&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=5g4h8V1goB0ESVwK826r4w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQXdqSwqt9o0I9goC6W9C9VlEesKvWo1D73dsP0VqRDW1g&oe=6B0E625A",
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgKmyzuICGe/",
+      "status": "info"
+    },
     "18117925160006850-0": {
       "account": "sprint_bergamo",
       "account_venue": "Sprint",
@@ -7352,6 +7662,36 @@
       "kind": "other",
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/reel/DfPQdLRhHk1/",
+      "status": "info"
+    },
+    "18118338209583371-1": {
+      "account": "ninfeasocialclub",
+      "account_venue": "Ninfea Social Club",
+      "caption": "LEI BALLA, SUONA E CANTA 🌹\n\nOggi, 25 novembre, è la Giornata internazionale contro la violenza sulle donne.\n\nPer l’occasione, domenica 29.11 ci ritroviamo a Ninfea per parlarne, confrontarci e prenderci spazio, tra arte, letture, laboratori e musica.\n\nL’intero ricavato del laboratorio di pittura e della vendita dei quadri sarà donato all’associazione Aiuto Donna.\n\n📅 Domenica 29.11 dalle 15:00 fino a sera\n📍 Ninfea Social Club – Via Marconi 65, Sorisole (BG)\n\nIngresso gratuito, riservato agli associati.",
+      "confidence": 0.7,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-29",
+        "end_time": null,
+        "entry": "free",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "culture",
+        "late_end": false,
+        "price": null,
+        "start_time": "15:00",
+        "ticket_url": null,
+        "title": "Ninfea Social Club",
+        "venue_name": "Ninfea Social Club"
+      },
+      "id": "18118338209583371-1",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/928517897_18085719869531213_1518917926941403446_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=fSovmiR2TTEQ7kNvwFgc8Xk&_nc_oc=Adq3fZT_mMD5BsS_adV4by2XYSPfzr0_Zq4MeIATnyCoNBhBj753HHEA2tp4Z-C-QH4&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=5g4h8V1goB0ESVwK826r4w&_nc_tpa=Q5bMBQLMtCO9qDDuFeyOfMxjRyuQ7dmJRhJmLcBwmWKnLsVnUYkxoT31HBWvdIdBstUAHP4HQHmLmX7mVg&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQXszR2cgj9JgqYXzRsAZKtSqw-dd3eE5WMMdKxkFLVbZQ&oe=6B0E85F3",
+      "kind": "culture",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgLHRgNondt/",
       "status": "info"
     },
     "18118465358126431-0": {
@@ -7574,6 +7914,36 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/Dfz2gdVCpKl/",
       "status": "auto"
+    },
+    "18118864058113740-0": {
+      "account": "thanka.official",
+      "account_venue": "Thanka",
+      "caption": "A Bergamo arriva un nuovo format 👀\nE per il suo debutto ha scelto il THANKA🔥\n\nSi chiama gloss__party  e porta in pista le vibes della white girl music: le hit iconiche degli anni 2010–2015, quelle che sai a memoria e che non puoi fare a meno di cantare a squarciagola.\n\nCi vediamo sabato 💄🩷\n\n#Thanka",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Thanka",
+        "venue_name": "Thanka"
+      },
+      "id": "18118864058113740-0",
+      "image": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/921148054_18404575369204392_2908220822666345951_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=5CKV2GKl18YQ7kNvwFyq_zH&_nc_oc=AdoJJl8WNNtv2VMCzaMuVsmPxCO6BnI5AOLZZQkqSmcX4hMXJSKGJAhkfjsusshKDAU&_nc_zt=23&_nc_ht=scontent-ord5-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=I3QVrb0HKrKiNM-faZioOw&_nc_tpa=Q5bMBQKUfhQ7mSO0G7ggMczBhigy1GZOCn_YSn85a0mdCb_nBdGwx_hKbHAMGtFx-6FeQ5Rn52NIEMUnHQ&_nc_ct=RQosPBUKFQwAAAA&oh=00_AQXPUwYTwRDGbSHMGiyGPw9agBP20ZghFYD-CgXVZtHk7Q&oe=6B0E82B9",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgKeOmBFFSF/",
+      "status": "pending"
     },
     "18119483141082712-0": {
       "account": "decibel_club",
@@ -8444,6 +8814,38 @@
       "permalink": "https://www.instagram.com/p/Df2dja1jvpg/",
       "status": "pending"
     },
+    "18122534236980351-0": {
+      "account": "thanka.official",
+      "account_venue": "Thanka",
+      "caption": "Se Teenage Dream parte e tu conosci ogni singola parola, abbiamo la serata perfetta per te💄\n\ngloss__party  è il nuovo format che porta a Bergamo tutta l'energia della white girl music: pop internazionale, hit iconiche degli anni 2010–2015 e quelle canzoni che ti fanno tornare subito in modalità teenage dream 🩷\n\n👉Per la sua prima serata in assoluto ha scelto il THANKA!\nCi vediamo sabato 👀\n\n#Thanka",
+      "confidence": 0.65,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-28",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "commerciale"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "Thanka",
+        "venue_name": "Thanka"
+      },
+      "id": "18122534236980351-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/928053090_18404484490204392_4058509215346474046_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=D1v-HcxQpTEQ7kNvwGDrLXg&_nc_oc=AdrNu8G4WiH4KjC-9suXYA_-9FalCC3WTqsk_FiQQ0ZH9q0_CeEd3_zbH9ygTag8H-Y&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=I3QVrb0HKrKiNM-faZioOw&_nc_tpa=Q5bMBQLBx61RQ79I812C33KxGSccn-hYubIq3UBn_MXWGc5uImZr9kWuiDLYh_y7M_toPAJe3k6-0CNc2Q&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQV2kQhuNXKQB3YUHgSIxKoq8CCSgjBrTKTuqBL9wp4RSg&oe=6B0E66D4",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/reel/DgLEi-uCR-h/",
+      "status": "pending"
+    },
     "18122606185749292-0": {
       "account": "daste_bergamo",
       "account_venue": "Daste",
@@ -8530,6 +8932,36 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DgGhr_6jxOE/",
       "status": "info"
+    },
+    "18123540589908878-0": {
+      "account": "jamlivestudio",
+      "account_venue": "Jam Live Studio",
+      "caption": "CHE BELLO CHE BELLOO\nCi vediamo domani con roberto_dossena_aka_robbie_dox 🥁",
+      "confidence": 0.55,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-27",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "CHE BELLO CHE BELLOO",
+        "venue_name": "Jam Live Studio"
+      },
+      "id": "18123540589908878-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/933089635_18684537025032730_2038910324731592312_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=fJED7Hkym4QQ7kNvwE6KaiY&_nc_oc=Adpq4P7wnxzAZXuaKvO4SNGO6mkUInNVgOPFVvRSoIQRXmPNCz4SWdkEAdQ7kjS-NWg&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XcMpHZmwiqxE8XFf7MPcYg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQX-b3hH9wwr545vhZWj1ZfSJHxQkbmz8f-398waFKwhqQ&oe=6B0E7E37",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher; date guessed from a weekday name",
+      "permalink": "https://www.instagram.com/p/DgNDmxDCKFO/",
+      "status": "pending"
     },
     "18123967823283626-0": {
       "account": "ninfeasocialclub",
@@ -10314,6 +10746,38 @@
       "permalink": "https://www.instagram.com/p/DgFwKawBHT0/",
       "status": "info"
     },
+    "18139134382731713-0": {
+      "account": "drusobg",
+      "account_venue": "Druso",
+      "caption": "𝗔𝗡𝗔𝗥𝗖𝗛𝗬 𝗜𝗡 𝗕𝗚 🤟 Triplo Live at Druso \n\nLOBOTOMIES ☞ plays Ramones\nCASBAH CLUB ☞ plays Clash\nNO FUTURE ☞ plays Sex Pistols\nAftershow ☞ Mario Psycho 12\n\nAmanti del punk, torna la serata che non dovete farvi scappare! Un triplo concerto dedicato al genere più irriverente e trasgressivo di sempre! Lobotomies, Casbah Club e No Future sul palco del Druso per farci rivivere le emozioni che ci hanno regalato le leggende del punk!\n\n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅 Venerdì 08 gennaio 2027\n🕥 Porte ore 21:00 | Live 22:00\n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Hamburgeria attiva \n\n🍏 #druso #ramones #sexpistols #clash #punk",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2027-01-08",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [
+          "trance"
+        ],
+        "is_concert": true,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "LOBOTOMIES plays Ramones",
+        "venue_name": "Druso"
+      },
+      "id": "18139134382731713-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/933881447_18457438204134654_994987411933142943_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1rn3fOmhNf8Q7kNvwHyD8v_&_nc_oc=AdpbxdI1jkmn75QWF9L4nAdeSFzxvT7ZusNJ1ftOUis8hZ9J-NHXR_PaV-uHiHA2x2c&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=z9fLPdlLoSU9NfL5k40aJQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQXQyVX0d-H34gbaSBIlbiVHkneZPW2DlKh0WwdbhjJvsA&oe=6B0E6E26",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgN5VR5g0Km/",
+      "status": "info"
+    },
     "18139261447750537-0": {
       "account": "nxtbergamo",
       "account_venue": "NXT Station",
@@ -11706,6 +12170,36 @@
       "kind": "live_music",
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/p/DfpHVn2gzip/",
+      "status": "info"
+    },
+    "18188555500436302-0": {
+      "account": "drusobg",
+      "account_venue": "Druso",
+      "caption": "𝗧𝗛𝗘 𝗦𝗧𝗜𝗖𝗞𝗬 𝗙𝗜𝗡𝗚𝗘𝗥𝗦 al Druso di Bergamo 😝 Rolling Stones Tribute Band\n‼ LIVE SHOW ALLE ORE 18:00 ‼\n\nUn’iniezione di puro rock’n’roll in compagnia del miglior tributo ai Rolling Stones in circolazione: the_sticky_fingers\n\n📍 Druso via Antonio Locatelli 17 Ranica BG\n📅 Domenica 17 gennaio 2027\n🕥 Apertura porte ore 17:00 \n🎫 Prevendita 👉 𝗺𝗮𝗶𝗹𝘁𝗶𝗰𝗸𝗲𝘁.𝗶𝘁 (link in bio)\n🍔 Hamburgeria attiva \n\n🍏 #druso #thestickyfingers #rollingstones",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2027-01-17",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "live_music",
+        "late_end": false,
+        "price": null,
+        "start_time": "17:00",
+        "ticket_url": null,
+        "title": "LIVE SHOW",
+        "venue_name": "Druso"
+      },
+      "id": "18188555500436302-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/919720765_18457178272134654_4403137569240892621_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=M7eVHA3ggdcQ7kNvwGfihW0&_nc_oc=Ado1UvsQamydCHN9UHAE5BTt-c23bQswbt5Gj8p4YOBE4wsnHCFrP7xzNGTbwxvzMs4&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=z9fLPdlLoSU9NfL5k40aJQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQXyExCoQW2jhH2bpJiEEt8w557gSDgK28C4MiN5SnzR7g&oe=6B0E90B6",
+      "kind": "live_music",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgItVo9Avk4/",
       "status": "info"
     },
     "18190064005421310-0": {
@@ -13197,6 +13691,36 @@
       "permalink": "https://www.instagram.com/p/DfW1W4rI70h/",
       "status": "info"
     },
+    "18471442426184217-0": {
+      "account": "bolgia.official",
+      "account_venue": "Bolgia",
+      "caption": "Sabato 12 Dicembre dalle ore 23:30 alle 06:00!\n💰Lista 20€ Dr*nk Incluso💰 \nPrenota Qui: https://www.bolgia.it/fk/tato\no Chiamando ☎️ 338.3624803 Supertato!\nSpecial Guest: VLADIMIR CAUCHEMAR\nIN AUTO: Osio Sopra(BG) via Vaccarezza n.8\nIN TRENO: fermata stazione Verdello-Dalmine,da li navette fino al Bolgia(sia andata che ritorno).\n#maipiùsenzabolgia\n#bolgiadjsfromtheworld",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-12",
+        "end_time": "06:00",
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "23:30",
+        "ticket_url": null,
+        "title": "Bolgia",
+        "venue_name": "Bolgia"
+      },
+      "id": "18471442426184217-0",
+      "image": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/922541323_1912833519852801_4982131488213215557_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0Fgtdib8T1oQ7kNvwG215qS&_nc_oc=Adrsh6onX-VUZ2ch3j0FXDEBARzzSPXQ5BPvNjlrnnCFXqrW30GIx3KKuLfi3fEGoXE&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=_e05XtHQD-qwlARwkFE8IA&_nc_tpa=Q5bMBQJb8BCb7X28gXlxxZlpSPKOclj64v7fH6mygj7C1kFB_287aX4C2KjVf3ZEbmYInkCAaM8q6vk96Q&_nc_ct=RQosPBUKFQoAAAA&oh=00_AQW55TE8tKvo-q9PfgvCYCXkcQ7d-DNcCBsotFEmrPWrCQ&oe=6B0E890F",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/reel/DgKptz0oLax/",
+      "status": "auto"
+    },
     "18471532594137063-0": {
       "account": "discoteca_queen",
       "account_venue": "Queen Club",
@@ -13741,7 +14265,7 @@
       "status": "info"
     }
   },
-  "next_account": 23,
+  "next_account": 43,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -14262,6 +14786,11 @@
       "at": "2026-11-22T17:57:11+0000",
       "event": false
     },
+    "17908840437349449": {
+      "account": "csapacipaciana",
+      "at": "2026-11-24T17:56:46+0000",
+      "event": true
+    },
     "17909460132560011": {
       "account": "oroneroloveandmusic",
       "at": "2026-10-14T15:53:51+0000",
@@ -14540,6 +15069,11 @@
     "17919736983466808": {
       "account": "unplug__bg",
       "at": "2026-11-18T05:00:06+0000",
+      "event": true
+    },
+    "17919787098540683": {
+      "account": "setai_club_official",
+      "at": "2026-11-26T13:08:55+0000",
       "event": true
     },
     "17919949452444438": {
@@ -15027,6 +15561,11 @@
       "at": "2026-10-19T15:46:07+0000",
       "event": false
     },
+    "17962632015297318": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-26T17:49:11+0000",
+      "event": true
+    },
     "17962700787254484": {
       "account": "setai_club_official",
       "at": "2026-11-17T10:42:41+0000",
@@ -15061,6 +15600,11 @@
       "account": "casacostez",
       "at": "2026-10-19T10:00:07+0000",
       "event": false
+    },
+    "17966075955239349": {
+      "account": "drusobg",
+      "at": "2026-11-26T09:56:29+0000",
+      "event": true
     },
     "17966219919245833": {
       "account": "capogirojoyclub",
@@ -15242,6 +15786,11 @@
       "at": "2026-10-07T15:24:44+0000",
       "event": true
     },
+    "17978348487178113": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-25T10:52:25+0000",
+      "event": false
+    },
     "17978687961183641": {
       "account": "nxtbergamo",
       "at": "2026-11-19T17:23:30+0000",
@@ -15311,6 +15860,11 @@
       "account": "mint_lounge",
       "at": "2026-11-24T08:58:04+0000",
       "event": true
+    },
+    "17983853994130985": {
+      "account": "jamlivestudio",
+      "at": "2026-11-25T17:01:01+0000",
+      "event": false
     },
     "17984864952091873": {
       "account": "cafeteriatreviolo",
@@ -15798,6 +16352,11 @@
       "at": "2026-10-24T10:56:34+0000",
       "event": true
     },
+    "18024056114730491": {
+      "account": "kellerfactory_",
+      "at": "2026-11-26T10:57:54+0000",
+      "event": false
+    },
     "18024537155864088": {
       "account": "we.are.stepup",
       "at": "2026-10-21T14:02:59+0000",
@@ -15906,6 +16465,11 @@
     "18030881792879396": {
       "account": "csapacipaciana",
       "at": "2026-11-04T11:51:39+0000",
+      "event": true
+    },
+    "18031169570697307": {
+      "account": "thanka.official",
+      "at": "2026-11-26T11:56:10+0000",
       "event": true
     },
     "18031832759867672": {
@@ -16503,6 +17067,11 @@
       "at": "2026-10-21T16:01:33+0000",
       "event": true
     },
+    "18092074151282920": {
+      "account": "bobadillafeelingclub",
+      "at": "2026-11-25T16:04:34+0000",
+      "event": false
+    },
     "18092230670292556": {
       "account": "inkclub_bergamo",
       "at": "2026-10-28T17:07:54+0000",
@@ -16678,6 +17247,11 @@
       "at": "2026-11-06T17:00:03+0000",
       "event": true
     },
+    "18098135156173073": {
+      "account": "drusobg",
+      "at": "2026-11-25T19:24:30+0000",
+      "event": true
+    },
     "18098324168449287": {
       "account": "bv_rooftop",
       "at": "2026-10-31T12:31:46+0000",
@@ -16738,6 +17312,11 @@
       "at": "2026-10-15T10:00:02+0000",
       "event": false
     },
+    "18100193153665799": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-26T10:32:48+0000",
+      "event": true
+    },
     "18100286042108001": {
       "account": "baiadelrebrignano",
       "at": "2026-11-02T15:41:12+0000",
@@ -16787,6 +17366,11 @@
       "account": "tiky.klub",
       "at": "2026-10-19T16:25:08+0000",
       "event": true
+    },
+    "18101372735420312": {
+      "account": "capogirojoyclub",
+      "at": "2026-11-25T16:50:31+0000",
+      "event": false
     },
     "18101753693536222": {
       "account": "jamlivestudio",
@@ -16996,6 +17580,11 @@
     "18107965793207947": {
       "account": "bolgia.official",
       "at": "2026-10-22T06:37:36+0000",
+      "event": true
+    },
+    "18108170963634107": {
+      "account": "drusobg",
+      "at": "2026-11-26T16:54:29+0000",
       "event": true
     },
     "18108211151580306": {
@@ -17290,6 +17879,11 @@
       "at": "2026-10-29T14:02:03+0000",
       "event": false
     },
+    "18113587982237131": {
+      "account": "barrys__",
+      "at": "2026-11-25T10:26:41+0000",
+      "event": false
+    },
     "18113855801116824": {
       "account": "lecannibaleclub",
       "at": "2026-10-05T16:03:16+0000",
@@ -17528,6 +18122,11 @@
       "at": "2026-11-18T16:43:29+0000",
       "event": true
     },
+    "18117807521620952": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-25T13:11:19+0000",
+      "event": true
+    },
     "18117925160006850": {
       "account": "sprint_bergamo",
       "at": "2026-11-02T17:00:01+0000",
@@ -17573,6 +18172,11 @@
       "at": "2026-11-05T16:20:53+0000",
       "event": true
     },
+    "18118338209583371": {
+      "account": "ninfeasocialclub",
+      "at": "2026-11-25T18:00:16+0000",
+      "event": true
+    },
     "18118465358126431": {
       "account": "nxtbergamo",
       "at": "2026-11-12T21:58:16+0000",
@@ -17616,6 +18220,11 @@
     "18118837556276061": {
       "account": "nxtbergamo",
       "at": "2026-11-16T17:07:49+0000",
+      "event": true
+    },
+    "18118864058113740": {
+      "account": "thanka.official",
+      "at": "2026-11-25T11:56:29+0000",
       "event": true
     },
     "18118945030965923": {
@@ -17928,6 +18537,11 @@
       "at": "2026-10-19T21:23:51+0000",
       "event": true
     },
+    "18122534236980351": {
+      "account": "thanka.official",
+      "at": "2026-11-25T17:31:11+0000",
+      "event": true
+    },
     "18122601392073149": {
       "account": "hype.club.official",
       "at": "2026-11-04T11:00:01+0000",
@@ -17962,6 +18576,11 @@
       "account": "tiky.klub",
       "at": "2026-11-20T17:26:20+0000",
       "event": false
+    },
+    "18123540589908878": {
+      "account": "jamlivestudio",
+      "at": "2026-11-26T12:00:00+0000",
+      "event": true
     },
     "18123691178514546": {
       "account": "hype.club.official",
@@ -18042,6 +18661,11 @@
       "account": "lecannibaleclub",
       "at": "2026-10-13T16:00:45+0000",
       "event": true
+    },
+    "18125646902283901": {
+      "account": "discoteca_queen",
+      "at": "2026-11-25T18:07:03+0000",
+      "event": false
     },
     "18125656337513736": {
       "account": "circolinomalpensata_bergamo",
@@ -18796,6 +19420,11 @@
       "at": "2026-11-23T15:56:23+0000",
       "event": true
     },
+    "18139134382731713": {
+      "account": "drusobg",
+      "at": "2026-11-26T19:50:27+0000",
+      "event": true
+    },
     "18139242991716090": {
       "account": "cosmo.food.club",
       "at": "2026-11-20T12:06:42+0000",
@@ -19390,6 +20019,11 @@
     "18187884847419236": {
       "account": "drusobg",
       "at": "2026-11-12T13:00:57+0000",
+      "event": true
+    },
+    "18188555500436302": {
+      "account": "drusobg",
+      "at": "2026-11-24T19:29:27+0000",
       "event": true
     },
     "18189114394411795": {
@@ -20065,6 +20699,11 @@
     "18471052582142726": {
       "account": "theboxbergamo",
       "at": "2026-10-28T16:55:07+0000",
+      "event": true
+    },
+    "18471442426184217": {
+      "account": "bolgia.official",
+      "at": "2026-11-25T13:39:12+0000",
       "event": true
     },
     "18471532594137063": {
