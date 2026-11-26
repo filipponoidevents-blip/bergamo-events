@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-26T00:45",
+ "generated": "2026-11-26T09:01",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -448,7 +448,7 @@
     {
      "line1": "utōpia @ Druso",
      "line2": "Melodic House, Pollo",
-     "time": "00:00",
+     "time": "21:00",
      "score": 65.7,
      "fascia": "preserata",
      "family": "House / Elettronica"
@@ -538,7 +538,7 @@
     {
      "line1": "Savana Funk @ Druso",
      "line2": "Disco / Rock",
-     "time": "00:00",
+     "time": "22:00",
      "score": 49.8,
      "fascia": "preserata",
      "family": "House / Elettronica"
@@ -658,7 +658,7 @@
      "family": "Hip Hop / Trap"
     },
     {
-     "line1": "Druso",
+     "line1": "Malpaga winter night @ Druso",
      "line2": "Rock",
      "time": "16:00",
      "score": 49.8,
@@ -712,6 +712,14 @@
      "score": 30.9,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "Cremeria delle valli",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 29.4,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "No.Mad Entertainment @ Non solo caffe",
@@ -874,6 +882,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Possibilita @ Daste",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 53.0,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Revel Treviglio",
      "line2": "comedy",
      "time": "20:30",
@@ -998,6 +1014,7 @@
    "@nxtbergamo",
    "@gres_art_671",
    "@prenotazione",
+   "@daste_bergamo",
    "@noidfamilia",
    "@inkclub_bergamo",
    "@ninfeasocialclub",
@@ -1006,6 +1023,7 @@
    "@reservation",
    "@contributo",
    "@particolare",
+   "@possibilita",
    "@revel_treviglio",
    "@gemboyofficial_",
    "@thanka.official",
@@ -1021,10 +1039,8 @@
    "@16manu___",
    "@bolgia.official",
    "@importanti",
-   "@daste_bergamo",
    "@consumazione",
-   "@dnaproject__",
-   "@esotic_event"
+   "@dnaproject__"
   ],
   "hashtags": [
    "#bergamo",
@@ -1872,7 +1888,7 @@
     {
      "line1": "utōpia @ Druso",
      "line2": "Melodic House, Pollo",
-     "time": "00:00",
+     "time": "21:00",
      "score": 65.7,
      "fascia": "preserata",
      "family": "House / Elettronica"
@@ -1962,7 +1978,7 @@
     {
      "line1": "Savana Funk @ Druso",
      "line2": "Disco / Rock",
-     "time": "00:00",
+     "time": "22:00",
      "score": 49.8,
      "fascia": "preserata",
      "family": "House / Elettronica"
@@ -2082,7 +2098,7 @@
      "family": "Hip Hop / Trap"
     },
     {
-     "line1": "Druso",
+     "line1": "Malpaga winter night @ Druso",
      "line2": "Rock",
      "time": "16:00",
      "score": 49.8,
@@ -2136,6 +2152,14 @@
      "score": 30.9,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "Cremeria delle valli",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 29.4,
+     "fascia": "preserata",
+     "family": "Altro"
     },
     {
      "line1": "No.Mad Entertainment @ Non solo caffe",
@@ -2442,6 +2466,14 @@
      "line2": "dj set",
      "time": "09:00",
      "score": 57.3,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Possibilita @ Daste",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 53.0,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -2819,14 +2851,15 @@
   "caption_handles": [
    "@prenotazione",
    "@nxtbergamo",
+   "@daste_bergamo",
    "@bloom_mezzago",
    "@gres_art_671",
    "@noidfamilia",
    "@bolgia.official",
-   "@daste_bergamo",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
    "@reservation",
+   "@possibilita",
    "@revel_treviglio",
    "@nikita__land",
    "@zeroclub.bg",
@@ -2845,8 +2878,7 @@
    "@lenticchie",
    "@inkclub_bergamo",
    "@ninfeasocialclub",
-   "@emozioni.in.fiore",
-   "@unplug__bg"
+   "@emozioni.in.fiore"
   ],
   "hashtags": [
    "#bergamo",
