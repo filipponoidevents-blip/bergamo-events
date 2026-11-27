@@ -1,39 +1,7 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-26T19:55",
+ "generated": "2026-11-27T03:21",
  "nights": [
-  {
-   "date": "2026-11-26",
-   "weekday": "giovedì",
-   "note": null,
-   "weekend_like": false,
-   "events": 2,
-   "load": 91.7,
-   "level": "media",
-   "capacity_taken": 1300,
-   "by_family": {
-    "House / Elettronica": 0,
-    "Hip Hop / Trap": 0,
-    "Commerciale": 2,
-    "Altro": 0
-   },
-   "missing_families": [
-    "House / Elettronica",
-    "Hip Hop / Trap"
-   ],
-   "top": [
-    {
-     "title": "[Commerciale] Nikita · Vida Loca",
-     "score": 59.9,
-     "capacity": 1000
-    },
-    {
-     "title": "[Commerciale] Casa Costez",
-     "score": 31.8,
-     "capacity": 300
-    }
-   ]
-  },
   {
    "date": "2026-11-27",
    "weekday": "venerdì",
@@ -116,7 +84,7 @@
      "capacity": 600
     },
     {
-     "title": "[Commerciale] THANKA",
+     "title": "[Commerciale] THANKA · Gloss Party",
      "score": 40.6,
      "capacity": 1000
     }
@@ -2141,6 +2109,28 @@
   {
    "date": "2027-02-23",
    "weekday": "martedì",
+   "note": null,
+   "weekend_like": false,
+   "events": 0,
+   "load": 0,
+   "level": "non ancora annunciata",
+   "capacity_taken": 0,
+   "by_family": {
+    "House / Elettronica": 0,
+    "Hip Hop / Trap": 0,
+    "Commerciale": 0,
+    "Altro": 0
+   },
+   "missing_families": [
+    "House / Elettronica",
+    "Hip Hop / Trap",
+    "Commerciale"
+   ],
+   "top": []
+  },
+  {
+   "date": "2027-02-24",
+   "weekday": "mercoledì",
    "note": null,
    "weekend_like": false,
    "events": 0,
