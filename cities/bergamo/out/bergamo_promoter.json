@@ -1,24 +1,29 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-27T14:26",
+ "generated": "2026-11-27T23:00",
  "nights": [
   {
    "date": "2026-11-27",
    "weekday": "venerdì",
    "note": null,
    "weekend_like": true,
-   "events": 11,
-   "load": 356.1,
+   "events": 12,
+   "load": 422.1,
    "level": "piena",
-   "capacity_taken": 5300,
+   "capacity_taken": 8300,
    "by_family": {
-    "House / Elettronica": 5,
+    "House / Elettronica": 6,
     "Hip Hop / Trap": 1,
     "Commerciale": 4,
     "Altro": 1
    },
    "missing_families": [],
    "top": [
+    {
+     "title": "[Techno, Hard Techno] Bolgia · Galactica Festival",
+     "score": 66.0,
+     "capacity": 3000
+    },
     {
      "title": "[Live] Nikita · Ventitré w/ TAKE OVER",
      "score": 43.0,
@@ -37,11 +42,6 @@
     {
      "title": "[Hard Techno] Oronero · Underground - Hardcore w/ Possibilita",
      "score": 38.0,
-     "capacity": 400
-    },
-    {
-     "title": "[Dance] Queen Club · DiscoDance",
-     "score": 36.1,
      "capacity": 400
     }
    ]
@@ -601,12 +601,12 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 46.8,
-   "level": "libera",
-   "capacity_taken": 0,
+   "events": 2,
+   "load": 112.8,
+   "level": "media",
+   "capacity_taken": 3000,
    "by_family": {
-    "House / Elettronica": 1,
+    "House / Elettronica": 2,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
@@ -616,6 +616,11 @@
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "[Techno, Hard Techno] Bolgia · Galactica Festival",
+     "score": 66.0,
+     "capacity": 3000
+    },
     {
      "title": "[Techno, Hard Techno] Fiera di Bergamo · Galactica Festival w/ MATTIA TRANI",
      "score": 46.8,
@@ -766,22 +771,26 @@
    "weekday": "sabato",
    "note": "festivo (Santo Stefano)",
    "weekend_like": true,
-   "events": 1,
-   "load": 49.8,
-   "level": "libera",
-   "capacity_taken": 900,
+   "events": 2,
+   "load": 115.8,
+   "level": "media",
+   "capacity_taken": 3900,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 1
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "[Techno, Hard Techno] Bolgia · Galactica Festival",
+     "score": 66.0,
+     "capacity": 3000
+    },
     {
      "title": "[Rock / Jazz] Bloom · Charlie Cinelli",
      "score": 49.8,
@@ -945,22 +954,26 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 32.7,
-   "level": "libera",
-   "capacity_taken": 300,
+   "events": 2,
+   "load": 98.7,
+   "level": "media",
+   "capacity_taken": 3300,
    "by_family": {
-    "House / Elettronica": 0,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 1
    },
    "missing_families": [
-    "House / Elettronica",
     "Hip Hop / Trap",
     "Commerciale"
    ],
    "top": [
+    {
+     "title": "[Techno, Hard Techno] Bolgia · Galactica Festival",
+     "score": 66.0,
+     "capacity": 3000
+    },
     {
      "title": "[Rock] Druso",
      "score": 32.7,
