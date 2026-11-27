@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-27T03:21",
+ "generated": "2026-11-27T14:26",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -948,6 +948,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Officina Panarari",
+     "line2": "karaoke",
+     "time": "21:00",
+     "score": 17.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Concerto augurale corale della Valle di Scalve @ Chiesa Parrocchiale dei Santi Filippo e Giacomo Apostoli",
      "line2": "live",
      "time": "20:30",
@@ -978,6 +986,14 @@
      "line2": "House, Esotic Wave",
      "time": "00:00",
      "score": 47.4,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
+     "line1": "Tra terra e cielo @ Ninfea Social Club",
+     "line2": "Elettronica, Assonica",
+     "time": "18:30",
+     "score": 44.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
@@ -1028,12 +1044,12 @@
   "big_events": [],
   "caption_handles": [
    "@nxtbergamo",
-   "@gres_art_671",
    "@prenotazione",
+   "@ninfeasocialclub",
+   "@gres_art_671",
    "@daste_bergamo",
    "@noidfamilia",
    "@inkclub_bergamo",
-   "@ninfeasocialclub",
    "@emozioni.in.fiore",
    "@unplug__bg",
    "@reservation",
@@ -1051,12 +1067,12 @@
    "@ema___a",
    "@quei_bravi_ragazzi_bg",
    "@paolorivapasticceria",
+   "@officinapanarari",
    "@zeroclub.bg",
    "@16manu___",
    "@bolgia.official",
    "@importanti",
-   "@consumazione",
-   "@dnaproject__"
+   "@consumazione"
   ],
   "hashtags": [
    "#bergamo",
@@ -2552,6 +2568,14 @@
      "family": "Altro"
     },
     {
+     "line1": "Officina Panarari",
+     "line2": "karaoke",
+     "time": "21:00",
+     "score": 17.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Concerto augurale corale della Valle di Scalve @ Chiesa Parrocchiale dei Santi Filippo e Giacomo Apostoli",
      "line2": "live",
      "time": "20:30",
@@ -2582,6 +2606,14 @@
      "line2": "House, Esotic Wave",
      "time": "00:00",
      "score": 47.4,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
+     "line1": "Tra terra e cielo @ Ninfea Social Club",
+     "line2": "Elettronica, Assonica",
+     "time": "18:30",
+     "score": 44.6,
      "fascia": "preserata",
      "family": "House / Elettronica"
     },
@@ -2890,10 +2922,12 @@
    "@bolgia.official",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
+   "@ninfeasocialclub",
    "@reservation",
    "@possibilita",
    "@revel_treviglio",
    "@nikita__land",
+   "@officinapanarari",
    "@zeroclub.bg",
    "@16manu___",
    "@importanti",
@@ -2908,9 +2942,7 @@
    "@coreografie",
    "@capogirojoyclub",
    "@lenticchie",
-   "@inkclub_bergamo",
-   "@ninfeasocialclub",
-   "@emozioni.in.fiore"
+   "@inkclub_bergamo"
   ],
   "hashtags": [
    "#bergamo",
