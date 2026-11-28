@@ -1,12 +1,12 @@
 {
   "followers": {
-    "afrodylanofficial": 12181,
+    "afrodylanofficial": 12189,
     "al_tabarin": 741,
     "aliveofficialparty": 29212,
     "arya.lounge": 2473,
     "baiadelrebrignano": 4241,
-    "balzerbynight": 7479,
-    "bar30elode": 1175,
+    "balzerbynight": 7482,
+    "bar30elode": 1178,
     "bar_sanmarco": 2109,
     "barperlage": 2693,
     "barrys__": 9728,
@@ -15,19 +15,19 @@
     "bolgia.official": 125358,
     "brinapasticceria": 3140,
     "bsk.sound": 1751,
-    "bucheesebar": 6846,
+    "bucheesebar": 6845,
     "bv_rooftop": 11314,
-    "cafeteriatreviolo": 5438,
+    "cafeteriatreviolo": 5442,
     "caffetteria_nuova_rotonda": 1732,
     "call._.out": 727,
     "capogirojoyclub": 17765,
-    "casacostez": 6410,
+    "casacostez": 6479,
     "charleston.treviglio": 2435,
     "cheri.it": 4695,
     "choruslife.bergamo": 67880,
     "circolinomalpensata_bergamo": 2941,
     "contest_bg": 3927,
-    "cosmo.food.club": 2361,
+    "cosmo.food.club": 2364,
     "crocevia_": 1074,
     "cromaroom": 1992,
     "crystalcastlesnightt": 814,
@@ -42,13 +42,13 @@
     "hiddenhell.techno": 11149,
     "hype.club.official": 24424,
     "icksdresstoimpress": 6675,
-    "iconevents.official": 606,
+    "iconevents.official": 605,
     "incroissanterialab": 27729,
-    "inkclub_bergamo": 14699,
-    "intothewoodsbg": 33179,
+    "inkclub_bergamo": 14731,
+    "intothewoodsbg": 33191,
     "jamlivestudio": 6030,
     "juiceclubit": 8566,
-    "karma_lounge_official_": 5159,
+    "karma_lounge_official_": 5160,
     "kellerfactory_": 7382,
     "lazzaretto_bergamo_estate": 11514,
     "lecannibaleclub": 43234,
@@ -58,7 +58,7 @@
     "nikita__land": 25671,
     "ninfeasocialclub": 8785,
     "noidfamilia": 7885,
-    "nxtbergamo": 30415,
+    "nxtbergamo": 30450,
     "oasi.night": 533,
     "officinapanarari": 5411,
     "oroneroloveandmusic": 7839,
@@ -66,12 +66,12 @@
     "premiere.premiere": 2164,
     "sabbiemobili_official": 7837,
     "savageparty.official": 4780,
-    "savana.king25": 192,
+    "savana.king25": 193,
     "selected.lab": 200,
     "setai_club_official": 36666,
     "sloth.bg": 839,
     "sommet_night": 511,
-    "sprint_bergamo": 5119,
+    "sprint_bergamo": 5133,
     "supertatobolgia": 20632,
     "talk.maf": 2203,
     "thanka.official": 30824,
@@ -81,12 +81,12 @@
     "twofestival": 2948,
     "unibg_party": 3463,
     "unplug.project": 547,
-    "unplug__bg": 3185,
+    "unplug__bg": 3192,
     "utopia.direction": 8476,
     "vibetheclub": 11569,
     "victorialoungebar_bonate": 1289,
     "we.are.stepup": 355,
-    "zeroclub.bg": 20822
+    "zeroclub.bg": 20804
   },
   "items": {
     "17869386033675222-0": {
@@ -2827,6 +2827,66 @@
       "notes": "read by the free pattern matcher; date guessed from a weekday name",
       "permalink": "https://www.instagram.com/p/Df-COQ7Dykq/",
       "status": "pending"
+    },
+    "17973375831187189-0": {
+      "account": "nxtbergamo",
+      "account_venue": "NXT Station",
+      "caption": "Sagra Zola, Taleggio e Bollito 🧀🙌🏻\nZola e Taleggio fanno già metà del lavoro. Poi arriva il\nbollito e la serata è sistemata. Non vediamo l’ora di avervi\na tavola con noi 🤗\n\n🗓️ 26, 27, 28, 29 novembre - 3, 5, 6, 7, 8 dicembre\nNXT BERGAMO 📍 Piazzale degli Alpini, Bergamo\nINGRESSO GRATUITO\n\n📲 Prenota il tuo tavolo e scopri il menù, è semplicissimo, vai su: https://bit.ly/ZolaTaleggioBollito e compila il form!",
+      "confidence": 0.6,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-11-29",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "NXT Station",
+        "venue_name": "NXT Station"
+      },
+      "id": "17973375831187189-0",
+      "image": null,
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgQpywigrKk/",
+      "status": "info"
+    },
+    "17973375831187189-1": {
+      "account": "nxtbergamo",
+      "account_venue": "NXT Station",
+      "caption": "Sagra Zola, Taleggio e Bollito 🧀🙌🏻\nZola e Taleggio fanno già metà del lavoro. Poi arriva il\nbollito e la serata è sistemata. Non vediamo l’ora di avervi\na tavola con noi 🤗\n\n🗓️ 26, 27, 28, 29 novembre - 3, 5, 6, 7, 8 dicembre\nNXT BERGAMO 📍 Piazzale degli Alpini, Bergamo\nINGRESSO GRATUITO\n\n📲 Prenota il tuo tavolo e scopri il menù, è semplicissimo, vai su: https://bit.ly/ZolaTaleggioBollito e compila il form!",
+      "confidence": 0.6,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-08",
+        "end_time": null,
+        "entry": "paid",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "food_drink",
+        "late_end": false,
+        "price": null,
+        "start_time": null,
+        "ticket_url": null,
+        "title": "NXT Station",
+        "venue_name": "NXT Station"
+      },
+      "id": "17973375831187189-1",
+      "image": null,
+      "kind": "food_drink",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgQpywigrKk/",
+      "status": "info"
     },
     "17975512365180274-0": {
       "account": "liveclub",
@@ -6517,6 +6577,39 @@
       "notes": "read by the free pattern matcher",
       "permalink": "https://www.instagram.com/reel/DfkUHU7sgcT/",
       "status": "info"
+    },
+    "18104268518414623-0": {
+      "account": "inkclub_bergamo",
+      "account_venue": "Ink Club",
+      "caption": "ALL YOU CAN BEAT X PASTA RHYMES ARRIVA A INK 🍝\n\nLunedì 7 Dicembre il palco di Ink ospiterà un live Rap d’eccezione. Tusco porterà PASTA RYHMES unendo le forze con allucanbeats per farci muovere la testa tutta la sera.\n\nNato a Pavia nel 1993 e attivo dal 2012, tuscorap è uno degli MC di punta della scena underground italiana, noto per l’agilità metrica e la visione internazionale. Con quattro album, cinque EP e collaborazioni con artisti del calibro di Fritz Da Cat, Inoki, Esa, Reks e Termanology, porta l’essenza autentica del rap italiano sui palchi di tutta Europa e degli Stati Uniti. \n\nInsieme a lui due opening straight outta BG, ny.vek.wor.ld che ha accompagnato Dj Fastcut in tutta la pensiola e internosmusica trio dalle sfumature R&B già ben noto nella nostra città dopo l’apertura a Fibra sul palco di NXT e una serie incredibile di hit rilasciate! \n\nAccompagnerà la serata in consolle smok_rhymes che ci farà ballare fino a tarda, tanto il giorno dopo è festivo 😝\n\n🚪 contributo alla porta\n⏰ apertura delle porte ore 21:00\n🀄 ingresso riservato a* soc* arci\n\n#inkclubbergamo #inkpubbergamo #inkclubradio #onlygoodvibes",
+      "confidence": 0.9,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-07",
+        "end_time": null,
+        "entry": null,
+        "fascia": null,
+        "genres": [
+          "hip hop / trap",
+          "electronic"
+        ],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "dj_club",
+        "late_end": false,
+        "price": null,
+        "start_time": "21:00",
+        "ticket_url": null,
+        "title": "Ink Club",
+        "venue_name": "Ink Club"
+      },
+      "id": "18104268518414623-0",
+      "image": "https://scontent-sea5-2.cdninstagram.com/v/t51.82787-15/934025404_18374188237215937_4932903946118819229_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=duZ2XnVia4kQ7kNvwGJz0gE&_nc_oc=Adpe2vsKoH5uJaP9kfhqXd77sKkG4xDUZ1TGXUh-ahUbRdGi4rr57K9Vnf1YSARxbOM&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=5C9L_NqH4nnHElEv2W4qmg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQV-NlZUwB-15GqFi6tf5hl2Az44pgW3e6NLw9eBwFNxOw&oe=6B0FEDFD",
+      "kind": "dj_club",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgQHsbbxbm4/",
+      "status": "auto"
     },
     "18105431927381407-0": {
       "account": "daste_bergamo",
@@ -12384,6 +12477,36 @@
       "permalink": "https://www.instagram.com/p/DfPr5Z6FBV4/",
       "status": "info"
     },
+    "18186012934430123-0": {
+      "account": "nxtbergamo",
+      "account_venue": "NXT Station",
+      "caption": "𝐀𝐩𝐫𝐞̀𝐬-𝐒𝐤𝐢 𝐏𝐚𝐫𝐭𝐲 🎿 @ 𝐍𝐗𝐓 𝐁𝐞𝐫𝐠𝐚𝐦𝐨, 𝐏𝐢𝐚𝐳𝐳𝐚𝐥𝐞 𝐝𝐞𝐠𝐥𝐢 𝐀𝐥𝐩𝐢𝐧𝐢 - 𝟔 𝐝𝐢𝐜𝐞𝐦𝐛𝐫𝐞\nINGRESSO GRATUITO\nChi l'ha detto che per fare après-ski bisogna andare in montagna? 😍\n\nDomenica 6 dicembre inauguriamo ufficialmente lo Star Garden, il \"rooftop\" di Piazzale degli Alpini, con un pomeriggio in pieno stile après-ski 💥\nNiente skipass, niente seggiovia e soprattutto niente sveglia all'alba: solo musica, drink e vin brulé, tra le stelle luminose e a due passi dalla pista di pattinaggio!\n\nLa montagna resta dov'è: la festa la portiamo in città. 🏔️\n\n⏰ Dalle 17:00 alle 21:00\nINGRESSO GRATUITO\n🍔🍹 Area relax con food & drink disponibile per tutto l'evento.\n\n❄️ 𝐁𝐞𝐫𝐠𝐚𝐦𝐨 𝐨𝐧 𝐈𝐜𝐞 & 𝐒𝐭𝐚𝐫 𝐆𝐚𝐫𝐝𝐞𝐧 🎄 𝐏𝐢𝐚𝐳𝐳𝐚𝐥𝐞 𝐝𝐞𝐠𝐥𝐢 𝐀𝐥𝐩𝐢𝐧𝐢 💫\nDal 20 novembre al 10 gennaio",
+      "confidence": 0.8,
+      "event": {
+        "artists": [],
+        "city": null,
+        "date": "2026-12-06",
+        "end_time": "21:00",
+        "entry": "free",
+        "fascia": null,
+        "genres": [],
+        "is_concert": false,
+        "is_festival": false,
+        "kind": "other",
+        "late_end": false,
+        "price": null,
+        "start_time": "17:00",
+        "ticket_url": null,
+        "title": "Après-Ski Party",
+        "venue_name": "NXT Station"
+      },
+      "id": "18186012934430123-0",
+      "image": "https://scontent-sea5-2.cdninstagram.com/v/t39.30808-6/922611177_1145607081560104_4991581419617431036_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vdcDRT1OZgYQ7kNvwHqMail&_nc_oc=AdqA1K62GRZi-nlyY_k2z7JzZldOQpAk8SkA577xAPNTn3xjG_PYWwAmtDwbi3am56k&_nc_zt=23&_nc_ht=scontent-sea5-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=q42x_JafHixoLcxu2XHZmg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQXOOgo9HD7rqY7XhfBuo7EDO4mTrfqYDmfTzIMTJPZDLQ&oe=6B0FFE35",
+      "kind": "other",
+      "notes": "read by the free pattern matcher",
+      "permalink": "https://www.instagram.com/p/DgP2r9XCNUD/",
+      "status": "info"
+    },
     "18187111204390924-0": {
       "account": "afrodylanofficial",
       "account_venue": null,
@@ -14663,7 +14786,7 @@
       "status": "info"
     }
   },
-  "next_account": 83,
+  "next_account": 17,
   "profile_names": {
     "afrodylanofficial": "Afrodylan",
     "al_tabarin": "TABARIN🍸",
@@ -15164,6 +15287,11 @@
       "at": "2026-10-07T09:31:37+0000",
       "event": false
     },
+    "17905937232608541": {
+      "account": "unplug__bg",
+      "at": "2026-11-26T11:52:36+0000",
+      "event": false
+    },
     "17907104229356026": {
       "account": "ninfeasocialclub",
       "at": "2026-11-04T09:28:39+0000",
@@ -15232,6 +15360,11 @@
     "17910469782664420": {
       "account": "officinapanarari",
       "at": "2026-10-31T10:03:57+0000",
+      "event": false
+    },
+    "17910480126600952": {
+      "account": "afrodylanofficial",
+      "at": "2026-11-26T20:00:05+0000",
       "event": false
     },
     "17910664122551615": {
@@ -15389,6 +15522,11 @@
       "at": "2026-11-10T13:14:51+0000",
       "event": false
     },
+    "17915777493591456": {
+      "account": "sprint_bergamo",
+      "at": "2026-11-26T17:00:02+0000",
+      "event": false
+    },
     "17916064581551698": {
       "account": "we.are.stepup",
       "at": "2026-11-06T16:33:07+0000",
@@ -15448,6 +15586,11 @@
       "account": "oroneroloveandmusic",
       "at": "2026-11-24T14:39:04+0000",
       "event": true
+    },
+    "17918460591501935": {
+      "account": "nxtbergamo",
+      "at": "2026-11-26T21:56:45+0000",
+      "event": false
     },
     "17918546925550223": {
       "account": "vibetheclub",
@@ -16144,6 +16287,11 @@
       "at": "2026-10-06T11:08:32+0000",
       "event": false
     },
+    "17973375831187189": {
+      "account": "nxtbergamo",
+      "at": "2026-11-27T21:32:21+0000",
+      "event": true
+    },
     "17975512365180274": {
       "account": "liveclub",
       "at": "2026-11-13T18:00:33+0000",
@@ -16244,6 +16392,11 @@
       "at": "2026-11-04T17:30:51+0000",
       "event": false
     },
+    "17980645020139360": {
+      "account": "caffetteria_nuova_rotonda",
+      "at": "2026-11-26T18:35:56+0000",
+      "event": false
+    },
     "17981040494921253": {
       "account": "vibetheclub",
       "at": "2026-11-04T17:00:20+0000",
@@ -16342,6 +16495,11 @@
     "17989433606867479": {
       "account": "capogirojoyclub",
       "at": "2026-10-09T11:15:01+0000",
+      "event": false
+    },
+    "17989868327892157": {
+      "account": "inkclub_bergamo",
+      "at": "2026-11-26T13:01:29+0000",
       "event": false
     },
     "17990009577086652": {
@@ -16609,6 +16767,11 @@
       "account": "choruslife.bergamo",
       "at": "2026-11-25T12:00:07+0000",
       "event": true
+    },
+    "18004937723816452": {
+      "account": "victorialoungebar_bonate",
+      "at": "2026-11-26T14:34:36+0000",
+      "event": false
     },
     "18005063426808807": {
       "account": "bar_sanmarco",
@@ -17028,6 +17191,11 @@
     "18042307652849867": {
       "account": "bucheesebar",
       "at": "2026-11-18T17:06:33+0000",
+      "event": false
+    },
+    "18042500612846574": {
+      "account": "nxtbergamo",
+      "at": "2026-11-27T22:15:20+0000",
       "event": false
     },
     "18043092902834412": {
@@ -17919,6 +18087,11 @@
       "account": "aliveofficialparty",
       "at": "2026-11-13T16:17:01+0000",
       "event": false
+    },
+    "18104268518414623": {
+      "account": "inkclub_bergamo",
+      "at": "2026-11-27T16:37:24+0000",
+      "event": true
     },
     "18104410187201337": {
       "account": "al_tabarin",
@@ -18890,6 +19063,11 @@
       "at": "2026-10-21T10:00:08+0000",
       "event": false
     },
+    "18121156199093573": {
+      "account": "inkclub_bergamo",
+      "at": "2026-11-27T11:55:03+0000",
+      "event": false
+    },
     "18121311104050493": {
       "account": "al_tabarin",
       "at": "2026-11-23T12:46:15+0000",
@@ -19778,6 +19956,11 @@
       "at": "2026-11-04T14:31:25+0000",
       "event": false
     },
+    "18136326421761185": {
+      "account": "karma_lounge_official_",
+      "at": "2026-11-26T16:20:57+0000",
+      "event": false
+    },
     "18136373926738457": {
       "account": "nxtbergamo",
       "at": "2026-11-11T12:49:10+0000",
@@ -20479,6 +20662,11 @@
       "at": "2026-11-02T16:00:06+0000",
       "event": true
     },
+    "18186012934430123": {
+      "account": "nxtbergamo",
+      "at": "2026-11-27T14:05:49+0000",
+      "event": true
+    },
     "18186940585427657": {
       "account": "cafeteriatreviolo",
       "at": "2026-11-15T15:31:47+0000",
@@ -20568,6 +20756,11 @@
       "account": "decibel_club",
       "at": "2026-11-16T21:37:24+0000",
       "event": true
+    },
+    "18196638913397068": {
+      "account": "nxtbergamo",
+      "at": "2026-11-27T21:21:52+0000",
+      "event": false
     },
     "18197576041401490": {
       "account": "nxtbergamo",
@@ -21137,6 +21330,11 @@
     "18423660784153373": {
       "account": "ninfeasocialclub",
       "at": "2026-11-03T16:01:04+0000",
+      "event": true
+    },
+    "18434430910148532": {
+      "account": "cafeteriatreviolo",
+      "at": "2026-11-27T16:21:07+0000",
       "event": true
     },
     "18436327579176756": {
