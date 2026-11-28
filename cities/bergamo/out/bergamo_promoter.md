@@ -1,13 +1,13 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 28/11/2026 11:03. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 28/11/2026 12:10. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
 ## Le prossime sere da weekend più libere
 
 - **venerdì 04/12**: 1 serate, carico 40.6, manca House / Elettronica, Hip Hop / Trap, Commerciale
-- **sabato 05/12**: 1 serate, carico 60.0, manca Hip Hop / Trap, Commerciale
+- **sabato 05/12**: 2 serate, carico 95.5, manca Hip Hop / Trap, Commerciale
 - **venerdì 11/12**: 1 serate, carico 31.8, manca House / Elettronica, Hip Hop / Trap, Commerciale
 - **venerdì 18/12**: 1 serate, carico 43.0, manca House / Elettronica, Hip Hop / Trap
 - **venerdì 25/12** · prefestivo (Santo Stefano): 1 serate, carico 7.7, manca House / Elettronica, Hip Hop / Trap, Commerciale
@@ -23,8 +23,8 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 | 29/11 dom | media | 3 | 78.2 | 750 | Commerciale 1, Altro 2 | [Commerciale] Bobadilla · Aperitivo Martini; [Rock] Revel Treviglio; Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 02/12 mer | tranquilla | 1 | 46.3 | 500 | Commerciale 1 | [Commerciale 360] Zero Club · Please |
 | 04/12 ven | libera | 1 | 40.6 | 1000 | Altro 1 | [Latin] Thanka · Noche Latina |
-| 05/12 sab | media | 1 | 60.0 | 3000 | House 1 | [Techno] Bolgia · CHELINA MANUHUTU |
-| 07/12 lun (prefestivo (Immacolata)) | media | 3 | 147.8 | 3500 | House 1, Hip Hop 1, Commerciale 1 | [Techno] Bolgia · NOVAH; [Afro / Reggaeton] Druso · Afrodylan; [Hip Hop / Commerciale] Ink Club |
+| 05/12 sab | media | 2 | 95.5 | 3500 | House 2 | [Techno] Bolgia · CHELINA MANUHUTU; [House] Vibe Club · Sommet |
+| 07/12 lun (prefestivo (Immacolata)) | media | 3 | 156.8 | 3500 | House 1, Hip Hop 1, Commerciale 1 | [Techno] Bolgia · NOVAH; [Afro / Reggaeton] Druso · Afrodylan; [Hip Hop / Commerciale] Ink Club · Nyvek |
 | 08/12 mar (festivo (Immacolata)) | tranquilla | 1 | 29.0 | 100 | Commerciale 1 | [Commerciale] Easy Drink and Food · cento10elode |
 | 11/12 ven | libera | 1 | 31.8 | 500 | Altro 1 | [Indie / Rock] Teatro Miela |
 | 12/12 sab | media | 2 | 126.3 | 3500 | House 2 | [House] Zero Club · NØID w/ Germano Ventura; [Techno] Bolgia · VLADIMIR CAUCHEMAR |

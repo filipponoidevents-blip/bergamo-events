@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-28T11:03",
+ "generated": "2026-11-28T12:10",
  "nights": [
   {
    "date": "2026-11-28",
@@ -209,12 +209,12 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 1,
-   "load": 60.0,
+   "events": 2,
+   "load": 95.5,
    "level": "media",
-   "capacity_taken": 3000,
+   "capacity_taken": 3500,
    "by_family": {
-    "House / Elettronica": 1,
+    "House / Elettronica": 2,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
@@ -228,6 +228,11 @@
      "title": "[Techno] Bolgia · CHELINA MANUHUTU",
      "score": 60.0,
      "capacity": 3000
+    },
+    {
+     "title": "[House] Vibe Club · Sommet",
+     "score": 35.5,
+     "capacity": 500
     }
    ]
   },
@@ -259,7 +264,7 @@
    "note": "prefestivo (Immacolata)",
    "weekend_like": true,
    "events": 3,
-   "load": 147.8,
+   "load": 156.8,
    "level": "media",
    "capacity_taken": 3500,
    "by_family": {
@@ -281,8 +286,8 @@
      "capacity": 300
     },
     {
-     "title": "[Hip Hop / Commerciale] Ink Club",
-     "score": 29.7,
+     "title": "[Hip Hop / Commerciale] Ink Club · Nyvek",
+     "score": 38.7,
      "capacity": 200
     }
    ]

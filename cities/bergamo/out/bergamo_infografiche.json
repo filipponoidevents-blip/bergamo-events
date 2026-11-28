@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-28T11:03",
+ "generated": "2026-11-28T12:10",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -678,14 +678,6 @@
      "score": 14.2,
      "fascia": "preserata",
      "family": "Altro"
-    },
-    {
-     "line1": "Arya Lounge",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 13.8,
-     "fascia": "preserata",
-     "family": "Altro"
     }
    ],
    "2026-11-29": [
@@ -794,7 +786,6 @@
    "@bolgia.official",
    "@vibetheclub",
    "@alonic_shakti",
-   "@arya.lounge",
    "@utopia.direction",
    "@corinna_fm",
    "@mint_lounge",
@@ -802,7 +793,8 @@
    "@scalpo_punk",
    "@sezione.8",
    "@cafeteriatreviolo",
-   "@earth_ofc"
+   "@earth_ofc",
+   "@kinodeejay"
   ],
   "hashtags": [
    "#bergamo",
@@ -850,6 +842,14 @@
       "line2": "Techno",
       "time": "23:30",
       "score": 60.0,
+      "fascia": "serata",
+      "family": "House / Elettronica"
+     },
+     {
+      "line1": "Sommet @ Vibe Club",
+      "line2": "House",
+      "time": "00:00",
+      "score": 35.5,
       "fascia": "serata",
       "family": "House / Elettronica"
      }
@@ -1094,6 +1094,7 @@
    "@consumazione",
    "@gres_art_671",
    "@daste_bergamo",
+   "@vibetheclub",
    "@inkclub_bergamo",
    "@emozioni.in.fiore",
    "@unplug__bg",
@@ -1116,8 +1117,7 @@
    "@paolorivapasticceria",
    "@officinapanarari",
    "@bolgia.official",
-   "@importanti",
-   "@dnaproject__"
+   "@sommet_night"
   ],
   "hashtags": [
    "#bergamo",
@@ -2195,14 +2195,6 @@
      "score": 14.2,
      "fascia": "preserata",
      "family": "Altro"
-    },
-    {
-     "line1": "Arya Lounge",
-     "line2": "dj set",
-     "time": "00:00",
-     "score": 13.8,
-     "fascia": "preserata",
-     "family": "Altro"
     }
    ],
    "2026-11-29": [
@@ -2300,7 +2292,6 @@
    "@decibel_club",
    "@divinabergamo",
    "@vibetheclub",
-   "@arya.lounge",
    "@bolgia.official",
    "@daste_bergamo",
    "@kellerfactory_",
@@ -2309,6 +2300,7 @@
    "@missdivina1",
    "@possibilita",
    "@spettacoli",
+   "@arya.lounge",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@contributo",
@@ -2470,6 +2462,14 @@
       "score": 60.0,
       "fascia": "serata",
       "family": "House / Elettronica"
+     },
+     {
+      "line1": "Sommet @ Vibe Club",
+      "line2": "House",
+      "time": "00:00",
+      "score": 35.5,
+      "fascia": "serata",
+      "family": "House / Elettronica"
      }
     ],
     "2026-12-07": [
@@ -2550,10 +2550,10 @@
    "Hip Hop / Trap": {
     "2026-12-07": [
      {
-      "line1": "Ink Club",
+      "line1": "Nyvek @ Ink Club",
       "line2": "Hip Hop / Commerciale",
       "time": "21:00",
-      "score": 29.7,
+      "score": 38.7,
       "fascia": "serata",
       "family": "Hip Hop / Trap"
      }
@@ -2877,6 +2877,14 @@
    ],
    "2026-12-10": [
     {
+     "line1": "Live Club",
+     "line2": "Rock",
+     "time": "00:00",
+     "score": 46.6,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "MOSS | Via G. Bonomelli 9, Bergamo",
      "line2": "Jazz",
      "time": "20:00",
@@ -3063,6 +3071,14 @@
      "score": 49.5,
      "fascia": "preserata",
      "family": "Commerciale"
+    },
+    {
+     "line1": "Barrier",
+     "line2": "dj set",
+     "time": "20:00",
+     "score": 43.9,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ]
   },
@@ -3077,6 +3093,7 @@
    "@ninfeasocialclub",
    "@consumazione",
    "@gres_art_671",
+   "@vibetheclub",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
    "@galactica.festival",
@@ -3091,7 +3108,6 @@
    "@importanti",
    "@noidfamilia",
    "@tassinocafe",
-   "@vibetheclub",
    "@aliveofficialparty",
    "@afrodylanofficial",
    "@jolly_club_mantova_",
