@@ -22,6 +22,7 @@ venues:
   genre: Techno
   watch: true
 - name: Setai
+  show_as: Setai Club
   aliases: [Ex Fluid, Fluid, Setai Club, Setai Orio]
   instagram: setai_club_official
   type: club
@@ -59,6 +60,7 @@ venues:
   genre: Commerciale
   watch: true
 - name: Bobadilla Feeling Club
+  show_as: Bobadilla
   aliases: [Bobadilla, Bobadilla Dalmine]
   instagram: bobadillafeelingclub
   type: club
@@ -78,6 +80,7 @@ venues:
   category: ballo da sala
   watch: true
 - name: HYPE Club
+  show_as: Hype Club
   aliases: [Hype Club Cortenuova]
   instagram: hype.club.official
   type: club
@@ -126,6 +129,7 @@ venues:
   genre: Commerciale
   watch: true
 - name: Ristorante BV Rooftop lounge bar
+  show_as: BV Rooftop
   aliases: [BV Rooftop, BV Rooftop Brignano]
   instagram: bv_rooftop
   type: bar
@@ -146,6 +150,7 @@ venues:
   genre: Commerciale
   watch: true
 - name: LOFT
+  show_as: LOFT Bergamo
   aliases: [LOFT Bergamo, LOFT Hi-Fi Bar, Loft Azzano]
   instagram: loft.bergamo
   type: club
@@ -155,6 +160,7 @@ venues:
   genre: House
   watch: true
 - name: Edone
+  show_as: Edoné
   aliases: [Edoné Bergamo, Spazio Giovani Edonè]
   instagram: edonebergamo
   type: live_club
@@ -180,6 +186,7 @@ venues:
   capacity: 300
   watch: true
 - name: Spazio Polaresco
+  show_as: Polaresco
   aliases: [Polaresco]
   instagram: spazio_polaresco
   type: live_club
@@ -206,6 +213,7 @@ venues:
   capacity: 200
   watch: true
 - name: Il Circolino della Malpensata
+  show_as: Circolino della Malpensata
   aliases: [Circolino Malpensata, Circolino della Malpensata, Il Circolino]
   instagram: circolinomalpensata_bergamo
   type: bar
@@ -213,6 +221,7 @@ venues:
   vote: 3
   watch: true
 - name: Keller Factory 2.0 - Live Music Pub
+  show_as: Keller Factory
   aliases: [Keller Curno, Keller Factory]
   instagram: kellerfactory_
   type: bar
@@ -258,6 +267,7 @@ venues:
   vote: 6
   watch: true
 - name: NXT Bergamo
+  show_as: NXT Station
   aliases: [NXT, NXT Station, Piazzale degli Alpini]
   instagram: nxtbergamo
   type: open_air
@@ -280,6 +290,7 @@ venues:
   genre: Live
   watch: true
 - name: ChorusLife Arena
+  show_as: ChorusLife
   aliases: [ChorusLife, ChorusLife Smart District]
   instagram: choruslife.bergamo
   type: arena
@@ -296,6 +307,7 @@ venues:
   vote: 8
   watch: true
 - name: gres art 671
+  show_as: Gres Art 671
   aliases: [Gres Art, Gres Art 671 Bergamo, GresArt 671]
   instagram: gres_art_671
   type: live_club
@@ -303,6 +315,7 @@ venues:
   capacity: 2000
   watch: true
 - name: Barry’s
+  show_as: Barry's
   aliases: [Barry's Bergamo, Barrys]
   instagram: barrys__
   type: bar
@@ -321,6 +334,7 @@ venues:
   vote: 3
   watch: true
 - name: UNPLUG BAR
+  show_as: Unplug Bar
   aliases: [UNPLUG, Unplug Bergamo]
   instagram: unplug__bg
   type: bar
@@ -390,6 +404,7 @@ venues:
   vote: 3
   watch: true
 - name: 30 & Lode Bergamo
+  show_as: Bar 30&Lode
   aliases: [30 e Lode, 30&Lode, Bar 30&Lode]
   instagram: bar30elode
   type: bar
@@ -397,6 +412,7 @@ venues:
   vote: 3
   watch: true
 - name: Into the Woods
+  show_as: Into The Woods
   aliases: [Into The Woods Pitch, Pitch Torre Boldone]
   instagram: intothewoodsbg
   type: bar
@@ -427,6 +443,7 @@ venues:
   vote: 3
   watch: true
 - name: VIBE
+  show_as: Vibe Club
   aliases: [Vibe Club, Vibe Club Treviolo]
   instagram: vibetheclub
   type: club
@@ -439,6 +456,7 @@ venues:
   genre: Tech House
   watch: true
 - name: Garota De Ipanema
+  show_as: Garota de Ipanema
   aliases: [Garota]
   instagram: garotadeipanemaa
   type: club
@@ -450,6 +468,7 @@ venues:
   watch: true
 - {name: Sabbie Mobili, instagram: sabbiemobili_official, type: club, fascia: serata, vote: 6, capacity: 500, genre: Commerciale, watch: true}
 - name: Victoria lounge bar
+  show_as: Victoria Lounge Bar
   aliases: [Victoria Lounge]
   instagram: victorialoungebar_bonate
   type: bar
@@ -508,6 +527,7 @@ venues:
   vote: 3
   watch: true
 - name: Mint Lounge Bar
+  show_as: MINT
   aliases: [MINT, Mint Chiuduno]
   instagram: mint_lounge
   type: club
@@ -517,6 +537,7 @@ venues:
   genre: Commerciale / House
   watch: true
 - name: ARYA Lounge Bar
+  show_as: Arya Lounge
   aliases: [Arya Lounge]
   instagram: arya.lounge
   type: bar
@@ -565,6 +586,7 @@ venues:
   vote: 3
   watch: true
 - name: Tassino Cafe
+  show_as: Tassino Café
   aliases: [Tassino]
   instagram: tassinocafe
   type: bar
@@ -572,6 +594,7 @@ venues:
   vote: 3
   watch: true
 - name: THANKA
+  show_as: Thanka
   aliases: [Thanka Official, Thanka Seriate]
   instagram: thanka.official
   type: club

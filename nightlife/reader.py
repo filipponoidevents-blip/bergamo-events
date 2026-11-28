@@ -59,7 +59,7 @@ GENRES = [  # (etichetta, parole che la indicano) in ordine: vince la più speci
     ("Indie", r"\bindie\b"), ("Rock", r"\brock\b|\bmetal\b|\bpunk\b"), ("Jazz", r"\bjazz\b|\bblues\b|swing"), ("Pop", r"\bpop\b(?!\s*-?up)"),
 ]
 TYPES = [  # tipo di intrattenimento
-    ("karaoke", r"karaoke"), ("quiz", r"\bquiz\b|trivia|pub\s*quiz|tombola|bingo|giochi\s+da\s+tavolo|beer\s*pong|torneo"),
+    ("karaoke", r"karaoke"), ("quiz", r"\bquiz\b|trivia|pub\s*quiz|tombola|bingo|giochi\s+da\s+tavolo|serata\s+giochi|scacchi|briscola|burraco|beer\s*pong|torneo"),
     ("comedy", r"stand\s*-?up|comedy|cabaret|comic[oi]"), ("dinner show", r"dinner\s*show|cena\s+spettacolo|cena\s+con\s+(?:musica|spettacolo|delitto)"),
     ("festival", r"\bfestival\b|open\s*air\b"),
     ("culture", r"\bmostra\b|vernissage|presentazione|\blibro\b|workshop|laboratorio|\bcorso\b|mercatino|\bmarket\b|proiezione|\bfilm\b|cineforum|teatro|spettacolo teatrale|conferenza|\btalk\b|incontro con|degustazione|yoga|pattinaggio|\bbambini\b|aperitivo in lingua|convegno"),

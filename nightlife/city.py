@@ -90,6 +90,9 @@ class City:
                 v = {"name": patch["name"], "sources": ["conoscenze"]}
                 self.venues.append(v)
             v.update({k: x for k, x in patch.items() if x is not None})
+            if patch.get("show_as"):
+                v["aliases"] = sorted({*(v.get("aliases") or []), v["name"]} - {patch["show_as"]})
+                v["name"] = patch["show_as"]
             if patch.get("remove"):   # "non è nightlife": il locale sparisce da tutto
                 self.venues.remove(v)
             else:

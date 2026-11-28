@@ -58,6 +58,8 @@ def import_v1(city: City, old: Path) -> tuple[str, dict]:
         h = v.get("instagram") or (v.get("socials") or {}).get("instagram")
         m = _match(city, v)
         p: dict = {"name": m["name"] if m else name}
+        if m and m["name"] != name:
+            p["show_as"] = name   # nel calendario e nei post il nome che usa Filippo ("Vibe Club", non "VIBE" di Google Maps)
         aliases = sorted({a for a in [name, *(v.get("aliases") or [])] if norm(a) != norm(p["name"])})
         if aliases:
             p["aliases"] = aliases
