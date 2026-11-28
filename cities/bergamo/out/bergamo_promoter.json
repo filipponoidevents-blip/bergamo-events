@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-28T08:30",
+ "generated": "2026-11-28T09:55",
  "nights": [
   {
    "date": "2026-11-28",
@@ -40,7 +40,7 @@
      "capacity": 600
     },
     {
-     "title": "[Commerciale] THANKA · Gloss Party",
+     "title": "[Commerciale] Thanka · Gloss Party",
      "score": 40.6,
      "capacity": 1000
     }
@@ -67,7 +67,7 @@
    ],
    "top": [
     {
-     "title": "[Commerciale] Bobadilla Feeling Club · Aperitivo Martini",
+     "title": "[Commerciale] Bobadilla · Aperitivo Martini",
      "score": 43.9,
      "capacity": 500
     },
@@ -132,22 +132,27 @@
    "weekday": "mercoledì",
    "note": null,
    "weekend_like": false,
-   "events": 0,
-   "load": 0,
+   "events": 1,
+   "load": 46.3,
    "level": "tranquilla",
-   "capacity_taken": 0,
+   "capacity_taken": 500,
    "by_family": {
     "House / Elettronica": 0,
     "Hip Hop / Trap": 0,
-    "Commerciale": 0,
+    "Commerciale": 1,
     "Altro": 0
    },
    "missing_families": [
     "House / Elettronica",
-    "Hip Hop / Trap",
-    "Commerciale"
+    "Hip Hop / Trap"
    ],
-   "top": []
+   "top": [
+    {
+     "title": "[Commerciale 360] Zero Club · Please",
+     "score": 46.3,
+     "capacity": 500
+    }
+   ]
   },
   {
    "date": "2026-12-03",
@@ -193,7 +198,7 @@
    ],
    "top": [
     {
-     "title": "[Latin] THANKA · Noche Latina",
+     "title": "[Latin] Thanka · Noche Latina",
      "score": 40.6,
      "capacity": 1000
     }
@@ -204,12 +209,12 @@
    "weekday": "sabato",
    "note": null,
    "weekend_like": true,
-   "events": 2,
-   "load": 126.3,
+   "events": 1,
+   "load": 60.0,
    "level": "media",
-   "capacity_taken": 3500,
+   "capacity_taken": 3000,
    "by_family": {
-    "House / Elettronica": 2,
+    "House / Elettronica": 1,
     "Hip Hop / Trap": 0,
     "Commerciale": 0,
     "Altro": 0
@@ -219,11 +224,6 @@
     "Commerciale"
    ],
    "top": [
-    {
-     "title": "[House] Zero Club · NØID w/ Germano Ventura",
-     "score": 66.3,
-     "capacity": 500
-    },
     {
      "title": "[Techno] Bolgia · CHELINA MANUHUTU",
      "score": 60.0,
@@ -878,7 +878,7 @@
      "capacity": null
     },
     {
-     "title": "[Revival] Keller Factory 2.0 - Live Music Pub",
+     "title": "[Revival] Keller Factory",
      "score": 24.3,
      "capacity": 400
     },

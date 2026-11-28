@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-28T08:30",
+ "generated": "2026-11-28T09:55",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -109,7 +109,7 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "VIBE",
+      "line1": "Vibe Club",
       "line2": "Tech House",
       "time": "00:00",
       "score": 35.2,
@@ -265,7 +265,7 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Gloss Party @ THANKA",
+      "line1": "Gloss Party @ Thanka",
       "line2": "Commerciale",
       "time": "00:00",
       "score": 40.6,
@@ -273,7 +273,7 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Lova @ HYPE Club",
+      "line1": "Lova @ Hype Club",
       "line2": "Commerciale",
       "time": "00:00",
       "score": 37.3,
@@ -283,7 +283,7 @@
     ],
     "2026-11-29": [
      {
-      "line1": "Aperitivo Martini @ Bobadilla Feeling Club",
+      "line1": "Aperitivo Martini @ Bobadilla",
       "line2": "Commerciale",
       "time": "00:00",
       "score": 43.9,
@@ -544,7 +544,7 @@
      "family": "Altro"
     },
     {
-     "line1": "utōpia @ Tassino Cafe",
+     "line1": "utōpia @ Tassino Café",
      "line2": "Melodic House",
      "time": "00:00",
      "score": 54.2,
@@ -568,7 +568,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Cheri @ Mint Lounge Bar",
+     "line1": "Cheri @ MINT",
      "line2": "Commerciale",
      "time": "21:00",
      "score": 47.2,
@@ -592,7 +592,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Apericena A Buffet @ LOFT",
+     "line1": "Apericena A Buffet @ LOFT Bergamo",
      "line2": "House, Lapo Underground",
      "time": "21:00",
      "score": 43.2,
@@ -600,7 +600,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line1": "Keller Factory",
      "line2": "live",
      "time": "22:00",
      "score": 42.9,
@@ -616,7 +616,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Il Circolino della Malpensata",
+     "line1": "Circolino della Malpensata",
      "line2": "Rock",
      "time": "21:30",
      "score": 35.9,
@@ -624,10 +624,10 @@
      "family": "Altro"
     },
     {
-     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
-     "line2": "dj set, cre.sp1",
+     "line1": "Wild Horse Nine @ Bloom",
+     "line2": "Rock / Jazz, cre.sp1",
      "time": "21:00",
-     "score": 31.6,
+     "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -683,7 +683,7 @@
    "2026-11-29": [
     {
      "line1": "Sabotage @ Daste",
-     "line2": "Hip Hop",
+     "line2": "Hip Hop, R.ocks",
      "time": "19:30",
      "score": 72.5,
      "fascia": "preserata",
@@ -698,7 +698,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line1": "Keller Factory",
      "line2": "dj set",
      "time": "19:00",
      "score": 42.9,
@@ -778,6 +778,7 @@
    "@ninfeasocialclub",
    "@sabbiemobili_official",
    "@drusobg",
+   "@bloom_mezzago",
    "@nxtbergamo",
    "@possibilita",
    "@csapacipaciana",
@@ -793,8 +794,7 @@
    "@cafeteriatreviolo",
    "@earth_ofc",
    "@kinodeejay",
-   "@liveclub",
-   "@bloom_mezzago"
+   "@liveclub"
   ],
   "hashtags": [
    "#bergamo",
@@ -806,14 +806,27 @@
   "from": "2026-11-30",
   "to": "2026-12-06",
   "dates_with_serate": [
+   "2026-12-02",
    "2026-12-04",
    "2026-12-05"
   ],
   "serate_by_family": {
+   "Commerciale": {
+    "2026-12-02": [
+     {
+      "line1": "Please @ Zero Club",
+      "line2": "Commerciale 360",
+      "time": "23:30",
+      "score": 46.3,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ]
+   },
    "Altro": {
     "2026-12-04": [
      {
-      "line1": "Noche Latina @ THANKA",
+      "line1": "Noche Latina @ Thanka",
       "line2": "Latin",
       "time": "00:00",
       "score": 40.6,
@@ -824,14 +837,6 @@
    },
    "House / Elettronica": {
     "2026-12-05": [
-     {
-      "line1": "NØID @ Zero Club",
-      "line2": "House, Germano Ventura",
-      "time": "00:00",
-      "score": 66.3,
-      "fascia": "serata",
-      "family": "House / Elettronica"
-     },
      {
       "line1": "CHELINA MANUHUTU @ Bolgia",
       "line2": "Techno",
@@ -862,7 +867,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "UNPLUG BAR",
+     "line1": "Unplug Bar",
      "line2": "dj set",
      "time": "21:00",
      "score": 33.8,
@@ -872,7 +877,7 @@
    ],
    "2026-12-02": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Live",
      "time": "20:00",
      "score": 58.6,
@@ -880,7 +885,7 @@
      "family": "Altro"
     },
     {
-     "line1": "gres art 671",
+     "line1": "Gres Art 671",
      "line2": "dj set",
      "time": "00:00",
      "score": 57.3,
@@ -898,7 +903,7 @@
    ],
    "2026-12-03": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Live",
      "time": "21:00",
      "score": 58.6,
@@ -906,7 +911,7 @@
      "family": "Altro"
     },
     {
-     "line1": "gres art 671",
+     "line1": "Gres Art 671",
      "line2": "dj set",
      "time": "09:00",
      "score": 57.3,
@@ -920,6 +925,14 @@
      "score": 53.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "21:00",
+     "score": 44.6,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "Revel Treviglio",
@@ -982,7 +995,7 @@
    ],
    "2026-12-05": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Rock",
      "time": "21:00",
      "score": 58.6,
@@ -1006,6 +1019,14 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "BSK Sound @ Tassino Café",
+     "line2": "Tech House, BSK Crew",
+     "time": "20:00",
+     "score": 45.5,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Tra terra e cielo @ Ninfea Social Club",
      "line2": "Elettronica, Assonica",
      "time": "18:30",
@@ -1014,7 +1035,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Il Circolino della Malpensata",
+     "line1": "Circolino della Malpensata",
      "line2": "Indie / Rock",
      "time": "21:30",
      "score": 35.9,
@@ -1040,7 +1061,7 @@
    ],
    "2026-12-06": [
     {
-     "line1": "Alive @ VIBE",
+     "line1": "Alive @ Vibe Club",
      "line2": "School Party",
      "time": "21:00",
      "score": 70.2,
@@ -1059,15 +1080,17 @@
   },
   "big_events": [],
   "caption_handles": [
+   "@ninfeasocialclub",
    "@nxtbergamo",
    "@prenotazione",
-   "@ninfeasocialclub",
+   "@consumazione",
    "@gres_art_671",
    "@daste_bergamo",
-   "@noidfamilia",
    "@inkclub_bergamo",
    "@emozioni.in.fiore",
    "@unplug__bg",
+   "@zeroclub.bg",
+   "@please.nights",
    "@reservation",
    "@contributo",
    "@particolare",
@@ -1084,11 +1107,9 @@
    "@quei_bravi_ragazzi_bg",
    "@paolorivapasticceria",
    "@officinapanarari",
-   "@zeroclub.bg",
-   "@16manu___",
    "@bolgia.official",
    "@importanti",
-   "@consumazione"
+   "@dnaproject__"
   ],
   "hashtags": [
    "#bergamo",
@@ -1465,7 +1486,7 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Gloss Party @ THANKA",
+      "line1": "Gloss Party @ Thanka",
       "line2": "Commerciale",
       "time": "00:00",
       "score": 40.6,
@@ -1473,7 +1494,7 @@
       "family": "Commerciale"
      },
      {
-      "line1": "Lova @ HYPE Club",
+      "line1": "Lova @ Hype Club",
       "line2": "Commerciale",
       "time": "00:00",
       "score": 37.3,
@@ -1483,7 +1504,7 @@
     ],
     "2026-11-29": [
      {
-      "line1": "Aperitivo Martini @ Bobadilla Feeling Club",
+      "line1": "Aperitivo Martini @ Bobadilla",
       "line2": "Commerciale",
       "time": "00:00",
       "score": 43.9,
@@ -1579,7 +1600,7 @@
       "family": "House / Elettronica"
      },
      {
-      "line1": "VIBE",
+      "line1": "Vibe Club",
       "line2": "Tech House",
       "time": "00:00",
       "score": 35.2,
@@ -2032,7 +2053,7 @@
      "family": "Altro"
     },
     {
-     "line1": "utōpia @ Tassino Cafe",
+     "line1": "utōpia @ Tassino Café",
      "line2": "Melodic House",
      "time": "00:00",
      "score": 54.2,
@@ -2056,7 +2077,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Cheri @ Mint Lounge Bar",
+     "line1": "Cheri @ MINT",
      "line2": "Commerciale",
      "time": "21:00",
      "score": 47.2,
@@ -2080,7 +2101,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Apericena A Buffet @ LOFT",
+     "line1": "Apericena A Buffet @ LOFT Bergamo",
      "line2": "House, Lapo Underground",
      "time": "21:00",
      "score": 43.2,
@@ -2088,7 +2109,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line1": "Keller Factory",
      "line2": "live",
      "time": "22:00",
      "score": 42.9,
@@ -2104,7 +2125,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Il Circolino della Malpensata",
+     "line1": "Circolino della Malpensata",
      "line2": "Rock",
      "time": "21:30",
      "score": 35.9,
@@ -2112,10 +2133,10 @@
      "family": "Altro"
     },
     {
-     "line1": "Wild Horse Nine @ Bloom from Seoul | Skincare Coreana Bergamo",
-     "line2": "dj set, cre.sp1",
+     "line1": "Wild Horse Nine @ Bloom",
+     "line2": "Rock / Jazz, cre.sp1",
      "time": "21:00",
-     "score": 31.6,
+     "score": 35.7,
      "fascia": "preserata",
      "family": "Altro"
     },
@@ -2171,7 +2192,7 @@
    "2026-11-29": [
     {
      "line1": "Sabotage @ Daste",
-     "line2": "Hip Hop",
+     "line2": "Hip Hop, R.ocks",
      "time": "19:30",
      "score": 72.5,
      "fascia": "preserata",
@@ -2186,7 +2207,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Keller Factory 2.0 - Live Music Pub",
+     "line1": "Keller Factory",
      "line2": "dj set",
      "time": "19:00",
      "score": 42.9,
@@ -2295,6 +2316,7 @@
   "from": "2026-12-01",
   "to": "2026-12-31",
   "dates_with_serate": [
+   "2026-12-02",
    "2026-12-04",
    "2026-12-05",
    "2026-12-07",
@@ -2309,10 +2331,62 @@
    "2026-12-31"
   ],
   "serate_by_family": {
+   "Commerciale": {
+    "2026-12-02": [
+     {
+      "line1": "Please @ Zero Club",
+      "line2": "Commerciale 360",
+      "time": "23:30",
+      "score": 46.3,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-12-07": [
+     {
+      "line1": "Afrodylan @ Druso",
+      "line2": "Afro / Reggaeton",
+      "time": "22:30",
+      "score": 58.1,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-12-08": [
+     {
+      "line1": "cento10elode @ Easy Drink and Food",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 29.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-12-18": [
+     {
+      "line1": "Nikita",
+      "line2": "Commerciale",
+      "time": "00:00",
+      "score": 43.0,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ],
+    "2026-12-31": [
+     {
+      "line1": "Keller Factory",
+      "line2": "Revival",
+      "time": "23:00",
+      "score": 24.3,
+      "fascia": "serata",
+      "family": "Commerciale"
+     }
+    ]
+   },
    "Altro": {
     "2026-12-04": [
      {
-      "line1": "Noche Latina @ THANKA",
+      "line1": "Noche Latina @ Thanka",
       "line2": "Latin",
       "time": "00:00",
       "score": 40.6,
@@ -2373,14 +2447,6 @@
    },
    "House / Elettronica": {
     "2026-12-05": [
-     {
-      "line1": "NØID @ Zero Club",
-      "line2": "House, Germano Ventura",
-      "time": "00:00",
-      "score": 66.3,
-      "fascia": "serata",
-      "family": "House / Elettronica"
-     },
      {
       "line1": "CHELINA MANUHUTU @ Bolgia",
       "line2": "Techno",
@@ -2464,48 +2530,6 @@
       "family": "House / Elettronica"
      }
     ]
-   },
-   "Commerciale": {
-    "2026-12-07": [
-     {
-      "line1": "Afrodylan @ Druso",
-      "line2": "Afro / Reggaeton",
-      "time": "22:30",
-      "score": 58.1,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ],
-    "2026-12-08": [
-     {
-      "line1": "cento10elode @ Easy Drink and Food",
-      "line2": "Commerciale",
-      "time": "00:00",
-      "score": 29.0,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ],
-    "2026-12-18": [
-     {
-      "line1": "Nikita",
-      "line2": "Commerciale",
-      "time": "00:00",
-      "score": 43.0,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ],
-    "2026-12-31": [
-     {
-      "line1": "Keller Factory 2.0 - Live Music Pub",
-      "line2": "Revival",
-      "time": "23:00",
-      "score": 24.3,
-      "fascia": "serata",
-      "family": "Commerciale"
-     }
-    ]
    }
   },
   "preserate": {
@@ -2527,7 +2551,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "UNPLUG BAR",
+     "line1": "Unplug Bar",
      "line2": "dj set",
      "time": "21:00",
      "score": 33.8,
@@ -2537,7 +2561,7 @@
    ],
    "2026-12-02": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Live",
      "time": "20:00",
      "score": 58.6,
@@ -2545,7 +2569,7 @@
      "family": "Altro"
     },
     {
-     "line1": "gres art 671",
+     "line1": "Gres Art 671",
      "line2": "dj set",
      "time": "00:00",
      "score": 57.3,
@@ -2563,7 +2587,7 @@
    ],
    "2026-12-03": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Live",
      "time": "21:00",
      "score": 58.6,
@@ -2571,7 +2595,7 @@
      "family": "Altro"
     },
     {
-     "line1": "gres art 671",
+     "line1": "Gres Art 671",
      "line2": "dj set",
      "time": "09:00",
      "score": 57.3,
@@ -2585,6 +2609,14 @@
      "score": 53.0,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "Ninfea Social Club",
+     "line2": "Elettronica",
+     "time": "21:00",
+     "score": 44.6,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
     },
     {
      "line1": "Revel Treviglio",
@@ -2647,7 +2679,7 @@
    ],
    "2026-12-05": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Rock",
      "time": "21:00",
      "score": 58.6,
@@ -2671,6 +2703,14 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "BSK Sound @ Tassino Café",
+     "line2": "Tech House, BSK Crew",
+     "time": "20:00",
+     "score": 45.5,
+     "fascia": "preserata",
+     "family": "House / Elettronica"
+    },
+    {
      "line1": "Tra terra e cielo @ Ninfea Social Club",
      "line2": "Elettronica, Assonica",
      "time": "18:30",
@@ -2679,7 +2719,7 @@
      "family": "House / Elettronica"
     },
     {
-     "line1": "Il Circolino della Malpensata",
+     "line1": "Circolino della Malpensata",
      "line2": "Indie / Rock",
      "time": "21:30",
      "score": 35.9,
@@ -2705,7 +2745,7 @@
    ],
    "2026-12-06": [
     {
-     "line1": "Alive @ VIBE",
+     "line1": "Alive @ Vibe Club",
      "line2": "School Party",
      "time": "21:00",
      "score": 70.2,
@@ -2723,7 +2763,7 @@
    ],
    "2026-12-07": [
     {
-     "line1": "Alive @ VIBE",
+     "line1": "Alive @ Vibe Club",
      "line2": "School Party",
      "time": "21:00",
      "score": 70.2,
@@ -2731,7 +2771,7 @@
      "family": "Altro"
     },
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Rock",
      "time": "00:00",
      "score": 58.6,
@@ -2739,7 +2779,7 @@
      "family": "Altro"
     },
     {
-     "line1": "The Box @ Tassino Cafe",
+     "line1": "The Box @ Tassino Café",
      "line2": "Melodic Techno, Gas Beer",
      "time": "22:00",
      "score": 54.2,
@@ -2757,7 +2797,7 @@
    ],
    "2026-12-08": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Latino",
      "time": "17:00",
      "score": 58.6,
@@ -2783,7 +2823,7 @@
    ],
    "2026-12-09": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Live",
      "time": "20:00",
      "score": 58.6,
@@ -2791,7 +2831,7 @@
      "family": "Altro"
     },
     {
-     "line1": "gres art 671",
+     "line1": "Gres Art 671",
      "line2": "dj set",
      "time": "00:00",
      "score": 57.3,
@@ -2819,7 +2859,7 @@
    ],
    "2026-12-11": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Commerciale",
      "time": "20:00",
      "score": 58.6,
@@ -2845,7 +2885,7 @@
    ],
    "2026-12-12": [
     {
-     "line1": "NXT Bergamo",
+     "line1": "NXT Station",
      "line2": "Revival / Commerciale",
      "time": "21:00",
      "score": 58.6,
@@ -2861,7 +2901,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Il Circolino della Malpensata",
+     "line1": "Circolino della Malpensata",
      "line2": "Rock",
      "time": "21:30",
      "score": 35.9,
@@ -2895,6 +2935,16 @@
      "family": "Commerciale"
     }
    ],
+   "2026-12-17": [
+    {
+     "line1": "Billy Cobham The Italian Trio @ Druso",
+     "line2": "Jazz",
+     "time": "21:30",
+     "score": 49.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    }
+   ],
    "2026-12-18": [
     {
      "line1": "Bro taste the summer",
@@ -2907,6 +2957,14 @@
    ],
    "2026-12-19": [
     {
+     "line1": "Druso",
+     "line2": "Jazz",
+     "time": "21:30",
+     "score": 49.8,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
      "line1": "Francesco Fanucchi - Tutto Sbagliato @ Teatro Miela",
      "line2": "comedy, Francesco Fanucchi",
      "time": "21:00",
@@ -2915,7 +2973,7 @@
      "family": "Altro"
     },
     {
-     "line1": "Il Circolino della Malpensata",
+     "line1": "Circolino della Malpensata",
      "line2": "Elettronica",
      "time": "21:30",
      "score": 35.9,
@@ -2979,23 +3037,23 @@
    "@bolgia.official",
    "@daste_bergamo",
    "@bloom_mezzago",
+   "@drusobg",
+   "@ninfeasocialclub",
+   "@consumazione",
    "@gres_art_671",
-   "@noidfamilia",
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
    "@galactica.festival",
-   "@ninfeasocialclub",
+   "@zeroclub.bg",
    "@reservation",
    "@revel_treviglio",
    "@nikita__land",
    "@officinapanarari",
-   "@zeroclub.bg",
-   "@16manu___",
    "@importanti",
-   "@consumazione",
+   "@noidfamilia",
+   "@tassinocafe",
    "@vibetheclub",
    "@aliveofficialparty",
-   "@drusobg",
    "@afrodylanofficial",
    "@jolly_club_mantova_",
    "@theboxbergamo",
