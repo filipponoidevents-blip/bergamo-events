@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-27T23:00",
+ "generated": "2026-11-28T08:30",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -660,6 +660,14 @@
      "line2": "Commerciale",
      "time": "21:00",
      "score": 25.6,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
+     "line1": "Paolo Riva",
+     "line2": "Latino",
+     "time": "18:00",
+     "score": 24.0,
      "fascia": "preserata",
      "family": "Commerciale"
     },
@@ -2144,6 +2152,14 @@
      "family": "Commerciale"
     },
     {
+     "line1": "Paolo Riva",
+     "line2": "Latino",
+     "time": "18:00",
+     "score": 24.0,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
      "line1": "OVERTIME @ Bar San Marco",
      "line2": "dj set",
      "time": "00:00",
@@ -2285,6 +2301,7 @@
    "2026-12-08",
    "2026-12-11",
    "2026-12-12",
+   "2026-12-15",
    "2026-12-18",
    "2026-12-19",
    "2026-12-25",
@@ -2309,6 +2326,16 @@
       "line2": "Indie / Rock",
       "time": "21:00",
       "score": 31.8,
+      "fascia": "serata",
+      "family": "Altro"
+     }
+    ],
+    "2026-12-15": [
+     {
+      "line1": "Morlacchi - Premiata Pasticceria Artigianale",
+      "line2": "",
+      "time": "00:00",
+      "score": 26.7,
       "fascia": "serata",
       "family": "Altro"
      }
@@ -2840,6 +2867,14 @@
      "score": 35.9,
      "fascia": "preserata",
      "family": "Altro"
+    },
+    {
+     "line1": "La Pasticceria di Dario",
+     "line2": "dj set",
+     "time": "19:00",
+     "score": 34.8,
+     "fascia": "preserata",
+     "family": "Altro"
     }
    ],
    "2026-12-13": [
@@ -2966,9 +3001,9 @@
    "@theboxbergamo",
    "@teatromiela_trieste",
    "@coreografie",
-   "@capogirojoyclub",
-   "@lenticchie",
-   "@inkclub_bergamo"
+   "@elettronica",
+   "@performance",
+   "@capogirojoyclub"
   ],
   "hashtags": [
    "#bergamo",

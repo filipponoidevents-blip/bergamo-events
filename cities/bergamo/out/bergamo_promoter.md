@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 27/11/2026 23:00. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 28/11/2026 08:30. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -19,7 +19,6 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 
 | Data | Sera | Serate | Carico | Capienza impegnata | Generi | Le più forti |
 |---|---|---|---|---|---|---|
-| 27/11 ven | piena | 12 | 422.1 | 8300 | House 6, Hip Hop 1, Commerciale 4, Altro 1 | [Techno, Hard Techno] Bolgia · Galactica Festival; [Live] Nikita · Ventitré w/ TAKE OVER; [Tech House] VIBE · Active Party w/ LOGIC |
 | 28/11 sab | piena | 11 | 469.3 | 8650 | House 5, Hip Hop 1, Commerciale 3, Altro 2 | Divina Music Bar · Miss DIVINA Fulvio Facchinetti; [Techno] Bolgia · MARIE VAUNT; [Trap] Nikita · Savage |
 | 29/11 dom | media | 3 | 78.2 | 750 | Commerciale 1, Altro 2 | [Commerciale] Bobadilla Feeling Club · Aperitivo Martini; [Rock] Revel Treviglio; Aula Magna, sede di Sant'Agostino · Kaleidoscopic Cello |
 | 04/12 ven | libera | 1 | 40.6 | 1000 | Altro 1 | [Latin] THANKA · Noche Latina |
@@ -28,6 +27,7 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 | 08/12 mar (festivo (Immacolata)) | tranquilla | 1 | 29.0 | 100 | Commerciale 1 | [Commerciale] Easy Drink and Food · cento10elode |
 | 11/12 ven | libera | 1 | 31.8 | 500 | Altro 1 | [Indie / Rock] Teatro Miela |
 | 12/12 sab | media | 2 | 126.3 | 3500 | House 2 | [House] Zero Club · NØID w/ Germano Ventura; [Techno] Bolgia · VLADIMIR CAUCHEMAR |
+| 15/12 mar | tranquilla | 1 | 26.7 | 150 | Altro 1 | Morlacchi - Premiata Pasticceria Artigianale |
 | 18/12 ven | libera | 1 | 43.0 | 1000 | Commerciale 1 | [Commerciale] Nikita |
 | 19/12 sab | media | 2 | 112.8 | 3000 | House 2 | [Techno, Hard Techno] Bolgia · Galactica Festival; [Techno, Hard Techno] Fiera di Bergamo · Galactica Festival w/ MATTIA TRANI |
 | 25/12 ven (prefestivo (Santo Stefano)) | libera | 1 | 7.7 | 100 | Altro 1 | Via Treviglio 2058, Fara Gera d'Adda |
