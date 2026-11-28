@@ -1,6 +1,6 @@
 # Calendario per promoter · Bergamo e dintorni
 
-Aggiornato 28/11/2026 09:55. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
+Aggiornato 28/11/2026 11:03. Solo serate in zona (entro 25 km). Carico = somma dei voti delle serate della stessa sera: più è alto, più la sera è contesa.
 
 Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono ancora quasi vuote.
 
@@ -24,7 +24,7 @@ Gli annunci arrivano di solito 1-3 settimane prima: le date dopo il 02/01 sono a
 | 02/12 mer | tranquilla | 1 | 46.3 | 500 | Commerciale 1 | [Commerciale 360] Zero Club · Please |
 | 04/12 ven | libera | 1 | 40.6 | 1000 | Altro 1 | [Latin] Thanka · Noche Latina |
 | 05/12 sab | media | 1 | 60.0 | 3000 | House 1 | [Techno] Bolgia · CHELINA MANUHUTU |
-| 07/12 lun (prefestivo (Immacolata)) | media | 2 | 118.1 | 3300 | House 1, Commerciale 1 | [Techno] Bolgia · NOVAH; [Afro / Reggaeton] Druso · Afrodylan |
+| 07/12 lun (prefestivo (Immacolata)) | media | 3 | 147.8 | 3500 | House 1, Hip Hop 1, Commerciale 1 | [Techno] Bolgia · NOVAH; [Afro / Reggaeton] Druso · Afrodylan; [Hip Hop / Commerciale] Ink Club |
 | 08/12 mar (festivo (Immacolata)) | tranquilla | 1 | 29.0 | 100 | Commerciale 1 | [Commerciale] Easy Drink and Food · cento10elode |
 | 11/12 ven | libera | 1 | 31.8 | 500 | Altro 1 | [Indie / Rock] Teatro Miela |
 | 12/12 sab | media | 2 | 126.3 | 3500 | House 2 | [House] Zero Club · NØID w/ Germano Ventura; [Techno] Bolgia · VLADIMIR CAUCHEMAR |

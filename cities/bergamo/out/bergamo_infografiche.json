@@ -9,7 +9,7 @@
   ]
  },
  "area": "Bergamo e dintorni",
- "generated": "2026-11-28T09:55",
+ "generated": "2026-11-28T11:03",
  "this_week": {
   "from": "2026-11-23",
   "to": "2026-11-29",
@@ -656,7 +656,7 @@
      "family": "Commerciale"
     },
     {
-     "line1": "Easy Drink and Food",
+     "line1": "nicola @ Easy Drink and Food",
      "line2": "Commerciale",
      "time": "21:00",
      "score": 25.6,
@@ -676,6 +676,14 @@
      "line2": "dj set",
      "time": "00:00",
      "score": 14.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Arya Lounge",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 13.8,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -785,6 +793,8 @@
    "@revel_treviglio",
    "@bolgia.official",
    "@vibetheclub",
+   "@alonic_shakti",
+   "@arya.lounge",
    "@utopia.direction",
    "@corinna_fm",
    "@mint_lounge",
@@ -792,9 +802,7 @@
    "@scalpo_punk",
    "@sezione.8",
    "@cafeteriatreviolo",
-   "@earth_ofc",
-   "@kinodeejay",
-   "@liveclub"
+   "@earth_ofc"
   ],
   "hashtags": [
    "#bergamo",
@@ -2165,7 +2173,7 @@
      "family": "Commerciale"
     },
     {
-     "line1": "Easy Drink and Food",
+     "line1": "nicola @ Easy Drink and Food",
      "line2": "Commerciale",
      "time": "21:00",
      "score": 25.6,
@@ -2185,6 +2193,14 @@
      "line2": "dj set",
      "time": "00:00",
      "score": 14.2,
+     "fascia": "preserata",
+     "family": "Altro"
+    },
+    {
+     "line1": "Arya Lounge",
+     "line2": "dj set",
+     "time": "00:00",
+     "score": 13.8,
      "fascia": "preserata",
      "family": "Altro"
     }
@@ -2284,6 +2300,7 @@
    "@decibel_club",
    "@divinabergamo",
    "@vibetheclub",
+   "@arya.lounge",
    "@bolgia.official",
    "@daste_bergamo",
    "@kellerfactory_",
@@ -2292,7 +2309,6 @@
    "@missdivina1",
    "@possibilita",
    "@spettacoli",
-   "@arya.lounge",
    "@henge_cosmicdross",
    "@markthehammer86",
    "@contributo",
@@ -2528,6 +2544,18 @@
       "score": 24.9,
       "fascia": "serata",
       "family": "House / Elettronica"
+     }
+    ]
+   },
+   "Hip Hop / Trap": {
+    "2026-12-07": [
+     {
+      "line1": "Ink Club",
+      "line2": "Hip Hop / Commerciale",
+      "time": "21:00",
+      "score": 29.7,
+      "fascia": "serata",
+      "family": "Hip Hop / Trap"
      }
     ]
    }
@@ -2787,6 +2815,14 @@
      "family": "House / Elettronica"
     },
     {
+     "line1": "Quei Bravi Ragazzi",
+     "line2": "Commerciale / Pop",
+     "time": "22:00",
+     "score": 27.2,
+     "fascia": "preserata",
+     "family": "Commerciale"
+    },
+    {
      "line1": "Al Tabarin",
      "line2": "dinner show",
      "time": "20:00",
@@ -3044,10 +3080,13 @@
    "@circolinomalpensata_bergamo",
    "@discoteca_queen",
    "@galactica.festival",
+   "@inkclub_bergamo",
    "@zeroclub.bg",
    "@reservation",
+   "@contributo",
    "@revel_treviglio",
    "@nikita__land",
+   "@quei_bravi_ragazzi_bg",
    "@officinapanarari",
    "@importanti",
    "@noidfamilia",
@@ -3058,10 +3097,7 @@
    "@jolly_club_mantova_",
    "@theboxbergamo",
    "@teatromiela_trieste",
-   "@coreografie",
-   "@elettronica",
-   "@performance",
-   "@capogirojoyclub"
+   "@coreografie"
   ],
   "hashtags": [
    "#bergamo",

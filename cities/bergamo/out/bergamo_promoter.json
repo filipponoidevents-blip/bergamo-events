@@ -1,6 +1,6 @@
 {
  "city": "Bergamo",
- "generated": "2026-11-28T09:55",
+ "generated": "2026-11-28T11:03",
  "nights": [
   {
    "date": "2026-11-28",
@@ -258,19 +258,17 @@
    "weekday": "lunedì",
    "note": "prefestivo (Immacolata)",
    "weekend_like": true,
-   "events": 2,
-   "load": 118.1,
+   "events": 3,
+   "load": 147.8,
    "level": "media",
-   "capacity_taken": 3300,
+   "capacity_taken": 3500,
    "by_family": {
     "House / Elettronica": 1,
-    "Hip Hop / Trap": 0,
+    "Hip Hop / Trap": 1,
     "Commerciale": 1,
     "Altro": 0
    },
-   "missing_families": [
-    "Hip Hop / Trap"
-   ],
+   "missing_families": [],
    "top": [
     {
      "title": "[Techno] Bolgia · NOVAH",
@@ -281,6 +279,11 @@
      "title": "[Afro / Reggaeton] Druso · Afrodylan",
      "score": 58.1,
      "capacity": 300
+    },
+    {
+     "title": "[Hip Hop / Commerciale] Ink Club",
+     "score": 29.7,
+     "capacity": 200
     }
    ]
   },
